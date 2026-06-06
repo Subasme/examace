@@ -143,6 +143,17 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1.5re
 .rank-n{background:var(--purple-light);color:var(--purple)}
 .week-label{font-size:.8rem;color:var(--muted);margin-bottom:1rem}
 .empty-lb{text-align:center;padding:3rem;color:var(--muted);font-size:.9rem}
+
+/* SELECTOR */
+.select-title{font-size:1.35rem;font-weight:800;margin-bottom:.25rem}
+.select-subtitle{color:var(--muted);font-size:.9rem;margin-bottom:1rem}
+.select-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:1rem}
+@media(max-width:480px){.select-grid{grid-template-columns:1fr}}
+.select-option{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:14px 16px;cursor:pointer;transition:all .2s;text-align:left}
+.select-option:hover{border-color:var(--purple);background:var(--purple-light)}
+.select-option h4{font-size:.95rem;font-weight:700;margin-bottom:2px}
+.select-option p{font-size:.8rem;color:var(--muted);margin:0}
+.select-crumb{font-size:.75rem;background:var(--purple-light);color:var(--purple);padding:4px 10px;border-radius:20px;font-weight:500}
 </style>
 </head>
 <body>
@@ -168,13 +179,13 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1.5re
     <p>Practice MCQs with instant explanations — or challenge yourself in the Weekly Grand Test.</p>
   </div>
   <div class="mode-cards">
-    <div class="mode-card" onclick="startPracticeMode()">
+    <div class="mode-card" onclick="openSelector('practice')">
       <div class="mode-icon practice">📚</div>
       <h3>Practice Mode</h3>
       <p>Work through questions at your own pace with instant feedback and explanations.</p>
       <span class="mode-badge practice">Self-paced</span>
     </div>
-    <div class="mode-card grand" onclick="showScreen('grand-setup')">
+    <div class="mode-card grand" onclick="openSelector('grand')">
       <div class="mode-icon grand">⭐</div>
       <h3>Weekly Grand Test</h3>
       <p>Timed 60-minute challenge. Leaderboard revealed at the end.</p>
@@ -185,9 +196,18 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1.5re
     <b>For students:</b> Questions are managed by your teacher — just pick a mode and start! No setup needed.
   </div>
   <div class="tag-row">
-    <span class="tag">NEET PG</span><span class="tag">UPSC</span><span class="tag">JEE</span>
-    <span class="tag">Medical</span><span class="tag">Certifications</span><span class="tag">School</span>
+    <span class="tag">NEET UG</span><span class="tag">11th</span><span class="tag">12th</span>
+    <span class="tag">English</span><span class="tag">Tamil</span><span class="tag">Physics</span>
   </div>
+</div>
+
+<!-- COURSE SELECTOR -->
+<div id="screen-select" class="screen">
+  <h2 class="select-title" id="select-title">Choose Language</h2>
+  <p class="select-subtitle" id="select-subtitle">Pick English or Tamil to continue.</p>
+  <div class="tag-row" id="select-breadcrumb" style="margin-bottom:1rem"></div>
+  <div class="select-grid" id="select-options"></div>
+  <button class="btn btn-outline btn-sm" onclick="selectBack()">← Back</button>
 </div>
 
 <!-- PRACTICE LOADING -->
@@ -221,7 +241,7 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1.5re
 <div id="screen-grand-setup" class="screen">
   <div class="grand-header">
     <h2>⭐ Weekly Grand Test</h2>
-    <p>This week's timed challenge — 60 minutes, full question bank.</p>
+    <p id="grand-setup-desc">This week's timed challenge — 60 minutes, all chapters in one subject.</p>
   </div>
   <div class="stats-row">
     <div class="stat-pill"><div class="val">60</div><div class="lbl">Minutes</div></div>
@@ -295,77 +315,175 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1.5re
 </div>
 
 <script>
-// ─────────────────────────────────────────────
-//  ★ PASTE YOUR GOOGLE APPS SCRIPT URL HERE ★
-//  After deploying google-apps-script.js,
-//  replace the URL below with your Web App URL
-// ─────────────────────────────────────────────
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwR4Nd9mWZXTyWWm-KRdxB5d63SRq4cfYRvJVDf6ftIHXYYp4VdbTYltLm-Xxv0piOI7w/exec";
+const DATA_BASE = './data/';
+const LETTERS = ['A','B','C','D'];
 
-// ── DEMO FALLBACK (used if Apps Script not set up yet) ──
-const DEMO = [
-  {topic:"Biology",question:"Which organelle is known as the powerhouse of the cell?",options:["Nucleus","Mitochondria","Ribosome","Golgi body"],correct:1,explanation:"Mitochondria produce ATP through cellular respiration, earning the title 'powerhouse of the cell'."},
-  {topic:"Chemistry",question:"What is the atomic number of Carbon?",options:["4","6","8","12"],correct:1,explanation:"Carbon has 6 protons in its nucleus, giving it an atomic number of 6."},
-  {topic:"Physics",question:"What is the SI unit of force?",options:["Watt","Joule","Newton","Pascal"],correct:2,explanation:"The Newton (N) is the SI unit of force, defined as kg·m/s²."},
-  {topic:"Biology",question:"DNA stands for:",options:["Deoxyribonucleic Acid","Diribonucleic Acid","Deoxyribonitric Acid","Diribonitrile Acid"],correct:0,explanation:"DNA stands for Deoxyribonucleic Acid — the molecule carrying genetic information."},
-  {topic:"Chemistry",question:"What is the chemical formula for water?",options:["H₂O₂","HO","H₂O","H₃O"],correct:2,explanation:"Water is made of 2 hydrogen atoms and 1 oxygen atom — H₂O."},
-  {topic:"Physics",question:"Speed of light in vacuum is approximately:",options:["3×10⁶ m/s","3×10⁸ m/s","3×10¹⁰ m/s","3×10⁴ m/s"],correct:1,explanation:"The speed of light is approximately 3×10⁸ m/s (300,000 km/s)."},
-  {topic:"Biology",question:"Normal human cells have how many chromosomes?",options:["23","44","46","48"],correct:2,explanation:"Human somatic cells contain 46 chromosomes (23 pairs)."},
-  {topic:"Chemistry",question:"Most abundant gas in Earth's atmosphere?",options:["Oxygen","Carbon dioxide","Nitrogen","Argon"],correct:2,explanation:"Nitrogen makes up about 78% of Earth's atmosphere."},
-  {topic:"Physics",question:"Newton's second law is expressed as:",options:["F=mc²","F=ma","E=mc²","P=mv"],correct:1,explanation:"Newton's second law: Force = mass × acceleration (F=ma)."},
-  {topic:"Biology",question:"Photosynthesis primarily occurs in:",options:["Nucleus","Mitochondria","Chloroplast","Vacuole"],correct:2,explanation:"Chloroplasts contain chlorophyll and are the site of photosynthesis."},
-  {topic:"Chemistry",question:"pH of pure water is:",options:["0","5","7","14"],correct:2,explanation:"Pure water has a neutral pH of 7."},
-  {topic:"Physics",question:"Every action has an equal and opposite reaction — this is:",options:["First law","Second law","Third law","Law of gravitation"],correct:2,explanation:"Newton's Third Law: for every action there is an equal and opposite reaction."}
-];
+let manifest = null;
+let selectMode = 'practice';
+let selectStep = 0;
+let selection = { language: null, standard: null, subject: null, chapter: null };
+let practiceQ = [], practiceIdx = 0, practiceAns = {};
+let grandQ = [], grandIdx = 0, grandAns = {}, grandTimer = null, grandSecs = 3600, grandStart = 0;
+let leaderboard = [];
 
-// ── STATE ──
-let practiceQ=[], practiceIdx=0, practiceAns={};
-let grandQ=[], grandIdx=0, grandAns={}, grandTimer=null, grandSecs=3600, grandStart=0;
-let leaderboard=[];
-const LETTERS=['A','B','C','D'];
+try { const s = localStorage.getItem('examace_lb'); if (s) leaderboard = JSON.parse(s); } catch (e) {}
 
-// ── LOAD leaderboard from localStorage ──
-try{ const s=localStorage.getItem('examace_lb'); if(s) leaderboard=JSON.parse(s); }catch(e){}
-
-// ── SCREEN MANAGEMENT ──
-function showScreen(name){
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
-  document.getElementById('screen-'+name).classList.add('active');
-  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
-  const tab=document.getElementById('tab-'+name);
-  if(tab) tab.classList.add('active');
-  else document.getElementById('tab-home').classList.add('active');
-  if(name==='leaderboard') renderLeaderboard();
-  if(name==='grand-setup') setupGrand();
+async function loadManifest() {
+  if (manifest) return manifest;
+  const res = await fetch(DATA_BASE + 'manifest.json');
+  if (!res.ok) throw new Error('Could not load question catalog');
+  manifest = await res.json();
+  return manifest;
 }
 
-// ── FETCH FROM GOOGLE APPS SCRIPT ──
-async function fetchQuestions(type){
-  if(!APPS_SCRIPT_URL || APPS_SCRIPT_URL.includes('YOUR_GOOGLE')){
-    console.warn('Apps Script URL not set — using demo questions');
-    return DEMO;
+async function fetchQuestionFile(path) {
+  const res = await fetch(DATA_BASE + path);
+  if (!res.ok) throw new Error('Could not load questions');
+  const data = await res.json();
+  return data.questions || [];
+}
+
+function selectionLabel() {
+  const parts = [];
+  if (selection.language) parts.push(selection.language.label);
+  if (selection.standard) parts.push(selection.standard.label);
+  if (selection.subject) parts.push(selection.subject.label);
+  if (selection.chapter) parts.push(selection.chapter.label);
+  return parts.join(' · ');
+}
+
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  const tab = document.getElementById('tab-' + name);
+  if (tab) tab.classList.add('active');
+  else document.getElementById('tab-home').classList.add('active');
+  if (name === 'leaderboard') renderLeaderboard();
+}
+
+function resetSelection() {
+  selectStep = 0;
+  selection = { language: null, standard: null, subject: null, chapter: null };
+}
+
+function openSelector(mode) {
+  selectMode = mode;
+  resetSelection();
+  showScreen('select');
+  renderSelectStep();
+}
+
+function selectBack() {
+  if (selectStep === 0) { showScreen('home'); return; }
+  if (selectStep === 1) selection.language = null;
+  if (selectStep === 2) selection.standard = null;
+  if (selectStep === 3) selection.subject = null;
+  selectStep = Math.max(0, selectStep - 1);
+  renderSelectStep();
+}
+
+function renderSelectStep() {
+  const title = document.getElementById('select-title');
+  const subtitle = document.getElementById('select-subtitle');
+  const crumbs = document.getElementById('select-breadcrumb');
+  const options = document.getElementById('select-options');
+  const steps = selectMode === 'practice'
+    ? ['language', 'standard', 'subject', 'chapter']
+    : ['language', 'standard', 'subject'];
+  const stepName = steps[selectStep];
+
+  crumbs.innerHTML = selectionLabel()
+    ? selectionLabel().split(' · ').map(t => `<span class="select-crumb">${t}</span>`).join('')
+    : '';
+
+  const configs = {
+    language: {
+      title: 'Choose Language',
+      subtitle: 'English or Tamil',
+      items: () => (manifest?.languages || []).map(l => ({
+        label: l.label,
+        meta: `${l.standards.length} standard(s)`,
+        onClick: () => { selection.language = l; selectStep++; renderSelectStep(); }
+      }))
+    },
+    standard: {
+      title: 'Choose Standard',
+      subtitle: '11th or 12th',
+      items: () => (selection.language?.standards || []).map(s => ({
+        label: s.label,
+        meta: `${s.subjects.length} subject(s)`,
+        onClick: () => { selection.standard = s; selectStep++; renderSelectStep(); }
+      }))
+    },
+    subject: {
+      title: 'Choose Subject',
+      subtitle: selectMode === 'grand' ? 'All chapters in this subject will be included' : 'Physics, Chemistry, or Biology',
+      items: () => (selection.standard?.subjects || []).map(s => ({
+        label: s.label,
+        meta: selectMode === 'grand'
+          ? `${s.totalQuestions || 0} questions · all chapters`
+          : `${s.chapters.length} chapter(s)`,
+        onClick: () => {
+          selection.subject = s;
+          if (selectMode === 'grand') finishSelection();
+          else { selectStep++; renderSelectStep(); }
+        }
+      }))
+    },
+    chapter: {
+      title: 'Choose Chapter',
+      subtitle: 'Practice one chapter at a time',
+      items: () => (selection.subject?.chapters || []).map(c => ({
+        label: c.label,
+        meta: `${c.count} questions`,
+        onClick: () => { selection.chapter = c; finishSelection(); }
+      }))
+    }
+  };
+
+  const cfg = configs[stepName];
+  title.textContent = cfg.title;
+  subtitle.textContent = cfg.subtitle;
+  const items = cfg.items();
+  if (!items.length) {
+    options.innerHTML = '<div class="info-box">No questions available for this selection yet. Add Excel files under <b>source/</b> and rebuild.</div>';
+    return;
   }
-  try{
-    const url = `${APPS_SCRIPT_URL}?type=${type}`;
-    const res = await fetch(url);
-    if(!res.ok) throw new Error('fetch failed');
-    const data = await res.json();
-    if(data.questions && data.questions.length > 0) return data.questions;
-    return DEMO;
-  }catch(e){
-    console.warn('Falling back to demo:', e.message);
-    return DEMO;
+  options.innerHTML = items.map((item, i) => `
+    <div class="select-option" onclick="selectPick(${i})">
+      <h4>${item.label}</h4>
+      <p>${item.meta}</p>
+    </div>`).join('');
+  window._selectItems = items;
+}
+
+function selectPick(i) {
+  window._selectItems[i].onClick();
+}
+
+async function finishSelection() {
+  try {
+    if (selectMode === 'practice') {
+      showScreen('practice-loading');
+      practiceQ = await fetchQuestionFile(selection.chapter.path);
+      practiceIdx = 0;
+      practiceAns = {};
+      renderPracticeQ();
+      showScreen('practice');
+    } else {
+      document.getElementById('grand-setup-desc').textContent =
+        `${selectionLabel()} — 60 minutes, all chapters combined.`;
+      showScreen('grand-setup');
+      await setupGrand();
+    }
+  } catch (e) {
+    alert('Failed to load questions. Please try again.');
+    showScreen('select');
   }
 }
 
 // ── PRACTICE MODE ──
-async function startPracticeMode(){
-  showScreen('practice-loading');
-  const qs = await fetchQuestions('practice');
-  practiceQ=qs; practiceIdx=0; practiceAns={};
-  renderPracticeQ();
-  showScreen('practice');
-}
 
 function renderPracticeQ(){
   const q=practiceQ[practiceIdx], total=practiceQ.length;
@@ -409,14 +527,14 @@ function practiceNav(dir){
 }
 
 // ── GRAND SETUP ──
-async function setupGrand(){
-  document.getElementById('grand-setup-loading').style.display='block';
-  document.getElementById('grand-setup-form').style.display='none';
-  const qs=await fetchQuestions('grand');
-  grandQ=qs;
-  document.getElementById('grand-q-count').textContent=qs.length;
-  document.getElementById('grand-setup-loading').style.display='none';
-  document.getElementById('grand-setup-form').style.display='block';
+async function setupGrand() {
+  document.getElementById('grand-setup-loading').style.display = 'block';
+  document.getElementById('grand-setup-form').style.display = 'none';
+  const qs = await fetchQuestionFile(selection.subject.allChaptersPath);
+  grandQ = qs.sort(() => Math.random() - 0.5);
+  document.getElementById('grand-q-count').textContent = qs.length;
+  document.getElementById('grand-setup-loading').style.display = 'none';
+  document.getElementById('grand-setup-form').style.display = 'block';
 }
 
 function startGrandTest(){
@@ -557,6 +675,8 @@ function renderLeaderboard(){
   </table></div>
   <p style="font-size:.78rem;color:var(--muted);margin-top:.75rem;text-align:center">Scores saved locally on this device</p>`;
 }
+
+loadManifest().catch(err => console.error(err));
 </script>
 </body>
 </html>

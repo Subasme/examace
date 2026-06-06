@@ -9,6 +9,16 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build question JSON from Excel
+        run: |
+          pip install -r scripts/requirements.txt
+          python scripts/build_questions.py
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
