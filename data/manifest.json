@@ -1,0 +1,116 @@
+{
+  "languages": [
+    {
+      "id": "english",
+      "label": "English",
+      "standards": [
+        {
+          "id": "12th",
+          "label": "12th Standard",
+          "subjects": [
+            {
+              "id": "physics",
+              "label": "Physics",
+              "chapters": [
+                {
+                  "id": "chapter1",
+                  "label": "Chapter 1",
+                  "path": "English/12th/Physics/chapter1.json",
+                  "count": 456
+                },
+                {
+                  "id": "chapter2",
+                  "label": "Chapter 2",
+                  "path": "English/12th/Physics/chapter2.json",
+                  "count": 347
+                },
+                {
+                  "id": "chapter3",
+                  "label": "Chapter 3",
+                  "path": "English/12th/Physics/chapter3.json",
+                  "count": 244
+                },
+                {
+                  "id": "chapter4",
+                  "label": "Chapter 4",
+                  "path": "English/12th/Physics/chapter4.json",
+                  "count": 384
+                },
+                {
+                  "id": "chapter5",
+                  "label": "Chapter 5",
+                  "path": "English/12th/Physics/chapter5.json",
+                  "count": 213
+                },
+                {
+                  "id": "chapter6",
+                  "label": "Chapter 6",
+                  "path": "English/12th/Physics/chapter6.json",
+                  "count": 249
+                }
+              ],
+              "allChaptersPath": "English/12th/Physics/all-chapters.json",
+              "totalQuestions": 1893
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tamil",
+      "label": "Tamil",
+      "standards": [
+        {
+          "id": "12th",
+          "label": "12th Standard",
+          "subjects": [
+            {
+              "id": "physics",
+              "label": "Physics",
+              "chapters": [
+                {
+                  "id": "chapter1",
+                  "label": "Chapter 1",
+                  "path": "Tamil/12th/Physics/chapter1.json",
+                  "count": 456
+                },
+                {
+                  "id": "chapter2",
+                  "label": "Chapter 2",
+                  "path": "Tamil/12th/Physics/chapter2.json",
+                  "count": 345
+                },
+                {
+                  "id": "chapter3",
+                  "label": "Chapter 3",
+                  "path": "Tamil/12th/Physics/chapter3.json",
+                  "count": 244
+                },
+                {
+                  "id": "chapter4",
+                  "label": "Chapter 4",
+                  "path": "Tamil/12th/Physics/chapter4.json",
+                  "count": 384
+                },
+                {
+                  "id": "chapter5",
+                  "label": "Chapter 5",
+                  "path": "Tamil/12th/Physics/chapter5.json",
+                  "count": 213
+                },
+                {
+                  "id": "chapter6",
+                  "label": "Chapter 6",
+                  "path": "Tamil/12th/Physics/chapter6.json",
+                  "count": 249
+                }
+              ],
+              "allChaptersPath": "Tamil/12th/Physics/all-chapters.json",
+              "totalQuestions": 1891
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

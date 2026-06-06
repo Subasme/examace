@@ -1,0 +1,3001 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 6",
+    "chapterId": "chapter6",
+    "source": "Chapter6_QA_Tamil.xlsx",
+    "count": 249
+  },
+  "questions": [
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப்புலம் B இல் வேகம் v இல் நகரும் நீளம் l கொண்ட கடத்தியில் இயக்க மின்னழுத்தத்தின் சூத்திரம் என்ன?",
+      "options": [
+        "emf = Bv/l",
+        "emf = Blv",
+        "emf = Bvl^2",
+        "emf = B^2lv"
+      ],
+      "correct": 1,
+      "explanation": "The motional emf is given by emf = Blv, where B is the magnetic field, l is the length of the conductor, and v is the velocity perpendicular to the field. This is derived from Faraday's law when a conductor moves in a magnetic field, changing the magnetic flux enclosed by the circuit. | இயக்க மின்னழுத்தம் emf = Blv என்ற சூத்திரத்தால் கொடுக்கப்படுகிறது, இங்கு B காந்தப்புலம், l கடத்தியின் நீளம், மற்றும் v புலத்திற்கு செங்குத்தான வேகம் ஆகும். இது காந்தப்பாயத்தை மாற்றும் கடத்தி இயக்கத்தில் ஃபாரடே விதியிலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "PQ கடத்தியின் இலவச மின்சுமை ஊர்திகளில் இயக்க மின்னழுத்தத்தை உருவாக்கும் விசை எது?",
+      "options": [
+        "ஈர்ப்பு விசை",
+        "கூலம்ப் விசை",
+        "லாரன்ஸ் விசை",
+        "அணுக்கரு விசை"
+      ],
+      "correct": 2,
+      "explanation": "The Lorentz force acting on free charge carriers is responsible for motional emf. When the rod moves with speed v in magnetic field B, the Lorentz force on charge q is qvB, directed towards Q. This force moves charges and creates the potential difference. | PQ கடத்தியின் இலவச மின்சுமை ஊர்திகளில் இயக்க மின்னழுத்தத்தை உருவாக்கும் விசை லாரன்ஸ் விசையாகும். கடத்தி B காந்தப்புலத்தில் v வேகத்தில் நகரும்போது, q மின்சுமையில் லாரன்ஸ் விசை qvB ஆகும், இது Q நோக்கி செல்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இயக்க மின்னழுத்த வழிமுறையில், l நீளமுள்ள கடத்தியில் P இலிருந்து Q வரை q மின்சுமையை நகர்த்த செய்யப்பட்ட வேலை என்ன?",
+      "options": [
+        "W = qBl/v",
+        "W = qBvl",
+        "W = qBv^2l",
+        "W = qB^2vl"
+      ],
+      "correct": 1,
+      "explanation": "The work done is W = qvBl, where q is the charge, v is velocity, B is magnetic field, and l is the length of the rod. Since emf equals work per unit charge (W/q), we get emf = Blv. | செய்யப்பட்ட வேலை W = qvBl ஆகும், இங்கு q மின்சுமை, v வேகம், B காந்தப்புலம், மற்றும் l கடத்தியின் நீளம். ஒரு அலகு மின்சுமைக்கு செய்யப்பட்ட வேலை (W/q) என்பதால், emf = Blv கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மாறும் காந்தப்புலத்தில் நிலையான கடத்தியில் அதன் மின்சுமைகளில் உள்ள விசை சமன்பாடு என்ன?",
+      "options": [
+        "F = q(v x B)",
+        "F = qE",
+        "F = qvB",
+        "F = q(E + v x B)"
+      ],
+      "correct": 1,
+      "explanation": "For a stationary conductor, v = 0, so the Lorentz force F = q(E + v x B) reduces to F = qE. Thus, any force on the charge must arise from the electric field term E alone. This shows that a time-varying magnetic field generates an electric field. | நிலையான கடத்தியில் v = 0, எனவே லாரன்ஸ் விசை F = q(E + v x B) என்பது F = qE ஆகக் குறைகிறது. எனவே, மின்சுமையில் உள்ள எந்த விசையும் E மின்புலத்திலிருந்து மட்டுமே வர வேண்டும். இது மாறும் காந்தப்புலம் ஒரு மின்புலத்தை உருவாக்குகிறது என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஃபாரடேயின் சோதனை மின்சாரம் மற்றும் காந்தவியல் பற்றிய அடிப்படை கண்டுபிடிப்பை என்ன காட்டுகிறது?",
+      "options": [
+        "அவை முற்றிலும் சுயாதீனமான நிகழ்வுகள்",
+        "அவை தொடர்புடையவை மற்றும் ஒன்றையொன்று பாதிக்க முடியும்",
+        "மின்சாரம் மட்டுமே காந்தவியலை உருவாக்க முடியும், மாறாக முடியாது",
+        "காந்தவியல் மட்டுமே மின்சாரத்தை உருவாக்க முடியும், மாறாக முடியாது"
+      ],
+      "correct": 1,
+      "explanation": "Faraday's discovery shows that electricity and magnetism are related. Charges in motion (current) can exert force on a stationary magnet, and conversely, a changing magnetic field can exert force on stationary charges. This is the fundamental significance of electromagnetic induction. | ஃபாரடேயின் கண்டுபிடிப்பு மின்சாரம் மற்றும் காந்தவியல் தொடர்புடையவை என்பதைக் காட்டுகிறது. இயக்கத்தில் உள்ள மின்சுமைகள் (மின்னோட்டம்) நிலையான காந்தத்தில் விசையைச் செலுத்த முடியும், மாறாக மாறும் காந்தப்புலம் நிலையான மின்சுமைகளில் விசையைச் செலுத்த முடியும். இது மின்காந்த தூண்டலின் அடிப்படை முக்கியத்துவம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.6 இல், 1m கடத்தி 1T காந்தப்புலத்தில் 50 rev/s வேகத்தில் சுழல்கிறது. என்ன கணக்கிடப்படுகிறது?",
+      "options": [
+        "வளையத்தின் வழியாக காந்தப்பாயம்",
+        "மையத்திற்கும் உலோக வளையத்திற்கும் இடையேயான மின்னழுத்தம்",
+        "சுழலும் கடத்தியில் உள்ள திருப்பு விசை",
+        "உலோக வளையத்தில் உள்ள மின்னோட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "Example 6.6 asks for the emf between the centre and the metallic ring. The rod of length 1m rotates with frequency 50 rev/s about an axis through the centre, with one end at the circumference of a circular ring of radius 1m, in a uniform magnetic field of 1T parallel to the axis. | எடுத்துக்காட்டு 6.6 மையத்திற்கும் உலோக வளையத்திற்கும் இடையேயான மின்னழுத்தத்தைக் கேட்கிறது. 1m நீளமுள்ள கடத்தி 50 rev/s அதிர்வெண்ணில் மையத்தின் வழியாக சுழல்கிறது, ஒரு முனை 1m ஆரமுள்ள வட்ட வளையத்தின் சுற்றளவில், அச்சிற்கு இணையான 1T சீரான காந்தப்புலத்தில்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப்புலத்தில் இடதுபுறம் நகரும்போது PQ கடத்தியில் மின்சுமைகளில் லாரன்ஸ் விசையின் திசை எது?",
+      "options": [
+        "P நோக்கி",
+        "Q நோக்கி",
+        "P மற்றும் Q இரண்டிற்கும் செங்குத்தாக",
+        "காந்தப்புலத்திற்கு இணையாக"
+      ],
+      "correct": 1,
+      "explanation": "The Lorentz force on charge q in conductor PQ is directed towards Q. All charges experience the same force in magnitude and direction, irrespective of their position in the rod PQ. This force causes charge separation and creates the motional emf. | PQ கடத்தியில் q மின்சுமையில் லாரன்ஸ் விசை Q நோக்கி இயக்கப்படுகிறது. அனைத்து மின்சுமைகளும் PQ கடத்தியில் அவற்றின் நிலையைப் பொருட்படுத்தாமல் ஒரே அளவு மற்றும் திசையில் விசையை அனுபவிக்கின்றன. இந்த விசை மின்சுமை பிரிவை ஏற்படுத்தி இயக்க மின்னழுத்தத்தை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நிலையான கடத்திகளுக்கு மாறும் காந்தப்புலம் மின்புலத்தை உருவாக்குகிறது என்று ஏன் கருத வேண்டும்?",
+      "options": [
+        "v = 0 காந்த விசை உறுப்பை நீக்குவதால்",
+        "நிலையான மின்சுமைகள் காந்தப்புலங்களை உருவாக்குவதால்",
+        "நகரும் காந்தங்கள் மின்னழுத்தத்தை உருவாக்காததால்",
+        "ஃபாரடே விதி நகரும் கடத்திகளுக்கு மட்டுமே பொருந்துவதால்"
+      ],
+      "correct": 0,
+      "explanation": "For stationary conductors, v = 0, so the Lorentz force F = q(E + v x B) becomes F = qE. The magnetic force term q(v x B) vanishes. Therefore, to explain induced emf in stationary conductors, we must assume a time-varying B field generates an E field. | நிலையான கடத்திகளுக்கு v = 0, எனவே லாரன்ஸ் விசை F = q(E + v x B) என்பது F = qE ஆகிறது. காந்த விசை உறுப்பு q(v x B) மறைந்துவிடுகிறது. எனவே, நிலையான கடத்திகளில் தூண்டப்பட்ட மின்னழுத்தத்தை விளக்க, மாறும் B புலம் E புலத்தை உருவாக்குகிறது என்று கருத வேண்டும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இயக்க மின்னழுத்த வழிமுறையில் வேலைக்கும் மின்னழுத்தத்திற்கும் உள்ள உறவு என்ன?",
+      "options": [
+        "emf = W x q",
+        "emf = W/q",
+        "emf = W + q",
+        "emf = W - q"
+      ],
+      "correct": 1,
+      "explanation": "The emf is defined as the work done per unit charge, so emf = W/q. Given W = qvBl, dividing by q gives emf = Blv. This is the fundamental relationship connecting work, charge, and induced potential difference. | மின்னழுத்தம் ஒரு அலகு மின்சுமைக்கு செய்யப்பட்ட வேலை என வரையறுக்கப்படுகிறது, எனவே emf = W/q. W = qvBl கொடுக்கப்பட்டால், q ஆல் வகுத்தால் emf = Blv கிடைக்கிறது. இது வேலை, மின்சுமை, மற்றும் தூண்டப்பட்ட மின்னழுத்த வேறுபாடு ஆகியவற்றை இணைக்கும் அடிப்படை உறவு."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "dx/dt = -v இல் உள்ள எதிர்குறி எதைக் குறிக்கிறது?",
+      "options": [
+        "கடத்தி வலதுபுறம் நகர்கிறது",
+        "கடத்தி இடதுபுறம் நகர்கிறது, x குறைகிறது",
+        "காந்தப்புலம் குறைகிறது",
+        "மின்னழுத்தம் எதிர்மறை"
+      ],
+      "correct": 1,
+      "explanation": "The negative sign in dx/dt = -v indicates the rod PQ is moving to the left, which decreases the value of x (the distance RQ). As the rod moves left, the area of the loop decreases, reducing magnetic flux and inducing emf according to Faraday's law. | dx/dt = -v இல் உள்ள எதிர்குறி PQ கடத்தி இடதுபுறம் நகர்கிறது என்பதைக் குறிக்கிறது, இது x (RQ தூரம்) மதிப்பைக் குறைக்கிறது. கடத்தி இடதுபுறம் நகரும்போது, வளையத்தின் பரப்பளவு குறைந்து, காந்தப்பாயத்தைக் குறைத்து ஃபாரடே விதிப்படி மின்னழுத்தத்தைத் தூண்டுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "0.5 மீ நீளமுள்ள 10 உலோகக் கம்பிகளைக் கொண்ட ஒரு சக்கரம் 120 rev/min வேகத்தில் பூமியின் கிடைமட்ட காந்தப்புலத்திற்கு செங்குத்தான தளத்தில் சுழற்றப்படுகிறது. H_E = 0.4 G எனில், அச்சுக்கும் விளிம்புக்கும் இடையே தூண்டப்பட்ட emf எவ்வளவு?",
+      "options": [
+        "3.14 × 10⁻⁵ V",
+        "6.28 × 10⁻⁵ V",
+        "12.56 × 10⁻⁵ V",
+        "1.57 × 10⁻⁵ V"
+      ],
+      "correct": 1,
+      "explanation": "Using the formula for motional emf in a rotating rod: ε = (1/2) ω B R². Here ω = 2π × (120/60) = 4π rad/s, B = 0.4 × 10⁻⁴ T, R = 0.5 m. So ε = (1/2) × 4π × 0.4 × 10⁻⁴ × (0.5)² = 6.28 × 10⁻⁵ V. The number of spokes does not matter as emfs are in parallel. | சுழலும் கம்பியின் இயக்க emf வாய்பாடு: ε = (1/2) ω B R². இங்கே ω = 2π × (120/60) = 4π rad/s, B = 0.4 × 10⁻⁴ T, R = 0.5 m. எனவே ε = (1/2) × 4π × 0.4 × 10⁻⁴ × (0.5)² = 6.28 × 10⁻⁵ V. கம்பிகளின் எண்ணிக்கை முக்கியமல்ல ஏனெனில் emf-கள் இணையாக உள்ளன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சக்கரக் கம்பி சிக்கலில் கம்பிகளின் எண்ணிக்கை ஏன் கணக்கிடுவதற்கு முக்கியமற்றது?",
+      "options": [
+        "emf-கள் தொடர்ச்சியாகக் கூடுகின்றன",
+        "emf-கள் இணை இணைப்பில் உள்ளன",
+        "ஒவ்வொரு கம்பிக்கும் பூஜ்ஜிய தடை உள்ளது",
+        "விளிம்பில் காந்தப்புலம் பூஜ்ஜியம்"
+      ],
+      "correct": 1,
+      "explanation": "The induced emfs across all spokes are connected in parallel between the axle and the rim. In a parallel connection, the equivalent emf equals the emf across a single spoke. Therefore, adding more spokes does not change the total emf between the axle and rim. | அனைத்து கம்பிகளின் emf-களும் அச்சுக்கும் விளிம்புக்கும் இடையே இணையாக இணைக்கப்பட்டுள்ளன. இணை இணைப்பில், சமமான emf ஒற்றைக் கம்பியின் emf-க்கு சமம். எனவே, கூடுதல் கம்பிகள் மொத்த emf-ஐ மாற்றாது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "தூண்டலின் SI அலகு எது?",
+      "options": [
+        "டெஸ்லா",
+        "வெபர்",
+        "ஹென்றி",
+        "ஃபாரட்"
+      ],
+      "correct": 2,
+      "explanation": "The SI unit of inductance is the henry (H), named in honor of Joseph Henry who discovered electromagnetic induction independently in the USA. Inductance is a scalar quantity with dimensions [ML²T⁻²A⁻²]. | தூண்டலின் SI அலகு ஹென்றி (H), ஜோசஃப் ஹென்றியின் நினைவாகப் பெயரிடப்பட்டுள்ளது. அவர் அமெரிக்காவில் சுயாதீனமாக மின்காந்தத் தூண்டலைக் கண்டுபிடித்தார். தூண்டல் [ML²T⁻²A⁻²] பரிமாணங்களைக் கொண்ட ஒரு அளவெண்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நிலையான வடிவியலைக் கொண்ட சுருளுக்கு, காந்தப் பாயம் மற்றும் மின்னோட்டம் இடையேயான உறவு எது?",
+      "options": [
+        "ΦB என்பது I-க்கு எதிர்விகிதாசாரமானது",
+        "ΦB என்பது I-க்கு நேரடி விகிதாசாரமானது",
+        "ΦB என்பது I²-க்கு விகிதாசாரமானது",
+        "ΦB என்பது I-லிருந்து சுயாதீனமானது"
+      ],
+      "correct": 1,
+      "explanation": "For a coil with fixed geometry, the magnetic flux through the coil is directly proportional to the current flowing through it. That is, ΦB ∝ I. This linear relationship is fundamental to the definition of inductance. | நிலையான வடிவியலைக் கொண்ட சுருளுக்கு, சுருளின் வழியாக செல்லும் காந்தப் பாயம் மின்னோட்டத்திற்கு நேரடியாக விகிதாசாரமானது. அதாவது, ΦB ∝ I. இந்த நேரியல் உறவு தூண்டலின் வரையறைக்கு அடிப்படையாகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "தூண்டலின் பரிமாணங்கள் எவை?",
+      "options": [
+        "[ML²T⁻²A⁻¹]",
+        "[ML²T⁻²A⁻²]",
+        "[ML²T⁻³A⁻¹]",
+        "[ML²T⁻¹A⁻²]"
+      ],
+      "correct": 1,
+      "explanation": "Inductance has dimensions of [ML²T⁻²A⁻²], which is derived from the dimensions of magnetic flux divided by the dimensions of current. Flux has dimensions [ML²T⁻²A⁻¹] and current has dimensions [A], giving [ML²T⁻²A⁻²] for inductance. | தூண்டலுக்கு [ML²T⁻²A⁻²] பரிமாணங்கள் உள்ளன, இது காந்தப் பாயத்தின் பரிமாணங்களை மின்னோட்டத்தின் பரிமாணங்களால் வகுத்தல் மூலம் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு நீண்ட இணை அச்சு சுருள்கள் S1 மற்றும் S2-க்கு, M₁₂ எதைக் குறிக்கிறது?",
+      "options": [
+        "சுருள் S1-ன் சுய-தூண்டல்",
+        "சுருள் S2-ஐப் பொறுத்து சுருள் S1-ன் பரஸ்பர தூண்டல்",
+        "சுருள் S1-ன் தடை",
+        "சுருள் S2-க்குள் காந்தப்புலம்"
+      ],
+      "correct": 1,
+      "explanation": "M₁₂ is called the mutual inductance of solenoid S1 with respect to solenoid S2. It is also referred to as the coefficient of mutual induction. It relates the flux linkage in S1 to the current in S2. | M₁₂ என்பது சுருள் S2-ஐப் பொறுத்து சுருள் S1-ன் பரஸ்பர தூண்டல் என அழைக்கப்படுகிறது. இது S1-ல் பாய இணைப்பை S2-ல் உள்ள மின்னோட்டத்துடன் தொடர்புபடுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இணை அச்சு சுருள்களின் பரஸ்பர தூண்டல் வாய்பாட்டில் M₁₂ = μ₀ n₁ n₂ π r₁² l, r₁ எதைக் குறிக்கிறது?",
+      "options": [
+        "வெளிச் சுருள் S2-ன் ஆரம்",
+        "உள் சுருள் S1-ன் ஆரம்",
+        "சுருள்களுக்கு இடையிலான தூரம்",
+        "வெளிச் சுருளின் நீளம்"
+      ],
+      "correct": 1,
+      "explanation": "In the formula M₁₂ = μ₀ n₁ n₂ π r₁² l, r₁ represents the radius of the inner solenoid S1. The flux linkage in S1 depends on the area of S1, which is πr₁². The magnetic field from S2 is assumed uniform over this area. | M₁₂ = μ₀ n₁ n₂ π r₁² l வாய்பாட்டில், r₁ உள் சுருள் S1-ன் ஆரத்தைக் குறிக்கிறது. S1-ல் பாய இணைப்பு S1-ன் பரப்பளவைப் பொறுத்தது, அது πr₁². S2-லிருந்து காந்தப்புலம் இந்தப் பரப்பளவில் சீரானதாகக் கருதப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு இணை அச்சு சுருள்களுக்கு M₁₂ மற்றும் M₂₁ இடையே உள்ள உறவு எது?",
+      "options": [
+        "M₁₂ = 2M₂₁",
+        "M₁₂ = M₂₁",
+        "M₁₂ = M₂₁/2",
+        "M₁₂ = M₂₁²"
+      ],
+      "correct": 1,
+      "explanation": "For co-axial solenoids, M₁₂ = M₂₁ = M. This equality is very useful and general, though the calculation of M₂₁ might be extremely difficult if the inner solenoid is much shorter than the outer one. The equality holds regardless of the relative sizes. | இணை அச்சு சுருள்களுக்கு, M₁₂ = M₂₁ = M. இந்த சமநிலை மிகவும் பயனுள்ளது மற்றும் பொதுவானது, உள் சுருள் வெளிச் சுருளை விட மிகக் குறைவாக இருந்தாலும் M₂₁ கணக்கிடுவது மிகக் கடினமாக இருக்கலாம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுருள்களுக்குள் ஒப்பீட்டு ஊடுருவுதிறன் μᵣ கொண்ட ஊடகம் அறிமுகப்படுத்தப்பட்டால், பரஸ்பர தூண்டல் எவ்வாறு மாறும்?",
+      "options": [
+        "அது மாறாததாக இருக்கும்",
+        "அது μᵣ காரணியால் குறையும்",
+        "அது μᵣ காரணியால் அதிகரிக்கும்",
+        "அது பூஜ்ஜியமாகிவிடும்"
+      ],
+      "correct": 2,
+      "explanation": "When a medium of relative permeability μᵣ is introduced, the mutual inductance becomes M = μᵣ μ₀ n₁ n₂ π r₁² l. The mutual inductance increases by a factor of μᵣ compared to the air-core case. | ஒப்பீட்டு ஊடுருவுதிறன் μᵣ கொண்ட ஊடகம் அறிமுகப்படுத்தப்பட்டால், பரஸ்பர தூண்டல் M = μᵣ μ₀ n₁ n₂ π r₁² l ஆகிறது. காற்று-கரு வழக்கத்துடன் ஒப்பிடும்போது பரஸ்பர தூண்டல் μᵣ காரணியால் அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுருள்களின் ஜோடியின் பரஸ்பர தூண்டல் பின்வருவனவற்றில் எதைப் பொறுத்தது?",
+      "options": [
+        "ஒவ்வொரு சுருளிலும் உள்ள திருப்புகளின் எண்ணிக்கை மட்டுமே",
+        "சுருள்களில் பாயும் மின்னோட்டம் மட்டுமே",
+        "அவற்றின் பிரிப்பு மற்றும் ஒப்பீட்டு திசை",
+        "சுருள்களின் தடை மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "The mutual inductance of a pair of coils, solenoids, etc., depends on their separation as well as their relative orientation. It also depends on geometry and the permeability of the medium, but not on the current or resistance. | சுருள்களின் ஜோடியின் பரஸ்பர தூண்டல் அவற்றின் பிரிப்பு மற்றும் ஒப்பீட்டு திசையைப் பொறுத்தது. இது வடிவியல் மற்றும் ஊடகத்தின் ஊடுருவுதிறனையும் பொறுத்தது, ஆனால் மின்னோட்டம் அல்லது தடையைப் பொறுத்தல்ல."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "N திருப்புகளைக் கொண்ட நெருக்கமாகச் சுற்றப்பட்ட சுருளுக்கு, ஒரு திருப்பின் வழியாக பாயம் ΦB எனில், பாய இணைப்பு என்ன?",
+      "options": [
+        "ΦB/N",
+        "NΦB",
+        "ΦB²",
+        "N/ΦB"
+      ],
+      "correct": 1,
+      "explanation": "For a closely wound coil of N turns, the flux linkage is NΦB, where ΦB is the flux linked with one turn. This is because the same magnetic flux is linked with all the turns, and each turn contributes to the total flux linkage. | N திருப்புகளைக் கொண்ட நெருக்கமாகச் சுற்றப்பட்ட சுருளுக்கு, பாய இணைப்பு NΦB, இங்கே ΦB ஒரு திருப்புடன் இணைக்கப்பட்ட பாயம். ஒரே காந்தப் பாயம் அனைத்து திருப்புகளுடனும் இணைக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "அண்டை சுருள் C₂-ல் மின்னோட்டம் காலத்துடன் மாறும்போது, சுருள் C₁-ல் தூண்டப்பட்ட emf எது?",
+      "options": [
+        "ε₁ = M dI₂/dt",
+        "ε₁ = -M dI₂/dt",
+        "ε₁ = M I₂",
+        "ε₁ = -M I₂²"
+      ],
+      "correct": 1,
+      "explanation": "The induced emf in coil C₁ is given by ε₁ = -M dI₂/dt, where M is the mutual inductance. The negative sign indicates that the induced emf opposes the change in current, consistent with Lenz's law. | அண்டை சுருள் C₂-ல் மின்னோட்டம் மாறும்போது C₁-ல் தூண்டப்பட்ட emf ε₁ = -M dI₂/dt. எதிர் குறி மின்னோட்ட மாற்றத்தை எதிர்க்கும் என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுருளின் சுய-தூண்டல் L எந்த விசையியல் அளவுக்கு சமானமானது?",
+      "options": [
+        "வேகம்",
+        "நிறை (உறழ்வு)",
+        "விசை",
+        "முடுக்கம்"
+      ],
+      "correct": 1,
+      "explanation": "Self-inductance L is the electromagnetic analogue of mass in mechanics. Just as mass opposes changes in velocity (inertia), self-inductance opposes changes in current in a circuit. The energy stored is (1/2)LI², analogous to kinetic energy (1/2)mv². | சுய-தூண்டல் L என்பது விசையியலில் நிறைக்கு சமானமான மின்காந்த சமானமாகும். நிறை வேக மாற்றங்களை எதிர்ப்பது போல, சுய-தூண்டல் சுற்றில் மின்னோட்ட மாற்றங்களை எதிர்க்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காற்று கருவுடன் கூடிய நீண்ட சுருளின் சுய-தூண்டலின் வாய்பாடு எது?",
+      "options": [
+        "L = μ₀ n² A l",
+        "L = μ₀ n A l",
+        "L = μ₀ n A² l",
+        "L = μ₀ n² A"
+      ],
+      "correct": 0,
+      "explanation": "The self-inductance of a long solenoid with air core is L = μ₀ n² A l, where n is turns per unit length, A is cross-sectional area, and l is the length of the solenoid. If filled with material of relative permeability μᵣ, then L = μᵣ μ₀ n² A l. | காற்று கருவுடன் கூடிய நீண்ட சுருளின் சுய-தூண்டல் L = μ₀ n² A l, இங்கே n ஒரு அலகு நீளத்திற்கான திருப்புகள், A குறுக்கு-வெட்டு பரப்பளவு, l சுருளின் நீளம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மின்னோட்டம் I பாயும் தூண்டியில் சேமிக்கப்பட்ட காந்த ஆற்றல் எது?",
+      "options": [
+        "U = LI",
+        "U = (1/2)LI²",
+        "U = L²I",
+        "U = (1/2)L²I"
+      ],
+      "correct": 1,
+      "explanation": "The magnetic energy stored in an inductor is U = (1/2)LI², analogous to mechanical kinetic energy (1/2)mv². This energy is stored in the magnetic field established by the current. | தூண்டியில் சேமிக்கப்பட்ட காந்த ஆற்றல் U = (1/2)LI², இது விசையியல் இயக்க ஆற்றல் (1/2)mv²-க்கு சமானமானது. இந்த ஆற்றல் மின்னோட்டத்தால் நிறுவப்பட்ட காந்தப்புலத்தில் சேமிக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுருளில் ஒரு அலகு பருமனுக்கு காந்த ஆற்றல் அடர்த்தி எது?",
+      "options": [
+        "uB = B²/(2μ₀)",
+        "uB = B/(2μ₀)",
+        "uB = B²/μ₀",
+        "uB = μ₀B²/2"
+      ],
+      "correct": 0,
+      "explanation": "The magnetic energy per unit volume is uB = B²/(2μ₀), where B is the magnetic field strength and μ₀ is the permeability of free space. This is analogous to electrostatic energy density uE = (1/2)ε₀E². | காந்த ஆற்றல் ஒரு அலகு பருமனுக்கு uB = B²/(2μ₀), இங்கே B காந்தப்புல வலிமை, μ₀ இலவச வெளியின் ஊடுருவுதிறன். இது மின்நிலையியல் ஆற்றல் அடர்த்திக்கு சமானமானது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுழலும் சக்கரச் சிக்கலுக்கு, கோண வேகம் ω எவ்வளவு rad/s?",
+      "options": [
+        "2π rad/s",
+        "4π rad/s",
+        "π rad/s",
+        "8π rad/s"
+      ],
+      "correct": 1,
+      "explanation": "The wheel rotates at 120 rev/min. Converting: ω = 2π × (120/60) = 2π × 2 = 4π rad/s. This is the angular speed used in the emf calculation. | சக்கரம் 120 rev/min வேகத்தில் சுழல்கிறது. மாற்றுதல்: ω = 2π × (120/60) = 4π rad/s. இது emf கணக்கீட்டில் பயன்படுத்தப்படும் கோண வேகம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "'பரஸ்பர தூண்டலின் குணகம்' என்ற சொல் எதைக் குறிக்கிறது?",
+      "options": [
+        "ஒற்றைச் சுருளின் சுய-தூண்டல்",
+        "இரண்டு சுருள்களுக்கு இடையேயான பரஸ்பர தூண்டல்",
+        "சுருளின் தடை",
+        "தகடுகளுக்கு இடையேயான கொள்ளளவு"
+      ],
+      "correct": 1,
+      "explanation": "The coefficient of mutual induction is another term for mutual inductance (M). It quantifies the flux linkage in one coil per unit current in the neighboring coil. | பரஸ்பர தூண்டலின் குணகம் என்பது பரஸ்பர தூண்டலுக்கு (M) மற்றொரு பெயர். இது அண்டை சுருளில் ஒரு அலகு மின்னோட்டத்திற்கு மற்ற சுருளில் பாய இணைப்பை அளவிடுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இணை அச்சு சுருள்களின் பரஸ்பர தூண்டல் வழிமுறையில் எந்தத் தோராயம் செய்யப்படுகிறது?",
+      "options": [
+        "சுருள்கள் குறுகியவை",
+        "விளிம்பு விளைவுகள் புறக்கணிக்கப்படுகின்றன மற்றும் புலம் சீரானது",
+        "சுருள்களுக்கு சம ஆரங்கள் உள்ளன",
+        "மின்னோட்டம் மாறுமின்னோட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "In the derivation, edge effects are neglected and the magnetic field is considered uniform throughout the length and width of the solenoid. This is a good approximation when the solenoid is long (l >> r). | வழிமுறையில், விளிம்பு விளைவுகள் புறக்கணிக்கப்படுகின்றன மற்றும் காந்தப்புலம் சுருளின் நீளம் மற்றும் அகலம் முழுவதும் சீரானதாகக் கருதப்படுகிறது. சுருள் நீண்டதாக இருக்கும்போது இது நல்ல தோராயமாகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மின்னோட்டம் I₂ சுருள் S₂ வழியாக பாயும்போது, சுருள் S₁-ன் பாய இணைப்பு எது?",
+      "options": [
+        "N₁Φ₁ = M₁₂ I₂",
+        "N₁Φ₁ = M₂₁ I₂",
+        "N₁Φ₁ = L₁ I₂",
+        "N₁Φ₁ = R₁ I₂"
+      ],
+      "correct": 0,
+      "explanation": "The flux linkage with solenoid S₁ is N₁Φ₁ = M₁₂ I₂, where M₁₂ is the mutual inductance of S₁ with respect to S₂. This defines M₁₂ as the constant of proportionality. | சுருள் S₁-ன் பாய இணைப்பு N₁Φ₁ = M₁₂ I₂, இங்கே M₁₂ என்பது S₂-ஐப் பொறுத்து S₁-ன் பரஸ்பர தூண்டல்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "NΦB = LI என்ற விகிதசமத்தில் உள்ள மாறிலி L என்ன அழைக்கப்படுகிறது?",
+      "options": [
+        "பரஸ்பர மின்தூண்டம்",
+        "சுய மின்தூண்டம்",
+        "காந்த ஊடுறுப்பு",
+        "காந்த உணர்திறன்"
+      ],
+      "correct": 1,
+      "explanation": "The constant of proportionality L is called self-inductance of the coil. It is also called the coefficient of self-induction of the coil. | சுருளில் உள்ள திருப்பங்களின் எண்ணிக்கை N மற்றும் காந்தப் பாயம் ΦB ஆகியவற்றுக்கும் மின்னோட்டம் I க்கும் இடையேயான விகிதசமத்தில் உள்ள மாறிலி L என்பது சுய மின்தூண்டம் என அழைக்கப்படுகிறது. இது சுருளின் சுய மின்தூண்டக் குணகம் என்றும் அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு சுருளில் சுய தூண்டல் மின்னழுத்தத்தின் வெளிப்பாடு என்ன?",
+      "options": [
+        "ε = +L(dI/dt)",
+        "ε = -L(dI/dt)",
+        "ε = L(dI/dt)²",
+        "ε = -L(d²I/dt²)"
+      ],
+      "correct": 1,
+      "explanation": "The self-induced emf is given by ε = -L(dI/dt). The negative sign indicates that the self-induced emf always opposes any change (increase or decrease) of current in the coil. | சுய தூண்டல் மின்னழுத்தம் ε = -L(dI/dt) என்ற சூத்திரத்தால் கொடுக்கப்படுகிறது. எதிர் குறி என்பது சுய தூண்டல் மின்னழுத்தம் எப்போதும் சுருளில் உள்ள மின்னோட்டத்தின் மாற்றத்தை (அதிகரிப்பு அல்லது குறைப்பு) எதிர்க்கும் என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு அலகு நீளத்திற்கு n திருப்பங்கள், குறுக்குவெட்டுப் பரப்பளவு A மற்றும் நீளம் l கொண்ட நீளமான காற்று மைய சுருளின் சுய மின்தூண்டம் என்ன?",
+      "options": [
+        "L = μ₀nAl",
+        "L = μ₀n²Al",
+        "L = μ₀n²A/l",
+        "L = μ₀nA²l"
+      ],
+      "correct": 1,
+      "explanation": "The self-inductance of a long solenoid is L = μ₀n²Al, where n is turns per unit length, A is cross-sectional area, and l is length. This is derived from the total flux linkage NΦB = μ₀n²AlI. | நீளமான சுருளின் சுய மின்தூண்டம் L = μ₀n²Al ஆகும், இங்கு n என்பது ஒரு அலகு நீளத்திற்கான திருப்பங்கள், A என்பது குறுக்குவெட்டுப் பரப்பளவு, l என்பது நீளம். இது மொத்த காந்தப் பாய இணைப்பு NΦB = μ₀n²AlI இலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுருள் ஒப்பீட்டு ஊடுறுப்பு μᵣ கொண்ட பொருளால் நிரப்பப்பட்டால், சுய மின்தூண்டம் என்ன?",
+      "options": [
+        "L = μ₀n²Al",
+        "L = μᵣμ₀n²Al",
+        "L = μᵣ²μ₀n²Al",
+        "L = (μᵣ+μ₀)n²Al"
+      ],
+      "correct": 1,
+      "explanation": "When filled with a material of relative permeability μᵣ, the self-inductance becomes L = μᵣμ₀n²Al. The relative permeability increases the inductance proportionally. | ஒப்பீட்டு ஊடுறுப்பு μᵣ கொண்ட பொருளால் நிரப்பப்பட்டால், சுய மின்தூண்டம் L = μᵣμ₀n²Al ஆகிறது. ஒப்பீட்டு ஊடுறுப்பு மின்தூண்டத்தை விகிதப்படியாக அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுய தூண்டல் மின்னழுத்தம் ஏன் பின் மின்னழுத்தம் என அழைக்கப்படுகிறது?",
+      "options": [
+        "இது மின்னோட்ட மாற்றத்தை உதவுகிறது",
+        "இது சுற்றில் உள்ள மின்னோட்டத்தின் எந்த மாற்றத்தையும் எதிர்க்கிறது",
+        "இது வெளிப்புற மின்கலத்தால் உருவாக்கப்படுகிறது",
+        "இது AC சுற்றுகளில் மட்டுமே ஏற்படுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The self-induced emf is called back emf because it opposes any change in the current in the circuit. It acts like electrical inertia, resisting both the growth and decay of current. | சுய தூண்டல் மின்னழுத்தம் பின் மின்னழுத்தம் என அழைக்கப்படுகிறது, ஏனெனில் இது சுற்றில் உள்ள மின்னோட்டத்தின் எந்த மாற்றத்தையும் எதிர்க்கிறது. இது மின்னியல் பொறிமை போல செயல்பட்டு, மின்னோட்டத்தின் வளர்ச்சி மற்றும் சிதைவு இரண்டையும் எதிர்க்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மின்னோட்டம் I ஐ ஏந்தும் ஒரு மின்தூண்டியில் சேமிக்கப்படும் ஆற்றல் என்ன?",
+      "options": [
+        "W = LI²",
+        "W = (1/2)LI²",
+        "W = L²I",
+        "W = (1/2)L²I²"
+      ],
+      "correct": 1,
+      "explanation": "The energy required to build up the current I is W = (1/2)LI². This is analogous to mechanical kinetic energy (mv²/2), showing that L is analogous to mass m. | மின்னோட்டம் I ஐ உருவாக்க தேவையான ஆற்றல் W = (1/2)LI² ஆகும். இது இயந்திர இயக்க ஆற்றலுக்கு (mv²/2) ஒப்பானது, L என்பது நிறை m க்கு ஒப்பானது என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு சுருளில் ஒரு அலகு கன அளவில் சேமிக்கப்படும் காந்த ஆற்றல் என்ன?",
+      "options": [
+        "uB = B²/(2μ₀)",
+        "uB = B²/μ₀",
+        "uB = (1/2)μ₀B²",
+        "uB = μ₀B²"
+      ],
+      "correct": 0,
+      "explanation": "The magnetic energy per unit volume is uB = B²/(2μ₀). This is derived from the total energy W = (1/2μ₀)B²Al divided by volume V = Al. | ஒரு அலகு கன அளவில் சேமிக்கப்படும் காந்த ஆற்றல் uB = B²/(2μ₀) ஆகும். இது மொத்த ஆற்றல் W = (1/2μ₀)B²Al ஐ கன அளவு V = Al ஆல் வகுப்பதன் மூலம் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுய மின்தூண்டம் L எந்த இயந்திர அளவுக்கு ஒப்பானது?",
+      "options": [
+        "வேகம்",
+        "நிறை (பொறிமை)",
+        "விசை",
+        "முடுக்கம்"
+      ],
+      "correct": 1,
+      "explanation": "Self-inductance L is the electromagnetic analogue of mass in mechanics. Just as mass opposes changes in velocity (inertia), L opposes changes in current. | சுய மின்தூண்டம் L என்பது இயந்திரவியலில் உள்ள நிறையின் மின்காந்த ஒப்புமையாகும். நிறை வேகத்தின் மாற்றங்களை எதிர்ப்பது போல (பொறிமை), L மின்னோட்டத்தின் மாற்றங்களை எதிர்க்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மாறு மின்னோட்ட உற்பத்தி எந்திரத்தில் மின்னியக்கு விசை உருவாவதற்கான முக்கிய காரணம் என்ன?",
+      "options": [
+        "காந்தப்புலத்தின் அளவு மாறுவது",
+        "சுருள் சுழலும்போது காந்தப்புலத்திற்கு எதிரான திசை மாறுவது",
+        "சுருளின் எதிர்ப்பு குறைவது",
+        "காந்தக் கோடுகளின் எண்ணிக்கை அதிகரிப்பது"
+      ],
+      "correct": 1,
+      "explanation": "The alternating emf is generated because the effective area of the loop exposed to the magnetic field changes as the coil rotates. The flux Φ = BA cos θ varies with time since θ = ωt. | சுருள் சுழலும்போது காந்தப்புலத்திற்கு எதிரான சுருளின் திசை மாறுவதால் காந்தப்பாயம் மாறுகிறது. Φ = BA cos θ சமன்பாட்டில் θ = ωt என்பதால் காந்தப்பாயம் காலத்துடன் மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுழலும் சுருளில் மின்னியக்கு விசை அதிகபட்ச மதிப்பை எந்த கோணங்களில் அடைகிறது?",
+      "options": [
+        "0° மற்றும் 180°",
+        "45° மற்றும் 225°",
+        "90° மற்றும் 270°",
+        "60° மற்றும் 240°"
+      ],
+      "correct": 2,
+      "explanation": "The emf has its extremum value when θ = 90° or θ = 270°, as the rate of change of flux is greatest at these points. At these positions, sin ωt = ±1. | மின்னழுத்தம் 90° மற்றும் 270° கோணங்களில் அதிகபட்ச மதிப்பை அடைகிறது, ஏனெனில் இந்தப் புள்ளிகளில் காந்தப்பாய மாற்றத்தின் வீதம் அதிகமாக இருக்கும். sin ωt = ±1 என்பதால் மின்னழுத்தம் அதிகபட்சமாகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.10 இல், 100 சுற்றுகள் கொண்ட 0.10 m² பரப்பளவுடைய சுருள் 0.5 சுழற்சி/வினாடி வேகத்தில் 0.01 T காந்தப்புலத்தில் சுழலும்போது உருவாகும் அதிகபட்ச மின்னழுத்தம் என்ன?",
+      "options": [
+        "0.157 V",
+        "0.314 V",
+        "0.628 V",
+        "3.14 V"
+      ],
+      "correct": 1,
+      "explanation": "Using e₀ = NBA(2πν) = 100 × 0.01 × 0.1 × 2 × 3.14 × 0.5 = 0.314 V. The maximum voltage occurs when sin(2πνt) = 1. | e₀ = NBA(2πν) = 100 × 0.01 × 0.1 × 2 × 3.14 × 0.5 = 0.314 V என்ற சூத்திரத்தைப் பயன்படுத்தி கணக்கிடுகிறோம். sin(2πνt) = 1 எனும்போது அதிகபட்ச மின்னழுத்தம் கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இந்தியாவில் மின்சார வழங்கலின் சராசரி அதிர்வெண் என்ன?",
+      "options": [
+        "25 Hz",
+        "50 Hz",
+        "60 Hz",
+        "100 Hz"
+      ],
+      "correct": 1,
+      "explanation": "The frequency of rotation is 50 Hz in India. In the USA, it is 60 Hz. This frequency determines the number of complete AC cycles per second. | இந்தியாவில் சுழல்வின் அதிர்வெண் 50 Hz ஆகும். அமெரிக்காவில் இது 60 Hz ஆகும். இந்த அதிர்வெண் ஒரு வினாடியில் மாறு மின்னோட்டத்தின் முழு சுழற்சிகளின் எண்ணிக்கையைத் தீர்மானிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "கீழ்கண்டவற்றில் எது உரையில் குறிப்பிடப்படாத வணிக மின் உற்பத்தி நிலைய வகை?",
+      "options": [
+        "நீர்மின் உற்பத்தி நிலையம்",
+        "வெப்ப மின் உற்பத்தி நிலையம்",
+        "அணு மின் உற்பத்தி நிலையம்",
+        "சூரிய மின் உற்பத்தி நிலையம்"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions hydro-electric, thermal, and nuclear power generators. Solar power generators are not mentioned in this context. | உரையில் நீர்மின், வெப்ப மின், மற்றும் அணு மின் உற்பத்தி நிலையங்கள் குறிப்பிடப்பட்டுள்ளன. சூரிய மின் உற்பத்தி நிலையங்கள் இந்தச் சூழலில் குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மாறு மின்னோட்ட உற்பத்தி எந்திரத்தில் உடனடி மின்னியக்கு விசைக்கான சமன்பாடு எது?",
+      "options": [
+        "e = e₀ cos ωt",
+        "e = e₀ sin ωt",
+        "e = e₀ tan ωt",
+        "e = e₀ / sin ωt"
+      ],
+      "correct": 1,
+      "explanation": "The instantaneous emf is e = e₀ sin ωt, where e₀ = NBAω is the maximum emf. This produces sinusoidally varying alternating current. | உடனடி மின்னழுத்தம் e = e₀ sin ωt என்ற சமன்பாட்டால் கொடுக்கப்படுகிறது, இங்கு e₀ = NBAω என்பது அதிகபட்ச மின்னழுத்தம். இது சைன் வளைவு வடிவில் மாறும் மாறு மின்னோட்டத்தை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஆர்மேச்சர் சுழற்சியின் கட்டம் 2 இல் (90°), ஆர்மேச்சர் தளம் காந்தப்புலத்திற்கு எந்த வகையில் அமைந்திருக்கும்?",
+      "options": [
+        "காந்தப்புலத்திற்கு செங்குத்தாக",
+        "காந்தப்புலத்திற்கு இணையாக",
+        "காந்தப்புலத்திற்கு 45° கோணத்தில்",
+        "காந்தப்புலத்திற்கு 60° கோணத்தில்"
+      ],
+      "correct": 1,
+      "explanation": "At Stage 2 (90°), the plane of the armature is parallel to the magnetic field. At this position, the rate of change of flux is maximum, producing maximum induced emf. | கட்டம் 2 இல் (90°), ஆர்மேச்சரின் தளம் காந்தப்புலத்திற்கு இணையாக இருக்கும். இந்த நிலையில் காந்தப்பாய மாற்றத்தின் வீதம் அதிகமாக இருப்பதால் அதிகபட்ச மின்னியக்கு விசை உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நவீன மின் உற்பத்தி நிலையங்களின் அதிகபட்ச மின் உற்பத்தித் திறன் என்ன?",
+      "options": [
+        "100 MW",
+        "200 MW",
+        "500 MW",
+        "1000 MW"
+      ],
+      "correct": 2,
+      "explanation": "Modern generators produce up to 500 MW, enough to light 5 million 100W bulbs, demonstrating massive power generation scale. | நவீன மின் உற்பத்தி நிலையங்கள் 500 MW வரை மின்சாரத்தை உற்பத்தி செய்கின்றன, இது 50 லட்சம் 100W பல்புகளை எரியச் செய்ய போதுமானது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மின்னியக்கு விசை சமன்பாட்டை அதிர்வெண் n (சுழற்சிகள்/வினாடி) மூலம் எவ்வாறு எழுதலாம்?",
+      "options": [
+        "e = e₀ sin πnt",
+        "e = e₀ sin 2πnt",
+        "e = e₀ cos 2πnt",
+        "e = e₀ tan πnt"
+      ],
+      "correct": 1,
+      "explanation": "Since ω = 2πν, the equation becomes e = e₀ sin 2πνt, where ν is the frequency in revolutions per second. | ω = 2πν என்பதால், சமன்பாடு e = e₀ sin 2πνt என மாறும், இங்கு ν என்பது வினாடிக்கு சுழற்சிகளின் அதிர்வெண்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஆர்மேச்சர் சுழற்சியின் கட்டம் 1 இல், ஆர்மேச்சர் தளத்தின் தொடக்க நிலை என்ன?",
+      "options": [
+        "காந்தப்புலத்திற்கு இணையாக",
+        "காந்தப்புலத்திற்கு செங்குத்தாக",
+        "காந்தப்புலத்திற்கு 45° கோணத்தில்",
+        "காந்தப்புலத்திற்கு 30° கோணத்தில்"
+      ],
+      "correct": 1,
+      "explanation": "At Stage 1, the armature plane is perpendicular to the magnetic field. At θ = 0°, flux is maximum but rate of change is zero, so induced emf is zero. | கட்டம் 1 இல், ஆர்மேச்சரின் தளம் காந்தப்புலத்திற்கு செங்குத்தாக இருக்கும். θ = 0° இல் காந்தப்பாயம் அதிகபட்சமாக இருந்தாலும் மாற்ற வீதம் பூஜ்யமாக இருப்பதால் மின்னியக்கு விசை பூஜ்யமாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மாறு மின்னோட்ட உற்பத்தி எந்திரம் எந்த வகை ஆற்றலை மின்னாற்றலாக மாற்றுகிறது?",
+      "options": [
+        "வேதியியல் ஆற்றல்",
+        "இயந்திர ஆற்றல்",
+        "அணு ஆற்றல்",
+        "சூரிய ஆற்றல்"
+      ],
+      "correct": 1,
+      "explanation": "An AC generator converts mechanical energy into electrical energy through electromagnetic induction. The mechanical rotation induces emf. | மாறு மின்னோட்ட உற்பத்தி எந்திரம் மின்காந்தத் தூண்டல் மூலம் இயந்திர ஆற்றலை மின்னாற்றலாக மாற்றுகிறது. சுருளின் இயந்திர சுழற்சி மின்னியக்கு விசையைத் தூண்டுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "500 MW மின் உற்பத்தி நிலையம் எத்தனை 100W பல்புகளை எரியச் செய்ய முடியும்?",
+      "options": [
+        "10 லட்சம்",
+        "25 லட்சம்",
+        "50 லட்சம்",
+        "100 லட்சம்"
+      ],
+      "correct": 2,
+      "explanation": "500 MW = 500 × 10⁶ W. Dividing by 100W per bulb gives 5 × 10⁶ = 5 million bulbs. | 500 MW = 500 × 10⁶ W. 100W பல்புக்கு வகுத்தால் 5 × 10⁶ = 50 லட்சம் பல்புகள் கிடைக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3-ல், தட்டும் விசை K அழுத்தப்படும்போது கேல்வனோமீட்டரில் என்ன நிகழ்கிறது?",
+      "options": [
+        "கேல்வனோமீட்டர் தொடர்ச்சியான விலகலைக் காட்டுகிறது",
+        "கேல்வனோமீட்டர் ஒரு தற்காலிக விலகலைக் காட்டி பின்னர் பூஜ்யத்திற்குத் திரும்புகிறது",
+        "கேல்வனோமீட்டரில் எந்த விலகலும் இல்லை",
+        "கேல்வனோமீட்டர் எதிர் திசையில் விலகலைக் காட்டுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the tapping key K is pressed, the current in coil C2 rises from zero to maximum, causing a change in magnetic flux through coil C1. This induces a momentary emf and current in C1, producing a brief deflection. Once the current becomes steady, the flux stops changing and the deflection returns to zero. | தட்டும் விசை K அழுத்தப்படும்போது, சுருள் C2-ல் உள்ள மின்னோட்டம் பூஜ்யத்திலிருந்து அதிகபட்சமாக அதிகரிக்கிறது, இது சுருள் C1 வழியாக காந்தப் பாயத்தில் மாற்றத்தை ஏற்படுத்துகிறது. இது C1-ல் தற்காலிக மின்னழுத்தத்தையும் மின்னோட்டத்தையும் தூண்டுகிறது, ஒரு சுருக்கமான விலகலை உருவாக்குகிறது. மின்னோட்டம் நிலையானதாக மாறும்போது, பாயம் மாறுவது நிறுத்தப்பட்டு விலகல் பூஜ்யத்திற்குத் திரும்புகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3-ல், தட்டும் விசை K தொடர்ந்து அழுத்தப்பட்டு வைக்கப்படும்போது என்ன அவதானிக்கப்படுகிறது?",
+      "options": [
+        "விலகல் தொடர்ந்து அதிகரிக்கிறது",
+        "விலகல் அதிகபட்ச மதிப்பில் நிலையாக இருக்கிறது",
+        "கேல்வனோமீட்டரில் எந்த விலகலும் இல்லை",
+        "விலகல் நேர்மறை மற்றும் எதிர்மறை மதிப்புகளுக்கு இடையே அதிர்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "When the key is held pressed continuously, the current in coil C2 becomes constant. Therefore, the magnetic field produced by C2 is steady and there is no change in magnetic flux through coil C1. Since electromagnetic induction requires a changing magnetic flux, no emf is induced and the galvanometer shows no deflection. | விசை K தொடர்ந்து அழுத்தப்பட்டு வைக்கப்படும்போது, சுருள் C2-ல் உள்ள மின்னோட்டம் நிலையானதாகிறது. எனவே, C2-ல் உருவாக்கப்படும் காந்தப்புலம் நிலையானதாக இருக்கிறது மற்றும் சுருள் C1 வழியாக காந்தப் பாயத்தில் மாற்றம் இல்லை. மின்காந்த தூண்டல் மாறும் காந்தப் பாயத்தைத் தேவைப்படுத்துவதால், எந்த மின்னழுத்தமும் தூண்டப்படவில்லை மற்றும் கேல்வனோமீட்டரில் எந்த விலகலும் இல்லை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3-ல், தட்டும் விசை K விடுவிக்கப்படும்போது என்ன அவதானிக்கப்படுகிறது?",
+      "options": [
+        "அழுத்தப்பட்டபோதைப் போலவே அதே திசையில் ஒரு தற்காலிக விலகல்",
+        "எதிர் திசையில் ஒரு தற்காலிக விலகல்",
+        "முற்றிலும் எந்த விலகலும் இல்லை",
+        "மெதுவாகக் குறையும் தொடர்ச்சியான விலகல்"
+      ],
+      "correct": 1,
+      "explanation": "When the key is released, the current in coil C2 decreases from maximum to zero. This causes a decrease in magnetic flux through coil C1. According to Lenz's law, the induced current opposes this decrease, resulting in a deflection in the opposite direction compared to when the key was pressed. | விசை விடுவிக்கப்படும்போது, சுருள் C2-ல் உள்ள மின்னோட்டம் அதிகபட்சத்திலிருந்து பூஜ்யமாகக் குறைகிறது. இது சுருள் C1 வழியாக காந்தப் பாயத்தில் குறைவை ஏற்படுத்துகிறது. லென்ஸ் விதிப்படி, தூண்டப்பட்ட மின்னோட்டம் இந்தக் குறைவை எதிர்க்கிறது, விசை அழுத்தப்பட்டபோதை விட எதிர் திசையில் விலகலை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3-ல், சுருள்களின் அச்சில் ஒரு இரும்புக் கம்பி செருகப்படும்போது விலகலுக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "விலகல் சற்று குறைகிறது",
+        "விலகல் மாறாமல் இருக்கிறது",
+        "விலகல் வெகுவாக அதிகரிக்கிறது",
+        "விலகல் நிரந்தரமாக பூஜ்யமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "When an iron rod is inserted into the coils, it acts as a magnetic core with high relative permeability. This greatly increases the magnetic field strength and the magnetic flux through the coils. Since the induced emf is proportional to the rate of change of magnetic flux, the deflection increases dramatically. | இரும்புக் கம்பி சுருள்களின் அச்சில் செருகப்படும்போது, அது அதிக சார்பு ஊடுபுகும் திறன் கொண்ட காந்த மையமாகச் செயல்படுகிறது. இது காந்தப்புல வலிமையையும் சுருள்கள் வழியாக காந்தப் பாயத்தையும் பெரிதும் அதிகரிக்கிறது. தூண்டப்பட்ட மின்னழுத்தம் காந்தப் பாயத்தின் மாற்ற வீதத்திற்கு நேர்விகிதத்தில் இருப்பதால், விலகல் வெகுவாக அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சீரான காந்தப்புலம் B-யில் பரப்பளவு A கொண்ட தளம் வைக்கப்பட்டிருக்கும்போது, காந்தப் பாயத்தின் கணித வெளிப்பாடு என்ன?",
+      "options": [
+        "ΦB = B + A",
+        "ΦB = B × A = BA sin θ",
+        "ΦB = B · A = BA cos θ",
+        "ΦB = B / A = BA tan θ"
+      ],
+      "correct": 2,
+      "explanation": "The magnetic flux through a plane of area A in a uniform magnetic field B is given by the dot product of B and A. Mathematically, ΦB = B · A = BA cos θ, where θ is the angle between the magnetic field vector B and the area vector A. This is analogous to the definition of electric flux. | சீரான காந்தப்புலம் B-யில் பரப்பளவு A கொண்ட தளத்தின் வழியாக காந்தப் பாயம் B மற்றும் A-வின் புள்ளி பெருக்கலாகக் கொடுக்கப்படுகிறது. கணித ரீதியாக, ΦB = B · A = BA cos θ, இங்கு θ காந்தப்புல வெக்டர் B மற்றும் பரப்பளவு வெக்டர் A இடையேயான கோணம். இது மின்பாய வரையறைக்கு ஒப்பானது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "வளைந்த பரப்பு மற்றும் சீரற்ற காந்தப்புலத்திற்கு காந்தப் பாயம் எவ்வாறு கணக்கிடப்படுகிறது?",
+      "options": [
+        "அதிகபட்ச B மற்றும் மொத்த பரப்பளவு A-வின் பெருக்கலாக",
+        "அனைத்து பரப்பளவு உறுப்புகளுக்கும் B மற்றும் dA-வின் புள்ளி பெருக்கல்களைக் கூட்டுவதால்: ΦB = Σ Bi · dAi",
+        "B-வின் சராசரியை எடுத்து A-வால் பெருக்குவதால்",
+        "B-வை நேரத்தில் தொகையிடுவதால்"
+      ],
+      "correct": 1,
+      "explanation": "For curved surfaces and non-uniform fields, the surface is divided into small area elements dAi. The magnetic flux through each element is Bi · dAi, where Bi is the magnetic field at that element. The total flux is the sum (or integral) of all these contributions: ΦB = Σ Bi · dAi. This generalizes the simple formula for uniform fields. | வளைந்த பரப்புகள் மற்றும் சீரற்ற புலங்களுக்கு, பரப்பு சிறிய பரப்பளவு உறுப்புகள் dAi-யாகப் பிரிக்கப்படுகிறது. ஒவ்வொரு உறுப்பின் வழியாக காந்தப் பாயம் Bi · dAi, இங்கு Bi அந்த உறுப்பில் உள்ள காந்தப்புலம். மொத்த பாயம் இந்த அனைத்து பங்களிப்புகளின் கூட்டுத்தொகை (அல்லது தொகையீடு): ΦB = Σ Bi · dAi. இது சீரான புலங்களுக்கான எளிய சூத்திரத்தைப் பொதுமைப்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப் பாயத்தின் SI அலகு என்ன?",
+      "options": [
+        "டெஸ்லா (T)",
+        "வெபர் (Wb) அல்லது டெஸ்லா மீட்டர் சதுரம் (T m²)",
+        "ஹென்றி (H)",
+        "ஆம்பியர் (A)"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic flux is the weber (Wb), named after Wilhelm Weber. It can also be expressed as tesla meter squared (T m²), since flux is the product of magnetic field (tesla) and area (square meters). One weber equals one tesla times one square meter. | காந்தப் பாயத்தின் SI அலகு வெபர் (Wb), வில்ஹெல்ம் வெபரின் பெயரிடப்பட்டது. இது டெஸ்லா மீட்டர் சதுரமாகவும் (T m²) வெளிப்படுத்தப்படலாம், ஏனெனில் பாயம் காந்தப்புலம் (டெஸ்லா) மற்றும் பரப்பளவு (சதுர மீட்டர்கள்) ஆகியவற்றின் பெருக்கலாகும். ஒரு வெபர் ஒரு டெஸ்லா பெருக்கல் ஒரு சதுர மீட்டருக்குச் சமம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப் பாயம் எந்த வகை அளவு?",
+      "options": [
+        "வெக்டர் அளவு",
+        "டென்சர் அளவு",
+        "அளவுரு அளவு",
+        "சிக்கலான அளவு"
+      ],
+      "correct": 2,
+      "explanation": "Magnetic flux is a scalar quantity. Although it is defined using the dot product of two vectors (B and A), the result of a dot product is always a scalar. Magnetic flux has magnitude but no direction, which is the defining characteristic of a scalar quantity. | காந்தப் பாயம் ஒரு அளவுரு அளவு. இது இரண்டு வெக்டர்களின் (B மற்றும் A) புள்ளி பெருக்கலைப் பயன்படுத்தி வரையறுக்கப்பட்டாலும், புள்ளி பெருக்கலின் முடிவு எப்போதும் ஒரு அளவுரு. காந்தப் பாயத்திற்கு அளவு உண்டு ஆனால் திசை இல்லை, இது ஒரு அளவுரு அளவின் வரையறுக்கும் பண்பு."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப் புலப் பாயத்தின் SI அலகு எது?",
+      "options": [
+        "டெஸ்லா (T)",
+        "வெபர் (Wb) அல்லது டெஸ்லா மீட்டர் சதுரம் (T m²)",
+        "நியூட்டன் பர் கூலும் (N/C)",
+        "ஆம்பியர் மீட்டர் (A m)"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic flux is the weber (Wb), equivalent to tesla meter squared (T m²). This represents the total magnetic field passing through a given area. | காந்தப் புலப் பாயத்தின் SI அலகு வெபர் (Wb) ஆகும், இது டெஸ்லா மீட்டர் சதுரம் (T m²) என சமமாகும். இது கொடுக்கப்பட்ட பரப்பளவின் வழியாக செல்லும் மொத்த காந்தப் புலத்தைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காயிலில் emf தூண்டப்படுவதற்கான காரணம் ஃபாரடேயின் விதிப்படி எது?",
+      "options": [
+        "காயிலின் வழியாக மாறாத காந்தப் புலப் பாயம்",
+        "காயிலின் வழியாக காலத்துடன் மாறும் காந்தப் புலப் பாயம்",
+        "காந்தப் புலத்தின் முழு வலிமை மட்டுமே",
+        "காயிலில் உள்ள திருப்புகளின் எண்ணிக்கை மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "Faraday's law states that an emf is induced when magnetic flux through a coil changes with time. The rate of change of flux determines the magnitude of induced emf. | ஃபாரடேயின் விதி கூறுகிறது, காந்தப் புலப் பாயம் காலத்துடன் மாறும்போது காயிலில் emf தூண்டப்படுகிறது. பாயத்தின் மாற்ற வீதமே தூண்டப்பட்ட emf அளவை தீர்மானிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சீரான காந்தப் புலம் B-யில் பரப்பளவு A கொண்ட தளத்தின் வழியான காந்தப் புலப் பாயத்தின் கணித வெளிப்பாடு எது? (θ என்பது B மற்றும் A இடையேயான கோணம்)",
+      "options": [
+        "Φ_B = B + A + θ",
+        "Φ_B = B × A × sin θ",
+        "Φ_B = B · A = BA cos θ",
+        "Φ_B = B / A × tan θ"
+      ],
+      "correct": 2,
+      "explanation": "The magnetic flux is defined as the dot product of magnetic field vector B and area vector A, which equals BA cos θ. This is the fundamental definition of magnetic flux through a surface. | காந்தப் புலம் B மற்றும் பரப்பளவு A ஆகியவற்றின் புள்ளி வகுப்பு (dot product) காந்தப் புலப் பாயத்தை வரையறுக்கிறது, இது BA cos θ என சமமாகும். இது ஒரு பரப்பின் வழியான காந்தப் புலப் பாயத்தின் அடிப்படை வரையறை ஆகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப் புலப் பாயம் அளவுரு (scalar) அல்லது வெக்டர் (vector) அளவா?",
+      "options": [
+        "வெக்டர் அளவு",
+        "அளவுரு (scalar) அளவு",
+        "டென்சர் அளவு",
+        "அளவுரு அல்லது வெக்டர் அல்ல"
+      ],
+      "correct": 1,
+      "explanation": "Magnetic flux is a scalar quantity. Although it is derived from the dot product of two vectors (B and A), the result of a dot product is always a scalar. | காந்தப் புலப் பாயம் ஒரு அளவுரு (scalar) அளவு ஆகும். இது இரண்டு வெக்டர்களின் (B மற்றும் A) புள்ளி வகுப்பிலிருந்து பெறப்பட்டாலும், புள்ளி வகுப்பின் முடிவு எப்போதும் ஒரு அளவுரு ஆகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "N திருப்புகள் கொண்ட நெருக்கமாக சுற்றப்பட்ட காயிலுக்கான மொத்த தூண்டப்பட்ட emf-ன் வெளிப்பாடு எது?",
+      "options": [
+        "ε = -dΦ_B/(N dt)",
+        "ε = -N dΦ_B/dt",
+        "ε = -N² dΦ_B/dt",
+        "ε = -dΦ_B/dt / N"
+      ],
+      "correct": 1,
+      "explanation": "For a coil with N turns, the same magnetic flux is linked with each turn. Therefore, each turn contributes equally to the total induced emf, giving ε = -N dΦ_B/dt. The induced emf can be increased by increasing the number of turns. | N திருப்புகள் கொண்ட காயிலில், ஒவ்வொரு திருப்பும் ஒரே காந்தப் புலப் பாயத்துடன் இணைக்கப்படுகிறது. எனவே, ஒவ்வொரு திருப்பும் மொத்த தூண்டப்பட்ட emf-க்கு சமமாக பங்களிக்கிறது, இது ε = -N dΦ_B/dt என வழங்குகிறது. திருப்புகளின் எண்ணிக்கையை அதிகரிப்பதன் மூலம் தூண்டப்பட்ட emf அதிகரிக்கலாம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒற்றைத் திருப்பு காயிலில் ஃபாரடேயின் விதிப்படி தூண்டப்பட்ட emf-ன் கணித வெளிப்பாடு எது?",
+      "options": [
+        "ε = +dΦ_B/dt",
+        "ε = -dΦ_B/dt",
+        "ε = Φ_B × t",
+        "ε = B × A × t"
+      ],
+      "correct": 1,
+      "explanation": "The induced emf is given by ε = -dΦ_B/dt. The negative sign indicates the direction of the induced emf and current, which is explained by Lenz's law in the next section. | தூண்டப்பட்ட emf ε = -dΦ_B/dt என வழங்கப்படுகிறது. எதிர்குறி (negative sign) தூண்டப்பட்ட emf மற்றும் மின்னோட்டத்தின் திசையைக் குறிக்கிறது, இது அடுத்த பகுதியில் லென்ஸின் விதியால் விளக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சீரற்ற காந்தப் புலத்தில் வளைந்த பரப்புக்கான மொத்த காந்தப் புலப் பாயம் எவ்வாறு கணக்கிடப்படுகிறது?",
+      "options": [
+        "சராசரி B மற்றும் மொத்த பரப்பளவின் எளிய பெருக்கல் மூலம்",
+        "அனைத்து பரப்புத் துகள்களுக்கும் B_i மற்றும் dA_i-ன் புள்ளி வகுப்புகளைக் கூட்டுவதன் மூலம்: Φ_B = Σ B_i · dA_i",
+        "பருமனில் மட்டும் காந்தப் புலத்தை ஒருங்கிணைப்பதன் மூலம்",
+        "அதிகபட்ச புல வலிமையை பரப்பளவால் பெருக்குவதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "For non-uniform fields and curved surfaces, the magnetic flux is calculated by dividing the surface into infinitesimal area elements dA_i, finding the dot product B_i · dA_i for each element, and summing over all elements. | வளைந்த பரப்புகள் மற்றும் சீரற்ற புலங்களுக்கு, பரப்பைத் துகள் பரப்பளவு dA_i ஆகப் பிரித்து, ஒவ்வொரு துகளுக்கும் B_i · dA_i புள்ளி வகுப்பைக் கண்டறிந்து, அனைத்து துகள்களுக்கும் கூட்டுவதன் மூலம் காந்தப் புலப் பாயம் கணக்கிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காயிலின் வழியான காந்தப் புலப் பாயத்தை மாற்றுவதற்கு பின்வருவனவற்றில் எந்த அளவுகளை மாற்றலாம்?",
+      "options": [
+        "காந்தப் புல வலிமை B மட்டுமே",
+        "காயிலின் பரப்பளவு A மட்டுமே",
+        "B, A, மற்றும் அவற்றுக்கிடையேயான கோணம் θ",
+        "திருப்புகளின் எண்ணிக்கை N மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "From the equation Φ_B = BA cos θ, the flux can be varied by changing any one or more of the quantities: B (magnetic field), A (area), or θ (angle between B and A). Changing the shape of the coil or rotating it in a magnetic field also induces emf. | Φ_B = BA cos θ சமன்பாட்டிலிருந்து, B (காந்தப் புலம்), A (பரப்பளவு), அல்லது θ (B மற்றும் A இடையேயான கோணம்) ஆகிய அளவுகளில் ஒன்று அல்லது அதற்கு மேற்பட்டவற்றை மாற்றுவதன் மூலம் பாயத்தை மாற்றலாம். காயிலின் வடிவத்தை மாற்றுவது அல்லது காந்தப் புலத்தில் சுழற்றுவதும் emf-ஐ தூண்டுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பத்தொன்பதாம் நூற்றாண்டுக்கு முன்பு, மின்சாரம் மற்றும் காந்தவியல் எவ்வாறு கருதப்பட்டன?",
+      "options": [
+        "ஒன்றுடன் ஒன்று தொடர்புடைய நிகழ்வுகள்",
+        "தனித்துவமான மற்றும் தொடர்பற்ற நிகழ்வுகள்",
+        "ஒரே ஆற்றலின் வடிவங்கள்",
+        "சில பொருட்களின் பண்புகள் மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "According to the text, electricity and magnetism were considered separate and unrelated phenomena for a long time before the experiments of the nineteenth century. | பத்தொன்பதாம் நூற்றாண்டுக்கு முன்பு, மின்சாரம் மற்றும் காந்தவியல் நீண்ட காலமாக தனித்துவமான மற்றும் தொடர்பற்ற நிகழ்வுகளாகக் கருதப்பட்டன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மின்னோட்டம் குறித்த சோதனைகள் மூலம் மின்சாரம் மற்றும் காந்தவியல் ஒன்றுடன் ஒன்று தொடர்புடையவை என்பதை எந்த விஞ்ஞானிகள் நிரூபித்தனர்?",
+      "options": [
+        "ஃபாரடே மற்றும் ஹென்றி மட்டுமே",
+        "நியூட்டன் மற்றும் ஐன்ஸ்டீன்",
+        "ஓஸ்டெட், அம்பியர் மற்றும் சிலர்",
+        "மாக்ஸ்வெல் மற்றும் ஹெர்ட்ஸ்"
+      ],
+      "correct": 2,
+      "explanation": "The text states that experiments on electric current by Oersted, Ampere and a few others established the fact that electricity and magnetism are inter-related. | மின்னோட்டம் குறித்த ஓஸ்டெட், அம்பியர் மற்றும் சிலர் செய்த சோதனைகள் மின்சாரம் மற்றும் காந்தவியல் ஒன்றுடன் ஒன்று தொடர்புடையவை என்பதை நிரூபித்தன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஓஸ்டெட் மற்றும் அம்பியர் நகரும் மின்னூட்டங்கள் குறித்து என்ன கண்டறிந்தனர்?",
+      "options": [
+        "அவை வெப்பத்தை உருவாக்குகின்றன",
+        "அவை காந்த புலங்களை உருவாக்குகின்றன",
+        "அவை ஒளியை உருவாக்குகின்றன",
+        "அவை ஒலியை உருவாக்குகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Oersted, Ampere and others found that moving electric charges produce magnetic fields. | ஓஸ்டெட், அம்பியர் மற்றும் பிறர் நகரும் மின்னூட்டங்கள் காந்த புலங்களை உருவாக்குகின்றன என்று கண்டறிந்தனர்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "உரையில் குறிப்பிடப்பட்ட மின்சாரம் காந்தவியலை உருவாக்கும் ஒரு எடுத்துக்காட்டு எது?",
+      "options": [
+        "ஒரு மின்கலம் கம்பியை சூடாக்குவது",
+        "ஒரு மின்னோட்டம் காந்த திசைகாட்டி ஊசியை விலக்குவது",
+        "ஒரு காந்தம் இரும்புத் தூள்களை ஈர்ப்பது",
+        "ஒரு மின்னல் தாக்கம் இடியை உருவாக்குவது"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that an electric current deflects a magnetic compass needle placed in its vicinity, demonstrating that electricity produces magnetic effects. | அதன் அருகில் வைக்கப்பட்ட காந்த திசைகாட்டி ஊசியை ஒரு மின்னோட்டம் விலக்குவதாக உரை குறிப்பிடுகிறது, இது மின்சாரம் காந்த விளைவுகளை உருவாக்குகிறது என்பதை நிரூபிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "உரையில் கேட்கப்பட்ட மாற்று விளைவு எதைப் பற்றியது?",
+      "options": [
+        "மின்சாரம் வெப்பத்தை உருவாக்க முடியுமா",
+        "நகரும் காந்தங்கள் மின்னோட்டங்களை உருவாக்க முடியுமா",
+        "ஒளி மின்சாரத்தை உருவாக்க முடியுமா",
+        "ஒலி காந்தவியலை உருவாக்க முடியுமா"
+      ],
+      "correct": 1,
+      "explanation": "The text asks whether the converse effect is possible: Can moving magnets produce electric currents? The answer is yes, as demonstrated by Faraday and Henry. | உரை மாற்று விளைவு சாத்தியமா என்று கேட்கிறது: நகரும் காந்தங்கள் மின்னோட்டங்களை உருவாக்க முடியுமா? பதில் ஆம், ஃபாரடே மற்றும் ஹென்றி நிரூபித்தபடி."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஃபாரடே மற்றும் ஹென்றி மின்காந்த தூண்டல் குறித்த தங்கள் சோதனைகளை சுமார் எந்த ஆண்டு செய்தனர்?",
+      "options": [
+        "1820",
+        "1830",
+        "1840",
+        "1850"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the experiments of Michael Faraday in England and Joseph Henry in USA were conducted around 1830. | இங்கிலாந்தில் மைக்கேல் ஃபாரடே மற்றும் அமெரிக்காவில் ஜோசஃப் ஹென்றியின் சோதனைகள் சுமார் 1830 ஆம் ஆண்டு செய்யப்பட்டன என்று உரை கூறுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஃபாரடே மற்றும் ஹென்றி தங்கள் சோதனைகளில் என்ன நிரூபித்தனர்?",
+      "options": [
+        "மின்னோட்டங்கள் வெப்பத்தை உருவாக்குகின்றன",
+        "மாறும் காந்த புலங்களுக்கு உட்படுத்தப்படும்போது மூடிய சுருள்களில் மின்னோட்டங்கள் தூண்டப்பட்டன",
+        "காந்த புலங்கள் அழிக்கப்படலாம்",
+        "நிலையான மின்சாரம் காந்தவியலை உருவாக்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Faraday and Henry demonstrated conclusively that electric currents were induced in closed coils when subjected to changing magnetic fields. | மாறும் காந்த புலங்களுக்கு உட்படுத்தப்படும்போது மூடிய சுருள்களில் மின்னோட்டங்கள் தூண்டப்பட்டன என்பதை ஃபாரடே மற்றும் ஹென்றி உறுதியாக நிரூபித்தனர்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மாறும் காந்த புலங்களால் மின்னோட்டம் உருவாக்கப்படும் நிகழ்வு என்ன அழைக்கப்படுகிறது?",
+      "options": [
+        "மின்காந்த கடத்தல்",
+        "மின்காந்த தூண்டல்",
+        "காந்த கடத்தல்",
+        "மின் தூண்டல்"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the phenomenon in which electric current is generated by varying magnetic fields is called electromagnetic induction. | மாறும் காந்த புலங்களால் மின்னோட்டம் உருவாக்கப்படும் நிகழ்வு மின்காந்த தூண்டல் என்று அழைக்கப்படுகிறது என்று உரை தெளிவாகக் கூறுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "தனது கண்டுபிடிப்பின் பயன் குறித்து கேட்கப்பட்டபோது, ஃபாரடே அதை எதனுடன் ஒப்பிட்டார்?",
+      "options": [
+        "ஒரு புதிய கண்டுபிடிப்புடன்",
+        "ஒரு பிறந்த குழந்தையுடன்",
+        "ஒரு அறிவியல் கோட்பாட்டுடன்",
+        "ஒரு நடைமுறை இயந்திரத்துடன்"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions Faraday's famous reply when asked about the use of his discovery: \"What is the use of a newborn baby?\" | தனது கண்டுபிடிப்பின் பயன் குறித்து கேட்கப்பட்டபோது, ஃபாரடேயின் பிரசித்தமான பதில்: \"பிறந்த குழந்தையின் பயன் என்ன?\""
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஃபாரடே மற்றும் ஹென்றியின் முன்னோடி சோதனைகள் நேரடியாக எதன் வளர்ச்சிக்கு வழிவகுத்தன?",
+      "options": [
+        "மின் மோட்டார்கள் மற்றும் மின்கலங்கள்",
+        "நவீன மின்னாக்கிகள் மற்றும் மின்மாற்றிகள்",
+        "வானொலி மற்றும் தொலைக்காட்சி",
+        "கணினிகள் மற்றும் இணையம்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the pioneering experiments of Faraday and Henry have led directly to the development of modern day generators and transformers. | ஃபாரடே மற்றும் ஹென்றியின் முன்னோடி சோதனைகள் நவீன மின்னாக்கிகள் மற்றும் மின்மாற்றிகளின் வளர்ச்சிக்கு நேரடியாக வழிவகுத்தன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "படம் 6.15(a)-ல், வட துருவத்துடன் கூடிய காந்தச் சட்டகம் ஒரு சுருளை நெருங்குகிறது. காந்தத்தின் பக்கத்திலிருந்து பார்க்கும்போது தூண்டப்பட்ட மின்னோட்டத்தின் திசை என்ன?",
+      "options": [
+        "கடிகார திசை",
+        "எதிர் கடிகார திசை",
+        "மின்னோட்டம் தூண்டப்படவில்லை",
+        "மாறும் திசை"
+      ],
+      "correct": 1,
+      "explanation": "According to Lenz's law, when the North pole approaches the coil, the induced current creates a North pole facing the magnet to oppose the flux increase. This requires counter-clockwise current when viewed from the magnet side. | லென்ஸின் விதிப்படி, வட துருவம் சுருளை நெருங்கும்போது, தூண்டப்பட்ட மின்னோட்டம் காந்தத்தை எதிர்க்கும் வட துருவத்தை உருவாக்குகிறது. காந்தத்தின் பக்கத்திலிருந்து பார்க்கும்போது இது எதிர் கடிகார திசையில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "படம் 6.15(b)-ல், காந்தச் சட்டகம் சுருளிலிருந்து விலகிச் செல்கிறது. காந்தம் நெருங்கும்போது ஒப்பிடும்போது தூண்டப்பட்ட மின்னோட்டத்தின் திசை என்ன?",
+      "options": [
+        "அதே திசையில்",
+        "திசை மாறுகிறது",
+        "பூஜ்யமாகிறது",
+        "மாறும்திசையாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the magnet is pulled away, flux decreases. To oppose this decrease, the induced current reverses to create a South pole facing the receding North pole, attracting it and opposing the motion. | காந்தம் விலக்கப்படும்போது பாயம் குறைகிறது. இந்தக் குறைவை எதிர்க்க, தூண்டப்பட்ட மின்னோட்டம் திசைமாறி விலகும் வட துருவத்தை ஈர்க்கும் தென் துருவத்தை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "படம் 6.15(c)-ல், இரண்டு சமஅச்சுச் சுருள்களைக் கொண்ட சுற்றில் தட்டும் விசை மூடப்படும்போது, இரண்டாம்நிலைச் சுருளில் தூண்டப்பட்ட மின்னோட்டத்தின் தன்மை என்ன?",
+      "options": [
+        "நிலையான நேர்மின்னோட்டம்",
+        "கணத்திற்கு மட்டுமே மின்னோட்டம்",
+        "மாறுமின்னோட்டம்",
+        "மின்னோட்டமே இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "When the key is closed, primary current rises from zero to maximum, causing changing flux. This induces a momentary current in the secondary. Once current becomes steady, flux stops changing and induced current drops to zero. | விசை மூடப்படும்போது, முதன்மை மின்னோட்டம் பூஜ்யத்திலிருந்து அதிகரிக்கிறது, காந்தப் பாயம் மாறுகிறது. இது இரண்டாம்நிலைச் சுருளில் கணத்திற்கு மின்னோட்டத்தைத் தூண்டுகிறது. மின்னோட்டம் நிலையானதானதும், தூண்டப்பட்ட மின்னோட்டம் பூஜ்யமாகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "படம் 6.15(d)-ல், இரண்டு சமஅச்சுச் சுருள்களைக் கொண்ட சுற்றில் ரியோஸ்டாட் அமைப்பு மாற்றப்படும்போது, இரண்டாம்நிலைச் சுருளில் என்ன நிகழ்கிறது?",
+      "options": [
+        "மின்தடை அதிகரிக்கும்போது மட்டுமே மின்னோட்டம்",
+        "மின்தடை குறையும்போது மட்டுமே மின்னோட்டம்",
+        "மின்தடை மாறிக்கொண்டிருக்கும் வரை மின்னோட்டம்",
+        "ரியோஸ்டாட் மாற்றத்தால் மின்னோட்டம் இல்லை"
+      ],
+      "correct": 2,
+      "explanation": "Changing the rheostat changes the primary current, which changes the magnetic flux. As long as the current is changing (whether increasing or decreasing), an induced current exists in the secondary coil due to changing flux linkage. | ரியோஸ்டாட் மாற்றுவது முதன்மை மின்னோட்டத்தை மாற்றுகிறது. இது காந்தப் பாயத்தை மாற்றுகிறது. மின்னோட்டம் மாறிக்கொண்டிருக்கும் வரை, மாறும் பாய இணைப்பு காரணமாக இரண்டாம்நிலைச் சுருளில் தூண்டப்பட்ட மின்னோட்டம் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "15 திருப்புகள்/செ.மீ கொண்ட நீளமான சோலனாய்டின் அச்சிற்கு செங்குத்தாக 2.0 செ.மீ² பரப்பளவு கொண்ட சிறிய வளையம் உள்ளே வைக்கப்பட்டுள்ளது. மின்னோட்டம் 2.0 A முதல் 4.0 A வரை 0.1 s-ல் மாறும்போது, வளையத்தில் தூண்டப்பட்ட emf என்ன?",
+      "options": [
+        "1.88 × 10⁻⁵ V",
+        "3.77 × 10⁻⁵ V",
+        "5.65 × 10⁻⁵ V",
+        "7.54 × 10⁻⁵ V"
+      ],
+      "correct": 3,
+      "explanation": "Using Faraday's law: n = 15 turns/cm = 1500 turns/m. B = μ₀nI. Flux change ΔΦ = μ₀nAΔI. Induced emf = μ₀nA(ΔI/Δt) = (4π×10⁻⁷)(1500)(2×10⁻⁴)(2/0.1) = 7.54 × 10⁻⁵ V. | ஃபாரடேயின் விதி: n = 15 திருப்புகள்/செ.மீ = 1500 திருப்புகள்/மீ. B = μ₀nI. பாய மாற்றம் ΔΦ = μ₀nAΔI. தூண்டப்பட்ட emf = μ₀nA(ΔI/Δt) = (4π×10⁻⁷)(1500)(2×10⁻⁴)(2/0.1) = 7.54 × 10⁻⁵ V."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "8 செ.மீ மற்றும் 2 செ.மீ பக்கங்கள் கொண்ட செவ்வக வளையம் 0.3 T சீரான காந்தப்புலத்திலிருந்து 1 செ.மீ/வி வேகத்தில் நீளமான பக்கத்திற்கு செங்குத்தாக வெளியேறுகிறது. தூண்டப்பட்ட emf என்ன?",
+      "options": [
+        "3.0 × 10⁻⁴ V",
+        "6.0 × 10⁻⁴ V",
+        "1.2 × 10⁻³ V",
+        "2.4 × 10⁻³ V"
+      ],
+      "correct": 1,
+      "explanation": "When moving normal to the longer side (8 cm), the rate of change of area involves the shorter side (2 cm = 0.02 m) as the width cutting flux lines. emf = B × l × v = 0.3 × 0.02 × 0.01 = 6.0 × 10⁻⁵ V. Duration = longer side / velocity = 0.08/0.01 = 8 s. | நீளமான பக்கத்திற்கு செங்குத்தாக நகரும்போது, குறுகிய பக்கம் (2 செ.மீ = 0.02 மீ) பாயக்கோடுகளை வெட்டுகிறது. emf = B × l × v = 0.3 × 0.02 × 0.01 = 6.0 × 10⁻⁵ V. காலம் = நீளமான பக்கம் / வேகம் = 0.08/0.01 = 8 வினாடிகள்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "1.0 மீ நீளமான உலோகக் கம்பி ஒரு முனையின் வழியாக அச்சிற்கு செங்குத்தாக 400 rad/s கோண வேகத்தில் சுழல்கிறது. அச்சிற்கு இணையான 0.5 T சீரான காந்தப்புலம் உள்ளது. மையத்திற்கும் வளையத்திற்கும் இடையே தூண்டப்பட்ட emf என்ன?",
+      "options": [
+        "50 V",
+        "100 V",
+        "150 V",
+        "200 V"
+      ],
+      "correct": 1,
+      "explanation": "For a rotating rod, motional emf = ½ BωL² = ½ × 0.5 × 400 × (1.0)² = 100 V. This is derived by integrating emf across each element of the rod, where each element at distance r moves with speed v = ωr. | சுழலும் கம்பிக்கு, இயக்க emf = ½ BωL² = ½ × 0.5 × 400 × (1.0)² = 100 V. கம்பியின் ஒவ்வொரு உறுப்பிலும் r தூரத்தில் v = ωr வேகத்தில் நகரும். ஒவ்வொரு உறுப்பிலும் emf ஐ ஒருங்கிணைப்பதன் மூலம் இது பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு சுற்றில் மின்னோட்டம் 5.0 A முதல் 0.0 A வரை 0.1 s-ல் குறைகிறது. 200 V சராசரி emf தூண்டப்பட்டால், சுற்றின் தன் தூண்டல் என்ன?",
+      "options": [
+        "2.0 H",
+        "3.0 H",
+        "4.0 H",
+        "5.0 H"
+      ],
+      "correct": 2,
+      "explanation": "Using self-inductance formula: ε = -L(dI/dt). The magnitude gives L = ε × Δt / ΔI = 200 × 0.1 / 5.0 = 4.0 H. Self-inductance opposes the change in current, and the induced emf is proportional to the rate of change of current. | தன் தூண்டல் சூத்திரம்: ε = -L(dI/dt). அளவு L = ε × Δt / ΔI = 200 × 0.1 / 5.0 = 4.0 H. தன் தூண்டல் மின்னோட்ட மாற்றத்தை எதிர்க்கிறது, தூண்டப்பட்ட emf மின்னோட்ட மாற்ற விகிதத்திற்கு நேர்விகிதத்தில் உள்ளது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "அண்டையில் உள்ள இரண்டு சுருள்களின் பரஸ்பர தூண்டல் 1.5 H. ஒரு சுருளில் மின்னோட்டம் 0 முதல் 20 A வரை 0.5 s-ல் மாறும்போது, மற்ற சுருளில் பாய இணைப்பு மாற்றம் என்ன?",
+      "options": [
+        "15 Wb",
+        "20 Wb",
+        "25 Wb",
+        "30 Wb"
+      ],
+      "correct": 3,
+      "explanation": "The flux linkage change Δ(NΦ) = M × ΔI = 1.5 × 20 = 30 Wb. Mutual inductance relates the flux linkage in one coil to the current change in the neighboring coil. The rate of change gives the induced emf. | பாய இணைப்பு மாற்றம் Δ(NΦ) = M × ΔI = 1.5 × 20 = 30 Wb. பரஸ்பர தூண்டல் ஒரு சுருளில் பாய இணைப்பை அண்டை சுருளில் மின்னோட்ட மாற்றத்துடன் தொடர்புபடுத்துகிறது. மாற்ற விகிதம் தூண்டப்பட்ட emf ஐத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "படம் 6.16(a)-ல், பக்கத்திற்குள் செல்லும் காந்தப்புலத்தில் உள்ள சீரற்ற கம்பி வளையம் வட்ட வளையமாக மாற்றப்படுகிறது. தூண்டப்பட்ட மின்னோட்டத்தின் திசை என்ன?",
+      "options": [
+        "கடிகார திசை, பாய அதிகரிப்பை எதிர்க்க",
+        "எதிர் கடிகார திசை, பாய அதிகரிப்பை எதிர்க்க",
+        "கடிகார திசை, பாய அதிகரிப்புக்கு உதவ",
+        "மின்னோட்டம் தூண்டப்படவில்லை"
+      ],
+      "correct": 0,
+      "explanation": "When the irregular loop is reshaped into a circle, the area increases, causing an increase in magnetic flux. According to Lenz's law, the induced current flows clockwise (creating a magnetic field out of the page) to oppose this increase in inward flux. | சீரற்ற கட்டம் வட்டமாக மாறும்போது பரப்பளவு அதிகரிக்கிறது, காந்தப் பாயம் அதிகரிக்கிறது. லென்ஸின் விதிப்படி, தூண்டப்பட்ட மின்னோட்டம் கடிகார திசையில் (பக்கத்திற்கு வெளியே காந்தப்புலத்தை உருவாக்கி) உள்ளே செல்லும் பாய அதிகரிப்பை எதிர்க்க பாய்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஜோசஃப் ஹென்றி எந்த நாட்டைச் சேர்ந்த இயற்பியலாளர்?",
+      "options": [
+        "இங்கிலாந்து",
+        "ஜெர்மனி",
+        "அமெரிக்கா",
+        "பிரான்ஸ்"
+      ],
+      "correct": 2,
+      "explanation": "Joseph Henry was an American experimental physicist who independently discovered electromagnetic induction around the same time as Faraday in England. He was a professor at Princeton University and the first director of the Smithsonian Institution. | ஜோசஃப் ஹென்றி ஒரு அமெரிக்க சோதனை இயற்பியலாளர் ஆவார், இங்கிலாந்தில் பாரடேயின் காலத்தில் சுயாதீனமாக மின்காந்தத் தூண்டலைக் கண்டறிந்தார். அவர் பிரின்ஸ்டன் பல்கலைக்கழகத்தில் பேராசிரியராகவும், ஸ்மித்சோனியன் நிறுவனத்தின் முதல் இயக்குநராகவும் இருந்தார்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஜோசஃப் ஹென்றி எந்த பல்கலைக்கழகத்தில் பேராசிரியராக பணியாற்றினார்?",
+      "options": [
+        "ஹார்வர்ட் பல்கலைக்கழகம்",
+        "பிரின்ஸ்டன் பல்கலைக்கழகம்",
+        "யேல் பல்கலைக்கழகம்",
+        "MIT"
+      ],
+      "correct": 1,
+      "explanation": "Joseph Henry was a professor at Princeton University. He made important improvements in electromagnets by winding coils of insulated wire around iron pole pieces and invented an electromagnetic motor and a new efficient telegraph. | ஜோசஃப் ஹென்றி பிரின்ஸ்டன் பல்கலைக்கழகத்தில் பேராசிரியராக பணியாற்றினார். இரும்பு துருவத் துண்டுகளைச் சுற்றி காப்பு கம்பி சுருள்களைச் சுற்றுவதன் மூலம் மின்காந்தங்களில் முக்கிய மேம்பாடுகளைச் செய்தார், மேலும் ஒரு மின்காந்த மோட்டாரையும் புதிய திறமையான தந்தியையும் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.1 இல், காந்த சட்டத்தின் வட துருவம் கால்வனோமீட்டருடன் இணைக்கப்பட்ட சுருளை நோக்கித் தள்ளப்படும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "கால்வனோமீட்டர் விலகலைக் காட்டாது",
+        "கால்வனோமீட்டர் விலகுகிறது, சுருளில் மின்னோட்டத்தைக் குறிக்கிறது",
+        "சுருள் கணிசமாக சூடாகிறது",
+        "காந்த சட்டம் தன் காந்த பண்புகளை இழக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the North pole of a bar magnet is pushed towards the coil, the pointer in the galvanometer deflects, indicating the presence of electric current in the coil. The deflection lasts as long as the bar magnet is in motion. | காந்த சட்டத்தின் வட துருவம் சுருளை நோக்கித் தள்ளப்படும்போது, கால்வனோமீட்டரில் காட்டி விலகுகிறது, இது சுருளில் மின்னோட்டத்தின் இருப்பைக் குறிக்கிறது. காந்த சட்டம் இயக்கத்தில் இருக்கும் வரை விலகல் நீடிக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்த சட்டம் சுருளுக்கு அருகில் நிலையாக வைக்கப்பட்டால் கால்வனோமீட்டருக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "அதிகபட்ச விலகலைக் காட்டுகிறது",
+        "எதிர் திசையில் விலகலைக் காட்டுகிறது",
+        "விலகல் இல்லை",
+        "தொடர்ச்சியான அதிர்வைக் காட்டுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "The galvanometer does not show any deflection when the magnet is held stationary. This demonstrates that relative motion between the magnet and the coil is necessary for electromagnetic induction. | காந்த சட்டம் நிலையாகப் பிடிக்கப்பட்டால் கால்வனோமீட்டர் எந்த விலகலையும் காட்டாது. காந்த சட்டத்திற்கும் சுருளுக்கும் இடையேயான சார்பு இயக்கம் மின்காந்தத் தூண்டலுக்கு அவசியமானது என்பதை இது நிரூபிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.1 இல் காந்த சட்டம் சுருளிலிருந்து விலக்கப்படும்போது கால்வனோமீட்டருக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "அதே திசையில் விலகலைக் காட்டுகிறது",
+        "எதிர் திசையில் விலகலைக் காட்டுகிறது",
+        "விலகல் இல்லை",
+        "சேதமடைகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the magnet is pulled away from the coil, the galvanometer shows deflection in the opposite direction, which indicates reversal of the current direction. This is consistent with Lenzs law. | காந்த சட்டம் சுருளிலிருந்து விலக்கப்படும்போது, கால்வனோமீட்டர் எதிர் திசையில் விலகுகிறது, இது மின்னோட்டத் திசையின் தலைகீழ் மாற்றத்தைக் குறிக்கிறது. இது லென்ஸின் விதிக்கு ஏற்ப உள்ளது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்த சட்டத்தின் தென் துருவம் சுருளை நோக்கி அல்லது விலக்கி நகர்த்தப்படும்போது, வட துருவத்துடன் ஒப்பிடும்போது விலகல்கள் எவ்வாறு இருக்கும்?",
+      "options": [
+        "அவை ஒத்தவை",
+        "அவை எதிரானவை",
+        "அவை இரண்டு மடங்கு பெரியவை",
+        "விலகல் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "When the South pole of the bar magnet is moved towards or away from the coil, the deflections in the galvanometer are opposite to those observed with the North pole for similar movements. This is because the magnetic field direction is reversed. | காந்த சட்டத்தின் தென் துருவம் சுருளை நோக்கி அல்லது விலக்கி நகர்த்தப்படும்போது, கால்வனோமீட்டரில் உள்ள விலகல்கள் ஒத்த இயக்கங்களுக்கு வட துருவத்துடன் ஒப்பிடும்போது எதிராக உள்ளன. காந்த புலத் திசை தலைகீழாக மாறுவதால் இது நிகழ்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்த சட்டம் வேகமாக சுருளை நோக்கித் தள்ளப்படும் அல்லது விலக்கப்படும்போது விலகல் (மற்றும் மின்னோட்டம்) எவ்வாறு மாறுகிறது?",
+      "options": [
+        "அது சிறியதாகிறது",
+        "அது அப்படியே இருக்கிறது",
+        "அது பெரியதாகிறது",
+        "அது பூஜ்யமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "The deflection and hence current is found to be larger when the magnet is pushed towards or pulled away from the coil faster. This is because the rate of change of magnetic flux increases with faster motion, leading to greater induced emf according to Faradays law. | காந்த சட்டம் வேகமாக சுருளை நோக்கித் தள்ளப்படும் அல்லது வேகமாக விலக்கப்படும்போது விலகலும் அதனால் மின்னோட்டமும் அதிகமாக இருக்கும். வேகமான இயக்கத்தால் காந்த புலத்தின் மாற்ற வீதம் அதிகரிக்கிறது, இது பாரடேயின் விதிப்படி அதிக தூண்டப்பட்ட emf ஐ உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.1 இல், காந்த சட்டம் நிலையாகப் பிடிக்கப்பட்டு சுருள் காந்த சட்டத்தை நோக்கி அல்லது விலக்கி நகர்த்தப்படும்போது என்ன காணப்படுகிறது?",
+      "options": [
+        "விளைவு எதுவும் காணப்படவில்லை",
+        "காந்த சட்டம் நகரும்போது காணப்படும் விளைவுகள் அதேபோல் காணப்படுகின்றன",
+        "சுருள் காந்தநீக்கம் அடைகிறது",
+        "கால்வனோமீட்டர் நிரந்தர விலகலைக் காட்டுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the bar magnet is held fixed and the coil is moved towards or away from the magnet, the same effects are observed. This shows that it is the relative motion between the magnet and the coil that is responsible for generation of electric current in the coil. | காந்த சட்டம் நிலையாகப் பிடிக்கப்பட்டு சுருள் காந்த சட்டத்தை நோக்கி அல்லது விலக்கி நகர்த்தப்படும்போது, ஒரே விளைவுகள் காணப்படுகின்றன. காந்த சட்டத்திற்கும் சுருளுக்கும் இடையேயான சார்பு இயக்கமே சுருளில் மின்னோட்டத்தை உருவாக்குவதற்கு காரணம் என்பதை இது காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.2 இல், சோதனை 6.1 இல் உள்ள காந்த சட்டம் எதனால் மாற்றப்படுகிறது?",
+      "options": [
+        "நிரந்தர காந்தம்",
+        "மின்கலத்துடன் இணைக்கப்பட்ட இரண்டாவது சுருள்",
+        "AC வழங்கல் கொண்ட மின்காந்தம்",
+        "மின்னோட்டமில்லாத சோலனாய்டு"
+      ],
+      "correct": 1,
+      "explanation": "In Experiment 6.2, the bar magnet is replaced by a second coil C2 connected to a battery. The steady current in coil C2 produces a steady magnetic field, which can induce current in coil C1 when there is relative motion. | சோதனை 6.2 இல், காந்த சட்டம் மின்கலத்துடன் இணைக்கப்பட்ட இரண்டாவது சுருளால் மாற்றப்படுகிறது. சுருள் C2 இல் உள்ள நிலையான மின்னோட்டம் நிலையான காந்த புலத்தை உருவாக்குகிறது, இது சார்பு இயக்கம் இருக்கும்போது சுருள் C1 இல் மின்னோட்டத்தைத் தூண்டும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.2 இல் சுருள் C2 இல் உள்ள நிலையான மின்னோட்டம் எந்த வகை காந்த புலத்தை உருவாக்குகிறது?",
+      "options": [
+        "காலம்-மாறும் காந்த புலம்",
+        "நிலையான காந்த புலம்",
+        "காந்த புலம் இல்லை",
+        "துடிப்பு காந்த புலம்"
+      ],
+      "correct": 1,
+      "explanation": "The steady current in coil C2 produces a steady magnetic field. A steady magnetic field alone cannot induce current in a nearby coil; relative motion or change in current is required for electromagnetic induction. | சுருள் C2 இல் உள்ள நிலையான மின்னோட்டம் நிலையான காந்த புலத்தை உருவாக்குகிறது. நிலையான காந்த புலம் மட்டுமே அருகிலுள்ள சுருளில் மின்னோட்டத்தைத் தூண்ட முடியாது; மின்காந்தத் தூண்டலுக்கு சார்பு இயக்கம் அல்லது மின்னோட்ட மாற்றம் தேவை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.2 இல் சுருள் C2 சுருள் C1 நோக்கி நகர்த்தப்படும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "கால்வனோமீட்டர் விலகலைக் காட்டாது",
+        "கால்வனோமீட்டர் விலகலைக் காட்டுகிறது",
+        "மின்கலம் வெற்றிடமடைகிறது",
+        "சுருள் C1 சூடாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When C2 is moved towards C1, the galvanometer shows a deflection. This indicates that electric current is induced in coil C1 due to the changing magnetic flux caused by the relative motion between the two coils. | சுருள் C2 சுருள் C1 நோக்கி நகர்த்தப்படும்போது, கால்வனோமீட்டர் விலகலைக் காட்டுகிறது. இது இரண்டு சுருள்களுக்கு இடையேயான சார்பு இயக்கத்தால் ஏற்படும் மாறும் காந்த புலத்தின் காரணமாக சுருள் C1 இல் மின்னோட்டம் தூண்டப்பட்டதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.2 இல் சுருள் C2 சுருள் C1 இலிருந்து விலக்கப்படும்போது கால்வனோமீட்டருக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "அதே திசையில் விலகலைக் காட்டுகிறது",
+        "எதிர் திசையில் விலகலைக் காட்டுகிறது",
+        "விலகல் இல்லை",
+        "தொடர்ச்சியான விலகலைக் காட்டுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When C2 is moved away from C1, the galvanometer shows a deflection again, but this time in the opposite direction. The opposite direction indicates that the induced current flows in the reverse direction compared to when C2 approaches C1. | சுருள் C2 சுருள் C1 இலிருந்து விலக்கப்படும்போது, கால்வனோமீட்டர் மீண்டும் விலகலைக் காட்டுகிறது, ஆனால் இந்த முறை எதிர் திசையில். எதிர் திசை என்பது தூண்டப்பட்ட மின்னோட்டம் சுருள் C2 அருகே வரும்போதை விட எதிர் திசையில் பாய்கிறது என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.2 இல் சுருள் C2 நிலையாகப் பிடிக்கப்பட்டு சுருள் C1 நகர்த்தப்படும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "விளைவுகள் எதுவும் காணப்படவில்லை",
+        "ஒரே விளைவுகள் காணப்படுகின்றன",
+        "வெப்பமூட்டம் மட்டுமே நிகழ்கிறது",
+        "மின்கல சுற்று உடைகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When coil C2 is held fixed and C1 is moved, the same effects are observed. Again, it is the relative motion between the coils that induces the electric current, not which specific coil is moving. | சுருள் C2 நிலையாகப் பிடிக்கப்பட்டு சுருள் C1 நகர்த்தப்படும்போது, ஒரே விளைவுகள் காணப்படுகின்றன. மீண்டும், சுருள்களுக்கு இடையேயான சார்பு இயக்கமே மின்னோட்டத்தைத் தூண்டுகிறது, எந்த குறிப்பிட்ட சுருள் நகர்கிறது என்பது முக்கியமல்ல."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3 இல், சோதனைகள் 6.1 மற்றும் 6.2 இலிருந்து முக்கிய வேறுபாடு என்ன?",
+      "options": [
+        "இரண்டு சுருள்களும் நிலையாக வைக்கப்பட்டுள்ளன",
+        "அதிக சக்தி வாய்ந்த மின்கலம் பயன்படுத்தப்படுகிறது",
+        "பெரிய சுருள் பயன்படுத்தப்படுகிறது",
+        "காந்த சட்டம் வலிமையானது"
+      ],
+      "correct": 0,
+      "explanation": "In Experiment 6.3, both coils C1 and C2 are held stationary, unlike Experiments 6.1 and 6.2 where relative motion was involved. This experiment demonstrates that relative motion is not an absolute requirement for electromagnetic induction; changing current can also induce emf. | சோதனை 6.3 இல், சுருள்கள் C1 மற்றும் C2 இரண்டும் நிலையாக வைக்கப்படுகின்றன, சோதனைகள் 6.1 மற்றும் 6.2 இல் சார்பு இயக்கம் இருந்தது. இந்த சோதனை சார்பு இயக்கம் மின்காந்தத் தூண்டலுக்கு முழுமையான தேவையல்ல; மாறும் மின்னோட்டமும் emf ஐத் தூண்ட முடியும் என்பதை நிரூபிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3 இல் சுருள் C2 எவ்வாறு இணைக்கப்பட்டுள்ளது?",
+      "options": [
+        "கால்வனோமீட்டருடன்",
+        "தட்டும் விசை K வழியாக மின்கலத்துடன்",
+        "நேரடியாக சுருள் C1 உடன்",
+        "மின்தடையுடன் மட்டும்"
+      ],
+      "correct": 1,
+      "explanation": "In Experiment 6.3, coil C1 is connected to galvanometer G while coil C2 is connected to a battery through a tapping key K. When the key is pressed or released, the current in C2 changes, inducing momentary current in C1. | சோதனை 6.3 இல், சுருள் C1 கால்வனோமீட்டர் G உடன் இணைக்கப்பட்டுள்ளது, சுருள் C2 தட்டும் விசை K வழியாக மின்கலத்துடன் இணைக்கப்பட்டுள்ளது. விசை அழுத்தப்படும் அல்லது விடுவிக்கப்படும்போது, சுருள் C2 இல் மின்னோட்டம் மாறுகிறது, இது சுருள் C1 இல் தற்காலிக மின்னோட்டத்தைத் தூண்டுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3 இல் தட்டும் விசை K அழுத்தப்படும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "கால்வனோமீட்டர் நிரந்தர விலகலைக் காட்டுகிறது",
+        "கால்வனோமீட்டர் தற்காலிக விலகலைக் காட்டுகிறது",
+        "விலகல் நிகழவில்லை",
+        "சுருள் C1 சூடாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the tapping key K is pressed, the galvanometer shows a momentary deflection. The pointer returns to zero immediately because the current in C2 quickly reaches a steady value, and only the change in current induces emf. | தட்டும் விசை K அழுத்தப்படும்போது, கால்வனோமீட்டர் தற்காலிக விலகலைக் காட்டுகிறது. சுருள் C2 இல் மின்னோட்டம் விரைவாக நிலையான மதிப்பை அடைவதால் காட்டி உடனடியாக பூஜ்யத்திற்குத் திரும்புகிறது, மின்னோட்ட மாற்றம் மட்டுமே emf ஐத் தூண்டும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3 இல் தட்டும் விசை K தொடர்ந்து அழுத்தப்பட்டால் என்ன நிகழ்கிறது?",
+      "options": [
+        "விலகல் தொடர்ந்து அதிகரிக்கிறது",
+        "கால்வனோமீட்டரில் விலகல் இல்லை",
+        "விலகல் மெதுவாகக் குறைகிறது",
+        "கால்வனோமீட்டர் சேதமடைகிறது"
+      ],
+      "correct": 1,
+      "explanation": "If the key is held pressed continuously, there is no deflection in the galvanometer. This is because the current in coil C2 becomes constant, so there is no change in magnetic flux through coil C1, and hence no induced emf. | விசை தொடர்ந்து அழுத்தப்பட்டால், கால்வனோமீட்டரில் விலகல் இல்லை. சுருள் C2 இல் மின்னோட்டம் நிலையானதாகிவிடுவதால் சுருள் C1 வழியாக காந்த புலத்தில் மாற்றம் இல்லை, எனவே தூண்டப்பட்ட emf இல்லை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3 இல் தட்டும் விசை K விடுவிக்கப்படும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "விலகல் காணப்படவில்லை",
+        "எதிர் திசையில் தற்காலிக விலகல் காணப்படுகிறது",
+        "நிரந்தர விலகல் காணப்படுகிறது",
+        "மின்கலம் வெடிக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the key is released, a momentary deflection is observed again, but in the opposite direction. This is because the current in C2 decreases from maximum to zero, causing a decrease in magnetic flux through C1, which induces current in the opposite direction. | விசை விடுவிக்கப்படும்போது, மீண்டும் தற்காலிக விலகல் காணப்படுகிறது, ஆனால் எதிர் திசையில். சுருள் C2 இல் மின்னோட்டம் அதிகபட்சத்திலிருந்து பூஜ்யத்திற்குக் குறைவதால் சுருள் C1 வழியாக காந்த புலம் குறைகிறது, இது எதிர் திசையில் மின்னோட்டத்தைத் தூண்டுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோதனை 6.3 இல் சுருள்களின் அச்சில் இரும்புக் கம்பி செருகப்படும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "விலகல் குறைகிறது",
+        "விலகல் வியத்தகு முறையில் அதிகரிக்கிறது",
+        "விலகலில் மாற்றம் இல்லை",
+        "சுருள்கள் சேதமடைகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "The deflection increases dramatically when an iron rod is inserted into the coils along their axis. This is because iron being a ferromagnetic material increases the magnetic permeability, thereby increasing the magnetic flux and hence the induced emf. | இரும்புக் கம்பி சுருள்களின் அச்சில் செருகப்படும்போது விலகல் வியத்தகு முறையில் அதிகரிக்கிறது. இரும்பு ஒரு காந்தப்புறண் பொருளாக இருப்பதால் காந்த ஊடுருவுதிறனை அதிகரிக்கிறது, இதனால் காந்த புலம் மற்றும் தூண்டப்பட்ட emf அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஜோசஃப் ஹென்றி கண்டறிந்தவைகளில் எவை அடங்கும்?",
+      "options": [
+        "மின்காந்தத் தூண்டல் மட்டும்",
+        "சுயத் தூண்டல் மற்றும் பரஸ்பர தூண்டல்",
+        "மின்காந்த அலைகள்",
+        "எக்ஸ்-கதிர்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Joseph Henry discovered self-induction and investigated how currents in one circuit induce currents in another (mutual induction). He also made important improvements in electromagnets and invented an electromagnetic motor and a new efficient telegraph. | ஜோசஃப் ஹென்றி சுயத் தூண்டலைக் கண்டறிந்தார் மற்றும் ஒரு சுற்றில் உள்ள மின்னோட்டங்கள் மற்றொரு சுற்றில் மின்னோட்டங்களை எவ்வாறு தூண்டுகின்றன (பரஸ்பர தூண்டல்) என்பதை ஆராய்ந்தார். மேலும் அவர் மின்காந்தங்களில் முக்கிய மேம்பாடுகளைச் செய்தார் மற்றும் ஒரு மின்காந்த மோட்டாரையும் புதிய திறமையான தந்தியையும் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோலனாய்டில் சேமிக்கப்பட்ட காந்த ஆற்றலின் வெளிப்பாடு B, A, l மற்றும் mu_0 மூலம் எவ்வாறு கொடுக்கப்படுகிறது?",
+      "options": [
+        "U_B = (1/2) B^2 A l / mu_0",
+        "U_B = (1/2) mu_0 B^2 A l",
+        "U_B = B^2 A l / (2 mu_0)",
+        "U_B = mu_0 B A l / 2"
+      ],
+      "correct": 2,
+      "explanation": "From the derivation in Example 6.9, the magnetic energy is U_B = (1/2) L I^2. Substituting L = mu_0 n^2 A l and I = B/(mu_0 n), we get U_B = (1/2)(B^2 / mu_0) A l = B^2 A l / (2 mu_0). | உதாரணம் 6.9-ல் வழங்கப்பட்ட வழிமுறையின்படி, காந்த ஆற்றல் U_B = (1/2) L I^2. L = mu_0 n^2 A l மற்றும் I = B/(mu_0 n) ஐ பதிலிடும்போது, U_B = (1/2)(B^2 / mu_0) A l = B^2 A l / (2 mu_0) கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோலனாய்டில் சேமிக்கப்பட்ட காந்த ஆற்றல் அடர்த்தி என்ன?",
+      "options": [
+        "u_B = B^2 / mu_0",
+        "u_B = (1/2) B^2 / mu_0",
+        "u_B = B^2 / (2 mu_0 A l)",
+        "u_B = mu_0 B^2 / 2"
+      ],
+      "correct": 1,
+      "explanation": "The magnetic energy per unit volume is obtained by dividing total energy by volume V = A l. Thus u_B = U_B / (A l) = (1/2)(B^2 / mu_0). | காந்த ஆற்றல் அடர்த்தி u_B = U_B / V = U_B / (A l) = (1/2)(B^2 / mu_0). இது பக்கம் 16-ல் சமன்பாடு (6.18) ஆக வழங்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "AC ஜெனரேட்டரின் வளர்ச்சிக்கு எந்த விஞ்ஞானி பொறுப்பாகக் கருதப்படுகிறார்?",
+      "options": [
+        "மைக்கேல் ஃபாரடே",
+        "ஜோசஃப் ஹென்றி",
+        "நிக்கோலா டெஸ்லா",
+        "ஹெய்ன்ரிக் லென்ஸ்"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states: The Yugoslav inventor Nicola Tesla is credited with the development of the machine (AC generator). | உரையில் தெளிவாகக் குறிப்பிடப்பட்டுள்ளது: யூகோஸ்லாவிய கண்டுபிடிப்பாளர் நிக்கோலா டெஸ்லா (Nicola Tesla) AC ஜெனரேட்டரின் வளர்ச்சிக்கு பொறுப்பாகக் கருதப்படுகிறார்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப்புலம் B-யில் கோணம் தீட்டா-வில் சுழலும் கம்பியின் பயனுள்ள பரப்பளவு என்ன?",
+      "options": [
+        "A sin theta",
+        "A cos theta",
+        "A tan theta",
+        "A / cos theta"
+      ],
+      "correct": 1,
+      "explanation": "As stated in the text: the effective area of the loop (the face perpendicular to the field) is A cos theta, where theta is the angle between A and B. | உரையில் குறிப்பிடப்பட்டுள்ளபடி: காந்தப்புலம் B-யில் சுழலும் கம்பியின் பயனுள்ள பரப்பளவு A cos theta, இங்கு theta என்பது A மற்றும் B-க்கு இடையேயான கோணம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "AC ஜெனரேட்டரில் எந்த வகையான ஆற்றல் மாற்றம் நிகழ்கிறது?",
+      "options": [
+        "மின்சார ஆற்றல் முதல் இயந்திர ஆற்றல்",
+        "வேதியியல் ஆற்றல் முதல் மின்சார ஆற்றல்",
+        "இயந்திர ஆற்றல் முதல் மின்சார ஆற்றல்",
+        "வெப்ப ஆற்றல் முதல் இயந்திர ஆற்றல்"
+      ],
+      "correct": 2,
+      "explanation": "The text clearly states: An ac generator converts mechanical energy into electrical energy. | உரையில் தெளிவாகக் குறிப்பிடப்பட்டுள்ளது: AC ஜெனரேட்டர் இயந்திர ஆற்றலை மின்சார ஆற்றலாக மாற்றுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சமாந்தரத் தட்டு கண்டென்சரில் ஒரு அலகு பருமனுக்கு சேமிக்கப்பட்ட நிலைமின் ஆற்றல் எந்த வெளிப்பாட்டால் கொடுக்கப்படுகிறது?",
+      "options": [
+        "u_E = (1/2) epsilon_0 E",
+        "u_E = epsilon_0 E^2 / 2",
+        "u_E = (1/2) epsilon_0 E^2",
+        "u_E = E^2 / (2 epsilon_0)"
+      ],
+      "correct": 2,
+      "explanation": "From Eq.(2.73) referenced in the text: u_E = (1/2) epsilon_0 E^2. This is analogous to the magnetic energy density formula. | உரையில் குறிப்பிடப்பட்ட சமன்பாடு (2.73)-லிருந்து: u_E = (1/2) epsilon_0 E^2. இது காந்த ஆற்றல் அடர்த்தி சமன்பாட்டிற்கு ஒத்ததாகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்த மற்றும் நிலைமின் ஆற்றல் சேமிப்பு இரண்டிலும், ஆற்றல் எதற்கு நேர்விகிதத்தில் உள்ளது?",
+      "options": [
+        "புல வலிமை",
+        "புல வலிமையின் வர்க்கம்",
+        "புல வலிமையின் கனம்",
+        "புல வலிமையின் நேர்மாறு"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states: In both the cases energy is proportional to the square of the field strength. Both u_B and u_E contain B^2 and E^2 respectively. | உரையில் தெளிவாகக் குறிப்பிடப்பட்டுள்ளது: இரண்டு வழக்குகளிலும் ஆற்றல் புல வலிமையின் வர்க்கத்திற்கு நேர்விகிதத்தில் உள்ளது. u_B மற்றும் u_E இரண்டும் முறையே B^2 மற்றும் E^2-ஐக் கொண்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "உரையில் குறிப்பிடப்பட்டுள்ள நவீன AC ஜெனரேட்டரின் வழக்கமான வெளியீட்டு திறன் என்ன?",
+      "options": [
+        "10 MW",
+        "50 MW",
+        "100 MW",
+        "500 MW"
+      ],
+      "correct": 2,
+      "explanation": "The text states: The modern ac generator with a typical output capacity of 100MW is a highly evolved machine. | உரையில் குறிப்பிடப்பட்டுள்ளபடி: நவீன AC ஜெனரேட்டரின் வழக்கமான வெளியீட்டு திறன் 100 MW ஆகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஃபாரடேயின் மின்காந்தத் தூண்டல் விதிப்படி, ஒரு தனி வளையத்தில் தூண்டப்பட்ட emf இன் கணித வெளிப்பாடு எது?",
+      "options": [
+        "ε = + dΦ_B / dt",
+        "ε = - dΦ_B / dt",
+        "ε = Φ_B × dt",
+        "ε = B × A × cos θ"
+      ],
+      "correct": 1,
+      "explanation": "Faraday's law states that induced emf equals negative time rate of change of magnetic flux. The negative sign shows direction per Lenz's law. | ஃபாரடேயின் விதி கூறுவது, தூண்டப்பட்ட emf காந்தப் பாயத்தின் எதிர் கால மாறுபாட்டிற்கு சமம். எதிர் குறி லென்ஸின் விதிப்படி தூண்டப்பட்ட மின்னோட்டம் பாய மாற்றத்தை எதிர்க்கும் திசையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "N வளையங்கள் கொண்ட ஒரு நெருக்கமாகச் சுற்றப்பட்ட சுருளுக்கு, மொத்த தூண்டப்பட்ட emf இன் வெளிப்பாடு எது?",
+      "options": [
+        "ε = - dΦ_B / (N dt)",
+        "ε = - N² dΦ_B / dt",
+        "ε = - N dΦ_B / dt",
+        "ε = - Φ_B / (N dt)"
+      ],
+      "correct": 2,
+      "explanation": "For N turns, flux change per turn is same. Total emf is N times single turn emf: ε = -N dΦ_B/dt. More turns increase emf. | N வளையங்களுக்கு ஒவ்வொரு வளையத்தின் பாய மாற்றமும் ஒரே மாதிரியானது. மொத்த emf ஒரு வளையத்தின் N மடங்கு: ε = -N dΦ_B/dt. அதிக வளையங்கள் emf ஐ அதிகரிக்கின்றன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பின்வருவனவற்றில் எது மைக்கேல் ஃபாரடேவின் கண்டுபிடிப்பு அல்ல?",
+      "options": [
+        "மின்காந்தத் தூண்டலின் கண்டுபிடிப்பு",
+        "மின்பகுப்பு விதிகள்",
+        "பென்சீனின் கண்டுபிடிப்பு",
+        "X-கதிர்களின் கண்டுபிடிப்பு"
+      ],
+      "correct": 3,
+      "explanation": "Faraday discovered electromagnetic induction, laws of electrolysis, benzene, and polarization rotation. He invented motor, generator, transformer. X-rays were discovered by Röntgen. | ஃபாரடே மின்காந்தத் தூண்டல், மின்பகுப்பு விதிகள், பென்சீன், தள சுழற்சி ஆகியவற்றைக் கண்டுபிடித்தார். மோட்டார், ஜெனரேட்டர், டிரான்ஸ்ஃபார்மரைக் கண்டுபிடித்தார். X-கதிர்கள் ரோன்ட்கெனால் கண்டுபிடிக்கப்பட்டன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப் பாயத்தை மாற்றுவதற்கு எந்த அளவுகளை மாற்றலாம்?",
+      "options": [
+        "காந்தப் புலம் B மட்டுமே",
+        "பரப்பளவு A மட்டுமே",
+        "B மற்றும் A இடையே கோணம் θ மட்டுமே",
+        "B, A, θ ஆகியவற்றில் ஒன்று அல்லது அதற்கு மேற்பட்டவை"
+      ],
+      "correct": 3,
+      "explanation": "From Φ_B = BA cos θ, flux changes by varying B, A, or θ. Experiments 6.1-6.2 varied B. Shape change or rotation also alters flux. | Φ_B = BA cos θ இல் இருந்து, B, A, θ இல் ஒன்று அல்லது அதற்கு மேற்பட்டவற்றை மாற்றுவதன் மூலம் பாயத்தை மாற்றலாம். சோதனைகள் 6.1-6.2 B ஐ மாற்றின. வடிவ மாற்றம் அல்லது சுழற்சியும் பாயத்தை மாற்றும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "10 cm பக்கம் கொண்ட சதுர வளையம், 0.5 Ω மின்தடை, 0.10 T காந்தப் புலத்தில் 45° கோணத்தில் வைக்கப்பட்டுள்ளது. புலம் 0.70 s இல் பூஜ்யமாகக் குறைந்தால், தூண்டப்பட்ட emf இன் அளவு எவ்வளவு?",
+      "options": [
+        "0.5 V",
+        "1.0 V",
+        "1.5 V",
+        "2.0 V"
+      ],
+      "correct": 1,
+      "explanation": "Initial flux Φ = BA cos θ = 0.1 × 10⁻² × cos 45° = 10⁻³/√2 Wb. emf = |ΔΦ|/Δt = (10⁻³/√2)/0.7 = 1.0 V. | தொடக்க பாயம் Φ = BA cos θ = 0.1 × 10⁻² × cos 45° = 10⁻³/√2 Wb. emf = |ΔΦ|/Δt = (10⁻³/√2)/0.7 = 1.0 V."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மேற்கண்ட சோதனையில் (10 cm சதுர வளையம், 0.5 Ω, 0.10 T, 45°), தூண்டப்பட்ட மின்னோட்டத்தின் அளவு எவ்வளவு?",
+      "options": [
+        "1 mA",
+        "2 mA",
+        "5 mA",
+        "10 mA"
+      ],
+      "correct": 1,
+      "explanation": "Current I = ε/R = (10⁻³ V)/(0.5 Ω) = 2 mA. Earth's magnetic field is steady and does not induce emf. | மின்னோட்டம் I = ε/R = (10⁻³ V)/(0.5 Ω) = 2 mA. பூமியின் காந்தப் புலம் நிலையானது, emf ஐ தூண்டாது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "கால்வனோமீட்டரில் பெரிய விலகலைப் பெறுவதற்கு எந்த நடவடிக்கை எடுக்கப்பட வேண்டும்?",
+      "options": [
+        "வலுவற்ற மின்கலத்தைப் பயன்படுத்தி மெதுவாக நகர்த்துவது",
+        "C2 சுருளுக்குள் மென் இரும்புக் கம்பி, சக்திவாய்ந்த மின்கலம், விரைவான இயக்கம்",
+        "இரும்புக் கம்பியை அகற்றி குறைந்த மின்னழுத்தத்தைப் பயன்படுத்துவது",
+        "சுருளை நிலையாக வைத்து வலுவற்ற காந்தத்தைப் பயன்படுத்துவது"
+      ],
+      "correct": 1,
+      "explanation": "For large deflection: (i) soft iron rod in C2 concentrates field, (ii) powerful battery for stronger current, (iii) rapid movement for faster flux change. | பெரிய விலகலுக்கு: (i) C2 இல் மென் இரும்பு காந்தப் புலத்தைக் குவிக்கும், (ii) சக்திவாய்ந்த மின்கலம் வலுவான மின்னோட்டத்திற்கு, (iii) விரைவான இயக்கம் விரைவான பாய மாற்றத்திற்கு."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "கால்வனோமீட்டர் இல்லாமல் தூண்டப்பட்ட மின்னோட்டத்தை எவ்வாறு நிரூபிப்பீர்கள்?",
+      "options": [
+        "வலுவான காந்தத்தை மட்டும் பயன்படுத்துவது",
+        "கால்வனோமீட்டருக்குப் பதிலாக சிறிய டார்ச் பல்பைப் பயன்படுத்துவது",
+        "டிஜிட்டல் மல்டிமீட்டரைப் பயன்படுத்துவது",
+        "சுருள்களின் எண்ணிக்கையை அதிகரிப்பது"
+      ],
+      "correct": 1,
+      "explanation": "Replace galvanometer with small torch bulb. Relative motion between coils makes bulb glow, showing induced current. This demonstrates innovative experimental physics. | கால்வனோமீட்டருக்குப் பதிலாக சிறிய டார்ச் பல்பைப் பயன்படுத்தவும். சுருள்களுக்கு இடையேயான சார்பு இயக்கம் பல்பை ஒளிரச் செய்யும், தூண்டப்பட்ட மின்னோட்டத்தைக் காட்டும். இது புதுமையான சோதனை இயற்பியலை நிரூபிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு நிலையான நிரந்தர காந்தங்களுக்கு இடையில் ஒரு மூடிய சுருள் நிலையாக வைக்கப்பட்டுள்ளது. மிகவும் வலிமையான காந்தங்களைப் பயன்படுத்தினால் மின்னோட்டம் உண்டாகுமா?",
+      "options": [
+        "ஆம், வலிமையான காந்தங்கள் எப்போதும் பெரிய மின்னோட்டத்தை உண்டாக்கும்",
+        "இல்லை, காந்தப் பாயத்தில் மாற்றம் ஏற்படும்போதுதான் மின்னோட்டம் உண்டாகும்",
+        "ஆம், அருமண் காந்தப் பொருட்களைப் பயன்படுத்தினால்",
+        "இல்லை, ஆனால் மீகடத்தக் கம்பியால் செய்யப்பட்ட சுருளில் மின்னோட்டம் உண்டாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Current cannot be induced in a stationary loop regardless of magnet strength because magnetic flux through the loop remains constant. Faraday's law requires a CHANGE in magnetic flux to induce emf. | மாறாத காந்தப் பாயத்தில் மின்னோட்டம் உண்டாகாது. ஃபாரடேயின் விதி படி காந்தப் பாயத்தில் மாற்றம் ஏற்பட வேண்டும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு மூடிய கடத்தும் சுருள், காண்டென்சர் தகடுகளுக்கு இடையே உள்ள மாறான சீரான மின்புலத்திற்கு செங்குத்தாக நகர்கிறது. சுருள் முழுவதும் மின்புலப் பகுதிக்குள் இருக்கும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "ஒரு நிலையான நேர்மின்னோட்டம் உண்டாகிறது",
+        "மாறுமின்னோட்டம் உண்டாகிறது",
+        "மின்னோட்டம் உண்டாகாது",
+        "ஒரு தற்காலிக மின்னோட்டத் துடிப்பு உண்டாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "No current is induced because changing electric flux does not induce current. Only changing magnetic flux induces emf according to Faraday's law of electromagnetic induction. | மாறான மின்புலத்தில் மின்னோட்டம் உண்டாகாது. காந்தப் பாய மாற்றமே மின்னியக்குவிசையை உண்டாக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு செவ்வகச் சுருளும் வட்டச் சுருளும் சீரான காந்தப் புலத்திலிருந்து மாறா வேகம் v-யில் வெளியேறுகின்றன. வெளியேறும்போது எந்தச் சுருளில் மின்னியக்குவிசை மாறாததாக இருக்கும்?",
+      "options": [
+        "வட்டச் சுருள், அதன் சமச்சீர்த்தன்மை காரணமாக",
+        "செவ்வகச் சுருள், புலத்தில் பரப்பளவு மாற்ற வீதம் மாறாததாக இருப்பதால்",
+        "இரண்டு சுருள்களிலும் மாறா மின்னியக்குவிசை கிடைக்கும்",
+        "எந்தச் சுருளிலும் மாறா மின்னியக்குவிசை கிடைக்காது"
+      ],
+      "correct": 1,
+      "explanation": "The rectangular loop has constant emf because the length of the side perpendicular to motion is constant, giving constant rate of area change. The circular loop has varying rate of area change during exit. | செவ்வகச் சுருளில் மாறான மின்னியக்குவிசை கிடைக்கும் ஏனெனில் புலத்திலிருந்து வெளியேறும் பகுதியின் நீளம் மாறாதது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு காந்தங்களுக்கு (S-N மற்றும் S-N) இடையே ஒரு சுருள் நகரும்போது, சுருளுடன் இணைக்கப்பட்ட காண்டென்சரின் தகட்டு A-ன் தகட்டு B-யைப் பொறுத்த மின்ச்சார்ஜ் தன்மை என்ன?",
+      "options": [
+        "தகட்டு A தகட்டு B-யை விட எதிர்மின்னச் சார்ஜ் கொண்டிருக்கும்",
+        "தகட்டு A தகட்டு B-யை விட நேர்மின்னச் சார்ஜ் கொண்டிருக்கும்",
+        "இரண்டு தகடுகளும் சமமான மின்னழுத்தம் கொண்டிருக்கும்",
+        "மின்ச்சார்ஜ் தன்மை தொடர்ந்து மாறிக்கொண்டே இருக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Using Lenz's law and the right-hand rule, the induced current direction makes plate A positive relative to plate B. The direction of motion and magnetic field orientation determine this polarity. | லென்ஸ் விதி மற்றும் வலது கை விதி படி தகட்டு A தகட்டு B-யை விட நேர்மின்னச் சார்ஜ் கொண்டிருக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நீளம் l கொண்ட ஒரு கடத்தும் கம்பி, சீரான காந்தப் புலம் B-க்கு செங்குத்தாக v வேகத்தில் நகர்கிறது. உண்டாகும் இயக்க மின்னியக்குவிசையின் அளவு என்ன?",
+      "options": [
+        "e = Bv/l",
+        "e = Bl/v",
+        "e = Blv",
+        "e = B/(lv)"
+      ],
+      "correct": 2,
+      "explanation": "The motional emf is given by e = Blv, derived from Faraday's law where the rate of change of area (lv) in magnetic field B gives the flux change rate. | இயக்க மின்னியக்குவிசை e = Blv என்ற சூத்திரத்தால் கொடுக்கப்படுகிறது. இது காந்தப் பாய மாற்ற வீதத்தைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நகரும் கடத்தியில் உள்ள இயக்க மின்னியக்குவிசையை, கட்டற்ற மின்னூட்டங்களின் மீது செயல்படும் எந்த விசையால் விளக்கலாம்?",
+      "options": [
+        "ஈர்ப்பு விசை",
+        "கூலம்ப் விசை",
+        "லோரன்ஸ் விசை",
+        "அணுக்கரு விசை"
+      ],
+      "correct": 2,
+      "explanation": "The Lorentz force q(v x B) acts on charges moving with velocity v in magnetic field B, causing charge separation and thus creating emf across the conductor ends. | லோரன்ஸ் விசை q(v x B) எலக்ட்ரான்களை நகர்த்தி மின்னியக்குவிசையை உண்டாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப் புலம் B-க்கு செங்குத்தாக v வேகத்தில் நகரும் நீளம் l கொண்ட கம்பியின் ஒரு முனையிலிருந்து மறுமுனைக்கு q மின்னூட்டம் நகர்த்தப்படும்போது, காந்த விசை செய்யும் வேலை என்ன?",
+      "options": [
+        "W = qvB/l",
+        "W = qvBl",
+        "W = qB/(vl)",
+        "W = ql/(vB)"
+      ],
+      "correct": 1,
+      "explanation": "The work done is W = qvBl since the Lorentz force is qvB and acts over distance l. The emf equals this work per unit charge, giving e = Blv. | வேலை W = qvBl ஆகும். இது ஒரு அலகு மின்னூட்டத்திற்கான வேலையாக மாற்றப்பட்டு மின்னியக்குவிசையைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நீளம் R கொண்ட ஒரு உலோகக் கம்பி, ஒரு முனையைச் சுற்றி கோண வேகம் omega-யில் சுழல்கிறது. அச்சுக்கு இணையான சீரான காந்தப் புலம் B உள்ளது. மையத்திற்கும் வளையத்திற்கும் இடையேயான மின்னியக்குவிசை என்ன?",
+      "options": [
+        "e = (1/2)B omega R",
+        "e = (1/2)B omega R^2",
+        "e = B omega R^2",
+        "e = (1/4)B omega R^2"
+      ],
+      "correct": 1,
+      "explanation": "The emf is e = (1/2)B omega R^2 obtained by integrating Bv dr from 0 to R where v = omega r, or equivalently from the rate of change of sector area (1/2)R^2 theta. | சுழலும் கம்பியின் மின்னியக்குவிசை e = (1/2)B omega R^2 ஆகும். இது துறை பரப்பளவின் மாற்ற வீதத்திலிருந்து கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "செவ்வக வடிவ PQRS கடத்தியில் PQ கம்பி இடதுபுறம் நகரும்போது, சுருளின் வழியாக உள்ள காந்தப் பாயத்திற்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "பரப்பளவு அதிகரிப்பதால் பாயம் அதிகரிக்கிறது",
+        "பரப்பளவு குறைவதால் பாயம் குறைகிறது",
+        "பாயம் மாறாததாக இருக்கிறது",
+        "பாயம் காலமுறையாக மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "As PQ moves left, the length x = RQ decreases, reducing the enclosed area A = lx. Since flux equals BA and B is constant, the flux decreases with decreasing area. | PQ இடதுபுறம் நகரும்போது பரப்பளவு குறைந்து காந்தப் பாயமும் குறைகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பக்கத்திற்குள் (into the page) காந்தப் புலம் உள்ள பகுதியில் PQ கம்பி இடதுபுறம் நகரும்போது, சுருளில் உண்டாகும் மின்னோட்டத்தின் திசை என்ன?",
+      "options": [
+        "கடிகாரத் திசையில்",
+        "கடிகாரத் திசைக்கு எதிராக",
+        "மின்னோட்டம் உண்டாகாது",
+        "மின்னோட்டத் திசை மாறிக்கொண்டே இருக்கும்"
+      ],
+      "correct": 0,
+      "explanation": "Using Lenz's law and the right-hand rule, as the area decreases and flux into the page decreases, the induced current creates a field into the page, requiring clockwise current. | பக்கத்திற்குள் காந்தப் பாயம் குறைவதால், மீண்டும் அதை எதிர்க்க கடிகாரத் திசையில் மின்னோட்டம் உண்டாகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப் புலத்தில் நகரும் கடத்தியில் மின்னோட்டம் உண்டாகும்போது, அந்த மின்னோட்டத்தின் ஆற்றல் இறுதியாக எங்கிருந்து வருகிறது?",
+      "options": [
+        "காந்தப் புலத்திலிருந்து",
+        "கடத்தியின் வெப்ப ஆற்றலிலிருந்து",
+        "கடத்தியை நகர்த்த செய்யப்படும் இயக்க வேலையிலிருந்து",
+        "சுற்றின் உள் தடையிலிருந்து"
+      ],
+      "correct": 2,
+      "explanation": "The energy comes from the mechanical work done against the magnetic force opposing the motion (Lenz's law). This work is converted to electrical energy and then to heat via Joule heating. | இயக்க வேலை காந்த விசைக்கு எதிராக செய்யப்படுகிறது. இது மின் ஆற்றலாக மாற்றப்பட்டு ஜூல் வெப்பமாகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நகரும் PQ கடத்தியின் வேகம் இரட்டிப்பாக்கப்பட்டால், B மற்றும் l மாறாததாக இருக்கும்போது இயக்க மின்னியக்குவிசைக்கு என்ன நிகழும்?",
+      "options": [
+        "மாறாததாக இருக்கும்",
+        "பாதியாகக் குறையும்",
+        "இரட்டிப்பாகும்",
+        "நான்கு மடங்காகும்"
+      ],
+      "correct": 2,
+      "explanation": "Since e = Blv, the emf is directly proportional to velocity v. Doubling v doubles the emf, as the rate of change of flux depends linearly on velocity. | e = Blv என்பதால் v இரட்டிப்பாகும்போது மின்னியக்குவிசையும் இரட்டிப்பாகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "கடத்தி நிலையாக இருக்கும் போது காந்தப் புலம் காலத்துடன் மாறும்போது, கடத்தியில் உள்ள மின்னூட்டங்களின் மீது எந்த விசை செயல்படுகிறது?",
+      "options": [
+        "லோரன்ஸ் விசையின் காந்தப் புல உறுப்பு",
+        "காலம்சார்ந்த காந்தப் பாய மாற்றத்தால் உண்டாகும் மின்புலம்",
+        "ஈர்ப்புப் புலம்",
+        "நிலையான மின்னூட்டங்களில் விசை உண்டாகாது"
+      ],
+      "correct": 1,
+      "explanation": "For stationary charges (v=0), the Lorentz force F = q(E + v x B) reduces to F = qE. The time-varying magnetic field generates an electric field that exerts force on the charges. | நிலையான மின்னூட்டங்களுக்கு F = qE மட்டுமே. காலம்சார்ந்த காந்தப் பாய மாற்றம் ஒரு மின்புலத்தை உண்டாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "செவ்வக வடிவ PQRS சுருளில் RS = l மற்றும் RQ = x எனில், சீரான காந்தப் புலம் B-க்கு செங்குத்தாக இருக்கும்போது சுருளின் வழியாக உள்ள காந்தப் பாயம் என்ன?",
+      "options": [
+        "Phi = B(l + x)",
+        "Phi = Blx",
+        "Phi = B/(lx)",
+        "Phi = B(l - x)"
+      ],
+      "correct": 1,
+      "explanation": "The flux is Phi = B * A = B * (l * x) = Blx, where A = lx is the area of the rectangle with sides l and x. | பரப்பளவு A = lx என்பதால் காந்தப் பாயம் Phi = Blx ஆகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நகரும் கடத்தி அமைப்பில் x நேரத்துடன் மாறும்போது, உண்டாகும் மின்னியக்குவிசையின் அளவுக்கான வெளிப்பாடு என்ன?",
+      "options": [
+        "e = Bl(dx/dt)",
+        "e = -Bl(dx/dt)",
+        "e = Blx(dx/dt)",
+        "e = B/(l dx/dt)"
+      ],
+      "correct": 1,
+      "explanation": "From Faraday's law, e = -d(Phi)/dt = -d(Blx)/dt = -Bl(dx/dt) = -Blv, where v = dx/dt. The negative sign indicates opposition to flux change. | ஃபாரடே விதி படி e = -d(Blx)/dt = -Blv. எதிர்குறி மாற்றத்தை எதிர்க்கும் தன்மையைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சீரான காந்தப் புலம் B இல் வைக்கப்பட்ட பரப்பளவு A கொண்ட மேற்பரப்பின் வழியாக காந்தப் பாயத்தின் கணித வெளிப்பாடு என்ன?",
+      "options": [
+        "ΦB = B × A × sin θ",
+        "ΦB = B · A = BA cos θ",
+        "ΦB = B + A + cos θ",
+        "ΦB = BA / cos θ"
+      ],
+      "correct": 1,
+      "explanation": "The magnetic flux is defined as the dot product of magnetic field B and area vector A, which equals BA cos θ where θ is the angle between B and A. | காந்தப் புலம் B மற்றும் பரப்பளவு வெக்டர் A இடையே கோணம் θ எனில், காந்தப் பாயம் ΦB = BA cos θ என வரையறுக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "N சுற்றுகள் கொண்ட சுருளில் தூண்டப்பட்ட மின்னழுத்தத்திற்கான ஃபரடேயின் விதி வெளிப்பாடு என்ன?",
+      "options": [
+        "ε = N × ΦB × t",
+        "ε = -N × dΦB/dt",
+        "ε = N / (dΦB/dt)",
+        "ε = ΦB / (N × t)"
+      ],
+      "correct": 1,
+      "explanation": "Faraday's law states that the induced emf is equal to the negative rate of change of magnetic flux linkage, given by ε = -N dΦB/dt. The negative sign indicates the direction of induced emf according to Lenz's law. | ஃபரடேயின் விதி படி, தூண்டப்பட்ட மின்னழுத்தம் ε = -N dΦB/dt என வரையறுக்கப்படுகிறது. இங்கு N என்பது சுற்றுகளின் எண்ணிக்கை, dΦB/dt என்பது காந்தப் பாயத்தின் மாற்ற வீதம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "லென்ஸின் விதி படி, தூண்டப்பட்ட மின்னோட்டத்தின் திசை எவ்வாறு இருக்கும்?",
+      "options": [
+        "காந்தப் பாய மாற்றத்தின் அதே திசையில் மின்னோட்டம் ஓடும்",
+        "காந்தப் பாய மாற்றத்தை எதிர்க்கும் திசையில் மின்னோட்டம் ஓடும்",
+        "காந்தப் பாயத்திற்கு செங்குத்தாக மின்னோட்டம் ஓடும்",
+        "காந்தப் பாய மாற்றத்துடன் மின்னோட்டத்திற்கு தொடர்பு இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "Lenz's law states that the polarity of induced emf is such that it tends to produce a current which opposes the change in magnetic flux that produces it. This is consistent with the law of conservation of energy. | லென்ஸின் விதி கூறுகிறது: தூண்டப்பட்ட மின்னோட்டம், அதை உருவாக்கிய காந்தப் பாய மாற்றத்தை எதிர்க்கும் திசையில் ஓடும். இது ஆற்றல் பாதுகாப்பு விதிக்கு இணங்கியது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நீளம் l கொண்ட உலோகக் கம்பி, சீரான காந்தப் புலம் B க்கு செங்குத்தாக v வேகத்தில் நகரும்போது தூண்டப்பட்ட இயக்க மின்னழுத்தத்தின் சூத்திரம் என்ன?",
+      "options": [
+        "ε = B × l × v",
+        "ε = B + l + v",
+        "ε = B / (l × v)",
+        "ε = (B × v) / l"
+      ],
+      "correct": 0,
+      "explanation": "When a metal rod of length l is placed normal to a uniform magnetic field B and moved with velocity v perpendicular to the field, the induced emf (motional emf) across its ends is ε = Blv. | நீளம் l கொண்ட உலோகக் கம்பி, காந்தப் புலம் B க்கு செங்குத்தாக v வேகத்தில் நகரும்போது, தூண்டப்பட்ட இயக்க மின்னழுத்தம் ε = Blv ஆகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "தூண்டல் பாய இணைப்பு மற்றும் மின்னோட்டத்தின் அடிப்படையில் எவ்வாறு வரையறுக்கப்படுகிறது?",
+      "options": [
+        "தூண்டல் = மின்னோட்டம் / பாய இணைப்பு",
+        "தூண்டல் = பாய இணைப்பு × மின்னோட்டம்",
+        "தூண்டல் = பாய இணைப்பு / மின்னோட்டம்",
+        "தூண்டல் = பாய இணைப்பு - மின்னோட்டம்"
+      ],
+      "correct": 2,
+      "explanation": "Inductance is defined as the ratio of flux linkage to current, given by L = NΦB/I. It is a measure of the inertia of the coil against the change of current through it. | தூண்டல் = பாய இணைப்பு / மின்னோட்டம் (L = NΦB/I) என வரையறுக்கப்படுகிறது. இது மின்னோட்ட மாற்றத்தை எதிர்க்கும் சுற்றுக்கோிலின் உறுதித்தன்மையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு சுருள்களுக்கு இடையேயான பரஸ்பர தூண்டல் M12 மற்றும் M21 இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "M12 = 2 × M21",
+        "M12 = M21",
+        "M12 = M21 / 2",
+        "M12 = M21²"
+      ],
+      "correct": 1,
+      "explanation": "There exists a general equality M12 = M21 for mutual inductance between two coils. This means the mutual inductance of coil 1 with respect to coil 2 equals the mutual inductance of coil 2 with respect to coil 1. | இரண்டு சுருள்களுக்கு இடையேயான பரஸ்பர தூண்டல் M12 = M21 என்ற சமநிலை உள்ளது. இது இரு சுருள்களுக்கும் பொதுவானது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுய தூண்டல் L கொண்ட சுருளில் மின்னோட்டம் மாறும்போது தூண்டப்பட்ட சுய மின்னழுத்தத்தின் வெளிப்பாடு என்ன?",
+      "options": [
+        "ε = L × dI/dt",
+        "ε = -L × dI/dt",
+        "ε = L / (dI/dt)",
+        "ε = dI/(L × dt)"
+      ],
+      "correct": 1,
+      "explanation": "The self-induced emf is given by ε = -L(dI/dt), where L is the self-inductance of the coil. The negative sign indicates that the self-induced emf always opposes any change (increase or decrease) of current in the coil. | சுய தூண்டப்பட்ட மின்னழுத்தம் ε = -L(dI/dt) என வரையறுக்கப்படுகிறது. இங்கு L என்பது சுய தூண்டல், எதிர்குறி மின்னோட்ட மாற்றத்தை எதிர்க்கும் தன்மையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சார்பு காந்த ஊடகம் μr கொண்ட நீளமான சோலனாய்டின் சுய தூண்டலின் சூத்திரம் என்ன?",
+      "options": [
+        "L = μr × μ0 × n × A × l",
+        "L = μr × μ0 × n² × A × l",
+        "L = μr × μ0 × n × A² × l",
+        "L = μr × μ0 × n² × A / l"
+      ],
+      "correct": 1,
+      "explanation": "The self-inductance of a long solenoid with a magnetic core of relative permeability μr is L = μrμ0n²Al, where n is turns per unit length, A is cross-sectional area, and l is length. | நீளமான சோலனாய்டின் சுய தூண்டல் L = μrμ0n²Al ஆகும். இங்கு n என்பது ஒரு அலகு நீளத்திற்கான சுற்றுகள், A என்பது குறுக்கு வெட்டுப் பரப்பளவு, l என்பது நீளம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மாற்று மின்னோட்டம் உற்பத்தி செய்யும் கருவியில், N சுற்றுகள் மற்றும் A பரப்பளவு கொண்ட சுருள் n சுற்றுகள்/வினாடி வேகத்தில் காந்தப் புலம் B இல் சுழன்றால் கண நேர மின்னழுத்தத்தின் வெளிப்பாடு என்ன?",
+      "options": [
+        "e = NBA(2πn)cos(2πnt)",
+        "e = NBA(2πn)sin(2πnt)",
+        "e = NBA/(2πn)sin(2πnt)",
+        "e = NBA(2πn)tan(2πnt)"
+      ],
+      "correct": 1,
+      "explanation": "The instantaneous emf in an AC generator is e = NBA(2πn)sin(2πnt), where NBA(2πn) is the maximum emf. The emf varies sinusoidally with time. | மாற்று மின்னோட்டம் உற்பத்தி செய்யும் கருவியில், கண நேர மின்னழுத்தம் e = NBA(2πn)sin(2πnt) ஆகும். இங்கு NBA(2πn) என்பது அதிகபட்ச மின்னழுத்தம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மூடிய சுற்றில் மின்தடை R மற்றும் தூண்டப்பட்ட மின்னழுத்தம் ε இருந்தால், தூண்டப்பட்ட மின்னோட்டம் I என்ன?",
+      "options": [
+        "I = ε × R",
+        "I = ε / R",
+        "I = R / ε",
+        "I = ε + R"
+      ],
+      "correct": 1,
+      "explanation": "According to Ohm's law, the induced current in a closed circuit is I = ε/R, where ε is the induced emf and R is the resistance of the circuit. | மூடிய சுற்றில் தூண்டப்பட்ட மின்னோட்டம் I = ε/R என ஓமின் விதி படி கணக்கிடப்படுகிறது. இங்கு ε என்பது தூண்டப்பட்ட மின்னழுத்தம், R என்பது மின்தடை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சீரான காந்தப் புலம் B இல் பரப்பளவு A கொண்ட தளம் வைக்கப்பட்டுள்ளது. காந்தப் பாயத்தின் சரியான சூத்திரம் எது?",
+      "options": [
+        "ΦB = BA sin θ",
+        "ΦB = BA cos θ",
+        "ΦB = B/A cos θ",
+        "ΦB = BA tan θ"
+      ],
+      "correct": 1,
+      "explanation": "The magnetic flux is defined as the dot product of B and A, which equals BA cos θ where θ is the angle between the magnetic field and area vector. | காந்தப் புலம் B மற்றும் பரப்பளவு வெக்டர் A இடையே கோணம் θ எனில், காந்தப் பாயம் ΦB = BA cos θ என வரையறுக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "N சுற்றுகள் கொண்ட சுருளில் தூண்டப்பட்ட மின்னியக்குவிசைக்கான ஃபாரடேயின் விதி சூத்திரம் எது?",
+      "options": [
+        "ε = +N dΦB/dt",
+        "ε = -N dΦB/dt",
+        "ε = N ΦB t",
+        "ε = N / (dΦB/dt)"
+      ],
+      "correct": 1,
+      "explanation": "Faraday's law states that induced emf equals the negative rate of change of magnetic flux. The negative sign represents Lenz's law direction. | ஃபாரடேயின் விதி படி, தூண்டப்பட்ட மின்னழுத்தம் ε = -N dΦB/dt. எதிர்குறி லென்ஸின் விதியின் திசையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "லென்ஸின் விதி படி, தூண்டப்பட்ட மின்னியக்குவிசையின் துருவமுனை எவ்வாறு அமைந்திருக்கும்?",
+      "options": [
+        "காந்தப் பாய மாற்றத்தை உதவும் மின்னோட்டத்தை உருவாக்கும்",
+        "காந்தப் பாய மாற்றத்தை எதிர்க்கும் மின்னோட்டத்தை உருவாக்கும்",
+        "காந்தப் பாய மாற்றத்தைச் சாராத மின்னோட்டத்தை உருவாக்கும்",
+        "காந்தப் பாய மாற்றத்தின் வர்க்கத்திற்கு விகிதாசாரமான மின்னோட்டத்தை உருவாக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Lenz's law states that induced emf polarity produces a current which opposes the change in magnetic flux that produced it. | லென்ஸின் விதி கூறுகிறது: தூண்டப்பட்ட மின்னழுத்தத்தின் துருவமுனை, அதை உருவாக்கிய காந்தப் பாய மாற்றத்தை எதிர்க்கும் மின்னோட்டத்தை உருவாக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "நீளம் l கொண்ட உலோகக் கம்பி சீரான காந்தப் புலம் B இல் செங்குத்தாக வைக்கப்பட்டு, புலத்திற்கு செங்குத்தாக v வேகத்தில் நகர்கிறது. தூண்டப்பட்ட இயக்க மின்னழுத்தம் என்ன?",
+      "options": [
+        "ε = Bl/v",
+        "ε = Bv/l",
+        "ε = Blv",
+        "ε = B + l + v"
+      ],
+      "correct": 2,
+      "explanation": "Motional emf is given by ε = Blv when a conductor moves perpendicular to a magnetic field. | காந்தப் புலத்திற்கு செங்குத்தாக v வேகத்தில் நகரும் கடத்தியில், தூண்டப்பட்ட இயக்க மின்னழுத்தம் ε = Blv."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "தூண்டலின் (Inductance) வரையறை என்ன?",
+      "options": [
+        "மின்னோட்டம் / பாய இணைப்பு",
+        "பாய இணைப்பு / மின்னோட்டம் = NΦ/I",
+        "பாயம் × மின்னோட்டம்",
+        "பாயம் - மின்னோட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "Inductance is the ratio of flux-linkage to current, NΦ/I. It measures how much flux is linked per unit current. | தூண்டல் = NΦ/I, அதாவது பாய இணைப்பு மற்றும் மின்னோட்டத்தின் விகிதம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு சுருள்களுக்கு இடையேயான பரஸ்பர தூண்டல் M12 எனில், சுருள் 2-ல் மின்னோட்டம் மாறும்போது சுருள் 1-ல் தூண்டப்படும் மின்னழுத்தம் என்ன?",
+      "options": [
+        "ε1 = +M12 dI2/dt",
+        "ε1 = -M12 dI2/dt",
+        "ε1 = M12 I2 t",
+        "ε1 = M12 / (dI2/dt)"
+      ],
+      "correct": 1,
+      "explanation": "The induced emf in coil 1 due to changing current in coil 2 is ε1 = -M12 dI2/dt. | இரண்டு சுருள்களுக்கு இடையேயான பரஸ்பர தூண்டல் M12 எனில், சுருள் 2-ல் மின்னோட்டம் மாறும்போது சுருள் 1-ல் தூண்டப்படும் மின்னழுத்தம் ε1 = -M12 dI2/dt."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுய தூண்டல் L கொண்ட சுருளில் மின்னோட்டம் மாறும்போது தூண்டப்படும் சுய மின்னழுத்தம் என்ன?",
+      "options": [
+        "ε = +L dI/dt",
+        "ε = -L dI/dt",
+        "ε = L I t",
+        "ε = L / (dI/dt)"
+      ],
+      "correct": 1,
+      "explanation": "Self-induced emf is ε = -L dI/dt. The negative sign shows it opposes current change. | சுய தூண்டல் L கொண்ட சுருளில், மின்னோட்டம் மாறும்போது தூண்டப்படும் மின்னழுத்தம் ε = -L dI/dt. எதிர்குறி மின்னோட்ட மாற்றத்தை எதிர்க்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சார்பு ஊடுபொருள் μr, குறுக்கு வெட்டு பரப்பளவு A, நீளம் l, மற்றும் ஒரு அலகு நீளத்திற்கு n சுற்றுகள் கொண்ட நீளமான சோலனாய்டின் சுய தூண்டல் என்ன?",
+      "options": [
+        "L = μr μ0 n A l",
+        "L = μr μ0 n² A l",
+        "L = μr μ0 n A / l",
+        "L = μ0 n² A l"
+      ],
+      "correct": 1,
+      "explanation": "Self-inductance of a long solenoid with magnetic core is L = μr μ0 n² A l. | நீளமான சோலனாய்டின் சுய தூண்டல் L = μr μ0 n² A l, இங்கு n என்பது ஒரு அலகு நீளத்திற்கான சுற்றுகள்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "N சுற்றுகள், A பரப்பளவு கொண்ட சுருள் சீரான காந்தப் புலம் B இல் விநாடிக்கு n சுழற்சிகள் வேகத்தில் சுழல்கிறது. கண நேர மின்னழுத்தம் என்ன?",
+      "options": [
+        "ε = NBA(2πn) cos(2πnt)",
+        "ε = NBA(2πn) sin(2πnt)",
+        "ε = NBA sin(2πnt)",
+        "ε = NBA(2πn) tan(2πnt)"
+      ],
+      "correct": 1,
+      "explanation": "The instantaneous emf in an AC generator is ε = NBA(2πn) sin(2πnt), where NBA(2πn) is the maximum emf. | மாற்று மின்னோட்ட ஜெனரேட்டரில், கண நேர மின்னழுத்தம் ε = NBA(2πn) sin(2πnt), இங்கு NBA(2πn) = ε0 என்பது அதிகபட்ச மின்னழுத்தம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சிந்திக்க வேண்டிய குறிப்புகளின்படி, நகரும் மின்சுமைகள் காந்தப் புலத்தை உருவாக்குகின்றன என நிரூபித்த அறிவியலாளர்கள் யார்?",
+      "options": [
+        "ஃபாரடே மற்றும் ஹென்றி மட்டுமே",
+        "ஓர்ஸ்டெட், அம்பியர் மற்றும் பிறர்",
+        "டெஸ்லா மற்றும் எடிசன்",
+        "மேக்ஸ்வெல் மற்றும் ஹெர்ட்ஸ்"
+      ],
+      "correct": 1,
+      "explanation": "Oersted, Ampere and others established that moving charges produce magnetic fields in the early 19th century. | 19ஆம் நூற்றாண்டின் ஆரம்பத்தில், ஓர்ஸ்டெட், அம்பியர் மற்றும் பிற அறிவியலாளர்களின் சோதனைகள் நகரும் மின்சுமைகள் காந்தப் புலத்தை உருவாக்குகின்றன என நிரூபித்தன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மூடிய சுற்றில், காந்தப் பாய மாற்றத்தை எதிர்க்கும் மின்னோட்டங்கள் தூண்டப்படுகின்றன. இது எந்த அடிப்படை விதிக்கு கீழ்படிகிறது?",
+      "options": [
+        "நியூட்டனின் முதல் விதி",
+        "ஆற்றல் பாதுகாப்பு விதி",
+        "நிறை பாதுகாப்பு விதி",
+        "கூலம்பின் விதி"
+      ],
+      "correct": 1,
+      "explanation": "The induced currents oppose flux change as per the law of conservation of energy, which is the basis of Lenz's law. | மூடிய சுற்றில், மின்னோட்டங்கள் காந்தப் பாய மாற்றத்தை எதிர்க்குமாறு தூண்டப்படுகின்றன. இது ஆற்றல் பாதுகாப்பு விதிக்கு கீழ்படிகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "திறந்த சுற்றின் விஷயத்தில், காந்தப் பாயம் மாறும்போது அதன் முனைகளுக்கு இடையே என்ன தூண்டப்படுகிறது?",
+      "options": [
+        "எந்த விளைவும் இல்லை",
+        "ஒரு மின்னியக்குவிசை தூண்டப்படுகிறது",
+        "மின்னியக்குவிசை இல்லாமல் மின்னோட்டம் பாய்கிறது",
+        "சுற்று தானாகவே மூடிக்கொள்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "In an open circuit, an emf is induced across its ends but no current flows because the circuit is not complete. | திறந்த சுற்றின் விஷயத்தில், அதன் முனைகளுக்கு இடையே ஒரு மின்னியக்குவிசை தூண்டப்படுகிறது. ஆனால் சுற்று திறந்திருப்பதால் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தப் பாயத்தின் SI அலகு எது?",
+      "options": [
+        "டெஸ்லா (T)",
+        "வெபர் (Wb)",
+        "ஹென்றி (H)",
+        "வோல்ட் (V)"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic flux is weber (Wb). Tesla is for magnetic field, Henry for inductance, Volt for emf. | காந்தப் பாயத்தின் SI அலகு வெபர் (Wb). டெஸ்லா காந்தப் புலத்திற்கு, ஹென்றி தூண்டலுக்கு, வோல்ட் மின்னழுத்தத்திற்கு."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மின்னியக்குவிசையின் (EMF) பரிமாணம் என்ன?",
+      "options": [
+        "[ML²T⁻²A⁻¹]",
+        "[ML²T⁻³A⁻¹]",
+        "[ML²T⁻²A⁻²]",
+        "[MLT⁻²A⁻¹]"
+      ],
+      "correct": 1,
+      "explanation": "EMF has dimensions [ML²T⁻³A⁻¹] as shown in the table. This comes from ε = -d(NΦ)/dt. | மின்னியக்குவிசையின் பரிமாணம் [ML²T⁻³A⁻¹]. இது ε = -d(NΦ)/dt சமன்பாட்டிலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பரஸ்பர தூண்டல் மற்றும் சுய தூண்டல் இரண்டின் பரிமாணமும் என்ன?",
+      "options": [
+        "[ML²T⁻²A⁻¹]",
+        "[ML²T⁻³A⁻¹]",
+        "[ML²T⁻²A⁻²]",
+        "[MLT⁻²A⁻²]"
+      ],
+      "correct": 2,
+      "explanation": "Both mutual and self inductance have dimensions [ML²T⁻²A⁻²] from NΦ = LI. | பரஸ்பர தூண்டல் M மற்றும் சுய தூண்டல் L இரண்டின் பரிமாணமும் [ML²T⁻²A⁻²]. NΦ = LI என்ற வரையறையிலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பயிற்சி 6.1-ல், படங்கள் 6.15(a) முதல் (f) வரையிலான சூழல்களில் தூண்டப்பட்ட மின்னோட்டத்தின் திசையைக் கண்டறிய எந்த அடிப்படை விதி பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "ஃபாரடேயின் விதி மட்டுமே",
+        "லென்ஸின் விதி",
+        "அம்பியரின் விதி",
+        "பயோட்-சாவார்ட் விதி"
+      ],
+      "correct": 1,
+      "explanation": "Lenz's law is used to determine the direction of induced current. It states current opposes the flux change. | தூண்டப்பட்ட மின்னோட்டத்தின் திசையைக் கண்டறிய லென்ஸின் விதி பயன்படுத்தப்படுகிறது. இது காந்தப் பாய மாற்றத்தை எதிர்க்கும் திசையில் மின்னோட்டம் பாயும் எனக் கூறுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பயிற்சி 6.2-ல், ஒழுங்கற்ற வடிவமுள்ள கம்பி வட்ட வடிவமாக மாறும்போது, சுற்றின் வழியாக உள்ள காந்தப் பாயத்திற்கு என்ன நடக்கிறது?",
+      "options": [
+        "பாயம் குறைகிறது",
+        "பாயம் அதிகரிக்கிறது",
+        "பாயம் மாறாதது",
+        "பாயம் பூஜ்யமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When shape changes to circle, area increases, so magnetic flux increases. By Lenz's law, current opposes this increase. | ஒழுங்கற்ற வடிவம் வட்ட வடிவமாக மாறும்போது, சுற்றுள்ள பரப்பளவு அதிகரிக்கிறது. எனவே காந்தப் பாயம் அதிகரிக்கிறது. லென்ஸின் விதி படி, இந்த அதிகரிப்பை எதிர்க்கும் திசையில் மின்னோட்டம் தூண்டப்படும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பயிற்சி 6.3-ல், செ.மீ.க்கு 15 சுற்றுகள் கொண்ட சோலனாய்டின் உள்ளே சிறிய சுருள் வைக்கப்பட்டுள்ளது. இங்கு சோதிக்கப்படும் முக்கிய கருத்து எது?",
+      "options": [
+        "இயக்க மின்னழுத்தம்",
+        "சுய தூண்டல்",
+        "சோலனாய்டில் மாறும் மின்னோட்டத்தால் தூண்டப்படும் மின்னழுத்தம்",
+        "AC ஜெனரேட்டர் கொள்கை"
+      ],
+      "correct": 2,
+      "explanation": "This exercise tests induced emf in a loop inside a solenoid when current changes, demonstrating Faraday's law. | சோலனாய்டின் உள்ளே வைக்கப்பட்ட சிறிய சுருளில், சோலனாய்டின் மின்னோட்டம் மாறும்போது தூண்டப்படும் மின்னழுத்தத்தைக் கண்டறியும் பயிற்சி. இது ஃபாரடேயின் விதியை நிரூபிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பயிற்சி 6.4-ல், செவ்வக சுற்று காந்தப் புலப் பகுதியை விட்டு வெளியேறுகிறது. இது எந்த வகை மின்னழுத்தத்தின் எடுத்துக்காட்டு?",
+      "options": [
+        "மாற்றி மின்னழுத்தம்",
+        "இயக்க மின்னழுத்தம்",
+        "சுய தூண்டப்பட்ட மின்னழுத்தம்",
+        "பரஸ்பர தூண்டப்பட்ட மின்னழுத்தம்"
+      ],
+      "correct": 1,
+      "explanation": "A moving loop out of a magnetic field produces motional emf due to changing area in the field. | செவ்வக சுற்று காந்தப் புலப் பகுதியை விட்டு வெளியேறும்போது, மாறும் பரப்பளவு காரணமாக இயக்க மின்னழுத்தம் ε = Blv தூண்டப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பயிற்சி 6.5-ல், உலோகக் கம்பி ஒரு முனை வழியாக சுழலும் அச்சில் சுழல்கிறது. மின்னழுத்தத்தைக் கணக்கிட எந்த சூத்திரம் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "ε = Blv",
+        "ε = (1/2) B ω l²",
+        "ε = B ω l",
+        "ε = B ω² l"
+      ],
+      "correct": 1,
+      "explanation": "For a rod rotating about one end, emf is ε = (1/2) B ω l², derived by integrating motional emf over the rod length. | ஒரு முனையை மையமாகக் கொண்டு சுழன்றும் கடத்தியில், மின்னழுத்தம் ε = (1/2) B ω l². இது கடத்தியின் நீளம் முழுவதும் இயக்க மின்னழுத்தத்தை ஒருங்கிணைப்பதன் மூலம் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பயிற்சி 6.6-ல், கிடைமட்ட கம்பி பூமியின் காந்தப் புலத்திற்கு செங்குத்தாக நகர்கிறது. இது எதன் எடுத்துக்காட்டு?",
+      "options": [
+        "சுய தூண்டல்",
+        "பூமியின் புலத்தில் இயக்க மின்னழுத்தம்",
+        "மாற்றி செயல்பாடு",
+        "மின்காந்த அலைகள்"
+      ],
+      "correct": 1,
+      "explanation": "A horizontal wire moving perpendicular to Earth's field is an example of motional emf in Earth's magnetic field. | பூமியின் காந்தப் புலத்திற்கு செங்குத்தாக நகரும் கிடைமட்ட கடத்தி, இயக்க மின்னழுத்தத்தின் எடுத்துக்காட்டு. ε = Blv பயன்படுத்தி கணக்கிடலாம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பயிற்சி 6.7-ல், மின்னோட்டம் 5.0A இலிருந்து 0.0A வரை 0.1s-ல் குறைகிறது. சராசரி மின்னழுத்தம் 200V எனில், சுய தூண்டலை மதிப்பிட எந்த சூத்திரம் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "L = ε × (dI/dt)",
+        "L = ε / (dI/dt)",
+        "L = ε × Δt / ΔI",
+        "L = ε + (dI/dt)"
+      ],
+      "correct": 2,
+      "explanation": "From ε = -L dI/dt, we get L = ε × Δt / ΔI. With given values, L = 200 × 0.1 / 5 = 4H. | ε = -L dI/dt என்பதிலிருந்து, L = ε × Δt / ΔI. மதிப்புகளைப் பொருத்த L = 200 × 0.1 / 5 = 4H."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பயிற்சி 6.8-ல், அடுத்தடுத்த சுருள்களின் பரஸ்பர தூண்டல் 1.5H. ஒரு சுருளில் மின்னோட்டம் 0 இலிருந்து 20A வரை 0.5s-ல் மாறுகிறது. மற்ற சுருளில் பாய இணைப்பு மாற்றம் என்ன?",
+      "options": [
+        "10 Wb-turns",
+        "20 Wb-turns",
+        "30 Wb-turns",
+        "40 Wb-turns"
+      ],
+      "correct": 2,
+      "explanation": "From NΔΦ = MΔI, with M = 1.5H and ΔI = 20A, NΔΦ = 1.5 × 20 = 30 Wb-turns. | NΔΦ = MΔI என்பதிலிருந்து, NΔΦ = 1.5 × 20 = 30 Wb-turns. இது மாற்றத்திற்கான நேரத்தைச் சார்ந்தது அல்ல."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இந்தியாவில் AC ஜெனரேட்டரின் சுழற்சி அதிர்வெண் என்ன?",
+      "options": [
+        "30 Hz",
+        "50 Hz",
+        "60 Hz",
+        "100 Hz"
+      ],
+      "correct": 1,
+      "explanation": "The frequency of rotation in India is 50 Hz, while in USA it is 60 Hz. | இந்தியாவில் மாற்று மின்னோட்ட ஜெனரேட்டரின் சுழற்சி அதிர்வெண் 50 Hz. அமெரிக்காவில் 60 Hz."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "AC ஜெனரேட்டரில், மின்னழுத்தம் அதிகபட்சமாக இருக்கும் கோணம் எது?",
+      "options": [
+        "θ = 0° அல்லது 180°",
+        "θ = 90° அல்லது 270°",
+        "θ = 45° அல்லது 225°",
+        "θ = 60° அல்லது 240°"
+      ],
+      "correct": 1,
+      "explanation": "Maximum emf occurs at θ = 90° or 270° where sin(ωt) = ±1, giving ε = ±ε0. | AC ஜெனரேட்டரில், θ = 90° அல்லது 270° இருக்கும்போது மின்னழுத்தம் அதிகபட்சமாக இருக்கும். இங்கு sin(ωt) = ±1 என்பதால் ε = ±ε0."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சிந்திக்க வேண்டிய குறிப்புகளில் குறிப்பிடப்பட்டுள்ள சமச்சீர் நிலைமைகள் எந்த கொள்கையைக் குறிக்கின்றன?",
+      "options": [
+        "உந்தம் பாதுகாப்பு கொள்கை",
+        "சார்பியல் கொள்கை",
+        "குவாண்டம் பொறியியல்",
+        "வெப்பஇயக்கவியல்"
+      ],
+      "correct": 1,
+      "explanation": "The symmetric situations hint at the relevance of the principle of relativity for Faraday's law. | நகரும் மின்சுமைகள் நிலையான புலத்திலும், நிலையான மின்சுமைகள் காலமாறும் புலத்திலும் என்ற சமச்சீர் நிலைமைகள், ஃபாரடேயின் விதிக்கு சார்பியல் கொள்கையின் தொடர்பைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பரஸ்பர தூண்டல் மற்றும் சுய தூண்டல் இரண்டின் SI அலகும் எது?",
+      "options": [
+        "வெபர் (Wb)",
+        "டெஸ்லா (T)",
+        "ஹென்றி (H)",
+        "வோல்ட் (V)"
+      ],
+      "correct": 2,
+      "explanation": "Both mutual and self inductance have SI unit henry (H), named after Joseph Henry. | பரஸ்பர தூண்டல் M மற்றும் சுய தூண்டல் L இரண்டின் SI அலகும் ஹென்றி (H). இது ஜோசஃப் ஹென்றியின் பெயரில் வழங்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "பயிற்சி 6.4-ல், சுற்று நீண்ட பக்கத்திற்கு செங்குத்தாக நகரும்போது தூண்டப்பட்ட மின்னழுத்தம் எவ்வளவு நேரம் நீடிக்கும்?",
+      "options": [
+        "சுற்று முழுவதும் புலத்தை விட்டு வெளியேறும் வரை",
+        "சுற்று முழுவதும் புலத்திற்குள் இருக்கும் வரை",
+        "என்றென்றும்",
+        "நுழைவு கணம் மட்டுமே"
+      ],
+      "correct": 0,
+      "explanation": "Induced voltage lasts as long as the loop is partially in the field. Once fully out, flux is constant and emf becomes zero. | சுற்று காந்தப் புலத்திலிருந்து முழுவதும் வெளியேறும் வரை மின்னழுத்தம் தூண்டப்படும். புலத்திற்கு வெளியே வந்தவுடன் பாயம் மாறாததால் மின்னழுத்தம் பூஜ்யமாகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுற்று மூடப்பட்டிருந்தால், தூண்டப்பட்ட மின்னழுத்தம் ε இருக்கும்போது சுற்றில் ஏற்படும் மின்னோட்டம் என்ன?",
+      "options": [
+        "I = ε × R",
+        "I = ε / R",
+        "I = R / ε",
+        "I = ε + R"
+      ],
+      "correct": 1,
+      "explanation": "From Ohm's law, current I = ε/R where R is circuit resistance. | சுற்று மூடப்பட்டிருந்தால், ஓமின் விதி படி மின்னோட்டம் I = ε/R என அமையும், இங்கு R சுற்றின் மின்தடை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஃபாரடே மற்றும் ஹென்றி நகரும் காந்தம் மின்னோட்டத்தைத் தூண்டும் என நிரூபித்த காலம் எது?",
+      "options": [
+        "1820",
+        "1830",
+        "1840",
+        "1850"
+      ],
+      "correct": 1,
+      "explanation": "Around 1830, Faraday and Henry demonstrated that a moving magnet can induce electric current. | சுமார் 1830 ஆம் ஆண்டில், ஃபாரடே மற்றும் ஹென்றியின் சோதனைகள் நகரும் காந்தம் மின்னோட்டத்தைத் தூண்ட முடியும் என நிரூபித்தன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "1 மீ நீளமுள்ள உலோகத் தண்டு 50 rev/s அதிர்வெண்ணில் சுழற்றப்படுகிறது. தண்டின் கோண வேகம் என்ன?",
+      "options": [
+        "50 rad/s",
+        "100π rad/s",
+        "25π rad/s",
+        "100 rad/s"
+      ],
+      "correct": 1,
+      "explanation": "Angular frequency ω = 2πν, where ν = 50 rev/s. Therefore ω = 2π × 50 = 100π rad/s. | கோண வேகம் ω = 2πν, இங்கு ν = 50 rev/s. எனவே ω = 2π × 50 = 100π rad/s."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "உதாரணம் 6.6-ல், 1 மீ நீளமுள்ள உலோகத் தண்டு 1T காந்த புலத்தில் 50 rev/s அதிர்வெண்ணில் சுழற்றப்படுகிறது. மையத்திற்கும் வளையத்திற்கும் இடையேயான emf என்ன?",
+      "options": [
+        "78.5 V",
+        "157 V",
+        "314 V",
+        "50 V"
+      ],
+      "correct": 1,
+      "explanation": "Using the formula ε = (1/2) BωR², where B = 1T, ω = 2π×50 = 100π rad/s, R = 1m. So ε = (1/2) × 1 × 100π × 1² = 50π ≈ 157 V. | சூத்திரம் ε = (1/2) BωR² பயன்படுத்தி, B = 1T, ω = 100π rad/s, R = 1m. எனவே ε = (1/2) × 1 × 100π × 1 = 50π ≈ 157 V."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "முறை I-ல், தண்டிலுள்ள இலவச எலக்ட்ரான்களை வெளிப்புற முனையை நோக்கி நகர்த்தும் விசை எது?",
+      "options": [
+        "ஈர்ப்பு விசை",
+        "கூலம்பு விசை",
+        "லோரன்ஸ் விசை",
+        "அ centrifugal விசை"
+      ],
+      "correct": 2,
+      "explanation": "As the rod rotates, free electrons move towards the outer end due to Lorentz force acting on the charges moving in a magnetic field. | தண்டு சுழலும்போது, காந்த புலத்தில் நகரும் மின்னூட்டங்களின் மீது லோரன்ஸ் விசை செயல்பட்டு இலவச எலக்ட்ரான்களை வெளிப்புற முனையை நோக்கி நகர்த்துகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்த புலத்திற்கு செங்குத்தாக நகரும் தண்டின் dr நீளத்தில் உருவாகும் இயக்க emf சூத்திரம் எது?",
+      "options": [
+        "dε = Bv dr",
+        "dε = B²v dr",
+        "dε = Bv² dr",
+        "dε = B/v dr"
+      ],
+      "correct": 0,
+      "explanation": "The magnitude of emf generated across a length dr is given by dε = Bv dr, where v is the velocity of that element. | ஒரு dr நீளத்தில் உருவாகும் emf அளவு dε = Bv dr என்ற சூத்திரத்தால் கொடுக்கப்படுகிறது, இங்கு v அந்த உறுப்பின் வேகம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "முறை II-ல், OPQ துறை பகுதியின் பரப்பளவு எந்த சூத்திரத்தால் கொடுக்கப்படுகிறது?",
+      "options": [
+        "(1/2)R²θ",
+        "R²θ",
+        "πR²θ",
+        "(1/2)Rθ²"
+      ],
+      "correct": 0,
+      "explanation": "The area of sector OPQ is (1/2)R²θ, where R is the radius and θ is the angle in radians. This is the standard sector area formula. | OPQ துறை பகுதி (1/2)R²θ ஆகும், இங்கு R ஆரம் மற்றும் θ ரேடியன்களில் கோணம். இது நிலையான துறை பகுதி சூத்திரம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுழலும் தண்டின் மீதுள்ள ஒரு புள்ளியின் நேரியல் வேகம் v மற்றும் மையத்திலிருந்து தூரம் r ஆகியவற்றுக்கு இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "v = ω/r",
+        "v = ωr",
+        "v = ω²r",
+        "v = r/ω"
+      ],
+      "correct": 1,
+      "explanation": "For a rotating rod, the linear velocity at any point is v = ωr, where ω is the angular velocity and r is the distance from the axis of rotation. | சுழலும் தண்டுக்கு, எந்த புள்ளியிலும் நேரியல் வேகம் v = ωr, இங்கு ω கோண வேகம் மற்றும் r சுழற்சி அச்சிலிருந்து தூரம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "emf காண தொகையீட்டில், ஆரத்திற்கான தொகையீட்டு வரம்புகள் எவை?",
+      "options": [
+        "0 முதல் R/2 வரை",
+        "0 முதல் 2R வரை",
+        "0 முதல் R வரை",
+        "R/2 முதல் R வரை"
+      ],
+      "correct": 2,
+      "explanation": "The integration is performed from the centre (r = 0) to the outer edge of the ring (r = R) to find the total emf across the entire rod. | மொத்த emf காண மையத்திலிருந்து (r = 0) வளையத்தின் வெளிப்புறத்திற்கு (r = R) தொகையீடு செய்யப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "உதாரணம் 6.6-ல் பெறப்பட்ட இறுதி emf சூத்திரம் எது?",
+      "options": [
+        "ε = BωR",
+        "ε = (1/2)BωR²",
+        "ε = Bω²R",
+        "ε = (1/2)B²ωR"
+      ],
+      "correct": 1,
+      "explanation": "The final derived formula for emf between centre and ring is ε = (1/2)BωR², obtained by integrating dε = Bv dr = Bωr dr from 0 to R. | மையத்திற்கும் வளையத்திற்கும் இடையேயான emf இறுதி சூத்திரம் ε = (1/2)BωR² ஆகும், இது dε = Bv dr = Bωr dr ஐ 0 முதல் R வரை தொகையீடு செய்வதால் கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு நீளமான அச்சு ஒத்த சோலனாய்டுகளுக்கு, சோலனாய்ட் S₂ உடன் தொடர்புடைய S₁ இன் பரஸ்பர மின்தூண்டல் M₁₂ என்ன?",
+      "options": [
+        "μ₀ n₁ n₂ π r₂² l",
+        "μ₀ n₁ n₂ π r₁² l",
+        "μ₀ n₁² n₂ π r₁² l",
+        "μ₀ n₁ n₂² π r₁² l"
+      ],
+      "correct": 1,
+      "explanation": "The mutual inductance M₁₂ is given by μ₀ n₁ n₂ π r₁² l, where r₁ is the radius of the inner solenoid S₁ and l is the length. | M₁₂ = μ₀ n₁ n₂ π r₁² l என்று கொடுக்கப்பட்டுள்ளது, இங்கு r₁ உள் சோலனாய்ட் S₁ இன் ஆரம் மற்றும் l நீளம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு நீளமான அச்சு ஒத்த சோலனாய்டுகளுக்கு M₁₂ மற்றும் M₂₁ இடையே உள்ள தொடர்பு என்ன?",
+      "options": [
+        "M₁₂ > M₂₁",
+        "M₁₂ < M₂₁",
+        "M₁₂ = M₂₁",
+        "M₁₂ = 2M₂₁"
+      ],
+      "correct": 2,
+      "explanation": "For long coaxial solenoids, M₁₂ = M₂₁ = M. This equality holds true regardless of which coil carries the current. | நீளமான அச்சு ஒத்த சோலனாய்டுகளுக்கு M₁₂ = M₂₁ = M. எந்த காயில் மின்னோட்டத்தை ஏந்துகிறது என்பதைப் பொருட்படுத்தாமல் இந்த சமநிலை உண்மையாகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோலனாய்டுகளுக்குள் காற்றுக்குப் பதிலாக சார்பு ஊடுருவும் திறன் μᵣ கொண்ட ஊடகம் இருந்தால், பரஸ்பர மின்தூண்டல் எவ்வாறு மாறும்?",
+      "options": [
+        "M மாறாமல் இருக்கும்",
+        "M, μᵣ காரணியால் குறையும்",
+        "M, μᵣ μ₀ n₁ n₂ π r₁² l ஆக மாறும்",
+        "M, μ₀ n₁ n₂ π r₁² l / μᵣ ஆக மாறும்"
+      ],
+      "correct": 2,
+      "explanation": "When a medium with relative permeability μᵣ fills the solenoids, M = μᵣ μ₀ n₁ n₂ π r₁² l. | சார்பு ஊடுருவும் திறன் μᵣ கொண்ட ஊடகம் சோலனாய்டுகளை நிரப்பும்போது, M = μᵣ μ₀ n₁ n₂ π r₁² l ஆகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காயில் ஜோடியின் பரஸ்பர மின்தூண்டல் எந்த காரணிகளைப் பொறுத்தது?",
+      "options": [
+        "வளையங்களின் எண்ணிக்கை மட்டுமே",
+        "காயில்களில் பாயும் மின்னோட்டம் மட்டுமே",
+        "அவற்றின் பிரிப்பு மற்றும் சார்பு நோக்குநிலை",
+        "காயில்களின் எதிர்ப்பு மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "Mutual inductance depends on separation and relative orientation, in addition to geometric factors. | பரஸ்பர மின்தூண்டல் பிரிக்கும் தூரம் மற்றும் சார்பு நோக்குநிலை ஆகியவற்றைப் பொறுத்தது, புவியியல் காரணிகளுடன் கூடுதலாக."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "r₁ << r₂ உள் இரண்டு ஒத்த மைய வட்ட காயில்களுக்கு, பரஸ்பர மின்தூண்டல் M₁₂ என்ன?",
+      "options": [
+        "μ₀ π r₂² / (2r₁)",
+        "μ₀ π r₁² / (2r₂)",
+        "μ₀ π r₁ r₂ / 2",
+        "μ₀ π r₁² r₂ / 2"
+      ],
+      "correct": 1,
+      "explanation": "For concentric circular coils where r₁ << r₂, M₁₂ = μ₀ π r₁² / (2r₂). | r₁ << r₂ உள் ஒத்த மைய காயில்களுக்கு, M₁₂ = μ₀ π r₁² / (2r₂)."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சோலனாய்ட் S₂ வழியாக மின்னோட்டம் I₂ பாயும்போது, S₁ உடனான பாயம் இணைப்பு என்ன?",
+      "options": [
+        "N₁ Φ₁ = M₁₂ / I₂",
+        "N₁ Φ₁ = M₁₂ I₂",
+        "N₁ Φ₁ = M₁₂ + I₂",
+        "N₁ Φ₁ = M₁₂ - I₂"
+      ],
+      "correct": 1,
+      "explanation": "The flux linkage is N₁ Φ₁ = M₁₂ I₂, where M₁₂ is the mutual inductance. | பாயம் இணைப்பு N₁ Φ₁ = M₁₂ I₂, இங்கு M₁₂ பரஸ்பர மின்தூண்டல்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காயில் C₂ இல் மின்னோட்டம் காலத்துடன் மாறும்போது, C₁ இல் தூண்டப்பட்ட emf என்ன?",
+      "options": [
+        "ε₁ = M dI₂/dt",
+        "ε₁ = -M dI₂/dt",
+        "ε₁ = M I₂",
+        "ε₁ = -M / I₂"
+      ],
+      "correct": 1,
+      "explanation": "The induced emf is ε₁ = -M dI₂/dt, where the negative sign indicates opposition to change per Lenz's law. | தூண்டப்பட்ட emf ε₁ = -M dI₂/dt, இங்கு எதிர்மறை குறி லென்ஸின் விதிப்படி மாற்றத்தை எதிர்க்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "அச்சு ஒத்த சோலனாய்டுகளின் பரஸ்பர மின்தூண்டல் வருவாய்வுக்கு, காந்த புலம் பற்றிய எந்த தோராயம் செய்யப்படுகிறது?",
+      "options": [
+        "சோலனாய்டுகளுக்குள் புலம் பூஜ்யம்",
+        "சோலனாய்ட் S₂ இன் நீளம் மற்றும் அகலம் முழுவதும் புலம் சீரானது",
+        "புலம் சைன் அலை வடிவில் மாறுகிறது",
+        "புலம் வெளி ஆரம் r₂ மட்டுமே பொறுத்தது"
+      ],
+      "correct": 1,
+      "explanation": "Edge effects are neglected and the field is considered uniform throughout S₂, valid for long solenoids where l >> r. | விளிம்பு விளைவுகள் புறக்கணிக்கப்படுகின்றன மற்றும் S₂ முழுவதும் புலம் சீரானதாகக் கருதப்படுகிறது, l >> r உள்ள நீளமான சோலனாய்டுகளுக்கு செல்லுபடியாகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு சகஅச்சு சுருள்களின் உள்ளே ஒப்பிட்டு ஊடுபொருள் μr அறிமுகப்படுத்தப்படும்போது, பரஸ்பர மின்தூண்டல் எவ்வாறு மாறும்?",
+      "options": [
+        "மாறாமல் இருக்கும்",
+        "μr காரணியால் குறையும்",
+        "μr காரணியால் அதிகரிக்கும்",
+        "பூஜ்யமாக மாறும்"
+      ],
+      "correct": 2,
+      "explanation": "When a magnetic medium of relative permeability μr is introduced, the mutual inductance becomes M = μr μ0 n1 n2 π r1² l, which is μr times the value with air. Therefore, mutual inductance increases by a factor of μr. | காந்த ஊடுபொருள் μr அறிமுகப்படுத்தப்படும்போது, பரஸ்பர மின்தூண்டல் M = μr μ0 n1 n2 π r1² l ஆகிறது, இது காற்றில் உள்ள மதிப்பை விட μr மடங்கு. எனவே பரஸ்பர மின்தூண்டல் μr காரணியால் அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுருள்களின் பரஸ்பர மின்தூண்டலை பின்வருவனவற்றில் எது பாதிக்காது?",
+      "options": [
+        "சுருள்களுக்கிடையேயுள்ள இடைவெளி தூரம்",
+        "சுருள்களின் ஒப்பிட்டு திசை அமைப்பு",
+        "சுருள்களில் பயன்படுத்தப்பட்ட கம்பியின் மின்தடை",
+        "சுருள்களின் வடிவியல் அமைப்பு"
+      ],
+      "correct": 2,
+      "explanation": "Mutual inductance depends on separation, relative orientation, and geometry of coils. It does not depend on the resistance of the wire, as resistance is an electrical property while mutual inductance is a magnetic/geometric property. | பரஸ்பர மின்தூண்டல் சுருள்களின் இடைவெளி, ஒப்பிட்டு திசை, மற்றும் வடிவியலைப் பொறுத்தது. கம்பியின் மின்தடையைப் பொறுத்ததல்ல, ஏனெனில் மின்தடை மின்சாரப் பண்பாகும், பரஸ்பர மின்தூண்டல் காந்த/வடிவியல் பண்பாகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.8-ல், இரண்டு ஒரே மையமுள்ள வட்டச் சுருள்கள் சகஅச்சில் அமைக்கப்பட்டுள்ளன. அவற்றின் ஆரங்களுக்கு இடையேயான நிபந்தனை என்ன?",
+      "options": [
+        "இரண்டு ஆரங்களும் சமம்",
+        "உட்சுருளின் ஆரம் வெளிச் சுருளின் ஆரத்தை விட மிகவும் சிறியது (r1 << r2)",
+        "வெளிச் சுருளின் ஆரம் உட்சுருளின் ஆரத்தை விட மிகவும் சிறியது",
+        "ஆரங்கள் ஒன்றுக்கொன்று சாராது"
+      ],
+      "correct": 1,
+      "explanation": "In Example 6.8, one coil has small radius r1 and the other has large radius r2, with r1 << r2. This allows us to assume the magnetic field at the center of the outer coil is approximately uniform over the small coil's area. | எடுத்துக்காட்டு 6.8-ல், ஒரு சுருள் சிறிய ஆரம் r1 மற்றும் மற்றொன்று பெரிய ஆரம் r2, r1 << r2. இது வெளிச் சுருளின் மையத்தில் காந்தப்புலம் சிறிய சுருளின் பரப்பில் சீரானது என்று கருத அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஆரம் r2 கொண்ட வெளிச் சுருளில் மின்னோட்டம் I2 செல்லும்போது, அதன் மையத்தில் காந்தப்புலம் என்ன?",
+      "options": [
+        "B2 = μ0 I2 / (4π r2)",
+        "B2 = μ0 I2 / (2 r2)",
+        "B2 = μ0 I2 r2 / 2",
+        "B2 = μ0 I2 / (2 π r2)"
+      ],
+      "correct": 1,
+      "explanation": "The magnetic field at the center of a circular coil carrying current I2 is B2 = μ0 I2 / (2 r2), where r2 is the radius. This is a standard result from the Biot-Savart law for a circular current loop. | மின்னோட்டம் I2 செல்லும் வட்டச் சுருளின் மையத்தில் காந்தப்புலம் B2 = μ0 I2 / (2 r2), இங்கு r2 சுருளின் ஆரம். இது வட்ட மின்சுற்றுக்கான பயோ-சாவார்ட் விதியின் நிலையான முடிவாகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.8-ல், வெளிச் சுருளால் சிறிய சுருளில் (ஆரம் r1) உண்டாகும் புலம் Φ1 = π r1² B2 எனக் கணக்கிடப்படுகிறது. இந்தக் கணக்கீடு செல்லுபடியாக என்ன கருதுகோள்?",
+      "options": [
+        "வெளிச் சுருளில் மின்னோட்டம் மாறாதது",
+        "காந்தப்புலம் B2 சிறிய சுருளின் பரப்பில் சீரானது",
+        "சுருள்கள் செம்புக் கம்பியால் செய்யப்பட்டவை",
+        "சுருள்களில் சுருள்களின் எண்ணிக்கை சமம்"
+      ],
+      "correct": 1,
+      "explanation": "The assumption that B2 is uniform over the small coil's area is valid because r1 << r2. Since the small coil is very small compared to the large coil, field variation across its area is negligible. | B2 சிறிய சுருளின் பரப்பில் சீரானது என்ற கருதுகோள் r1 << r2 என்பதால் செல்லுபடியாகும். பெரிய சுருளுடன் ஒப்பிடும்போது சிறிய சுருள் மிகவும் சிறியதாக இருப்பதால், அதன் பரப்பில் காந்தப்புல மாறுபாடு நேர்க்குறையற்றது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஆரங்கள் r1 மற்றும் r2 (r1 << r2) கொண்ட இரண்டு ஒரே மையமுள்ள வட்டச் சுருள்களின் பரஸ்பர மின்தூண்டல் என்ன?",
+      "options": [
+        "M = μ0 π r2² / (2 r1)",
+        "M = μ0 π r1 r2 / 2",
+        "M = μ0 π r1² / (2 r2)",
+        "M = μ0 π (r1 + r2) / 2"
+      ],
+      "correct": 2,
+      "explanation": "From the derivation in Example 6.8, M12 = μ0 π r1² / (2 r2). Since M12 = M21 = M, the mutual inductance is M = μ0 π r1² / (2 r2). This shows M depends on the square of the smaller radius and inversely on the larger radius. | எடுத்துக்காட்டு 6.8-ல் வருவிக்கப்பட்டபடி, M12 = μ0 π r1² / (2 r2). M12 = M21 = M என்பதால், பரஸ்பர மின்தூண்டல் M = μ0 π r1² / (2 r2). இது M சிறிய ஆரத்தின் வர்க்கத்தைப் பொறுத்து, பெரிய ஆரத்திற்கு எதிர்விகிதத்தில் இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு இணைக்கப்பட்ட சுருள்களுக்கு M12 = M21 சமநிலை என்ன காட்டுகிறது?",
+      "options": [
+        "சுருள்களில் சுருள்களின் எண்ணிக்கை சமமாக இருக்க வேண்டும்",
+        "பரஸ்பர மின்தூண்டல் சமச்சீர் மற்றும் எந்த சுருளில் மின்னோட்டம் செல்கிறது என்பதைப் பொறுத்தல்ல",
+        "இரண்டு சுருள்களிலும் மின்னோட்டம் சமமாக இருக்க வேண்டும்",
+        "சுருள்கள் அளவில் ஒரே மாதிரியாக இருக்க வேண்டும்"
+      ],
+      "correct": 1,
+      "explanation": "The equality M12 = M21 demonstrates that mutual inductance is a symmetric property. M12 is the flux linkage in coil 1 per unit current in coil 2, and M21 is the flux linkage in coil 2 per unit current in coil 1. Their equality means the mutual coupling is the same regardless of which coil is the source. | M12 = M21 சமநிலை பரஸ்பர மின்தூண்டல் சமச்சீர் பண்பு என்பதைக் காட்டுகிறது. M12 என்பது சுருள் 2-ல் ஒரு அலகு மின்னோட்டத்திற்கு சுருள் 1-ல் புல இணைப்பு, M21 என்பது சுருள் 1-ல் ஒரு அலகு மின்னோட்டத்திற்கு சுருள் 2-ல் புல இணைப்பு. அவற்றின் சமநிலை எந்த சுருள் மூலமாக இருந்தாலும் பரஸ்பர இணைப்பு ஒரே மாதிரியாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுருள் C2-ல் மின்னோட்டம் காலத்துடன் மாறும்போது, அண்டை சுருள் C1-ல் தூண்டப்பட்ட மின்னழுத்தம் என்ன?",
+      "options": [
+        "ε1 = M I2",
+        "ε1 = -M dI2/dt",
+        "ε1 = M dI2/dt",
+        "ε1 = -M I2²"
+      ],
+      "correct": 1,
+      "explanation": "The induced emf in coil C1 is given by ε1 = -M dI2/dt, where M is the mutual inductance and dI2/dt is the rate of change of current in coil C2. The negative sign indicates that the induced emf opposes the change in current (Lenz's law). | சுருள் C1-ல் தூண்டப்பட்ட மின்னழுத்தம் ε1 = -M dI2/dt, இங்கு M பரஸ்பர மின்தூண்டல், dI2/dt சுருள் C2-ல் மின்னோட்ட மாற்ற வீதம். எதிர்குறி மின்னோட்ட மாற்றத்தை எதிர்க்கும் தூண்டப்பட்ட மின்னழுத்தத்தைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "அண்டை சுருளில் மின்னோட்டம் மாறுவதால் ஒரு சுருளில் தூண்டப்பட்ட மின்னழுத்தத்தின் அளவு எந்த இரண்டு காரணிகளைப் பொறுத்தது?",
+      "options": [
+        "இரண்டு சுருள்களின் மின்தடை மற்றும் வெப்பநிலை",
+        "மின்னோட்ட மாற்ற வீதம் மற்றும் பரஸ்பர மின்தூண்டல்",
+        "மின்சார வழங்கியின் மின்னழுத்தம் மற்றும் கம்பியின் விட்டம்",
+        "கம்பி காப்புறையின் நிறம் மற்றும் சுற்றுப்புற வெப்பநிலை"
+      ],
+      "correct": 1,
+      "explanation": "From the equation ε1 = -M dI2/dt, the magnitude of induced emf depends on the rate of change of current (dI2/dt) and the mutual inductance (M). A faster change in current or a larger mutual inductance results in a greater induced emf. | ε1 = -M dI2/dt சூத்திரத்திலிருந்து, தூண்டப்பட்ட மின்னழுத்தத்தின் அளவு மின்னோட்ட மாற்ற வீதம் (dI2/dt) மற்றும் பரஸ்பர மின்தூண்டல் (M) ஆகியவற்றைப் பொறுத்தது. மின்னோட்டத்தில் வேகமான மாற்றம் அல்லது பெரிய பரஸ்பர மின்தூண்டல் அதிக தூண்டப்பட்ட மின்னழுத்தத்தைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "N1 சுருள்கள் கொண்ட சுருள் C1-க்கு, அண்டை சுருள் C2-ல் மின்னோட்டம் I2 செல்லும்போது, அதன் புல இணைப்பு எந்த சமன்பாட்டால் கொடுக்கப்படுகிறது?",
+      "options": [
+        "N1 Φ1 = M / I2",
+        "N1 Φ1 = M I2",
+        "N1 Φ1 = M + I2",
+        "N1 Φ1 = M - I2"
+      ],
+      "correct": 1,
+      "explanation": "From Eq. (6.7) in the text, the flux linkage with coil C1 is N1 Φ1 = M I2, where M is the mutual inductance and I2 is the current in coil C2. This is the fundamental definition of mutual inductance: flux linkage in one coil per unit current in the other. | உரையில் சமன்பாடு (6.7)-லிருந்து, சுருள் C1-ல் புல இணைப்பு N1 Φ1 = M I2, இங்கு M பரஸ்பர மின்தூண்டல், I2 சுருள் C2-ல் மின்னோட்டம். இது பரஸ்பர மின்தூண்டலின் அடிப்படை வரையறை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "AC generator இன் செயல்பாட்டுக் கொள்கை என்ன?",
+      "options": [
+        "மின்னோட்டத்தின் வெப்ப விளைவு",
+        "சுருளின் திசை மாற்றம் அல்லது பயனுள்ள பரப்பளவு மாற்றம் மூலம் பாய மாற்றம்",
+        "மின்கலத்தில் வேதிவினை",
+        "ஒளிமின் விளைவு"
+      ],
+      "correct": 1,
+      "explanation": "An AC generator works on the principle that when a coil rotates in a magnetic field, the effective area changes as A cos θ, causing flux change and inducing emf. | AC generator ஒரு காந்தப்புலத்தில் சுருள் சுழன்றும்போது, பயனுள்ள பரப்பளவு A cos θ ஆக மாறுவதால் காந்தப்பாயம் மாறுகிறது மற்றும் emf தூண்டப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "AC generator இன் அடிப்படை உறுப்புகள் யாவை?",
+      "options": [
+        "மின்கலம், மின்தடையம், கொள்ளளவு, மற்றும் இணைப்பி",
+        "சுழலும் அச்சில் பொருத்தப்பட்ட சுருள், தடமாறும் வளையங்கள், மற்றும் தூரிகைகள்",
+        "சூரிய பலகம், மாற்றி, மற்றும் மின்கலம்",
+        "வெப்பச்சோடி, கேல்வனோமீட்டர், மற்றும் மின்மாற்றி"
+      ],
+      "correct": 1,
+      "explanation": "The basic elements include a coil on a rotor shaft with axis perpendicular to the magnetic field, connected through slip rings and brushes. | அடிப்படை உறுப்புகள்: காந்தப்புலத்திற்கு செங்குத்தாக சுழலும் அச்சில் பொருத்தப்பட்ட சுருள், தடமாறும் வளையங்கள் (slip rings), மற்றும் தூரிகைகள் (brushes) ஆகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுருள் மாறாத கோண வேகம் ω இல் சுழன்றால், எந்த நேரத்திலும் கோணம் θ எவ்வாறு இருக்கும் (t=0 இல் θ=0 எனக் கொள்க)?",
+      "options": [
+        "θ = ω/t",
+        "θ = ω²t",
+        "θ = ωt",
+        "θ = t/ω"
+      ],
+      "correct": 2,
+      "explanation": "When the coil rotates with constant angular speed ω, the angle at any instant t is θ = ωt, assuming θ = 0° at t = 0. | சுருள் மாறாத கோண வேகம் ω இல் சுழன்றும்போது, t = 0 இல் θ = 0° என்று கொண்டால், எந்த நேரத்திலும் கோணம் θ = ωt ஆகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுழலும் சுருளின் காந்தப்பாயத்தின் வெளிப்பாடு என்ன?",
+      "options": [
+        "Φ = BA sin(ωt)",
+        "Φ = BA cos(ωt)",
+        "Φ = BA tan(ωt)",
+        "Φ = BA/ωt"
+      ],
+      "correct": 1,
+      "explanation": "The flux at any time t is Φ = BA cos θ = BA cos(ωt), where θ is the angle between B and the area vector. | எந்த நேரத்திலும் காந்தப்பாயம் Φ = BA cos θ = BA cos(ωt) ஆகும், இங்கு θ என்பது காந்தப்புலத்திற்கும் பரப்பு திசையனுக்கும் இடையேயான கோணம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "N வளையுகள் கொண்ட சுழலும் சுருளில் தூண்டப்பட்ட emf இன் உடனடி மதிப்பு என்ன?",
+      "options": [
+        "ε = NBAω cos(ωt)",
+        "ε = NBAω sin(ωt)",
+        "ε = NBAω² sin(ωt)",
+        "ε = NBA/ω sin(ωt)"
+      ],
+      "correct": 1,
+      "explanation": "From Faraday's law, the induced emf for a rotating coil of N turns is ε = NBAω sin(ωt), where NBAω is the maximum emf. | ஃபாரடேயின் விதிப்படி, N வளையுகள் கொண்ட சுழலும் சுருளில் தூண்டப்பட்ட emf ε = NBAω sin(ωt) ஆகும், இங்கு NBAω என்பது emf இன் அதிகபட்ச மதிப்பு."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "AC generator இல் emf இன் அதிகபட்ச மதிப்பு (ε₀) என்ன?",
+      "options": [
+        "ε₀ = NBA/ω",
+        "ε₀ = NBAω",
+        "ε₀ = NBAω²",
+        "ε₀ = NBA"
+      ],
+      "correct": 1,
+      "explanation": "The maximum emf occurs when sin(ωt) = ±1, so ε₀ = NBAω. This is the peak voltage generated by the AC generator. | emf இன் அதிகபட்ச மதிப்பு sin(ωt) = ±1 ஆக இருக்கும்போது ஏற்படுகிறது, எனவே ε₀ = NBAω. இது AC generator ஆல் உருவாக்கப்படும் உச்ச மின்னழுத்தம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எந்த கோணங்களில் emf அதிகபட்ச மதிப்பை அடைகிறது?",
+      "options": [
+        "θ = 0° மற்றும் θ = 180°",
+        "θ = 45° மற்றும் θ = 225°",
+        "θ = 90° மற்றும் θ = 270°",
+        "θ = 60° மற்றும் θ = 240°"
+      ],
+      "correct": 2,
+      "explanation": "The emf has its maximum value when θ = 90° or θ = 270°, as the rate of change of flux is greatest at these points. | emf θ = 90° அல்லது θ = 270° இல் அதிகபட்ச மதிப்பைக் கொண்டிருக்கிறது, ஏனெனில் இந்த புள்ளிகளில் பாய மாற்றத்தின் வீதம் அதிகமாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "கோண வேகம் ω மற்றும் சுழற்சி அதிர்வெண் ν இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "ω = πν",
+        "ω = 2πν",
+        "ω = ν/2π",
+        "ω = ν²/2π"
+      ],
+      "correct": 1,
+      "explanation": "The angular frequency ω is related to the frequency ν by ω = 2πν, where ν is the number of revolutions per second. | கோண வேகம் ω மற்றும் சுழற்சி அதிர்வெண் ν இடையேயான தொடர்பு ω = 2πν ஆகும், இங்கு ν என்பது ஒவ்வொரு வினாடியிலும் நிகழும் சுழற்சிகளின் எண்ணிக்கை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "உயரத்திலிருந்து விழும் நீரைப் பயன்படுத்தி இயந்திர ஆற்றலை வழங்கும் generator வகை எது?",
+      "options": [
+        "வெப்ப மின்னாக்கி",
+        "அணு மின்னாக்கி",
+        "நீர்மின் மின்னாக்கி",
+        "காற்று மின்னாக்கி"
+      ],
+      "correct": 2,
+      "explanation": "Hydro-electric generators use water falling from a height (such as from dams) to provide mechanical energy for armature rotation. | நீர்மின் மின்னாக்கிகள் (hydro-electric generators) ஆர்மேச்சர் சுழற்சிக்கு தேவையான இயந்திர ஆற்றலை வழங்க அணைகளில் இருந்து உயரத்திலிருந்து விழும் நீரைப் பயன்படுத்துகின்றன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இந்தியாவில் AC generator களின் சுழற்சி அதிர்வெண் என்ன?",
+      "options": [
+        "30 Hz",
+        "40 Hz",
+        "50 Hz",
+        "60 Hz"
+      ],
+      "correct": 2,
+      "explanation": "In India, the frequency of AC generators is 50 Hz, while in the USA it is 60 Hz. | இந்தியாவில் AC generator களின் சுழற்சி அதிர்வெண் 50 Hz ஆகும், அமெரிக்காவில் இது 60 Hz ஆகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "100 வளையுகள், 0.10 m² பரப்பளவு, 0.5 rev/s வேகம், 0.01 T காந்தப்புலம் கொண்ட சுருளில் உருவாக்கப்படும் அதிகபட்ச மின்னழுத்தம் என்ன?",
+      "options": [
+        "0.157 V",
+        "0.314 V",
+        "0.628 V",
+        "1.0 V"
+      ],
+      "correct": 1,
+      "explanation": "Using ε₀ = NBA(2πν) = 100 × 0.01 × 0.1 × 2 × 3.14 × 0.5 = 0.314 V. The maximum voltage generated is 0.314 V. | ε₀ = NBA(2πν) = 100 × 0.01 × 0.1 × 2 × 3.14 × 0.5 = 0.314 V. சுருளில் உருவாக்கப்படும் அதிகபட்ச மின்னழுத்தம் 0.314 V."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "உடனடி emf ε = ε₀ sin(ωt) இன் மாறுபடும் வரம்பு என்ன?",
+      "options": [
+        "0 முதல் +ε₀ வரை",
+        "-ε₀ முதல் +ε₀ வரை",
+        "-ε₀/2 முதல் +ε₀/2 வரை",
+        "-2ε₀ முதல் +2ε₀ வரை"
+      ],
+      "correct": 1,
+      "explanation": "Since the sine function varies between -1 and +1, the instantaneous emf varies between -ε₀ and +ε₀ periodically. | sin சார்பு -1 மற்றும் +1 இடையே மாறுவதால், உடனடி emf காலப்போக்கில் முனையத்தை மாற்றி -ε₀ முதல் +ε₀ வரை மாறிக்கொண்டே இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.2-ல், 10 cm பக்கம் கொண்ட சதுரச் சுருள் கிழக்கு-மேற்கு தளத்தில் செங்குத்தாக வைக்கப்பட்டுள்ளது. வடகிழக்கு திசையில் செல்லும் காந்தப்புலத்திற்கும் சுருளின் பரப்பு வெக்டருக்கும் இடையேயான கோணம் என்ன?",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correct": 1,
+      "explanation": "The area vector of the coil placed in the east-west plane points vertically upward. The magnetic field is directed in the north-east direction in the horizontal plane. The angle between the vertical area vector and the horizontal north-east direction is 45° because the north-east direction makes 45° with both north and east axes. | கிழக்கு-மேற்கு தளத்தில் வைக்கப்பட்ட சுருளின் பரப்பு வெக்டர் செங்குத்தாக மேல்நோக்கி சுட்டும். வடகிழக்கு திசையில் செல்லும் காந்தப்புலம் கிடைமட்ட தளத்தில் உள்ளது. செங்குத்தான பரப்பு வெக்டருக்கும் கிடைமட்ட வடகிழக்குத் திசைக்கும் இடையேயான கோணம் 45° ஆகும், ஏனெனில் வடகிழக்கு திசை வடக்கு மற்றும் கிழக்கு அச்சுகளுடன் தலா 45° கோணத்தை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.2-ல், தொடக்க காந்தப்பாயம் 0.1 × 10^-2 / √2 Wb எனக் கணக்கிடப்படுகிறது. இந்தப் பாயம் 0.70 s-ல் பூஜ்யத்திற்குக் குறைக்கப்படும்போது தூண்டப்பட்ட emf-ன் அளவு என்ன?",
+      "options": [
+        "0.5 V",
+        "1.0 V",
+        "2.0 V",
+        "1.4 V"
+      ],
+      "correct": 1,
+      "explanation": "Using Faraday's law, the magnitude of induced emf equals the rate of change of magnetic flux: ε = |ΔΦ|/Δt = (10^-3 / √2) / 0.70 = 10^-3 / (0.7 × √2) ≈ 1.0 V. The calculation simplifies because 0.7 × √2 ≈ 0.9899 ≈ 1.0. | ஃபாரடேயின் விதிப்படி, தூண்டப்பட்ட emf அளவு காந்தப்பாயத்தின் மாற்ற வீதத்திற்கு சமம்: ε = |ΔΦ|/Δt = (10^-3 / √2) / 0.70 = 10^-3 / (0.7 × √2) ≈ 1.0 V. இங்கு 0.7 × √2 ≈ 0.9899 ≈ 1.0 என்பதால் எளிமையாக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.2-ல், 0.5 Ω மின்தடையம் கொண்ட சதுரச் சுருளில் தூண்டப்பட்ட emf 1.0 V எனில், தூண்டப்பட்ட மின்னோட்டத்தின் அளவு என்ன?",
+      "options": [
+        "0.5 mA",
+        "1.0 mA",
+        "2.0 mA",
+        "5.0 mA"
+      ],
+      "correct": 2,
+      "explanation": "Using Ohm's law, I = ε/R = 1.0 V / 0.5 Ω = 2 A. However, the textbook states 2 mA, which appears to be a typographical error. The correct physical calculation gives 2 A, but following the textbook's stated answer of 2 mA, option C is selected. | ஓமின் விதிப்படி, I = ε/R = 1.0 V / 0.5 Ω = 2 A. ஆனால் பாடநூலில் 2 mA எனக் குறிப்பிடப்பட்டுள்ளது, இது அச்சுப்பிழையாக இருக்கலாம். கொடுக்கப்பட்ட மதிப்புகளுடன் சரியான இயற்பியல் கணக்கீடு 2 A தருகிறது, ஆனால் பாடநூலின் குறிப்பிட்ட விடையான 2 mA-ஐப் பின்பற்றி விருப்பம் C தேர்ந்தெடுக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.3-ல், 10 cm ஆரம் மற்றும் 500 சுற்றுகள் கொண்ட வட்டச் சுருள் பூமியின் காந்தப்புலத்தின் கிடைமட்ட கூறுக்கு செங்குத்தாக வைக்கப்பட்டுள்ளது. பரப்பு வெக்டருக்கும் காந்தப்புலத்திற்கும் இடையேயான தொடக்கக் கோணம் என்ன?",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correct": 0,
+      "explanation": "When the plane of the coil is perpendicular to the magnetic field, the area vector is parallel to the magnetic field. Therefore, the angle θ is 0°, making cos θ = 1 and the initial flux maximum. | சுருளின் தளம் காந்தப்புலத்திற்கு செங்குத்தாக இருக்கும்போது, பரப்பு வெக்டர் காந்தப்புலத்திற்கு இணையாக இருக்கும். எனவே கோணம் θ = 0°, cos θ = 1, மற்றும் தொடக்கப் பாயம் அதிகபட்சமாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.3-ல், ஒரு சுற்றின் வழியான தொடக்க காந்தப்பாயம் 3π × 10^-7 Wb. சுருள் அதன் செங்குத்து விட்டத்தின் வழியாக 180° சுழற்றப்பட்ட பிறகு பாயம் என்ன?",
+      "options": [
+        "3π × 10^-7 Wb",
+        "0 Wb",
+        "-3π × 10^-7 Wb",
+        "6π × 10^-7 Wb"
+      ],
+      "correct": 2,
+      "explanation": "After rotating 180°, the area vector reverses its direction. The angle changes from 0° to 180°, so cos 180° = -1. The final flux is -3π × 10^-7 Wb, equal in magnitude but opposite in sign to the initial flux. | 180° சுழற்றிய பிறகு, பரப்பு வெக்டர் தன் திசையை மாற்றிக்கொள்கிறது. கோணம் 0°-லிருந்து 180°-க்கு மாறுவதால், cos 180° = -1. எனவே இறுதிப் பாயம் -3π × 10^-7 Wb, இது தொடக்கப் பாயத்திற்கு சமமான அளவைக் கொண்டிருந்தாலும் எதிர் குறியீட்டைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.3-ல், 500 சுற்றுகள் கொண்ட சுருள் 0.25 s-ல் மொத்தம் 6π × 10^-7 Wb பாய மாற்றத்தை அனுபவிக்கும்போது, தூண்டப்பட்ட emf-ன் மதிப்பீட்டு அளவு என்ன?",
+      "options": [
+        "1.9 × 10^-3 V",
+        "3.8 × 10^-3 V",
+        "7.6 × 10^-3 V",
+        "1.5 × 10^-2 V"
+      ],
+      "correct": 1,
+      "explanation": "Using Faraday's law: ε = N × |ΔΦ|/Δt = 500 × (6π × 10^-7) / 0.25 = 500 × 6 × 3.14 × 10^-7 / 0.25 = 3.768 × 10^-3 V ≈ 3.8 × 10^-3 V. The factor of 500 turns is crucial. | ஃபாரடேயின் விதிப்படி: ε = N × |ΔΦ|/Δt = 500 × (6π × 10^-7) / 0.25 = 500 × 6 × 3.14 × 10^-7 / 0.25 = 3.768 × 10^-3 V ≈ 3.8 × 10^-3 V. 500 சுற்றுகள் கொண்ட காரணியானது மிகவும் முக்கியமானது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.3-ல், 2 Ω மின்தடையம் கொண்ட வட்டச் சுருளில் தூண்டப்பட்ட emf 3.8 × 10^-3 V எனில், தூண்டப்பட்ட மின்னோட்டத்தின் அளவு என்ன?",
+      "options": [
+        "0.95 × 10^-3 A",
+        "1.9 × 10^-3 A",
+        "3.8 × 10^-3 A",
+        "7.6 × 10^-3 A"
+      ],
+      "correct": 1,
+      "explanation": "Using Ohm's law: I = ε/R = (3.8 × 10^-3 V) / (2 Ω) = 1.9 × 10^-3 A. This is the estimated magnitude of the induced current. | ஓமின் விதிப்படி: I = ε/R = (3.8 × 10^-3 V) / (2 Ω) = 1.9 × 10^-3 A. இது தூண்டப்பட்ட மின்னோட்டத்தின் மதிப்பீட்டு அளவாகும்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.2-ல் பூமியின் காந்தப்புலம் தூண்டப்பட்ட emf-க்கு பங்களிக்காததற்கான சரியான காரணம் எது?",
+      "options": [
+        "அந்த இடத்தில் பூமியின் காந்தப்புலம் பூஜ்யம்",
+        "பூமியின் காந்தப்புலம் சுருள் தளத்திற்கு இணையாக உள்ளது",
+        "பூமியின் காந்தப்புலம் நிலையானது, சோதனையின் போது மாறாது",
+        "சுருள் பூமியின் காந்தப்புலத்திலிருந்து பாதுகாக்கப்பட்டுள்ளது"
+      ],
+      "correct": 2,
+      "explanation": "The textbook states that Earth's magnetic field produces a flux through the loop, but it is a steady field that does not change within the time span of the experiment. Since induced emf requires a CHANGE in magnetic flux, a steady field cannot induce any emf. | பாடநூல் குறிப்பிடுவது போல, பூமியின் காந்தப்புலம் சுருளின் வழியாக ஒரு பாயத்தை உருவாக்குகிறது, ஆனால் அது நிலையான புலமாகும், இது சோதனையின் கால அளவிற்குள் மாறாது. தூண்டப்பட்ட emf-க்கு காந்தப்பாயத்தில் மாற்றம் தேவைப்படுவதால், நிலையான புலம் எந்த emf-ஐயும் தூண்ட முடியாது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "படம் 6.7(i)-ல், ஒரு செவ்வக வளையம் abcd வாசகரை விட்டு விலகிச் செல்லும் காந்த புலப் பகுதிக்குள் நுழைகிறது. லென்ஸின் விதிப்படி, வளையத்தில் தூண்டப்பட்ட மின்னோட்டத்தின் திசை என்ன?",
+      "options": [
+        "abcda (வாசகரை நோக்கிக் கடிகாரத் திசையில்)",
+        "bcdab (வாசகரை நோக்கிக் கடிகார எதிர் திசையில்)",
+        "மின்னோட்டம் தூண்டப்படுவதில்லை",
+        "திசையை கண்டறிய முடியாது"
+      ],
+      "correct": 1,
+      "explanation": "As the rectangular loop moves into the magnetic field region, the magnetic flux through the loop increases. According to Lenz's law, the induced current must flow in a direction that opposes this increase in flux. The current flows along bcdab, which creates a magnetic field pointing towards the reader (opposing the field pointing away). This is equivalent to a counter-clockwise direction when viewed from the reader's side. | செவ்வக வளையம் காந்த புலப் பகுதிக்குள் நகரும்போது, காந்த பாயத்தின் அளவு அதிகரிக்கிறது. லென்ஸின் விதிப்படி, தூண்டப்பட்ட மின்னோட்டம் இந்த அதிகரிப்பை எதிர்க்கும் திசையில் பாய வேண்டும். bcdab வழியாக மின்னோட்டம் பாயும்போது, வாசகரை நோக்கிய காந்த புலம் உருவாகி, வாசகரை விட்டு விலகிச் செல்லும் புலத்தை எதிர்க்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "படம் 6.7(ii)-ல், ஒரு முக்கோண வளையம் abc வாசகரை விட்டு விலகிச் செல்லும் காந்த புலப் பகுதியிலிருந்து வெளியேறுகிறது. தூண்டப்பட்ட மின்னோட்டத்தின் திசை என்ன?",
+      "options": [
+        "abca (கடிகார எதிர் திசையில்)",
+        "bacb (கடிகாரத் திசையில்)",
+        "மின்னோட்டம் தூண்டப்படுவதில்லை",
+        "திசை தொடர்ந்து மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "As the triangular loop moves out of the magnetic field region, the magnetic flux through the loop decreases. To oppose this decrease, the induced current must create a magnetic field in the same direction as the original field (away from the reader). The current flows along bacb, which produces a magnetic field pointing away from the reader, thereby opposing the decrease in flux. | முக்கோண வளையம் காந்த புலப் பகுதியிலிருந்து வெளியேறும்போது, காந்த பாயம் குறைகிறது. இந்தக் குறைவை எதிர்க்க, தூண்டப்பட்ட மின்னோட்டம் அசல் காந்த புலத்திற்கு ஒரே திசையில் (வாசகரை விட்டு விலகி) காந்த புலத்தை உருவாக்க வேண்டும். bacb வழியாக மின்னோட்டம் பாயும்போது இது சாத்தியமாகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "படம் 6.7(iii)-ல், ஒரு வளைந்த வடிவ வளையம் abcd காந்த புலப் பகுதியிலிருந்து வெளியேறுகிறது. தூண்டப்பட்ட மின்னோட்டத்தின் திசை என்ன?",
+      "options": [
+        "abcda",
+        "bcdab",
+        "cdabc",
+        "dabcd"
+      ],
+      "correct": 2,
+      "explanation": "The irregular loop is moving out of the magnetic field region, so the magnetic flux through the loop decreases. According to Lenz's law, the induced current must oppose this decrease by creating a magnetic field in the same direction as the original field (away from the reader). The current flows along cdabc, which produces a magnetic field pointing away from the reader, thereby opposing the decrease in flux through the loop. | வளைந்த வடிவ வளையம் காந்த புலப் பகுதியிலிருந்து வெளியேறும்போது காந்த பாயம் குறைகிறது. லென்ஸின் விதிப்படி, தூண்டப்பட்ட மின்னோட்டம் அசல் காந்த புலத்திற்கு ஒரே திசையில் காந்த புலத்தை உருவாக்கி இந்தக் குறைவை எதிர்க்க வேண்டும். cdabc வழியாக மின்னோட்டம் பாயும்போது இது சாத்தியமாகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இரண்டு நிலையான நிரந்தர காந்தங்களின் முனைகளுக்கு இடையே உள்ள நிலையான காந்த புலத்தில் ஒரு மூடிய வளையம் நிலையாக வைக்கப்பட்டுள்ளது. மிக வலிமையான காந்தங்களைப் பயன்படுத்தி வளையத்தில் மின்னோட்டத்தை உருவாக்க முடியுமா?",
+      "options": [
+        "ஆம், வலிமையான காந்தங்கள் எப்போதும் அதிக மின்னோட்டத்தை தூண்டுகின்றன",
+        "இல்லை, மின்னோட்டம் மாறும் காந்த பாயத்தால் மட்டுமே தூண்டப்பட முடியும்",
+        "ஆம், ஆனால் காந்தங்கள் மீகடத்தும் தன்மை கொண்டவையாக இருந்தால் மட்டுமே",
+        "ஆம், ஆனால் மின்னோட்டம் மிகச் சிறியதாக இருக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "No current can be induced in this situation. According to Faraday's law of electromagnetic induction, an induced current requires a changing magnetic flux through the loop. Since the loop is stationary and the magnets are fixed, the magnetic flux through the loop remains constant regardless of how strong the magnets are. Without a change in flux, no emf is induced and therefore no current flows. | இந்தச் சூழலில் மின்னோட்டம் தூண்டப்பட முடியாது. ஃபாரடேயின் மின்காந்த தூண்டல் விதிப்படி, தூண்டப்பட்ட மின்னோட்டத்திற்கு வளையத்தின் வழியாக காந்த பாயம் மாற வேண்டும். வளையம் நிலையானதாகவும், காந்தங்கள் நிலையானதாகவும் இருப்பதால், காந்தங்கள் எவ்வளவு வலிமையானவையாக இருந்தாலும் காந்த பாயம் மாறாமல் நிலையாக இருக்கிறது. பாய மாற்றம் இல்லாததால், மின்னழுத்தம் தூண்டப்படுவதில்லை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு பெரிய காந்தப்பகுதி தட்டுகளுக்கு இடையே உள்ள நிலையான மின் புலத்திற்கு செங்குத்தாக ஒரு மூடிய வளையம் நகர்கிறது. வளையம் தட்டுகளுக்கு இடையே முழுவதும் இருக்கும்போது மின்னோட்டம் தூண்டப்படுகிறதா?",
+      "options": [
+        "ஆம், வலுவான மின்னோட்டம் தூண்டப்படுகிறது",
+        "ஆம், ஆனால் மிகச் சிறிய மின்னோட்டம் மட்டுமே",
+        "மின்னோட்டம் தூண்டப்படுவதில்லை",
+        "தட்டுகளின் ஓரங்களில் மட்டுமே மின்னோட்டம் தூண்டப்படுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "No current is induced in either case. Current cannot be induced by changing the electric flux. Electromagnetic induction specifically requires a changing magnetic flux, not a changing electric flux. The constant electric field between the capacitor plates does not produce any changing magnetic flux through the moving loop, so no emf or current is induced regardless of the loop's position relative to the capacitor plates. | இரண்டு வழக்குகளிலும் மின்னோட்டம் தூண்டப்படுவதில்லை. மின் பாய மாற்றத்தால் மின்னோட்டம் தூண்டப்பட முடியாது. மின்காந்த தூண்டலுக்கு மாறும் காந்த பாயம் மட்டுமே தேவை, மாறும் மின் பாயம் அல்ல. காந்தப்பகுதி தட்டுகளுக்கு இடையே உள்ள நிலையான மின் புலம், நகரும் வளையத்தின் வழியாக மாறும் காந்த பாயத்தை உருவாக்குவதில்லை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு செவ்வக வளையமும் ஒரு வட்ட வளையமும் நிலையான வேகம் v-யில் சீரான காந்த புலப் பகுதியிலிருந்து புலமற்ற பகுதிக்கு நகர்கின்றன. எந்த வளையத்தில் தூண்டப்பட்ட மின்னழுத்தம் வெளியேறும் போது நிலையாக இருக்கும்?",
+      "options": [
+        "இரண்டு வளையங்களிலும் நிலையான மின்னழுத்தம் தூண்டப்படுகிறது",
+        "செவ்வக வளையத்தில் மட்டுமே நிலையான மின்னழுத்தம் தூண்டப்படுகிறது",
+        "வட்ட வளையத்தில் மட்டுமே நிலையான மின்னழுத்தம் தூண்டப்படுகிறது",
+        "இரண்டு வளையங்களிலும் நிலையான மின்னழுத்தம் தூண்டப்படுவதில்லை"
+      ],
+      "correct": 1,
+      "explanation": "The induced emf is expected to be constant only in the case of the rectangular loop. In the rectangular loop, as it moves out of the field, the rate of change of area remains constant because the width of the loop cutting the field boundary is constant. However, in the circular loop, the rate of change of area varies as different portions of the circle exit the field region. The changing chord length means the area changes non-uniformly with time, so the induced emf varies accordingly. | செவ்வக வளையத்தில் மட்டுமே தூண்டப்பட்ட மின்னழுத்தம் நிலையாக இருக்கும். செவ்வக வளையம் புலப் பகுதியிலிருந்து வெளியேறும்போது, புல எல்லையை வெட்டும் வளையத்தின் அகலம் நிலையானதாக இருப்பதால் பரப்பளவின் மாற்ற வீதம் நிலையாக இருக்கிறது. ஆனால் வட்ட வளையத்தில், வட்டத்தின் வெவ்வேறு பகுதிகள் புலத்திலிருந்து வெளியேறும்போது பரப்பளவின் மாற்ற வீதம் மாறுகிறது. மாறும் நாண் நீளம் காரணமாக பரப்பளவு சீரற்ற முறையில் மாறுவதால் தூண்டப்பட்ட மின்னழுத்தம் மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "படம் 6.9-ல், இரண்டு காந்தத் தடிகள் அவற்றுக்கு இடையே வைக்கப்பட்டுள்ள சுருளை நோக்கி நகர்கின்றன. சுருளுடன் இணைக்கப்பட்டுள்ள காண்டென்சரின் A தட்டின் முனையம் என்ன?",
+      "options": [
+        "A தட்டு B தட்டை விட நேர்மறை முனையம்",
+        "A தட்டு B தட்டை விட எதிர்மறை முனையம்",
+        "இரண்டு தட்டுகளும் சம மின்னழுத்தம் கொண்டவை",
+        "கொடுக்கப்பட்ட தகவல்களிலிருந்து முனையத்தை கண்டறிய முடியாது"
+      ],
+      "correct": 0,
+      "explanation": "The polarity of plate A will be positive with respect to plate B in the capacitor. As both magnets move towards the coil, the magnetic flux through the coil increases. According to Lenz's law, the induced current will flow in a direction that opposes this increase. The resulting charge accumulation on the capacitor plates makes plate A positive relative to plate B, consistent with the direction of induced emf required to oppose the increasing flux. | இரண்டு காந்தங்களும் சுருளை நோக்கி நகரும்போது, சுருளின் வழியாக காந்த பாயம் அதிகரிக்கிறது. லென்ஸின் விதிப்படி, தூண்டப்பட்ட மின்னோட்டம் இந்த அதிகரிப்பை எதிர்க்கும் திசையில் பாய வேண்டும். இதன் விளைவாக காண்டென்சர் தட்டுகளில் மின்சுமை கூடுகிறது, A தட்டு B தட்டை விட நேர்மறை மின்னழுத்தத்தைப் பெறுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "லென்ஸின் விதிப்படி, வாசகரை விட்டு விலகிச் செல்லும் காந்த புலப் பகுதிக்குள் நுழையும் வளையத்தில், தூண்டப்பட்ட மின்னோட்டம் உருவாக்கும் காந்த புலம் எந்த திசையில் சுட்டிக்காட்டும்?",
+      "options": [
+        "அசல் புலத்திற்கு ஒரே திசையில் (வாசகரை விட்டு விலகி)",
+        "அசல் புலத்திற்கு எதிர் திசையில் (வாசகரை நோக்கி)",
+        "அசல் புலத்திற்கு செங்குத்தான திசையில்",
+        "வளையத்தின் மின்தடையைப் பொறுத்து மாறும் திசையில்"
+      ],
+      "correct": 1,
+      "explanation": "According to Lenz's law, the induced current always flows in a direction that opposes the change in magnetic flux that produced it. When the flux is increasing (loop entering the field), the induced current creates a magnetic field opposite to the original field to oppose the increase. When the flux is decreasing (loop leaving the field), the induced current creates a magnetic field in the same direction as the original field to oppose the decrease. | லென்ஸின் விதிப்படி, தூண்டப்பட்ட மின்னோட்டம் எப்போதும் அதை உருவாக்கிய காந்த பாய மாற்றத்தை எதிர்க்கும் திசையில் பாயும். பாயம் அதிகரிக்கும்போது (வளையம் புலத்திற்குள் நுழையும்போது), தூண்டப்பட்ட மின்னோட்டம் அதிகரிப்பை எதிர்க்க அசல் புலத்திற்கு எதிரான திசையில் காந்த புலத்தை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சீரான காந்த புலப் பகுதிக்குள் முழுவதும் அல்லது முழுவதும் வெளியே நகரும் வளையத்திற்கு தூண்டப்பட்ட மின்னோட்டம் என்ன?",
+      "options": [
+        "அதிகபட்ச மின்னோட்டம் தூண்டப்படுகிறது",
+        "சிறிய ஆனால் நிலையான மின்னோட்டம் தூண்டப்படுகிறது",
+        "தூண்டப்பட்ட மின்னோட்டம் இல்லை",
+        "மாறு மின்னோட்டம் தூண்டப்படுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "There are no induced currents as long as the loops are completely inside or completely outside the region of the magnetic field. When the loop is entirely within the uniform field, the magnetic flux through the loop is constant (maximum value), so the rate of change of flux is zero. Similarly, when the loop is completely outside the field, the flux is zero and remains constant. Since induced emf requires a changing flux, no current is induced in either case. | வளையம் முழுவதும் காந்த புலப் பகுதிக்குள் அல்லது முழுவதும் வெளியே இருக்கும்வரை தூண்டப்பட்ட மின்னோட்டம் இல்லை. வளையம் முழுவதும் சீரான புலத்திற்குள் இருக்கும்போது, காந்த பாயம் நிலையான அதிகபட்ச மதிப்பில் இருப்பதால் பாயத்தின் மாற்ற வீதம் பூஜ்யம். வளையம் முழுவதும் புலத்திற்கு வெளியே இருக்கும்போது, பாயம் பூஜ்யமாகவும் நிலையாகவும் இருக்கிறது. மாறும் பாயம் இல்லாததால் மின்னோட்டம் தூண்டப்படுவதில்லை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு பெரிய காந்தப்பகுதி தட்டுகளின் ஒரு பகுதிக்கு வெளியே நிலையான மின் புலம் வளையத்தின் தளத்திற்கு செங்குத்தாக இருக்கும் வகையில் ஒரு மூடிய வளையம் நகர்கிறது. இந்தச் சூழலில் மின்னோட்டம் தூண்டப்படுகிறதா?",
+      "options": [
+        "ஆம், எல்லையில் மின் புலம் மாறுவதால்",
+        "ஆம், வளையம் ஒரு பகுதி உள்ளேயும் ஒரு பகுதி வெளியேயும் இருப்பதால்",
+        "மின்னோட்டம் தூண்டப்படுவதில்லை",
+        "ஆம், ஆனால் வளையம் மீகடத்தும் தன்மை கொண்டதாக இருந்தால் மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "No current is induced in either case. The key principle is that electromagnetic induction requires a changing magnetic flux, not a changing electric flux. Even when the loop is partially outside the capacitor plates, the constant electric field does not create any changing magnetic flux through the loop. The electric field between capacitor plates is electrostatic in nature and does not induce current in a moving conductor. | இரண்டு வழக்குகளிலும் மின்னோட்டம் தூண்டப்படுவதில்லை. முக்கிய கொள்கை என்னவென்றால், மின்காந்த தூண்டலுக்கு மாறும் காந்த பாயம் தேவை, மாறும் மின் பாயம் அல்ல. வளையம் காந்தப்பகுதி தட்டுகளின் ஒரு பகுதிக்கு வெளியே இருந்தாலும், நிலையான மின் புலம் வளையத்தின் வழியாக மாறும் காந்த பாயத்தை உருவாக்குவதில்லை."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "சுருளில் சேமிக்கப்பட்ட காந்த ஆற்றலின் வெளிப்பாடு B, A மற்றும் l மூலம் எவ்வாறு கொடுக்கப்படுகிறது?",
+      "options": [
+        "U_B = (1/2) B² A l",
+        "U_B = (1/2μ₀) B² A l",
+        "U_B = (μ₀/2) B² A l",
+        "U_B = B² A l / μ₀"
+      ],
+      "correct": 1,
+      "explanation": "The magnetic energy stored in a solenoid is U_B = (1/2)LI² = (1/2μ₀)B²Al, derived by substituting I = B/(μ₀n) and L = μ₀n²Al into the energy formula. | சுருளில் சேமிக்கப்பட்ட காந்த ஆற்றல் U_B = (1/2)LI² = (1/2μ₀)B²Al என்பது, I = B/(μ₀n) மற்றும் L = μ₀n²Al ஆகியவற்றை ஆற்றல் வாய்பாட்டில் பிரதிபலிப்பதன் மூலம் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்த புலம் B உள்ள பகுதியில் அலகு பருமனுக்கு சேமிக்கப்பட்ட காந்த ஆற்றல் என்ன?",
+      "options": [
+        "u_B = B²/μ₀",
+        "u_B = B²/(2μ₀)",
+        "u_B = (1/2)μ₀B²",
+        "u_B = μ₀B²"
+      ],
+      "correct": 1,
+      "explanation": "The magnetic energy per unit volume is u_B = U_B/(Al) = B²/(2μ₀), where Al is the volume of the solenoid. | காந்த ஆற்றல் அலகு பருமனுக்கு u_B = U_B/(Al) = B²/(2μ₀), இங்கு Al என்பது சுருளின் கனவளவு."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இணை தகடு கொள்கலனில் நிலைமின் ஆற்றல் அலகு பருமனுக்கான சரியான வெளிப்பாடு எது?",
+      "options": [
+        "u_E = (1/2)ε₀E²",
+        "u_E = ε₀E²",
+        "u_E = E²/(2ε₀)",
+        "u_E = (1/2)E²/ε₀"
+      ],
+      "correct": 0,
+      "explanation": "The electrostatic energy per unit volume is u_E = (1/2)ε₀E², as derived in Chapter 2 for a parallel plate capacitor. | நிலைமின் ஆற்றல் அலகு பருமனுக்கு u_E = (1/2)ε₀E², இது இணை தகடு கொள்கலனுக்காக அத்தியாயம் 2-ல் பெறப்பட்டது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்த ஆற்றல் அடர்த்தி மற்றும் நிலைமின் ஆற்றல் அடர்த்தி இரண்டும் பகிர்ந்து கொள்ளும் பொதுவான அம்சம் என்ன?",
+      "options": [
+        "இரண்டும் புல வலிமைக்கு நேர்த்தகவில் உள்ளன",
+        "இரண்டும் புல வலிமையின் வர்க்கத்திற்கு நேர்த்தகவில் உள்ளன",
+        "இரண்டும் புல வலிமைக்கு எதிர் த்தகவில் உள்ளன",
+        "இரண்டும் புல வலிமையிலிருந்து சுதந்திரமானவை"
+      ],
+      "correct": 1,
+      "explanation": "Both u_B = B²/(2μ₀) and u_E = (1/2)ε₀E² show that energy is proportional to the square of the respective field strength (B² or E²). | u_B = B²/(2μ₀) மற்றும் u_E = (1/2)ε₀E² இரண்டும் ஆற்றல் தொடர்பான புல வலிமையின் வர்க்கத்திற்கு (B² அல்லது E²) நேர்த்தகவில் இருப்பதைக் காட்டுகின்றன."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "AC மின்னாக்கியை வளர்த்ததற்காக யார் பெருமைப்படுத்தப்படுகிறார்?",
+      "options": [
+        "மைக்கேல் ஃபாரடே",
+        "ஜோசஃப் ஹென்றி",
+        "நிகோலா டெஸ்லா",
+        "ஹெய்ன்ரிக் லென்ஸ்"
+      ],
+      "correct": 2,
+      "explanation": "The Yugoslav inventor Nicola Tesla is credited with the development of the AC generator machine. | யூகோஸ்லாவிய கண்டுபிடிப்பாளர் நிகோலா டெஸ்லா AC மின்னாக்கியை வளர்த்ததற்காக பெருமைப்படுத்தப்படுகிறார்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "AC மின்னாக்கியின் செயல்பாட்டின் கொள்கை என்ன?",
+      "options": [
+        "காந்த புல வலிமையை மாற்றுவது",
+        "காந்த புலத்தில் கம்பியின் திசை அல்லது பயனுள்ள பரப்பளவை மாற்றுவது",
+        "நிலையான சுருளை நோக்கி காந்தத்தை நகர்த்துவது",
+        "முதன்மை சுருளில் மின்னோட்டத்தை மாற்றுவது"
+      ],
+      "correct": 1,
+      "explanation": "The AC generator works by changing the loop's orientation or effective area (A cos θ) as it rotates in a magnetic field, causing flux change. | AC மின்னாக்கி காந்த புலத்தில் சுழலும்போது கம்பியின் திசை அல்லது பயனுள்ள பரப்பளவை (A cos θ) மாற்றுவதன் மூலம் செயல்படுகிறது, இது பாயத்தை மாற்றுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "N திருப்புகள், A பரப்பளவு, கோண வேகம் ω-இல் காந்த புலம் B-இல் சுழலும் AC மின்னாக்கியின் கண நேர மின்னழுத்த வெளிப்பாடு என்ன?",
+      "options": [
+        "ε = NBAω cos(ωt)",
+        "ε = NBAω sin(ωt)",
+        "ε = NBA sin(ωt)",
+        "ε = NBAω² sin(ωt)"
+      ],
+      "correct": 1,
+      "explanation": "The instantaneous emf is ε = NBAω sin(ωt), where NBAω is the maximum emf ε₀. | கண நேர மின்னழுத்தம் ε = NBAω sin(ωt), இங்கு NBAω என்பது அதிகபட்ச மின்னழுத்தம் ε₀."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "AC மின்னாக்கியில் தூண்டப்பட்ட மின்னழுத்தம் அதிகபட்ச மதிப்பை எந்த கோணத்தில் அடைகிறது?",
+      "options": [
+        "θ = 0°",
+        "θ = 45°",
+        "θ = 90° அல்லது 270°",
+        "θ = 180°"
+      ],
+      "correct": 2,
+      "explanation": "The emf has extremum values when θ = 90° or 270° because the rate of change of flux is greatest at these points (sin θ = ±1). | மின்னழுத்தம் θ = 90° அல்லது 270°-இல் அதிகபட்ச மதிப்பை அடைகிறது, ஏனெனில் இந்த புள்ளிகளில் பாய மாற்ற வீதம் அதிகமாக இருக்கிறது (sin θ = ±1)."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "இந்தியாவில் வணிக மின்னாக்கிகளுக்கான சுழற்சியின் செந்தர அதிர்வெண் என்ன?",
+      "options": [
+        "40 Hz",
+        "50 Hz",
+        "60 Hz",
+        "100 Hz"
+      ],
+      "correct": 1,
+      "explanation": "The frequency of rotation is 50 Hz in India, while in countries like USA it is 60 Hz. | இந்தியாவில் சுழற்சி அதிர்வெண் 50 Hz, அமெரிக்கா போன்ற நாடுகளில் 60 Hz."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "எடுத்துக்காட்டு 6.10-இல், 0.10 m² பரப்பளவுடைய 100 திருப்புகள் கொண்ட சுருள் 0.5 rev/s வேகத்தில் 0.01 T புலத்தில் சுழல்கிறது. உருவாக்கப்படும் அதிகபட்ச மின்னழுத்தம் என்ன?",
+      "options": [
+        "0.157 V",
+        "0.314 V",
+        "0.628 V",
+        "1.0 V"
+      ],
+      "correct": 1,
+      "explanation": "ε₀ = NBA(2πν) = 100 × 0.01 × 0.1 × 2 × 3.14 × 0.5 = 0.314 V. | ε₀ = NBA(2πν) = 100 × 0.01 × 0.1 × 2 × 3.14 × 0.5 = 0.314 V."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "லென்ஸின் விதிப்படி, தூண்டப்பட்ட மின்னழுத்தத்தின் முனைமை எவ்வாறு இருக்கும்?",
+      "options": [
+        "காந்தப் பாயத்தின் மாற்றத்தை அதிகரிக்கும் மின்னோட்டத்தை உருவாக்கும்",
+        "காந்தப் பாயத்தின் மாற்றத்தை எதிர்க்கும் மின்னோட்டத்தை உருவாக்கும்",
+        "காந்தப் பாய மாற்றத்திலிருந்து சுயாதீனமானது",
+        "எப்போதும் கடிகாரத் திசையில் மின்னோட்டம் பாயும்"
+      ],
+      "correct": 1,
+      "explanation": "Lenz's law states that the induced current opposes the change in magnetic flux that produced it. This is represented by the negative sign in Faraday's law equation. | லென்ஸின் விதி கூறுகிறது: தூண்டப்பட்ட மின்னோட்டம், அதை உருவாக்கிய காந்தப் பாயத்தின் மாற்றத்தை எதிர்க்கும். இது ஃபாரடேயின் விதி சமன்பாட்டில் உள்ள எதிர் குறியால் குறிக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு காந்தத்தின் வட துருவம் சுருளை நோக்கி தள்ளப்படும்போது, தூண்டப்பட்ட மின்னோட்டம் எந்த திசையில் பாயும்?",
+      "options": [
+        "காந்தத்தின் பக்கத்திலிருந்து பார்க்கும்போது கடிகாரத் திசையில்",
+        "காந்தத்தின் பக்கத்திலிருந்து பார்க்கும்போது கடிகாரத்திற்கு எதிரான திசையில்",
+        "எந்த மின்னோட்டமும் தூண்டப்படாது",
+        "மாறிவரும் திசையில்"
+      ],
+      "correct": 1,
+      "explanation": "When the North-pole approaches, the magnetic flux through the coil increases. To oppose this increase, the current flows counter-clockwise (as seen from the magnet side), making the magnetic moment have North polarity facing the approaching magnet. | வட துருவம் நெருங்கும்போது, காந்தப் பாயம் அதிகரிக்கிறது. இந்த அதிகரிப்பை எதிர்க்க, காந்தத்தின் பக்கத்திலிருந்து பார்க்கும்போது கடிகாரத்தின் திசைக்கு எதிராக மின்னோட்டம் பாய்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "காந்தத்தின் வட துருவம் சுருளிலிருந்து விலக்கப்படும்போது, தூண்டப்பட்ட மின்னோட்டம் எவ்வாறு இருக்கும்?",
+      "options": [
+        "வட துருவம் விலகும் காந்தத்தை எதிர்கொள்ளும்",
+        "தென் துருவம் விலகும் வட துருவத்தை எதிர்கொள்ளும்",
+        "எந்த மின்னழுத்தமும் தூண்டப்படாது",
+        "மின்னோட்ட திசை மாறாது"
+      ],
+      "correct": 1,
+      "explanation": "When the North-pole is withdrawn, the magnetic flux decreases. To counter this decrease, the induced current flows clockwise, making its South-pole face the receding North-pole, creating an attractive force. | வட துருவம் விலக்கப்படும்போது, காந்தப் பாயம் குறைகிறது. இதை எதிர்க்க, தூண்டப்பட்ட மின்னோட்டம் கடிகாரத் திசையில் பாய்கிறது, அதன் தென் துருவம் விலகும் வட துருவத்தை எதிர்கொள்கிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "லென்ஸின் விதி எந்த அடிப்படை இயற்பியல் விதியுடன் ஒத்துப்போகிறது?",
+      "options": [
+        "நியூட்டனின் முதல் இயக்க விதி",
+        "ஆற்றல் பாதுகாப்பு விதி",
+        "பொது ஈர்ப்பு விதி",
+        "உந்தம் பாதுகாப்பு விதி"
+      ],
+      "correct": 1,
+      "explanation": "Lenz's law ensures conservation of energy. If the induced current attracted the magnet instead of repelling it, a perpetual motion machine would be possible, violating energy conservation. The work done against the induced emf is dissipated as Joule heat. | லென்ஸின் விதி ஆற்றல் பாதுகாப்பு விதியுடன் ஒத்துப்போகிறது. தூண்டப்பட்ட மின்னோட்டம் காந்தத்தை ஈர்த்தால், நிரந்தர இயக்க இயந்திரம் சாத்தியமாகும், இது ஆற்றல் பாதுகாப்பை மீறும். தூண்டப்பட்ட மின்னழுத்தத்திற்கு எதிராக செய்யப்படும் வேலை ஜூல் வெப்பமாக சிதறடிக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "மின்காந்தத் தூண்டலில் மூடிய சுற்றுக்குப் பதிலாக திறந்த சுற்று பயன்படுத்தப்பட்டால்:",
+      "options": [
+        "எந்த மின்னழுத்தமும் தூண்டப்படாது",
+        "திறந்த முனைகளுக்கு இடையே மின்னழுத்தம் தூண்டப்படும்",
+        "திறந்த சுற்றில் மின்னோட்டம் இயல்பாக பாயும்",
+        "காந்தப் பாயம் பூஜ்யமாகிவிடும்"
+      ],
+      "correct": 1,
+      "explanation": "Even in an open circuit, an emf is induced across the open ends when the magnetic flux changes. However, no current flows because the circuit is not complete. The direction of induced emf can still be found using Lenz's law. | திறந்த சுற்றிலும், காந்தப் பாயம் மாறும்போது திறந்த முனைகளுக்கு இடையே மின்னழுத்தம் தூண்டப்படுகிறது. ஆனால் சுற்று முழுமையாக இல்லாததால் மின்னோட்டம் பாயாது. தூண்டப்பட்ட மின்னழுத்தத்தின் திசை லென்ஸின் விதியால் காணலாம்."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "ஒரு நபர் காந்தத்தை சுருளை நோக்கி எதிர் விசைக்கு எதிராக தள்ளும்போது, அவர் செலவிடும் ஆற்றல்:",
+      "options": [
+        "காந்த சாத்திய ஆற்றலாக மட்டும் சேமிக்கப்படும்",
+        "முற்றிலும் இழக்கப்படும்",
+        "தூண்டப்பட்ட மின்னோட்டத்தால் உருவாகும் ஜூல் வெப்பமாக சிதறடிக்கப்படும்",
+        "காந்தத்தின் இயக்க ஆற்றலாக மாற்றப்படும்"
+      ],
+      "correct": 2,
+      "explanation": "The energy spent by the person in pushing the magnet against the repulsive force is dissipated as Joule heating due to the induced current in the coil. This maintains energy conservation. | நபர் காந்தத்தை எதிர் விசைக்கு எதிராக தள்ளுவதற்கு செலவிடும் ஆற்றல், சுருளில் தூண்டப்பட்ட மின்னோட்டத்தால் உருவாகும் ஜூல் வெப்பமாக சிதறடிக்கப்படுகிறது. இது ஆற்றல் பாதுகாப்பை பேணுகிறது."
+    }
+  ]
+}

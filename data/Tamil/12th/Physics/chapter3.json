@@ -1,0 +1,2941 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 3",
+    "chapterId": "chapter3",
+    "source": "Chapter3_QA_Tamil.xlsx",
+    "count": 244
+  },
+  "questions": [
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்தாப் பொருட்களின் மின்தடையியல்பு உலோகங்களை விட எவ்வளவு அதிகமாக உள்ளது?",
+      "options": [
+        "10^8 மடங்கு அதிகம்",
+        "10^12 மடங்கு அதிகம்",
+        "10^18 மடங்கு அதிகம் அல்லது அதற்கும் மேல்",
+        "10^24 மடங்கு அதிகம்"
+      ],
+      "correct": 2,
+      "explanation": "The text states that insulators like ceramic, rubber and plastics have resistivities 10^18 times greater than metals or more. This is the defining characteristic that distinguishes insulators from conductors. | உரை கூறுகிறது கடத்தாப் பொருட்கள் போன்ற செராமிக், ரப்பர் மற்றும் பிளாஸ்டிக்குகள் உலோகங்களை விட 10^18 மடங்கு அதிகமான மின்தடையியல்புகளைக் கொண்டுள்ளன அல்லது அதற்கும் மேல். இது கடத்தாப் பொருட்களை கடத்திகளிலிருந்து வேறுபடுத்தும் வரையறை பண்பு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கீழ்க்கண்டவற்றில் எந்தப் பொருட்கள் கடத்தாப் பொருட்களின் உதாரணங்களாக கொடுக்கப்பட்டுள்ளன?",
+      "options": [
+        "செம்பு மற்றும் வெள்ளி",
+        "சிலிகான் மற்றும் ஜெர்மேனியம்",
+        "செராமிக், ரப்பர் மற்றும் பிளாஸ்டிக்குகள்",
+        "நிக்ரோம் மற்றும் மாங்கனின்"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly lists ceramic, rubber and plastics as examples of insulators. These materials have very high resistivities compared to metals and semiconductors. | உரை தெளிவாக செராமிக், ரப்பர் மற்றும் பிளாஸ்டிக்குகளை கடத்தாப் பொருட்களின் உதாரணங்களாக பட்டியலிடுகிறது. இந்தப் பொருட்கள் உலோகங்கள் மற்றும் குறைகடத்திகளை விட மிக உயர்ந்த மின்தடையியல்புகளைக் கொண்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "குறைகடத்திகளின் மின்தடையியல்பு வெப்பநிலை உயர்வுடன் எவ்வாறு மாறுகிறது?",
+      "options": [
+        "அது அதிகரிக்கிறது",
+        "அது குறைகிறது",
+        "அது நிலையாக இருக்கிறது",
+        "அது முதலில் அதிகரித்து பிறகு குறைகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that semiconductors have resistivities characteristically decreasing with a rise in temperature. This is opposite to the behavior of metals and is a key property of semiconductors. | உரை கூறுகிறது குறைகடத்திகள் வெப்பநிலை உயர்வுடன் குறையும் மின்தடையியல்புகளைக் கொண்டுள்ளன. இது உலோகங்களின் நடத்தைக்கு எதிரானது மற்றும் குறைகடத்திகளின் முக்கிய பண்பு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "குறைகடத்திகளின் மின்தடையியல்பை எவ்வாறு குறைக்க முடியும்?",
+      "options": [
+        "வெப்பநிலையை அதிகரிப்பதன் மூலம்",
+        "சிறிய அளவு பொருத்தமான மாசுக்களைச் சேர்ப்பதன் மூலம்",
+        "குறுக்குவெட்டுப் பரப்பளவை குறைப்பதன் மூலம்",
+        "நீளத்தை அதிகரிப்பதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the resistivities of semiconductors can be decreased by adding small amounts of suitable impurities. This process is called doping and is exploited in the use of semiconductors for electronic devices. | உரை கூறுகிறது குறைகடத்திகளின் மின்தடையியல்புகள் சிறிய அளவு பொருத்தமான மாசுக்களைச் சேர்ப்பதன் மூலம் குறைக்கப்படலாம். இந்த செயல்முறை மாசுபடுத்தல் எனப்படுகிறது மற்றும் மின்னணு சாதனங்களுக்கான குறைகடத்திகளின் பயன்பாட்டில் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "குறுகிய வரம்பில் வெப்பநிலை T இல் உலோக கடத்தியின் மின்தடையியல்பிற்கான சூத்திரம் என்ன?",
+      "options": [
+        "ρ_T = ρ_0[1 - α(T - T_0)]",
+        "ρ_T = ρ_0[1 + α(T - T_0)]",
+        "ρ_T = ρ_0[1 + α(T + T_0)]",
+        "ρ_T = ρ_0[1 + αT_0(T - T_0)]"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the formula ρ_T = ρ_0[1 + α(T - T_0)] where ρ_T is resistivity at temperature T, ρ_0 is resistivity at reference temperature T_0, and α is the temperature coefficient of resistivity. | உரை சூத்திரத்தை ρ_T = ρ_0[1 + α(T - T_0)] என வழங்குகிறது, இங்கு ρ_T என்பது வெப்பநிலை T இல் மின்தடையியல்பு, ρ_0 என்பது குறிப்பு வெப்பநிலை T_0 இல் மின்தடையியல்பு, மற்றும் α என்பது மின்தடையியல்பின் வெப்பநிலை குணகம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடையியல்பின் வெப்பநிலை குணகம் α இன் பரிமாணம் என்ன?",
+      "options": [
+        "வெப்பநிலை",
+        "(வெப்பநிலை)^-1",
+        "(வெப்பநிலை)^2",
+        "பரிமாணமற்றது"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that from the formula, the dimension of α is (Temperature)^-1. This is because α appears multiplied by the temperature difference (T - T_0) to give a dimensionless quantity inside the brackets. | உரை தெளிவாகக் கூறுகிறது சூத்திரத்திலிருந்து α இன் பரிமாணம் (Temperature)^-1. இது α வெப்பநிலை வேறுபாடு (T - T_0) ஆல் பெருக்கப்பட்டு அடைப்புக்குள் பரிமாணமற்ற அளவைத் தருவதால்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உலோகங்களுக்கு வெப்பநிலை குணகம் α இன் குறி என்ன?",
+      "options": [
+        "எதிர்மறை",
+        "நேர்மறை",
+        "பூஜ்யம்",
+        "உலோகத்தைப் பொறுத்தது"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that for metals, α is positive. This means that as temperature increases, the resistivity of metals increases, which is why the graph of ρ_T vs T is a straight line with positive slope. | உரை தெளிவாகக் கூறுகிறது உலோகங்களுக்கு, α நேர்மறை. இது வெப்பநிலை அதிகரிக்கும்போது, உலோகங்களின் மின்தடையியல்பு அதிகரிக்கிறது என்பதால், ρ_T vs T இன் வரைபடம் நேர்மறை சாய்வுடன் நேர்க்கோடு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "0 டிகிரி செல்சியஸை விட மிகக் குறைந்த வெப்பநிலைகளில் ρ_T மற்றும் T இன் வரைபடத்திற்கு என்ன நடக்கிறது?",
+      "options": [
+        "அது நேர்க்கோடாக இருக்கிறது",
+        "அது நேர்க்கோட்டிலிருந்து கணிசமாக விலகுகிறது",
+        "அது பரவளையமாகிறது",
+        "அது கிடைமட்ட கோடாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that at temperatures much lower than 0 degrees Celsius, the graph deviates considerably from a straight line. This is why the linear formula can only be used approximately over a limited range around any reference temperature. | உரை கூறுகிறது 0 டிகிரி செல்சியஸை விட மிகக் குறைந்த வெப்பநிலைகளில், வரைபடம் நேர்க்கோட்டிலிருந்து கணிசமாக விலகுகிறது. இதனால் நேரியல் சூத்திரத்தை எந்த குறிப்பு வெப்பநிலையைச் சுற்றியும் குறுகிய வரம்பில் மட்டுமே தோராயமாகப் பயன்படுத்த முடியும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "வெப்பநிலையுடன் மின்தடையியல்பின் மிகவும் பலவீனமான சார்பைக் காட்டும் கலவை எது குறிப்பிடப்பட்டுள்ளது?",
+      "options": [
+        "செம்பு",
+        "நிக்ரோம்",
+        "வெள்ளி",
+        "அலுமினியம்"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly mentions that Nichrome (which is an alloy of nickel, iron and chromium) exhibits a very weak dependence of resistivity with temperature. Manganin and constantan are also mentioned as having similar properties. | உரை தெளிவாகக் கூறுகிறது நிக்ரோம் (நிக்கல், இரும்பு மற்றும் குரோமியத்தின் கலவை) வெப்பநிலையுடன் மின்தடையியல்பின் மிகவும் பலவீனமான சார்பைக் காட்டுகிறது. மாங்கனின் மற்றும் கான்ஸ்டான்டன் ஆகியவையும் ஒத்த பண்புகளைக் கொண்டுள்ளன எனக் குறிப்பிடப்பட்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நிக்ரோம், மாங்கனின் மற்றும் கான்ஸ்டான்டன் போன்ற பொருட்கள் ஏன் கம்பி கட்டப்பட்ட தரநிலை மின்தடையானிகளில் பரவலாகப் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "அவை மிக உயர்ந்த மின்தடையியல்பைக் கொண்டிருப்பதால்",
+        "அவற்றின் மின்தடை மதிப்புகள் வெப்பநிலைகளுடன் மிகக் குறைவாக மாறுவதால்",
+        "அவை மிக மலிவானதால்",
+        "அவை மிக நெகிழ்வானதால்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that these materials are widely used in wire bound standard resistors since their resistance values would change very little with temperatures. This stability makes them ideal for precision resistance standards. | உரை கூறுகிறது இந்தப் பொருட்கள் கம்பி கட்டப்பட்ட தரநிலை மின்தடையானிகளில் பரவலாகப் பயன்படுத்தப்படுகின்றன, ஏனெனில் அவற்றின் மின்தடை மதிப்புகள் வெப்பநிலைகளுடன் மிகக் குறைவாக மாறும். இந்த நிலைப்புத்தன்மை அவற்றை துல்லிய மின்தடை தரங்களுக்கு ஏற்றதாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.3 இல் விவரிக்கப்பட்ட மின் தோச்டரில் வெப்ப உறுப்புக்கு எந்தப் பொருள் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "செம்பு",
+        "நிக்ரோம்",
+        "வெள்ளி",
+        "அலுமினியம்"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that an electric toaster uses nichrome for its heating element. Nichrome is an alloy of nickel, iron and chromium known for its high resistivity and stability at high temperatures. | உரை தெளிவாகக் கூறுகிறது ஒரு மின் தோச்டர் தனது வெப்ப உறுப்புக்கு நிக்ரோமைப் பயன்படுத்துகிறது. நிக்ரோம் நிக்கல், இரும்பு மற்றும் குரோமியத்தின் கலவை, அதன் உயர்ந்த மின்தடையியல்பு மற்றும் உயர்ந்த வெப்பநிலைகளில் நிலைப்புத்தன்மைக்கு அறியப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "புறக்கணிக்கத்தக்க சிறிய மின்னோட்டம் அதன் வழியாக செல்லும்போது, அறை வெப்பநிலையில் (27.0°C) நிக்ரோம் வெப்ப உறுப்பின் மின்தடை என்ன?",
+      "options": [
+        "50.0 ஓம்",
+        "75.3 ஓம்",
+        "85.8 ஓம்",
+        "100.0 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that when a negligibly small current passes through the heating element, its resistance at room temperature (27.0°C) is found to be 75.3 ohm. This is the cold resistance measured without significant heating effect. | உரை கூறுகிறது ஒரு புறக்கணிக்கத்தக்க சிறிய மின்னோட்டம் அதன் வழியாக செல்லும்போது, அறை வெப்பநிலையில் (27.0°C) அதன் மின்தடை 75.3 ஓம் என கண்டறியப்படுகிறது. இது குறிப்பிடத்தக்க வெப்ப விளைவு இல்லாமல் அளவிடப்பட்ட குளிர் மின்தடை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.3 இல் தோச்டர் எந்த மின்னழுத்த வழங்கலுக்கு இணைக்கப்பட்டுள்ளது?",
+      "options": [
+        "110 V",
+        "120 V",
+        "230 V",
+        "240 V"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the toaster is connected to a 230V supply. This is the standard voltage for household appliances in many countries including India. | உரை கூறுகிறது தோச்டர் 230V வழங்கலுக்கு இணைக்கப்பட்டுள்ளது. இது இந்தியா உட்பட பல நாடுகளில் வீட்டு கருவிகளுக்கான தரநிலை மின்னழுத்தம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "தோச்டர் வழங்கலுக்கு இணைக்கப்படும்போது, சில வினாடிகளுக்குப் பிறகு தோற்றமளிக்கும் நிலையான மின்னோட்டம் என்ன?",
+      "options": [
+        "1.5 A",
+        "2.0 A",
+        "2.68 A",
+        "3.0 A"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the current settles after a few seconds to a steady value of 2.68A. This is lower than the initial current because the resistance increases as the element heats up. | உரை கூறுகிறது மின்னோட்டம் சில வினாடிகளுக்குப் பிறகு 2.68A இன் நிலையான மதிப்பிற்கு தோற்றமளிக்கிறது. இது ஆரம்ப மின்னோட்டத்தை விட குறைவாகும், ஏனெனில் உறுப்பு சூடாகும்போது மின்தடை அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "தோச்டர் முதலில் இணைக்கப்படும்போது ஆரம்ப மின்னோட்டம் 2.68A இன் நிலையான மதிப்பை விட சற்று அதிகமாக இருப்பது ஏன்?",
+      "options": [
+        "மின்னழுத்தம் ஆரம்பத்தில் அதிகரிப்பதால்",
+        "வெப்ப உறுப்பு குளிர்ச்சியாக இருப்பதால் முதலில் குறைந்த மின்தடையுடன் இருக்கிறது",
+        "குளிர்ச்சியாக இருக்கும்போது கம்பி நீளமாக இருப்பதால்",
+        "பேட்டரி முழுமையாக சார்ஜ் செய்யப்பட்டிருப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that when the toaster is connected to the supply, its initial current will be slightly higher than its steady value because the heating element is at room temperature with lower resistance. As it heats up, resistance increases and current decreases. | உரை விளக்குகிறது தோச்டர் வழங்கலுக்கு இணைக்கப்படும்போது, அதன் ஆரம்ப மின்னோட்டம் நிலையான மதிப்பை விட சற்று அதிகமாக இருக்கும், ஏனெனில் வெப்ப உறுப்பு அறை வெப்பநிலையில் குறைந்த மின்தடையுடன் உள்ளது. அது சூடாகும்போது, மின்தடை அதிகரிக்கிறது மற்றும் மின்னோட்டம் குறைகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.3 இல் ஈடுபட்டுள்ள வெப்பநிலை வரம்பில் சராசரியாக நிக்ரோமின் மின்தடையின் வெப்பநிலை குணகம் என்ன?",
+      "options": [
+        "1.50 × 10^-4 °C^-1",
+        "1.70 × 10^-4 °C^-1",
+        "2.00 × 10^-4 °C^-1",
+        "2.50 × 10^-4 °C^-1"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the temperature coefficient of resistance of nichrome as 1.70 × 10^-4 °C^-1. This is a relatively small value, which is why nichrome is suitable for heating elements as its resistance does not change much with temperature. | உரை நிக்ரோமின் மின்தடையின் வெப்பநிலை குணகத்தை 1.70 × 10^-4 °C^-1 என வழங்குகிறது. இது ஒப்பீட்டளவில் சிறிய மதிப்பு, இதனால் நிக்ரோம் வெப்ப உறுப்புகளுக்கு ஏற்றது, ஏனெனில் அதன் மின்தடை வெப்பநிலையுடன் அதிகம் மாறுவதில்லை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.3 இல் நிலையான வெப்பநிலையில் R₂ மின்தடை என்ன?",
+      "options": [
+        "75.3 ஓம்",
+        "80.0 ஓம்",
+        "85.8 ஓம்",
+        "90.0 ஓம்"
+      ],
+      "correct": 2,
+      "explanation": "The text calculates R₂ = 230V / 2.68A = 85.8 ohm (approximately). This is the resistance at the steady state when the heating effect balances the heat loss to surroundings. | உரை R₂ = 230V / 2.68A = 85.8 ஓம் (தோராயமாக) என கணக்கிடுகிறது. இது நிலையான நிலையில் வெப்ப விளைவு சுற்றுப்புறத்திற்கான வெப்ப இழப்பை சமநிலைப்படுத்தும்போதான மின்தடை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.3 இல் வெப்பநிலை மாற்றத்தை கணக்கிட எந்த சூத்திரம் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "R₂ = R₁ × α × (T₂ - T₁)",
+        "R₂ = R₁[1 + α(T₂ - T₁)]",
+        "R₂ = R₁ + α(T₂ - T₁)",
+        "R₂ = R₁ / [1 + α(T₂ - T₁)]"
+      ],
+      "correct": 1,
+      "explanation": "The text uses the formula R₂ = R₁[1 + α(T₂ - T₁)] where R₁ is the initial resistance at temperature T₁, R₂ is the final resistance at temperature T₂, and α is the temperature coefficient of resistance. | உரை R₂ = R₁[1 + α(T₂ - T₁)] சூத்திரத்தைப் பயன்படுத்துகிறது, இங்கு R₁ என்பது வெப்பநிலை T₁ இல் ஆரம்ப மின்தடை, R₂ என்பது வெப்பநிலை T₂ இல் இறுதி மின்தடை, மற்றும் α என்பது மின்தடையின் வெப்பநிலை குணகம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.3 இல் கணக்கிடப்பட்ட வெப்பநிலை உயர்வு (T₂ - T₁) என்ன?",
+      "options": [
+        "500 °C",
+        "700 °C",
+        "820 °C",
+        "1000 °C"
+      ],
+      "correct": 2,
+      "explanation": "The text calculates T₂ - T₁ = (85.8 - 75.3) / (75.3 × 1.70 × 10^-4) = 820 °C. This is the temperature rise of the nichrome element from room temperature to steady state. | உரை T₂ - T₁ = (85.8 - 75.3) / (75.3 × 1.70 × 10^-4) = 820 °C என கணக்கிடுகிறது. இது அறை வெப்பநிலையிலிருந்து நிலையான நிலைக்கு நிக்ரோம் உறுப்பின் வெப்பநிலை உயர்வு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.3 இல் நிக்ரோம் வெப்ப உறுப்பின் நிலையான வெப்பநிலை என்ன?",
+      "options": [
+        "800 °C",
+        "820 °C",
+        "847 °C",
+        "900 °C"
+      ],
+      "correct": 2,
+      "explanation": "The text calculates T₂ = (820 + 27.0) °C = 847 °C. This is the steady temperature of the heating element when the heating effect due to the current equals the heat loss to the surroundings. | உரை T₂ = (820 + 27.0) °C = 847 °C என கணக்கிடுகிறது. இது மின்னோட்டத்தால் ஏற்படும் வெப்ப விளைவு சுற்றுப்புறத்திற்கான வெப்ப இழப்புக்கு சமமாகும்போது வெப்ப உறுப்பின் நிலையான வெப்பநிலை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.4 இல் பனிப்புள்ளியில் பிளாட்டினம் கம்பியின் மின்தடை என்ன?",
+      "options": [
+        "4 ஓம்",
+        "5 ஓம்",
+        "5.23 ஓம்",
+        "5.795 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the resistance of the platinum wire at the ice point is 5 ohm. This is the reference resistance R₀ at 0 degrees Celsius used in the temperature calculation. | உரை கூறுகிறது பனிப்புள்ளியில் பிளாட்டினம் கம்பியின் மின்தடை 5 ஓம். இது வெப்பநிலை கணக்கீட்டில் பயன்படுத்தப்படும் 0 டிகிரி செல்சியஸில் குறிப்பு மின்தடை R₀."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.4 இல் நீராவிப் புள்ளியில் பிளாட்டினம் கம்பியின் மின்தடை என்ன?",
+      "options": [
+        "5 ஓம்",
+        "5.1 ஓம்",
+        "5.23 ஓம்",
+        "5.5 ஓம்"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the resistance at the steam point is 5.23 ohm. This is the resistance R₁₀₀ at 100 degrees Celsius used in the temperature calculation formula. | உரை கூறுகிறது நீராவிப் புள்ளியில் மின்தடை 5.23 ஓம். இது வெப்பநிலை கணக்கீட்டு சூத்திரத்தில் 100 டிகிரி செல்சியஸில் பயன்படுத்தப்படும் மின்தடை R₁₀₀."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.4 இல் சூடான குளத்தில் செருகப்பட்ட போது பிளாட்டினம் கம்பியின் மின்தடை என்ன?",
+      "options": [
+        "5 ஓம்",
+        "5.23 ஓம்",
+        "5.5 ஓம்",
+        "5.795 ஓம்"
+      ],
+      "correct": 3,
+      "explanation": "The text states that the resistance of the platinum wire when inserted in the hot bath is 5.795 ohm. This is the unknown resistance R_t used to calculate the bath temperature. | உரை கூறுகிறது சூடான குளத்தில் செருகப்பட்ட போது பிளாட்டினம் கம்பியின் மின்தடை 5.795 ஓம். இது குளத்தின் வெப்பநிலையை கணக்கிட பயன்படுத்தப்படும் அறியப்படாத மின்தடை R_t."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.4 இல் குளத்தின் வெப்பநிலையை கணக்கிட பயன்படுத்தப்படும் சூத்திரம் என்ன?",
+      "options": [
+        "t = [(R_t - R₀) / (R₁₀₀ - R₀)] × 100",
+        "t = [(R_t + R₀) / (R₁₀₀ + R₀)] × 100",
+        "t = [(R_t - R₀) / (R₁₀₀ + R₀)] × 100",
+        "t = [(R_t + R₀) / (R₁₀₀ - R₀)] × 100"
+      ],
+      "correct": 0,
+      "explanation": "The text gives the formula t = [(R_t - R₀) / (R₁₀₀ - R₀)] × 100. This formula calculates the temperature by comparing the change in resistance from the ice point to the change between ice and steam points. | உரை சூத்திரத்தை t = [(R_t - R₀) / (R₁₀₀ - R₀)] × 100 என வழங்குகிறது. இந்த சூத்திரம் பனிப்புள்ளியிலிருந்து மின்தடை மாற்றத்தை பனி மற்றும் நீராவிப் புள்ளிகளுக்கு இடையே மாற்றத்துடன் ஒப்பிட்டு வெப்பநிலையை கணக்கிடுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.4 இல் கணக்கிடப்பட்ட சூடான குளத்தின் வெப்பநிலை என்ன?",
+      "options": [
+        "300.65 °C",
+        "345.65 °C",
+        "400.65 °C",
+        "500.65 °C"
+      ],
+      "correct": 1,
+      "explanation": "The text calculates the temperature as t = [(5.795 - 5) / (5.23 - 5)] × 100 = 345.65 °C. This is the temperature of the hot bath determined from the platinum resistance thermometer reading. | உரை வெப்பநிலையை t = [(5.795 - 5) / (5.23 - 5)] × 100 = 345.65 °C என கணக்கிடுகிறது. இது பிளாட்டினம் மின்தடை வெப்பமானி படிப்பிலிருந்து தீர்மானிக்கப்பட்ட சூடான குளத்தின் வெப்பநிலை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "பிரிவு 3.9 இல் மின் ஆற்றல் மற்றும் சக்தி பற்றி, ஒரு கடத்தியில் மின்னோட்டம் I, A இலிருந்து B க்கு ஓடும்போது V(A) மற்றும் V(B) இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "V(A) = V(B)",
+        "V(A) > V(B)",
+        "V(A) < V(B)",
+        "V(A) = -V(B)"
+      ],
+      "correct": 1,
+      "explanation": "The text states that since current is flowing from A to B, V(A) > V(B) and the potential difference across AB is V = V(A) - V(B) > 0. Current flows from higher potential to lower potential. | உரை கூறுகிறது A இலிருந்து B க்கு மின்னோட்டம் ஓடுவதால், V(A) > V(B) மற்றும் AB க்கு இடையே மின்னழுத்த வேறுபாடு V = V(A) - V(B) > 0. மின்னோட்டம் உயர்ந்த மின்னழுத்தத்திலிருந்து குறைந்த மின்னழுத்தத்திற்கு ஓடுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்டம் I ஓடும்போது நேர இடைவெளி Δt இல் A இலிருந்து B க்கு பயணிக்கும் மின்னூட்ட அளவு என்ன?",
+      "options": [
+        "ΔQ = I / Δt",
+        "ΔQ = I × Δt",
+        "ΔQ = I + Δt",
+        "ΔQ = I - Δt"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in a time interval Δt, an amount of charge ΔQ = IΔt travels from A to B. This is the fundamental definition of current as charge per unit time. | உரை கூறுகிறது ஒரு நேர இடைவெளி Δt இல், IΔt மின்னூட்ட அளவு A இலிருந்து B க்கு பயணிக்கிறது. இது நேர அலகுக்கு மின்னூட்டம் என்ற மின்னோட்டத்தின் அடிப்படை வரையறை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "A இலிருந்து B க்கு நகரும்போது மின்னூட்டம் ΔQ இன் மின்னழுத்த ஆற்றல் மாற்றம் என்ன?",
+      "options": [
+        "ΔU_pot = +I V Δt",
+        "ΔU_pot = -I V Δt",
+        "ΔU_pot = 0",
+        "ΔU_pot = I V / Δt"
+      ],
+      "correct": 1,
+      "explanation": "The text calculates the change in potential energy as ΔU_pot = ΔQ[(V(B) - V(A)] = -ΔQ V = -I V Δt < 0. The negative sign indicates the charge loses potential energy as it moves from higher to lower potential. | உரை மின்னழுத்த ஆற்றல் மாற்றத்தை ΔU_pot = ΔQ[(V(B) - V(A)] = -ΔQ V = -I V Δt < 0 என கணக்கிடுகிறது. எதிர்குறி மின்னூட்டம் உயர்ந்த மின்னழுத்தத்திலிருந்து குறைந்த மின்னழுத்தத்திற்கு நகரும்போது மின்னழுத்த ஆற்றலை இழப்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்தியின் வழியாக மின்னூட்டங்கள் மோதல்கள் இல்லாமல் நகர்ந்தால் அவற்றின் இயக்க ஆற்றலுக்கு என்ன நடக்கும்?",
+      "options": [
+        "அது குறையும்",
+        "அது நிலையாக இருக்கும்",
+        "அது அதிகரிக்கும், ΔK = I V Δt > 0 உடன்",
+        "அது பூஜ்யமாகிறும்"
+      ],
+      "correct": 2,
+      "explanation": "The text states that if charges moved without collisions through the conductor, their kinetic energy would increase so that the total energy is unchanged. Conservation of total energy would imply that ΔK = I V Δt > 0. | உரை கூறுகிறது கடத்தியின் வழியாக மின்னூட்டங்கள் மோதல்கள் இல்லாமல் நகர்ந்தால், அவற்றின் இயக்க ஆற்றல் அதிகரிக்கும் எனவே மொத்த ஆற்றல் மாறாதது. மொத்த ஆற்றல் பாதுகாப்பு ΔK = I V Δt > 0 என்பதை குறிக்கும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரு கடத்தியில் சிதைவுற்ற சக்தி P இன் சூத்திரம் என்ன?",
+      "options": [
+        "P = I / V",
+        "P = I × V",
+        "P = V / I",
+        "P = I + V"
+      ],
+      "correct": 1,
+      "explanation": "The text defines power dissipated as P = ΔW/Δt and derives P = I V. This is the fundamental formula for electrical power. Using Ohm's law, this can also be written as P = I²R = V²/R. | உரை சிதைவுற்ற சக்தியை P = ΔW/Δt என வரையறுத்து P = I V என பெறுகிறது. இது மின் சக்தியின் அடிப்படை சூத்திரம். ஓமின் விதியைப் பயன்படுத்தி, இது P = I²R = V²/R எனவும் எழுதப்படலாம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஓமின் விதியிலிருந்து பெறப்பட்ட மின்தடை R உடைய கடத்தியில் மின்னோட்டம் I ஓடும்போது சக்தி P இன் மாற்று வெளிப்பாடுகள் என்ன?",
+      "options": [
+        "P = I V மற்றும் P = I^2 R மட்டுமே",
+        "P = I^2 R = V^2 / R",
+        "P = V^2 R = I / R",
+        "P = R / I = V / R"
+      ],
+      "correct": 1,
+      "explanation": "The text states that using Ohm's law V = IR, we get P = I^2 R = V^2 / R as the power loss in a conductor. These are the standard formulas for ohmic power dissipation. | உரை ஓமின் விதி V = IR ஐப் பயன்படுத்தி, நாம் P = I^2 R = V^2 / R ஐ ஒரு கடத்தியில் சக்தி இழப்பாக பெறுகிறோம். இவை ஓமிய சக்தி சிதைவுக்கான தரநிலை சூத்திரங்கள்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "செல் கொண்ட எளிய சுற்றில் நிலையான மின்னோட்டத்தை பராமரிக்க சக்தியின் மூலம் என்ன?",
+      "options": [
+        "கம்பியின் மின்தடை",
+        "செல்லின் வேதியியல் ஆற்றல்",
+        "சுற்றைச் சுற்றியுள்ள காந்த புலம்",
+        "சுற்றுப்புறத்தின் வெப்ப ஆற்றல்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in the simple circuit with a cell, it is the chemical energy of the cell which supplies the power for as long as it can. This is the fundamental source of emf in a galvanic cell. | உரை கூறுகிறது செல் கொண்ட எளிய சுற்றில், அது முடியும் வரை சக்தியை வழங்குவது செல்லின் வேதியியல் ஆற்றல். இது ஒரு கால்வனிக் செல்லில் emf இன் அடிப்படை மூலம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின் உற்பத்தி நிலையங்களிலிருந்து மின் சக்தி ஏன் மிக உயர்ந்த மின்னழுத்தங்களில் கடத்தப்படுகிறது?",
+      "options": [
+        "கடத்தல் கம்பிகளில் மின்னோட்டத்தை அதிகரிக்க",
+        "கடத்தல் கம்பிகளில் சக்தி இழப்பைக் குறைக்க",
+        "மின்சாரத்தை மிக ஆபத்தானதாக்க",
+        "கம்பிகளின் மின்தடையை குறைக்க"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that to minimize power loss in transmission cables, these wires carry current at enormous values of V. The power wasted in connecting wires is P_c = P^2 R_c / V^2, which is inversely proportional to V^2. | உரை விளக்குகிறது கடத்தல் கம்பிகளில் சக்தி இழப்பைக் குறைக்க, இந்த கம்பிகள் மிகப் பெரிய V மதிப்புகளில் மின்னோட்டத்தை கடத்துகின்றன. இணைக்கும் கம்பிகளில் வீணாகும் சக்தி P_c = P^2 R_c / V^2, இது V^2 க்கு எதிர் விகிதத்தில் உள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னழுத்தம் V இல் சக்தி P வழங்கப்படும்போது மின்தடை R_c உடைய இணைக்கும் கம்பிகளில் வீணாகும் சக்திக்கான சூத்திரம் என்ன?",
+      "options": [
+        "P_c = V^2 R_c / P",
+        "P_c = P^2 R_c / V^2",
+        "P_c = P R_c / V",
+        "P_c = V R_c / P^2"
+      ],
+      "correct": 1,
+      "explanation": "The text derives P_c = I^2 R_c = P^2 R_c / V^2 from the power transmission equations. Since P = V I, substituting I = P/V gives this expression for wasted power. | உரை சக்தி கடத்தல் சமன்பாடுகளிலிருந்து P_c = I^2 R_c = P^2 R_c / V^2 ஐ பெறுகிறது. P = V I என்பதால், I = P/V ஐ மாற்றிப் போடுவது வீணாகும் சக்திக்கான இந்த வெளிப்பாட்டை தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "பயன்பாட்டிற்கு ஏற்ற மதிப்பிற்கு உயர்ந்த கடத்தல் மின்னழுத்தத்தை குறைக்க மறுமுனையில் எந்த சாதனம் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "உற்பத்தி இயந்திரம்",
+        "டிரான்ஸ்ஃபார்மர்",
+        "மோட்டார்",
+        "திருத்தி"
+      ],
+      "correct": 1,
+      "explanation": "The text states that at the other end, a device called a transformer lowers the voltage to a value suitable for use. Transformers are essential for power distribution systems. | உரை கூறுகிறது மறுமுனையில், ஒரு டிரான்ஸ்ஃபார்மர் எனப்படும் சாதனம் பயன்பாட்டிற்கு ஏற்ற மதிப்பிற்கு மின்னழுத்தத்தை குறைக்கிறது. டிரான்ஸ்ஃபார்மர்கள் சக்தி விநியோக அமைப்புகளுக்கு அவசியம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரு எலக்ட்ரோலைட்டிக் செல்லில் உள்ள இரண்டு மின்முனைகள் என்ன அழைக்கப்படுகின்றன?",
+      "options": [
+        "அனோடு மற்றும் கேத்தோடு",
+        "நேர்மறை (P) மற்றும் எதிர்மறை (N)",
+        "வடக்கு மற்றும் தெற்கு",
+        "முதன்மை மற்றும் இரண்டாம்நிலை"
+      ],
+      "correct": 1,
+      "explanation": "The text states that a cell has two electrodes called the positive (P) and the negative (N). These are immersed in an electrolytic solution and exchange charges with the electrolyte. | உரை கூறுகிறது ஒரு செல்லில் நேர்மறை (P) மற்றும் எதிர்மறை (N) என அழைக்கப்படும் இரண்டு மின்முனைகள் உள்ளன. இவை ஒரு எலக்ட்ரோலைட்டிக் கரைசலில் மூழ்கடிக்கப்பட்டு எலக்ட்ரோலைட்டுடன் மின்னூட்டங்களை பரிமாறிக்கொள்கின்றன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நேர்மறை மின்முனை P மற்றும் அதற்கு அருகிலுள்ள எலக்ட்ரோலைட்டு கரைசலுக்கு இடையே உள்ள மின்னழுத்த வேறுபாடு என்ன?",
+      "options": [
+        "V-",
+        "V+",
+        "பூஜ்யம்",
+        "எப்சிலான்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the positive electrode has a potential difference V+ (V+ > 0) between itself and the electrolyte solution immediately adjacent to it. This is marked as point A in the figure. | உரை கூறுகிறது நேர்மறை மின்முனைக்கும் அதற்கு அருகிலுள்ள எலக்ட்ரோலைட்டு கரைசலுக்கும் இடையே V+ (V+ > 0) மின்னழுத்த வேறுபாடு உள்ளது. இது படத்தில் A புள்ளியாக குறிக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்டம் ஓடாதபோது செல்லின் மின்னியக்கவிசை (emf) என்ன?",
+      "options": [
+        "V+ - V-",
+        "V+ + V-",
+        "V+ / V-",
+        "V+ × V-"
+      ],
+      "correct": 1,
+      "explanation": "The text derives that when there is no current, the potential difference between P and N is V+ - (-V-) = V+ + V-. This difference is called the electromotive force (emf) of the cell and is denoted by epsilon. | உரை P மற்றும் N இடையே மின்னோட்டம் இல்லாதபோது மின்னழுத்த வேறுபாடு V+ - (-V-) = V+ + V- என பெறுகிறது. இந்த வேறுபாடு செல்லின் மின்னியக்கவிசை (emf) என அழைக்கப்படுகிறது மற்றும் epsilon என குறிக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "முடிவுள்ள மின்தடை R செல்லின் குறுக்கே இணைக்கப்படும்போது முனை மின்னழுத்தம் V மற்றும் emf epsilon இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "V = epsilon + I r",
+        "V = epsilon - I r",
+        "V = epsilon × I r",
+        "V = epsilon / I r"
+      ],
+      "correct": 1,
+      "explanation": "The text states that when R is finite, the potential difference between P and N is V = epsilon - I r, where r is the internal resistance. The negative sign is because current flows from B to A in the electrolyte. | உரை R முடிவுள்ளதாக இருக்கும்போது, P மற்றும் N இடையே மின்னழுத்த வேறுபாடு V = epsilon - I r, இங்கு r என்பது உள் மின்தடை. எதிர்குறி எலக்ட்ரோலைட்டில் மின்னோட்டம் B இலிருந்து A க்கு ஓடுவதால்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "emf epsilon, உள் மின்தடை r, மற்றும் வெளி மின்தடை R உடைய சுற்றில் மின்னோட்டம் I இன் வெளிப்பாடு என்ன?",
+      "options": [
+        "I = epsilon / R",
+        "I = epsilon / (R + r)",
+        "I = epsilon × (R + r)",
+        "I = (R + r) / epsilon"
+      ],
+      "correct": 1,
+      "explanation": "The text combines V = IR and V = epsilon - I r to get I R = epsilon - I r, which gives I = epsilon / (R + r). This is the complete circuit equation accounting for internal resistance. | உரை V = IR மற்றும் V = epsilon - I r ஐ இணைத்து I R = epsilon - I r ஐ பெறுகிறது, இது I = epsilon / (R + r) ஐ தருகிறது. இது உள் மின்தடையை கணக்கில் எடுத்துக்கொள்ளும் முழு சுற்று சமன்பாடு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "செல்லின் உள்ளே உள்ள எலக்ட்ரோலைட்டின் வழியாக மின்னோட்டத்தின் திசை என்ன?",
+      "options": [
+        "நேர்மறை முனை P இலிருந்து எதிர்மறை முனை N க்கு",
+        "எதிர்மறை முனை N இலிருந்து நேர்மறை முனை P க்கு",
+        "இரண்டு திசைகளிலும் ஒரே நேரத்தில்",
+        "எலக்ட்ரோலைட்டின் வழியாக மின்னோட்டம் ஓடாது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that a steady current is maintained because current flows from N to P through the electrolyte. This is opposite to the external circuit where current flows from P to N through the resistor R. | உரை கூறுகிறது நிலையான மின்னோட்டம் பேணப்படுகிறது, ஏனெனில் மின்னோட்டம் எலக்ட்ரோலைட்டின் வழியாக N இலிருந்து P க்கு ஓடுகிறது. இது வெளிச் சுற்றில் மின்னோட்டம் R மின்தடையானியின் வழியாக P இலிருந்து N க்கு ஓடுவதற்கு எதிரானது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "செல்லின் குறுக்கே இணைக்கப்பட்ட வெளிச் சுற்று மின்தடையானி R இன் வழியாக மின்னோட்டத்தின் திசை என்ன?",
+      "options": [
+        "எதிர்மறை முனை N இலிருந்து நேர்மறை முனை P க்கு",
+        "நேர்மறை முனை P இலிருந்து எதிர்மறை முனை N க்கு",
+        "இரண்டு திசைகளிலும் ஒரே நேரத்தில்",
+        "வெளிச் சுற்று மின்தடையானியின் வழியாக மின்னோட்டம் ஓடாது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that current flows across R from C to D, which is from the positive terminal P to the negative terminal N through the external resistor. This is the conventional current direction in the external circuit. | உரை கூறுகிறது மின்னோட்டம் C இலிருந்து D க்கு R இன் குறுக்கே ஓடுகிறது, அதாவது நேர்மறை முனை P இலிருந்து எதிர்மறை முனை N க்கு வெளிச் சுற்று மின்தடையானியின் வழியாக. இது வெளிச் சுற்றில் வழக்கமான மின்னோட்ட திசை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்டம் ஓடும் எலக்ட்ரோலைட்டின் முடிவுள்ள மின்தடை என்ன அழைக்கப்படுகிறது?",
+      "options": [
+        "வெளிச் சுற்று மின்தடை",
+        "உள் மின்தடை",
+        "முனை மின்தடை",
+        "தொடர்பு மின்தடை"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the electrolyte through which a current flows has a finite resistance r, called the internal resistance. This is an important parameter that affects the terminal voltage of the cell. | உரை தெளிவாகக் கூறுகிறது மின்னோட்டம் ஓடும் எலக்ட்ரோலைட்டு முடிவுள்ள மின்தடை r ஐ கொண்டுள்ளது, இது உள் மின்தடை என அழைக்கப்படுகிறது. இது செல்லின் முனை மின்னழுத்தத்தை பாதிக்கும் ஒரு முக்கிய அளவுரு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "வெளிச் சுற்று மின்தடை R முடிவிலியாக இருக்கும்போது சுற்றில் மின்னோட்டம் I என்ன?",
+      "options": [
+        "I = epsilon / r",
+        "I = 0",
+        "I = epsilon / R",
+        "I = முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The text states that when R is infinite, I = V/R = 0. This is the open circuit condition where no current flows, and the terminal voltage equals the emf epsilon. | உரை கூறுகிறது R முடிவிலியாக இருக்கும்போது, I = V/R = 0. இது திறந்த சுற்று நிலை, இங்கு மின்னோட்டம் ஓடாது, மற்றும் முனை மின்னழுத்தம் emf epsilon க்கு சமம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "வெளிச் சுற்று மின்தடை R முடிவிலியாக இருக்கும்போது (திறந்த சுற்று) முனை மின்னழுத்தம் V என்ன?",
+      "options": [
+        "V = 0",
+        "V = epsilon - I r",
+        "V = epsilon",
+        "V = I r"
+      ],
+      "correct": 2,
+      "explanation": "The text states that when R is infinite so that I = 0, the potential difference between P and N is V = epsilon. This is the definition of emf as the potential difference in an open circuit. | உரை கூறுகிறது R முடிவிலியாக இருந்தால் I = 0, P மற்றும் N இடையே மின்னழுத்த வேறுபாடு V = epsilon. இது emf இன் வரையறை, திறந்த சுற்றில் மின்னழுத்த வேறுபாடு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "முடிவுள்ள மின்தடை R இணைக்கப்பட்டு மின்னோட்டம் I ஓடும்போது முனை மின்னழுத்தம் V இன் வெளிப்பாடு என்ன?",
+      "options": [
+        "V = epsilon + I r",
+        "V = epsilon - I r",
+        "V = epsilon × I r",
+        "V = epsilon / I r"
+      ],
+      "correct": 1,
+      "explanation": "The text derives V = epsilon - I r when R is finite and I is not zero. The negative sign in the expression (I r) is because the current I flows from B to A in the electrolyte, opposite to the external current direction. | உரை R முடிவுள்ளதாகவும் I பூஜ்யமல்லாததாகவும் இருக்கும்போது V = epsilon - I r என பெறுகிறது. வெளிப்பாட்டில் (I r) உள்ள எதிர்குறி, எலக்ட்ரோலைட்டில் மின்னோட்டம் I, B இலிருந்து A க்கு ஓடுவதால், வெளிச் சுற்று மின்னோட்ட திசைக்கு எதிராக."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எலக்ட்ரோலைட்டில் A மற்றும் B புள்ளிகளுக்கு இடையே மின்னழுத்த வேறுபாட்டிற்கான வெளிப்பாட்டில் (I r) எதிர்குறி இருப்பது ஏன்?",
+      "options": [
+        "எலக்ட்ரோலைட்டில் மின்னோட்டம் A இலிருந்து B க்கு ஓடுவதால்",
+        "எலக்ட்ரோலைட்டில் மின்னோட்டம் I, B இலிருந்து A க்கு ஓடுவதால்",
+        "எலக்ட்ரோலைட்டிற்கு மின்தடை இல்லாததால்",
+        "emf எதிர்மறையாக இருப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the negative sign in the expression (I r) for the potential difference between A and B is because the current I flows from B to A in the electrolyte. This is opposite to the external current direction. | உரை தெளிவாகக் கூறுகிறது A மற்றும் B இடையே மின்னழுத்த வேறுபாட்டிற்கான வெளிப்பாட்டில் (I r) உள்ள எதிர்குறி, எலக்ட்ரோலைட்டில் மின்னோட்டம் I, B இலிருந்து A க்கு ஓடுவதால். இது வெளிச் சுற்று மின்னோட்ட திசைக்கு எதிரானது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நடைமுறை கணக்கீடுகளில் சுற்றில் உள்ள செல்களின் உள் மின்தடைகள் எந்த நிலையில் புறக்கணிக்கப்படலாம்?",
+      "options": [
+        "மின்னோட்டம் I மிகப் பெரியதாக இருக்கும்போது",
+        "epsilon, I r விட மிகவும் பெரியதாக இருக்கும்போது",
+        "வெளிச் சுற்று மின்தடை R பூஜ்யமாக இருக்கும்போது",
+        "வெப்பநிலை மிகவும் அதிகமாக இருக்கும்போது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that internal resistances of cells in the circuit may be neglected when the current I is such that epsilon is much greater than I r. This means the voltage drop across internal resistance is negligible compared to the emf. | உரை கூறுகிறது சுற்றில் உள்ள செல்களின் உள் மின்தடைகள் புறக்கணிக்கப்படலாம், மின்னோட்டம் I அதனால் epsilon, I r விட மிகவும் பெரியதாக இருக்கும்போது. இது உள் மின்தடையில் மின்னழுத்த வீழ்ச்சி emf உடன் ஒப்பிடும்போது புறக்கணிக்கத்தக்கது என்பதாகும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உலர் செல்களின் உள் மின்தடை பொதுவான எலக்ட்ரோலைட்டிக் செல்களுடன் எவ்வாறு ஒப்பிடப்படுகிறது?",
+      "options": [
+        "உலர் செல்களுக்கு மிகக் குறைந்த உள் மின்தடை",
+        "உலர் செல்களுக்கு மிகவும் அதிகமான உள் மின்தடை",
+        "இரண்டிற்கும் ஒரே உள் மின்தடை",
+        "உலர் செல்களுக்கு உள் மின்தடை இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the internal resistance of dry cells is much higher than the common electrolytic cells. This is an important practical consideration when choosing cells for different applications. | உரை தெளிவாகக் கூறுகிறது உலர் செல்களின் உள் மின்தடை பொதுவான எலக்ட்ரோலைட்டிக் செல்களை விட மிகவும் அதிகம். இது வெவ்வேறு பயன்பாடுகளுக்கு செல்களைத் தேர்ந்தெடுக்கும்போது ஒரு முக்கியமான நடைமுறை கருத்து."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "செல்லிலிருந்து பெறக்கூடிய அதிகபட்ச மின்னோட்டம் என்ன மற்றும் அதன் வெளிப்பாடு என்ன?",
+      "options": [
+        "R அதிகமாக இருக்கும்போது I_max = epsilon / R",
+        "R = 0 ஆக இருக்கும்போது I_max = epsilon / r",
+        "R = 0 ஆக இருக்கும்போது I_max = epsilon × r",
+        "R = 0 ஆக இருக்கும்போது I_max = 0"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the maximum current that can be drawn from a cell is for R = 0 and it is I_max = epsilon / r. However, in most cells the maximum allowed current is much lower than this to prevent permanent damage to the cell. | உரை கூறுகிறது செல்லிலிருந்து பெறக்கூடிய அதிகபட்ச மின்னோட்டம் R = 0 க்கு மற்றும் அது I_max = epsilon / r. எனினும், பெரும்பாலான செல்களில் அதிகபட்ச அனுமதிக்கப்பட்ட மின்னோட்டம் இதை விட மிகக் குறைவு, செல்லுக்கு நிரந்தர சேதம் ஏற்படுவதைத் தடுக்க."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "epsilon1 மற்றும் epsilon2 emf களுடன் தொடரில் இணைக்கப்பட்ட இரண்டு செல்களின் சமமான emf என்ன?",
+      "options": [
+        "epsilon_eq = epsilon1 - epsilon2",
+        "epsilon_eq = epsilon1 + epsilon2",
+        "epsilon_eq = epsilon1 × epsilon2",
+        "epsilon_eq = epsilon1 / epsilon2"
+      ],
+      "correct": 1,
+      "explanation": "The text derives that for two cells in series connected with negative of first to positive of second, the equivalent emf is epsilon_eq = epsilon1 + epsilon2. This is obtained by comparing V_AC = epsilon1 + epsilon2 - I(r1 + r2) with the equivalent cell equation V_AC = epsilon_eq - I r_eq. | உரை முதலின் எதிர்மறையை இரண்டாவதின் நேர்மறைக்கு இணைத்து தொடரில் உள்ள இரண்டு செல்களுக்கு சமமான emf, epsilon_eq = epsilon1 + epsilon2 என பெறுகிறது. இது V_AC = epsilon1 + epsilon2 - I(r1 + r2) ஐ சமமான செல் சமன்பாடு V_AC = epsilon_eq - I r_eq உடன் ஒப்பிடுவதால் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "r1 மற்றும் r2 உள் மின்தடைகளுடன் தொடரில் இணைக்கப்பட்ட இரண்டு செல்களின் சமமான உள் மின்தடை என்ன?",
+      "options": [
+        "r_eq = r1 × r2",
+        "r_eq = r1 + r2",
+        "r_eq = 1/r1 + 1/r2",
+        "r_eq = r1 - r2"
+      ],
+      "correct": 1,
+      "explanation": "The text derives that for two cells in series, the equivalent internal resistance is r_eq = r1 + r2. This is obtained by comparing the combined equation V_AC = epsilon1 + epsilon2 - I(r1 + r2) with the equivalent cell equation V_AC = epsilon_eq - I r_eq. | உரை தொடரில் உள்ள இரண்டு செல்களுக்கு சமமான உள் மின்தடை r_eq = r1 + r2 என பெறுகிறது. இது இணைக்கப்பட்ட சமன்பாடு V_AC = epsilon1 + epsilon2 - I(r1 + r2) ஐ சமமான செல் சமன்பாடு V_AC = epsilon_eq - I r_eq உடன் ஒப்பிடுவதால் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "தொடரில் உள்ள செல்களின் இரண்டு எதிர்மறை மின்முனைகள் இணைக்கப்பட்டால், epsilon1, epsilon2 விட பெரியதாக இருக்கும்போது சமமான emf என்ன?",
+      "options": [
+        "epsilon_eq = epsilon1 + epsilon2",
+        "epsilon_eq = epsilon1 - epsilon2",
+        "epsilon_eq = epsilon2 - epsilon1",
+        "epsilon_eq = 0"
+      ],
+      "correct": 1,
+      "explanation": "The text states that if the two negatives are connected instead, V_BC would change to -epsilon2 - I r2, giving epsilon_eq = epsilon1 - epsilon2 (when epsilon1 > epsilon2). The second cell's emf enters with a negative sign because current leaves from its negative electrode. | உரை கூறுகிறது இரண்டு எதிர்மறைகளும் இணைக்கப்பட்டால், V_BC -epsilon2 - I r2 ஆக மாறும், epsilon_eq = epsilon1 - epsilon2 (epsilon1 > epsilon2 போது) ஐ தருகிறது. இரண்டாவது செல்லின் emf எதிர்குறியுடன் நுழைகிறது, ஏனெனில் மின்னோட்டம் அதன் எதிர்மறை மின்முனையிலிருந்து வெளியேறுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "தொடரில் இணைக்கப்பட்ட n செல்களின் சமமான emf க்கான பொது விதி என்ன?",
+      "options": [
+        "அனைத்து தனித்தனி emf களின் பெருக்கல்",
+        "அவற்றின் தனித்தனி emf களின் கூட்டுத்தொகை",
+        "அனைத்து தனித்தனி emf களின் சராசரி",
+        "தனித்தனி emf களின் கூட்டுத்தொகையின் நேர்மாறு"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the equivalent emf of a series combination of n cells is just the sum of their individual emfs. If current leaves any cell from the negative electrode, that cell's emf enters with a negative sign. | உரை தெளிவாகக் கூறுகிறது n செல்களின் தொடர் இணைப்பின் சமமான emf, அவற்றின் தனித்தனி emf களின் கூட்டுத்தொகை. மின்னோட்டம் எந்த செல்லிலிருந்தும் எதிர்மறை மின்முனையிலிருந்து வெளியேறினால், அந்த செல்லின் emf எதிர்குறியுடன் நுழைகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "தொடரில் இணைக்கப்பட்ட n செல்களின் சமமான உள் மின்தடைக்கான பொது விதி என்ன?",
+      "options": [
+        "அனைத்து தனித்தனி உள் மின்தடைகளின் பெருக்கல்",
+        "அவற்றின் தனித்தனி உள் மின்தடைகளின் கூட்டுத்தொகை",
+        "நேர்மாறுகளின் கூட்டுத்தொகையின் நேர்மாறு",
+        "அனைத்து தனித்தனி உள் மின்தடைகளின் சராசரி"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the equivalent internal resistance of a series combination of n cells is just the sum of their individual internal resistances. This is analogous to resistors in series. | உரை தெளிவாகக் கூறுகிறது n செல்களின் தொடர் இணைப்பின் சமமான உள் மின்தடை, அவற்றின் தனித்தனி உள் மின்தடைகளின் கூட்டுத்தொகை. இது தொடரில் உள்ள மின்தடையானிகளுக்கு ஒப்பானது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "இரண்டு செல்களின் இணை இணைப்பிற்கு, மொத்த மின்னோட்டம் I மற்றும் தனித்தனி மின்னோட்டங்கள் I1 மற்றும் I2 இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "I = I1 - I2",
+        "I = I1 + I2",
+        "I = I1 × I2",
+        "I = I1 / I2"
+      ],
+      "correct": 1,
+      "explanation": "The text states that at point B1, I1 and I2 flow in whereas current I flows out. Since as much charge flows in as out, we have I = I1 + I2. This is the junction rule applied to the parallel combination of cells. | உரை கூறுகிறது B1 புள்ளியில், I1 மற்றும் I2 உள்ளே ஓடுகின்றன, மின்னோட்டம் I வெளியே ஓடுகிறது. உள்ளே ஓடும் அளவு வெளியே ஓடுவதற்கு சமமாக இருப்பதால், நாம் I = I1 + I2 ஐ கொண்டுள்ளோம். இது செல்களின் இணை இணைப்பிற்கு பயன்படுத்தப்படும் சந்தி விதி."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "இரண்டு செல்களின் இணை இணைப்பிற்கு, சமமான உள் மின்தடை r_eq மற்றும் தனித்தனி உள் மின்தடைகள் r1 மற்றும் r2 இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "r_eq = r1 + r2",
+        "1/r_eq = 1/r1 + 1/r2",
+        "r_eq = r1 × r2",
+        "r_eq = r1 - r2"
+      ],
+      "correct": 1,
+      "explanation": "The text derives that for two cells in parallel, 1/r_eq = 1/r1 + 1/r2. This is analogous to resistors in parallel, where the reciprocal of the equivalent resistance equals the sum of reciprocals of individual resistances. | உரை இரண்டு செல்களின் இணை இணைப்பிற்கு 1/r_eq = 1/r1 + 1/r2 என பெறுகிறது. இது இணையில் உள்ள மின்தடையானிகளுக்கு ஒப்பானது, இங்கு சமமான மின்தடையின் நேர்மாறு, தனித்தனி மின்தடைகளின் நேர்மாறுகளின் கூட்டுத்தொகைக்கு சமம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "இரண்டு செல்களின் இணை இணைப்பிற்கு, சமமான emf epsilon_eq மற்றும் தனித்தனி emf கள் மற்றும் மின்தடைகளுக்கு இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "epsilon_eq = epsilon1 + epsilon2",
+        "epsilon_eq / r_eq = epsilon1 / r1 + epsilon2 / r2",
+        "epsilon_eq = epsilon1 × r1 + epsilon2 × r2",
+        "epsilon_eq = epsilon1 / r1 - epsilon2 / r2"
+      ],
+      "correct": 1,
+      "explanation": "The text derives that for two cells in parallel, epsilon_eq / r_eq = epsilon1 / r1 + epsilon2 / r2. This is obtained by combining the equations for the two parallel branches and comparing with the equivalent cell equation. | உரை இரண்டு செல்களின் இணை இணைப்பிற்கு epsilon_eq / r_eq = epsilon1 / r1 + epsilon2 / r2 என பெறுகிறது. இது இரண்டு இணை கிளைகளுக்கான சமன்பாடுகளை இணைத்து, சமமான செல் சமன்பாட்டுடன் ஒப்பிடுவதால் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "இணை இணைப்பில் இரண்டாவது செல்லின் எதிர்மறை முனை முதல் செல்லின் நேர்மறை முனைக்கு இணைக்கப்பட்டால், சூத்திரம் எவ்வாறு மாறுகிறது?",
+      "options": [
+        "epsilon1, -epsilon1 ஆல் மாற்றப்படுகிறது",
+        "epsilon2, -epsilon2 ஆல் மாற்றப்படுகிறது",
+        "r1, -r1 ஆல் மாற்றப்படுகிறது",
+        "r2, -r2 ஆல் மாற்றப்படுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that if the negative terminal of the second is connected to the positive terminal of the first, the equations would still be valid with epsilon2 replaced by -epsilon2. This is because the current now enters the second cell from its negative terminal. | உரை கூறுகிறது இரண்டாவதின் எதிர்மறை முனை முதலின் நேர்மறை முனைக்கு இணைக்கப்பட்டால், சமன்பாடுகள் இன்னும் epsilon2 ஐ -epsilon2 ஆக மாற்றுவதன் மூலம் செல்லுபடியாகும். இது மின்னோட்டம் இப்போது இரண்டாவது செல்லின் எதிர்மறை முனையிலிருந்து நுழைவதால்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "emf கள் epsilon1 முதல் epsilon_n மற்றும் உள் மின்தடைகள் r1 முதல் r_n உடன் இணையில் இணைக்கப்பட்ட n செல்களுக்கு, சமமான உள் மின்தடைக்கான பொது சூத்திரம் என்ன?",
+      "options": [
+        "r_eq = r1 + r2 + ... + r_n",
+        "1/r_eq = 1/r1 + 1/r2 + ... + 1/r_n",
+        "r_eq = r1 × r2 × ... × r_n",
+        "1/r_eq = 1/(r1 + r2 + ... + r_n)"
+      ],
+      "correct": 1,
+      "explanation": "The text extends the parallel combination formula to n cells, giving 1/r_eq = 1/r1 + ... + 1/r_n. This is the generalization of the two-cell parallel formula, analogous to the parallel combination of resistors. | உரை n செல்களுக்கு இணை இணைப்பு சூத்திரத்தை நீட்டிக்கிறது, 1/r_eq = 1/r1 + ... + 1/r_n ஐ தருகிறது. இது இரண்டு செல் இணை சூத்திரத்தின் பொதுமைப்படுத்தல், மின்தடையானிகளின் இணை இணைப்புக்கு ஒப்பானது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "குஸ்தாவ் ராபர்ட் கிர்ச்ஹாஃபின் குடியுரிமை என்ன மற்றும் அவர் எங்கு பேராசிரியராக இருந்தார்?",
+      "options": [
+        "பிரெஞ்சு இயற்பியலாளர், பாரிஸ் மற்றும் லியோனில் பேராசிரியர்",
+        "ஜெர்மன் இயற்பியலாளர், ஹைடெல்பெர்க் மற்றும் பெர்லினில் பேராசிரியர்",
+        "பிரிட்டிஷ் இயற்பியலாளர், கேம்பிரிட்ஜ் மற்றும் ஆக்ஸ்ஃபோர்டில் பேராசிரியர்",
+        "அமெரிக்க இயற்பியலாளர், ஹார்வர்ட் மற்றும் யேலில் பேராசிரியர்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Gustav Robert Kirchhoff (1824-1887) was a German physicist and professor at Heidelberg and at Berlin. He is mainly known for his development of spectroscopy and his contributions to mathematical physics including circuit rules. | உரை கூறுகிறது குஸ்தாவ் ராபர்ட் கிர்ச்ஹாஃப் (1824-1887) ஒரு ஜெர்மன் இயற்பியலாளர் மற்றும் ஹைடெல்பெர்க் மற்றும் பெர்லினில் பேராசிரியர். அவர் முக்கியமாக நிறமாலையியல் வளர்ப்புக்கும் மற்றும் சுற்று விதிகள் உட்பட கணித இயற்பியலுக்கான தனது பங்களிப்புகளுக்கும் அறியப்படுகிறார்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உரையின்படி கிர்ச்ஹாஃப் முக்கியமாக எதற்கு அறியப்படுகிறார்?",
+      "options": [
+        "குவாண்டம் இயங்கியல் வளர்ப்புக்கு",
+        "நிறமாலையியல் வளர்ப்பு மற்றும் சுற்று விதிகளுக்கு",
+        "எக்ஸ்-கதிர்கள் கண்டுபிடிப்புக்கு",
+        "சார்பியல் கோட்பாட்டுக்கு"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that Kirchhoff is mainly known for his development of spectroscopy, and he also made many important contributions to mathematical physics, among them his first and second rules for circuits. | உரை தெளிவாகக் கூறுகிறது கிர்ச்ஹாஃப் முக்கியமாக தனது நிறமாலையியல் வளர்ப்புக்கு அறியப்படுகிறார், மற்றும் அவர் கணித இயற்பியலுக்கு பல முக்கியமான பங்களிப்புகளையும் செய்தார், அவற்றில் சுற்றுகளுக்கான அவரது முதல் மற்றும் இரண்டாவது விதிகள்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின் சுற்றுகளை பகுப்பாய்வு செய்ய தொடர் மற்றும் இணை இணைப்பு சூத்திரங்கள் ஏன் எப்போதும் போதுமானதாக இல்லை?",
+      "options": [
+        "அவை DC சுற்றுகளுக்கு மட்டுமே வேலை செய்வதால்",
+        "சுற்றுகள் சிக்கலான வழியில் இணைக்கப்படலாம்",
+        "அவை முடிவில்லா மின்தடையை தேவைப்படுத்துவதால்",
+        "அவை கொள்ளகிகளுக்கு மட்டுமே பொருந்தும்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that electric circuits generally consist of a number of resistors and cells interconnected sometimes in a complicated way. The formulae for series and parallel combinations are not always sufficient to determine all currents and potential differences. | உரை கூறுகிறது மின் சுற்றுகள் பொதுவாக பல மின்தடையானிகள் மற்றும் செல்களைக் கொண்டுள்ளன, சிலநேரம் சிக்கலான வழியில் இணைக்கப்பட்டுள்ளன. தொடர் மற்றும் இணை இணைப்புகளுக்கான சூத்திரங்கள் அனைத்து மின்னோட்டங்கள் மற்றும் மின்னழுத்த வேறுபாடுகளையும் தீர்மானிக்க போதுமானதாக இல்லை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரு மின்தடையானியில் மின்னோட்டம் I ஐ குறிப்பிடும்போது அம்புக்குறி திசை என்ன குறிக்கிறது?",
+      "options": [
+        "எலக்ட்ரான் ஓட்டத்தின் திசை",
+        "மின்னோட்ட ஓட்டத்தின் கருதப்பட்ட திசை; I நேர்மறையாக இருந்தால், உண்மையான மின்னோட்டம் அந்த திசையில்",
+        "மின்புலத்தின் திசை மட்டுமே",
+        "வெப்ப ஓட்டத்தின் திசை"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that a directed arrow is used to indicate that current I flows in that direction. If I is determined to be positive, the actual current is in the direction of the arrow. If I turns out negative, the current actually flows opposite to the arrow. | உரை விளக்குகிறது திசையிட்ட அம்புக்குறி மின்னோட்டம் I அந்த திசையில் ஓடுகிறது என்பதைக் குறிக்க பயன்படுத்தப்படுகிறது. I நேர்மறையாக இருப்பதாக தீர்மானிக்கப்பட்டால், உண்மையான மின்னோட்டம் அம்புக்குறியின் திசையில் உள்ளது. I எதிர்மறையாக இருந்தால், மின்னோட்டம் உண்மையில் அம்புக்குறிக்கு எதிராக ஓடுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "செல்லின் வழியாக N இலிருந்து P க்கு மின்னோட்டம் I ஓடும்போது, நேர்மறை மற்றும் எதிர்மறை முனைகளுக்கு இடையே மின்னழுத்த வேறுபாடு V என்ன?",
+      "options": [
+        "V = epsilon + I r",
+        "V = epsilon - I r",
+        "V = epsilon × I r",
+        "V = epsilon / I r"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the potential difference between P and N is V = epsilon - I r when current flows from N to P through the cell. This is the standard formula for terminal voltage with internal resistance. | உரை கூறுகிறது செல்லின் வழியாக N இலிருந்து P க்கு மின்னோட்டம் ஓடும்போது P மற்றும் N இடையே மின்னழுத்த வேறுபாடு V = epsilon - I r. இது உள் மின்தடையுடன் முனை மின்னழுத்தத்திற்கான தரநிலை சூத்திரம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "செல்லின் வழியாக P இலிருந்து N க்கு மின்னோட்டம் I ஓடும்போது, நேர்மறை மற்றும் எதிர்மறை முனைகளுக்கு இடையே மின்னழுத்த வேறுபாடு V என்ன?",
+      "options": [
+        "V = epsilon - I r",
+        "V = epsilon + I r",
+        "V = epsilon × I r",
+        "V = 0"
+      ],
+      "correct": 1,
+      "explanation": "The text states that if while labelling the current I through the cell one goes from P to N, then V = epsilon + I r. This is because the current is now flowing against the normal direction through the cell. | உரை கூறுகிறது செல்லின் வழியாக மின்னோட்டம் I ஐ குறிப்பிடும்போது P இலிருந்து N க்கு சென்றால், V = epsilon + I r. இது மின்னோட்டம் இப்போது செல்லின் வழியாக சாதாரண திசைக்கு எதிராக ஓடுவதால்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கிர்ச்ஹாஃபின் சந்தி விதி என்ன கூறுகிறது?",
+      "options": [
+        "ஒரு சந்தியில் அனைத்து மின்னோட்டங்களின் கூட்டுத்தொகை பூஜ்யம்",
+        "எந்த சந்தியிலும், நுழையும் மின்னோட்டங்களின் கூட்டுத்தொகை வெளியேறும் மின்னோட்டங்களின் கூட்டுத்தொகைக்கு சமம்",
+        "மின்னோட்டம் எப்போதும் சந்தியில் உயர்ந்திலிருந்து குறைந்த மின்னழுத்தத்திற்கு ஓடுகிறது",
+        "நுழையும் மற்றும் வெளியேறும் மின்னோட்டங்களின் பெருக்கல் மாறிலியாக உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states Kirchhoff's Junction Rule: At any junction, the sum of the currents entering the junction is equal to the sum of currents leaving the junction. This applies equally well to a point in a line. | உரை தெளிவாகக் கூறுகிறது கிர்ச்ஹாஃபின் சந்தி விதி: எந்த சந்தியிலும், சந்தியில் நுழையும் மின்னோட்டங்களின் கூட்டுத்தொகை, சந்தியை விட்டு வெளியேறும் மின்னோட்டங்களின் கூட்டுத்தொகைக்கு சமம். இது ஒரு கோட்டில் உள்ள புள்ளிக்கும் சமமாக பொருந்தும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கிர்ச்ஹாஃபின் சந்தி விதிக்கான இயற்பியல் அடிப்படை என்ன?",
+      "options": [
+        "ஆற்றல் பாதுகாப்பு",
+        "மின்னோட்டங்கள் நிலையானதாக இருக்கும்போது, எந்த சந்தியிலும் மின்னூட்டங்கள் திரள்வதில்லை",
+        "ஓமின் விதி",
+        "கூலம்பின் விதி"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the proof of the Junction Rule follows from the fact that when currents are steady, there is no accumulation of charges at any junction or at any point in a line. Thus the total current flowing in must equal the total current flowing out. | உரை கூறுகிறது சந்தி விதியின் நிரூபணம் மின்னோட்டங்கள் நிலையானதாக இருக்கும்போது, எந்த சந்தியிலும் அல்லது ஒரு கோட்டில் உள்ள எந்த புள்ளியிலும் மின்னூட்டங்கள் திரள்வதில்லை என்ற உண்மையிலிருந்து வருகிறது. எனவே உள்ளே ஓடும் மொத்த மின்னோட்டம் வெளியே ஓடும் மொத்த மின்னோட்டத்திற்கு சமமாக இருக்க வேண்டும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கிர்ச்ஹாஃபின் வளைய விதி என்ன கூறுகிறது?",
+      "options": [
+        "எந்த மூடிய வளையத்திலும் அனைத்து மின்னோட்டங்களின் கூட்டுத்தொகை பூஜ்யம்",
+        "எந்த மூடிய வளையத்திலும் மின்னழுத்த மாற்றங்களின் இயற்கணிதக் கூட்டுத்தொகை பூஜ்யம்",
+        "எந்த மூடிய வளையத்திலும் அனைத்து மின்தடைகளின் கூட்டுத்தொகை பூஜ்யம்",
+        "எந்த மூடிய வளையத்திலும் மின்னழுத்த வேறுபாடுகளின் பெருக்கல் மாறிலியாக உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states Kirchhoff's Loop Rule: The algebraic sum of changes in potential around any closed loop involving resistors and cells in the loop is zero. This is based on the fact that electric potential depends on location. | உரை தெளிவாகக் கூறுகிறது கிர்ச்ஹாஃபின் வளைய விதி: சுற்றில் உள்ள மின்தடையானிகள் மற்றும் செல்களை உள்ளடக்கிய எந்த மூடிய வளையத்திலும் மின்னழுத்த மாற்றங்களின் இயற்கணிதக் கூட்டுத்தொகை பூஜ்யம். இது மின்னழுத்தம் இடத்தைப் பொறுத்தது என்ற உண்மையை அடிப்படையாகக் கொண்டது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கிர்ச்ஹாஃபின் வளைய விதிக்கான இயற்பியல் அடிப்படை என்ன?",
+      "options": [
+        "மின்னூட்ட பாதுகாப்பு",
+        "மின்னழுத்தம் இடத்தைப் பொறுத்தது; அதே புள்ளிக்கு திரும்புவது மொத்த மாற்றம் பூஜ்யம் என்பதைக் குறிக்கிறது",
+        "நியூட்டனின் இரண்டாவது விதி",
+        "உந்தம் பாதுகாப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the Loop Rule is obvious since electric potential is dependent on the location of the point. Thus starting with any point if we come back to the same point, the total change must be zero. In a closed loop, we do come back to the starting point. | உரை கூறுகிறது வளைய விதி தெளிவானது, ஏனெனில் மின்னழுத்தம் புள்ளியின் இடத்தைப் பொறுத்தது. எனவே எந்த புள்ளியிலிருந்து தொடங்கினாலும் அதே புள்ளிக்கு திரும்பினால், மொத்த மாற்றம் பூஜ்யமாக இருக்க வேண்டும். மூடிய வளையத்தில், நாம் தொடக்க புள்ளிக்கு திரும்புகிறோம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.5 இல் கன வடிவ சுற்றின் மூலைவிட்ட எதிர் மூலைகளுக்கு இடையே இணைக்கப்பட்ட பேட்டரியின் emf என்ன?",
+      "options": [
+        "5 V",
+        "10 V",
+        "12 V",
+        "15 V"
+      ],
+      "correct": 1,
+      "explanation": "The text states that a battery of 10V and negligible internal resistance is connected across the diagonally opposite corners of the cubical network. This is the source emf used in the calculation. | உரை கூறுகிறது 10V emf மற்றும் புறக்கணிக்கத்தக்க உள் மின்தடை கொண்ட பேட்டரி கன வடிவ சுற்றின் மூலைவிட்ட எதிர் மூலைகளுக்கு இடையே இணைக்கப்பட்டுள்ளது. இது கணக்கீட்டில் பயன்படுத்தப்படும் மூல emf."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.5 இல் கன வடிவ சுற்றில் எத்தனை மின்தடையானிகள் உள்ளன, மற்றும் ஒவ்வொன்றின் மின்தடை என்ன?",
+      "options": [
+        "6 மின்தடையானிகள், ஒவ்வொன்றும் 2 ஓம்",
+        "8 மின்தடையானிகள், ஒவ்வொன்றும் 1 ஓம்",
+        "12 மின்தடையானிகள், ஒவ்வொன்றும் 1 ஓம்",
+        "10 மின்தடையானிகள், ஒவ்வொன்றும் 2 ஓம்"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that the cubical network consists of 12 resistors each of resistance 1 ohm. A cube has 12 edges, and each edge contains one resistor. | உரை தெளிவாகக் கூறுகிறது கன வடிவ சுற்று ஒவ்வொன்றும் 1 ஓம் மின்தடை கொண்ட 12 மின்தடையானிகளைக் கொண்டுள்ளது. ஒரு கனம் 12 விளிம்புகளைக் கொண்டுள்ளது, ஒவ்வொரு விளிம்பும் ஒரு மின்தடையானியைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.5 இல் கன வடிவ சுற்று ஏன் எளிய தொடர் மற்றும் இணை இணைப்புகளுக்கு குறைக்க முடியாதது?",
+      "options": [
+        "அனைத்து மின்தடையானிகளும் வெவ்வேறு மதிப்புகளைக் கொண்டிருப்பதால்",
+        "சுற்று சிக்கலான முப்பரிமாண வழியில் இணைக்கப்பட்டுள்ளதால்",
+        "பேட்டரிக்கு உள் மின்தடை இருப்பதால்",
+        "மிக அதிக மின்தடையானிகள் இருப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the network is not reducible to a simple series and parallel combinations of resistors. However, there is a clear symmetry in the problem which can be exploited to obtain the equivalent resistance. | உரை கூறுகிறது சுற்று மின்தடையானிகளின் எளிய தொடர் மற்றும் இணை இணைப்புகளுக்கு குறைக்க முடியாதது. எனினும், சமமான மின்தடையைப் பெற பயன்படுத்தக்கூடிய தெளிவான சமச்சீர் சிக்கலில் உள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மூலை A இலிருந்து எந்த மூன்று பாதைகள் கன வடிவ சுற்றில் சமச்சீராக வைக்கப்பட்டுள்ளன?",
+      "options": [
+        "AB, BC, CD",
+        "AA prime, AD, AB",
+        "AC, BD, AE",
+        "A prime B prime, B prime C prime, C prime D prime"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the paths AA prime, AD and AB are obviously symmetrically placed in the network. Thus the current in each must be the same, say I. This symmetry is key to solving the problem. | உரை கூறுகிறது பாதைகள் AA prime, AD மற்றும் AB தெளிவாக சுற்றில் சமச்சீராக வைக்கப்பட்டுள்ளன. எனவே ஒவ்வொன்றிலும் மின்னோட்டம் ஒரே மாதிரியாக இருக்க வேண்டும், I எனக் கூறுவோம். இந்த சமச்சீர் சிக்கலைத் தீர்ப்பதற்கு முக்கியம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.5 இல் மூடிய வளையம் ABCC prime EA க்கு கிர்ச்ஹாஃபின் இரண்டாவது விதியைப் பயன்படுத்துவதால் பெறப்படும் சமன்பாடு என்ன?",
+      "options": [
+        "-IR - IR - IR + epsilon = 0",
+        "-IR - (1/2)IR - IR + epsilon = 0",
+        "-IR + (1/2)IR - IR + epsilon = 0",
+        "IR + (1/2)IR + IR - epsilon = 0"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the loop equation as -IR - (1/2)IR - IR + epsilon = 0. This accounts for the three resistors in the loop: one with current I, one with current I/2, and one with current I. | உரை வளைய சமன்பாட்டை -IR - (1/2)IR - IR + epsilon = 0 என வழங்குகிறது. இது வளையத்தில் உள்ள மூன்று மின்தடையானிகளை கணக்கிடுகிறது: ஒன்று மின்னோட்டம் I உடன், ஒன்று மின்னோட்டம் I/2 உடன், மற்றும் ஒன்று மின்னோட்டம் I உடன்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒவ்வொரு மின்தடையானியும் R = 1 ஓம் என்ற மதிப்பைக் கொண்டிருக்கும்போது கன வடிவ சுற்றின் சமமான மின்தடை என்ன?",
+      "options": [
+        "1 ஓம்",
+        "5/6 ஓம்",
+        "2/3 ஓம்",
+        "3/2 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "The text derives R_eq = (5/6)R. For R = 1 ohm, R_eq = (5/6) ohm. This is obtained from epsilon = (5/2)IR and R_eq = epsilon/(3I). | உரை R_eq = (5/6)R என பெறுகிறது. R = 1 ohm க்கு, R_eq = (5/6) ohm. இது epsilon = (5/2)IR மற்றும் R_eq = epsilon/(3I) இலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "பேட்டரி emf 10V மற்றும் ஒவ்வொரு மின்தடையானியும் 1 ஓம் என்றால் கன வடிவ சுற்றில் மொத்த மின்னோட்டம் என்ன?",
+      "options": [
+        "6 A",
+        "10 A",
+        "12 A",
+        "15 A"
+      ],
+      "correct": 2,
+      "explanation": "The text calculates the total current as 3I = 10V / (5/6) ohm = 12A. Since the total current entering the network is 3I, this gives I = 4A. | உரை மொத்த மின்னோட்டத்தை 3I = 10V / (5/6) ohm = 12A என கணக்கிடுகிறது. சுற்றில் நுழையும் மொத்த மின்னோட்டம் 3I என்பதால், இது I = 4A ஐ தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கன வடிவ சுற்றின் சமச்சீர் பாதைகளில் மின்னோட்டம் I இன் மதிப்பு என்ன?",
+      "options": [
+        "2 A",
+        "3 A",
+        "4 A",
+        "5 A"
+      ],
+      "correct": 2,
+      "explanation": "The text calculates that for epsilon = 10V, the total current (=3I) in the network is 12A, i.e., I = 4A. This is the current flowing in each of the symmetrically placed edges from corner A. | உரை epsilon = 10V க்கு, சுற்றில் மொத்த மின்னோட்டம் (=3I) 12A, அதாவது I = 4A என கணக்கிடுகிறது. இது மூலை A இலிருந்து சமச்சீராக வைக்கப்பட்ட ஒவ்வொரு விளிம்பிலும் ஓடும் மின்னோட்டம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.6 இல் எத்தனை அறியப்படாத மின்னோட்டங்கள் உள்ளன, மற்றும் அவற்றைத் தீர்க்க எத்தனை சமன்பாடுகள் தேவை?",
+      "options": [
+        "2 அறியப்படாதவை, 2 சமன்பாடுகள்",
+        "3 அறியப்படாதவை, 3 சமன்பாடுகள்",
+        "4 அறியப்படாதவை, 4 சமன்பாடுகள்",
+        "5 அறியப்படாதவை, 5 சமன்பாடுகள்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that there are three unknowns I1, I2 and I3 which can be found by applying the second rule of Kirchhoff to three different closed loops. Three simultaneous equations in three unknowns are solved. | உரை கூறுகிறது மூன்று அறியப்படாதவை I1, I2 மற்றும் I3 உள்ளன, அவை மூன்று வெவ்வேறு மூடிய வளையங்களுக்கு கிர்ச்ஹாஃபின் இரண்டாவது விதியைப் பயன்படுத்துவதன் மூலம் காணப்படலாம். மூன்று அறியப்படாதவைகளில் மூன்று ஒரே நேர சமன்பாடுகள் தீர்க்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.6 இல் சுற்றின் கிளை CD இல் மின்னோட்டம் என்ன?",
+      "options": [
+        "5/8 A",
+        "7/8 A",
+        "0 A",
+        "15/8 A"
+      ],
+      "correct": 2,
+      "explanation": "The text gives the currents in the various branches, and states that CD = 0A. This means no current flows through the branch CD, which is a significant result showing that the potential difference across this branch is zero. | உரை பல்வேறு கிளைகளில் மின்னோட்டங்களை வழங்குகிறது, மற்றும் CD = 0A எனக் கூறுகிறது. இது கிளை CD வழியாக மின்னோட்டம் ஓடவில்லை என்பதாகும், இது இந்த கிளைக்கு இடையே மின்னழுத்த வேறுபாடு பூஜ்யம் என்பதைக் காட்டும் ஒரு குறிப்பிடத்தக்க முடிவு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "படம் 3.15 இல் a சந்தியில், சந்தி விதியின்படி மின்னோட்டங்கள் I1, I2, மற்றும் I3 இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "I1 = I2 + I3",
+        "I3 = I1 + I2",
+        "I2 = I1 + I3",
+        "I1 + I2 + I3 = 0"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that at junction a, the current leaving is I1 + I2 and the current entering is I3. The junction rule says I3 = I1 + I2. This is a direct application of Kirchhoff's first rule (conservation of charge). | உரை தெளிவாகக் கூறுகிறது a சந்தியில், வெளியேறும் மின்னோட்டம் I1 + I2 மற்றும் உள்ளே நுழையும் மின்னோட்டம் I3. சந்தி விதி I3 = I1 + I2 எனக் கூறுகிறது. இது கிர்ச்ஹாஃபின் முதல் விதியின் (மின்னூட்ட பாதுகாப்பு) நேரடி பயன்பாடு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "படம் 3.15 இல் h புள்ளியில், சந்தி விதியின்படி வெளியேறும் மின்னோட்டம் என்ன?",
+      "options": [
+        "I2",
+        "I3",
+        "I1",
+        "I1 + I2"
+      ],
+      "correct": 2,
+      "explanation": "The text states that at point h, the current entering is I1. There is only one current leaving h and by the junction rule that will also be I1. This demonstrates the continuity of current in a single wire. | உரை கூறுகிறது h புள்ளியில், உள்ளே நுழையும் மின்னோட்டம் I1. h இலிருந்து வெளியேறும் ஒரே மின்னோட்டம் உள்ளது மற்றும் சந்தி விதியால் அதுவும் I1 ஆக இருக்கும். இது ஒரு தனி கம்பியில் மின்னோட்டத்தின் தொடர்ச்சியைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "படம் 3.15 இல் 'ahdcba' வளையத்திற்கு கிர்ச்ஹாஃபின் இரண்டாவது விதியைப் பயன்படுத்துவதால் பெறப்படும் வளைய சமன்பாடு என்ன?",
+      "options": [
+        "-30I1 - 41I3 + 45 = 0",
+        "-30I1 + 21I2 - 80 = 0",
+        "30I1 + 41I3 - 45 = 0",
+        "-30I1 - 41I3 - 45 = 0"
+      ],
+      "correct": 0,
+      "explanation": "The text gives the loop equation for 'ahdcba' as -30I1 - 41I3 + 45 = 0. This includes the 30 ohm resistor with current I1, the 40 ohm and 1 ohm resistors (total 41 ohm) with current I3, and the 45V cell. | உரை 'ahdcba' வளையத்திற்கான வளைய சமன்பாட்டை -30I1 - 41I3 + 45 = 0 என வழங்குகிறது. இது I1 மின்னோட்டம் கொண்ட 30 ஓம் மின்தடையானி, I3 மின்னோட்டம் கொண்ட 40 ஓம் மற்றும் 1 ஓம் மின்தடையானிகள் (மொத்தம் 41 ஓம்), மற்றும் 45V செல்லை உள்ளடக்கியது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "படம் 3.15 இல் 'ahdefga' வளையத்திற்கு கிர்ச்ஹாஃபின் இரண்டாவது விதியைப் பயன்படுத்துவதால் பெறப்படும் வளைய சமன்பாடு என்ன?",
+      "options": [
+        "-30I1 - 41I3 + 45 = 0",
+        "-30I1 + 21I2 - 80 = 0",
+        "30I1 - 21I2 + 80 = 0",
+        "-30I1 - 21I2 - 80 = 0"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the loop equation for 'ahdefga' as -30I1 + 21I2 - 80 = 0. This includes the 30 ohm resistor with current I1, the 1 ohm and 20 ohm resistors (total 21 ohm) with current I2, and the 80V cell. | உரை 'ahdefga' வளையத்திற்கான வளைய சமன்பாட்டை -30I1 + 21I2 - 80 = 0 என வழங்குகிறது. இது I1 மின்னோட்டம் கொண்ட 30 ஓம் மின்தடையானி, I2 மின்னோட்டம் கொண்ட 1 ஓம் மற்றும் 20 ஓம் மின்தடையானிகள் (மொத்தம் 21 ஓம்), மற்றும் 80V செல்லை உள்ளடக்கியது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "வீட்ஸ்டோன் பால் சுற்றில், எந்த மூலைவிட்ட எதிர் புள்ளிகளின் ஜோடி குறுக்கே மூலம் இணைக்கப்பட்டுள்ளது?",
+      "options": [
+        "B மற்றும் D",
+        "A மற்றும் C",
+        "A மற்றும் B",
+        "C மற்றும் D"
+      ],
+      "correct": 1,
+      "explanation": "The text states that across one pair of diagonally opposite points (A and C in the figure) a source is connected. This is called the battery arm of the Wheatstone bridge. | உரை கூறுகிறது ஒரு மூலைவிட்ட எதிர் புள்ளிகளின் ஜோடி (படத்தில் A மற்றும் C) குறுக்கே ஒரு மூலம் இணைக்கப்பட்டுள்ளது. இது வீட்ஸ்டோன் பாலத்தின் பேட்டரி கை என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "வீட்ஸ்டோன் பாலத்தில், மற்ற இரண்டு முனைகள் B மற்றும் D இடையே எந்த சாதனம் இணைக்கப்பட்டுள்ளது?",
+      "options": [
+        "ஒரு பேட்டரி",
+        "ஒரு கேல்வனோமீட்டர்",
+        "ஒரு மின்தடையானி",
+        "ஒரு வோல்ட்மீட்டர்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that between the other two vertices, B and D, a galvanometer G (which is a device to detect currents) is connected. This line is called the galvanometer arm. | உரை கூறுகிறது மற்ற இரண்டு முனைகள் B மற்றும் D இடையே, ஒரு கேல்வனோமீட்டர் G (இது மின்னோட்டங்களை கண்டறியும் ஒரு சாதனம்) இணைக்கப்பட்டுள்ளது. இந்த கோடு கேல்வனோமீட்டர் கை என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "வீட்ஸ்டோன் பாலத்தின் எந்த சிறப்பு நிலை குறிப்பாக ஆர்வமுள்ளது?",
+      "options": [
+        "கேல்வனோமீட்டர் வழியாக மின்னோட்டம் அதிகபட்சமாக இருக்கும்போது",
+        "கேல்வனோமீட்டர் வழியாக மின்னோட்டம் பூஜ்யமாக இருக்கும்போது (சமநிலை பால்)",
+        "அனைத்து நான்கு மின்தடையானிகளும் சமமாக இருக்கும்போது",
+        "மூல மின்னழுத்தம் பூஜ்யமாக இருக்கும்போது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that of special interest is the case of a balanced bridge where the resistors are such that Ig = 0. In this balanced condition, the galvanometer shows no deflection. | உரை கூறுகிறது குறிப்பாக ஆர்வமுள்ளது சமநிலை பாலம், இங்கு மின்தடையானிகள் Ig = 0 என்ற அளவில் உள்ளன. இந்த சமநிலை நிலையில், கேல்வனோமீட்டர் விலகல் இல்லை எனக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சமநிலை வீட்ஸ்டோன் பால் நிலையில், D மற்றும் B சந்திகளுக்கு கிர்ச்ஹாஃபின் சந்தி விதியைப் பயன்படுத்துவது என்ன தருகிறது?",
+      "options": [
+        "I1 = I2 மற்றும் I3 = I4",
+        "I1 = I3 மற்றும் I2 = I4",
+        "I1 = I4 மற்றும் I2 = I3",
+        "I1 + I2 = I3 + I4"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in the balanced bridge condition, Kirchhoff's junction rule applied to junctions D and B immediately gives us the relations I1 = I3 and I2 = I4. This is because no current flows through the galvanometer (Ig = 0). | உரை கூறுகிறது சமநிலை பால் நிலையில், D மற்றும் B சந்திகளுக்கு கிர்ச்ஹாஃபின் சந்தி விதியைப் பயன்படுத்துவது உடனடியாக I1 = I3 மற்றும் I2 = I4 உறவுகளை நமக்கு தருகிறது. இது கேல்வனோமீட்டர் வழியாக மின்னோட்டம் ஓடாததால் (Ig = 0)."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "வளைய விதிகளிலிருந்து பெறப்பட்ட வீட்ஸ்டோன் பாலத்தின் சமநிலை நிபந்தனை சமன்பாடு என்ன?",
+      "options": [
+        "R1/R2 = R3/R4",
+        "R2/R1 = R4/R3",
+        "R1/R3 = R2/R4",
+        "R1 + R2 = R3 + R4"
+      ],
+      "correct": 1,
+      "explanation": "The text derives the balance condition as R2/R1 = R4/R3. This is obtained by applying Kirchhoff's loop rule to closed loops ADBA and CBDC and combining the resulting equations. | உரை சமநிலை நிபந்தனையை R2/R1 = R4/R3 என பெறுகிறது. இது மூடிய வளையங்கள் ADBA மற்றும் CBDC க்கு கிர்ச்ஹாஃபின் வளைய விதியைப் பயன்படுத்தி, விளையும் சமன்பாடுகளை இணைப்பதால் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சமநிலை வீட்ஸ்டோன் பாலத்தின் நான்காவது கையில் ஒரு அறியப்படாத மின்தடை செருகப்பட்டால், அது எவ்வாறு தீர்மானிக்கப்படலாம்?",
+      "options": [
+        "R4 = R3 + R2/R1",
+        "R4 = R3 × R2/R1",
+        "R4 = R3 - R2/R1",
+        "R4 = R3 / (R2/R1)"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the formula for the unknown resistance as R4 = R3 × (R2/R1). This is derived from the balance condition R2/R1 = R4/R3 by cross-multiplication. This is the practical application of the Wheatstone bridge for measuring unknown resistances. | உரை அறியப்படாத மின்தடைக்கான சூத்திரத்தை R4 = R3 × (R2/R1) என வழங்குகிறது. இது சமநிலை நிபந்தனை R2/R1 = R4/R3 இலிருந்து குறுக்கு பெருக்கல் மூலம் பெறப்படுகிறது. இது அறியப்படாத மின்தடைகளை அளவிடுவதற்கான வீட்ஸ்டோன் பாலத்தின் நடைமுறை பயன்பாடு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் வீட்ஸ்டோன் பாலத்தின் AB கையின் மின்தடை என்ன?",
+      "options": [
+        "10 ஓம்",
+        "60 ஓம்",
+        "100 ஓம்",
+        "5 ஓம்"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the four arms of the Wheatstone bridge have the following resistances: AB = 100 ohm. This is one of the given resistances in the problem. | உரை கூறுகிறது வீட்ஸ்டோன் பாலத்தின் நான்கு கைகள் பின்வரும் மின்தடைகளைக் கொண்டுள்ளன: AB = 100 ohm. இது சிக்கலில் கொடுக்கப்பட்ட மின்தடைகளில் ஒன்று."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் வீட்ஸ்டோன் பாலத்தின் BC கையின் மின்தடை என்ன?",
+      "options": [
+        "100 ஓம்",
+        "10 ஓம்",
+        "60 ஓம்",
+        "15 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the four arms of the Wheatstone bridge have the following resistances: BC = 10 ohm. This is one of the given resistances in the problem. | உரை கூறுகிறது வீட்ஸ்டோன் பாலத்தின் நான்கு கைகள் பின்வரும் மின்தடைகளைக் கொண்டுள்ளன: BC = 10 ohm. இது சிக்கலில் கொடுக்கப்பட்ட மின்தடைகளில் ஒன்று."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் வீட்ஸ்டோன் பாலத்தின் CD கையின் மின்தடை என்ன?",
+      "options": [
+        "10 ஓம்",
+        "100 ஓம்",
+        "5 ஓம்",
+        "60 ஓம்"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the four arms of the Wheatstone bridge have the following resistances: CD = 5 ohm. This is one of the given resistances in the problem. | உரை கூறுகிறது வீட்ஸ்டோன் பாலத்தின் நான்கு கைகள் பின்வரும் மின்தடைகளைக் கொண்டுள்ளன: CD = 5 ohm. இது சிக்கலில் கொடுக்கப்பட்ட மின்தடைகளில் ஒன்று."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் வீட்ஸ்டோன் பாலத்தின் DA கையின் மின்தடை என்ன?",
+      "options": [
+        "10 ஓம்",
+        "5 ஓம்",
+        "100 ஓம்",
+        "60 ஓம்"
+      ],
+      "correct": 3,
+      "explanation": "The text states that the four arms of the Wheatstone bridge have the following resistances: DA = 60 ohm. This is one of the given resistances in the problem. | உரை கூறுகிறது வீட்ஸ்டோன் பாலத்தின் நான்கு கைகள் பின்வரும் மின்தடைகளைக் கொண்டுள்ளன: DA = 60 ohm. இது சிக்கலில் கொடுக்கப்பட்ட மின்தடைகளில் ஒன்று."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் BD இன் குறுக்கே இணைக்கப்பட்ட கேல்வனோமீட்டரின் மின்தடை என்ன?",
+      "options": [
+        "5 ஓம்",
+        "10 ஓம்",
+        "15 ஓம்",
+        "60 ஓம்"
+      ],
+      "correct": 2,
+      "explanation": "The text states that a galvanometer of 15 ohm resistance is connected across BD. This is the internal resistance of the galvanometer used to detect the current Ig. | உரை கூறுகிறது 15 ohm மின்தடை கொண்ட ஒரு கேல்வனோமீட்டர் BD இன் குறுக்கே இணைக்கப்பட்டுள்ளது. இது Ig மின்னோட்டத்தை கண்டறிய பயன்படுத்தப்படும் கேல்வனோமீட்டரின் உள் மின்தடை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் AC இன் குறுக்கே பேணப்படும் மின்னழுத்த வேறுபாடு என்ன?",
+      "options": [
+        "5 V",
+        "10 V",
+        "15 V",
+        "20 V"
+      ],
+      "correct": 1,
+      "explanation": "The text states that a potential difference of 10V is maintained across AC. This is the source voltage applied to the Wheatstone bridge network. | உரை கூறுகிறது AC இன் குறுக்கே 10V மின்னழுத்த வேறுபாடு பேணப்படுகிறது. இது வீட்ஸ்டோன் பால சுற்றுக்கு பயன்படுத்தப்படும் மூல மின்னழுத்தம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் mesh BADB ஐ கருத்தில் கொண்டு பெறப்படும் முதல் mesh சமன்பாடு என்ன?",
+      "options": [
+        "60I2 + 15Ig - 100I1 = 0",
+        "10I1 - 30Ig - 5I2 = 0",
+        "65I2 + 5Ig = 10",
+        "20I1 - 60Ig - 10I2 = 0"
+      ],
+      "correct": 0,
+      "explanation": "The text states that considering mesh BADB, we have 60I2 + 15Ig - 100I1 = 0. This is equation (3.65a) which can be simplified to 20I2 + 3Ig - 20I1 = 0 by dividing by 3. | உரை கூறுகிறது mesh BADB ஐ கருத்தில் கொண்டு, நாம் 60I2 + 15Ig - 100I1 = 0 ஐ கொண்டுள்ளோம். இது சமன்பாடு (3.65a), 3 ஆல் வகுப்பதால் 20I2 + 3Ig - 20I1 = 0 என எளிமைப்படுத்தப்படலாம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் mesh BCDB ஐ கருத்தில் கொண்டு பெறப்படும் இரண்டாவது mesh சமன்பாடு என்ன?",
+      "options": [
+        "60I2 + 15Ig - 100I1 = 0",
+        "10I1 - 30Ig - 5I2 = 0",
+        "65I2 + 5Ig = 10",
+        "20I1 - 60Ig - 10I2 = 0"
+      ],
+      "correct": 1,
+      "explanation": "The text states that considering mesh BCDB, we have 10(I1-Ig) - 15Ig - 5(I2+Ig) = 0, which simplifies to 10I1 - 30Ig - 5I2 = 0, and further to 2I1 - 6Ig - I2 = 0. This is equation (3.65b). | உரை கூறுகிறது mesh BCDB ஐ கருத்தில் கொண்டு, நாம் 10(I1-Ig) - 15Ig - 5(I2+Ig) = 0 ஐ கொண்டுள்ளோம், இது 10I1 - 30Ig - 5I2 = 0 என எளிமைப்படுத்தப்படுகிறது, மேலும் 2I1 - 6Ig - I2 = 0 என. இது சமன்பாடு (3.65b)."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் mesh ADCEA ஐ கருத்தில் கொண்டு பெறப்படும் மூன்றாவது mesh சமன்பாடு என்ன?",
+      "options": [
+        "60I2 + 15Ig - 100I1 = 0",
+        "10I1 - 30Ig - 5I2 = 0",
+        "65I2 + 5Ig = 10",
+        "20I1 - 60Ig - 10I2 = 0"
+      ],
+      "correct": 2,
+      "explanation": "The text states that considering mesh ADCEA, we have 60I2 + 5(I2+Ig) = 10, which simplifies to 65I2 + 5Ig = 10, and further to 13I2 + Ig = 2. This is equation (3.65c). | உரை கூறுகிறது mesh ADCEA ஐ கருத்தில் கொண்டு, நாம் 60I2 + 5(I2+Ig) = 10 ஐ கொண்டுள்ளோம், இது 65I2 + 5Ig = 10 என எளிமைப்படுத்தப்படுகிறது, மேலும் 13I2 + Ig = 2 என. இது சமன்பாடு (3.65c)."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.7 இல் கேல்வனோமீட்டர் வழியாக கணக்கிடப்பட்ட மின்னோட்டம் என்ன?",
+      "options": [
+        "2.5 mA",
+        "3.5 mA",
+        "4.87 mA",
+        "5.5 mA"
+      ],
+      "correct": 2,
+      "explanation": "The text calculates the current through the galvanometer as Ig = 4.87 mA. This is obtained by solving the three simultaneous equations derived from Kirchhoff's loop rules applied to the three meshes. | உரை கேல்வனோமீட்டர் வழியாக மின்னோட்டத்தை Ig = 4.87 mA என கணக்கிடுகிறது. இது மூன்று meshes க்கு பயன்படுத்தப்பட்ட கிர்ச்ஹாஃபின் வளைய விதிகளிலிருந்து பெறப்பட்ட மூன்று ஒரே நேர சமன்பாடுகளை தீர்ப்பதால் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்டம் என்றால் என்ன என்று உரையில் எவ்வாறு வரையறுக்கப்பட்டுள்ளது?",
+      "options": [
+        "ஓய்வில் உள்ள மின்னூட்டங்கள்",
+        "இயக்கத்தில் உள்ள மின்னூட்டங்கள்",
+        "நிலைமின்னியல் மட்டும்",
+        "காந்த புலங்கள்"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that 'Charges in motion constitute an electric current.' This is the fundamental definition provided in the introduction section. | உரையில் தெளிவாகக் கூறப்பட்டுள்ளப்படி, 'இயக்கத்தில் உள்ள மின்னூட்டங்கள் மின்னோட்டத்தை உருவாக்குகின்றன.' இது அறிமுகப் பகுதியில் வழங்கப்பட்ட அடிப்படை வரையறை ஆகும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நாள்பட்ட மின்னோட்டத்திற்கு உதாரணமாக உரையில் குறிப்பிடப்பட்டுள்ள கருவி எது?",
+      "options": [
+        "மின்னல்",
+        "கைவிளக்கு",
+        "நிலை மின் வெளியேற்றம்",
+        "சூரியத் தீப்பிழிவுகள்"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that 'A torch and a cell-driven clock are examples of such devices' where charges flow in a steady manner, unlike lightning which is not steady. | உரையில் 'ஒரு கைவிளக்கு மற்றும் செல் இயக்கும் கடிகாரம் போன்ற கருவிகள்' மின்னூட்டங்கள் நிலையான முறையில் ஓடும் உதாரணங்களாகக் குறிப்பிடப்பட்டுள்ளன, மின்னல் போல அல்லாமல்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்டத்தின் SI அலகு எது?",
+      "options": [
+        "வோல்ட்",
+        "ஓம்",
+        "ஆம்பியர்",
+        "வாட்"
+      ],
+      "correct": 2,
+      "explanation": "The text states: 'In SI units, the unit of current is ampere.' The ampere is defined through magnetic effects and is the standard SI base unit for current. | உரை கூறுகிறது: 'SI அலகுகளில், மின்னோட்டத்தின் அலகு ஆம்பியர்.' ஆம்பியர் காந்த விளைவுகள் மூலம் வரையறுக்கப்படுகிறது மற்றும் மின்னோட்டத்திற்கான தரநிலை SI அடிப்படை அலகு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "I = q/t சூத்திரத்தில் கணக்கிடப்பட்ட மின்னோட்டம் எதிர்மறையாக வந்தால் அது என்ன குறிக்கிறது?",
+      "options": [
+        "சுற்று முறிந்துள்ளது",
+        "மின்னோட்டம் பின்னோக்கிச் செல்கிறது",
+        "மின்னூட்டம் பூஜ்யம்",
+        "நேரம் முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states: 'If it turns out to be a negative number, it implies a current in the backward direction.' This is a direct quote from the definition section. | உரை தெளிவாகக் கூறுகிறது: 'அது எதிர்மறை எண்ணாக இருந்தால், அது பின்னோக்கிச் செல்லும் மின்னோட்டத்தைக் குறிக்கிறது.' இது வரையறைப் பகுதியிலிருந்து நேரடியான மேற்கோள்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னலில் மின்னூட்டங்களின் ஓட்டம் எவ்வாறு இருக்கிறது?",
+      "options": [
+        "நிலையானது",
+        "நிலையற்றது",
+        "சீரானது",
+        "மாறாதது"
+      ],
+      "correct": 1,
+      "explanation": "The text describes lightning as 'one such phenomenon in which charges flow from the clouds to the earth through the atmosphere' but specifically notes that 'The flow of charges in lightning is not steady.' | உரை மின்னலை 'மேகங்களிலிருந்து பூமிக்கு வளிமண்டலத்தின் வழியாக மின்னூட்டங்கள் ஓடும் ஒரு நிகழ்வு' என விவரிக்கிறது, ஆனால் 'மின்னலில் மின்னூட்டங்களின் ஓட்டம் நிலையானதல்ல' என்று குறிப்பாகக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சராசரி மின்னலில் எந்த அளவிற்கு மின்னோட்டம் ஓடுகிறது?",
+      "options": [
+        "மைக்ரோஆம்பியர்கள்",
+        "மில்லியாம்பியர்கள்",
+        "பத்தாயிரக்கணக்கான ஆம்பியர்கள்",
+        "நூற்றுக்கணக்கான ஆம்பியர்கள்"
+      ],
+      "correct": 2,
+      "explanation": "The text states: 'An average lightning carries currents of the order of tens of thousands of amperes.' This is contrasted with domestic appliance currents and nerve currents in microamperes. | உரை கூறுகிறது: 'சராசரி மின்னல் பத்தாயிரக்கணக்கான ஆம்பியர்களின் அளவிற்கு மின்னோட்டத்தைக் கொண்டுள்ளது.' இது வீட்டு கருவிகளின் மின்னோட்டம் மற்றும் நரம்பு மின்னோட்டங்களுடன் ஒப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கால இடைவெளி t இல் ஒரு பகுதியின் குறுக்கே ஓடும் நிகர மின்னூட்டம் q எவ்வாறு கணக்கிடப்படுகிறது?",
+      "options": [
+        "q = q+ + q-",
+        "q = q+ - q-",
+        "q = q- - q+",
+        "q = q+ × q-"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states: 'The net amount of charge flowing across the area in the forward direction in the time interval t, then, is q = q+ - q-.' This accounts for both positive and negative charge contributions. | உரை தெளிவாகக் கூறுகிறது: 'நேரம் t இல் முன்னோக்கிச் செல்லும் பகுதியின் குறுக்கே ஓடும் நிகர மின்னூட்ட அளவு q = q+ - q- ஆகும்.' இது நேர்மறை மற்றும் எதிர்மறை மின்னூட்ட பங்களிப்புகளைக் கணக்கிடுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நேரம் t இல் மின்னோட்டத்தின் பொது வரையறை என்ன?",
+      "options": [
+        "I(t) = ΔQ × Δt",
+        "I(t) = lim(Δt→0) ΔQ/Δt",
+        "I(t) = Δt/ΔQ",
+        "I(t) = ΔQ + Δt"
+      ],
+      "correct": 1,
+      "explanation": "The text provides the general definition: 'I(t) ≡ lim(Δt→0) ΔQ/Δt' where the current is defined as the limit of the ratio of ΔQ to Δt as Δt tends to zero. This is the instantaneous current definition. | உரை பொது வரையறையை வழங்குகிறது: 'I(t) ≡ lim(Δt→0) ΔQ/Δt' இங்கு Δt பூஜ்யத்தை நெருங்கும்போது ΔQ மற்றும் Δt இன் விகிதத்தின் வரம்பாக மின்னோட்டம் வரையறுக்கப்படுகிறது. இது கண நேர மின்னோட்ட வரையறை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ΔQ என்ற குறியீடு எதைக் குறிக்கிறது?",
+      "options": [
+        "வெப்பநிலை மாற்றம்",
+        "Δt நேர இடைவெளியில் கடத்தியின் குறுக்குவெட்டுத் தோற்றத்தின் குறுக்கே ஓடும் நிகர மின்னூட்டம்",
+        "மின்னழுத்த வேறுபாடு",
+        "கடத்தியின் மின்தடை"
+      ],
+      "correct": 1,
+      "explanation": "The text defines: 'Let ΔQ be the net charge flowing across a cross-section of a conductor during the time interval Δt [i.e., between times t and (t+Δt)].' This is the charge used in the limit definition of current. | உரை வரையறுக்கிறது: 'Δt நேர இடைவெளியில் [அதாவது, t மற்றும் (t+Δt) நேரங்களுக்கு இடையில்] கடத்தியின் குறுக்குவெட்டுத் தோற்றத்தின் குறுக்கே ஓடும் நிகர மின்னூட்டம் ΔQ ஆக இருக்கட்டும்.' இது மின்னோட்டத்தின் வரம்பு வரையறையில் பயன்படுத்தப்படும் மின்னூட்டம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நம் நரம்புகளில் ஓடும் மின்னோட்டத்தின் அளவு எந்த அளவிற்கு இருக்கும்?",
+      "options": [
+        "ஆம்பியர்கள்",
+        "மில்லியாம்பியர்கள்",
+        "மைக்ரோஆம்பியர்கள்",
+        "கிலோஆம்பியர்கள்"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that 'at the other extreme, currents in our nerves are in microamperes.' This is contrasted with lightning currents of tens of thousands of amperes and domestic appliance currents of order of amperes. | உரை குறிப்பிடுகிறது: 'மற்றொரு முனையில், நம் நரம்புகளில் உள்ள மின்னோட்டங்கள் மைக்ரோஆம்பியர்களில் உள்ளன.' இது பத்தாயிரக்கணக்கான ஆம்பியர்களின் மின்னல் மின்னோட்டங்கள் மற்றும் ஆம்பியர்களின் வீட்டு கருவி மின்னோட்டங்களுடன் ஒப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுருக்கத்தின்படி கடத்தியின் கொடுக்கப்பட்ட பகுதியின் வழியாக மின்னோட்டத்தின் வரையறை என்ன?",
+      "options": [
+        "கடத்தியில் உள்ள மொத்த மின்னூட்டம்",
+        "ஒரு அலகு நேரத்தில் பகுதியின் வழியாக கடந்து செல்லும் நிகர மின்னூட்டம்",
+        "பகுதிக்கு இடையே உள்ள மின்னழுத்த வேறுபாடு",
+        "கடத்தியின் மின்தடை"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that current through a given area of a conductor is the net charge passing per unit time through the area. This is the fundamental definition of electric current as charge flow rate. | சுருக்கம் கூறுகிறது கடத்தியின் கொடுக்கப்பட்ட பகுதியின் வழியாக மின்னோட்டம் ஒரு அலகு நேரத்தில் கடந்து செல்லும் நிகர மின்னூட்டம். இது மின்னோட்ட வரையறையின் அடிப்படை வரையறை, மின்னூட்ட ஓட்ட விகிதம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுற்றில் நிலையான மின்னோட்டத்தை பேண என்ன தேவை?",
+      "options": [
+        "வெளிச் சுற்று அமைப்பு இல்லாத ஒரு மூடிய சுற்று",
+        "ஒரு மூடிய சுற்று, இங்கு வெளிச் சுற்று அமைப்பு குறைந்த மின்னழுத்த ஆற்றலிலிருந்து அதிக மின்னழுத்த ஆற்றலுக்கு மின்னூட்டத்தை நகர்த்தும்",
+        "உயர்ந்த மின்தடை கொண்ட ஒரு திறந்த சுற்று",
+        "கொள்ளகிகள் மட்டுமே கொண்ட ஒரு சுற்று"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that to maintain a steady current, we must have a closed circuit in which an external agency moves electric charge from lower to higher potential energy. This external agency is typically a cell or battery. | சுருக்கம் கூறுகிறது நிலையான மின்னோட்டத்தை பேண, ஒரு வெளிச் சுற்று அமைப்பு குறைந்த மின்னழுத்த ஆற்றலிலிருந்து அதிக மின்னழுத்த ஆற்றலுக்கு மின்னூட்டத்தை நகர்த்தும் ஒரு மூடிய சுற்று நமக்கு இருக்க வேண்டும். இந்த வெளிச் சுற்று அமைப்பு பொதுவாக ஒரு செல் அல்லது பேட்டரி."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரு மூலத்தின் மின்னியக்கவிசை (emf) இன் வரையறை என்ன?",
+      "options": [
+        "மூலம் மின்னூட்டங்களில் செலுத்தும் விசை",
+        "மூலத்தால் குறைந்த மின்னழுத்தத்திலிருந்து அதிக மின்னழுத்தத்திற்கு மின்னூட்டத்தை எடுத்துச் செல்ல ஒரு அலகு மின்னூட்டத்திற்கு செய்யப்படும் வேலை",
+        "மூலத்தால் உற்பத்தி செய்யப்படும் மின்னோட்டம்",
+        "மூலத்தின் மின்தடை"
+      ],
+      "correct": 1,
+      "explanation": "The summary defines emf as the work done per unit charge by the source in taking the charge from lower to higher potential energy. Note that emf is not a force but a potential difference (voltage). | சுருக்கம் emf ஐ குறைந்த மின்னழுத்த ஆற்றலிலிருந்து அதிக மின்னழுத்த ஆற்றலுக்கு மின்னூட்டத்தை எடுத்துச் செல்ல மூலத்தால் ஒரு அலகு மின்னூட்டத்திற்கு செய்யப்படும் வேலை என வரையறுக்கிறது. emf ஒரு விசை அல்ல, மாறாக ஒரு மின்னழுத்த வேறுபாடு (மின்னழுத்தம்)."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுருக்கத்தின்படி ஓமின் விதியின் சூத்திரம் என்ன?",
+      "options": [
+        "I = V + R",
+        "V = R I",
+        "R = V / I squared",
+        "V = I / R"
+      ],
+      "correct": 1,
+      "explanation": "The summary states Ohm's law as V = R I, where R is called the resistance of the substance. The unit of resistance is ohm, where 1 ohm = 1 V A^-1. | சுருக்கம் ஓமின் விதியை V = R I எனக் கூறுகிறது, இங்கு R என்பது பொருளின் மின்தடை. மின்தடையின் அலகு ஓம், இங்கு 1 ஓம் = 1 V A^-1."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுருக்கத்தின்படி மின்தடையியல்பு rho, நீளம் l, மற்றும் குறுக்குவெட்டுப் பரப்பளவு A ஆகியவற்றைப் பொறுத்து கடத்தியின் மின்தடை R இன் சூத்திரம் என்ன?",
+      "options": [
+        "R = rho A / l",
+        "R = rho l / A",
+        "R = l / (rho A)",
+        "R = A / (rho l)"
+      ],
+      "correct": 1,
+      "explanation": "The summary gives the formula R = rho l / A, where rho is the resistivity which is a property of the material and depends on temperature and pressure. | சுருக்கம் R = rho l / A சூத்திரத்தை வழங்குகிறது, இங்கு rho என்பது மின்தடையியல்பு, இது பொருளின் பண்பு மற்றும் வெப்பநிலை மற்றும் அழுத்தத்தைப் பொறுத்தது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுருக்கத்தின்படி உலோகங்களுக்கான மின்தடையியல்பின் வரம்பு என்ன?",
+      "options": [
+        "10^-18 முதல் 10^-16 ஓம் மீட்டர்",
+        "10^-8 முதல் 10^-6 ஓம் மீட்டர்",
+        "10^-6 முதல் 10^-4 ஓம் மீட்டர்",
+        "10^-4 முதல் 10^-2 ஓம் மீட்டர்"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that metals have low resistivities in the range of 10^-8 ohm meter to 10^-6 ohm meter. Insulators have 10^22 to 10^24 times greater resistivity. | சுருக்கம் கூறுகிறது உலோகங்கள் 10^-8 ஓம் மீட்டர் முதல் 10^-6 ஓம் மீட்டர் வரையிலான குறைந்த மின்தடையியல்புகளைக் கொண்டுள்ளன. கடத்தாப் பொருட்கள் 10^22 முதல் 10^24 மடங்கு அதிக மின்தடையியல்பைக் கொண்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுருக்கத்தின்படி பெரும்பாலான பொருட்களில் மின்னோட்டத்தின் கடத்திகள் என்ன?",
+      "options": [
+        "புரோட்டான்கள் மட்டுமே",
+        "எலக்ட்ரான்கள்; சில சந்தர்ப்பங்களில் நேர்மறை மற்றும் எதிர்மறை அயனிகள்",
+        "நியூட்ரான்கள் மட்டுமே",
+        "போட்டான்கள் மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that in most substances, the carriers of current are electrons; in some cases, for example ionic crystals and electrolytic liquids, positive and negative ions carry the electric current. | சுருக்கம் கூறுகிறது பெரும்பாலான பொருட்களில், மின்னோட்டத்தின் கடத்திகள் எலக்ட்ரான்கள்; சில சந்தர்ப்பங்களில், எடுத்துக்காட்டாக அயனி படிகங்கள் மற்றும் எலக்ட்ரோலைட்டிக் திரவங்கள், நேர்மறை மற்றும் எதிர்மறை அயனிகள் மின்னோட்டத்தை கடத்துகின்றன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுருக்கத்தின்படி மின்னோட்ட அடர்த்தி j இன் சூத்திரம் என்ன?",
+      "options": [
+        "j = n q vd",
+        "j = n / (q vd)",
+        "j = q / (n vd)",
+        "j = vd / (n q)"
+      ],
+      "correct": 0,
+      "explanation": "The summary gives the formula j = n q vd, where n is the number density of charge carriers each of charge q, and vd is the drift velocity of the charge carriers. | சுருக்கம் j = n q vd சூத்திரத்தை வழங்குகிறது, இங்கு n என்பது ஒவ்வொன்றும் q மின்னூட்டம் கொண்ட மின்னூட்ட கடத்திகளின் எண் அடர்த்தி, மற்றும் vd என்பது மின்னூட்ட கடத்திகளின் விரைவு வேகம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுருக்கத்தின்படி மின்தடையியல்பின் வெப்பநிலை குணகம் alpha இன் சூத்திரம் என்ன?",
+      "options": [
+        "alpha = (rho_T - rho_0) / (T - T_0)",
+        "alpha = (rho_T - rho_0) / (rho_0 (T - T_0))",
+        "alpha = rho_T / (rho_0 (T - T_0))",
+        "alpha = (T - T_0) / (rho_T - rho_0)"
+      ],
+      "correct": 1,
+      "explanation": "The summary defines the temperature coefficient of resistivity alpha as the fractional increase in resistivity per unit increase in temperature. From the formula rho_T = rho_0[1 + alpha(T - T_0)], we get alpha = (rho_T - rho_0) / (rho_0(T - T_0)). | சுருக்கம் மின்தடையியல்பின் வெப்பநிலை குணகம் alpha ஐ ஒரு அலகு வெப்பநிலை உயர்வுக்கு மின்தடையியல்பின் பின்ன அதிகரிப்பு என வரையறுக்கிறது. சூத்திரம் rho_T = rho_0[1 + alpha(T - T_0)] இலிருந்து, நாம் alpha = (rho_T - rho_0) / (rho_0(T - T_0)) ஐ பெறுகிறோம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுருக்கத்தின்படி வீட்ஸ்டோன் பாலத்தின் சமநிலை நிபந்தனை என்ன?",
+      "options": [
+        "R1 / R2 = R3 / R4",
+        "R1 / R2 = R4 / R3",
+        "R2 / R1 = R3 / R4",
+        "R1 + R2 = R3 + R4"
+      ],
+      "correct": 0,
+      "explanation": "The summary gives the Wheatstone bridge null-point condition as R1 / R2 = R3 / R4. Using this condition, the value of one resistance can be determined knowing the other three resistances. | சுருக்கம் வீட்ஸ்டோன் பால் பூஜ்யப் புள்ளி நிபந்தனையை R1 / R2 = R3 / R4 என வழங்குகிறது. இந்த நிபந்தனையைப் பயன்படுத்தி, மற்ற மூன்று மின்தடைகளை அறிந்து ஒரு மின்தடையின் மதிப்பை தீர்மானிக்கலாம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சிந்திக்க வேண்டிய புள்ளிகளின்படி, மின்னோட்டம் ஒரு அளவுரு என்பதைக் காட்டும் கணித வெளிப்பாடு என்ன?",
+      "options": [
+        "I = j + ΔS",
+        "I = j × ΔS",
+        "I = j · ΔS",
+        "I = j / ΔS"
+      ],
+      "correct": 2,
+      "explanation": "The text states that current is a scalar and follows from its definition: The current I through an area is given by the scalar product of two vectors I = j · ΔS, where j and ΔS are vectors. This proves current is a scalar, not a vector. | உரை கூறுகிறது மின்னோட்டம் ஒரு அளவுரு மற்றும் அதன் வரையறையிலிருந்து பின்பற்றுகிறது: ஒரு பகுதியின் வழியாக மின்னோட்டம் I இரண்டு திசையன்களின் அளவுரு பெருக்கலால் கொடுக்கப்படுகிறது I = j · ΔS, இங்கு j மற்றும் ΔS திசையன்கள். இது மின்னோட்டம் ஒரு அளவுரு, திசையன் அல்ல என்பதை நிரூபிக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சிந்திக்க வேண்டிய புள்ளிகளின்படி, V = IR சமன்பாடு என்ன குறிக்கிறது?",
+      "options": [
+        "இது ஓமின் விதியின் வாக்கியம்",
+        "இது மின்தடையை வரையறுக்கிறது மற்றும் ஓமின் விதியைப் பின்பற்றும் அல்லது பின்பற்றாத அனைத்து கடத்தும் சாதனங்களுக்கும் பயன்படுத்தப்படலாம்",
+        "இது குறைகடத்திகளுக்கு மட்டுமே பொருந்தும்",
+        "இது emf இன் வரையறை"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the assertion that V = IR is a statement of Ohm's law is not true. This equation defines resistance and may be applied to all conducting devices whether they obey Ohm's law or not. Ohm's law asserts that the plot of I versus V is linear. | உரை தெளிவாகக் கூறுகிறது V = IR ஓமின் விதியின் வாக்கியம் என்ற கூற்று உண்மையல்ல. இந்த சமன்பாடு மின்தடையை வரையறுக்கிறது மற்றும் ஓமின் விதியைப் பின்பற்றும் அல்லது பின்பற்றாத அனைத்து கடத்தும் சாதனங்களுக்கும் பயன்படுத்தப்படலாம். ஓமின் விதி I மற்றும் V இன் வரைபடம் நேர்க்கோடு என்று கூறுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சிந்திக்க வேண்டிய புள்ளிகளின்படி, I மற்றும் V இன் வரைபடம் பற்றி ஓமின் விதி என்ன கூறுகிறது?",
+      "options": [
+        "இது ஒரு பரவளையம்",
+        "இது நேர்க்கோடு, அதாவது R, V லிருந்து சுயாதீனமானது",
+        "இது அதிகச் சார்புடையது",
+        "இது வட்ட வடிவம்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Ohm's law asserts that the plot of I versus V is linear, i.e., R is independent of V. This is the key distinction: V = IR is a definition of resistance, while Ohm's law is the assertion that this resistance is constant (independent of voltage). | உரை கூறுகிறது ஓமின் விதி I மற்றும் V இன் வரைபடம் நேர்க்கோடு, அதாவது R, V லிருந்து சுயாதீனமானது என்று கூறுகிறது. இது முக்கிய வேறுபாடு: V = IR மின்தடையின் வரையறை, ஓமின் விதி இந்த மின்தடை நிலையானது (மின்னழுத்தத்திற்கு சுயாதீனமானது) என்ற கூற்று."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "E = ρj சமன்பாடு ஓமின் விதியைப் பின்பற்றும் கடத்தும் பொருளைப் பற்றி என்ன குறிக்கிறது?",
+      "options": [
+        "மின்தடையியல்பு மின்புலத்தின் திசையைப் பொறுத்தது",
+        "பொருளின் மின்தடையியல்பு பயன்படுத்தப்பட்ட மின்புலத்தின் அளவு மற்றும் திசையைப் பொறுத்து சார்ந்திருக்காது",
+        "மின்புலம் மின்னோட்ட அடர்த்தியைப் பொறுத்தது",
+        "மின்னோட்ட அடர்த்தி எப்போதும் பூஜ்யம்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that equation E = ρj leads to another statement of Ohm's law: a conducting material obeys Ohm's law when the resistivity of the material does not depend on the magnitude and direction of applied electric field. This means the material is isotropic and linear in its response. | உரை கூறுகிறது சமன்பாடு E = ρj ஓமின் விதியின் மற்றொரு வாக்கியத்திற்கு வழிநடத்துகிறது: ஒரு கடத்தும் பொருள் ஓமின் விதியைப் பின்பற்றுகிறது, பயன்படுத்தப்பட்ட மின்புலத்தின் அளவு மற்றும் திசையைப் பொறுத்து பொருளின் மின்தடையியல்பு சார்ந்திருக்காதபோது. இது பொருள் தனது பதிலில் சமதிசையானது மற்றும் நேர்க்கோட்டு என்பதாகும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரே தன்மை கடத்திகள் மற்றும் குறைகடத்திகள் எந்த நிபந்தனையில் ஓமின் விதியிலிருந்து விலகல்களைக் காட்டுகின்றன?",
+      "options": [
+        "மிகக் குறைந்த வெப்பநிலைகளில்",
+        "மின்புலம் மிகவும் வலுவாக இருக்கும்போது",
+        "மிக அதிக மின்தடையில்",
+        "மின்னோட்டம் பூஜ்யமாக இருக்கும்போது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that homogeneous conductors like silver or semiconductors like pure germanium obey Ohm's law within some range of electric field values. If the field becomes too strong, there are departures from Ohm's law in all cases. | உரை கூறுகிறது வெள்ளி போன்ற ஒரே தன்மை கடத்திகள் அல்லது தூய ஜெர்மேனியம் போன்ற குறைகடத்திகள் மின்புல மதிப்புகளின் சில வரம்புக்குள் ஓமின் விதியைப் பின்பற்றுகின்றன. புலம் மிகவும் வலுவாக இருந்தால், அனைத்து சந்தர்ப்பங்களிலும் ஓமின் விதியிலிருந்து விலகல்கள் உள்ளன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சிந்திக்க வேண்டிய புள்ளிகளின்படி, விரைவு வேகம் vd எதனால் ஏற்படுகிறது?",
+      "options": [
+        "எலக்ட்ரான்களின் சீரற்ற வெப்ப இயக்கம்",
+        "எலக்ட்ரானில் பயன்படுத்தப்பட்ட மின்புலம் மட்டுமே",
+        "எலக்ட்ரான்களுக்கு இடையே மோதல்கள்",
+        "காந்த புல விளைவுகள்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the motion of conduction electrons in electric field E is the sum of motion due to random collisions and that due to E. The motion due to random collisions averages to zero and does not contribute to vd. Thus vd is only due to applied electric field on the electron. | உரை கூறுகிறது மின்புலம் E இல் கடத்தல் எலக்ட்ரான்களின் இயக்கம் சீரற்ற மோதல்களால் ஏற்படும் இயக்கம் மற்றும் E காரணமாக ஏற்படும் இயக்கத்தின் கூட்டுத்தொகை. சீரற்ற மோதல்களால் ஏற்படும் இயக்கம் சராசரியாக பூஜ்யமாகிறது மற்றும் vd க்கு பங்களிக்காது. எனவே vd எலக்ட்ரானில் பயன்படுத்தப்பட்ட மின்புலத்தால் மட்டுமே."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நடுநிலை கம்பியில் j = ρv உறவு மொத்த மின்னோட்ட அடர்த்திக்கு ஏன் பொருந்தாது?",
+      "options": [
+        "மின்னூட்ட கடத்திகள் இல்லாததால்",
+        "நேர்மறை மற்றும் எதிர்மறை மின்னூட்ட அடர்த்திகள் ஒன்றையொன்று நீக்குகின்றன (ρ+ = -ρ-), மொத்த ρ = 0 ஆக்குவதால்",
+        "கம்பி கடத்தாததால்",
+        "மின்னோட்டம் எப்போதும் பூஜ்யமாக இருப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that in a neutral wire carrying current, ρ+ = -ρ-, so total ρ = 0. Therefore j = ρv does not apply to the total current density. Instead, the relation should be applied to each type of charge carrier separately. | உரை விளக்குகிறது மின்னோட்டம் கடத்தும் நடுநிலை கம்பியில், ρ+ = -ρ-, எனவே மொத்த ρ = 0. எனவே j = ρv மொத்த மின்னோட்ட அடர்த்திக்கு பொருந்தாது. அதற்கு பதிலாக, உறவு ஒவ்வொரு வகை மின்னூட்ட கடத்திக்கும் தனித்தனியாக பயன்படுத்தப்பட வேண்டும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சிந்திக்க வேண்டிய புள்ளிகளின்படி கிர்ச்ஹாஃபின் சந்தி விதியின் இயற்பியல் அடிப்படை என்ன?",
+      "options": [
+        "ஆற்றல் பாதுகாப்பு",
+        "மின்னூட்ட பாதுகாப்பு",
+        "உந்தம் பாதுகாப்பு",
+        "ஓமின் விதி"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that Kirchhoff's junction rule is based on conservation of charge. The outgoing currents add up and are equal to incoming current at a junction. Bending or reorienting the wire does not change the validity of this rule. | உரை தெளிவாகக் கூறுகிறது கிர்ச்ஹாஃபின் சந்தி விதி மின்னூட்ட பாதுகாப்பை அடிப்படையாகக் கொண்டது. வெளியேறும் மின்னோட்டங்கள் கூட்டப்பட்டு, ஒரு சந்தியில் உள்ளே வரும் மின்னோட்டத்திற்கு சமம். கம்பியை வளைப்பது அல்லது மீண்டும் திசையமைப்பது இந்த விதியின் செல்லுபடியாக்கத்தை மாற்றாது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "பயிற்சி 3.1 இல், emf 12V மற்றும் உள் மின்தடை 0.4 ஓம் கொண்ட கார் பேட்டரியிலிருந்து பெறக்கூடிய அதிகபட்ச மின்னோட்டம் என்ன?",
+      "options": [
+        "20 A",
+        "30 A",
+        "40 A",
+        "50 A"
+      ],
+      "correct": 1,
+      "explanation": "The maximum current is obtained when external resistance R = 0. Using I = epsilon / (R + r) = 12V / (0 + 0.4 ohm) = 12 / 0.4 = 30 A. This is the short-circuit current of the battery. | அதிகபட்ச மின்னோட்டம் வெளிச் சுற்று மின்தடை R = 0 போது பெறப்படுகிறது. I = epsilon / (R + r) = 12V / (0 + 0.4 ohm) = 12 / 0.4 = 30 A ஐப் பயன்படுத்தி. இது பேட்டரியின் குறுக்குச் சுற்று மின்னோட்டம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "பயிற்சி 3.2 இல், emf 10V மற்றும் உள் மின்தடை 3 ஓம் கொண்ட பேட்டரி ஒரு மின்தடையானிக்கு இணைக்கப்பட்டுள்ளது. மின்னோட்டம் 0.5A என்றால், மின்தடையானியின் மின்தடை என்ன?",
+      "options": [
+        "10 ஓம்",
+        "15 ஓம்",
+        "17 ஓம்",
+        "20 ஓம்"
+      ],
+      "correct": 2,
+      "explanation": "Using I = epsilon / (R + r), we have 0.5 = 10 / (R + 3). Solving: R + 3 = 10 / 0.5 = 20, so R = 20 - 3 = 17 ohm. The terminal voltage is V = IR = 0.5 × 17 = 8.5V. | I = epsilon / (R + r) ஐப் பயன்படுத்தி, நாம் 0.5 = 10 / (R + 3) ஐ கொண்டுள்ளோம். தீர்ப்பது: R + 3 = 10 / 0.5 = 20, எனவே R = 20 - 3 = 17 ohm. முனை மின்னழுத்தம் V = IR = 0.5 × 17 = 8.5V."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்டம் I இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: V, பரிமாணம்: [M L^2 T^-3 A^-1]",
+        "அலகு: A, பரிமாணம்: [A]",
+        "அலகு: C, பரிமாணம்: [T A]",
+        "அலகு: ஓம், பரிமாணம்: [M L^2 T^-3 A^-2]"
+      ],
+      "correct": 1,
+      "explanation": "The table states that electric current I has SI unit A (Ampere) and dimension [A]. It is noted as the SI base unit. This is the fundamental unit for all electrical measurements. | அட்டவணை கூறுகிறது மின்னோட்டம் I இன் SI அலகு A (ஆம்பியர்) மற்றும் பரிமாணம் [A]. இது SI அடிப்படை அலகு என குறிப்பிடப்பட்டுள்ளது. இது அனைத்து மின் அளவீடுகளுக்கும் அடிப்படை அலகு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னூட்டம் Q இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: A, பரிமாணம்: [A]",
+        "அலகு: C, பரிமாணம்: [T A]",
+        "அலகு: V, பரிமாணம்: [M L^2 T^-3 A^-1]",
+        "அலகு: ஓம், பரிமாணம்: [M L^2 T^-3 A^-2]"
+      ],
+      "correct": 1,
+      "explanation": "The table states that charge Q, q has SI unit C (Coulomb) and dimension [T A]. Charge is the product of current and time, which gives the dimensional formula [T A]. | அட்டவணை கூறுகிறது மின்னூட்டம் Q, q இன் SI அலகு C (கூலும்) மற்றும் பரிமாணம் [T A]. மின்னூட்டம் மின்னோட்டம் மற்றும் நேரத்தின் பெருக்கல், இது பரிமாண சூத்திரம் [T A] ஐ தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னழுத்தம் (மின் திறன் வேறுபாடு) V இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: A, பரிமாணம்: [A]",
+        "அலகு: C, பரிமாணம்: [T A]",
+        "அலகு: V, பரிமாணம்: [M L^2 T^-3 A^-1]",
+        "அலகு: ஓம், பரிமாணம்: [M L^2 T^-3 A^-2]"
+      ],
+      "correct": 2,
+      "explanation": "The table states that voltage V has SI unit V (Volt) and dimension [M L^2 T^-3 A^-1]. The remark notes it is Work/charge, which explains the dimensional formula derived from energy per unit charge. | அட்டவணை கூறுகிறது மின்னழுத்தம் V இன் SI அலகு V (வோல்ட்) மற்றும் பரிமாணம் [M L^2 T^-3 A^-1]. குறிப்பு அது வேலை/மின்னூட்டம் எனக் குறிப்பிடுகிறது, இது ஒரு அலகு மின்னூட்டத்திற்கான ஆற்றலிலிருந்து பெறப்பட்ட பரிமாண சூத்திரத்தை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னியக்கவிசை (emf) epsilon இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: A, பரிமாணம்: [A]",
+        "அலகு: C, பரிமாணம்: [T A]",
+        "அலகு: V, பரிமாணம்: [M L^2 T^-3 A^-1]",
+        "அலகு: ஓம், பரிமாணம்: [M L^2 T^-3 A^-2]"
+      ],
+      "correct": 2,
+      "explanation": "The table states that electromotive force epsilon has SI unit V (Volt) and dimension [M L^2 T^-3 A^-1]. The remark notes it is Work/charge, same as voltage. Although called a force, emf is actually a potential difference with the same dimensions as voltage. | அட்டவணை கூறுகிறது மின்னியக்கவிசை epsilon இன் SI அலகு V (வோல்ட்) மற்றும் பரிமாணம் [M L^2 T^-3 A^-1]. குறிப்பு அது வேலை/மின்னூட்டம், மின்னழுத்தத்தைப் போலவே. விசை என அழைக்கப்பட்டாலும், emf உண்மையில் மின்னழுத்தத்தின் அதே பரிமாணங்களைக் கொண்ட ஒரு மின்னழுத்த வேறுபாடு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடை R இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: A, பரிமாணம்: [A]",
+        "அலகு: V, பரிமாணம்: [M L^2 T^-3 A^-1]",
+        "அலகு: ஓம், பரிமாணம்: [M L^2 T^-3 A^-2]",
+        "அலகு: S, பரிமாணம்: [M^-1 L^-3 T^3 A^2]"
+      ],
+      "correct": 2,
+      "explanation": "The table states that resistance R has SI unit ohm (symbol W) and dimension [M L^2 T^-3 A^-2]. The remark notes R = V/I, which gives the dimensional formula by dividing voltage dimensions by current dimensions. | அட்டவணை கூறுகிறது மின்தடை R இன் SI அலகு ஓம் (குறியீடு W) மற்றும் பரிமாணம் [M L^2 T^-3 A^-2]. குறிப்பு R = V/I, இது மின்னழுத்த பரிமாணங்களை மின்னோட்ட பரிமாணங்களால் வகுப்பதால் பரிமாண சூத்திரத்தை தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடையியல்பு rho இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: ஓம், பரிமாணம்: [M L^2 T^-3 A^-2]",
+        "அலகு: ஓம் மீட்டர், பரிமாணம்: [M L^3 T^-3 A^-2]",
+        "அலகு: S, பரிமாணம்: [M^-1 L^-3 T^3 A^2]",
+        "அலகு: V m^-1, பரிமாணம்: [M L T^-3 A^-1]"
+      ],
+      "correct": 1,
+      "explanation": "The table states that resistivity rho has SI unit ohm meter and dimension [M L^3 T^-3 A^-2]. The remark notes R = rho l/A, which gives resistivity dimensions as resistance times area divided by length. | அட்டவணை கூறுகிறது மின்தடையியல்பு rho இன் SI அலகு ஓம் மீட்டர் மற்றும் பரிமாணம் [M L^3 T^-3 A^-2]. குறிப்பு R = rho l/A, இது மின்தடையியல்பு பரிமாணங்களை மின்தடை பரப்பளவு நீளத்தால் வகுப்பதால் தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின் கடத்துதிறன் sigma இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: ஓம், பரிமாணம்: [M L^2 T^-3 A^-2]",
+        "அலகு: ஓம் மீட்டர், பரிமாணம்: [M L^3 T^-3 A^-2]",
+        "அலகு: S (சீமன்ஸ்), பரிமாணம்: [M^-1 L^-3 T^3 A^2]",
+        "அலகு: V m^-1, பரிமாணம்: [M L T^-3 A^-1]"
+      ],
+      "correct": 2,
+      "explanation": "The table states that electrical conductivity sigma has SI unit S (Siemens) and dimension [M^-1 L^-3 T^3 A^2]. The remark notes sigma = 1/rho, which means conductivity is the reciprocal of resistivity, giving inverse dimensions. | அட்டவணை கூறுகிறது மின் கடத்துதிறன் sigma இன் SI அலகு S (சீமன்ஸ்) மற்றும் பரிமாணம் [M^-1 L^-3 T^3 A^2]. குறிப்பு sigma = 1/rho, இது கடத்துதிறன் மின்தடையியல்பின் நேர்மாறு, நேர்மாறு பரிமாணங்களை தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் E இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: V, பரிமாணம்: [M L^2 T^-3 A^-1]",
+        "அலகு: ஓம், பரிமாணம்: [M L^2 T^-3 A^-2]",
+        "அலகு: V m^-1, பரிமாணம்: [M L T^-3 A^-1]",
+        "அலகு: A m^-2, பரிமாணம்: [L^-2 A]"
+      ],
+      "correct": 2,
+      "explanation": "The table states that electric field E has SI unit V m^-1 and dimension [M L T^-3 A^-1]. The remark notes it is Electric force/charge, which gives the dimensional formula from force per unit charge. | அட்டவணை கூறுகிறது மின்புலம் E இன் SI அலகு V m^-1 மற்றும் பரிமாணம் [M L T^-3 A^-1]. குறிப்பு அது மின் விசை/மின்னூட்டம், இது ஒரு அலகு மின்னூட்டத்திற்கான விசையிலிருந்து பரிமாண சூத்திரத்தை தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "விரைவு வேகம் vd இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: m s^-1, பரிமாணம்: [L T^-1]",
+        "அலகு: m^2 V^-1 s^-1, பரிமாணம்: [M^-1 L^0 T^2 A]",
+        "அலகு: A m^-2, பரிமாணம்: [L^-2 A]",
+        "அலகு: s, பரிமாணம்: [T]"
+      ],
+      "correct": 0,
+      "explanation": "The table states that drift speed vd has SI unit m s^-1 and dimension [L T^-1]. The remark gives the formula vd = eE tau / m, showing it is a velocity with standard velocity dimensions. | அட்டவணை கூறுகிறது விரைவு வேகம் vd இன் SI அலகு m s^-1 மற்றும் பரிமாணம் [L T^-1]. குறிப்பு சூத்திரம் vd = eE tau / m ஐ தருகிறது, இது ஒரு திசைவேகம், தரநிலை திசைவேக பரிமாணங்களைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நகர்திறன் mu இன் SI அலகு மற்றும் பரிமாண சூத்திரம் என்ன?",
+      "options": [
+        "அலகு: m s^-1, பரிமாணம்: [L T^-1]",
+        "அலகு: m^2 V^-1 s^-1, பரிமாணம்: [M^-1 L^0 T^2 A]",
+        "அலகு: A m^-2, பரிமாணம்: [L^-2 A]",
+        "அலகு: s, பரிமாணம்: [T]"
+      ],
+      "correct": 1,
+      "explanation": "The table states that mobility mu has SI unit m^2 V^-1 s^-1 and dimension [M^-1 L^0 T^2 A]. The remark gives the formula mu = vd / E, showing it is drift velocity per unit electric field. | அட்டவணை கூறுகிறது நகர்திறன் mu இன் SI அலகு m^2 V^-1 s^-1 மற்றும் பரிமாணம் [M^-1 L^0 T^2 A]. குறிப்பு சூத்திரம் mu = vd / E ஐ தருகிறது, இது ஒரு அலகு மின்புலத்திற்கு விரைவு வேகம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எலக்ட்ரான்கள் மற்றும் கருவணுக்கள் அணுக்களில் எவ்வாறு உள்ளன?",
+      "options": [
+        "சுதந்திரமாக நகர்கின்றன",
+        "ஒன்றுக்கொன்று கட்டப்பட்டுள்ளன மற்றும் நகர சுதந்திரமாக இல்லை",
+        "ஒன்றையொன்று தொடர்ந்து விலக்குகின்றன",
+        "உலோகங்களில் மட்டுமே உள்ளன"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in atoms and molecules, the negatively charged electrons and the positively charged nuclei are bound to each other and are thus not free to move. | உரை கூறுகிறது அணுக்கள் மற்றும் மூலக்கூறுகளில், எதிர்மறை மின்னூட்டமுள்ள எலக்ட்ரான்கள் மற்றும் நேர்மறை மின்னூட்டமுள்ள கருவணுக்கள் ஒன்றுக்கொன்று கட்டப்பட்டுள்ளன மற்றும் எனவே நகர சுதந்திரமாக இல்லை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சில பொருட்களில் மின்புலம் பயன்படுத்தப்பட்டால் எலக்ட்ரான்களுக்கு என்ன நடக்கிறது?",
+      "options": [
+        "பொருள் பொருட் தன்மையைப் பொருட்படுத்தாமல் எப்போதும் முடுக்கமடைகின்றன",
+        "சில பொருட்களில் அவை கட்டப்பட்டுள்ளன மற்றும் முடுக்கமடையாது",
+        "உடனடியாக பொருளை விட்டு வெளியேறுகின்றன",
+        "நேர்மறை மின்னூட்டங்களாக மாறுகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that in some materials, the electrons will still be bound, meaning they will not accelerate even if an electric field is applied. These materials are insulators. | உரை விளக்குகிறது சில பொருட்களில், எலக்ட்ரான்கள் இன்னும் கட்டப்பட்டிருக்கும், அதாவது ஒரு மின்புலம் பயன்படுத்தப்பட்டாலும் அவை முடுக்கமடையாது. இந்தப் பொருட்கள் கடத்தாப் பொருட்கள்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்திகள் என்றால் என்ன?",
+      "options": [
+        "எல்லா எலக்ட்ரான்களும் கட்டப்பட்டுள்ள பொருட்கள்",
+        "சில எலக்ட்ரான்கள் மொத்தப் பொருளுக்குள் நகர்வதற்கு கிட்டத்தட்ட சுதந்திரமாக உள்ள பொருட்கள்",
+        "எலக்ட்ரான்கள் இல்லாத பொருட்கள்",
+        "வெப்பத்தை மட்டுமே கடத்தும் பொருட்கள்"
+      ],
+      "correct": 1,
+      "explanation": "The text defines conductors as materials, notably metals, where some of the electrons are practically free to move within the bulk material. These develop electric currents when an electric field is applied. | உரை கடத்திகளை வரையறுக்கிறது குறிப்பாக உலோகங்கள், ஒரு பெரும்பாலான எலக்ட்ரான்கள் மொத்தப் பொருளுக்குள் நகர்வதற்கு கிட்டத்தட்ட சுதந்திரமாக உள்ள பொருட்கள். இவை ஒரு மின்புலம் பயன்படுத்தப்படும்போது மின்னோட்டங்களை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "திட கடத்திகளில் மின்னோட்டத்தை எந்தத் துகள்கள் கொண்டு செல்கின்றன?",
+      "options": [
+        "நேர்மறை மின்னூட்டமுள்ள புரோட்டான்கள்",
+        "எதிர்மறை மின்னூட்டமுள்ள எலக்ட்ரான்கள்",
+        "நடுநிலை நியூட்ரான்கள்",
+        "நேர்மறை மற்றும் எதிர்மறை அயனிகள் இரண்டும்"
+      ],
+      "correct": 1,
+      "explanation": "The text clearly states that in solid conductors, the atoms are tightly bound to each other so that the current is carried by the negatively charged electrons in the background of fixed positive ions. | உரை தெளிவாகக் கூறுகிறது திட கடத்திகளில், அணுக்கள் ஒன்றுக்கொன்று இறுக்கமாக கட்டப்பட்டுள்ளன எனவே மின்னோட்டம் நிலையான நேர்மறை அயனிகளின் பின்னணியில் எதிர்மறை மின்னூட்டமுள்ள எலக்ட்ரான்களால் கொண்டு செல்லப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எந்த வகை கடத்திகளில் நேர்மறை மற்றும் எதிர்மறை மின்னூட்டங்கள் இரண்டும் நகர முடியும்?",
+      "options": [
+        "திட உலோக கடத்திகள்",
+        "எலக்ட்ரோலைட்டிக் கரைசல்கள்",
+        "குறைகடத்தி சாதனங்கள்",
+        "மீகடத்திகள்"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that there are other types of conductors like electrolytic solutions where positive and negative charges both can move. The discussion focuses on solid conductors where only electrons move. | உரை குறிப்பிடுகிறது எலக்ட்ரோலைட்டிக் கரைசல்கள் போன்ற மற்ற கடத்திகள் உள்ளன, இங்கு நேர்மறை மற்றும் எதிர்மறை மின்னூட்டங்கள் இரண்டும் நகர முடியும். விவாதம் எலக்ட்ரான்கள் மட்டும் நகரும் திட கடத்திகளில் கவனம் செலுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் இல்லாதபோது கடத்தியில் எலக்ட்ரான்களுக்கு என்ன நடக்கிறது?",
+      "options": [
+        "அவை நிலையாக இருக்கின்றன",
+        "வெப்ப இயக்கத்தால் நகர்ந்து நிலையான அயனிகளுடன் மோதுகின்றன",
+        "அனைத்தும் ஒரே திசையில் நகர்கின்றன",
+        "கடத்தியிலிருந்து வெளியேறுகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "The text states that when no electric field is present, the electrons will be moving due to thermal motion during which they collide with the fixed ions. An electron colliding with an ion emerges with the same speed but random direction. | உரை கூறுகிறது மின்புலம் இல்லாதபோது, எலக்ட்ரான்கள் வெப்ப இயக்கத்தால் நகரும், இந்த நேரத்தில் அவை நிலையான அயனிகளுடன் மோதுகின்றன. ஒரு அயனியுடன் மோதும் எலக்ட்ரான் அதே வேகத்துடன் ஆனால் சீரற்ற திசையில் வெளியேறுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் பயன்படுத்தப்படாதபோது எலக்ட்ரான்களின் சராசரி வேகம் என்ன?",
+      "options": [
+        "ஒளியின் வேகத்திற்கு சமம்",
+        "திசைகள் சீரற்றதாக இருப்பதால் பூஜ்யம்",
+        "ஒரு திசையில் மிகப் பெரியது",
+        "வெப்பநிலையை மட்டுமே பொறுத்தது"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that at a given time, there is no preferential direction for the velocities of the electrons. Thus on average, the number of electrons travelling in any direction equals those in the opposite direction, resulting in no net electric current and zero average velocity. | உரை விளக்குகிறது கொடுக்கப்பட்ட நேரத்தில், எலக்ட்ரான்களின் வேகங்களுக்கு எந்த விருப்பமான திசையும் இல்லை. எனவே சராசரியாக, எந்த திசையிலும் பயணிக்கும் எலக்ட்ரான்களின் எண்ணிக்கை எதிர் திசையில் உள்ளவற்றுக்கு சமம், இதனால் நிகர மின்னோட்டம் இல்லை மற்றும் சராசரி வேகம் பூஜ்யம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் பயன்படுத்தப்படும்போது கடத்தியின் முனைகளில் +Q மற்றும் -Q மின்னூட்டங்கள் இருந்தால் எலக்ட்ரான்கள் என்ன செய்கின்றன?",
+      "options": [
+        "+Q இலிருந்து விலகி நகர்கின்றன",
+        "+Q நோக்கி முடுக்கமடைந்து மின்னூட்டங்களை நடுநிலையாக்க நகர்கின்றன",
+        "நேர்மறை அயனிகள் -Q நோக்கி நகர்கின்றன",
+        "எந்த இயக்கமும் நடக்காது"
+      ],
+      "correct": 1,
+      "explanation": "The text describes that when an electric field is created from +Q to -Q, the electrons will be accelerated due to this field towards +Q. They will thus move to neutralize the charges. The current exists only for a very short while unless charges are continuously replenished. | உரை விவரிக்கிறது +Q இலிருந்து -Q க்கு ஒரு மின்புலம் உருவாக்கப்படும்போது, எலக்ட்ரான்கள் இந்த புலத்தால் +Q நோக்கி முடுக்கமடையும். எனவே அவை மின்னூட்டங்களை நடுநிலையாக்க நகரும். மின்னூட்டங்கள் தொடர்ந்து புதுப்பிக்கப்படாவிட்டால் மின்னோட்டம் மிகக் குறுகிய நேரம் மட்டுமே இருக்கும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்தியில் நிலையான மின்புலம் மற்றும் தொடர்ச்சியான மின்னோட்டத்தை பராமரிக்க என்ன வழிமுறை தேவை?",
+      "options": [
+        "கடத்தியை தொடர்ந்து சூடாக்குவது",
+        "மின்னூட்டங்களை தொடர்ந்து புதுப்பிக்கும் செல்கள் அல்லது பேட்டரிகள்",
+        "குறுக்குவெட்டு பரப்பளவை அதிகரிப்பது",
+        "கடத்தியிலிருந்து அனைத்து எலக்ட்ரான்களையும் அகற்றுவது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that mechanisms which maintain a steady electric field are cells or batteries. These supply fresh charges to make up for any charges neutralized by electrons moving inside the conductor, resulting in a continuous current rather than a short-duration current. | உரை கூறுகிறது நிலையான மின்புலத்தை பராமரிக்கும் வழிமுறைகள் செல்கள் அல்லது பேட்டரிகள். இவை கடத்தியின் உள்ளே நகரும் எலக்ட்ரான்களால் நடுநிலையாக்கப்பட்ட எந்த மின்னூட்டங்களுக்கும் புதிய மின்னூட்டங்களை வழங்குகின்றன, குறுகிய கால மின்னோட்டத்திற்கு பதிலாக தொடர்ச்சியான மின்னோட்டத்தை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "சுதந்திர மின்னூட்டத் துகள்கள் இயற்கையில் எங்கு உள்ளன?",
+      "options": [
+        "திட உலோகங்களின் உள்ளே",
+        "வளிமண்டலத்தின் மேலடுக்குகளில் உள்ள அயனோமண்டலத்தில்",
+        "எலக்ட்ரோலைட்டிக் கரைசல்களில் மட்டுமே",
+        "பிளாஸ்டிக் கடத்தாப் பொருட்களின் உள்ளே"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that free charged particles exist in nature in the upper strata of atmosphere called the ionosphere. | உரை தெளிவாகக் கூறுகிறது இயற்கையில் சுதந்திர மின்னூட்டத் துகள்கள் வளிமண்டலத்தின் மேலடுக்குகளில் உள்ள அயனோமண்டலத்தில் உள்ளன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்ட ஓட்டத்தின் அடிப்படை விதியை யார் மற்றும் எந்த ஆண்டில் கண்டுபிடித்தார்?",
+      "options": [
+        "ஃபாரடே 1831 இல்",
+        "G.S. ஓம் 1828 இல்",
+        "அம்பியர் 1820 இல்",
+        "வோல்டா 1800 இல்"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that a basic law regarding flow of currents was discovered by G.S. Ohm in 1828, long before the physical mechanism responsible for flow of currents was discovered. | உரை தெளிவாகக் கூறுகிறது மின்னோட்டங்களின் ஓட்டம் குறித்த அடிப்படை விதி G.S. ஓமால் 1828 இல் கண்டுபிடிக்கப்பட்டது, மின்னோட்டங்களின் ஓட்டத்திற்கு பொறுப்பான இயற்பியல் விசையமுறை கண்டுபிடிக்கப்படுவதற்கு மிக முன்பாக."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஓமின் விதிப்படி மின்னழுத்த வேறுபாடு V மற்றும் மின்னோட்டம் I இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "V, I வர்க்கத்திற்கு நேர்விகிதத்தில் உள்ளது",
+        "V, I க்கு நேர்விகிதத்தில் உள்ளது",
+        "V, I க்கு எதிர் விகிதத்தில் உள்ளது",
+        "V, I லிருந்து சுயாதீனமானது"
+      ],
+      "correct": 1,
+      "explanation": "The text states Ohm's law as V proportional to I, or V = RI, where R is the constant of proportionality called the resistance of the conductor. | உரை ஓமின் விதியை V, I க்கு நேர்விகிதத்தில் உள்ளது அல்லது V = RI எனக் கூறுகிறது, இங்கு R என்பது கடத்தியின் மின்தடை எனப்படும் விகிதாசார மாறிலி."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடையின் SI அலகு என்ன மற்றும் எந்த குறியீடு அதைக் குறிக்கிறது?",
+      "options": [
+        "வோல்ட், V என குறிக்கப்படுகிறது",
+        "ஆம்பியர், A என குறிக்கப்படுகிறது",
+        "ஓம், W குறியீட்டால் குறிக்கப்படுகிறது",
+        "வாட், W என குறிக்கப்படுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the SI units of resistance is ohm, and is denoted by the symbol W. Note that the text uses W as the symbol for ohm in this edition. | உரை கூறுகிறது மின்தடையின் SI அலகு ஓம், மற்றும் அது W குறியீட்டால் குறிக்கப்படுகிறது. இந்த பதிப்பில் W ஓமின் குறியீடாகப் பயன்படுத்தப்படுகிறது என்பதைக் கவனிக்கவும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்தியின் மின்தடை R எந்த காரணிகளைப் பொறுத்தது?",
+      "options": [
+        "கடத்தியின் பொருள் மட்டுமே",
+        "கடத்தியின் பரிமாணங்கள் மட்டுமே",
+        "கடத்தியின் பொருள் மற்றும் பரிமாணங்கள் இரண்டும்",
+        "கடத்தியின் வெப்பநிலை மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "The text clearly states that the resistance R not only depends on the material of the conductor but also on the dimensions of the conductor. This is a fundamental property of electrical resistance. | உரை தெளிவாகக் கூறுகிறது மின்தடை R கடத்தியின் பொருள் மட்டுமல்லாமல் அதன் பரிமாணங்களையும் பொறுத்தது. இது மின் மின்தடையின் அடிப்படை பண்பு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்தியின் நீளம் இரட்டிப்பாக்கப்பட்டால் அதே குறுக்குவெட்டுப் பரப்பளவை வைத்திருக்கும்போது அதன் மின்தடைக்கு என்ன நடக்கிறது?",
+      "options": [
+        "அது அதேயாக இருக்கிறது",
+        "அது பாதியாகிறது",
+        "அது இரட்டிப்பாகிறது",
+        "அது நான்கு மடங்காகிறது"
+      ],
+      "correct": 2,
+      "explanation": "The text explains that doubling the length of a conductor doubles the resistance. In general, resistance is proportional to length, R proportional to l. This is derived by considering two identical slabs placed side by side. | உரை விளக்குகிறது கடத்தியின் நீளத்தை இரட்டிப்பாக்குவது மின்தடையை இரட்டிப்பாக்குகிறது. பொதுவாக, மின்தடை நீளத்திற்கு நேர்விகிதத்தில் உள்ளது, R proportional to l. இது இரண்டு ஒரே மாதிரியான தகடுகளை அருகருகே வைப்பதன் மூலம் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்தியின் குறுக்குவெட்டுப் பரப்பளவு பாதியாக்கப்பட்டால் அதே நீளத்தை வைத்திருக்கும்போது அதன் மின்தடைக்கு என்ன நடக்கிறது?",
+      "options": [
+        "அது அதேயாக இருக்கிறது",
+        "அது பாதியாகிறது",
+        "அது இரட்டிப்பாகிறது",
+        "அது ஒரு கால் பகுதியாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "The text demonstrates that halving the area of the cross-section of a conductor doubles the resistance. In general, the resistance R is inversely proportional to the cross-sectional area, R proportional to 1/A. | உரை விளக்குகிறது கடத்தியின் குறுக்குவெட்டுப் பரப்பளவை பாதியாக்குவது மின்தடையை இரட்டிப்பாக்குகிறது. பொதுவாக, மின்தடை R குறுக்குவெட்டுப் பரப்பளவிற்கு எதிர் விகிதத்தில் உள்ளது, R proportional to 1/A."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடையியல்பு ρ, நீளம் l, மற்றும் குறுக்குவெட்டுப் பரப்பளவு A ஆகியவற்றைப் பொறுத்து மின்தடை R இன் சூத்திரம் என்ன?",
+      "options": [
+        "R = ρA/l",
+        "R = ρl/A",
+        "R = l/(ρA)",
+        "R = A/(ρl)"
+      ],
+      "correct": 1,
+      "explanation": "The text derives the formula R = ρl/A, where ρ is the constant of proportionality called resistivity that depends on the material of the conductor but not on its dimensions. | உரை R = ρl/A சூத்திரத்தை பெறுகிறது, இங்கு ρ என்பது கடத்தியின் பொருளைப் பொறுத்து ஆனால் அதன் பரிமாணங்களைப் பொறுத்து அல்லாத மின்தடையியல்பு எனப்படும் விகிதாசார மாறிலி."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடையியல்பு ρ என்றால் என்ன மற்றும் அது எதைப் பொறுத்தது?",
+      "options": [
+        "அது பொருள் மற்றும் பரிமாணங்கள் இரண்டையும் பொறுத்தது",
+        "அது கடத்தியின் பொருளைப் பொறுத்து ஆனால் அதன் பரிமாணங்களைப் பொறுத்து அல்ல",
+        "அது கடத்தியின் நீளத்தை மட்டுமே பொறுத்தது",
+        "அது குறுக்குவெட்டுப் பரப்பளவை மட்டுமே பொறுத்தது"
+      ],
+      "correct": 1,
+      "explanation": "The text defines ρ as the constant of proportionality that depends on the material of the conductor but not on its dimensions. It is called resistivity. | உரை ρ வை கடத்தியின் பொருளைப் பொறுத்து ஆனால் அதன் பரிமாணங்களைப் பொறுத்து அல்லாத விகிதாசார மாறிலி என வரையறுக்கிறது. இது மின்தடையியல்பு என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்ட அடர்த்தி j என்றால் என்ன மற்றும் அதன் SI அலகுகள் என்ன?",
+      "options": [
+        "ஒரு அலகு கன அளவுக்கு உள்ள மின்னோட்டம், அலகுகள் A/m³",
+        "மின்னோட்டத்திற்கு செங்குத்தான ஒரு அலகு பரப்பளவுக்கு உள்ள மின்னோட்டம், அலகுகள் A/m²",
+        "ஒரு அலகு நீளத்திற்கு உள்ள மின்னோட்டம், அலகுகள் A/m",
+        "ஒரு அலகு பரப்பளவுக்கு உள்ள மின்னழுத்தம், அலகுகள் V/m²"
+      ],
+      "correct": 1,
+      "explanation": "The text defines current per unit area taken normal to the current as current density j, with SI units of A/m². This is a measure of how concentrated the current flow is. | உரை மின்னோட்டத்திற்கு செங்குத்தான ஒரு பகுதியின் ஒரு அலகு பரப்பளவுக்கு உள்ள மின்னோட்டத்தை மின்னோட்ட அடர்த்தி j என வரையறுக்கிறது, SI அலகுகள் A/m². இது மின்னோட்ட ஓட்டம் எவ்வளவு அடர்த்தியாக உள்ளது என்பதை அளவிடுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் E, மின்னோட்ட அடர்த்தி j, மற்றும் மின்தடையியல்பு ρ இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "E = j/ρ",
+        "E = jρ",
+        "E = j + ρ",
+        "E = j - ρ"
+      ],
+      "correct": 1,
+      "explanation": "The text derives the relationship E = jρ from Ohm's law, where E is the magnitude of uniform electric field, j is current density, and ρ is resistivity. This can also be written in vector form as E = ρj and j = σE. | உரை ஓமின் விதியிலிருந்து E = jρ உறவை பெறுகிறது, இங்கு E என்பது சீரான மின்புலத்தின் அளவு, j என்பது மின்னோட்ட அடர்த்தி, மற்றும் ρ என்பது மின்தடையியல்பு. இது E = ρj மற்றும் j = σE என திசையன் வடிவத்திலும் எழுதப்படலாம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஜார்ஜ் சைமன் ஓமின் குடியுரிமை என்ன மற்றும் அவர் எங்கு பேராசிரியராக இருந்தார்?",
+      "options": [
+        "பிரெஞ்சு இயற்பியலாளர், பாரிஸில் பேராசிரியர்",
+        "ஜெர்மன் இயற்பியலாளர், மியூனிக்கில் பேராசிரியர்",
+        "பிரிட்டிஷ் இயற்பியலாளர், கேம்பிரிட்ஜில் பேராசிரியர்",
+        "அமெரிக்க இயற்பியலாளர், ஹார்வர்டில் பேராசிரியர்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Georg Simon Ohm (1787-1854) was a German physicist and professor at Munich. | உரை கூறுகிறது ஜார்ஜ் சைமன் ஓம் (1787-1854) ஒரு ஜெர்மன் இயற்பியலாளர் மற்றும் மியூனிக்கில் பேராசிரியர்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உரையின்படி ஓமை அவரது விதியைக் கண்டுபிடிக்க வழிநடத்திய ஒப்புமை எது?",
+      "options": [
+        "நீர் ஓட்டம் மற்றும் மின்னோட்டம் இடையே உள்ள ஒப்புமை",
+        "வெப்பக் கடத்தல் மற்றும் மின்கடத்தல் இடையே உள்ள ஒப்புமை",
+        "ஒலி அலைகள் மற்றும் ஒளி அலைகள் இடையே உள்ள ஒப்புமை",
+        "காந்தவியல் மற்றும் ஈர்ப்பு இடையே உள்ள ஒப்புமை"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that Ohm was led to his law by an analogy between the conduction of heat: the electric field is analogous to the temperature gradient, and the electric current is analogous to the heat flow. | உரை தெளிவாகக் கூறுகிறது ஓம் வெப்பத்தின் கடத்தலுக்கும் மின்கடத்தலுக்கும் இடையே உள்ள ஒப்புமையால் தனது விதியைக் கண்டுபிடித்தார்: மின்புலம் வெப்பநிலை சாய்வுக்கு ஒப்பானது, மற்றும் மின்னோட்டம் வெப்ப ஓட்டத்திற்கு ஒப்பானது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நீளம் l மற்றும் குறுக்குவெட்டுப் பரப்பளவு A உடைய இரண்டு ஒரே மாதிரியான தகடுகள் தொடராக அருகருகே வைக்கப்படும்போது, இணைப்பின் மொத்த நீளம் என்ன?",
+      "options": [
+        "l",
+        "l/2",
+        "2l",
+        "4l"
+      ],
+      "correct": 2,
+      "explanation": "The text states that when two identical slabs are placed side by side, the length of the combination is 2l. This is the series combination used to derive the length dependence of resistance. | உரை கூறுகிறது இரண்டு ஒரே மாதிரியான தகடுகள் அருகருகே வைக்கப்படும்போது, இணைப்பின் மொத்த நீளம் 2l ஆகும். இது மின்தடையின் நீள சார்பை பெறப் பயன்படுத்தப்படும் தொடர் இணைப்பு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரு தகட்டின் மின்தடை R என்றால், இரண்டு ஒரே மாதிரியான தகடுகள் தொடராக இணைக்கப்படும்போது இணைப்பின் மின்தடை என்ன?",
+      "options": [
+        "R/2",
+        "R",
+        "2R",
+        "4R"
+      ],
+      "correct": 2,
+      "explanation": "The text derives that R_C = 2V/I = 2R, since V/I = R for each slab. Thus, doubling the length doubles the resistance, showing R is proportional to length. | உரை R_C = 2V/I = 2R என பெறுகிறது, ஏனெனில் ஒவ்வொரு தகட்டிற்கும் V/I = R. எனவே, நீளத்தை இரட்டிப்பாக்குவது மின்தடையை இரட்டிப்பாக்குகிறது, R நீளத்திற்கு நேர்விகிதத்தில் உள்ளது என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்தியின் மின்தடை R மற்றும் நீளம் l இடையே உள்ள பொது உறவு என்ன?",
+      "options": [
+        "R, l க்கு எதிர் விகிதத்தில் உள்ளது",
+        "R, l க்கு நேர்விகிதத்தில் உள்ளது",
+        "R, l வர்க்கத்திற்கு நேர்விகிதத்தில் உள்ளது",
+        "R, l லிருந்து சுயாதீனமானது"
+      ],
+      "correct": 1,
+      "explanation": "The text concludes that in general, resistance is proportional to length, R proportional to l. This is derived from the series combination of two identical slabs. | உரை முடிவு செய்கிறது பொதுவாக, மின்தடை நீளத்திற்கு நேர்விகிதத்தில் உள்ளது, R proportional to l. இது இரண்டு ஒரே மாதிரியான தகடுகளின் தொடர் இணைப்பிலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரு தகடு நீளமாக இரண்டு ஒரே மாதிரியான அரை தகடுகளாக பிரிக்கப்படும்போது, ஒவ்வொரு அரை தகட்டின் குறுக்குவெட்டுப் பரப்பளவு என்ன?",
+      "options": [
+        "A",
+        "A/2",
+        "2A",
+        "A/4"
+      ],
+      "correct": 1,
+      "explanation": "The text states that when the slab is divided lengthwise, it can be considered as a combination of two identical slabs of length l, but each having a cross-sectional area of A/2. | உரை கூறுகிறது தகடு நீளமாக பிரிக்கப்படும்போது, அது நீளம் l உடைய இரண்டு ஒரே மாதிரியான தகடுகளின் இணைப்பாகக் கருதப்படலாம், ஆனால் ஒவ்வொன்றும் A/2 குறுக்குவெட்டுப் பரப்பளவைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "முழு தகட்டின் மின்தடை R என்றால், நீளமாக பிரிக்கப்படும்போது ஒவ்வொரு அரை தகட்டின் மின்தடை என்ன?",
+      "options": [
+        "R/2",
+        "R",
+        "2R",
+        "4R"
+      ],
+      "correct": 2,
+      "explanation": "The text derives that the resistance of each half-slab is 2R. This is because halving the area doubles the resistance, showing R is inversely proportional to cross-sectional area. | உரை ஒவ்வொரு அரை தகட்டின் மின்தடை 2R என பெறுகிறது. இது பரப்பளவை பாதியாக்குவது மின்தடையை இரட்டிப்பாக்குகிறது, R குறுக்குவெட்டுப் பரப்பளவிற்கு எதிர் விகிதத்தில் உள்ளது என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்தியின் மின்தடை R மற்றும் குறுக்குவெட்டுப் பரப்பளவு A இடையே உள்ள பொது உறவு என்ன?",
+      "options": [
+        "R, A க்கு நேர்விகிதத்தில் உள்ளது",
+        "R, A க்கு எதிர் விகிதத்தில் உள்ளது",
+        "R, A வர்க்கத்திற்கு நேர்விகிதத்தில் உள்ளது",
+        "R, A லிருந்து சுயாதீனமானது"
+      ],
+      "correct": 1,
+      "explanation": "The text concludes that in general, the resistance R is inversely proportional to the cross-sectional area, R proportional to 1/A. This is derived from the parallel combination of two half-slabs. | உரை முடிவு செய்கிறது பொதுவாக, மின்தடை R குறுக்குவெட்டுப் பரப்பளவிற்கு எதிர் விகிதத்தில் உள்ளது, R proportional to 1/A. இது இரண்டு அரை தகடுகளின் இணை இணைப்பிலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடையியல்பு ρ, நீளம் l, மற்றும் குறுக்குவெட்டுப் பரப்பளவு A ஆகியவற்றைப் பொறுத்து கடத்தியின் மின்தடை R இன் சூத்திரம் என்ன?",
+      "options": [
+        "R = ρA/l",
+        "R = ρl/A",
+        "R = l/(ρA)",
+        "R = A/(ρl)"
+      ],
+      "correct": 1,
+      "explanation": "The text combines the proportionalities to derive R = ρl/A, where ρ is the constant of proportionality called resistivity that depends on the material but not on dimensions. | உரை விகிதங்களை இணைத்து R = ρl/A என பெறுகிறது, இங்கு ρ என்பது பொருளைப் பொறுத்து ஆனால் பரிமாணங்களைப் பொறுத்து அல்லாத மின்தடையியல்பு எனப்படும் விகிதாசார மாறிலி."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "திசையன் வடிவத்தில் மின்புலம் E மற்றும் மின்னோட்ட அடர்த்தி j இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "E = j/ρ",
+        "E = ρj",
+        "j = ρE",
+        "E = j + ρ"
+      ],
+      "correct": 1,
+      "explanation": "The text derives the vector relationship E = ρj, where the current density j is directed along E. This can also be written as j = σE where σ is conductivity. | உரை திசையன் உறவு E = ρj என பெறுகிறது, இங்கு மின்னோட்ட அடர்த்தி j, E உடன் திசையாக உள்ளது. இது j = σE எனவும் எழுதப்படலாம், இங்கு σ என்பது கடத்துதிறன்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் E மற்றும் மின்னோட்ட அடர்த்தி j இடையே உள்ள திசையன் வடிவ ஓமின் விதி என்ன?",
+      "options": [
+        "E = j/ρ",
+        "E = ρj",
+        "j = E/ρ",
+        "E = j + ρ"
+      ],
+      "correct": 1,
+      "explanation": "The text derives the vector relationship E = ρj where the current density j is directed along E. This is the vector form of Ohm's law derived from the scalar relationship. | உரை திசையன் உறவு E = ρj என பெறுகிறது, இங்கு மின்னோட்ட அடர்த்தி j, E உடன் திசையாக உள்ளது. இது அளவு உறவிலிருந்து பெறப்பட்ட ஓமின் விதியின் திசையன் வடிவம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்துதிறன் σ மற்றும் மின்தடையியல்பு ρ இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "σ = ρ",
+        "σ = 1/ρ",
+        "σ = ρ²",
+        "σ = 1/ρ²"
+      ],
+      "correct": 1,
+      "explanation": "The text defines σ = 1/ρ where σ is called the conductivity. This is the reciprocal relationship between conductivity and resistivity. | உரை σ = 1/ρ என வரையறுக்கிறது, இங்கு σ என்பது கடத்துதிறன். இது கடத்துதிறன் மற்றும் மின்தடையியல்புக்கு இடையே உள்ள நேர்மாறு உறவு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஓமின் விதியின் சமமான வடிவத்தில் மின்னோட்ட அடர்த்தி j மற்றும் மின்புலம் E இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "j = E/σ",
+        "j = σE",
+        "j = E + σ",
+        "j = E - σ"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Ohm's law can be written in equivalent form as j = σE where σ is the conductivity. This is derived from E = ρj by substituting σ = 1/ρ. | உரை ஓமின் விதியை j = σE என சமமான வடிவத்தில் எழுதலாம் எனக் கூறுகிறது, இங்கு σ என்பது கடத்துதிறன். இது σ = 1/ρ ஐ மாற்றிப் போட்டு E = ρj இலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரு எலக்ட்ரான் நிலையான கனரக அயனியுடன் மோதிய பிறகு என்ன நடக்கிறது?",
+      "options": [
+        "அது தனது இயக்க ஆற்றலை முழுவதும் இழக்கிறது",
+        "அது அதே வேகத்துடன் ஆனால் சீரற்ற திசையில் வெளியேறுகிறது",
+        "அது முற்றிலும் நிறுத்தப்படுகிறது",
+        "அது தனது வேகத்தை இரட்டிப்பாக்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that an electron colliding with an ion emerges with the same speed as before the collision, but the direction of its velocity after the collision is completely random. | உரை தெளிவாகக் கூறுகிறது ஒரு எலக்ட்ரான் அயனியுடன் மோதும்போது, மோதலுக்கு முன் இருந்த அதே வேகத்துடன் வெளியேறுகிறது, ஆனால் மோதலுக்குப் பிறகு அதன் வேகத்தின் திசை முற்றிலும் சீரற்றதாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் பயன்படுத்தப்படாதபோது அனைத்து எலக்ட்ரான்களின் சராசரி வேகம் என்ன?",
+      "options": [
+        "ஒளியின் வேகத்திற்கு சமம்",
+        "திசைகள் சீரற்றதாக இருப்பதால் பூஜ்யம்",
+        "ஒரு திசையில் மிகப் பெரியது",
+        "வெப்பநிலையை மட்டுமே பொறுத்தது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that if we consider all electrons, their average velocity will be zero since their directions are random. The mathematical expression is (1/N)Σv_i = 0. | உரை கூறுகிறது அனைத்து எலக்ட்ரான்களையும் கருத்தில் கொண்டால், அவற்றின் திசைகள் சீரற்றதாக இருப்பதால் அவற்றின் சராசரி வேகம் பூஜ்யமாக இருக்கும். கணித வெளிப்பாடு (1/N)Σv_i = 0."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் E இல் ஒரு எலக்ட்ரானின் முடுக்கம் என்ன?",
+      "options": [
+        "a = eE/m",
+        "a = -eE/m",
+        "a = eE²/m",
+        "a = e²E/m"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the acceleration of an electron as a = -eE/m where -e is the charge and m is the mass of an electron. The negative sign indicates the electron accelerates opposite to the field direction. | உரை எலக்ட்ரானின் முடுக்கத்தை a = -eE/m என வழங்குகிறது, இங்கு -e என்பது மின்னூட்டம் மற்றும் m என்பது எலக்ட்ரானின் நிறை. எதிர்குறி எலக்ட்ரான் புல திசைக்கு எதிராக முடுக்கமடைகிறது என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடைசி மோதலுக்குப் பிறகு நேரம் t இல் i-வது எலக்ட்ரானின் வேகம் என்ன?",
+      "options": [
+        "V_i = v_i + (eE/m)t_i",
+        "V_i = v_i + (-eE/m)t_i",
+        "V_i = v_i - (eE/m)t_i",
+        "V_i = v_i × (eE/m)t_i"
+      ],
+      "correct": 1,
+      "explanation": "The text derives V_i = v_i + (-eE/m)t_i where v_i is the velocity immediately after the last collision and t_i is the time elapsed after the last collision. This includes the acceleration during time t_i. | உரை V_i = v_i + (-eE/m)t_i என பெறுகிறது, இங்கு v_i என்பது கடைசி மோதலுக்குப் பிறகு உடனடி வேகம் மற்றும் t_i என்பது கடைசி மோதலுக்குப் பிறகு கடந்த நேரம். இது t_i நேரத்தில் முடுக்கத்தை உள்ளடக்கியது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எலக்ட்ரான்களின் சராசரி வேகம் என்ன என்று அழைக்கப்படுகிறது மற்றும் அதன் சூத்திரம் என்ன?",
+      "options": [
+        "வெப்ப வேகம், v = sqrt(kT/m)",
+        "விரைவு வேகம், v_d = -(eE/m)τ",
+        "தப்பிப்பு வேகம், v = sqrt(2GM/R)",
+        "வட்டணை வேகம், v = sqrt(GM/r)"
+      ],
+      "correct": 1,
+      "explanation": "The text defines the average velocity as drift velocity v_d = -(eE/m)τ where τ is the relaxation time (average time between successive collisions). This is independent of time, which is a surprising result. | உரை சராசரி வேகத்தை விரைவு வேகம் v_d = -(eE/m)τ என வரையறுக்கிறது, இங்கு τ என்பது தளர்நேரம் (தொடர்ச்சியான மோதல்களுக்கு இடையே சராசரி நேரம்). இது நேரத்தைப் பொறுத்து சுயாதீனமானது, இது ஒரு ஆச்சரியமான முடிவு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எலக்ட்ரான்கள் நேரத்தைப் பொறுத்து சுயாதீனமான சராசரி வேகத்துடன் நகரும் நிகழ்வு என்ன அழைக்கப்படுகிறது?",
+      "options": [
+        "வெப்ப இயக்கம்",
+        "விரைவு",
+        "விரவல்",
+        "அதிர்வு"
+      ],
+      "correct": 1,
+      "explanation": "The text states that this last result is surprising and tells us that electrons move with an average velocity which is independent of time. This is the phenomenon of drift and the velocity is called drift velocity. | உரை கூறுகிறது இந்த கடைசி முடிவு ஆச்சரியமானது மற்றும் எலக்ட்ரான்கள் நேரத்தைப் பொறுத்து சுயாதீனமான சராசரி வேகத்துடன் நகர்கின்றன என்று நமக்கு கூறுகிறது. இது விரைவு என்ற நிகழ்வு மற்றும் வேகம் விரைவு வேகம் என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "விரைவு வேக பகுப்பாய்விலிருந்து பெறப்பட்ட மின்னோட்ட அடர்த்தி j இன் வெளிப்பாடு என்ன?",
+      "options": [
+        "j = (ne²τ/m)E",
+        "j = (neτ/m)E",
+        "j = (e²τ/m)E",
+        "j = (n²eτ/m)E"
+      ],
+      "correct": 0,
+      "explanation": "The text derives j = (ne²τ/m)E from the drift velocity analysis. Comparing this with Ohm's law j = σE gives the conductivity σ = ne²τ/m. | உரை விரைவு வேக பகுப்பாய்விலிருந்து j = (ne²τ/m)E என பெறுகிறது. இதை ஓமின் விதி j = σE உடன் ஒப்பிடுவது கடத்துதிறன் σ = ne²τ/m ஐ தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எலக்ட்ரான்களின் தொடர்ச்சியான மோதல்களுக்கு இடையே சராசரி நேரம் என்ன அழைக்கப்படுகிறது?",
+      "options": [
+        "மோதல் நேரம்",
+        "தளர்நேரம்",
+        "விரைவு நேரம்",
+        "கடத்து நேரம்"
+      ],
+      "correct": 1,
+      "explanation": "The text introduces τ (tau) as the average time between successive collisions, which is called the relaxation time. This is a key parameter in the drift velocity derivation. | உரை τ (டாவ்) ஐ தொடர்ச்சியான மோதல்களுக்கு இடையே சராசரி நேரம் என அறிமுகப்படுத்துகிறது, இது தளர்நேரம் என அழைக்கப்படுகிறது. இது விரைவு வேக பெறுபேற்றில் ஒரு முக்கிய அளவுரு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் E, எலக்ட்ரான் மின்னூட்டம் e, நிறை m, மற்றும் தளர்நேரம் τ ஆகியவற்றைப் பொறுத்து எலக்ட்ரான்களின் விரைவு வேகம் v_d இன் சூத்திரம் என்ன?",
+      "options": [
+        "v_d = (eE/m)τ",
+        "v_d = -(eE/m)τ",
+        "v_d = (eE/m)²τ",
+        "v_d = (e²E/m)τ"
+      ],
+      "correct": 1,
+      "explanation": "The text derives the drift velocity as v_d = -(eE/m)τ where the negative sign indicates that electrons drift in the direction opposite to the electric field E. | உரை விரைவு வேகத்தை v_d = -(eE/m)τ என பெறுகிறது, இங்கு எதிர்குறி எலக்ட்ரான்கள் மின்புலம் E க்கு எதிர் திசையில் விரைவடைகின்றன என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "விரைவு வேகம் நேரத்தைப் பொறுத்து சுயாதீனமானது என்ற முடிவு ஏன் ஆச்சரியமானதாக கருதப்படுகிறது?",
+      "options": [
+        "எலக்ட்ரான்கள் எங்கும் நகரவில்லை என்பதால்",
+        "எலக்ட்ரான்கள் முடுக்கமடைந்தாலும் நிலையான சராசரி வேகத்துடன் நகர்கின்றன என்பதால்",
+        "மின்புலம் பூஜ்யம் என்பதால்",
+        "மோதல்கள் நிகழவில்லை என்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states this last result is surprising because it tells us that electrons move with an average velocity which is independent of time, although electrons are accelerated. This is the phenomenon of drift. | உரை தெளிவாகக் கூறுகிறது இந்த கடைசி முடிவு ஆச்சரியமானது, ஏனெனில் எலக்ட்ரான்கள் முடுக்கமடைந்தாலும், அவை நேரத்தைப் பொறுத்து சுயாதீனமான சராசரி வேகத்துடன் நகர்கின்றன என்று நமக்கு கூறுகிறது. இது விரைவு என்ற நிகழ்வு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கொடுக்கப்பட்ட நேரத்தில் வெவ்வேறு எலக்ட்ரான்களுக்கு t_i நேரம் எவ்வாறு இருக்கும்?",
+      "options": [
+        "அனைத்து எலக்ட்ரான்களுக்கும் t_i τ க்கு சமமாக இருக்கும்",
+        "சில எலக்ட்ரான்களுக்கு t_i τ விட குறைவாகவும் சிலவற்றுக்கு τ விட அதிகமாகவும் இருக்கும்",
+        "அனைத்து எலக்ட்ரான்களுக்கும் t_i τ விட அதிகமாக இருக்கும்",
+        "அனைத்து எலக்ட்ரான்களுக்கும் t_i τ விட குறைவாக இருக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that at a given time, some electrons would have spent time more than τ and some less than τ. In other words, the time t_i will be less than τ for some and more than τ for others. | உரை விளக்குகிறது கொடுக்கப்பட்ட நேரத்தில், சில எலக்ட்ரான்கள் τ விட அதிக நேரம் செலவிட்டிருக்கும் மற்றும் சில τ விட குறைவான நேரம். வேறு வார்த்தைகளில், t_i நேரம் சிலவற்றுக்கு τ விட குறைவாகவும் மற்ற சிலவற்றுக்கு τ விட அதிகமாகவும் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "அனைத்து எலக்ட்ரான்களுக்கும் t_i இன் சராசரி மதிப்பு என்ன?",
+      "options": [
+        "பூஜ்யம்",
+        "τ (தளர்நேரம்)",
+        "2τ",
+        "τ/2"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the average value of t_i is τ, known as the relaxation time. This is because collisions occur at random times, and on average the time since the last collision equals the average time between collisions. | உரை கூறுகிறது t_i இன் சராசரி மதிப்பு τ, தளர்நேரம் என அறியப்படுகிறது. இது மோதல்கள் சீரற்ற நேரங்களில் நிகழ்கின்றன, மற்றும் சராசரியாக கடைசி மோதலிலிருந்து நேரம் மோதல்களுக்கு இடையே சராசரி நேரத்திற்கு சமம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "E க்கு செங்குத்தான ஒரு கடத்தியின் உள்ளே தளமான பகுதி A ஐக் கருதுக. விரைவு காரணமாக நேரம் Δt இல் இந்த பகுதியின் குறுக்கே செல்ல எலக்ட்ரான்கள் பயணிக்கும் தூரம் என்ன?",
+      "options": [
+        "|v_d|²Δt",
+        "|v_d|Δt",
+        "|v_d|/Δt",
+        "2|v_d|Δt"
+      ],
+      "correct": 1,
+      "explanation": "The text states that because of the drift, in an infinitesimal amount of time Δt, all electrons to the left of the area at distances up to |v_d|Δt would have crossed the area. This distance is simply drift velocity multiplied by time. | உரை கூறுகிறது விரைவு காரணமாக, முடிவில்லா நேரம் Δt இல், |v_d|Δt தூரம் வரை இடதுபுறத்தில் உள்ள அனைத்து எலக்ட்ரான்களும் பகுதியின் குறுக்கே கடந்திருக்கும். இந்த தூரம் விரைவு வேகம் நேரத்தால் பெருக்கப்பட்டதாகும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "n என்பது ஒரு அலகு கன அளவுக்கு உள்ள சுதந்திர எலக்ட்ரான்களின் எண்ணிக்கை என்றால், விரைவு காரணமாக நேரம் Δt இல் பகுதி A ஐ கடக்கும் எலக்ட்ரான்களின் எண்ணிக்கை என்ன?",
+      "options": [
+        "n|v_d|A",
+        "nΔt|v_d|A",
+        "n|v_d|²A",
+        "nA/|v_d|Δt"
+      ],
+      "correct": 1,
+      "explanation": "The text derives that there are nΔt|v_d|A such electrons that cross the area A in time Δt. This comes from multiplying the number density n by the volume swept out (|v_d|Δt × A). | உரை nΔt|v_d|A எலக்ட்ரான்கள் நேரம் Δt இல் பகுதி A ஐ கடக்கின்றன என பெறுகிறது. இது எண் அடர்த்தி n ஐ வருடப்பட்ட கன அளவால் (|v_d|Δt × A) பெருக்குவதிலிருந்து வருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எலக்ட்ரான் விரைவு காரணமாக நேரம் Δt இல் வலதுபுறத்திற்கு பகுதி A ஐ கடந்து செல்லும் மொத்த மின்னூட்டம் என்ன?",
+      "options": [
+        "+neA|v_d|Δt",
+        "-neA|v_d|Δt",
+        "+ne²A|v_d|Δt",
+        "-neA|v_d|²Δt"
+      ],
+      "correct": 1,
+      "explanation": "The text states that since each electron carries a charge -e, the total charge transported across area A to the right in time Δt is -neA|v_d|Δt. The negative sign indicates electrons carry negative charge. | உரை கூறுகிறது ஒவ்வொரு எலக்ட்ரானும் -e மின்னூட்டத்தை கொண்டிருப்பதால், நேரம் Δt இல் வலதுபுறத்திற்கு பகுதி A ஐ கடந்து செல்லும் மொத்த மின்னூட்டம் -neA|v_d|Δt. எதிர்குறி எலக்ட்ரான்கள் எதிர்மறை மின்னூட்டத்தை கொண்டிருக்கின்றன என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "n, e, A, மற்றும் விரைவு வேக அளவு |v_d| ஆகியவற்றைப் பொறுத்து மின்னோட்டம் I இன் வெளிப்பாடு என்ன?",
+      "options": [
+        "I = neA/|v_d|",
+        "I = neA|v_d|",
+        "I = n²eA|v_d|",
+        "I = neA|v_d|²"
+      ],
+      "correct": 1,
+      "explanation": "The text derives I = neA|v_d| from the charge transport analysis. This is obtained by equating the charge transported (-neA|v_d|Δt) to IΔt and solving for I. | உரை மின்னூட்ட போக்குவரத்து பகுப்பாய்விலிருந்து I = neA|v_d| என பெறுகிறது. இது கடத்தப்பட்ட மின்னூட்டத்தை (-neA|v_d|Δt) IΔt க்கு சமமாக்கி I க்கு தீர்வு காண்பதிலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "j = (ne²τ/m)E என்ற பெறுபேற்றை ஓமின் விதி j = σE உடன் ஒப்பிடும்போது கடத்துதிறன் σ இன் வெளிப்பாடு என்ன?",
+      "options": [
+        "σ = neτ/m",
+        "σ = ne²τ/m",
+        "σ = n²eτ/m",
+        "σ = ne²τ²/m"
+      ],
+      "correct": 1,
+      "explanation": "The text compares j = (ne²τ/m)E with Ohm's law j = σE and identifies σ = ne²τ/m. This shows conductivity depends on electron density, charge squared, relaxation time, and inversely on mass. | உரை j = (ne²τ/m)E ஐ ஓமின் விதி j = σE உடன் ஒப்பிட்டு σ = ne²τ/m என அடையாளம் காண்கிறது. இது கடத்துதிறன் எலக்ட்ரான் அடர்த்தி, மின்னூட்டம் வர்க்கம், தளர்நேரம் மற்றும் நிறைக்கு எதிர்விகிதத்தைப் பொறுத்தது என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கடத்தல் எலக்ட்ரான்களின் விரைவு வேகத்தின் திசை மின்புல திசையுடன் எவ்வாறு தொடர்புடையது?",
+      "options": [
+        "மின்புல திசையுடன் அதே திசையில்",
+        "மின்புல திசைக்கு எதிராக, அதிகரிக்கும் மின்னழுத்தத்தின் திசையில்",
+        "மின்புலத்திற்கு செங்குத்தான திசையில்",
+        "மின்புலத்திற்கு சுயாதீனமான சீரற்ற திசையில்"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the direction of drift velocity of conduction electrons is opposite to the electric field direction, i.e., electrons drift in the direction of increasing potential. | உரை தெளிவாகக் கூறுகிறது கடத்தல் எலக்ட்ரான்களின் விரைவு வேகத்தின் திசை மின்புல திசைக்கு எதிரானது, அதாவது எலக்ட்ரான்கள் அதிகரிக்கும் மின்னழுத்தத்தின் திசையில் விரைவடைகின்றன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்டம் I, எலக்ட்ரான் அடர்த்தி n, மின்னூட்டம் e, மற்றும் குறுக்குவெட்டுப் பரப்பளவு A ஆகியவற்றைப் பொறுத்து விரைவு வேகம் v_d இன் சூத்திரம் என்ன?",
+      "options": [
+        "v_d = I × n × e × A",
+        "v_d = I / (n × e × A)",
+        "v_d = n × e × A / I",
+        "v_d = I × n / (e × A)"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the drift speed formula as v_d = I / (neA). This is derived from the current expression I = neAv_d by solving for v_d. | உரை விரைவு வேக சூத்திரத்தை v_d = I / (neA) என வழங்குகிறது. இது மின்னோட்ட வெளிப்பாடு I = neAv_d இலிருந்து v_d க்கு தீர்வு காண்பதிலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.1 இல் செம்பு கம்பியின் குறுக்குவெட்டுப் பரப்பளவு என்ன?",
+      "options": [
+        "1.0 × 10⁻⁶ m²",
+        "1.0 × 10⁻⁷ m²",
+        "1.5 × 10⁻⁷ m²",
+        "2.0 × 10⁻⁷ m²"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the copper wire has a cross-sectional area of 1.0 × 10⁻⁷ m². This is one of the given parameters in the example. | உரை கூறுகிறது செம்பு கம்பியின் குறுக்குவெட்டுப் பரப்பளவு 1.0 × 10⁻⁷ m². இது உதாரணத்தில் கொடுக்கப்பட்ட அளவுருக்களில் ஒன்று."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.1 இல் செம்பு கம்பியின் வழியாக ஓடும் மின்னோட்டம் என்ன?",
+      "options": [
+        "1.0 A",
+        "1.5 A",
+        "2.0 A",
+        "3.0 A"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the copper wire is carrying a current of 1.5 A. This is the given current value in the example. | உரை கூறுகிறது செம்பு கம்பி 1.5 A மின்னோட்டத்தை கடத்துகிறது. இது உதாரணத்தில் கொடுக்கப்பட்ட மின்னோட்ட மதிப்பு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணத்தின்படி ஒவ்வொரு செம்பு அணுவும் எத்தனை கடத்தல் எலக்ட்ரான்களை பங்களிக்கிறது?",
+      "options": [
+        "பூஜ்யம் எலக்ட்ரான்கள்",
+        "கிட்டத்தட்ட ஒரு கடத்தல் எலக்ட்ரான்",
+        "இரண்டு கடத்தல் எலக்ட்ரான்கள்",
+        "நான்கு கடத்தல் எலக்ட்ரான்கள்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that each copper atom contributes roughly one conduction electron, which is reasonable from its valence electron count of one. | உரை கூறுகிறது ஒவ்வொரு செம்பு அணுவும் கிட்டத்தட்ட ஒரு கடத்தல் எலக்ட்ரானை பங்களிக்கிறது, இது அதன் ஒரு விளிம்பு எலக்ட்ரான் எண்ணிக்கையிலிருந்து நியாயமானது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணத்தில் கொடுக்கப்பட்ட செம்பின் அடர்த்தி என்ன?",
+      "options": [
+        "8.5 × 10³ kg/m³",
+        "9.0 × 10³ kg/m³",
+        "9.5 × 10³ kg/m³",
+        "10.0 × 10³ kg/m³"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the density of copper as 9.0 × 10³ kg/m³. This is one of the physical parameters used in the calculation. | உரை செம்பின் அடர்த்தியை 9.0 × 10³ kg/m³ என வழங்குகிறது. இது கணக்கீட்டில் பயன்படுத்தப்படும் இயற்பியல் அளவுருக்களில் ஒன்று."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணத்தில் கொடுக்கப்பட்ட செம்பின் அணு நிறை என்ன?",
+      "options": [
+        "63.0 u",
+        "63.5 u",
+        "64.0 u",
+        "65.0 u"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the atomic mass of copper as 63.5 u. This is used to calculate the number of atoms per unit volume. | உரை செம்பின் அணு நிறையை 63.5 u என வழங்குகிறது. இது ஒரு அலகு கன அளவுக்கு உள்ள அணுக்களின் எண்ணிக்கையை கணக்கிட பயன்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "செம்பில் கடத்தல் எலக்ட்ரான்களின் கணக்கிடப்பட்ட எண் அடர்த்தி n என்ன?",
+      "options": [
+        "8.5 × 10²⁷ m⁻³",
+        "8.5 × 10²⁸ m⁻³",
+        "8.5 × 10²⁹ m⁻³",
+        "8.5 × 10³⁰ m⁻³"
+      ],
+      "correct": 1,
+      "explanation": "The text calculates n = 8.5 × 10²⁸ m⁻³ using the density, atomic mass, and Avogadro's number. This is the number of conduction electrons per cubic meter. | உரை அடர்த்தி, அணு நிறை, மற்றும் அவகாத்ரோ எண்ணைப் பயன்படுத்தி n = 8.5 × 10²⁸ m⁻³ என கணக்கிடுகிறது. இது ஒரு கன மீட்டருக்கு உள்ள கடத்தல் எலக்ட்ரான்களின் எண்ணிக்கை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "செம்பு கம்பியில் கடத்தல் எலக்ட்ரான்களின் கணக்கிடப்பட்ட விரைவு வேகம் என்ன?",
+      "options": [
+        "1.1 × 10⁻² m/s",
+        "1.1 × 10⁻³ m/s",
+        "1.1 × 10⁻⁴ m/s",
+        "1.1 × 10⁻⁵ m/s"
+      ],
+      "correct": 1,
+      "explanation": "The text calculates the drift speed as v_d = 1.1 × 10⁻³ m/s = 1.1 mm/s. This is a very small speed, much less than typical everyday speeds. | உரை விரைவு வேகத்தை v_d = 1.1 × 10⁻³ m/s = 1.1 mm/s என கணக்கிடுகிறது. இது மிகச் சிறிய வேகம், பொதுவான தினசரி வேகங்களை விட மிகக் குறைவு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "விரைவு வேகம் சாதாரண வெப்பநிலைகளில் செம்பு அணுக்களின் வெப்ப வேகத்துடன் எவ்வாறு ஒப்பிடப்படுகிறது?",
+      "options": [
+        "விரைவு வேகம் வெப்ப வேகத்தின் சுமார் 10 மடங்கு",
+        "விரைவு வேகம் வெப்ப வேகத்திற்கு சுமார் சமம்",
+        "விரைவு வேகம் வெப்ப வேகத்தின் சுமார் 10⁻⁵ மடங்கு",
+        "விரைவு வேகம் வெப்ப வேகத்தின் சுமார் 10⁻¹¹ மடங்கு"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the drift speed of electrons is much smaller, about 10⁻⁵ times the typical thermal speed at ordinary temperatures. The thermal speed is about 2 × 10² m/s. | உரை கூறுகிறது எலக்ட்ரான்களின் விரைவு வேகம் மிகக் குறைவு, சாதாரண வெப்பநிலைகளில் வழக்கமான வெப்ப வேகத்தின் 10⁻⁵ மடங்கு. வெப்ப வேகம் சுமார் 2 × 10² m/s."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.2(a) இல், சிறிய எலக்ட்ரான் விரைவு வேகத்திற்கு மத்தியில் ஒரு சுற்று மூடப்படும்போது மின்னோட்டம் எவ்வாறு கிட்டத்தட்ட உடனடியாக நிறுவப்படுகிறது?",
+      "options": [
+        "எலக்ட்ரான்கள் ஒளியின் வேகத்தில் ஒரு முனையிலிருந்து மற்றொரு முனைக்கு பயணிக்கின்றன",
+        "மின்புலம் முழு சுற்றிலும் கிட்டத்தட்ட உடனடியாக நிறுவப்பட்டு ஒவ்வொரு புள்ளியிலும் உள்ளூர் எலக்ட்ரான் விரைவை ஏற்படுத்துகிறது",
+        "பேட்டரி கம்பிகள் வழியாக ஒரு சமிக்ஞையை அனுப்புகிறது",
+        "எலக்ட்ரான்கள் சுவிட்சில் திரண்டு பிறகு விரைந்து செல்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that electric field is established throughout the circuit almost instantly (with the speed of light) causing at every point a local electron drift. Establishment of current does not have to wait for electrons from one end travelling to the other end. | உரை விளக்குகிறது மின்புலம் முழு சுற்றிலும் கிட்டத்தட்ட உடனடியாக (ஒளியின் வேகத்துடன்) நிறுவப்படுகிறது, ஒவ்வொரு புள்ளியிலும் உள்ளூர் எலக்ட்ரான் விரைவை ஏற்படுத்துகிறது. மின்னோட்டத்தின் நிறுவப்பு ஒரு முனையிலிருந்து மற்றொரு முனைக்கு எலக்ட்ரான்கள் பயணிக்க காத்திருக்க வேண்டியதில்லை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.2(b) இன்படி, விசை முடுக்கத்தை ஏற்படுத்த வேண்டும்போது எலக்ட்ரான்கள் ஏன் நிலையான சராசரி விரைவு வேகத்தை பெறுகின்றன?",
+      "options": [
+        "எலக்ட்ரான்கள் உண்மையில் முடுக்கமடைவதில்லை",
+        "ஒவ்வொரு சுதந்திர எலக்ட்ரானும் நேர்மறை அயனியுடன் மோதும் வரை முடுக்கமடைந்து, விரைவு வேகத்தை இழந்து, மீண்டும் முடுக்கமடைகிறது",
+        "மின்புலம் எலக்ட்ரான்களை முடுக்கமடைய போதுமான வலுவாக இல்லை",
+        "எலக்ட்ரான்கள் நிறையற்றவை என்பதால் நிலையான வேகத்தில் நகர்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that each free electron does accelerate, increasing its drift speed until it collides with a positive ion of the metal. It loses its drift speed after collision but starts to accelerate again, only to suffer another collision, and so on. On average, electrons acquire only a drift speed. | உரை விளக்குகிறது ஒவ்வொரு சுதந்திர எலக்ட்ரானும் முடுக்கமடைகிறது, அது உலோகத்தின் நேர்மறை அயனியுடன் மோதும் வரை தனது விரைவு வேகத்தை அதிகரிக்கிறது. மோதலுக்குப் பிறகு அது தனது விரைவு வேகத்தை இழக்கிறது ஆனால் மீண்டும் முடுக்கமடையத் தொடங்குகிறது, மீண்டும் மற்றொரு மோதலை சந்திக்கிறது, இப்படி தொடர்கிறது. சராசரியாக, எலக்ட்ரான்கள் ஒரு விரைவு வேகத்தை மட்டுமே பெறுகின்றன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.2(c) இல், சிறிய எலக்ட்ரான் விரைவு வேகம் மற்றும் சிறிய எலக்ட்ரான் மின்னூட்டத்திற்கு மத்தியில் எவ்வாறு பெரிய மின்னோட்டத்தை பெற முடியும்?",
+      "options": [
+        "மிக உயர்ந்த மின்னழுத்த பேட்டரிகளை பயன்படுத்துவதால்",
+        "எலக்ட்ரான் எண் அடர்த்தி மிகப் பெரியது, சுமார் 10^29 m^-3",
+        "கம்பிகளை மிக மெல்லியதாக்குவதால்",
+        "கடத்தியை முழு பூஜ்யத்திற்கு குளிர்விப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "The text states simply that because the electron number density is enormous, approximately 10^29 m^-3. Even though each electron carries a small charge and moves slowly, the sheer number of electrons results in a large current. | உரை தெளிவாகக் கூறுகிறது எலக்ட்ரான் எண் அடர்த்தி மிகப் பெரியது, சுமார் 10^29 m^-3. ஒவ்வொரு எலக்ட்ரானும் சிறிய மின்னூட்டத்தை கொண்டிருந்தாலும் மற்றும் மெதுவாக நகர்ந்தாலும், எலக்ட்ரான்களின் பெரும் எண்ணிக்கை மிகப் பெரிய மின்னோட்டத்தை தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.2(d) இன்படி, எலக்ட்ரான்கள் ஒரு உலோகத்தில் குறைந்த மின்னழுத்தத்திலிருந்து அதிக மின்னழுத்தத்திற்கு விரைவடையும்போது, அது அனைத்து சுதந்திர எலக்ட்ரான்களும் ஒரே திசையில் நகர்கின்றன என்பதா?",
+      "options": [
+        "ஆம், அனைத்து சுதந்திர எலக்ட்ரான்களும் விரைவின் திசையில் நகர்கின்றன",
+        "இல்லை, விரைவு வேகம் எலக்ட்ரான்களின் பெரிய சீரற்ற வேகங்களின் மீது மேல் அடுக்கப்பட்டுள்ளது",
+        "பாதி எலக்ட்ரான்கள் மட்டுமே விரைவு திசையில் நகர்கின்றன",
+        "எலக்ட்ரான்கள் சீரற்ற முறையில் நகர்ந்து விரைவடைவதில்லை"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states 'By no means. The drift velocity is superposed over the large random velocities of electrons.' This means electrons still have their random thermal motion, and the drift is a small average effect on top of this random motion. | உரை தெளிவாகக் கூறுகிறது 'எந்த வகையிலும் இல்லை. விரைவு வேகம் எலக்ட்ரான்களின் பெரிய சீரற்ற வேகங்களின் மீது மேல் அடுக்கப்பட்டுள்ளது.' இது எலக்ட்ரான்கள் இன்னும் தங்கள் சீரற்ற வெப்ப இயக்கத்தைக் கொண்டிருக்கின்றன, மற்றும் விரைவு இந்த சீரற்ற இயக்கத்தின் மீது ஒரு சிறிய சராசரி விளைவு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.2(e) இல், மின்புலம் இல்லாதபோது தொடர்ச்சியான மோதல்களுக்கு இடையில் எலக்ட்ரான்களின் பாதைகள் எவ்வாறு இருக்கின்றன?",
+      "options": [
+        "வளைந்த பாதைகள்",
+        "நேர்க்கோடுகள்",
+        "வட்ட பாதைகள்",
+        "ஜிக்ஜாக் பாதைகள்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in the absence of electric field, the paths are straight lines. In the presence of electric field, the paths are in general curved. | உரை கூறுகிறது மின்புலம் இல்லாதபோது, பாதைகள் நேர்க்கோடுகள். மின்புலம் இருக்கும்போது, பாதைகள் பொதுவாக வளைந்தவை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உதாரணம் 3.2(e) இல், மின்புலம் இருக்கும்போது தொடர்ச்சியான மோதல்களுக்கு இடையில் எலக்ட்ரான்களின் பாதைகள் எவ்வாறு இருக்கின்றன?",
+      "options": [
+        "நேர்க்கோடுகள்",
+        "வளைந்த பாதைகள்",
+        "வட்ட பாதைகள்",
+        "ஜிக்ஜாக் பாதைகள்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in the presence of electric field, the paths are in general curved. This is because the electric field causes acceleration between collisions, making the path parabolic rather than straight. | உரை கூறுகிறது மின்புலம் இருக்கும்போது, பாதைகள் பொதுவாக வளைந்தவை. இது மின்புலம் மோதல்களுக்கு இடையில் முடுக்கத்தை ஏற்படுத்துவதால், பாதை நேர்க்கோட்டிற்கு பதிலாக பரவளையமாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "பிரிவு 3.5.1 இல் நகர்திறன் என்றால் என்ன?",
+      "options": [
+        "ஒரு அலகு மின்னோட்டத்திற்கு உள்ள விரைவு வேகத்தின் அளவு",
+        "ஒரு அலகு மின்புலத்திற்கு உள்ள விரைவு வேகத்தின் அளவு",
+        "ஒரு அலகு விரைவு வேகத்திற்கு உள்ள மின்புலத்தின் அளவு",
+        "ஒரு அலகு மின்புலத்திற்கு உள்ள மின்னோட்டத்தின் அளவு"
+      ],
+      "correct": 1,
+      "explanation": "The text defines mobility μ as the magnitude of the drift velocity per unit electric field: μ = |v_d|/E. This measures how easily charge carriers move in response to an electric field. | உரை நகர்திறன் μ ஐ ஒரு அலகு மின்புலத்திற்கு உள்ள விரைவு வேகத்தின் அளவு என வரையறுக்கிறது: μ = |v_d|/E. இது மின்னூட்டம் கடத்திகள் ஒரு மின்புலத்திற்கு எவ்வளவு எளிதாக நகர்கின்றன என்பதை அளவிடுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நகர்திறனின் SI அலகு என்ன?",
+      "options": [
+        "m/s",
+        "m²/Vs",
+        "V/m",
+        "A/m²"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the SI unit of mobility is m²/Vs and is 10⁴ of the mobility in practical units (cm²/Vs). This unit comes from dividing velocity (m/s) by electric field (V/m). | உரை கூறுகிறது நகர்திறனின் SI அலகு m²/Vs மற்றும் நடைமுறை அலகுகளில் (cm²/Vs) நகர்திறனின் 10⁴ மடங்கு. இந்த அலகு வேகத்தை (m/s) மின்புலத்தால் (V/m) வகுப்பதிலிருந்து வருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "விரைவு வேக சமன்பாட்டிலிருந்து, எலக்ட்ரான் மின்னூட்டம் e, நிறை m, மற்றும் தளர்நேரம் τ ஆகியவற்றைப் பொறுத்து நகர்திறன் μ இன் வெளிப்பாடு என்ன?",
+      "options": [
+        "μ = m/(eτ)",
+        "μ = eτ/m",
+        "μ = e²τ/m",
+        "μ = e/(mτ)"
+      ],
+      "correct": 1,
+      "explanation": "The text derives μ = eτ/m from the drift velocity equation v_d = τeE/m. Since μ = |v_d|/E, substituting gives μ = (τeE/m)/E = eτ/m. | உரை விரைவு வேக சமன்பாடு v_d = τeE/m இலிருந்து μ = eτ/m என பெறுகிறது. μ = |v_d|/E என்பதால், மாற்றிப் போடுவது μ = (τeE/m)/E = eτ/m ஐ தருகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உரையின்படி நகர்திறனின் குறி என்ன?",
+      "options": [
+        "எதிர்மறை",
+        "நேர்மறை",
+        "பூஜ்யம்",
+        "பொருளைப் பொறுத்தது"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that 'Mobility is positive.' This is because mobility is defined as the magnitude of drift velocity per unit electric field, and magnitudes are always positive. | உரை தெளிவாகக் கூறுகிறது 'நகர்திறன் நேர்மறை.' இது நகர்திறன் ஒரு அலகு மின்புலத்திற்கு உள்ள விரைவு வேகத்தின் அளவு என வரையறுக்கப்படுவதால், மற்றும் அளவுகள் எப்போதும் நேர்மறை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உரையில் குறிப்பிடப்பட்டுள்ள ஓமின் விதியிலிருந்து முதல் வகை விலகல் என்ன?",
+      "options": [
+        "V, I வர்க்கத்திற்கு நேர்விகிதத்தில் ஆகிறது",
+        "V, I க்கு நேர்விகிதத்தில் இருப்பதை நிறுத்துகிறது (நேர்க்கோட்டு அல்லா உறவு)",
+        "V, I க்கு எதிர் விகிதத்தில் ஆகிறது",
+        "V, I லிருந்து சுயாதீனமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The text states the first deviation as (a) V ceases to be proportional to I, shown in Fig. 3.5 where the solid line deviates from the dashed linear Ohm's law line. | உரை முதல் விலகலை (a) V, I க்கு நேர்விகிதத்தில் இருப்பதை நிறுத்துகிறது எனக் கூறுகிறது, படம் 3.5 இல் திட கோடு ஓமின் விதியின் நேர்க்கோடு விலகுவதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "படம் 3.5 ஒரு நல்ல கடத்திக்கான V-I உறவைப் பற்றி என்ன காட்டுகிறது?",
+      "options": [
+        "ஓமின் விதியைப் பின்பற்றி சரியான நேர்க்கோட்டு உறவு",
+        "தட்டைக் கோடு நேர்க்கோட்டு ஓமின் விதியை குறிக்கிறது, திட கோடு ஒரு நல்ல கடத்திக்கு விலகலைக் காட்டுகிறது",
+        "V இன் முழு சுயாதீனத்தை I இலிருந்து",
+        "V மற்றும் I இடையே ஒரு வட்ட உறவு"
+      ],
+      "correct": 1,
+      "explanation": "The text describes Fig. 3.5 as showing the dashed line representing the linear Ohm's law, while the solid line is the voltage V versus current I for a good conductor, showing deviation from linearity. | உரை படம் 3.5 ஐ நேர்க்கோடு ஓமின் விதியை குறிக்கும் தட்டைக் கோடு மற்றும் திட கோடு ஒரு நல்ல கடத்திக்கான V மற்றும் I க்கு இடையே உள்ள உறவு, நேர்விகிதத்திலிருந்து விலகுவதைக் காட்டுகிறது என விவரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உரையில் குறிப்பிடப்பட்டுள்ள ஓமின் விதியிலிருந்து இரண்டாவது வகை விலகல் என்ன?",
+      "options": [
+        "I பூஜ்யமாக இருக்கும்போது V பூஜ்யமாகிறது",
+        "V மற்றும் I இடையே உள்ள உறவு V இன் குறியைப் பொறுத்தது (சமச்சீரற்ற நடத்தை)",
+        "V மற்றும் I ஒன்றுக்கொன்று நேர்விகிதத்தில் ஆகின்றன",
+        "மின்தடை முடிவிலியாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The text states the second deviation as (b) The relation between V and I depends on the sign of V. Reversing V while keeping magnitude fixed does not produce current of same magnitude in opposite direction. This happens in a diode. | உரை இரண்டாவது விலகலை (b) V மற்றும் I இடையே உள்ள உறவு V இன் குறியைப் பொறுத்தது எனக் கூறுகிறது. அளவை நிலையாக வைத்து V ஐ தலைகீழாக்குவது எதிர் திசையில் அதே அளவு மின்னோட்டத்தை தருவதில்லை. இது ஒரு டையோடில் நிகழ்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "V-I உறவு V இன் குறியைப் பொறுத்து இருக்கும் ஒரு சாதனத்திற்கு உதாரணமாக எது கொடுக்கப்பட்டுள்ளது?",
+      "options": [
+        "மின்தடையானி",
+        "டையோடு",
+        "கொள்ளகி",
+        "மின்சுற்று"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly mentions that this happens in a diode which will be studied in Chapter 14. Figure 3.6 shows the characteristic curve of a diode with different scales for negative and positive values. | உரை தெளிவாகக் கூறுகிறது இது ஒரு டையோடில் நிகழ்கிறது, அது அத்தியாயம் 14 இல் படிக்கப்படும். படம் 3.6 எதிர்மறை மற்றும் நேர்மறை மதிப்புகளுக்கு வெவ்வேறு அளவுகளுடன் ஒரு டையோடின் பண்புக் கோட்டைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "படம் 3.6 இல் டையோடு பண்புக் கோட்டிற்கு பயன்படுத்தப்படும் அளவுகளில் என்ன சிறப்பு உள்ளது?",
+      "options": [
+        "எதிர்மறை மற்றும் நேர்மறை மதிப்புகளுக்கு அதே அளவுகள்",
+        "மின்னழுத்தம் மற்றும் மின்னோட்டத்தின் எதிர்மறை மற்றும் நேர்மறை மதிப்புகளுக்கு வெவ்வேறு அளவுகள்",
+        "பதின்ம அளவு மட்டுமே",
+        "நேர்மறை மதிப்புகளுக்கு மட்டுமே நேர்க்கோட்டு அளவு"
+      ],
+      "correct": 1,
+      "explanation": "The text caption for Fig. 3.6 explicitly states 'Note the different scales for negative and positive values of the voltage and current.' This is important for understanding diode behavior. | உரை படம் 3.6 இன் தலைப்பு தெளிவாகக் கூறுகிறது 'மின்னழுத்தம் மற்றும் மின்னோட்டத்தின் எதிர்மறை மற்றும் நேர்மறை மதிப்புகளுக்கு வெவ்வேறு அளவுகளைக் கவனிக்கவும்.' இது டையோடு நடத்தையைப் புரிந்துகொள்ள முக்கியம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உரையில் குறிப்பிடப்பட்டுள்ள ஓமின் விதியிலிருந்து மூன்றாவது வகை விலகல் என்ன?",
+      "options": [
+        "V மற்றும் I எப்போதும் நேர்விகிதத்தில் உள்ளன",
+        "V மற்றும் I இடையே உள்ள உறவு தனித்துவமற்றது (அதே மின்னோட்டம் I க்கு V இன் ஒன்றுக்கும் மேற்பட்ட மதிப்பு)",
+        "V அனைத்து I மதிப்புகளுக்கும் நிலையானதாக இருக்கிறது",
+        "V இன் அனைத்து மதிப்புகளுக்கும் I பூஜ்யமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The text states the third deviation as (c) The relation between V and I is non-unique, meaning there is more than one value of V for the same current I. This is shown in Fig. 3.7 for GaAs. | உரை மூன்றாவது விலகலை (c) V மற்றும் I இடையே உள்ள உறவு தனித்துவமற்றது, அதாவது அதே மின்னோட்டம் I க்கு V இன் ஒன்றுக்கும் மேற்பட்ட மதிப்பு உள்ளது எனக் கூறுகிறது. இது படம் 3.7 இல் GaAs க்கு காட்டப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "தனித்துவமற்ற V-I உறவைக் காட்டும் ஒரு பொருளுக்கு உதாரணமாக எது கொடுக்கப்பட்டுள்ளது?",
+      "options": [
+        "செம்பு",
+        "சிலிகான்",
+        "காலியம் ஆர்சனைட் (GaAs)",
+        "ஜெர்மேனியம்"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that 'A material exhibiting such behaviour is GaAs' (Gallium Arsenide). Figure 3.7 shows the variation of current versus voltage for GaAs with a negative resistance region. | உரை தெளிவாகக் கூறுகிறது 'இத்தகைய நடத்தையைக் காட்டும் ஒரு பொருள் GaAs' (காலியம் ஆர்சனைட்). படம் 3.7 GaAs க்கான மின்னோட்டம் மற்றும் மின்னழுத்தத்தின் மாறுபாட்டை எதிர்மறை மின்தடை பகுதியுடன் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "படம் 3.7 GaAs க்காக என்ன காட்டுகிறது?",
+      "options": [
+        "ஒரு நேர்க்கோட்டு V-I உறவு",
+        "ஒரு நேர்க்கோட்டு அல்லா பகுதி மற்றும் ஒரு எதிர்மறை மின்தடை பகுதி",
+        "மின்னழுத்தத்தைப் பொறுத்து நிலையான மின்னோட்டம்",
+        "ஒரு சரியான ஓமிய நடத்தை"
+      ],
+      "correct": 1,
+      "explanation": "The text describes Fig. 3.7 as showing variation of current versus voltage for GaAs with both a non-linear region and a negative resistance region indicated. This demonstrates the non-unique V-I relationship. | உரை படம் 3.7 ஐ GaAs க்கான மின்னோட்டம் மற்றும் மின்னழுத்தத்தின் மாறுபாட்டை நேர்க்கோட்டு அல்லா பகுதி மற்றும் எதிர்மறை மின்தடை பகுதி இரண்டும் குறிக்கப்பட்டு காட்டுகிறது என விவரிக்கிறது. இது தனித்துவமற்ற V-I உறவைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "பொருட்கள் அவற்றின் மின்தடையியல்புகளின் அடிப்படையில் எவ்வாறு வகைப்படுத்தப்படுகின்றன?",
+      "options": [
+        "கடத்திகள் மற்றும் கடத்தாப் பொருட்கள் மட்டுமே",
+        "கடத்திகள், குறைகடத்திகள், மற்றும் கடத்தாப் பொருட்கள் அவற்றின் மதிப்புகளின் அதிகரிக்கும் வரிசையில்",
+        "அவற்றின் வேதியியல் கூறுருவின் அடிப்படையில் மட்டுமே",
+        "அவற்றின் நிறம் மற்றும் தோற்றத்தின் அடிப்படையில்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that materials are classified as conductors, semiconductors and insulators depending on their resistivities, in an increasing order of their values. This is the standard classification in electronics. | உரை பொருட்கள் அவற்றின் மின்தடையியல்புகளைப் பொறுத்து கடத்திகள், குறைகடத்திகள் மற்றும் கடத்தாப் பொருட்கள் என வகைப்படுத்தப்படுகின்றன, அவற்றின் மதிப்புகளின் அதிகரிக்கும் வரிசையில். இது மின்னணுவியலில் தரநிலை வகைப்பாடு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உலோகங்களுக்கான மின்தடையியல்பின் வரம்பு என்ன?",
+      "options": [
+        "10^-18 முதல் 10^-16 ஓம் மீட்டர்",
+        "10^-8 முதல் 10^-6 ஓம் மீட்டர்",
+        "10^-6 முதல் 10^-4 ஓம் மீட்டர்",
+        "10^-4 முதல் 10^-2 ஓம் மீட்டர்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that metals have low resistivities in the range of 10^-8 ohm meter to 10^-6 ohm meter. This is the lowest resistivity range among the three classes of materials. | உரை கூறுகிறது உலோகங்கள் 10^-8 ஓம் மீட்டர் முதல் 10^-6 ஓம் மீட்டர் வரையிலான குறைந்த மின்தடையியல்புகளைக் கொண்டுள்ளன. இது மூன்று வகை பொருட்களிலும் குறைந்த மின்தடையியல்பு வரம்பு."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரு கடத்தியின் குறிப்பிட்ட பகுதியின் வழியாக மின்னோட்டம் என்றால் என்ன?",
+      "options": [
+        "கடத்தியில் சேமிக்கப்பட்ட மொத்த மின்னூட்டம்",
+        "அந்தப் பகுதியின் வழியாக ஒரு நேர அலகுக்குக் கடந்து செல்லும் நிகர மின்னூட்டம்",
+        "கடத்தியின் முனைகளுக்கு இடையேயான மின்னழுத்த வேறுபாடு",
+        "கடத்தி பொருளின் மின்தடை"
+      ],
+      "correct": 1,
+      "explanation": "According to the text, current through a given area of a conductor is defined as the net charge passing per unit time through that area. | உரையின்படி, ஒரு கடத்தியின் குறிப்பிட்ட பகுதியின் வழியாக மின்னோட்டம் என்பது அந்தப் பகுதியின் வழியாக ஒரு நேர அலகுக்குக் கடந்து செல்லும் நிகர மின்னூட்டம் என வரையறுக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னியக்க விசை (emf) என்பது என்னைக் குறிக்கிறது?",
+      "options": [
+        "மின்னூட்டங்களின் மீது செயல்படும் ஒரு இயந்திர விசை",
+        "திறந்த சுற்றில் மூலத்தின் இரு முனைகளுக்கு இடையேயான மின்னழுத்த வேறுபாடு",
+        "வெளிச் சுற்றின் மின்தடை",
+        "சுற்றின் வழியாகப் பாயும் மின்னோட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that emf is the work done per unit charge by the source in taking charge from lower to higher potential energy. It is not a force but the voltage difference between the two terminals of a source in open circuit. | உரையின்படி, emf என்பது மின்னூட்டத்தைக் குறைந்த மின்னழுத்தத்திலிருந்து அதிக மின்னழுத்தத்திற்கு மாற்றுவதற்கான மூலத்தின் ஒரு அலகு மின்னூட்டத்திற்கான வேலை. இது ஒரு விசை அல்ல, மாறாக திறந்த சுற்றில் மூலத்தின் இரு முனைகளுக்கு இடையேயான மின்னழுத்த வேறுபாடு ஆகும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஓமின் விதியின்படி மின்னழுத்தம் V மற்றும் மின்னோட்டம் I-க்கு இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "V என்பது I-க்கு எதிர் விகிதத்தில் உள்ளது",
+        "V என்பது I-க்கு நேர் விகிதத்தில் உள்ளது, விகித மாறிலி R",
+        "V = I^2 * R",
+        "V என்பது I-ல் இருந்து சுதந்திரமானது"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law states that the electric current I flowing through a substance is proportional to the voltage V across its ends, expressed as V = R * I, where R is the resistance. | ஓமின் விதி கூறுகிறது என்றால், ஒரு பொருளின் வழியாகப் பாயும் மின்னோட்டம் I அதன் முனைகளுக்கு இடையே உள்ள மின்னழுத்தம் V-க்கு நேர விகிதத்தில் இருக்கும். இது V = R * I என வெளிப்படுத்தப்படுகிறது, இங்கு R என்பது மின்தடை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடையின் SI அலகு என்ன?",
+      "options": [
+        "வோல்ட்/ஆம்பியர்",
+        "ஆம்பியர்/வோல்ட்",
+        "வாட்/ஆம்பியர்",
+        "ஜூல்/கூலம்ப்"
+      ],
+      "correct": 0,
+      "explanation": "The text states that the unit of resistance is ohm, and 1 ohm = 1 V A^-1, which is volt per ampere. | உரையின்படி, மின்தடையின் அலகு ஓம் ஆகும், மேலும் 1 ஓம் = 1 V A^-1, அதாவது வோல்ட்/ஆம்பியர் ஆகும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "ஒரு கடத்தியின் மின்தடை R அதன் நீளம் l மற்றும் குறுக்குப் பரப்பளவு A-வை எவ்வாறு சார்ந்திருக்கிறது?",
+      "options": [
+        "R என்பது A-க்கு நேர் விகிதத்திலும் l-க்கு எதிர் விகிதத்திலும் உள்ளது",
+        "R என்பது l-க்கு நேர் விகிதத்திலும் A-க்கு எதிர் விகிதத்திலும் உள்ளது",
+        "R என்பது l மற்றும் A இரண்டுக்கும் நேர் விகிதத்தில் உள்ளது",
+        "R என்பது l மற்றும் A இரண்டிலிருந்தும் சுதந்திரமானது"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the relation R = rho * l / A, which shows that resistance is directly proportional to length l and inversely proportional to cross-sectional area A. | உரை R = rho * l / A என்ற தொடர்பைத் தருகிறது, இது மின்தடை நீளம் l-க்கு நேர் விகிதத்திலும், குறுக்குப் பரப்பளவு A-க்கு எதிர் விகிதத்திலும் இருக்கும் என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "உலோகங்களின் மின்தடையுடைமை வரம்பு என்ன?",
+      "options": [
+        "10^-18 முதல் 10^-16 ஓம் மீ",
+        "10^-8 முதல் 10^-6 ஓம் மீ",
+        "10^14 முதல் 10^16 ஓம் மீ",
+        "10^22 முதல் 10^24 ஓம் மீ"
+      ],
+      "correct": 1,
+      "explanation": "According to the text, metals have low resistivity in the range of 10^-8 ohm m to 10^-6 ohm m. | உரையின்படி, உலோகங்களின் குறைந்த மின்தடையுடைமை 10^-8 ஓம் மீ முதல் 10^-6 ஓம் மீ வரையிலான வரம்பில் உள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "காப்புகளின் மின்தடையுடைமை உலோகங்களை விட எவ்வளவு மடங்கு அதிகம்?",
+      "options": [
+        "10^2 முதல் 10^4 மடங்கு",
+        "10^10 முதல் 10^12 மடங்கு",
+        "10^22 முதல் 10^24 மடங்கு",
+        "10^30 முதல் 10^32 மடங்கு"
+      ],
+      "correct": 2,
+      "explanation": "The text states that insulators like glass and rubber have 10^22 to 10^24 times greater resistivity than metals. | உரையின்படி, கண்ணாடி மற்றும் ரப்பர் போன்ற காப்புகள் உலோகங்களை விட 10^22 முதல் 10^24 மடங்கு அதிக மின்தடையுடைமை கொண்டவை."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்ட அடர்த்தி j-க்கான சூத்திரம் எண் அடர்த்தி n, மின்னூட்டம் q, மற்றும் இழுவை வேகம் vd-ஐப் பயன்படுத்தி என்ன?",
+      "options": [
+        "j = n / (q * vd)",
+        "j = n * q * vd",
+        "j = n * q / vd",
+        "j = q * vd / n"
+      ],
+      "correct": 1,
+      "explanation": "The text defines current density j as j = n * q * vd, where n is the number density of charge carriers, q is the charge of each carrier, and vd is the drift velocity. | உரை j = n * q * vd என வரையறுக்கிறது, இங்கு n என்பது மின்னூட்டம் கொண்டு செல்பவர்களின் எண் அடர்த்தி, q என்பது ஒவ்வொரு கொண்டு செல்பவரின் மின்னூட்டம், vd என்பது இழுவை வேகம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எலக்ட்ரான்களுக்கு மின்னோட்ட அடர்த்தி சூத்திரத்தில் q-ன் மதிப்பு என்ன?",
+      "options": [
+        "q = +e",
+        "q = -e",
+        "q = 0",
+        "q = 2e"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that for electrons, q = -e, where e is the elementary charge. | உரை தெளிவாகக் கூறுகிறது எலக்ட்ரான்களுக்கு q = -e, இங்கு e என்பது அடிப்படை மின்னூட்டம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலம் E, மின்னூட்டம் e, நிறை m, மற்றும் தளர்வு நேரம் tau-ஐப் பயன்படுத்தி எலக்ட்ரான்களின் இழுவை வேகம் vd-க்கான வெளிப்பாடு என்ன?",
+      "options": [
+        "vd = e * E * tau / m",
+        "vd = m * E / (e * tau)",
+        "vd = e * tau / (m * E)",
+        "vd = m * tau / (e * E)"
+      ],
+      "correct": 0,
+      "explanation": "The text derives that vd = a * tau = e * E * tau / m, where a is the acceleration of the electron. | உரை vd = a * tau = e * E * tau / m என்று வழிநடத்துகிறது, இங்கு a என்பது எலக்ட்ரானின் முடுக்கம்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எலக்ட்ரான் நிறை m, எண் அடர்த்தி n, மின்னூட்டம் e, மற்றும் தளர்வு நேரம் tau-ஐப் பயன்படுத்தி மின்தடையுடைமை rho-க்கான சூத்திரம் என்ன?",
+      "options": [
+        "rho = n * e^2 * tau / m",
+        "rho = m / (n * e^2 * tau)",
+        "rho = m * n * e^2 * tau",
+        "rho = e^2 * tau / (m * n)"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the relation rho = m / (n * e^2 * tau), showing that resistivity depends on the mass of electrons, number density, charge, and relaxation time. | உரை rho = m / (n * e^2 * tau) என்ற தொடர்பைத் தருகிறது, இது மின்தடையுடைமை எலக்ட்ரான்களின் நிறை, எண் அடர்த்தி, மின்னூட்டம் மற்றும் தளர்வு நேரத்தைப் பொறுத்தது என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "பின்வருவனவற்றில் ஓமின் விதி தோல்வியடையாத நிலை எது?",
+      "options": [
+        "V என்பது I-ல் நேரியல் அல்லாத வகையில் சார்ந்திருக்கும்",
+        "V மற்றும் I-க்கு இடையேயான தொடர்பு V-ன் குறியைப் பொறுத்தது",
+        "V மற்றும் I-க்கு இடையேயான தொடர்பு ஒரே மதிப்பற்றது",
+        "V என்பது I-க்கு நேர் விகிதத்தில் உள்ளது, மாறிலி R உடன்"
+      ],
+      "correct": 3,
+      "explanation": "The text states three conditions where Ohm's law fails: (a) V depends on I non-linearly, (b) the relation depends on the sign of V, and (c) the relation is non-unique. Option D describes Ohm's law itself, not a failure condition. | உரை ஓமின் விதி தோல்வியடையும் மூன்று நிபந்தனைகளைக் கூறுகிறது: (a) V என்பது I-ல் நேரியல் அல்லாத வகையில் சார்ந்திருக்கும், (b) V மற்றும் I-க்கு இடையேயான தொடர்பு V-ன் குறியைப் பொறுத்தது, (c) தொடர்பு ஒரே மதிப்பற்றது. விருப்பம் D ஓமின் விதியையே விவரிக்கிறது, தோல்வி நிபந்தனை அல்ல."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கிர்ச்சாஃபின் கூட்டு விதி எந்த கூட்டத்திலும் மின்னோட்டங்களைப் பற்றி என்ன கூறுகிறது?",
+      "options": [
+        "எந்த கூட்டத்திலும் அனைத்து மின்னோட்டங்களின் கூட்டுத்தொகை எப்போதும் பூஜ்ஜியம்",
+        "உள்ளே நுழையும் மின்னோட்டங்களின் கூட்டுத்தொகை வெளியேறும் மின்னோட்டங்களின் கூட்டுத்தொகைக்கு சமம்",
+        "மின்தடையைப் பொருட்படுத்தாமல் ஒவ்வொரு கூட்டத்திலும் மின்னோட்டம் சமமாகப் பிரிகிறது",
+        "சமமான மின்தடைகள் உள்ள கூட்டங்களில் மட்டுமே மின்னோட்டம் பாதுகாக்கப்படுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Kirchhoff's Junction Rule states that at any junction of circuit elements, the sum of currents entering the junction must equal the sum of currents leaving it. This is based on conservation of charge. | கிர்ச்சாஃபின் கூட்டு விதி கூறுகிறது என்றால், சுற்று கூறுகளின் எந்த கூட்டத்திலும், கூட்டத்திற்குள் நுழையும் மின்னோட்டங்களின் கூட்டுத்தொகை அதிலிருந்து வெளியேறும் மின்னோட்டங்களின் கூட்டுத்தொகைக்கு சமமாக இருக்க வேண்டும். இது மின்னூட்டம் பாதுகாப்பின் அடிப்படையில் அமைந்துள்ளது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கிர்ச்சாஃபின் வளைய விதியின்படி எந்தவொரு மூடிய வளையத்திலும் மின்னழுத்த மாற்றங்களின் இயற்கணிதக் கூட்டுத்தொகை என்ன?",
+      "options": [
+        "வளையத்தில் உள்ள மொத்த மின்தடைக்கு சமம்",
+        "வளையத்தில் உள்ள மொத்த மின்னோட்டத்திற்கு சமம்",
+        "பூஜ்ஜியம்",
+        "வளையத்தில் உள்ள மின்கலத்தின் emf-க்கு சமம்"
+      ],
+      "correct": 2,
+      "explanation": "Kirchhoff's Loop Rule states that the algebraic sum of changes in potential around any closed loop involving resistors and cells must be zero. | கிர்ச்சாஃபின் வளைய விதி கூறுகிறது என்றால், மின்தடைகள் மற்றும் மின்கலங்களைக் கொண்ட எந்தவொரு மூடிய வளையத்திலும் மின்னழுத்த மாற்றங்களின் இயற்கணிதக் கூட்டுத்தொகை பூஜ்ஜியமாக இருக்க வேண்டும்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "R1, R2, R3, R4 மின்தடைகள் கொண்ட வீட்ஸ்டோன் பாலத்தின் பூஜ்ஜி-புள்ளி சமநிலை நிபந்தனை என்ன?",
+      "options": [
+        "R1 + R2 = R3 + R4",
+        "R1 * R4 = R2 * R3",
+        "R1 / R2 = R3 / R4",
+        "R1 * R2 = R3 * R4"
+      ],
+      "correct": 2,
+      "explanation": "The Wheatstone bridge null-point condition is given by R1/R2 = R3/R4. This allows determination of an unknown resistance when the other three are known. | வீட்ஸ்டோன் பாலத்தின் பூஜ்ஜி-புள்ளி நிலை R1/R2 = R3/R4 என்று கொடுக்கப்பட்டுள்ளது. மற்ற மூன்று மின்தடைகள் தெரிந்திருக்கும்போது ஒரு அறியப்படாத மின்தடையைக் கண்டறிய இது உதவுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்னோட்டம் ஒரு திசையனா அல்லது அடிப்படை அளவா, மேலும் ஏன்?",
+      "options": [
+        "திசையன், ஏனெனில் அதற்கு அளவும் திசையும் உள்ளன",
+        "அடிப்படை அளவு, ஏனெனில் அது மின்னோட்ட அடர்த்தி மற்றும் பரப்பளவு திசையன்களின் அடிப்படைப் பெருக்கற்பலனாக வரையறுக்கப்படுகிறது",
+        "திசையன், ஏனெனில் மின்னோட்டங்கள் திசைக் கூட்டல் விதிகளைப் பின்பற்றுகின்றன",
+        "அடிப்படை அளவு, ஏனெனில் அதற்கு எந்தத் தொடர்புடைய திசையும் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "Current is a scalar quantity. Although represented with an arrow, currents do not obey the law of vector addition. The current I through an area is given by the scalar product I = j · ΔS where j and ΔS are vectors. | மின்னோட்டம் ஒரு அடிப்படை அளவு. அம்புக்குறியால் குறிக்கப்பட்டாலும், மின்னோட்டங்கள் திசைக் கூட்டல் விதிகளைப் பின்பற்றாது. ஒரு பகுதியின் வழியான மின்னோட்டம் I = j · ΔS என்ற அடிப்படைப் பெருக்கற்பலனால் கொடுக்கப்படுகிறது, இங்கு j மற்றும் ΔS திசையன்கள்."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "V = IR என்பது ஓமின் விதியின் விளக்கம் என்ற கூற்று ஏன் தவறானது என்று கருதப்படுகிறது?",
+      "options": [
+        "V = IR அரைக்கடத்திகளுக்கு மட்டுமே செல்லுபடியாகும் என்பதால்",
+        "V = IR மின்தடையை வரையறுக்கிறது, ஓமின் விதியை அல்ல; ஓமின் விதி நேர்கோட்டு I-V வரைபடத்தை V-ல் இருந்து R சுதந்திரமாக இருக்க வேண்டும் என்று கூறுகிறது",
+        "V = IR AC சுற்றுகளுக்கு மட்டுமே செல்லுபடியாகும் என்பதால்",
+        "V = IR கிர்ச்சாஃபின் விதியின் விளக்கம் என்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "The equation V = IR defines resistance and may be applied to all conducting devices whether they obey Ohm's law or not. Ohm's law asserts that the plot of I versus V is linear, meaning R is independent of V. Equation E = ρj is another statement: resistivity does not depend on magnitude and direction of applied electric field. | V = IR என்ற சமன்பாடு மின்தடையை வரையறுக்கிறது, மேலும் ஓமின் விதியைப் பின்பற்றும் அல்லது பின்பற்றாத அனைத்து கடத்தும் சாதனங்களுக்கும் பயன்படுத்தலாம். ஓமின் விதி I மற்றும் V-ன் வரைபடம் நேர்கோட்டு வடிவில் இருக்க வேண்டும் என்று கூறுகிறது, அதாவது R என்பது V-ல் இருந்து சுதந்திரமானது. E = ρj என்பது மற்றொரு விளக்கம்: மின்தடையுடைமை பயன்படுத்தப்பட்ட மின்புலத்தின் அளவு மற்றும் திசையைப் பொறுத்தது அல்ல."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "எந்த நிபந்தனையில் ஒருபடித்தான கடத்திகள் மற்றும் அரைக்கடத்திகள் ஓமின் விதியிலிருந்து விலகல்களைக் காட்டுகின்றன?",
+      "options": [
+        "வெப்பநிலை மிகவும் குறைவாக இருக்கும்போது",
+        "மின்புலம் மிகவும் வலுவாக இருக்கும்போது",
+        "மின்னோட்டம் மிகவும் குறைவாக இருக்கும்போது",
+        "மின்தடை மிகவும் அதிகமாக இருக்கும்போது"
+      ],
+      "correct": 1,
+      "explanation": "Homogeneous conductors like silver or semiconductors like pure germanium obey Ohm's law within some range of electric field values. If the field becomes too strong, there are departures from Ohm's law in all cases. | வெள்ளி போன்ற ஒருபடித்தான கடத்திகள் அல்லது தூய ஜெர்மேனியம் போன்ற அரைக்கடத்திகள் மின்புல மதிப்புகளின் சில வரம்பில் ஓமின் விதியைப் பின்பற்றுகின்றன. மின்புலம் மிகவும் வலுவானதாக மாறினால், அனைத்து சந்தர்ப்பங்களிலும் ஓமின் விதியிலிருந்து விலகல்கள் உள்ளன."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்புலத்தில் கடத்தும் எலக்ட்ரான்களின் இழுவை வேகம் vd-க்கு எது பங்களிக்கிறது?",
+      "options": [
+        "சீரற்ற மோதல் இயக்கமும் மின்புல இயக்கமும் இரண்டும்",
+        "சீரற்ற மோதல்களால் ஏற்படும் இயக்கம் மட்டுமே",
+        "பயன்படுத்தப்பட்ட மின்புலத்தால் ஏற்படும் இயக்கம் மட்டுமே",
+        "சீரற்ற மோதல்களும் மின்புலமும் இரண்டுமே அல்ல"
+      ],
+      "correct": 2,
+      "explanation": "The motion of conduction electrons in electric field E is the sum of motion due to random collisions and that due to E. The motion due to random collisions averages to zero and does not contribute to vd. Thus vd is only due to applied electric field on the electron. | மின்புலம் E-ல் கடத்தும் எலக்ட்ரான்களின் இயக்கம் சீரற்ற மோதல்களால் ஏற்படும் இயக்கம் மற்றும் E-யால் ஏற்படும் இயக்கம் ஆகியவற்றின் கூட்டுத்தொகை. சீரற்ற மோதல்களால் ஏற்படும் இயக்கம் பூஜ்ஜியத்திற்கு சராசரியாகிறது மற்றும் vd-க்கு பங்களிக்காது. எனவே vd என்பது எலக்ட்ரானின் மீது பயன்படுத்தப்பட்ட மின்புலத்தால் மட்டுமே ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நடுநிலை கடத்தும் கம்பியில் மொத்த மின்னோட்ட அடர்த்திக்கு j = ρv தொடர்பு ஏன் பொருந்தாது?",
+      "options": [
+        "கம்பியின் மொத்த மின்னூட்ட அடர்த்தி பூஜ்ஜியம் என்பதால்",
+        "நேர் மற்றும் எதிர் மின்னூட்டம் கொண்டு செல்பவர்கள் எதிர் திசைகளில் நகர்வதால்",
+        "அது ஒவ்வொரு வகை மின்னூட்டம் கொண்டு செல்பவருக்கும் தனித்தனியாக பயன்படுத்தப்பட வேண்டும்",
+        "நடுநிலை கம்பிகளில் மின்னோட்ட அடர்த்தி எப்போதும் பூஜ்ஜியம்"
+      ],
+      "correct": 2,
+      "explanation": "The relation j = ρv should be applied to each type of charge carrier separately. In a neutral wire carrying current, the positive and negative charge densities cancel out (ρ+ = -ρ-), making total ρ = 0, but current still flows. The total j comes from summing contributions from each carrier type separately. | j = ρv என்ற தொடர்பு ஒவ்வொரு வகை மின்னூட்டம் கொண்டு செல்பவருக்கும் தனித்தனியாக பயன்படுத்தப்பட வேண்டும். மின்னோட்டம் பாயும் ஒரு நடுநிலை கம்பியில், நேர் மற்றும் எதிர் மின்னூட்ட அடர்த்திகள் ஒன்றையொன்று நீக்குகின்றன (ρ+ = -ρ-), மொத்த ρ = 0 ஆகிறது, ஆனால் மின்னோட்டம் இன்னும் பாய்கிறது. மொத்த j ஒவ்வொரு கொண்டு செல்பவர் வகையின் பங்களிப்புகளைத் தனித்தனியாகக் கூட்டுவதால் கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "கம்பியை வளைப்பது அல்லது மீண்டும் திசையமைப்பது கிர்ச்சாஃபின் கூட்டு விதியின் செல்லுபடியை பாதிக்குமா?",
+      "options": [
+        "ஆம், அது கூட்டு விதியை செல்லாததாக்குகிறது",
+        "இல்லை, வளைப்பது அல்லது மீண்டும் திசையமைப்பது கூட்டு விதியின் செல்லுபடியை மாற்றாது",
+        "ஆம், ஆனால் அதிக மின்தடை கொண்ட கம்பிகளுக்கு மட்டுமே",
+        "இல்லை, ஆனால் நேர்க்கோட்டு கம்பிகளுக்கு மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "Kirchhoff's junction rule is based on conservation of charge. Bending or reorienting the wire does not change the validity of Kirchhoff's junction rule because charge conservation holds regardless of wire geometry. | கிர்ச்சாஃபின் கூட்டு விதி மின்னூட்டம் பாதுகாப்பின் அடிப்படையில் அமைந்துள்ளது. கம்பியை வளைத்தாலோ அல்லது மீண்டும் திசையமைத்தாலோ கிர்ச்சாஃபின் கூட்டு விதியின் செல்லுபடியை மாற்றாது, ஏனெனில் கம்பியின் வடிவியலைப் பொருட்படுத்தாமல் மின்னூட்டம் பாதுகாப்பு நிலைத்திருக்கிறது."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடை R-ன் பரிமாணங்கள் என்ன?",
+      "options": [
+        "[M L^2 T^-3 A^-1]",
+        "[M L^2 T^-3 A^-2]",
+        "[M L^3 T^-3 A^-2]",
+        "[M^-1 L^-3 T^3 A^2]"
+      ],
+      "correct": 1,
+      "explanation": "According to the table on page 24, the dimensions of resistance R are [M L^2 T^-3 A^-2]. The unit is ohm (Ω) and R = V/I. | பக்கம் 24-ல் உள்ள அட்டவணையின்படி, மின்தடை R-ன் பரிமாணங்கள் [M L^2 T^-3 A^-2] ஆகும். அலகு ஓம் (Ω) மற்றும் R = V/I."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "மின்தடையுடைமை (ρ)-ன் பரிமாணங்கள் என்ன?",
+      "options": [
+        "[M L^2 T^-3 A^-2]",
+        "[M L^3 T^-3 A^-2]",
+        "[M^-1 L^-3 T^3 A^2]",
+        "[M L T^-3 A^-1]"
+      ],
+      "correct": 1,
+      "explanation": "According to the table, resistivity ρ has dimensions [M L^3 T^-3 A^-2] and unit ohm-meter (Ω m). The relation is R = ρl/A. | அட்டவணையின்படி, மின்தடையுடைமை ρ-ன் பரிமாணங்கள் [M L^3 T^-3 A^-2] மற்றும் அலகு ஓம்-மீட்டர் (Ω m). தொடர்பு R = ρl/A."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "நகர்திறன் (μ)-ன் SI அலகு என்ன?",
+      "options": [
+        "m/s",
+        "m^2 V^-1 s^-1",
+        "A m^-2",
+        "Ω^-1 m^-1"
+      ],
+      "correct": 1,
+      "explanation": "According to the table on page 24, the SI unit of mobility μ is m^2 V^-1 s^-1. Mobility is defined as vd/E, the drift speed per unit electric field. | பக்கம் 24-ல் உள்ள அட்டவணையின்படி, நகர்திறன் μ-ன் SI அலகு m^2 V^-1 s^-1 ஆகும். நகர்திறன் vd/E என வரையறுக்கப்படுகிறது, அதாவது ஒரு அலகு மின்புலத்திற்கான இழுவை வேகம்."
+    }
+  ]
+}
