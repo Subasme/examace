@@ -6,6 +6,7 @@
 <meta name="description" content="ExamAce — NEET UG MCQ Practice & Weekly Timed Test Platform"/>
 <title>ExamAce — NEET UG Practice</title>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -183,6 +184,44 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 .section-divider{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin:1.25rem 0 .65rem;padding-bottom:.4rem;border-bottom:1.5px solid var(--border)}
 .info-box{background:var(--purple-light);border-radius:var(--radius-sm);padding:1rem;font-size:.85rem;color:var(--purple-dark);line-height:1.6}
 .selection-pill{font-size:.78rem;color:var(--muted);margin-bottom:.75rem}
+/* ── AUTH ── */
+.auth-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1.5rem;background:linear-gradient(135deg,var(--bg) 0%,var(--purple-light) 100%)}
+.auth-card{background:var(--card);border:1.5px solid var(--border);border-radius:20px;padding:2rem;max-width:420px;width:100%;box-shadow:0 8px 40px rgba(108,60,225,.12)}
+.auth-logo{text-align:center;margin-bottom:1.25rem}
+.auth-title{font-family:'Sora',sans-serif;font-size:1.4rem;font-weight:700;color:var(--text);text-align:center;margin-bottom:.3rem}
+.auth-sub{color:var(--muted);font-size:.88rem;text-align:center;margin-bottom:1.5rem}
+.field{margin-bottom:1rem}
+.field label{display:block;font-size:.82rem;font-weight:600;margin-bottom:.4rem;color:var(--text)}
+.field input{width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-family:'DM Sans',sans-serif;font-size:.9rem;outline:none;transition:border-color .2s;background:var(--bg)}
+.field input:focus{border-color:var(--purple);background:#fff}
+.auth-err{color:var(--danger);font-size:.82rem;margin-bottom:.75rem;display:none;padding:8px 12px;background:#fff0f0;border-radius:var(--radius-sm)}
+.auth-switch{text-align:center;margin-top:1rem;font-size:.85rem;color:var(--muted)}
+.auth-switch a{color:var(--purple);cursor:pointer;font-weight:600}
+/* ── PLANS ── */
+.plan-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.25rem 0}
+@media(max-width:480px){.plan-grid{grid-template-columns:1fr}}
+.plan-card{border:2px solid var(--border);border-radius:var(--radius);padding:1.25rem;cursor:pointer;transition:all .25s;position:relative}
+.plan-card:hover{border-color:var(--purple);transform:translateY(-2px)}
+.plan-card.featured{border-color:rgba(108,60,225,.3);background:var(--purple-light)}
+.plan-card.selected{border-color:var(--purple);box-shadow:0 0 0 3px rgba(108,60,225,.18)}
+.plan-badge{position:absolute;top:-10px;right:12px;background:var(--gold);color:#1A1035;font-size:.68rem;font-weight:700;padding:2px 10px;border-radius:20px}
+.plan-name{font-family:'Sora',sans-serif;font-weight:700;font-size:1rem;margin-bottom:.25rem}
+.plan-price{font-size:1.5rem;font-weight:800;color:var(--purple);margin-bottom:.75rem}
+.plan-price span{font-size:.8rem;font-weight:400;color:var(--muted)}
+.plan-feat{list-style:none;font-size:.8rem;color:var(--muted);line-height:2}
+.plan-feat li{padding-left:1.4rem;position:relative}
+.plan-feat li::before{content:"✓";position:absolute;left:0;color:var(--success);font-weight:700}
+.plan-feat li.no::before{content:"✗";color:var(--danger)}
+/* ── UPGRADE MODAL ── */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:999;display:none;align-items:center;justify-content:center;padding:1rem}
+.modal-overlay.open{display:flex}
+/* ── NAV USER ── */
+.nav-user{display:none;align-items:center;gap:6px}
+.nav-user-name{font-size:.78rem;color:var(--muted);max-width:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* ── UPGRADE BANNER ── */
+.upgrade-banner{background:linear-gradient(90deg,var(--purple),var(--purple-dark));color:#fff;border-radius:var(--radius-sm);padding:.75rem 1rem;margin-bottom:.85rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem}
+.upgrade-banner p{font-size:.82rem;margin:0;line-height:1.4}
+.upgrade-banner .ub-btn{background:#fff;color:var(--purple);font-size:.75rem;padding:5px 12px;border-radius:var(--radius-sm);border:none;font-family:'Sora',sans-serif;font-weight:700;cursor:pointer;white-space:nowrap;flex-shrink:0}
 </style>
 </head>
 <body>
@@ -197,6 +236,11 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
     <button class="nav-btn" onclick="showScreen('mistakes')">📌</button>
     <button class="nav-btn" onclick="showScreen('leaderboard')">🏆</button>
     <button class="nav-btn pill" onclick="shareApp()">📤 Share</button>
+    <div class="nav-user" id="nav-user">
+      <span class="nav-user-name" id="nav-user-name"></span>
+      <span class="chip chip-purple" id="nav-plan-badge">Free</span>
+      <button class="nav-btn" onclick="handleLogout()" title="Sign out" style="padding:5px 8px">⏻</button>
+    </div>
   </div>
 </nav>
 
@@ -206,6 +250,7 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
     <p>Chapter-wise practice + weekly timed tests. Track your progress and ace the exam.</p>
   </div>
   <div id="home-stats" class="home-stats"></div>
+  <div id="upgrade-banner"></div>
   <div class="home-cards">
     <div class="home-card" onclick="openFlow('practice')">
       <div class="home-card-icon practice">📚</div>
@@ -411,14 +456,107 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
   <button class="btn btn-outline btn-sm" onclick="goHome()" style="margin-top:.75rem">← Home</button>
 </div>
 
+<!-- ── AUTH: Login ── -->
+<div id="screen-auth-login" class="auth-wrap" style="display:none">
+  <div class="auth-card">
+    <div class="auth-logo">
+      <svg width="48" height="48" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#6C3CE1"/><polygon points="16,7 17.5,12.5 23,12.5 18.5,16 20,22 16,18.5 12,22 13.5,16 9,12.5 14.5,12.5" fill="#F5B400"/></svg>
+    </div>
+    <div class="auth-title">Welcome to ExamAce</div>
+    <div class="auth-sub">Sign in to track your NEET UG preparation</div>
+    <div class="field"><label>Email</label><input type="email" id="login-email" placeholder="you@example.com" onkeydown="if(event.key==='Enter')handleLogin()"/></div>
+    <div class="field"><label>Password</label><input type="password" id="login-password" placeholder="••••••••" onkeydown="if(event.key==='Enter')handleLogin()"/></div>
+    <div class="auth-err" id="login-err"></div>
+    <button class="btn btn-primary btn-block" onclick="handleLogin()" id="login-btn">Sign In</button>
+    <div class="auth-switch">No account? <a onclick="showAuthScreen('register')">Create one free</a></div>
+  </div>
+</div>
+
+<!-- ── AUTH: Register ── -->
+<div id="screen-auth-register" class="auth-wrap" style="display:none">
+  <div class="auth-card">
+    <div class="auth-logo">
+      <svg width="48" height="48" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#6C3CE1"/><polygon points="16,7 17.5,12.5 23,12.5 18.5,16 20,22 16,18.5 12,22 13.5,16 9,12.5 14.5,12.5" fill="#F5B400"/></svg>
+    </div>
+    <div class="auth-title">Create your account</div>
+    <div class="auth-sub">Start your NEET UG journey today — it's free</div>
+    <div class="field"><label>Full Name</label><input type="text" id="reg-name" placeholder="Your Name"/></div>
+    <div class="field"><label>Email</label><input type="email" id="reg-email" placeholder="you@example.com"/></div>
+    <div class="field"><label>Password</label><input type="password" id="reg-password" placeholder="At least 6 characters" onkeydown="if(event.key==='Enter')handleRegister()"/></div>
+    <div class="auth-err" id="reg-err"></div>
+    <button class="btn btn-primary btn-block" onclick="handleRegister()" id="reg-btn">Create Account</button>
+    <div class="auth-switch">Already have one? <a onclick="showAuthScreen('login')">Sign in</a></div>
+  </div>
+</div>
+
+<!-- ── PLAN Selection ── -->
+<div id="screen-plan" class="auth-wrap" style="display:none">
+  <div class="auth-card" style="max-width:520px">
+    <div class="auth-title">Choose your plan</div>
+    <div class="auth-sub">You can always upgrade later from your profile</div>
+    <div class="plan-grid">
+      <div class="plan-card selected" id="plan-free-card" onclick="selectPlan('free')">
+        <div class="plan-name">Free</div>
+        <div class="plan-price">₹0 <span>/ forever</span></div>
+        <ul class="plan-feat">
+          <li>5 questions / chapter / day</li>
+          <li>Practice mode</li>
+          <li>Mistake tracker (last 20)</li>
+          <li class="no">Weekly timed test</li>
+          <li class="no">Full dashboard</li>
+        </ul>
+      </div>
+      <div class="plan-card featured" id="plan-premium-card" onclick="selectPlan('premium')">
+        <div class="plan-badge">POPULAR</div>
+        <div class="plan-name">Premium</div>
+        <div class="plan-price">₹199 <span>/ month</span></div>
+        <ul class="plan-feat">
+          <li>20 questions / chapter / day</li>
+          <li>Practice mode</li>
+          <li>Mistake tracker (last 200)</li>
+          <li>Weekly timed test</li>
+          <li>Full dashboard &amp; insights</li>
+        </ul>
+      </div>
+    </div>
+    <div class="auth-err" id="plan-err"></div>
+    <button class="btn btn-primary btn-block" onclick="confirmPlan()" id="plan-btn">Continue with Free</button>
+    <div style="text-align:center;font-size:.75rem;color:var(--muted);margin-top:.75rem">Payment integration coming soon. Premium is currently free to try.</div>
+  </div>
+</div>
+
+<!-- ── Upgrade Modal ── -->
+<div class="modal-overlay" id="upgrade-modal">
+  <div class="auth-card" style="max-width:360px;text-align:center">
+    <div style="font-size:2.5rem;margin-bottom:.5rem">⭐</div>
+    <div class="auth-title">Premium Feature</div>
+    <p style="color:var(--muted);font-size:.9rem;margin:.5rem 0 1.25rem"><b id="upgrade-feature">This feature</b> is available on the Premium plan.</p>
+    <div style="display:flex;gap:.75rem">
+      <button class="btn btn-outline" style="flex:1" onclick="hideUpgradePrompt()">Maybe Later</button>
+      <button class="btn btn-primary" style="flex:1" onclick="hideUpgradePrompt();alert('Payment integration coming soon! Premium is currently free to try — contact us to upgrade.')">Upgrade ₹199/mo</button>
+    </div>
+  </div>
+</div>
+
 <script>
 // ── CONFIG ──
-const DATA_BASE = './data/';
-const DAILY_LIMIT = 20;
-const JSONBIN_BIN_ID = 'YOUR_BIN_ID_HERE';
-const JSONBIN_API_KEY = 'YOUR_API_KEY_HERE';
+// Paste your Supabase project URL and anon key here (Dashboard → Project Settings → API)
+const SUPABASE_URL = 'YOUR_SUPABASE_URL';
+const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+const FREE_DAILY_LIMIT = 5;
+const PREMIUM_DAILY_LIMIT = 20;
 const LETTERS = ['A','B','C','D'];
 
+const { createClient } = window.supabase;
+const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+// ── AUTH + PLAN STATE ──
+let authUser = null;
+let userPlan = 'free';
+let DAILY_LIMIT = FREE_DAILY_LIMIT;
+let selectedPlan = 'free';
+
+// ── APP STATE ──
 let manifest = null;
 let appMode = 'practice';
 let selection = { language: null, standard: null, subject: null, chapter: null };
@@ -427,36 +565,78 @@ let timedState = { questions: [], idx: 0, answers: {}, marked: {}, secs: 0, tota
 let timedQCount = 180, timedDuration = 11700;
 let localLeaderboard = [], globalLeaderboard = [], currentLbTab = 'global';
 let mistakes = [], progress = { total: 0, correct: 0, wrong: 0, time: 0, subjects: {}, chapters: {}, history: [] };
+let dailyCache = {};
 
-function loadStorage() {
+// ── STORAGE ──
+function loadStorageSync() {
   try { const s = localStorage.getItem('examace_lb'); if (s) localLeaderboard = JSON.parse(s); } catch (e) {}
   try { const s = localStorage.getItem('examace_mistakes'); if (s) mistakes = JSON.parse(s); } catch (e) {}
   try { const s = localStorage.getItem('examace_progress'); if (s) progress = JSON.parse(s); } catch (e) {}
 }
+
+async function syncProgressFromSupabase() {
+  if (!authUser) return;
+  try {
+    const { data } = await db.from('user_progress').select('total,correct,wrong,time_spent,subjects,chapters,history').eq('user_id', authUser.id).single();
+    if (data) {
+      progress = { total: data.total, correct: data.correct, wrong: data.wrong, time: data.time_spent, subjects: data.subjects || {}, chapters: data.chapters || {}, history: data.history || [] };
+      try { localStorage.setItem('examace_progress', JSON.stringify(progress)); } catch (e) {}
+    }
+    const mistakeLimit = userPlan === 'premium' ? 200 : 20;
+    const { data: md } = await db.from('mistakes').select('question,options,correct,explanation,subject,chapter,your_answer,answered_at').eq('user_id', authUser.id).order('answered_at', { ascending: false }).limit(mistakeLimit);
+    if (md) {
+      mistakes = md.map(m => ({ question: m.question, options: m.options, correct: m.correct, explanation: m.explanation, subject: m.subject, chapter: m.chapter, date: new Date(m.answered_at).toLocaleDateString('en-GB'), yourAnswer: m.your_answer }));
+      try { localStorage.setItem('examace_mistakes', JSON.stringify(mistakes)); } catch (e) {}
+    }
+  } catch (e) {}
+}
+
 function saveStorage() {
   try { localStorage.setItem('examace_lb', JSON.stringify(localLeaderboard)); } catch (e) {}
   try { localStorage.setItem('examace_mistakes', JSON.stringify(mistakes)); } catch (e) {}
   try { localStorage.setItem('examace_progress', JSON.stringify(progress)); } catch (e) {}
+  if (!authUser) return;
+  db.from('user_progress').upsert({
+    user_id: authUser.id, total: progress.total, correct: progress.correct, wrong: progress.wrong,
+    time_spent: progress.time, subjects: progress.subjects, chapters: progress.chapters,
+    history: progress.history, updated_at: new Date().toISOString()
+  }, { onConflict: 'user_id' }).then();
 }
-loadStorage();
 
 async function loadManifest() {
   if (manifest) return manifest;
-  const res = await fetch(DATA_BASE + 'manifest.json');
-  if (!res.ok) throw new Error('Could not load question catalog');
-  manifest = await res.json();
+  const { data, error } = await db.from('chapters')
+    .select('language,standard,subject,chapter_id,chapter_label,question_count')
+    .order('language').order('standard').order('subject').order('chapter_id');
+  if (error || !data?.length) throw new Error('Could not load question catalog');
+  manifest = { languages: [] };
+  const li = {}, si = {}, oi = {};
+  for (const r of data) {
+    if (!li[r.language]) { li[r.language] = { id: r.language.toLowerCase(), label: r.language, standards: [] }; manifest.languages.push(li[r.language]); }
+    const sk = `${r.language}/${r.standard}`;
+    if (!si[sk]) { si[sk] = { id: r.standard, label: `${r.standard} Standard`, subjects: [] }; li[r.language].standards.push(si[sk]); }
+    const ok = `${sk}/${r.subject}`;
+    if (!oi[ok]) { oi[ok] = { id: r.subject.toLowerCase(), label: r.subject, chapters: [], totalQuestions: 0 }; si[sk].subjects.push(oi[ok]); }
+    oi[ok].chapters.push({ id: r.chapter_id, label: r.chapter_label, count: r.question_count || 0 });
+    oi[ok].totalQuestions += r.question_count || 0;
+  }
   return manifest;
 }
 
-async function fetchQuestionFile(path) {
-  const res = await fetch(DATA_BASE + path);
-  if (!res.ok) throw new Error('Could not load questions');
-  const data = await res.json();
-  const meta = data.meta || {};
-  return (data.questions || []).map(q => ({
-    ...q,
-    subject: q.subject || meta.subject || selection.subject?.label || 'General',
-    chapter: q.chapter || meta.chapter || q.topic || 'General'
+async function fetchQuestions({ language, standard, subject, chapterId }) {
+  let q = db.from('questions').select('topic,question,options,correct,explanation,chapter_label')
+    .eq('language', language).eq('standard', standard).eq('subject', subject);
+  if (chapterId) q = q.eq('chapter_id', chapterId);
+  const { data, error } = await q;
+  if (error) throw new Error('Could not load questions');
+  return (data || []).map(r => ({
+    topic: r.topic || r.chapter_label,
+    question: r.question,
+    options: r.options,
+    correct: r.correct,
+    explanation: r.explanation || '',
+    subject,
+    chapter: r.chapter_label || r.topic || chapterId || subject
   }));
 }
 
@@ -471,13 +651,45 @@ function dailyStorageKey(chapter) {
   return `examace_daily_${selection.language?.id}_${selection.standard?.id}_${selection.subject?.id}_${ch?.id}_${getTodayKey()}`;
 }
 function getDailyDone(chapter) {
-  try {
-    const raw = localStorage.getItem(dailyStorageKey(chapter));
-    return raw ? JSON.parse(raw) : { count: 0, seen: [] };
-  } catch (e) { return { count: 0, seen: [] }; }
+  const ch = chapter || selection.chapter;
+  const key = `${selection.language?.id}_${selection.standard?.id}_${selection.subject?.id}_${ch?.id}_${getTodayKey()}`;
+  if (dailyCache[key]) return dailyCache[key];
+  try { const raw = localStorage.getItem(dailyStorageKey(ch)); return raw ? JSON.parse(raw) : { count: 0, seen: [] }; } catch (e) { return { count: 0, seen: [] }; }
 }
 function setDailyDone(chapter, data) {
-  try { localStorage.setItem(dailyStorageKey(chapter), JSON.stringify(data)); } catch (e) {}
+  const ch = chapter || selection.chapter;
+  const key = `${selection.language?.id}_${selection.standard?.id}_${selection.subject?.id}_${ch?.id}_${getTodayKey()}`;
+  dailyCache[key] = data;
+  try { localStorage.setItem(dailyStorageKey(ch), JSON.stringify(data)); } catch (e) {}
+  if (authUser) {
+    db.from('daily_practice').upsert({
+      user_id: authUser.id,
+      language: selection.language?.label || '', standard: selection.standard?.id || '',
+      subject: selection.subject?.label || '', chapter_id: ch?.id || '',
+      practice_date: getTodayKey(), count: data.count, seen_fingerprints: data.seen
+    }, { onConflict: 'user_id,language,standard,subject,chapter_id,practice_date' }).then();
+  }
+}
+
+async function preloadDailyData() {
+  if (!authUser || !selection.subject) return;
+  try {
+    const today = getTodayKey();
+    const { data } = await db.from('daily_practice')
+      .select('chapter_id,count,seen_fingerprints')
+      .eq('user_id', authUser.id)
+      .eq('language', selection.language?.label || '')
+      .eq('standard', selection.standard?.id || '')
+      .eq('subject', selection.subject?.label || '')
+      .eq('practice_date', today);
+    if (data) {
+      data.forEach(row => {
+        const key = `${selection.language?.id}_${selection.standard?.id}_${selection.subject?.id}_${row.chapter_id}_${today}`;
+        dailyCache[key] = { count: row.count, seen: row.seen_fingerprints || [] };
+        try { localStorage.setItem(dailyStorageKey({ id: row.chapter_id }), JSON.stringify(dailyCache[key])); } catch (e) {}
+      });
+    }
+  } catch (e) {}
 }
 function isDailyComplete(chapter) { return getDailyDone(chapter).count >= DAILY_LIMIT; }
 function getTimeUntilMidnight() {
@@ -488,13 +700,14 @@ function getTimeUntilMidnight() {
 }
 
 function showScreen(name) {
+  if (name === 'dashboard' && userPlan !== 'premium') { showUpgradePrompt('Full Dashboard & Insights'); return; }
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById('screen-' + name).classList.add('active');
   window.scrollTo(0, 0);
   if (name === 'leaderboard') loadLeaderboard();
   if (name === 'dashboard') renderDashboard();
   if (name === 'mistakes') renderMistakes();
-  if (name === 'home') renderHomeStats();
+  if (name === 'home') { renderHomeStats(); updateUpgradeBanner(); }
 }
 function goHome() { showScreen('home'); }
 function confirmExit() { if (confirm('Exit quiz? Your progress will be lost.')) goHome(); }
@@ -597,16 +810,18 @@ function selectSubject(subjId) {
   showScreen('practice-chapter');
 }
 
-function renderChapters() {
+async function renderChapters() {
   const chaps = selection.subject?.chapters || [];
   const subj = selection.subject.label;
   document.getElementById('chapter-title').textContent = `${subj} — Select Chapter`;
+  document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading chapters…</p></div>';
+  await preloadDailyData();
   const done = chaps.filter(c => isDailyComplete(c)).length;
   const totalDoneQs = chaps.reduce((sum, c) => sum + getDailyDone(c).count, 0);
   const maxQs = chaps.length * DAILY_LIMIT || 1;
   document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
     <div style="font-size:1.4rem">📅</div>
-    <div class="db-text"><b>Daily Practice — 20 Questions Per Chapter</b><br/>
+    <div class="db-text"><b>Daily Practice — ${DAILY_LIMIT} Questions Per Chapter</b><br/>
     ${done} of ${chaps.length} chapters done today · ${totalDoneQs} questions answered
     <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${Math.round(totalDoneQs / maxQs * 100)}%"></div></div></div></div>`;
   document.getElementById('chapter-list').innerHTML = chaps.map((c, i) => {
@@ -633,7 +848,7 @@ async function selectChapter(chapterId) {
   }
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading questions…</p></div>';
   try {
-    const allQs = await fetchQuestionFile(chapter.path);
+    const allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label, chapterId: chapter.id });
     const dayData = getDailyDone(chapter);
     const seen = new Set(dayData.seen || []);
     const fresh = allQs.filter(q => !seen.has(qFingerprint(q)));
@@ -704,6 +919,9 @@ function answerPractice(i) {
     progress.wrong++;
     mistakes.push({ question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: subj, chapter: chap, date: new Date().toLocaleDateString('en-GB'), yourAnswer: i });
     if (mistakes.length > 200) mistakes.splice(0, mistakes.length - 200);
+    if (authUser) {
+      db.from('mistakes').insert({ user_id: authUser.id, question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: subj, chapter: chap, your_answer: i }).then();
+    }
   }
   if (!practiceState.skipDaily && selection.chapter) {
     const dayData = getDailyDone(selection.chapter);
@@ -742,13 +960,14 @@ function selectDuration(s, ev) {
 }
 
 async function startTimedTest() {
+  if (userPlan !== 'premium') { showUpgradePrompt('Weekly Timed Test'); return; }
   const name = document.getElementById('timed-name').value.trim();
   if (!name) { document.getElementById('timed-err').style.display = 'block'; return; }
   document.getElementById('timed-err').style.display = 'none';
   const btn = document.querySelector('#screen-timed-setup .btn-gold');
   btn.textContent = 'Loading questions…'; btn.disabled = true;
   try {
-    const allQs = await fetchQuestionFile(selection.subject.allChaptersPath);
+    const allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label });
     const qs = shuffle(allQs).slice(0, Math.min(timedQCount, allQs.length));
     timedState = { questions: qs, idx: 0, answers: {}, marked: {}, secs: timedDuration, totalSecs: timedDuration, timer: null, start: Date.now(), name };
     document.getElementById('tq-total').textContent = qs.length;
@@ -879,11 +1098,18 @@ async function finishTimedTest() {
     `<div class="insight-card tip"><h4>💡 Overall Tip</h4><p>${tip}</p></div>`
   ].join('');
 
+  const newMistakes = [];
   questions.forEach((q, i) => {
     if (answers[i] !== undefined && answers[i] !== q.correct) {
-      mistakes.push({ question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: q.subject, chapter: q.chapter || q.topic, date: new Date().toLocaleDateString('en-GB'), yourAnswer: answers[i] });
+      const entry = { question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: q.subject, chapter: q.chapter || q.topic, date: new Date().toLocaleDateString('en-GB'), yourAnswer: answers[i] };
+      mistakes.push(entry);
+      newMistakes.push({ user_id: authUser?.id, question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: q.subject, chapter: q.chapter || q.topic, your_answer: answers[i] });
     }
   });
+  if (mistakes.length > 200) mistakes.splice(0, mistakes.length - 200);
+  if (authUser && newMistakes.length) {
+    db.from('mistakes').insert(newMistakes.filter(m => m.user_id)).then();
+  }
   progress.total += total; progress.correct += correct; progress.wrong += wrong; progress.time += timeTaken;
   progress.history = progress.history || [];
   progress.history.push({ week: getWeekKey(), score: pct, correct, total, timeTaken, date: new Date().toLocaleDateString('en-GB') });
@@ -898,32 +1124,36 @@ async function finishTimedTest() {
 
   const savingEl = document.getElementById('tr-saving');
   savingEl.innerHTML = '<span class="saving-badge">🌍 Saving to global leaderboard…</span>';
-  const saved = await saveToJSONBin(entry);
+  const saved = await saveToLeaderboard(entry);
   savingEl.innerHTML = saved
     ? '<span class="saving-badge" style="color:var(--success)">✅ Saved to global leaderboard!</span>'
     : '<span class="saving-badge">📱 Saved locally</span>';
   showScreen('timed-result');
 }
 
-const JB = 'https://api.jsonbin.io/v3/b';
-async function saveToJSONBin(entry) {
-  if (!JSONBIN_BIN_ID || JSONBIN_BIN_ID.includes('YOUR_BIN')) return false;
+async function saveToLeaderboard(entry) {
+  if (!authUser) return false;
   try {
-    const g = await fetch(`${JB}/${JSONBIN_BIN_ID}/latest`, { headers: { 'X-Master-Key': JSONBIN_API_KEY } });
-    const cur = await g.json();
-    const scores = cur.record?.scores || [];
-    scores.push(entry);
-    scores.sort((a, b) => b.score - a.score || a.time - b.time);
-    const p = await fetch(`${JB}/${JSONBIN_BIN_ID}`, { method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_API_KEY }, body: JSON.stringify({ scores }) });
-    return p.ok;
+    const { error } = await db.from('leaderboard').insert({
+      user_id: authUser.id, name: entry.name, score: entry.score,
+      correct: entry.correct, total: entry.total, time_taken: entry.time,
+      subject: selection.subject?.label || '', language: selection.language?.label || '',
+      standard: selection.standard?.id || '', week_key: entry.week,
+      selection_label: entry.selection
+    });
+    return !error;
   } catch (e) { return false; }
 }
 async function fetchGlobalLeaderboard() {
-  if (!JSONBIN_BIN_ID || JSONBIN_BIN_ID.includes('YOUR_BIN')) return [];
   try {
-    const r = await fetch(`${JB}/${JSONBIN_BIN_ID}/latest`, { headers: { 'X-Master-Key': JSONBIN_API_KEY } });
-    const d = await r.json();
-    return (d.record?.scores || []).filter(e => e.week === getWeekKey()).sort((a, b) => b.score - a.score || a.time - b.time);
+    const { data, error } = await db.from('leaderboard')
+      .select('name,score,correct,total,time_taken,week_key,created_at')
+      .eq('week_key', getWeekKey())
+      .order('score', { ascending: false })
+      .order('time_taken', { ascending: true })
+      .limit(50);
+    if (error) return [];
+    return (data || []).map(e => ({ name: e.name, score: e.score, correct: e.correct, total: e.total, time: e.time_taken, date: new Date(e.created_at).toLocaleDateString('en-GB'), week: e.week_key }));
   } catch (e) { return []; }
 }
 
@@ -955,10 +1185,6 @@ function renderLbContent() {
     return;
   }
   const scores = currentLbTab === 'global' ? globalLeaderboard : localLeaderboard;
-  if (currentLbTab === 'global' && JSONBIN_BIN_ID.includes('YOUR_BIN')) {
-    el.innerHTML = `<div class="jsonbin-setup"><b>🌍 Set up Global Leaderboard (free):</b><br/>1. Go to <a href="https://jsonbin.io" target="_blank">jsonbin.io</a> → sign up<br/>2. Create Bin: <code>{"scores":[]}</code><br/>3. Paste Bin ID + API Key in index.html</div>`;
-    return;
-  }
   if (!scores.length) { el.innerHTML = '<div class="empty-state"><div class="ei">🏆</div><p>No scores yet. Complete the Weekly Timed Test!</p></div>'; return; }
   el.innerHTML = `<div style="overflow-x:auto"><table class="lb-table"><thead><tr><th>#</th><th>Name</th><th>Score</th><th>Correct</th><th>Time</th><th>Date</th></tr></thead><tbody>
     ${scores.slice(0, 10).map((e, i) => `<tr><td><span class="rank-badge ${i === 0 ? 'r1' : i === 1 ? 'r2' : i === 2 ? 'r3' : 'rn'}">${i + 1}</span></td>
@@ -1008,7 +1234,13 @@ function renderMistakes() {
       ${m.explanation ? `<div style="font-size:.78rem;color:var(--muted);font-style:italic;margin-top:.3rem">💡 ${m.explanation}</div>` : ''}
     </div>`).join('');
 }
-function clearMistakes() { if (confirm('Clear all mistakes?')) { mistakes = []; saveStorage(); renderMistakes(); } }
+async function clearMistakes() {
+  if (!confirm('Clear all mistakes?')) return;
+  mistakes = [];
+  if (authUser) await db.from('mistakes').delete().eq('user_id', authUser.id);
+  saveStorage();
+  renderMistakes();
+}
 function practiceWrong() {
   if (!mistakes.length) { alert('No mistakes to practice!'); return; }
   practiceState = { questions: mistakes.slice(-20).map(m => ({ ...m, topic: m.chapter, explanation: m.explanation || '' })), idx: 0, answers: {}, skipDaily: true };
@@ -1042,15 +1274,161 @@ function shareApp() {
   else navigator.clipboard?.writeText(text).then(() => alert('Link copied!')).catch(() => prompt('Copy this link:', location.href));
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   const ni = document.getElementById('timed-name');
   if (ni) ni.addEventListener('focus', () => ni.style.borderColor = 'var(--gold)');
-  renderHomeStats();
-  loadManifest().then(() => renderLangOptions()).catch(err => {
-    console.error(err);
-    document.getElementById('lang-options').innerHTML = '<div class="info-box">Could not load question catalog. Check that <b>data/manifest.json</b> exists.</div>';
+
+  // Wire Enter key on login/register forms
+  document.querySelectorAll('#screen-auth-login input, #screen-auth-register input').forEach(inp => {
+    inp.addEventListener('keydown', e => { if (e.key === 'Enter') { const s = inp.closest('[id^=screen-auth-]')?.id; if (s === 'screen-auth-login') handleLogin(); else if (s === 'screen-auth-register') handleRegister(); } });
+  });
+
+  // Check for an existing session
+  const { data: { session } } = await db.auth.getSession();
+  if (session?.user) {
+    authUser = session.user;
+    await loadUserPlan();
+    await initApp();
+  } else {
+    showAuthScreen('login');
+  }
+
+  // React to sign-out from other tabs
+  db.auth.onAuthStateChange(async (event, session) => {
+    if (event === 'SIGNED_OUT') {
+      authUser = null; userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT;
+      showAuthScreen('login');
+    }
   });
 });
+
+// ── AUTH ─────────────────────────────────────────────────────────────────────
+function showAuthScreen(screen) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-auth-login').style.display = screen === 'login' ? 'flex' : 'none';
+  document.getElementById('screen-auth-register').style.display = screen === 'register' ? 'flex' : 'none';
+  document.getElementById('screen-plan').style.display = 'none';
+}
+
+function showPlanScreen() {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-auth-login').style.display = 'none';
+  document.getElementById('screen-auth-register').style.display = 'none';
+  document.getElementById('screen-plan').style.display = 'flex';
+  selectPlan('free');
+}
+
+function selectPlan(plan) {
+  selectedPlan = plan;
+  document.getElementById('plan-free-card').classList.toggle('selected', plan === 'free');
+  document.getElementById('plan-premium-card').classList.toggle('selected', plan === 'premium');
+  document.getElementById('plan-btn').textContent = plan === 'premium' ? 'Get Premium →' : 'Continue with Free';
+}
+
+async function confirmPlan() {
+  const btn = document.getElementById('plan-btn');
+  btn.disabled = true; btn.textContent = 'Saving…';
+  try { await db.from('profiles').update({ plan: selectedPlan }).eq('id', authUser.id); } catch (e) {}
+  userPlan = selectedPlan;
+  DAILY_LIMIT = userPlan === 'premium' ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
+  btn.disabled = false;
+  await initApp();
+}
+
+async function handleLogin() {
+  const email = document.getElementById('login-email').value.trim();
+  const password = document.getElementById('login-password').value;
+  const errEl = document.getElementById('login-err');
+  const btn = document.getElementById('login-btn');
+  errEl.style.display = 'none';
+  if (!email || !password) { errEl.textContent = 'Please fill in all fields.'; errEl.style.display = 'block'; return; }
+  btn.disabled = true; btn.textContent = 'Signing in…';
+  const { data, error } = await db.auth.signInWithPassword({ email, password });
+  btn.disabled = false; btn.textContent = 'Sign In';
+  if (error) { errEl.textContent = error.message; errEl.style.display = 'block'; return; }
+  authUser = data.user;
+  await loadUserPlan();
+  await initApp();
+}
+
+async function handleRegister() {
+  const name = document.getElementById('reg-name').value.trim();
+  const email = document.getElementById('reg-email').value.trim();
+  const password = document.getElementById('reg-password').value;
+  const errEl = document.getElementById('reg-err');
+  const btn = document.getElementById('reg-btn');
+  errEl.style.display = 'none';
+  if (!name || !email || !password) { errEl.textContent = 'Please fill in all fields.'; errEl.style.display = 'block'; return; }
+  if (password.length < 6) { errEl.textContent = 'Password must be at least 6 characters.'; errEl.style.display = 'block'; return; }
+  btn.disabled = true; btn.textContent = 'Creating account…';
+  const { data, error } = await db.auth.signUp({ email, password, options: { data: { display_name: name } } });
+  btn.disabled = false; btn.textContent = 'Create Account';
+  if (error) { errEl.textContent = error.message; errEl.style.display = 'block'; return; }
+  authUser = data.user;
+  showPlanScreen();
+}
+
+async function handleLogout() {
+  if (!confirm('Sign out?')) return;
+  await db.auth.signOut();
+  mistakes = []; progress = { total: 0, correct: 0, wrong: 0, time: 0, subjects: {}, chapters: {}, history: [] };
+  localLeaderboard = []; manifest = null; dailyCache = {};
+  try { localStorage.clear(); } catch (e) {}
+  authUser = null; userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT;
+  showAuthScreen('login');
+}
+
+async function loadUserPlan() {
+  try {
+    const { data } = await db.from('profiles').select('plan,display_name').eq('id', authUser.id).single();
+    userPlan = data?.plan || 'free';
+    DAILY_LIMIT = userPlan === 'premium' ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
+  } catch (e) { userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT; }
+}
+
+async function initApp() {
+  document.getElementById('screen-auth-login').style.display = 'none';
+  document.getElementById('screen-auth-register').style.display = 'none';
+  document.getElementById('screen-plan').style.display = 'none';
+  loadStorageSync();
+  syncProgressFromSupabase().catch(() => {});
+  updateNavUser();
+  updateUpgradeBanner();
+  renderHomeStats();
+  loadManifest().then(() => renderLangOptions()).catch(() => {
+    document.getElementById('lang-options').innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
+  });
+  showScreen('home');
+}
+
+function updateNavUser() {
+  const el = document.getElementById('nav-user');
+  if (!authUser) { el.style.display = 'none'; return; }
+  el.style.display = 'flex';
+  const name = authUser.user_metadata?.display_name || authUser.email?.split('@')[0] || 'User';
+  document.getElementById('nav-user-name').textContent = name;
+  const badge = document.getElementById('nav-plan-badge');
+  badge.textContent = userPlan === 'premium' ? '⭐ Premium' : 'Free';
+  badge.className = userPlan === 'premium' ? 'chip chip-gold' : 'chip chip-purple';
+}
+
+function updateUpgradeBanner() {
+  const el = document.getElementById('upgrade-banner');
+  if (!el) return;
+  if (userPlan !== 'premium') {
+    el.innerHTML = `<div class="upgrade-banner"><p><b>⭐ Go Premium</b> — unlock timed tests, 20 Q/day &amp; full dashboard</p><button class="ub-btn" onclick="showUpgradePrompt('Premium Plan')">Upgrade</button></div>`;
+  } else {
+    el.innerHTML = '';
+  }
+}
+
+function showUpgradePrompt(feature) {
+  document.getElementById('upgrade-feature').textContent = feature;
+  document.getElementById('upgrade-modal').classList.add('open');
+}
+function hideUpgradePrompt() {
+  document.getElementById('upgrade-modal').classList.remove('open');
+}
 </script>
 </body>
 </html>
