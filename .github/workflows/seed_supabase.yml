@@ -1,0 +1,33 @@
+name: Seed Supabase Database
+on:
+  workflow_dispatch:   # run manually from GitHub Actions tab
+  push:
+    branches: [ main ]
+    paths:
+      - 'data/**'
+      - 'scripts/import_to_supabase.py'
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install supabase python-dotenv
+
+      - name: Run schema migrations
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python scripts/run_migrations.py
+
+      - name: Import questions
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python scripts/import_to_supabase.py --clear
