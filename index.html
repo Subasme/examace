@@ -311,6 +311,20 @@ body{padding-bottom:68px}
 .tf-item{font-size:.83rem;padding:.3rem 0;opacity:.9;line-height:1.4}
 .training-cta{display:block;background:#25d366;color:#fff;border-radius:12px;padding:.85rem;text-align:center;font-family:'Sora',sans-serif;font-weight:700;font-size:.9rem;text-decoration:none;transition:background .2s}
 .training-cta:hover{background:#1ebe59}
+/* ── HOME FOOTER LINKS ── */
+.home-footer-links{display:flex;gap:.5rem;margin-top:.85rem;justify-content:center;flex-wrap:wrap}
+.hfl-btn{padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:var(--card);font-family:'DM Sans',sans-serif;font-size:.78rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .2s}
+.hfl-btn:hover{border-color:#00897b;color:#00897b}
+/* ── COMMUNITY GROUPS ── */
+.community-groups{display:flex;flex-direction:column;gap:.65rem}
+.cgroup-card{display:flex;align-items:center;gap:.8rem;background:var(--card);border:2px solid var(--border);border-radius:12px;padding:.85rem}
+.cgroup-icon{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.cgroup-info{flex:1}
+.cgroup-name{font-weight:700;font-size:.88rem}
+.cgroup-desc{font-size:.72rem;color:var(--muted);margin-top:.1rem}
+.cgroup-join{background:#25d366;color:#fff;padding:5px 14px;border-radius:20px;font-size:.75rem;font-weight:700;text-decoration:none;white-space:nowrap}
+/* ── STUDY PARTNER ── */
+.partner-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:1.2rem;text-align:center}
 </style>
 </head>
 <body>
@@ -335,8 +349,8 @@ body{padding-bottom:68px}
   <button class="bnav-btn" id="bnav-practice" onclick="openFlow('practice')">
     <span class="bni">📚</span><span>Practice</span>
   </button>
-  <button class="bnav-btn" id="bnav-test" onclick="openFlow('timed')">
-    <span class="bni">⚡</span><span>Test</span>
+  <button class="bnav-btn" id="bnav-community" onclick="showScreen('community')">
+    <span class="bni">👥</span><span>Community</span>
   </button>
   <button class="bnav-btn" id="bnav-profile" onclick="showScreen('profile')">
     <span class="bni">👤</span><span>Profile</span>
@@ -385,7 +399,12 @@ body{padding-bottom:68px}
   <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Start Weekly Timed Test</button>
   <div id="upgrade-banner"></div>
 
-  <button class="share-btn" onclick="shareApp()">📤 Share App with Friends</button>
+  <!-- Home Footer Links -->
+  <div class="home-footer-links">
+    <button class="hfl-btn" onclick="showScreen('community')">👥 Study Community</button>
+    <button class="hfl-btn" onclick="showScreenPublic('contact')">📞 Contact Us</button>
+    <button class="hfl-btn" onclick="shareApp()">📤 Share</button>
+  </div>
 </div>
 
 <div id="screen-practice-lang" class="screen">
@@ -597,6 +616,76 @@ body{padding-bottom:68px}
   <div class="app-version">KARNAN · Empowering NEET UG Success · v1.0</div>
 </div>
 
+<!-- Community / Study Groups Screen -->
+<div id="screen-community" class="screen">
+  <div class="contact-hero" style="background:linear-gradient(135deg,#6C3CE1,#4527a0)">
+    <div style="font-size:2rem;margin-bottom:.4rem">👥</div>
+    <div style="font-size:1.2rem;font-weight:800">Study Community</div>
+    <div style="font-size:.82rem;opacity:.85;margin-top:.2rem">Learn together · Discuss · Grow</div>
+  </div>
+
+  <!-- Subject WhatsApp Groups -->
+  <div class="section-title">📚 Subject Discussion Groups</div>
+  <div class="community-groups">
+    <div class="cgroup-card" style="border-color:#3b82f6">
+      <div class="cgroup-icon" style="background:#dbeafe">⚛️</div>
+      <div class="cgroup-info">
+        <div class="cgroup-name">Physics Group</div>
+        <div class="cgroup-desc">Laws, numericals, concepts &amp; doubts</div>
+      </div>
+      <a href="https://wa.me/919XXXXXXXXX?text=Hi%2C%20I%20want%20to%20join%20the%20Physics%20discussion%20group" target="_blank" class="cgroup-join">Join →</a>
+    </div>
+    <div class="cgroup-card" style="border-color:#10b981">
+      <div class="cgroup-icon" style="background:#d1fae5">🧪</div>
+      <div class="cgroup-info">
+        <div class="cgroup-name">Chemistry Group</div>
+        <div class="cgroup-desc">Reactions, organic, inorganic &amp; more</div>
+      </div>
+      <a href="https://wa.me/919XXXXXXXXX?text=Hi%2C%20I%20want%20to%20join%20the%20Chemistry%20discussion%20group" target="_blank" class="cgroup-join">Join →</a>
+    </div>
+    <div class="cgroup-card" style="border-color:#ec4899">
+      <div class="cgroup-icon" style="background:#fce7f3">🧬</div>
+      <div class="cgroup-info">
+        <div class="cgroup-name">Biology Group</div>
+        <div class="cgroup-desc">Botany, zoology, diagrams &amp; tips</div>
+      </div>
+      <a href="https://wa.me/919XXXXXXXXX?text=Hi%2C%20I%20want%20to%20join%20the%20Biology%20discussion%20group" target="_blank" class="cgroup-join">Join →</a>
+    </div>
+    <div class="cgroup-card" style="border-color:#f59e0b">
+      <div class="cgroup-icon" style="background:#fef3c7">🏆</div>
+      <div class="cgroup-info">
+        <div class="cgroup-name">NEET General</div>
+        <div class="cgroup-desc">Strategy, motivation &amp; exam news</div>
+      </div>
+      <a href="https://wa.me/919XXXXXXXXX?text=Hi%2C%20I%20want%20to%20join%20the%20NEET%20general%20discussion%20group" target="_blank" class="cgroup-join">Join →</a>
+    </div>
+  </div>
+
+  <!-- Find a Study Partner -->
+  <div class="section-title" style="margin-top:1.25rem">🤝 Find a Study Partner</div>
+  <div class="partner-card">
+    <div style="font-size:1.4rem;margin-bottom:.5rem">🔍</div>
+    <div style="font-weight:700;font-size:.95rem;margin-bottom:.3rem">Connect with Peers</div>
+    <div style="font-size:.82rem;color:var(--muted);margin-bottom:1rem;line-height:1.5">Find a study buddy who matches your level and schedule. Study together, quiz each other, stay motivated.</div>
+    <a href="https://wa.me/919XXXXXXXXX?text=Hi%20KARNAN%20team%2C%20I%27m%20looking%20for%20a%20NEET%20study%20partner" target="_blank" class="training-cta">💬 Request a Study Partner</a>
+  </div>
+
+  <!-- Telegram Channel -->
+  <div class="section-title" style="margin-top:1.25rem">📢 Stay Updated</div>
+  <div class="contact-card">
+    <div class="contact-row">
+      <span class="contact-icon" style="background:#e3f2fd;font-size:1.4rem">✈️</span>
+      <div style="flex:1">
+        <div class="contact-label">Telegram Channel</div>
+        <div style="font-size:.85rem;font-weight:600;color:var(--muted)">Daily MCQs, tips &amp; NEET updates</div>
+      </div>
+      <a href="https://t.me/karnan_neet" target="_blank" style="background:#229ed9;color:#fff;padding:5px 14px;border-radius:20px;font-size:.78rem;font-weight:700;text-decoration:none">Join</a>
+    </div>
+  </div>
+
+  <button class="btn btn-outline btn-sm" onclick="goHome()" style="margin-top:.5rem">← Home</button>
+</div>
+
 <!-- Contact Us Screen -->
 <div id="screen-contact" class="screen">
   <div class="contact-hero">
@@ -682,6 +771,7 @@ body{padding-bottom:68px}
     <div class="auth-err" id="login-err"></div>
     <button class="btn btn-primary btn-block" onclick="handleLogin()" id="login-btn">Sign In</button>
     <div class="auth-switch">No account? <a onclick="showAuthScreen('register')">Create one free</a></div>
+    <div class="auth-switch" style="margin-top:.5rem">Trouble signing in? <a onclick="showScreenPublic('contact')">Contact Us</a></div>
   </div>
 </div>
 
@@ -699,6 +789,7 @@ body{padding-bottom:68px}
     <div class="auth-err" id="reg-err"></div>
     <button class="btn btn-primary btn-block" onclick="handleRegister()" id="reg-btn">Create Account</button>
     <div class="auth-switch">Already have one? <a onclick="showAuthScreen('login')">Sign in</a></div>
+    <div class="auth-switch" style="margin-top:.5rem">Need help? <a onclick="showScreenPublic('contact')">Contact Us</a></div>
   </div>
 </div>
 
@@ -925,12 +1016,18 @@ function showScreen(name) {
   if (name === 'home') { renderHomeStats(); updateUpgradeBanner(); }
   if (name === 'profile') renderProfileScreen();
   // bottom nav active state
-  ['home','practice','test','profile'].forEach(n => {
+  ['home','practice','community','profile'].forEach(n => {
     const btn = document.getElementById('bnav-' + n);
     if (btn) btn.classList.toggle('active', n === name);
   });
 }
 function goHome() { showScreen('home'); }
+// Show a screen without requiring auth (for contact, community)
+function showScreenPublic(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  const el = document.getElementById('screen-' + name);
+  if (el) { el.classList.add('active'); window.scrollTo(0,0); }
+}
 function confirmExit() { if (confirm('Exit quiz? Your progress will be lost.')) goHome(); }
 function confirmSubmit() { if (confirm('Submit the test now?')) finishTimedTest(); }
 
