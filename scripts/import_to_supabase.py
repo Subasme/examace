@@ -108,6 +108,7 @@ def main() -> int:
 
     if clear:
         print("Clearing existing data…")
+        # Delete all rows by matching on a column that every row has
         sb.table("questions").delete().gt("created_at", "2000-01-01").execute()
         sb.table("chapters").delete().neq("chapter_id", "").execute()
 
