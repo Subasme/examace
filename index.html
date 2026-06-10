@@ -730,12 +730,18 @@ function selectionLabel() {
   return [selection.language?.label, selection.standard?.label, selection.subject?.label, selection.chapter?.label].filter(Boolean).join(' · ');
 }
 
-function openFlow(mode) {
+async function openFlow(mode) {
   appMode = mode;
   selection = { language: null, standard: null, subject: null, chapter: null };
-  renderLangOptions();
   renderStepper(0);
   showScreen('practice-lang');
+  const el = document.getElementById('lang-options');
+  el.innerHTML = '<div class="info-box">Loading…</div>';
+  try { await loadManifest(); } catch(e) {
+    el.innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
+    return;
+  }
+  renderLangOptions();
 }
 
 function renderLangOptions() {
@@ -743,7 +749,7 @@ function renderLangOptions() {
   const icons = { English: '🌐', Tamil: '🇮🇳' };
   const el = document.getElementById('lang-options');
   if (!langs.length) {
-    el.innerHTML = '<div class="info-box">No questions loaded yet. Add Excel files to <b>source/</b> and rebuild.</div>';
+    el.innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
     return;
   }
   el.innerHTML = langs.map(l => `
