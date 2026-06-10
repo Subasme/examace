@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="ExamAce — NEET UG MCQ Practice & Weekly Timed Test Platform"/>
-<title>ExamAce — NEET UG Practice</title>
+<meta name="description" content="KARNAN — Empowering NEET UG Success"/>
+<title>KARNAN — Empowering NEET UG Success</title>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
@@ -232,8 +232,8 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 
 <nav>
   <div class="nav-logo" onclick="goHome()">
-    <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#6C3CE1"/><polygon points="16,7 17.5,12.5 23,12.5 18.5,16 20,22 16,18.5 12,22 13.5,16 9,12.5 14.5,12.5" fill="#F5B400"/></svg>
-    ExamAce
+    <img src="assets/logo.png" alt="KARNAN" style="height:36px;width:36px;object-fit:contain;border-radius:50%"/>
+    KARNAN
   </div>
   <div class="nav-right">
     <button class="nav-btn" onclick="showScreen('dashboard')">📊</button>
@@ -250,7 +250,8 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 
 <div id="screen-home" class="screen active">
   <div class="home-hero">
-    <h1>Crack NEET UG<br/><span>with Confidence</span></h1>
+    <img src="assets/logo.png" alt="KARNAN" style="height:80px;width:80px;object-fit:contain;border-radius:50%;margin-bottom:.75rem;box-shadow:0 4px 16px rgba(0,0,0,.12)"/>
+    <h1>KARNAN<br/><span>Empowering NEET UG Success</span></h1>
     <p>Chapter-wise practice + weekly timed tests. Track your progress and ace the exam.</p>
   </div>
   <div id="home-stats" class="home-stats"></div>
@@ -466,7 +467,7 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
     <div class="auth-logo">
       <svg width="48" height="48" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#6C3CE1"/><polygon points="16,7 17.5,12.5 23,12.5 18.5,16 20,22 16,18.5 12,22 13.5,16 9,12.5 14.5,12.5" fill="#F5B400"/></svg>
     </div>
-    <div class="auth-title">Welcome to ExamAce</div>
+    <div class="auth-title">Welcome to KARNAN</div>
     <div class="auth-sub">Sign in to track your NEET UG preparation</div>
     <div class="field"><label>Email</label><input type="email" id="login-email" placeholder="you@example.com" onkeydown="if(event.key==='Enter')handleLogin()"/></div>
     <div class="field"><label>Password</label><input type="password" id="login-password" placeholder="••••••••" onkeydown="if(event.key==='Enter')handleLogin()"/></div>
@@ -1299,8 +1300,8 @@ function renderHomeStats() {
 }
 
 function shareApp() {
-  const text = 'I am preparing for NEET UG using ExamAce. Try it here:\n' + location.href;
-  if (navigator.share) navigator.share({ title: 'ExamAce — NEET UG Practice', text, url: location.href }).catch(() => {});
+  const text = 'I am preparing for NEET UG using KARNAN. Try it here:\n' + location.href;
+  if (navigator.share) navigator.share({ title: 'KARNAN — Empowering NEET UG Success', text, url: location.href }).catch(() => {});
   else navigator.clipboard?.writeText(text).then(() => alert('Link copied!')).catch(() => prompt('Copy this link:', location.href));
 }
 
