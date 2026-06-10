@@ -700,7 +700,7 @@ function getTimeUntilMidnight() {
 }
 
 function showScreen(name) {
-  if (name === 'dashboard' && userPlan !== 'premium') { showUpgradePrompt('Full Dashboard & Insights'); return; }
+  // dashboard gate temporarily disabled for testing
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById('screen-' + name).classList.add('active');
   window.scrollTo(0, 0);
@@ -966,7 +966,7 @@ function selectDuration(s, ev) {
 }
 
 async function startTimedTest() {
-  if (userPlan !== 'premium') { showUpgradePrompt('Weekly Timed Test'); return; }
+  // plan gate temporarily disabled for testing
   const name = document.getElementById('timed-name').value.trim();
   if (!name) { document.getElementById('timed-err').style.display = 'block'; return; }
   document.getElementById('timed-err').style.display = 'none';
