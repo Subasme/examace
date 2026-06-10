@@ -226,57 +226,144 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 .upgrade-banner{background:linear-gradient(90deg,var(--purple),var(--purple-dark));color:#fff;border-radius:var(--radius-sm);padding:.75rem 1rem;margin-bottom:.85rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem}
 .upgrade-banner p{font-size:.82rem;margin:0;line-height:1.4}
 .upgrade-banner .ub-btn{background:#fff;color:var(--purple);font-size:.75rem;padding:5px 12px;border-radius:var(--radius-sm);border:none;font-family:'Sora',sans-serif;font-weight:700;cursor:pointer;white-space:nowrap;flex-shrink:0}
+/* ── BOTTOM NAV ── */
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--border);display:flex;z-index:300;height:60px}
+.bnav-btn{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border:none;background:none;cursor:pointer;color:var(--muted);font-size:.62rem;font-family:'DM Sans',sans-serif;transition:color .2s;padding:0}
+.bnav-btn .bni{font-size:1.3rem;line-height:1}
+.bnav-btn.active{color:#00897b}
+.bnav-btn.active .bni{transform:scale(1.1)}
+body{padding-bottom:68px}
+/* ── HOME REDESIGN ── */
+.home-greeting{padding:.25rem 0 1rem}
+.greeting-sub{color:var(--muted);font-size:.85rem;margin:0 0 .1rem}
+.greeting-title{font-size:1.45rem;font-weight:800;margin:0;color:var(--text)}
+.greeting-title span{color:#00897b}
+.daily-goal-card{background:linear-gradient(135deg,#00897b,#00695c);border-radius:14px;padding:1.1rem 1.2rem;display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;color:#fff}
+.dgc-left{flex:1}
+.dgc-label{font-size:.78rem;opacity:.85;margin-bottom:.25rem}
+.dgc-count{font-size:1.15rem;font-weight:800;margin-bottom:.5rem}
+.dgc-bar{height:5px;background:rgba(255,255,255,.3);border-radius:3px;overflow:hidden;margin-bottom:.35rem;max-width:200px}
+.dgc-fill{height:100%;background:#fff;border-radius:3px;transition:width .4s}
+.dgc-pct-txt{font-size:.75rem;opacity:.85}
+.dgc-circle{width:62px;height:62px;border-radius:50%;border:3px solid rgba(255,255,255,.4);display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:800;flex-shrink:0;margin-left:.75rem}
+/* ── STATS ROW ── */
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:.65rem;margin-bottom:1.1rem}
+.stat-box{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:.8rem .5rem;text-align:center}
+.stat-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;margin:0 auto .4rem}
+.stat-val{font-size:1.1rem;font-weight:800;color:var(--text)}
+.stat-val.red{color:#e53935}.stat-val.gold{color:#f59e0b}
+.stat-lbl{font-size:.68rem;color:var(--muted);margin-top:.1rem}
+/* ── QUICK PRACTICE ── */
+.section-title{font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;margin-bottom:.65rem;color:var(--text)}
+.qp-btn{width:100%;padding:1rem;background:#00897b;color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;cursor:pointer;text-align:left;display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem;transition:background .2s}
+.qp-btn:hover{background:#00695c}
+.qp-test-btn{width:100%;padding:.85rem;background:linear-gradient(90deg,#f59e0b,#d97706);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;margin-bottom:.75rem;transition:opacity .2s}
+.qp-test-btn:hover{opacity:.9}
+/* ── SUBJECT ICON CARDS ── */
+.subj-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:.5rem}
+.subj-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:1.1rem;cursor:pointer;transition:all .2s;position:relative;text-align:left}
+.subj-card:hover:not(.locked){border-color:#00897b;transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,137,123,.12)}
+.subj-card.locked{opacity:.75}
+.subj-icon-wrap{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:.7rem}
+.subj-card-name{font-weight:700;font-size:.95rem;margin-bottom:.2rem}
+.subj-plan-lbl{font-size:.72rem;font-weight:600}
+.subj-plan-lbl.free{color:#00897b}.subj-plan-lbl.premium{color:var(--gold)}
+.subj-lock{position:absolute;top:.7rem;right:.7rem;font-size:1rem}
+/* ── PROFILE SCREEN ── */
+.profile-top{background:linear-gradient(135deg,#00897b,#004d40);color:#fff;padding:2rem 1.5rem 1.5rem;text-align:center;border-radius:0 0 24px 24px;margin:-1.25rem -1rem 1.25rem}
+.profile-avatar-wrap{width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.2);border:3px solid rgba(255,255,255,.5);display:flex;align-items:center;justify-content:center;font-size:2rem;margin:0 auto .75rem}
+.profile-uname{font-size:1.25rem;font-weight:800;margin-bottom:.2rem}
+.profile-email-txt{font-size:.8rem;opacity:.8;margin-bottom:.65rem}
+.profile-plan-chip{display:inline-block;background:rgba(255,255,255,.2);border:1.5px solid rgba(255,255,255,.5);padding:3px 14px;border-radius:20px;font-size:.78rem;font-weight:700}
+.profile-plan-chip.premium{background:var(--gold);border-color:var(--gold);color:#1A1035}
+.pmenu{background:var(--card);border:1.5px solid var(--border);border-radius:14px;overflow:hidden;margin-bottom:1rem}
+.pmenu-item{display:flex;align-items:center;gap:.85rem;padding:.9rem 1rem;border-bottom:1px solid var(--border);cursor:pointer;transition:background .15s}
+.pmenu-item:last-child{border-bottom:none}
+.pmenu-item:hover{background:var(--bg)}
+.pmenu-item.danger:hover{background:#fff0f0}
+.pmenu-icon{font-size:1.2rem;width:28px;text-align:center}
+.pmenu-label{flex:1;font-size:.9rem;font-weight:500}
+.pmenu-arrow{color:var(--muted);font-size:1.1rem}
+.app-version{text-align:center;font-size:.72rem;color:var(--muted);margin-top:.5rem}
+/* ── PLAN SCREEN HERO ── */
+.plan-hero{background:linear-gradient(135deg,#f59e0b,#d97706);border-radius:14px;padding:1.5rem;text-align:center;color:#fff;margin-bottom:1.5rem}
+.plan-hero-icon{font-size:2.2rem;margin-bottom:.5rem}
+.plan-hero-title{font-size:1.3rem;font-weight:800;margin-bottom:.2rem}
+.plan-hero-sub{font-size:.85rem;opacity:.85}
 </style>
 </head>
 <body>
 
 <nav>
   <div class="nav-logo" onclick="goHome()">
-    <img src="assets/logo.png" alt="KARNAN" style="height:36px;width:36px;object-fit:contain;border-radius:50%"/>
+    <img src="assets/logo.png" alt="KARNAN" style="height:32px;width:32px;object-fit:contain;border-radius:50%"/>
     KARNAN
   </div>
   <div class="nav-right">
-    <button class="nav-btn" onclick="showScreen('dashboard')">📊</button>
-    <button class="nav-btn" onclick="showScreen('mistakes')">📌</button>
-    <button class="nav-btn" onclick="showScreen('leaderboard')">🏆</button>
-    <button class="nav-btn pill" onclick="shareApp()">📤 Share</button>
-    <div class="nav-user" id="nav-user">
-      <span class="nav-user-name" id="nav-user-name"></span>
+    <div class="nav-user" id="nav-user" style="display:flex">
       <span class="chip chip-purple" id="nav-plan-badge">Free</span>
-      <button class="nav-btn" onclick="handleLogout()" title="Sign out" style="padding:5px 8px">⏻</button>
     </div>
   </div>
 </nav>
 
+<!-- Bottom Navigation -->
+<div class="bottom-nav" id="bottom-nav" style="display:none">
+  <button class="bnav-btn active" id="bnav-home" onclick="goHome()">
+    <span class="bni">🏠</span><span>Home</span>
+  </button>
+  <button class="bnav-btn" id="bnav-practice" onclick="openFlow('practice')">
+    <span class="bni">📚</span><span>Practice</span>
+  </button>
+  <button class="bnav-btn" id="bnav-test" onclick="openFlow('timed')">
+    <span class="bni">⚡</span><span>Test</span>
+  </button>
+  <button class="bnav-btn" id="bnav-profile" onclick="showScreen('profile')">
+    <span class="bni">👤</span><span>Profile</span>
+  </button>
+</div>
+
 <div id="screen-home" class="screen active">
-  <div class="home-hero">
-    <img src="assets/logo.png" alt="KARNAN" style="height:120px;width:120px;object-fit:contain;border-radius:50%;margin-bottom:.75rem;box-shadow:0 4px 16px rgba(0,0,0,.12)"/>
-    <h1 style="color:#1A1035;font-size:2.1rem;font-weight:900;margin-bottom:.2rem;letter-spacing:1px">KARNAN</h1>
-    <p style="color:#6C3CE1;font-size:1rem;font-weight:700;margin-bottom:.5rem">Empowering NEET UG Success</p>
-    <p style="color:#6B6585;font-size:.88rem;max-width:380px;margin:0 auto">Chapter-wise practice + weekly timed tests. Track your progress and ace the exam.</p>
+  <div class="home-greeting">
+    <p class="greeting-sub">Ready to practice today?</p>
+    <h2 class="greeting-title">Hello, <span id="greeting-name">there</span>! 👋</h2>
   </div>
-  <div id="home-stats" class="home-stats"></div>
+
+  <!-- Daily Goal Card -->
+  <div class="daily-goal-card">
+    <div class="dgc-left">
+      <div class="dgc-label">Daily Goal</div>
+      <div class="dgc-count" id="dgc-count">0/20 Questions Today</div>
+      <div class="dgc-bar"><div class="dgc-fill" id="dgc-fill" style="width:0%"></div></div>
+      <div class="dgc-pct-txt" id="dgc-pct">0% completed</div>
+    </div>
+    <div class="dgc-circle" id="dgc-circle">0%</div>
+  </div>
+
+  <!-- Stats Row -->
+  <div class="stats-row">
+    <div class="stat-box">
+      <div class="stat-icon" style="background:#e0f2f1">📝</div>
+      <div class="stat-val" id="stat-attempted">0</div>
+      <div class="stat-lbl">Attempted</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon" style="background:#fce4ec">🎯</div>
+      <div class="stat-val red" id="stat-accuracy">0%</div>
+      <div class="stat-lbl">Accuracy</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon" style="background:#fff8e1">🔥</div>
+      <div class="stat-val gold" id="stat-streak">0</div>
+      <div class="stat-lbl">Streak</div>
+    </div>
+  </div>
+
+  <!-- Quick Practice -->
+  <div class="section-title">Quick Practice</div>
+  <button class="qp-btn" onclick="openFlow('practice')">▶&nbsp; Choose Subject &amp; Practice</button>
+  <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Start Weekly Timed Test</button>
   <div id="upgrade-banner"></div>
-  <div class="home-cards">
-    <div class="home-card" onclick="openFlow('practice')">
-      <div class="home-card-icon practice">📚</div>
-      <h3>Practice Mode</h3>
-      <p>Chapter-wise MCQs with instant feedback and detailed explanations.</p>
-      <div class="home-card-badges">
-        <span class="chip chip-purple">Class 11 &amp; 12</span>
-        <span class="chip chip-blue">20 Q/day/chapter</span>
-      </div>
-    </div>
-    <div class="home-card timed" onclick="openFlow('timed')">
-      <div class="home-card-icon timed">⭐</div>
-      <h3>Weekly Timed Test</h3>
-      <p>Train for NEET exam pressure. All chapters in one subject, timed.</p>
-      <div class="home-card-badges">
-        <span class="chip chip-gold">🧠 Brain Speed</span>
-        <span class="chip chip-gold">🌍 Global Rank</span>
-      </div>
-    </div>
-  </div>
+
   <button class="share-btn" onclick="shareApp()">📤 Share App with Friends</button>
 </div>
 
@@ -296,8 +383,8 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 
 <div id="screen-practice-subject" class="screen">
   <div class="stepper" id="stepper-subject"></div>
-  <div class="step-title">Select Subject</div>
-  <div class="option-grid three" id="subject-options"></div>
+  <div class="step-title">Choose Subject</div>
+  <div class="subj-grid" id="subject-options"></div>
   <div style="margin-top:1rem"><button class="btn btn-outline btn-sm" onclick="showScreen('practice-class')">← Back</button></div>
 </div>
 
@@ -450,6 +537,44 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
   <button class="btn btn-outline btn-sm" onclick="goHome()" style="margin-top:.75rem">← Home</button>
 </div>
 
+<!-- Profile Screen -->
+<div id="screen-profile" class="screen">
+  <div class="profile-top">
+    <div class="profile-avatar-wrap">👤</div>
+    <div class="profile-uname" id="profile-uname">User</div>
+    <div class="profile-email-txt" id="profile-email-txt"></div>
+    <span class="profile-plan-chip" id="profile-plan-chip">Free Plan</span>
+  </div>
+  <div class="pmenu">
+    <div class="pmenu-item" onclick="showScreen('dashboard')">
+      <span class="pmenu-icon">📊</span>
+      <span class="pmenu-label">My Performance</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item" onclick="showScreen('mistakes')">
+      <span class="pmenu-icon">📌</span>
+      <span class="pmenu-label">Bookmarks &amp; Mistakes</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item" onclick="showScreen('leaderboard')">
+      <span class="pmenu-icon">🏆</span>
+      <span class="pmenu-label">Leaderboard</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item" onclick="showUpgradePrompt('Premium Plan')">
+      <span class="pmenu-icon">⭐</span>
+      <span class="pmenu-label">Upgrade to Premium</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item danger" onclick="handleLogout()">
+      <span class="pmenu-icon">⏻</span>
+      <span class="pmenu-label">Logout</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+  </div>
+  <div class="app-version">KARNAN · Empowering NEET UG Success · v1.0</div>
+</div>
+
 <div id="screen-leaderboard" class="screen">
   <h2 style="font-size:1.2rem;margin-bottom:.4rem">🏆 Weekly Leaderboard</h2>
   <div class="week-label" id="lb-week"></div>
@@ -498,8 +623,11 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 <!-- ── PLAN Selection ── -->
 <div id="screen-plan" class="auth-wrap" style="display:none">
   <div class="auth-card" style="max-width:520px">
-    <div class="auth-title">Choose your plan</div>
-    <div class="auth-sub">You can always upgrade later from your profile</div>
+    <div class="plan-hero">
+      <div class="plan-hero-icon">🏆</div>
+      <div class="plan-hero-title">Choose Your Success Plan</div>
+      <div class="plan-hero-sub">All plans valid for lifetime · Upgrade anytime</div>
+    </div>
     <div class="plan-grid">
       <div class="plan-card selected" id="plan-free-card" onclick="selectPlan('free')">
         <div class="plan-name">Free</div>
@@ -706,7 +834,6 @@ function getTimeUntilMidnight() {
 }
 
 function showScreen(name) {
-  // dashboard gate temporarily disabled for testing
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById('screen-' + name).classList.add('active');
   window.scrollTo(0, 0);
@@ -714,6 +841,12 @@ function showScreen(name) {
   if (name === 'dashboard') renderDashboard();
   if (name === 'mistakes') renderMistakes();
   if (name === 'home') { renderHomeStats(); updateUpgradeBanner(); }
+  if (name === 'profile') renderProfileScreen();
+  // bottom nav active state
+  ['home','practice','test','profile'].forEach(n => {
+    const btn = document.getElementById('bnav-' + n);
+    if (btn) btn.classList.toggle('active', n === name);
+  });
 }
 function goHome() { showScreen('home'); }
 function confirmExit() { if (confirm('Exit quiz? Your progress will be lost.')) goHome(); }
@@ -795,17 +928,21 @@ function selectClass(stdId) {
 function renderSubjectOptions() {
   const subs = selection.standard?.subjects || [];
   const all = [
-    { id: 'physics', label: 'Physics', icon: '⚛️' },
-    { id: 'chemistry', label: 'Chemistry', icon: '🧪' },
-    { id: 'biology', label: 'Biology', icon: '🧬' }
+    { id: 'physics',   label: 'Physics',   icon: '⚛️', bg: '#dbeafe', isPremium: false },
+    { id: 'chemistry', label: 'Chemistry', icon: '🧪', bg: '#d1fae5', isPremium: false },
+    { id: 'biology',   label: 'Biology',   icon: '🧬', bg: '#fce7f3', isPremium: false }
   ];
   document.getElementById('subject-options').innerHTML = all.map(s => {
     const found = subs.find(x => x.id === s.id);
-    const disabled = !found;
-    return `<button class="sel-btn${disabled ? ' disabled' : ''}" ${disabled ? 'disabled' : `onclick="selectSubject('${s.id}')"`}>
-      <span>${s.icon}</span>${s.label}
-      ${found ? `<span style="margin-left:auto;font-size:.72rem;color:var(--muted)">${found.chapters.length} ch</span>` : '<span style="margin-left:auto;font-size:.72rem;color:var(--muted)">Soon</span>'}
-    </button>`;
+    const locked = !found;
+    const planLabel = locked ? 'Coming Soon' : (userPlan === 'premium' || !s.isPremium ? 'Free' : 'Premium');
+    const planClass = planLabel === 'Free' ? 'free' : (planLabel === 'Premium' ? 'premium' : 'free');
+    return `<div class="subj-card${locked ? ' locked' : ''}" ${locked ? '' : `onclick="selectSubject('${s.id}')"`}>
+      <div class="subj-icon-wrap" style="background:${s.bg}">${s.icon}</div>
+      <div class="subj-card-name">${s.label}</div>
+      <div class="subj-plan-lbl ${planClass}">${planLabel}${found ? ` · ${found.chapters.length} chapters` : ''}</div>
+      ${locked ? '<span class="subj-lock">🔒</span>' : ''}
+    </div>`;
   }).join('');
 }
 
@@ -1293,11 +1430,32 @@ function renderHomeStats() {
       }
     }
   } catch (e) {}
-  document.getElementById('home-stats').innerHTML = `
-    <div class="home-stat"><div class="sv">${total}</div><div class="sl">Total Questions</div></div>
-    <div class="home-stat"><div class="sv" style="color:var(--success)">${correct}</div><div class="sl">✅ Correct</div></div>
-    <div class="home-stat"><div class="sv">${acc}%</div><div class="sl">🎯 Accuracy</div></div>
-    <div class="home-stat"><div class="sv">${todayTotal}</div><div class="sl">📅 Today</div></div>`;
+  // streak: count consecutive days with activity from history
+  let streak = 0;
+  try {
+    const hist = (progress.history || []).map(h => h.date).filter(Boolean);
+    const daySet = new Set(hist);
+    const d = new Date(); d.setHours(0,0,0,0);
+    while (daySet.has(d.toISOString().split('T')[0])) { streak++; d.setDate(d.getDate()-1); }
+  } catch(e) {}
+  const goalMax = DAILY_LIMIT * 3;
+  const pct = Math.min(100, Math.round(todayTotal / goalMax * 100));
+  // daily goal card
+  const dgCount = document.getElementById('dgc-count');
+  const dgFill = document.getElementById('dgc-fill');
+  const dgPct = document.getElementById('dgc-pct');
+  const dgCircle = document.getElementById('dgc-circle');
+  if (dgCount) dgCount.textContent = `${todayTotal}/${goalMax} Questions Today`;
+  if (dgFill) dgFill.style.width = pct + '%';
+  if (dgPct) dgPct.textContent = pct + '% completed';
+  if (dgCircle) dgCircle.textContent = pct + '%';
+  // stats row
+  const sa = document.getElementById('stat-attempted');
+  const sac = document.getElementById('stat-accuracy');
+  const ss = document.getElementById('stat-streak');
+  if (sa) sa.textContent = total;
+  if (sac) sac.textContent = acc + '%';
+  if (ss) ss.textContent = streak;
 }
 
 function shareApp() {
@@ -1434,14 +1592,25 @@ async function initApp() {
 }
 
 function updateNavUser() {
-  const el = document.getElementById('nav-user');
-  if (!authUser) { el.style.display = 'none'; return; }
-  el.style.display = 'flex';
-  const name = authUser.user_metadata?.display_name || authUser.email?.split('@')[0] || 'User';
-  document.getElementById('nav-user-name').textContent = name;
+  const name = authUser ? (authUser.user_metadata?.display_name || authUser.email?.split('@')[0] || 'User') : null;
+  // bottom nav
+  const bnav = document.getElementById('bottom-nav');
+  if (bnav) bnav.style.display = authUser ? 'flex' : 'none';
+  // nav badge
   const badge = document.getElementById('nav-plan-badge');
-  badge.textContent = userPlan === 'premium' ? '⭐ Premium' : 'Free';
-  badge.className = userPlan === 'premium' ? 'chip chip-gold' : 'chip chip-purple';
+  if (badge) { badge.textContent = userPlan === 'premium' ? '⭐ Premium' : 'Free'; badge.className = userPlan === 'premium' ? 'chip chip-gold' : 'chip chip-purple'; }
+  // greeting
+  const greet = document.getElementById('greeting-name');
+  if (greet) greet.textContent = name || 'there';
+}
+
+function renderProfileScreen() {
+  const name = authUser ? (authUser.user_metadata?.display_name || authUser.email?.split('@')[0] || 'User') : 'User';
+  const email = authUser?.email || '';
+  const el = document.getElementById('profile-uname'); if (el) el.textContent = name;
+  const em = document.getElementById('profile-email-txt'); if (em) em.textContent = email;
+  const chip = document.getElementById('profile-plan-chip');
+  if (chip) { chip.textContent = userPlan === 'premium' ? '⭐ Premium' : 'Free Plan'; chip.className = userPlan === 'premium' ? 'profile-plan-chip premium' : 'profile-plan-chip'; }
 }
 
 function updateUpgradeBanner() {
