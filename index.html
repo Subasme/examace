@@ -86,10 +86,14 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 .sel-btn:hover{border-color:var(--purple);background:var(--purple-light)}
 .sel-btn.active{border-color:var(--purple);background:var(--purple-light);font-weight:600}
 .sel-btn.disabled{opacity:.45;cursor:not-allowed}
-.chapter-grid{display:grid;gap:.5rem}
-.chapter-btn{padding:.8rem 1rem;border:1.5px solid var(--border);border-radius:var(--radius-sm);background:var(--card);cursor:pointer;text-align:left;font-size:.88rem;transition:all .2s;display:flex;align-items:center;justify-content:space-between}
-.chapter-btn:hover:not(.done-today){border-color:var(--purple);background:var(--purple-light)}
-.chapter-btn.done-today{background:#f0fdf4;border-color:var(--success);cursor:default;opacity:.85}
+.chapter-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.65rem}
+.ch-card{display:flex;align-items:stretch;border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .15s,box-shadow .15s;text-align:left;background:none;padding:0;min-height:72px;border:none}
+.ch-card:hover:not([disabled]){transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.15)}
+.ch-card[disabled]{opacity:.72;cursor:default}
+.ch-card-body{flex:1;padding:.65rem .75rem;display:flex;flex-direction:column;justify-content:center}
+.ch-card-name{font-size:.82rem;font-weight:600;line-height:1.35;color:#1e293b}
+.ch-card-status{font-size:.68rem;margin-top:.25rem;font-weight:500}
+.ch-card-num{width:46px;flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:.65rem;text-transform:uppercase;letter-spacing:.4px;line-height:1.3;gap:1px}
 .daily-banner{background:linear-gradient(135deg,#edfaf4,#d1fae5);border:1.5px solid var(--success);border-radius:var(--radius-sm);padding:.85rem 1rem;margin-bottom:.85rem;display:flex;gap:.75rem}
 .daily-banner .db-text{font-size:.83rem;line-height:1.5}
 .daily-limit-bar{width:100%;height:5px;background:var(--border);border-radius:3px;margin-top:.4rem;overflow:hidden}
@@ -830,13 +834,33 @@ async function renderChapters() {
     <div class="db-text"><b>Daily Practice — ${DAILY_LIMIT} Questions Per Chapter</b><br/>
     ${done} of ${chaps.length} chapters done today · ${totalDoneQs} questions answered
     <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${Math.round(totalDoneQs / maxQs * 100)}%"></div></div></div></div>`;
+  const CHAP_COLORS = [
+    {bg:'#dbeafe',border:'#3b82f6',badge:'#2563eb'},
+    {bg:'#d1fae5',border:'#10b981',badge:'#059669'},
+    {bg:'#ede9fe',border:'#8b5cf6',badge:'#7c3aed'},
+    {bg:'#fef3c7',border:'#f59e0b',badge:'#d97706'},
+    {bg:'#fee2e2',border:'#ef4444',badge:'#dc2626'},
+    {bg:'#cffafe',border:'#06b6d4',badge:'#0891b2'},
+    {bg:'#ffedd5',border:'#f97316',badge:'#ea580c'},
+    {bg:'#e0e7ff',border:'#6366f1',badge:'#4f46e5'},
+  ];
   document.getElementById('chapter-list').innerHTML = chaps.map((c, i) => {
+    const col = CHAP_COLORS[i % CHAP_COLORS.length];
     const dayData = getDailyDone(c);
     const chapDone = dayData.count >= DAILY_LIMIT;
     const remaining = DAILY_LIMIT - dayData.count;
-    return `<button class="chapter-btn${chapDone ? ' done-today' : ''}" ${chapDone ? '' : `onclick="selectChapter('${c.id}')"`}>
-      <span>${i + 1}. ${c.label}</span>
-      <span class="daily-count ${chapDone ? 'done' : 'pending'}">${chapDone ? '✅ Done' : `📝 ${remaining} left`}</span>
+    const status = chapDone
+      ? `<span class="ch-card-status" style="color:#059669">✅ Done today</span>`
+      : `<span class="ch-card-status" style="color:#6b7280">📝 ${remaining} left</span>`;
+    return `<button class="ch-card" style="background:${col.bg};border:2px solid ${col.border}"
+      ${chapDone ? 'disabled' : `onclick="selectChapter('${c.id}')"`}>
+      <div class="ch-card-body">
+        <div class="ch-card-name">${c.label}</div>
+        ${status}
+      </div>
+      <div class="ch-card-num" style="background:${col.badge}">
+        <span>CH</span><span style="font-size:.95rem;font-weight:900">${i + 1}</span>
+      </div>
     </button>`;
   }).join('') || '<div class="info-box">No chapters available.</div>';
   document.getElementById('reset-note').textContent = `⏰ Resets at midnight · Next reset in ${getTimeUntilMidnight()}`;
