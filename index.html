@@ -608,7 +608,7 @@ async function loadManifest() {
   const { data, error } = await db.from('chapters')
     .select('language,standard,subject,chapter_id,chapter_label,question_count')
     .order('language').order('standard').order('subject').order('chapter_id');
-  if (error || !data?.length) throw new Error('Could not load question catalog');
+  if (error || !data?.length) throw new Error(error ? error.message : 'chapters table empty');
   manifest = { languages: [] };
   const li = {}, si = {}, oi = {};
   for (const r of data) {
@@ -738,7 +738,7 @@ async function openFlow(mode) {
   const el = document.getElementById('lang-options');
   el.innerHTML = '<div class="info-box">Loading…</div>';
   try { await loadManifest(); } catch(e) {
-    el.innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
+    el.innerHTML = `<div class="info-box">Could not load question catalog: ${e.message}</div>`;
     return;
   }
   renderLangOptions();
