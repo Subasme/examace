@@ -111,6 +111,13 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 .timer-pill{display:flex;align-items:center;gap:5px;background:var(--gold-light);border:1.5px solid var(--gold);border-radius:20px;padding:4px 12px;font-family:'Sora',sans-serif;font-weight:700;font-size:.9rem;color:#7a5200}
 .timer-pill.urgent{background:#fff0f0;border-color:var(--danger);color:var(--danger);animation:pulse .8s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
+.practice-mode-banner{background:linear-gradient(90deg,#edfaf4,#d0fbe8);border-left:4px solid var(--success);border-radius:var(--radius-sm);padding:.5rem .85rem;margin-bottom:.75rem;display:flex;align-items:center;justify-content:space-between;font-family:'Sora',sans-serif;font-size:.82rem;font-weight:700;color:#0d6e46}
+.practice-mode-banner .mode-sub{font-size:.74rem;font-weight:500;opacity:.75;max-width:55%;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.exam-mode-banner{background:linear-gradient(90deg,#fff0f0,#ffe4e4);border-left:4px solid var(--danger);border-radius:var(--radius-sm);padding:.5rem .85rem;margin-bottom:.75rem;display:flex;align-items:center;justify-content:space-between;font-family:'Sora',sans-serif;font-size:.82rem;font-weight:700;color:#b91c1c}
+.exam-mode-hint{font-size:.74rem;font-weight:500;opacity:.75}
+.progress-fill.teal{background:var(--success)}
+#screen-timed-quiz .quiz-topbar{background:#fffbea;border:1.5px solid #f5d9a0;border-radius:var(--radius-sm);padding:.5rem .75rem;margin-bottom:.5rem}
+#screen-timed-quiz .qnum-badge span{color:#b45309}
 .subject-chip{font-size:.72rem;font-weight:700;padding:3px 10px;border-radius:20px}
 .subj-phy{background:#eff6ff;color:#1d4ed8}.subj-che{background:#f0fdf4;color:#15803d}.subj-bio{background:#fdf4ff;color:#7e22ce}
 .question-box{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:1.35rem;margin-bottom:.85rem}
@@ -438,6 +445,10 @@ body{padding-bottom:68px}
 </div>
 
 <div id="screen-practice-quiz" class="screen">
+  <div class="practice-mode-banner">
+    <span>📚 Practice Mode</span>
+    <span class="mode-sub" id="pq-chapter-name"></span>
+  </div>
   <div class="quiz-topbar">
     <div class="quiz-meta">
       <div class="qnum-badge">Q <span id="pq-num">1</span>/<span id="pq-total">0</span></div>
@@ -445,7 +456,7 @@ body{padding-bottom:68px}
     </div>
     <button class="btn btn-outline btn-sm" onclick="confirmExit()">✕ Exit</button>
   </div>
-  <div class="progress-bar" style="margin-bottom:1rem"><div class="progress-fill" id="pq-progress"></div></div>
+  <div class="progress-bar" style="margin-bottom:1rem"><div class="progress-fill teal" id="pq-progress"></div></div>
   <div class="question-box">
     <div class="question-text" id="pq-question"></div>
     <div class="options-list" id="pq-options"></div>
@@ -503,6 +514,10 @@ body{padding-bottom:68px}
 </div>
 
 <div id="screen-timed-quiz" class="screen">
+  <div class="exam-mode-banner">
+    <span>⚡ Exam Mode</span>
+    <span class="exam-mode-hint">No explanations · Timed</span>
+  </div>
   <div class="quiz-topbar">
     <div class="quiz-meta">
       <div class="qnum-badge">Q <span id="tq-num">1</span>/<span id="tq-total">0</span></div>
@@ -1222,6 +1237,8 @@ function renderPracticeQ() {
   document.getElementById('pq-num').textContent = idx + 1;
   document.getElementById('pq-total').textContent = total;
   document.getElementById('pq-progress').style.width = ((idx + 1) / total * 100) + '%';
+  const chapEl = document.getElementById('pq-chapter-name');
+  if (chapEl) chapEl.textContent = selection.chapter?.label || q.chapter || '';
   const sc = document.getElementById('pq-subj-chip');
   sc.textContent = q.subject || selection.subject?.label || '';
   sc.className = 'subject-chip ' + subjClass(q.subject || selection.subject?.label);
