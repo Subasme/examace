@@ -499,7 +499,7 @@ body{padding-bottom:68px}
   </div>
   <div class="section-card">
     <h3>⏰ Resets At Midnight</h3>
-    <p style="font-size:.85rem;color:var(--muted);line-height:1.7">Every chapter gives you <b>20 new random questions</b> daily.<br/>Time until reset: <b id="time-until-reset" style="color:var(--purple)"></b></p>
+    <p style="font-size:.85rem;color:var(--muted);line-height:1.7">You've used your daily subject allowance of <b id="done-subject-limit">5 questions</b>.<br/>Time until reset: <b id="time-until-reset" style="color:var(--purple)"></b></p>
   </div>
   <div style="display:flex;gap:.6rem;flex-wrap:wrap">
     <button class="btn btn-primary" style="flex:1" onclick="showScreen('practice-chapter')">← Another Chapter</button>
@@ -510,28 +510,15 @@ body{padding-bottom:68px}
 <div id="screen-timed-setup" class="screen">
   <div class="card" style="margin-bottom:1rem;background:linear-gradient(135deg,#fffbea,#fff3c0);border-color:var(--gold)">
     <h2 style="font-size:1.3rem;font-weight:800;color:#7a5200;margin-bottom:.3rem">⭐ Weekly Timed Test</h2>
-    <p style="font-size:.85rem;color:#8a6200">🧠 Improve Brain Reaction Speed · Train for NEET Exam Pressure</p>
+    <p style="font-size:.85rem;color:#8a6200">🧠 Duration = Question count · Questions drawn from all subjects</p>
     <p class="selection-pill" id="timed-selection-label"></p>
   </div>
-  <div class="section-divider">Number of Questions</div>
-  <div class="option-grid" style="grid-template-columns:repeat(5,1fr);gap:.5rem" id="qcount-options">
-    <button class="sel-btn" style="justify-content:center;padding:.65rem" onclick="selectQCount(60,event)">60</button>
-    <button class="sel-btn" style="justify-content:center;padding:.65rem" onclick="selectQCount(90,event)">90</button>
-    <button class="sel-btn active" style="justify-content:center;padding:.65rem" onclick="selectQCount(180,event)">180</button>
-    <button class="sel-btn" style="justify-content:center;padding:.65rem" onclick="selectQCount(120,event)">120</button>
-    <button class="sel-btn" style="justify-content:center;padding:.65rem" onclick="selectQCount(150,event)">150</button>
-  </div>
-  <div class="section-divider">Duration</div>
-  <div class="option-grid two" id="duration-options">
-    <button class="sel-btn" onclick="selectDuration(3600,event)"><span>⏱</span>1 Hour</button>
-    <button class="sel-btn" onclick="selectDuration(7200,event)"><span>⏱</span>2 Hours</button>
-    <button class="sel-btn" onclick="selectDuration(10800,event)"><span>⏱</span>3 Hours</button>
-    <button class="sel-btn active" onclick="selectDuration(11700,event)"><span>⏱</span>3 Hrs 15 Min</button>
-  </div>
-  <div class="section-divider">Your Name</div>
-  <input class="name-input" id="timed-name" placeholder="Enter your name for the leaderboard…" style="width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none;background:var(--card);margin-bottom:.75rem"/>
+  <div class="section-divider">Select Duration</div>
+  <div id="timed-duration-options" style="display:flex;flex-direction:column;gap:.5rem"></div>
+  <div class="section-divider" style="margin-top:.75rem">Your Name</div>
+  <input id="timed-name" placeholder="Enter your name for the leaderboard…" style="width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none;background:var(--card);margin-bottom:.75rem"/>
   <div id="timed-err" style="color:var(--danger);font-size:.83rem;margin-bottom:.75rem;display:none">Please enter your name.</div>
-  <button class="btn btn-gold btn-block" onclick="startTimedTest()">🚀 Start Weekly Timed Test</button>
+  <button class="btn btn-gold btn-block" onclick="startTimedTest()">🚀 Start Timed Test</button>
   <div style="margin-top:.75rem"><button class="btn btn-outline btn-sm" onclick="showScreen('practice-subject')">← Back</button></div>
 </div>
 
@@ -660,6 +647,25 @@ body{padding-bottom:68px}
   <button class="btn btn-outline btn-sm" onclick="goHome()" style="margin-top:.75rem">← Home</button>
 </div>
 
+<!-- Admin Panel -->
+<div id="screen-admin" class="screen">
+  <h2 style="font-size:1.2rem;margin-bottom:1.25rem">⚙️ Admin Panel</h2>
+  <div class="section-card">
+    <h3 style="margin-bottom:1rem">Free Tier Limits</h3>
+    <div class="field">
+      <label>Daily question limit per subject (Free users)</label>
+      <input type="number" id="admin-daily-limit" min="1" max="100" value="5" style="width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none"/>
+    </div>
+    <div class="field">
+      <label>Max timed test duration for Free users (minutes)</label>
+      <input type="number" id="admin-max-duration" min="5" max="180" value="30" style="width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none"/>
+    </div>
+    <div id="admin-save-msg" style="font-size:.83rem;color:var(--success);margin-bottom:.5rem;display:none">✅ Saved successfully</div>
+    <button class="btn btn-primary btn-block" onclick="saveAdminConfig()">💾 Save Settings</button>
+  </div>
+  <button class="btn btn-outline btn-sm" onclick="showScreen('profile')" style="margin-top:.75rem">← Back to Profile</button>
+</div>
+
 <!-- Profile Screen -->
 <div id="screen-profile" class="screen">
   <div class="profile-top">
@@ -692,6 +698,11 @@ body{padding-bottom:68px}
     <div class="pmenu-item" onclick="showScreen('contact')">
       <span class="pmenu-icon">📞</span>
       <span class="pmenu-label">Contact Us</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item" id="admin-menu-item" style="display:none" onclick="showAdminPanel()">
+      <span class="pmenu-icon">⚙️</span>
+      <span class="pmenu-label">Admin Panel</span>
       <span class="pmenu-arrow">›</span>
     </div>
   </div>
@@ -884,16 +895,17 @@ body{padding-bottom:68px}
       <div class="plan-hero-title">Choose Your Success Plan</div>
       <div class="plan-hero-sub">All plans valid for lifetime · Upgrade anytime</div>
     </div>
-    <div class="plan-grid">
+    <div class="plan-grid" style="grid-template-columns:1fr">
       <div class="plan-card selected" id="plan-free-card" onclick="selectPlan('free')">
         <div class="plan-name">Free</div>
         <div class="plan-price">₹0 <span>/ forever</span></div>
         <ul class="plan-feat">
-          <li>Daily questions (5/day)</li>
-          <li>Weekly timed tests</li>
-          <li>Weekly grand test</li>
-          <li class="no">Flashcards</li>
+          <li>5 questions / subject / day</li>
+          <li>Timed tests ≤ 30 min</li>
+          <li>Mistake tracker</li>
+          <li class="no">Weekly grand test</li>
           <li class="no">Unlimited practice</li>
+          <li class="no">Flashcards</li>
           <li class="no">Study community</li>
         </ul>
       </div>
@@ -902,11 +914,21 @@ body{padding-bottom:68px}
         <div class="plan-name">Premium</div>
         <div class="plan-price">₹199 <span>/ month</span></div>
         <ul class="plan-feat">
-          <li>Daily questions (5/day)</li>
-          <li>Weekly timed &amp; grand tests</li>
+          <li>Unlimited daily practice</li>
+          <li>Full timed tests (15–180 min)</li>
+          <li>Weekly grand test</li>
           <li>Flashcards</li>
-          <li>Unlimited practice</li>
           <li>Study community</li>
+        </ul>
+      </div>
+      <div class="plan-card" id="plan-unlimited-card" onclick="selectPlan('unlimited')" style="border-color:#7c3aed;background:#faf5ff">
+        <div class="plan-badge" style="background:#7c3aed;color:#fff">UNLIMITED</div>
+        <div class="plan-name">Unlimited Pro</div>
+        <div class="plan-price">₹499 <span>/ month</span></div>
+        <ul class="plan-feat">
+          <li>Everything in Premium</li>
+          <li>Per-chapter pass / fail stats</li>
+          <li>Priority support</li>
         </ul>
       </div>
     </div>
@@ -934,8 +956,10 @@ body{padding-bottom:68px}
 // Paste your Supabase project URL and anon key here (Dashboard → Project Settings → API)
 const SUPABASE_URL = 'https://vtswgisxeylubvazcefe.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_lTpVWMDF42ocz84PXirWww_iVcNyeZ-';
-const FREE_DAILY_LIMIT = 5;
+let FREE_DAILY_LIMIT = 5;
 const PREMIUM_DAILY_LIMIT = 9999;
+const ADMIN_EMAIL = 'karnanphysics2026@gmail.com';
+let adminConfig = { free_daily_limit: 5, free_max_test_duration: 30 };
 const LETTERS = ['A','B','C','D'];
 
 const { createClient } = window.supabase;
@@ -973,7 +997,7 @@ async function syncProgressFromSupabase() {
       progress = { total: data.total, correct: data.correct, wrong: data.wrong, time: data.time_spent, subjects: data.subjects || {}, chapters: data.chapters || {}, history: data.history || [] };
       try { localStorage.setItem('examace_progress', JSON.stringify(progress)); } catch (e) {}
     }
-    const mistakeLimit = userPlan === 'premium' ? 200 : 20;
+    const mistakeLimit = (userPlan === 'premium' || userPlan === 'unlimited') ? 200 : 20;
     const { data: md } = await db.from('mistakes').select('question,options,correct,explanation,subject,chapter,your_answer,answered_at').eq('user_id', authUser.id).order('answered_at', { ascending: false }).limit(mistakeLimit);
     if (md) {
       mistakes = md.map(m => ({ question: m.question, options: m.options, correct: m.correct, explanation: m.explanation, subject: m.subject, chapter: m.chapter, date: new Date(m.answered_at).toLocaleDateString('en-GB'), yourAnswer: m.your_answer }));
@@ -1082,7 +1106,14 @@ async function preloadDailyData() {
     }
   } catch (e) {}
 }
-function isDailyComplete(chapter) { return getDailyDone(chapter).count >= DAILY_LIMIT; }
+function isDailyComplete(chapter) {
+  if (userPlan === 'premium' || userPlan === 'unlimited') return false;
+  return getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
+}
+function getSubjectDailyTotal() {
+  const chaps = selection.subject?.chapters || [];
+  return chaps.reduce((sum, c) => sum + (getDailyDone(c).count || 0), 0);
+}
 function getTimeUntilMidnight() {
   const now = new Date(), midnight = new Date(now);
   midnight.setHours(24, 0, 0, 0);
@@ -1136,6 +1167,8 @@ function selectionLabel() {
 }
 
 async function openFlow(mode) {
+  if (mode === 'grand' && userPlan === 'free') { showUpgradePrompt('Weekly Grand Test'); return; }
+  if (mode === 'flashcard' && userPlan === 'free') { showUpgradePrompt('Flashcards'); return; }
   appMode = mode;
   selection = { language: null, standard: null, subject: null, chapter: null };
   renderStepper(0);
@@ -1223,6 +1256,7 @@ function selectSubject(subjId) {
   selection.subject = selection.standard.subjects.find(s => s.id === subjId);
   if (appMode === 'timed') {
     document.getElementById('timed-selection-label').textContent = selectionLabel() + ` · ${selection.subject.totalQuestions || 0} questions available`;
+    renderTimedDurationOptions();
     renderStepper(3);
     showScreen('timed-setup');
     return;
@@ -1235,7 +1269,7 @@ function selectSubject(subjId) {
 async function renderChapters() {
   const chaps = selection.subject?.chapters || [];
   const subj = selection.subject.label;
-  const isPremium = userPlan === 'premium';
+  const isPremium = userPlan === 'premium' || userPlan === 'unlimited';
   document.getElementById('chapter-title').textContent = `${subj} — Select Chapter`;
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading chapters…</p></div>';
   await preloadDailyData();
@@ -1249,13 +1283,14 @@ async function renderChapters() {
       ${totalDoneQs} questions answered today · Keep pushing!
       <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${pct}%"></div></div></div></div>`;
   } else {
-    const done = chaps.filter(c => isDailyComplete(c)).length;
-    const maxQs = chaps.length * DAILY_LIMIT || 1;
+    const subjectTotal = getSubjectDailyTotal();
+    const subjectLimit = FREE_DAILY_LIMIT;
+    const pct = Math.min(100, Math.round(subjectTotal / subjectLimit * 100));
     document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
       <div style="font-size:1.4rem">📅</div>
-      <div class="db-text"><b>Daily Practice — ${DAILY_LIMIT} Questions Per Chapter</b><br/>
-      ${done} of ${chaps.length} chapters done today · ${totalDoneQs} questions answered
-      <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${Math.round(totalDoneQs / maxQs * 100)}%"></div></div></div></div>`;
+      <div class="db-text"><b>Daily Practice — ${subjectLimit} Questions Per Subject</b><br/>
+      ${subjectTotal} of ${subjectLimit} questions done today
+      <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${pct}%"></div></div></div></div>`;
   }
   const CHAP_COLORS = [
     {bg:'#dbeafe',border:'#3b82f6',badge:'#2563eb'},
@@ -1271,18 +1306,25 @@ async function renderChapters() {
     const col = CHAP_COLORS[i % CHAP_COLORS.length];
     const dayData = getDailyDone(c);
     let status;
-    if (isPremium) {
+    if (userPlan === 'unlimited') {
+      const chapStats = progress.chapters?.[c.label] || progress.chapters?.[c.id] || null;
+      const passed = chapStats?.correct || 0;
+      const failed = chapStats ? (chapStats.total - chapStats.correct) : 0;
+      status = chapStats
+        ? `<span class="ch-card-status"><span style="color:#059669">✓ ${passed} passed</span> · <span style="color:#e84545">✗ ${failed} failed</span></span>`
+        : `<span class="ch-card-status" style="color:#6b7280">▶ Practice Now</span>`;
+    } else if (isPremium) {
       status = dayData.count > 0
         ? `<span class="ch-card-status" style="color:#059669">✅ ${dayData.count} answered today</span>`
         : `<span class="ch-card-status" style="color:#6b7280">▶ Practice Now</span>`;
     } else {
-      const chapDone = dayData.count >= DAILY_LIMIT;
-      const remaining = DAILY_LIMIT - dayData.count;
-      status = chapDone
-        ? `<span class="ch-card-status" style="color:#059669">✅ Done today</span>`
-        : `<span class="ch-card-status" style="color:#6b7280">📝 ${remaining} left</span>`;
+      const subjectDone = getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
+      const subjectRemaining = Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
+      status = subjectDone
+        ? `<span class="ch-card-status" style="color:#059669">✅ Daily limit reached</span>`
+        : `<span class="ch-card-status" style="color:#6b7280">📝 ${subjectRemaining} left today</span>`;
     }
-    const chapDone = !isPremium && dayData.count >= DAILY_LIMIT;
+    const chapDone = userPlan === 'free' && getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
     return `<button class="ch-card" style="background:${col.bg};border:2px solid ${col.border}"
       ${chapDone ? 'disabled' : `onclick="selectChapter('${c.id}')"`}>
       <div class="ch-card-body">
@@ -1306,6 +1348,8 @@ async function selectChapter(chapterId) {
     document.getElementById('done-chapter').textContent = chapter.label;
     const limitEl = document.getElementById('done-limit');
     if (limitEl) limitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
+    const subLimitEl = document.getElementById('done-subject-limit');
+    if (subLimitEl) subLimitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
     updateResetTimer();
     showScreen('daily-done');
     return;
@@ -1316,9 +1360,9 @@ async function selectChapter(chapterId) {
     const dayData = getDailyDone(chapter);
     const seen = new Set(dayData.seen || []);
     const fresh = allQs.filter(q => !seen.has(qFingerprint(q)));
-    const isPremium = userPlan === 'premium';
-    const remaining = isPremium ? allQs.length : Math.max(0, DAILY_LIMIT - dayData.count);
-    const pool = isPremium ? allQs : (fresh.length >= remaining ? fresh : allQs);
+    const isPremiumOrUnlimited = userPlan === 'premium' || userPlan === 'unlimited';
+    const remaining = isPremiumOrUnlimited ? allQs.length : Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
+    const pool = isPremiumOrUnlimited ? allQs : (fresh.length >= remaining ? fresh : allQs);
     practiceState = { questions: shuffle(pool).slice(0, remaining), idx: 0, answers: {}, skipDaily: false, chapter };
     renderPracticeQ();
     showScreen('practice-quiz');
@@ -1495,10 +1539,12 @@ function answerPractice(i) {
 function practiceNav(dir) {
   const total = practiceState.questions.length;
   if (dir === 1 && practiceState.idx === total - 1) {
-    if (!practiceState.skipDaily && userPlan !== 'premium' && selection.chapter && isDailyComplete(selection.chapter)) {
+    if (!practiceState.skipDaily && userPlan !== 'premium' && userPlan !== 'unlimited' && selection.chapter && isDailyComplete(selection.chapter)) {
       document.getElementById('done-chapter').textContent = selection.chapter.label;
       const limitEl = document.getElementById('done-limit');
       if (limitEl) limitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
+      const subLimitEl = document.getElementById('done-subject-limit');
+      if (subLimitEl) subLimitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
       updateResetTimer();
       showScreen('daily-done');
     } else showScreen('practice-chapter');
@@ -1508,27 +1554,61 @@ function practiceNav(dir) {
   renderPracticeQ();
 }
 
-function selectQCount(n, ev) {
-  timedQCount = n;
-  document.querySelectorAll('#qcount-options .sel-btn').forEach(b => b.classList.remove('active'));
-  ev.target.classList.add('active');
+function renderTimedDurationOptions() {
+  const maxFree = adminConfig.free_max_test_duration;
+  const options = [
+    { mins: 15, label: '15 Minutes', sub: '15 Questions' },
+    { mins: 30, label: '30 Minutes', sub: '30 Questions' },
+    { mins: 45, label: '45 Minutes', sub: '45 Questions' },
+    { mins: 60, label: '1 Hour', sub: '60 Questions' },
+    { mins: 90, label: '1.5 Hours', sub: '90 Questions' },
+    { mins: 120, label: '2 Hours', sub: '120 Questions' },
+    { mins: 150, label: '2.5 Hours', sub: '150 Questions' },
+    { mins: 180, label: '3 Hours', sub: '180 Questions' },
+  ];
+  const isFree = userPlan === 'free';
+  // default select first allowed option
+  const firstAllowed = options.find(o => !isFree || o.mins <= maxFree);
+  if (firstAllowed) { timedQCount = firstAllowed.mins; timedDuration = firstAllowed.mins * 60; }
+  document.getElementById('timed-duration-options').innerHTML = options.map(o => {
+    const locked = isFree && o.mins > maxFree;
+    const isSelected = o.mins === timedQCount;
+    return `<button class="sel-btn${isSelected ? ' active' : ''}${locked ? ' disabled' : ''}"
+      style="display:flex;justify-content:space-between;align-items:center;padding:.75rem 1rem"
+      ${locked ? `onclick="showUpgradePrompt('Timed Tests > ${o.label}')"` : `onclick="pickTimedDuration(${o.mins},this)"`}>
+      <span>⏱ ${o.label}</span>
+      <span style="font-size:.8rem;opacity:.7">${locked ? '🔒 Premium' : o.sub}</span>
+    </button>`;
+  }).join('');
 }
-function selectDuration(s, ev) {
-  timedDuration = s;
-  document.querySelectorAll('#duration-options .sel-btn').forEach(b => b.classList.remove('active'));
-  ev.target.classList.add('active');
+function pickTimedDuration(mins, btn) {
+  timedQCount = mins;
+  timedDuration = mins * 60;
+  document.querySelectorAll('#timed-duration-options .sel-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
 }
 
 async function startTimedTest() {
-  // plan gate temporarily disabled for testing
   const name = document.getElementById('timed-name').value.trim();
   if (!name) { document.getElementById('timed-err').style.display = 'block'; return; }
   document.getElementById('timed-err').style.display = 'none';
   const btn = document.querySelector('#screen-timed-setup .btn-gold');
   btn.textContent = 'Loading questions…'; btn.disabled = true;
   try {
-    const allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label });
-    const qs = shuffle(allQs).slice(0, Math.min(timedQCount, allQs.length));
+    const subjects = selection.standard?.subjects || [];
+    let allQs = [];
+    if (subjects.length > 1) {
+      const results = await Promise.all(subjects.map(s =>
+        fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: s.label })
+      ));
+      const perSubj = Math.floor(timedQCount / subjects.length);
+      results.forEach((subQs, i) => {
+        allQs = allQs.concat(shuffle(subQs.map(q => ({ ...q, subject: subjects[i]?.label || q.subject }))).slice(0, perSubj));
+      });
+    } else {
+      allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label });
+    }
+    const qs = shuffle(allQs).slice(0, timedQCount);
     timedState = { questions: qs, idx: 0, answers: {}, marked: {}, secs: timedDuration, totalSecs: timedDuration, timer: null, start: Date.now(), name };
     document.getElementById('tq-total').textContent = qs.length;
     updateTimerDisplay();
@@ -1539,7 +1619,7 @@ async function startTimedTest() {
   } catch (e) {
     alert('Failed to load questions for timed test.');
   }
-  btn.textContent = '🚀 Start Weekly Timed Test'; btn.disabled = false;
+  btn.textContent = '🚀 Start Timed Test'; btn.disabled = false;
 }
 
 function updateTimerDisplay() {
@@ -1914,7 +1994,9 @@ function selectPlan(plan) {
   selectedPlan = plan;
   document.getElementById('plan-free-card').classList.toggle('selected', plan === 'free');
   document.getElementById('plan-premium-card').classList.toggle('selected', plan === 'premium');
-  document.getElementById('plan-btn').textContent = plan === 'premium' ? 'Get Premium →' : 'Continue with Free';
+  const unlimitedCard = document.getElementById('plan-unlimited-card');
+  if (unlimitedCard) unlimitedCard.classList.toggle('selected', plan === 'unlimited');
+  document.getElementById('plan-btn').textContent = plan === 'premium' ? 'Get Premium →' : (plan === 'unlimited' ? 'Get Unlimited Pro →' : 'Continue with Free');
 }
 
 async function confirmPlan() {
@@ -1922,7 +2004,7 @@ async function confirmPlan() {
   btn.disabled = true; btn.textContent = 'Saving…';
   try { await db.from('profiles').update({ plan: selectedPlan }).eq('id', authUser.id); } catch (e) {}
   userPlan = selectedPlan;
-  DAILY_LIMIT = userPlan === 'premium' ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
+  DAILY_LIMIT = (userPlan === 'premium' || userPlan === 'unlimited') ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   btn.disabled = false;
   await initApp();
 }
@@ -1974,14 +2056,53 @@ async function loadUserPlan() {
   try {
     const { data } = await db.from('profiles').select('plan,display_name').eq('id', authUser.id).single();
     userPlan = data?.plan || 'free';
-    DAILY_LIMIT = userPlan === 'premium' ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
+    DAILY_LIMIT = (userPlan === 'premium' || userPlan === 'unlimited') ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   } catch (e) { userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT; }
+}
+
+async function loadAdminConfig() {
+  try {
+    const { data } = await db.from('admin_config').select('key,value');
+    if (data) {
+      data.forEach(r => {
+        if (r.key === 'free_daily_limit') adminConfig.free_daily_limit = parseInt(r.value) || 5;
+        if (r.key === 'free_max_test_duration') adminConfig.free_max_test_duration = parseInt(r.value) || 30;
+      });
+      FREE_DAILY_LIMIT = adminConfig.free_daily_limit;
+      if (userPlan === 'free') DAILY_LIMIT = FREE_DAILY_LIMIT;
+    }
+  } catch(e) {}
+}
+
+async function saveAdminConfig() {
+  const limit = parseInt(document.getElementById('admin-daily-limit').value) || 5;
+  const maxDur = parseInt(document.getElementById('admin-max-duration').value) || 30;
+  try {
+    await db.from('admin_config').upsert([
+      { key: 'free_daily_limit', value: String(limit) },
+      { key: 'free_max_test_duration', value: String(maxDur) }
+    ]);
+    adminConfig.free_daily_limit = limit;
+    adminConfig.free_max_test_duration = maxDur;
+    FREE_DAILY_LIMIT = limit;
+    if (userPlan === 'free') DAILY_LIMIT = FREE_DAILY_LIMIT;
+    const msg = document.getElementById('admin-save-msg');
+    msg.style.display = 'block';
+    setTimeout(() => msg.style.display = 'none', 3000);
+  } catch(e) { alert('Failed to save: ' + e.message); }
+}
+
+function showAdminPanel() {
+  document.getElementById('admin-daily-limit').value = adminConfig.free_daily_limit;
+  document.getElementById('admin-max-duration').value = adminConfig.free_max_test_duration;
+  showScreen('admin');
 }
 
 async function initApp() {
   document.getElementById('screen-auth-login').style.display = 'none';
   document.getElementById('screen-auth-register').style.display = 'none';
   document.getElementById('screen-plan').style.display = 'none';
+  await loadAdminConfig();
   loadStorageSync();
   syncProgressFromSupabase().catch(() => {});
   updateNavUser();
@@ -2000,7 +2121,7 @@ function updateNavUser() {
   if (bnav) bnav.style.display = authUser ? 'flex' : 'none';
   // nav badge
   const badge = document.getElementById('nav-plan-badge');
-  if (badge) { badge.textContent = userPlan === 'premium' ? '⭐ Premium' : 'Free'; badge.className = userPlan === 'premium' ? 'chip chip-gold' : 'chip chip-purple'; }
+  if (badge) { badge.textContent = userPlan === 'premium' ? '⭐ Premium' : (userPlan === 'unlimited' ? '🚀 Unlimited' : 'Free'); badge.className = (userPlan === 'premium' || userPlan === 'unlimited') ? 'chip chip-gold' : 'chip chip-purple'; }
   // greeting
   const greet = document.getElementById('greeting-name');
   if (greet) greet.textContent = name || 'there';
@@ -2012,13 +2133,15 @@ function renderProfileScreen() {
   const el = document.getElementById('profile-uname'); if (el) el.textContent = name;
   const em = document.getElementById('profile-email-txt'); if (em) em.textContent = email;
   const chip = document.getElementById('profile-plan-chip');
-  if (chip) { chip.textContent = userPlan === 'premium' ? '⭐ Premium' : 'Free Plan'; chip.className = userPlan === 'premium' ? 'profile-plan-chip premium' : 'profile-plan-chip'; }
+  if (chip) { chip.textContent = userPlan === 'premium' ? '⭐ Premium' : (userPlan === 'unlimited' ? '🚀 Unlimited' : 'Free Plan'); chip.className = (userPlan === 'premium' || userPlan === 'unlimited') ? 'profile-plan-chip premium' : 'profile-plan-chip'; }
+  const adminItem = document.getElementById('admin-menu-item');
+  if (adminItem) adminItem.style.display = authUser?.email === ADMIN_EMAIL ? 'flex' : 'none';
 }
 
 function updateUpgradeBanner() {
   const el = document.getElementById('upgrade-banner');
   if (!el) return;
-  if (userPlan !== 'premium') {
+  if (userPlan !== 'premium' && userPlan !== 'unlimited') {
     el.innerHTML = `<div class="upgrade-banner"><p><b>⭐ Go Premium</b> — unlock flashcards, unlimited practice &amp; study community</p><button class="ub-btn" onclick="showUpgradePrompt('Premium Plan')">Upgrade</button></div>`;
   } else {
     el.innerHTML = '';
