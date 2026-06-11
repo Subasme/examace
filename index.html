@@ -1235,17 +1235,28 @@ function selectSubject(subjId) {
 async function renderChapters() {
   const chaps = selection.subject?.chapters || [];
   const subj = selection.subject.label;
+  const isPremium = userPlan === 'premium';
   document.getElementById('chapter-title').textContent = `${subj} — Select Chapter`;
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading chapters…</p></div>';
   await preloadDailyData();
-  const done = chaps.filter(c => isDailyComplete(c)).length;
   const totalDoneQs = chaps.reduce((sum, c) => sum + getDailyDone(c).count, 0);
-  const maxQs = chaps.length * DAILY_LIMIT || 1;
-  document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
-    <div style="font-size:1.4rem">📅</div>
-    <div class="db-text"><b>Daily Practice — ${DAILY_LIMIT} Questions Per Chapter</b><br/>
-    ${done} of ${chaps.length} chapters done today · ${totalDoneQs} questions answered
-    <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${Math.round(totalDoneQs / maxQs * 100)}%"></div></div></div></div>`;
+  if (isPremium) {
+    const DAILY_GOAL = 20;
+    const pct = Math.min(100, Math.round(totalDoneQs / DAILY_GOAL * 100));
+    document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
+      <div style="font-size:1.4rem">🌟</div>
+      <div class="db-text"><b>Unlimited Practice</b><br/>
+      ${totalDoneQs} questions answered today · Keep pushing!
+      <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${pct}%"></div></div></div></div>`;
+  } else {
+    const done = chaps.filter(c => isDailyComplete(c)).length;
+    const maxQs = chaps.length * DAILY_LIMIT || 1;
+    document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
+      <div style="font-size:1.4rem">📅</div>
+      <div class="db-text"><b>Daily Practice — ${DAILY_LIMIT} Questions Per Chapter</b><br/>
+      ${done} of ${chaps.length} chapters done today · ${totalDoneQs} questions answered
+      <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${Math.round(totalDoneQs / maxQs * 100)}%"></div></div></div></div>`;
+  }
   const CHAP_COLORS = [
     {bg:'#dbeafe',border:'#3b82f6',badge:'#2563eb'},
     {bg:'#d1fae5',border:'#10b981',badge:'#059669'},
@@ -1259,11 +1270,19 @@ async function renderChapters() {
   document.getElementById('chapter-list').innerHTML = chaps.map((c, i) => {
     const col = CHAP_COLORS[i % CHAP_COLORS.length];
     const dayData = getDailyDone(c);
-    const chapDone = dayData.count >= DAILY_LIMIT;
-    const remaining = DAILY_LIMIT - dayData.count;
-    const status = chapDone
-      ? `<span class="ch-card-status" style="color:#059669">✅ Done today</span>`
-      : `<span class="ch-card-status" style="color:#6b7280">📝 ${remaining} left</span>`;
+    let status;
+    if (isPremium) {
+      status = dayData.count > 0
+        ? `<span class="ch-card-status" style="color:#059669">✅ ${dayData.count} answered today</span>`
+        : `<span class="ch-card-status" style="color:#6b7280">▶ Practice Now</span>`;
+    } else {
+      const chapDone = dayData.count >= DAILY_LIMIT;
+      const remaining = DAILY_LIMIT - dayData.count;
+      status = chapDone
+        ? `<span class="ch-card-status" style="color:#059669">✅ Done today</span>`
+        : `<span class="ch-card-status" style="color:#6b7280">📝 ${remaining} left</span>`;
+    }
+    const chapDone = !isPremium && dayData.count >= DAILY_LIMIT;
     return `<button class="ch-card" style="background:${col.bg};border:2px solid ${col.border}"
       ${chapDone ? 'disabled' : `onclick="selectChapter('${c.id}')"`}>
       <div class="ch-card-body">
@@ -1275,7 +1294,7 @@ async function renderChapters() {
       </div>
     </button>`;
   }).join('') || '<div class="info-box">No chapters available.</div>';
-  document.getElementById('reset-note').textContent = `⏰ Resets at midnight · Next reset in ${getTimeUntilMidnight()}`;
+  document.getElementById('reset-note').textContent = isPremium ? '' : `⏰ Resets at midnight · Next reset in ${getTimeUntilMidnight()}`;
 }
 
 async function selectChapter(chapterId) {
