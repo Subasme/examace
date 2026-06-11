@@ -285,15 +285,27 @@ body{padding-bottom:68px}
 .pf-card{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:.9rem .5rem;text-align:center;cursor:pointer;font-family:'Sora',sans-serif;font-size:.78rem;font-weight:700;transition:all .2s;position:relative}
 .pf-card:hover{border-color:var(--purple);background:var(--purple-light)}
 .pf-badge{display:block;font-size:.62rem;font-weight:700;color:var(--gold);margin-top:.2rem;letter-spacing:.04em}
-.flashcard-wrap{background:var(--card);border:2px solid var(--border);border-radius:var(--radius);padding:1.5rem;min-height:180px;cursor:pointer;display:flex;flex-direction:column;justify-content:center;text-align:center;margin-bottom:.85rem;transition:box-shadow .2s;user-select:none}
-.flashcard-wrap:active{box-shadow:inset 0 0 0 2px var(--purple)}
-.fc-face{width:100%}
+/* ── FLASHCARD REDESIGN ── */
+.flashcard-wrap{background:var(--card);border:1.5px solid var(--border);border-radius:20px;padding:1.75rem 1.5rem 1.25rem;min-height:400px;cursor:pointer;display:flex;flex-direction:column;text-align:center;margin-bottom:1rem;transition:box-shadow .2s,transform .1s;user-select:none;box-shadow:0 4px 20px rgba(0,0,0,.07)}
+.flashcard-wrap:active{transform:scale(.99);box-shadow:0 2px 10px rgba(108,60,225,.15)}
+.fc-face{display:flex;flex-direction:column;align-items:center;flex:1;width:100%}
 .fc-face.hidden{display:none}
-.fc-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.5;margin-bottom:.75rem}
-.fc-content{font-size:.95rem;font-weight:500;line-height:1.6}
-.fc-answer-text{font-size:1rem;font-weight:700;color:var(--success);margin-bottom:.5rem;font-family:'Sora',sans-serif}
-.fc-exp-text{font-size:.82rem;color:var(--muted);line-height:1.5;margin-top:.4rem}
-.flashcard-back{background:var(--purple-light)}
+.fc-type-label{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--purple);margin-bottom:.3rem}
+.fc-breadcrumb{font-size:.8rem;font-weight:600;color:var(--purple);opacity:.75;margin-bottom:1.5rem}
+.fc-content{flex:1;display:flex;align-items:center;justify-content:center;font-size:1.05rem;font-weight:500;line-height:1.65;color:var(--text);padding:.5rem 0;width:100%}
+.fc-reveal-hint{font-size:.75rem;color:var(--muted);margin-top:.75rem;padding-top:.5rem;border-top:1px solid var(--border);width:100%}
+.fc-answer-text{font-size:1.05rem;font-weight:700;color:var(--success);margin-bottom:.85rem;font-family:'Sora',sans-serif;line-height:1.5;text-align:center}
+.fc-tip-box{border-radius:10px;padding:.75rem 1rem;margin-bottom:.6rem;text-align:left;width:100%}
+.fc-tip-box.exam-tip{background:#fff8ed;border:1.5px solid #fcd34d}
+.fc-tip-title{font-size:.68rem;font-weight:700;margin-bottom:.3rem;text-transform:uppercase;letter-spacing:.05em}
+.fc-tip-box.exam-tip .fc-tip-title{color:#b45309}
+.fc-tip-content{font-size:.82rem;line-height:1.55;color:#92400e}
+.fc-header-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:.75rem}
+.fc-nav-pill{display:flex;align-items:center;background:var(--bg);border:1.5px solid var(--border);border-radius:24px;overflow:hidden}
+.fc-nav-pill button{border:none;background:none;padding:7px 14px;font-size:1.1rem;cursor:pointer;color:var(--muted);transition:background .18s;line-height:1}
+.fc-nav-pill button:disabled{opacity:.3;cursor:default}
+.fc-nav-pill button:not(:disabled):hover{background:var(--purple-light);color:var(--purple)}
+.fc-nav-pill span{font-size:.85rem;font-weight:700;color:var(--text);padding:0 4px;font-family:'Sora',sans-serif;min-width:54px;text-align:center}
 /* ── SUBJECT ICON CARDS ── */
 .subj-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:.5rem}
 .subj-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:1.1rem;cursor:pointer;transition:all .2s;position:relative;text-align:left}
@@ -350,6 +362,40 @@ body{padding-bottom:68px}
 .home-footer-links{display:flex;gap:.5rem;margin-top:.85rem;justify-content:center;flex-wrap:wrap}
 .hfl-btn{padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:var(--card);font-family:'DM Sans',sans-serif;font-size:.78rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .2s}
 .hfl-btn:hover{border-color:#00897b;color:#00897b}
+/* ── T/F QUIZ ── */
+.tf-tabs{display:flex;gap:0;margin-bottom:1rem}
+.tf-tab{flex:1;padding:9px 12px;text-align:center;font-family:'Sora',sans-serif;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--border);background:none;color:var(--muted);transition:all .2s}
+.tf-tab:first-child{border-radius:10px 0 0 10px}
+.tf-tab:last-child{border-radius:0 10px 10px 0;border-left:none}
+.tf-tab.active{background:#00897b;color:#fff;border-color:#00897b}
+.tf-card{background:var(--card);border:1.5px solid var(--border);border-radius:20px;padding:1.75rem 1.5rem 1.25rem;min-height:400px;display:flex;flex-direction:column;margin-bottom:1rem;box-shadow:0 4px 20px rgba(0,0,0,.07)}
+.tf-qnum{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--purple);text-align:center;margin-bottom:.3rem}
+.tf-topic{font-size:.8rem;font-weight:600;color:var(--purple);opacity:.75;text-align:center;margin-bottom:1.25rem}
+.tf-statement{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.5rem 0;width:100%;text-align:center}
+.tf-statement-q{font-size:.9rem;font-weight:500;line-height:1.6;color:var(--muted);margin-bottom:.85rem}
+.tf-statement-opt{background:var(--purple-light);border:1.5px solid #c4b5fd;border-radius:10px;padding:.85rem 1rem;font-size:1rem;font-weight:700;color:var(--purple-dark);line-height:1.5;width:100%}
+.tf-btns{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-top:.85rem}
+.tf-btn{padding:14px;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.95rem;font-weight:800;cursor:pointer;letter-spacing:.04em;transition:opacity .2s;color:#fff}
+.tf-btn:hover:not(:disabled){opacity:.85}
+.tf-btn:disabled{opacity:.5;cursor:default}
+.tf-btn.t{background:#e53935}.tf-btn.f{background:#1db87a}
+.tf-feedback{border-radius:10px;padding:.85rem 1rem;margin-top:.75rem;font-size:.86rem;line-height:1.55;display:none}
+.tf-feedback.ok{background:#edfaf4;border-left:3px solid var(--success)}
+.tf-feedback.bad{background:#fff0f0;border-left:3px solid var(--danger)}
+.tf-feedback-lbl{font-weight:700;font-size:.9rem;margin-bottom:.4rem}
+.tf-next-btn{width:100%;padding:13px;background:var(--purple);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-weight:700;font-size:.95rem;cursor:pointer;margin-top:.75rem;display:none}
+.tf-next-btn:hover{opacity:.88}
+/* ── EXAMPLE BOX ── */
+.fc-tip-box.example{background:#eff6ff;border:1.5px solid #bfdbfe}
+.fc-tip-box.example .fc-tip-title{color:#1d4ed8}
+.fc-tip-box.example .fc-tip-content{color:#1e40af}
+/* ── EXAM TIPS SCREEN ── */
+.exam-tips-section{margin-bottom:1.5rem}
+.exam-tips-section h3{font-size:.95rem;font-weight:700;margin-bottom:.85rem;display:flex;align-items:center;gap:.5rem}
+.eti{display:flex;gap:.85rem;margin-bottom:.85rem;align-items:flex-start}
+.eti-num{width:28px;height:28px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:800;color:#fff;margin-top:.1rem}
+.eti-num.do{background:var(--success)}.eti-num.dont{background:var(--danger)}.eti-num.tip{background:var(--purple)}
+.eti-text{font-size:.87rem;line-height:1.6;color:var(--text)}
 /* ── COMMUNITY GROUPS ── */
 .community-groups{display:flex;flex-direction:column;gap:.65rem}
 .cgroup-card{display:flex;align-items:center;gap:.8rem;background:var(--card);border:2px solid var(--border);border-radius:12px;padding:.85rem}
@@ -418,8 +464,8 @@ body{padding-bottom:68px}
     </div>
     <div class="stat-box">
       <div class="stat-icon" style="background:#fce4ec">🎯</div>
-      <div class="stat-val" id="stat-accuracy" style="font-size:.78rem;font-weight:800">🚀 Start!</div>
-      <div class="stat-lbl" id="stat-accuracy-lbl">Performance</div>
+      <div class="stat-val" id="stat-accuracy">–</div>
+      <div class="stat-lbl" id="stat-accuracy-lbl">Accuracy</div>
     </div>
     <div class="stat-box">
       <div class="stat-icon" style="background:#fff8e1">🔥</div>
@@ -443,6 +489,7 @@ body{padding-bottom:68px}
   <!-- Home Footer Links -->
   <div class="home-footer-links">
     <button class="hfl-btn" onclick="showCommunity()">👥 Study Community</button>
+    <button class="hfl-btn" onclick="showScreen('exam-tips')">📋 Exam Tips</button>
     <button class="hfl-btn" onclick="showScreenPublic('contact')">📞 Contact Us</button>
     <button class="hfl-btn" onclick="shareApp()">📤 Share</button>
   </div>
@@ -549,34 +596,72 @@ body{padding-bottom:68px}
 </div>
 
 <div id="screen-flashcard" class="screen">
-  <div class="practice-mode-banner" style="background:linear-gradient(90deg,#ede9fb,#ddd6fe);border-left-color:var(--purple);color:var(--purple-dark)">
-    <span>🃏 Flashcard Mode</span>
-    <span class="mode-sub" id="fc-chapter-name"></span>
+  <!-- Tab switcher -->
+  <div class="tf-tabs" id="fc-tabs">
+    <button class="tf-tab active" id="fc-tab-flashcard" onclick="switchFlashcardTab('flashcard')">🃏 Flashcards</button>
+    <button class="tf-tab" id="fc-tab-truefalse" onclick="switchFlashcardTab('truefalse')">✅ True / False</button>
   </div>
-  <div class="quiz-topbar">
-    <div class="quiz-meta">
-      <div class="qnum-badge">Card <span id="fc-num">1</span>/<span id="fc-total">0</span></div>
-      <span id="fc-subj-chip" class="subject-chip subj-phy"></span>
-    </div>
+
+  <!-- Flashcard section -->
+  <div id="fc-flashcard-section">
+  <div class="fc-header-bar">
     <button class="btn btn-outline btn-sm" onclick="confirmExit()">✕ Exit</button>
+    <div class="fc-nav-pill">
+      <button id="fc-prev" onclick="flashcardNav(-1)">‹</button>
+      <span><span id="fc-num">1</span> / <span id="fc-total">0</span></span>
+      <button id="fc-next" onclick="flashcardNav(1)">›</button>
+    </div>
+    <span id="fc-subj-chip" class="subject-chip subj-phy"></span>
   </div>
   <div class="progress-bar" style="margin-bottom:1rem"><div class="progress-fill" style="background:var(--purple)" id="fc-progress"></div></div>
   <div class="flashcard-wrap" onclick="flipCard()">
     <div class="fc-face" id="fc-front">
-      <div class="fc-label">Question — tap to reveal answer</div>
+      <div class="fc-type-label">Question</div>
+      <div class="fc-breadcrumb" id="fc-breadcrumb"></div>
       <div class="fc-content" id="fc-question"></div>
+      <div class="fc-reveal-hint">Click card to reveal answer</div>
     </div>
-    <div class="fc-face hidden flashcard-back" id="fc-back">
-      <div class="fc-label" style="color:var(--purple);opacity:.8">Answer</div>
+    <div class="fc-face hidden" id="fc-back">
+      <div class="fc-type-label" style="color:var(--success)">Answer</div>
+      <div class="fc-breadcrumb" style="color:var(--success)" id="fc-breadcrumb-back"></div>
       <div class="fc-answer-text" id="fc-answer"></div>
-      <div class="fc-exp-text" id="fc-exp"></div>
-      <div style="font-size:.72rem;color:var(--muted);margin-top:.75rem">Tap to flip back</div>
+      <div class="fc-tip-box example">
+        <div class="fc-tip-title" style="color:#1d4ed8">Example</div>
+        <div class="fc-tip-content" style="color:#1e40af" id="fc-example-text"></div>
+      </div>
+      <div class="fc-tip-box exam-tip" id="fc-tip-wrap" style="display:none">
+        <div class="fc-tip-title">Exam Tip</div>
+        <div class="fc-tip-content" id="fc-exp"></div>
+      </div>
+      <div class="fc-reveal-hint">Tap to see question</div>
     </div>
   </div>
-  <div class="quiz-nav">
-    <button class="btn btn-outline btn-sm" id="fc-prev" onclick="flashcardNav(-1)">← Prev</button>
-    <button class="btn btn-outline btn-sm" onclick="flipCard()">🔄 Flip</button>
-    <button class="btn btn-primary btn-sm" id="fc-next" onclick="flashcardNav(1)">Next →</button>
+</div>
+
+  <!-- True/False section -->
+  <div id="fc-truefalse-section" style="display:none">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.75rem">
+      <span style="font-size:1rem;font-weight:700">True / False Quiz</span>
+      <span style="font-size:.9rem;font-weight:700;color:var(--purple)">Score: <span id="tf-score">0</span></span>
+    </div>
+    <div class="tf-card">
+      <div class="tf-qnum" id="tf-qnum">QUESTION 1 OF 1</div>
+      <div class="tf-topic" id="tf-topic"></div>
+      <div class="tf-statement">
+        <div class="tf-statement-q" id="tf-stmt-q"></div>
+        <div class="tf-statement-opt" id="tf-stmt-opt"></div>
+      </div>
+      <div class="tf-btns">
+        <button class="tf-btn t" id="tf-btn-true" onclick="answerTF(true)">TRUE</button>
+        <button class="tf-btn f" id="tf-btn-false" onclick="answerTF(false)">FALSE</button>
+      </div>
+      <div class="tf-feedback" id="tf-feedback">
+        <div class="tf-feedback-lbl" id="tf-feedback-lbl"></div>
+        <div id="tf-feedback-body"></div>
+      </div>
+      <button class="tf-next-btn" id="tf-next-btn" onclick="nextTF()">Next Question →</button>
+    </div>
+    <button class="btn btn-outline btn-sm" style="width:100%;justify-content:center" onclick="confirmExit()">Exit</button>
   </div>
 </div>
 
@@ -862,6 +947,47 @@ body{padding-bottom:68px}
   </div>
   <div id="lb-content"></div>
   <button class="btn btn-outline btn-sm" onclick="goHome()" style="margin-top:.75rem">← Home</button>
+</div>
+
+<!-- ── EXAM TIPS SCREEN ── -->
+<div id="screen-exam-tips" class="screen">
+  <h2 style="font-size:1.2rem;margin-bottom:.3rem">📋 NEET Exam Guide</h2>
+  <p style="font-size:.84rem;color:var(--muted);margin-bottom:1.5rem">Smart strategies to maximise your NEET score</p>
+
+  <!-- Do's section -->
+  <div class="exam-tips-section">
+    <h3><span style="background:var(--success);color:#fff;padding:3px 10px;border-radius:20px;font-size:.8rem">✅ Do's</span></h3>
+    <div class="eti"><div class="eti-num do">1</div><div class="eti-text">Read every question and all 4 options completely before choosing — qualifying words like "always", "never", "most likely" change the answer</div></div>
+    <div class="eti"><div class="eti-num do">2</div><div class="eti-text">Attempt Biology first — it's the highest-scoring section (360 marks) with no complex calculations</div></div>
+    <div class="eti"><div class="eti-num do">3</div><div class="eti-text">Use the rough sheet for Physics numericals — write down known values and formula before solving</div></div>
+    <div class="eti"><div class="eti-num do">4</div><div class="eti-text">Mark uncertain questions and revisit — don't get stuck; move on and come back</div></div>
+    <div class="eti"><div class="eti-num do">5</div><div class="eti-text">Manage time: ~1 min per Biology Q, ~1.5 min Chemistry, ~2 min Physics — keep checking the clock</div></div>
+    <div class="eti"><div class="eti-num do">6</div><div class="eti-text">Trust NCERT — 85%+ of NEET questions come directly from NCERT text and diagrams</div></div>
+  </div>
+
+  <!-- Don'ts section -->
+  <div class="exam-tips-section">
+    <h3><span style="background:var(--danger);color:#fff;padding:3px 10px;border-radius:20px;font-size:.8rem">❌ Don'ts</span></h3>
+    <div class="eti"><div class="eti-num dont">1</div><div class="eti-text">Don't attempt a Physics or Chemistry question if completely unsure — negative marking (-1) will reduce your total</div></div>
+    <div class="eti"><div class="eti-num dont">2</div><div class="eti-text">Don't spend more than 2 minutes on any single question — time loss compounds quickly</div></div>
+    <div class="eti"><div class="eti-num dont">3</div><div class="eti-text">Don't change an answer you were initially confident about — first instinct is usually correct</div></div>
+    <div class="eti"><div class="eti-num dont">4</div><div class="eti-text">Don't neglect NCERT diagrams and figures — labelled diagrams are frequently tested directly</div></div>
+    <div class="eti"><div class="eti-num dont">5</div><div class="eti-text">Don't leave any Biology question unanswered — there is no negative mark risk if you make an educated guess</div></div>
+    <div class="eti"><div class="eti-num dont">6</div><div class="eti-text">Don't panic over unfamiliar questions — eliminate impossible options and make a reasoned choice</div></div>
+  </div>
+
+  <!-- Study Tips section -->
+  <div class="exam-tips-section">
+    <h3><span style="background:var(--purple);color:#fff;padding:3px 10px;border-radius:20px;font-size:.8rem">💡 Study Tips</span></h3>
+    <div class="eti"><div class="eti-num tip">1</div><div class="eti-text">Revise NCERT Biology line by line — pay special attention to classification tables, genetics problems, and human physiology</div></div>
+    <div class="eti"><div class="eti-num tip">2</div><div class="eti-text">For Physics, understand derivations and formulas conceptually — don't just memorise; practise numericals daily</div></div>
+    <div class="eti"><div class="eti-num tip">3</div><div class="eti-text">For Chemistry, memorise named reactions, reagents, and exception compounds chapter by chapter</div></div>
+    <div class="eti"><div class="eti-num tip">4</div><div class="eti-text">Use spaced repetition for revision: review chapters after 1 day, 1 week, and 1 month</div></div>
+    <div class="eti"><div class="eti-num tip">5</div><div class="eti-text">Solve at least 5 previous NEET papers under timed conditions — it builds exam stamina and reveals weak areas</div></div>
+    <div class="eti"><div class="eti-num tip">6</div><div class="eti-text">Focus revision on weak chapters — 20% of chapters contribute roughly 80% of marks</div></div>
+  </div>
+
+  <button class="btn btn-outline btn-sm" onclick="goHome()">← Back to Home</button>
 </div>
 
 <!-- ── AUTH: Login ── -->
@@ -1181,6 +1307,7 @@ function selectionLabel() {
 async function openFlow(mode) {
   if (mode === 'grand' && userPlan === 'free') { showUpgradePrompt('Weekly Grand Test'); return; }
   if (mode === 'flashcard' && userPlan === 'free') { showUpgradePrompt('Flashcards'); return; }
+  if (mode === 'truefalse' && userPlan === 'free') { showUpgradePrompt('True/False Quiz'); return; }
   appMode = mode;
   selection = { language: null, standard: null, subject: null, chapter: null };
   renderStepper(0);
@@ -1355,7 +1482,7 @@ async function selectChapter(chapterId) {
   const chapter = selection.subject.chapters.find(c => c.id === chapterId);
   if (!chapter) return;
   selection.chapter = chapter;
-  if (appMode === 'flashcard') { startFlashcards(chapter); return; }
+  if (appMode === 'flashcard' || appMode === 'truefalse') { startFlashcards(chapter); return; }
   if (isDailyComplete(chapter)) {
     document.getElementById('done-chapter').textContent = chapter.label;
     const limitEl = document.getElementById('done-limit');
@@ -1418,7 +1545,7 @@ async function startGrandTestNow() {
 let flashcardState = { questions: [], idx: 0, flipped: false };
 
 async function startFlashcards(chapter) {
-  if (userPlan !== 'premium') { showUpgradePrompt('Flashcards'); return; }
+  if (userPlan !== 'premium' && userPlan !== 'unlimited') { showUpgradePrompt('Flashcards'); return; }
   selection.chapter = chapter;
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading flashcards…</p></div>';
   try {
@@ -1426,6 +1553,11 @@ async function startFlashcards(chapter) {
     flashcardState = { questions: shuffle(qs), idx: 0, flipped: false };
     renderFlashcard();
     showScreen('flashcard');
+    if (appMode === 'truefalse') {
+      switchFlashcardTab('truefalse');
+    } else {
+      switchFlashcardTab('flashcard');
+    }
   } catch(e) {
     alert('Failed to load flashcards.');
     renderChapters();
@@ -1438,14 +1570,34 @@ function renderFlashcard() {
   document.getElementById('fc-num').textContent = idx + 1;
   document.getElementById('fc-total').textContent = total;
   document.getElementById('fc-progress').style.width = ((idx + 1) / total * 100) + '%';
-  const chapEl = document.getElementById('fc-chapter-name');
-  if (chapEl) chapEl.textContent = selection.chapter?.label || '';
+  // "Subject · Chapter" breadcrumb
+  const subjectName = q.subject || selection.subject?.label || '';
+  const chapterName = selection.chapter?.label || '';
+  const breadcrumb = [subjectName, chapterName].filter(Boolean).join(' · ');
+  const bc = document.getElementById('fc-breadcrumb');
+  const bcBack = document.getElementById('fc-breadcrumb-back');
+  if (bc) bc.textContent = breadcrumb;
+  if (bcBack) bcBack.textContent = breadcrumb;
+  // subject chip
   const sc = document.getElementById('fc-subj-chip');
-  sc.textContent = q.subject || selection.subject?.label || '';
-  sc.className = 'subject-chip ' + subjClass(q.subject || selection.subject?.label);
+  sc.textContent = subjectName;
+  sc.className = 'subject-chip ' + subjClass(subjectName);
+  // question & answer
   document.getElementById('fc-question').textContent = q.question;
   document.getElementById('fc-answer').textContent = ['A','B','C','D'][q.correct] + '. ' + q.options[q.correct];
-  document.getElementById('fc-exp').textContent = q.explanation || '';
+  // example box (correct option text without letter prefix)
+  const exampleEl = document.getElementById('fc-example-text');
+  if (exampleEl) exampleEl.textContent = q.options[q.correct];
+  // exam tip from explanation
+  const expEl = document.getElementById('fc-exp');
+  const tipWrap = document.getElementById('fc-tip-wrap');
+  if (q.explanation) {
+    expEl.textContent = q.explanation;
+    if (tipWrap) tipWrap.style.display = '';
+  } else {
+    if (tipWrap) tipWrap.style.display = 'none';
+  }
+  // reset to front face
   flashcardState.flipped = false;
   document.getElementById('fc-front').classList.remove('hidden');
   document.getElementById('fc-back').classList.add('hidden');
@@ -1462,6 +1614,83 @@ function flipCard() {
 function flashcardNav(dir) {
   flashcardState.idx = Math.max(0, Math.min(flashcardState.questions.length - 1, flashcardState.idx + dir));
   renderFlashcard();
+}
+
+// ── TRUE/FALSE QUIZ ──
+let tfState = { statements: [], idx: 0, score: 0, answered: false };
+
+function generateTFStatements(questions) {
+  return questions.map(q => {
+    const isTrue = Math.random() > 0.5;
+    const wrongIdxs = [0,1,2,3].filter(i => i !== q.correct);
+    const wrongIdx = wrongIdxs[Math.floor(Math.random() * wrongIdxs.length)];
+    const statementText = isTrue ? q.options[q.correct] : q.options[wrongIdx];
+    return { question: q.question, statement: statementText, isTrue, explanation: q.explanation || '', correctText: q.options[q.correct], subject: q.subject };
+  });
+}
+
+function switchFlashcardTab(tab) {
+  document.getElementById('fc-tab-flashcard').classList.toggle('active', tab === 'flashcard');
+  document.getElementById('fc-tab-truefalse').classList.toggle('active', tab === 'truefalse');
+  const fcSection = document.getElementById('fc-flashcard-section');
+  const tfSection = document.getElementById('fc-truefalse-section');
+  if (fcSection) fcSection.style.display = tab === 'flashcard' ? '' : 'none';
+  if (tfSection) tfSection.style.display = tab === 'truefalse' ? '' : 'none';
+  if (tab === 'truefalse') initTrueFalse();
+}
+
+function initTrueFalse() {
+  tfState = { statements: generateTFStatements(flashcardState.questions), idx: 0, score: 0, answered: false };
+  renderTF();
+}
+
+function renderTF() {
+  const { statements, idx, score } = tfState;
+  const total = statements.length;
+  const s = statements[idx];
+  document.getElementById('tf-score').textContent = score;
+  document.getElementById('tf-qnum').textContent = `QUESTION ${idx + 1} OF ${total}`;
+  document.getElementById('tf-topic').textContent = s.subject || '';
+  document.getElementById('tf-stmt-q').textContent = 'Is this the correct answer?\n' + s.question;
+  document.getElementById('tf-stmt-opt').textContent = s.statement;
+  // reset feedback
+  const fb = document.getElementById('tf-feedback');
+  fb.style.display = 'none';
+  fb.className = 'tf-feedback';
+  document.getElementById('tf-next-btn').style.display = 'none';
+  // re-enable buttons
+  const btnT = document.getElementById('tf-btn-true');
+  const btnF = document.getElementById('tf-btn-false');
+  if (btnT) btnT.disabled = false;
+  if (btnF) btnF.disabled = false;
+  tfState.answered = false;
+}
+
+function answerTF(userSaysTrue) {
+  if (tfState.answered) return;
+  tfState.answered = true;
+  const s = tfState.statements[tfState.idx];
+  const correct = (userSaysTrue === s.isTrue);
+  if (correct) tfState.score++;
+  document.getElementById('tf-score').textContent = tfState.score;
+  // disable buttons
+  document.getElementById('tf-btn-true').disabled = true;
+  document.getElementById('tf-btn-false').disabled = true;
+  // show feedback
+  const fb = document.getElementById('tf-feedback');
+  fb.style.display = 'block';
+  fb.className = 'tf-feedback ' + (correct ? 'ok' : 'bad');
+  document.getElementById('tf-feedback-lbl').textContent = correct ? '✅ Correct!' : '❌ Incorrect.';
+  document.getElementById('tf-feedback-body').innerHTML = `<b>Correct answer:</b> ${s.correctText}${s.explanation ? `<br/><b>Explanation:</b> ${s.explanation}` : ''}`;
+  // show next button unless last question
+  if (tfState.idx < tfState.statements.length - 1) {
+    document.getElementById('tf-next-btn').style.display = 'block';
+  }
+}
+
+function nextTF() {
+  tfState.idx++;
+  renderTF();
 }
 
 function showCommunity() {
@@ -1985,6 +2214,7 @@ function renderHomeFeatures() {
       <div class="section-title" style="margin-top:.65rem">More Features</div>
       <div class="premium-row">
         <div class="pf-card" onclick="openFlow('flashcard')">🃏<br/>Flashcards</div>
+        <div class="pf-card" onclick="openFlow('truefalse')">✅<br/>True/False</div>
         <div class="pf-card" onclick="showCommunity()">👥<br/>Community</div>
         <div class="pf-card" onclick="showScreen('dashboard')">📊<br/>Dashboard</div>
       </div>`;
@@ -2029,21 +2259,20 @@ function renderHomeStats() {
   }
   if (dgFill) dgFill.style.width = (isFreeUser ? pct : Math.min(100, Math.round(todayTotal / 20 * 100))) + '%';
   if (dgCircle) dgCircle.textContent = isFreeUser ? pct + '%' : (todayTotal >= 20 ? '✓' : todayTotal);
-  // stats row — motivational performance level instead of raw %
   const sa = document.getElementById('stat-attempted');
   const sac = document.getElementById('stat-accuracy');
   const ss = document.getElementById('stat-streak');
   if (sa) sa.textContent = total;
   if (sac) {
-    let level, color;
-    if (total === 0)       { level = '🚀 Start!';    color = '#6b7280'; }
-    else if (acc >= 85)    { level = '🏆 Champion';  color = '#059669'; }
-    else if (acc >= 70)    { level = '⭐ Excellent';  color = '#d97706'; }
-    else if (acc >= 55)    { level = '👍 Good';       color = '#2563eb'; }
-    else if (acc >= 40)    { level = '📈 Rising';     color = '#7c3aed'; }
-    else                   { level = '💪 Keep Going'; color = '#6b7280'; }
-    sac.textContent = level;
-    sac.style.color = color;
+    if (total === 0) {
+      sac.textContent = '–';
+      sac.style.color = 'var(--muted)';
+    } else {
+      sac.textContent = acc + '%';
+      sac.style.color = acc >= 75 ? 'var(--success)' : acc >= 50 ? 'var(--blue)' : 'var(--danger)';
+    }
+    const sacLbl = document.getElementById('stat-accuracy-lbl');
+    if (sacLbl) sacLbl.textContent = 'Accuracy';
   }
   if (ss) ss.textContent = streak > 0 ? streak : (total > 0 ? '1' : '0');
 }
