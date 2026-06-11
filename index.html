@@ -495,7 +495,7 @@ body{padding-bottom:68px}
   <div class="completed-overlay">
     <div style="font-size:2.5rem;margin-bottom:.5rem">🎉</div>
     <h3>Daily Practice Complete!</h3>
-    <p>You've finished all <b>20 questions</b> for <b id="done-chapter"></b> today.<br/>Come back tomorrow for a fresh set!</p>
+    <p>You've finished all <b id="done-limit">5 questions</b> for <b id="done-chapter"></b> today.<br/>Come back tomorrow for a fresh set!</p>
   </div>
   <div class="section-card">
     <h3>⏰ Resets At Midnight</h3>
@@ -1304,6 +1304,8 @@ async function selectChapter(chapterId) {
   if (appMode === 'flashcard') { startFlashcards(chapter); return; }
   if (isDailyComplete(chapter)) {
     document.getElementById('done-chapter').textContent = chapter.label;
+    const limitEl = document.getElementById('done-limit');
+    if (limitEl) limitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
     updateResetTimer();
     showScreen('daily-done');
     return;
@@ -1314,8 +1316,9 @@ async function selectChapter(chapterId) {
     const dayData = getDailyDone(chapter);
     const seen = new Set(dayData.seen || []);
     const fresh = allQs.filter(q => !seen.has(qFingerprint(q)));
-    const pool = fresh.length >= DAILY_LIMIT - dayData.count ? fresh : allQs;
-    const remaining = DAILY_LIMIT - dayData.count;
+    const isPremium = userPlan === 'premium';
+    const remaining = isPremium ? allQs.length : Math.max(0, DAILY_LIMIT - dayData.count);
+    const pool = isPremium ? allQs : (fresh.length >= remaining ? fresh : allQs);
     practiceState = { questions: shuffle(pool).slice(0, remaining), idx: 0, answers: {}, skipDaily: false, chapter };
     renderPracticeQ();
     showScreen('practice-quiz');
@@ -1445,9 +1448,14 @@ function renderPracticeQ() {
   document.getElementById('pq-prev').style.visibility = idx === 0 ? 'hidden' : 'visible';
   document.getElementById('pq-next').textContent = idx === total - 1 ? 'Finish ✓' : 'Next →';
   const correct = Object.entries(answers).filter(([i, a]) => a === questions[i]?.correct).length;
+  const wrong = Object.keys(answers).length - correct;
   const ch = practiceState.chapter || selection.chapter;
-  const dailyLeft = practiceState.skipDaily ? '—' : Math.max(0, DAILY_LIMIT - getDailyDone(ch).count);
-  document.getElementById('pq-status').textContent = `✅ ${correct}  ❌ ${Object.keys(answers).length - correct}  📅 ${dailyLeft} left today`;
+  let statusText = `✅ ${correct}  ❌ ${wrong}`;
+  if (!practiceState.skipDaily && userPlan !== 'premium') {
+    const dailyLeft = Math.max(0, DAILY_LIMIT - getDailyDone(ch).count);
+    statusText += `  📅 ${dailyLeft} left today`;
+  }
+  document.getElementById('pq-status').textContent = statusText;
 }
 
 function answerPractice(i) {
@@ -1487,8 +1495,10 @@ function answerPractice(i) {
 function practiceNav(dir) {
   const total = practiceState.questions.length;
   if (dir === 1 && practiceState.idx === total - 1) {
-    if (!practiceState.skipDaily && selection.chapter && isDailyComplete(selection.chapter)) {
+    if (!practiceState.skipDaily && userPlan !== 'premium' && selection.chapter && isDailyComplete(selection.chapter)) {
       document.getElementById('done-chapter').textContent = selection.chapter.label;
+      const limitEl = document.getElementById('done-limit');
+      if (limitEl) limitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
       updateResetTimer();
       showScreen('daily-done');
     } else showScreen('practice-chapter');
