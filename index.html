@@ -268,7 +268,7 @@ body{padding-bottom:68px}
 .qp-test-btn:hover{opacity:.9}
 .qp-grand-btn{width:100%;padding:.85rem;background:linear-gradient(90deg,#b91c1c,#991b1b);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;margin-bottom:.75rem;transition:opacity .2s}
 .qp-grand-btn:hover{opacity:.9}
-.premium-row{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin-bottom:.75rem}
+.premium-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:.6rem;margin-bottom:.75rem}
 .pf-card{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:.9rem .5rem;text-align:center;cursor:pointer;font-family:'Sora',sans-serif;font-size:.78rem;font-weight:700;transition:all .2s;position:relative}
 .pf-card:hover{border-color:var(--purple);background:var(--purple-light)}
 .pf-badge{display:block;font-size:.62rem;font-weight:700;color:var(--gold);margin-top:.2rem;letter-spacing:.04em}
@@ -416,16 +416,7 @@ body{padding-bottom:68px}
   </div>
 
   <!-- Quick Practice -->
-  <div class="section-title">Free Features</div>
-  <button class="qp-btn" onclick="openFlow('practice')">📝&nbsp; Daily Questions <small style="opacity:.6;font-size:.75rem;margin-left:4px">5/day per chapter</small></button>
-  <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Weekly Timed Test</button>
-  <button class="qp-grand-btn" onclick="openFlow('grand')">🏆&nbsp; Weekly Grand Test <small style="opacity:.7;font-size:.75rem;margin-left:4px">180 Q · 3h 15m</small></button>
-  <div class="section-title" style="margin-top:.65rem">Premium Features</div>
-  <div class="premium-row">
-    <div class="pf-card" onclick="openFlow('flashcard')">🃏<br/>Flashcards<span class="pf-badge">PRO</span></div>
-    <div class="pf-card" onclick="openFlow('practice')">📚<br/>Unlimited<span class="pf-badge">PRO</span></div>
-    <div class="pf-card" onclick="showCommunity()">👥<br/>Community<span class="pf-badge">PRO</span></div>
-  </div>
+  <div id="home-features"></div>
   <div id="upgrade-banner"></div>
 
   <!-- Home Footer Links -->
@@ -1495,8 +1486,8 @@ function renderPracticeQ() {
   const wrong = Object.keys(answers).length - correct;
   const ch = practiceState.chapter || selection.chapter;
   let statusText = `✅ ${correct}  ❌ ${wrong}`;
-  if (!practiceState.skipDaily && userPlan !== 'premium') {
-    const dailyLeft = Math.max(0, DAILY_LIMIT - getDailyDone(ch).count);
+  if (!practiceState.skipDaily && userPlan === 'free') {
+    const dailyLeft = Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
     statusText += `  📅 ${dailyLeft} left today`;
   }
   document.getElementById('pq-status').textContent = statusText;
@@ -1889,6 +1880,38 @@ function practiceWrong() {
   showScreen('practice-quiz');
 }
 
+function renderHomeFeatures() {
+  const el = document.getElementById('home-features');
+  if (!el) return;
+  const isFree = userPlan === 'free';
+  const isPrem = userPlan === 'premium' || userPlan === 'unlimited';
+  if (isFree) {
+    el.innerHTML = `
+      <div class="section-title">Your Features</div>
+      <button class="qp-btn" onclick="openFlow('practice')">📝&nbsp; Daily Questions <small style="opacity:.65;font-size:.74rem;margin-left:4px">${FREE_DAILY_LIMIT}/day per subject</small></button>
+      <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Weekly Timed Test <small style="opacity:.65;font-size:.74rem;margin-left:4px">≤${adminConfig.free_max_test_duration} min</small></button>
+      <div class="section-title" style="margin-top:.65rem;color:var(--muted)">Upgrade to Unlock</div>
+      <div class="premium-row">
+        <div class="pf-card" onclick="showUpgradePrompt('Weekly Grand Test')">🏆<br/>Grand Test<span class="pf-badge">PRO</span></div>
+        <div class="pf-card" onclick="showUpgradePrompt('Flashcards')">🃏<br/>Flashcards<span class="pf-badge">PRO</span></div>
+        <div class="pf-card" onclick="showUpgradePrompt('Unlimited Practice')">📚<br/>Unlimited<span class="pf-badge">PRO</span></div>
+        <div class="pf-card" onclick="showUpgradePrompt('Study Community')">👥<br/>Community<span class="pf-badge">PRO</span></div>
+      </div>`;
+  } else {
+    el.innerHTML = `
+      <div class="section-title">Practice</div>
+      <button class="qp-btn" onclick="openFlow('practice')" style="background:#6C3CE1">📚&nbsp; Practice Mode <small style="opacity:.7;font-size:.74rem;margin-left:4px">Unlimited</small></button>
+      <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Weekly Timed Test <small style="opacity:.7;font-size:.74rem;margin-left:4px">Up to 180 min</small></button>
+      <button class="qp-grand-btn" onclick="openFlow('grand')">🏆&nbsp; Weekly Grand Test <small style="opacity:.7;font-size:.74rem;margin-left:4px">180 Q · 3h 15m</small></button>
+      <div class="section-title" style="margin-top:.65rem">More Features</div>
+      <div class="premium-row">
+        <div class="pf-card" onclick="openFlow('flashcard')">🃏<br/>Flashcards</div>
+        <div class="pf-card" onclick="showCommunity()">👥<br/>Community</div>
+        <div class="pf-card" onclick="showScreen('dashboard')">📊<br/>Dashboard</div>
+      </div>`;
+  }
+}
+
 function renderHomeStats() {
   const { total, correct } = progress;
   const acc = total > 0 ? Math.round(correct / total * 100) : 0;
@@ -1910,17 +1933,23 @@ function renderHomeStats() {
     const d = new Date(); d.setHours(0,0,0,0);
     while (daySet.has(d.toISOString().split('T')[0])) { streak++; d.setDate(d.getDate()-1); }
   } catch(e) {}
-  const DAILY_GOAL = 20;
-  const pct = Math.min(100, Math.round(todayTotal / DAILY_GOAL * 100));
+  const isFreeUser = userPlan === 'free';
+  const DAILY_GOAL = isFreeUser ? FREE_DAILY_LIMIT : 20;
+  const pct = Math.min(100, Math.round(todayTotal / Math.max(DAILY_GOAL, 1) * 100));
   // daily goal card
   const dgCount = document.getElementById('dgc-count');
   const dgFill = document.getElementById('dgc-fill');
   const dgPct = document.getElementById('dgc-pct');
   const dgCircle = document.getElementById('dgc-circle');
-  if (dgCount) dgCount.textContent = `${todayTotal}/${DAILY_GOAL} Questions Today`;
-  if (dgFill) dgFill.style.width = pct + '%';
-  if (dgPct) dgPct.textContent = pct >= 100 ? '🎉 Daily goal reached!' : pct + '% of daily goal';
-  if (dgCircle) dgCircle.textContent = pct + '%';
+  if (isFreeUser) {
+    if (dgCount) dgCount.textContent = `${todayTotal}/${FREE_DAILY_LIMIT} Questions Today`;
+    if (dgPct) dgPct.textContent = pct >= 100 ? '🎉 Daily limit reached!' : `${pct}% of daily limit`;
+  } else {
+    if (dgCount) dgCount.textContent = `${todayTotal} Questions Today`;
+    if (dgPct) dgPct.textContent = todayTotal === 0 ? 'Start practicing!' : todayTotal >= 20 ? '🔥 Great session!' : `Keep going — ${20 - todayTotal} more to reach 20!`;
+  }
+  if (dgFill) dgFill.style.width = (isFreeUser ? pct : Math.min(100, Math.round(todayTotal / 20 * 100))) + '%';
+  if (dgCircle) dgCircle.textContent = isFreeUser ? pct + '%' : (todayTotal >= 20 ? '✓' : todayTotal);
   // stats row — motivational performance level instead of raw %
   const sa = document.getElementById('stat-attempted');
   const sac = document.getElementById('stat-accuracy');
@@ -2107,6 +2136,7 @@ async function initApp() {
   syncProgressFromSupabase().catch(() => {});
   updateNavUser();
   updateUpgradeBanner();
+  renderHomeFeatures();
   renderHomeStats();
   loadManifest().then(() => renderLangOptions()).catch(() => {
     document.getElementById('lang-options').innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
