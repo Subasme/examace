@@ -1306,6 +1306,92 @@ async function selectChapter(chapterId) {
   }
 }
 
+async function startGrandTestNow() {
+  const name = document.getElementById('grand-name').value.trim();
+  if (!name) { document.getElementById('grand-err').style.display = 'block'; return; }
+  document.getElementById('grand-err').style.display = 'none';
+  const btn = document.querySelector('#screen-grand-setup .btn-danger');
+  btn.textContent = 'Loading…'; btn.disabled = true;
+  try {
+    const subjects = selection.standard?.subjects || [];
+    const results = await Promise.all(subjects.map(s =>
+      fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: s.label })
+    ));
+    const perSubj = Math.floor(180 / Math.max(subjects.length, 1));
+    let qs = [];
+    results.forEach((subQs, i) => {
+      qs = qs.concat(shuffle(subQs.map(q => ({ ...q, subject: subjects[i]?.label || q.subject }))).slice(0, perSubj));
+    });
+    qs = shuffle(qs).slice(0, 180);
+    timedState = { questions: qs, idx: 0, answers: {}, marked: {}, secs: 11700, totalSecs: 11700, timer: null, start: Date.now(), name };
+    document.getElementById('tq-total').textContent = qs.length;
+    updateTimerDisplay();
+    renderTimedQ();
+    renderQNav();
+    showScreen('timed-quiz');
+    timedState.timer = setInterval(timerTick, 1000);
+  } catch(e) {
+    alert('Failed to load questions: ' + e.message);
+  } finally {
+    btn.textContent = '🏆 Start Grand Test'; btn.disabled = false;
+  }
+}
+
+let flashcardState = { questions: [], idx: 0, flipped: false };
+
+async function startFlashcards(chapter) {
+  if (userPlan !== 'premium') { showUpgradePrompt('Flashcards'); return; }
+  selection.chapter = chapter;
+  document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading flashcards…</p></div>';
+  try {
+    const qs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label, chapterId: chapter.id });
+    flashcardState = { questions: shuffle(qs), idx: 0, flipped: false };
+    renderFlashcard();
+    showScreen('flashcard');
+  } catch(e) {
+    alert('Failed to load flashcards.');
+    renderChapters();
+  }
+}
+
+function renderFlashcard() {
+  const { questions, idx } = flashcardState;
+  const q = questions[idx], total = questions.length;
+  document.getElementById('fc-num').textContent = idx + 1;
+  document.getElementById('fc-total').textContent = total;
+  document.getElementById('fc-progress').style.width = ((idx + 1) / total * 100) + '%';
+  const chapEl = document.getElementById('fc-chapter-name');
+  if (chapEl) chapEl.textContent = selection.chapter?.label || '';
+  const sc = document.getElementById('fc-subj-chip');
+  sc.textContent = q.subject || selection.subject?.label || '';
+  sc.className = 'subject-chip ' + subjClass(q.subject || selection.subject?.label);
+  document.getElementById('fc-question').textContent = q.question;
+  document.getElementById('fc-answer').textContent = ['A','B','C','D'][q.correct] + '. ' + q.options[q.correct];
+  document.getElementById('fc-exp').textContent = q.explanation || '';
+  flashcardState.flipped = false;
+  document.getElementById('fc-front').classList.remove('hidden');
+  document.getElementById('fc-back').classList.add('hidden');
+  document.getElementById('fc-prev').disabled = idx === 0;
+  document.getElementById('fc-next').disabled = idx === total - 1;
+}
+
+function flipCard() {
+  flashcardState.flipped = !flashcardState.flipped;
+  document.getElementById('fc-front').classList.toggle('hidden', flashcardState.flipped);
+  document.getElementById('fc-back').classList.toggle('hidden', !flashcardState.flipped);
+}
+
+function flashcardNav(dir) {
+  flashcardState.idx = Math.max(0, Math.min(flashcardState.questions.length - 1, flashcardState.idx + dir));
+  renderFlashcard();
+}
+
+function showCommunity() {
+  if (!authUser) { showScreen('login'); return; }
+  if (userPlan !== 'premium') { showUpgradePrompt('Study Community'); return; }
+  showScreen('community');
+}
+
 function updateResetTimer() {
   const el = document.getElementById('time-until-reset');
   if (el) el.textContent = getTimeUntilMidnight();
@@ -1893,7 +1979,7 @@ function updateUpgradeBanner() {
   const el = document.getElementById('upgrade-banner');
   if (!el) return;
   if (userPlan !== 'premium') {
-    el.innerHTML = `<div class="upgrade-banner"><p><b>⭐ Go Premium</b> — unlock timed tests, 20 Q/day &amp; full dashboard</p><button class="ub-btn" onclick="showUpgradePrompt('Premium Plan')">Upgrade</button></div>`;
+    el.innerHTML = `<div class="upgrade-banner"><p><b>⭐ Go Premium</b> — unlock flashcards, unlimited practice &amp; study community</p><button class="ub-btn" onclick="showUpgradePrompt('Premium Plan')">Upgrade</button></div>`;
   } else {
     el.innerHTML = '';
   }
