@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="ExamAce — NEET UG MCQ Practice & Weekly Timed Test Platform"/>
-<title>ExamAce — NEET UG Practice</title>
+<meta name="description" content="KARNAN — Empowering NEET UG Success"/>
+<title>KARNAN — Empowering NEET UG Success</title>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
@@ -86,10 +86,14 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 .sel-btn:hover{border-color:var(--purple);background:var(--purple-light)}
 .sel-btn.active{border-color:var(--purple);background:var(--purple-light);font-weight:600}
 .sel-btn.disabled{opacity:.45;cursor:not-allowed}
-.chapter-grid{display:grid;gap:.5rem}
-.chapter-btn{padding:.8rem 1rem;border:1.5px solid var(--border);border-radius:var(--radius-sm);background:var(--card);cursor:pointer;text-align:left;font-size:.88rem;transition:all .2s;display:flex;align-items:center;justify-content:space-between}
-.chapter-btn:hover:not(.done-today){border-color:var(--purple);background:var(--purple-light)}
-.chapter-btn.done-today{background:#f0fdf4;border-color:var(--success);cursor:default;opacity:.85}
+.chapter-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.65rem}
+.ch-card{display:flex;align-items:stretch;border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .15s,box-shadow .15s;text-align:left;background:none;padding:0;min-height:72px;border:none}
+.ch-card:hover:not([disabled]){transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.15)}
+.ch-card[disabled]{opacity:.72;cursor:default}
+.ch-card-body{flex:1;padding:.65rem .75rem;display:flex;flex-direction:column;justify-content:center}
+.ch-card-name{font-size:.82rem;font-weight:600;line-height:1.35;color:#1e293b}
+.ch-card-status{font-size:.68rem;margin-top:.25rem;font-weight:500}
+.ch-card-num{width:46px;flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:.65rem;text-transform:uppercase;letter-spacing:.4px;line-height:1.3;gap:1px}
 .daily-banner{background:linear-gradient(135deg,#edfaf4,#d1fae5);border:1.5px solid var(--success);border-radius:var(--radius-sm);padding:.85rem 1rem;margin-bottom:.85rem;display:flex;gap:.75rem}
 .daily-banner .db-text{font-size:.83rem;line-height:1.5}
 .daily-limit-bar{width:100%;height:5px;background:var(--border);border-radius:3px;margin-top:.4rem;overflow:hidden}
@@ -107,6 +111,13 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 .timer-pill{display:flex;align-items:center;gap:5px;background:var(--gold-light);border:1.5px solid var(--gold);border-radius:20px;padding:4px 12px;font-family:'Sora',sans-serif;font-weight:700;font-size:.9rem;color:#7a5200}
 .timer-pill.urgent{background:#fff0f0;border-color:var(--danger);color:var(--danger);animation:pulse .8s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
+.practice-mode-banner{background:linear-gradient(90deg,#edfaf4,#d0fbe8);border-left:4px solid var(--success);border-radius:var(--radius-sm);padding:.5rem .85rem;margin-bottom:.75rem;display:flex;align-items:center;justify-content:space-between;font-family:'Sora',sans-serif;font-size:.82rem;font-weight:700;color:#0d6e46}
+.practice-mode-banner .mode-sub{font-size:.74rem;font-weight:500;opacity:.75;max-width:55%;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.exam-mode-banner{background:linear-gradient(90deg,#fff0f0,#ffe4e4);border-left:4px solid var(--danger);border-radius:var(--radius-sm);padding:.5rem .85rem;margin-bottom:.75rem;display:flex;align-items:center;justify-content:space-between;font-family:'Sora',sans-serif;font-size:.82rem;font-weight:700;color:#b91c1c}
+.exam-mode-hint{font-size:.74rem;font-weight:500;opacity:.75}
+.progress-fill.teal{background:var(--success)}
+#screen-timed-quiz .quiz-topbar{background:#fffbea;border:1.5px solid #f5d9a0;border-radius:var(--radius-sm);padding:.5rem .75rem;margin-bottom:.5rem}
+#screen-timed-quiz .qnum-badge span{color:#b45309}
 .subject-chip{font-size:.72rem;font-weight:700;padding:3px 10px;border-radius:20px}
 .subj-phy{background:#eff6ff;color:#1d4ed8}.subj-che{background:#f0fdf4;color:#15803d}.subj-bio{background:#fdf4ff;color:#7e22ce}
 .question-box{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:1.35rem;margin-bottom:.85rem}
@@ -222,56 +233,231 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 .upgrade-banner{background:linear-gradient(90deg,var(--purple),var(--purple-dark));color:#fff;border-radius:var(--radius-sm);padding:.75rem 1rem;margin-bottom:.85rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem}
 .upgrade-banner p{font-size:.82rem;margin:0;line-height:1.4}
 .upgrade-banner .ub-btn{background:#fff;color:var(--purple);font-size:.75rem;padding:5px 12px;border-radius:var(--radius-sm);border:none;font-family:'Sora',sans-serif;font-weight:700;cursor:pointer;white-space:nowrap;flex-shrink:0}
+/* ── BOTTOM NAV ── */
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--border);display:flex;z-index:300;height:60px}
+.bnav-btn{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border:none;background:none;cursor:pointer;color:var(--muted);font-size:.62rem;font-family:'DM Sans',sans-serif;transition:color .2s;padding:0}
+.bnav-btn .bni{font-size:1.3rem;line-height:1}
+.bnav-btn.active{color:#00897b}
+.bnav-btn.active .bni{transform:scale(1.1)}
+body{padding-bottom:68px}
+/* ── HOME REDESIGN ── */
+.home-greeting{padding:.25rem 0 1rem}
+.greeting-sub{color:var(--muted);font-size:.85rem;margin:0 0 .1rem}
+.greeting-title{font-size:1.45rem;font-weight:800;margin:0;color:var(--text)}
+.greeting-title span{color:#00897b}
+.daily-goal-card{background:linear-gradient(135deg,#00897b,#00695c);border-radius:14px;padding:1.1rem 1.2rem;display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;color:#fff}
+.dgc-left{flex:1}
+.dgc-label{font-size:.78rem;opacity:.85;margin-bottom:.25rem}
+.dgc-count{font-size:1.15rem;font-weight:800;margin-bottom:.5rem}
+.dgc-bar{height:5px;background:rgba(255,255,255,.3);border-radius:3px;overflow:hidden;margin-bottom:.35rem;max-width:200px}
+.dgc-fill{height:100%;background:#fff;border-radius:3px;transition:width .4s}
+.dgc-pct-txt{font-size:.75rem;opacity:.85}
+.dgc-circle{width:62px;height:62px;border-radius:50%;border:3px solid rgba(255,255,255,.4);display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:800;flex-shrink:0;margin-left:.75rem}
+/* ── STATS ROW ── */
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:.65rem;margin-bottom:1.1rem}
+.stat-box{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:.8rem .5rem;text-align:center}
+.stat-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;margin:0 auto .4rem}
+.stat-val{font-size:1.1rem;font-weight:800;color:var(--text)}
+.stat-val.red{color:#e53935}.stat-val.gold{color:#f59e0b}
+.stat-lbl{font-size:.68rem;color:var(--muted);margin-top:.1rem}
+/* ── SESSION CARDS ── */
+.sessions-section{margin-bottom:1.1rem}
+.sessions-heading{font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;margin-bottom:.75rem;color:var(--text)}
+.session-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.session-card{border-radius:18px;padding:1rem;cursor:pointer;position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s;min-height:148px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 4px 16px rgba(0,0,0,.12)}
+.session-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(0,0,0,.2)}
+.session-card:active{transform:scale(.97)}
+.sc-class-badge{position:absolute;top:.7rem;right:.7rem;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:2px 9px;font-size:.68rem;font-weight:800;color:#fff;letter-spacing:.03em}
+.sc-lang{font-size:.7rem;font-weight:700;color:rgba(255,255,255,.8);letter-spacing:.04em;margin-bottom:.25rem}
+.sc-title{font-family:'Sora',sans-serif;font-size:1rem;font-weight:800;color:#fff;line-height:1.3;margin-bottom:.35rem}
+.sc-subjects{font-size:.69rem;color:rgba(255,255,255,.75);line-height:1.5;margin-bottom:.6rem}
+.sc-cta{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.2);border:1.5px solid rgba(255,255,255,.4);border-radius:20px;padding:4px 11px;font-size:.72rem;font-weight:700;color:#fff;width:fit-content;transition:background .2s}
+.session-card:hover .sc-cta{background:rgba(255,255,255,.32)}
+/* ── QUICK PRACTICE ── */
+.section-title{font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;margin-bottom:.65rem;color:var(--text)}
+.qp-btn{width:100%;padding:1rem;background:#00897b;color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;cursor:pointer;text-align:left;display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem;transition:background .2s}
+.qp-btn:hover{background:#00695c}
+.qp-test-btn{width:100%;padding:.85rem;background:linear-gradient(90deg,#f59e0b,#d97706);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;margin-bottom:.75rem;transition:opacity .2s}
+.qp-test-btn:hover{opacity:.9}
+.qp-grand-btn{width:100%;padding:.85rem;background:linear-gradient(90deg,#b91c1c,#991b1b);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;margin-bottom:.75rem;transition:opacity .2s}
+.qp-grand-btn:hover{opacity:.9}
+.premium-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:.6rem;margin-bottom:.75rem}
+.pf-card{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:.9rem .5rem;text-align:center;cursor:pointer;font-family:'Sora',sans-serif;font-size:.78rem;font-weight:700;transition:all .2s;position:relative}
+.pf-card:hover{border-color:var(--purple);background:var(--purple-light)}
+.pf-badge{display:block;font-size:.62rem;font-weight:700;color:var(--gold);margin-top:.2rem;letter-spacing:.04em}
+/* ── FLASHCARD REDESIGN ── */
+.flashcard-wrap{background:var(--card);border:1.5px solid var(--border);border-radius:20px;padding:1.75rem 1.5rem 1.25rem;min-height:400px;cursor:pointer;display:flex;flex-direction:column;text-align:center;margin-bottom:1rem;transition:box-shadow .2s,transform .1s;user-select:none;box-shadow:0 4px 20px rgba(0,0,0,.07)}
+.flashcard-wrap:active{transform:scale(.99);box-shadow:0 2px 10px rgba(108,60,225,.15)}
+.fc-face{display:flex;flex-direction:column;align-items:center;flex:1;width:100%}
+.fc-face.hidden{display:none}
+.fc-type-label{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--purple);margin-bottom:.3rem}
+.fc-breadcrumb{font-size:.8rem;font-weight:600;color:var(--purple);opacity:.75;margin-bottom:1.5rem}
+.fc-content{flex:1;display:flex;align-items:center;justify-content:center;font-size:1.05rem;font-weight:500;line-height:1.65;color:var(--text);padding:.5rem 0;width:100%}
+.fc-reveal-hint{font-size:.75rem;color:var(--muted);margin-top:.75rem;padding-top:.5rem;border-top:1px solid var(--border);width:100%}
+.fc-answer-text{font-size:1.05rem;font-weight:700;color:var(--success);margin-bottom:.85rem;font-family:'Sora',sans-serif;line-height:1.5;text-align:center}
+.fc-tip-box{border-radius:10px;padding:.75rem 1rem;margin-bottom:.6rem;text-align:left;width:100%}
+.fc-tip-box.exam-tip{background:#fff8ed;border:1.5px solid #fcd34d}
+.fc-tip-title{font-size:.68rem;font-weight:700;margin-bottom:.3rem;text-transform:uppercase;letter-spacing:.05em}
+.fc-tip-box.exam-tip .fc-tip-title{color:#b45309}
+.fc-tip-content{font-size:.82rem;line-height:1.55;color:#92400e}
+.fc-header-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:.75rem}
+.fc-nav-pill{display:flex;align-items:center;background:var(--bg);border:1.5px solid var(--border);border-radius:24px;overflow:hidden}
+.fc-nav-pill button{border:none;background:none;padding:7px 14px;font-size:1.1rem;cursor:pointer;color:var(--muted);transition:background .18s;line-height:1}
+.fc-nav-pill button:disabled{opacity:.3;cursor:default}
+.fc-nav-pill button:not(:disabled):hover{background:var(--purple-light);color:var(--purple)}
+.fc-nav-pill span{font-size:.85rem;font-weight:700;color:var(--text);padding:0 4px;font-family:'Sora',sans-serif;min-width:54px;text-align:center}
+/* ── SUBJECT ICON CARDS ── */
+.subj-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:.5rem}
+.subj-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:1.1rem;cursor:pointer;transition:all .2s;position:relative;text-align:left}
+.subj-card:hover:not(.locked){border-color:#00897b;transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,137,123,.12)}
+.subj-card.locked{opacity:.75}
+.subj-icon-wrap{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:.7rem}
+.subj-card-name{font-weight:700;font-size:.95rem;margin-bottom:.2rem}
+.subj-plan-lbl{font-size:.72rem;font-weight:600}
+.subj-plan-lbl.free{color:#00897b}.subj-plan-lbl.premium{color:var(--gold)}
+.subj-lock{position:absolute;top:.7rem;right:.7rem;font-size:1rem}
+/* ── PROFILE SCREEN ── */
+.profile-top{background:linear-gradient(135deg,#00897b,#004d40);color:#fff;padding:2rem 1.5rem 1.5rem;text-align:center;border-radius:0 0 24px 24px;margin:-1.25rem -1rem 1.25rem}
+.profile-avatar-wrap{width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.2);border:3px solid rgba(255,255,255,.5);display:flex;align-items:center;justify-content:center;font-size:2rem;margin:0 auto .75rem}
+.profile-uname{font-size:1.25rem;font-weight:800;margin-bottom:.2rem}
+.profile-email-txt{font-size:.8rem;opacity:.8;margin-bottom:.65rem}
+.profile-plan-chip{display:inline-block;background:rgba(255,255,255,.2);border:1.5px solid rgba(255,255,255,.5);padding:3px 14px;border-radius:20px;font-size:.78rem;font-weight:700}
+.profile-plan-chip.premium{background:var(--gold);border-color:var(--gold);color:#1A1035}
+.pmenu{background:var(--card);border:1.5px solid var(--border);border-radius:14px;overflow:hidden;margin-bottom:1rem}
+.pmenu-item{display:flex;align-items:center;gap:.85rem;padding:.9rem 1rem;border-bottom:1px solid var(--border);cursor:pointer;transition:background .15s}
+.pmenu-item:last-child{border-bottom:none}
+.pmenu-item:hover{background:var(--bg)}
+.pmenu-item.danger:hover{background:#fff0f0}
+.pmenu-icon{font-size:1.2rem;width:28px;text-align:center}
+.pmenu-label{flex:1;font-size:.9rem;font-weight:500}
+.pmenu-arrow{color:var(--muted);font-size:1.1rem}
+.app-version{text-align:center;font-size:.72rem;color:var(--muted);margin-top:.5rem}
+/* ── PLAN SCREEN HERO ── */
+.plan-hero{background:linear-gradient(135deg,#f59e0b,#d97706);border-radius:14px;padding:1.5rem;text-align:center;color:#fff;margin-bottom:1.5rem}
+.plan-hero-icon{font-size:2.2rem;margin-bottom:.5rem}
+.plan-hero-title{font-size:1.3rem;font-weight:800;margin-bottom:.2rem}
+.plan-hero-sub{font-size:.85rem;opacity:.85}
+/* ── LOGOUT BTN ── */
+.logout-btn{width:100%;padding:.85rem;background:#fff;color:#e53935;border:2px solid #e53935;border-radius:12px;font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;cursor:pointer;margin:.85rem 0 .5rem;transition:all .2s}
+.logout-btn:hover{background:#e53935;color:#fff}
+/* ── CONTACT SCREEN ── */
+.contact-hero{background:linear-gradient(135deg,#00897b,#004d40);color:#fff;padding:1.5rem;text-align:center;border-radius:14px;margin-bottom:1rem}
+.contact-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:1rem;margin-bottom:.85rem}
+.contact-row{display:flex;align-items:center;gap:.85rem;padding:.65rem 0;border-bottom:1px solid var(--border)}
+.contact-row:last-child{border-bottom:none}
+.contact-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
+.contact-label{font-size:.72rem;color:var(--muted);margin-bottom:.1rem}
+.contact-val{font-size:.9rem;font-weight:600;color:#00897b;text-decoration:none}
+.contact-val:hover{text-decoration:underline}
+/* ── TRAINING CARD ── */
+.training-card{background:linear-gradient(135deg,#1a1035,#2d1b69);color:#fff;border-radius:14px;padding:1.4rem;margin-bottom:.85rem}
+.training-badge{display:inline-block;background:var(--gold);color:#1a1035;font-size:.68rem;font-weight:800;padding:3px 12px;border-radius:20px;margin-bottom:.75rem}
+.training-title{font-size:1.15rem;font-weight:800;margin-bottom:.3rem}
+.training-sub{font-size:.83rem;opacity:.8;margin-bottom:1rem;line-height:1.5}
+.training-features{margin-bottom:1.1rem}
+.tf-item{font-size:.83rem;padding:.3rem 0;opacity:.9;line-height:1.4}
+.training-cta{display:block;background:#25d366;color:#fff;border-radius:12px;padding:.85rem;text-align:center;font-family:'Sora',sans-serif;font-weight:700;font-size:.9rem;text-decoration:none;transition:background .2s}
+.training-cta:hover{background:#1ebe59}
+/* ── HOME FOOTER LINKS ── */
+.home-footer-links{display:flex;gap:.5rem;margin-top:.85rem;justify-content:center;flex-wrap:wrap}
+.hfl-btn{padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:var(--card);font-family:'DM Sans',sans-serif;font-size:.78rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .2s}
+.hfl-btn:hover{border-color:#00897b;color:#00897b}
+/* ── COMMUNITY GROUPS ── */
+.community-groups{display:flex;flex-direction:column;gap:.65rem}
+.cgroup-card{display:flex;align-items:center;gap:.8rem;background:var(--card);border:2px solid var(--border);border-radius:12px;padding:.85rem}
+.cgroup-icon{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.cgroup-info{flex:1}
+.cgroup-name{font-weight:700;font-size:.88rem}
+.cgroup-desc{font-size:.72rem;color:var(--muted);margin-top:.1rem}
+.cgroup-join{background:#25d366;color:#fff;padding:5px 14px;border-radius:20px;font-size:.75rem;font-weight:700;text-decoration:none;white-space:nowrap}
+/* ── STUDY PARTNER ── */
+.partner-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:1.2rem;text-align:center}
 </style>
 </head>
 <body>
 
 <nav>
   <div class="nav-logo" onclick="goHome()">
-    <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#6C3CE1"/><polygon points="16,7 17.5,12.5 23,12.5 18.5,16 20,22 16,18.5 12,22 13.5,16 9,12.5 14.5,12.5" fill="#F5B400"/></svg>
-    ExamAce
+    <img src="assets/logo.png" alt="KARNAN" style="height:32px;width:32px;object-fit:contain;border-radius:50%"/>
+    KARNAN
   </div>
   <div class="nav-right">
-    <button class="nav-btn" onclick="showScreen('dashboard')">📊</button>
-    <button class="nav-btn" onclick="showScreen('mistakes')">📌</button>
-    <button class="nav-btn" onclick="showScreen('leaderboard')">🏆</button>
-    <button class="nav-btn pill" onclick="shareApp()">📤 Share</button>
-    <div class="nav-user" id="nav-user">
-      <span class="nav-user-name" id="nav-user-name"></span>
+    <div class="nav-user" id="nav-user" style="display:flex">
       <span class="chip chip-purple" id="nav-plan-badge">Free</span>
-      <button class="nav-btn" onclick="handleLogout()" title="Sign out" style="padding:5px 8px">⏻</button>
     </div>
   </div>
 </nav>
 
+<!-- Bottom Navigation -->
+<div class="bottom-nav" id="bottom-nav" style="display:none">
+  <button class="bnav-btn active" id="bnav-home" onclick="goHome()">
+    <span class="bni">🏠</span><span>Home</span>
+  </button>
+  <button class="bnav-btn" id="bnav-practice" onclick="openFlow('practice')">
+    <span class="bni">📚</span><span>Practice</span>
+  </button>
+  <button class="bnav-btn" id="bnav-community" onclick="showCommunity()">
+    <span class="bni">👥</span><span>Community</span>
+  </button>
+  <button class="bnav-btn" id="bnav-profile" onclick="showScreen('profile')">
+    <span class="bni">👤</span><span>Profile</span>
+  </button>
+</div>
+
 <div id="screen-home" class="screen active">
-  <div class="home-hero">
-    <h1>Crack NEET UG<br/><span>with Confidence</span></h1>
-    <p>Chapter-wise practice + weekly timed tests. Track your progress and ace the exam.</p>
+  <div class="home-greeting">
+    <p class="greeting-sub">Ready to practice today?</p>
+    <h2 class="greeting-title">Hello, <span id="greeting-name">there</span>! 👋</h2>
   </div>
-  <div id="home-stats" class="home-stats"></div>
+
+  <!-- Daily Goal Card -->
+  <div class="daily-goal-card">
+    <div class="dgc-left">
+      <div class="dgc-label">Daily Goal</div>
+      <div class="dgc-count" id="dgc-count">0/20 Questions Today</div>
+      <div class="dgc-bar"><div class="dgc-fill" id="dgc-fill" style="width:0%"></div></div>
+      <div class="dgc-pct-txt" id="dgc-pct">0% completed</div>
+    </div>
+    <div class="dgc-circle" id="dgc-circle">0%</div>
+  </div>
+
+  <!-- Stats Row -->
+  <div class="stats-row">
+    <div class="stat-box">
+      <div class="stat-icon" style="background:#e0f2f1">📝</div>
+      <div class="stat-val" id="stat-attempted">0</div>
+      <div class="stat-lbl">Attempted</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon" style="background:#fce4ec">🎯</div>
+      <div class="stat-val" id="stat-accuracy">–</div>
+      <div class="stat-lbl" id="stat-accuracy-lbl">Accuracy</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon" style="background:#fff8e1">🔥</div>
+      <div class="stat-val gold" id="stat-streak">0</div>
+      <div class="stat-lbl">Streak</div>
+    </div>
+  </div>
+
+  <!-- Session Cards -->
+  <div class="sessions-section">
+    <div class="sessions-heading">📖 Your NEET Preparation</div>
+    <div class="session-grid" id="home-sessions">
+      <div style="grid-column:1/-1;color:var(--muted);font-size:.82rem;text-align:center;padding:.5rem">Loading sessions…</div>
+    </div>
+  </div>
+
+  <!-- Quick Practice -->
+  <div id="home-features"></div>
   <div id="upgrade-banner"></div>
-  <div class="home-cards">
-    <div class="home-card" onclick="openFlow('practice')">
-      <div class="home-card-icon practice">📚</div>
-      <h3>Practice Mode</h3>
-      <p>Chapter-wise MCQs with instant feedback and detailed explanations.</p>
-      <div class="home-card-badges">
-        <span class="chip chip-purple">Class 11 &amp; 12</span>
-        <span class="chip chip-blue">20 Q/day/chapter</span>
-      </div>
-    </div>
-    <div class="home-card timed" onclick="openFlow('timed')">
-      <div class="home-card-icon timed">⭐</div>
-      <h3>Weekly Timed Test</h3>
-      <p>Train for NEET exam pressure. All chapters in one subject, timed.</p>
-      <div class="home-card-badges">
-        <span class="chip chip-gold">🧠 Brain Speed</span>
-        <span class="chip chip-gold">🌍 Global Rank</span>
-      </div>
-    </div>
+
+  <!-- Home Footer Links -->
+  <div class="home-footer-links">
+    <button class="hfl-btn" onclick="showCommunity()">👥 Study Community</button>
+    <button class="hfl-btn" onclick="showScreenPublic('contact')">📞 Contact Us</button>
+    <button class="hfl-btn" onclick="shareApp()">📤 Share</button>
   </div>
-  <button class="share-btn" onclick="shareApp()">📤 Share App with Friends</button>
 </div>
 
 <div id="screen-practice-lang" class="screen">
@@ -290,8 +476,8 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 
 <div id="screen-practice-subject" class="screen">
   <div class="stepper" id="stepper-subject"></div>
-  <div class="step-title">Select Subject</div>
-  <div class="option-grid three" id="subject-options"></div>
+  <div class="step-title">Choose Subject</div>
+  <div class="subj-grid" id="subject-options"></div>
   <div style="margin-top:1rem"><button class="btn btn-outline btn-sm" onclick="showScreen('practice-class')">← Back</button></div>
 </div>
 
@@ -305,6 +491,10 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 </div>
 
 <div id="screen-practice-quiz" class="screen">
+  <div class="practice-mode-banner">
+    <span>📚 Practice Mode</span>
+    <span class="mode-sub" id="pq-chapter-name"></span>
+  </div>
   <div class="quiz-topbar">
     <div class="quiz-meta">
       <div class="qnum-badge">Q <span id="pq-num">1</span>/<span id="pq-total">0</span></div>
@@ -312,7 +502,7 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
     </div>
     <button class="btn btn-outline btn-sm" onclick="confirmExit()">✕ Exit</button>
   </div>
-  <div class="progress-bar" style="margin-bottom:1rem"><div class="progress-fill" id="pq-progress"></div></div>
+  <div class="progress-bar" style="margin-bottom:1rem"><div class="progress-fill teal" id="pq-progress"></div></div>
   <div class="question-box">
     <div class="question-text" id="pq-question"></div>
     <div class="options-list" id="pq-options"></div>
@@ -329,11 +519,11 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
   <div class="completed-overlay">
     <div style="font-size:2.5rem;margin-bottom:.5rem">🎉</div>
     <h3>Daily Practice Complete!</h3>
-    <p>You've finished all <b>20 questions</b> for <b id="done-chapter"></b> today.<br/>Come back tomorrow for a fresh set!</p>
+    <p>You've finished all <b id="done-limit">5 questions</b> for <b id="done-chapter"></b> today.<br/>Come back tomorrow for a fresh set!</p>
   </div>
   <div class="section-card">
     <h3>⏰ Resets At Midnight</h3>
-    <p style="font-size:.85rem;color:var(--muted);line-height:1.7">Every chapter gives you <b>20 new random questions</b> daily.<br/>Time until reset: <b id="time-until-reset" style="color:var(--purple)"></b></p>
+    <p style="font-size:.85rem;color:var(--muted);line-height:1.7">You've used your daily subject allowance of <b id="done-subject-limit">5 questions</b>.<br/>Time until reset: <b id="time-until-reset" style="color:var(--purple)"></b></p>
   </div>
   <div style="display:flex;gap:.6rem;flex-wrap:wrap">
     <button class="btn btn-primary" style="flex:1" onclick="showScreen('practice-chapter')">← Another Chapter</button>
@@ -344,32 +534,68 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 <div id="screen-timed-setup" class="screen">
   <div class="card" style="margin-bottom:1rem;background:linear-gradient(135deg,#fffbea,#fff3c0);border-color:var(--gold)">
     <h2 style="font-size:1.3rem;font-weight:800;color:#7a5200;margin-bottom:.3rem">⭐ Weekly Timed Test</h2>
-    <p style="font-size:.85rem;color:#8a6200">🧠 Improve Brain Reaction Speed · Train for NEET Exam Pressure</p>
+    <p style="font-size:.85rem;color:#8a6200">🧠 Duration = Question count · Questions drawn from all subjects</p>
     <p class="selection-pill" id="timed-selection-label"></p>
   </div>
-  <div class="section-divider">Number of Questions</div>
-  <div class="option-grid" style="grid-template-columns:repeat(5,1fr);gap:.5rem" id="qcount-options">
-    <button class="sel-btn" style="justify-content:center;padding:.65rem" onclick="selectQCount(60,event)">60</button>
-    <button class="sel-btn" style="justify-content:center;padding:.65rem" onclick="selectQCount(90,event)">90</button>
-    <button class="sel-btn active" style="justify-content:center;padding:.65rem" onclick="selectQCount(180,event)">180</button>
-    <button class="sel-btn" style="justify-content:center;padding:.65rem" onclick="selectQCount(120,event)">120</button>
-    <button class="sel-btn" style="justify-content:center;padding:.65rem" onclick="selectQCount(150,event)">150</button>
-  </div>
-  <div class="section-divider">Duration</div>
-  <div class="option-grid two" id="duration-options">
-    <button class="sel-btn" onclick="selectDuration(3600,event)"><span>⏱</span>1 Hour</button>
-    <button class="sel-btn" onclick="selectDuration(7200,event)"><span>⏱</span>2 Hours</button>
-    <button class="sel-btn" onclick="selectDuration(10800,event)"><span>⏱</span>3 Hours</button>
-    <button class="sel-btn active" onclick="selectDuration(11700,event)"><span>⏱</span>3 Hrs 15 Min</button>
-  </div>
-  <div class="section-divider">Your Name</div>
-  <input class="name-input" id="timed-name" placeholder="Enter your name for the leaderboard…" style="width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none;background:var(--card);margin-bottom:.75rem"/>
+  <div class="section-divider">Select Duration</div>
+  <div id="timed-duration-options" style="display:flex;flex-direction:column;gap:.5rem"></div>
+  <div class="section-divider" style="margin-top:.75rem">Your Name</div>
+  <input id="timed-name" placeholder="Enter your name for the leaderboard…" style="width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none;background:var(--card);margin-bottom:.75rem"/>
   <div id="timed-err" style="color:var(--danger);font-size:.83rem;margin-bottom:.75rem;display:none">Please enter your name.</div>
-  <button class="btn btn-gold btn-block" onclick="startTimedTest()">🚀 Start Weekly Timed Test</button>
+  <button class="btn btn-gold btn-block" onclick="startTimedTest()">🚀 Start Timed Test</button>
   <div style="margin-top:.75rem"><button class="btn btn-outline btn-sm" onclick="showScreen('practice-subject')">← Back</button></div>
 </div>
 
+<div id="screen-grand-setup" class="screen">
+  <div class="stepper" id="stepper-grand"></div>
+  <div class="card" style="margin-bottom:1rem;background:linear-gradient(135deg,#fff0f0,#ffe4e4);border-color:#f87171">
+    <h2 style="font-size:1.3rem;font-weight:800;color:#991b1b;margin-bottom:.3rem">🏆 Weekly Grand Test</h2>
+    <p style="font-size:.85rem;color:#b91c1c">Full NEET Mock · All Subjects · 180 Questions · 3 Hours 15 Minutes</p>
+    <p class="selection-pill" id="grand-selection-label"></p>
+  </div>
+  <div class="section-divider">Your Name</div>
+  <input id="grand-name" placeholder="Enter your name for the leaderboard…" style="width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none;background:var(--card);margin-bottom:.75rem"/>
+  <div id="grand-err" style="color:var(--danger);font-size:.83rem;margin-bottom:.75rem;display:none">Please enter your name.</div>
+  <button class="btn btn-danger btn-block" onclick="startGrandTestNow()">🏆 Start Grand Test</button>
+  <div style="margin-top:.75rem"><button class="btn btn-outline btn-sm" onclick="showScreen('practice-class')">← Back</button></div>
+</div>
+
+<div id="screen-flashcard" class="screen">
+  <div class="fc-header-bar">
+    <button class="btn btn-outline btn-sm" onclick="confirmExit()">✕ Exit</button>
+    <div class="fc-nav-pill">
+      <button id="fc-prev" onclick="flashcardNav(-1)">‹</button>
+      <span><span id="fc-num">1</span> / <span id="fc-total">0</span></span>
+      <button id="fc-next" onclick="flashcardNav(1)">›</button>
+    </div>
+    <span id="fc-subj-chip" class="subject-chip subj-phy"></span>
+  </div>
+  <div class="progress-bar" style="margin-bottom:1rem"><div class="progress-fill" style="background:var(--purple)" id="fc-progress"></div></div>
+  <div class="flashcard-wrap" onclick="flipCard()">
+    <div class="fc-face" id="fc-front">
+      <div class="fc-type-label">Question</div>
+      <div class="fc-breadcrumb" id="fc-breadcrumb"></div>
+      <div class="fc-content" id="fc-question"></div>
+      <div class="fc-reveal-hint">Click card to reveal answer</div>
+    </div>
+    <div class="fc-face hidden" id="fc-back">
+      <div class="fc-type-label" style="color:var(--success)">Answer</div>
+      <div class="fc-breadcrumb" style="color:var(--success)" id="fc-breadcrumb-back"></div>
+      <div class="fc-answer-text" id="fc-answer"></div>
+      <div class="fc-tip-box exam-tip" id="fc-tip-wrap" style="display:none">
+        <div class="fc-tip-title">Exam Tip</div>
+        <div class="fc-tip-content" id="fc-exp"></div>
+      </div>
+      <div class="fc-reveal-hint">Tap to see question</div>
+    </div>
+  </div>
+</div>
+
 <div id="screen-timed-quiz" class="screen">
+  <div class="exam-mode-banner">
+    <span>⚡ Exam Mode</span>
+    <span class="exam-mode-hint">No explanations · Timed</span>
+  </div>
   <div class="quiz-topbar">
     <div class="quiz-meta">
       <div class="qnum-badge">Q <span id="tq-num">1</span>/<span id="tq-total">0</span></div>
@@ -444,6 +670,199 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
   <button class="btn btn-outline btn-sm" onclick="goHome()" style="margin-top:.75rem">← Home</button>
 </div>
 
+<!-- Admin Panel -->
+<div id="screen-admin" class="screen">
+  <h2 style="font-size:1.2rem;margin-bottom:1.25rem">⚙️ Admin Panel</h2>
+  <div class="section-card">
+    <h3 style="margin-bottom:1rem">Free Tier Limits</h3>
+    <div class="field">
+      <label>Daily question limit per subject (Free users)</label>
+      <input type="number" id="admin-daily-limit" min="1" max="100" value="5" style="width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none"/>
+    </div>
+    <div class="field">
+      <label>Max timed test duration for Free users (minutes)</label>
+      <input type="number" id="admin-max-duration" min="5" max="180" value="30" style="width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none"/>
+    </div>
+    <div id="admin-save-msg" style="font-size:.83rem;color:var(--success);margin-bottom:.5rem;display:none">✅ Saved successfully</div>
+    <button class="btn btn-primary btn-block" onclick="saveAdminConfig()">💾 Save Settings</button>
+  </div>
+  <button class="btn btn-outline btn-sm" onclick="showScreen('profile')" style="margin-top:.75rem">← Back to Profile</button>
+</div>
+
+<!-- Profile Screen -->
+<div id="screen-profile" class="screen">
+  <div class="profile-top">
+    <div class="profile-avatar-wrap">👤</div>
+    <div class="profile-uname" id="profile-uname">User</div>
+    <div class="profile-email-txt" id="profile-email-txt"></div>
+    <span class="profile-plan-chip" id="profile-plan-chip">Free Plan</span>
+  </div>
+  <div class="pmenu">
+    <div class="pmenu-item" onclick="showScreen('dashboard')">
+      <span class="pmenu-icon">📊</span>
+      <span class="pmenu-label">My Performance</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item" onclick="showScreen('mistakes')">
+      <span class="pmenu-icon">📌</span>
+      <span class="pmenu-label">Bookmarks &amp; Mistakes</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item" onclick="showScreen('leaderboard')">
+      <span class="pmenu-icon">🏆</span>
+      <span class="pmenu-label">Leaderboard</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item" onclick="showUpgradePrompt('Premium Plan')">
+      <span class="pmenu-icon">⭐</span>
+      <span class="pmenu-label">Upgrade to Premium</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item" onclick="showScreen('contact')">
+      <span class="pmenu-icon">📞</span>
+      <span class="pmenu-label">Contact Us</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+    <div class="pmenu-item" id="admin-menu-item" style="display:none" onclick="showAdminPanel()">
+      <span class="pmenu-icon">⚙️</span>
+      <span class="pmenu-label">Admin Panel</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
+  </div>
+  <button class="logout-btn" onclick="handleLogout()">⏻&nbsp; Logout</button>
+  <div class="app-version">KARNAN · Empowering NEET UG Success · v1.0</div>
+</div>
+
+<!-- Community / Study Groups Screen -->
+<div id="screen-community" class="screen">
+  <div class="contact-hero" style="background:linear-gradient(135deg,#6C3CE1,#4527a0)">
+    <div style="font-size:2rem;margin-bottom:.4rem">👥</div>
+    <div style="font-size:1.2rem;font-weight:800">Study Community</div>
+    <div style="font-size:.82rem;opacity:.85;margin-top:.2rem">Learn together · Discuss · Grow</div>
+  </div>
+
+  <!-- Subject WhatsApp Groups -->
+  <div class="section-title">📚 Subject Discussion Groups</div>
+  <div class="community-groups">
+    <div class="cgroup-card" style="border-color:#3b82f6">
+      <div class="cgroup-icon" style="background:#dbeafe">⚛️</div>
+      <div class="cgroup-info">
+        <div class="cgroup-name">Physics Group</div>
+        <div class="cgroup-desc">Laws, numericals, concepts &amp; doubts</div>
+      </div>
+      <a href="https://chat.whatsapp.com/ECya6SOzHuKIOCUbXNcQ7c" target="_blank" class="cgroup-join">Join →</a>
+    </div>
+    <div class="cgroup-card" style="border-color:#10b981">
+      <div class="cgroup-icon" style="background:#d1fae5">🧪</div>
+      <div class="cgroup-info">
+        <div class="cgroup-name">Chemistry Group</div>
+        <div class="cgroup-desc">Reactions, organic, inorganic &amp; more</div>
+      </div>
+      <a href="https://chat.whatsapp.com/JvsTAxC9yVu0DSBN3UUnW4" target="_blank" class="cgroup-join">Join →</a>
+    </div>
+    <div class="cgroup-card" style="border-color:#ec4899">
+      <div class="cgroup-icon" style="background:#fce7f3">🧬</div>
+      <div class="cgroup-info">
+        <div class="cgroup-name">Biology Group</div>
+        <div class="cgroup-desc">Botany, zoology, diagrams &amp; tips</div>
+      </div>
+      <a href="https://chat.whatsapp.com/GgVfTIjRwKi5xNwIJqjmrw" target="_blank" class="cgroup-join">Join →</a>
+    </div>
+    <div class="cgroup-card" style="border-color:#f59e0b">
+      <div class="cgroup-icon" style="background:#fef3c7">🏆</div>
+      <div class="cgroup-info">
+        <div class="cgroup-name">NEET General</div>
+        <div class="cgroup-desc">Strategy, motivation &amp; exam news</div>
+      </div>
+      <a href="https://chat.whatsapp.com/LUezrfS8MLq3LZjoBeoIh6" target="_blank" class="cgroup-join">Join →</a>
+    </div>
+  </div>
+
+  <!-- Find a Study Partner -->
+  <div class="section-title" style="margin-top:1.25rem">🤝 Find a Study Partner</div>
+  <div class="partner-card">
+    <div style="font-size:1.4rem;margin-bottom:.5rem">🔍</div>
+    <div style="font-weight:700;font-size:.95rem;margin-bottom:.3rem">Connect with Peers</div>
+    <div style="font-size:.82rem;color:var(--muted);margin-bottom:1rem;line-height:1.5">Find a study buddy who matches your level and schedule. Study together, quiz each other, stay motivated.</div>
+    <a href="https://wa.me/916381716860?text=Hi%20KARNAN%20team%2C%20I%27m%20looking%20for%20a%20NEET%20study%20partner" target="_blank" class="training-cta">💬 Request a Study Partner</a>
+  </div>
+
+  <!-- Telegram Channel -->
+  <div class="section-title" style="margin-top:1.25rem">📢 Stay Updated</div>
+  <div class="contact-card">
+    <div class="contact-row">
+      <span class="contact-icon" style="background:#e3f2fd;font-size:1.4rem">✈️</span>
+      <div style="flex:1">
+        <div class="contact-label">Telegram Channel</div>
+        <div style="font-size:.85rem;font-weight:600;color:var(--muted)">Daily MCQs, tips &amp; NEET updates</div>
+      </div>
+      <a href="https://t.me/karnan_neet" target="_blank" style="background:#229ed9;color:#fff;padding:5px 14px;border-radius:20px;font-size:.78rem;font-weight:700;text-decoration:none">Join</a>
+    </div>
+  </div>
+
+  <button class="btn btn-outline btn-sm" onclick="goHome()" style="margin-top:.5rem">← Home</button>
+</div>
+
+<!-- Contact Us Screen -->
+<div id="screen-contact" class="screen">
+  <div class="contact-hero">
+    <div style="font-size:2rem;margin-bottom:.4rem">📞</div>
+    <div style="font-size:1.2rem;font-weight:800">Contact Us</div>
+    <div style="font-size:.82rem;opacity:.85;margin-top:.2rem">We're here to help you succeed in NEET UG</div>
+  </div>
+
+  <!-- Contact Info -->
+  <div class="contact-card">
+    <div class="contact-row">
+      <span class="contact-icon" style="background:#e8f5e9">📧</span>
+      <div>
+        <div class="contact-label">Email</div>
+        <a href="mailto:karnanphysics2026@gmail.com" class="contact-val">karnanphysics2026@gmail.com</a>
+      </div>
+    </div>
+    <div class="contact-row">
+      <span class="contact-icon" style="background:#e3f2fd">📱</span>
+      <div>
+        <div class="contact-label">Phone</div>
+        <a href="tel:+916381716860" class="contact-val" id="contact-phone">+91 6381716860</a>
+      </div>
+    </div>
+    <div class="contact-row">
+      <span class="contact-icon" style="background:#e8f5e9">💬</span>
+      <div>
+        <div class="contact-label">WhatsApp</div>
+        <a href="https://wa.me/916381716860" class="contact-val" id="contact-wa" target="_blank">Chat on WhatsApp →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- WhatsApp QR -->
+  <div class="contact-card" style="text-align:center">
+    <div style="font-weight:700;margin-bottom:.75rem;font-size:.95rem">📲 Scan to WhatsApp</div>
+    <img id="wa-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https://wa.me/916381716860" alt="WhatsApp QR" style="width:160px;height:160px;border-radius:10px;border:3px solid #25d366"/>
+    <div style="font-size:.75rem;color:var(--muted);margin-top:.5rem">Scan with your phone camera to open WhatsApp</div>
+  </div>
+
+  <!-- One-on-One Training -->
+  <div class="training-card">
+    <div class="training-badge">🎓 Premium Service</div>
+    <div class="training-title">One-on-One Personal Training</div>
+    <div class="training-sub">Get personalised NEET UG coaching directly from our expert faculty</div>
+    <div class="training-features">
+      <div class="tf-item">✅ Customised study plan based on your weaknesses</div>
+      <div class="tf-item">✅ Live doubt-solving sessions (Physics, Chemistry, Biology)</div>
+      <div class="tf-item">✅ Weekly progress reviews & mock test analysis</div>
+      <div class="tf-item">✅ Motivation &amp; exam strategy coaching</div>
+      <div class="tf-item">✅ Direct WhatsApp support from faculty</div>
+    </div>
+    <a href="https://wa.me/916381716860?text=Hi%20KARNAN%20team%2C%20I%27m%20interested%20in%20one-on-one%20NEET%20UG%20training" target="_blank" class="training-cta" id="training-wa-link">
+      💬 Book a Free Demo Session
+    </a>
+  </div>
+
+  <button class="btn btn-outline btn-sm" onclick="showScreen('profile')" style="margin-top:.5rem">← Back to Profile</button>
+</div>
+
 <div id="screen-leaderboard" class="screen">
   <h2 style="font-size:1.2rem;margin-bottom:.4rem">🏆 Weekly Leaderboard</h2>
   <div class="week-label" id="lb-week"></div>
@@ -462,13 +881,14 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
     <div class="auth-logo">
       <svg width="48" height="48" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#6C3CE1"/><polygon points="16,7 17.5,12.5 23,12.5 18.5,16 20,22 16,18.5 12,22 13.5,16 9,12.5 14.5,12.5" fill="#F5B400"/></svg>
     </div>
-    <div class="auth-title">Welcome to ExamAce</div>
+    <div class="auth-title">Welcome to KARNAN</div>
     <div class="auth-sub">Sign in to track your NEET UG preparation</div>
     <div class="field"><label>Email</label><input type="email" id="login-email" placeholder="you@example.com" onkeydown="if(event.key==='Enter')handleLogin()"/></div>
     <div class="field"><label>Password</label><input type="password" id="login-password" placeholder="••••••••" onkeydown="if(event.key==='Enter')handleLogin()"/></div>
     <div class="auth-err" id="login-err"></div>
     <button class="btn btn-primary btn-block" onclick="handleLogin()" id="login-btn">Sign In</button>
     <div class="auth-switch">No account? <a onclick="showAuthScreen('register')">Create one free</a></div>
+    <div class="auth-switch" style="margin-top:.5rem">Trouble signing in? <a onclick="showScreenPublic('contact')">Contact Us</a></div>
   </div>
 </div>
 
@@ -486,24 +906,30 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
     <div class="auth-err" id="reg-err"></div>
     <button class="btn btn-primary btn-block" onclick="handleRegister()" id="reg-btn">Create Account</button>
     <div class="auth-switch">Already have one? <a onclick="showAuthScreen('login')">Sign in</a></div>
+    <div class="auth-switch" style="margin-top:.5rem">Need help? <a onclick="showScreenPublic('contact')">Contact Us</a></div>
   </div>
 </div>
 
 <!-- ── PLAN Selection ── -->
 <div id="screen-plan" class="auth-wrap" style="display:none">
   <div class="auth-card" style="max-width:520px">
-    <div class="auth-title">Choose your plan</div>
-    <div class="auth-sub">You can always upgrade later from your profile</div>
-    <div class="plan-grid">
+    <div class="plan-hero">
+      <div class="plan-hero-icon">🏆</div>
+      <div class="plan-hero-title">Choose Your Success Plan</div>
+      <div class="plan-hero-sub">All plans valid for lifetime · Upgrade anytime</div>
+    </div>
+    <div class="plan-grid" style="grid-template-columns:1fr">
       <div class="plan-card selected" id="plan-free-card" onclick="selectPlan('free')">
         <div class="plan-name">Free</div>
         <div class="plan-price">₹0 <span>/ forever</span></div>
         <ul class="plan-feat">
-          <li>5 questions / chapter / day</li>
-          <li>Practice mode</li>
-          <li>Mistake tracker (last 20)</li>
-          <li class="no">Weekly timed test</li>
-          <li class="no">Full dashboard</li>
+          <li>5 questions / subject / day</li>
+          <li>Timed tests ≤ 30 min</li>
+          <li>Mistake tracker</li>
+          <li class="no">Weekly grand test</li>
+          <li class="no">Unlimited practice</li>
+          <li class="no">Flashcards</li>
+          <li class="no">Study community</li>
         </ul>
       </div>
       <div class="plan-card featured" id="plan-premium-card" onclick="selectPlan('premium')">
@@ -511,11 +937,21 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
         <div class="plan-name">Premium</div>
         <div class="plan-price">₹199 <span>/ month</span></div>
         <ul class="plan-feat">
-          <li>20 questions / chapter / day</li>
-          <li>Practice mode</li>
-          <li>Mistake tracker (last 200)</li>
-          <li>Weekly timed test</li>
-          <li>Full dashboard &amp; insights</li>
+          <li>Unlimited daily practice</li>
+          <li>Full timed tests (15–180 min)</li>
+          <li>Weekly grand test</li>
+          <li>Flashcards</li>
+          <li>Study community</li>
+        </ul>
+      </div>
+      <div class="plan-card" id="plan-unlimited-card" onclick="selectPlan('unlimited')" style="border-color:#7c3aed;background:#faf5ff">
+        <div class="plan-badge" style="background:#7c3aed;color:#fff">UNLIMITED</div>
+        <div class="plan-name">Unlimited Pro</div>
+        <div class="plan-price">₹499 <span>/ month</span></div>
+        <ul class="plan-feat">
+          <li>Everything in Premium</li>
+          <li>Per-chapter pass / fail stats</li>
+          <li>Priority support</li>
         </ul>
       </div>
     </div>
@@ -543,8 +979,10 @@ nav{background:var(--card);border-bottom:1px solid var(--border);padding:0 1rem;
 // Paste your Supabase project URL and anon key here (Dashboard → Project Settings → API)
 const SUPABASE_URL = 'https://vtswgisxeylubvazcefe.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_lTpVWMDF42ocz84PXirWww_iVcNyeZ-';
-const FREE_DAILY_LIMIT = 5;
-const PREMIUM_DAILY_LIMIT = 20;
+let FREE_DAILY_LIMIT = 5;
+const PREMIUM_DAILY_LIMIT = 9999;
+const ADMIN_EMAIL = 'karnanphysics2026@gmail.com';
+let adminConfig = { free_daily_limit: 5, free_max_test_duration: 30 };
 const LETTERS = ['A','B','C','D'];
 
 const { createClient } = window.supabase;
@@ -582,7 +1020,7 @@ async function syncProgressFromSupabase() {
       progress = { total: data.total, correct: data.correct, wrong: data.wrong, time: data.time_spent, subjects: data.subjects || {}, chapters: data.chapters || {}, history: data.history || [] };
       try { localStorage.setItem('examace_progress', JSON.stringify(progress)); } catch (e) {}
     }
-    const mistakeLimit = userPlan === 'premium' ? 200 : 20;
+    const mistakeLimit = (userPlan === 'premium' || userPlan === 'unlimited') ? 200 : 20;
     const { data: md } = await db.from('mistakes').select('question,options,correct,explanation,subject,chapter,your_answer,answered_at').eq('user_id', authUser.id).order('answered_at', { ascending: false }).limit(mistakeLimit);
     if (md) {
       mistakes = md.map(m => ({ question: m.question, options: m.options, correct: m.correct, explanation: m.explanation, subject: m.subject, chapter: m.chapter, date: new Date(m.answered_at).toLocaleDateString('en-GB'), yourAnswer: m.your_answer }));
@@ -608,7 +1046,7 @@ async function loadManifest() {
   const { data, error } = await db.from('chapters')
     .select('language,standard,subject,chapter_id,chapter_label,question_count')
     .order('language').order('standard').order('subject').order('chapter_id');
-  if (error || !data?.length) throw new Error('Could not load question catalog');
+  if (error || !data?.length) throw new Error(error ? error.message : 'chapters table empty');
   manifest = { languages: [] };
   const li = {}, si = {}, oi = {};
   for (const r of data) {
@@ -691,7 +1129,14 @@ async function preloadDailyData() {
     }
   } catch (e) {}
 }
-function isDailyComplete(chapter) { return getDailyDone(chapter).count >= DAILY_LIMIT; }
+function isDailyComplete(chapter) {
+  if (userPlan === 'premium' || userPlan === 'unlimited') return false;
+  return getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
+}
+function getSubjectDailyTotal() {
+  const chaps = selection.subject?.chapters || [];
+  return chaps.reduce((sum, c) => sum + (getDailyDone(c).count || 0), 0);
+}
 function getTimeUntilMidnight() {
   const now = new Date(), midnight = new Date(now);
   midnight.setHours(24, 0, 0, 0);
@@ -700,7 +1145,6 @@ function getTimeUntilMidnight() {
 }
 
 function showScreen(name) {
-  if (name === 'dashboard' && userPlan !== 'premium') { showUpgradePrompt('Full Dashboard & Insights'); return; }
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById('screen-' + name).classList.add('active');
   window.scrollTo(0, 0);
@@ -708,19 +1152,34 @@ function showScreen(name) {
   if (name === 'dashboard') renderDashboard();
   if (name === 'mistakes') renderMistakes();
   if (name === 'home') { renderHomeStats(); updateUpgradeBanner(); }
+  if (name === 'profile') renderProfileScreen();
+  // bottom nav active state
+  ['home','practice','community','profile'].forEach(n => {
+    const btn = document.getElementById('bnav-' + n);
+    if (btn) btn.classList.toggle('active', n === name);
+  });
 }
 function goHome() { showScreen('home'); }
+// Show a screen without requiring auth (for contact, community)
+function showScreenPublic(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  const el = document.getElementById('screen-' + name);
+  if (el) { el.classList.add('active'); window.scrollTo(0,0); }
+}
 function confirmExit() { if (confirm('Exit quiz? Your progress will be lost.')) goHome(); }
 function confirmSubmit() { if (confirm('Submit the test now?')) finishTimedTest(); }
 
 function renderStepper(step) {
-  const steps = appMode === 'timed' ? ['Language', 'Class', 'Subject', 'Test'] : ['Language', 'Class', 'Subject', 'Chapter'];
+  let steps;
+  if (appMode === 'grand') steps = ['Language', 'Class', 'Test'];
+  else if (appMode === 'timed') steps = ['Language', 'Class', 'Subject', 'Test'];
+  else steps = ['Language', 'Class', 'Subject', 'Chapter'];
   const html = steps.map((s, i) => `
     <div class="step">
       <div class="step-dot ${i < step ? 'done' : i === step ? 'active' : ''}">${i < step ? '✓' : i + 1}</div>
       <div class="step-line ${i < step ? 'done' : ''}"></div>
     </div>`).join('');
-  ['stepper-practice', 'stepper-class', 'stepper-subject', 'stepper-chapter'].forEach(id => {
+  ['stepper-practice', 'stepper-class', 'stepper-subject', 'stepper-chapter', 'stepper-grand'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.innerHTML = html;
   });
@@ -731,6 +1190,8 @@ function selectionLabel() {
 }
 
 async function openFlow(mode) {
+  if (mode === 'grand' && userPlan === 'free') { showUpgradePrompt('Weekly Grand Test'); return; }
+  if (mode === 'flashcard' && userPlan === 'free') { showUpgradePrompt('Flashcards'); return; }
   appMode = mode;
   selection = { language: null, standard: null, subject: null, chapter: null };
   renderStepper(0);
@@ -738,7 +1199,7 @@ async function openFlow(mode) {
   const el = document.getElementById('lang-options');
   el.innerHTML = '<div class="info-box">Loading…</div>';
   try { await loadManifest(); } catch(e) {
-    el.innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
+    el.innerHTML = `<div class="info-box">Could not load question catalog: ${e.message}</div>`;
     return;
   }
   renderLangOptions();
@@ -781,6 +1242,13 @@ function renderClassOptions() {
 
 function selectClass(stdId) {
   selection.standard = selection.language.standards.find(s => s.id === stdId);
+  if (appMode === 'grand') {
+    const subjs = selection.standard?.subjects?.map(s => s.label).join(', ') || 'All Subjects';
+    document.getElementById('grand-selection-label').textContent = `${selection.language.label} · ${selection.standard.label} · ${subjs} · 180 Q · 3h 15m`;
+    renderStepper(2);
+    showScreen('grand-setup');
+    return;
+  }
   renderSubjectOptions();
   renderStepper(2);
   showScreen('practice-subject');
@@ -789,17 +1257,21 @@ function selectClass(stdId) {
 function renderSubjectOptions() {
   const subs = selection.standard?.subjects || [];
   const all = [
-    { id: 'physics', label: 'Physics', icon: '⚛️' },
-    { id: 'chemistry', label: 'Chemistry', icon: '🧪' },
-    { id: 'biology', label: 'Biology', icon: '🧬' }
+    { id: 'physics',   label: 'Physics',   icon: '⚛️', bg: '#dbeafe', isPremium: false },
+    { id: 'chemistry', label: 'Chemistry', icon: '🧪', bg: '#d1fae5', isPremium: false },
+    { id: 'biology',   label: 'Biology',   icon: '🧬', bg: '#fce7f3', isPremium: false }
   ];
   document.getElementById('subject-options').innerHTML = all.map(s => {
     const found = subs.find(x => x.id === s.id);
-    const disabled = !found;
-    return `<button class="sel-btn${disabled ? ' disabled' : ''}" ${disabled ? 'disabled' : `onclick="selectSubject('${s.id}')"`}>
-      <span>${s.icon}</span>${s.label}
-      ${found ? `<span style="margin-left:auto;font-size:.72rem;color:var(--muted)">${found.chapters.length} ch</span>` : '<span style="margin-left:auto;font-size:.72rem;color:var(--muted)">Soon</span>'}
-    </button>`;
+    const locked = !found;
+    const planLabel = locked ? 'Coming Soon' : (userPlan === 'premium' || !s.isPremium ? 'Free' : 'Premium');
+    const planClass = planLabel === 'Free' ? 'free' : (planLabel === 'Premium' ? 'premium' : 'free');
+    return `<div class="subj-card${locked ? ' locked' : ''}" ${locked ? '' : `onclick="selectSubject('${s.id}')"`}>
+      <div class="subj-icon-wrap" style="background:${s.bg}">${s.icon}</div>
+      <div class="subj-card-name">${s.label}</div>
+      <div class="subj-plan-lbl ${planClass}">${planLabel}${found ? ` · ${found.chapters.length} chapters` : ''}</div>
+      ${locked ? '<span class="subj-lock">🔒</span>' : ''}
+    </div>`;
   }).join('');
 }
 
@@ -807,6 +1279,7 @@ function selectSubject(subjId) {
   selection.subject = selection.standard.subjects.find(s => s.id === subjId);
   if (appMode === 'timed') {
     document.getElementById('timed-selection-label').textContent = selectionLabel() + ` · ${selection.subject.totalQuestions || 0} questions available`;
+    renderTimedDurationOptions();
     renderStepper(3);
     showScreen('timed-setup');
     return;
@@ -819,35 +1292,87 @@ function selectSubject(subjId) {
 async function renderChapters() {
   const chaps = selection.subject?.chapters || [];
   const subj = selection.subject.label;
+  const isPremium = userPlan === 'premium' || userPlan === 'unlimited';
   document.getElementById('chapter-title').textContent = `${subj} — Select Chapter`;
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading chapters…</p></div>';
   await preloadDailyData();
-  const done = chaps.filter(c => isDailyComplete(c)).length;
   const totalDoneQs = chaps.reduce((sum, c) => sum + getDailyDone(c).count, 0);
-  const maxQs = chaps.length * DAILY_LIMIT || 1;
-  document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
-    <div style="font-size:1.4rem">📅</div>
-    <div class="db-text"><b>Daily Practice — ${DAILY_LIMIT} Questions Per Chapter</b><br/>
-    ${done} of ${chaps.length} chapters done today · ${totalDoneQs} questions answered
-    <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${Math.round(totalDoneQs / maxQs * 100)}%"></div></div></div></div>`;
+  if (isPremium) {
+    const DAILY_GOAL = 20;
+    const pct = Math.min(100, Math.round(totalDoneQs / DAILY_GOAL * 100));
+    document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
+      <div style="font-size:1.4rem">🌟</div>
+      <div class="db-text"><b>Unlimited Practice</b><br/>
+      ${totalDoneQs} questions answered today · Keep pushing!
+      <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${pct}%"></div></div></div></div>`;
+  } else {
+    const subjectTotal = getSubjectDailyTotal();
+    const subjectLimit = FREE_DAILY_LIMIT;
+    const pct = Math.min(100, Math.round(subjectTotal / subjectLimit * 100));
+    document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
+      <div style="font-size:1.4rem">📅</div>
+      <div class="db-text"><b>Daily Practice — ${subjectLimit} Questions Per Subject</b><br/>
+      ${subjectTotal} of ${subjectLimit} questions done today
+      <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${pct}%"></div></div></div></div>`;
+  }
+  const CHAP_COLORS = [
+    {bg:'#dbeafe',border:'#3b82f6',badge:'#2563eb'},
+    {bg:'#d1fae5',border:'#10b981',badge:'#059669'},
+    {bg:'#ede9fe',border:'#8b5cf6',badge:'#7c3aed'},
+    {bg:'#fef3c7',border:'#f59e0b',badge:'#d97706'},
+    {bg:'#fee2e2',border:'#ef4444',badge:'#dc2626'},
+    {bg:'#cffafe',border:'#06b6d4',badge:'#0891b2'},
+    {bg:'#ffedd5',border:'#f97316',badge:'#ea580c'},
+    {bg:'#e0e7ff',border:'#6366f1',badge:'#4f46e5'},
+  ];
   document.getElementById('chapter-list').innerHTML = chaps.map((c, i) => {
+    const col = CHAP_COLORS[i % CHAP_COLORS.length];
     const dayData = getDailyDone(c);
-    const chapDone = dayData.count >= DAILY_LIMIT;
-    const remaining = DAILY_LIMIT - dayData.count;
-    return `<button class="chapter-btn${chapDone ? ' done-today' : ''}" ${chapDone ? '' : `onclick="selectChapter('${c.id}')"`}>
-      <span>${i + 1}. ${c.label}</span>
-      <span class="daily-count ${chapDone ? 'done' : 'pending'}">${chapDone ? '✅ Done' : `📝 ${remaining} left`}</span>
+    let status;
+    if (userPlan === 'unlimited') {
+      const chapStats = progress.chapters?.[c.label] || progress.chapters?.[c.id] || null;
+      const passed = chapStats?.correct || 0;
+      const failed = chapStats ? (chapStats.total - chapStats.correct) : 0;
+      status = chapStats
+        ? `<span class="ch-card-status"><span style="color:#059669">✓ ${passed} passed</span> · <span style="color:#e84545">✗ ${failed} failed</span></span>`
+        : `<span class="ch-card-status" style="color:#6b7280">▶ Practice Now</span>`;
+    } else if (isPremium) {
+      status = dayData.count > 0
+        ? `<span class="ch-card-status" style="color:#059669">✅ ${dayData.count} answered today</span>`
+        : `<span class="ch-card-status" style="color:#6b7280">▶ Practice Now</span>`;
+    } else {
+      const subjectDone = getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
+      const subjectRemaining = Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
+      status = subjectDone
+        ? `<span class="ch-card-status" style="color:#059669">✅ Daily limit reached</span>`
+        : `<span class="ch-card-status" style="color:#6b7280">📝 ${subjectRemaining} left today</span>`;
+    }
+    const chapDone = userPlan === 'free' && getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
+    return `<button class="ch-card" style="background:${col.bg};border:2px solid ${col.border}"
+      ${chapDone ? 'disabled' : `onclick="selectChapter('${c.id}')"`}>
+      <div class="ch-card-body">
+        <div class="ch-card-name">${c.label}</div>
+        ${status}
+      </div>
+      <div class="ch-card-num" style="background:${col.badge}">
+        <span>CH</span><span style="font-size:.95rem;font-weight:900">${i + 1}</span>
+      </div>
     </button>`;
   }).join('') || '<div class="info-box">No chapters available.</div>';
-  document.getElementById('reset-note').textContent = `⏰ Resets at midnight · Next reset in ${getTimeUntilMidnight()}`;
+  document.getElementById('reset-note').textContent = isPremium ? '' : `⏰ Resets at midnight · Next reset in ${getTimeUntilMidnight()}`;
 }
 
 async function selectChapter(chapterId) {
   const chapter = selection.subject.chapters.find(c => c.id === chapterId);
   if (!chapter) return;
   selection.chapter = chapter;
+  if (appMode === 'flashcard') { startFlashcards(chapter); return; }
   if (isDailyComplete(chapter)) {
     document.getElementById('done-chapter').textContent = chapter.label;
+    const limitEl = document.getElementById('done-limit');
+    if (limitEl) limitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
+    const subLimitEl = document.getElementById('done-subject-limit');
+    if (subLimitEl) subLimitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
     updateResetTimer();
     showScreen('daily-done');
     return;
@@ -858,8 +1383,9 @@ async function selectChapter(chapterId) {
     const dayData = getDailyDone(chapter);
     const seen = new Set(dayData.seen || []);
     const fresh = allQs.filter(q => !seen.has(qFingerprint(q)));
-    const pool = fresh.length >= DAILY_LIMIT - dayData.count ? fresh : allQs;
-    const remaining = DAILY_LIMIT - dayData.count;
+    const isPremiumOrUnlimited = userPlan === 'premium' || userPlan === 'unlimited';
+    const remaining = isPremiumOrUnlimited ? allQs.length : Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
+    const pool = isPremiumOrUnlimited ? allQs : (fresh.length >= remaining ? fresh : allQs);
     practiceState = { questions: shuffle(pool).slice(0, remaining), idx: 0, answers: {}, skipDaily: false, chapter };
     renderPracticeQ();
     showScreen('practice-quiz');
@@ -867,6 +1393,109 @@ async function selectChapter(chapterId) {
     alert('Failed to load questions.');
     renderChapters();
   }
+}
+
+async function startGrandTestNow() {
+  const name = document.getElementById('grand-name').value.trim();
+  if (!name) { document.getElementById('grand-err').style.display = 'block'; return; }
+  document.getElementById('grand-err').style.display = 'none';
+  const btn = document.querySelector('#screen-grand-setup .btn-danger');
+  btn.textContent = 'Loading…'; btn.disabled = true;
+  try {
+    const subjects = selection.standard?.subjects || [];
+    const results = await Promise.all(subjects.map(s =>
+      fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: s.label })
+    ));
+    const perSubj = Math.floor(180 / Math.max(subjects.length, 1));
+    let qs = [];
+    results.forEach((subQs, i) => {
+      qs = qs.concat(shuffle(subQs.map(q => ({ ...q, subject: subjects[i]?.label || q.subject }))).slice(0, perSubj));
+    });
+    qs = shuffle(qs).slice(0, 180);
+    timedState = { questions: qs, idx: 0, answers: {}, marked: {}, secs: 11700, totalSecs: 11700, timer: null, start: Date.now(), name };
+    document.getElementById('tq-total').textContent = qs.length;
+    updateTimerDisplay();
+    renderTimedQ();
+    renderQNav();
+    showScreen('timed-quiz');
+    timedState.timer = setInterval(timerTick, 1000);
+  } catch(e) {
+    alert('Failed to load questions: ' + e.message);
+  } finally {
+    btn.textContent = '🏆 Start Grand Test'; btn.disabled = false;
+  }
+}
+
+let flashcardState = { questions: [], idx: 0, flipped: false };
+
+async function startFlashcards(chapter) {
+  if (userPlan !== 'premium') { showUpgradePrompt('Flashcards'); return; }
+  selection.chapter = chapter;
+  document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading flashcards…</p></div>';
+  try {
+    const qs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label, chapterId: chapter.id });
+    flashcardState = { questions: shuffle(qs), idx: 0, flipped: false };
+    renderFlashcard();
+    showScreen('flashcard');
+  } catch(e) {
+    alert('Failed to load flashcards.');
+    renderChapters();
+  }
+}
+
+function renderFlashcard() {
+  const { questions, idx } = flashcardState;
+  const q = questions[idx], total = questions.length;
+  document.getElementById('fc-num').textContent = idx + 1;
+  document.getElementById('fc-total').textContent = total;
+  document.getElementById('fc-progress').style.width = ((idx + 1) / total * 100) + '%';
+  // "Subject · Chapter" breadcrumb
+  const subjectName = q.subject || selection.subject?.label || '';
+  const chapterName = selection.chapter?.label || '';
+  const breadcrumb = [subjectName, chapterName].filter(Boolean).join(' · ');
+  const bc = document.getElementById('fc-breadcrumb');
+  const bcBack = document.getElementById('fc-breadcrumb-back');
+  if (bc) bc.textContent = breadcrumb;
+  if (bcBack) bcBack.textContent = breadcrumb;
+  // subject chip
+  const sc = document.getElementById('fc-subj-chip');
+  sc.textContent = subjectName;
+  sc.className = 'subject-chip ' + subjClass(subjectName);
+  // question & answer
+  document.getElementById('fc-question').textContent = q.question;
+  document.getElementById('fc-answer').textContent = ['A','B','C','D'][q.correct] + '. ' + q.options[q.correct];
+  // exam tip from explanation
+  const expEl = document.getElementById('fc-exp');
+  const tipWrap = document.getElementById('fc-tip-wrap');
+  if (q.explanation) {
+    expEl.textContent = q.explanation;
+    if (tipWrap) tipWrap.style.display = '';
+  } else {
+    if (tipWrap) tipWrap.style.display = 'none';
+  }
+  // reset to front face
+  flashcardState.flipped = false;
+  document.getElementById('fc-front').classList.remove('hidden');
+  document.getElementById('fc-back').classList.add('hidden');
+  document.getElementById('fc-prev').disabled = idx === 0;
+  document.getElementById('fc-next').disabled = idx === total - 1;
+}
+
+function flipCard() {
+  flashcardState.flipped = !flashcardState.flipped;
+  document.getElementById('fc-front').classList.toggle('hidden', flashcardState.flipped);
+  document.getElementById('fc-back').classList.toggle('hidden', !flashcardState.flipped);
+}
+
+function flashcardNav(dir) {
+  flashcardState.idx = Math.max(0, Math.min(flashcardState.questions.length - 1, flashcardState.idx + dir));
+  renderFlashcard();
+}
+
+function showCommunity() {
+  if (!authUser) { showScreen('login'); return; }
+  if (userPlan !== 'premium') { showUpgradePrompt('Study Community'); return; }
+  showScreen('community');
 }
 
 function updateResetTimer() {
@@ -880,6 +1509,8 @@ function renderPracticeQ() {
   document.getElementById('pq-num').textContent = idx + 1;
   document.getElementById('pq-total').textContent = total;
   document.getElementById('pq-progress').style.width = ((idx + 1) / total * 100) + '%';
+  const chapEl = document.getElementById('pq-chapter-name');
+  if (chapEl) chapEl.textContent = selection.chapter?.label || q.chapter || '';
   const sc = document.getElementById('pq-subj-chip');
   sc.textContent = q.subject || selection.subject?.label || '';
   sc.className = 'subject-chip ' + subjClass(q.subject || selection.subject?.label);
@@ -901,9 +1532,14 @@ function renderPracticeQ() {
   document.getElementById('pq-prev').style.visibility = idx === 0 ? 'hidden' : 'visible';
   document.getElementById('pq-next').textContent = idx === total - 1 ? 'Finish ✓' : 'Next →';
   const correct = Object.entries(answers).filter(([i, a]) => a === questions[i]?.correct).length;
+  const wrong = Object.keys(answers).length - correct;
   const ch = practiceState.chapter || selection.chapter;
-  const dailyLeft = practiceState.skipDaily ? '—' : Math.max(0, DAILY_LIMIT - getDailyDone(ch).count);
-  document.getElementById('pq-status').textContent = `✅ ${correct}  ❌ ${Object.keys(answers).length - correct}  📅 ${dailyLeft} left today`;
+  let statusText = `✅ ${correct}  ❌ ${wrong}`;
+  if (!practiceState.skipDaily && userPlan === 'free') {
+    const dailyLeft = Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
+    statusText += `  📅 ${dailyLeft} left today`;
+  }
+  document.getElementById('pq-status').textContent = statusText;
 }
 
 function answerPractice(i) {
@@ -943,8 +1579,12 @@ function answerPractice(i) {
 function practiceNav(dir) {
   const total = practiceState.questions.length;
   if (dir === 1 && practiceState.idx === total - 1) {
-    if (!practiceState.skipDaily && selection.chapter && isDailyComplete(selection.chapter)) {
+    if (!practiceState.skipDaily && userPlan !== 'premium' && userPlan !== 'unlimited' && selection.chapter && isDailyComplete(selection.chapter)) {
       document.getElementById('done-chapter').textContent = selection.chapter.label;
+      const limitEl = document.getElementById('done-limit');
+      if (limitEl) limitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
+      const subLimitEl = document.getElementById('done-subject-limit');
+      if (subLimitEl) subLimitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
       updateResetTimer();
       showScreen('daily-done');
     } else showScreen('practice-chapter');
@@ -954,27 +1594,61 @@ function practiceNav(dir) {
   renderPracticeQ();
 }
 
-function selectQCount(n, ev) {
-  timedQCount = n;
-  document.querySelectorAll('#qcount-options .sel-btn').forEach(b => b.classList.remove('active'));
-  ev.target.classList.add('active');
+function renderTimedDurationOptions() {
+  const maxFree = adminConfig.free_max_test_duration;
+  const options = [
+    { mins: 15, label: '15 Minutes', sub: '15 Questions' },
+    { mins: 30, label: '30 Minutes', sub: '30 Questions' },
+    { mins: 45, label: '45 Minutes', sub: '45 Questions' },
+    { mins: 60, label: '1 Hour', sub: '60 Questions' },
+    { mins: 90, label: '1.5 Hours', sub: '90 Questions' },
+    { mins: 120, label: '2 Hours', sub: '120 Questions' },
+    { mins: 150, label: '2.5 Hours', sub: '150 Questions' },
+    { mins: 180, label: '3 Hours', sub: '180 Questions' },
+  ];
+  const isFree = userPlan === 'free';
+  // default select first allowed option
+  const firstAllowed = options.find(o => !isFree || o.mins <= maxFree);
+  if (firstAllowed) { timedQCount = firstAllowed.mins; timedDuration = firstAllowed.mins * 60; }
+  document.getElementById('timed-duration-options').innerHTML = options.map(o => {
+    const locked = isFree && o.mins > maxFree;
+    const isSelected = o.mins === timedQCount;
+    return `<button class="sel-btn${isSelected ? ' active' : ''}${locked ? ' disabled' : ''}"
+      style="display:flex;justify-content:space-between;align-items:center;padding:.75rem 1rem"
+      ${locked ? `onclick="showUpgradePrompt('Timed Tests > ${o.label}')"` : `onclick="pickTimedDuration(${o.mins},this)"`}>
+      <span>⏱ ${o.label}</span>
+      <span style="font-size:.8rem;opacity:.7">${locked ? '🔒 Premium' : o.sub}</span>
+    </button>`;
+  }).join('');
 }
-function selectDuration(s, ev) {
-  timedDuration = s;
-  document.querySelectorAll('#duration-options .sel-btn').forEach(b => b.classList.remove('active'));
-  ev.target.classList.add('active');
+function pickTimedDuration(mins, btn) {
+  timedQCount = mins;
+  timedDuration = mins * 60;
+  document.querySelectorAll('#timed-duration-options .sel-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
 }
 
 async function startTimedTest() {
-  if (userPlan !== 'premium') { showUpgradePrompt('Weekly Timed Test'); return; }
   const name = document.getElementById('timed-name').value.trim();
   if (!name) { document.getElementById('timed-err').style.display = 'block'; return; }
   document.getElementById('timed-err').style.display = 'none';
   const btn = document.querySelector('#screen-timed-setup .btn-gold');
   btn.textContent = 'Loading questions…'; btn.disabled = true;
   try {
-    const allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label });
-    const qs = shuffle(allQs).slice(0, Math.min(timedQCount, allQs.length));
+    const subjects = selection.standard?.subjects || [];
+    let allQs = [];
+    if (subjects.length > 1) {
+      const results = await Promise.all(subjects.map(s =>
+        fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: s.label })
+      ));
+      const perSubj = Math.floor(timedQCount / subjects.length);
+      results.forEach((subQs, i) => {
+        allQs = allQs.concat(shuffle(subQs.map(q => ({ ...q, subject: subjects[i]?.label || q.subject }))).slice(0, perSubj));
+      });
+    } else {
+      allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label });
+    }
+    const qs = shuffle(allQs).slice(0, timedQCount);
     timedState = { questions: qs, idx: 0, answers: {}, marked: {}, secs: timedDuration, totalSecs: timedDuration, timer: null, start: Date.now(), name };
     document.getElementById('tq-total').textContent = qs.length;
     updateTimerDisplay();
@@ -985,7 +1659,7 @@ async function startTimedTest() {
   } catch (e) {
     alert('Failed to load questions for timed test.');
   }
-  btn.textContent = '🚀 Start Weekly Timed Test'; btn.disabled = false;
+  btn.textContent = '🚀 Start Timed Test'; btn.disabled = false;
 }
 
 function updateTimerDisplay() {
@@ -1220,8 +1894,9 @@ function renderDashboard() {
     <div class="dash-stat"><div class="dv" style="font-size:1rem">${worstSubj && worstSubj[0] !== bestSubj?.[0] ? worstSubj[0] : '—'}</div><div class="dl">📖 Needs Work</div></div>
     <div class="dash-stat"><div class="dv" style="font-size:1rem">${bestChap ? bestChap[0].substring(0, 14) : '—'}</div><div class="dl">⭐ Best Chapter</div></div>
     <div class="dash-stat"><div class="dv">${Math.floor(time / 3600)}h ${Math.floor((time % 3600) / 60)}m</div><div class="dl">⏱ Study Time</div></div>`;
+  const subjLevel = p => p >= 75 ? {lbl:'🏆 Excellent',c:'var(--success)'} : p >= 55 ? {lbl:'⭐ Good',c:'#d97706'} : p >= 35 ? {lbl:'📈 Improving',c:'var(--purple)'} : {lbl:'💪 Keep Going',c:'var(--muted)'};
   document.getElementById('dash-subject').innerHTML = Object.entries(subjects).length
-    ? Object.entries(subjects).map(([s, d]) => { const p = Math.round(d.correct / d.total * 100); return `<div class="subj-row"><div>${s}</div><div class="progress-bar"><div class="progress-fill" style="width:${p}%"></div></div><div style="font-weight:700">${p}%</div></div>`; }).join('')
+    ? Object.entries(subjects).map(([s, d]) => { const p = Math.round(d.correct / d.total * 100); const lv = subjLevel(p); return `<div class="subj-row"><div style="min-width:70px">${s}</div><div class="progress-bar" style="flex:1"><div class="progress-fill ${p>=75?'success':p>=55?'gold':p>=35?'':' danger'}" style="width:${Math.max(p,4)}%"></div></div><div style="font-weight:700;font-size:.8rem;color:${lv.c};min-width:90px;text-align:right">${lv.lbl}</div></div>`; }).join('')
     : '<p style="color:var(--muted);font-size:.85rem">No practice data yet.</p>';
   const chapArr = Object.entries(chapters).map(([c, d]) => ({ c, p: Math.round(d.correct / d.total * 100) })).sort((a, b) => b.p - a.p).slice(0, 5);
   document.getElementById('dash-chapters').innerHTML = chapArr.length
@@ -1254,6 +1929,96 @@ function practiceWrong() {
   showScreen('practice-quiz');
 }
 
+const SESSION_GRADIENTS = [
+  'linear-gradient(135deg,#0f766e 0%,#0d9488 100%)',
+  'linear-gradient(135deg,#1e40af 0%,#3b82f6 100%)',
+  'linear-gradient(135deg,#6d28d9 0%,#a78bfa 100%)',
+  'linear-gradient(135deg,#b45309 0%,#f59e0b 100%)',
+  'linear-gradient(135deg,#be123c 0%,#fb7185 100%)',
+  'linear-gradient(135deg,#065f46 0%,#34d399 100%)',
+];
+
+async function renderHomeSessions() {
+  const el = document.getElementById('home-sessions');
+  if (!el) return;
+  try {
+    await loadManifest();
+    const sessions = [];
+    let idx = 0;
+    (manifest.languages || []).forEach(lang => {
+      (lang.standards || []).forEach(std => {
+        sessions.push({ lang, std, gradient: SESSION_GRADIENTS[idx++ % SESSION_GRADIENTS.length] });
+      });
+    });
+    if (!sessions.length) { el.innerHTML = '<div style="color:var(--muted);font-size:.82rem;padding:.5rem;grid-column:1/-1">No sessions found.</div>'; return; }
+    el.innerHTML = sessions.map(({ lang, std, gradient }) => {
+      const totalQ = std.subjects.reduce((s, x) => s + (x.totalQuestions || 0), 0);
+      const subjNames = std.subjects.map(s => s.label).join(' · ');
+      const langLabel = lang.label === 'Tamil' ? '🇮🇳 Tamil Medium' : '🌐 English Medium';
+      return `<div class="session-card" style="background:${gradient}" onclick="quickStartSession('${lang.id}','${std.id}')">
+        <div class="sc-class-badge">${std.label}</div>
+        <div>
+          <div class="sc-lang">${langLabel}</div>
+          <div class="sc-title">NEET UG<br/>Preparation</div>
+          <div class="sc-subjects">${subjNames}${totalQ ? `<br/>${totalQ.toLocaleString()} questions` : ''}</div>
+        </div>
+        <div class="sc-cta">Start Practicing →</div>
+      </div>`;
+    }).join('');
+  } catch(e) {
+    el.innerHTML = '';
+  }
+}
+
+async function quickStartSession(langId, stdId) {
+  appMode = 'practice';
+  selection = { language: null, standard: null, subject: null, chapter: null };
+  try {
+    await loadManifest();
+    const lang = manifest.languages.find(l => l.id === langId);
+    if (!lang) { openFlow('practice'); return; }
+    selection.language = lang;
+    const std = lang.standards.find(s => s.id === stdId);
+    if (!std) { openFlow('practice'); return; }
+    selection.standard = std;
+    renderSubjectOptions();
+    renderStepper(2);
+    showScreen('practice-subject');
+  } catch(e) { openFlow('practice'); }
+}
+
+function renderHomeFeatures() {
+  const el = document.getElementById('home-features');
+  if (!el) return;
+  const isFree = userPlan === 'free';
+  const isPrem = userPlan === 'premium' || userPlan === 'unlimited';
+  if (isFree) {
+    el.innerHTML = `
+      <div class="section-title">Your Features</div>
+      <button class="qp-btn" onclick="openFlow('practice')">📝&nbsp; Daily Questions <small style="opacity:.65;font-size:.74rem;margin-left:4px">${FREE_DAILY_LIMIT}/day per subject</small></button>
+      <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Weekly Timed Test <small style="opacity:.65;font-size:.74rem;margin-left:4px">≤${adminConfig.free_max_test_duration} min</small></button>
+      <div class="section-title" style="margin-top:.65rem;color:var(--muted)">Upgrade to Unlock</div>
+      <div class="premium-row">
+        <div class="pf-card" onclick="showUpgradePrompt('Weekly Grand Test')">🏆<br/>Grand Test<span class="pf-badge">PRO</span></div>
+        <div class="pf-card" onclick="showUpgradePrompt('Flashcards')">🃏<br/>Flashcards<span class="pf-badge">PRO</span></div>
+        <div class="pf-card" onclick="showUpgradePrompt('Unlimited Practice')">📚<br/>Unlimited<span class="pf-badge">PRO</span></div>
+        <div class="pf-card" onclick="showUpgradePrompt('Study Community')">👥<br/>Community<span class="pf-badge">PRO</span></div>
+      </div>`;
+  } else {
+    el.innerHTML = `
+      <div class="section-title">Practice</div>
+      <button class="qp-btn" onclick="openFlow('practice')" style="background:#6C3CE1">📚&nbsp; Practice Mode <small style="opacity:.7;font-size:.74rem;margin-left:4px">Unlimited</small></button>
+      <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Weekly Timed Test <small style="opacity:.7;font-size:.74rem;margin-left:4px">Up to 180 min</small></button>
+      <button class="qp-grand-btn" onclick="openFlow('grand')">🏆&nbsp; Weekly Grand Test <small style="opacity:.7;font-size:.74rem;margin-left:4px">180 Q · 3h 15m</small></button>
+      <div class="section-title" style="margin-top:.65rem">More Features</div>
+      <div class="premium-row">
+        <div class="pf-card" onclick="openFlow('flashcard')">🃏<br/>Flashcards</div>
+        <div class="pf-card" onclick="showCommunity()">👥<br/>Community</div>
+        <div class="pf-card" onclick="showScreen('dashboard')">📊<br/>Dashboard</div>
+      </div>`;
+  }
+}
+
 function renderHomeStats() {
   const { total, correct } = progress;
   const acc = total > 0 ? Math.round(correct / total * 100) : 0;
@@ -1267,16 +2032,52 @@ function renderHomeStats() {
       }
     }
   } catch (e) {}
-  document.getElementById('home-stats').innerHTML = `
-    <div class="home-stat"><div class="sv">${total}</div><div class="sl">Total Questions</div></div>
-    <div class="home-stat"><div class="sv" style="color:var(--success)">${correct}</div><div class="sl">✅ Correct</div></div>
-    <div class="home-stat"><div class="sv">${acc}%</div><div class="sl">🎯 Accuracy</div></div>
-    <div class="home-stat"><div class="sv">${todayTotal}</div><div class="sl">📅 Today</div></div>`;
+  // streak: count consecutive days with activity from history
+  let streak = 0;
+  try {
+    const hist = (progress.history || []).map(h => h.date).filter(Boolean);
+    const daySet = new Set(hist);
+    const d = new Date(); d.setHours(0,0,0,0);
+    while (daySet.has(d.toISOString().split('T')[0])) { streak++; d.setDate(d.getDate()-1); }
+  } catch(e) {}
+  const isFreeUser = userPlan === 'free';
+  const DAILY_GOAL = isFreeUser ? FREE_DAILY_LIMIT : 20;
+  const pct = Math.min(100, Math.round(todayTotal / Math.max(DAILY_GOAL, 1) * 100));
+  // daily goal card
+  const dgCount = document.getElementById('dgc-count');
+  const dgFill = document.getElementById('dgc-fill');
+  const dgPct = document.getElementById('dgc-pct');
+  const dgCircle = document.getElementById('dgc-circle');
+  if (isFreeUser) {
+    if (dgCount) dgCount.textContent = `${todayTotal}/${FREE_DAILY_LIMIT} Questions Today`;
+    if (dgPct) dgPct.textContent = pct >= 100 ? '🎉 Daily limit reached!' : `${pct}% of daily limit`;
+  } else {
+    if (dgCount) dgCount.textContent = `${todayTotal} Questions Today`;
+    if (dgPct) dgPct.textContent = todayTotal === 0 ? 'Start practicing!' : todayTotal >= 20 ? '🔥 Great session!' : `Keep going — ${20 - todayTotal} more to reach 20!`;
+  }
+  if (dgFill) dgFill.style.width = (isFreeUser ? pct : Math.min(100, Math.round(todayTotal / 20 * 100))) + '%';
+  if (dgCircle) dgCircle.textContent = isFreeUser ? pct + '%' : (todayTotal >= 20 ? '✓' : todayTotal);
+  const sa = document.getElementById('stat-attempted');
+  const sac = document.getElementById('stat-accuracy');
+  const ss = document.getElementById('stat-streak');
+  if (sa) sa.textContent = total;
+  if (sac) {
+    if (total === 0) {
+      sac.textContent = '–';
+      sac.style.color = 'var(--muted)';
+    } else {
+      sac.textContent = acc + '%';
+      sac.style.color = acc >= 75 ? 'var(--success)' : acc >= 50 ? 'var(--blue)' : 'var(--danger)';
+    }
+    const sacLbl = document.getElementById('stat-accuracy-lbl');
+    if (sacLbl) sacLbl.textContent = 'Accuracy';
+  }
+  if (ss) ss.textContent = streak > 0 ? streak : (total > 0 ? '1' : '0');
 }
 
 function shareApp() {
-  const text = 'I am preparing for NEET UG using ExamAce. Try it here:\n' + location.href;
-  if (navigator.share) navigator.share({ title: 'ExamAce — NEET UG Practice', text, url: location.href }).catch(() => {});
+  const text = 'I am preparing for NEET UG using KARNAN. Try it here:\n' + location.href;
+  if (navigator.share) navigator.share({ title: 'KARNAN — Empowering NEET UG Success', text, url: location.href }).catch(() => {});
   else navigator.clipboard?.writeText(text).then(() => alert('Link copied!')).catch(() => prompt('Copy this link:', location.href));
 }
 
@@ -1328,7 +2129,9 @@ function selectPlan(plan) {
   selectedPlan = plan;
   document.getElementById('plan-free-card').classList.toggle('selected', plan === 'free');
   document.getElementById('plan-premium-card').classList.toggle('selected', plan === 'premium');
-  document.getElementById('plan-btn').textContent = plan === 'premium' ? 'Get Premium →' : 'Continue with Free';
+  const unlimitedCard = document.getElementById('plan-unlimited-card');
+  if (unlimitedCard) unlimitedCard.classList.toggle('selected', plan === 'unlimited');
+  document.getElementById('plan-btn').textContent = plan === 'premium' ? 'Get Premium →' : (plan === 'unlimited' ? 'Get Unlimited Pro →' : 'Continue with Free');
 }
 
 async function confirmPlan() {
@@ -1336,7 +2139,7 @@ async function confirmPlan() {
   btn.disabled = true; btn.textContent = 'Saving…';
   try { await db.from('profiles').update({ plan: selectedPlan }).eq('id', authUser.id); } catch (e) {}
   userPlan = selectedPlan;
-  DAILY_LIMIT = userPlan === 'premium' ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
+  DAILY_LIMIT = (userPlan === 'premium' || userPlan === 'unlimited') ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   btn.disabled = false;
   await initApp();
 }
@@ -1388,19 +2191,60 @@ async function loadUserPlan() {
   try {
     const { data } = await db.from('profiles').select('plan,display_name').eq('id', authUser.id).single();
     userPlan = data?.plan || 'free';
-    DAILY_LIMIT = userPlan === 'premium' ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
+    DAILY_LIMIT = (userPlan === 'premium' || userPlan === 'unlimited') ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   } catch (e) { userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT; }
+}
+
+async function loadAdminConfig() {
+  try {
+    const { data } = await db.from('admin_config').select('key,value');
+    if (data) {
+      data.forEach(r => {
+        if (r.key === 'free_daily_limit') adminConfig.free_daily_limit = parseInt(r.value) || 5;
+        if (r.key === 'free_max_test_duration') adminConfig.free_max_test_duration = parseInt(r.value) || 30;
+      });
+      FREE_DAILY_LIMIT = adminConfig.free_daily_limit;
+      if (userPlan === 'free') DAILY_LIMIT = FREE_DAILY_LIMIT;
+    }
+  } catch(e) {}
+}
+
+async function saveAdminConfig() {
+  const limit = parseInt(document.getElementById('admin-daily-limit').value) || 5;
+  const maxDur = parseInt(document.getElementById('admin-max-duration').value) || 30;
+  try {
+    await db.from('admin_config').upsert([
+      { key: 'free_daily_limit', value: String(limit) },
+      { key: 'free_max_test_duration', value: String(maxDur) }
+    ]);
+    adminConfig.free_daily_limit = limit;
+    adminConfig.free_max_test_duration = maxDur;
+    FREE_DAILY_LIMIT = limit;
+    if (userPlan === 'free') DAILY_LIMIT = FREE_DAILY_LIMIT;
+    const msg = document.getElementById('admin-save-msg');
+    msg.style.display = 'block';
+    setTimeout(() => msg.style.display = 'none', 3000);
+  } catch(e) { alert('Failed to save: ' + e.message); }
+}
+
+function showAdminPanel() {
+  document.getElementById('admin-daily-limit').value = adminConfig.free_daily_limit;
+  document.getElementById('admin-max-duration').value = adminConfig.free_max_test_duration;
+  showScreen('admin');
 }
 
 async function initApp() {
   document.getElementById('screen-auth-login').style.display = 'none';
   document.getElementById('screen-auth-register').style.display = 'none';
   document.getElementById('screen-plan').style.display = 'none';
+  await loadAdminConfig();
   loadStorageSync();
   syncProgressFromSupabase().catch(() => {});
   updateNavUser();
   updateUpgradeBanner();
+  renderHomeFeatures();
   renderHomeStats();
+  renderHomeSessions();
   loadManifest().then(() => renderLangOptions()).catch(() => {
     document.getElementById('lang-options').innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
   });
@@ -1408,21 +2252,34 @@ async function initApp() {
 }
 
 function updateNavUser() {
-  const el = document.getElementById('nav-user');
-  if (!authUser) { el.style.display = 'none'; return; }
-  el.style.display = 'flex';
-  const name = authUser.user_metadata?.display_name || authUser.email?.split('@')[0] || 'User';
-  document.getElementById('nav-user-name').textContent = name;
+  const name = authUser ? (authUser.user_metadata?.display_name || authUser.email?.split('@')[0] || 'User') : null;
+  // bottom nav
+  const bnav = document.getElementById('bottom-nav');
+  if (bnav) bnav.style.display = authUser ? 'flex' : 'none';
+  // nav badge
   const badge = document.getElementById('nav-plan-badge');
-  badge.textContent = userPlan === 'premium' ? '⭐ Premium' : 'Free';
-  badge.className = userPlan === 'premium' ? 'chip chip-gold' : 'chip chip-purple';
+  if (badge) { badge.textContent = userPlan === 'premium' ? '⭐ Premium' : (userPlan === 'unlimited' ? '🚀 Unlimited' : 'Free'); badge.className = (userPlan === 'premium' || userPlan === 'unlimited') ? 'chip chip-gold' : 'chip chip-purple'; }
+  // greeting
+  const greet = document.getElementById('greeting-name');
+  if (greet) greet.textContent = name || 'there';
+}
+
+function renderProfileScreen() {
+  const name = authUser ? (authUser.user_metadata?.display_name || authUser.email?.split('@')[0] || 'User') : 'User';
+  const email = authUser?.email || '';
+  const el = document.getElementById('profile-uname'); if (el) el.textContent = name;
+  const em = document.getElementById('profile-email-txt'); if (em) em.textContent = email;
+  const chip = document.getElementById('profile-plan-chip');
+  if (chip) { chip.textContent = userPlan === 'premium' ? '⭐ Premium' : (userPlan === 'unlimited' ? '🚀 Unlimited' : 'Free Plan'); chip.className = (userPlan === 'premium' || userPlan === 'unlimited') ? 'profile-plan-chip premium' : 'profile-plan-chip'; }
+  const adminItem = document.getElementById('admin-menu-item');
+  if (adminItem) adminItem.style.display = authUser?.email === ADMIN_EMAIL ? 'flex' : 'none';
 }
 
 function updateUpgradeBanner() {
   const el = document.getElementById('upgrade-banner');
   if (!el) return;
-  if (userPlan !== 'premium') {
-    el.innerHTML = `<div class="upgrade-banner"><p><b>⭐ Go Premium</b> — unlock timed tests, 20 Q/day &amp; full dashboard</p><button class="ub-btn" onclick="showUpgradePrompt('Premium Plan')">Upgrade</button></div>`;
+  if (userPlan !== 'premium' && userPlan !== 'unlimited') {
+    el.innerHTML = `<div class="upgrade-banner"><p><b>⭐ Go Premium</b> — unlock flashcards, unlimited practice &amp; study community</p><button class="ub-btn" onclick="showUpgradePrompt('Premium Plan')">Upgrade</button></div>`;
   } else {
     el.innerHTML = '';
   }
