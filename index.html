@@ -266,6 +266,21 @@ body{padding-bottom:68px}
 .qp-btn:hover{background:#00695c}
 .qp-test-btn{width:100%;padding:.85rem;background:linear-gradient(90deg,#f59e0b,#d97706);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;margin-bottom:.75rem;transition:opacity .2s}
 .qp-test-btn:hover{opacity:.9}
+.qp-grand-btn{width:100%;padding:.85rem;background:linear-gradient(90deg,#b91c1c,#991b1b);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;margin-bottom:.75rem;transition:opacity .2s}
+.qp-grand-btn:hover{opacity:.9}
+.premium-row{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin-bottom:.75rem}
+.pf-card{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:.9rem .5rem;text-align:center;cursor:pointer;font-family:'Sora',sans-serif;font-size:.78rem;font-weight:700;transition:all .2s;position:relative}
+.pf-card:hover{border-color:var(--purple);background:var(--purple-light)}
+.pf-badge{display:block;font-size:.62rem;font-weight:700;color:var(--gold);margin-top:.2rem;letter-spacing:.04em}
+.flashcard-wrap{background:var(--card);border:2px solid var(--border);border-radius:var(--radius);padding:1.5rem;min-height:180px;cursor:pointer;display:flex;flex-direction:column;justify-content:center;text-align:center;margin-bottom:.85rem;transition:box-shadow .2s;user-select:none}
+.flashcard-wrap:active{box-shadow:inset 0 0 0 2px var(--purple)}
+.fc-face{width:100%}
+.fc-face.hidden{display:none}
+.fc-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.5;margin-bottom:.75rem}
+.fc-content{font-size:.95rem;font-weight:500;line-height:1.6}
+.fc-answer-text{font-size:1rem;font-weight:700;color:var(--success);margin-bottom:.5rem;font-family:'Sora',sans-serif}
+.fc-exp-text{font-size:.82rem;color:var(--muted);line-height:1.5;margin-top:.4rem}
+.flashcard-back{background:var(--purple-light)}
 /* ── SUBJECT ICON CARDS ── */
 .subj-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:.5rem}
 .subj-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:1.1rem;cursor:pointer;transition:all .2s;position:relative;text-align:left}
@@ -356,7 +371,7 @@ body{padding-bottom:68px}
   <button class="bnav-btn" id="bnav-practice" onclick="openFlow('practice')">
     <span class="bni">📚</span><span>Practice</span>
   </button>
-  <button class="bnav-btn" id="bnav-community" onclick="showScreen('community')">
+  <button class="bnav-btn" id="bnav-community" onclick="showCommunity()">
     <span class="bni">👥</span><span>Community</span>
   </button>
   <button class="bnav-btn" id="bnav-profile" onclick="showScreen('profile')">
@@ -401,14 +416,21 @@ body{padding-bottom:68px}
   </div>
 
   <!-- Quick Practice -->
-  <div class="section-title">Quick Practice</div>
-  <button class="qp-btn" onclick="openFlow('practice')">▶&nbsp; Choose Subject &amp; Practice</button>
-  <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Start Weekly Timed Test</button>
+  <div class="section-title">Free Features</div>
+  <button class="qp-btn" onclick="openFlow('practice')">📝&nbsp; Daily Questions <small style="opacity:.6;font-size:.75rem;margin-left:4px">5/day per chapter</small></button>
+  <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Weekly Timed Test</button>
+  <button class="qp-grand-btn" onclick="openFlow('grand')">🏆&nbsp; Weekly Grand Test <small style="opacity:.7;font-size:.75rem;margin-left:4px">180 Q · 3h 15m</small></button>
+  <div class="section-title" style="margin-top:.65rem">Premium Features</div>
+  <div class="premium-row">
+    <div class="pf-card" onclick="openFlow('flashcard')">🃏<br/>Flashcards<span class="pf-badge">PRO</span></div>
+    <div class="pf-card" onclick="openFlow('practice')">📚<br/>Unlimited<span class="pf-badge">PRO</span></div>
+    <div class="pf-card" onclick="showCommunity()">👥<br/>Community<span class="pf-badge">PRO</span></div>
+  </div>
   <div id="upgrade-banner"></div>
 
   <!-- Home Footer Links -->
   <div class="home-footer-links">
-    <button class="hfl-btn" onclick="showScreen('community')">👥 Study Community</button>
+    <button class="hfl-btn" onclick="showCommunity()">👥 Study Community</button>
     <button class="hfl-btn" onclick="showScreenPublic('contact')">📞 Contact Us</button>
     <button class="hfl-btn" onclick="shareApp()">📤 Share</button>
   </div>
@@ -511,6 +533,52 @@ body{padding-bottom:68px}
   <div id="timed-err" style="color:var(--danger);font-size:.83rem;margin-bottom:.75rem;display:none">Please enter your name.</div>
   <button class="btn btn-gold btn-block" onclick="startTimedTest()">🚀 Start Weekly Timed Test</button>
   <div style="margin-top:.75rem"><button class="btn btn-outline btn-sm" onclick="showScreen('practice-subject')">← Back</button></div>
+</div>
+
+<div id="screen-grand-setup" class="screen">
+  <div class="stepper" id="stepper-grand"></div>
+  <div class="card" style="margin-bottom:1rem;background:linear-gradient(135deg,#fff0f0,#ffe4e4);border-color:#f87171">
+    <h2 style="font-size:1.3rem;font-weight:800;color:#991b1b;margin-bottom:.3rem">🏆 Weekly Grand Test</h2>
+    <p style="font-size:.85rem;color:#b91c1c">Full NEET Mock · All Subjects · 180 Questions · 3 Hours 15 Minutes</p>
+    <p class="selection-pill" id="grand-selection-label"></p>
+  </div>
+  <div class="section-divider">Your Name</div>
+  <input id="grand-name" placeholder="Enter your name for the leaderboard…" style="width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none;background:var(--card);margin-bottom:.75rem"/>
+  <div id="grand-err" style="color:var(--danger);font-size:.83rem;margin-bottom:.75rem;display:none">Please enter your name.</div>
+  <button class="btn btn-danger btn-block" onclick="startGrandTestNow()">🏆 Start Grand Test</button>
+  <div style="margin-top:.75rem"><button class="btn btn-outline btn-sm" onclick="showScreen('practice-class')">← Back</button></div>
+</div>
+
+<div id="screen-flashcard" class="screen">
+  <div class="practice-mode-banner" style="background:linear-gradient(90deg,#ede9fb,#ddd6fe);border-left-color:var(--purple);color:var(--purple-dark)">
+    <span>🃏 Flashcard Mode</span>
+    <span class="mode-sub" id="fc-chapter-name"></span>
+  </div>
+  <div class="quiz-topbar">
+    <div class="quiz-meta">
+      <div class="qnum-badge">Card <span id="fc-num">1</span>/<span id="fc-total">0</span></div>
+      <span id="fc-subj-chip" class="subject-chip subj-phy"></span>
+    </div>
+    <button class="btn btn-outline btn-sm" onclick="confirmExit()">✕ Exit</button>
+  </div>
+  <div class="progress-bar" style="margin-bottom:1rem"><div class="progress-fill" style="background:var(--purple)" id="fc-progress"></div></div>
+  <div class="flashcard-wrap" onclick="flipCard()">
+    <div class="fc-face" id="fc-front">
+      <div class="fc-label">Question — tap to reveal answer</div>
+      <div class="fc-content" id="fc-question"></div>
+    </div>
+    <div class="fc-face hidden flashcard-back" id="fc-back">
+      <div class="fc-label" style="color:var(--purple);opacity:.8">Answer</div>
+      <div class="fc-answer-text" id="fc-answer"></div>
+      <div class="fc-exp-text" id="fc-exp"></div>
+      <div style="font-size:.72rem;color:var(--muted);margin-top:.75rem">Tap to flip back</div>
+    </div>
+  </div>
+  <div class="quiz-nav">
+    <button class="btn btn-outline btn-sm" id="fc-prev" onclick="flashcardNav(-1)">← Prev</button>
+    <button class="btn btn-outline btn-sm" onclick="flipCard()">🔄 Flip</button>
+    <button class="btn btn-primary btn-sm" id="fc-next" onclick="flashcardNav(1)">Next →</button>
+  </div>
 </div>
 
 <div id="screen-timed-quiz" class="screen">
@@ -821,11 +889,12 @@ body{padding-bottom:68px}
         <div class="plan-name">Free</div>
         <div class="plan-price">₹0 <span>/ forever</span></div>
         <ul class="plan-feat">
-          <li>5 questions / chapter / day</li>
-          <li>Practice mode</li>
-          <li>Mistake tracker (last 20)</li>
-          <li class="no">Weekly timed test</li>
-          <li class="no">Full dashboard</li>
+          <li>Daily questions (5/day)</li>
+          <li>Weekly timed tests</li>
+          <li>Weekly grand test</li>
+          <li class="no">Flashcards</li>
+          <li class="no">Unlimited practice</li>
+          <li class="no">Study community</li>
         </ul>
       </div>
       <div class="plan-card featured" id="plan-premium-card" onclick="selectPlan('premium')">
@@ -833,11 +902,11 @@ body{padding-bottom:68px}
         <div class="plan-name">Premium</div>
         <div class="plan-price">₹199 <span>/ month</span></div>
         <ul class="plan-feat">
-          <li>20 questions / chapter / day</li>
-          <li>Practice mode</li>
-          <li>Mistake tracker (last 200)</li>
-          <li>Weekly timed test</li>
-          <li>Full dashboard &amp; insights</li>
+          <li>Daily questions (5/day)</li>
+          <li>Weekly timed &amp; grand tests</li>
+          <li>Flashcards</li>
+          <li>Unlimited practice</li>
+          <li>Study community</li>
         </ul>
       </div>
     </div>
@@ -866,7 +935,7 @@ body{padding-bottom:68px}
 const SUPABASE_URL = 'https://vtswgisxeylubvazcefe.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_lTpVWMDF42ocz84PXirWww_iVcNyeZ-';
 const FREE_DAILY_LIMIT = 5;
-const PREMIUM_DAILY_LIMIT = 20;
+const PREMIUM_DAILY_LIMIT = 9999;
 const LETTERS = ['A','B','C','D'];
 
 const { createClient } = window.supabase;
@@ -1047,13 +1116,16 @@ function confirmExit() { if (confirm('Exit quiz? Your progress will be lost.')) 
 function confirmSubmit() { if (confirm('Submit the test now?')) finishTimedTest(); }
 
 function renderStepper(step) {
-  const steps = appMode === 'timed' ? ['Language', 'Class', 'Subject', 'Test'] : ['Language', 'Class', 'Subject', 'Chapter'];
+  let steps;
+  if (appMode === 'grand') steps = ['Language', 'Class', 'Test'];
+  else if (appMode === 'timed') steps = ['Language', 'Class', 'Subject', 'Test'];
+  else steps = ['Language', 'Class', 'Subject', 'Chapter'];
   const html = steps.map((s, i) => `
     <div class="step">
       <div class="step-dot ${i < step ? 'done' : i === step ? 'active' : ''}">${i < step ? '✓' : i + 1}</div>
       <div class="step-line ${i < step ? 'done' : ''}"></div>
     </div>`).join('');
-  ['stepper-practice', 'stepper-class', 'stepper-subject', 'stepper-chapter'].forEach(id => {
+  ['stepper-practice', 'stepper-class', 'stepper-subject', 'stepper-chapter', 'stepper-grand'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.innerHTML = html;
   });
@@ -1114,6 +1186,13 @@ function renderClassOptions() {
 
 function selectClass(stdId) {
   selection.standard = selection.language.standards.find(s => s.id === stdId);
+  if (appMode === 'grand') {
+    const subjs = selection.standard?.subjects?.map(s => s.label).join(', ') || 'All Subjects';
+    document.getElementById('grand-selection-label').textContent = `${selection.language.label} · ${selection.standard.label} · ${subjs} · 180 Q · 3h 15m`;
+    renderStepper(2);
+    showScreen('grand-setup');
+    return;
+  }
   renderSubjectOptions();
   renderStepper(2);
   showScreen('practice-subject');
@@ -1203,6 +1282,7 @@ async function selectChapter(chapterId) {
   const chapter = selection.subject.chapters.find(c => c.id === chapterId);
   if (!chapter) return;
   selection.chapter = chapter;
+  if (appMode === 'flashcard') { startFlashcards(chapter); return; }
   if (isDailyComplete(chapter)) {
     document.getElementById('done-chapter').textContent = chapter.label;
     updateResetTimer();
