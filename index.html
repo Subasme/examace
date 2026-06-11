@@ -362,6 +362,40 @@ body{padding-bottom:68px}
 .home-footer-links{display:flex;gap:.5rem;margin-top:.85rem;justify-content:center;flex-wrap:wrap}
 .hfl-btn{padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:var(--card);font-family:'DM Sans',sans-serif;font-size:.78rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .2s}
 .hfl-btn:hover{border-color:#00897b;color:#00897b}
+/* ── T/F QUIZ ── */
+.tf-tabs{display:flex;gap:0;margin-bottom:1rem}
+.tf-tab{flex:1;padding:9px 12px;text-align:center;font-family:'Sora',sans-serif;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--border);background:none;color:var(--muted);transition:all .2s}
+.tf-tab:first-child{border-radius:10px 0 0 10px}
+.tf-tab:last-child{border-radius:0 10px 10px 0;border-left:none}
+.tf-tab.active{background:#00897b;color:#fff;border-color:#00897b}
+.tf-card{background:var(--card);border:1.5px solid var(--border);border-radius:20px;padding:1.75rem 1.5rem 1.25rem;min-height:400px;display:flex;flex-direction:column;margin-bottom:1rem;box-shadow:0 4px 20px rgba(0,0,0,.07)}
+.tf-qnum{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--purple);text-align:center;margin-bottom:.3rem}
+.tf-topic{font-size:.8rem;font-weight:600;color:var(--purple);opacity:.75;text-align:center;margin-bottom:1.25rem}
+.tf-statement{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.5rem 0;width:100%;text-align:center}
+.tf-statement-q{font-size:.9rem;font-weight:500;line-height:1.6;color:var(--muted);margin-bottom:.85rem}
+.tf-statement-opt{background:var(--purple-light);border:1.5px solid #c4b5fd;border-radius:10px;padding:.85rem 1rem;font-size:1rem;font-weight:700;color:var(--purple-dark);line-height:1.5;width:100%}
+.tf-btns{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-top:.85rem}
+.tf-btn{padding:14px;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.95rem;font-weight:800;cursor:pointer;letter-spacing:.04em;transition:opacity .2s;color:#fff}
+.tf-btn:hover:not(:disabled){opacity:.85}
+.tf-btn:disabled{opacity:.5;cursor:default}
+.tf-btn.t{background:#e53935}.tf-btn.f{background:#1db87a}
+.tf-feedback{border-radius:10px;padding:.85rem 1rem;margin-top:.75rem;font-size:.86rem;line-height:1.55;display:none}
+.tf-feedback.ok{background:#edfaf4;border-left:3px solid var(--success)}
+.tf-feedback.bad{background:#fff0f0;border-left:3px solid var(--danger)}
+.tf-feedback-lbl{font-weight:700;font-size:.9rem;margin-bottom:.4rem}
+.tf-next-btn{width:100%;padding:13px;background:var(--purple);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-weight:700;font-size:.95rem;cursor:pointer;margin-top:.75rem;display:none}
+.tf-next-btn:hover{opacity:.88}
+/* ── EXAMPLE BOX ── */
+.fc-tip-box.example{background:#eff6ff;border:1.5px solid #bfdbfe}
+.fc-tip-box.example .fc-tip-title{color:#1d4ed8}
+.fc-tip-box.example .fc-tip-content{color:#1e40af}
+/* ── EXAM TIPS SCREEN ── */
+.exam-tips-section{margin-bottom:1.5rem}
+.exam-tips-section h3{font-size:.95rem;font-weight:700;margin-bottom:.85rem;display:flex;align-items:center;gap:.5rem}
+.eti{display:flex;gap:.85rem;margin-bottom:.85rem;align-items:flex-start}
+.eti-num{width:28px;height:28px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:800;color:#fff;margin-top:.1rem}
+.eti-num.do{background:var(--success)}.eti-num.dont{background:var(--danger)}.eti-num.tip{background:var(--purple)}
+.eti-text{font-size:.87rem;line-height:1.6;color:var(--text)}
 /* ── COMMUNITY GROUPS ── */
 .community-groups{display:flex;flex-direction:column;gap:.65rem}
 .cgroup-card{display:flex;align-items:center;gap:.8rem;background:var(--card);border:2px solid var(--border);border-radius:12px;padding:.85rem}
@@ -561,6 +595,14 @@ body{padding-bottom:68px}
 </div>
 
 <div id="screen-flashcard" class="screen">
+  <!-- Tab switcher -->
+  <div class="tf-tabs" id="fc-tabs">
+    <button class="tf-tab active" id="fc-tab-flashcard" onclick="switchFlashcardTab('flashcard')">🃏 Flashcards</button>
+    <button class="tf-tab" id="fc-tab-truefalse" onclick="switchFlashcardTab('truefalse')">✅ True / False</button>
+  </div>
+
+  <!-- Flashcard section -->
+  <div id="fc-flashcard-section">
   <div class="fc-header-bar">
     <button class="btn btn-outline btn-sm" onclick="confirmExit()">✕ Exit</button>
     <div class="fc-nav-pill">
@@ -582,6 +624,10 @@ body{padding-bottom:68px}
       <div class="fc-type-label" style="color:var(--success)">Answer</div>
       <div class="fc-breadcrumb" style="color:var(--success)" id="fc-breadcrumb-back"></div>
       <div class="fc-answer-text" id="fc-answer"></div>
+      <div class="fc-tip-box example">
+        <div class="fc-tip-title" style="color:#1d4ed8">Example</div>
+        <div class="fc-tip-content" style="color:#1e40af" id="fc-example-text"></div>
+      </div>
       <div class="fc-tip-box exam-tip" id="fc-tip-wrap" style="display:none">
         <div class="fc-tip-title">Exam Tip</div>
         <div class="fc-tip-content" id="fc-exp"></div>
