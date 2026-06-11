@@ -112,27 +112,20 @@ CREATE INDEX IF NOT EXISTS daily_practice_user_date_idx
 CREATE OR REPLACE FUNCTION handle_new_user()
 RETURNS TRIGGER AS $$
 BEGIN
-  INSERT INTO profiles (id, display_name)
+  INSERT INTO public.profiles (id, display_name)
   VALUES (NEW.id, NEW.raw_user_meta_data->>'display_name')
   ON CONFLICT (id) DO NOTHING;
   RETURN NEW;
+EXCEPTION WHEN OTHERS THEN
+  RETURN NEW;
 END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
 
 DROP TRIGGER IF EXISTS on_auth_user_created ON auth.users;
 CREATE TRIGGER on_auth_user_created
   AFTER INSERT ON auth.users
   FOR EACH ROW EXECUTE FUNCTION handle_new_user();
 
--- ── Grants ───────────────────────────────────────────────────────────────────
+-- ── Grants for service_role (needed for server-side imports) ─────────────────
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO service_role;
 GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO service_role;
-
-GRANT SELECT ON public.chapters TO anon, authenticated;
-GRANT SELECT ON public.questions TO anon, authenticated;
-GRANT ALL ON public.profiles TO authenticated;
-GRANT ALL ON public.user_progress TO authenticated;
-GRANT ALL ON public.mistakes TO authenticated;
-GRANT ALL ON public.leaderboard TO anon, authenticated;
-GRANT ALL ON public.daily_practice TO authenticated;
-GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO authenticated;
