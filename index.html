@@ -2132,6 +2132,7 @@ async function finishTimedTest() {
   progress.total += total; progress.correct += correct; progress.wrong += wrong; progress.time += timeTaken;
   progress.history = progress.history || [];
   progress.history.push({ week: getWeekKey(), score: pct, correct, total, timeTaken, date: new Date().toLocaleDateString('en-GB') });
+  if (progress.history.length > 100) progress.history = progress.history.slice(-100);
   if (progress.history.length > 20) progress.history.shift();
 
   const entry = { name, score: pct, correct, total, time: timeTaken, date: new Date().toLocaleDateString('en-GB'), week: getWeekKey(), selection: selectionLabel() };
