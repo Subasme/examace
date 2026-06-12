@@ -286,6 +286,28 @@ body{padding-bottom:68px}
 .pf-card{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:.9rem .5rem;text-align:center;cursor:pointer;font-family:'Sora',sans-serif;font-size:.78rem;font-weight:700;transition:all .2s;position:relative}
 .pf-card:hover{border-color:var(--purple);background:var(--purple-light)}
 .pf-badge{display:block;font-size:.62rem;font-weight:700;color:var(--gold);margin-top:.2rem;letter-spacing:.04em}
+.daily-activity-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:1rem;margin-bottom:.65rem;display:flex;align-items:center;gap:.85rem;cursor:pointer;transition:all .2s}
+.daily-activity-card:hover:not(.dac-done){border-color:var(--purple);transform:translateY(-1px);box-shadow:0 4px 14px rgba(108,60,225,.1)}
+.daily-activity-card.dac-done{opacity:.7;cursor:default;background:#f8f9fa}
+.dac-icon{width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.dac-body{flex:1;min-width:0}
+.dac-title{font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;margin-bottom:.15rem}
+.dac-sub{font-size:.75rem;color:var(--muted);margin-bottom:.45rem}
+.dac-bar{height:5px;background:var(--border);border-radius:3px;overflow:hidden}
+.dac-fill{height:100%;border-radius:3px;transition:width .4s}
+.dac-count{font-family:'Sora',sans-serif;font-size:.85rem;font-weight:800;flex-shrink:0}
+/* Tip of the Day modal */
+.tip-modal{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:1000;display:none;align-items:flex-end;justify-content:center;padding:0}
+.tip-modal-card{background:var(--card);border-radius:24px 24px 0 0;padding:1.5rem 1.25rem 2rem;max-width:560px;width:100%;animation:slideUp .3s ease}
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.tip-badge{display:inline-flex;align-items:center;gap:.4rem;padding:4px 14px;border-radius:20px;font-size:.72rem;font-weight:700;margin-bottom:.85rem}
+.tip-badge.do{background:#edfaf4;color:#065f46}
+.tip-badge.dont{background:#fff0f0;color:#9b1c1c}
+.tip-badge.studytip{background:var(--purple-light);color:var(--purple-dark)}
+.tip-modal-title{font-family:'Sora',sans-serif;font-size:1.1rem;font-weight:700;margin-bottom:.65rem}
+.tip-modal-text{font-size:.95rem;font-weight:400;line-height:1.7;color:var(--text);margin-bottom:1.5rem}
+.tip-modal-close{width:100%;padding:13px;background:var(--purple);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-weight:700;font-size:.95rem;cursor:pointer;transition:opacity .2s}
+.tip-modal-close:hover{opacity:.88}
 /* ── FLASHCARD REDESIGN ── */
 .flashcard-wrap{background:var(--card);border:1.5px solid var(--border);border-radius:20px;padding:1.75rem 1.5rem 1.25rem;min-height:400px;cursor:pointer;display:flex;flex-direction:column;text-align:center;margin-bottom:1rem;transition:box-shadow .2s,transform .1s;user-select:none;box-shadow:0 4px 20px rgba(0,0,0,.07)}
 .flashcard-wrap:active{transform:scale(.99);box-shadow:0 2px 10px rgba(108,60,225,.15)}
@@ -1288,7 +1310,7 @@ function showScreen(name) {
   if (name === 'leaderboard') loadLeaderboard();
   if (name === 'dashboard') renderDashboard();
   if (name === 'mistakes') renderMistakes();
-  if (name === 'home') { renderHomeStats(); updateUpgradeBanner(); }
+  if (name === 'home') { renderHomeStats(); renderHomeFeatures(); updateUpgradeBanner(); }
   if (name === 'profile') renderProfileScreen();
   // bottom nav active state
   ['home','practice','community','profile'].forEach(n => {
@@ -2316,14 +2338,21 @@ function renderHomeStats() {
   const dgPct = document.getElementById('dgc-pct');
   const dgCircle = document.getElementById('dgc-circle');
   if (isFreeUser) {
-    if (dgCount) dgCount.textContent = `${todayTotal}/${FREE_DAILY_LIMIT} Questions Today`;
-    if (dgPct) dgPct.textContent = pct >= 100 ? '🎉 Daily limit reached!' : `${pct}% of daily limit`;
+    const fcDone = getFCDoneToday();
+    const tfDone = getTFDoneToday();
+    const totalDone = fcDone + tfDone;
+    const totalGoal = FREE_FC_DAILY + FREE_TF_DAILY;
+    const pct2 = Math.min(100, Math.round(totalDone / totalGoal * 100));
+    if (dgCount) dgCount.textContent = `${totalDone}/${totalGoal} Activities Today`;
+    if (dgPct) dgPct.textContent = pct2 >= 100 ? '🎉 All done for today!' : `${fcDone}/5 Flashcards · ${tfDone}/5 True/False`;
+    if (dgFill) dgFill.style.width = pct2 + '%';
+    if (dgCircle) dgCircle.textContent = pct2 >= 100 ? '✓' : pct2 + '%';
   } else {
     if (dgCount) dgCount.textContent = `${todayTotal} Questions Today`;
     if (dgPct) dgPct.textContent = todayTotal === 0 ? 'Start practicing!' : todayTotal >= 20 ? '🔥 Great session!' : `Keep going — ${20 - todayTotal} more to reach 20!`;
+    if (dgFill) dgFill.style.width = Math.min(100, Math.round(todayTotal / 20 * 100)) + '%';
+    if (dgCircle) dgCircle.textContent = todayTotal >= 20 ? '✓' : todayTotal;
   }
-  if (dgFill) dgFill.style.width = (isFreeUser ? pct : Math.min(100, Math.round(todayTotal / 20 * 100))) + '%';
-  if (dgCircle) dgCircle.textContent = isFreeUser ? pct + '%' : (todayTotal >= 20 ? '✓' : todayTotal);
   const sa = document.getElementById('stat-attempted');
   const sac = document.getElementById('stat-accuracy');
   const ss = document.getElementById('stat-streak');
@@ -2516,6 +2545,7 @@ async function initApp() {
     document.getElementById('lang-options').innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
   });
   showScreen('home');
+  setTimeout(showDailyTipPopup, 800);
 }
 
 function updateNavUser() {
@@ -2566,6 +2596,50 @@ function showToast(msg) {
 function hideUpgradePrompt() {
   document.getElementById('upgrade-modal').classList.remove('open');
 }
+
+const DAILY_TIPS = [
+  { type:'do',    label:'✅ DO THIS',     title:'Start with Biology', text:'Attempt Biology first — it\'s worth 360 marks and has no complex calculations. Build confidence and save time for Physics.' },
+  { type:'dont',  label:'❌ AVOID THIS',  title:'Don\'t Overthink Options', text:'Don\'t spend more than 2 minutes on any single question. Time loss compounds quickly — skip and return.' },
+  { type:'studytip', label:'💡 STUDY TIP', title:'Trust NCERT Completely', text:'85% of NEET questions come directly from NCERT text and diagrams. Read line by line, not just highlighted parts.' },
+  { type:'do',    label:'✅ DO THIS',     title:'Read All 4 Options First', text:'Read the complete question AND all 4 options before answering. NEET uses "most appropriate" wording that changes the answer.' },
+  { type:'dont',  label:'❌ AVOID THIS',  title:'Never Skip Biology Questions', text:'Biology has no negative marking risk when you make an educated guess. Never leave a Biology question blank.' },
+  { type:'studytip', label:'💡 STUDY TIP', title:'Spaced Repetition Works', text:'Review chapters after 1 day, 1 week, then 1 month. This proven technique locks information into long-term memory.' },
+  { type:'do',    label:'✅ DO THIS',     title:'Mark Uncertain Questions', text:'Use the review/mark feature for uncertain questions. Return to them after completing easier questions first.' },
+  { type:'dont',  label:'❌ AVOID THIS',  title:'Don\'t Change First Instinct', text:'Avoid changing an answer you were initially confident about. Research shows first instinct is correct more often.' },
+  { type:'studytip', label:'💡 STUDY TIP', title:'Focus on Weak Chapters', text:'20% of your weak chapters contribute to 80% of lost marks. Identify them using your accuracy stats and drill those first.' },
+  { type:'do',    label:'✅ DO THIS',     title:'Write Down SUVAT Variables', text:'For Physics numericals, write down known and unknown variables before solving. This systematic approach prevents errors.' },
+];
+
+function showDailyTipPopup() {
+  const today = getTodayKey();
+  const shownKey = 'examace_tip_' + (authUser?.id || 'guest') + '_' + today;
+  if (localStorage.getItem(shownKey)) return;
+  const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(),0,0)) / 86400000);
+  const tip = DAILY_TIPS[dayOfYear % DAILY_TIPS.length];
+  const badge = document.getElementById('tip-badge');
+  badge.className = 'tip-badge ' + tip.type.replace('studytip','studytip');
+  badge.textContent = tip.label;
+  document.getElementById('tip-modal-title').textContent = tip.title;
+  document.getElementById('tip-modal-text').textContent = tip.text;
+  document.getElementById('tip-day-label').textContent = today;
+  document.getElementById('tip-modal').style.display = 'flex';
+}
+
+function closeTipModal() {
+  document.getElementById('tip-modal').style.display = 'none';
+  try { localStorage.setItem('examace_tip_' + (authUser?.id||'guest') + '_' + getTodayKey(), '1'); } catch(e) {}
+}
 </script>
+<div class="tip-modal" id="tip-modal" onclick="closeTipModal()">
+  <div class="tip-modal-card" onclick="event.stopPropagation()">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.85rem">
+      <span class="tip-badge" id="tip-badge">💡 Tip of the Day</span>
+      <span style="font-size:.75rem;color:var(--muted)" id="tip-day-label"></span>
+    </div>
+    <div class="tip-modal-title" id="tip-modal-title">Did you know?</div>
+    <div class="tip-modal-text" id="tip-modal-text"></div>
+    <button class="tip-modal-close" onclick="closeTipModal()">Got it — let's study! ✓</button>
+  </div>
+</div>
 </body>
 </html>
