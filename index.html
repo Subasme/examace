@@ -274,7 +274,9 @@ body{padding-bottom:68px}
 .sc-subjects{font-size:.69rem;color:rgba(255,255,255,.75);line-height:1.5;margin-bottom:.6rem}
 .sc-cta{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.2);border:1.5px solid rgba(255,255,255,.4);border-radius:20px;padding:4px 11px;font-size:.72rem;font-weight:700;color:#fff;width:fit-content;transition:background .2s}
 .session-card:hover .sc-cta{background:rgba(255,255,255,.32)}
-/* ── PRACTICE ACTION CARDS ── */
+.sc-rec{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.2);border:1.5px solid rgba(255,255,255,.4);border-radius:20px;padding:4px 11px;font-size:.72rem;font-weight:700;color:#fff;width:fit-content;transition:background .2s;margin-top:.4rem}
+.session-card:hover .sc-rec{background:rgba(255,255,255,.32)}
+/* ── QUICK PRACTICE ── */
 .section-title{font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;margin-bottom:.65rem;color:var(--text)}
 .act-card{width:100%;border:none;border-radius:16px;color:#fff;cursor:pointer;display:flex;align-items:center;gap:.9rem;margin-bottom:.7rem;padding:.95rem 1rem;text-align:left;position:relative;overflow:hidden;transition:transform .15s,box-shadow .2s}
 .act-card:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.28)}
@@ -457,7 +459,7 @@ body{padding-bottom:68px}
   <button class="bnav-btn active" id="bnav-home" onclick="goHome()">
     <span class="bni">🏠</span><span>Home</span>
   </button>
-  <button class="bnav-btn" id="bnav-practice" onclick="openFlow('practice')">
+  <button class="bnav-btn" id="bnav-practice" onclick="openFlow('challenge')">
     <span class="bni">📚</span><span>Practice</span>
   </button>
   <button class="bnav-btn" id="bnav-community" onclick="showCommunity()">
@@ -1357,7 +1359,9 @@ function selectionLabel() {
 async function openFlow(mode) {
   if (mode === 'grand' && userPlan === 'free') { showUpgradePrompt('Weekly Grand Test'); return; }
   if (mode === 'practice' && userPlan === 'free') { showUpgradePrompt('MCQ Practice — Upgrade to Premium'); return; }
+  if (mode === 'challenge' && userPlan === 'free') { showUpgradePrompt('Challenge Mode'); return; }
   appMode = mode;
+  if (appMode === 'practice' && (userPlan === 'premium' || userPlan === 'unlimited')) appMode = 'weakareas';
   selection = { language: null, standard: null, subject: null, chapter: null };
   renderStepper(0);
   showScreen('practice-lang');
@@ -1458,14 +1462,23 @@ async function renderChapters() {
   const chaps = selection.subject?.chapters || [];
   const subj = selection.subject.label;
   const isPremium = userPlan === 'premium' || userPlan === 'unlimited';
-  document.getElementById('chapter-title').textContent = `${subj} — Select Chapter`;
+  const isWeakAreas = appMode === 'weakareas';
+  document.getElementById('chapter-title').textContent = isWeakAreas
+    ? `${subj} — Weak Areas`
+    : appMode === 'challenge' ? `${subj} — Challenge`
+    : `${subj} — Select Chapter`;
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading chapters…</p></div>';
   await preloadDailyData();
   const totalDoneQs = chaps.reduce((sum, c) => sum + getDailyDone(c).count, 0);
-  if (isPremium) {
+  const bannerEl = document.getElementById('daily-progress-banner');
+  if (isWeakAreas && bannerEl) {
+    bannerEl.innerHTML = `<div style="background:linear-gradient(90deg,#fff0f0,#ffe4e4);border-left:4px solid #dc2626;border-radius:8px;padding:.6rem .9rem;margin-bottom:.75rem;font-size:.82rem;font-weight:700;color:#9b1c1c">🎯 Weak Areas Mode — Chapters sorted by lowest accuracy first</div>`;
+  } else if (appMode === 'challenge' && bannerEl) {
+    bannerEl.innerHTML = `<div style="background:linear-gradient(90deg,#1e1b4b,#312e81);border-radius:8px;padding:.6rem .9rem;margin-bottom:.75rem;font-size:.82rem;font-weight:700;color:#c7d2fe">🏆 Challenge Mode — Answers revealed only at the end. No hints!</div>`;
+  } else if (isPremium) {
     const DAILY_GOAL = 20;
     const pct = Math.min(100, Math.round(totalDoneQs / DAILY_GOAL * 100));
-    document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
+    if (bannerEl) bannerEl.innerHTML = `<div class="daily-banner">
       <div style="font-size:1.4rem">🌟</div>
       <div class="db-text"><b>Unlimited Practice</b><br/>
       ${totalDoneQs} questions answered today · Keep pushing!
@@ -1474,7 +1487,7 @@ async function renderChapters() {
     const subjectTotal = getSubjectDailyTotal();
     const subjectLimit = FREE_DAILY_LIMIT;
     const pct = Math.min(100, Math.round(subjectTotal / subjectLimit * 100));
-    document.getElementById('daily-progress-banner').innerHTML = `<div class="daily-banner">
+    if (bannerEl) bannerEl.innerHTML = `<div class="daily-banner">
       <div style="font-size:1.4rem">📅</div>
       <div class="db-text"><b>Daily Practice — ${subjectLimit} Questions Per Subject</b><br/>
       ${subjectTotal} of ${subjectLimit} questions done today
@@ -1490,7 +1503,21 @@ async function renderChapters() {
     {bg:'#ffedd5',border:'#f97316',badge:'#ea580c'},
     {bg:'#e0e7ff',border:'#6366f1',badge:'#4f46e5'},
   ];
-  document.getElementById('chapter-list').innerHTML = chaps.map((c, i) => {
+  // in weak areas mode sort by accuracy ascending
+  let sortedChaps = [...chaps];
+  const chapAccMap = {};
+  if (isWeakAreas) {
+    chaps.forEach(c => {
+      const stat = progress.chapters?.[c.label] || progress.chapters?.[c.id];
+      chapAccMap[c.id] = stat?.total > 0 ? Math.round(stat.correct / stat.total * 100) : null;
+    });
+    sortedChaps.sort((a, b) => {
+      const accA = chapAccMap[a.id] ?? 999; // unattempted goes to end
+      const accB = chapAccMap[b.id] ?? 999;
+      return accA - accB;
+    });
+  }
+  document.getElementById('chapter-list').innerHTML = sortedChaps.map((c, i) => {
     const col = CHAP_COLORS[i % CHAP_COLORS.length];
     const dayData = getDailyDone(c);
     let status;
@@ -1512,12 +1539,23 @@ async function renderChapters() {
         ? `<span class="ch-card-status" style="color:#059669">✅ Daily limit reached</span>`
         : `<span class="ch-card-status" style="color:#6b7280">📝 ${subjectRemaining} left today</span>`;
     }
+    let accBadge = '';
+    if (isWeakAreas) {
+      const acc = chapAccMap[c.id];
+      if (acc !== null && acc !== undefined) {
+        const accColor = acc < 50 ? '#dc2626' : acc < 70 ? '#d97706' : '#059669';
+        accBadge = `<span style="font-size:.65rem;font-weight:700;color:${accColor};margin-top:.2rem;display:block">${acc}% accuracy</span>`;
+      } else {
+        accBadge = `<span style="font-size:.65rem;color:var(--muted);margin-top:.2rem;display:block">Not attempted</span>`;
+      }
+    }
     const chapDone = userPlan === 'free' && getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
     return `<button class="ch-card" style="background:${col.bg};border:2px solid ${col.border}"
       ${chapDone ? 'disabled' : `onclick="selectChapter('${c.id}')"`}>
       <div class="ch-card-body">
         <div class="ch-card-name">${c.label}</div>
         ${status}
+        ${accBadge}
       </div>
       <div class="ch-card-num" style="background:${col.badge}">
         <span>CH</span><span style="font-size:.95rem;font-weight:900">${i + 1}</span>
@@ -1531,6 +1569,11 @@ async function selectChapter(chapterId) {
   const chapter = selection.subject.chapters.find(c => c.id === chapterId);
   if (!chapter) return;
   selection.chapter = chapter;
+  // save recommended chapter for session cards
+  const _lid = selection.language?.id, _sid = selection.standard?.id;
+  if (_lid && _sid) {
+    try { localStorage.setItem('examace_rec_'+_lid+'_'+_sid, JSON.stringify({subjId:selection.subject?.id, subjLabel:selection.subject?.label, chapId:chapter.id, chapLabel:chapter.label})); } catch(e) {}
+  }
   if (appMode === 'flashcard' || appMode === 'truefalse') { startFlashcards(chapter); return; }
   if (isDailyComplete(chapter)) {
     document.getElementById('done-chapter').textContent = chapter.label;
@@ -1797,10 +1840,23 @@ function renderPracticeQ() {
   }).join('');
   const expEl = document.getElementById('pq-explanation');
   document.getElementById('pq-exp-text').textContent = q.explanation || '';
-  if (answered !== undefined) { expEl.classList.add('show'); expEl.classList.toggle('wrong-bg', answered !== q.correct); }
+  if (answered !== undefined && appMode !== 'challenge') { expEl.classList.add('show'); expEl.classList.toggle('wrong-bg', answered !== q.correct); }
   else expEl.classList.remove('show');
   document.getElementById('pq-prev').style.visibility = idx === 0 ? 'hidden' : 'visible';
-  document.getElementById('pq-next').textContent = idx === total - 1 ? 'Finish ✓' : 'Next →';
+  const nextBtn = document.getElementById('pq-next');
+  if (appMode === 'challenge' && idx === total - 1) {
+    nextBtn.textContent = 'See Results →';
+  } else {
+    nextBtn.textContent = idx === total - 1 ? 'Finish ✓' : 'Next →';
+  }
+  const banner = document.querySelector('#screen-practice-quiz .practice-mode-banner');
+  if (banner && appMode === 'challenge') {
+    banner.style.cssText = 'background:linear-gradient(90deg,#1e1b4b,#312e81);border-left-color:#6366f1;color:#c7d2fe';
+    banner.querySelector('span').textContent = '🏆 Challenge Mode';
+  } else if (banner) {
+    banner.style.cssText = '';
+    banner.querySelector('span').textContent = '📚 Practice Mode';
+  }
   const correct = Object.entries(answers).filter(([i, a]) => a === questions[i]?.correct).length;
   const wrong = Object.keys(answers).length - correct;
   const ch = practiceState.chapter || selection.chapter;
@@ -2225,6 +2281,13 @@ async function renderHomeSessions() {
       const totalQ = std.subjects.reduce((s, x) => s + (x.totalQuestions || 0), 0);
       const subjNames = std.subjects.map(s => s.label).join(' · ');
       const langLabel = lang.label === 'Tamil' ? 'Tamil Medium' : 'English Medium';
+      const recKey = 'examace_rec_'+lang.id+'_'+std.id;
+      let recLine = '';
+      try {
+        const rec = JSON.parse(localStorage.getItem(recKey) || 'null');
+        if (rec?.chapLabel) recLine = `<div class="sc-rec">▶ Continue: ${rec.chapLabel}</div>`;
+        else recLine = `<div class="sc-rec">▶ Start from Chapter 1</div>`;
+      } catch(e) { recLine = `<div class="sc-rec">▶ Start Practicing</div>`; }
       return `<div class="session-card" style="background:${gradient}" onclick="quickStartSession('${lang.id}','${std.id}')">
         <div>
           <div class="sc-header">
@@ -2234,7 +2297,7 @@ async function renderHomeSessions() {
           <div class="sc-title">NEET UG<br/>Preparation</div>
           <div class="sc-subjects">${subjNames}${totalQ ? `<br/>${totalQ.toLocaleString()} questions` : ''}</div>
         </div>
-        <div class="sc-cta">Start Practicing →</div>
+        ${recLine}
       </div>`;
     }).join('');
   } catch(e) {
@@ -2253,9 +2316,38 @@ async function quickStartSession(langId, stdId) {
     const std = lang.standards.find(s => s.id === stdId);
     if (!std) { openFlow('practice'); return; }
     selection.standard = std;
-    renderSubjectOptions();
-    renderStepper(2);
-    showScreen('practice-subject');
+    // try to jump to recommended chapter
+    let jumped = false;
+    try {
+      const rec = JSON.parse(localStorage.getItem('examace_rec_'+langId+'_'+stdId) || 'null');
+      if (rec) {
+        const subj = std.subjects.find(s => s.id === rec.subjId);
+        const chap = subj?.chapters?.find(c => c.id === rec.chapId);
+        if (subj && chap) {
+          selection.subject = subj;
+          // find next chapter after rec (for "continue" feel)
+          const chapIdx = subj.chapters.indexOf(chap);
+          const nextChap = subj.chapters[chapIdx + 1] || chap; // use next or same if last
+          selection.chapter = nextChap;
+          selectChapter(nextChap.id);
+          jumped = true;
+        }
+      }
+    } catch(e) {}
+    if (!jumped) {
+      // first time: go to first chapter of first subject
+      const firstSubj = std.subjects[0];
+      const firstChap = firstSubj?.chapters?.[0];
+      if (firstSubj && firstChap) {
+        selection.subject = firstSubj;
+        selection.chapter = firstChap;
+        selectChapter(firstChap.id);
+      } else {
+        renderSubjectOptions();
+        renderStepper(2);
+        showScreen('practice-subject');
+      }
+    }
   } catch(e) { openFlow('practice'); }
 }
 
