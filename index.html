@@ -589,11 +589,11 @@ body{padding-bottom:68px}
   <div class="completed-overlay">
     <div style="font-size:2.5rem;margin-bottom:.5rem">🎉</div>
     <h3>Daily Practice Complete!</h3>
-    <p>You've finished all <b id="done-limit">5 questions</b> for <b id="done-chapter"></b> today.<br/>Come back tomorrow for a fresh set!</p>
+    <p>You've finished all <b id="done-limit">questions</b> for <b id="done-chapter"></b> today.<br/>Come back tomorrow for a fresh set!</p>
   </div>
   <div class="section-card">
     <h3>⏰ Resets At Midnight</h3>
-    <p style="font-size:.85rem;color:var(--muted);line-height:1.7">You've used your daily subject allowance of <b id="done-subject-limit">5 questions</b>.<br/>Time until reset: <b id="time-until-reset" style="color:var(--purple)"></b></p>
+    <p style="font-size:.85rem;color:var(--muted);line-height:1.7">You've used your daily subject allowance of <b id="done-subject-limit">questions</b>.<br/>Time until reset: <b id="time-until-reset" style="color:var(--purple)"></b></p>
   </div>
   <div style="display:flex;gap:.6rem;flex-wrap:wrap">
     <button class="btn btn-primary" style="flex:1" onclick="showScreen('practice-chapter')">← Another Chapter</button>
@@ -1075,7 +1075,7 @@ body{padding-bottom:68px}
         <div class="plan-name">Free</div>
         <div class="plan-price">₹0 <span>/ forever</span></div>
         <ul class="plan-feat">
-          <li>5 questions / subject / day</li>
+          <li id="plan-free-qlimit">10 questions / subject / day</li>
           <li>Timed tests ≤ 30 min</li>
           <li>Mistake tracker</li>
           <li class="no">Weekly grand test</li>
@@ -1655,7 +1655,7 @@ async function startFlashcards(chapter) {
       const remaining = limit - done;
       if (remaining <= 0) {
         showScreen('home');
-        showToast(isFC ? 'You have used all 5 flashcards for today. Come back tomorrow!' : 'You have used all 5 True/False questions for today. Come back tomorrow!');
+        showToast(isFC ? `You have used all ${FREE_FC_DAILY} flashcards for today. Come back tomorrow!` : `You have used all ${FREE_TF_DAILY} True/False questions for today. Come back tomorrow!`);
         return;
       }
       qs = shuffle(qs).slice(0, remaining);
@@ -2634,6 +2634,8 @@ async function loadAdminConfig() {
       FREE_FC_DAILY = adminConfig.free_daily_limit;
       FREE_TF_DAILY = adminConfig.free_daily_limit;
       if (userPlan === 'free') DAILY_LIMIT = FREE_DAILY_LIMIT;
+      const qlEl = document.getElementById('plan-free-qlimit');
+      if (qlEl) qlEl.textContent = `${FREE_DAILY_LIMIT} questions / subject / day`;
     }
   } catch(e) {}
 }
