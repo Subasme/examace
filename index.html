@@ -571,7 +571,10 @@ body{padding-bottom:68px}
   </div>
   <div class="progress-bar" style="margin-bottom:1rem"><div class="progress-fill teal" id="pq-progress"></div></div>
   <div class="question-box">
-    <div class="question-text" id="pq-question"></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.3rem">
+      <div class="question-text" id="pq-question" style="margin-bottom:0;flex:1"></div>
+      <div id="pq-tag" style="font-size:.62rem;font-weight:800;color:var(--muted);letter-spacing:.08em;white-space:nowrap;margin-left:.5rem;padding:.15rem .45rem;border:1px solid var(--border);border-radius:8px;opacity:.8"></div>
+    </div>
     <div class="options-list" id="pq-options"></div>
     <div class="explanation-box" id="pq-explanation"><strong>Explanation</strong><span id="pq-exp-text"></span></div>
   </div>
@@ -648,7 +651,10 @@ body{padding-bottom:68px}
   <div class="progress-bar" style="margin-bottom:1rem"><div class="progress-fill" style="background:var(--purple)" id="fc-progress"></div></div>
   <div class="flashcard-wrap" onclick="flipCard()">
     <div class="fc-face" id="fc-front">
-      <div class="fc-type-label">Question</div>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.3rem">
+        <div class="fc-type-label" style="margin-bottom:0">Question</div>
+        <div class="fc-type-label" id="fc-tag" style="margin-bottom:0;color:var(--muted);font-size:.62rem;letter-spacing:.08em"></div>
+      </div>
       <div class="fc-breadcrumb" id="fc-breadcrumb"></div>
       <div class="fc-content" id="fc-question"></div>
       <div class="fc-reveal-hint">Click card to reveal answer</div>
@@ -1210,7 +1216,7 @@ async function loadManifest() {
 }
 
 async function fetchQuestions({ language, standard, subject, chapterId }) {
-  let q = db.from('questions').select('topic,question,options,correct,explanation,chapter_label')
+  let q = db.from('questions').select('topic,question,options,correct,explanation,chapter_label,question_tag')
     .eq('language', language).eq('standard', standard).eq('subject', subject);
   if (chapterId) q = q.eq('chapter_id', chapterId);
   const { data, error } = await q;
@@ -1222,7 +1228,8 @@ async function fetchQuestions({ language, standard, subject, chapterId }) {
     correct: r.correct,
     explanation: r.explanation || '',
     subject,
-    chapter: r.chapter_label || r.topic || chapterId || subject
+    chapter: r.chapter_label || r.topic || chapterId || subject,
+    tag: r.question_tag || ''
   }));
 }
 
@@ -1687,6 +1694,9 @@ function renderFlashcard() {
   const sc = document.getElementById('fc-subj-chip');
   sc.textContent = subjectName;
   sc.className = 'subject-chip ' + subjClass(subjectName);
+  // tag badge
+  const tagEl = document.getElementById('fc-tag');
+  if (tagEl) tagEl.textContent = q.tag || '';
   // question & answer
   document.getElementById('fc-question').textContent = q.question;
   document.getElementById('fc-answer').textContent = ['A','B','C','D'][q.correct] + '. ' + q.options[q.correct];
@@ -1828,6 +1838,8 @@ function renderPracticeQ() {
   sc.textContent = q.subject || selection.subject?.label || '';
   sc.className = 'subject-chip ' + subjClass(q.subject || selection.subject?.label);
   document.getElementById('pq-question').textContent = q.question;
+  const pqTag = document.getElementById('pq-tag');
+  if (pqTag) pqTag.textContent = q.tag || '';
   const answered = answers[idx];
   document.getElementById('pq-options').innerHTML = q.options.map((o, i) => {
     let cls = 'opt';
