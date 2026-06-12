@@ -274,14 +274,22 @@ body{padding-bottom:68px}
 .sc-subjects{font-size:.69rem;color:rgba(255,255,255,.75);line-height:1.5;margin-bottom:.6rem}
 .sc-cta{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.2);border:1.5px solid rgba(255,255,255,.4);border-radius:20px;padding:4px 11px;font-size:.72rem;font-weight:700;color:#fff;width:fit-content;transition:background .2s}
 .session-card:hover .sc-cta{background:rgba(255,255,255,.32)}
-/* ── QUICK PRACTICE ── */
+/* ── PRACTICE ACTION CARDS ── */
 .section-title{font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;margin-bottom:.65rem;color:var(--text)}
-.qp-btn{width:100%;padding:1rem;background:#00897b;color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;cursor:pointer;text-align:left;display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem;transition:background .2s}
-.qp-btn:hover{background:#00695c}
-.qp-test-btn{width:100%;padding:.85rem;background:linear-gradient(90deg,#f59e0b,#d97706);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;margin-bottom:.75rem;transition:opacity .2s}
-.qp-test-btn:hover{opacity:.9}
-.qp-grand-btn{width:100%;padding:.85rem;background:linear-gradient(90deg,#b91c1c,#991b1b);color:#fff;border:none;border-radius:12px;font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;margin-bottom:.75rem;transition:opacity .2s}
-.qp-grand-btn:hover{opacity:.9}
+.act-card{width:100%;border:none;border-radius:16px;color:#fff;cursor:pointer;display:flex;align-items:center;gap:.9rem;margin-bottom:.7rem;padding:.95rem 1rem;text-align:left;position:relative;overflow:hidden;transition:transform .15s,box-shadow .2s}
+.act-card:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.28)}
+.act-card:active{transform:scale(.98)}
+.act-card::before{content:'';position:absolute;right:-28px;top:-28px;width:110px;height:110px;border-radius:50%;background:rgba(255,255,255,.08);pointer-events:none}
+.act-card::after{content:'';position:absolute;right:36px;bottom:-32px;width:72px;height:72px;border-radius:50%;background:rgba(255,255,255,.05);pointer-events:none}
+.act-icon{width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:1.45rem;flex-shrink:0}
+.act-body{flex:1;min-width:0}
+.act-title{font-family:'Sora',sans-serif;font-size:.95rem;font-weight:800;line-height:1.2}
+.act-sub{font-size:.74rem;opacity:.82;margin-top:.2rem;line-height:1.3}
+.act-badge{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.32);border-radius:20px;padding:4px 10px;font-size:.68rem;font-weight:700;white-space:nowrap;flex-shrink:0}
+.act-practice{background:linear-gradient(135deg,#7c3aed 0%,#4c1d95 100%)}
+.act-timed{background:linear-gradient(135deg,#d97706 0%,#92400e 100%)}
+.act-grand{background:linear-gradient(135deg,#dc2626 0%,#7f1d1d 100%)}
+.qp-btn,.qp-test-btn,.qp-grand-btn{display:none}
 .premium-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:.6rem;margin-bottom:.75rem}
 .pf-card{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:.9rem .5rem;text-align:center;cursor:pointer;font-family:'Sora',sans-serif;font-size:.78rem;font-weight:700;transition:all .2s;position:relative}
 .pf-card:hover{border-color:var(--purple);background:var(--purple-light)}
@@ -2293,9 +2301,30 @@ function renderHomeFeatures() {
   } else {
     el.innerHTML = `
       <div class="section-title">Practice</div>
-      <button class="qp-btn" onclick="openFlow('practice')" style="background:#6C3CE1">📚&nbsp; Practice Mode <small style="opacity:.7;font-size:.74rem;margin-left:4px">Unlimited</small></button>
-      <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Weekly Timed Test <small style="opacity:.7;font-size:.74rem;margin-left:4px">Up to 180 min</small></button>
-      <button class="qp-grand-btn" onclick="openFlow('grand')">🏆&nbsp; Weekly Grand Test <small style="opacity:.7;font-size:.74rem;margin-left:4px">180 Q · 3h 15m</small></button>
+      <button class="act-card act-practice" onclick="openFlow('practice')">
+        <div class="act-icon">📚</div>
+        <div class="act-body">
+          <div class="act-title">Practice Mode</div>
+          <div class="act-sub">Chapter-wise MCQs · Instant feedback</div>
+        </div>
+        <div class="act-badge">Unlimited →</div>
+      </button>
+      <button class="act-card act-timed" onclick="openFlow('timed')">
+        <div class="act-icon">⚡</div>
+        <div class="act-body">
+          <div class="act-title">Timed Test</div>
+          <div class="act-sub">Race the clock · All subjects</div>
+        </div>
+        <div class="act-badge">Up to 180 min →</div>
+      </button>
+      <button class="act-card act-grand" onclick="openFlow('grand')">
+        <div class="act-icon">🏆</div>
+        <div class="act-body">
+          <div class="act-title">Grand Test</div>
+          <div class="act-sub">Full NEET simulation · 180 questions</div>
+        </div>
+        <div class="act-badge">3 h 15 m →</div>
+      </button>
       <div class="section-title" style="margin-top:.65rem">More Features</div>
       <div class="premium-row">
         <div class="pf-card" onclick="openFlow('flashcard')">🃏<br/>Flashcards</div>
