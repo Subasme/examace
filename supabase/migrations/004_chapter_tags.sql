@@ -5,7 +5,16 @@
 
 -- ── Add tag columns ─────────────────────────────────────────────────────────
 ALTER TABLE chapters  ADD COLUMN IF NOT EXISTS chapter_tag TEXT;
-ALTER TABLE questions ADD COLUMN IF NOT EXISTS question_tag TEXT UNIQUE;
+ALTER TABLE questions ADD COLUMN IF NOT EXISTS question_tag TEXT;
+
+-- Drop unique constraint if it was created by a previous failed run
+DO $$
+BEGIN
+  ALTER TABLE questions DROP CONSTRAINT IF EXISTS questions_question_tag_key;
+EXCEPTION WHEN OTHERS THEN NULL;
+END $$;
+
+CREATE INDEX IF NOT EXISTS idx_questions_tag ON questions(question_tag);
 
 -- ── Physics: update existing labels (ch1–ch6) and tag them ──────────────────
 UPDATE chapters SET chapter_label='Electric Charges and Fields',         chapter_tag='12PHYCH01' WHERE language='English' AND standard='12th' AND subject='Physics' AND chapter_id='chapter1';
@@ -148,6 +157,9 @@ CREATE TRIGGER trg_question_tag
   EXECUTE FUNCTION fn_set_question_tag();
 
 -- ── Back-fill question_tag for all existing rows ─────────────────────────────
+-- Clear any partial tags first so ROW_NUMBER numbering is consistent
+UPDATE questions SET question_tag = NULL WHERE question_tag IS NOT NULL;
+
 WITH ranked AS (
   SELECT
     q.id,
@@ -161,7 +173,6 @@ WITH ranked AS (
   JOIN chapters c
     ON c.language=q.language AND c.standard=q.standard
    AND c.subject=q.subject   AND c.chapter_id=q.chapter_id
-  WHERE q.question_tag IS NULL
 )
 UPDATE questions
    SET question_tag = ranked.new_tag
