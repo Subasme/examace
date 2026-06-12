@@ -1525,7 +1525,8 @@ async function renderChapters() {
     });
   }
   document.getElementById('chapter-list').innerHTML = sortedChaps.map((c, i) => {
-    const col = CHAP_COLORS[i % CHAP_COLORS.length];
+    const originalIdx = chaps.findIndex(ch => ch.id === c.id);
+    const col = CHAP_COLORS[originalIdx % CHAP_COLORS.length];
     const dayData = getDailyDone(c);
     let status;
     if (userPlan === 'unlimited') {
@@ -1565,7 +1566,7 @@ async function renderChapters() {
         ${accBadge}
       </div>
       <div class="ch-card-num" style="background:${col.badge}">
-        <span>CH</span><span style="font-size:.95rem;font-weight:900">${i + 1}</span>
+        <span>CH</span><span style="font-size:.95rem;font-weight:900">${(c.id.match(/\d+$/) || [i+1])[0]}</span>
       </div>
     </button>`;
   }).join('') || '<div class="info-box">No chapters available.</div>';
