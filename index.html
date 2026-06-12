@@ -1096,6 +1096,8 @@ body{padding-bottom:68px}
 const SUPABASE_URL = 'https://vtswgisxeylubvazcefe.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_lTpVWMDF42ocz84PXirWww_iVcNyeZ-';
 let FREE_DAILY_LIMIT = 5;
+const FREE_FC_DAILY = 5;
+const FREE_TF_DAILY = 5;
 const PREMIUM_DAILY_LIMIT = 9999;
 const ADMIN_EMAIL = 'karnanphysics2026@gmail.com';
 let adminConfig = { free_daily_limit: 5, free_max_test_duration: 30 };
@@ -1225,6 +1227,25 @@ function setDailyDone(chapter, data) {
   }
 }
 
+function getFCDoneToday() {
+  const uid = authUser?.id || 'guest';
+  try { return Math.min(FREE_FC_DAILY, parseInt(localStorage.getItem('examace_fc_' + uid + '_' + getTodayKey()) || '0', 10)); } catch(e) { return 0; }
+}
+function getTFDoneToday() {
+  const uid = authUser?.id || 'guest';
+  try { return Math.min(FREE_TF_DAILY, parseInt(localStorage.getItem('examace_tf_' + uid + '_' + getTodayKey()) || '0', 10)); } catch(e) { return 0; }
+}
+function incFCDone(n) {
+  if (userPlan !== 'free') return;
+  const uid = authUser?.id || 'guest';
+  try { localStorage.setItem('examace_fc_' + uid + '_' + getTodayKey(), getFCDoneToday() + (n||1)); } catch(e) {}
+}
+function incTFDone(n) {
+  if (userPlan !== 'free') return;
+  const uid = authUser?.id || 'guest';
+  try { localStorage.setItem('examace_tf_' + uid + '_' + getTodayKey(), getTFDoneToday() + (n||1)); } catch(e) {}
+}
+
 async function preloadDailyData() {
   if (!authUser || !selection.subject) return;
   try {
@@ -1307,8 +1328,7 @@ function selectionLabel() {
 
 async function openFlow(mode) {
   if (mode === 'grand' && userPlan === 'free') { showUpgradePrompt('Weekly Grand Test'); return; }
-  if (mode === 'flashcard' && userPlan === 'free') { showUpgradePrompt('Flashcards'); return; }
-  if (mode === 'truefalse' && userPlan === 'free') { showUpgradePrompt('True/False Quiz'); return; }
+  if (mode === 'practice' && userPlan === 'free') { showUpgradePrompt('MCQ Practice — Upgrade to Premium'); return; }
   appMode = mode;
   selection = { language: null, standard: null, subject: null, chapter: null };
   renderStepper(0);
@@ -1546,12 +1566,25 @@ async function startGrandTestNow() {
 let flashcardState = { questions: [], idx: 0, flipped: false };
 
 async function startFlashcards(chapter) {
-  if (userPlan !== 'premium' && userPlan !== 'unlimited') { showUpgradePrompt('Flashcards'); return; }
   selection.chapter = chapter;
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading flashcards…</p></div>';
   try {
-    const qs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label, chapterId: chapter.id });
-    flashcardState = { questions: shuffle(qs), idx: 0, flipped: false };
+    let qs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label, chapterId: chapter.id });
+    if (userPlan === 'free') {
+      const isFC = appMode !== 'truefalse';
+      const done = isFC ? getFCDoneToday() : getTFDoneToday();
+      const limit = isFC ? FREE_FC_DAILY : FREE_TF_DAILY;
+      const remaining = limit - done;
+      if (remaining <= 0) {
+        showScreen('home');
+        showToast(isFC ? 'You have used all 5 flashcards for today. Come back tomorrow!' : 'You have used all 5 True/False questions for today. Come back tomorrow!');
+        return;
+      }
+      qs = shuffle(qs).slice(0, remaining);
+    } else {
+      qs = shuffle(qs);
+    }
+    flashcardState = { questions: qs, idx: 0, flipped: false };
     renderFlashcard();
     showScreen('flashcard');
     if (appMode === 'truefalse') {
@@ -1599,6 +1632,7 @@ function renderFlashcard() {
     if (tipWrap) tipWrap.style.display = 'none';
   }
   // reset to front face
+  flashcardState.counted = flashcardState.counted || new Set();
   flashcardState.flipped = false;
   document.getElementById('fc-front').classList.remove('hidden');
   document.getElementById('fc-back').classList.add('hidden');
@@ -1610,6 +1644,11 @@ function flipCard() {
   flashcardState.flipped = !flashcardState.flipped;
   document.getElementById('fc-front').classList.toggle('hidden', flashcardState.flipped);
   document.getElementById('fc-back').classList.toggle('hidden', !flashcardState.flipped);
+  if (flashcardState.flipped && !flashcardState.counted?.has(flashcardState.idx)) {
+    flashcardState.counted = flashcardState.counted || new Set();
+    flashcardState.counted.add(flashcardState.idx);
+    incFCDone(1);
+  }
 }
 
 function flashcardNav(dir) {
@@ -1670,6 +1709,7 @@ function renderTF() {
 function answerTF(userSaysTrue) {
   if (tfState.answered) return;
   tfState.answered = true;
+  incTFDone(1);
   const s = tfState.statements[tfState.idx];
   const correct = (userSaysTrue === s.isTrue);
   if (correct) tfState.score++;
@@ -2197,17 +2237,39 @@ function renderHomeFeatures() {
   const isFree = userPlan === 'free';
   const isPrem = userPlan === 'premium' || userPlan === 'unlimited';
   if (isFree) {
+    const fcDone = getFCDoneToday();
+    const tfDone = getTFDoneToday();
+    const fcPct = Math.min(100, Math.round(fcDone / FREE_FC_DAILY * 100));
+    const tfPct = Math.min(100, Math.round(tfDone / FREE_TF_DAILY * 100));
+    const fcDone5 = fcDone >= FREE_FC_DAILY;
+    const tfDone5 = tfDone >= FREE_TF_DAILY;
     el.innerHTML = `
-      <div class="section-title">Your Features</div>
-      <button class="qp-btn" onclick="openFlow('practice')">📝&nbsp; Daily Questions <small style="opacity:.65;font-size:.74rem;margin-left:4px">${FREE_DAILY_LIMIT}/day per subject</small></button>
-      <button class="qp-test-btn" onclick="openFlow('timed')">⚡&nbsp; Weekly Timed Test <small style="opacity:.65;font-size:.74rem;margin-left:4px">≤${adminConfig.free_max_test_duration} min</small></button>
-      <div class="section-title" style="margin-top:.65rem;color:var(--muted)">Upgrade to Unlock</div>
-      <div class="premium-row">
-        <div class="pf-card" onclick="showUpgradePrompt('Weekly Grand Test')">🏆<br/>Grand Test<span class="pf-badge">PRO</span></div>
-        <div class="pf-card" onclick="showUpgradePrompt('Flashcards')">🃏<br/>Flashcards<span class="pf-badge">PRO</span></div>
-        <div class="pf-card" onclick="showUpgradePrompt('Unlimited Practice')">📚<br/>Unlimited<span class="pf-badge">PRO</span></div>
-        <div class="pf-card" onclick="showUpgradePrompt('Study Community')">👥<br/>Community<span class="pf-badge">PRO</span></div>
-      </div>`;
+    <div class="section-title">Today's Practice</div>
+    <div class="daily-activity-card ${fcDone5 ? 'dac-done' : ''}" onclick="${fcDone5 ? '' : "openFlow('flashcard')"}">
+      <div class="dac-icon" style="background:#ede9fb">🃏</div>
+      <div class="dac-body">
+        <div class="dac-title">Flashcards</div>
+        <div class="dac-sub">${fcDone5 ? 'Completed for today!' : 'Flip cards to learn key facts'}</div>
+        <div class="dac-bar"><div class="dac-fill" style="background:var(--purple);width:${fcPct}%"></div></div>
+      </div>
+      <div class="dac-count" style="color:${fcDone5 ? 'var(--success)' : 'var(--purple)'}">${fcDone5 ? '✓' : fcDone + '/' + FREE_FC_DAILY}</div>
+    </div>
+    <div class="daily-activity-card ${tfDone5 ? 'dac-done' : ''}" onclick="${tfDone5 ? '' : "openFlow('truefalse')"}">
+      <div class="dac-icon" style="background:#edfaf4">✅</div>
+      <div class="dac-body">
+        <div class="dac-title">True / False Quiz</div>
+        <div class="dac-sub">${tfDone5 ? 'Completed for today!' : 'Test what you know'}</div>
+        <div class="dac-bar"><div class="dac-fill" style="background:var(--success);width:${tfPct}%"></div></div>
+      </div>
+      <div class="dac-count" style="color:${tfDone5 ? 'var(--success)' : '#00897b'}">${tfDone5 ? '✓' : tfDone + '/' + FREE_TF_DAILY}</div>
+    </div>
+    <div class="section-title" style="margin-top:.75rem;color:var(--muted)">Upgrade to Unlock</div>
+    <div class="premium-row">
+      <div class="pf-card" onclick="showUpgradePrompt('MCQ Practice')">📚<br/>Practice<span class="pf-badge">PRO</span></div>
+      <div class="pf-card" onclick="showUpgradePrompt('Weekly Grand Test')">🏆<br/>Grand Test<span class="pf-badge">PRO</span></div>
+      <div class="pf-card" onclick="showUpgradePrompt('Timed Test')">⚡<br/>Timed Test<span class="pf-badge">PRO</span></div>
+      <div class="pf-card" onclick="showUpgradePrompt('Study Community')">👥<br/>Community<span class="pf-badge">PRO</span></div>
+    </div>`;
   } else {
     el.innerHTML = `
       <div class="section-title">Practice</div>
@@ -2493,6 +2555,13 @@ function updateUpgradeBanner() {
 function showUpgradePrompt(feature) {
   document.getElementById('upgrade-feature').textContent = feature;
   document.getElementById('upgrade-modal').classList.add('open');
+}
+
+function showToast(msg) {
+  let t = document.getElementById('app-toast');
+  if (!t) { t = document.createElement('div'); t.id = 'app-toast'; t.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:#1a1035;color:#fff;padding:10px 20px;border-radius:24px;font-size:.85rem;font-family:Sora,sans-serif;z-index:9999;opacity:0;transition:opacity .3s'; document.body.appendChild(t); }
+  t.textContent = msg; t.style.opacity = '1';
+  setTimeout(() => { t.style.opacity = '0'; }, 3000);
 }
 function hideUpgradePrompt() {
   document.getElementById('upgrade-modal').classList.remove('open');
