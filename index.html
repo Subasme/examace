@@ -2644,20 +2644,23 @@ async function saveAdminConfig() {
   const limit = parseInt(document.getElementById('admin-daily-limit').value) || 5;
   const maxDur = parseInt(document.getElementById('admin-max-duration').value) || 30;
   try {
-    await db.from('admin_config').upsert([
+    const { error } = await db.from('admin_config').upsert([
       { key: 'free_daily_limit', value: String(limit) },
       { key: 'free_max_test_duration', value: String(maxDur) }
     ]);
+    if (error) throw new Error(error.message);
     adminConfig.free_daily_limit = limit;
     adminConfig.free_max_test_duration = maxDur;
     FREE_DAILY_LIMIT = limit;
     FREE_FC_DAILY = limit;
     FREE_TF_DAILY = limit;
     if (userPlan === 'free') DAILY_LIMIT = FREE_DAILY_LIMIT;
+    const qlEl = document.getElementById('plan-free-qlimit');
+    if (qlEl) qlEl.textContent = `${FREE_DAILY_LIMIT} questions / subject / day`;
     const msg = document.getElementById('admin-save-msg');
     msg.style.display = 'block';
     setTimeout(() => msg.style.display = 'none', 3000);
-  } catch(e) { alert('Failed to save: ' + e.message); }
+  } catch(e) { alert('Save failed — ' + e.message + '\n\nMake sure you have run migration 005_fix_admin_write_policy.sql in Supabase.'); }
 }
 
 function showAdminPanel() {
