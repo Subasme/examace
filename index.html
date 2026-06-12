@@ -1132,8 +1132,8 @@ body{padding-bottom:68px}
 const SUPABASE_URL = 'https://vtswgisxeylubvazcefe.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_lTpVWMDF42ocz84PXirWww_iVcNyeZ-';
 let FREE_DAILY_LIMIT = 5;
-const FREE_FC_DAILY = 5;
-const FREE_TF_DAILY = 5;
+let FREE_FC_DAILY = 5;
+let FREE_TF_DAILY = 5;
 const PREMIUM_DAILY_LIMIT = 9999;
 const ADMIN_EMAIL = 'karnanphysics2026@gmail.com';
 let adminConfig = { free_daily_limit: 5, free_max_test_duration: 30 };
@@ -2631,6 +2631,8 @@ async function loadAdminConfig() {
         if (r.key === 'free_max_test_duration') adminConfig.free_max_test_duration = parseInt(r.value) || 30;
       });
       FREE_DAILY_LIMIT = adminConfig.free_daily_limit;
+      FREE_FC_DAILY = adminConfig.free_daily_limit;
+      FREE_TF_DAILY = adminConfig.free_daily_limit;
       if (userPlan === 'free') DAILY_LIMIT = FREE_DAILY_LIMIT;
     }
   } catch(e) {}
@@ -2647,6 +2649,8 @@ async function saveAdminConfig() {
     adminConfig.free_daily_limit = limit;
     adminConfig.free_max_test_duration = maxDur;
     FREE_DAILY_LIMIT = limit;
+    FREE_FC_DAILY = limit;
+    FREE_TF_DAILY = limit;
     if (userPlan === 'free') DAILY_LIMIT = FREE_DAILY_LIMIT;
     const msg = document.getElementById('admin-save-msg');
     msg.style.display = 'block';
