@@ -1216,6 +1216,31 @@ async function loadManifest() {
 }
 
 async function fetchQuestions({ language, standard, subject, chapterId }) {
+  // Try Storage JSON first (fast CDN, doesn't count against DB quota)
+  // Falls back to DB query if file not found
+  if (chapterId) {
+    try {
+      const lang = language.toLowerCase();
+      const std  = standard.toLowerCase().replace(/\s+/g, '');
+      const subj = subject.toLowerCase();
+      const url  = `${SUPABASE_URL}/storage/v1/object/public/questions/${lang}/${std}/${subj}/${chapterId}.json`;
+      const res  = await fetch(url);
+      if (res.ok) {
+        const data = await res.json();
+        return data.map(r => ({
+          topic: r.topic || r.chapter || subject,
+          question: r.question,
+          options: r.options,
+          correct: r.correct,
+          explanation: r.explanation || '',
+          subject,
+          chapter: r.chapter || r.chapter_label || chapterId,
+          tag: r.tag || r.question_tag || ''
+        }));
+      }
+    } catch(e) { /* fall through to DB */ }
+  }
+  // DB fallback
   let q = db.from('questions').select('topic,question,options,correct,explanation,chapter_label,question_tag')
     .eq('language', language).eq('standard', standard).eq('subject', subject);
   if (chapterId) q = q.eq('chapter_id', chapterId);
