@@ -151,6 +151,92 @@
           "label": "12th Standard",
           "subjects": [
             {
+              "id": "biology",
+              "label": "Biology",
+              "chapters": [
+                {
+                  "id": "chapter1",
+                  "label": "Chapter 1",
+                  "path": "Tamil/12th/Biology/chapter1.json",
+                  "count": 379
+                },
+                {
+                  "id": "chapter10",
+                  "label": "Chapter 10",
+                  "path": "Tamil/12th/Biology/chapter10.json",
+                  "count": 145
+                },
+                {
+                  "id": "chapter11",
+                  "label": "Chapter 11",
+                  "path": "Tamil/12th/Biology/chapter11.json",
+                  "count": 233
+                },
+                {
+                  "id": "chapter12",
+                  "label": "Chapter 12",
+                  "path": "Tamil/12th/Biology/chapter12.json",
+                  "count": 168
+                },
+                {
+                  "id": "chapter13",
+                  "label": "Chapter 13",
+                  "path": "Tamil/12th/Biology/chapter13.json",
+                  "count": 170
+                },
+                {
+                  "id": "chapter2",
+                  "label": "Chapter 2",
+                  "path": "Tamil/12th/Biology/chapter2.json",
+                  "count": 174
+                },
+                {
+                  "id": "chapter3",
+                  "label": "Chapter 3",
+                  "path": "Tamil/12th/Biology/chapter3.json",
+                  "count": 126
+                },
+                {
+                  "id": "chapter4",
+                  "label": "Chapter 4",
+                  "path": "Tamil/12th/Biology/chapter4.json",
+                  "count": 498
+                },
+                {
+                  "id": "chapter5",
+                  "label": "Chapter 5",
+                  "path": "Tamil/12th/Biology/chapter5.json",
+                  "count": 406
+                },
+                {
+                  "id": "chapter6",
+                  "label": "Chapter 6",
+                  "path": "Tamil/12th/Biology/chapter6.json",
+                  "count": 347
+                },
+                {
+                  "id": "chapter7",
+                  "label": "Chapter 7",
+                  "path": "Tamil/12th/Biology/chapter7.json",
+                  "count": 480
+                },
+                {
+                  "id": "chapter8",
+                  "label": "Chapter 8",
+                  "path": "Tamil/12th/Biology/chapter8.json",
+                  "count": 157
+                },
+                {
+                  "id": "chapter9",
+                  "label": "Chapter 9",
+                  "path": "Tamil/12th/Biology/chapter9.json",
+                  "count": 179
+                }
+              ],
+              "allChaptersPath": "Tamil/12th/Biology/all-chapters.json",
+              "totalQuestions": 3462
+            },
+            {
               "id": "physics",
               "label": "Physics",
               "chapters": [
