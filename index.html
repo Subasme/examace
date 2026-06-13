@@ -3,8 +3,15 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="KARNAN — Empowering NEET UG Success"/>
-<title>KARNAN — Empowering NEET UG Success</title>
+<meta name="description" content="KARNAN — Free NEET UG practice platform with 7,000+ MCQs in Physics, Chemistry and Biology. Chapter-wise practice, timed tests, mistake tracker and score analytics."/>
+<title>KARNAN — NEET UG Practice Platform</title>
+<meta property="og:type"        content="website"/>
+<meta property="og:url"         content="https://karnan.guru/"/>
+<meta property="og:title"       content="KARNAN — NEET UG Practice Platform"/>
+<meta property="og:description" content="Free NEET UG practice with 7,000+ MCQs in Physics, Chemistry and Biology. Chapter-wise MCQs, timed tests, mistake tracker and analytics."/>
+<meta name="twitter:card"       content="summary"/>
+<meta name="twitter:title"      content="KARNAN — NEET UG Practice Platform"/>
+<meta name="twitter:description" content="Free NEET UG practice with 7,000+ MCQs. Chapter-wise MCQs, timed tests, mistake tracker and analytics."/>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
@@ -843,7 +850,7 @@ body{padding-bottom:68px}
     </div>
   </div>
   <button class="logout-btn" onclick="handleLogout()">⏻&nbsp; Logout</button>
-  <div class="app-version">KARNAN · Empowering NEET UG Success · v1.0</div>
+  <div class="app-version">KARNAN · Empowering NEET UG Success</div>
 </div>
 
 <!-- Community / Study Groups Screen -->
@@ -1041,7 +1048,7 @@ body{padding-bottom:68px}
     <div class="auth-err" id="login-err"></div>
     <button class="btn btn-primary btn-block" onclick="handleLogin()" id="login-btn">Sign In</button>
     <div class="auth-switch">No account? <a onclick="showAuthScreen('register')">Create one free</a></div>
-    <div class="auth-switch" style="margin-top:.5rem">Trouble signing in? <a onclick="showScreenPublic('contact')">Contact Us</a></div>
+    <div class="auth-switch" style="margin-top:.5rem"><a onclick="showForgotPassword()">Forgot password?</a> · <a onclick="showScreenPublic('contact')">Contact Us</a></div>
   </div>
 </div>
 
@@ -2948,6 +2955,20 @@ async function handleRegister() {
     ]);
   }
   showPlanScreen();
+}
+
+async function showForgotPassword() {
+  const email = document.getElementById('login-email').value.trim();
+  const errEl = document.getElementById('login-err');
+  if (!email) { errEl.textContent = 'Enter your email above, then click Forgot password.'; return; }
+  errEl.textContent = '';
+  const { error } = await db.auth.resetPasswordForEmail(email, {
+    redirectTo: 'https://karnan.guru/'
+  });
+  if (error) { errEl.textContent = error.message; return; }
+  errEl.style.color = '#059669';
+  errEl.textContent = 'Password reset link sent to ' + email + '. Check your inbox.';
+  setTimeout(() => { errEl.style.color = ''; errEl.textContent = ''; }, 6000);
 }
 
 async function handleLogout() {
