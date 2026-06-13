@@ -1216,44 +1216,80 @@ async function loadManifest() {
 }
 
 async function fetchQuestions({ language, standard, subject, chapterId }) {
-  // Try Storage JSON first (fast CDN, doesn't count against DB quota)
-  // Falls back to DB query if file not found
+  const lang_id = language === 'Tamil' ? 2 : 1;
+
+  // Try Storage JSON first (CDN-cached, free of DB quota)
   if (chapterId) {
     try {
-      const lang = language.toLowerCase();
-      const std  = standard.toLowerCase().replace(/\s+/g, '');
-      const subj = subject.toLowerCase();
-      const url  = `${SUPABASE_URL}/storage/v1/object/public/questions/${lang}/${std}/${subj}/${chapterId}.json`;
-      const res  = await fetch(url);
+      const url = `${SUPABASE_URL}/storage/v1/object/public/questions/${language.toLowerCase()}/${standard.toLowerCase().replace(/\s+/g,'')}/${subject.toLowerCase()}/${chapterId}.json`;
+      const res = await fetch(url);
       if (res.ok) {
         const data = await res.json();
         return data.map(r => ({
+          id: r.id || null,
           topic: r.topic || r.chapter || subject,
           question: r.question,
           options: r.options,
-          correct: r.correct,
+          correct: typeof r.correct === 'number' ? r.correct : 'ABCD'.indexOf(r.correct_option),
+          correct_option: r.correct_option || 'ABCD'[r.correct] || 'A',
           explanation: r.explanation || '',
-          subject,
-          chapter: r.chapter || r.chapter_label || chapterId,
+          subject, chapter: r.chapter || r.chapter_label || chapterId,
           tag: r.tag || r.question_tag || ''
         }));
       }
-    } catch(e) { /* fall through to DB */ }
+    } catch(e) { /* fall through */ }
   }
-  // DB fallback
-  let q = db.from('questions').select('topic,question,options,correct,explanation,chapter_label,question_tag')
+
+  // Normalized DB query: join question_translations + options
+  try {
+    let q = db.from('questions')
+      .select(`id, chapter_id, chapter_label, topic, correct_option, question_tag,
+               question_translations!inner(question_text, explanation),
+               options(option_key, option_text)`)
+      .eq('language', language).eq('standard', standard).eq('subject', subject)
+      .eq('question_translations.lang_id', lang_id)
+      .eq('options.lang_id', lang_id);
+    if (chapterId) q = q.eq('chapter_id', chapterId);
+    const { data, error } = await q;
+    if (!error && data?.length) {
+      return data.map(r => {
+        // Build options array [A,B,C,D] from normalized rows
+        const optMap = {};
+        (r.options || []).forEach(o => { optMap[o.option_key] = o.option_text; });
+        const optArr = ['A','B','C','D'].map(k => optMap[k] || '');
+        const correctIdx = 'ABCD'.indexOf(r.correct_option);
+        const trans = Array.isArray(r.question_translations) ? r.question_translations[0] : r.question_translations;
+        return {
+          id: r.id,
+          topic: r.topic || r.chapter_label,
+          question: trans?.question_text || '',
+          options: optArr,
+          correct: correctIdx >= 0 ? correctIdx : 0,
+          correct_option: r.correct_option || 'A',
+          explanation: trans?.explanation || '',
+          subject, chapter: r.chapter_label || chapterId,
+          tag: r.question_tag || ''
+        };
+      });
+    }
+  } catch(e) { /* fall through to legacy */ }
+
+  // Legacy fallback (old schema columns still present)
+  let q = db.from('questions')
+    .select('id,topic,question,options,correct,correct_option,explanation,chapter_label,question_tag')
     .eq('language', language).eq('standard', standard).eq('subject', subject);
   if (chapterId) q = q.eq('chapter_id', chapterId);
   const { data, error } = await q;
   if (error) throw new Error('Could not load questions');
   return (data || []).map(r => ({
+    id: r.id,
     topic: r.topic || r.chapter_label,
     question: r.question,
     options: r.options,
     correct: r.correct,
+    correct_option: r.correct_option || 'ABCD'[r.correct] || 'A',
     explanation: r.explanation || '',
-    subject,
-    chapter: r.chapter_label || r.topic || chapterId || subject,
+    subject, chapter: r.chapter_label || r.topic || chapterId || subject,
     tag: r.question_tag || ''
   }));
 }
@@ -1912,22 +1948,45 @@ function answerPractice(i) {
   practiceState.answers[practiceState.idx] = i;
   const subj = q.subject || selection.subject?.label || 'General';
   const chap = q.chapter || selection.chapter?.label || q.topic || 'General';
+  const chapId = selection.chapter?.id || '';
+  const isCorrect = i === q.correct;
+  const isSkip = i === -1;
+  const neetScore = isSkip ? 0 : isCorrect ? 4 : -1;
   if (!progress.subjects[subj]) progress.subjects[subj] = { total: 0, correct: 0 };
   if (!progress.chapters[chap]) progress.chapters[chap] = { total: 0, correct: 0 };
   progress.total++;
   progress.subjects[subj].total++;
   progress.chapters[chap].total++;
-  if (i === q.correct) {
+  if (isCorrect) {
     progress.correct++;
     progress.subjects[subj].correct++;
     progress.chapters[chap].correct++;
-  } else {
+  } else if (!isSkip) {
     progress.wrong++;
     mistakes.push({ question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: subj, chapter: chap, date: new Date().toLocaleDateString('en-GB'), yourAnswer: i });
     if (mistakes.length > 200) mistakes.splice(0, mistakes.length - 200);
     if (authUser) {
+      // New normalized: wrong_answer_tracker (upsert by question_id)
+      if (q.id) {
+        db.from('wrong_answer_tracker').upsert(
+          { user_id: authUser.id, question_id: q.id, times_wrong: 1, last_wrong_at: new Date().toISOString() },
+          { onConflict: 'user_id,question_id', ignoreDuplicates: false }
+        ).then();
+      }
+      // Legacy fallback
       db.from('mistakes').insert({ user_id: authUser.id, question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: subj, chapter: chap, your_answer: i }).then();
     }
+  }
+  // Write to topic_performance (new schema)
+  if (authUser && chapId) {
+    db.from('topic_performance').upsert({
+      user_id: authUser.id, subject: subj,
+      chapter_id: chapId, standard: selection.standard?.id || '12th',
+      total: (progress.chapters[chap]?.total || 1),
+      correct: (progress.chapters[chap]?.correct || 0),
+      neet_score: (progress.chapters[chap]?.neet_score || 0) + neetScore,
+      updated_at: new Date().toISOString()
+    }, { onConflict: 'user_id,subject,chapter_id,standard' }).then();
   }
   if (!practiceState.skipDaily && selection.chapter) {
     const dayData = getDailyDone(selection.chapter);
