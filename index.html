@@ -1157,6 +1157,7 @@ let timedState = { questions: [], idx: 0, answers: {}, marked: {}, secs: 0, tota
 let timedQCount = 180, timedDuration = 11700;
 let localLeaderboard = [], globalLeaderboard = [], currentLbTab = 'global';
 let mistakes = [], progress = { total: 0, correct: 0, wrong: 0, time: 0, subjects: {}, chapters: {}, history: [] };
+let wrongAnswers = [];
 let dailyCache = {};
 
 // ── STORAGE ──
@@ -2389,27 +2390,92 @@ function renderDashboard() {
     : '<p style="color:var(--muted);font-size:.85rem">No data yet.</p>';
 }
 
-function renderMistakes() {
+async function loadWrongAnswers() {
+  if (!authUser) { wrongAnswers = []; return; }
+  const lang_id = selection.language?.label === 'Tamil' ? 2 : 1;
+  try {
+    const { data, error } = await db.from('wrong_answer_tracker')
+      .select(`
+        times_wrong, last_wrong_at, question_id,
+        questions!inner(
+          id, subject, chapter_label, correct_option,
+          question_translations(question_text, explanation, lang_id),
+          options(option_key, option_text, lang_id)
+        )
+      `)
+      .eq('user_id', authUser.id)
+      .eq('is_mastered', false)
+      .order('times_wrong', { ascending: false })
+      .limit(50);
+    if (error || !data) { wrongAnswers = []; return; }
+    wrongAnswers = data.map(row => {
+      const q = row.questions;
+      const trans = (q.question_translations || []).find(t => t.lang_id === lang_id)
+                 || (q.question_translations || [])[0] || {};
+      const filteredOpts = (q.options || []).filter(o => o.lang_id === lang_id);
+      const allOpts = filteredOpts.length ? filteredOpts : (q.options || []);
+      const optMap = {};
+      allOpts.forEach(o => { optMap[o.option_key] = o.option_text; });
+      return {
+        question_id: row.question_id,
+        times_wrong: row.times_wrong,
+        subject: q.subject || '',
+        chapter: q.chapter_label || '',
+        question_text: trans.question_text || '',
+        explanation: trans.explanation || '',
+        correct_option: q.correct_option,
+        correct_text: optMap[q.correct_option] || '',
+        optMap
+      };
+    });
+  } catch(e) { wrongAnswers = []; }
+}
+
+async function renderMistakes() {
   const el = document.getElementById('mistakes-list');
-  if (!mistakes.length) { el.innerHTML = '<div class="empty-state"><div class="ei">🎉</div><p>No mistakes yet!</p></div>'; return; }
-  el.innerHTML = [...mistakes].reverse().slice(0, 50).map((m, i) => `
+  el.innerHTML = '<div style="text-align:center;padding:2rem;color:var(--muted)">Loading…</div>';
+  await loadWrongAnswers();
+  if (!wrongAnswers.length) {
+    el.innerHTML = '<div class="empty-state"><div class="ei">🎉</div><p>No mistakes yet!</p></div>';
+    return;
+  }
+  el.innerHTML = wrongAnswers.map((m, i) => `
     <div class="mistakes-item">
-      <div style="margin-bottom:.4rem"><span class="chip chip-purple">${m.subject}</span> <span class="chip chip-blue">${m.chapter}</span></div>
-      <div class="mq">${i + 1}. ${m.question}</div>
-      <div style="font-size:.78rem;color:var(--muted)">Your: <span style="color:var(--danger)">${m.options?.[m.yourAnswer] || ''}</span> · Correct: <span style="color:var(--success)">${m.options?.[m.correct] || ''}</span></div>
+      <div style="margin-bottom:.4rem;display:flex;align-items:center;justify-content:space-between">
+        <div><span class="chip chip-purple">${m.subject}</span> <span class="chip chip-blue">${m.chapter}</span></div>
+        <span style="font-size:.72rem;font-weight:700;color:var(--danger);background:#fee2e2;padding:.2rem .5rem;border-radius:99px">✗ ${m.times_wrong}×</span>
+      </div>
+      <div class="mq">${i + 1}. ${m.question_text}</div>
+      <div style="font-size:.78rem;color:var(--muted)">Correct: <span style="color:var(--success);font-weight:600">${m.correct_text}</span></div>
       ${m.explanation ? `<div style="font-size:.78rem;color:var(--muted);font-style:italic;margin-top:.3rem">💡 ${m.explanation}</div>` : ''}
     </div>`).join('');
 }
+
 async function clearMistakes() {
-  if (!confirm('Clear all mistakes?')) return;
-  mistakes = [];
-  if (authUser) await db.from('mistakes').delete().eq('user_id', authUser.id);
-  saveStorage();
+  if (!confirm('Mark all as mastered? They will no longer appear here.')) return;
+  if (authUser) {
+    await db.from('wrong_answer_tracker')
+      .update({ is_mastered: true })
+      .eq('user_id', authUser.id);
+  }
+  wrongAnswers = [];
   renderMistakes();
 }
-function practiceWrong() {
-  if (!mistakes.length) { alert('No mistakes to practice!'); return; }
-  practiceState = { questions: mistakes.slice(-20).map(m => ({ ...m, topic: m.chapter, explanation: m.explanation || '' })), idx: 0, answers: {}, skipDaily: true };
+
+async function practiceWrong() {
+  if (!wrongAnswers.length) await loadWrongAnswers();
+  if (!wrongAnswers.length) { alert('No mistakes to practice!'); return; }
+  const questions = wrongAnswers.slice(0, 20).map(m => buildQuestion({
+    id: m.question_id,
+    question_text: m.question_text,
+    optMap: m.optMap,
+    correct_option: m.correct_option,
+    explanation: m.explanation,
+    topic: m.chapter,
+    chapter: m.chapter,
+    subject: m.subject
+  }));
+  practiceState = { questions, idx: 0, answers: {}, skipDaily: true, start: Date.now() };
   renderPracticeQ();
   showScreen('practice-quiz');
 }
