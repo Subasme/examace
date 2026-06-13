@@ -1658,7 +1658,7 @@ async function selectChapter(chapterId) {
     const isPremiumOrUnlimited = userPlan === 'premium' || userPlan === 'unlimited';
     const remaining = isPremiumOrUnlimited ? allQs.length : Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
     const pool = isPremiumOrUnlimited ? allQs : (fresh.length >= remaining ? fresh : allQs);
-    practiceState = { questions: shuffle(pool).slice(0, remaining), idx: 0, answers: {}, skipDaily: false, chapter };
+    practiceState = { questions: shuffle(pool).slice(0, remaining), idx: 0, answers: {}, skipDaily: false, chapter, start: Date.now() };
     renderPracticeQ();
     showScreen('practice-quiz');
   } catch (e) {
@@ -1997,6 +1997,8 @@ function answerPractice(i) {
 function practiceNav(dir) {
   const total = practiceState.questions.length;
   if (dir === 1 && practiceState.idx === total - 1) {
+    const timeTakenSecs = Math.round((Date.now() - (practiceState.start || Date.now())) / 1000);
+    saveSessionToSupabase({ questions: practiceState.questions, answers: practiceState.answers, timeTakenSecs, mode: appMode || 'practice', chapterId: selection.chapter?.id });
     if (!practiceState.skipDaily && userPlan !== 'premium' && userPlan !== 'unlimited' && selection.chapter && isDailyComplete(selection.chapter)) {
       document.getElementById('done-chapter').textContent = selection.chapter.label;
       const limitEl = document.getElementById('done-limit');
@@ -2145,6 +2147,69 @@ function timerTick() {
   if (timedState.secs <= 0) { clearInterval(timedState.timer); finishTimedTest(); }
 }
 
+// ── Save session results to Supabase ─────────────────────────────────────────
+async function saveSessionToSupabase({ questions, answers, timeTakenSecs, mode, chapterId }) {
+  if (!authUser) return;
+  const lang_id = selection.language?.label === 'Tamil' ? 2 : 1;
+  let correct = 0, wrong = 0, skipped = 0;
+  questions.forEach((q, i) => {
+    if (answers[i] === undefined) skipped++;
+    else if (answers[i] === q.correct) correct++;
+    else wrong++;
+  });
+  const neet_score = correct * 4 - wrong;
+  const max_score  = questions.length * 4;
+
+  try {
+    // 1. Insert exam_session
+    const { data: sess, error: sessErr } = await db.from('exam_sessions').insert({
+      user_id:      authUser.id,
+      mode:         mode || appMode || 'practice',
+      language:     selection.language?.label || 'English',
+      standard:     selection.standard?.id    || '12th',
+      subject:      selection.subject?.label  || null,
+      chapter_id:   chapterId || selection.chapter?.id || null,
+      total_q:      questions.length,
+      correct_q:    correct,
+      wrong_q:      wrong,
+      skipped_q:    skipped,
+      neet_score,
+      max_score,
+      time_taken:   timeTakenSecs,
+      completed_at: new Date().toISOString()
+    }).select('id').single();
+    if (sessErr || !sess) return;
+
+    const sessionId = sess.id;
+
+    // 2. Insert question_responses
+    const responses = questions.map((q, i) => {
+      const answered    = answers[i] !== undefined;
+      const isCorrect   = answered && answers[i] === q.correct;
+      // map display index back to A/B/C/D using shuffleMap
+      const selOpt      = answered ? (q.shuffleMap?.[answers[i]] || null) : null;
+      return {
+        session_id:      sessionId,
+        question_id:     q.id || null,
+        selected_option: selOpt,
+        is_correct:      answered ? isCorrect : null,
+        neet_score:      answered ? (isCorrect ? 4 : -1) : 0,
+        time_taken:      0
+      };
+    }).filter(r => r.question_id); // only rows where we have a UUID
+    if (responses.length) await db.from('question_responses').insert(responses);
+
+    // 3. Upsert wrong_answer_tracker
+    const wrongs = questions.filter((q, i) => q.id && answers[i] !== undefined && answers[i] !== q.correct);
+    for (const q of wrongs) {
+      await db.from('wrong_answer_tracker').upsert(
+        { user_id: authUser.id, question_id: q.id, times_wrong: 1, last_wrong_at: new Date().toISOString() },
+        { onConflict: 'user_id,question_id', ignoreDuplicates: false }
+      );
+    }
+  } catch(e) { /* silent — results screen still shows */ }
+}
+
 async function finishTimedTest() {
   clearInterval(timedState.timer);
   const { questions, answers, name, start } = timedState;
@@ -2227,6 +2292,7 @@ async function finishTimedTest() {
   savingEl.innerHTML = saved
     ? '<span class="saving-badge" style="color:var(--success)">✅ Saved to global leaderboard!</span>'
     : '<span class="saving-badge">📱 Saved locally</span>';
+  saveSessionToSupabase({ questions, answers, timeTakenSecs: timeTaken, mode: appMode || 'timed' });
   showScreen('timed-result');
 }
 
