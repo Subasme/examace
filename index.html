@@ -1137,7 +1137,7 @@ let FREE_TF_DAILY = 5;
 const PREMIUM_DAILY_LIMIT = 9999;
 const ADMIN_EMAIL = 'karnanphysics2026@gmail.com';
 let adminConfig = { free_daily_limit: 5, free_max_test_duration: 30 };
-const LETTERS = ['A','B','C','D'];
+const LETTERS = ['1','2','3','4']; // display labels for options (never A/B/C/D to students)
 
 const { createClient } = window.supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
@@ -1215,83 +1215,78 @@ async function loadManifest() {
   return manifest;
 }
 
+// Build a question object with shuffled options (A/B/C/D → display 1/2/3/4)
+// correct_option stays as A/B/C/D internally; correct (int) = shuffled display index
+function buildQuestion({ id, question_text, optMap, correct_option, explanation, topic, chapter, tag, subject }) {
+  const keys = shuffle(['A','B','C','D']);          // e.g. ['C','A','D','B']
+  const options = keys.map(k => optMap[k] || '');  // display 1/2/3/4 texts
+  const correct = keys.indexOf(correct_option);     // which display position is correct
+  return { id, question: question_text, options, correct, correct_option, shuffleMap: keys, explanation: explanation || '', topic, chapter, tag, subject };
+}
+
 async function fetchQuestions({ language, standard, subject, chapterId }) {
   const lang_id = language === 'Tamil' ? 2 : 1;
 
-  // Try Storage JSON first (CDN-cached, free of DB quota)
+  // ── Layer 1: Storage JSON (CDN-cached, free of DB quota) ─────────────────
   if (chapterId) {
     try {
       const url = `${SUPABASE_URL}/storage/v1/object/public/questions/${language.toLowerCase()}/${standard.toLowerCase().replace(/\s+/g,'')}/${subject.toLowerCase()}/${chapterId}.json`;
       const res = await fetch(url);
       if (res.ok) {
         const data = await res.json();
-        return data.map(r => ({
-          id: r.id || null,
-          topic: r.topic || r.chapter || subject,
-          question: r.question,
-          options: r.options,
-          correct: typeof r.correct === 'number' ? r.correct : 'ABCD'.indexOf(r.correct_option),
-          correct_option: r.correct_option || 'ABCD'[r.correct] || 'A',
-          explanation: r.explanation || '',
-          subject, chapter: r.chapter || r.chapter_label || chapterId,
-          tag: r.tag || r.question_tag || ''
-        }));
+        return data
+          .filter(r => !r.status || r.status === 'active')
+          .map(r => {
+            const optMap = { A: r.options?.[0], B: r.options?.[1], C: r.options?.[2], D: r.options?.[3] };
+            const correct_option = r.correct_option || 'ABCD'[r.correct] || 'A';
+            return buildQuestion({ id: r.id || null, question_text: r.question, optMap, correct_option,
+              explanation: r.explanation, topic: r.topic || subject,
+              chapter: r.chapter_label || chapterId, tag: r.question_tag || r.tag || '', subject });
+          });
       }
     } catch(e) { /* fall through */ }
   }
 
-  // Normalized DB query: join question_translations + options
+  // ── Layer 2: Normalized DB — questions + question_translations + options ──
   try {
-    let q = db.from('questions')
-      .select(`id, chapter_id, chapter_label, topic, correct_option, question_tag,
+    let qb = db.from('questions')
+      .select(`id, chapter_label, topic, correct_option, question_tag, status,
                question_translations!inner(question_text, explanation),
                options(option_key, option_text)`)
       .eq('language', language).eq('standard', standard).eq('subject', subject)
+      .eq('status', 'active')
       .eq('question_translations.lang_id', lang_id)
       .eq('options.lang_id', lang_id);
-    if (chapterId) q = q.eq('chapter_id', chapterId);
-    const { data, error } = await q;
+    if (chapterId) qb = qb.eq('chapter_id', chapterId);
+    const { data, error } = await qb;
     if (!error && data?.length) {
       return data.map(r => {
-        // Build options array [A,B,C,D] from normalized rows
+        const trans = Array.isArray(r.question_translations) ? r.question_translations[0] : r.question_translations;
         const optMap = {};
         (r.options || []).forEach(o => { optMap[o.option_key] = o.option_text; });
-        const optArr = ['A','B','C','D'].map(k => optMap[k] || '');
-        const correctIdx = 'ABCD'.indexOf(r.correct_option);
-        const trans = Array.isArray(r.question_translations) ? r.question_translations[0] : r.question_translations;
-        return {
-          id: r.id,
-          topic: r.topic || r.chapter_label,
-          question: trans?.question_text || '',
-          options: optArr,
-          correct: correctIdx >= 0 ? correctIdx : 0,
-          correct_option: r.correct_option || 'A',
-          explanation: trans?.explanation || '',
-          subject, chapter: r.chapter_label || chapterId,
-          tag: r.question_tag || ''
-        };
+        return buildQuestion({ id: r.id, question_text: trans?.question_text || '',
+          optMap, correct_option: r.correct_option || 'A',
+          explanation: trans?.explanation, topic: r.topic || r.chapter_label,
+          chapter: r.chapter_label || chapterId, tag: r.question_tag || '', subject });
       });
     }
   } catch(e) { /* fall through to legacy */ }
 
-  // Legacy fallback (old schema columns still present)
-  let q = db.from('questions')
+  // ── Layer 3: Legacy fallback (old flat schema) ────────────────────────────
+  let qb = db.from('questions')
     .select('id,topic,question,options,correct,correct_option,explanation,chapter_label,question_tag')
     .eq('language', language).eq('standard', standard).eq('subject', subject);
-  if (chapterId) q = q.eq('chapter_id', chapterId);
-  const { data, error } = await q;
+  if (chapterId) qb = qb.eq('chapter_id', chapterId);
+  const { data, error } = await qb;
   if (error) throw new Error('Could not load questions');
-  return (data || []).map(r => ({
-    id: r.id,
-    topic: r.topic || r.chapter_label,
-    question: r.question,
-    options: r.options,
-    correct: r.correct,
-    correct_option: r.correct_option || 'ABCD'[r.correct] || 'A',
-    explanation: r.explanation || '',
-    subject, chapter: r.chapter_label || r.topic || chapterId || subject,
-    tag: r.question_tag || ''
-  }));
+  return (data || []).map(r => {
+    const correct_option = r.correct_option || 'ABCD'[r.correct] || 'A';
+    const optMap = { A: r.options?.[0], B: r.options?.[1], C: r.options?.[2], D: r.options?.[3] };
+    return buildQuestion({ id: r.id, question_text: r.question, optMap, correct_option,
+      explanation: r.explanation, topic: r.topic || r.chapter_label,
+      chapter: r.chapter_label || r.topic || chapterId || subject,
+      tag: r.question_tag || '', subject });
+  });
 }
 
 function shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5); }
@@ -1761,7 +1756,7 @@ function renderFlashcard() {
   if (tagEl) tagEl.textContent = q.tag || '';
   // question & answer
   document.getElementById('fc-question').textContent = q.question;
-  document.getElementById('fc-answer').textContent = ['A','B','C','D'][q.correct] + '. ' + q.options[q.correct];
+  document.getElementById('fc-answer').textContent = q.options[q.correct];
   // example box (correct option text without letter prefix)
   const exampleEl = document.getElementById('fc-example-text');
   if (exampleEl) exampleEl.textContent = q.options[q.correct];
@@ -2335,7 +2330,7 @@ function renderMistakes() {
     <div class="mistakes-item">
       <div style="margin-bottom:.4rem"><span class="chip chip-purple">${m.subject}</span> <span class="chip chip-blue">${m.chapter}</span></div>
       <div class="mq">${i + 1}. ${m.question}</div>
-      <div style="font-size:.78rem;color:var(--muted)">Your: <span style="color:var(--danger)">${LETTERS[m.yourAnswer]}) ${m.options[m.yourAnswer]}</span> · Correct: <span style="color:var(--success)">${LETTERS[m.correct]}) ${m.options[m.correct]}</span></div>
+      <div style="font-size:.78rem;color:var(--muted)">Your: <span style="color:var(--danger)">${m.options?.[m.yourAnswer] || ''}</span> · Correct: <span style="color:var(--success)">${m.options?.[m.correct] || ''}</span></div>
       ${m.explanation ? `<div style="font-size:.78rem;color:var(--muted);font-style:italic;margin-top:.3rem">💡 ${m.explanation}</div>` : ''}
     </div>`).join('');
 }
