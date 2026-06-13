@@ -765,6 +765,7 @@ body{padding-bottom:68px}
 <div id="screen-dashboard" class="screen">
   <h2 style="font-size:1.2rem;margin-bottom:1rem">📊 My Dashboard</h2>
   <div class="dash-grid" id="dash-stats"></div>
+  <div class="section-card"><h3>📈 Score Trend</h3><div id="dash-trend"></div></div>
   <div class="section-card"><h3>📚 Subject-wise Accuracy</h3><div id="dash-subject"></div></div>
   <div class="section-card"><h3>🏆 Best Chapters</h3><div id="dash-chapters"></div></div>
   <button class="btn btn-outline btn-sm" onclick="goHome()">← Home</button>
@@ -2175,7 +2176,6 @@ async function saveSessionToSupabase({ questions, answers, timeTakenSecs, mode, 
       wrong_q:      wrong,
       skipped_q:    skipped,
       neet_score,
-      max_score,
       time_taken:   timeTakenSecs,
       completed_at: new Date().toISOString()
     }).select('id').single();
@@ -2365,12 +2365,12 @@ function setWeekLabel() {
   document.getElementById('lb-week').textContent = `Week of ${fmt(start)} – ${fmt(end)}`;
 }
 
-function renderDashboard() {
+async function renderDashboard() {
   const { total, correct, wrong, subjects, chapters, time } = progress;
   const acc = total > 0 ? Math.round(correct / total * 100) : 0;
-  const bestSubj = Object.entries(subjects).sort((a, b) => b[1].correct / b[1].total - a[1].correct / a[1].total)[0];
+  const bestSubj  = Object.entries(subjects).sort((a, b) => b[1].correct / b[1].total - a[1].correct / a[1].total)[0];
   const worstSubj = Object.entries(subjects).sort((a, b) => a[1].correct / a[1].total - b[1].correct / b[1].total)[0];
-  const bestChap = Object.entries(chapters).sort((a, b) => b[1].correct / b[1].total - a[1].correct / a[1].total)[0];
+  const bestChap  = Object.entries(chapters).sort((a, b) => b[1].correct / b[1].total - a[1].correct / a[1].total)[0];
   document.getElementById('dash-stats').innerHTML = `
     <div class="dash-stat"><div class="dv">${total}</div><div class="dl">Questions</div></div>
     <div class="dash-stat"><div class="dv" style="color:var(--success)">${correct}</div><div class="dl">✅ Correct</div></div>
@@ -2380,14 +2380,97 @@ function renderDashboard() {
     <div class="dash-stat"><div class="dv" style="font-size:1rem">${worstSubj && worstSubj[0] !== bestSubj?.[0] ? worstSubj[0] : '—'}</div><div class="dl">📖 Needs Work</div></div>
     <div class="dash-stat"><div class="dv" style="font-size:1rem">${bestChap ? bestChap[0].substring(0, 14) : '—'}</div><div class="dl">⭐ Best Chapter</div></div>
     <div class="dash-stat"><div class="dv">${Math.floor(time / 3600)}h ${Math.floor((time % 3600) / 60)}m</div><div class="dl">⏱ Study Time</div></div>`;
-  const subjLevel = p => p >= 75 ? {lbl:'🏆 Excellent',c:'var(--success)'} : p >= 55 ? {lbl:'⭐ Good',c:'#d97706'} : p >= 35 ? {lbl:'📈 Improving',c:'var(--purple)'} : {lbl:'💪 Keep Going',c:'var(--muted)'};
-  document.getElementById('dash-subject').innerHTML = Object.entries(subjects).length
-    ? Object.entries(subjects).map(([s, d]) => { const p = Math.round(d.correct / d.total * 100); const lv = subjLevel(p); return `<div class="subj-row"><div style="min-width:70px">${s}</div><div class="progress-bar" style="flex:1"><div class="progress-fill ${p>=75?'success':p>=55?'gold':p>=35?'':' danger'}" style="width:${Math.max(p,4)}%"></div></div><div style="font-weight:700;font-size:.8rem;color:${lv.c};min-width:90px;text-align:right">${lv.lbl}</div></div>`; }).join('')
-    : '<p style="color:var(--muted);font-size:.85rem">No practice data yet.</p>';
-  const chapArr = Object.entries(chapters).map(([c, d]) => ({ c, p: Math.round(d.correct / d.total * 100) })).sort((a, b) => b.p - a.p).slice(0, 5);
-  document.getElementById('dash-chapters').innerHTML = chapArr.length
-    ? chapArr.map(({ c, p }) => `<div class="topic-row"><div class="topic-header"><div class="topic-name">${c}</div><div style="font-weight:700">${p}%</div></div><div class="progress-bar"><div class="progress-fill ${p >= 75 ? 'success' : p >= 50 ? 'gold' : 'danger'}" style="width:${p}%"></div></div></div>`).join('')
-    : '<p style="color:var(--muted);font-size:.85rem">No data yet.</p>';
+
+  const loading = '<div style="color:var(--muted);font-size:.85rem;padding:.25rem 0">Loading…</div>';
+  document.getElementById('dash-trend').innerHTML   = loading;
+  document.getElementById('dash-subject').innerHTML = loading;
+  document.getElementById('dash-chapters').innerHTML = loading;
+  if (!authUser) return;
+
+  try {
+    const [perfRes, sessRes, chapRes] = await Promise.all([
+      db.from('topic_performance').select('subject, chapter_id, total, correct').eq('user_id', authUser.id),
+      db.from('exam_sessions').select('neet_score, total_q, completed_at, mode')
+        .eq('user_id', authUser.id).order('completed_at', { ascending: false }).limit(10),
+      db.from('chapters').select('id, label')
+    ]);
+
+    const perf     = perfRes.data || [];
+    const sessions = sessRes.data || [];
+    const chapLabelMap = {};
+    (chapRes.data || []).forEach(c => { chapLabelMap[c.id] = c.label; });
+
+    // ── Subject-wise accuracy ─────────────────────────────────────────────────
+    const subjMap = {};
+    perf.forEach(r => {
+      if (!subjMap[r.subject]) subjMap[r.subject] = { total: 0, correct: 0 };
+      subjMap[r.subject].total   += (r.total   || 0);
+      subjMap[r.subject].correct += (r.correct || 0);
+    });
+    const subjLevel = p => p >= 75 ? { lbl: '🏆 Excellent', c: 'var(--success)' }
+      : p >= 55 ? { lbl: '⭐ Good',      c: '#d97706' }
+      : p >= 35 ? { lbl: '📈 Improving', c: 'var(--purple)' }
+      :           { lbl: '💪 Keep Going', c: 'var(--muted)' };
+    document.getElementById('dash-subject').innerHTML = Object.keys(subjMap).length
+      ? Object.entries(subjMap).map(([s, d]) => {
+          const p = d.total > 0 ? Math.round(d.correct / d.total * 100) : 0;
+          const lv = subjLevel(p);
+          return `<div style="display:grid;grid-template-columns:80px 1fr auto;align-items:center;gap:.6rem;margin-bottom:.75rem">
+            <div style="font-size:.82rem;font-weight:600">${s}</div>
+            <div class="progress-bar"><div class="progress-fill ${p>=75?'success':p>=55?'gold':p>=35?'':'danger'}" style="width:${Math.max(p,4)}%"></div></div>
+            <div style="font-size:.76rem;font-weight:700;color:${lv.c};white-space:nowrap">${p}% · ${lv.lbl}</div>
+          </div>`;
+        }).join('')
+      : '<p style="color:var(--muted);font-size:.85rem">No practice data yet.</p>';
+
+    // ── Best chapters ─────────────────────────────────────────────────────────
+    const chapArr = perf
+      .filter(r => r.total > 0)
+      .map(r => ({ name: chapLabelMap[r.chapter_id] || r.chapter_id, subj: r.subject, p: Math.round(r.correct / r.total * 100) }))
+      .sort((a, b) => b.p - a.p)
+      .slice(0, 5);
+    document.getElementById('dash-chapters').innerHTML = chapArr.length
+      ? chapArr.map(({ name, subj, p }) => `
+          <div class="topic-row">
+            <div class="topic-header">
+              <div class="topic-name">${name} <span style="font-size:.7rem;color:var(--muted)">${subj}</span></div>
+              <div style="font-weight:700;color:${p>=75?'var(--success)':p>=50?'var(--gold)':'var(--danger)'}">${p}%</div>
+            </div>
+            <div class="progress-bar"><div class="progress-fill ${p>=75?'success':p>=50?'gold':'danger'}" style="width:${p}%"></div></div>
+          </div>`).join('')
+      : '<p style="color:var(--muted);font-size:.85rem">No data yet.</p>';
+
+    // ── Score trend (vertical bar chart, CSS-only) ────────────────────────────
+    if (!sessions.length) {
+      document.getElementById('dash-trend').innerHTML = '<p style="color:var(--muted);font-size:.85rem">Complete a test to see your trend.</p>';
+    } else {
+      const maxBarH = 68;
+      const bars = [...sessions].reverse().map(s => {
+        const maxPoss = (s.total_q || 1) * 4;
+        const pct = Math.max(0, Math.min(100, Math.round((s.neet_score || 0) / maxPoss * 100)));
+        const color = pct >= 60 ? 'var(--success)' : pct >= 30 ? '#f59e0b' : 'var(--danger)';
+        const lbl = new Date(s.completed_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+        return { pct, color, lbl };
+      });
+      document.getElementById('dash-trend').innerHTML = `
+        <div style="display:flex;align-items:flex-end;gap:5px;height:${maxBarH + 18}px;border-bottom:1.5px solid var(--border);padding-bottom:0">
+          ${bars.map(({ pct, color }) => `
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%">
+              <div style="font-size:.58rem;font-weight:700;color:${color};margin-bottom:2px">${pct}%</div>
+              <div style="width:100%;background:${color};border-radius:3px 3px 0 0;height:${Math.max(Math.round(pct/100*maxBarH), 3)}px"></div>
+            </div>`).join('')}
+        </div>
+        <div style="display:flex;gap:5px;margin-top:4px">
+          ${bars.map(({ lbl }) => `<div style="flex:1;font-size:.55rem;color:var(--muted);text-align:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">${lbl}</div>`).join('')}
+        </div>
+        <div style="font-size:.72rem;color:var(--muted);text-align:center;margin-top:.5rem">Last ${sessions.length} session${sessions.length > 1 ? 's' : ''} · NEET score %</div>`;
+    }
+  } catch(e) {
+    ['dash-trend','dash-subject','dash-chapters'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el && el.textContent.trim() === 'Loading…') el.innerHTML = '<p style="color:var(--muted);font-size:.85rem">Could not load data.</p>';
+    });
+  }
 }
 
 async function loadWrongAnswers() {
