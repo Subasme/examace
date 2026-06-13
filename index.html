@@ -1153,6 +1153,8 @@ let selectedPlan = 'free';
 let manifest = null;
 let appMode = 'practice';
 let selection = { language: null, standard: null, subject: null, chapter: null };
+window.currentLang  = 'en';   // 'en' = English, 'ta' = Tamil
+window.currentClass = '12th'; // '11th' or '12th'
 let practiceState = { questions: [], idx: 0, answers: {}, skipDaily: false };
 let timedState = { questions: [], idx: 0, answers: {}, marked: {}, secs: 0, totalSecs: 11700, timer: null, start: 0, name: '' };
 let timedQCount = 180, timedDuration = 11700;
@@ -1429,13 +1431,42 @@ async function openFlow(mode) {
   if (appMode === 'practice' && (userPlan === 'premium' || userPlan === 'unlimited')) appMode = 'weakareas';
   selection = { language: null, standard: null, subject: null, chapter: null };
   renderStepper(0);
+  // Show loading on lang screen while manifest loads
   showScreen('practice-lang');
-  const el = document.getElementById('lang-options');
-  el.innerHTML = '<div class="info-box">Loading…</div>';
+  document.getElementById('lang-options').innerHTML = '<div class="info-box">Loading…</div>';
   try { await loadManifest(); } catch(e) {
-    el.innerHTML = `<div class="info-box">Could not load question catalog: ${e.message}</div>`;
+    document.getElementById('lang-options').innerHTML = `<div class="info-box">Could not load question catalog: ${e.message}</div>`;
     return;
   }
+
+  // Auto-apply saved preferences: skip straight to subject if both lang + class are known
+  const prefLangId = window.currentLang === 'ta' ? 'tamil' : 'english';
+  const prefLang   = manifest.languages.find(l => l.id === prefLangId);
+  if (prefLang) {
+    selection.language = prefLang;
+    const prefStd = prefLang.standards.find(s => s.id === window.currentClass);
+    if (prefStd) {
+      selection.standard = prefStd;
+      if (appMode === 'grand') {
+        const subjs = selection.standard?.subjects?.map(s => s.label).join(', ') || 'All Subjects';
+        document.getElementById('grand-selection-label').textContent =
+          `${selection.language.label} · ${selection.standard.label} · ${subjs} · 180 Q · 3h 15m`;
+        renderStepper(2);
+        showScreen('grand-setup');
+      } else {
+        renderSubjectOptions();
+        renderStepper(2);
+        showScreen('practice-subject');
+      }
+      return;
+    }
+    // Only language is known — skip to class screen
+    renderClassOptions();
+    renderStepper(1);
+    showScreen('practice-class');
+    return;
+  }
+
   renderLangOptions();
 }
 
@@ -1447,8 +1478,9 @@ function renderLangOptions() {
     el.innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
     return;
   }
+  const activeLangId = window.currentLang === 'ta' ? 'tamil' : 'english';
   el.innerHTML = langs.map(l => `
-    <button class="sel-btn" onclick="selectLang('${l.id}')">
+    <button class="sel-btn${l.id === activeLangId ? ' active' : ''}" onclick="selectLang('${l.id}')">
       <span>${icons[l.label] || '📖'}</span>${l.label}
       <span style="margin-left:auto;font-size:.75rem;color:var(--muted)">${l.standards.length} class(es)</span>
     </button>`).join('');
@@ -1456,6 +1488,12 @@ function renderLangOptions() {
 
 function selectLang(langId) {
   selection.language = manifest.languages.find(l => l.id === langId);
+  window.currentLang = langId === 'tamil' ? 'ta' : 'en';
+  if (authUser) {
+    db.from('user_profiles')
+      .upsert({ id: authUser.id, lang_id: window.currentLang === 'ta' ? 2 : 1 }, { onConflict: 'id' })
+      .then();
+  }
   renderClassOptions();
   renderStepper(1);
   showScreen('practice-class');
@@ -1467,7 +1505,8 @@ function renderClassOptions() {
   document.getElementById('class-options').innerHTML = all.map(c => {
     const found = standards.find(s => s.id === c.id);
     const disabled = !found;
-    return `<button class="sel-btn${disabled ? ' disabled' : ''}" ${disabled ? 'disabled' : `onclick="selectClass('${c.id}')"`}>
+    const isActive = !disabled && c.id === window.currentClass;
+    return `<button class="sel-btn${disabled ? ' disabled' : ''}${isActive ? ' active' : ''}" ${disabled ? 'disabled' : `onclick="selectClass('${c.id}')"`}>
       <span>${c.icon}</span>${c.label}
       ${disabled ? '<span style="margin-left:auto;font-size:.72rem;color:var(--muted)">Coming soon</span>' : `<span style="margin-left:auto;font-size:.72rem;color:var(--muted)">${found.subjects.length} subject(s)</span>`}
     </button>`;
@@ -1476,6 +1515,12 @@ function renderClassOptions() {
 
 function selectClass(stdId) {
   selection.standard = selection.language.standards.find(s => s.id === stdId);
+  window.currentClass = stdId;
+  if (authUser) {
+    db.from('user_profiles')
+      .upsert({ id: authUser.id, standard: stdId }, { onConflict: 'id' })
+      .then();
+  }
   if (appMode === 'grand') {
     const subjs = selection.standard?.subjects?.map(s => s.label).join(', ') || 'All Subjects';
     document.getElementById('grand-selection-label').textContent = `${selection.language.label} · ${selection.standard.label} · ${subjs} · 180 Q · 3h 15m`;
@@ -2929,9 +2974,12 @@ async function loadUserPlan() {
   try {
     // Try new user_profiles first, fall back to legacy profiles
     let plan = 'free', displayName = '';
-    const { data: up } = await db.from('user_profiles').select('plan,display_name').eq('id', authUser.id).single();
-    if (up) { plan = up.plan || 'free'; displayName = up.display_name || ''; }
-    else {
+    const { data: up } = await db.from('user_profiles').select('plan,display_name,lang_id,standard').eq('id', authUser.id).single();
+    if (up) {
+      plan = up.plan || 'free'; displayName = up.display_name || '';
+      window.currentLang  = up.lang_id === 2 ? 'ta' : 'en';
+      window.currentClass = up.standard || '12th';
+    } else {
       const { data: p } = await db.from('profiles').select('plan,display_name').eq('id', authUser.id).single();
       if (p) { plan = p.plan || 'free'; displayName = p.display_name || ''; }
     }
