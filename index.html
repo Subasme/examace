@@ -356,6 +356,20 @@ body{padding-bottom:68px}
 .subj-plan-lbl{font-size:.72rem;font-weight:600}
 .subj-plan-lbl.free{color:#00897b}.subj-plan-lbl.premium{color:var(--gold)}
 .subj-lock{position:absolute;top:.7rem;right:.7rem;font-size:1rem}
+/* ── SUBJECT GRID V2 (flat, no wizard) ── */
+.subj-grid-v2{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:.25rem}
+.subj-card-v2{border-radius:16px;padding:1.4rem 1.1rem;cursor:pointer;transition:all .2s;position:relative;text-align:left;border:2px solid transparent}
+.subj-card-v2:hover:not(.locked){transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.13)}
+.subj-card-v2.locked{opacity:.68;cursor:not-allowed}
+.subj-card-v2 .s2-icon{font-size:2rem;margin-bottom:.6rem;display:block}
+.subj-card-v2 .s2-name{font-family:'Sora',sans-serif;font-weight:800;font-size:1rem;margin-bottom:.2rem}
+.subj-card-v2 .s2-meta{font-size:.73rem;opacity:.75}
+.subj-card-v2 .s2-lock{position:absolute;top:.7rem;right:.8rem;font-size:.85rem}
+.subj-card-v2 .s2-soon{display:inline-block;background:rgba(255,255,255,.45);border-radius:6px;padding:.1rem .45rem;font-size:.68rem;font-weight:700;margin-top:.25rem}
+/* ── CHAPTER LOCK (admin visibility control) ── */
+.ch-card.ch-locked{opacity:.45;cursor:not-allowed}
+.ch-card.ch-locked .ch-lock-badge{display:block}
+.ch-lock-badge{display:none;position:absolute;top:.45rem;right:.65rem;font-size:.85rem}
 /* ── PROFILE SCREEN ── */
 .profile-top{background:linear-gradient(135deg,#00897b,#004d40);color:#fff;padding:2rem 1.5rem 1.5rem;text-align:center;border-radius:0 0 24px 24px;margin:-1.25rem -1rem 1.25rem}
 .profile-avatar-wrap{width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.2);border:3px solid rgba(255,255,255,.5);display:flex;align-items:center;justify-content:center;font-size:2rem;margin:0 auto .75rem}
@@ -580,10 +594,9 @@ body{padding-bottom:68px}
 </div>
 
 <div id="screen-practice-subject" class="screen">
-  <div class="stepper" id="stepper-subject"></div>
-  <div class="step-title">Choose Subject</div>
-  <div class="subj-grid" id="subject-options"></div>
-  <div style="margin-top:1rem"><button class="btn btn-outline btn-sm" onclick="showScreen('practice-class')">← Back</button></div>
+  <h2 style="font-size:1.15rem;font-weight:800;font-family:'Sora',sans-serif;margin-bottom:1.1rem" id="subject-screen-title">Choose a Subject</h2>
+  <div class="subj-grid-v2" id="subject-options"></div>
+  <div style="margin-top:1.25rem"><button class="btn btn-outline btn-sm" onclick="goHome()">← Home</button></div>
 </div>
 
 <div id="screen-practice-chapter" class="screen">
@@ -836,6 +849,63 @@ body{padding-bottom:68px}
     </div>
     <div id="admin-save-msg" style="font-size:.83rem;color:var(--success);margin-bottom:.5rem;display:none">✅ Saved successfully</div>
     <button class="btn btn-primary btn-block" onclick="saveAdminConfig()">💾 Save Settings</button>
+  </div>
+  <div class="section-card" style="margin-top:1rem">
+    <h3 style="margin-bottom:.4rem">📚 Chapter Visibility Control</h3>
+    <p style="font-size:.8rem;color:var(--muted);margin-bottom:1rem">Restrict how many chapters students can see per subject this week.</p>
+    <div class="field" style="margin-bottom:.75rem">
+      <label>Period label (e.g. "Week 1", "Month 1")</label>
+      <input type="text" id="admin-vis-label" placeholder="e.g. Week 1" style="width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;outline:none"/>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem">
+      <div class="field">
+        <label style="font-size:.8rem">⚛️ Physics — up to ch</label>
+        <select id="admin-vis-physics" style="width:100%;padding:9px 10px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.9rem;outline:none">
+          <option value="99">All</option>
+          <option value="1">Ch 1</option><option value="2">Ch 2</option><option value="3">Ch 3</option>
+          <option value="4">Ch 4</option><option value="5">Ch 5</option><option value="6">Ch 6</option>
+          <option value="7">Ch 7</option><option value="8">Ch 8</option><option value="9">Ch 9</option>
+          <option value="10">Ch 10</option><option value="11">Ch 11</option><option value="12">Ch 12</option>
+          <option value="13">Ch 13</option><option value="14">Ch 14</option>
+        </select>
+      </div>
+      <div class="field">
+        <label style="font-size:.8rem">🧪 Chemistry — up to ch</label>
+        <select id="admin-vis-chemistry" style="width:100%;padding:9px 10px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.9rem;outline:none">
+          <option value="99">All</option>
+          <option value="1">Ch 1</option><option value="2">Ch 2</option><option value="3">Ch 3</option>
+          <option value="4">Ch 4</option><option value="5">Ch 5</option><option value="6">Ch 6</option>
+          <option value="7">Ch 7</option><option value="8">Ch 8</option><option value="9">Ch 9</option>
+          <option value="10">Ch 10</option><option value="11">Ch 11</option><option value="12">Ch 12</option>
+          <option value="13">Ch 13</option><option value="14">Ch 14</option><option value="15">Ch 15</option>
+          <option value="16">Ch 16</option>
+        </select>
+      </div>
+      <div class="field">
+        <label style="font-size:.8rem">🌿 Botany — up to ch</label>
+        <select id="admin-vis-botany" style="width:100%;padding:9px 10px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.9rem;outline:none">
+          <option value="99">All</option>
+          <option value="1">Ch 1</option><option value="2">Ch 2</option><option value="3">Ch 3</option>
+          <option value="4">Ch 4</option><option value="5">Ch 5</option><option value="6">Ch 6</option>
+          <option value="7">Ch 7</option><option value="8">Ch 8</option><option value="9">Ch 9</option>
+          <option value="10">Ch 10</option><option value="11">Ch 11</option><option value="12">Ch 12</option>
+          <option value="13">Ch 13</option>
+        </select>
+      </div>
+      <div class="field">
+        <label style="font-size:.8rem">🦁 Zoology — up to ch</label>
+        <select id="admin-vis-zoology" style="width:100%;padding:9px 10px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.9rem;outline:none">
+          <option value="99">All</option>
+          <option value="1">Ch 1</option><option value="2">Ch 2</option><option value="3">Ch 3</option>
+          <option value="4">Ch 4</option><option value="5">Ch 5</option><option value="6">Ch 6</option>
+          <option value="7">Ch 7</option><option value="8">Ch 8</option><option value="9">Ch 9</option>
+          <option value="10">Ch 10</option><option value="11">Ch 11</option><option value="12">Ch 12</option>
+          <option value="13">Ch 13</option>
+        </select>
+      </div>
+    </div>
+    <div id="admin-vis-msg" style="font-size:.83rem;color:var(--success);margin:.5rem 0;display:none">✅ Chapter limits saved</div>
+    <button class="btn btn-primary btn-block" onclick="saveChapterLimits()" style="margin-top:.75rem">💾 Save Chapter Limits</button>
   </div>
   <button class="btn btn-outline btn-sm" onclick="showScreen('profile')" style="margin-top:.75rem">← Back to Profile</button>
 </div>
@@ -1571,29 +1641,41 @@ function selectClass(stdId) {
   showScreen('practice-subject');
 }
 
+const ALL_NEET_SUBJECTS = [
+  { id:'physics',   dbId:'physics',   label:'Physics',   icon:'⚛️', grad:'linear-gradient(135deg,#dbeafe,#bfdbfe)', border:'#3b82f6', color:'#1e3a8a' },
+  { id:'chemistry', dbId:'chemistry', label:'Chemistry', icon:'🧪', grad:'linear-gradient(135deg,#d1fae5,#a7f3d0)', border:'#10b981', color:'#064e3b', comingSoon:true },
+  { id:'botany',    dbId:'biology',   label:'Botany',    icon:'🌿', grad:'linear-gradient(135deg,#dcfce7,#bbf7d0)', border:'#16a34a', color:'#14532d' },
+  { id:'zoology',   dbId:'biology',   label:'Zoology',   icon:'🦁', grad:'linear-gradient(135deg,#fce7f3,#fbcfe8)', border:'#db2777', color:'#831843' },
+];
+
 function renderSubjectOptions() {
   const subs = selection.standard?.subjects || [];
-  const all = [
-    { id: 'physics',   label: 'Physics',   icon: '⚛️', bg: '#dbeafe', isPremium: false },
-    { id: 'chemistry', label: 'Chemistry', icon: '🧪', bg: '#d1fae5', isPremium: false },
-    { id: 'biology',   label: 'Biology',   icon: '🧬', bg: '#fce7f3', isPremium: false }
-  ];
-  document.getElementById('subject-options').innerHTML = all.map(s => {
-    const found = subs.find(x => x.id === s.id);
-    const locked = !found;
-    const planLabel = locked ? 'Coming Soon' : (userPlan === 'premium' || !s.isPremium ? 'Free' : 'Premium');
-    const planClass = planLabel === 'Free' ? 'free' : (planLabel === 'Premium' ? 'premium' : 'free');
-    return `<div class="subj-card${locked ? ' locked' : ''}" ${locked ? '' : `onclick="selectSubject('${s.id}')"`}>
-      <div class="subj-icon-wrap" style="background:${s.bg}">${s.icon}</div>
-      <div class="subj-card-name">${s.label}</div>
-      <div class="subj-plan-lbl ${planClass}">${planLabel}${found ? ` · ${found.chapters.length} chapters` : ''}</div>
-      ${locked ? '<span class="subj-lock">🔒</span>' : ''}
+  const modeLabel = (appMode === 'truefalse') ? 'True / False' : (appMode === 'flashcard') ? 'Flashcards' : 'Practice';
+  const titleEl = document.getElementById('subject-screen-title');
+  if (titleEl) titleEl.textContent = `${modeLabel} — Choose a Subject`;
+  document.getElementById('subject-options').innerHTML = ALL_NEET_SUBJECTS.map(s => {
+    const found = subs.find(x => x.id === s.dbId);
+    const locked = s.comingSoon || !found;
+    const chapCount = found ? found.chapters.length : 0;
+    const meta = locked ? 'Coming Soon' : `${chapCount} chapters`;
+    return `<div class="subj-card-v2${locked ? ' locked' : ''}"
+        style="background:${s.grad};border-color:${s.border};color:${s.color}"
+        ${locked ? '' : `onclick="selectSubject('${s.id}')"`}>
+      <span class="s2-icon">${s.icon}</span>
+      <div class="s2-name">${s.label}</div>
+      <div class="s2-meta">${locked ? `<span class="s2-soon">Coming Soon</span>` : meta}</div>
+      ${locked ? '<span class="s2-lock">🔒</span>' : ''}
     </div>`;
   }).join('');
 }
 
 function selectSubject(subjId) {
-  selection.subject = selection.standard.subjects.find(s => s.id === subjId);
+  const def = ALL_NEET_SUBJECTS.find(s => s.id === subjId);
+  const dbId = def?.dbId || subjId;
+  const found = selection.standard.subjects.find(s => s.id === dbId);
+  // Store display label (e.g. "Botany") and DB label (e.g. "Biology") separately
+  selection.subject = found ? { ...found, label: def ? def.label : found.label, dbLabel: found.label, uiId: subjId } : null;
+  if (!selection.subject) return;
   if (appMode === 'timed') {
     document.getElementById('timed-selection-label').textContent = selectionLabel() + ` · ${selection.subject.totalQuestions || 0} questions available`;
     renderTimedDurationOptions();
@@ -1699,15 +1781,18 @@ async function renderChapters() {
       }
     }
     const chapDone = userPlan === 'free' && getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
-    return `<button class="ch-card" style="background:${col.bg};border:2px solid ${col.border}"
-      ${chapDone ? 'disabled' : `onclick="selectChapter('${c.id}')"`}>
+    const chapNum = parseInt((c.id.match(/\d+$/) || [i+1])[0]);
+    const visLimit = getChapterLimitForSubject(selection.subject?.uiId || selection.subject?.id);
+    const adminLocked = chapNum > visLimit;
+    return `<button class="ch-card${adminLocked ? ' ch-locked' : ''}" style="background:${col.bg};border:2px solid ${col.border};position:relative"
+      ${(chapDone || adminLocked) ? 'disabled' : `onclick="selectChapter('${c.id}')"`}>
       <div class="ch-card-body">
         <div class="ch-card-name">${c.label}</div>
-        ${status}
+        ${adminLocked ? `<span class="ch-card-status" style="color:#9ca3af">🔒 Not available yet</span>` : status}
         ${accBadge}
       </div>
-      <div class="ch-card-num" style="background:${col.badge}">
-        <span>CH</span><span style="font-size:.95rem;font-weight:900">${(c.id.match(/\d+$/) || [i+1])[0]}</span>
+      <div class="ch-card-num" style="background:${adminLocked ? '#9ca3af' : col.badge}">
+        <span>CH</span><span style="font-size:.95rem;font-weight:900">${chapNum}</span>
       </div>
     </button>`;
   }).join('') || '<div class="info-box">No chapters available.</div>';
@@ -1736,7 +1821,7 @@ async function selectChapter(chapterId) {
   }
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading questions…</p></div>';
   try {
-    const allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label, chapterId: chapter.id });
+    const allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.dbLabel || selection.subject.label, chapterId: chapter.id});
     const dayData = getDailyDone(chapter);
     const seen = new Set(dayData.seen || []);
     const fresh = allQs.filter(q => !seen.has(qFingerprint(q)));
@@ -1790,7 +1875,7 @@ async function startFlashcards(chapter) {
   selection.chapter = chapter;
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading flashcards…</p></div>';
   try {
-    let qs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label, chapterId: chapter.id });
+    let qs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.dbLabel || selection.subject.label, chapterId: chapter.id});
     if (userPlan === 'free') {
       const isFC = appMode !== 'truefalse';
       const done = isFC ? getFCDoneToday() : getTFDoneToday();
@@ -2145,7 +2230,7 @@ async function startTimedTest() {
         allQs = allQs.concat(shuffle(subQs.map(q => ({ ...q, subject: subjects[i]?.label || q.subject }))).slice(0, perSubj));
       });
     } else {
-      allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.label });
+      allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.dbLabel || selection.subject.label });
     }
     const qs = shuffle(allQs).slice(0, timedQCount);
     timedState = { questions: qs, idx: 0, answers: {}, marked: {}, secs: timedDuration, totalSecs: timedDuration, timer: null, start: Date.now(), name };
@@ -3080,9 +3165,46 @@ async function saveAdminConfig() {
   } catch(e) { alert('Save failed — ' + e.message + '\n\nMake sure you have run migration 005_fix_admin_write_policy.sql in Supabase.'); }
 }
 
+// ── CHAPTER VISIBILITY LIMITS (localStorage) ────────────────────────────────
+function getChapterLimits() {
+  try { return JSON.parse(localStorage.getItem('adminChapterLimits') || '{}'); } catch(e) { return {}; }
+}
+
+function getChapterLimitForSubject(uiSubjectId) {
+  if (!uiSubjectId) return 99;
+  const limits = getChapterLimits();
+  const key = uiSubjectId.toLowerCase();
+  return limits[key]?.visibleUpTo ?? 99;
+}
+
+function saveChapterLimits() {
+  const label = document.getElementById('admin-vis-label').value.trim();
+  const limits = {
+    physics:   { visibleUpTo: parseInt(document.getElementById('admin-vis-physics').value)   || 99, label },
+    chemistry: { visibleUpTo: parseInt(document.getElementById('admin-vis-chemistry').value) || 99, label },
+    botany:    { visibleUpTo: parseInt(document.getElementById('admin-vis-botany').value)    || 99, label },
+    zoology:   { visibleUpTo: parseInt(document.getElementById('admin-vis-zoology').value)   || 99, label },
+  };
+  localStorage.setItem('adminChapterLimits', JSON.stringify(limits));
+  const msg = document.getElementById('admin-vis-msg');
+  msg.style.display = 'block';
+  setTimeout(() => msg.style.display = 'none', 3000);
+}
+
 function showAdminPanel() {
   document.getElementById('admin-daily-limit').value = adminConfig.free_daily_limit;
   document.getElementById('admin-max-duration').value = adminConfig.free_max_test_duration;
+  // Load chapter limits into selects
+  const limits = getChapterLimits();
+  ['physics','chemistry','botany','zoology'].forEach(k => {
+    const el = document.getElementById('admin-vis-' + k);
+    if (el) el.value = String(limits[k]?.visibleUpTo ?? 99);
+  });
+  const labelEl = document.getElementById('admin-vis-label');
+  if (labelEl) {
+    const anyLabel = Object.values(limits).find(v => v.label)?.label || '';
+    labelEl.value = anyLabel;
+  }
   showScreen('admin');
 }
 
