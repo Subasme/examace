@@ -1,0 +1,2569 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 11",
+    "chapterId": "chapter11",
+    "source": "Chapter11.xlsx",
+    "count": 213
+  },
+  "questions": [
+    {
+      "topic": "Chapter 11",
+      "question": "How is competition best defined in ecological terms?",
+      "options": [
+        "A process where one species eliminates another through predation",
+        "A process where the fitness of one species is significantly lower in the presence of another species",
+        "A process where both species benefit from each other",
+        "A process where one species migrates to avoid another"
+      ],
+      "correct": 1,
+      "explanation": "Competition is best defined as a process in which the fitness (measured as intrinsic rate of increase r) of one species is significantly lower in the presence of another species."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does Gause's Competitive Exclusion Principle state?",
+      "options": [
+        "Two species can always co-exist if resources are unlimited",
+        "Two closely related species competing for the same resources cannot co-exist indefinitely; the inferior one is eventually eliminated",
+        "Competing species always evolve into different species over time",
+        "Predators always eliminate weaker competing species"
+      ],
+      "correct": 1,
+      "explanation": "Gause's Competitive Exclusion Principle states that two closely related species competing for the same resources cannot co-exist indefinitely and the competitively inferior one will eventually be eliminated."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is 'resource partitioning' as a mechanism for species co-existence?",
+      "options": [
+        "Dividing territory equally between two competing species",
+        "Competing species avoiding direct competition by using resources at different times or in different ways",
+        "One species consuming all resources before another species arrives",
+        "Government intervention to protect weaker species"
+      ],
+      "correct": 1,
+      "explanation": "Resource partitioning is a mechanism where two species competing for the same resource avoid direct competition by choosing different times for feeding or different foraging patterns, allowing co-existence."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "MacArthur's study on warblers demonstrated which ecological concept?",
+      "options": [
+        "Competitive exclusion",
+        "Predator-prey dynamics",
+        "Co-existence through behavioural differences in foraging",
+        "Mutualistic relationships between bird species"
+      ],
+      "correct": 2,
+      "explanation": "MacArthur showed that five closely related warbler species living on the same tree avoided competition and co-existed due to behavioural differences in their foraging activities, demonstrating resource partitioning."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The Abingdon tortoise in the Galapagos Islands became extinct within a decade due to which reason?",
+      "options": [
+        "Climate change reducing food supply",
+        "Overexploitation by human hunters",
+        "Competitive exclusion after goats were introduced due to their greater browsing efficiency",
+        "Disease introduced by visiting researchers"
+      ],
+      "correct": 2,
+      "explanation": "The Abingdon tortoise became extinct within a decade after goats were introduced on the island, apparently due to the greater browsing efficiency of the goats, a real-world example of competitive exclusion."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In Connell's field experiments on rocky sea coasts of Scotland, which barnacle dominated the intertidal area?",
+      "options": [
+        "Chathamalus",
+        "Pisaster",
+        "Balanus",
+        "Cuscuta"
+      ],
+      "correct": 2,
+      "explanation": "Connell's experiments showed that the larger and competitively superior barnacle Balanus dominates the intertidal area and excludes the smaller barnacle Chathamalus from that zone."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is 'competitive release' in ecology?",
+      "options": [
+        "The process by which a predator releases its prey",
+        "A species expanding its range dramatically when its competing species is removed",
+        "The release of chemical toxins by a superior competitor",
+        "Government release of competing species into protected habitats"
+      ],
+      "correct": 1,
+      "explanation": "Competitive release refers to a species whose distribution was restricted due to a superior competitor expanding its distributional range dramatically when the competing species is experimentally removed."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is true about interference competition?",
+      "options": [
+        "It only occurs when food resources are scarce",
+        "It requires physical fighting between species",
+        "Feeding efficiency of one species is reduced by the inhibitory presence of another even if resources are abundant",
+        "It always leads to extinction of the weaker species"
+      ],
+      "correct": 2,
+      "explanation": "In interference competition, the feeding efficiency of one species might be reduced due to the interfering and inhibitory presence of the other species, even if resources like food and space are abundant."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the characteristic mode of life that makes parasitism evolutionarily advantageous?",
+      "options": [
+        "Freedom to move across habitats",
+        "Guaranteed free lodging and food from the host",
+        "Ability to reproduce without a mate",
+        "Immunity from predators"
+      ],
+      "correct": 1,
+      "explanation": "The parasitic mode of life ensures free lodging and meals from the host, making it evolutionarily advantageous. This is why parasitism has evolved across many taxonomic groups from plants to higher vertebrates."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following best describes 'host-specific' parasites?",
+      "options": [
+        "Parasites that can infect any available host",
+        "Parasites that only parasitise a single species of host",
+        "Parasites that prefer hosts in tropical regions",
+        "Parasites that attack only plant hosts"
+      ],
+      "correct": 1,
+      "explanation": "Host-specific parasites can parasitise only a single species of host, leading to co-evolution where if the host evolves resistance, the parasite must evolve counter-mechanisms to remain successful."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which organisms are stated to be more adversely affected by competition than carnivores?",
+      "options": [
+        "Bacteria and fungi",
+        "Herbivores and plants",
+        "Parasites and their hosts",
+        "Migratory birds"
+      ],
+      "correct": 1,
+      "explanation": "In general, herbivores and plants appear to be more adversely affected by competition than carnivores, as stated in the context of interspecific competition studies."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Recent studies on interspecific competition suggest that competing species may:",
+      "options": [
+        "Always result in competitive exclusion",
+        "Always merge into a single species over time",
+        "Evolve mechanisms that promote co-existence rather than exclusion",
+        "Increase in population size when competing"
+      ],
+      "correct": 2,
+      "explanation": "More recent studies point out that species facing competition might evolve mechanisms that promote co-existence rather than exclusion, challenging the absoluteness of Gause's Competitive Exclusion Principle."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which statement correctly describes the sign convention used for interspecific interactions?",
+      "options": [
+        "Plus sign for harmful, minus for beneficial, zero for neutral",
+        "Plus sign for beneficial, minus sign for detrimental, zero for neutral interaction",
+        "Plus sign for neutral, minus for harmful, zero for beneficial",
+        "All interactions use a plus sign regardless of outcome"
+      ],
+      "correct": 1,
+      "explanation": "The sign convention assigns a plus (+) sign for beneficial interaction, a minus (-) sign for detrimental interaction, and zero (0) for neutral interaction when classifying interspecific population interactions."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What type of interaction does competition between two species represent in the sign convention?",
+      "options": [
+        "+ / 0",
+        "+ / +",
+        "- / -",
+        "+ / -"
+      ],
+      "correct": 2,
+      "explanation": "Competition is represented as (- / -) because both species suffer negative effects from competing with each other for the same limited resources."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is a characteristic adaptation of parasites to their host-dependent lifestyle?",
+      "options": [
+        "Development of complex digestive systems",
+        "Loss of unnecessary sense organs and presence of adhesive organs",
+        "Evolution of wings for dispersal",
+        "Increase in body size for better protection"
+      ],
+      "correct": 1,
+      "explanation": "Parasites have evolved special adaptations such as the loss of unnecessary sense organs, presence of adhesive organs or suckers to cling on to the host, loss of digestive system and high reproductive capacity."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The human liver fluke requires how many intermediate hosts to complete its life cycle?",
+      "options": [
+        "One intermediate host",
+        "Two intermediate hosts",
+        "Three intermediate hosts",
+        "No intermediate hosts"
+      ],
+      "correct": 1,
+      "explanation": "The human liver fluke (a trematode parasite) depends on two intermediate hosts (a snail and a fish) to complete its life cycle."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the vector required for the malarial parasite to spread to other hosts?",
+      "options": [
+        "Housefly",
+        "Mosquito",
+        "Tick",
+        "Flea"
+      ],
+      "correct": 1,
+      "explanation": "The malarial parasite needs a vector (mosquito) to spread to other hosts."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is NOT a typical effect of parasites on their host?",
+      "options": [
+        "Reduced survival of the host",
+        "Enhanced growth of the host",
+        "Reduced reproduction of the host",
+        "Increased vulnerability to predation"
+      ],
+      "correct": 1,
+      "explanation": "Majority of the parasites harm the host; they may reduce the survival, growth and reproduction of the host and reduce its population density. They might render the host more vulnerable to predation by making it physically weak."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an example of an ectoparasite?",
+      "options": [
+        "Human liver fluke",
+        "Malarial parasite",
+        "Lice on humans",
+        "Tapeworm in intestine"
+      ],
+      "correct": 2,
+      "explanation": "Parasites that feed on the external surface of the host organism are called ectoparasites. The most familiar examples of this group are the lice on humans and ticks on dogs."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why is the female mosquito NOT considered a parasite despite needing human blood?",
+      "options": [
+        "It does not cause any disease",
+        "It needs blood only for reproduction, not for nutrition or living",
+        "It does not live on the human body",
+        "It is too small to be considered a parasite"
+      ],
+      "correct": 1,
+      "explanation": "The female mosquito is not considered a parasite, although it needs our blood for reproduction. It does not depend on the host for its overall survival and nutrition."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is a key characteristic of endoparasites compared to ectoparasites?",
+      "options": [
+        "They have more complex sense organs",
+        "They live inside the host body and have simplified morphology",
+        "They have higher mobility",
+        "They reproduce less frequently"
+      ],
+      "correct": 1,
+      "explanation": "Endoparasites are those that live inside the host body. Their morphological and anatomical features are greatly simplified while emphasising their reproductive capacity."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In brood parasitism, how have the eggs of parasitic birds evolved to avoid detection?",
+      "options": [
+        "They have become larger than host eggs",
+        "They have evolved to resemble the host's egg in size and colour",
+        "They have developed hard shells for protection",
+        "They have become transparent"
+      ],
+      "correct": 1,
+      "explanation": "During the course of evolution, the eggs of the parasitic bird have evolved to resemble the host's egg in size and colour to reduce the chances of the host bird detecting the foreign eggs and ejecting them from the nest."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which bird is mentioned as an example of brood parasitism in the Indian context?",
+      "options": [
+        "Sparrow",
+        "Cuckoo (koel)",
+        "Peacock",
+        "Parrot"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions to try to follow the movements of the cuckoo (koel) and the crow in your neighborhood park during the breeding season to watch brood parasitism in action."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is co-evolution in the context of host-parasite relationships?",
+      "options": [
+        "The host and parasite evolve independently without affecting each other",
+        "If the host evolves mechanisms to resist the parasite, the parasite evolves mechanisms to counteract them",
+        "The parasite evolves to become completely harmless to the host",
+        "The host evolves to become dependent on the parasite"
+      ],
+      "correct": 1,
+      "explanation": "Host and parasite tend to co-evolve; if the host evolves special mechanisms for rejecting or resisting the parasite, the parasite has to evolve mechanisms to counteract and neutralise them."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Cuscuta is an example of which type of parasite?",
+      "options": [
+        "Endoparasite",
+        "Ectoparasite",
+        "Brood parasite",
+        "Vector parasite"
+      ],
+      "correct": 1,
+      "explanation": "Cuscuta, a parasitic plant that is commonly found growing on hedge plants, has lost its chlorophyll and leaves. It derives its nutrition from the host plant which it parasitises, making it an ectoparasite."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What makes the life cycles of endoparasites more complex than ectoparasites?",
+      "options": [
+        "They require more food",
+        "They live in extreme environments",
+        "Their extreme specialisation to live inside host bodies",
+        "They have longer lifespans"
+      ],
+      "correct": 2,
+      "explanation": "The life cycles of endoparasites are more complex because of their extreme specialisation. Their morphological and anatomical features are greatly simplified while emphasising their reproductive capacity."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following best describes the relationship between a parasite and its host?",
+      "options": [
+        "Both organisms benefit equally",
+        "The parasite benefits while the host is harmed",
+        "The host benefits while the parasite is harmed",
+        "Neither organism is affected"
+      ],
+      "correct": 1,
+      "explanation": "Majority of the parasites harm the host; they may reduce the survival, growth and reproduction of the host. The parasite benefits by obtaining nutrition and shelter from the host."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the primary reason why an ideal parasite that does not harm its host has not evolved?",
+      "options": [
+        "Natural selection favors parasites that exploit hosts completely",
+        "Parasites need to harm hosts to reproduce",
+        "The question is left as a thought-provoking exercise for students",
+        "Hosts always develop immunity before parasites can evolve"
+      ],
+      "correct": 2,
+      "explanation": "The text asks 'Do you believe that an ideal parasite should be able to thrive within the host without harming it? Then why didn't natural selection lead to the evolution of such totally harmless parasites?' This is presented as a question for students to think about, not as a solved problem."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which marine organisms are mentioned as being commonly infested with ectoparasitic copepods?",
+      "options": [
+        "Whales",
+        "Sharks",
+        "Marine fish",
+        "Sea turtles"
+      ],
+      "correct": 2,
+      "explanation": "Many marine fish are infested with ectoparasitic copepods."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the main advantage of high reproductive capacity in parasites?",
+      "options": [
+        "It helps them fight the host immune system",
+        "It ensures survival and transmission despite high mortality",
+        "It allows them to grow larger",
+        "It helps them digest host tissues better"
+      ],
+      "correct": 1,
+      "explanation": "Parasites have evolved high reproductive capacity as an adaptation. This ensures that despite high mortality rates, enough offspring survive to maintain the species and transmit to new hosts."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens when a host evolves mechanisms to resist a parasite?",
+      "options": [
+        "The parasite becomes extinct",
+        "The parasite evolves counter-mechanisms to neutralise host defenses",
+        "The host becomes immune forever",
+        "The parasite switches to a different host species"
+      ],
+      "correct": 1,
+      "explanation": "If the host evolves special mechanisms for rejecting or resisting the parasite, the parasite has to evolve mechanisms to counteract and neutralise them, in order to be successful with the same host species."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is true about parasitic plants like Cuscuta?",
+      "options": [
+        "They perform photosynthesis like normal plants",
+        "They have lost their chlorophyll and leaves during evolution",
+        "They enrich the soil with nitrogen",
+        "They help host plants grow better"
+      ],
+      "correct": 1,
+      "explanation": "Cuscuta has lost its chlorophyll and leaves in the course of evolution. It derives its nutrition from the host plant which it parasitises."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the key difference between brood parasitism and other forms of parasitism?",
+      "options": [
+        "The parasite lives inside the host's body",
+        "The parasite lays eggs in the host's nest and lets the host incubate them",
+        "The parasite benefits the host",
+        "Both species benefit equally"
+      ],
+      "correct": 1,
+      "explanation": "Brood parasitism in birds is a fascinating example where the parasitic bird lays its eggs in the nest of its host and lets the host incubate them."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which intermediate hosts are involved in the life cycle of the human liver fluke?",
+      "options": [
+        "Mosquito and human",
+        "Snail and fish",
+        "Tick and dog",
+        "Flea and rat"
+      ],
+      "correct": 1,
+      "explanation": "The human liver fluke depends on two intermediate hosts: a snail and a fish to complete its life cycle."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the primary focus of the chapter 'Organisms and Populations'?",
+      "options": [
+        "Study of individual organisms only",
+        "Study of ecology at the population level",
+        "Study of entire ecosystems and biomes",
+        "Study of molecular biology"
+      ],
+      "correct": 1,
+      "explanation": "The chapter specifically explores ecology at population levels, as stated in the text."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is NOT one of the four levels of biological organisation in ecology?",
+      "options": [
+        "Organisms",
+        "Populations",
+        "Cells",
+        "Biomes"
+      ],
+      "correct": 2,
+      "explanation": "The four levels are organisms, populations, communities, and biomes. Cells are not included in this ecological framework."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the term 'population' refer to in ecology?",
+      "options": [
+        "A single individual of a species",
+        "A group of individuals of the same species sharing resources in a defined area",
+        "All species living in an ecosystem",
+        "Only organisms that reproduce sexually"
+      ],
+      "correct": 1,
+      "explanation": "A population is defined as a group of individuals of a given species sharing or competing for similar resources in a defined geographical area."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an example of a population?",
+      "options": [
+        "A single banyan tree in a forest",
+        "All the cormorants in a wetland",
+        "Different species of birds in a garden",
+        "Soil microbes and plants together"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly mentions 'All the cormorants in a wetland' as an example of a population."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "At which level of biological organisation does natural selection operate?",
+      "options": [
+        "Individual organism level",
+        "Population level",
+        "Community level",
+        "Biome level"
+      ],
+      "correct": 1,
+      "explanation": "The text states that although an individual organism copes with changed environment, natural selection operates at the population level to evolve desired traits."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is an attribute that a population possesses but an individual organism does not?",
+      "options": [
+        "Ability to reproduce",
+        "Birth rate and death rate",
+        "Response to environment",
+        "Genetic variation"
+      ],
+      "correct": 1,
+      "explanation": "The text states that an individual may have births and deaths, but a population has birth rates and death rates."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "If a pond had 20 lotus plants last year and 8 new plants were added through reproduction, what is the birth rate?",
+      "options": [
+        "0.2 offspring per lotus per year",
+        "0.4 offspring per lotus per year",
+        "0.8 offspring per lotus per year",
+        "1.0 offspring per lotus per year"
+      ],
+      "correct": 1,
+      "explanation": "Birth rate = 8/20 = 0.4 offspring per lotus per year, as calculated in the text."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does an age pyramid represent?",
+      "options": [
+        "Total population size only",
+        "Sex ratio of the population",
+        "Age distribution of males and females in a population",
+        "Geographic distribution of a species"
+      ],
+      "correct": 2,
+      "explanation": "The age pyramid is defined as the structure resulting from plotting age distribution for the population, showing age distribution of males and females."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the shape of an age pyramid indicate?",
+      "options": [
+        "Only the genetic diversity of the population",
+        "Whether the population is growing, stable, or declining",
+        "The geographic range of the species",
+        "The mutation rate in the population"
+      ],
+      "correct": 1,
+      "explanation": "The shape of the pyramids reflects the growth status: whether it is growing, stable, or declining."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the technical term for population size?",
+      "options": [
+        "Population mass",
+        "Population density",
+        "Population volume",
+        "Population capacity"
+      ],
+      "correct": 1,
+      "explanation": "Population size is technically called population density and is designated as N."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which case would percent cover or biomass be a more meaningful measure of population size than total number?",
+      "options": [
+        "Bacteria in a petri dish",
+        "A single huge banyan tree with large canopy compared to small carrot grass plants",
+        "Fish caught per trap in a lake",
+        "Siberian cranes at Bharatpur wetlands"
+      ],
+      "correct": 1,
+      "explanation": "The text uses the example of a single huge banyan tree vs. 200 carrot grass plants to show when percent cover or biomass is more meaningful."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is a valid way to measure population density?",
+      "options": [
+        "Only by counting total numbers",
+        "Numbers, biomass, or percent cover depending on the species",
+        "Only by genetic analysis",
+        "Only by geographic area coverage"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that population density can be expressed in numbers, biomass, percent cover, etc., depending on the species."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the main subject of UNIT X in the textbook?",
+      "options": [
+        "Genetics",
+        "Ecology",
+        "Evolution",
+        "Cell Biology"
+      ],
+      "correct": 1,
+      "explanation": "The page clearly states 'UNIT X ECOLOGY' at the top, indicating that the main subject of this unit is Ecology."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is NOT a chapter listed under UNIT X ECOLOGY?",
+      "options": [
+        "Organisms and Populations",
+        "Ecosystem",
+        "Biodiversity and Conservation",
+        "Cell Structure and Function"
+      ],
+      "correct": 3,
+      "explanation": "The page lists three chapters: Chapter 11 (Organisms and Populations), Chapter 12 (Ecosystem), and Chapter 13 (Biodiversity and Conservation). Cell Structure and Function is not mentioned."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the text, biology is presented in textbooks as which of the following combinations?",
+      "options": [
+        "Only botany and zoology",
+        "Only classical and modern",
+        "Botany, zoology, microbiology OR classical and modern",
+        "Only molecular biology"
+      ],
+      "correct": 2,
+      "explanation": "The text states 'Biology is presented either as botany, zoology and microbiology or as classical and modern.' This indicates two possible ways biology is presented."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the text describe as 'a euphemism for molecular aspects of biology'?",
+      "options": [
+        "Classical biology",
+        "Modern biology",
+        "Botany",
+        "Zoology"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states 'The latter is a euphemism for molecular aspects of biology,' referring to 'modern' biology mentioned in the previous sentence."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is described as a thread that weaves different areas of biological information into a unifying principle?",
+      "options": [
+        "Genetics",
+        "Evolution",
+        "Ecology",
+        "Physiology"
+      ],
+      "correct": 2,
+      "explanation": "The text states 'Luckily we have many threads which weave the different areas of biological information into a unifying principle. Ecology is one such thread...'"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the essence of biological understanding according to the text?",
+      "options": [
+        "Studying individual organisms only",
+        "Knowing how organisms interact with other organisms and physical habitats as a group",
+        "Understanding molecular biology",
+        "Classifying all living organisms"
+      ],
+      "correct": 1,
+      "explanation": "The text states 'The essence of biological understanding is to know how organisms, while remaining an individual, interact with other organisms and physical habitats as a group...'"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following levels of organization is NOT mentioned in the text as a group behavior of organisms?",
+      "options": [
+        "Population",
+        "Community",
+        "Ecosystem",
+        "Organ system"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions population, community, ecosystem, and biosphere as organized wholes. Organ system is not mentioned in this context."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the text say ecology explains to us?",
+      "options": [
+        "Only molecular processes",
+        "How organisms interact as organized wholes",
+        "Only plant classification",
+        "Only animal behavior"
+      ],
+      "correct": 1,
+      "explanation": "The text states 'Ecology explains to us all this,' referring to how organisms interact with other organisms and physical habitats as organized wholes like population, community, ecosystem, and biosphere."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What particular aspect of ecology does the text mention as being studied?",
+      "options": [
+        "Only plant ecology",
+        "Anthropogenic environmental degradation and socio-political issues",
+        "Only animal ecology",
+        "Only marine ecology"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states 'A particular aspect of this is the study of anthropogenic environmental degradation and the socio-political issues it has raised.'"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the text say this unit does regarding the aspects mentioned?",
+      "options": [
+        "Only describes them",
+        "Only criticizes them",
+        "Describes as well as takes a critical view",
+        "Ignores them"
+      ],
+      "correct": 2,
+      "explanation": "The text states 'This unit describes as well as takes a critical view of the above aspects.'"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What year is mentioned in the footer of the page?",
+      "options": [
+        "2025-26",
+        "2026-27",
+        "2024-25",
+        "2023-24"
+      ],
+      "correct": 1,
+      "explanation": "The footer clearly states 'Reprint 2026-27' at the bottom of the page."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How many chapters are listed under UNIT X ECOLOGY on this page?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct": 1,
+      "explanation": "The page lists three chapters: Chapter 11 (Organisms and Populations), Chapter 12 (Ecosystem), and Chapter 13 (Biodiversity and Conservation)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the chapter number for 'Organisms and Populations'?",
+      "options": [
+        "Chapter 10",
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13"
+      ],
+      "correct": 1,
+      "explanation": "The page clearly shows 'Chapter 11 Organisms and Populations' as the first chapter listed."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the chapter number for 'Ecosystem'?",
+      "options": [
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14"
+      ],
+      "correct": 1,
+      "explanation": "The page clearly shows 'Chapter 12 Ecosystem' as the second chapter listed."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the chapter number for 'Biodiversity and Conservation'?",
+      "options": [
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14"
+      ],
+      "correct": 2,
+      "explanation": "The page clearly shows 'Chapter 13 Biodiversity and Conservation' as the third chapter listed."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The text mentions that diversity is a characteristic of both living organisms and what else?",
+      "options": [
+        "Physical habitats",
+        "Content in biology textbooks",
+        "Ecosystems only",
+        "Communities only"
+      ],
+      "correct": 1,
+      "explanation": "The text states 'Diversity is not only a characteristic of living organisms but also of content in biology textbooks.'"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the text, what gives us a holistic perspective to biology?",
+      "options": [
+        "Genetics",
+        "Molecular biology",
+        "Ecology",
+        "Evolution"
+      ],
+      "correct": 2,
+      "explanation": "The text states 'Ecology is one such thread which gives us a holistic perspective to biology.'"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The text states that organisms behave like organized wholes. Which of the following is the LARGEST organized whole mentioned?",
+      "options": [
+        "Population",
+        "Community",
+        "Ecosystem",
+        "Biosphere"
+      ],
+      "correct": 3,
+      "explanation": "The text lists organized wholes as 'population, community, ecosystem or even as the whole biosphere.' The biosphere is the largest."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the first level of biological organization mentioned in the introductory paragraph?",
+      "options": [
+        "Population",
+        "Macromolecules",
+        "Cells",
+        "Tissues"
+      ],
+      "correct": 1,
+      "explanation": "In the third paragraph of page 1, the text mentions levels of biological organization starting with 'macromolecules, cells, tissues, organs, individual organisms, population, communities, ecosystems and biomes.' Macromolecules is the first."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which type of question seeks the mechanism behind a process?",
+      "options": [
+        "Why-type question",
+        "How-type question",
+        "What-type question",
+        "Where-type question"
+      ],
+      "correct": 1,
+      "explanation": "The text states 'The how-type questions seek the mechanism behind the process while the why-type questions seek the significance of the process.'"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to Gause's Competitive Exclusion Principle, what happens when two closely related species compete for the same limiting resources?",
+      "options": [
+        "Both species evolve to become mutualistic partners",
+        "The competitively inferior species will eventually be eliminated",
+        "The two species will always coexist through resource partitioning",
+        "Both species will show exponential population growth"
+      ],
+      "correct": 1,
+      "explanation": "According to Gause's Competitive Exclusion Principle, two closely related species competing for the same resources cannot co-exist indefinitely, and the competitively inferior one will be eliminated eventually."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What mechanism allows competing species to coexist rather than one being eliminated?",
+      "options": [
+        "Competitive exclusion",
+        "Resource partitioning",
+        "Brood parasitism",
+        "Ectoparasitism"
+      ],
+      "correct": 1,
+      "explanation": "Resource partitioning is a mechanism where competing species avoid competition by choosing different times for feeding or different foraging patterns, allowing them to coexist."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which ecologist demonstrated that five closely related warbler species coexisted on the same tree through behavioral differences in foraging?",
+      "options": [
+        "Gause",
+        "Darwin",
+        "MacArthur",
+        "Connell"
+      ],
+      "correct": 2,
+      "explanation": "MacArthur showed that five closely related species of warblers living on the same tree were able to avoid competition and co-exist due to behavioral differences in their foraging patterns."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happened to the Abingdon tortoise in Galapagos Islands after goats were introduced?",
+      "options": [
+        "It evolved to eat the same food as goats",
+        "It became extinct within a decade due to competition with goats",
+        "It developed a mutualistic relationship with goats",
+        "It migrated to another island"
+      ],
+      "correct": 1,
+      "explanation": "The Abingdon tortoise in Galapagos Islands became extinct within a decade after goats were introduced, apparently due to the greater browsing efficiency of the goats."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is competitive release in ecology?",
+      "options": [
+        "When a species expands its range after a competing species is removed",
+        "When two species form a mutualistic relationship",
+        "When a predator controls prey population",
+        "When parasites eliminate their host species"
+      ],
+      "correct": 0,
+      "explanation": "Competitive release occurs when a species whose distribution is restricted due to a competitively superior species expands its range dramatically when the competing species is experimentally removed."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an example of interference competition?",
+      "options": [
+        "Two species competing for the same limiting food resource",
+        "One species reducing the feeding efficiency of another even when resources are abundant",
+        "A parasite feeding on its host",
+        "Two species forming a mutualistic relationship"
+      ],
+      "correct": 1,
+      "explanation": "In interference competition, the feeding efficiency of one species is reduced due to the interfering and inhibitory presence of another species, even if resources are abundant."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is a key characteristic of parasites that have evolved to be host-specific?",
+      "options": [
+        "They can parasitize any host species",
+        "They have lost their reproductive capacity",
+        "They co-evolve with their host species",
+        "They always kill their host immediately"
+      ],
+      "correct": 2,
+      "explanation": "Host-specific parasites co-evolve with their host; if the host evolves mechanisms to resist the parasite, the parasite must evolve counter-mechanisms to continue surviving with the same host species."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an example of an ectoparasite?",
+      "options": [
+        "Liver fluke in humans",
+        "Malarial parasite in red blood cells",
+        "Lice on humans",
+        "Cuscuta growing inside host plants"
+      ],
+      "correct": 2,
+      "explanation": "Ectoparasites feed on the external surface of the host organism. Lice on humans and ticks on dogs are familiar examples of ectoparasites."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is brood parasitism in birds?",
+      "options": [
+        "When parent birds abandon their own eggs",
+        "When a parasitic bird lays its eggs in the nest of a host bird and lets the host incubate them",
+        "When birds feed on parasites found on other animals",
+        "When birds form mutualistic relationships with insects"
+      ],
+      "correct": 1,
+      "explanation": "Brood parasitism is when the parasitic bird lays its eggs in the nest of its host and lets the host incubate them. The eggs evolve to resemble the host's eggs in size and color."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why is the female mosquito NOT considered a true parasite despite needing blood for reproduction?",
+      "options": [
+        "Because it does not live on or inside the host permanently",
+        "Because it pollinates flowers while feeding",
+        "Because it helps control host population",
+        "Because it feeds only on dead organisms"
+      ],
+      "correct": 0,
+      "explanation": "The female mosquito is not considered a parasite because it does not live permanently on or inside the host; it only visits temporarily to obtain blood for reproduction."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What type of interaction is described when one species benefits and the other is neither harmed nor benefited?",
+      "options": [
+        "Mutualism",
+        "Commensalism",
+        "Parasitism",
+        "Predation"
+      ],
+      "correct": 1,
+      "explanation": "Commensalism is defined as an interaction where one species benefits while the other is neither harmed nor benefited. Examples include orchids growing on mango branches and barnacles on whales."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an example of commensalism?",
+      "options": [
+        "A lion hunting a deer",
+        "An orchid growing on a mango branch",
+        "A tapeworm living in a human intestine",
+        "Bees and flowers pollinating each other"
+      ],
+      "correct": 1,
+      "explanation": "An orchid growing as an epiphyte on a mango branch is a classic example of commensalism where the orchid benefits but the mango tree is neither harmed nor benefited."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In the interaction between cattle egret and grazing cattle, what benefit does the egret receive?",
+      "options": [
+        "Protection from predators",
+        "Food in the form of insects flushed out by cattle",
+        "Shelter from the cattle's body",
+        "Water from the cattle's drinking source"
+      ],
+      "correct": 1,
+      "explanation": "The cattle egret forages close to grazing cattle because the cattle stir up and flush out insects from vegetation as they move, making it easier for the egret to find and catch food."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the relationship between sea anemone and clown fish?",
+      "options": [
+        "Mutualism",
+        "Parasitism",
+        "Commensalism",
+        "Predation"
+      ],
+      "correct": 2,
+      "explanation": "The clown fish lives among the stinging tentacles of sea anemone and gets protection from predators. The anemone does not appear to derive any benefit, making this commensalism."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is mutualism?",
+      "options": [
+        "One species benefits while the other is harmed",
+        "Both interacting species benefit from the relationship",
+        "One species benefits while the other is unaffected",
+        "Both species are harmed by the interaction"
+      ],
+      "correct": 1,
+      "explanation": "Mutualism is an interaction that confers benefits on both the interacting species. Examples include lichens and mycorrhizae."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which organisms form lichens in a mutualistic relationship?",
+      "options": [
+        "Bacteria and algae",
+        "Fungus and photosynthesizing algae or cyanobacteria",
+        "Moss and fungi",
+        "Bacteria and fungi"
+      ],
+      "correct": 1,
+      "explanation": "Lichens represent an intimate mutualistic relationship between a fungus and photosynthesizing algae or cyanobacteria."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is mycorrhizae?",
+      "options": [
+        "Association between fungi and animal roots",
+        "Association between fungi and roots of higher plants",
+        "Association between bacteria and plant leaves",
+        "Association between algae and fungi"
+      ],
+      "correct": 1,
+      "explanation": "Mycorrhizae are associations between fungi and the roots of higher plants. The fungi help the plant absorb essential nutrients while the plant provides energy-yielding substances to the fungi."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What do plants offer to pollinators as reward for their services?",
+      "options": [
+        "Water and shelter",
+        "Pollen and nectar",
+        "Leaves and stems",
+        "Roots and seeds"
+      ],
+      "correct": 1,
+      "explanation": "Plants offer rewards in the form of pollen and nectar for pollinators and juicy nutritious fruits for seed dispersers."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the relationship between fig trees and their pollinator wasps?",
+      "options": [
+        "One-to-many relationship",
+        "Many-to-one relationship",
+        "Tight one-to-one relationship",
+        "No specific relationship"
+      ],
+      "correct": 2,
+      "explanation": "Many fig tree species have a tight one-to-one relationship with their pollinator wasp species, meaning a given fig species can only be pollinated by its partner wasp species."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How does the female wasp use the fig fruit?",
+      "options": [
+        "Only for shelter",
+        "Only for pollination",
+        "As an oviposition site and for nourishing its larvae",
+        "Only for food for herself"
+      ],
+      "correct": 2,
+      "explanation": "The female wasp uses the fig fruit not only as an oviposition (egg-laying) site but also uses the developing seeds within the fruit for nourishing its larvae."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is co-evolution in the context of plant-pollinator relationships?",
+      "options": [
+        "Evolution of plants only",
+        "Evolution of pollinators only",
+        "Tightly linked evolution of both flower and pollinator species",
+        "Evolution of unrelated species"
+      ],
+      "correct": 2,
+      "explanation": "Co-evolution means the evolution of the flower and its pollinator species are tightly linked with one another. Changes in one require corresponding changes in the other."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How does the Mediterranean orchid Ophrys attract its pollinator bee?",
+      "options": [
+        "By offering nectar rewards",
+        "By using sexual deceit with a petal resembling a female bee",
+        "By producing a strong fragrance",
+        "By being brightly colored"
+      ],
+      "correct": 1,
+      "explanation": "Ophrys employs sexual deceit where one petal resembles the female bee in size, color and markings. The male bee pseudocopulates with the flower and gets dusted with pollen."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens if the female bee's color patterns change slightly during evolution?",
+      "options": [
+        "The orchid will die immediately",
+        "Pollination success will be reduced unless the orchid co-evolves",
+        "The bee will find a new pollinator",
+        "Nothing will happen to the pollination process"
+      ],
+      "correct": 1,
+      "explanation": "If the female bee's color patterns change, pollination success will be reduced unless the orchid flower co-evolves to maintain the resemblance of its petal to the female bee."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What do plants offer to seed dispersers as reward?",
+      "options": [
+        "Pollen and nectar",
+        "Juicy and nutritious fruits",
+        "Leaves and flowers",
+        "Roots and bark"
+      ],
+      "correct": 1,
+      "explanation": "Plants offer juicy and nutritious fruits as rewards to seed dispersers for their services in dispersing seeds."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is NOT an example of commensalism mentioned in the text?",
+      "options": [
+        "Orchid on mango tree",
+        "Barnacles on whale",
+        "Clown fish and sea anemone",
+        "Fig tree and wasp"
+      ],
+      "correct": 3,
+      "explanation": "Fig tree and wasp is an example of mutualism, not commensalism. The other three options are examples of commensalism where one benefits and the other is unaffected."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the role of fungi in mycorrhizal associations?",
+      "options": [
+        "They produce food for the plant through photosynthesis",
+        "They help the plant absorb essential nutrients from the soil",
+        "They protect the plant from herbivores",
+        "They produce flowers for the plant"
+      ],
+      "correct": 1,
+      "explanation": "In mycorrhizae, fungi help the plant absorb essential nutrients from the soil while the plant provides energy-yielding substances to the fungi."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Who is revered as the Father of Ecology in India?",
+      "options": [
+        "Ramdeo Misra",
+        "W.H. Pearsall",
+        "Sanjay Gandhi",
+        "Charles Darwin"
+      ],
+      "correct": 0,
+      "explanation": "Ramdeo Misra is revered as the Father of Ecology in India. He established teaching and research in ecology at Banaras Hindu University."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "When was Ramdeo Misra born?",
+      "options": [
+        "26 August 1908",
+        "26 August 1918",
+        "26 July 1908",
+        "26 September 1908"
+      ],
+      "correct": 0,
+      "explanation": "Ramdeo Misra was born on 26 August 1908."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "From which university did Ramdeo Misra obtain his Ph.D in Ecology?",
+      "options": [
+        "Banaras Hindu University",
+        "Leeds University",
+        "Oxford University",
+        "Cambridge University"
+      ],
+      "correct": 1,
+      "explanation": "Ramdeo Misra obtained his Ph.D in Ecology (1937) from Leeds University in the UK under Prof. W.H. Pearsall."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Under whose supervision did Ramdeo Misra complete his Ph.D?",
+      "options": [
+        "Prof. W.H. Pearsall",
+        "Prof. Charles Darwin",
+        "Prof. Sanjay Gandhi",
+        "Prof. Ramanujan"
+      ],
+      "correct": 0,
+      "explanation": "Ramdeo Misra obtained his Ph.D under Prof. W.H. Pearsall, FRS, from Leeds University."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which year did Ramdeo Misra obtain his Ph.D?",
+      "options": [
+        "1927",
+        "1937",
+        "1947",
+        "1957"
+      ],
+      "correct": 1,
+      "explanation": "Ramdeo Misra obtained his Ph.D in Ecology in 1937."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "At which university did Ramdeo Misra establish teaching and research in ecology?",
+      "options": [
+        "Delhi University",
+        "Banaras Hindu University",
+        "Mumbai University",
+        "Madras University"
+      ],
+      "correct": 1,
+      "explanation": "He established teaching and research in ecology at the Department of Botany of Banaras Hindu University, Varanasi."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which city was the location of Banaras Hindu University where Misra worked?",
+      "options": [
+        "Delhi",
+        "Varanasi",
+        "Lucknow",
+        "Kanpur"
+      ],
+      "correct": 1,
+      "explanation": "Banaras Hindu University is located in Varanasi."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following was NOT a research area of Ramdeo Misra?",
+      "options": [
+        "Tropical communities and their succession",
+        "Environmental responses of plant populations",
+        "Quantum physics",
+        "Nutrient cycling in tropical ecosystems"
+      ],
+      "correct": 2,
+      "explanation": "Misra's research included tropical communities, succession, environmental responses, productivity, and nutrient cycling. Quantum physics was not his research area."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What significant contribution did Misra make to ecology education in India?",
+      "options": [
+        "He wrote the first ecology textbook",
+        "He formulated the first postgraduate course in ecology in India",
+        "He established the first ecology museum",
+        "He founded the first ecology journal"
+      ],
+      "correct": 1,
+      "explanation": "Misra formulated the first postgraduate course in ecology in India."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How many scholars obtained Ph.D degrees under Ramdeo Misra's supervision?",
+      "options": [
+        "Less than 20",
+        "Over 50",
+        "Exactly 30",
+        "About 100"
+      ],
+      "correct": 1,
+      "explanation": "Over 50 scholars obtained Ph.D degrees under his supervision and moved to other universities to initiate ecology teaching and research."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which prestigious fellowship was awarded to Ramdeo Misra?",
+      "options": [
+        "Fellowship of the Indian National Science Academy",
+        "Nobel Prize",
+        "Padma Vibhushan",
+        "Bharat Ratna"
+      ],
+      "correct": 0,
+      "explanation": "He was honoured with the Fellowships of the Indian National Science Academy and World Academy of Arts and Science."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which award did Ramdeo Misra receive in the field of Environment and Ecology?",
+      "options": [
+        "Nobel Prize in Environment",
+        "Sanjay Gandhi Award in Environment and Ecology",
+        "Green Oscar",
+        "UNEP Award"
+      ],
+      "correct": 1,
+      "explanation": "He received the prestigious Sanjay Gandhi Award in Environment and Ecology."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What committee was established by the Government of India due to Misra's efforts?",
+      "options": [
+        "National Committee for Environmental Planning and Coordination",
+        "National Green Tribunal",
+        "Central Pollution Control Board",
+        "National Biodiversity Authority"
+      ],
+      "correct": 0,
+      "explanation": "Due to his efforts, the Government of India established the National Committee for Environmental Planning and Coordination in 1972."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which year was the National Committee for Environmental Planning and Coordination established?",
+      "options": [
+        "1962",
+        "1972",
+        "1982",
+        "1992"
+      ],
+      "correct": 1,
+      "explanation": "The National Committee for Environmental Planning and Coordination was established in 1972."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What ministry was eventually established as a result of Misra's efforts?",
+      "options": [
+        "Ministry of Agriculture",
+        "Ministry of Environment and Forests",
+        "Ministry of Science and Technology",
+        "Ministry of Water Resources"
+      ],
+      "correct": 1,
+      "explanation": "The National Committee paved the way for the establishment of the Ministry of Environment and Forests."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does FRS stand for in Prof. W.H. Pearsall's title?",
+      "options": [
+        "Fellow of the Royal Society",
+        "Fellow of the Research Society",
+        "Fellow of the Royal Science Academy",
+        "Fellow of the Regional Society"
+      ],
+      "correct": 0,
+      "explanation": "FRS stands for Fellow of the Royal Society, a prestigious scientific fellowship in the UK."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which department at Banaras Hindu University did Misra establish ecology in?",
+      "options": [
+        "Department of Zoology",
+        "Department of Botany",
+        "Department of Chemistry",
+        "Department of Physics"
+      ],
+      "correct": 1,
+      "explanation": "He established teaching and research in ecology at the Department of Botany of Banaras Hindu University."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What aspect of tropical ecosystems did Misra study regarding productivity?",
+      "options": [
+        "Only tropical forests",
+        "Tropical forest and grassland ecosystems",
+        "Only tropical grasslands",
+        "Only marine ecosystems"
+      ],
+      "correct": 1,
+      "explanation": "His research included productivity and nutrient cycling in tropical forest and grassland ecosystems."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What did the scholars who obtained Ph.D under Misra do after their degrees?",
+      "options": [
+        "They retired immediately",
+        "They moved to other universities to initiate ecology teaching and research",
+        "They became politicians",
+        "They left the field of ecology"
+      ],
+      "correct": 1,
+      "explanation": "Over 50 scholars obtained Ph.D under his supervision and moved to other universities and research institutes to initiate ecology teaching and research across India."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the full name of the person known as the Father of Ecology in India?",
+      "options": [
+        "Ramdev Mishra",
+        "Ramdeo Misra",
+        "Ramakrishna Misra",
+        "Ramesh Misra"
+      ],
+      "correct": 1,
+      "explanation": "The full name is Ramdeo Misra (1908-1998)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which two factors contribute to an INCREASE in population density?",
+      "options": [
+        "Natality and Mortality",
+        "Natality and Immigration",
+        "Mortality and Emigration",
+        "Immigration and Emigration"
+      ],
+      "correct": 1,
+      "explanation": "Natality (births) and Immigration (individuals entering the habitat) both add to the population, causing an increase in density."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which two factors contribute to a DECREASE in population density?",
+      "options": [
+        "Natality and Immigration",
+        "Birth rate and Death rate",
+        "Mortality and Emigration",
+        "Immigration and Emigration"
+      ],
+      "correct": 2,
+      "explanation": "Mortality (deaths) and Emigration (individuals leaving the habitat) both reduce the population, causing a decrease in density."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does 'Natality' refer to in population ecology?",
+      "options": [
+        "Number of deaths in the population",
+        "Number of individuals leaving the habitat",
+        "Number of births during a given period added to initial density",
+        "Number of individuals entering from elsewhere"
+      ],
+      "correct": 2,
+      "explanation": "Natality refers to the number of births during a given period in the population that are added to the initial density."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does 'Mortality' refer to in population ecology?",
+      "options": [
+        "Number of births during a given period",
+        "Number of deaths in the population during a given period",
+        "Number of individuals entering the habitat",
+        "Number of individuals leaving the habitat"
+      ],
+      "correct": 1,
+      "explanation": "Mortality is defined as the number of deaths in the population during a given period."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is 'Immigration' in the context of population growth?",
+      "options": [
+        "Number of individuals leaving the habitat to go elsewhere",
+        "Number of deaths in the population",
+        "Number of individuals of the same species coming into the habitat from elsewhere",
+        "Number of births during a given period"
+      ],
+      "correct": 2,
+      "explanation": "Immigration is the number of individuals of the same species that have come into the habitat from elsewhere during the time period under consideration."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is 'Emigration' in the context of population dynamics?",
+      "options": [
+        "Number of individuals entering the habitat from elsewhere",
+        "Number of births in the population",
+        "Number of individuals of the population who left the habitat and gone elsewhere",
+        "Number of deaths during a given period"
+      ],
+      "correct": 2,
+      "explanation": "Emigration is the number of individuals of the population who left the habitat and gone elsewhere during the time period under consideration."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the population growth equation, when will population density increase?",
+      "options": [
+        "When D + E is greater than B + I",
+        "When B + I is equal to D + E",
+        "When B + I is more than D + E",
+        "When B is equal to D regardless of I and E"
+      ],
+      "correct": 2,
+      "explanation": "Population density will increase if the number of births plus immigrants (B + I) is more than the number of deaths plus emigrants (D + E)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Under normal conditions, which factors are the MOST IMPORTANT in influencing population density?",
+      "options": [
+        "Immigration and Emigration",
+        "Natality and Mortality",
+        "Predation and Competition",
+        "Disease and Climate"
+      ],
+      "correct": 1,
+      "explanation": "Under normal conditions, births and deaths are the most important factors influencing population density, while immigration and emigration assume importance only under special conditions."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In what special condition does immigration contribute MORE significantly to population growth than birth rates?",
+      "options": [
+        "When the population is stable and mature",
+        "When a new habitat is just being colonised",
+        "When resources are completely depleted",
+        "When predation pressure is extremely high"
+      ],
+      "correct": 1,
+      "explanation": "If a new habitat is just being colonised, immigration may contribute more significantly to population growth than birth rates because there are few existing individuals to reproduce."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The population growth equation states: N(t+1) = Nt + [(B+I) - (D+E)]. What does 'Nt' represent?",
+      "options": [
+        "Population density at time t+1",
+        "Population density at time t",
+        "Total number of births and deaths",
+        "Carrying capacity of the habitat"
+      ],
+      "correct": 1,
+      "explanation": "Nt represents the population density at time t, which is the initial population density before accounting for births, deaths, immigration, and emigration."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which factor is represented by the letter 'I' in the population growth equation?",
+      "options": [
+        "Intrinsic rate of increase",
+        "Immigration",
+        "Initial population size",
+        "Interspecific competition"
+      ],
+      "correct": 1,
+      "explanation": "In the population growth equation, 'I' stands for Immigration, which is the number of individuals entering the habitat from elsewhere."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which factor is represented by the letter 'E' in the population growth equation?",
+      "options": [
+        "Evolutionary rate",
+        "Emigration",
+        "Environmental resistance",
+        "Energy transfer"
+      ],
+      "correct": 1,
+      "explanation": "In the population growth equation, 'E' stands for Emigration, which is the number of individuals leaving the habitat to go elsewhere."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the Competitive Exclusion Principle, what happens when two closely related species compete for the same limited resources?",
+      "options": [
+        "They evolve to become mutualistic partners",
+        "The competitively inferior species will be eliminated eventually",
+        "They immediately form a symbiotic relationship",
+        "Both species will coexist indefinitely without any change"
+      ],
+      "correct": 1,
+      "explanation": "According to Gause's Competitive Exclusion Principle, two closely related species competing for the same limited resources cannot coexist indefinitely, and the competitively inferior species will eventually be eliminated."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is 'resource partitioning' as described in the context of species competition?",
+      "options": [
+        "Dividing the habitat into equal territories for each species",
+        "Species evolving mechanisms to use different resources or times to avoid competition and coexist",
+        "One species completely dominating and eliminating all others",
+        "Sharing the exact same resources at the same time without any conflict"
+      ],
+      "correct": 1,
+      "explanation": "Resource partitioning is a mechanism where species facing competition evolve to avoid competition by choosing different times for feeding or different foraging patterns, promoting coexistence rather than exclusion."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which experimental evidence from nature demonstrates 'competitive release'?",
+      "options": [
+        "When a predator is removed, prey population increases",
+        "When a competitively superior species is removed, the inferior species expands its range",
+        "When two species form a mutualistic relationship",
+        "When environmental conditions improve for all species equally"
+      ],
+      "correct": 1,
+      "explanation": "Competitive release occurs when a species whose distribution is restricted due to a competitively superior species expands its range dramatically when the competing species is removed."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In Connell's field experiments on rocky sea coasts of Scotland, which barnacle species dominated the intertidal area?",
+      "options": [
+        "Chthamalus",
+        "Balanus",
+        "Both species equally",
+        "Neither species"
+      ],
+      "correct": 1,
+      "explanation": "Connell's experiments showed that the larger and competitively superior barnacle Balanus dominates the intertidal area and excludes the smaller barnacle Chthamalus from that zone."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the key difference between interference competition and exploitation competition?",
+      "options": [
+        "Interference competition requires abundant resources while exploitation requires limited resources",
+        "Interference competition reduces feeding efficiency even when resources are abundant, while exploitation occurs when resources are limiting",
+        "There is no difference between the two types",
+        "Exploitation competition only occurs between plants"
+      ],
+      "correct": 1,
+      "explanation": "Interference competition occurs when the feeding efficiency of one species is reduced due to the interfering presence of another species even if resources are abundant, whereas exploitation competition occurs when resources are actually limiting."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an example of parasitism where the parasite has lost its chlorophyll and leaves?",
+      "options": [
+        "Lice on humans",
+        "Ticks on dogs",
+        "Cuscuta growing on hedge plants",
+        "Malarial parasite in humans"
+      ],
+      "correct": 2,
+      "explanation": "Cuscuta is a parasitic plant that has lost its chlorophyll and leaves during evolution and derives its nutrition from the host plant it parasitises."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why is the female mosquito NOT considered a true parasite despite needing blood for reproduction?",
+      "options": [
+        "Because it does not live on or inside the host permanently",
+        "Because it produces eggs without blood",
+        "Because it benefits the host by removing toxins",
+        "Because it only feeds on plant nectar"
+      ],
+      "correct": 0,
+      "explanation": "The female mosquito is not considered a parasite because it does not live permanently on or inside the host; it only visits briefly to obtain blood for reproduction."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is 'brood parasitism' in birds?",
+      "options": [
+        "When birds build nests together in colonies",
+        "When a parasitic bird lays its eggs in the nest of a host bird and lets the host incubate them",
+        "When birds share food resources equally",
+        "When birds form mutualistic relationships with insects"
+      ],
+      "correct": 1,
+      "explanation": "Brood parasitism is when a parasitic bird lays its eggs in the nest of its host and lets the host incubate them; the eggs have evolved to resemble the host's eggs in size and colour."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In commensalism, what is the outcome for the two interacting species?",
+      "options": [
+        "Both species benefit equally",
+        "One species benefits and the other is neither harmed nor benefited",
+        "One species benefits and the other is harmed",
+        "Both species are harmed"
+      ],
+      "correct": 1,
+      "explanation": "Commensalism is an interaction where one species benefits and the other is neither harmed nor benefited. Examples include orchids growing on mango branches and barnacles on whales."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is a classic example of commensalism involving cattle and birds?",
+      "options": [
+        "Oxpeckers removing ticks from cattle",
+        "Cattle egrets foraging near grazing cattle to catch flushed-out insects",
+        "Vultures feeding on dead cattle",
+        "Sparrows nesting in cattle barns"
+      ],
+      "correct": 1,
+      "explanation": "The cattle egret and grazing cattle represent commensalism where the egret benefits by catching insects flushed out by the moving cattle, while the cattle is neither helped nor harmed."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What benefit does the clown fish receive from living among the stinging tentacles of sea anemone?",
+      "options": [
+        "It gets food from the anemone",
+        "It gets protection from predators that avoid the stinging tentacles",
+        "It helps the anemone reproduce",
+        "It cleans the anemone's tentacles"
+      ],
+      "correct": 1,
+      "explanation": "The clown fish gets protection from predators which stay away from the stinging tentacles of the sea anemone, while the anemone does not appear to derive any benefit."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the defining characteristic of mutualism?",
+      "options": [
+        "One species benefits while the other is harmed",
+        "Both interacting species benefit from the relationship",
+        "One species benefits while the other is unaffected",
+        "Both species compete for the same resources"
+      ],
+      "correct": 1,
+      "explanation": "Mutualism is an interaction that confers benefits on both the interacting species. Examples include lichens (fungus + algae/cyanobacteria) and mycorrhizae (fungi + plant roots)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What do fungi provide to plants in mycorrhizal associations?",
+      "options": [
+        "They produce chlorophyll for the plant",
+        "They help the plant absorb essential nutrients from the soil",
+        "They protect the plant from all diseases",
+        "They provide water storage for the plant"
+      ],
+      "correct": 1,
+      "explanation": "In mycorrhizal associations, fungi help the plant absorb essential nutrients from the soil while the plant provides the fungi with energy-yielding carbohydrates."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What do plants offer to animals in return for pollination services?",
+      "options": [
+        "Shelter and protection from predators",
+        "Pollen and nectar as rewards",
+        "Water and minerals",
+        "Oxygen and carbon dioxide"
+      ],
+      "correct": 1,
+      "explanation": "Plants offer rewards in the form of pollen and nectar for pollinators and juicy nutritious fruits for seed dispersers in exchange for their services."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the relationship between fig trees and their pollinator wasps described as?",
+      "options": [
+        "A loose association where any wasp can pollinate any fig",
+        "A tight one-to-one relationship where each fig species has a specific partner wasp species",
+        "A competitive relationship where wasps and figs fight for resources",
+        "A parasitic relationship where wasps harm the fig trees"
+      ],
+      "correct": 1,
+      "explanation": "Many fig tree species have a tight one-to-one relationship with their pollinator wasp species, meaning a given fig species can only be pollinated by its specific partner wasp species."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is 'co-evolution' in the context of plant-pollinator relationships?",
+      "options": [
+        "When plants and pollinators evolve independently without any interaction",
+        "When the evolution of the flower and its pollinator species are tightly linked with one another",
+        "When plants evolve to become carnivorous",
+        "When pollinators evolve to become predators"
+      ],
+      "correct": 1,
+      "explanation": "Co-evolution in plant-pollinator relationships means the evolution of the flower and its pollinator species are tightly linked with one another, as seen in fig-wasp and orchid-bee relationships."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an ectoparasite?",
+      "options": [
+        "Malarial parasite inside red blood cells",
+        "Liver fluke inside the liver",
+        "Lice on humans",
+        "Tapeworm inside the intestine"
+      ],
+      "correct": 2,
+      "explanation": "Ectoparasites feed on the external surface of the host organism. Lice on humans and ticks on dogs are familiar examples of ectoparasites."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What adaptation have many parasites evolved to ensure successful parasitism?",
+      "options": [
+        "Development of stronger muscles for hunting",
+        "Loss of unnecessary sense organs, presence of adhesive organs, and high reproductive capacity",
+        "Ability to photosynthesize",
+        "Development of wings for flight"
+      ],
+      "correct": 1,
+      "explanation": "Parasites have evolved special adaptations including loss of unnecessary sense organs, presence of adhesive organs or suckers to cling to the host, loss of digestive system, and high reproductive capacity."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the outcome of amensalism for the two interacting species?",
+      "options": [
+        "Both species benefit",
+        "One species is harmed while the other is unaffected",
+        "One species benefits while the other is harmed",
+        "Both species are unaffected"
+      ],
+      "correct": 1,
+      "explanation": "Amensalism is an interaction where one species is harmed whereas the other is unaffected."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the text, which group of organisms appears to be more adversely affected by competition?",
+      "options": [
+        "Carnivores",
+        "Herbivores and plants",
+        "Decomposers",
+        "Parasites"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in general, herbivores and plants appear to be more adversely affected by competition than carnivores."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an attribute of a population but NOT of an individual organism?",
+      "options": [
+        "Birth rate",
+        "Reproduction",
+        "Death",
+        "Growth"
+      ],
+      "correct": 0,
+      "explanation": "Birth rate is a population-level attribute that refers to per capita births, whereas an individual organism experiences birth (a single event) but not a 'rate'."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "If a pond had 20 lotus plants last year and 8 new plants were added through reproduction, what is the birth rate?",
+      "options": [
+        "0.2 offspring per lotus per year",
+        "0.4 offspring per lotus per year",
+        "0.8 offspring per lotus per year",
+        "1.2 offspring per lotus per year"
+      ],
+      "correct": 1,
+      "explanation": "Birth rate = Number of new individuals / Initial population = 8/20 = 0.4 offspring per lotus per year."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In a laboratory population of 40 fruitflies, if 4 individuals died during one week, what is the death rate?",
+      "options": [
+        "0.05 individuals per fruitfly per week",
+        "0.1 individuals per fruitfly per week",
+        "0.2 individuals per fruitfly per week",
+        "0.4 individuals per fruitfly per week"
+      ],
+      "correct": 1,
+      "explanation": "Death rate = Number of deaths / Total population = 4/40 = 0.1 individuals per fruitfly per week."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the shape of an age pyramid indicate about a population?",
+      "options": [
+        "Only the total population size",
+        "Whether the population is growing, stable, or declining",
+        "The genetic diversity of the population",
+        "The habitat quality of the environment"
+      ],
+      "correct": 1,
+      "explanation": "The shape of age pyramids reflects the growth status: expanding (growing), stable, or declining."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is NOT a measure of population density?",
+      "options": [
+        "Total number of individuals",
+        "Biomass",
+        "Individual body weight",
+        "Per cent cover"
+      ],
+      "correct": 2,
+      "explanation": "Population density can be measured by total number, biomass, or per cent cover, but individual body weight is not a population-level measure."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For a huge population of bacteria in a petri dish, which measure would be most practical for reporting density?",
+      "options": [
+        "Counting each individual bacterium",
+        "Measuring per cent cover or biomass",
+        "Counting only the dead bacteria",
+        "Estimating based on visual appearance only"
+      ],
+      "correct": 1,
+      "explanation": "When counting is impossible or very time-consuming, per cent cover or biomass is a more meaningful measure of population size."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following best describes the relationship between fig trees and their pollinator wasps?",
+      "options": [
+        "The wasp pollinates the fig while using the fruit for egg-laying and seed nourishment for larvae",
+        "The wasp only feeds on nectar without providing any pollination service",
+        "The fig tree provides shelter but receives no benefit from the wasp",
+        "The wasp destroys the fig seeds without aiding in pollination"
+      ],
+      "correct": 0,
+      "explanation": "The fig tree and wasp share a mutualistic relationship where the wasp pollinates the fig inflorescence while searching for egg-laying sites, and in return, the fig provides developing seeds as food for wasp larvae"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is meant by co-evolution in the context of plant-pollinator relationships?",
+      "options": [
+        "The independent evolution of plants and pollinators without any interaction",
+        "The evolution of flower and its pollinator species being tightly linked with one another",
+        "The evolution of plants only, while pollinators remain unchanged",
+        "The extinction of pollinators due to plant evolution"
+      ],
+      "correct": 1,
+      "explanation": "Co-evolution refers to the tightly linked evolution of the flower and its pollinator species, where changes in one drive corresponding changes in the other"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What reward do plants offer to pollinators for their services?",
+      "options": [
+        "Only water from the stem",
+        "Pollen and nectar",
+        "Leaves and roots",
+        "Bark and thorns"
+      ],
+      "correct": 1,
+      "explanation": "Plants offer rewards in the form of pollen and nectar for pollinators and juicy nutritious fruits for seed dispersers"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the significance of the one-to-one relationship between fig species and wasp species?",
+      "options": [
+        "Any wasp can pollinate any fig tree",
+        "A given fig species can be pollinated only by its partner wasp species",
+        "Fig trees do not require wasps for pollination",
+        "Wasps can survive without fig trees"
+      ],
+      "correct": 1,
+      "explanation": "The one-to-one relationship means a given fig species can be pollinated only by its partner wasp species and no other species"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is brood parasitism in birds?",
+      "options": [
+        "A bird building its own nest and raising its own young",
+        "A parasitic bird laying its eggs in the nest of its host and letting the host incubate them",
+        "Two birds sharing the same nest equally",
+        "A bird eating the eggs of another bird"
+      ],
+      "correct": 1,
+      "explanation": "Brood parasitism is when a parasitic bird lays its eggs in the nest of its host and lets the host incubate them; the eggs evolve to resemble the host's eggs"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What adaptation have parasitic bird eggs evolved to reduce detection by host birds?",
+      "options": [
+        "They have become larger than host eggs",
+        "They resemble the host's egg in size and colour",
+        "They have developed hard shells that cannot be broken",
+        "They emit sounds to confuse the host"
+      ],
+      "correct": 1,
+      "explanation": "During evolution, the eggs of the parasitic bird have evolved to resemble the host's egg in size and colour to reduce chances of detection and ejection"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the interaction called when one species benefits and the other is neither harmed nor benefited?",
+      "options": [
+        "Mutualism",
+        "Commensalism",
+        "Parasitism",
+        "Competition"
+      ],
+      "correct": 1,
+      "explanation": "Commensalism is the interaction where one species benefits and the other is neither harmed nor benefited"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an example of commensalism mentioned on this page?",
+      "options": [
+        "Fig tree and wasp",
+        "Orchid growing as an epiphyte on a mango branch",
+        "Lichen consisting of fungus and algae",
+        "Mycorrhizae between fungi and plant roots"
+      ],
+      "correct": 1,
+      "explanation": "An orchid growing as an epiphyte on a mango branch is an example of commensalism where the orchid benefits while the mango tree is neither helped nor harmed"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What do mycorrhizae represent?",
+      "options": [
+        "A parasitic relationship between fungi and plant roots",
+        "Associations between fungi and the roots of higher plants where fungi help in nutrient absorption",
+        "A competitive relationship between fungi and plants",
+        "A predator-prey relationship in soil"
+      ],
+      "correct": 1,
+      "explanation": "Mycorrhizae are associations between fungi and the roots of higher plants where fungi help the plant absorb essential nutrients while the plant provides energy-yielding carbohydrates to fungi"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is mutualism?",
+      "options": [
+        "An interaction where one species benefits and the other is harmed",
+        "An interaction that confers benefits on both interacting species",
+        "An interaction where both species are harmed",
+        "An interaction where neither species is affected"
+      ],
+      "correct": 1,
+      "explanation": "Mutualism is an interaction that confers benefits on both the interacting species"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What do lichens represent?",
+      "options": [
+        "A competitive relationship between two plants",
+        "An intimate mutualistic relationship between a fungus and photosynthesising algae or cyanobacteria",
+        "A parasitic relationship where fungus harms algae",
+        "A predator-prey relationship in aquatic environment"
+      ],
+      "correct": 1,
+      "explanation": "Lichens represent an intimate mutualistic relationship between a fungus and photosynthesising algae or cyanobacteria"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the Mediterranean orchid Ophrys known for in terms of pollination strategy?",
+      "options": [
+        "Offering large amounts of nectar to bees",
+        "Employing sexual deceit to get pollination done by a species of bee",
+        "Having bright red flowers to attract birds",
+        "Producing foul smell to attract flies"
+      ],
+      "correct": 1,
+      "explanation": "The Mediterranean orchid Ophrys employs sexual deceit where one petal resembles a female bee, attracting male bees to pseudocopulate and transfer pollen"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In the orchid-bee mutualism, what happens if the female bee's colour patterns change slightly during evolution?",
+      "options": [
+        "The orchid will automatically change its colour too",
+        "Pollination success will be reduced unless the orchid co-evolves to maintain resemblance",
+        "The bee will stop visiting all flowers",
+        "The orchid will become extinct immediately"
+      ],
+      "correct": 1,
+      "explanation": "If the female bee's colour patterns change, pollination success will be reduced unless the orchid flower co-evolves to maintain the resemblance of its petal to the female bee"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the role of the clown fish living among sea anemone tentacles?",
+      "options": [
+        "The clown fish preys on the anemone",
+        "The fish gets protection from predators while the anemone appears unaffected",
+        "The clown fish provides food to the anemone",
+        "The anemone benefits significantly from the clown fish's presence"
+      ],
+      "correct": 1,
+      "explanation": "The clown fish gets protection from predators which stay away from the stinging tentacles, while the anemone does not appear to derive any benefit"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What do plants need animals for, according to this page?",
+      "options": [
+        "For protection from sunlight only",
+        "For pollinating their flowers and dispersing their seeds",
+        "For providing carbon dioxide",
+        "For removing excess water"
+      ],
+      "correct": 1,
+      "explanation": "Plants need the help of animals for pollinating their flowers and dispersing their seeds"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What are cheaters in the context of plant-animal mutualism?",
+      "options": [
+        "Animals that help in pollination efficiently",
+        "Animals that try to steal nectar without aiding in pollination",
+        "Plants that do not produce nectar",
+        "Animals that eat the entire flower"
+      ],
+      "correct": 1,
+      "explanation": "Cheaters are animals that try to steal nectar without aiding in pollination"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the cattle egret and grazing cattle relationship an example of?",
+      "options": [
+        "Mutualism",
+        "Commensalism",
+        "Parasitism",
+        "Predation"
+      ],
+      "correct": 1,
+      "explanation": "The cattle egret forages close to grazing cattle because the cattle stir up insects; the egret benefits while the cattle are unaffected"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the female wasp use the fig fruit for?",
+      "options": [
+        "Only as a source of water",
+        "As an oviposition site and for nourishing its larvae using developing seeds",
+        "As a place to build a permanent nest",
+        "As protection from predators only"
+      ],
+      "correct": 1,
+      "explanation": "The female wasp uses the fruit as an oviposition site and uses developing seeds within the fruit for nourishing its larvae"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the relationship between barnacles growing on the back of a whale?",
+      "options": [
+        "Mutualism",
+        "Commensalism",
+        "Parasitism",
+        "Competition"
+      ],
+      "correct": 1,
+      "explanation": "Barnacles growing on the back of a whale benefit while the whale derives no apparent benefit, making this commensalism"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the orchid's petal adaptation that resembles a female bee used for?",
+      "options": [
+        "To scare away predators",
+        "To attract male bees for pseudocopulation and pollen transfer",
+        "To store nectar for the bee",
+        "To protect the flower from rain"
+      ],
+      "correct": 1,
+      "explanation": "The petal resembling a female bee attracts male bees to pseudocopulate with the flower, during which pollen is transferred"
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the term 'r' represent in the exponential growth equation dN/dt = rN?",
+      "options": [
+        "Population density at time zero",
+        "Intrinsic rate of natural increase",
+        "Carrying capacity of the environment",
+        "Total number of births per unit time"
+      ],
+      "correct": 1,
+      "explanation": "The symbol 'r' in the equation dN/dt = rN represents the intrinsic rate of natural increase, which is the difference between per capita birth rate (b) and per capita death rate (d). It measures the inherent potential of a population to grow under unlimited resource conditions."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the shape of the population growth curve when resources are unlimited?",
+      "options": [
+        "S-shaped (sigmoid) curve",
+        "J-shaped curve",
+        "Linear straight line",
+        "U-shaped curve"
+      ],
+      "correct": 1,
+      "explanation": "When resources are unlimited, population growth follows an exponential or geometric pattern, resulting in a J-shaped curve when population density (N) is plotted against time (t). This pattern shows rapid, uncontrolled growth without any limiting factors."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the exponential growth model, what is the integral form of the growth equation?",
+      "options": [
+        "Nt = N0 + rt",
+        "Nt = N0 × e^(rt)",
+        "Nt = N0 × (1 + r)^t",
+        "Nt = K / (1 + e^(-rt))"
+      ],
+      "correct": 1,
+      "explanation": "The integral form of the exponential growth equation is Nt = N0 × e^(rt), where Nt is population density after time t, N0 is the initial population density, r is the intrinsic rate of natural increase, and e is the base of natural logarithms (approximately 2.71828)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the intrinsic rate of natural increase (r) for the Norway rat as mentioned in the text?",
+      "options": [
+        "0.12",
+        "0.015",
+        "0.0205",
+        "0.05"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the intrinsic rate of natural increase (r) for the Norway rat is 0.015. This value represents the per capita growth rate under ideal conditions with unlimited resources."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following best describes the chessboard wheat grain anecdote mentioned in the text?",
+      "options": [
+        "It demonstrates logistic growth pattern",
+        "It illustrates the dramatic power of exponential doubling",
+        "It explains the concept of carrying capacity",
+        "It describes competitive exclusion principle"
+      ],
+      "correct": 1,
+      "explanation": "The chessboard wheat grain anecdote demonstrates how exponential doubling (1, 2, 4, 8, 16 grains on successive squares) leads to astronomically large numbers that exceed all available resources, illustrating the dramatic and potentially overwhelming power of exponential growth."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens to the population density when the sum of births and immigrants exceeds the sum of deaths and emigrants?",
+      "options": [
+        "Population density decreases",
+        "Population density remains constant",
+        "Population density increases",
+        "Population density becomes zero"
+      ],
+      "correct": 2,
+      "explanation": "Population density increases when (B + I) > (D + E), where B is natality, I is immigration, D is mortality, and E is emigration. This is the fundamental principle of population growth dynamics."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the intrinsic rate of natural increase (r) for the flour beetle as given in the text?",
+      "options": [
+        "0.015",
+        "0.12",
+        "0.0205",
+        "0.25"
+      ],
+      "correct": 1,
+      "explanation": "The text specifies that the intrinsic rate of natural increase (r) for the flour beetle is 0.12. This relatively high value indicates that flour beetles have a greater potential for rapid population growth compared to Norway rats."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was the r value for the human population in India in 1981 according to the text?",
+      "options": [
+        "0.015",
+        "0.12",
+        "0.0205",
+        "0.025"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that in 1981, the r value for the human population in India was 0.0205. This value represents the per capita rate of population increase during that time period."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In the exponential growth equation, what does 'e' represent?",
+      "options": [
+        "Emigration rate",
+        "The base of natural logarithms (approximately 2.71828)",
+        "Environmental resistance",
+        "Energy transfer efficiency"
+      ],
+      "correct": 1,
+      "explanation": "In the exponential growth equation Nt = N0 × e^(rt), the symbol 'e' represents the base of natural logarithms, which is a mathematical constant approximately equal to 2.71828. It is a fundamental constant in calculus and exponential growth calculations."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the 'K' shown in Figure 11.3 represent?",
+      "options": [
+        "Intrinsic rate of natural increase",
+        "Carrying capacity of the environment",
+        "Initial population density",
+        "Death rate of the population"
+      ],
+      "correct": 1,
+      "explanation": "In Figure 11.3, 'K' represents the carrying capacity of the environment, which is the maximum population size that a given habitat can support. The logistic growth curve (curve b) approaches this asymptote when resources become limiting."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What type of growth curve is produced when a population grows in a habitat with limited resources?",
+      "options": [
+        "J-shaped curve",
+        "Sigmoid curve",
+        "Linear curve",
+        "Parabolic curve"
+      ],
+      "correct": 1,
+      "explanation": "A population growing in a habitat with limited resources shows a logistic growth pattern which results in a sigmoid (S-shaped) curve. This includes an initial lag phase, followed by acceleration and deceleration phases, and finally an asymptote when the population reaches carrying capacity."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the name of the logistic growth model described in the text?",
+      "options": [
+        "Darwinian Growth Model",
+        "Malthusian Growth Model",
+        "Verhulst-Pearl Logistic Growth",
+        "Gompertz Growth Model"
+      ],
+      "correct": 2,
+      "explanation": "The text specifically names the logistic growth model as the 'Verhulst-Pearl Logistic Growth' model. This model describes population growth under limited resource conditions."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following phases is NOT part of the logistic growth curve?",
+      "options": [
+        "Lag phase",
+        "Acceleration phase",
+        "Deceleration phase",
+        "Exponential phase"
+      ],
+      "correct": 3,
+      "explanation": "The logistic growth curve consists of four phases: lag phase, acceleration phase, deceleration phase, and asymptote. The exponential phase is characteristic of exponential growth (J-shaped curve), not logistic growth."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does 'K' represent in the logistic growth equation?",
+      "options": [
+        "Intrinsic rate of natural increase",
+        "Carrying capacity",
+        "Initial population density",
+        "Population density at time t"
+      ],
+      "correct": 1,
+      "explanation": "In the logistic growth equation dN/dt = rN((K-N)/K), K represents the carrying capacity of the environment - the maximum population size that the habitat can support."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which equation represents the logistic growth model?",
+      "options": [
+        "dN/dt = rN",
+        "Nt = N0ert",
+        "dN/dt = rN((K-N)/K)",
+        "N(t+1) = [B+I] - [D+E]"
+      ],
+      "correct": 2,
+      "explanation": "The logistic growth model is described by the equation dN/dt = rN((K-N)/K), where N is population density, r is intrinsic rate of natural increase, and K is carrying capacity."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens to a population when it reaches the carrying capacity (K)?",
+      "options": [
+        "It continues to grow exponentially",
+        "It stops growing and stabilizes",
+        "It immediately declines",
+        "It doubles in size"
+      ],
+      "correct": 1,
+      "explanation": "When a population reaches the carrying capacity (K), the growth rate becomes zero and the population stabilizes at that level. This is shown by the asymptote in the sigmoid curve."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why does exponential growth not occur indefinitely in nature?",
+      "options": [
+        "Because predators always eliminate prey populations",
+        "Because resources are always limited in any habitat",
+        "Because organisms stop reproducing after a certain time",
+        "Because climate change prevents population growth"
+      ],
+      "correct": 1,
+      "explanation": "Exponential growth does not occur indefinitely because no population in nature has unlimited resources. Limited resources lead to competition, which eventually causes the population to follow logistic growth instead."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the carrying capacity of a habitat?",
+      "options": [
+        "The total number of species in the habitat",
+        "The maximum possible population a habitat can support",
+        "The minimum population required for survival",
+        "The average population size over many years"
+      ],
+      "correct": 1,
+      "explanation": "Carrying capacity (K) is defined as the maximum possible number of individuals of a species that a given habitat can support beyond which no further growth is possible."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which growth model is considered more realistic for most animal populations?",
+      "options": [
+        "Exponential growth model",
+        "Logistic growth model",
+        "Linear growth model",
+        "Random growth model"
+      ],
+      "correct": 1,
+      "explanation": "The logistic growth model is considered more realistic for most animal populations because resources for growth are finite and become limiting sooner or later in nature."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In the logistic growth equation, what does 'N' represent?",
+      "options": [
+        "Carrying capacity",
+        "Intrinsic rate of natural increase",
+        "Population density at time t",
+        "Initial population density"
+      ],
+      "correct": 2,
+      "explanation": "In the logistic growth equation dN/dt = rN((K-N)/K), N represents the population density at time t. This is the current population size being measured."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the term 'r' represent in population growth equations?",
+      "options": [
+        "Reproduction rate only",
+        "Death rate only",
+        "Intrinsic rate of natural increase (birth rate minus death rate)",
+        "Immigration rate only"
+      ],
+      "correct": 2,
+      "explanation": "The intrinsic rate of natural increase (r) is equal to (b-d), where b is the per capita birth rate and d is the per capita death rate. It measures the inherent potential of a population to grow."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What lesson can humans learn from nature regarding population growth?",
+      "options": [
+        "That unlimited growth is always possible",
+        "That natural restraints limit population growth",
+        "That predators are the only limiting factor",
+        "That climate is the only important factor"
+      ],
+      "correct": 1,
+      "explanation": "The text suggests that governments have realized that habitats have limited resources and introduced restraints to limit human population growth, similar to how nature limits growth through carrying capacity."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What shape does the exponential growth curve have when plotted?",
+      "options": [
+        "S-shaped (sigmoid)",
+        "J-shaped",
+        "U-shaped",
+        "Straight line"
+      ],
+      "correct": 1,
+      "explanation": "Exponential growth results in a J-shaped curve when population density (N) is plotted against time. This is because growth continues to accelerate without any limiting factors."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which factor causes the transition from exponential to logistic growth?",
+      "options": [
+        "Increase in birth rate",
+        "Decrease in death rate",
+        "Limited resources and competition",
+        "Increase in immigration"
+      ],
+      "correct": 2,
+      "explanation": "When resources become limited, competition occurs between individuals, causing the population growth to slow down and transition from exponential to logistic growth pattern."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the integral form of the exponential growth equation?",
+      "options": [
+        "dN/dt = rN",
+        "Nt = N0ert",
+        "dN/dt = rN((K-N)/K)",
+        "K = Nmax"
+      ],
+      "correct": 1,
+      "explanation": "The integral form of the exponential growth equation is Nt = N0ert, where Nt is population density after time t, N0 is initial population density, r is intrinsic rate of increase, and e is the base of natural logarithms."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following organisms breeds only once in its lifetime?",
+      "options": [
+        "Most birds",
+        "Pacific salmon fish",
+        "Most mammals",
+        "Many insects"
+      ],
+      "correct": 1,
+      "explanation": "Pacific salmon fish and bamboo are examples of organisms that breed only once in their lifetime (semelparity). Most birds and mammals breed multiple times (iteroparity)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What term is used to describe the reproductive fitness that populations evolve to maximise?",
+      "options": [
+        "Malthusian fitness",
+        "Darwinian fitness",
+        "Ecological fitness",
+        "Genetic fitness"
+      ],
+      "correct": 1,
+      "explanation": "Populations evolve to maximise their reproductive fitness, also called Darwinian fitness (high r value), in the habitat in which they live."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which life history strategy produces a large number of small-sized offspring?",
+      "options": [
+        "Birds and mammals",
+        "Oysters and pelagic fishes",
+        "Pacific salmon and bamboo",
+        "Reptiles and amphibians"
+      ],
+      "correct": 1,
+      "explanation": "Oysters and pelagic fishes produce a large number of small-sized offspring, while birds and mammals produce a small number of large-sized offspring."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In the population interactions table, what is the outcome when both species benefit from the interaction?",
+      "options": [
+        "Competition",
+        "Predation",
+        "Mutualism",
+        "Parasitism"
+      ],
+      "correct": 2,
+      "explanation": "In mutualism, both species benefit in their interaction with each other. This is represented as (+/+) in the interaction table."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which interaction is represented as (+/0) where one species benefits and the other is neither harmed nor benefited?",
+      "options": [
+        "Amensalism",
+        "Commensalism",
+        "Mutualism",
+        "Competition"
+      ],
+      "correct": 1,
+      "explanation": "Commensalism is the interaction where one species is benefited and the other is neither benefited nor harmed, represented as (+/0)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which interaction do both species lose or suffer?",
+      "options": [
+        "Mutualism",
+        "Predation",
+        "Competition",
+        "Commensalism"
+      ],
+      "correct": 2,
+      "explanation": "In competition, both species lose in their interactions with each other because they compete for the same limited resources. This is represented as (-/-)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What important role do predators play in an ecosystem besides transferring energy across trophic levels?",
+      "options": [
+        "They increase prey populations",
+        "They keep prey populations under control",
+        "They eliminate all prey species",
+        "They only feed on dead organisms"
+      ],
+      "correct": 1,
+      "explanation": "Predators keep prey populations under control. Without predators, prey species could achieve very high population densities and cause ecosystem instability."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which invasive species caused havoc in Australia by spreading rapidly into millions of hectares of rangeland?",
+      "options": [
+        "Water hyacinth",
+        "Prickly pear cactus",
+        "Lantana camara",
+        "Parthenium hysterophorus"
+      ],
+      "correct": 1,
+      "explanation": "The prickly pear cactus introduced into Australia in the early 1920s caused havoc by spreading rapidly into millions of hectares of rangeland. It was controlled by introducing a cactus-feeding moth from its natural habitat."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What would happen to all the energy fixed by autotrophic organisms if there were no herbivores in the community?",
+      "options": [
+        "It would be transferred to decomposers directly",
+        "It would remain trapped at the producer level",
+        "It would be lost as heat immediately",
+        "It would be stored permanently in plants"
+      ],
+      "correct": 1,
+      "explanation": "Predation is nature's way of transferring energy fixed by plants to higher trophic levels. Without herbivores (predators of plants), the energy would remain trapped at the producer level and not flow through the food chain."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In the rocky intertidal communities of the American Pacific Coast, what happened when all starfish (Pisaster) were removed from an enclosed area?",
+      "options": [
+        "Prey species populations decreased",
+        "More than 10 species of invertebrates became extinct",
+        "Species diversity increased dramatically",
+        "Algae populations exploded"
+      ],
+      "correct": 1,
+      "explanation": "When all starfish were removed from an enclosed intertidal area, more than 10 species of invertebrates became extinct within a year because of interspecific competition. This demonstrates that predators help maintain species diversity."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the primary focus of ecology as defined in the chapter?",
+      "options": [
+        "Study of individual organisms only",
+        "Study of interactions among organisms and between organisms and their physical environment",
+        "Study of chemical reactions in living beings",
+        "Study of fossil records and evolution"
+      ],
+      "correct": 1,
+      "explanation": "Ecology is defined as the study of interactions among organisms and between the organism and its physical (abiotic) environment."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is NOT one of the four levels of biological organisation in ecology?",
+      "options": [
+        "Organisms",
+        "Populations",
+        "Cells",
+        "Communities"
+      ],
+      "correct": 2,
+      "explanation": "The four levels of biological organisation in ecology are organisms, populations, communities, and biomes. Cells are not included in this ecological hierarchy."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "At which level of biological organisation does natural selection operate to evolve desired traits?",
+      "options": [
+        "Individual organism level",
+        "Population level",
+        "Community level",
+        "Ecosystem level"
+      ],
+      "correct": 1,
+      "explanation": "Although an individual organism has to cope with a changed environment, it is at the population level that natural selection operates to evolve the desired traits."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the correct definition of a population in ecology?",
+      "options": [
+        "A single isolated individual of a species",
+        "A group of different species living together",
+        "A group of individuals of the same species sharing resources in a defined geographical area",
+        "All living organisms in an ecosystem"
+      ],
+      "correct": 2,
+      "explanation": "A population is a group of individuals of a given species sharing or competing for similar resources in a defined geographical area, potentially interbreeding."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an example of a population?",
+      "options": [
+        "A single lion in a forest",
+        "All the cormorants in a wetland",
+        "Lions and zebras living in the same grassland",
+        "All plants and animals in a pond"
+      ],
+      "correct": 1,
+      "explanation": "All the cormorants in a wetland is an example of a population as they are individuals of the same species in a defined area."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which population attribute does an individual organism NOT possess?",
+      "options": [
+        "Birth rate",
+        "Reproduction ability",
+        "Death",
+        "Age"
+      ],
+      "correct": 0,
+      "explanation": "An individual has births and deaths, but a population has birth rates and death rates. Birth rate is a population-level attribute, not an individual attribute."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "If a pond had 20 lotus plants last year and 8 new plants were added through reproduction, what is the birth rate?",
+      "options": [
+        "0.2 offspring per lotus per year",
+        "0.4 offspring per lotus per year",
+        "0.8 offspring per lotus per year",
+        "1.6 offspring per lotus per year"
+      ],
+      "correct": 1,
+      "explanation": "Birth rate = 8/20 = 0.4 offspring per lotus per year. This is calculated as new additions divided by initial population."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the shape of an age pyramid indicate about a population?",
+      "options": [
+        "Only the total number of individuals",
+        "Whether the population is growing, stable, or declining",
+        "The genetic diversity of the population",
+        "The geographic distribution of the population"
+      ],
+      "correct": 1,
+      "explanation": "The shape of the age pyramid reflects the growth status of the population - whether it is expanding (growing), stable, or declining."
+    }
+  ]
+}

@@ -1,0 +1,4177 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 6",
+    "chapterId": "chapter6",
+    "source": "Chapter6.xlsx",
+    "count": 347
+  },
+  "questions": [
+    {
+      "topic": "Chapter 6",
+      "question": "What is Evolutionary Biology defined as?",
+      "options": [
+        "The study of chemical reactions in living organisms",
+        "The study of history of life forms on earth",
+        "The study of geological formations",
+        "The study of planetary movements"
+      ],
+      "correct": 1,
+      "explanation": "Evolutionary Biology is defined as the study of history of life forms on earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "To understand evolution, what must we understand first?",
+      "options": [
+        "Only the evolution of animals",
+        "Only the evolution of plants",
+        "The context of origin of life, evolution of earth, stars and universe",
+        "Only the chemical composition of cells"
+      ],
+      "correct": 2,
+      "explanation": "To understand changes in flora and fauna, we must understand the context of origin of life, evolution of earth, stars and universe."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are stellar distances measured in?",
+      "options": [
+        "Kilometers",
+        "Miles",
+        "Light years",
+        "Astronomical units"
+      ],
+      "correct": 2,
+      "explanation": "Stellar distances are measured in light years."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When we look at stars on a clear night sky, what are we actually doing?",
+      "options": [
+        "Looking at the present time",
+        "Looking back in time",
+        "Looking at future events",
+        "Looking at parallel universes"
+      ],
+      "correct": 1,
+      "explanation": "When we look at stars, we are looking back in time because the light started its journey millions of years ago."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How old is the universe approximately?",
+      "options": [
+        "4.5 billion years",
+        "500 million years",
+        "13.8 billion years",
+        "4000 years"
+      ],
+      "correct": 2,
+      "explanation": "The universe is approximately 13.8 billion years old."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does the Big Bang theory explain?",
+      "options": [
+        "The origin of life on earth",
+        "The origin of the universe",
+        "The evolution of dinosaurs",
+        "The formation of the ozone layer"
+      ],
+      "correct": 1,
+      "explanation": "The Big Bang theory attempts to explain the origin of the universe."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What were the first elements formed after the Big Bang?",
+      "options": [
+        "Carbon and Nitrogen",
+        "Oxygen and Hydrogen",
+        "Hydrogen and Helium",
+        "Iron and Gold"
+      ],
+      "correct": 2,
+      "explanation": "Hydrogen and Helium formed after the Big Bang when the universe expanded and temperature came down."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When was earth formed according to the text?",
+      "options": [
+        "13.8 billion years ago",
+        "4.5 billion years ago",
+        "500 million years ago",
+        "4000 years ago"
+      ],
+      "correct": 1,
+      "explanation": "Earth was formed about 4.5 billion years back in the solar system of the Milky Way galaxy."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What gases covered the surface of early earth?",
+      "options": [
+        "Only oxygen and nitrogen",
+        "Water vapor, methane, carbon dioxide and ammonia",
+        "Only hydrogen and helium",
+        "Only ozone and carbon monoxide"
+      ],
+      "correct": 1,
+      "explanation": "Water vapor, methane, carbon dioxide and ammonia released from molten mass covered the surface of early earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What broke up water into Hydrogen and Oxygen on early earth?",
+      "options": [
+        "Lightning",
+        "Volcanic eruptions",
+        "UV rays from the sun",
+        "Radioactive decay"
+      ],
+      "correct": 2,
+      "explanation": "The UV rays from the sun broke up water into Hydrogen and Oxygen."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happened to the lighter Hydrogen gas after water was broken up?",
+      "options": [
+        "It combined with oxygen",
+        "It escaped",
+        "It formed the ozone layer",
+        "It dissolved in oceans"
+      ],
+      "correct": 1,
+      "explanation": "The lighter H2 escaped after water was broken up by UV rays."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did oxygen combine with to form water and CO2?",
+      "options": [
+        "Hydrogen and nitrogen",
+        "Ammonia and methane",
+        "Carbon and helium",
+        "Nitrogen and argon"
+      ],
+      "correct": 1,
+      "explanation": "Oxygen combined with ammonia and methane to form water, CO2 and others."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did life appear on earth after its formation?",
+      "options": [
+        "Immediately after formation",
+        "500 million years after formation",
+        "4.5 billion years after formation",
+        "13.8 billion years after formation"
+      ],
+      "correct": 1,
+      "explanation": "Life appeared 500 million years after the formation of earth, i.e., almost four billion years ago."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does the text describe evolution as?",
+      "options": [
+        "A short and simple story",
+        "The longest of all construed and conjectured stories",
+        "A religious doctrine",
+        "A mathematical equation"
+      ],
+      "correct": 1,
+      "explanation": "The text describes evolution as the longest of all the construed and conjectured stories."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What formed when the gases condensed under gravitation?",
+      "options": [
+        "Oceans",
+        "Galaxies",
+        "The ozone layer",
+        "Living organisms"
+      ],
+      "correct": 1,
+      "explanation": "The gases condensed under gravitation and formed the galaxies of the present day universe."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What can one find out in a given population according to the Hardy-Weinberg principle?",
+      "options": [
+        "The total number of organisms",
+        "The frequency of occurrence of alleles of a gene or a locus",
+        "The geographical distribution of species",
+        "The age of the population"
+      ],
+      "correct": 1,
+      "explanation": "In a given population one can find out the frequency of occurrence of alleles of a gene or a locus."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does the Hardy-Weinberg principle state about allele frequencies?",
+      "options": [
+        "They change rapidly every generation",
+        "They are stable and constant from generation to generation",
+        "They depend on environmental factors only",
+        "They are different in every individual"
+      ],
+      "correct": 1,
+      "explanation": "The principle says that allele frequencies in a population are stable and constant from generation to generation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the gene pool?",
+      "options": [
+        "The total water in an ecosystem",
+        "Total genes and their alleles in a population",
+        "The collection of fossil records",
+        "The number of chromosomes in a cell"
+      ],
+      "correct": 1,
+      "explanation": "The gene pool is defined as total genes and their alleles in a population."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is genetic equilibrium?",
+      "options": [
+        "When all organisms have identical genes",
+        "When the gene pool remains constant",
+        "When mutations stop occurring",
+        "When natural selection ceases"
+      ],
+      "correct": 1,
+      "explanation": "Genetic equilibrium is when the gene pool remains a constant."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the sum total of all allelic frequencies?",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "2"
+      ],
+      "correct": 2,
+      "explanation": "The sum total of all the allelic frequencies is 1."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "In a diploid, what do p and q represent?",
+      "options": [
+        "The number of chromosomes",
+        "The frequency of allele A and allele a",
+        "The size of the population",
+        "The mutation rate"
+      ],
+      "correct": 1,
+      "explanation": "In a diploid, p and q represent the frequency of allele A and allele a."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the frequency of AA individuals in a population?",
+      "options": [
+        "p",
+        "q",
+        "p squared",
+        "2pq"
+      ],
+      "correct": 2,
+      "explanation": "The frequency of AA individuals in a population is p^2."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the frequency of aa individuals in a population?",
+      "options": [
+        "p",
+        "q",
+        "p squared",
+        "q squared"
+      ],
+      "correct": 3,
+      "explanation": "The frequency of aa individuals is q^2."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the frequency of Aa individuals in a population?",
+      "options": [
+        "p",
+        "q",
+        "2pq",
+        "p plus q"
+      ],
+      "correct": 2,
+      "explanation": "The frequency of Aa individuals is 2pq."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the Hardy-Weinberg equation?",
+      "options": [
+        "p + q = 1",
+        "p squared + 2pq + q squared = 1",
+        "p times q = 1",
+        "p minus q = 1"
+      ],
+      "correct": 1,
+      "explanation": "The Hardy-Weinberg equation is p^2 + 2pq + q^2 = 1. This is a binomial expansion of (p + q)^2."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does a difference between measured frequency and expected values indicate?",
+      "options": [
+        "Genetic stability",
+        "The extent of evolutionary change",
+        "Population growth",
+        "Environmental balance"
+      ],
+      "correct": 1,
+      "explanation": "When frequency measured differs from expected values, the difference indicates the extent of evolutionary change."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is a disturbance in Hardy-Weinberg equilibrium interpreted as?",
+      "options": [
+        "Genetic stability",
+        "Resulting in evolution",
+        "Population decline",
+        "Species extinction"
+      ],
+      "correct": 1,
+      "explanation": "Change of frequency of alleles in a population is interpreted as resulting in evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How many factors are known to affect Hardy-Weinberg equilibrium?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correct": 2,
+      "explanation": "Five factors are known to affect Hardy-Weinberg equilibrium."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which of the following is NOT a factor affecting Hardy-Weinberg equilibrium?",
+      "options": [
+        "Gene migration",
+        "Genetic drift",
+        "Climate change",
+        "Natural selection"
+      ],
+      "correct": 2,
+      "explanation": "The five factors are gene migration, genetic drift, mutation, genetic recombination and natural selection. Climate change is not listed."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happens when migration of a section of population occurs?",
+      "options": [
+        "Gene frequencies remain unchanged",
+        "Gene frequencies change in both original and new population",
+        "Only the original population is affected",
+        "Only the new population is affected"
+      ],
+      "correct": 1,
+      "explanation": "When migration occurs, gene frequencies change in the original as well as in the new population."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is gene flow?",
+      "options": [
+        "The movement of water in genes",
+        "Gene migration happening multiple times",
+        "The death of genes",
+        "The creation of new genes"
+      ],
+      "correct": 1,
+      "explanation": "Gene flow occurs when gene migration happens multiple times."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is genetic drift?",
+      "options": [
+        "A planned change in gene frequency",
+        "Change in allele frequency occurring by chance",
+        "The movement of genes between chromosomes",
+        "The destruction of harmful genes"
+      ],
+      "correct": 1,
+      "explanation": "Genetic drift is when the same change occurs by chance in allele frequency."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the founder effect?",
+      "options": [
+        "When a population becomes extinct",
+        "When the original drifted population becomes founders of a new species",
+        "When all genes mutate simultaneously",
+        "When natural selection stops"
+      ],
+      "correct": 1,
+      "explanation": "The founder effect occurs when the original drifted population becomes founders."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What do microbial experiments show about advantageous mutations?",
+      "options": [
+        "They have no effect on phenotypes",
+        "When selected, they result in new phenotypes leading to speciation",
+        "They always cause extinction",
+        "They only affect single cells"
+      ],
+      "correct": 1,
+      "explanation": "Pre-existing advantageous mutations when selected result in new phenotypes and over generations lead to speciation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is natural selection?",
+      "options": [
+        "A process where all organisms reproduce equally",
+        "A process where heritable variations enabling better survival reproduce and leave more progeny",
+        "A process where mutations are prevented",
+        "A process where genes remain unchanged"
+      ],
+      "correct": 1,
+      "explanation": "Natural selection is a process in which heritable variations enabling better survival are enabled to reproduce and leave greater number of progeny."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What causes changed frequency of genes and alleles in future generations?",
+      "options": [
+        "Only natural selection",
+        "Mutation, recombination, gene flow, or genetic drift",
+        "Only genetic drift",
+        "Environmental temperature only"
+      ],
+      "correct": 1,
+      "explanation": "Variation due to mutation, recombination during gametogenesis, gene flow, or genetic drift results in changed frequency of genes and alleles."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is stabilisation in natural selection?",
+      "options": [
+        "When all individuals become extinct",
+        "When more individuals acquire mean character value",
+        "When individuals acquire extreme values",
+        "When no reproduction occurs"
+      ],
+      "correct": 1,
+      "explanation": "Stabilisation is when more individuals acquire mean character value."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is directional change in natural selection?",
+      "options": [
+        "When more individuals acquire value other than the mean character value",
+        "When all individuals have the same value",
+        "When the population decreases",
+        "When mutations stop"
+      ],
+      "correct": 0,
+      "explanation": "Directional change is when more individuals acquire value other than the mean character value."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is disruption in natural selection?",
+      "options": [
+        "When more individuals acquire peripheral character value at both ends of the distribution curve",
+        "When the population becomes uniform",
+        "When all genes mutate",
+        "When natural selection stops"
+      ],
+      "correct": 0,
+      "explanation": "Disruption is when more individuals acquire peripheral character value at both ends of the distribution curve."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "In a diploid, what do p and q represent?",
+      "options": [
+        "The number of dominant and recessive traits",
+        "The frequency of allele A and allele a",
+        "The number of homozygous and heterozygous individuals",
+        "The mutation rate of different alleles"
+      ],
+      "correct": 1,
+      "explanation": "In a diploid, p and q represent the frequency of allele A and allele a respectively."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the frequency of AA individuals in a population?",
+      "options": [
+        "2pq",
+        "q^2",
+        "p^2",
+        "p + q"
+      ],
+      "correct": 2,
+      "explanation": "The frequency of AA individuals in a population is p^2."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the frequency of aa individuals in a population?",
+      "options": [
+        "p^2",
+        "2pq",
+        "q^2",
+        "p + q"
+      ],
+      "correct": 2,
+      "explanation": "The frequency of aa individuals in a population is q^2."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the frequency of Aa individuals in a population?",
+      "options": [
+        "p^2",
+        "q^2",
+        "2pq",
+        "p + q"
+      ],
+      "correct": 2,
+      "explanation": "The frequency of Aa individuals in a population is 2pq."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the Hardy-Weinberg equilibrium equation?",
+      "options": [
+        "p + q = 1",
+        "p^2 + 2pq + q^2 = 1",
+        "p^2 + q^2 = 1",
+        "2p + 2q = 1"
+      ],
+      "correct": 1,
+      "explanation": "The Hardy-Weinberg equilibrium equation is p^2 + 2pq + q^2 = 1, which is a binomial expansion of (p + q)^2."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does the difference between measured frequency and expected values indicate?",
+      "options": [
+        "The rate of mutation",
+        "The extent of evolutionary change",
+        "The number of species in a population",
+        "The age of the population"
+      ],
+      "correct": 1,
+      "explanation": "When frequency measured differs from expected values, the difference indicates the extent of evolutionary change."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is another name for genetic equilibrium?",
+      "options": [
+        "Natural selection",
+        "Hardy-Weinberg equilibrium",
+        "Genetic drift",
+        "Gene flow"
+      ],
+      "correct": 1,
+      "explanation": "Genetic equilibrium is also called Hardy-Weinberg equilibrium."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How many factors are known to affect Hardy-Weinberg equilibrium?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correct": 2,
+      "explanation": "Five factors are known to affect Hardy-Weinberg equilibrium."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which of the following is NOT a factor affecting Hardy-Weinberg equilibrium?",
+      "options": [
+        "Gene migration",
+        "Genetic drift",
+        "Photosynthesis",
+        "Natural selection"
+      ],
+      "correct": 2,
+      "explanation": "Photosynthesis is not a factor affecting Hardy-Weinberg equilibrium. The five factors are gene migration, genetic drift, mutation, genetic recombination and natural selection."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happens when migration of a section of population occurs to another place?",
+      "options": [
+        "Gene frequencies remain unchanged",
+        "Gene frequencies change in both original and new population",
+        "Only the original population changes",
+        "Only the new population changes"
+      ],
+      "correct": 1,
+      "explanation": "When migration occurs, gene frequencies change in the original as well as in the new population."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is added to the new population during gene migration?",
+      "options": [
+        "New species",
+        "New genes or alleles",
+        "New chromosomes",
+        "New proteins"
+      ],
+      "correct": 1,
+      "explanation": "New genes or alleles are added to the new population during gene migration."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is gene flow?",
+      "options": [
+        "Random change in allele frequency",
+        "Gene migration happening multiple times",
+        "Mutation in a single gene",
+        "Natural selection of genes"
+      ],
+      "correct": 1,
+      "explanation": "Gene flow occurs when gene migration happens multiple times."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is genetic drift?",
+      "options": [
+        "Directed change in allele frequency",
+        "Change in allele frequency that occurs by chance",
+        "Migration of genes between populations",
+        "Recombination of genes during meiosis"
+      ],
+      "correct": 1,
+      "explanation": "Genetic drift is the change in allele frequency that occurs by chance."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the founder effect?",
+      "options": [
+        "When a population becomes extinct",
+        "When the original drifted population becomes founders of a new species",
+        "When natural selection favors one allele",
+        "When mutation creates a new gene"
+      ],
+      "correct": 1,
+      "explanation": "The founder effect occurs when the original drifted population becomes founders and the change in allele frequency is so different that they become a different species."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What do microbial experiments show about advantageous mutations?",
+      "options": [
+        "They are always harmful",
+        "When selected, they result in observation of new phenotypes",
+        "They never affect the phenotype",
+        "They only occur in plants"
+      ],
+      "correct": 1,
+      "explanation": "Microbial experiments show that pre-existing advantageous mutations when selected will result in observation of new phenotypes."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the result of advantageous mutations over a few generations?",
+      "options": [
+        "Extinction",
+        "Speciation",
+        "Genetic equilibrium",
+        "No change"
+      ],
+      "correct": 1,
+      "explanation": "Over a few generations, advantageous mutations result in speciation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is natural selection?",
+      "options": [
+        "A process where all variations survive equally",
+        "A process where heritable variations enabling better survival reproduce and leave more progeny",
+        "A process where only the largest organisms survive",
+        "A process where mutations are prevented"
+      ],
+      "correct": 1,
+      "explanation": "Natural selection is a process in which heritable variations enabling better survival are enabled to reproduce and leave greater number of progeny."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What causes variation in future generations?",
+      "options": [
+        "Only mutation",
+        "Mutation, recombination, gene flow or genetic drift",
+        "Only natural selection",
+        "Only genetic drift"
+      ],
+      "correct": 1,
+      "explanation": "Variation in future generations can result from mutation, recombination during gametogenesis, gene flow or genetic drift."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is stabilising selection?",
+      "options": [
+        "More individuals acquire mean character value",
+        "More individuals acquire value other than the mean",
+        "More individuals acquire peripheral character values at both ends",
+        "All individuals become identical"
+      ],
+      "correct": 0,
+      "explanation": "Stabilising selection is when more individuals acquire mean character value."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is directional selection?",
+      "options": [
+        "More individuals acquire mean character value",
+        "More individuals acquire value other than the mean character value",
+        "More individuals acquire peripheral character values at both ends of the distribution curve",
+        "No change in character values"
+      ],
+      "correct": 1,
+      "explanation": "Directional selection is when more individuals acquire value other than the mean character value."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is disruptive selection?",
+      "options": [
+        "More individuals acquire mean character value",
+        "More individuals acquire value other than the mean",
+        "More individuals acquire peripheral character value at both ends of the distribution curve",
+        "All individuals lose their variations"
+      ],
+      "correct": 2,
+      "explanation": "Disruptive selection is when more individuals acquire peripheral character value at both ends of the distribution curve."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did the first cellular forms of life appear on earth?",
+      "options": [
+        "About 500 million years ago",
+        "About 2000 million years ago",
+        "About 4.5 billion years ago",
+        "About 65 million years ago"
+      ],
+      "correct": 1,
+      "explanation": "The first cellular forms of life appeared on earth about 2000 million years ago."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What ability did some of the early cells have?",
+      "options": [
+        "Ability to release O2",
+        "Ability to photosynthesize",
+        "Ability to fly",
+        "Ability to hibernate"
+      ],
+      "correct": 0,
+      "explanation": "Some of the early cells had the ability to release O2."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did the first cellular forms of life appear on earth?",
+      "options": [
+        "About 500 million years ago",
+        "About 2000 million years ago",
+        "About 350 million years ago",
+        "About 65 million years ago"
+      ],
+      "correct": 1,
+      "explanation": "The first cellular forms of life appeared on earth about 2000 million years ago."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What ability did some of the first cells have?",
+      "options": [
+        "Ability to release nitrogen",
+        "Ability to release O2",
+        "Ability to release carbon dioxide",
+        "Ability to release methane"
+      ],
+      "correct": 1,
+      "explanation": "Some of the first cells had the ability to release O2."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What process was the O2 release reaction similar to?",
+      "options": [
+        "Dark reaction of photosynthesis",
+        "Light reaction in photosynthesis",
+        "Cellular respiration",
+        "Fermentation"
+      ],
+      "correct": 1,
+      "explanation": "The reaction could have been similar to the light reaction in photosynthesis where water is split with solar energy."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happened to single-celled organisms over time?",
+      "options": [
+        "They became extinct",
+        "They became multi-cellular life forms",
+        "They remained unchanged",
+        "They evolved into plants only"
+      ],
+      "correct": 1,
+      "explanation": "Slowly single-celled organisms became multi-cellular life forms."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "By what time were invertebrates formed and active?",
+      "options": [
+        "2000 mya",
+        "500 mya",
+        "350 mya",
+        "320 mya"
+      ],
+      "correct": 1,
+      "explanation": "By the time of 500 mya, invertebrates were formed and active."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did jawless fish probably evolve?",
+      "options": [
+        "500 mya",
+        "350 mya",
+        "320 mya",
+        "200 mya"
+      ],
+      "correct": 1,
+      "explanation": "Jawless fish probably evolved around 350 mya."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did sea weeds and few plants probably exist?",
+      "options": [
+        "500 mya",
+        "350 mya",
+        "320 mya",
+        "200 mya"
+      ],
+      "correct": 2,
+      "explanation": "Sea weeds and few plants existed probably around 320 mya."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which were the first organisms to invade land?",
+      "options": [
+        "Animals",
+        "Plants",
+        "Fungi",
+        "Bacteria"
+      ],
+      "correct": 1,
+      "explanation": "The first organisms that invaded land were plants."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What type of fish could move on land and go back to water?",
+      "options": [
+        "Fish with thin and weak fins",
+        "Fish with stout and strong fins",
+        "Fish with no fins",
+        "Jawless fish"
+      ],
+      "correct": 1,
+      "explanation": "Fish with stout and strong fins could move on land and go back to water."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When was the Coelacanth fish caught in South Africa?",
+      "options": [
+        "1920",
+        "1938",
+        "1950",
+        "1960"
+      ],
+      "correct": 1,
+      "explanation": "In 1938, a fish caught in South Africa happened to be a Coelacanth which was thought to be extinct."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are lobefins?",
+      "options": [
+        "A type of bird",
+        "Animals that evolved into the first amphibians",
+        "A type of reptile",
+        "A type of mammal"
+      ],
+      "correct": 1,
+      "explanation": "Lobefins evolved into the first amphibians that lived on both land and water."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are the ancestors of modern day frogs and salamanders?",
+      "options": [
+        "Reptiles",
+        "The first amphibians",
+        "Fish",
+        "Mammals"
+      ],
+      "correct": 1,
+      "explanation": "The first amphibians were ancestors of modern day frogs and salamanders."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What type of eggs do reptiles lay?",
+      "options": [
+        "Soft-shelled eggs that dry up in sun",
+        "Thick-shelled eggs which do not dry up in sun",
+        "Eggs without shells",
+        "Eggs that hatch only in water"
+      ],
+      "correct": 1,
+      "explanation": "Reptiles lay thick-shelled eggs which do not dry up in sun unlike those of amphibians."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which modern day descendants of reptiles are mentioned?",
+      "options": [
+        "Snakes and lizards only",
+        "Turtles, tortoises and crocodiles",
+        "Birds and mammals",
+        "Fish and amphibians"
+      ],
+      "correct": 1,
+      "explanation": "Modern day descendants of reptiles include turtles, tortoises and crocodiles."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "For how long did reptiles dominate on earth?",
+      "options": [
+        "About 50 million years",
+        "About 100 million years",
+        "About 200 million years",
+        "About 500 million years"
+      ],
+      "correct": 2,
+      "explanation": "In the next 200 million years or so, reptiles of different shapes and sizes dominated on earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happened to giant ferns (pteridophytes)?",
+      "options": [
+        "They evolved into trees",
+        "They fell to form coal deposits slowly",
+        "They became extinct immediately",
+        "They evolved into flowering plants"
+      ],
+      "correct": 1,
+      "explanation": "Giant ferns (pteridophytes) fell to form coal deposits slowly."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which land reptiles went back into water to evolve into fish-like reptiles?",
+      "options": [
+        "Dinosaurs",
+        "Some land reptiles around 200 mya",
+        "Amphibians",
+        "Mammals"
+      ],
+      "correct": 1,
+      "explanation": "Some land reptiles went back into water to evolve into fish-like reptiles probably 200 mya (e.g. Ichthyosaurs)."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the height of Tyrannosaurus rex?",
+      "options": [
+        "About 10 feet",
+        "About 20 feet",
+        "About 30 feet",
+        "About 50 feet"
+      ],
+      "correct": 1,
+      "explanation": "Tyrannosaurus rex was about 20 feet in height and had huge fearsome dagger-like teeth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did dinosaurs suddenly disappear from earth?",
+      "options": [
+        "About 200 mya",
+        "About 100 mya",
+        "About 65 mya",
+        "About 350 mya"
+      ],
+      "correct": 2,
+      "explanation": "About 65 mya, the dinosaurs suddenly disappeared from the earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are some theories about why dinosaurs disappeared?",
+      "options": [
+        "Only climatic changes killed them",
+        "Only they evolved into birds",
+        "Climatic changes or they evolved into birds, truth may be in between",
+        "They were killed by mammals"
+      ],
+      "correct": 2,
+      "explanation": "Some say climatic changes killed them. Some say most evolved into birds. The truth may live in between."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What were the first mammals like?",
+      "options": [
+        "Like elephants",
+        "Like shrews",
+        "Like horses",
+        "Like bears"
+      ],
+      "correct": 1,
+      "explanation": "The first mammals were like shrews with small sized fossils."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How did mammals protect their unborn young?",
+      "options": [
+        "By laying eggs",
+        "Inside the mother's body",
+        "In nests on trees",
+        "Underground burrows"
+      ],
+      "correct": 1,
+      "explanation": "Mammals were viviparous and protected their unborn young inside the mother's body."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why were mammals able to take over earth when reptiles declined?",
+      "options": [
+        "They were larger in size",
+        "They were more intelligent in sensing and avoiding danger",
+        "They could fly",
+        "They laid more eggs"
+      ],
+      "correct": 1,
+      "explanation": "Mammals were more intelligent in sensing and avoiding danger at least, so they took over when reptiles declined."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happened to South American mammals when South America joined North America?",
+      "options": [
+        "They evolved into larger mammals",
+        "They were overridden by North American fauna",
+        "They migrated to Australia",
+        "They became extinct immediately"
+      ],
+      "correct": 1,
+      "explanation": "Due to continental drift, when South America joined North America, these animals were overridden by North American fauna."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why did pouched mammals of Australia survive?",
+      "options": [
+        "Because they were stronger",
+        "Because of lack of competition from any other",
+        "Because they could fly",
+        "Because they lived in water"
+      ],
+      "correct": 1,
+      "explanation": "Due to continental drift, pouched mammals of Australia survived because of lack of competition from any other."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which mammals live wholly in water?",
+      "options": [
+        "Lions, tigers and bears",
+        "Whales, dolphins, seals and sea cows",
+        "Horses, elephants and dogs",
+        "Rabbits, shrews and mice"
+      ],
+      "correct": 1,
+      "explanation": "Some mammals live wholly in water: whales, dolphins, seals and sea cows."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which special stories of evolution will be learned in higher classes?",
+      "options": [
+        "Evolution of birds and reptiles",
+        "Evolution of horse, elephant, dog, etc.",
+        "Evolution of fish and amphibians",
+        "Evolution of plants and fungi"
+      ],
+      "correct": 1,
+      "explanation": "Evolution of horse, elephant, dog, etc., are special stories of evolution for higher classes."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is described as the most successful story of evolution?",
+      "options": [
+        "Evolution of dinosaurs",
+        "Evolution of mammals",
+        "Evolution of man with language skills",
+        "Evolution of reptiles"
+      ],
+      "correct": 2,
+      "explanation": "The most successful story is the evolution of man with language skills."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What were the first mammals like according to the text?",
+      "options": [
+        "They were large and fierce like dinosaurs",
+        "They were like shrews with small sized fossils",
+        "They were aquatic creatures similar to whales",
+        "They were flying mammals like bats"
+      ],
+      "correct": 1,
+      "explanation": "The first mammals were like shrews and their fossils are small sized."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How did mammals protect their unborn young?",
+      "options": [
+        "By building nests in trees",
+        "By laying eggs in protected burrows",
+        "Inside the mother's body as they were viviparous",
+        "By carrying them in pouches externally"
+      ],
+      "correct": 2,
+      "explanation": "Mammals were viviparous and protected their unborn young inside the mother's body."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What advantage did mammals have over reptiles?",
+      "options": [
+        "They were larger in size",
+        "They were more intelligent in sensing and avoiding danger",
+        "They could fly and escape predators",
+        "They had stronger physical bodies"
+      ],
+      "correct": 1,
+      "explanation": "Mammals were more intelligent in sensing and avoiding danger at least."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happened when reptiles declined?",
+      "options": [
+        "Birds took over the earth",
+        "Mammals took over this earth",
+        "Amphibians became dominant",
+        "Fish populations exploded"
+      ],
+      "correct": 1,
+      "explanation": "When reptiles came down mammals took over this earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which mammals existed in South America that resembled other animals?",
+      "options": [
+        "Mammals resembling whales and dolphins",
+        "Mammals resembling horse, hippopotamus, bear, and rabbit",
+        "Mammals resembling lions and tigers",
+        "Mammals resembling elephants and giraffes"
+      ],
+      "correct": 1,
+      "explanation": "There were in South America mammals resembling horse, hippopotamus, bear, rabbit, etc."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happened when South America joined North America?",
+      "options": [
+        "South American fauna migrated to Africa",
+        "South American animals were overridden by North American fauna",
+        "New species evolved in isolation",
+        "Dinosaurs reappeared in the region"
+      ],
+      "correct": 1,
+      "explanation": "Due to continental drift, when South America joined North America, these animals were overridden by North American fauna."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why did pouched mammals of Australia survive?",
+      "options": [
+        "Because they were the strongest mammals",
+        "Because of lack of competition from any other continent",
+        "Because they could fly to escape predators",
+        "Because they lived deep underground"
+      ],
+      "correct": 1,
+      "explanation": "Due to the same continental drift pouched mammals of Australia survived because of lack of competition from any other continent."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which mammals live wholly in water according to the text?",
+      "options": [
+        "Bats, flying squirrels and lemurs",
+        "Whales, dolphins, seals and sea cows",
+        "Hippopotamus, crocodiles and penguins",
+        "Sharks, rays and octopuses"
+      ],
+      "correct": 1,
+      "explanation": "Some mammals live wholly in water. Whales, dolphins, seals and sea cows are some examples."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which animals' evolution are mentioned as special stories of evolution?",
+      "options": [
+        "Fish, amphibians and reptiles",
+        "Horse, elephant and dog",
+        "Birds, bats and insects",
+        "Dinosaurs and crocodiles"
+      ],
+      "correct": 1,
+      "explanation": "Evolution of horse, elephant, dog, etc., are special stories of evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is described as the most successful story of evolution?",
+      "options": [
+        "Evolution of dinosaurs into birds",
+        "Evolution of man with language skills and intelligence",
+        "Evolution of whales from land mammals",
+        "Evolution of flight in insects"
+      ],
+      "correct": 1,
+      "explanation": "The most successful story is the evolution of man with language skills and intelligence."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did primates called Dryopithecus and Ramapithecus exist?",
+      "options": [
+        "About 5 million years ago",
+        "About 15 million years ago",
+        "About 50 million years ago",
+        "About 100 million years ago"
+      ],
+      "correct": 1,
+      "explanation": "About 15 mya, primates called Dryopithecus and Ramapithecus were existing."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How did Dryopithecus and Ramapithecus walk?",
+      "options": [
+        "They walked upright like modern humans",
+        "They walked like gorillas and chimpanzees",
+        "They crawled on all fours like reptiles",
+        "They hopped like kangaroos"
+      ],
+      "correct": 1,
+      "explanation": "They were hairy and walked like gorillas and chimpanzees."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which of the two primates was more man-like?",
+      "options": [
+        "Dryopithecus",
+        "Ramapithecus",
+        "Both were equally man-like",
+        "Neither was man-like"
+      ],
+      "correct": 1,
+      "explanation": "Ramapithecus was more man-like while Dryopithecus was more ape-like."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where were fossils of man-like bones discovered?",
+      "options": [
+        "In India and China",
+        "In Ethiopia and Tanzania",
+        "In Australia and New Zealand",
+        "In Brazil and Argentina"
+      ],
+      "correct": 1,
+      "explanation": "Few fossils of man-like bones have been discovered in Ethiopia and Tanzania."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did man-like primates walk in eastern Africa?",
+      "options": [
+        "About 1-2 million years ago",
+        "About 3-4 million years ago",
+        "About 10 million years ago",
+        "About 15 million years ago"
+      ],
+      "correct": 1,
+      "explanation": "About 3-4 mya, man-like primates walked in eastern Africa."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How tall were these early man-like primates?",
+      "options": [
+        "About 6 feet tall",
+        "Probably not taller than 4 feet",
+        "About 8 feet tall",
+        "Less than 2 feet tall"
+      ],
+      "correct": 1,
+      "explanation": "They were probably not taller than 4 feet but walked upright."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where did Australopithecines probably live?",
+      "options": [
+        "In South American forests",
+        "In East African grasslands",
+        "In Australian deserts",
+        "In Asian mountains"
+      ],
+      "correct": 1,
+      "explanation": "Two mya, Australopithecines probably lived in East African grasslands."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What evidence shows about Australopithecines' diet?",
+      "options": [
+        "They were pure carnivores eating only meat",
+        "They hunted with stone weapons but essentially ate fruit",
+        "They were herbivores eating only leaves",
+        "They survived only on fish and seafood"
+      ],
+      "correct": 1,
+      "explanation": "Evidence shows they hunted with stone weapons but essentially ate fruit."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the first human-like being called?",
+      "options": [
+        "Homo erectus",
+        "Homo habilis",
+        "Homo sapiens",
+        "Neanderthal man"
+      ],
+      "correct": 1,
+      "explanation": "This creature was called the first human-like being the hominid and was called Homo habilis."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the brain capacity of Homo habilis?",
+      "options": [
+        "Between 200-400 cc",
+        "Between 650-800 cc",
+        "Between 1000-1200 cc",
+        "Between 1400-1600 cc"
+      ],
+      "correct": 1,
+      "explanation": "The brain capacities were between 650-800cc."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Did Homo habilis eat meat?",
+      "options": [
+        "Yes, they were primarily meat eaters",
+        "They probably did not eat meat",
+        "They ate only seafood",
+        "They were strict vegetarians"
+      ],
+      "correct": 1,
+      "explanation": "They probably did not eat meat."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where were fossils of the next stage after Homo habilis discovered?",
+      "options": [
+        "In Ethiopia",
+        "In Java in 1891",
+        "In Tanzania",
+        "In Australia"
+      ],
+      "correct": 1,
+      "explanation": "Fossils discovered in Java in 1891 revealed the next stage."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the next stage of human evolution after Homo habilis?",
+      "options": [
+        "Homo sapiens",
+        "Homo erectus",
+        "Neanderthal man",
+        "Australopithecines"
+      ],
+      "correct": 1,
+      "explanation": "Fossils discovered in Java in 1891 revealed the next stage, i.e., Homo erectus about 1.5 mya."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did Homo erectus exist?",
+      "options": [
+        "About 500,000 years ago",
+        "About 1.5 million years ago",
+        "About 3 million years ago",
+        "About 15 million years ago"
+      ],
+      "correct": 1,
+      "explanation": "Homo erectus existed about 1.5 mya."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which plants were present during the time when reptiles dominated the earth?",
+      "options": [
+        "Flowering plants",
+        "Giant ferns (pteridophytes)",
+        "Conifers",
+        "Mosses"
+      ],
+      "correct": 1,
+      "explanation": "Giant ferns (pteridophytes) were present during the time when reptiles dominated the earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did the giant ferns eventually form?",
+      "options": [
+        "Oil deposits",
+        "Coal deposits",
+        "Natural gas deposits",
+        "Diamond deposits"
+      ],
+      "correct": 1,
+      "explanation": "The giant ferns fell to form coal deposits slowly."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which reptiles went back into water to evolve into fish-like reptiles?",
+      "options": [
+        "Dinosaurs",
+        "Some land reptiles",
+        "Crocodiles",
+        "Turtles"
+      ],
+      "correct": 1,
+      "explanation": "Some land reptiles went back into water to evolve into fish-like reptiles probably 200 mya."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is an example of fish-like reptiles mentioned in the text?",
+      "options": [
+        "Pteranodon",
+        "Ichthyosaurs",
+        "Archaeopteryx",
+        "Stegosaurus"
+      ],
+      "correct": 1,
+      "explanation": "Ichthyosaurs is given as an example of fish-like reptiles."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did some land reptiles go back into water?",
+      "options": [
+        "About 65 mya",
+        "About 200 mya",
+        "About 350 mya",
+        "About 500 mya"
+      ],
+      "correct": 1,
+      "explanation": "Some land reptiles went back into water to evolve into fish-like reptiles probably 200 mya."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which was the biggest dinosaur mentioned?",
+      "options": [
+        "Triceratops",
+        "Stegosaurus",
+        "Tyrannosaurus rex",
+        "Brachiosaurus"
+      ],
+      "correct": 2,
+      "explanation": "Tyrannosaurus rex was the biggest dinosaur mentioned, about 20 feet in height."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How tall was Tyrannosaurus rex?",
+      "options": [
+        "About 10 feet",
+        "About 15 feet",
+        "About 20 feet",
+        "About 25 feet"
+      ],
+      "correct": 2,
+      "explanation": "Tyrannosaurus rex was about 20 feet in height."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What kind of teeth did Tyrannosaurus rex have?",
+      "options": [
+        "Flat grinding teeth",
+        "Small pointed teeth",
+        "Huge fearsome dagger-like teeth",
+        "No teeth at all"
+      ],
+      "correct": 2,
+      "explanation": "Tyrannosaurus rex had huge fearsome dagger-like teeth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did dinosaurs suddenly disappear from the earth?",
+      "options": [
+        "About 200 mya",
+        "About 100 mya",
+        "About 65 mya",
+        "About 50 mya"
+      ],
+      "correct": 2,
+      "explanation": "About 65 mya, the dinosaurs suddenly disappeared from the earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is one reason suggested for the disappearance of dinosaurs?",
+      "options": [
+        "Volcanic eruptions only",
+        "Climatic changes",
+        "Meteor impact only",
+        "Earthquakes only"
+      ],
+      "correct": 1,
+      "explanation": "Some say climatic changes killed the dinosaurs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is another theory about what happened to dinosaurs?",
+      "options": [
+        "They all drowned in floods",
+        "Most of them evolved into birds",
+        "They migrated to other planets",
+        "They turned into mammals"
+      ],
+      "correct": 1,
+      "explanation": "Some say most of the dinosaurs evolved into birds."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happened to small-sized reptiles of that era?",
+      "options": [
+        "They all became extinct",
+        "They evolved into mammals",
+        "They still exist today",
+        "They migrated to Antarctica"
+      ],
+      "correct": 2,
+      "explanation": "Small sized reptiles of that era still exist today."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What were the first mammals like?",
+      "options": [
+        "Like elephants",
+        "Like shrews",
+        "Like horses",
+        "Like bears"
+      ],
+      "correct": 1,
+      "explanation": "The first mammals were like shrews."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is true about mammal fossils?",
+      "options": [
+        "They are large sized",
+        "They are small sized",
+        "They are medium sized",
+        "No mammal fossils exist"
+      ],
+      "correct": 1,
+      "explanation": "The fossils of first mammals are small sized."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How did mammals protect their unborn young?",
+      "options": [
+        "By laying eggs in nests",
+        "By protecting them inside the mother's body",
+        "By burying them in sand",
+        "By carrying them in pouches only"
+      ],
+      "correct": 1,
+      "explanation": "Mammals were viviparous and protected their unborn young inside the mother's body."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "In what way were mammals more intelligent than reptiles?",
+      "options": [
+        "They could fly",
+        "They were more intelligent in sensing and avoiding danger",
+        "They could swim better",
+        "They had larger brains"
+      ],
+      "correct": 1,
+      "explanation": "Mammals were more intelligent in sensing and avoiding danger at least."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happened when reptiles declined?",
+      "options": [
+        "Birds took over the earth",
+        "Mammals took over this earth",
+        "Fish dominated the land",
+        "Plants stopped growing"
+      ],
+      "correct": 1,
+      "explanation": "When reptiles came down mammals took over this earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which mammals existed in South America?",
+      "options": [
+        "Only whales and dolphins",
+        "Mammals resembling horse, hippopotamus, bear, rabbit, etc.",
+        "Only marsupials",
+        "Only primates"
+      ],
+      "correct": 1,
+      "explanation": "There were in South America mammals resembling horse, hippopotamus, bear, rabbit, etc."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happened when South America joined North America?",
+      "options": [
+        "South American mammals thrived",
+        "South American animals were overridden by North American fauna",
+        "All mammals became extinct",
+        "New species of birds evolved"
+      ],
+      "correct": 1,
+      "explanation": "Due to continental drift, when South America joined North America, these animals were overridden by North American fauna."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why did pouched mammals of Australia survive?",
+      "options": [
+        "Because they were stronger than other mammals",
+        "Because of lack of competition from any other mammals",
+        "Because Australia had more food",
+        "Because they could fly"
+      ],
+      "correct": 1,
+      "explanation": "Pouched mammals of Australia survived because of lack of competition from any other mammals."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which mammals live wholly in water?",
+      "options": [
+        "Only whales",
+        "Whales, dolphins, seals and sea cows",
+        "Only dolphins and seals",
+        "Only sea cows"
+      ],
+      "correct": 1,
+      "explanation": "Whales, dolphins, seals and sea cows are examples of mammals that live wholly in water."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which primate existed about 15 mya?",
+      "options": [
+        "Homo habilis",
+        "Dryopithecus and Ramapithecus",
+        "Homo erectus",
+        "Australopithecines"
+      ],
+      "correct": 1,
+      "explanation": "About 15 mya, primates called Dryopithecus and Ramapithecus were existing."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How did Dryopithecus and Ramapithecus walk?",
+      "options": [
+        "On all fours like dogs",
+        "Like gorillas and chimpanzees",
+        "Upright like humans",
+        "They could not walk"
+      ],
+      "correct": 1,
+      "explanation": "They were hairy and walked like gorillas and chimpanzees."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which of the two primates was more man-like?",
+      "options": [
+        "Dryopithecus",
+        "Ramapithecus",
+        "Both were equally man-like",
+        "Neither was man-like"
+      ],
+      "correct": 1,
+      "explanation": "Ramapithecus was more man-like while Dryopithecus was more ape-like."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where were fossils of man-like bones discovered?",
+      "options": [
+        "In India and China",
+        "In Ethiopia and Tanzania",
+        "In Australia and New Zealand",
+        "In Europe and America"
+      ],
+      "correct": 1,
+      "explanation": "Few fossils of man-like bones have been discovered in Ethiopia and Tanzania."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did man-like primates walk in eastern Africa?",
+      "options": [
+        "About 15 mya",
+        "About 3-4 mya",
+        "About 2 mya",
+        "About 1.5 mya"
+      ],
+      "correct": 1,
+      "explanation": "About 3-4 mya, man-like primates walked in eastern Africa."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How tall were these early man-like primates?",
+      "options": [
+        "About 6 feet",
+        "About 5 feet",
+        "Not taller than 4 feet",
+        "About 3 feet"
+      ],
+      "correct": 2,
+      "explanation": "They were probably not taller than 4 feet but walked upright."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did Australopithecines probably live?",
+      "options": [
+        "About 15 mya",
+        "About 3-4 mya",
+        "Two mya",
+        "About 1.5 mya"
+      ],
+      "correct": 2,
+      "explanation": "Two mya, Australopithecines probably lived in East African grasslands."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Australopithecines hunt with?",
+      "options": [
+        "Metal weapons",
+        "Stone weapons",
+        "Wooden weapons",
+        "Bone weapons"
+      ],
+      "correct": 1,
+      "explanation": "Evidence shows they hunted with stone weapons but essentially ate fruit."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the primary diet of Australopithecines?",
+      "options": [
+        "Meat",
+        "Fruit",
+        "Fish",
+        "Insects"
+      ],
+      "correct": 1,
+      "explanation": "Australopithecines essentially ate fruit."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the first human-like being called?",
+      "options": [
+        "Homo erectus",
+        "Homo habilis",
+        "Homo sapiens",
+        "Neanderthal man"
+      ],
+      "correct": 1,
+      "explanation": "This creature was called the first human-like being the hominid and was called Homo habilis."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the brain capacity of Homo habilis?",
+      "options": [
+        "Between 400-500cc",
+        "Between 650-800cc",
+        "Between 1000-1200cc",
+        "Between 1400-1600cc"
+      ],
+      "correct": 1,
+      "explanation": "The brain capacities of Homo habilis were between 650-800cc."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Did Homo habilis eat meat?",
+      "options": [
+        "Yes, they were primarily meat-eaters",
+        "They probably did not eat meat",
+        "They ate only fish",
+        "They were vegetarians"
+      ],
+      "correct": 1,
+      "explanation": "Homo habilis probably did not eat meat."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where were fossils of Homo erectus discovered?",
+      "options": [
+        "In Ethiopia",
+        "In Java",
+        "In Tanzania",
+        "In Australia"
+      ],
+      "correct": 1,
+      "explanation": "Fossils discovered in Java in 1891 revealed Homo erectus."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did Homo erectus exist?",
+      "options": [
+        "About 3-4 mya",
+        "About 2 mya",
+        "About 1.5 mya",
+        "About 15 mya"
+      ],
+      "correct": 2,
+      "explanation": "Homo erectus existed about 1.5 mya."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was notable about Homo erectus brain?",
+      "options": [
+        "It was very small",
+        "It had a large brain",
+        "It was the same size as Homo habilis",
+        "It had no brain"
+      ],
+      "correct": 1,
+      "explanation": "Homo erectus had a large brain."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the most successful story of evolution mentioned?",
+      "options": [
+        "Evolution of dinosaurs",
+        "Evolution of man with language skills",
+        "Evolution of whales",
+        "Evolution of birds"
+      ],
+      "correct": 1,
+      "explanation": "The most successful story is the evolution of man with language skills."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Homo erectus probably eat?",
+      "options": [
+        "Only fruits and vegetables",
+        "Meat",
+        "Fish exclusively",
+        "Grains and cereals"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Homo erectus probably ate meat."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the brain size of Neanderthal man?",
+      "options": [
+        "650-800cc",
+        "1000cc",
+        "1400cc",
+        "1600cc"
+      ],
+      "correct": 2,
+      "explanation": "The Neanderthal man had a brain size of 1400cc according to the text."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where did the Neanderthal man live?",
+      "options": [
+        "Africa and South America",
+        "Near east and central Asia",
+        "Europe and Australia",
+        "North America and Antarctica"
+      ],
+      "correct": 1,
+      "explanation": "The Neanderthal man lived in near east and central Asia."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "During which time period did the Neanderthal man live?",
+      "options": [
+        "Between 3-4 million years ago",
+        "Between 1,00,000-40,000 years back",
+        "Between 10,000-5,000 years back",
+        "Between 500,000-200,000 years back"
+      ],
+      "correct": 1,
+      "explanation": "The Neanderthal man lived between 1,00,000-40,000 years back."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Neanderthal man use to protect their body?",
+      "options": [
+        "Tree leaves",
+        "Animal hides",
+        "Mud and clay",
+        "Woven fabrics"
+      ],
+      "correct": 1,
+      "explanation": "Neanderthal man used hides to protect their body."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What practice did Neanderthal man follow for their dead?",
+      "options": [
+        "Cremation",
+        "Exposing to vultures",
+        "Burying their dead",
+        "Preserving in caves"
+      ],
+      "correct": 2,
+      "explanation": "Neanderthal man buried their dead."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where did Homo sapiens first arise?",
+      "options": [
+        "Asia",
+        "Europe",
+        "Africa",
+        "Australia"
+      ],
+      "correct": 2,
+      "explanation": "Homo sapiens arose in Africa according to the text."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Homo sapiens do after arising in Africa?",
+      "options": [
+        "Stayed only in Africa",
+        "Moved across continents and developed into distinct races",
+        "Went extinct immediately",
+        "Evolved into Neanderthals"
+      ],
+      "correct": 1,
+      "explanation": "Homo sapiens moved across continents and developed into distinct races."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "During which period did modern Homo sapiens arise?",
+      "options": [
+        "Between 1,00,000-40,000 years ago",
+        "Between 75,000-10,000 years ago during ice age",
+        "Between 3-4 million years ago",
+        "Between 500,000-200,000 years ago"
+      ],
+      "correct": 1,
+      "explanation": "Modern Homo sapiens arose during ice age between 75,000-10,000 years ago."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did pre-historic cave art develop?",
+      "options": [
+        "About 50,000 years ago",
+        "About 18,000 years ago",
+        "About 5,000 years ago",
+        "About 100,000 years ago"
+      ],
+      "correct": 1,
+      "explanation": "Pre-historic cave art developed about 18,000 years ago."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where can one see cave paintings by pre-historic humans in India?",
+      "options": [
+        "Ajanta caves in Maharashtra",
+        "Bhimbetka rock shelter in Raisen district of Madhya Pradesh",
+        "Elephanta caves in Mumbai",
+        "Ellora caves in Aurangabad"
+      ],
+      "correct": 1,
+      "explanation": "Cave paintings by pre-historic humans can be seen at Bhimbetka rock shelter in Raisen district of Madhya Pradesh."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did agriculture come into practice?",
+      "options": [
+        "About 50,000 years back",
+        "About 18,000 years back",
+        "Around 10,000 years back",
+        "About 1,00,000 years back"
+      ],
+      "correct": 2,
+      "explanation": "Agriculture came around 10,000 years back according to the text."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What started after agriculture came into practice?",
+      "options": [
+        "Human settlements",
+        "Industrial revolution",
+        "Space exploration",
+        "Digital technology"
+      ],
+      "correct": 0,
+      "explanation": "Human settlements started after agriculture came around 10,000 years back."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the brain capacity range of Homo habilis?",
+      "options": [
+        "400-500cc",
+        "650-800cc",
+        "1000-1200cc",
+        "1400cc"
+      ],
+      "correct": 1,
+      "explanation": "The brain capacities of Homo habilis were between 650-800cc."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What type of diet did Homo habilis probably follow?",
+      "options": [
+        "Carnivorous diet eating meat",
+        "Herbivorous diet not eating meat",
+        "Omnivorous diet eating everything",
+        "Insectivorous diet eating insects"
+      ],
+      "correct": 1,
+      "explanation": "Homo habilis probably did not eat meat."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When were fossils of Homo erectus discovered in Java?",
+      "options": [
+        "In 1859",
+        "In 1891",
+        "In 1900",
+        "In 1953"
+      ],
+      "correct": 1,
+      "explanation": "Fossils of Homo erectus were discovered in Java in 1891."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How long ago did Homo erectus exist?",
+      "options": [
+        "About 3-4 million years ago",
+        "About 1.5 million years ago",
+        "About 500,000 years ago",
+        "About 10,000 years ago"
+      ],
+      "correct": 1,
+      "explanation": "Homo erectus existed about 1.5 million years ago."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What characteristic of Homo erectus is mentioned regarding brain size?",
+      "options": [
+        "Small brain around 650cc",
+        "Large brain around 900cc",
+        "Very small brain around 400cc",
+        "Brain same size as modern humans"
+      ],
+      "correct": 1,
+      "explanation": "Homo erectus had a large brain around 900cc."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Neanderthal man use for body protection?",
+      "options": [
+        "Metal armor",
+        "Animal hides",
+        "Plant fibers",
+        "Stone plates"
+      ],
+      "correct": 1,
+      "explanation": "Neanderthal man used hides to protect their body."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which hominid is described as the first human-like being?",
+      "options": [
+        "Homo erectus",
+        "Homo habilis",
+        "Neanderthal man",
+        "Australopithecines"
+      ],
+      "correct": 1,
+      "explanation": "Homo habilis was called the first human-like being the hominid."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where did Australopithecines probably live?",
+      "options": [
+        "In Asian forests",
+        "In East African grasslands",
+        "In European mountains",
+        "In Australian deserts"
+      ],
+      "correct": 1,
+      "explanation": "Australopithecines probably lived in East African grasslands."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Against what background can the origin of life on earth be understood?",
+      "options": [
+        "The background of modern technology",
+        "The background of origin of universe especially earth",
+        "The background of human civilization",
+        "The background of geological formations only"
+      ],
+      "correct": 1,
+      "explanation": "The origin of life on earth can be understood only against the background of origin of universe especially earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What do most scientists believe preceded the appearance of the first cellular forms of life?",
+      "options": [
+        "Photosynthesis",
+        "Chemical evolution i.e. formation of biomolecules",
+        "Natural selection",
+        "Genetic drift"
+      ],
+      "correct": 1,
+      "explanation": "Most scientists believe chemical evolution, i.e., formation of biomolecules preceded the appearance of the first cellular forms of life."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the basis of the conjectured story about what happened to the first form of life?",
+      "options": [
+        "Lamarckian theory of use and disuse",
+        "Darwinian ideas of organic evolution by natural selection",
+        "Hugo de Vries theory of mutations",
+        "Hardy-Weinberg principle"
+      ],
+      "correct": 1,
+      "explanation": "The subsequent events as to what happened to the first form of life is a conjectured story based on Darwinian ideas of organic evolution by natural selection."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How long has the diversity of life forms on earth been changing?",
+      "options": [
+        "Thousands of years",
+        "Millions of years",
+        "Hundreds of years",
+        "Billions of years"
+      ],
+      "correct": 1,
+      "explanation": "Diversity of life forms on earth has been changing over millions of years."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is generally believed to result in variable fitness in a population?",
+      "options": [
+        "Genetic recombination only",
+        "Variations in a population",
+        "Gene migration only",
+        "Natural disasters"
+      ],
+      "correct": 1,
+      "explanation": "It is generally believed that variations in a population result in variable fitness."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which phenomena may accentuate variations leading to appearance of new species?",
+      "options": [
+        "Photosynthesis and respiration",
+        "Habitat fragmentation and genetic drift",
+        "Cell division and mitosis",
+        "Osmosis and diffusion"
+      ],
+      "correct": 1,
+      "explanation": "Other phenomena like habitat fragmentation and genetic drift may accentuate these variations leading to appearance of new species and hence evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What accounts for homology according to the text?",
+      "options": [
+        "Convergent evolution",
+        "The idea of branching descent",
+        "Genetic mutations",
+        "Natural selection alone"
+      ],
+      "correct": 1,
+      "explanation": "Homology is accounted for by the idea of branching descent."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which fields of study provide evidence for evolution?",
+      "options": [
+        "Physics and chemistry only",
+        "Comparative anatomy, fossils and comparative biochemistry",
+        "Mathematics and statistics only",
+        "Geography and history only"
+      ],
+      "correct": 1,
+      "explanation": "Study of comparative anatomy, fossils and comparative biochemistry provides evidence for evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which story of evolution is described as most interesting?",
+      "options": [
+        "Evolution of dinosaurs",
+        "Evolution of modern man",
+        "Evolution of birds",
+        "Evolution of reptiles"
+      ],
+      "correct": 1,
+      "explanation": "Among the stories of evolution of individual species, the story of evolution of modern man is most interesting."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does the evolution of modern man appear to parallel?",
+      "options": [
+        "Evolution of human brain and language",
+        "Evolution of dinosaurs",
+        "Evolution of plants",
+        "Evolution of bacteria"
+      ],
+      "correct": 0,
+      "explanation": "The story of evolution of modern man appears to parallel evolution of human brain and language."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What phenomenon should be used to explain antibiotic resistance in bacteria?",
+      "options": [
+        "Lamarckian inheritance",
+        "Darwinian selection theory",
+        "Hardy-Weinberg equilibrium",
+        "Panspermia theory"
+      ],
+      "correct": 1,
+      "explanation": "Antibiotic resistance observed in bacteria should be explained in light of Darwinian selection theory."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What should students find out from newspapers and popular science articles?",
+      "options": [
+        "New fossil discoveries or controversies about evolution",
+        "Sports news",
+        "Political events",
+        "Weather forecasts"
+      ],
+      "correct": 0,
+      "explanation": "Students should find out from newspapers and popular science articles any new fossil discoveries or controversies about evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What clear definition should students attempt to give?",
+      "options": [
+        "Definition of cell",
+        "Definition of the term species",
+        "Definition of DNA",
+        "Definition of protein"
+      ],
+      "correct": 1,
+      "explanation": "Students should attempt giving a clear definition of the term species."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What components should be traced in human evolution?",
+      "options": [
+        "Only brain size",
+        "Brain size and function, skeletal structure, dietary preference, etc.",
+        "Only skeletal structure",
+        "Only dietary preference"
+      ],
+      "correct": 1,
+      "explanation": "Students should trace the various components of human evolution including brain size and function, skeletal structure, dietary preference, etc."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What should students find out about animals other than man?",
+      "options": [
+        "Whether they have self-consciousness",
+        "Whether they can fly",
+        "Whether they can swim",
+        "Whether they can hibernate"
+      ],
+      "correct": 0,
+      "explanation": "Students should find out whether animals other than man have self-consciousness."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How many modern-day animals should students list and link to ancient fossils?",
+      "options": [
+        "5 animals",
+        "10 animals",
+        "15 animals",
+        "20 animals"
+      ],
+      "correct": 1,
+      "explanation": "Students should list 10 modern-day animals and link them to corresponding ancient fossils."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What skill should students practise?",
+      "options": [
+        "Writing essays",
+        "Drawing various animals and plants",
+        "Solving mathematical problems",
+        "Playing musical instruments"
+      ],
+      "correct": 1,
+      "explanation": "Students should practise drawing various animals and plants."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What example should students describe?",
+      "options": [
+        "One example of adaptive radiation",
+        "One example of convergent evolution",
+        "One example of genetic drift",
+        "One example of gene flow"
+      ],
+      "correct": 0,
+      "explanation": "Students should describe one example of adaptive radiation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Can human evolution be called adaptive radiation?",
+      "options": [
+        "Yes, without any doubt",
+        "No, never",
+        "This is a question for students to explore",
+        "Only partially"
+      ],
+      "correct": 2,
+      "explanation": "The text poses this as a question for students to explore: Can we call human evolution as adaptive radiation?"
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What should students trace using various resources?",
+      "options": [
+        "Evolutionary stages of any one animal",
+        "Evolutionary stages of all animals",
+        "Evolutionary stages of plants only",
+        "Evolutionary stages of bacteria only"
+      ],
+      "correct": 0,
+      "explanation": "Students should trace the evolutionary stages of any one animal using various resources."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "According to the Big Bang theory, what happened immediately after the universe began to expand?",
+      "options": [
+        "Temperature increased rapidly",
+        "Temperature came down",
+        "Galaxies formed instantly",
+        "Earth was created immediately"
+      ],
+      "correct": 1,
+      "explanation": "The Big Bang theory states that the universe expanded and hence the temperature came down."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Approximately how old is the universe according to the text?",
+      "options": [
+        "4.5 billion years",
+        "500 million years",
+        "13.8 billion years",
+        "3 billion years"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the universe is almost 13.8 billion years old."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What gases were present in the early atmosphere of Earth according to the text?",
+      "options": [
+        "Oxygen, Nitrogen, Carbon dioxide",
+        "Water vapour, methane, carbon dioxide and ammonia",
+        "Hydrogen, Helium, Oxygen",
+        "Nitrogen, Oxygen, Argon"
+      ],
+      "correct": 1,
+      "explanation": "The early atmosphere had water vapour, methane, carbon dioxide and ammonia released from molten mass."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the Panspermia theory regarding the origin of life?",
+      "options": [
+        "Life originated from chemical reactions in the ocean",
+        "Life came from outer space through spores",
+        "Life arose from decaying organic matter",
+        "Life was created by divine intervention"
+      ],
+      "correct": 1,
+      "explanation": "Panspermia theory suggests that units of life called spores were transferred to different planets including Earth from outer space."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Louis Pasteur demonstrate through his experiments?",
+      "options": [
+        "Life can arise from non-living matter",
+        "Life comes only from pre-existing life",
+        "Spontaneous generation is possible in sterile conditions",
+        "Bacteria can survive in vacuum"
+      ],
+      "correct": 1,
+      "explanation": "Pasteur demonstrated that in pre-sterilised flasks, life did not come from killed yeast, proving life comes only from pre-existing life."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Who proposed that the first form of life could have come from pre-existing non-living organic molecules?",
+      "options": [
+        "Charles Darwin and Alfred Wallace",
+        "Oparin of Russia and Haldane of England",
+        "S.L. Miller and Louis Pasteur",
+        "Thomas Malthus and Hugo de Vries"
+      ],
+      "correct": 1,
+      "explanation": "Oparin of Russia and Haldane of England proposed that the first form of life could have come from pre-existing non-living organic molecules."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the temperature maintained in S.L. Miller's experiment?",
+      "options": [
+        "25 degrees Celsius",
+        "100 degrees Celsius",
+        "800 degrees Celsius",
+        "1000 degrees Celsius"
+      ],
+      "correct": 2,
+      "explanation": "Miller created electric discharge in a closed flask containing CH4, H2, NH3 and water vapour at 800 degrees Celsius."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What compounds were observed to form in Miller's experiment?",
+      "options": [
+        "Only amino acids",
+        "Amino acids, sugars, nitrogen bases, pigments and fats",
+        "Only proteins and DNA",
+        "Oxygen and ozone"
+      ],
+      "correct": 1,
+      "explanation": "Miller observed formation of amino acids, and similar experiments showed formation of sugars, nitrogen bases, pigments and fats."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is meant by chemical evolution in the context of origin of life?",
+      "options": [
+        "Evolution of chemical elements over time",
+        "Formation of diverse organic molecules from inorganic constituents",
+        "Evolution of chemical reactions in living organisms",
+        "Formation of minerals from organic compounds"
+      ],
+      "correct": 1,
+      "explanation": "Chemical evolution refers to the formation of diverse organic molecules from inorganic constituents under conditions like high temperature and reducing atmosphere."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did the first cellular form of life possibly originate?",
+      "options": [
+        "500 million years ago",
+        "About 2000 million years ago",
+        "3 billion years ago",
+        "4.5 billion years ago"
+      ],
+      "correct": 1,
+      "explanation": "The first cellular form of life did not possibly originate till about 2000 million years ago."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Who proposed that the first form of life could have come from pre-existing non-living organic molecules?",
+      "options": [
+        "Charles Darwin and Alfred Wallace",
+        "Oparin of Russia and Haldane of England",
+        "Louis Pasteur and S.L. Miller",
+        "Thomas Malthus and Ernst Haeckel"
+      ],
+      "correct": 1,
+      "explanation": "Oparin of Russia and Haldane of England proposed that the first form of life could have come from pre-existing non-living organic molecules like RNA and protein, and that formation of life was preceded by chemical evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does the term 'chemical evolution' refer to in the context of origin of life?",
+      "options": [
+        "Evolution of chemical elements in the periodic table",
+        "Formation of diverse organic molecules from inorganic constituents",
+        "Evolution of chemical bonds in complex molecules",
+        "Formation of inorganic molecules from organic compounds"
+      ],
+      "correct": 1,
+      "explanation": "Chemical evolution refers to the formation of diverse organic molecules from inorganic constituents under conditions of high temperature, volcanic storms, and reducing atmosphere containing CH4 and NH3."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "In S.L. Miller's famous experiment, which gases were used in the closed flask?",
+      "options": [
+        "Oxygen, Nitrogen, Carbon dioxide and Water vapour",
+        "CH4, H2, NH3 and Water vapour",
+        "CO2, O2, N2 and Methane",
+        "Helium, Neon, Argon and Water vapour"
+      ],
+      "correct": 1,
+      "explanation": "S.L. Miller created electric discharge in a closed flask containing CH4, H2, NH3 and water vapour at 800°C to simulate early Earth conditions."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the significant observation made by S.L. Miller in his laboratory experiment?",
+      "options": [
+        "Formation of DNA molecules",
+        "Formation of amino acids",
+        "Formation of complete cells",
+        "Formation of fossil fuels"
+      ],
+      "correct": 1,
+      "explanation": "S.L. Miller observed the formation of amino acids in his experiment. In similar experiments, others observed formation of sugars, nitrogen bases, pigments and fats."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did the analysis of meteorite content reveal about the origin of organic compounds?",
+      "options": [
+        "Organic compounds are found only on Earth",
+        "Similar compounds are occurring elsewhere in space",
+        "Meteorites contain only inorganic materials",
+        "Organic compounds cannot form in space"
+      ],
+      "correct": 1,
+      "explanation": "Analysis of meteorite content revealed similar compounds indicating that similar processes are occurring elsewhere in space, supporting the idea that chemical evolution is not unique to Earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "According to the text, when did the first non-cellular forms of life possibly originate?",
+      "options": [
+        "500 million years ago",
+        "4.5 billion years ago",
+        "3 billion years ago",
+        "2000 million years ago"
+      ],
+      "correct": 2,
+      "explanation": "The first non-cellular forms of life could have originated 3 billion years back. They would have been giant molecules like RNA, Protein, and Polysaccharides."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When did the first cellular form of life possibly originate according to the text?",
+      "options": [
+        "3 billion years ago",
+        "500 million years ago",
+        "2000 million years ago",
+        "4.5 billion years ago"
+      ],
+      "correct": 2,
+      "explanation": "The first cellular form of life did not possibly originate till about 2000 million years ago. These were probably single-cells and all life forms were in water environment only."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What theory did Louis Pasteur's experiment disprove?",
+      "options": [
+        "Theory of natural selection",
+        "Theory of chemical evolution",
+        "Theory of spontaneous generation",
+        "Theory of adaptive radiation"
+      ],
+      "correct": 2,
+      "explanation": "Louis Pasteur demonstrated that life comes only from pre-existing life, disproving the theory of spontaneous generation which claimed life came out of decaying and rotting matter."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are fossils according to the text?",
+      "options": [
+        "Soft tissues of organisms preserved in ice",
+        "Remains of hard parts of life-forms found in rocks",
+        "Impressions of organisms in mud",
+        "DNA samples extracted from ancient organisms"
+      ],
+      "correct": 1,
+      "explanation": "Fossils are defined as remains of hard parts of life-forms found in rocks."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does a cross-section of earth's crust indicate?",
+      "options": [
+        "The temperature of the earth's core",
+        "The arrangement of sediments one over the other during the long history of earth",
+        "The distribution of minerals in the earth",
+        "The depth of oceans on earth"
+      ],
+      "correct": 1,
+      "explanation": "A cross-section of earth's crust indicates the arrangement of sediments one over the other during the long history of earth."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What do different-aged rock sediments contain?",
+      "options": [
+        "Different types of minerals",
+        "Fossils of different life-forms",
+        "Various types of crystals",
+        "Different soil compositions"
+      ],
+      "correct": 1,
+      "explanation": "Different-aged rock sediments contain fossils of different life-forms who probably died during the formation of the particular sediment."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which organisms are given as examples of extinct organisms?",
+      "options": [
+        "Whales and bats",
+        "Dinosaurs",
+        "Cheetahs and humans",
+        "Fish and amphibians"
+      ],
+      "correct": 1,
+      "explanation": "Dinosaurs are given as examples of extinct organisms in the text."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is paleontological evidence?",
+      "options": [
+        "Study of embryos of different organisms",
+        "Study of fossils in different sedimentary layers indicating geological periods",
+        "Comparison of anatomy of modern organisms",
+        "Study of genetic mutations in populations"
+      ],
+      "correct": 1,
+      "explanation": "Paleontological evidence refers to the study of fossils in different sedimentary layers that indicates the geological period in which they existed."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How are the ages of fossils calculated?",
+      "options": [
+        "By comparing with modern organisms",
+        "By radioactive-dating method",
+        "By studying the sediment composition",
+        "By examining the fossil size"
+      ],
+      "correct": 1,
+      "explanation": "The ages of fossils are calculated using the method of radioactive-dating."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Who proposed embryological support for evolution?",
+      "options": [
+        "Charles Darwin",
+        "Ernst Haeckel",
+        "Karl Ernst von Baer",
+        "Alfred Wallace"
+      ],
+      "correct": 1,
+      "explanation": "Ernst Haeckel proposed embryological support for evolution based on observations of features during embryonic stage."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What common feature did Haeckel observe in embryos of all vertebrates?",
+      "options": [
+        "Development of wings",
+        "Development of a row of vestigial gill slits behind the head",
+        "Presence of tail in all embryos",
+        "Development of four limbs"
+      ],
+      "correct": 1,
+      "explanation": "Haeckel observed that embryos of all vertebrates develop a row of vestigial gill slits just behind the head."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "In which organism is the gill slit a functional organ?",
+      "options": [
+        "Humans",
+        "Whales",
+        "Fish",
+        "Bats"
+      ],
+      "correct": 2,
+      "explanation": "The gill slit is a functional organ only in fish and not found in any other adult vertebrates."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Who disapproved Haeckel's embryological proposal?",
+      "options": [
+        "Charles Darwin",
+        "Karl Ernst von Baer",
+        "Louis Pasteur",
+        "Alfred Wallace"
+      ],
+      "correct": 1,
+      "explanation": "Karl Ernst von Baer disapproved Haeckel's proposal on careful study."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Karl Ernst von Baer note about embryos?",
+      "options": [
+        "Embryos pass through adult stages of other organisms",
+        "Embryos never pass through the adult stages of other organisms",
+        "Embryos are identical to adult organisms",
+        "Embryos develop faster than adult organisms"
+      ],
+      "correct": 1,
+      "explanation": "Karl Ernst von Baer noted that embryos never pass through the adult stages of other organisms."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does comparative anatomy and morphology show?",
+      "options": [
+        "Only similarities among organisms",
+        "Only differences among organisms",
+        "Similarities and differences among organisms of today and those that existed years ago",
+        "Only genetic variations among organisms"
+      ],
+      "correct": 2,
+      "explanation": "Comparative anatomy and morphology shows similarities and differences among organisms of today and those that existed years ago."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which mammals are mentioned as sharing similarities in forelimb bone pattern?",
+      "options": [
+        "Elephants, tigers, lions and bears",
+        "Whales, bats, cheetah and human",
+        "Dogs, cats, horses and cows",
+        "Monkeys, apes, gorillas and chimpanzees"
+      ],
+      "correct": 1,
+      "explanation": "Whales, bats, cheetah and human are mentioned as sharing similarities in the pattern of bones of forelimbs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What bones are present in the forelimbs of whales, bats, cheetah and human?",
+      "options": [
+        "Femur, tibia, fibula, tarsals, metatarsals",
+        "Humerus, radius, ulna, carpals, metacarpals and phalanges",
+        "Skull, ribs, vertebrae, sternum",
+        "Pelvis, sacrum, coccyx, patella"
+      ],
+      "correct": 1,
+      "explanation": "All of them have humerus, radius, ulna, carpals, metacarpals and phalanges in their forelimbs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is divergent evolution?",
+      "options": [
+        "Different structures developing similar functions",
+        "Same structure developing along different directions due to adaptations to different needs",
+        "Evolution of organisms in the same direction",
+        "Evolution of similar species from different ancestors"
+      ],
+      "correct": 1,
+      "explanation": "Divergent evolution is when the same structure develops along different directions due to adaptations to different needs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are homologous structures?",
+      "options": [
+        "Structures with different origins but similar functions",
+        "Structures with similar anatomical structure but different functions",
+        "Structures that are identical in all organisms",
+        "Structures that have no function"
+      ],
+      "correct": 1,
+      "explanation": "Homologous structures have similar anatomical structure but perform different functions."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does homology indicate?",
+      "options": [
+        "Different origins of organisms",
+        "Common ancestry",
+        "Convergent evolution",
+        "Random mutations"
+      ],
+      "correct": 1,
+      "explanation": "Homology indicates common ancestry among organisms."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What other examples of homologous structures are mentioned?",
+      "options": [
+        "Vertebrate legs and arms",
+        "Vertebrate hearts or brains",
+        "Insect wings and bird wings",
+        "Fish scales and reptile scales"
+      ],
+      "correct": 1,
+      "explanation": "Other examples mentioned are vertebrate hearts or brains."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What type of evidence is the study of fossils in sedimentary layers?",
+      "options": [
+        "Embryological evidence",
+        "Paleontological evidence",
+        "Comparative anatomical evidence",
+        "Biochemical evidence"
+      ],
+      "correct": 1,
+      "explanation": "The study of fossils in different sedimentary layers is called paleontological evidence."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did the study of fossils show about life-forms?",
+      "options": [
+        "Life-forms have remained unchanged over time",
+        "Life-forms varied over time and certain life forms are restricted to certain geological timespans",
+        "All life-forms existed at the same time",
+        "Modern organisms are identical to ancient organisms"
+      ],
+      "correct": 1,
+      "explanation": "The study showed that life-forms varied over time and certain life forms are restricted to certain geological timespans."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What can similarities among organisms be interpreted to understand?",
+      "options": [
+        "The age of the organisms",
+        "Whether common ancestors were shared or not",
+        "The habitat of the organisms",
+        "The diet of the organisms"
+      ],
+      "correct": 1,
+      "explanation": "Similarities can be interpreted to understand whether common ancestors were shared or not."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which mammals share similarities in the pattern of bones of forelimbs?",
+      "options": [
+        "Elephants, tigers, lions and bears",
+        "Whales, bats, cheetah and human",
+        "Dogs, cats, horses and cows",
+        "Monkeys, apes, gorillas and chimpanzees"
+      ],
+      "correct": 1,
+      "explanation": "Whales, bats, cheetah and human share similarities in the pattern of bones of forelimbs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Do the forelimbs of whales, bats, cheetah and human perform the same function?",
+      "options": [
+        "Yes, they all perform the same function",
+        "No, they perform different functions",
+        "Yes, they all are used for flying",
+        "Yes, they all are used for swimming"
+      ],
+      "correct": 1,
+      "explanation": "These forelimbs perform different functions in these animals though they have similar anatomical structure."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What bones are present in the forelimbs of whales, bats, cheetah and human?",
+      "options": [
+        "Femur, tibia, fibula, tarsals, metatarsals",
+        "Humerus, radius, ulna, carpals, metacarpals and phalanges",
+        "Skull, ribs, vertebrae, sternum",
+        "Pelvis, sacrum, coccyx, patella"
+      ],
+      "correct": 1,
+      "explanation": "All of them have humerus, radius, ulna, carpals, metacarpals and phalanges in their forelimbs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is divergent evolution?",
+      "options": [
+        "Different structures developing similar functions",
+        "Same structure developing along different directions due to adaptations to different needs",
+        "Evolution of organisms in the same direction",
+        "Evolution of similar species from different ancestors"
+      ],
+      "correct": 1,
+      "explanation": "Divergent evolution is when the same structure develops along different directions due to adaptations to different needs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are homologous structures?",
+      "options": [
+        "Structures with different origins but similar functions",
+        "Structures with similar anatomical structure but different functions",
+        "Structures that are identical in all organisms",
+        "Structures that have no function"
+      ],
+      "correct": 1,
+      "explanation": "Homologous structures have similar anatomical structure but perform different functions."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does homology indicate?",
+      "options": [
+        "Different origins of organisms",
+        "Common ancestry",
+        "Convergent evolution",
+        "Random mutations"
+      ],
+      "correct": 1,
+      "explanation": "Homology indicates common ancestry among organisms."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What other examples of homologous structures are mentioned?",
+      "options": [
+        "Vertebrate legs and arms",
+        "Vertebrate hearts or brains",
+        "Insect wings and bird wings",
+        "Fish scales and reptile scales"
+      ],
+      "correct": 1,
+      "explanation": "Other examples mentioned are vertebrate hearts or brains."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is convergent evolution?",
+      "options": [
+        "Same structure developing different functions",
+        "Different structures evolving for the same function and hence having similarity",
+        "Evolution of identical species from common ancestors",
+        "Evolution caused by genetic mutations only"
+      ],
+      "correct": 1,
+      "explanation": "Convergent evolution is when different structures evolve for the same function and hence have similarity."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which structures are given as examples of analogous structures?",
+      "options": [
+        "Forelimbs of whale and bat",
+        "Wings of butterflies and birds",
+        "Hearts of vertebrates",
+        "Brains of mammals"
+      ],
+      "correct": 1,
+      "explanation": "Wings of butterflies and birds are given as examples of analogous structures."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Are the wings of butterflies and birds anatomically similar?",
+      "options": [
+        "Yes, they are anatomically similar",
+        "No, they are not anatomically similar though they appear alike in function",
+        "Yes, they have identical bone structures",
+        "Yes, they evolved from the same ancestor"
+      ],
+      "correct": 1,
+      "explanation": "They are not anatomically similar structures though they appear alike in their function of flight."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are analogous structures a result of?",
+      "options": [
+        "Divergent evolution",
+        "Convergent evolution",
+        "Genetic drift",
+        "Natural selection only"
+      ],
+      "correct": 1,
+      "explanation": "Analogous structures are a result of convergent evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is industrial melanism an example of?",
+      "options": [
+        "Genetic drift",
+        "Natural selection",
+        "Mutation",
+        "Gene flow"
+      ],
+      "correct": 1,
+      "explanation": "Industrial melanism is an example of natural selection."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Before industrialisation, which type of moths were more common on trees?",
+      "options": [
+        "Dark-winged or melanised moths",
+        "White-winged moths",
+        "Red-winged moths",
+        "Yellow-winged moths"
+      ],
+      "correct": 1,
+      "explanation": "Before industrialisation, there were more white-winged moths on trees than dark-winged or melanised moths."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why did tree trunks become dark after industrialisation?",
+      "options": [
+        "Due to increased rainfall",
+        "Due to industrial smoke and soots",
+        "Due to volcanic eruptions",
+        "Due to forest fires"
+      ],
+      "correct": 1,
+      "explanation": "After industrialisation, the tree trunks became dark due to industrial smoke and soots."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why did the white-winged moth not survive after industrialisation?",
+      "options": [
+        "Due to lack of food",
+        "Due to predators spotting them against the contrasting dark background",
+        "Due to climate change",
+        "Due to disease"
+      ],
+      "correct": 1,
+      "explanation": "The white-winged moth did not survive due to predators as they were spotted against the contrasting dark background."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why did the dark-winged or melanised moth survive after industrialisation?",
+      "options": [
+        "They had better flying ability",
+        "They could camouflage themselves against the dark tree trunks",
+        "They ate more food",
+        "They were resistant to pollution"
+      ],
+      "correct": 1,
+      "explanation": "Dark-winged or melanised moths survived because they could camouflage themselves against the dark tree trunks."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What covered the trees before industrialisation?",
+      "options": [
+        "Industrial soot",
+        "Thick growth of almost white-coloured lichen",
+        "Green moss",
+        "Brown algae"
+      ],
+      "correct": 1,
+      "explanation": "Before industrialisation, thick growth of almost white-coloured lichen covered the trees."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "In the white lichen background, which moths were picked out by predators?",
+      "options": [
+        "White-winged moths",
+        "Dark-coloured moths",
+        "Both types equally",
+        "Neither type"
+      ],
+      "correct": 1,
+      "explanation": "In the white lichen background, the dark-coloured moths were picked out by predators."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What can lichens be used as?",
+      "options": [
+        "Food source for insects",
+        "Industrial pollution indicators",
+        "Medicinal herbs",
+        "Soil fertilizers"
+      ],
+      "correct": 1,
+      "explanation": "Lichens can be used as industrial pollution indicators."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why will lichens not grow in polluted areas?",
+      "options": [
+        "They need pure water only",
+        "They are sensitive to pollution and cannot grow in polluted areas",
+        "They require high temperatures",
+        "They need specific soil types"
+      ],
+      "correct": 1,
+      "explanation": "Lichens will not grow in areas that are polluted, making them good pollution indicators."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does camouflage mean in the context of moths?",
+      "options": [
+        "Ability to fly faster",
+        "Ability to hide in the background",
+        "Ability to produce more offspring",
+        "Ability to change colour instantly"
+      ],
+      "correct": 1,
+      "explanation": "Moths that were able to camouflage themselves, i.e., hide in the background, survived."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where was the count of melanic moths low?",
+      "options": [
+        "In heavily industrialised cities",
+        "In rural areas where industrialisation did not occur",
+        "In tropical forests",
+        "In desert regions"
+      ],
+      "correct": 1,
+      "explanation": "In areas where industrialisation did not occur, such as rural areas, the count of melanic moths was low."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does the moth example show about mixed populations?",
+      "options": [
+        "All variants survive equally",
+        "Those that can better-adapt survive and increase in population size",
+        "Larger organisms always survive",
+        "Only the strongest predators survive"
+      ],
+      "correct": 1,
+      "explanation": "In a mixed population, those that can better-adapt survive and increase in population size."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What has excess use of herbicides and pesticides resulted in?",
+      "options": [
+        "Extinction of all pest species",
+        "Selection of resistant varieties",
+        "Increase in crop yield only",
+        "Complete elimination of weeds"
+      ],
+      "correct": 1,
+      "explanation": "Excess use of herbicides and pesticides has resulted in selection of resistant varieties."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How quickly do resistant organisms appear compared to natural evolution?",
+      "options": [
+        "In centuries",
+        "In months or years, not centuries",
+        "In millions of years",
+        "Instantaneously"
+      ],
+      "correct": 1,
+      "explanation": "Resistant organisms are appearing in a time scale of months or years and not centuries."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are examples of evolution by anthropogenic action?",
+      "options": [
+        "Evolution caused by natural disasters",
+        "Evolution caused by human activities like use of herbicides, pesticides and antibiotics",
+        "Evolution caused by climate change only",
+        "Evolution caused by volcanic eruptions"
+      ],
+      "correct": 1,
+      "explanation": "Examples include evolution caused by excess use of herbicides, pesticides, antibiotics and drugs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Is evolution a directed process according to the text?",
+      "options": [
+        "Yes, it is completely directed",
+        "No, it is not a directed process in the sense of determinism",
+        "Yes, it follows a predetermined path",
+        "Yes, it is controlled by humans"
+      ],
+      "correct": 1,
+      "explanation": "Evolution is not a directed process in the sense of determinism. It is a stochastic process."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What kind of process is evolution described as?",
+      "options": [
+        "A deterministic process",
+        "A stochastic process based on chance events in nature and chance mutation",
+        "A completely predictable process",
+        "A human-controlled process"
+      ],
+      "correct": 1,
+      "explanation": "Evolution is a stochastic process based on chance events in nature and chance mutation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the explanation given for the observation of different colored moths?",
+      "options": [
+        "Moths changed color due to genetic mutation",
+        "Predators will spot a moth against a contrasting background",
+        "Climate change caused moth color variation",
+        "Industrial chemicals directly changed moth color"
+      ],
+      "correct": 1,
+      "explanation": "The explanation put forth was that predators will spot a moth against a contrasting background, making camouflage crucial for survival."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why did tree trunks become dark during the postindustrialisation period?",
+      "options": [
+        "Due to natural forest fires",
+        "Due to industrial smoke and soots",
+        "Due to volcanic eruptions",
+        "Due to acid rain"
+      ],
+      "correct": 1,
+      "explanation": "During the postindustrialisation period, tree trunks became dark due to industrial smoke and soots."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which moth survived when tree trunks became dark after industrialisation?",
+      "options": [
+        "White-winged moth",
+        "Dark-winged or melanised moth",
+        "Both types survived equally",
+        "Neither type survived"
+      ],
+      "correct": 1,
+      "explanation": "Under dark conditions, the white-winged moth did not survive due to predators, while the dark-winged or melanised moth survived."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What covered the trees before industrialisation set in?",
+      "options": [
+        "Industrial soot",
+        "Thick growth of almost white-coloured lichen",
+        "Dark moss",
+        "Red algae"
+      ],
+      "correct": 1,
+      "explanation": "Before industrialisation, thick growth of almost white-coloured lichen covered the trees."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "In the white lichen background, which moth survived?",
+      "options": [
+        "Dark-coloured moth",
+        "White-winged moth",
+        "Both moths equally",
+        "Neither moth survived"
+      ],
+      "correct": 1,
+      "explanation": "In the white lichen background, the white-winged moth survived but the dark-coloured moths were picked out by predators."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What can lichens be used as?",
+      "options": [
+        "Food source for animals",
+        "Industrial pollution indicators",
+        "Medicinal herbs",
+        "Building materials"
+      ],
+      "correct": 1,
+      "explanation": "Lichens can be used as industrial pollution indicators because they will not grow in polluted areas."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why do lichens not grow in polluted areas?",
+      "options": [
+        "They require pure water only",
+        "They are sensitive to pollution",
+        "They need high temperatures",
+        "They compete with other plants"
+      ],
+      "correct": 1,
+      "explanation": "Lichens will not grow in areas that are polluted, making them sensitive indicators of industrial pollution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does the moth example demonstrate about mixed populations?",
+      "options": [
+        "All variants are completely wiped out",
+        "Those that can better-adapt survive and increase in population size",
+        "Only the largest individuals survive",
+        "Mutation is the only factor for survival"
+      ],
+      "correct": 1,
+      "explanation": "The moth example showed that in a mixed population, those that can better-adapt survive and increase in population size."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Is any variant completely wiped out according to the text?",
+      "options": [
+        "Yes, all less-adapted variants are wiped out",
+        "No variant is completely wiped out",
+        "Only the dominant variant survives",
+        "Variants are wiped out every century"
+      ],
+      "correct": 1,
+      "explanation": "The text states that no variant is completely wiped out in a mixed population."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What has excess use of herbicides and pesticides resulted in?",
+      "options": [
+        "Complete elimination of pests",
+        "Selection of resistant varieties",
+        "Increased crop yield",
+        "Soil fertility improvement"
+      ],
+      "correct": 1,
+      "explanation": "Excess use of herbicides and pesticides has resulted in selection of resistant varieties in a much lesser time scale."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How quickly do resistant organisms appear when using antibiotics?",
+      "options": [
+        "In centuries",
+        "In months or years",
+        "In decades only",
+        "They never appear"
+      ],
+      "correct": 1,
+      "explanation": "Resistant organisms appear in a time scale of months or years and not centuries."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are examples of evolution by anthropogenic action?",
+      "options": [
+        "Natural selection in wild animals",
+        "Resistant organisms appearing due to human use of chemicals and drugs",
+        "Climate change effects on plants",
+        "Volcanic eruption impacts"
+      ],
+      "correct": 1,
+      "explanation": "Examples of evolution by anthropogenic action include resistant organisms appearing due to human use of herbicides, pesticides, antibiotics, and drugs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Is evolution a directed process according to determinism?",
+      "options": [
+        "Yes, evolution follows a predetermined path",
+        "No, evolution is not a directed process in the sense of determinism",
+        "Evolution is directed only in microbes",
+        "Evolution is directed in animals but not plants"
+      ],
+      "correct": 1,
+      "explanation": "Evolution is not a directed process in the sense of determinism; it is a stochastic process based on chance events."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What type of process is evolution described as?",
+      "options": [
+        "A deterministic process",
+        "A stochastic process based on chance events in nature and chance mutation",
+        "A linear process with fixed outcomes",
+        "A controlled laboratory process"
+      ],
+      "correct": 1,
+      "explanation": "Evolution is described as a stochastic process based on chance events in nature and chance mutation in organisms."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where did Darwin observe an amazing diversity of creatures?",
+      "options": [
+        "Amazon rainforest",
+        "Galapagos Islands",
+        "Australian continent",
+        "African savannah"
+      ],
+      "correct": 1,
+      "explanation": "During his journey, Darwin went to Galapagos Islands where he observed an amazing diversity of creatures."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What small black birds amazed Darwin in the Galapagos Islands?",
+      "options": [
+        "Sparrows",
+        "Darwin's Finches",
+        "Crows",
+        "Penguins"
+      ],
+      "correct": 1,
+      "explanation": "Small black birds later called Darwin's Finches amazed Darwin with their diversity in the Galapagos Islands."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Darwin conjecture about the finch varieties?",
+      "options": [
+        "They were brought by humans",
+        "All varieties evolved on the island itself",
+        "They migrated from other continents",
+        "They were created separately"
+      ],
+      "correct": 1,
+      "explanation": "Darwin conjectured that all the varieties of finches evolved on the island itself from an original seed-eating form."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "From what original feature did the finch varieties evolve?",
+      "options": [
+        "Insect-eating features",
+        "Seed-eating features",
+        "Meat-eating features",
+        "Fruit-eating features"
+      ],
+      "correct": 1,
+      "explanation": "From the original seed-eating features, many other forms with altered beaks arose, enabling them to become insectivorous and vegetarian finches."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is adaptive radiation?",
+      "options": [
+        "Evolution of a single species in isolation",
+        "Evolution of different species in a given geographical area starting from a point and radiating to other habitats",
+        "Migration of species to new continents",
+        "Extinction of species due to climate change"
+      ],
+      "correct": 1,
+      "explanation": "Adaptive radiation is the process of evolution of different species in a given geographical area starting from a point and radiating to other areas of geography."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which birds represent one of the best examples of adaptive radiation?",
+      "options": [
+        "Sparrows",
+        "Darwin's finches",
+        "Eagles",
+        "Parrots"
+      ],
+      "correct": 1,
+      "explanation": "Darwin's finches represent one of the best examples of the phenomenon of adaptive radiation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is another example of adaptive radiation mentioned in the text?",
+      "options": [
+        "African elephants",
+        "Australian marsupials",
+        "Arctic foxes",
+        "Amazon frogs"
+      ],
+      "correct": 1,
+      "explanation": "Another example of adaptive radiation mentioned is Australian marsupials that evolved from an ancestral stock within the Australian island continent."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where did Australian marsupials evolve from an ancestral stock?",
+      "options": [
+        "Within the Australian island continent",
+        "From South America",
+        "From Africa",
+        "From Asia"
+      ],
+      "correct": 0,
+      "explanation": "Australian marsupials evolved from an ancestral stock, but all within the Australian island continent."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What enabled the finches to become insectivorous and vegetarian?",
+      "options": [
+        "Changes in their digestive system",
+        "Altered beaks that arose from original seed-eating features",
+        "Migration to different islands",
+        "Changes in their wing structure"
+      ],
+      "correct": 1,
+      "explanation": "From the original seed-eating features, many other forms with altered beaks arose, enabling them to become insectivorous and vegetarian finches."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happens when more than one adaptive radiation occurs in an isolated geographical area?",
+      "options": [
+        "Species extinction",
+        "Convergent evolution",
+        "Genetic drift",
+        "Founder effect"
+      ],
+      "correct": 1,
+      "explanation": "When more than one adaptive radiation appeared to have occurred in an isolated geographical area, it can be called convergent evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where did Darwin go during his journey where he observed amazing diversity of creatures?",
+      "options": [
+        "Hawaiian Islands",
+        "Galapagos Islands",
+        "Canary Islands",
+        "Falkland Islands"
+      ],
+      "correct": 1,
+      "explanation": "During his journey, Darwin went to Galapagos Islands where he observed an amazing diversity of creatures."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What small black birds amazed Darwin during his visit to Galapagos Islands?",
+      "options": [
+        "Galapagos penguins",
+        "Darwin's Finches",
+        "Galapagos hawks",
+        "Black mockingbirds"
+      ],
+      "correct": 1,
+      "explanation": "Small black birds later called Darwin's Finches amazed Darwin during his visit to Galapagos Islands."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Darwin realize about finches on the same island?",
+      "options": [
+        "All finches were identical",
+        "There were many varieties of finches in the same island",
+        "Finches were only seed-eating",
+        "Finches were extinct"
+      ],
+      "correct": 1,
+      "explanation": "Darwin realized that there were many varieties of finches in the same island."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Where did Darwin conjecture that all varieties of finches evolved?",
+      "options": [
+        "On the mainland of South America",
+        "On the island itself",
+        "In North America",
+        "In Africa"
+      ],
+      "correct": 1,
+      "explanation": "Darwin conjectured that all varieties of finches evolved on the island itself."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was the original feature of the finches before evolution?",
+      "options": [
+        "Insect-eating features",
+        "Seed-eating features",
+        "Carnivorous features",
+        "Fruit-eating features"
+      ],
+      "correct": 1,
+      "explanation": "The original feature of the finches was seed-eating before they evolved into other forms."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What changes in beaks enabled finches to become insectivorous and vegetarian?",
+      "options": [
+        "Smaller beaks",
+        "Altered beaks",
+        "Curved beaks",
+        "Hooked beaks"
+      ],
+      "correct": 1,
+      "explanation": "Many other forms with altered beaks arose, enabling them to become insectivorous and vegetarian finches."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is adaptive radiation?",
+      "options": [
+        "Evolution of a single species in isolation",
+        "Evolution of different species in a given geographical area starting from a point and radiating to other habitats",
+        "Migration of species to new areas",
+        "Extinction of species in a habitat"
+      ],
+      "correct": 1,
+      "explanation": "Adaptive radiation is the process of evolution of different species in a given geographical area starting from a point and literally radiating to other areas of geography (habitats)."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which birds represent one of the best examples of adaptive radiation?",
+      "options": [
+        "Galapagos penguins",
+        "Darwin's finches",
+        "Australian parrots",
+        "Hawaiian honeycreepers"
+      ],
+      "correct": 1,
+      "explanation": "Darwin's finches represent one of the best examples of adaptive radiation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is another example of adaptive radiation mentioned in the text?",
+      "options": [
+        "African elephants",
+        "Australian marsupials",
+        "Amazon rainforest birds",
+        "Arctic foxes"
+      ],
+      "correct": 1,
+      "explanation": "Another example of adaptive radiation mentioned is Australian marsupials."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How did Australian marsupials evolve?",
+      "options": [
+        "From different ancestral stocks in different continents",
+        "From an ancestral stock, but all within the Australian island continent",
+        "From placental mammals in Asia",
+        "From birds that migrated to Australia"
+      ],
+      "correct": 1,
+      "explanation": "Australian marsupials evolved from an ancestral stock, but all within the Australian island continent."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is convergent evolution?",
+      "options": [
+        "When different species evolve from the same ancestor in the same area",
+        "When more than one adaptive radiation occurs in an isolated geographical area representing different habitats",
+        "When species migrate to the same habitat",
+        "When species become extinct simultaneously"
+      ],
+      "correct": 1,
+      "explanation": "Convergent evolution is when more than one adaptive radiation appeared to have occurred in an isolated geographical area representing different habitats."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which mammals in Australia exhibit adaptive radiation?",
+      "options": [
+        "Marsupials only",
+        "Placental mammals",
+        "Monotremes only",
+        "Marine mammals"
+      ],
+      "correct": 1,
+      "explanation": "Placental mammals in Australia also exhibit adaptive radiation in evolving into varieties of such placental mammals."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How do placental mammals in Australia appear in relation to marsupials?",
+      "options": [
+        "They are completely different from marsupials",
+        "Each appears to be similar to a corresponding marsupial",
+        "They are smaller than marsupials",
+        "They are larger than marsupials"
+      ],
+      "correct": 1,
+      "explanation": "Placental mammals in Australia evolved into varieties each of which appears to be similar to a corresponding marsupial."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is an example of a placental mammal and its corresponding marsupial mentioned in the text?",
+      "options": [
+        "Placental cat and Tasmanian cat",
+        "Placental wolf and Tasmanian wolf-marsupial",
+        "Placental bear and koala",
+        "Placental rat and kangaroo"
+      ],
+      "correct": 1,
+      "explanation": "The example given is Placental wolf and Tasmanian wolf-marsupial."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What characteristic of beaks changed in Darwin's finches during adaptive radiation?",
+      "options": [
+        "Color of beaks",
+        "Size and shape of beaks",
+        "Texture of beaks",
+        "Number of beaks"
+      ],
+      "correct": 1,
+      "explanation": "The beaks were altered in size and shape, enabling finches to become insectivorous and vegetarian."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What type of finches evolved from the original seed-eating finches?",
+      "options": [
+        "Only carnivorous finches",
+        "Insectivorous and vegetarian finches",
+        "Only fruit-eating finches",
+        "Only nectar-feeding finches"
+      ],
+      "correct": 1,
+      "explanation": "From the original seed-eating features, many other forms arose enabling them to become insectivorous and vegetarian finches."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What geographical feature is common to both examples of adaptive radiation mentioned?",
+      "options": [
+        "Both occurred on islands",
+        "Both occurred on continents",
+        "Both occurred in deserts",
+        "Both occurred in rainforests"
+      ],
+      "correct": 0,
+      "explanation": "Both Darwin's finches (Galapagos Islands) and Australian marsupials (Australian island continent) occurred on islands."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does the term 'radiating' mean in the context of adaptive radiation?",
+      "options": [
+        "Emitting light",
+        "Spreading out from a central point to other areas",
+        "Becoming extinct",
+        "Becoming larger in size"
+      ],
+      "correct": 1,
+      "explanation": "Radiating means spreading out from a point to other areas of geography or habitats."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Why did different varieties of finches evolve on the same island?",
+      "options": [
+        "Due to migration from other islands",
+        "Due to adaptation to different food sources and habitats",
+        "Due to climate change only",
+        "Due to human intervention"
+      ],
+      "correct": 1,
+      "explanation": "Different varieties evolved due to adaptations to different needs such as different food sources (seeds, insects, vegetation)."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What can be inferred about the relationship between marsupials and placental mammals in Australia?",
+      "options": [
+        "They are completely unrelated",
+        "They show parallel evolution into similar forms",
+        "Placental mammals evolved from marsupials",
+        "Marsupials evolved from placental mammals"
+      ],
+      "correct": 1,
+      "explanation": "They show parallel or convergent evolution where placental mammals evolved forms similar to corresponding marsupials."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does Figure 6.7 illustrate?",
+      "options": [
+        "Divergent evolution of birds",
+        "Convergent evolution of Australian marsupials and placental mammals",
+        "Adaptive radiation of finches",
+        "Evolution of dinosaurs"
+      ],
+      "correct": 1,
+      "explanation": "Figure 6.7 shows convergent evolution where Australian marsupials evolved forms similar to placental mammals."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which placental mammal corresponds to the marsupial mole?",
+      "options": [
+        "Anteater",
+        "Mole",
+        "Mouse",
+        "Wolf"
+      ],
+      "correct": 1,
+      "explanation": "The marsupial mole corresponds to the placental mole as shown in Figure 6.7."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the marsupial equivalent of the placental anteater?",
+      "options": [
+        "Marsupial mole",
+        "Numbat",
+        "Spotted cuscus",
+        "Tasmanian wolf"
+      ],
+      "correct": 1,
+      "explanation": "The numbat is the marsupial equivalent of the placental anteater."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which marsupial corresponds to the placental mouse?",
+      "options": [
+        "Marsupial mole",
+        "Marsupial mouse",
+        "Flying phalanger",
+        "Spotted cuscus"
+      ],
+      "correct": 1,
+      "explanation": "The marsupial mouse corresponds to the placental mouse."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the marsupial equivalent of the lemur?",
+      "options": [
+        "Numbat",
+        "Spotted cuscus",
+        "Flying phalanger",
+        "Tasmanian tiger cat"
+      ],
+      "correct": 1,
+      "explanation": "The spotted cuscus is the marsupial equivalent of the lemur."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which marsupial corresponds to the flying squirrel?",
+      "options": [
+        "Marsupial mole",
+        "Flying phalanger",
+        "Tasmanian wolf",
+        "Spotted cuscus"
+      ],
+      "correct": 1,
+      "explanation": "The flying phalanger corresponds to the flying squirrel."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the marsupial equivalent of the bobcat?",
+      "options": [
+        "Tasmanian tiger cat",
+        "Tasmanian wolf",
+        "Numbat",
+        "Marsupial mouse"
+      ],
+      "correct": 0,
+      "explanation": "The Tasmanian tiger cat is the marsupial equivalent of the bobcat."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which marsupial corresponds to the wolf?",
+      "options": [
+        "Tasmanian tiger cat",
+        "Tasmanian wolf",
+        "Spotted cuscus",
+        "Flying phalanger"
+      ],
+      "correct": 1,
+      "explanation": "The Tasmanian wolf is the marsupial equivalent of the wolf."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "When would evolution by natural selection truly start according to the text?",
+      "options": [
+        "When dinosaurs appeared",
+        "When cellular forms with metabolic differences originated",
+        "When the first fossils formed",
+        "When humans evolved"
+      ],
+      "correct": 1,
+      "explanation": "Evolution by natural selection started when cellular forms with differences in metabolic capability originated."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the essence of Darwinian theory about evolution?",
+      "options": [
+        "Use and disuse of organs",
+        "Natural selection",
+        "Mutation theory",
+        "Genetic drift"
+      ],
+      "correct": 1,
+      "explanation": "The essence of Darwinian theory is natural selection."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the rate of appearance of new forms linked to?",
+      "options": [
+        "Size of the organism",
+        "Life cycle or life span",
+        "Number of offspring",
+        "Environmental temperature"
+      ],
+      "correct": 1,
+      "explanation": "The rate of appearance of new forms is linked to the life cycle or life span."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How quickly can bacteria multiply to become millions?",
+      "options": [
+        "Within days",
+        "Within hours",
+        "Within weeks",
+        "Within months"
+      ],
+      "correct": 1,
+      "explanation": "Microbes that divide fast can multiply and become millions within hours."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What happens when medium composition changes for bacteria?",
+      "options": [
+        "All bacteria die",
+        "Only the part that can survive under new conditions survives",
+        "Bacteria mutate immediately",
+        "Bacteria stop dividing"
+      ],
+      "correct": 1,
+      "explanation": "A change in medium brings out only that part of population that can survive under new conditions."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How long would the same evolutionary change take in fish or fowl?",
+      "options": [
+        "Within days",
+        "Within months",
+        "Millions of years",
+        "Thousands of years"
+      ],
+      "correct": 2,
+      "explanation": "For fish or fowl, the same change would take millions of years due to longer life spans."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does fitness refer to in this context?",
+      "options": [
+        "Physical strength",
+        "Ability to survive and reproduce under given conditions",
+        "Size of the organism",
+        "Speed of movement"
+      ],
+      "correct": 1,
+      "explanation": "Fitness refers to the ability to survive and reproduce better under new conditions."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What must fitness be based on?",
+      "options": [
+        "Learned behavior",
+        "Inherited characteristics",
+        "Environmental factors only",
+        "Random chance"
+      ],
+      "correct": 1,
+      "explanation": "Fitness is based on characteristics which are inherited."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the genetic basis for selection important for?",
+      "options": [
+        "Only for bacteria",
+        "For getting selected and to evolve",
+        "Only for plants",
+        "For fossil formation"
+      ],
+      "correct": 1,
+      "explanation": "There must be a genetic basis for getting selected and to evolve."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the end result of ability to adapt and get selected?",
+      "options": [
+        "Extinction",
+        "Fitness",
+        "Mutation",
+        "Speciation"
+      ],
+      "correct": 1,
+      "explanation": "Fitness is the end result of the ability to adapt and get selected by nature."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What are the two key concepts of Darwinian Theory?",
+      "options": [
+        "Mutation and genetic drift",
+        "Branching descent and natural selection",
+        "Use and disuse of organs",
+        "Gene flow and recombination"
+      ],
+      "correct": 1,
+      "explanation": "Branching descent and natural selection are the two key concepts of Darwinian Theory."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Who proposed that evolution was driven by use and disuse of organs?",
+      "options": [
+        "Charles Darwin",
+        "Jean-Baptiste Lamarck",
+        "Alfred Wallace",
+        "Ernst Haeckel"
+      ],
+      "correct": 1,
+      "explanation": "Lamarck proposed that evolution was driven by use and disuse of organs."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What example did Lamarck give for his theory?",
+      "options": [
+        "Evolution of whales",
+        "Giraffes elongating their necks to reach tall trees",
+        "Darwin's finches",
+        "Industrial melanism in moths"
+      ],
+      "correct": 1,
+      "explanation": "Lamarck gave the example of giraffes elongating necks to forage leaves on tall trees."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How did Lamarck explain giraffes acquiring long necks?",
+      "options": [
+        "Through natural selection",
+        "By passing acquired character of elongated neck to offspring",
+        "Through genetic mutation",
+        "Through random chance"
+      ],
+      "correct": 1,
+      "explanation": "Lamarck believed giraffes passed the acquired character of elongated neck to succeeding generations."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What is the current scientific view on Lamarck's theory?",
+      "options": [
+        "It is widely accepted",
+        "Nobody believes this conjecture any more",
+        "It is partially correct",
+        "It has been proven by modern experiments"
+      ],
+      "correct": 1,
+      "explanation": "The text states that nobody believes Lamarck's conjecture any more."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What fundamental question does the mechanism of evolution address?",
+      "options": [
+        "How did life first originate on Earth?",
+        "What is the origin of variation and how does speciation occur?",
+        "Why do organisms become extinct over time?",
+        "How does natural selection operate in populations?"
+      ],
+      "correct": 1,
+      "explanation": "The section on mechanism of evolution begins by asking what is the origin of variation and how does speciation occur."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did Mendel talk about that was relevant to evolution?",
+      "options": [
+        "Natural selection theory",
+        "Inheritable factors influencing phenotype",
+        "Mutation as a cause of evolution",
+        "Spontaneous generation of life"
+      ],
+      "correct": 1,
+      "explanation": "Mendel had talked of inheritable factors influencing phenotype, which was relevant to understanding variation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How did Darwin respond to Mendel's observations about inheritable factors?",
+      "options": [
+        "He fully incorporated them into his theory",
+        "He either ignored these observations or kept silence",
+        "He strongly criticized Mendel's findings",
+        "He conducted experiments to verify them"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Darwin either ignored Mendel's observations or kept silence about them."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Who brought forth the idea of mutations in the first decade of the twentieth century?",
+      "options": [
+        "Charles Darwin",
+        "Gregor Mendel",
+        "Hugo deVries",
+        "Alfred Wallace"
+      ],
+      "correct": 2,
+      "explanation": "Hugo deVries based on his work on evening primrose brought forth the idea of mutations in the first decade of the twentieth century."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "On which plant did Hugo deVries base his work on mutations?",
+      "options": [
+        "Pea plant",
+        "Evening primrose",
+        "Fruit fly",
+        "Mustard plant"
+      ],
+      "correct": 1,
+      "explanation": "Hugo deVries based his work on mutations on the evening primrose plant."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did deVries define mutations as?",
+      "options": [
+        "Small gradual changes in phenotype",
+        "Large differences arising suddenly in a population",
+        "Environmental adaptations over generations",
+        "Genetic recombination during reproduction"
+      ],
+      "correct": 1,
+      "explanation": "deVries defined mutations as large differences arising suddenly in a population."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did deVries believe was the cause of evolution?",
+      "options": [
+        "Natural selection acting on minor variations",
+        "Mutation",
+        "Genetic drift in small populations",
+        "Gene flow between populations"
+      ],
+      "correct": 1,
+      "explanation": "deVries believed that mutation causes evolution, not the minor variations that Darwin talked about."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "According to deVries, what did NOT cause evolution?",
+      "options": [
+        "Mutations",
+        "Minor heritable variations that Darwin talked about",
+        "Large genetic changes",
+        "Sudden differences in population"
+      ],
+      "correct": 1,
+      "explanation": "deVries believed it is mutation which causes evolution and not the minor variations (heritable) that Darwin talked about."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How are mutations characterized according to the text?",
+      "options": [
+        "Directed and predictable",
+        "Random and directionless",
+        "Small and gradual",
+        "Environmental and adaptive"
+      ],
+      "correct": 1,
+      "explanation": "Mutations are described as random and directionless in the text."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How are Darwinian variations characterized?",
+      "options": [
+        "Random and directionless",
+        "Large and sudden",
+        "Small and directional",
+        "Caused by mutations only"
+      ],
+      "correct": 2,
+      "explanation": "Darwinian variations are described as small and directional, contrasting with mutations which are random and directionless."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How did Darwin view the process of evolution?",
+      "options": [
+        "As a sudden process caused by large mutations",
+        "As a gradual process",
+        "As a process driven by genetic drift",
+        "As a process occurring only in isolated populations"
+      ],
+      "correct": 1,
+      "explanation": "Evolution for Darwin was gradual, occurring through small variations over long periods of time."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What did deVries believe caused speciation?",
+      "options": [
+        "Natural selection over millions of years",
+        "Mutation",
+        "Geographic isolation of populations",
+        "Behavioral changes in organisms"
+      ],
+      "correct": 1,
+      "explanation": "deVries believed mutation caused speciation, which he called saltation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What term did deVries use for mutation causing speciation?",
+      "options": [
+        "Natural selection",
+        "Genetic drift",
+        "Saltation",
+        "Gene flow"
+      ],
+      "correct": 2,
+      "explanation": "deVries called mutation causing speciation as saltation, meaning single step large mutation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What does saltation mean in deVries' theory?",
+      "options": [
+        "Gradual change over many generations",
+        "Single step large mutation",
+        "Natural selection acting on populations",
+        "Environmental adaptation process"
+      ],
+      "correct": 1,
+      "explanation": "Saltation refers to single step large mutation that causes speciation according to deVries."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What field of study later brought out additional understanding about evolution?",
+      "options": [
+        "Molecular biology",
+        "Population genetics",
+        "Ecology",
+        "Biochemistry"
+      ],
+      "correct": 1,
+      "explanation": "Studies in population genetics later brought out additional understanding about the mechanism of evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What type of variations did Darwin focus on in his theory?",
+      "options": [
+        "Large sudden mutations",
+        "Minor heritable variations",
+        "Non-heritable environmental changes",
+        "Chromosomal abnormalities"
+      ],
+      "correct": 1,
+      "explanation": "Darwin focused on minor heritable variations as the basis for natural selection and gradual evolution."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "How do mutations differ from Darwinian variations in terms of direction?",
+      "options": [
+        "Both are directional",
+        "Mutations are directionless while Darwinian variations are directional",
+        "Both are directionless",
+        "Mutations are directional while Darwinian variations are directionless"
+      ],
+      "correct": 1,
+      "explanation": "Mutations are random and directionless while Darwinian variations are small and directional."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "Which scientist's work was on evening primrose?",
+      "options": [
+        "Charles Darwin",
+        "Gregor Mendel",
+        "Hugo deVries",
+        "Jean-Baptiste Lamarck"
+      ],
+      "correct": 2,
+      "explanation": "Hugo deVries conducted his work on mutations using the evening primrose plant."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was Darwin's view on the speed of evolution?",
+      "options": [
+        "Evolution occurs through sudden large mutations",
+        "Evolution is a gradual process",
+        "Evolution happens only during mass extinction events",
+        "Evolution is instantaneous in bacteria"
+      ],
+      "correct": 1,
+      "explanation": "Darwin viewed evolution as a gradual process occurring through small variations over long periods."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What was deVries' view on the speed of speciation?",
+      "options": [
+        "Speciation occurs gradually over millions of years",
+        "Speciation occurs through single step large mutations",
+        "Speciation requires geographic isolation only",
+        "Speciation is caused by environmental changes alone"
+      ],
+      "correct": 1,
+      "explanation": "deVries believed speciation occurs through saltation, which is single step large mutation."
+    },
+    {
+      "topic": "Chapter 6",
+      "question": "What century did deVries propose his mutation theory?",
+      "options": [
+        "Nineteenth century",
+        "Twentieth century",
+        "Eighteenth century",
+        "Twenty-first century"
+      ],
+      "correct": 1,
+      "explanation": "deVries proposed his mutation theory in the first decade of the twentieth century."
+    }
+  ]
+}

@@ -1,0 +1,2101 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 2",
+    "chapterId": "chapter2",
+    "source": "Chapter2.xlsx",
+    "count": 174
+  },
+  "questions": [
+    {
+      "topic": "Chapter 2",
+      "question": "What type of reproduction do humans exhibit?",
+      "options": [
+        "Asexual reproduction",
+        "Sexual reproduction and viviparous",
+        "Budding",
+        "Fragmentation"
+      ],
+      "correct": 1,
+      "explanation": "Humans are sexually reproducing and viviparous, meaning they produce offspring through sexual reproduction and give birth to live young rather than laying eggs."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following is NOT included in the reproductive events in humans?",
+      "options": [
+        "Formation of gametes (gametogenesis)",
+        "Transfer of sperms into female genital tract (insemination)",
+        "Fusion of male and female gametes (fertilisation)",
+        "Photosynthesis in reproductive organs"
+      ],
+      "correct": 3,
+      "explanation": "The reproductive events in humans include gametogenesis (formation of gametes), insemination (transfer of sperms), fertilisation (fusion of gametes), blastocyst formation, implantation, gestation, and parturition. Photosynthesis is a plant process and is not related to human reproduction."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process of formation of gametes called?",
+      "options": [
+        "Fertilisation",
+        "Gametogenesis",
+        "Implantation",
+        "Parturition"
+      ],
+      "correct": 1,
+      "explanation": "Gametogenesis is the process of formation of gametes. In males, it produces sperms (spermatogenesis), and in females, it produces ova (oogenesis)."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Where are sperms formed in males?",
+      "options": [
+        "Ovaries",
+        "Testes",
+        "Prostate gland",
+        "Seminal vesicles"
+      ],
+      "correct": 1,
+      "explanation": "Sperms are formed in the testes through the process of spermatogenesis. The testes are the primary male reproductive organs located in the scrotum."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Where are ova (eggs) formed in females?",
+      "options": [
+        "Uterus",
+        "Fallopian tubes",
+        "Ovaries",
+        "Vagina"
+      ],
+      "correct": 2,
+      "explanation": "Ova are formed in the ovaries through the process of oogenesis. The ovaries are the primary female reproductive organs that produce female gametes and steroid hormones."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the fusion of male and female gametes called?",
+      "options": [
+        "Insemination",
+        "Fertilisation",
+        "Ovulation",
+        "Implantation"
+      ],
+      "correct": 1,
+      "explanation": "Fertilisation is the fusion of male and female gametes (sperm and ovum) leading to the formation of a zygote. This occurs in the ampullary region of the fallopian tube."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "After fertilisation, what structure forms and attaches to the uterine wall?",
+      "options": [
+        "Ovum",
+        "Blastocyst",
+        "Corpus luteum",
+        "Graafian follicle"
+      ],
+      "correct": 1,
+      "explanation": "After fertilisation, the zygote undergoes cleavage to form a blastocyst, which then attaches to the uterine wall in a process called implantation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "At what stage of life do reproductive events begin in humans?",
+      "options": [
+        "Birth",
+        "Puberty",
+        "Menopause",
+        "Adolescence"
+      ],
+      "correct": 1,
+      "explanation": "Reproductive events in humans occur after puberty, which is the stage of sexual maturation when the reproductive organs become functional."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which statement correctly describes a difference between male and female reproductive events?",
+      "options": [
+        "Sperm formation stops at puberty in males",
+        "Ovum formation continues throughout a woman's life",
+        "Sperm formation continues even in old men, but ovum formation ceases around age 50 in women",
+        "Both sperm and ovum formation continue throughout life"
+      ],
+      "correct": 2,
+      "explanation": "There are remarkable differences between male and female reproductive events. Sperm formation continues even in old men, but formation of ovum ceases in women around the age of fifty years (menopause)."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Where are the testes situated in the male reproductive system?",
+      "options": [
+        "Inside the abdominal cavity",
+        "Outside the abdominal cavity within a pouch called scrotum",
+        "Inside the urinary bladder",
+        "Within the pelvic wall only"
+      ],
+      "correct": 1,
+      "explanation": "The testes are situated outside the abdominal cavity within a pouch called scrotum. The scrotum helps in maintaining the low temperature of the testes (2-2.5°C lower than normal body temperature) necessary for spermatogenesis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the primary function of the scrotum in the male reproductive system?",
+      "options": [
+        "To produce testosterone",
+        "To store sperm cells",
+        "To maintain low temperature of testes necessary for spermatogenesis",
+        "To transport sperm to the urethra"
+      ],
+      "correct": 2,
+      "explanation": "The scrotum helps in maintaining the low temperature of the testes (2-2.5°C lower than the normal internal body temperature) which is necessary for spermatogenesis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What are the approximate dimensions of each testis in an adult male?",
+      "options": [
+        "Length 2-3 cm and width 1-2 cm",
+        "Length 4-5 cm and width 2-3 cm",
+        "Length 6-7 cm and width 3-4 cm",
+        "Length 8-10 cm and width 4-5 cm"
+      ],
+      "correct": 1,
+      "explanation": "In adults, each testis is oval in shape, with a length of about 4 to 5 cm and a width of about 2 to 3 cm."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How many compartments called testicular lobules does each testis contain?",
+      "options": [
+        "About 50 compartments",
+        "About 100 compartments",
+        "About 150 compartments",
+        "About 250 compartments"
+      ],
+      "correct": 3,
+      "explanation": "Each testis has about 250 compartments called testicular lobules. Each lobule contains one to three highly coiled seminiferous tubules in which sperms are produced."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What are the two types of cells that line the inside of each seminiferous tubule?",
+      "options": [
+        "Leydig cells and Sertoli cells",
+        "Male germ cells (spermatogonia) and Sertoli cells",
+        "Spermatids and spermatozoa",
+        "Interstitial cells and germ cells"
+      ],
+      "correct": 1,
+      "explanation": "Each seminiferous tubule is lined on its inside by two types of cells called male germ cells (spermatogonia) and Sertoli cells. The male germ cells undergo meiotic divisions leading to sperm formation, while Sertoli cells provide nutrition to the germ cells."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the function of Sertoli cells in the seminiferous tubules?",
+      "options": [
+        "They synthesize androgens",
+        "They provide nutrition to the germ cells",
+        "They produce seminal plasma",
+        "They transport sperm to the epididymis"
+      ],
+      "correct": 1,
+      "explanation": "Sertoli cells provide nutrition to the germ cells. The male germ cells (spermatogonia) undergo meiotic divisions finally leading to sperm formation, while Sertoli cells nourish these dividing germ cells."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Where are Leydig cells located and what do they secrete?",
+      "options": [
+        "Inside seminiferous tubules; they secrete FSH",
+        "In interstitial spaces outside seminiferous tubules; they synthesize and secrete androgens",
+        "Inside the epididymis; they secrete seminal fluid",
+        "In the prostate gland; they secrete testosterone only"
+      ],
+      "correct": 1,
+      "explanation": "The regions outside the seminiferous tubules called interstitial spaces contain small blood vessels and interstitial cells or Leydig cells. Leydig cells synthesise and secrete testicular hormones called androgens."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following are included in the male sex accessory ducts?",
+      "options": [
+        "Testis, scrotum, and penis",
+        "Rete testis, vasa efferentia, epididymis, and vas deferens",
+        "Seminal vesicle, prostate, and bulbourethral glands",
+        "Urethra, urinary bladder, and ureter"
+      ],
+      "correct": 1,
+      "explanation": "The male sex accessory ducts include rete testis, vasa efferentia, epididymis, and vas deferens. The seminiferous tubules open into the vasa efferentia through rete testis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the correct pathway of sperm transport from the testis to the outside?",
+      "options": [
+        "Testis → Epididymis → Vas deferens → Ejaculatory duct → Urethra",
+        "Testis → Vas deferens → Epididymis → Urethra → Ejaculatory duct",
+        "Testis → Rete testis → Urethra → Vas deferens → Outside",
+        "Testis → Seminal vesicle → Prostate → Urethra → Outside"
+      ],
+      "correct": 0,
+      "explanation": "The seminiferous tubules open into vasa efferentia through rete testis. Vasa efferentia open into epididymis. Epididymis leads to vas deferens that ascends to abdomen and loops over urinary bladder. It receives duct from seminal vesicle and opens into urethra as ejaculatory duct."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Where is the male reproductive system located in the human body?",
+      "options": [
+        "Abdominal cavity",
+        "Thoracic cavity",
+        "Pelvis region",
+        "Cranial cavity"
+      ],
+      "correct": 2,
+      "explanation": "The male reproductive system is located in the pelvis region. It includes a pair of testes along with accessory ducts, glands and external genitalia."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the primary function of the scrotum in the male reproductive system?",
+      "options": [
+        "To produce testosterone",
+        "To protect the testes from injury",
+        "To maintain lower temperature for spermatogenesis",
+        "To store mature sperm cells"
+      ],
+      "correct": 2,
+      "explanation": "The scrotum helps in maintaining the low temperature of the testes (2-2.5 degrees C lower than normal body temperature) which is necessary for spermatogenesis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the approximate length of an adult human testis?",
+      "options": [
+        "1 to 2 cm",
+        "4 to 5 cm",
+        "8 to 10 cm",
+        "12 to 15 cm"
+      ],
+      "correct": 1,
+      "explanation": "In adults, each testis is oval in shape with a length of about 4 to 5 cm and a width of about 2 to 3 cm."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How many testicular lobules are present in each testis approximately?",
+      "options": [
+        "About 50 compartments",
+        "About 100 compartments",
+        "About 250 compartments",
+        "About 500 compartments"
+      ],
+      "correct": 2,
+      "explanation": "Each testis has about 250 compartments called testicular lobules. Each lobule contains one to three highly coiled seminiferous tubules where sperms are produced."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which two types of cells line the inside of each seminiferous tubule?",
+      "options": [
+        "Leydig cells and Sertoli cells",
+        "Male germ cells (spermatogonia) and Sertoli cells",
+        "Spermatids and Spermatozoa",
+        "Interstitial cells and Leydig cells"
+      ],
+      "correct": 1,
+      "explanation": "Each seminiferous tubule is lined on its inside by two types of cells: male germ cells (spermatogonia) and Sertoli cells. The male germ cells undergo meiotic divisions leading to sperm formation, while Sertoli cells provide nutrition to the germ cells."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the function of Leydig cells (interstitial cells) in the testis?",
+      "options": [
+        "To produce sperm cells directly",
+        "To provide nutrition to germ cells",
+        "To synthesize and secrete androgens (testicular hormones)",
+        "To form the blood-testis barrier"
+      ],
+      "correct": 2,
+      "explanation": "Leydig cells (interstitial cells) are found in the interstitial spaces outside the seminiferous tubules. They synthesize and secrete testicular hormones called androgens."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the correct sequence of male sex accessory ducts from testis to urethra?",
+      "options": [
+        "Rete testis to vasa efferentia to epididymis to vas deferens to ejaculatory duct",
+        "Vasa efferentia to rete testis to epididymis to vas deferens to ejaculatory duct",
+        "Rete testis to epididymis to vasa efferentia to vas deferens to ejaculatory duct",
+        "Epididymis to rete testis to vasa efferentia to vas deferens to ejaculatory duct"
+      ],
+      "correct": 0,
+      "explanation": "The seminiferous tubules open into vasa efferentia through rete testis. The vasa efferentia open into epididymis, which leads to vas deferens. The vas deferens receives a duct from seminal vesicle and opens into urethra as the ejaculatory duct."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which glands contribute secretions that constitute the seminal plasma?",
+      "options": [
+        "Only seminal vesicles",
+        "Seminal vesicles, prostate, and bulbourethral glands",
+        "Only prostate gland",
+        "Only bulbourethral glands"
+      ],
+      "correct": 1,
+      "explanation": "The male accessory glands include paired seminal vesicles, a prostate, and paired bulbourethral glands. Their secretions constitute the seminal plasma which is rich in fructose, calcium, and certain enzymes."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following is NOT a component of the female reproductive system?",
+      "options": [
+        "Ovaries",
+        "Oviducts",
+        "Seminal vesicles",
+        "Uterus"
+      ],
+      "correct": 2,
+      "explanation": "The female reproductive system consists of a pair of ovaries, a pair of oviducts, uterus, cervix, vagina, and external genitalia. Seminal vesicles are male accessory glands, not part of the female system."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How are the ovaries connected to the pelvic wall and uterus?",
+      "options": [
+        "By blood vessels only",
+        "By ligaments",
+        "By muscular tissue",
+        "By nerve fibers only"
+      ],
+      "correct": 1,
+      "explanation": "Each ovary is connected to the pelvic wall and uterus by ligaments. Each ovary is about 2 to 4 cm in length and is covered by a thin epithelium."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "The ovarian stroma is divided into which two zones?",
+      "options": [
+        "Anterior and posterior zones",
+        "Upper and lower zones",
+        "Peripheral cortex and inner medulla",
+        "Left and right zones"
+      ],
+      "correct": 2,
+      "explanation": "The ovarian stroma is divided into two zones: a peripheral cortex and an inner medulla. The cortex contains ovarian follicles in different stages of development."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which part of the fallopian tube is funnel-shaped and possesses finger-like projections called fimbriae?",
+      "options": [
+        "Ampulla",
+        "Isthmus",
+        "Infundibulum",
+        "Uterine part"
+      ],
+      "correct": 2,
+      "explanation": "The part of the fallopian tube closer to the ovary is the funnel-shaped infundibulum. The edges of the infundibulum possess finger-like projections called fimbriae, which help in collection of the ovum after ovulation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which layer of the uterus undergoes cyclical changes during the menstrual cycle?",
+      "options": [
+        "Perimetrium",
+        "Myometrium",
+        "Endometrium",
+        "Epimetrium"
+      ],
+      "correct": 2,
+      "explanation": "The endometrium is the inner glandular layer that lines the uterine cavity. It undergoes cyclical changes during the menstrual cycle, while the myometrium exhibits strong contractions during delivery."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following is NOT part of the female external genitalia?",
+      "options": [
+        "Mons pubis",
+        "Labia majora",
+        "Clitoris",
+        "Ovary"
+      ],
+      "correct": 3,
+      "explanation": "The female external genitalia include mons pubis, labia majora, labia minora, hymen, and clitoris. The ovary is an internal primary sex organ, not external genitalia."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How many mammary lobes are present in each breast of the mammary gland?",
+      "options": [
+        "5 to 10 lobes",
+        "15 to 20 lobes",
+        "25 to 30 lobes",
+        "40 to 50 lobes"
+      ],
+      "correct": 1,
+      "explanation": "The glandular tissue of each breast is divided into 15-20 mammary lobes containing clusters of cells called alveoli. The cells of alveoli secrete milk."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following is NOT part of the female reproductive system?",
+      "options": [
+        "Ovaries",
+        "Oviducts",
+        "Seminal vesicles",
+        "Uterus"
+      ],
+      "correct": 2,
+      "explanation": "Seminal vesicles are male accessory glands, not part of the female reproductive system. The female system consists of ovaries, oviducts, uterus, cervix, vagina, and external genitalia."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the funnel-shaped part of the fallopian tube closer to the ovary called?",
+      "options": [
+        "Ampulla",
+        "Isthmus",
+        "Infundibulum",
+        "Cervix"
+      ],
+      "correct": 2,
+      "explanation": "The infundibulum is the funnel-shaped part of the fallopian tube closer to the ovary. Its edges have finger-like projections called fimbriae that help collect the ovum after ovulation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the function of fimbriae in the female reproductive system?",
+      "options": [
+        "To produce ova",
+        "To secrete hormones",
+        "To help collect the ovum after ovulation",
+        "To transport sperm"
+      ],
+      "correct": 2,
+      "explanation": "Fimbriae are finger-like projections at the edges of the infundibulum that help in the collection of the ovum after ovulation. They guide the released ovum into the fallopian tube."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the shape of the uterus in human females?",
+      "options": [
+        "Spherical",
+        "Inverted pear",
+        "Cylindrical",
+        "Triangular"
+      ],
+      "correct": 1,
+      "explanation": "The uterus is single and its shape is like an inverted pear. It is supported by ligaments attached to the pelvic wall and opens into the vagina through the cervix."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which layer of the uterus undergoes cyclical changes during the menstrual cycle?",
+      "options": [
+        "Perimetrium",
+        "Myometrium",
+        "Endometrium",
+        "Epimetrium"
+      ],
+      "correct": 2,
+      "explanation": "The endometrium is the inner glandular layer that lines the uterine cavity. It undergoes cyclical changes during the menstrual cycle, thickening and then breaking down if fertilization does not occur."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the function of the myometrium during delivery?",
+      "options": [
+        "To produce milk",
+        "To exhibit strong contractions",
+        "To secrete hormones",
+        "To protect the foetus"
+      ],
+      "correct": 1,
+      "explanation": "The myometrium is the middle thick layer of smooth muscle in the uterus. It exhibits strong contractions during delivery of the baby (parturition) to expel the foetus."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following is NOT part of the female external genitalia?",
+      "options": [
+        "Mons pubis",
+        "Labia majora",
+        "Clitoris",
+        "Cervix"
+      ],
+      "correct": 3,
+      "explanation": "The cervix is part of the internal reproductive system (the lower narrow part of the uterus), not external genitalia. External genitalia include mons pubis, labia majora, labia minora, hymen, and clitoris."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How many mammary lobes are typically present in each breast of a functional mammary gland?",
+      "options": [
+        "5-10",
+        "10-15",
+        "15-20",
+        "25-30"
+      ],
+      "correct": 2,
+      "explanation": "The glandular tissue of each breast is divided into 15-20 mammary lobes containing clusters of cells called alveoli."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the function of alveoli cells in the mammary gland?",
+      "options": [
+        "Store fat tissue",
+        "Secrete milk which is stored in the lumens",
+        "Transport milk to the nipple",
+        "Produce hormones"
+      ],
+      "correct": 1,
+      "explanation": "The cells of alveoli secrete milk, which is stored in the cavities (lumens) of alveoli. The alveoli open into mammary tubules."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the correct pathway of milk from alveoli to the nipple?",
+      "options": [
+        "Alveoli -> Mammary tubules -> Mammary duct -> Mammary ampulla -> Lactiferous duct -> Nipple",
+        "Alveoli -> Mammary duct -> Mammary tubules -> Lactiferous duct -> Nipple",
+        "Alveoli -> Lactiferous duct -> Mammary ampulla -> Mammary duct -> Nipple",
+        "Alveoli -> Mammary ampulla -> Mammary tubules -> Mammary duct -> Nipple"
+      ],
+      "correct": 0,
+      "explanation": "The alveoli open into mammary tubules. The tubules of each lobe join to form a mammary duct. Several mammary ducts join to form a wider mammary ampulla which is connected to lactiferous duct and opens at the nipple."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process called that produces gametes in testis and ovaries?",
+      "options": [
+        "Mitogenesis",
+        "Gametogenesis",
+        "Spermiogenesis",
+        "Oogenesis"
+      ],
+      "correct": 1,
+      "explanation": "The primary sex organs produce gametes by the process called gametogenesis. In testis, spermatogonia produce sperms by spermatogenesis, while in ovaries, oogonia produce ova by oogenesis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How many chromosomes does each spermatogonium contain?",
+      "options": [
+        "23",
+        "46",
+        "69",
+        "92"
+      ],
+      "correct": 1,
+      "explanation": "Each spermatogonium is diploid and contains 46 chromosomes. Some spermatogonia called primary spermatocytes periodically undergo meiosis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is produced when a primary spermatocyte completes the first meiotic division?",
+      "options": [
+        "Four spermatids",
+        "Two secondary spermatocytes with 23 chromosomes each",
+        "Two spermatogonia",
+        "One spermatozoon"
+      ],
+      "correct": 1,
+      "explanation": "A primary spermatocyte completes the first meiotic division (reduction division) leading to formation of two equal, haploid cells called secondary spermatocytes, which have only 23 chromosomes each."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How many spermatids are produced from secondary spermatocytes after the second meiotic division?",
+      "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Eight"
+      ],
+      "correct": 1,
+      "explanation": "The secondary spermatocytes undergo the second meiotic division to produce four equal, haploid spermatids. The spermatids are then transformed into spermatozoa by spermiogenesis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone triggers the start of spermatogenesis at puberty?",
+      "options": [
+        "Testosterone",
+        "GnRH (Gonadotropin releasing hormone)",
+        "Progesterone",
+        "Estrogen"
+      ],
+      "correct": 1,
+      "explanation": "Spermatogenesis starts at the age of puberty due to significant increase in the secretion of gonadotropin releasing hormone (GnRH). This hypothalamic hormone acts at the anterior pituitary gland to stimulate LH and FSH secretion."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the function of Luteinising Hormone (LH) in male reproduction?",
+      "options": [
+        "Acts on Sertoli cells to stimulate sperm maturation",
+        "Acts on Leydig cells to stimulate synthesis and secretion of androgens",
+        "Directly produces sperm cells",
+        "Triggers the release of semen"
+      ],
+      "correct": 1,
+      "explanation": "LH acts at the Leydig cells and stimulates synthesis and secretion of androgens. Androgens, in turn, stimulate the process of spermatogenesis. FSH acts on the Sertoli cells and stimulates secretion of factors that help in spermatogenesis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process called when cells of the sporogenous tissue undergo meiotic divisions to form microspore tetrads?",
+      "options": [
+        "Megasporogenesis",
+        "Microsporogenesis",
+        "Pollination",
+        "Fertilization"
+      ],
+      "correct": 1,
+      "explanation": "Microsporogenesis is the process of formation of microspores from a pollen mother cell (PMC) through meiosis. The sporogenous tissue cells undergo meiotic divisions to form microspore tetrads."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the ploidy of the cells in a microspore tetrad?",
+      "options": [
+        "Diploid (2n)",
+        "Triploid (3n)",
+        "Tetraploid (4n)",
+        "Haploid (n)"
+      ],
+      "correct": 3,
+      "explanation": "The microspore tetrad cells are haploid (n) because they are formed through meiosis (reduction division) from diploid pollen mother cells."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What happens to microspores as the anthers mature and dehydrate?",
+      "options": [
+        "They fuse together to form larger cells",
+        "They dissociate from each other and develop into pollen grains",
+        "They degenerate and die",
+        "They transform into tapetal cells"
+      ],
+      "correct": 1,
+      "explanation": "As the anthers mature and dehydrate, the microspores dissociate from each other and develop into pollen grains. This is a key step in pollen grain formation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the approximate diameter of a typical pollen grain?",
+      "options": [
+        "5-10 micrometers",
+        "10-20 micrometers",
+        "25-50 micrometers",
+        "100-200 micrometers"
+      ],
+      "correct": 2,
+      "explanation": "Pollen grains are generally spherical measuring about 25-50 micrometers in diameter. This size allows them to be easily dispersed and captured by stigmas."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the composition of the hard outer layer (exine) of the pollen grain wall?",
+      "options": [
+        "Cellulose and pectin",
+        "Sporopollenin",
+        "Lignin",
+        "Suberin"
+      ],
+      "correct": 1,
+      "explanation": "The hard outer layer called the exine is made up of sporopollenin, which is one of the most resistant organic materials known. It can withstand high temperatures and strong acids and alkali."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Why are pollen grains well-preserved as fossils?",
+      "options": [
+        "Because of their cellulose wall",
+        "Because of the presence of sporopollenin",
+        "Because they are very small",
+        "Because they contain food reserves"
+      ],
+      "correct": 1,
+      "explanation": "Pollen grains are well-preserved as fossils because of the presence of sporopollenin in the exine. Sporopollenin is highly resistant to degradation and no enzyme that degrades it is known."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What are the two cells present in a mature pollen grain at the 2-celled stage?",
+      "options": [
+        "Two male gametes",
+        "Vegetative cell and generative cell",
+        "Two synergids",
+        "Egg cell and central cell"
+      ],
+      "correct": 1,
+      "explanation": "When the pollen grain is mature at the 2-celled stage, it contains a vegetative cell (bigger, with abundant food reserve and large irregularly shaped nucleus) and a generative cell (small, spindle-shaped with dense cytoplasm)."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "In what percentage of angiosperms are pollen grains shed at the 2-celled stage?",
+      "options": [
+        "About 30%",
+        "About 40%",
+        "Over 60%",
+        "About 90%"
+      ],
+      "correct": 2,
+      "explanation": "In over 60 percent of angiosperms, pollen grains are shed at the 2-celled stage (containing vegetative cell and generative cell). In the remaining species, the generative cell divides to form two male gametes before shedding."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the function of the germ pores on the pollen grain exine?",
+      "options": [
+        "To store food reserves",
+        "To allow pollen tube emergence during germination",
+        "To attach to the stigma",
+        "To protect against UV radiation"
+      ],
+      "correct": 1,
+      "explanation": "The germ pores are apertures on the exine where sporopollenin is absent. They serve as the sites through which the pollen tube emerges during pollen germination on the stigma."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "During copulation, where is semen released in the female reproductive system?",
+      "options": [
+        "Into the uterus directly",
+        "Into the fallopian tube",
+        "Into the vagina",
+        "Into the cervix"
+      ],
+      "correct": 2,
+      "explanation": "During copulation (coitus), semen is released by the penis into the vagina. This process is called insemination. The sperms then swim through the cervix and uterus to reach the fallopian tube."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which region of the fallopian tube is the site of fertilisation?",
+      "options": [
+        "Infundibulum",
+        "Isthmus",
+        "Ampullary region",
+        "Fimbriae"
+      ],
+      "correct": 2,
+      "explanation": "Fertilisation takes place in the ampullary region of the fallopian tube. The motile sperms swim through the cervix and uterus to reach this specific region where the ovum is also transported."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process called when a sperm fuses with an ovum?",
+      "options": [
+        "Insemination",
+        "Ovulation",
+        "Fertilisation",
+        "Implantation"
+      ],
+      "correct": 2,
+      "explanation": "The process of fusion of a sperm with an ovum is called fertilisation. This results in the formation of a diploid zygote."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which layer of the ovum does the sperm first contact during fertilisation?",
+      "options": [
+        "Plasma membrane",
+        "Zona pellucida",
+        "Corona radiata",
+        "Perivitelline space"
+      ],
+      "correct": 1,
+      "explanation": "During fertilisation, a sperm comes in contact with the zona pellucida layer of the ovum. This contact induces changes in the membrane that block the entry of additional sperms, ensuring only one sperm fertilises the ovum."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What ensures that only one sperm can fertilise an ovum?",
+      "options": [
+        "The acrosome reaction",
+        "Membrane changes induced by sperm contact",
+        "The corona radiata barrier",
+        "The perivitelline space"
+      ],
+      "correct": 1,
+      "explanation": "When a sperm contacts the zona pellucida, it induces changes in the membrane that block the entry of additional sperms. This mechanism ensures monospermy, where only one sperm fertilises the ovum."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which structure of the sperm contains enzymes that help penetrate the ovum?",
+      "options": [
+        "Nucleus",
+        "Middle piece",
+        "Acrosome",
+        "Tail"
+      ],
+      "correct": 2,
+      "explanation": "The acrosome is a cap-like structure at the anterior portion of the sperm head. It is filled with enzymes that help the sperm enter into the cytoplasm of the ovum through the zona pellucida and plasma membrane."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Why do not all copulations result in fertilisation?",
+      "options": [
+        "Sperms are not always motile",
+        "The ovum and sperms must be transported simultaneously to the ampullary region",
+        "The cervix blocks all sperms",
+        "The uterus is acidic"
+      ],
+      "correct": 1,
+      "explanation": "Fertilisation can only occur if the ovum and sperms are transported simultaneously to the ampullary region of the fallopian tube. Since timing may not always coincide, not all copulations lead to fertilisation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the outer layer of cells in the blastocyst called?",
+      "options": [
+        "Inner cell mass",
+        "Trophoblast",
+        "Blastomere",
+        "Morula"
+      ],
+      "correct": 1,
+      "explanation": "The blastomeres in the blastocyst are arranged into an outer layer called trophoblast and an inner group of cells attached to trophoblast called the inner cell mass. The trophoblast later forms chorionic villi for placenta formation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the term for the attachment of the blastocyst to the uterine endometrium?",
+      "options": [
+        "Fertilisation",
+        "Ovulation",
+        "Implantation",
+        "Insemination"
+      ],
+      "correct": 2,
+      "explanation": "Implantation is the process where the blastocyst becomes embedded in the endometrium of the uterus. After attachment, uterine cells divide rapidly and cover the blastocyst, leading to pregnancy."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which cells provide nutrition to the developing germ cells in the seminiferous tubules?",
+      "options": [
+        "Leydig cells",
+        "Sertoli cells",
+        "Spermatogonia",
+        "Interstitial cells"
+      ],
+      "correct": 1,
+      "explanation": "Sertoli cells are found inside the seminiferous tubules and provide nutrition to the dividing male germ cells (spermatogonia). They also help in the release of sperms through spermiation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the structure that connects the placenta to the embryo?",
+      "options": [
+        "Yolk sac",
+        "Amnion",
+        "Umbilical cord",
+        "Allantois"
+      ],
+      "correct": 2,
+      "explanation": "The placenta is connected to the embryo through an umbilical cord. This cord helps in the transport of oxygen, nutrients, and waste materials between the embryo and the mother."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone is produced by the placenta during pregnancy?",
+      "options": [
+        "Thyroxine",
+        "Insulin",
+        "Human chorionic gonadotropin (hCG)",
+        "Adrenaline"
+      ],
+      "correct": 2,
+      "explanation": "The placenta acts as an endocrine tissue and produces several hormones including human chorionic gonadotropin (hCG), human placental lactogen (hPL), estrogens, and progestogens. hCG maintains the corpus luteum in early pregnancy."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the first sign of a growing foetus that can be detected after one month of pregnancy?",
+      "options": [
+        "Formation of limbs",
+        "Heart sound",
+        "Movement of foetus",
+        "Hair on head"
+      ],
+      "correct": 1,
+      "explanation": "After one month of pregnancy, the embryo's heart is formed. The first sign of a growing foetus may be noticed by listening to the heart sound carefully through a stethoscope."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is colostrum?",
+      "options": [
+        "The first milk produced during initial days of lactation",
+        "A hormone that induces parturition",
+        "The fluid in the amniotic sac",
+        "A type of placental hormone"
+      ],
+      "correct": 0,
+      "explanation": "Colostrum is the milk produced during the initial few days of lactation. It contains several antibodies absolutely essential to develop resistance for newborn babies."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone triggers stronger uterine contractions during parturition?",
+      "options": [
+        "Progesterone",
+        "Estrogen",
+        "Oxytocin",
+        "Relaxin"
+      ],
+      "correct": 2,
+      "explanation": "Oxytocin is released from the maternal pituitary during parturition. It acts on the uterine muscle and causes stronger uterine contractions, which in turn stimulates further secretion of oxytocin in a positive feedback loop."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "After implantation, what finger-like projections appear on the trophoblast?",
+      "options": [
+        "Amniotic villi",
+        "Chorionic villi",
+        "Placental villi",
+        "Endometrial villi"
+      ],
+      "correct": 1,
+      "explanation": "After implantation, finger-like projections called chorionic villi appear on the trophoblast. These villi are surrounded by uterine tissue and maternal blood, and together they form the placenta."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What structural and functional unit is formed between the developing embryo and maternal body?",
+      "options": [
+        "Umbilical cord",
+        "Amniotic sac",
+        "Placenta",
+        "Yolk sac"
+      ],
+      "correct": 2,
+      "explanation": "The chorionic villi and uterine tissue become interdigitated with each other and jointly form the placenta, which is a structural and functional unit between the developing embryo and maternal body."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following substances does the placenta facilitate supply of to the embryo?",
+      "options": [
+        "Carbon dioxide and waste materials",
+        "Oxygen and nutrients",
+        "Hormones only",
+        "Antibodies only"
+      ],
+      "correct": 1,
+      "explanation": "The placenta facilitates the supply of oxygen and nutrients to the embryo and also helps in the removal of carbon dioxide and excretory/waste materials produced by the embryo."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What connects the placenta to the embryo for transport of substances?",
+      "options": [
+        "Fallopian tube",
+        "Umbilical cord",
+        "Vaginal canal",
+        "Cervical canal"
+      ],
+      "correct": 1,
+      "explanation": "The placenta is connected to the embryo through an umbilical cord which helps in the transport of substances to and from the embryo."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone is produced by the placenta during pregnancy?",
+      "options": [
+        "Insulin",
+        "Thyroxine",
+        "Human chorionic gonadotropin (hCG)",
+        "Adrenaline"
+      ],
+      "correct": 2,
+      "explanation": "The placenta acts as an endocrine tissue and produces several hormones like human chorionic gonadotropin (hCG), human placental lactogen (hPL), estrogens, and progestogens."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone is secreted by the ovary in the later phase of pregnancy?",
+      "options": [
+        "hCG",
+        "hPL",
+        "Relaxin",
+        "FSH"
+      ],
+      "correct": 2,
+      "explanation": "In the later phase of pregnancy, a hormone called relaxin is secreted by the ovary. hCG and hPL are produced by the placenta, not the ovary."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormones are produced in women ONLY during pregnancy?",
+      "options": [
+        "Estrogens and progestogens",
+        "hCG, hPL and relaxin",
+        "LH and FSH",
+        "Cortisol and thyroxine"
+      ],
+      "correct": 1,
+      "explanation": "hCG, hPL and relaxin are produced in women only during pregnancy. Estrogens and progestogens are also produced during normal menstrual cycles."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What happens to the levels of estrogens, progestogens, cortisol, prolactin and thyroxine during pregnancy?",
+      "options": [
+        "They decrease significantly",
+        "They remain unchanged",
+        "They increase severalfolds",
+        "They become zero"
+      ],
+      "correct": 2,
+      "explanation": "During pregnancy, the levels of hormones like estrogens, progestogens, cortisol, prolactin, thyroxine, etc., are increased severalfolds in the maternal blood."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What are the three germ layers that give rise to all tissues in adults?",
+      "options": [
+        "Ectoderm, mesoderm, endoderm",
+        "Epidermis, dermis, hypodermis",
+        "Trophoblast, inner cell mass, blastocoel",
+        "Corona radiata, zona pellucida, perivitelline space"
+      ],
+      "correct": 0,
+      "explanation": "The inner cell mass differentiates into an outer layer called ectoderm and an inner layer called endoderm. A mesoderm soon appears between the ectoderm and endoderm. These three layers give rise to all tissues (organs) in adults."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What cells in the inner cell mass have the potency to give rise to all tissues and organs?",
+      "options": [
+        "Germ cells",
+        "Stem cells",
+        "Somatic cells",
+        "Neural cells"
+      ],
+      "correct": 1,
+      "explanation": "The inner cell mass contains certain cells called stem cells which have the potency to give rise to all the tissues and organs."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "By the end of which month is the embryo's heart formed?",
+      "options": [
+        "First month",
+        "Second month",
+        "Third month",
+        "Fourth month"
+      ],
+      "correct": 0,
+      "explanation": "After one month of pregnancy, the embryo's heart is formed. The first sign of growing foetus may be noticed by listening to the heart sound carefully through the stethoscope."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "By the end of the second month of pregnancy, what develops in the foetus?",
+      "options": [
+        "Heart only",
+        "Limbs and digits",
+        "Hair on head",
+        "Eyelashes"
+      ],
+      "correct": 1,
+      "explanation": "By the end of the second month of pregnancy, the foetus develops limbs and digits."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "By the end of 12 weeks (first trimester), which major organ systems are formed?",
+      "options": [
+        "Only the heart",
+        "Most of the major organ systems",
+        "Only the nervous system",
+        "Only the digestive system"
+      ],
+      "correct": 1,
+      "explanation": "By the end of 12 weeks (first trimester), most of the major organ systems are formed, for example, the limbs and external genital organs are well-developed."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "During which month are the first movements of the foetus and appearance of hair on the head usually observed?",
+      "options": [
+        "Third month",
+        "Fourth month",
+        "Fifth month",
+        "Sixth month"
+      ],
+      "correct": 2,
+      "explanation": "The first movements of the foetus and appearance of hair on the head are usually observed during the fifth month of pregnancy."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "By the end of about 24 weeks (end of second trimester), what developments occur in the foetus?",
+      "options": [
+        "Heart formation only",
+        "Body covered with fine hair, eyelids separate, and eyelashes formed",
+        "Only limbs develop",
+        "Only external genital organs develop"
+      ],
+      "correct": 1,
+      "explanation": "By the end of about 24 weeks (end of second trimester), the body is covered with fine hair, eye-lids separate, and eyelashes are formed."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How long does human pregnancy last?",
+      "options": [
+        "6 months",
+        "7 months",
+        "8 months",
+        "9 months"
+      ],
+      "correct": 3,
+      "explanation": "The human pregnancy lasts 9 months. By the end of nine months of pregnancy, the foetus is fully developed and is ready for delivery."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the average duration of human pregnancy called?",
+      "options": [
+        "Ovulation period",
+        "Gestation period",
+        "Menstrual period",
+        "Lactation period"
+      ],
+      "correct": 1,
+      "explanation": "The average duration of human pregnancy is about 9 months which is called the gestation period."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What causes the expulsion of the foetus at the end of pregnancy?",
+      "options": [
+        "Relaxation of uterine muscles",
+        "Vigorous contraction of the uterus",
+        "Contraction of abdominal muscles only",
+        "Expansion of the birth canal"
+      ],
+      "correct": 1,
+      "explanation": "Vigorous contraction of the uterus at the end of pregnancy causes expulsion/delivery of the foetus. This process is called parturition."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process of delivery of the foetus called?",
+      "options": [
+        "Ovulation",
+        "Fertilisation",
+        "Parturition",
+        "Implantation"
+      ],
+      "correct": 2,
+      "explanation": "The process of delivery of the foetus (childbirth) is called parturition."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What induces mild uterine contractions at the end of pregnancy?",
+      "options": [
+        "The mother's brain only",
+        "The fully developed foetus and the placenta",
+        "The ovarian hormones alone",
+        "The pituitary gland independently"
+      ],
+      "correct": 1,
+      "explanation": "The signals for parturition originate from the fully developed foetus and the placenta which induce mild uterine contractions called foetal ejection reflex."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What are the mild uterine contractions induced by the foetus and placenta called?",
+      "options": [
+        "Menstrual contractions",
+        "Foetal ejection reflex",
+        "Oxytocin surge",
+        "Labour pains"
+      ],
+      "correct": 1,
+      "explanation": "The fully developed foetus and the placenta induce mild uterine contractions called foetal ejection reflex."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone is released from the maternal pituitary during parturition?",
+      "options": [
+        "FSH",
+        "LH",
+        "Oxytocin",
+        "Progesterone"
+      ],
+      "correct": 2,
+      "explanation": "The foetal ejection reflex triggers release of oxytocin from the maternal pituitary. Oxytocin acts on the uterine muscle and causes stronger uterine contractions."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the effect of oxytocin on uterine muscles during parturition?",
+      "options": [
+        "It relaxes the uterine muscles",
+        "It causes stronger uterine contractions",
+        "It stops all uterine activity",
+        "It thickens the uterine wall"
+      ],
+      "correct": 1,
+      "explanation": "Oxytocin acts on the uterine muscle and causes stronger uterine contractions, which in turn stimulates further secretion of oxytocin."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What type of mechanism is involved in the induction of parturition?",
+      "options": [
+        "Simple hormonal mechanism",
+        "Complex neuroendocrine mechanism",
+        "Purely nervous mechanism",
+        "Purely mechanical mechanism"
+      ],
+      "correct": 1,
+      "explanation": "Parturition is induced by a complex neuroendocrine mechanism involving signals from the foetus and placenta, and hormones like oxytocin."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What happens to the placenta soon after the infant is delivered?",
+      "options": [
+        "It remains inside the uterus permanently",
+        "It is absorbed by the uterus",
+        "It is also expelled out of the uterus",
+        "It dissolves in the uterine cavity"
+      ],
+      "correct": 2,
+      "explanation": "Soon after the infant is delivered, the placenta is also expelled out of the uterus."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What do doctors inject to induce delivery artificially?",
+      "options": [
+        "FSH hormone",
+        "Oxytocin",
+        "Progesterone",
+        "Estrogen"
+      ],
+      "correct": 1,
+      "explanation": "Doctors inject oxytocin to induce delivery, as oxytocin causes stronger uterine contractions leading to parturition."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "When do mammary glands start producing milk during pregnancy?",
+      "options": [
+        "At the beginning of pregnancy",
+        "Towards the end of pregnancy",
+        "Only after one month of delivery",
+        "During the second trimester"
+      ],
+      "correct": 1,
+      "explanation": "The mammary glands of the female undergo differentiation during pregnancy and starts producing milk towards the end of pregnancy by the process called lactation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process called by which mammary glands produce milk?",
+      "options": [
+        "Ovulation",
+        "Lactation",
+        "Gestation",
+        "Parturition"
+      ],
+      "correct": 1,
+      "explanation": "The mammary glands start producing milk by the process called lactation. This helps the mother in feeding the newborn."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the milk produced during the initial few days of lactation called?",
+      "options": [
+        "Whole milk",
+        "Skimmed milk",
+        "Colostrum",
+        "Formula milk"
+      ],
+      "correct": 2,
+      "explanation": "The milk produced during the initial few days of lactation is called colostrum which contains several antibodies absolutely essential to develop resistance for the new-born babies."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What does colostrum contain that is essential for new-born babies?",
+      "options": [
+        "High amounts of fat only",
+        "Several antibodies essential for resistance",
+        "Only carbohydrates",
+        "Digestive enzymes only"
+      ],
+      "correct": 1,
+      "explanation": "Colostrum contains several antibodies absolutely essential to develop resistance for the new-born babies."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Why is breast-feeding during the initial period recommended by doctors?",
+      "options": [
+        "It is cheaper than formula milk",
+        "It helps in bringing up a healthy baby",
+        "It prevents pregnancy immediately",
+        "It reduces mother's weight quickly"
+      ],
+      "correct": 1,
+      "explanation": "Breast-feeding during the initial period of infant growth is recommended by doctors for bringing up a healthy baby."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following describes the stimulatory reflex during parturition?",
+      "options": [
+        "Uterine contraction inhibits oxytocin secretion",
+        "Uterine contraction stimulates further oxytocin secretion",
+        "Oxytocin inhibits uterine contractions",
+        "Placenta inhibits all uterine activity"
+      ],
+      "correct": 1,
+      "explanation": "The stimulatory reflex between the uterine contraction and oxytocin secretion continues resulting in stronger and stronger contractions."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the role of the birth canal during parturition?",
+      "options": [
+        "It produces hormones for delivery",
+        "It is the passage through which the baby is expelled",
+        "It stores the placenta",
+        "It prevents uterine contractions"
+      ],
+      "correct": 1,
+      "explanation": "The stronger uterine contractions lead to expulsion of the baby out of the uterus through the birth canal."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What happens to mammary glands during pregnancy?",
+      "options": [
+        "They remain unchanged",
+        "They undergo differentiation",
+        "They stop functioning completely",
+        "They shrink in size"
+      ],
+      "correct": 1,
+      "explanation": "The mammary glands of the female undergo differentiation during pregnancy and start producing milk towards the end of pregnancy."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which statement about colostrum is correct?",
+      "options": [
+        "It is produced only after one week of delivery",
+        "It contains no nutritional value",
+        "It contains antibodies essential for new-born immunity",
+        "It is identical to regular breast milk in composition"
+      ],
+      "correct": 2,
+      "explanation": "Colostrum contains several antibodies absolutely essential to develop resistance for the new-born babies, making it vital for immunity."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the relationship between uterine contraction and oxytocin during parturition?",
+      "options": [
+        "They are independent processes",
+        "They form a positive feedback loop",
+        "Uterine contraction stops oxytocin release",
+        "Oxytocin only works before pregnancy"
+      ],
+      "correct": 1,
+      "explanation": "The stimulatory reflex between uterine contraction and oxytocin secretion continues, forming a positive feedback loop that results in stronger contractions."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process called when spermatids are transformed into spermatozoa?",
+      "options": [
+        "Spermatogenesis",
+        "Spermiogenesis",
+        "Oogenesis",
+        "Gametogenesis"
+      ],
+      "correct": 1,
+      "explanation": "Spermiogenesis is the process by which spermatids are transformed into spermatozoa (sperms). This is the final stage of sperm development where the round spermatids undergo structural changes to become motile spermatozoa with head, neck, middle piece and tail."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone is released from the hypothalamus to initiate spermatogenesis at puberty?",
+      "options": [
+        "Luteinizing hormone (LH)",
+        "Follicle stimulating hormone (FSH)",
+        "Gonadotropin releasing hormone (GnRH)",
+        "Testosterone"
+      ],
+      "correct": 2,
+      "explanation": "Gonadotropin releasing hormone (GnRH) is a hypothalamic hormone whose significant increase in secretion at puberty initiates spermatogenesis. GnRH then acts on the anterior pituitary to stimulate LH and FSH secretion."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which cells synthesize and secrete androgens in the testis?",
+      "options": [
+        "Sertoli cells",
+        "Spermatogonia",
+        "Leydig cells",
+        "Spermatocytes"
+      ],
+      "correct": 2,
+      "explanation": "Leydig cells, also called interstitial cells, are found in the interstitial spaces outside the seminiferous tubules. They synthesize and secrete testicular hormones called androgens."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the chromosome number in secondary spermatocytes?",
+      "options": [
+        "46 chromosomes",
+        "23 chromosomes",
+        "92 chromosomes",
+        "69 chromosomes"
+      ],
+      "correct": 1,
+      "explanation": "A primary spermatocyte completes the first meiotic division (reduction division) leading to formation of two equal, haploid cells called secondary spermatocytes, which have only 23 chromosomes each."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which part of the sperm contains enzymes that help fertilization of the ovum?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Acrosome",
+        "Tail"
+      ],
+      "correct": 2,
+      "explanation": "The acrosome is a cap-like structure covering the anterior portion of the sperm head. It is filled with enzymes that help fertilization of the ovum by allowing the sperm to penetrate the zona pellucida."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the primary function of mitochondria in the middle piece of sperm?",
+      "options": [
+        "Store genetic material",
+        "Produce energy for tail movement",
+        "Secrete enzymes for fertilization",
+        "Protect the nucleus"
+      ],
+      "correct": 1,
+      "explanation": "The middle piece of the sperm possesses numerous mitochondria, which produce energy (ATP) for the movement of tail that facilitates sperm motility essential for fertilization."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How many spermatids are produced from one primary spermatocyte after meiosis?",
+      "options": [
+        "2 spermatids",
+        "4 spermatids",
+        "8 spermatids",
+        "16 spermatids"
+      ],
+      "correct": 1,
+      "explanation": "The secondary spermatocytes undergo the second meiotic division to produce four equal, haploid spermatids. Therefore, one primary spermatocyte ultimately yields four spermatids."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone acts on Sertoli cells to stimulate secretion of factors helping spermatogenesis?",
+      "options": [
+        "LH",
+        "GnRH",
+        "FSH",
+        "Androgens"
+      ],
+      "correct": 2,
+      "explanation": "FSH (Follicle Stimulating Hormone) acts on the Sertoli cells and stimulates secretion of some factors which help in the process of spermatogenesis. LH acts on Leydig cells to stimulate androgen production."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What percentage of ejaculated sperms must have normal shape and size for normal fertility?",
+      "options": [
+        "At least 20%",
+        "At least 40%",
+        "At least 60%",
+        "At least 80%"
+      ],
+      "correct": 2,
+      "explanation": "For normal fertility, at least 60 percent of sperms must have normal shape and size, and at least 40 percent of them must show vigorous motility."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "When is oogenesis initiated in females?",
+      "options": [
+        "At puberty",
+        "During embryonic development",
+        "At birth",
+        "During menarche"
+      ],
+      "correct": 1,
+      "explanation": "Oogenesis is initiated during the embryonic development stage when a couple of million gamete mother cells (oogonia) are formed within each fetal ovary. No more oogonia are formed after birth."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the chromosome number in spermatogonia?",
+      "options": [
+        "23 chromosomes",
+        "46 chromosomes",
+        "92 chromosomes",
+        "69 chromosomes"
+      ],
+      "correct": 1,
+      "explanation": "Each spermatogonium is diploid and contains 46 chromosomes. Spermatogonia multiply by mitotic division and some periodically undergo meiosis to form primary spermatocytes."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the male external genitalia called?",
+      "options": [
+        "Scrotum",
+        "Penis",
+        "Epididymis",
+        "Vas deferens"
+      ],
+      "correct": 1,
+      "explanation": "The penis is the male external genitalia. It is made up of special tissue that helps in erection of the penis to facilitate insemination. The enlarged end is called glans penis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which cells provide nutrition to the dividing germ cells in seminiferous tubules?",
+      "options": [
+        "Leydig cells",
+        "Sertoli cells",
+        "Spermatogonia",
+        "Interstitial cells"
+      ],
+      "correct": 1,
+      "explanation": "Sertoli cells line the inside of seminiferous tubules and provide nutrition to the germ cells. They also help in the release of spermatozoa from the tubules."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the fluid-filled cavity in the tertiary follicle called?",
+      "options": [
+        "Zona pellucida",
+        "Antrum",
+        "Corpus luteum",
+        "Graafian follicle"
+      ],
+      "correct": 1,
+      "explanation": "The secondary follicle soon transforms into a tertiary follicle which is characterized by a fluid-filled cavity called antrum. The theca layer is organized into inner theca interna and outer theca externa."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the structure formed when primary oocyte is surrounded by a layer of granulosa cells?",
+      "options": [
+        "Secondary follicle",
+        "Primary follicle",
+        "Graafian follicle",
+        "Corpus luteum"
+      ],
+      "correct": 1,
+      "explanation": "Each primary oocyte gets surrounded by a layer of granulosa cells and is called the primary follicle. Later, more layers of granulosa cells surround it to form secondary follicle."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process of formation of mature female gametes called?",
+      "options": [
+        "Spermatogenesis",
+        "Spermiogenesis",
+        "Oogenesis",
+        "Ovulation"
+      ],
+      "correct": 2,
+      "explanation": "The process of formation of a mature female gamete is called oogenesis. It is markedly different from spermatogenesis and is initiated during embryonic development."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How many primary follicles are left in each ovary at puberty?",
+      "options": [
+        "About 1 million",
+        "About 60,000-80,000",
+        "About 10,000",
+        "About 2 million"
+      ],
+      "correct": 1,
+      "explanation": "A large number of primary follicles degenerate from birth to puberty. Therefore, at puberty only 60,000-80,000 primary follicles are left in each ovary."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the result of the first meiotic division in oogenesis?",
+      "options": [
+        "Two equal secondary oocytes",
+        "One large secondary oocyte and one tiny polar body",
+        "Four spermatids",
+        "One ovum and one polar body"
+      ],
+      "correct": 1,
+      "explanation": "In oogenesis, the first meiotic division is unequal, resulting in the formation of a large haploid secondary oocyte and a tiny first polar body. The secondary oocyte retains most of the nutrient-rich cytoplasm."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone stimulates the synthesis and secretion of androgens?",
+      "options": [
+        "FSH",
+        "GnRH",
+        "LH",
+        "Estrogen"
+      ],
+      "correct": 2,
+      "explanation": "LH (Luteinizing Hormone) acts at the Leydig cells and stimulates synthesis and secretion of androgens. Androgens in turn stimulate the process of spermatogenesis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the new membrane formed around the secondary oocyte in the Graafian follicle?",
+      "options": [
+        "Corona radiata",
+        "Zona pellucida",
+        "Theca externa",
+        "Antrum"
+      ],
+      "correct": 1,
+      "explanation": "The secondary oocyte forms a new membrane called zona pellucida surrounding it. This membrane is important for sperm recognition and fertilization."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process of release of spermatozoa from seminiferous tubules called?",
+      "options": [
+        "Spermiogenesis",
+        "Spermatogenesis",
+        "Spermiation",
+        "Ovulation"
+      ],
+      "correct": 2,
+      "explanation": "After spermiogenesis, sperm heads become embedded in the Sertoli cells, and are finally released from the seminiferous tubules by the process called spermiation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the chromosome number in spermatids?",
+      "options": [
+        "46",
+        "23",
+        "92",
+        "69"
+      ],
+      "correct": 1,
+      "explanation": "The secondary spermatocytes undergo the second meiotic division to produce four equal, haploid spermatids which have 23 chromosomes each."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following is NOT a component of seminal plasma?",
+      "options": [
+        "Fructose",
+        "Calcium",
+        "Enzymes",
+        "Insulin"
+      ],
+      "correct": 3,
+      "explanation": "Secretions of male accessory glands constitute seminal plasma which is rich in fructose, calcium and certain enzymes. Insulin is not a component of seminal plasma."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the structure called when the tertiary follicle changes into mature follicle?",
+      "options": [
+        "Primary follicle",
+        "Secondary follicle",
+        "Graafian follicle",
+        "Corpus luteum"
+      ],
+      "correct": 2,
+      "explanation": "The tertiary follicle further changes into the mature follicle or Graafian follicle. The Graafian follicle ruptures to release the secondary oocyte (ovum) by the process called ovulation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the main difference between spermatogenesis and oogenesis regarding cytoplasm distribution?",
+      "options": [
+        "Spermatogenesis produces equal cells, oogenesis produces unequal cells",
+        "Both produce equal cells",
+        "Oogenesis produces equal cells, spermatogenesis produces unequal cells",
+        "Both produce unequal cells"
+      ],
+      "correct": 0,
+      "explanation": "In spermatogenesis, meiotic divisions produce four equal spermatids. In oogenesis, the first meiotic division is unequal, producing a large secondary oocyte and a tiny polar body, retaining most cytoplasm in the oocyte."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "At what stage of embryonic development are oogonia formed within the fetal ovary?",
+      "options": [
+        "After birth",
+        "During embryonic development",
+        "At puberty",
+        "During adulthood"
+      ],
+      "correct": 1,
+      "explanation": "Oogenesis is initiated during the embryonic development stage when a couple of million gamete mother cells (oogonia) are formed within each fetal ovary; no more oogonia are formed and added after birth."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What happens to the primary oocytes after they enter prophase-I of meiotic division?",
+      "options": [
+        "They complete meiosis immediately",
+        "They get temporarily arrested at that stage",
+        "They undergo mitotic division",
+        "They degenerate completely"
+      ],
+      "correct": 1,
+      "explanation": "These cells start division and enter into prophase-I of the meiotic division and get temporarily arrested at that stage, called primary oocytes."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Approximately how many primary follicles remain in each ovary at puberty?",
+      "options": [
+        "10,000-20,000",
+        "30,000-50,000",
+        "60,000-80,000",
+        "100,000-120,000"
+      ],
+      "correct": 2,
+      "explanation": "A large number of these follicles degenerate during the phase from birth to puberty. Therefore, at puberty only 60,000-80,000 primary follicles are left in each ovary."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What characterizes a tertiary follicle?",
+      "options": [
+        "Single layer of granulosa cells",
+        "Fluid-filled cavity called antrum",
+        "Absence of theca layer",
+        "Presence of corpus luteum"
+      ],
+      "correct": 1,
+      "explanation": "The secondary follicle soon transforms into a tertiary follicle which is characterised by a fluid filled cavity called antrum."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the result of the first meiotic division in oogenesis?",
+      "options": [
+        "Two equal secondary oocytes",
+        "A large secondary oocyte and a tiny first polar body",
+        "Four equal spermatids",
+        "A diploid zygote"
+      ],
+      "correct": 1,
+      "explanation": "It is an unequal division resulting in the formation of a large haploid secondary oocyte and a tiny first polar body."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What structure surrounds the secondary oocyte in the mature Graafian follicle?",
+      "options": [
+        "Corona radiata only",
+        "Zona pellucida",
+        "Theca externa only",
+        "Cumulus oophorus"
+      ],
+      "correct": 1,
+      "explanation": "The secondary oocyte forms a new membrane called zona pellucida surrounding it."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process called when the Graafian follicle ruptures to release the secondary oocyte?",
+      "options": [
+        "Fertilization",
+        "Implantation",
+        "Ovulation",
+        "Menstruation"
+      ],
+      "correct": 2,
+      "explanation": "The Graafian follicle now ruptures to release the secondary oocyte (ovum) from the ovary by the process called ovulation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which of the following is a major difference between spermatogenesis and oogenesis?",
+      "options": [
+        "Both produce equal-sized gametes",
+        "Spermatogenesis produces four functional gametes while oogenesis produces one functional gamete",
+        "Both occur only after puberty",
+        "Both produce diploid gametes"
+      ],
+      "correct": 1,
+      "explanation": "Spermatogenesis produces four equal, functional spermatozoa, while oogenesis produces one large functional ovum and polar bodies. This is a major difference between the two processes."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What are the two zones of the ovarian stroma?",
+      "options": [
+        "Cortex and medulla",
+        "Cortex and inner medulla",
+        "Peripheral cortex and inner medulla",
+        "Outer cortex and central medulla"
+      ],
+      "correct": 2,
+      "explanation": "The stroma is divided into two zones – a peripheral cortex and an inner medulla."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the chromosome number in a secondary oocyte?",
+      "options": [
+        "46 chromosomes (diploid)",
+        "23 chromosomes (haploid)",
+        "69 chromosomes (triploid)",
+        "92 chromosomes (tetraploid)"
+      ],
+      "correct": 1,
+      "explanation": "The primary oocyte completes the first meiotic division (reduction division) leading to formation of a haploid secondary oocyte with 23 chromosomes."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which layer of the theca is organized in the tertiary follicle?",
+      "options": [
+        "Only theca interna",
+        "Only theca externa",
+        "Inner theca interna and outer theca externa",
+        "Theca media and theca adventitia"
+      ],
+      "correct": 2,
+      "explanation": "The theca layer is organised into an inner theca interna and an outer theca externa in the tertiary follicle."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the fate of the first polar body formed during oogenesis?",
+      "options": [
+        "It always divides further",
+        "It always degenerates immediately",
+        "It may divide further or degenerate; not certain",
+        "It fuses with the secondary oocyte"
+      ],
+      "correct": 2,
+      "explanation": "Does the first polar body born out of first meiotic division divide further or degenerate? At present we are not very certain about this."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the advantage of the secondary oocyte retaining bulk of the nutrient-rich cytoplasm?",
+      "options": [
+        "It allows faster movement",
+        "It provides nutrients for early embryonic development after fertilization",
+        "It helps in hormone production",
+        "It prevents polyspermy"
+      ],
+      "correct": 1,
+      "explanation": "The secondary oocyte retains bulk of the nutrient rich cytoplasm of the primary oocyte to provide nutrients for early embryonic development after fertilization."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone from the anterior pituitary stimulates the process of spermatogenesis?",
+      "options": [
+        "Only LH",
+        "Only FSH",
+        "Both LH and FSH",
+        "Only prolactin"
+      ],
+      "correct": 2,
+      "explanation": "LH acts at the Leydig cells and stimulates synthesis and secretion of androgens. Androgens stimulate spermatogenesis. FSH acts on the Sertoli cells and stimulates secretion of factors which help in spermatogenesis."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the chromosome number in spermatids?",
+      "options": [
+        "46",
+        "23",
+        "69",
+        "92"
+      ],
+      "correct": 1,
+      "explanation": "The secondary spermatocytes undergo the second meiotic division to produce four equal, haploid spermatids with 23 chromosomes each."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the function of the acrosome in a sperm?",
+      "options": [
+        "Energy production for movement",
+        "Storage of genetic material",
+        "Contains enzymes that help fertilization of the ovum",
+        "Protection of the sperm tail"
+      ],
+      "correct": 2,
+      "explanation": "The acrosome is filled with enzymes that help fertilisation of the ovum."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What percentage of sperms must have normal shape and size for normal fertility?",
+      "options": [
+        "At least 20%",
+        "At least 40%",
+        "At least 60%",
+        "At least 80%"
+      ],
+      "correct": 2,
+      "explanation": "For normal fertility, at least 60 per cent sperms must have normal shape and size and at least 40 per cent of them must show vigorous motility."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the role of mitochondria in the middle piece of a sperm?",
+      "options": [
+        "Producing enzymes for acrosome reaction",
+        "Producing energy for the movement of tail",
+        "Storing genetic information",
+        "Protecting the nucleus"
+      ],
+      "correct": 1,
+      "explanation": "The middle piece possesses numerous mitochondria, which produce energy for the movement of tail that facilitate sperm motility essential for fertilisation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the process called when spermatids are transformed into spermatozoa?",
+      "options": [
+        "Spermatogenesis",
+        "Spermiogenesis",
+        "Spermiation",
+        "Meiosis"
+      ],
+      "correct": 1,
+      "explanation": "The spermatids are transformed into spermatozoa (sperms) by the process called spermiogenesis. After spermiogenesis, sperm heads become embedded in the Sertoli cells, and are finally released from the seminiferous tubules by the process called spermiation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What triggers the start of spermatogenesis at puberty?",
+      "options": [
+        "Decrease in GnRH secretion",
+        "Significant increase in GnRH secretion",
+        "Decrease in testosterone levels",
+        "Increase in estrogen levels"
+      ],
+      "correct": 1,
+      "explanation": "Spermatogenesis starts at the age of puberty due to significant increase in the secretion of gonadotropin releasing hormone (GnRH). This is a hypothalamic hormone."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the reproductive cycle in female primates called?",
+      "options": [
+        "Oestrous cycle",
+        "Menstrual cycle",
+        "Ovarian cycle",
+        "Reproductive cycle"
+      ],
+      "correct": 1,
+      "explanation": "The reproductive cycle in female primates such as monkeys, apes and human beings is called the menstrual cycle."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the first menstruation at puberty called?",
+      "options": [
+        "Menopause",
+        "Ovulation",
+        "Menarche",
+        "Luteal phase"
+      ],
+      "correct": 2,
+      "explanation": "The first menstruation that begins at puberty is called menarche."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the average interval of the menstrual cycle in human females?",
+      "options": [
+        "14 days",
+        "21 days",
+        "28/29 days",
+        "35 days"
+      ],
+      "correct": 2,
+      "explanation": "In human females, menstruation is repeated at an average interval of about 28/29 days."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How many ova are released during the middle of each menstrual cycle?",
+      "options": [
+        "Two ova",
+        "One ovum",
+        "Three ova",
+        "Four ova"
+      ],
+      "correct": 1,
+      "explanation": "One ovum is released during the middle of each menstrual cycle."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "How long does the menstrual phase typically last?",
+      "options": [
+        "1-2 days",
+        "3-5 days",
+        "7-10 days",
+        "14 days"
+      ],
+      "correct": 1,
+      "explanation": "The menstrual phase where menstrual flow occurs lasts for 3-5 days."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What causes the menstrual flow?",
+      "options": [
+        "Ovulation",
+        "Breakdown of endometrial lining and blood vessels",
+        "Corpus luteum formation",
+        "FSH secretion"
+      ],
+      "correct": 1,
+      "explanation": "The menstrual flow results due to breakdown of endometrial lining of the uterus and blood vessels which forms liquid that comes out through vagina."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "When does menstruation occur?",
+      "options": [
+        "Only during pregnancy",
+        "Only if the released ovum is fertilised",
+        "Only if the released ovum is not fertilised",
+        "During the luteal phase only"
+      ],
+      "correct": 2,
+      "explanation": "Menstruation only occurs if the released ovum is not fertilised. Lack of menstruation may be indicative of pregnancy."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which phase follows the menstrual phase?",
+      "options": [
+        "Luteal phase",
+        "Ovulatory phase",
+        "Follicular phase",
+        "Secretory phase"
+      ],
+      "correct": 2,
+      "explanation": "The menstrual phase is followed by the follicular phase, during which primary follicles grow to become fully mature Graafian follicle."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormones attain a peak level in the middle of the menstrual cycle?",
+      "options": [
+        "Estrogen and progesterone",
+        "LH and FSH",
+        "Testosterone and estrogen",
+        "Progesterone and relaxin"
+      ],
+      "correct": 1,
+      "explanation": "Both LH (Luteinising Hormone) and FSH (Follicle Stimulating Hormone) attain a peak level in the middle of cycle (about 14th day)."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the rapid secretion of LH during the mid-cycle called?",
+      "options": [
+        "FSH surge",
+        "Estrogen surge",
+        "LH surge",
+        "Progesterone surge"
+      ],
+      "correct": 2,
+      "explanation": "Rapid secretion of LH leading to its maximum level during the mid-cycle is called LH surge, which induces rupture of Graafian follicle and release of ovum."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What structure is formed from the remaining parts of the Graafian follicle after ovulation?",
+      "options": [
+        "Corpus albicans",
+        "Corpus luteum",
+        "Primary follicle",
+        "Tertiary follicle"
+      ],
+      "correct": 1,
+      "explanation": "After ovulation, the remaining parts of the Graafian follicle transform into the corpus luteum during the luteal phase."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormone is secreted in large amounts by the corpus luteum?",
+      "options": [
+        "Estrogen",
+        "FSH",
+        "Progesterone",
+        "LH"
+      ],
+      "correct": 2,
+      "explanation": "The corpus luteum secretes large amounts of progesterone which is essential for maintenance of the endometrium."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What happens to the corpus luteum in the absence of fertilisation?",
+      "options": [
+        "It continues to grow",
+        "It transforms into a Graafian follicle",
+        "It degenerates",
+        "It secretes more progesterone"
+      ],
+      "correct": 2,
+      "explanation": "In the absence of fertilisation, the corpus luteum degenerates, causing disintegration of the endometrium leading to menstruation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "At what age do menstrual cycles typically cease in human females?",
+      "options": [
+        "Around 30 years",
+        "Around 40 years",
+        "Around 50 years",
+        "Around 60 years"
+      ],
+      "correct": 2,
+      "explanation": "In human beings, menstrual cycles cease around 50 years of age, which is termed as menopause."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the term for the cessation of menstrual cycles around 50 years of age?",
+      "options": [
+        "Menarche",
+        "Ovulation",
+        "Menopause",
+        "Parturition"
+      ],
+      "correct": 2,
+      "explanation": "The cessation of menstrual cycles around 50 years of age is termed menopause."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is cyclic menstruation an indicator of?",
+      "options": [
+        "Pregnancy",
+        "Normal reproductive phase",
+        "Menopause",
+        "Ovulation only"
+      ],
+      "correct": 1,
+      "explanation": "Cyclic menstruation is an indicator of normal reproductive phase and extends between menarche and menopause."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "Which hormones stimulate follicular development and secretion of estrogens during the follicular phase?",
+      "options": [
+        "LH and progesterone",
+        "FSH and estrogen",
+        "LH and FSH",
+        "Progesterone and relaxin"
+      ],
+      "correct": 2,
+      "explanation": "The secretion of gonadotropins (LH and FSH) increases gradually during the follicular phase and stimulates follicular development as well as secretion of estrogens by the growing follicles."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What happens to the endometrium during the follicular phase?",
+      "options": [
+        "It breaks down",
+        "It regenerates through proliferation",
+        "It remains unchanged",
+        "It degenerates"
+      ],
+      "correct": 1,
+      "explanation": "During the follicular phase, the endometrium of the uterus regenerates through proliferation."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What is the function of progesterone secreted by the corpus luteum?",
+      "options": [
+        "To stimulate ovulation",
+        "To maintain the endometrium for implantation",
+        "To induce menstruation",
+        "To stimulate FSH secretion"
+      ],
+      "correct": 1,
+      "explanation": "Progesterone is essential for maintenance of the endometrium, which is necessary for implantation of the fertilised ovum and other events of pregnancy."
+    },
+    {
+      "topic": "Chapter 2",
+      "question": "What happens to all events of the menstrual cycle during pregnancy?",
+      "options": [
+        "They continue normally",
+        "They stop and there is no menstruation",
+        "They become more frequent",
+        "They only occur in the first trimester"
+      ],
+      "correct": 1,
+      "explanation": "During pregnancy, all events of the menstrual cycle stop and there is no menstruation."
+    }
+  ]
+}

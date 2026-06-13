@@ -1,0 +1,1897 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 8",
+    "chapterId": "chapter8",
+    "source": "Chapter8.xlsx",
+    "count": 157
+  },
+  "questions": [
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following are the main sources of biofertilisers?",
+      "options": [
+        "Viruses, algae and protozoa",
+        "Bacteria, fungi and cyanobacteria",
+        "Bacteria, viruses and algae",
+        "Fungi, protozoa and viruses"
+      ],
+      "correct": 1,
+      "explanation": "The main sources of biofertilisers are bacteria, fungi and cyanobacteria. These organisms enrich the nutrient quality of the soil."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which bacteria form nodules on the roots of leguminous plants through symbiotic association?",
+      "options": [
+        "Azotobacter",
+        "Azospirillum",
+        "Rhizobium",
+        "Clostridium"
+      ],
+      "correct": 2,
+      "explanation": "Rhizobium bacteria form nodules on the roots of leguminous plants through symbiotic association and fix atmospheric nitrogen into organic forms."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following bacteria can fix atmospheric nitrogen while free-living in the soil?",
+      "options": [
+        "Rhizobium only",
+        "Azospirillum and Azotobacter",
+        "Clostridium only",
+        "Lactobacillus and Streptococcus"
+      ],
+      "correct": 1,
+      "explanation": "Azospirillum and Azotobacter are free-living bacteria in the soil that can fix atmospheric nitrogen, thus enriching the nitrogen content of the soil."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the term for the symbiotic association between fungi and plant roots?",
+      "options": [
+        "Rhizosphere",
+        "Mycorrhiza",
+        "Symbiosis",
+        "Nodulation"
+      ],
+      "correct": 1,
+      "explanation": "Mycorrhiza is the symbiotic association between fungi and plant roots. Many members of the genus Glomus form mycorrhiza."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which genus of fungi is commonly associated with mycorrhiza formation?",
+      "options": [
+        "Penicillium",
+        "Aspergillus",
+        "Glomus",
+        "Trichoderma"
+      ],
+      "correct": 2,
+      "explanation": "Many members of the genus Glomus form mycorrhiza. The fungal symbiont absorbs phosphorus from soil and passes it to the plant."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What nutrient does the fungal symbiont in mycorrhiza absorb from the soil and pass to the plant?",
+      "options": [
+        "Nitrogen",
+        "Potassium",
+        "Phosphorus",
+        "Calcium"
+      ],
+      "correct": 2,
+      "explanation": "The fungal symbiont in mycorrhiza absorbs phosphorus from soil and passes it to the plant."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following is NOT a benefit shown by plants having mycorrhizal associations?",
+      "options": [
+        "Resistance to root-borne pathogens",
+        "Tolerance to salinity and drought",
+        "Increased nitrogen fixation",
+        "Overall increase in plant growth and development"
+      ],
+      "correct": 2,
+      "explanation": "Plants with mycorrhizal associations show resistance to root-borne pathogens, tolerance to salinity and drought, and overall increase in growth. Nitrogen fixation is not a benefit of mycorrhiza; it is associated with Rhizobium."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following cyanobacteria can fix atmospheric nitrogen?",
+      "options": [
+        "Anabaena, Nostoc and Oscillatoria",
+        "Spirulina, Chlorella and Volvox",
+        "Euglena, Paramecium and Amoeba",
+        "Rhizobium, Azotobacter and Azospirillum"
+      ],
+      "correct": 0,
+      "explanation": "Cyanobacteria such as Anabaena, Nostoc and Oscillatoria can fix atmospheric nitrogen and serve as important biofertilisers in paddy fields."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "In which type of fields do cyanobacteria serve as an important biofertiliser?",
+      "options": [
+        "Wheat fields",
+        "Paddy fields",
+        "Sugarcane fields",
+        "Cotton fields"
+      ],
+      "correct": 1,
+      "explanation": "Cyanobacteria serve as an important biofertiliser in paddy fields. They also add organic matter to the soil and increase its fertility."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What additional benefit do blue green algae provide to the soil besides acting as biofertilisers?",
+      "options": [
+        "They remove toxic metals",
+        "They add organic matter to the soil",
+        "They increase soil pH",
+        "They reduce soil erosion"
+      ],
+      "correct": 1,
+      "explanation": "Blue green algae (cyanobacteria) add organic matter to the soil and increase its fertility, besides acting as biofertilisers."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the main advantage of using biofertilisers over chemical fertilisers?",
+      "options": [
+        "They are cheaper to produce",
+        "They reduce environmental pollution",
+        "They act faster than chemical fertilisers",
+        "They require less water"
+      ],
+      "correct": 1,
+      "explanation": "The use of chemical fertilisers contributes significantly to environmental pollution. Biofertilisers help reduce this pollution and dependence on chemicals."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which type of farming approach uses biofertilisers to replenish soil nutrients?",
+      "options": [
+        "Conventional farming",
+        "Organic farming",
+        "Intensive farming",
+        "Subsistence farming"
+      ],
+      "correct": 1,
+      "explanation": "Organic farming uses biofertilisers to replenish soil nutrients and reduce dependence on chemical fertilisers."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What do Rhizobium bacteria fix from the atmosphere?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correct": 2,
+      "explanation": "Rhizobium bacteria fix atmospheric nitrogen into organic forms, which is used by the plant as nutrient."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the primary role of biofertilisers in agriculture?",
+      "options": [
+        "To kill pests and insects",
+        "To enrich the nutrient quality of the soil",
+        "To increase soil pH level",
+        "To remove weeds from fields"
+      ],
+      "correct": 1,
+      "explanation": "Biofertilisers are organisms that enrich the nutrient quality of the soil. They help replenish soil nutrients naturally."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following is a free-living nitrogen-fixing bacterium found in soil?",
+      "options": [
+        "Rhizobium",
+        "Azotobacter",
+        "Bacillus thuringiensis",
+        "Streptococcus"
+      ],
+      "correct": 1,
+      "explanation": "Azotobacter is a free-living bacterium in the soil that can fix atmospheric nitrogen, enriching the soil's nitrogen content."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which antibiotic was the first to be discovered and was a chance discovery by Alexander Fleming?",
+      "options": [
+        "Streptomycin",
+        "Penicillin",
+        "Tetracycline",
+        "Chloramphenicol"
+      ],
+      "correct": 1,
+      "explanation": "Penicillin was the first antibiotic discovered by Alexander Fleming when he observed a mould (Penicillium notatum) growing on a culture plate that inhibited the growth of Staphylococci bacteria."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What does the term 'antibiotic' literally mean in Greek?",
+      "options": [
+        "Against disease",
+        "For life",
+        "Against life (in context of disease-causing organisms)",
+        "Healing substance"
+      ],
+      "correct": 2,
+      "explanation": "The term antibiotic comes from Greek where 'anti' means against and 'bio' means life, together meaning 'against life' in the context of disease-causing organisms."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Who were awarded the Nobel Prize in 1945 for the discovery and development of Penicillin?",
+      "options": [
+        "Alexander Fleming only",
+        "Fleming, Chain and Florey",
+        "Howard Florey only",
+        "Ernest Chain only"
+      ],
+      "correct": 1,
+      "explanation": "Alexander Fleming discovered Penicillin, but its full potential as an effective antibiotic was established by Ernest Chain and Howard Florey. All three were awarded the Nobel Prize in 1945."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which disease was extensively treated with Penicillin during World War II?",
+      "options": [
+        "Tuberculosis",
+        "Malaria",
+        "Wounds of American soldiers",
+        "Typhoid"
+      ],
+      "correct": 2,
+      "explanation": "Penicillin was extensively used to treat American soldiers wounded in World War II, saving many lives from bacterial infections."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following diseases was NOT mentioned as being treated with antibiotics?",
+      "options": [
+        "Plague",
+        "Whooping cough",
+        "Leprosy",
+        "Diabetes"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions antibiotics have improved treatment of plague, whooping cough (kali khansi), diphtheria (gal ghotu), and leprosy (kusht rog). Diabetes is not mentioned."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the full form of BOD in sewage treatment?",
+      "options": [
+        "Biological Oxygen Demand",
+        "Biochemical Oxygen Demand",
+        "Bacterial Oxygen Depletion",
+        "Basic Oxygen Determination"
+      ],
+      "correct": 1,
+      "explanation": "BOD stands for Biochemical Oxygen Demand, which refers to the amount of oxygen that would be consumed if all organic matter in one liter of water were oxidised by bacteria."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What does a higher BOD value indicate about waste water?",
+      "options": [
+        "It is less polluted",
+        "It is more polluting",
+        "It is safe for drinking",
+        "It contains more oxygen"
+      ],
+      "correct": 1,
+      "explanation": "The greater the BOD of waste water, the more is its polluting potential. Higher BOD means more organic matter is present, requiring more oxygen for decomposition."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which sample in the BOD test exercise had the highest value of 400 mg/L?",
+      "options": [
+        "River water",
+        "Secondary effluent",
+        "Untreated sewage water",
+        "Clean drinking water"
+      ],
+      "correct": 2,
+      "explanation": "Untreated sewage water contains the highest amount of organic matter and microbes, so it would have the highest BOD value of 400 mg/L."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the BOD value of secondary effluent discharged from a sewage treatment plant?",
+      "options": [
+        "400 mg/L",
+        "20 mg/L",
+        "8 mg/L",
+        "100 mg/L"
+      ],
+      "correct": 1,
+      "explanation": "After secondary treatment, most organic matter is removed by aerobic microbes, so the BOD is significantly reduced to 20 mg/L."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following is produced by microbes during anaerobic digestion in sludge digesters?",
+      "options": [
+        "Oxygen",
+        "Biogas containing methane",
+        "Nitrogen gas only",
+        "Pure hydrogen"
+      ],
+      "correct": 1,
+      "explanation": "During anaerobic digestion in sludge digesters, bacteria produce a mixture of gases including methane, hydrogen sulphide and carbon dioxide, collectively called biogas."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the role of activated sludge in secondary treatment?",
+      "options": [
+        "It is used as fertilizer directly",
+        "A small part is used as inoculum in the aeration tank",
+        "It is discarded immediately",
+        "It is used for drinking water purification"
+      ],
+      "correct": 1,
+      "explanation": "A small part of the activated sludge is pumped back into the aeration tank to serve as inoculum (starter culture), while the rest is sent to anaerobic digesters."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which bacteria are collectively called methanogens?",
+      "options": [
+        "Bacteria that produce carbon dioxide",
+        "Bacteria that produce methane anaerobically",
+        "Bacteria that fix nitrogen",
+        "Bacteria that produce oxygen"
+      ],
+      "correct": 1,
+      "explanation": "Methanogens are bacteria that grow anaerobically on cellulosic material and produce large amounts of methane along with CO2 and H2."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Where are methanogens commonly found in cattle?",
+      "options": [
+        "In the blood",
+        "In the rumen (part of stomach)",
+        "In the skin",
+        "In the liver"
+      ],
+      "correct": 1,
+      "explanation": "Methanogens are present in the rumen (a part of stomach) of cattle, where they help break down cellulose in the food."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the common name for biogas produced from cattle dung?",
+      "options": [
+        "Natural gas",
+        "Gobar gas",
+        "LPG",
+        "CNG"
+      ],
+      "correct": 1,
+      "explanation": "Biogas produced from cattle dung (gobar) is commonly called gobar gas in India."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which Indian organizations mainly developed biogas technology?",
+      "options": [
+        "ISRO and DRDO",
+        "IARI and KVIC",
+        "BARC and CSIR",
+        "ICAR and NITI Aayog"
+      ],
+      "correct": 1,
+      "explanation": "The technology of biogas production was developed in India mainly due to the efforts of Indian Agricultural Research Institute (IARI) and Khadi and Village Industries Commission (KVIC)."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the primary purpose of primary treatment in sewage treatment plants?",
+      "options": [
+        "Biological removal of organic matter",
+        "Physical removal of particles through filtration and sedimentation",
+        "Chemical disinfection",
+        "Production of biogas"
+      ],
+      "correct": 1,
+      "explanation": "Primary treatment involves physical removal of particles - large and small - from sewage through filtration and sedimentation."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What are flocs in the secondary treatment of sewage?",
+      "options": [
+        "Chemical precipitates",
+        "Masses of bacteria associated with fungal filaments forming mesh-like structures",
+        "Solid waste particles",
+        "Air bubbles"
+      ],
+      "correct": 1,
+      "explanation": "Flocs are masses of bacteria associated with fungal filaments to form mesh-like structures that consume organic matter in the effluent."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following is NOT a component of biogas?",
+      "options": [
+        "Methane",
+        "Carbon dioxide",
+        "Oxygen",
+        "Hydrogen sulphide"
+      ],
+      "correct": 2,
+      "explanation": "Biogas is a mixture of methane, hydrogen sulphide and carbon dioxide. Oxygen is not a component of biogas."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What happens to the spent slurry from a biogas plant?",
+      "options": [
+        "It is discarded as waste",
+        "It is used as fertilizer",
+        "It is used for drinking",
+        "It is burned for fuel"
+      ],
+      "correct": 1,
+      "explanation": "The spent slurry removed from the biogas plant through an outlet may be used as fertilizer, making it a valuable by-product."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Why can untreated sewage not be discharged directly into rivers?",
+      "options": [
+        "It contains too much oxygen",
+        "It contains large amounts of organic matter and pathogenic microbes",
+        "It is too cold",
+        "It contains too many minerals"
+      ],
+      "correct": 1,
+      "explanation": "Untreated sewage contains large amounts of organic matter and many pathogenic microbes, which would pollute rivers and increase water-borne diseases."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What does the term 'Biocontrol' refer to?",
+      "options": [
+        "Use of chemicals to kill insects",
+        "Use of biological methods for controlling plant diseases and pests",
+        "Use of weedicides to remove weeds",
+        "Use of pesticides to protect crops"
+      ],
+      "correct": 1,
+      "explanation": "Biocontrol refers to the use of biological methods for controlling plant diseases and pests, as opposed to chemical methods."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which bacteria is commonly used as a microbial biocontrol agent against butterfly caterpillars?",
+      "options": [
+        "Lactobacillus",
+        "Rhizobium",
+        "Bacillus thuringiensis",
+        "Methanobacterium"
+      ],
+      "correct": 2,
+      "explanation": "Bacillus thuringiensis (Bt) is used to control butterfly caterpillars. Its dried spores are mixed with water and sprayed on plants; when eaten by larvae, a toxin is released killing them."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "How is Bacillus thuringiensis (Bt) available for use as a biocontrol agent?",
+      "options": [
+        "As a liquid solution ready to spray",
+        "As dried spores in sachets mixed with water",
+        "As a powder mixed directly into soil",
+        "As a gel applied to leaves"
+      ],
+      "correct": 1,
+      "explanation": "Bt is available in sachets as dried spores which are mixed with water and sprayed onto vulnerable plants such as brassicas and fruit trees."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Where does Bacillus thuringiensis toxin act in the insect body?",
+      "options": [
+        "In the brain of the larvae",
+        "On the outer skin of the larvae",
+        "In the gut of the larvae",
+        "In the blood of the larvae"
+      ],
+      "correct": 2,
+      "explanation": "In the gut of the larvae, the Bt toxin is released and the larvae get killed. The toxin specifically acts inside the digestive system of the larvae."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which insect is mentioned as useful for controlling aphids?",
+      "options": [
+        "Dragonfly",
+        "Ladybird",
+        "Butterfly",
+        "Mosquito"
+      ],
+      "correct": 1,
+      "explanation": "The Ladybird beetle with red and black markings is useful to get rid of aphids. It is a natural predator that keeps aphid populations under control."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which insect is mentioned as useful for controlling mosquitoes?",
+      "options": [
+        "Ladybird",
+        "Dragonfly",
+        "Housefly",
+        "Butterfly"
+      ],
+      "correct": 1,
+      "explanation": "Dragonflies are mentioned as useful insects to get rid of mosquitoes through natural predation."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which fungus is being developed as a biological control agent against plant diseases?",
+      "options": [
+        "Penicillium",
+        "Aspergillus",
+        "Trichoderma",
+        "Rhizopus"
+      ],
+      "correct": 2,
+      "explanation": "Trichoderma species are free-living fungi very common in root ecosystems and are effective biocontrol agents of several plant pathogens."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What type of organisms are Baculoviruses known to attack?",
+      "options": [
+        "Plants and fungi",
+        "Bacteria and algae",
+        "Insects and other arthropods",
+        "Mammals and birds"
+      ],
+      "correct": 2,
+      "explanation": "Baculoviruses are pathogens that attack insects and other arthropods, making them useful for species-specific biological control."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "To which genus do most baculoviruses used as biological control agents belong?",
+      "options": [
+        "Bacillus",
+        "Nucleopolyhedrovirus",
+        "Trichoderma",
+        "Penicillium"
+      ],
+      "correct": 1,
+      "explanation": "The majority of baculoviruses used as biological control agents are in the genus Nucleopolyhedrovirus. They are used for narrow spectrum insecticidal applications."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is a key advantage of using Baculoviruses as biocontrol agents?",
+      "options": [
+        "They kill all insects including beneficial ones",
+        "They have no negative impacts on plants, mammals, birds, fish or non-target insects",
+        "They are cheap and easy to synthesize chemically",
+        "They remain active in soil for decades"
+      ],
+      "correct": 1,
+      "explanation": "Baculoviruses are narrow-spectrum agents shown to have no negative impacts on plants, mammals, birds, fish, or non-target insects, making them safe for ecosystems."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is Bt-cotton?",
+      "options": [
+        "Cotton treated with chemical pesticides",
+        "Cotton plants into which B. thuringiensis toxin genes have been introduced",
+        "Cotton plants grown near Bacillus bacteria in soil",
+        "Cotton soaked in Bt spore solution before planting"
+      ],
+      "correct": 1,
+      "explanation": "Scientists introduced B. thuringiensis toxin genes into cotton plants through genetic engineering. These Bt-cotton plants are resistant to attack by insect pests."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What does IPM stand for in the context of biocontrol?",
+      "options": [
+        "Integrated Pest Management",
+        "Industrial Pesticide Method",
+        "Internal Plant Medicine",
+        "Insect Population Monitoring"
+      ],
+      "correct": 0,
+      "explanation": "IPM stands for Integrated Pest Management, which is an overall programme where beneficial insects are conserved and biocontrol strategies are combined for effective pest control."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "According to organic farming principles, what is the role of biodiversity in pest control?",
+      "options": [
+        "More biodiversity means more pest attacks",
+        "Biodiversity furthers health and makes the landscape more sustainable",
+        "Biodiversity has no connection to pest management",
+        "Biodiversity should be reduced to protect crops"
+      ],
+      "correct": 1,
+      "explanation": "A key belief of the organic farmer is that biodiversity furthers health. The more variety a landscape has, the more sustainable it is, helping maintain natural checks on pests."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Why does the organic farmer believe pests should not be completely eradicated?",
+      "options": [
+        "Because pests help in pollination",
+        "Because without pests, beneficial predatory insects that depend on them would not survive",
+        "Because pests improve soil quality",
+        "Because complete eradication is too expensive"
+      ],
+      "correct": 1,
+      "explanation": "The organic farmer holds the view that eradication of pests is undesirable because beneficial predatory and parasitic insects depend on pests as food or hosts and would not survive without them."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the main problem with using insecticides and pesticides in conventional farming?",
+      "options": [
+        "They are too expensive for most farmers",
+        "They are only effective against a few pest species",
+        "They are toxic and harmful to humans, animals, and pollute the environment",
+        "They need to be reapplied every day"
+      ],
+      "correct": 2,
+      "explanation": "Chemical insecticides and pesticides are toxic and extremely harmful to human beings and animals alike, and have been polluting soil, groundwater, fruits, vegetables and crop plants."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which type of bacteria are collectively called methanogens?",
+      "options": [
+        "Aerobic bacteria that grow on cellulosic material",
+        "Anaerobic bacteria that produce large amounts of methane along with CO2 and H2",
+        "Bacteria found only in the rumen of cattle",
+        "Bacteria that require oxygen to break down cellulose"
+      ],
+      "correct": 1,
+      "explanation": "Methanogens are bacteria that grow anaerobically on cellulosic material and produce large amounts of methane along with CO2 and H2. These bacteria are commonly found in anaerobic sludge during sewage treatment and in the rumen of cattle."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the common name for biogas produced from cattle dung?",
+      "options": [
+        "Natural gas",
+        "Gobar gas",
+        "Methane gas",
+        "Producer gas"
+      ],
+      "correct": 1,
+      "explanation": "The excreta (dung) of cattle, commonly called gobar, is rich in methanogen bacteria. Therefore, the biogas produced from cattle dung is commonly called gobar gas."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Where are methanogens commonly found besides anaerobic sludge during sewage treatment?",
+      "options": [
+        "In the stomach of humans",
+        "In the rumen of cattle",
+        "In the leaves of plants",
+        "In the blood of mammals"
+      ],
+      "correct": 1,
+      "explanation": "Methanogens are commonly found in the anaerobic sludge during sewage treatment. They are also present in the rumen (a part of stomach) of cattle, where they help in the breakdown of cellulose."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the main component of biogas?",
+      "options": [
+        "Carbon dioxide",
+        "Hydrogen sulphide",
+        "Methane",
+        "Nitrogen"
+      ],
+      "correct": 2,
+      "explanation": "Biogas is a mixture of gases containing predominantly methane. It is produced by microbial activity and can be used as fuel."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following is a common methanogen bacterium mentioned in the text?",
+      "options": [
+        "Lactobacillus",
+        "Saccharomyces cerevisiae",
+        "Methanobacterium",
+        "Penicillium notatum"
+      ],
+      "correct": 2,
+      "explanation": "Methanobacterium is mentioned as one common bacterium among the methanogens. Lactobacillus is a lactic acid bacterium, Saccharomyces cerevisiae is brewer's yeast, and Penicillium notatum produces penicillin."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What happens to the floating cover in a biogas plant as gas is produced?",
+      "options": [
+        "It sinks down into the slurry",
+        "It keeps on rising",
+        "It remains stationary",
+        "It rotates continuously"
+      ],
+      "correct": 1,
+      "explanation": "In a biogas plant, a floating cover is placed over the slurry, which keeps on rising as the gas is produced in the tank due to microbial activity."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What can the spent slurry from a biogas plant be used for?",
+      "options": [
+        "As a source of drinking water",
+        "As fuel for vehicles",
+        "As fertiliser",
+        "As building material"
+      ],
+      "correct": 2,
+      "explanation": "The spent slurry is removed through another outlet and may be used as fertiliser. This makes biogas plants environmentally friendly as they produce both fuel and organic fertiliser."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which Indian institutions were mainly responsible for developing biogas production technology?",
+      "options": [
+        "ISRO and DRDO",
+        "IARI and KVIC",
+        "AIIMS and IIT",
+        "BARC and CSIR"
+      ],
+      "correct": 1,
+      "explanation": "The technology of biogas production was developed in India mainly due to the efforts of Indian Agricultural Research Institute (IARI) and Khadi and Village Industries Commission (KVIC)."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the depth of the concrete tank in a typical biogas plant?",
+      "options": [
+        "5-8 feet",
+        "10-15 feet",
+        "20-25 feet",
+        "30-35 feet"
+      ],
+      "correct": 1,
+      "explanation": "The biogas plant consists of a concrete tank that is 10-15 feet deep, in which bio-wastes are collected and a slurry of dung is fed."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What are the main uses of biogas in rural areas?",
+      "options": [
+        "For running vehicles and factories",
+        "For cooking and lighting",
+        "For irrigation and ploughing",
+        "For refrigeration and air conditioning"
+      ],
+      "correct": 1,
+      "explanation": "The biogas thus produced is used for cooking and lighting in rural areas. Cattle dung is available in large quantities in rural areas where cattle are used for various purposes."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Why are biogas plants more often built in rural areas?",
+      "options": [
+        "Because of government subsidies only",
+        "Because cattle dung is available in large quantities in rural areas",
+        "Because urban areas have better technology",
+        "Because rural areas have more electricity"
+      ],
+      "correct": 1,
+      "explanation": "Biogas plants are more often built in rural areas because cattle dung is available in large quantities there, as cattle are used for a variety of purposes in rural settings."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What role do methanogens play in the nutrition of cattle?",
+      "options": [
+        "They produce vitamins for the cattle",
+        "They help in the breakdown of cellulose in the rumen",
+        "They digest proteins in the cattle's diet",
+        "They absorb water from the food"
+      ],
+      "correct": 1,
+      "explanation": "In the rumen, methanogens help in the breakdown of cellulose and play an important role in the nutrition of cattle. A lot of cellulosic material is present in the food of cattle."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which gas is NOT mentioned as a component of biogas in the text?",
+      "options": [
+        "Methane",
+        "Carbon dioxide",
+        "Hydrogen",
+        "Oxygen"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions that biogas contains predominantly methane, along with CO2 and H2. Oxygen is not mentioned as a component of biogas."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the function of the gas-holder in a biogas plant?",
+      "options": [
+        "To filter impurities from the gas",
+        "To store the produced biogas",
+        "To mix dung with water",
+        "To cool down the digester"
+      ],
+      "correct": 1,
+      "explanation": "The gas-holder is the part of the biogas plant that collects and stores the produced biogas (CH4 + CO2 + other gases) before it is supplied through the outlet pipe."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is fed into the concrete tank of a biogas plant along with bio-wastes?",
+      "options": [
+        "Chemical catalysts",
+        "A slurry of dung",
+        "Oxygen gas",
+        "Industrial waste"
+      ],
+      "correct": 1,
+      "explanation": "The biogas plant consists of a concrete tank in which bio-wastes are collected and a slurry of dung is fed. The dung provides the methanogen bacteria needed for biogas production."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Microbes are present in which of the following extreme environments?",
+      "options": [
+        "Only in mild soil and water",
+        "Deep inside geysers where temperature may reach 100C",
+        "Only inside living bodies",
+        "Only in neutral pH environments"
+      ],
+      "correct": 1,
+      "explanation": "According to the chapter, microbes survive even in extreme conditions such as deep geysers (thermal vents) with temperatures as high as 100C. This demonstrates their extraordinary adaptability."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following is NOT listed as a type of microbe in the chapter?",
+      "options": [
+        "Protozoa",
+        "Bacteria",
+        "Nematodes",
+        "Fungi"
+      ],
+      "correct": 2,
+      "explanation": "The chapter lists protozoa, bacteria, fungi, microscopic plant and animal viruses, viroids, and prions as microbes. Nematodes are not microscopic microbes of this classification."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Prions are described in the chapter as:",
+      "options": [
+        "Photosynthetic microbes",
+        "Proteinaceous infectious agents",
+        "RNA-based parasites",
+        "Spore-forming bacteria"
+      ],
+      "correct": 1,
+      "explanation": "The chapter specifically defines prions as proteinaceous infectious agents, distinguishing them from other microbes which contain nucleic acids."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Where are microbes NOT found according to the chapter introduction?",
+      "options": [
+        "Inside human bodies",
+        "Deep in the soil",
+        "Outer space beyond atmosphere",
+        "Highly acidic environments"
+      ],
+      "correct": 2,
+      "explanation": "The chapter states microbes are found in soil, water, air, inside bodies, geysers, deep soil, under thick snow, and acidic environments. Outer space is not mentioned as a location."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the primary purpose of growing microbes on nutritive media in laboratories?",
+      "options": [
+        "To produce medicines directly",
+        "To form visible colonies useful for studying micro-organisms",
+        "To generate biogas",
+        "To purify drinking water"
+      ],
+      "correct": 1,
+      "explanation": "The chapter explains that bacteria and many fungi can be grown on nutritive media to form colonies visible to the naked eye, and such cultures are useful in studies on micro-organisms."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which kingdoms of living organisms contain micro-organisms according to the chapter's question to students?",
+      "options": [
+        "Only Plantae",
+        "Only Animalia",
+        "Multiple kingdoms - students are asked to recall",
+        "Only Monera"
+      ],
+      "correct": 2,
+      "explanation": "The chapter poses a reflective question asking students to recall from Class XI which kingdoms contain micro-organisms and which are exclusively microscopic, implying multiple kingdoms are involved."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "The chapter is titled 'Microbes in Human Welfare'. What does this title suggest?",
+      "options": [
+        "All microbes are harmful to humans",
+        "Microbes have beneficial roles for humans despite some being pathogenic",
+        "Microbes are only found inside humans",
+        "Microbes replace all traditional medicines"
+      ],
+      "correct": 1,
+      "explanation": "Chapter 8 focuses on beneficial roles of microbes. The introduction acknowledges that while some microbes cause diseases (Chapter 7), many are useful to humans in diverse ways."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Viroids differ from viruses in that viroids are:",
+      "options": [
+        "Larger than bacteria",
+        "Proteinaceous agents without nucleic acids",
+        "Listed separately from viruses in microbe classification",
+        "Only found in animals"
+      ],
+      "correct": 2,
+      "explanation": "The chapter lists viroids separately from viruses, indicating they are distinct entities. Viroids are infectious RNA particles without a protein coat, unlike typical viruses."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the significance of microbes surviving under layers of snow several metres thick?",
+      "options": [
+        "They help melt ice",
+        "It demonstrates their ability to survive in extreme cold and dark environments",
+        "They produce heat energy under snow",
+        "They require snow for reproduction"
+      ],
+      "correct": 1,
+      "explanation": "Microbes surviving under thick snow layers is cited as evidence of their extraordinary adaptability to extreme environments where no other life forms could exist."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What are the six major topics covered in Chapter 8 according to its table of contents?",
+      "options": [
+        "Genetics, Evolution, Ecology, Physiology, Taxonomy, Biochemistry",
+        "Household Products, Industrial Products, Sewage Treatment, Biogas, Biocontrol Agents, Biofertilisers",
+        "Bacteria, Viruses, Fungi, Protozoa, Algae, Prions",
+        "Food, Medicine, Water, Energy, Agriculture, Industry"
+      ],
+      "correct": 1,
+      "explanation": "The chapter contents list exactly these six sections: 8.1 Household Products, 8.2 Industrial Products, 8.3 Sewage Treatment, 8.4 Biogas Production, 8.5 Biocontrol Agents, 8.6 Biofertilisers."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which microorganisms are commonly called Lactic Acid Bacteria (LAB)?",
+      "options": [
+        "Saccharomyces cerevisiae",
+        "Lactobacillus and related bacteria",
+        "Propionibacterium sharmanii",
+        "Aspergillus niger"
+      ],
+      "correct": 1,
+      "explanation": "Lactobacillus and other related bacteria are collectively called Lactic Acid Bacteria (LAB). They grow in milk and convert it to curd."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What process do LAB carry out when converting milk to curd?",
+      "options": [
+        "They produce CO2 which solidifies the milk",
+        "They produce acids that coagulate and partially digest milk proteins",
+        "They add vitamin C to the milk",
+        "They remove water from the milk"
+      ],
+      "correct": 1,
+      "explanation": "LAB produce acids during growth that coagulate and partially digest milk proteins, thereby converting milk to curd."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which vitamin's level is increased in curd compared to fresh milk?",
+      "options": [
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin B12",
+        "Vitamin A"
+      ],
+      "correct": 2,
+      "explanation": "The conversion of milk to curd by LAB improves its nutritional quality by increasing the level of Vitamin B12."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the role of LAB in the human stomach?",
+      "options": [
+        "They produce digestive enzymes",
+        "They play a beneficial role in checking disease-causing microbes",
+        "They help absorb calcium",
+        "They produce insulin"
+      ],
+      "correct": 1,
+      "explanation": "In the human stomach, LAB play a very beneficial role in checking or inhibiting the growth of disease-causing microbes."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Why does dough used for making idli and dosa have a puffed-up appearance?",
+      "options": [
+        "Due to addition of baking powder",
+        "Due to production of CO2 gas by bacteria",
+        "Due to addition of yeast",
+        "Due to absorption of water"
+      ],
+      "correct": 1,
+      "explanation": "The dough for idli and dosa is fermented by bacteria, and the puffed-up appearance is due to the production of CO2 gas during fermentation."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which yeast is used for fermenting dough to make bread?",
+      "options": [
+        "Monascus purpureus",
+        "Trichoderma polysporum",
+        "Saccharomyces cerevisiae",
+        "Aspergillus niger"
+      ],
+      "correct": 2,
+      "explanation": "Baker's yeast, Saccharomyces cerevisiae, is used for fermenting the dough used to make bread."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is 'Toddy' and how is it made?",
+      "options": [
+        "A solid food made by drying bamboo shoots",
+        "A traditional drink made by fermenting sap from palms",
+        "A cheese variety made using fungi",
+        "A bread variety made using baker's yeast"
+      ],
+      "correct": 1,
+      "explanation": "Toddy is a traditional drink of some parts of southern India, made by fermenting sap collected from palms using microbes."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What causes the large holes in Swiss cheese?",
+      "options": [
+        "A fungus called Roquefort",
+        "Production of large amounts of CO2 by Propionibacterium sharmanii",
+        "Air bubbles trapped during production",
+        "Fermentation by Lactobacillus"
+      ],
+      "correct": 1,
+      "explanation": "The large holes in Swiss cheese are due to the production of a large amount of CO2 by the bacterium Propionibacterium sharmanii during fermentation."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "How is Roquefort cheese given its particular flavour?",
+      "options": [
+        "By adding salt during ripening",
+        "By ripening it with a specific fungus grown on it",
+        "By fermenting with Propionibacterium sharmanii",
+        "By adding LAB to the milk"
+      ],
+      "correct": 1,
+      "explanation": "Roquefort cheese is ripened by growing a specific fungus on it, which gives it its characteristic and particular flavour."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What are fermentors used for in industrial production?",
+      "options": [
+        "To store finished products",
+        "To grow microbes in very large vessels for industrial-scale production",
+        "To filter impurities from beverages",
+        "To pasteurise dairy products"
+      ],
+      "correct": 1,
+      "explanation": "Fermentors are very large vessels used in industrial-scale production to grow microbes that synthesise valuable products like beverages and antibiotics."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following is NOT a product made using microbial fermentation mentioned on this page?",
+      "options": [
+        "Curd",
+        "Cheese",
+        "Butter",
+        "Toddy"
+      ],
+      "correct": 2,
+      "explanation": "Butter is not mentioned as a product made by microbial fermentation on this page. Curd, cheese, toddy and bread dough are the fermented products discussed."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What does a small amount of curd added to fresh milk as inoculum contain?",
+      "options": [
+        "Millions of LAB",
+        "Digestive enzymes",
+        "Vitamin B12 supplements",
+        "CO2 gas"
+      ],
+      "correct": 0,
+      "explanation": "A small amount of curd added to fresh milk as an inoculum or starter contains millions of LAB, which multiply at suitable temperatures to convert milk to curd."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which yeast is commonly used for fermenting malted cereals and fruit juices to produce ethanol?",
+      "options": [
+        "Aspergillus niger",
+        "Saccharomyces cerevisiae",
+        "Lactobacillus acidophilus",
+        "Penicillium notatum"
+      ],
+      "correct": 1,
+      "explanation": "Saccharomyces cerevisiae, also called brewer's yeast, is used to ferment malted cereals and fruit juices to produce ethanol."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which alcoholic beverages are produced WITHOUT distillation?",
+      "options": [
+        "Whisky and Rum",
+        "Brandy and Whisky",
+        "Wine and Beer",
+        "Rum and Brandy"
+      ],
+      "correct": 2,
+      "explanation": "Wine and beer are produced without distillation, while whisky, brandy, and rum require distillation of the fermented broth."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Penicillin was discovered by chance when Alexander Fleming observed a mould inhibiting which bacterium?",
+      "options": [
+        "Escherichia coli",
+        "Lactobacillus",
+        "Staphylococci",
+        "Methanobacterium"
+      ],
+      "correct": 2,
+      "explanation": "Fleming observed a mould (Penicillium notatum) growing in an unwashed culture plate around which Staphylococci could not grow, leading to the discovery of Penicillin."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Who established the full potential of Penicillin as an effective antibiotic after Fleming's initial discovery?",
+      "options": [
+        "Louis Pasteur and Robert Koch",
+        "Ernest Chain and Howard Florey",
+        "Watson and Crick",
+        "Lister and Jenner"
+      ],
+      "correct": 1,
+      "explanation": "Ernest Chain and Howard Florey established the full potential of Penicillin as an effective antibiotic. Fleming, Chain, and Florey jointly received the Nobel Prize in 1945."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "In which year did Fleming, Chain, and Florey receive the Nobel Prize for the discovery of Penicillin?",
+      "options": [
+        "1928",
+        "1939",
+        "1945",
+        "1953"
+      ],
+      "correct": 2,
+      "explanation": "Fleming, Chain, and Florey were awarded the Nobel Prize in 1945 for the discovery and development of Penicillin as an antibiotic."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Penicillin was named after which mould?",
+      "options": [
+        "Penicillium chrysogenum",
+        "Penicillium roqueforti",
+        "Penicillium notatum",
+        "Penicillium camemberti"
+      ],
+      "correct": 2,
+      "explanation": "Fleming named the antibiotic Penicillin after the mould Penicillium notatum, from which the inhibitory chemical substance was produced."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Antibiotics are chemical substances that can kill or retard the growth of which organisms?",
+      "options": [
+        "All living organisms",
+        "Only fungi",
+        "Only viruses",
+        "Disease-causing microbes"
+      ],
+      "correct": 3,
+      "explanation": "Antibiotics are chemical substances produced by some microbes that can kill or retard the growth of other disease-causing microbes."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Penicillin was extensively used to treat soldiers wounded in which war?",
+      "options": [
+        "World War I",
+        "World War II",
+        "Korean War",
+        "Vietnam War"
+      ],
+      "correct": 1,
+      "explanation": "Penicillin was extensively used to treat American soldiers wounded in World War II, saving countless lives."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What type of product is Penicillin classified as?",
+      "options": [
+        "Hormone",
+        "Antibiotic",
+        "Vitamin",
+        "Enzyme"
+      ],
+      "correct": 1,
+      "explanation": "Penicillin is classified as an antibiotic - a chemical substance produced by a microbe (Penicillium notatum) that inhibits or kills disease-causing bacteria."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "The word 'anti' in antibiotic is derived from Greek and means what?",
+      "options": [
+        "Before",
+        "With",
+        "Against",
+        "After"
+      ],
+      "correct": 2,
+      "explanation": "The Greek word 'anti' means 'against'. Combined with 'bio' (life), antibiotic means 'against life' in the context of disease-causing organisms."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which fermented beverage requires distillation during its production?",
+      "options": [
+        "Beer",
+        "Wine",
+        "Whisky",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "Whisky (along with brandy and rum) requires distillation of the fermented broth, unlike wine and beer which are produced without distillation."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the common name for Saccharomyces cerevisiae used in beverage production?",
+      "options": [
+        "Lactic acid bacteria",
+        "Methanogen",
+        "Brewer's yeast",
+        "Blue-green algae"
+      ],
+      "correct": 2,
+      "explanation": "Saccharomyces cerevisiae is commonly called brewer's yeast when used for fermenting malted cereals and fruit juices for alcoholic beverage production."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Antibiotics have helped treat which of the following deadly diseases?",
+      "options": [
+        "Malaria and dengue",
+        "Plague and leprosy",
+        "Diabetes and cancer",
+        "Influenza and HIV"
+      ],
+      "correct": 1,
+      "explanation": "Antibiotics greatly improved the capacity to treat deadly diseases such as plague, whooping cough, diphtheria, and leprosy which used to kill millions globally."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Large-scale industrial production of microbes requires growing them in what type of vessel?",
+      "options": [
+        "Petri dishes",
+        "Test tubes",
+        "Fermentors",
+        "Beakers"
+      ],
+      "correct": 2,
+      "explanation": "Industrial-scale production requires growing microbes in very large vessels called fermentors, which allow controlled large-volume cultivation."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which fungus is used for the commercial production of citric acid?",
+      "options": [
+        "Lactobacillus",
+        "Aspergillus niger",
+        "Saccharomyces cerevisiae",
+        "Clostridium butylicum"
+      ],
+      "correct": 1,
+      "explanation": "Aspergillus niger is a fungus used industrially to produce citric acid. Other microbes produce different organic acids: Acetobacter aceti produces acetic acid, Clostridium butylicum produces butyric acid, and Lactobacillus produces lactic acid."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which bacterium produces acetic acid commercially?",
+      "options": [
+        "Acetobacter aceti",
+        "Aspergillus niger",
+        "Lactobacillus",
+        "Streptococcus"
+      ],
+      "correct": 0,
+      "explanation": "Acetobacter aceti is the bacterium responsible for the commercial production of acetic acid. It belongs to the group of microbes used for industrial production of organic acids."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Clostridium butylicum is used for the commercial production of which acid?",
+      "options": [
+        "Citric acid",
+        "Lactic acid",
+        "Acetic acid",
+        "Butyric acid"
+      ],
+      "correct": 3,
+      "explanation": "Clostridium butylicum is a bacterium used for the industrial production of butyric acid. Each microbe has a specific metabolic pathway that leads to a characteristic organic acid product."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which yeast is used for the commercial production of ethanol?",
+      "options": [
+        "Monascus purpureus",
+        "Trichoderma polysporum",
+        "Saccharomyces cerevisiae",
+        "Penicillium notatum"
+      ],
+      "correct": 2,
+      "explanation": "Saccharomyces cerevisiae (baker's or brewer's yeast) is used commercially to produce ethanol through fermentation. It is the same yeast used in bread-making and beverage fermentation."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the role of lipases in detergent formulations?",
+      "options": [
+        "Killing bacteria on clothes",
+        "Removing oily stains from laundry",
+        "Producing foam",
+        "Breaking down fabric fibres"
+      ],
+      "correct": 1,
+      "explanation": "Lipases are enzymes produced by microbes and are added to detergent formulations because they efficiently break down fats and oils, thereby removing oily stains from laundry. This is one of the key industrial applications of microbially produced enzymes."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Why are commercially bottled fruit juices clearer than home-made ones?",
+      "options": [
+        "They contain more sugar",
+        "They are boiled at high temperature",
+        "They are clarified using pectinases and proteases",
+        "They are filtered through sand"
+      ],
+      "correct": 2,
+      "explanation": "Commercially bottled juices are treated with enzymes pectinases and proteases, which break down pectin and protein particles that cause cloudiness. This enzymatic clarification makes them visually clearer than freshly prepared home juices."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Streptokinase produced by Streptococcus is used as a 'clot buster'. What does it do?",
+      "options": [
+        "Increases blood pressure",
+        "Removes clots from blood vessels",
+        "Produces new red blood cells",
+        "Destroys white blood cells"
+      ],
+      "correct": 1,
+      "explanation": "Streptokinase, produced by the bacterium Streptococcus and further modified by genetic engineering, is used therapeutically to dissolve blood clots in the vessels of patients who have suffered myocardial infarction (heart attack)."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which fungus produces Cyclosporin A, an immunosuppressive agent used in organ transplants?",
+      "options": [
+        "Aspergillus niger",
+        "Penicillium notatum",
+        "Trichoderma polysporum",
+        "Monascus purpureus"
+      ],
+      "correct": 2,
+      "explanation": "Cyclosporin A is a bioactive molecule produced by the fungus Trichoderma polysporum. It is used as an immunosuppressive drug to prevent rejection of transplanted organs by suppressing the patient's immune response."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Statins produced by Monascus purpureus are used for which medical purpose?",
+      "options": [
+        "Treating infections",
+        "Lowering blood cholesterol",
+        "Increasing immunity",
+        "Treating diabetes"
+      ],
+      "correct": 1,
+      "explanation": "Statins from the yeast Monascus purpureus are commercially used as blood-cholesterol-lowering agents. They work by competitively inhibiting the enzyme responsible for the synthesis of cholesterol in the body."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "How do statins lower blood cholesterol levels in the body?",
+      "options": [
+        "By destroying cholesterol molecules directly",
+        "By competitively inhibiting the enzyme responsible for cholesterol synthesis",
+        "By increasing bile production",
+        "By stimulating liver function"
+      ],
+      "correct": 1,
+      "explanation": "Statins act as competitive inhibitors of the enzyme that catalyses the biosynthesis of cholesterol. By blocking this enzyme, statins reduce cholesterol production in the body, making them effective agents against hypercholesterolaemia."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is sewage primarily composed of?",
+      "options": [
+        "Only industrial chemicals",
+        "Only rainwater runoff",
+        "Municipal waste water containing human excreta and organic matter",
+        "Purified drinking water"
+      ],
+      "correct": 2,
+      "explanation": "Sewage is municipal waste water, which contains large quantities of organic matter and microbes, a significant portion of which is human excreta. Many of the microbes present in sewage are pathogenic and pose serious health risks."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Why cannot untreated sewage be directly discharged into rivers and streams?",
+      "options": [
+        "It is too cold",
+        "It contains organic matter, pathogens and pollutants that harm water bodies",
+        "It is too salty",
+        "Rivers cannot hold that volume of water"
+      ],
+      "correct": 1,
+      "explanation": "Untreated sewage is rich in organic matter and pathogenic microbes. Discharging it directly into natural water bodies would pollute water, harm aquatic ecosystems, reduce oxygen levels, and spread water-borne diseases."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the full form of STP in the context of waste water management?",
+      "options": [
+        "Standard Treatment Procedure",
+        "Sewage Treatment Plant",
+        "Sludge Transfer Pipeline",
+        "Standard Testing Protocol"
+      ],
+      "correct": 1,
+      "explanation": "STP stands for Sewage Treatment Plant. These are facilities specifically designed to treat municipal waste water using physical, biological, and chemical methods before it is discharged into natural water bodies."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which type of microbes are responsible for treating sewage in sewage treatment plants?",
+      "options": [
+        "Autotrophic microbes",
+        "Heterotrophic microbes naturally present in sewage",
+        "Photosynthetic bacteria",
+        "Archaebacteria only"
+      ],
+      "correct": 1,
+      "explanation": "Sewage treatment relies on heterotrophic microbes that are naturally present in the sewage itself. These organisms break down the organic matter in the waste water through their metabolic activities."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What does BOD stand for, and what does a high BOD indicate?",
+      "options": [
+        "Bacterial Oxygen Demand; low pollution",
+        "Biochemical Oxygen Demand; high organic pollution",
+        "Biological Oxidation Degree; low organic matter",
+        "Biochemical Oxygen Decomposition; neutral water"
+      ],
+      "correct": 1,
+      "explanation": "BOD stands for Biochemical Oxygen Demand. It measures the oxygen required to oxidise organic matter in water by bacteria. A high BOD value indicates a high amount of organic matter, meaning the water is more polluted."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which magnification was used to view rod-shaped bacteria as shown in Figure 8.1(a)?",
+      "options": [
+        "500X",
+        "1500X",
+        "50000X",
+        "10000X"
+      ],
+      "correct": 1,
+      "explanation": "Figure 8.1(a) shows rod-shaped bacteria magnified at 1500X."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "At what magnification was the rod-shaped bacterium showing flagella observed in Figure 8.1(c)?",
+      "options": [
+        "1500X",
+        "10000X",
+        "50000X",
+        "100000X"
+      ],
+      "correct": 2,
+      "explanation": "Figure 8.1(c) shows a rod-shaped bacterium with flagella magnified at 50,000X."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which virus shown in Figure 8.2 causes respiratory infections?",
+      "options": [
+        "Bacteriophage",
+        "Tobacco Mosaic Virus",
+        "Adenovirus",
+        "Retrovirus"
+      ],
+      "correct": 2,
+      "explanation": "Figure 8.2(b) shows Adenovirus, which causes respiratory infections."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the shape of the Tobacco Mosaic Virus (TMV) shown in Figure 8.2(c)?",
+      "options": [
+        "Spherical",
+        "Helical",
+        "Rod-shaped",
+        "Icosahedral"
+      ],
+      "correct": 2,
+      "explanation": "TMV is described as a rod-shaped virus in Figure 8.2(c)."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "At approximately what magnification were the viruses in Figure 8.2 observed?",
+      "options": [
+        "1000X to 5000X",
+        "10000X to 50000X",
+        "100000X to 150000X",
+        "500X to 1500X"
+      ],
+      "correct": 2,
+      "explanation": "The viruses in Figure 8.2 were magnified about 1,00,000 to 1,50,000X."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which structural part of the bacteriophage shown in Figure 8.2(a) connects the head to the tail plate?",
+      "options": [
+        "Prongs",
+        "Pins",
+        "Collar",
+        "Flagella"
+      ],
+      "correct": 2,
+      "explanation": "The collar is the structural part that connects the head to the tail plate in a bacteriophage."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is shown growing in a petri dish in Figure 8.3(b)?",
+      "options": [
+        "Bacterial colony",
+        "Fungal colony",
+        "Viral plaques",
+        "Protozoan culture"
+      ],
+      "correct": 1,
+      "explanation": "Figure 8.3(b) shows a fungal colony growing in a petri dish."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which of the following correctly describes what 'flocs' are in microbiology?",
+      "options": [
+        "Individual bacterial cells floating freely",
+        "Masses of bacteria associated with fungal filaments forming mesh-like structures",
+        "Viral particles grouped together",
+        "Spores released by fungi"
+      ],
+      "correct": 1,
+      "explanation": "Flocs are masses of bacteria associated with fungal filaments that form mesh-like structures, as described in the sewage treatment context."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What structural feature is labeled on the rod-shaped bacterium in Figure 8.1(c)?",
+      "options": [
+        "Pili",
+        "Capsule",
+        "Flagella",
+        "Cell wall"
+      ],
+      "correct": 2,
+      "explanation": "Figure 8.1(c) specifically labels flagella on the rod-shaped bacterium."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What shape are the bacteria shown in Figure 8.1(b)?",
+      "options": [
+        "Rod-shaped",
+        "Spiral-shaped",
+        "Spherical",
+        "Comma-shaped"
+      ],
+      "correct": 2,
+      "explanation": "Figure 8.1(b) shows spherical-shaped bacteria magnified at 1500X."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the primary purpose of sewage treatment plants (STPs)?",
+      "options": [
+        "To produce drinking water",
+        "To make sewage less polluting before disposal",
+        "To generate electricity from waste",
+        "To remove salt from water"
+      ],
+      "correct": 1,
+      "explanation": "Sewage treatment plants treat municipal waste water to reduce its polluting potential before it is released into natural water bodies."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which type of microbes are used in the biological treatment of sewage?",
+      "options": [
+        "Autotrophic microbes",
+        "Pathogenic microbes",
+        "Heterotrophic microbes",
+        "Photosynthetic microbes"
+      ],
+      "correct": 2,
+      "explanation": "Heterotrophic microbes naturally present in the sewage are responsible for carrying out the biological treatment of waste water."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "In primary sewage treatment, floating debris is removed by which process?",
+      "options": [
+        "Distillation",
+        "Sequential filtration",
+        "Aeration",
+        "Digestion"
+      ],
+      "correct": 1,
+      "explanation": "During primary treatment, floating debris is removed first by sequential filtration before grit is removed by sedimentation."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is primary sludge in sewage treatment?",
+      "options": [
+        "Gas produced during anaerobic digestion",
+        "The liquid effluent after aeration",
+        "All solids that settle during primary treatment",
+        "Bacteria added as inoculum"
+      ],
+      "correct": 2,
+      "explanation": "All solids that settle during primary treatment form the primary sludge, while the remaining liquid is called the effluent."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What happens in the aeration tanks during secondary sewage treatment?",
+      "options": [
+        "Sludge is dried under sunlight",
+        "Effluent is agitated and air is pumped in to promote aerobic microbial growth",
+        "Chemicals are added to neutralise acids",
+        "Water is distilled to remove impurities"
+      ],
+      "correct": 1,
+      "explanation": "In aeration tanks, the primary effluent is constantly agitated mechanically and air is pumped in, promoting vigorous growth of useful aerobic microbes into flocs."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What does BOD stand for in sewage treatment?",
+      "options": [
+        "Biological Oxygen Demand",
+        "Biochemical Oxygen Demand",
+        "Bacterial Organic Decomposition",
+        "Basic Oxidation Degree"
+      ],
+      "correct": 1,
+      "explanation": "BOD stands for Biochemical Oxygen Demand, which refers to the amount of oxygen that would be consumed if all the organic matter in one litre of water were oxidised by bacteria."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "A higher BOD value of waste water indicates:",
+      "options": [
+        "Lower pollution potential",
+        "Higher pollution potential",
+        "Greater clarity of water",
+        "Absence of microbes"
+      ],
+      "correct": 1,
+      "explanation": "The greater the BOD of waste water, the more is its polluting potential, because higher BOD means more organic matter is present which consumes more oxygen."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What are 'flocs' in the context of secondary sewage treatment?",
+      "options": [
+        "Chemical compounds added to sewage",
+        "Masses of bacteria associated with fungal filaments forming mesh-like structures",
+        "Gas bubbles formed during aeration",
+        "Solid particles removed during primary treatment"
+      ],
+      "correct": 1,
+      "explanation": "Flocs are masses of bacteria associated with fungal filaments that form mesh-like structures; they grow vigorously in aeration tanks and consume organic matter in the effluent."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is activated sludge in sewage treatment?",
+      "options": [
+        "Chemically treated water",
+        "Sediment formed when bacterial flocs settle in the settling tank",
+        "Gas mixture produced during digestion",
+        "Primary effluent before aeration"
+      ],
+      "correct": 1,
+      "explanation": "After BOD is significantly reduced, the effluent passes to a settling tank where bacterial flocs sediment; this sediment is called activated sludge."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Why is a small part of activated sludge pumped back into the aeration tank?",
+      "options": [
+        "To increase the BOD of the effluent",
+        "To serve as inoculum for further biological treatment",
+        "To produce biogas",
+        "To remove grit and debris"
+      ],
+      "correct": 1,
+      "explanation": "A small part of activated sludge is pumped back into the aeration tank to serve as the inoculum, seeding it with the active microbial community needed for treatment."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Where is the remaining major part of activated sludge sent after settling?",
+      "options": [
+        "Directly to rivers",
+        "Back to primary settling tank",
+        "Into anaerobic sludge digesters",
+        "Into aeration tanks"
+      ],
+      "correct": 2,
+      "explanation": "The remaining major part of activated sludge is pumped into large tanks called anaerobic sludge digesters where anaerobic bacteria digest the bacteria and fungi in the sludge."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which gases are produced during anaerobic digestion of sludge?",
+      "options": [
+        "Oxygen, nitrogen and carbon dioxide",
+        "Methane, hydrogen sulphide and carbon dioxide",
+        "Ammonia, chlorine and methane",
+        "Hydrogen, oxygen and nitrogen"
+      ],
+      "correct": 1,
+      "explanation": "During anaerobic digestion in sludge digesters, bacteria produce a mixture of gases including methane, hydrogen sulphide and carbon dioxide, collectively called biogas."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is the BOD test a measure of, indirectly?",
+      "options": [
+        "Amount of dissolved salts in water",
+        "Amount of organic matter present in the water",
+        "pH level of sewage",
+        "Temperature of the effluent"
+      ],
+      "correct": 1,
+      "explanation": "The BOD test measures the rate of uptake of oxygen by micro-organisms in a water sample; indirectly, BOD is a measure of the organic matter present in the water."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Where is the effluent from secondary sewage treatment generally released?",
+      "options": [
+        "Directly into the ocean",
+        "Back into the primary settling tank",
+        "Into natural water bodies like rivers and streams",
+        "Into biogas digesters"
+      ],
+      "correct": 2,
+      "explanation": "After secondary treatment, the treated effluent is generally released into natural water bodies like rivers and streams, as its polluting potential is significantly reduced."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "For how long has microbial treatment of sewage been practiced worldwide?",
+      "options": [
+        "About 10 years",
+        "About 50 years",
+        "More than a hundred years",
+        "About 200 years"
+      ],
+      "correct": 2,
+      "explanation": "Microbial treatment of sewage has been practiced for more than a century now, in almost all parts of the world, and no man-made technology has been able to rival it."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "According to the biological farming approach, why is the eradication of pests considered undesirable?",
+      "options": [
+        "Because pests help in pollination of crops",
+        "Because beneficial predatory and parasitic insects depend on them as food or hosts",
+        "Because pests contribute to soil fertility",
+        "Because pests produce useful enzymes"
+      ],
+      "correct": 1,
+      "explanation": "The organic farmer holds the view that the eradication of pests is undesirable because without them, the beneficial predatory and parasitic insects which depend upon them as food or hosts would not be able to survive."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which insects are mentioned as useful to get rid of aphids and mosquitoes respectively?",
+      "options": [
+        "Dragonflies and Ladybird beetles",
+        "Ladybird beetles and Dragonflies",
+        "Honeybees and Butterflies",
+        "Ants and Spiders"
+      ],
+      "correct": 1,
+      "explanation": "The Ladybird beetle with red and black markings and Dragonflies are useful to get rid of aphids and mosquitoes respectively."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is Bacillus thuringiensis (Bt) used to control?",
+      "options": [
+        "Aphids on fruit trees",
+        "Butterfly caterpillars",
+        "Mosquito larvae in water",
+        "Plant fungal diseases"
+      ],
+      "correct": 1,
+      "explanation": "Bacillus thuringiensis is a microbial biocontrol agent introduced to control butterfly caterpillars. The toxin released in the gut of larvae kills them while leaving other insects unharmed."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "In what form are Bacillus thuringiensis spores commercially available?",
+      "options": [
+        "As liquid suspension in bottles",
+        "As dried spores in sachets",
+        "As powder in large containers",
+        "As injectable solutions"
+      ],
+      "correct": 1,
+      "explanation": "Bacillus thuringiensis spores are available in sachets as dried spores which are mixed with water and sprayed onto vulnerable plants."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "How does Bacillus thuringiensis kill the caterpillar larvae?",
+      "options": [
+        "By physically blocking their breathing pores",
+        "By releasing a toxin in the gut of the larvae",
+        "By causing starvation through leaf destruction",
+        "By producing antibiotics that poison the larvae"
+      ],
+      "correct": 1,
+      "explanation": "In the gut of the larvae, the toxin is released and the larvae get killed. The bacterial disease will kill the caterpillars but leave other insects unharmed."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What modern technique has been used to introduce Bt toxin genes into plants?",
+      "options": [
+        "Selective breeding",
+        "Genetic engineering",
+        "Hybridization",
+        "Mutation breeding"
+      ],
+      "correct": 1,
+      "explanation": "Because of the development of methods of genetic engineering, scientists have introduced B.thuringiensis toxin genes into plants making them resistant to insect pests."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which crop is mentioned as an example of Bt toxin gene introduction?",
+      "options": [
+        "Bt-rice",
+        "Bt-wheat",
+        "Bt-cotton",
+        "Bt-sugarcane"
+      ],
+      "correct": 2,
+      "explanation": "Bt-cotton is one such example of plants with introduced B.thuringiensis toxin genes, which is being cultivated in some states of our country."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which fungus is being developed as a biological control agent for plant diseases?",
+      "options": [
+        "Penicillium notatum",
+        "Aspergillus niger",
+        "Trichoderma",
+        "Saccharomyces cerevisiae"
+      ],
+      "correct": 2,
+      "explanation": "Trichoderma is a biological control being developed for use in the treatment of plant disease. Trichoderma species are free-living fungi common in root ecosystems."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Where are Trichoderma species commonly found?",
+      "options": [
+        "In aquatic environments",
+        "In the root ecosystems",
+        "In human digestive system",
+        "In polar ice regions"
+      ],
+      "correct": 1,
+      "explanation": "Trichoderma species are free-living fungi that are very common in the root ecosystems and are effective biocontrol agents of several plant diseases."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What type of organisms are baculoviruses?",
+      "options": [
+        "Bacteria that attack insects",
+        "Fungi that decompose organic matter",
+        "Pathogens that attack insects and other arthropods",
+        "Protozoa that live in soil"
+      ],
+      "correct": 2,
+      "explanation": "Baculoviruses are pathogens that attack insects and other arthropods. The majority used as biological control agents are in the genus Nucleopolyhedrovirus."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Which genus of baculoviruses is primarily used as biological control agents?",
+      "options": [
+        "Herpesvirus",
+        "Adenovirus",
+        "Nucleopolyhedrovirus",
+        "Retrovirus"
+      ],
+      "correct": 2,
+      "explanation": "The majority of baculoviruses used as biological control agents are in the genus Nucleopolyhedrovirus."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is a key advantage of using baculoviruses as biocontrol agents?",
+      "options": [
+        "They kill all insects rapidly",
+        "They have no negative impacts on plants, mammals, birds, fish or non-target insects",
+        "They are cheaper than chemical pesticides",
+        "They can be stored for unlimited time"
+      ],
+      "correct": 1,
+      "explanation": "Baculoviruses have been shown to have no negative impacts on plants, mammals, birds, fish or even on non-target insects, making them excellent for species-specific insecticidal applications."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "When is the use of baculoviruses especially desirable?",
+      "options": [
+        "When crops need rapid growth",
+        "When beneficial insects are being conserved in an IPM programme or in ecologically sensitive areas",
+        "When soil needs enrichment",
+        "When water sources need purification"
+      ],
+      "correct": 1,
+      "explanation": "Baculoviruses are especially desirable when beneficial insects are being conserved to aid in an overall integrated pest management programme, or when an ecologically sensitive area is being treated."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What does IPM stand for in the context of biological control?",
+      "options": [
+        "International Pest Management",
+        "Integrated Pest Management",
+        "Intensive Plant Management",
+        "Insect Population Monitoring"
+      ],
+      "correct": 1,
+      "explanation": "IPM stands for Integrated Pest Management programme, where beneficial insects are conserved and baculoviruses are used as part of the overall pest control strategy."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What is a major environmental concern mentioned at the beginning of the section on biofertilisers?",
+      "options": [
+        "Deforestation",
+        "Environmental pollution",
+        "Soil erosion",
+        "Water scarcity"
+      ],
+      "correct": 1,
+      "explanation": "With our present day lifestyles, environmental pollution is a major cause of concern, and the use of chemical fertilisers has contributed significantly to this pollution."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "What has contributed significantly to environmental pollution according to the text?",
+      "options": [
+        "Use of organic farming",
+        "Use of chemical fertilisers",
+        "Use of biocontrol agents",
+        "Use of biofertilisers"
+      ],
+      "correct": 1,
+      "explanation": "The use of chemical fertilisers to meet the ever-increasing demand of agricultural produce has contributed significantly to environmental pollution."
+    }
+  ]
+}
