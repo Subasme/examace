@@ -1,0 +1,61 @@
+-- Run first: Biology chapters + tag master
+
+INSERT INTO chapters (language, standard, subject, chapter_id, chapter_label, chapter_tag, question_count)
+VALUES
+  ('English','12th','Biology','bio-ch01','Reproduction in Organisms','BIO12EN01',0),
+  ('English','12th','Biology','bio-ch02','Sexual Reproduction in Flowering Plants','BIO12EN02',0),
+  ('English','12th','Biology','bio-ch03','Human Reproduction','BIO12EN03',0),
+  ('English','12th','Biology','bio-ch04','Reproductive Health','BIO12EN04',0),
+  ('English','12th','Biology','bio-ch05','Principles of Inheritance and Variation','BIO12EN05',0),
+  ('English','12th','Biology','bio-ch06','Molecular Basis of Inheritance','BIO12EN06',0),
+  ('English','12th','Biology','bio-ch07','Evolution','BIO12EN07',0),
+  ('English','12th','Biology','bio-ch08','Human Health and Disease','BIO12EN08',0),
+  ('English','12th','Biology','bio-ch09','Strategies for Enhancement in Food Production','BIO12EN09',0),
+  ('English','12th','Biology','bio-ch10','Microbes in Human Welfare','BIO12EN10',0),
+  ('English','12th','Biology','bio-ch11','Biotechnology: Principles and Processes','BIO12EN11',0),
+  ('English','12th','Biology','bio-ch12','Biotechnology and its Applications','BIO12EN12',0),
+  ('English','12th','Biology','bio-ch13','Organisms and Populations','BIO12EN13',0),
+  ('Tamil','12th','Biology','bio-ch01','Reproduction in Organisms','BIO12TA01',0),
+  ('Tamil','12th','Biology','bio-ch02','Sexual Reproduction in Flowering Plants','BIO12TA02',0),
+  ('Tamil','12th','Biology','bio-ch03','Human Reproduction','BIO12TA03',0),
+  ('Tamil','12th','Biology','bio-ch04','Reproductive Health','BIO12TA04',0),
+  ('Tamil','12th','Biology','bio-ch05','Principles of Inheritance and Variation','BIO12TA05',0),
+  ('Tamil','12th','Biology','bio-ch06','Molecular Basis of Inheritance','BIO12TA06',0),
+  ('Tamil','12th','Biology','bio-ch07','Evolution','BIO12TA07',0),
+  ('Tamil','12th','Biology','bio-ch08','Human Health and Disease','BIO12TA08',0),
+  ('Tamil','12th','Biology','bio-ch09','Strategies for Enhancement in Food Production','BIO12TA09',0),
+  ('Tamil','12th','Biology','bio-ch10','Microbes in Human Welfare','BIO12TA10',0),
+  ('Tamil','12th','Biology','bio-ch11','Biotechnology: Principles and Processes','BIO12TA11',0),
+  ('Tamil','12th','Biology','bio-ch12','Biotechnology and its Applications','BIO12TA12',0),
+  ('Tamil','12th','Biology','bio-ch13','Organisms and Populations','BIO12TA13',0)
+ON CONFLICT DO NOTHING;
+
+INSERT INTO question_tag_master (tag_code, standard, subject, chapter_id)
+VALUES
+  ('BIO12EN01','12th','Biology','bio-ch01'),
+  ('BIO12EN02','12th','Biology','bio-ch02'),
+  ('BIO12EN03','12th','Biology','bio-ch03'),
+  ('BIO12EN04','12th','Biology','bio-ch04'),
+  ('BIO12EN05','12th','Biology','bio-ch05'),
+  ('BIO12EN06','12th','Biology','bio-ch06'),
+  ('BIO12EN07','12th','Biology','bio-ch07'),
+  ('BIO12EN08','12th','Biology','bio-ch08'),
+  ('BIO12EN09','12th','Biology','bio-ch09'),
+  ('BIO12EN10','12th','Biology','bio-ch10'),
+  ('BIO12EN11','12th','Biology','bio-ch11'),
+  ('BIO12EN12','12th','Biology','bio-ch12'),
+  ('BIO12EN13','12th','Biology','bio-ch13'),
+  ('BIO12TA01','12th','Biology','bio-ch01'),
+  ('BIO12TA02','12th','Biology','bio-ch02'),
+  ('BIO12TA03','12th','Biology','bio-ch03'),
+  ('BIO12TA04','12th','Biology','bio-ch04'),
+  ('BIO12TA05','12th','Biology','bio-ch05'),
+  ('BIO12TA06','12th','Biology','bio-ch06'),
+  ('BIO12TA07','12th','Biology','bio-ch07'),
+  ('BIO12TA08','12th','Biology','bio-ch08'),
+  ('BIO12TA09','12th','Biology','bio-ch09'),
+  ('BIO12TA10','12th','Biology','bio-ch10'),
+  ('BIO12TA11','12th','Biology','bio-ch11'),
+  ('BIO12TA12','12th','Biology','bio-ch12'),
+  ('BIO12TA13','12th','Biology','bio-ch13')
+ON CONFLICT (tag_code) DO NOTHING;
