@@ -1705,12 +1705,13 @@ async function selectChapter(chapterId) {
     const isPremiumOrUnlimited = userPlan === 'premium' || userPlan === 'unlimited';
     const remaining = isPremiumOrUnlimited ? allQs.length : Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
     const pool = isPremiumOrUnlimited ? allQs : (fresh.length >= remaining ? fresh : allQs);
-    practiceState = { questions: shuffle(pool).slice(0, remaining), idx: 0, answers: {}, skipDaily: false, chapter, start: Date.now() };
+    const qs = shuffle(pool).slice(0, remaining);
+    if (!qs.length) { renderChapters(); showScreen('chapters'); return; }
+    practiceState = { questions: qs, idx: 0, answers: {}, skipDaily: false, chapter, start: Date.now() };
     renderPracticeQ();
     showScreen('practice-quiz');
   } catch (e) {
-    alert('Failed to load questions.');
-    renderChapters();
+    renderChapters(); showScreen('chapters');
   }
 }
 
@@ -2677,9 +2678,9 @@ async function quickStartSession(langId, stdId) {
       }
     } catch(e) {}
     if (!jumped) {
-      // first time: go to first chapter of first subject
-      const firstSubj = std.subjects[0];
-      const firstChap = firstSubj?.chapters?.[0];
+      // first time: go to first chapter of first subject that has questions
+      const firstSubj = std.subjects.find(s => s.totalQuestions > 0) || std.subjects[0];
+      const firstChap = firstSubj?.chapters?.find(c => c.count > 0) || firstSubj?.chapters?.[0];
       if (firstSubj && firstChap) {
         selection.subject = firstSubj;
         selection.chapter = firstChap;
