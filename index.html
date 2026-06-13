@@ -2008,14 +2008,7 @@ function answerPractice(i) {
     mistakes.push({ question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: subj, chapter: chap, date: new Date().toLocaleDateString('en-GB'), yourAnswer: i });
     if (mistakes.length > 200) mistakes.splice(0, mistakes.length - 200);
     if (authUser) {
-      // New normalized: wrong_answer_tracker (upsert by question_id)
-      if (q.id) {
-        db.from('wrong_answer_tracker').upsert(
-          { user_id: authUser.id, question_id: q.id, times_wrong: 1, last_wrong_at: new Date().toISOString() },
-          { onConflict: 'user_id,question_id', ignoreDuplicates: false }
-        ).then();
-      }
-      // Legacy fallback
+      if (q.id) db.rpc('increment_wrong_count', { p_user_id: authUser.id, p_question_id: q.id }).then();
       db.from('mistakes').insert({ user_id: authUser.id, question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: subj, chapter: chap, your_answer: i }).then();
     }
   }
@@ -2205,7 +2198,6 @@ async function saveSessionToSupabase({ questions, answers, timeTakenSecs, mode, 
     else wrong++;
   });
   const neet_score = correct * 4 - wrong;
-  const max_score  = questions.length * 4;
 
   try {
     // 1. Insert exam_session
@@ -2245,14 +2237,11 @@ async function saveSessionToSupabase({ questions, answers, timeTakenSecs, mode, 
     }).filter(r => r.question_id); // only rows where we have a UUID
     if (responses.length) await db.from('question_responses').insert(responses);
 
-    // 3. Upsert wrong_answer_tracker
+    // 3. Increment wrong_answer_tracker (parallel RPC calls — atomic increment)
     const wrongs = questions.filter((q, i) => q.id && answers[i] !== undefined && answers[i] !== q.correct);
-    for (const q of wrongs) {
-      await db.from('wrong_answer_tracker').upsert(
-        { user_id: authUser.id, question_id: q.id, times_wrong: 1, last_wrong_at: new Date().toISOString() },
-        { onConflict: 'user_id,question_id', ignoreDuplicates: false }
-      );
-    }
+    await Promise.all(wrongs.map(q =>
+      db.rpc('increment_wrong_count', { p_user_id: authUser.id, p_question_id: q.id })
+    ));
   } catch(e) { /* silent — results screen still shows */ }
 }
 
