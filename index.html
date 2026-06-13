@@ -2613,11 +2613,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     showAuthScreen('login');
   }
 
-  // React to sign-out from other tabs
+  // React to auth state changes across tabs / email confirmation
   db.auth.onAuthStateChange(async (event, session) => {
     if (event === 'SIGNED_OUT') {
       authUser = null; userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT;
       showAuthScreen('login');
+    } else if (event === 'SIGNED_IN' && session?.user && !authUser) {
+      authUser = session.user;
+      await loadUserPlan();
+      await initApp();
     }
   });
 });
@@ -2650,7 +2654,10 @@ function selectPlan(plan) {
 async function confirmPlan() {
   const btn = document.getElementById('plan-btn');
   btn.disabled = true; btn.textContent = 'Saving…';
-  try { await db.from('profiles').update({ plan: selectedPlan }).eq('id', authUser.id); } catch (e) {}
+  await Promise.allSettled([
+    db.from('user_profiles').upsert({ id: authUser.id, plan: selectedPlan }, { onConflict: 'id' }),
+    db.from('profiles').update({ plan: selectedPlan }).eq('id', authUser.id)
+  ]);
   userPlan = selectedPlan;
   DAILY_LIMIT = (userPlan === 'premium' || userPlan === 'unlimited') ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   btn.disabled = false;
@@ -2687,6 +2694,14 @@ async function handleRegister() {
   btn.disabled = false; btn.textContent = 'Create Account';
   if (error) { errEl.textContent = error.message; errEl.style.display = 'block'; return; }
   authUser = data.user;
+  if (authUser) {
+    const profileRow = { id: authUser.id, display_name: name, plan: 'free', lang_id: 1, standard: '12th' };
+    // Insert into both tables (007 user_profiles + legacy profiles)
+    await Promise.allSettled([
+      db.from('user_profiles').upsert(profileRow, { onConflict: 'id' }),
+      db.from('profiles').upsert({ id: authUser.id, display_name: name, plan: 'free' }, { onConflict: 'id' })
+    ]);
+  }
   showPlanScreen();
 }
 
@@ -2702,8 +2717,15 @@ async function handleLogout() {
 
 async function loadUserPlan() {
   try {
-    const { data } = await db.from('profiles').select('plan,display_name').eq('id', authUser.id).single();
-    userPlan = data?.plan || 'free';
+    // Try new user_profiles first, fall back to legacy profiles
+    let plan = 'free', displayName = '';
+    const { data: up } = await db.from('user_profiles').select('plan,display_name').eq('id', authUser.id).single();
+    if (up) { plan = up.plan || 'free'; displayName = up.display_name || ''; }
+    else {
+      const { data: p } = await db.from('profiles').select('plan,display_name').eq('id', authUser.id).single();
+      if (p) { plan = p.plan || 'free'; displayName = p.display_name || ''; }
+    }
+    userPlan = plan;
     DAILY_LIMIT = (userPlan === 'premium' || userPlan === 'unlimited') ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   } catch (e) { userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT; }
 }
