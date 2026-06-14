@@ -38,6 +38,7 @@ function showGuestLanding() {
   document.getElementById('screen-auth-register').style.display = 'none';
   document.getElementById('screen-plan').style.display = 'none';
   document.getElementById('home-guest-content').style.display = 'block';
+  const hxp = document.getElementById('home-xp-card'); if (hxp) hxp.style.display = 'none';
   document.getElementById('home-daily-goal').style.display = 'none';
   document.getElementById('home-stats-row').style.display = 'none';
   document.getElementById('home-sessions-section').style.display = 'none';

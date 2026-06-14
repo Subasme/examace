@@ -10,6 +10,7 @@ async function initApp() {
   document.getElementById('home-features').style.display = '';
   document.getElementById('upgrade-banner').style.display = '';
   await loadAdminConfig();
+  loadGamificationState().catch(() => {});
   loadStorageSync();
   syncProgressFromSupabase().catch(() => {});
   updateNavUser();
@@ -30,11 +31,10 @@ function updateNavUser() {
   // bottom nav
   const bnav = document.getElementById('bottom-nav');
   if (bnav) bnav.style.display = authUser ? 'flex' : 'none';
-  // nav user / plan badge — hide entirely for guests
+  // nav user area — hide for guests, show level widget for logged-in users
   const navUser = document.getElementById('nav-user');
   if (navUser) navUser.style.display = authUser ? 'flex' : 'none';
-  const badge = document.getElementById('nav-plan-badge');
-  if (badge) { badge.textContent = userPlan === 'premium' ? '⭐ Premium' : (userPlan === 'unlimited' ? '🚀 Unlimited' : 'Free'); badge.className = (userPlan === 'premium' || userPlan === 'unlimited') ? 'chip chip-gold' : 'chip chip-purple'; }
+  renderLevelWidget();
   // greeting
   const greet = document.getElementById('greeting-name');
   if (greet) greet.textContent = name || 'there';
