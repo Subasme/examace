@@ -200,3 +200,228 @@ function showAchievementToast(ach) {
   requestAnimationFrame(() => t.classList.add('show'));
   setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 400); }, 3500);
 }
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// PHASE 3 — Daily Targets + Streak System
+// ═══════════════════════════════════════════════════════════════════════════════
+
+let dailyTarget = {
+  targetMCQs: 75, completedMCQs: 0,
+  physicsTarget: 25, physicsCompleted: 0,
+  chemistryTarget: 25, chemistryCompleted: 0,
+  biologyTarget: 25, biologyCompleted: 0,
+  isCompleted: false, xpAwarded: false,
+  loaded: false,
+};
+
+let streakData = { currentStreak: 0, longestStreak: 0, streakUpdatedToday: false };
+
+let _dailySyncTimer = null;
+
+// ── Load today's target from Supabase ────────────────────────────────────────
+async function loadDailyTarget() {
+  if (!authUser) return;
+  try {
+    const { data, error } = await db.rpc('get_or_create_daily_target', { p_user_id: authUser.id });
+    if (!error && data) {
+      dailyTarget = {
+        targetMCQs:         data.target_mcqs,
+        completedMCQs:      data.completed_mcqs,
+        physicsTarget:      data.physics_target,
+        physicsCompleted:   data.physics_completed,
+        chemistryTarget:    data.chemistry_target,
+        chemistryCompleted: data.chemistry_completed,
+        biologyTarget:      data.biology_target,
+        biologyCompleted:   data.biology_completed,
+        isCompleted:        data.is_completed,
+        xpAwarded:          data.xp_awarded,
+        loaded: true,
+      };
+    }
+  } catch (_) {}
+  renderDailyMissionCard();
+}
+
+// ── Load streak from Supabase ────────────────────────────────────────────────
+async function loadStreak() {
+  if (!authUser) return;
+  try {
+    const { data } = await db.from('user_streaks')
+      .select('current_streak,longest_streak,last_practice_date')
+      .eq('user_id', authUser.id).single();
+    if (data) {
+      const today = new Date().toISOString().split('T')[0];
+      streakData.currentStreak      = data.current_streak;
+      streakData.longestStreak      = data.longest_streak;
+      streakData.streakUpdatedToday = data.last_practice_date === today;
+    }
+  } catch (_) {}
+  renderStreakWidget();
+  renderDailyMissionCard();
+}
+
+// ── Called after every MCQ answer ────────────────────────────────────────────
+async function incrementDailyTarget(subject) {
+  if (!authUser || !dailyTarget.loaded) return;
+
+  dailyTarget.completedMCQs++;
+  const s = (subject || '').toLowerCase();
+  if (s.includes('physics'))                                        dailyTarget.physicsCompleted++;
+  else if (s.includes('chem'))                                      dailyTarget.chemistryCompleted++;
+  else if (s.includes('bio') || s.includes('botan') || s.includes('zoo')) dailyTarget.biologyCompleted++;
+
+  renderDailyMissionCard();
+
+  // Trigger streak after 20 MCQs for the day
+  if (dailyTarget.completedMCQs === 20 && !streakData.streakUpdatedToday) {
+    checkAndUpdateStreak().catch(() => {});
+  }
+
+  // Daily goal completed → award 200 XP
+  if (!dailyTarget.isCompleted && dailyTarget.completedMCQs >= dailyTarget.targetMCQs) {
+    dailyTarget.isCompleted = true;
+    if (!dailyTarget.xpAwarded) {
+      dailyTarget.xpAwarded = true;
+      awardXP('daily_goal').catch(() => {});
+    }
+    renderDailyMissionCard();
+    showToast('🎯 Daily Mission Complete! +200 XP');
+  }
+
+  // Debounced sync to Supabase (batch writes)
+  clearTimeout(_dailySyncTimer);
+  _dailySyncTimer = setTimeout(_syncDailyTarget, 4000);
+}
+
+async function _syncDailyTarget() {
+  if (!authUser) return;
+  try {
+    const today = new Date().toISOString().split('T')[0];
+    await db.from('daily_targets').upsert({
+      user_id:             authUser.id,
+      target_date:         today,
+      target_mcqs:         dailyTarget.targetMCQs,
+      completed_mcqs:      dailyTarget.completedMCQs,
+      physics_target:      dailyTarget.physicsTarget,
+      physics_completed:   dailyTarget.physicsCompleted,
+      chemistry_target:    dailyTarget.chemistryTarget,
+      chemistry_completed: dailyTarget.chemistryCompleted,
+      biology_target:      dailyTarget.biologyTarget,
+      biology_completed:   dailyTarget.biologyCompleted,
+      is_completed:        dailyTarget.isCompleted,
+      xp_awarded:          dailyTarget.xpAwarded,
+      updated_at:          new Date().toISOString(),
+    }, { onConflict: 'user_id,target_date' });
+  } catch (_) {}
+}
+
+// ── Update streak (once ≥20 MCQs answered today) ─────────────────────────────
+async function checkAndUpdateStreak() {
+  if (!authUser || streakData.streakUpdatedToday) return;
+  try {
+    const { data: newStreak } = await db.rpc('update_streak', { p_user_id: authUser.id });
+    if (newStreak != null) {
+      streakData.currentStreak      = newStreak;
+      streakData.longestStreak      = Math.max(streakData.longestStreak, newStreak);
+      streakData.streakUpdatedToday = true;
+
+      renderStreakWidget();
+      renderDailyMissionCard();
+
+      // 7-day milestone bonus (7, 14, 21, …)
+      if (newStreak > 0 && newStreak % 7 === 0) {
+        await awardXP('streak_7');
+        showToast(`🔥 ${newStreak}-Day Streak! +500 XP Bonus!`);
+      }
+
+      checkAndShowAchievements().catch(() => {});
+
+      // Update stat-streak on home screen
+      const ss = document.getElementById('stat-streak');
+      if (ss) ss.textContent = newStreak;
+    }
+  } catch (_) {}
+}
+
+// ── Daily Mission Card UI ─────────────────────────────────────────────────────
+function renderDailyMissionCard() {
+  const el = document.getElementById('home-daily-goal');
+  if (!el || !authUser) return;
+
+  if (!dailyTarget.loaded) {
+    el.innerHTML = `<div class="dm-loading"><div class="spinner" style="width:20px;height:20px;border-width:2px;margin:0"></div><span>Loading mission…</span></div>`;
+    el.style.display = 'block';
+    return;
+  }
+
+  const { targetMCQs, completedMCQs, physicsTarget, physicsCompleted,
+          chemistryTarget, chemistryCompleted, biologyTarget, biologyCompleted,
+          isCompleted } = dailyTarget;
+  const remaining  = Math.max(0, targetMCQs - completedMCQs);
+  const totalPct   = Math.min(100, Math.round(completedMCQs / Math.max(targetMCQs, 1) * 100));
+  const tier       = targetMCQs >= 150 ? '🔥 Advanced' : targetMCQs >= 100 ? '⚡ Intermediate' : '📚 Beginner';
+
+  const subjBar = (label, done, target, color) => {
+    const pct = Math.min(100, target > 0 ? Math.round(Math.min(done, target) / target * 100) : 0);
+    return `
+      <div class="dm-subj">
+        <div class="dm-subj-row">
+          <span class="dm-subj-name">${label}</span>
+          <span class="dm-subj-val" style="color:${pct >= 100 ? 'var(--success)' : 'inherit'}">${Math.min(done, target)}/${target}${pct >= 100 ? ' ✓' : ''}</span>
+        </div>
+        <div class="dm-bar"><div class="dm-fill" style="width:${pct}%;background:${color}"></div></div>
+      </div>`;
+  };
+
+  el.style.display = 'block';
+  el.innerHTML = `
+    <div class="dm-header">
+      <div class="dm-header-left">
+        <div class="dm-title">${isCompleted ? '✅ Mission Complete!' : '🎯 Today\'s Mission'}</div>
+        <div class="dm-sub">${tier} · ${targetMCQs} MCQs${streakData.currentStreak > 0 ? ` · 🔥 ${streakData.currentStreak}d streak` : ''}</div>
+      </div>
+      ${!isCompleted ? `<div class="dm-reward-badge">+200 XP</div>` : ''}
+    </div>
+    <div class="dm-subjects">
+      ${subjBar('⚛️ Physics',   physicsCompleted,   physicsTarget,   '#3b82f6')}
+      ${subjBar('🧪 Chemistry', chemistryCompleted, chemistryTarget, '#10b981')}
+      ${subjBar('🧬 Biology',   biologyCompleted,   biologyTarget,   '#ec4899')}
+    </div>
+    <div class="dm-total-bar"><div class="dm-total-fill" style="width:${totalPct}%"></div></div>
+    <div class="dm-footer">
+      <span class="dm-done-txt">${completedMCQs} / ${targetMCQs} done</span>
+      <span class="dm-remain-txt">${isCompleted ? '🏆 Goal achieved!' : `${remaining} more to go`}</span>
+    </div>`;
+}
+
+// ── Streak Widget UI ──────────────────────────────────────────────────────────
+function renderStreakWidget() {
+  const el = document.getElementById('home-streak-card');
+  if (!el || !authUser) return;
+
+  const { currentStreak, longestStreak } = streakData;
+  const nextMilestone = currentStreak < 7 ? 7 : Math.ceil((currentStreak + 1) / 7) * 7;
+  const toMilestone   = nextMilestone - currentStreak;
+
+  el.style.display = 'flex';
+  el.innerHTML = currentStreak === 0
+    ? `<div class="sc-empty">🔥 Answer 20 MCQs today to start your streak!</div>`
+    : `
+      <div class="sc-item">
+        <div class="sc-icon">🔥</div>
+        <div class="sc-val">${currentStreak}</div>
+        <div class="sc-lbl">Day Streak</div>
+      </div>
+      <div class="sc-divider"></div>
+      <div class="sc-item">
+        <div class="sc-icon">🏆</div>
+        <div class="sc-val">${longestStreak}</div>
+        <div class="sc-lbl">Best Ever</div>
+      </div>
+      <div class="sc-divider"></div>
+      <div class="sc-item">
+        <div class="sc-icon">⚡</div>
+        <div class="sc-val">${toMilestone}</div>
+        <div class="sc-lbl">Days to +500 XP</div>
+      </div>`;
+}
