@@ -619,3 +619,75 @@ body{padding-bottom:68px}
 .history-row{display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:.6rem;background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.65rem .85rem;margin-bottom:.4rem}
 .history-bar-bg{height:6px;background:var(--border);border-radius:3px;overflow:hidden}
 .history-bar-fill{height:100%;background:var(--purple);border-radius:3px;transition:width .5s ease}
+
+/* ── PHASE 6 — Dashboard UI ── */
+
+/* Section title patterns */
+.dash-sec-title{font-family:'Sora',sans-serif;font-weight:700;font-size:.88rem;color:var(--text);margin-bottom:.65rem}
+.dash-sec-title-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:.65rem}
+.dsec-link-btn{background:none;border:none;font-size:.75rem;color:var(--purple);font-weight:600;cursor:pointer;padding:0;font-family:'DM Sans',sans-serif}
+
+/* Hero card */
+.dash-hero-card{background:linear-gradient(135deg,#6C3CE1,#4527a0);border-radius:var(--radius);padding:1rem 1.1rem;margin-bottom:.75rem;color:#fff}
+.dhc-top{display:flex;align-items:center;gap:.8rem;margin-bottom:.8rem}
+.dhc-icon{font-size:2.5rem;line-height:1;flex-shrink:0}
+.dhc-info{flex:1;min-width:0}
+.dhc-level{font-family:'Sora',sans-serif;font-weight:800;font-size:1rem;line-height:1.2}
+.dhc-xp{font-size:.8rem;opacity:.9;margin-top:.2rem}
+.dhc-today-badge{background:rgba(255,255,255,.25);border-radius:10px;padding:1px 7px;font-weight:700;font-size:.75rem;margin-left:.3rem}
+.dhc-bar{height:10px;background:rgba(255,255,255,.2);border-radius:5px;overflow:hidden;margin-bottom:.35rem}
+.dhc-fill{height:100%;background:#F5B400;border-radius:5px;transition:width .8s ease}
+.dhc-bar-labels{display:flex;justify-content:space-between;font-size:.68rem;opacity:.8;margin-bottom:.4rem}
+.dhc-next{font-size:.75rem;opacity:.8}
+.dhc-next b{opacity:1;font-weight:700}
+
+/* Quick stats 4-grid */
+.dqs-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;margin-bottom:.75rem}
+@media(max-width:400px){.dqs-grid{grid-template-columns:repeat(2,1fr)}}
+.dqs-item{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.65rem .5rem;text-align:center}
+.dqs-icon{font-size:1.15rem;margin-bottom:.2rem;line-height:1}
+.dqs-val{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem;color:var(--purple);line-height:1.2}
+.dqs-lbl{font-size:.62rem;color:var(--muted);margin-top:.15rem;font-weight:500}
+
+/* Two-column grid for mission + streak */
+.dash-two-col{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-bottom:.75rem}
+@media(max-width:400px){.dash-two-col{grid-template-columns:1fr}}
+
+/* Mission mini card internals */
+.dmm-subjects{display:flex;flex-direction:column;gap:.35rem;margin-bottom:.5rem}
+.dmm-subj-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:.15rem}
+.dmm-subj-name{font-size:.72rem;font-weight:600;color:var(--text)}
+.dmm-subj-val{font-size:.68rem;color:var(--muted);font-weight:600}
+.dmm-bar{height:5px;background:var(--border);border-radius:3px;overflow:hidden}
+.dmm-fill{height:100%;border-radius:3px;transition:width .5s ease}
+.dmm-total-bar{height:7px;background:var(--border);border-radius:4px;overflow:hidden;margin-bottom:.3rem}
+.dmm-total-fill{height:100%;background:linear-gradient(90deg,var(--purple),#8b5cf6);border-radius:4px;transition:width .6s ease}
+.dmm-total-labels{display:flex;justify-content:space-between;font-size:.68rem;color:var(--muted);font-weight:600}
+.dmm-done{font-size:.82rem;font-weight:700;color:var(--success);padding:.5rem 0}
+
+/* Streak mini card internals */
+.dsm-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.35rem;margin-bottom:.5rem}
+.dsm-item{text-align:center}
+.dsm-val{font-family:'Sora',sans-serif;font-size:1.4rem;font-weight:800;color:var(--text)}
+.dsm-lbl{font-size:.62rem;color:var(--muted);margin-top:.1rem}
+.dsm-close{color:var(--gold)}
+.dsm-hint{font-size:.7rem;color:var(--muted);text-align:center;line-height:1.4}
+
+/* Rank badges row */
+.drb-row{display:flex;gap:.55rem;flex-wrap:wrap}
+.drb-item{display:flex;flex-direction:column;align-items:center;background:var(--purple-light);border:1.5px solid #c4b5fd;border-radius:10px;padding:.45rem .9rem;min-width:72px}
+.drb-icon{font-size:1.1rem;line-height:1;margin-bottom:.15rem}
+.drb-rank{font-family:'Sora',sans-serif;font-size:1.05rem;font-weight:800;color:var(--purple)}
+.drb-lbl{font-size:.62rem;color:var(--muted);font-weight:600;white-space:nowrap}
+
+/* Achievement mini badges */
+.dab-row{display:flex;gap:.5rem;flex-wrap:wrap}
+.dab-item{background:var(--card);border:1.5px solid var(--border);border-radius:10px;padding:.45rem .6rem;text-align:center;min-width:60px;max-width:72px}
+.dab-icon{font-size:1.4rem;line-height:1}
+.dab-name{font-size:.58rem;color:var(--muted);margin-top:.2rem;font-weight:600;line-height:1.25;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.dash-ach-count{background:var(--purple-light);color:var(--purple);font-size:.7rem;font-weight:700;padding:2px 7px;border-radius:20px}
+
+/* Subject accuracy row */
+.dash-subj-row{display:grid;grid-template-columns:80px 1fr auto;align-items:center;gap:.55rem;margin-bottom:.65rem}
+.dash-subj-name{font-size:.82rem;font-weight:600;color:var(--text)}
+.dash-subj-pct{font-size:.76rem;font-weight:700;white-space:nowrap;text-align:right}

@@ -371,12 +371,18 @@
 </div>
 
 <div id="screen-dashboard" class="screen">
-  <h2 style="font-size:1.2rem;margin-bottom:1rem">📊 My Dashboard</h2>
-  <div class="dash-grid" id="dash-stats"></div>
-  <div class="section-card"><h3>📈 Score Trend</h3><div id="dash-trend"></div></div>
-  <div class="section-card"><h3>📚 Subject-wise Accuracy</h3><div id="dash-subject"></div></div>
-  <div class="section-card"><h3>🏆 Best Chapters</h3><div id="dash-chapters"></div></div>
-  <button class="btn btn-outline btn-sm" onclick="goHome()">← Home</button>
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.85rem">
+    <h2 style="font-size:1.1rem;font-weight:800;font-family:'Sora',sans-serif;margin:0">📊 My Dashboard</h2>
+  </div>
+  <div id="dash-hero"></div>
+  <div id="dash-quick-stats"></div>
+  <div id="dash-mission-row"></div>
+  <div id="dash-ranks"></div>
+  <div id="dash-ach-mini"></div>
+  <div class="section-card"><div class="dash-sec-title">📈 Score Trend</div><div id="dash-trend"></div></div>
+  <div class="section-card"><div class="dash-sec-title">📚 Subject Accuracy</div><div id="dash-subject"></div></div>
+  <div class="section-card"><div class="dash-sec-title">🏆 Best Chapters</div><div id="dash-chapters"></div></div>
+  <button class="btn btn-outline btn-sm" onclick="goHome()" style="margin-top:.25rem">← Home</button>
 </div>
 
 <div id="screen-mistakes" class="screen">
