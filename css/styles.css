@@ -443,3 +443,179 @@ body{padding-bottom:68px}
 .cgroup-desc{font-size:.72rem;color:var(--muted);margin-top:.1rem}
 .cgroup-join{background:#25d366;color:#fff;padding:5px 14px;border-radius:20px;font-size:.75rem;font-weight:700;text-decoration:none;white-space:nowrap}
 /* ── STUDY PARTNER ── */
+
+/* ── GAMIFICATION — Phase 2 ── */
+
+/* Nav level widget */
+.nav-level-widget{display:flex;align-items:center;gap:6px;cursor:default;padding:3px 8px 3px 5px;border-radius:20px;background:var(--purple-light);border:1.5px solid #c4b5fd;max-width:180px}
+.nlw-icon{font-size:1.1rem;flex-shrink:0}
+.nlw-info{flex:1;min-width:0}
+.nlw-name{font-size:.68rem;font-weight:700;color:var(--purple);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.2}
+.nlw-bar{height:4px;background:#ddd6fe;border-radius:2px;margin-top:2px;overflow:hidden}
+.nlw-fill{height:100%;background:var(--purple);border-radius:2px;transition:width .6s ease}
+.nlw-today{font-size:.65rem;font-weight:700;color:var(--purple);flex-shrink:0;background:#ede9fb;border-radius:10px;padding:1px 5px}
+
+/* Home XP card */
+.home-xp-card{background:linear-gradient(135deg,#6C3CE1,#4527a0);border-radius:var(--radius);padding:1rem 1.1rem;margin-bottom:.85rem;color:#fff}
+.xpc-top{display:flex;align-items:center;gap:.75rem;margin-bottom:.65rem}
+.xpc-badge{font-size:2rem;flex-shrink:0;line-height:1}
+.xpc-level-title{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem}
+.xpc-xp-row{display:flex;align-items:center;gap:.5rem;margin-top:.15rem;font-size:.78rem;opacity:.9}
+.xpc-today{background:rgba(255,255,255,.2);border-radius:10px;padding:1px 7px;font-weight:600}
+.xpc-bar-wrap{}
+.xpc-bar{height:8px;background:rgba(255,255,255,.25);border-radius:4px;overflow:hidden}
+.xpc-fill{height:100%;background:#F5B400;border-radius:4px;transition:width .8s ease}
+.xpc-hint{font-size:.72rem;opacity:.8;margin-top:.35rem;text-align:right}
+
+/* XP floating toast */
+.xp-toast{position:fixed;bottom:90px;right:16px;background:#1A1035;color:#fff;border-radius:20px;padding:6px 14px;display:flex;align-items:center;gap:6px;font-size:.82rem;font-weight:600;z-index:9999;transform:translateY(20px);opacity:0;transition:all .3s ease;pointer-events:none;box-shadow:0 4px 16px rgba(0,0,0,.25)}
+.xp-toast.show{transform:translateY(0);opacity:1}
+.xpt-amt{color:#F5B400;font-weight:800;font-size:.88rem}
+.xpt-lbl{color:rgba(255,255,255,.8)}
+
+/* Achievement toast */
+.ach-toast{position:fixed;bottom:90px;left:50%;transform:translateX(-50%) translateY(30px);background:var(--card);border:2px solid var(--gold);border-radius:var(--radius);padding:.85rem 1.1rem;display:flex;align-items:center;gap:.75rem;z-index:9999;opacity:0;transition:all .4s ease;pointer-events:none;box-shadow:0 8px 32px rgba(0,0,0,.18);min-width:260px;max-width:320px}
+.ach-toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+.acht-icon{font-size:2rem;flex-shrink:0}
+.acht-title{font-size:.7rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.acht-name{font-family:'Sora',sans-serif;font-weight:800;font-size:.9rem;color:var(--text);margin-top:.1rem}
+.acht-xp{font-size:.75rem;font-weight:700;color:var(--purple);margin-top:.2rem}
+
+/* Level-up modal */
+.levelup-overlay{position:fixed;inset:0;background:rgba(26,16,53,.75);display:flex;align-items:center;justify-content:center;z-index:10000;opacity:0;pointer-events:none;transition:opacity .3s ease}
+.levelup-overlay.show{opacity:1;pointer-events:all}
+.levelup-card{background:var(--card);border-radius:24px;padding:2rem 1.75rem;max-width:320px;width:90%;text-align:center;transform:scale(.85);transition:transform .35s cubic-bezier(.34,1.56,.64,1);box-shadow:0 20px 60px rgba(108,60,225,.35)}
+.levelup-overlay.show .levelup-card{transform:scale(1)}
+.lu-confetti{font-size:2.5rem;margin-bottom:.5rem;animation:bounce .6s ease infinite alternate}
+@keyframes bounce{from{transform:translateY(0)}to{transform:translateY(-8px)}}
+.lu-icon-wrap{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#6C3CE1,#4527a0);display:flex;align-items:center;justify-content:center;font-size:2.5rem;margin:0 auto .75rem;box-shadow:0 8px 24px rgba(108,60,225,.4)}
+.lu-label{font-size:.72rem;font-weight:800;letter-spacing:.1em;color:var(--gold);text-transform:uppercase;margin-bottom:.25rem}
+.lu-level{font-family:'Sora',sans-serif;font-size:1.3rem;font-weight:800;color:var(--text)}
+.lu-title{font-size:1rem;color:var(--purple);font-weight:600;margin:.2rem 0}
+.lu-xp{font-size:.82rem;color:var(--muted);margin-top:.35rem}
+
+/* ── PHASE 3 — Daily Mission + Streak ── */
+
+/* Streak card */
+.home-streak-card{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;margin-bottom:.75rem;display:flex;align-items:center;justify-content:space-around;gap:.5rem}
+.sc-empty{font-size:.82rem;color:var(--muted);text-align:center;width:100%}
+.sc-item{text-align:center;flex:1}
+.sc-icon{font-size:1.4rem;line-height:1}
+.sc-val{font-family:'Sora',sans-serif;font-size:1.35rem;font-weight:800;color:var(--text);margin:.1rem 0}
+.sc-lbl{font-size:.65rem;color:var(--muted);font-weight:500;white-space:nowrap}
+.sc-divider{width:1px;background:var(--border);height:40px;flex-shrink:0}
+
+/* Daily mission card */
+.daily-mission-card{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:1rem 1.1rem;margin-bottom:.75rem}
+.dm-loading{display:flex;align-items:center;gap:.6rem;color:var(--muted);font-size:.82rem}
+.dm-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.75rem}
+.dm-header-left{}
+.dm-title{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem;color:var(--text)}
+.dm-sub{font-size:.72rem;color:var(--muted);margin-top:.1rem}
+.dm-reward-badge{background:linear-gradient(135deg,#6C3CE1,#4527a0);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;white-space:nowrap;flex-shrink:0}
+.dm-subjects{display:flex;flex-direction:column;gap:.45rem;margin-bottom:.75rem}
+.dm-subj{}
+.dm-subj-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:.2rem}
+.dm-subj-name{font-size:.75rem;font-weight:600;color:var(--text)}
+.dm-subj-val{font-size:.72rem;color:var(--muted);font-weight:600}
+.dm-bar{height:5px;background:var(--border);border-radius:3px;overflow:hidden}
+.dm-fill{height:100%;border-radius:3px;transition:width .5s ease}
+.dm-total-bar{height:8px;background:var(--border);border-radius:4px;overflow:hidden;margin-bottom:.4rem}
+.dm-total-fill{height:100%;background:linear-gradient(90deg,var(--purple),#8b5cf6);border-radius:4px;transition:width .6s ease}
+.dm-footer{display:flex;justify-content:space-between;align-items:center}
+.dm-done-txt{font-size:.75rem;font-weight:700;color:var(--purple)}
+.dm-remain-txt{font-size:.72rem;color:var(--muted)}
+
+/* ── PHASE 4 — Achievement System ── */
+
+/* Summary bar */
+.ach-summary{display:flex;align-items:center;justify-content:space-around;background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;margin-bottom:.5rem}
+.ach-sum-stat{text-align:center}
+.ach-sum-val{font-family:'Sora',sans-serif;font-size:1.4rem;font-weight:800;color:var(--purple)}
+.ach-sum-lbl{font-size:.65rem;color:var(--muted);margin-top:.1rem}
+.ach-sum-divider{width:1px;height:36px;background:var(--border)}
+
+/* Smart tips */
+.ach-tip-card{display:flex;align-items:center;gap:.65rem;background:#fefce8;border:1.5px solid #fde68a;border-radius:var(--radius-sm);padding:.65rem .85rem;margin-bottom:.4rem}
+.ach-tip-icon{font-size:1.5rem;flex-shrink:0}
+.ach-tip-title{font-size:.68rem;font-weight:700;color:#92400e;text-transform:uppercase;letter-spacing:.04em}
+.ach-tip-text{font-size:.78rem;color:#78350f;margin-top:.1rem;line-height:1.4}
+
+/* Category tabs */
+.ach-tabs{display:flex;gap:.4rem;flex-wrap:wrap}
+.ach-tab{padding:5px 14px;border-radius:20px;border:1.5px solid var(--border);background:var(--card);font-size:.78rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .2s;font-family:'DM Sans',sans-serif}
+.ach-tab.active{background:var(--purple);border-color:var(--purple);color:#fff}
+.ach-tab:hover:not(.active){border-color:var(--purple);color:var(--purple)}
+
+/* Achievement cards */
+.ach-card{display:flex;align-items:flex-start;gap:.85rem;background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:.9rem 1rem;margin-bottom:.55rem;transition:box-shadow .2s}
+.ach-card.unlocked{border-color:#a7f3d0;background:linear-gradient(135deg,#f0fdf4,#ecfdf5)}
+.ach-card.unlocked:hover{box-shadow:0 4px 16px rgba(16,185,129,.12)}
+.ach-card.locked{opacity:.72;filter:grayscale(.3)}
+.ach-card-icon{font-size:1.75rem;flex-shrink:0;line-height:1;margin-top:.1rem}
+.ach-card-body{flex:1;min-width:0}
+.ach-card-title{font-family:'Sora',sans-serif;font-weight:700;font-size:.88rem;color:var(--text);margin-bottom:.15rem}
+.ach-card-desc{font-size:.75rem;color:var(--muted);line-height:1.4;margin-bottom:.35rem}
+.ach-card-meta{font-size:.72rem;color:var(--success);font-weight:600}
+.ach-prog-wrap{margin-top:.3rem}
+.ach-prog-bar{height:5px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:.3rem}
+.ach-prog-fill{height:100%;background:var(--purple);border-radius:3px;transition:width .5s ease}
+.ach-prog-txt{font-size:.7rem;color:var(--muted)}
+.ach-reward-badge{flex-shrink:0;font-size:.68rem;font-weight:700;color:var(--purple);background:var(--purple-light);border-radius:20px;padding:2px 8px;white-space:nowrap;align-self:center}
+.ach-empty{text-align:center;color:var(--muted);font-size:.88rem;padding:2rem 1rem}
+
+/* Home achievements widget */
+.haw-header{display:flex;align-items:center;gap:.5rem;margin-bottom:.65rem}
+.haw-title{font-family:'Sora',sans-serif;font-size:.88rem;font-weight:800;color:var(--text);flex:1}
+.haw-count{background:var(--purple-light);color:var(--purple);font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:20px}
+.haw-see-all{background:none;border:none;font-size:.75rem;color:var(--purple);font-weight:600;cursor:pointer;padding:0;font-family:'DM Sans',sans-serif}
+.haw-empty{font-size:.8rem;color:var(--muted);text-align:center;padding:.5rem 0}
+.haw-badges{display:flex;gap:.5rem;flex-wrap:wrap}
+.haw-badge{background:var(--card);border:1.5px solid var(--border);border-radius:10px;padding:.5rem .65rem;text-align:center;min-width:64px;cursor:pointer}
+.haw-badge-icon{font-size:1.4rem;line-height:1}
+.haw-badge-name{font-size:.6rem;color:var(--muted);margin-top:.2rem;font-weight:600;line-height:1.2}
+.haw-more{background:var(--purple-light);border-color:var(--purple);color:var(--purple);font-family:'Sora',sans-serif;font-size:.9rem;font-weight:800}
+
+/* ── PHASE 5 — Leaderboard Engine ── */
+
+.lb-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.6rem}
+.lb-week-label{font-size:.72rem;color:var(--muted);font-weight:600}
+
+/* My Rank card */
+.lb-myrank-card{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border:1.5px solid #c4b5fd;border-radius:var(--radius);padding:.85rem 1rem;margin-bottom:.65rem}
+.mrc-top{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem}
+.mrc-avatar{font-size:2rem;line-height:1;flex-shrink:0}
+.mrc-info{flex:1;min-width:0}
+.mrc-name{font-family:'Sora',sans-serif;font-weight:800;font-size:.92rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mrc-sub{font-size:.72rem;color:var(--muted);margin-top:.15rem;line-height:1.4}
+.mrc-ranks{display:flex;gap:.65rem;flex-wrap:wrap;align-items:center}
+.mrc-rank-item{display:flex;flex-direction:column;align-items:center;background:#fff;border:1.5px solid #ddd6fe;border-radius:10px;padding:.3rem .7rem;min-width:64px}
+.mrc-rank-num{font-family:'Sora',sans-serif;font-size:1rem;font-weight:800;color:var(--purple)}
+.mrc-rank-lbl{font-size:.62rem;color:var(--muted);font-weight:600;white-space:nowrap}
+
+/* New tab bar */
+.lb-tabs-new{display:flex;gap:.35rem;overflow-x:auto;padding-bottom:.15rem;-webkit-overflow-scrolling:touch}
+.lb-tabs-new::-webkit-scrollbar{display:none}
+.lb-tab-new{flex-shrink:0;padding:6px 14px;border-radius:20px;border:1.5px solid var(--border);background:var(--card);font-size:.78rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .2s;font-family:'DM Sans',sans-serif;white-space:nowrap}
+.lb-tab-new.active{background:var(--purple);border-color:var(--purple);color:#fff}
+.lb-tab-new:hover:not(.active){border-color:var(--purple);color:var(--purple)}
+
+/* Leaderboard rows */
+.lb-row{display:flex;align-items:center;gap:.65rem;background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.7rem .85rem;margin-bottom:.4rem;transition:box-shadow .2s}
+.lb-row-me{border-color:#c4b5fd;background:linear-gradient(135deg,#f5f3ff,#faf5ff)}
+.lb-row-me:hover{box-shadow:0 3px 12px rgba(139,92,246,.14)}
+.lb-rank{width:28px;text-align:center;font-size:1.1rem;flex-shrink:0}
+.lb-rank-num{font-family:'Sora',sans-serif;font-size:.82rem;font-weight:800;color:var(--muted)}
+.lb-avatar{font-size:1.5rem;flex-shrink:0;line-height:1}
+.lb-row-info{flex:1;min-width:0}
+.lb-row-name{font-weight:700;font-size:.85rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lb-row-sub{font-size:.7rem;color:var(--muted);margin-top:.1rem}
+.lb-row-xp{text-align:right;font-family:'Sora',sans-serif;font-weight:800;font-size:.92rem;color:var(--purple);flex-shrink:0}
+.lb-xp-label{font-size:.65rem;font-weight:500;color:var(--muted)}
+.lb-you-tag{display:inline-block;background:var(--purple);color:#fff;font-size:.58rem;font-weight:700;padding:1px 5px;border-radius:6px;vertical-align:middle;margin-left:3px;text-transform:uppercase;letter-spacing:.04em}
+.lb-gap-separator{text-align:center;color:var(--muted);font-size:1.1rem;letter-spacing:.3em;padding:.3rem 0}
+
+/* History rows */
+.history-row{display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:.6rem;background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.65rem .85rem;margin-bottom:.4rem}
+.history-bar-bg{height:6px;background:var(--border);border-radius:3px;overflow:hidden}
+.history-bar-fill{height:100%;background:var(--purple);border-radius:3px;transition:width .5s ease}

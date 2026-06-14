@@ -640,14 +640,18 @@
 </div>
 
 <div id="screen-leaderboard" class="screen">
-  <h2 style="font-size:1.2rem;margin-bottom:.4rem">🏆 Weekly Leaderboard</h2>
-  <div class="week-label" id="lb-week"></div>
-  <div class="lb-tabs">
-    <button class="lb-tab active" id="lb-tab-global" onclick="switchLbTab('global')">🌍 Global</button>
-    <button class="lb-tab" id="lb-tab-local" onclick="switchLbTab('local')">📱 My Device</button>
-    <button class="lb-tab" id="lb-tab-history" onclick="switchLbTab('history')">📅 History</button>
+  <div class="lb-header">
+    <h2 style="font-size:1.1rem;font-weight:800;font-family:'Sora',sans-serif;margin:0">🏆 Leaderboard</h2>
+    <div id="lb-week-label" class="lb-week-label"></div>
   </div>
-  <div id="lb-content"></div>
+  <div id="lb-myrank-card" class="lb-myrank-card"></div>
+  <div class="lb-tabs-new">
+    <button class="lb-tab-new active" data-tab="national" onclick="switchLbTab('national')">🌍 National</button>
+    <button class="lb-tab-new" data-tab="weekly" onclick="switchLbTab('weekly')">📅 Weekly</button>
+    <button class="lb-tab-new" data-tab="level" onclick="switchLbTab('level')">🎓 My Level</button>
+    <button class="lb-tab-new" data-tab="history" onclick="switchLbTab('history')">📈 History</button>
+  </div>
+  <div id="lb-content" style="margin-top:.75rem"></div>
   <button class="btn btn-outline btn-sm" onclick="goHome()" style="margin-top:.75rem">← Home</button>
 </div>
 
