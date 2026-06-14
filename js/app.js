@@ -13,6 +13,7 @@ async function initApp() {
   loadGamificationState().catch(() => {});
   loadDailyTarget().catch(() => {});
   loadStreak().catch(() => {});
+  loadUserAchievements().catch(() => {});
   loadStorageSync();
   syncProgressFromSupabase().catch(() => {});
   updateNavUser();
