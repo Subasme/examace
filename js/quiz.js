@@ -173,9 +173,7 @@ function nextTF() {
 }
 
 function showCommunity() {
-  if (!authUser) { showAuthScreen('login'); return; }
-  if (userPlan !== 'premium') { showUpgradePrompt('Study Community'); return; }
-  showScreen('community');
+  showScreenPublic('community');
 }
 
 function updateResetTimer() {
