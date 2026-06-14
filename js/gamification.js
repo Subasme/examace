@@ -182,6 +182,8 @@ async function checkAndShowAchievements() {
       data.forEach((ach, i) => {
         setTimeout(() => showAchievementToast(ach), i * 2200);
       });
+      // Refresh cached list so home widget and screen stay current
+      loadUserAchievements().catch(() => {});
     }
   } catch (_) {}
 }
@@ -424,4 +426,225 @@ function renderStreakWidget() {
         <div class="sc-val">${toMilestone}</div>
         <div class="sc-lbl">Days to +500 XP</div>
       </div>`;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// PHASE 4 — Achievement System
+// ═══════════════════════════════════════════════════════════════════════════════
+
+let userAchievements  = [];   // { achievement_id, unlocked_at, title, icon, xp_reward, category }
+let allAchievementDefs = [];  // all definitions from DB
+let achievementTab    = 'all';
+
+// ── Load all definitions + user's unlocked achievements ──────────────────────
+async function loadUserAchievements() {
+  if (!authUser) return;
+  try {
+    const [{ data: defs }, { data: unlocked }] = await Promise.all([
+      db.from('achievement_definitions').select('*').order('category').order('criteria_value'),
+      db.from('user_achievements')
+        .select('achievement_id, unlocked_at')
+        .eq('user_id', authUser.id),
+    ]);
+    allAchievementDefs = defs || [];
+    const unlockedMap  = {};
+    (unlocked || []).forEach(u => { unlockedMap[u.achievement_id] = u.unlocked_at; });
+    userAchievements = allAchievementDefs.map(d => ({
+      ...d,
+      unlockedAt: unlockedMap[d.id] || null,
+    }));
+  } catch (_) {}
+  renderHomeAchievementsWidget();
+}
+
+// ── Compute progress toward a locked achievement ─────────────────────────────
+function _achievementProgress(def) {
+  const total   = progress.total   || 0;
+  const correct = progress.correct || 0;
+  const acc     = total > 0 ? Math.round(correct / total * 100) : 0;
+
+  const subjectStat = (subj) => {
+    // Check both exact match and substrings (Botany/Zoology → Biology)
+    let s = progress.subjects?.[subj] || {};
+    if (!s.total) {
+      // Try alternate names
+      const alt = Object.entries(progress.subjects || {}).find(([k]) =>
+        k.toLowerCase().includes(subj.toLowerCase())
+      );
+      if (alt) s = alt[1];
+    }
+    const att  = s.total   || 0;
+    const cor  = s.correct || 0;
+    const sacc = att > 0 ? Math.round(cor / att * 100) : 0;
+    return { current: sacc, att };
+  };
+
+  switch (def.criteria_type) {
+    case 'mcqs_solved':       return { current: total,  target: def.criteria_value, unit: 'MCQs' };
+    case 'accuracy':          return { current: acc,    target: def.criteria_value, unit: '%', note: `${total} MCQs attempted` };
+    case 'streak':            return { current: streakData.currentStreak, target: def.criteria_value, unit: 'days' };
+    case 'subject_biology':   { const { current, att } = subjectStat('Biology');   return { current, target: def.criteria_value, unit: '%', note: `${att} Bio MCQs done (need 100)` }; }
+    case 'subject_physics':   { const { current, att } = subjectStat('Physics');   return { current, target: def.criteria_value, unit: '%', note: `${att} Phy MCQs done (need 100)` }; }
+    case 'subject_chemistry': { const { current, att } = subjectStat('Chemistry'); return { current, target: def.criteria_value, unit: '%', note: `${att} Chem MCQs done (need 100)` }; }
+    default:                  return { current: 0, target: def.criteria_value, unit: '' };
+  }
+}
+
+// ── Render the full achievements screen ──────────────────────────────────────
+function renderAchievementsScreen() {
+  const el = document.getElementById('ach-content');
+  if (!el) return;
+
+  const unlocked = userAchievements.filter(a => a.unlockedAt);
+  const locked   = userAchievements.filter(a => !a.unlockedAt);
+  const totalXPEarned = unlocked.reduce((s, a) => s + (a.xp_reward || 0), 0);
+
+  // Summary header
+  const summary = document.getElementById('ach-summary');
+  if (summary) {
+    summary.innerHTML = `
+      <div class="ach-sum-stat"><div class="ach-sum-val">${unlocked.length}<span style="opacity:.5;font-size:.8em">/${userAchievements.length}</span></div><div class="ach-sum-lbl">Unlocked</div></div>
+      <div class="ach-sum-divider"></div>
+      <div class="ach-sum-stat"><div class="ach-sum-val">${totalXPEarned.toLocaleString()}</div><div class="ach-sum-lbl">XP Earned</div></div>
+      <div class="ach-sum-divider"></div>
+      <div class="ach-sum-stat"><div class="ach-sum-val">${locked.length}</div><div class="ach-sum-lbl">Remaining</div></div>`;
+  }
+
+  _renderAchievementCards();
+
+  // Smart tips for near-unlock achievements
+  const tips = locked.map(a => {
+    const p = _achievementProgress(a);
+    const pct = Math.min(100, Math.round(p.current / Math.max(p.target, 1) * 100));
+    return { ...a, pct, prog: p };
+  }).filter(a => a.pct >= 50 && a.pct < 100).sort((x, y) => y.pct - x.pct).slice(0, 2);
+
+  const tipsEl = document.getElementById('ach-tips');
+  if (tipsEl) {
+    tipsEl.innerHTML = tips.length
+      ? tips.map(a => `
+          <div class="ach-tip-card">
+            <span class="ach-tip-icon">${a.icon}</span>
+            <div class="ach-tip-body">
+              <div class="ach-tip-title">Almost there!</div>
+              <div class="ach-tip-text">${_achievementTip(a)}</div>
+            </div>
+          </div>`).join('')
+      : '';
+  }
+}
+
+function _achievementTip(ach) {
+  const p    = ach.prog;
+  const left = p.target - Math.min(p.current, p.target);
+  switch (ach.criteria_type) {
+    case 'mcqs_solved':       return `Solve ${left.toLocaleString()} more MCQs to unlock <b>${ach.title}</b>.`;
+    case 'accuracy':          return `Raise your accuracy to ${p.target}% to unlock <b>${ach.title}</b>.`;
+    case 'streak':            return `Practice for ${left} more day${left !== 1 ? 's' : ''} in a row to unlock <b>${ach.title}</b>.`;
+    case 'subject_biology':   return `Score ${p.target}%+ in Biology (${p.note}) to unlock <b>${ach.title}</b>.`;
+    case 'subject_physics':   return `Score ${p.target}%+ in Physics (${p.note}) to unlock <b>${ach.title}</b>.`;
+    case 'subject_chemistry': return `Score ${p.target}%+ in Chemistry (${p.note}) to unlock <b>${ach.title}</b>.`;
+    default:                  return `Keep going to unlock <b>${ach.title}</b>!`;
+  }
+}
+
+function _renderAchievementCards() {
+  const el = document.getElementById('ach-content');
+  if (!el) return;
+
+  const list = achievementTab === 'all'
+    ? userAchievements
+    : userAchievements.filter(a => a.category === achievementTab);
+
+  // Unlocked first, then locked sorted by progress desc
+  const sorted = [
+    ...list.filter(a => a.unlockedAt).sort((x, y) => new Date(y.unlockedAt) - new Date(x.unlockedAt)),
+    ...list.filter(a => !a.unlockedAt).map(a => {
+      const p = _achievementProgress(a);
+      return { ...a, _pct: Math.min(100, Math.round(p.current / Math.max(p.target, 1) * 100)), _prog: p };
+    }).sort((x, y) => y._pct - x._pct),
+  ];
+
+  if (!sorted.length) {
+    el.innerHTML = `<div class="ach-empty">No achievements in this category yet.</div>`;
+    return;
+  }
+
+  el.innerHTML = sorted.map(a => {
+    if (a.unlockedAt) {
+      const date = new Date(a.unlockedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+      return `
+        <div class="ach-card unlocked">
+          <div class="ach-card-icon">${a.icon}</div>
+          <div class="ach-card-body">
+            <div class="ach-card-title">${a.title}</div>
+            <div class="ach-card-desc">${a.description || ''}</div>
+            <div class="ach-card-meta">✅ ${date}${a.xp_reward ? ` &middot; +${a.xp_reward} XP` : ''}</div>
+          </div>
+        </div>`;
+    } else {
+      const p   = a._prog   || _achievementProgress(a);
+      const pct = a._pct    ?? Math.min(100, Math.round(p.current / Math.max(p.target, 1) * 100));
+      const progLabel = p.unit === '%'
+        ? `${p.current}% / ${p.target}%${p.note ? ` · ${p.note}` : ''}`
+        : `${Math.min(p.current, p.target).toLocaleString()} / ${p.target.toLocaleString()} ${p.unit}`;
+      return `
+        <div class="ach-card locked">
+          <div class="ach-card-icon">🔒</div>
+          <div class="ach-card-body">
+            <div class="ach-card-title">${a.title}</div>
+            <div class="ach-card-desc">${a.description || ''}</div>
+            <div class="ach-prog-wrap">
+              <div class="ach-prog-bar"><div class="ach-prog-fill" style="width:${pct}%"></div></div>
+              <div class="ach-prog-txt">${progLabel}</div>
+            </div>
+          </div>
+          ${a.xp_reward ? `<div class="ach-reward-badge">+${a.xp_reward}</div>` : ''}
+        </div>`;
+    }
+  }).join('');
+}
+
+function filterAchievementTab(tab) {
+  achievementTab = tab;
+  document.querySelectorAll('.ach-tab').forEach(t =>
+    t.classList.toggle('active', t.dataset.tab === tab)
+  );
+  _renderAchievementCards();
+}
+
+// ── Home achievements widget ──────────────────────────────────────────────────
+function renderHomeAchievementsWidget() {
+  const el = document.getElementById('home-achievements-widget');
+  if (!el || !authUser) return;
+
+  const unlocked = userAchievements.filter(a => a.unlockedAt);
+  const total    = userAchievements.length;
+  el.style.display = 'block';
+
+  if (!unlocked.length) {
+    el.innerHTML = `
+      <div class="haw-header">
+        <span class="haw-title">🏅 Achievements</span>
+        <button class="haw-see-all" onclick="showScreen('achievements')">See All →</button>
+      </div>
+      <div class="haw-empty">Answer MCQs to unlock your first achievement!</div>`;
+    return;
+  }
+
+  const recent = unlocked.slice(0, 4);
+  el.innerHTML = `
+    <div class="haw-header">
+      <span class="haw-title">🏅 Achievements</span>
+      <span class="haw-count">${unlocked.length}/${total}</span>
+      <button class="haw-see-all" onclick="showScreen('achievements')">See All →</button>
+    </div>
+    <div class="haw-badges">
+      ${recent.map(a => `
+        <div class="haw-badge" title="${a.title}">
+          <div class="haw-badge-icon">${a.icon}</div>
+          <div class="haw-badge-name">${a.title.split(' ').slice(0, 2).join(' ')}</div>
+        </div>`).join('')}
+      ${unlocked.length > 4 ? `<div class="haw-badge haw-more" onclick="showScreen('achievements')">+${unlocked.length - 4}<div class="haw-badge-name">more</div></div>` : ''}
+    </div>`;
 }

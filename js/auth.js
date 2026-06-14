@@ -40,6 +40,7 @@ function showGuestLanding() {
   document.getElementById('home-guest-content').style.display = 'block';
   const hxp = document.getElementById('home-xp-card'); if (hxp) hxp.style.display = 'none';
   const hsc = document.getElementById('home-streak-card'); if (hsc) hsc.style.display = 'none';
+  const haw = document.getElementById('home-achievements-widget'); if (haw) haw.style.display = 'none';
   document.getElementById('home-daily-goal').style.display = 'none';
   document.getElementById('home-stats-row').style.display = 'none';
   document.getElementById('home-sessions-section').style.display = 'none';
