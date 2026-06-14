@@ -255,8 +255,7 @@ function answerPractice(i) {
     progress.subjects[subj].correct++;
     progress.chapters[chap].correct++;
     awardXP('correct_mcq', q.id || null).catch(() => {});
-  } else if (!isSkip) {
-    progress.wrong++;
+  } else if (!isSkip) {    progress.wrong++;
     mistakes.push({ question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', subject: subj, chapter: chap, date: new Date().toLocaleDateString('en-GB'), yourAnswer: i });
     if (mistakes.length > 200) mistakes.splice(0, mistakes.length - 200);
     if (authUser) {
@@ -275,6 +274,8 @@ function answerPractice(i) {
       updated_at: new Date().toISOString()
     }, { onConflict: 'user_id,subject,chapter_id,standard' }).then();
   }
+  // Daily target + streak tracking (every answered MCQ counts)
+  if (!isSkip) incrementDailyTarget(subj).catch(() => {});
   if (!practiceState.skipDaily && selection.chapter) {
     const dayData = getDailyDone(selection.chapter);
     dayData.count = (dayData.count || 0) + 1;

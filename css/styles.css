@@ -493,3 +493,35 @@ body{padding-bottom:68px}
 .lu-level{font-family:'Sora',sans-serif;font-size:1.3rem;font-weight:800;color:var(--text)}
 .lu-title{font-size:1rem;color:var(--purple);font-weight:600;margin:.2rem 0}
 .lu-xp{font-size:.82rem;color:var(--muted);margin-top:.35rem}
+
+/* ── PHASE 3 — Daily Mission + Streak ── */
+
+/* Streak card */
+.home-streak-card{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;margin-bottom:.75rem;display:flex;align-items:center;justify-content:space-around;gap:.5rem}
+.sc-empty{font-size:.82rem;color:var(--muted);text-align:center;width:100%}
+.sc-item{text-align:center;flex:1}
+.sc-icon{font-size:1.4rem;line-height:1}
+.sc-val{font-family:'Sora',sans-serif;font-size:1.35rem;font-weight:800;color:var(--text);margin:.1rem 0}
+.sc-lbl{font-size:.65rem;color:var(--muted);font-weight:500;white-space:nowrap}
+.sc-divider{width:1px;background:var(--border);height:40px;flex-shrink:0}
+
+/* Daily mission card */
+.daily-mission-card{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:1rem 1.1rem;margin-bottom:.75rem}
+.dm-loading{display:flex;align-items:center;gap:.6rem;color:var(--muted);font-size:.82rem}
+.dm-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.75rem}
+.dm-header-left{}
+.dm-title{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem;color:var(--text)}
+.dm-sub{font-size:.72rem;color:var(--muted);margin-top:.1rem}
+.dm-reward-badge{background:linear-gradient(135deg,#6C3CE1,#4527a0);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;white-space:nowrap;flex-shrink:0}
+.dm-subjects{display:flex;flex-direction:column;gap:.45rem;margin-bottom:.75rem}
+.dm-subj{}
+.dm-subj-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:.2rem}
+.dm-subj-name{font-size:.75rem;font-weight:600;color:var(--text)}
+.dm-subj-val{font-size:.72rem;color:var(--muted);font-weight:600}
+.dm-bar{height:5px;background:var(--border);border-radius:3px;overflow:hidden}
+.dm-fill{height:100%;border-radius:3px;transition:width .5s ease}
+.dm-total-bar{height:8px;background:var(--border);border-radius:4px;overflow:hidden;margin-bottom:.4rem}
+.dm-total-fill{height:100%;background:linear-gradient(90deg,var(--purple),#8b5cf6);border-radius:4px;transition:width .6s ease}
+.dm-footer{display:flex;justify-content:space-between;align-items:center}
+.dm-done-txt{font-size:.75rem;font-weight:700;color:var(--purple)}
+.dm-remain-txt{font-size:.72rem;color:var(--muted)}

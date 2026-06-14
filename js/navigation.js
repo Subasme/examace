@@ -12,7 +12,7 @@ function showScreen(name) {
   if (name === 'leaderboard') loadLeaderboard();
   if (name === 'dashboard') renderDashboard();
   if (name === 'mistakes') renderMistakes();
-  if (name === 'home') { renderHomeStats(); renderHomeFeatures(); updateUpgradeBanner(); }
+  if (name === 'home') { renderHomeStats(); renderHomeFeatures(); updateUpgradeBanner(); renderDailyMissionCard(); renderStreakWidget(); renderHomeXPCard(); }
   if (name === 'profile') renderProfileScreen();
   // bottom nav active state
   ['home','practice','community','profile'].forEach(n => {

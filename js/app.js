@@ -11,6 +11,8 @@ async function initApp() {
   document.getElementById('upgrade-banner').style.display = '';
   await loadAdminConfig();
   loadGamificationState().catch(() => {});
+  loadDailyTarget().catch(() => {});
+  loadStreak().catch(() => {});
   loadStorageSync();
   syncProgressFromSupabase().catch(() => {});
   updateNavUser();
