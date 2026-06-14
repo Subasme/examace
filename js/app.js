@@ -30,7 +30,9 @@ function updateNavUser() {
   // bottom nav
   const bnav = document.getElementById('bottom-nav');
   if (bnav) bnav.style.display = authUser ? 'flex' : 'none';
-  // nav badge
+  // nav user / plan badge — hide entirely for guests
+  const navUser = document.getElementById('nav-user');
+  if (navUser) navUser.style.display = authUser ? 'flex' : 'none';
   const badge = document.getElementById('nav-plan-badge');
   if (badge) { badge.textContent = userPlan === 'premium' ? '⭐ Premium' : (userPlan === 'unlimited' ? '🚀 Unlimited' : 'Free'); badge.className = (userPlan === 'premium' || userPlan === 'unlimited') ? 'chip chip-gold' : 'chip chip-purple'; }
   // greeting
