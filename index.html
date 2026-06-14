@@ -25,8 +25,8 @@
     KARNAN
   </div>
   <div class="nav-right">
-    <div class="nav-user" id="nav-user" style="display:flex">
-      <span class="chip chip-purple" id="nav-plan-badge">Free</span>
+    <div class="nav-user" id="nav-user" style="display:none">
+      <div class="nav-level-widget" id="nav-level-widget" style="display:none"></div>
     </div>
   </div>
 </nav>
@@ -52,6 +52,9 @@
     <p class="greeting-sub">Ready to practice today?</p>
     <h2 class="greeting-title">Hello, <span id="greeting-name">there</span>! 👋</h2>
   </div>
+
+  <!-- XP / Level card — visible only when logged in -->
+  <div id="home-xp-card" class="home-xp-card" style="display:none"></div>
 
   <!-- Guest landing — visible only when logged out -->
   <div id="home-guest-content" style="display:none;padding:.25rem 0 .5rem">
@@ -84,16 +87,11 @@
     </div>
   </div>
 
-  <!-- Daily Goal Card -->
-  <div class="daily-goal-card" id="home-daily-goal">
-    <div class="dgc-left">
-      <div class="dgc-label">Daily Goal</div>
-      <div class="dgc-count" id="dgc-count">0/20 Questions Today</div>
-      <div class="dgc-bar"><div class="dgc-fill" id="dgc-fill" style="width:0%"></div></div>
-      <div class="dgc-pct-txt" id="dgc-pct">0% completed</div>
-    </div>
-    <div class="dgc-circle" id="dgc-circle">0%</div>
-  </div>
+  <!-- Streak card — rendered by gamification.js -->
+  <div class="home-streak-card" id="home-streak-card" style="display:none"></div>
+
+  <!-- Daily Mission card — rendered by gamification.js -->
+  <div class="daily-mission-card" id="home-daily-goal" style="display:none"></div>
 
   <!-- Stats Row -->
   <div class="stats-row" id="home-stats-row">
@@ -123,6 +121,9 @@
   </div>
 
   <!-- Quick Practice -->
+  <!-- Home Achievements Widget -->
+  <div id="home-achievements-widget" style="display:none;margin-bottom:.75rem"></div>
+
   <div id="home-features"></div>
   <div id="upgrade-banner"></div>
 
@@ -490,6 +491,11 @@
       <span class="pmenu-label">Leaderboard</span>
       <span class="pmenu-arrow">›</span>
     </div>
+    <div class="pmenu-item" onclick="showScreen('achievements')">
+      <span class="pmenu-icon">🏅</span>
+      <span class="pmenu-label">Achievements</span>
+      <span class="pmenu-arrow">›</span>
+    </div>
     <div class="pmenu-item" onclick="showUpgradePrompt('Premium Plan')">
       <span class="pmenu-icon">⭐</span>
       <span class="pmenu-label">Upgrade to Premium</span>
@@ -508,6 +514,33 @@
   </div>
   <button class="logout-btn" onclick="handleLogout()">⏻&nbsp; Logout</button>
   <div class="app-version">KARNAN · Empowering NEET UG Success</div>
+</div>
+
+<!-- ── Achievements Screen ── -->
+<div id="screen-achievements" class="screen">
+  <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1rem">
+    <button class="btn btn-outline btn-sm" onclick="showScreen('profile')">←</button>
+    <h2 style="font-size:1.1rem;font-weight:800;font-family:'Sora',sans-serif;margin:0">🏅 Achievements</h2>
+  </div>
+
+  <!-- Summary stats -->
+  <div class="ach-summary" id="ach-summary"></div>
+
+  <!-- Smart tips for near-unlock achievements -->
+  <div id="ach-tips" style="margin:.75rem 0"></div>
+
+  <!-- Category tabs -->
+  <div class="ach-tabs">
+    <button class="ach-tab active" data-tab="all"         onclick="filterAchievementTab('all')">All</button>
+    <button class="ach-tab"        data-tab="practice"    onclick="filterAchievementTab('practice')">Practice</button>
+    <button class="ach-tab"        data-tab="accuracy"    onclick="filterAchievementTab('accuracy')">Accuracy</button>
+    <button class="ach-tab"        data-tab="consistency" onclick="filterAchievementTab('consistency')">Consistency</button>
+  </div>
+
+  <!-- Achievement cards -->
+  <div id="ach-content" style="margin-top:.75rem">
+    <div class="spinner-wrap"><div class="spinner"></div><p>Loading achievements…</p></div>
+  </div>
 </div>
 
 <!-- Community / Study Groups Screen -->
@@ -619,7 +652,7 @@
     <div style="font-size:.75rem;color:var(--muted);margin-top:.5rem">Scan with your phone camera to open WhatsApp</div>
   </div>
 
-  <!-- One-on-One Training -->
+  <!-- One-on-One Training (temporarily disabled)
   <div class="training-card">
     <div class="training-badge">🎓 Premium Service</div>
     <div class="training-title">One-on-One Personal Training</div>
@@ -635,8 +668,9 @@
       💬 Book a Free Demo Session
     </a>
   </div>
+  -->
 
-  <button class="btn btn-outline btn-sm" onclick="showScreen('profile')" style="margin-top:.5rem">← Back to Profile</button>
+  <button class="btn btn-outline btn-sm" onclick="authUser ? showScreen('profile') : showGuestLanding()" style="margin-top:.5rem">← Back</button>
 </div>
 
 <div id="screen-leaderboard" class="screen">
@@ -807,12 +841,27 @@
     <button class="tip-modal-close" onclick="closeTipModal()">Got it — let's study! ✓</button>
   </div>
 </div>
+
+<!-- ── Level-Up Modal ── -->
+<div id="levelup-modal" class="levelup-overlay">
+  <div class="levelup-card">
+    <div class="lu-confetti">🎉</div>
+    <div class="lu-icon-wrap"><span id="lu-icon">⭐</span></div>
+    <div class="lu-label">LEVEL UP!</div>
+    <div class="lu-level" id="lu-level">Level 2 Unlocked!</div>
+    <div class="lu-title" id="lu-title">Learner</div>
+    <div class="lu-xp" id="lu-xp"></div>
+    <button class="btn btn-primary" onclick="closeLevelUpModal()" style="margin-top:1.25rem;width:100%">Keep Going! 🚀</button>
+  </div>
+</div>
+
 </body>
 </html>
 
 <script src="js/config.js"></script>
 <script src="js/db.js"></script>
 <script src="js/utils.js"></script>
+<script src="js/gamification.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/flow.js"></script>
 <script src="js/quiz.js"></script>

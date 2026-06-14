@@ -1,11 +1,19 @@
+function _hideAuthForms() {
+  ['screen-auth-login','screen-auth-register','screen-plan'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = 'none';
+  });
+}
 function showScreen(name) {
+  _hideAuthForms();
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById('screen-' + name).classList.add('active');
   window.scrollTo(0, 0);
   if (name === 'leaderboard') loadLeaderboard();
   if (name === 'dashboard') renderDashboard();
   if (name === 'mistakes') renderMistakes();
-  if (name === 'home') { renderHomeStats(); renderHomeFeatures(); updateUpgradeBanner(); }
+  if (name === 'home') { renderHomeStats(); renderHomeFeatures(); updateUpgradeBanner(); renderDailyMissionCard(); renderStreakWidget(); renderHomeXPCard(); renderHomeAchievementsWidget(); }
+  if (name === 'achievements') { loadUserAchievements().then(() => renderAchievementsScreen()); }
   if (name === 'profile') renderProfileScreen();
   // bottom nav active state
   ['home','practice','community','profile'].forEach(n => {
@@ -16,6 +24,7 @@ function showScreen(name) {
 function goHome() { showScreen('home'); }
 // Show a screen without requiring auth (for contact, community)
 function showScreenPublic(name) {
+  _hideAuthForms();
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   const el = document.getElementById('screen-' + name);
   if (el) { el.classList.add('active'); window.scrollTo(0,0); }

@@ -14,14 +14,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadUserPlan();
     await initApp();
   } else {
-    showAuthScreen('login');
+    showGuestLanding();
   }
 
   // React to auth state changes across tabs / email confirmation
   db.auth.onAuthStateChange(async (event, session) => {
     if (event === 'SIGNED_OUT') {
       authUser = null; userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT;
-      showAuthScreen('login');
+      showGuestLanding();
     } else if (event === 'SIGNED_IN' && session?.user && !authUser) {
       authUser = session.user;
       await loadUserPlan();
@@ -31,20 +31,33 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // ── AUTH ─────────────────────────────────────────────────────────────────────
-function showAuthScreen(screen) {
+function showGuestLanding() {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById('screen-home').classList.add('active');
-  document.getElementById('screen-auth-login').style.display = screen === 'login' ? 'flex' : 'none';
-  document.getElementById('screen-auth-register').style.display = screen === 'register' ? 'flex' : 'none';
+  document.getElementById('screen-auth-login').style.display = 'none';
+  document.getElementById('screen-auth-register').style.display = 'none';
   document.getElementById('screen-plan').style.display = 'none';
-  // show landing, hide auth-only blocks
   document.getElementById('home-guest-content').style.display = 'block';
+  const hxp = document.getElementById('home-xp-card'); if (hxp) hxp.style.display = 'none';
+  const hsc = document.getElementById('home-streak-card'); if (hsc) hsc.style.display = 'none';
+  const haw = document.getElementById('home-achievements-widget'); if (haw) haw.style.display = 'none';
   document.getElementById('home-daily-goal').style.display = 'none';
   document.getElementById('home-stats-row').style.display = 'none';
   document.getElementById('home-sessions-section').style.display = 'none';
   document.getElementById('home-features').style.display = 'none';
   document.getElementById('upgrade-banner').style.display = 'none';
   document.getElementById('greeting-name').textContent = 'there';
+  const navUser = document.getElementById('nav-user');
+  if (navUser) navUser.style.display = 'none';
+  const bnav = document.getElementById('bottom-nav');
+  if (bnav) bnav.style.display = 'none';
+}
+
+function showAuthScreen(screen) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-auth-login').style.display = screen === 'login' ? 'flex' : 'none';
+  document.getElementById('screen-auth-register').style.display = screen === 'register' ? 'flex' : 'none';
+  document.getElementById('screen-plan').style.display = 'none';
 }
 
 function showPlanScreen() {
@@ -121,15 +134,16 @@ async function handleRegister() {
 async function showForgotPassword() {
   const email = document.getElementById('login-email').value.trim();
   const errEl = document.getElementById('login-err');
-  if (!email) { errEl.textContent = 'Enter your email above, then click Forgot password.'; return; }
-  errEl.textContent = '';
+  errEl.style.display = 'none'; errEl.style.color = ''; errEl.style.background = '';
+  if (!email) { errEl.textContent = 'Enter your email above, then click Forgot password.'; errEl.style.display = 'block'; return; }
   const { error } = await db.auth.resetPasswordForEmail(email, {
     redirectTo: 'https://karnan.guru/'
   });
-  if (error) { errEl.textContent = error.message; return; }
-  errEl.style.color = '#059669';
+  if (error) { errEl.textContent = error.message; errEl.style.display = 'block'; return; }
+  errEl.style.color = '#059669'; errEl.style.background = '#f0fdf4';
   errEl.textContent = 'Password reset link sent to ' + email + '. Check your inbox.';
-  setTimeout(() => { errEl.style.color = ''; errEl.textContent = ''; }, 6000);
+  errEl.style.display = 'block';
+  setTimeout(() => { errEl.style.display = 'none'; errEl.style.color = ''; errEl.style.background = ''; errEl.textContent = ''; }, 6000);
 }
 
 async function handleLogout() {
@@ -139,7 +153,7 @@ async function handleLogout() {
   localLeaderboard = []; manifest = null; dailyCache = {};
   try { localStorage.clear(); } catch (e) {}
   authUser = null; userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT;
-  showAuthScreen('login');
+  showGuestLanding();
 }
 
 async function loadUserPlan() {
