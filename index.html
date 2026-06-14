@@ -636,7 +636,7 @@
     </a>
   </div>
 
-  <button class="btn btn-outline btn-sm" onclick="showScreen('profile')" style="margin-top:.5rem">← Back to Profile</button>
+  <button class="btn btn-outline btn-sm" onclick="authUser ? showScreen('profile') : showGuestLanding()" style="margin-top:.5rem">← Back</button>
 </div>
 
 <div id="screen-leaderboard" class="screen">
