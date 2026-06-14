@@ -26,7 +26,7 @@
   </div>
   <div class="nav-right">
     <div class="nav-user" id="nav-user" style="display:none">
-      <span class="chip chip-purple" id="nav-plan-badge">Free</span>
+      <div class="nav-level-widget" id="nav-level-widget" style="display:none"></div>
     </div>
   </div>
 </nav>
@@ -52,6 +52,9 @@
     <p class="greeting-sub">Ready to practice today?</p>
     <h2 class="greeting-title">Hello, <span id="greeting-name">there</span>! 👋</h2>
   </div>
+
+  <!-- XP / Level card — visible only when logged in -->
+  <div id="home-xp-card" class="home-xp-card" style="display:none"></div>
 
   <!-- Guest landing — visible only when logged out -->
   <div id="home-guest-content" style="display:none;padding:.25rem 0 .5rem">
@@ -804,12 +807,27 @@
     <button class="tip-modal-close" onclick="closeTipModal()">Got it — let's study! ✓</button>
   </div>
 </div>
+
+<!-- ── Level-Up Modal ── -->
+<div id="levelup-modal" class="levelup-overlay">
+  <div class="levelup-card">
+    <div class="lu-confetti">🎉</div>
+    <div class="lu-icon-wrap"><span id="lu-icon">⭐</span></div>
+    <div class="lu-label">LEVEL UP!</div>
+    <div class="lu-level" id="lu-level">Level 2 Unlocked!</div>
+    <div class="lu-title" id="lu-title">Learner</div>
+    <div class="lu-xp" id="lu-xp"></div>
+    <button class="btn btn-primary" onclick="closeLevelUpModal()" style="margin-top:1.25rem;width:100%">Keep Going! 🚀</button>
+  </div>
+</div>
+
 </body>
 </html>
 
 <script src="js/config.js"></script>
 <script src="js/db.js"></script>
 <script src="js/utils.js"></script>
+<script src="js/gamification.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/flow.js"></script>
 <script src="js/quiz.js"></script>

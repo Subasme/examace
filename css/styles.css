@@ -443,3 +443,53 @@ body{padding-bottom:68px}
 .cgroup-desc{font-size:.72rem;color:var(--muted);margin-top:.1rem}
 .cgroup-join{background:#25d366;color:#fff;padding:5px 14px;border-radius:20px;font-size:.75rem;font-weight:700;text-decoration:none;white-space:nowrap}
 /* ── STUDY PARTNER ── */
+
+/* ── GAMIFICATION — Phase 2 ── */
+
+/* Nav level widget */
+.nav-level-widget{display:flex;align-items:center;gap:6px;cursor:default;padding:3px 8px 3px 5px;border-radius:20px;background:var(--purple-light);border:1.5px solid #c4b5fd;max-width:180px}
+.nlw-icon{font-size:1.1rem;flex-shrink:0}
+.nlw-info{flex:1;min-width:0}
+.nlw-name{font-size:.68rem;font-weight:700;color:var(--purple);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.2}
+.nlw-bar{height:4px;background:#ddd6fe;border-radius:2px;margin-top:2px;overflow:hidden}
+.nlw-fill{height:100%;background:var(--purple);border-radius:2px;transition:width .6s ease}
+.nlw-today{font-size:.65rem;font-weight:700;color:var(--purple);flex-shrink:0;background:#ede9fb;border-radius:10px;padding:1px 5px}
+
+/* Home XP card */
+.home-xp-card{background:linear-gradient(135deg,#6C3CE1,#4527a0);border-radius:var(--radius);padding:1rem 1.1rem;margin-bottom:.85rem;color:#fff}
+.xpc-top{display:flex;align-items:center;gap:.75rem;margin-bottom:.65rem}
+.xpc-badge{font-size:2rem;flex-shrink:0;line-height:1}
+.xpc-level-title{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem}
+.xpc-xp-row{display:flex;align-items:center;gap:.5rem;margin-top:.15rem;font-size:.78rem;opacity:.9}
+.xpc-today{background:rgba(255,255,255,.2);border-radius:10px;padding:1px 7px;font-weight:600}
+.xpc-bar-wrap{}
+.xpc-bar{height:8px;background:rgba(255,255,255,.25);border-radius:4px;overflow:hidden}
+.xpc-fill{height:100%;background:#F5B400;border-radius:4px;transition:width .8s ease}
+.xpc-hint{font-size:.72rem;opacity:.8;margin-top:.35rem;text-align:right}
+
+/* XP floating toast */
+.xp-toast{position:fixed;bottom:90px;right:16px;background:#1A1035;color:#fff;border-radius:20px;padding:6px 14px;display:flex;align-items:center;gap:6px;font-size:.82rem;font-weight:600;z-index:9999;transform:translateY(20px);opacity:0;transition:all .3s ease;pointer-events:none;box-shadow:0 4px 16px rgba(0,0,0,.25)}
+.xp-toast.show{transform:translateY(0);opacity:1}
+.xpt-amt{color:#F5B400;font-weight:800;font-size:.88rem}
+.xpt-lbl{color:rgba(255,255,255,.8)}
+
+/* Achievement toast */
+.ach-toast{position:fixed;bottom:90px;left:50%;transform:translateX(-50%) translateY(30px);background:var(--card);border:2px solid var(--gold);border-radius:var(--radius);padding:.85rem 1.1rem;display:flex;align-items:center;gap:.75rem;z-index:9999;opacity:0;transition:all .4s ease;pointer-events:none;box-shadow:0 8px 32px rgba(0,0,0,.18);min-width:260px;max-width:320px}
+.ach-toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+.acht-icon{font-size:2rem;flex-shrink:0}
+.acht-title{font-size:.7rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.acht-name{font-family:'Sora',sans-serif;font-weight:800;font-size:.9rem;color:var(--text);margin-top:.1rem}
+.acht-xp{font-size:.75rem;font-weight:700;color:var(--purple);margin-top:.2rem}
+
+/* Level-up modal */
+.levelup-overlay{position:fixed;inset:0;background:rgba(26,16,53,.75);display:flex;align-items:center;justify-content:center;z-index:10000;opacity:0;pointer-events:none;transition:opacity .3s ease}
+.levelup-overlay.show{opacity:1;pointer-events:all}
+.levelup-card{background:var(--card);border-radius:24px;padding:2rem 1.75rem;max-width:320px;width:90%;text-align:center;transform:scale(.85);transition:transform .35s cubic-bezier(.34,1.56,.64,1);box-shadow:0 20px 60px rgba(108,60,225,.35)}
+.levelup-overlay.show .levelup-card{transform:scale(1)}
+.lu-confetti{font-size:2.5rem;margin-bottom:.5rem;animation:bounce .6s ease infinite alternate}
+@keyframes bounce{from{transform:translateY(0)}to{transform:translateY(-8px)}}
+.lu-icon-wrap{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#6C3CE1,#4527a0);display:flex;align-items:center;justify-content:center;font-size:2.5rem;margin:0 auto .75rem;box-shadow:0 8px 24px rgba(108,60,225,.4)}
+.lu-label{font-size:.72rem;font-weight:800;letter-spacing:.1em;color:var(--gold);text-transform:uppercase;margin-bottom:.25rem}
+.lu-level{font-family:'Sora',sans-serif;font-size:1.3rem;font-weight:800;color:var(--text)}
+.lu-title{font-size:1rem;color:var(--purple);font-weight:600;margin:.2rem 0}
+.lu-xp{font-size:.82rem;color:var(--muted);margin-top:.35rem}
