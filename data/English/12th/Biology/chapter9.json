@@ -1,0 +1,2161 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 9",
+    "chapterId": "chapter9",
+    "source": "Chapter9.xlsx",
+    "count": 179
+  },
+  "questions": [
+    {
+      "topic": "Chapter 9",
+      "question": "Restriction enzyme digestions are performed by incubating purified DNA molecules with the restriction enzyme under what conditions?",
+      "options": [
+        "At high temperature conditions",
+        "At the optimal conditions for that specific enzyme",
+        "At low pH acidic conditions",
+        "Under ultraviolet light exposure"
+      ],
+      "correct": 1,
+      "explanation": "Restriction enzyme digestions require incubating purified DNA with the enzyme at optimal conditions specific to that enzyme. This ensures the enzyme functions efficiently to cut DNA at precise locations."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which technique is employed to check the progression of a restriction enzyme digestion?",
+      "options": [
+        "Chromatography",
+        "Spectrophotometry",
+        "Agarose gel electrophoresis",
+        "Centrifugation"
+      ],
+      "correct": 2,
+      "explanation": "Agarose gel electrophoresis is the technique used to check and monitor the progression of restriction enzyme digestion. It separates DNA fragments by size allowing visualization of the cutting process."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "DNA is a negatively charged molecule. Towards which electrode does it move during agarose gel electrophoresis?",
+      "options": [
+        "Negative electrode (cathode)",
+        "Positive electrode (anode)",
+        "Neutral electrode",
+        "Ground electrode"
+      ],
+      "correct": 1,
+      "explanation": "DNA is negatively charged due to the phosphate groups in its backbone. Therefore, during electrophoresis, it migrates towards the positive electrode called the anode."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "After cutting the source DNA and vector DNA with a restriction enzyme, what enzyme is added to join the gene of interest with the cut vector?",
+      "options": [
+        "DNA polymerase",
+        "RNA polymerase",
+        "Ligase",
+        "Protease"
+      ],
+      "correct": 2,
+      "explanation": "After cutting both source DNA and vector DNA with a restriction enzyme, the gene of interest is mixed with the cut vector and ligase enzyme is added. Ligase joins the DNA ends together resulting in recombinant DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What does PCR stand for?",
+      "options": [
+        "Protein Chain Reaction",
+        "Polymerase Chain Reaction",
+        "Phosphate Catalytic Reaction",
+        "Polynucleotide Cleavage Reaction"
+      ],
+      "correct": 1,
+      "explanation": "PCR stands for Polymerase Chain Reaction. It is a technique used to amplify and make multiple copies of a specific gene or DNA segment in vitro."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which of the following is NOT one of the three steps in a PCR cycle as described in the text?",
+      "options": [
+        "Denaturation",
+        "Primer annealing",
+        "Transcription",
+        "Extension of primers"
+      ],
+      "correct": 2,
+      "explanation": "The three steps of PCR are: (i) Denaturation, (ii) Primer annealing, and (iii) Extension of primers. Transcription is a separate biological process not part of the PCR cycle."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are primers in the context of PCR?",
+      "options": [
+        "Large protein molecules that bind to DNA",
+        "Small chemically synthesised oligonucleotides complementary to DNA regions",
+        "Enzymes that cut DNA at specific locations",
+        "RNA molecules that transport amino acids"
+      ],
+      "correct": 1,
+      "explanation": "Primers used in PCR are small chemically synthesised oligonucleotides that are complementary to specific regions of the DNA. They provide a starting point for DNA polymerase to begin synthesis."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which bacterium is the source of the thermostable DNA polymerase used in PCR?",
+      "options": [
+        "Escherichia coli",
+        "Salmonella typhimurium",
+        "Thermus aquaticus",
+        "Bacillus subtilis"
+      ],
+      "correct": 2,
+      "explanation": "The thermostable DNA polymerase used in PCR is isolated from the bacterium Thermus aquaticus. This enzyme remains active during the high temperature denaturation step of PCR."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "If the process of DNA replication in PCR is repeated many times, approximately how many copies of the DNA segment can be amplified?",
+      "options": [
+        "One million copies",
+        "One hundred million copies",
+        "One billion copies",
+        "Ten billion copies"
+      ],
+      "correct": 2,
+      "explanation": "When the PCR process is repeated many times, the DNA segment can be amplified to approximately one billion times, meaning one billion copies are made."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "After PCR amplification, what can the amplified DNA fragment be used for?",
+      "options": [
+        "Direct insertion into human cells only",
+        "Ligation with a vector for further cloning",
+        "Protein synthesis without any further steps",
+        "Immediate use as a vaccine"
+      ],
+      "correct": 1,
+      "explanation": "The amplified DNA fragment, if desired, can be used to ligate with a vector for further cloning. This allows the gene of interest to be inserted into host organisms for expression."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme is used to break open bacterial cells during DNA isolation?",
+      "options": [
+        "Cellulase",
+        "Lysozyme",
+        "Chitinase",
+        "Protease"
+      ],
+      "correct": 1,
+      "explanation": "Lysozyme is used to break open bacterial cells and release DNA along with other macromolecules."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme is used to break open plant cells during DNA isolation?",
+      "options": [
+        "Lysozyme",
+        "Chitinase",
+        "Cellulase",
+        "Ribonuclease"
+      ],
+      "correct": 2,
+      "explanation": "Cellulase is used to break open plant cells because plant cell walls contain cellulose."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme is used to remove RNA from the DNA extract?",
+      "options": [
+        "Protease",
+        "Ribonuclease",
+        "Lysozyme",
+        "Cellulase"
+      ],
+      "correct": 1,
+      "explanation": "Ribonuclease is used to remove RNA from the DNA extract during purification."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme is used to remove proteins from the DNA extract?",
+      "options": [
+        "Ribonuclease",
+        "Cellulase",
+        "Protease",
+        "Lysozyme"
+      ],
+      "correct": 2,
+      "explanation": "Protease is used to remove proteins from the DNA extract because proteins are intertwined with DNA molecules."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is added to precipitate purified DNA from the suspension?",
+      "options": [
+        "Hot ethanol",
+        "Chilled ethanol",
+        "Distilled water",
+        "Sodium chloride"
+      ],
+      "correct": 1,
+      "explanation": "Chilled ethanol is added to precipitate purified DNA, which appears as fine threads in the suspension."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What technique is used to check the progression of restriction enzyme digestion?",
+      "options": [
+        "PCR",
+        "Gel electrophoresis",
+        "Micro-injection",
+        "Biolistics"
+      ],
+      "correct": 1,
+      "explanation": "Agarose gel electrophoresis is used to check the progression of restriction enzyme digestion by separating DNA fragments based on size."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What does PCR stand for?",
+      "options": [
+        "Protein Chain Reaction",
+        "Polymerase Chain Reaction",
+        "Phosphate Chain Reaction",
+        "Protein Catalytic Reaction"
+      ],
+      "correct": 1,
+      "explanation": "PCR stands for Polymerase Chain Reaction, which amplifies DNA segments in vitro."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme is used in PCR to extend the primers?",
+      "options": [
+        "DNA ligase",
+        "Taq polymerase",
+        "Restriction enzyme",
+        "RNA polymerase"
+      ],
+      "correct": 1,
+      "explanation": "Taq polymerase is a thermostable DNA polymerase isolated from Thermus aquaticus that extends primers during PCR."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "How many cycles are typically performed in PCR to achieve approximately 1 billion copies?",
+      "options": [
+        "10 cycles",
+        "20 cycles",
+        "30 cycles",
+        "50 cycles"
+      ],
+      "correct": 2,
+      "explanation": "30 cycles of PCR are performed to amplify DNA approximately 1 billion times."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are the three main steps of each PCR cycle?",
+      "options": [
+        "Denaturation, Annealing, Extension",
+        "Cutting, Ligation, Transformation",
+        "Isolation, Purification, Amplification",
+        "Transcription, Translation, Replication"
+      ],
+      "correct": 0,
+      "explanation": "Each PCR cycle consists of three steps: Denaturation (separating DNA strands), Annealing (primer binding), and Extension (primer elongation by DNA polymerase)."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which organism is the source of Taq polymerase used in PCR?",
+      "options": [
+        "Escherichia coli",
+        "Thermus aquaticus",
+        "Salmonella typhimurium",
+        "Agrobacterium tumefaciens"
+      ],
+      "correct": 1,
+      "explanation": "Taq polymerase is isolated from the bacterium Thermus aquaticus, which thrives in hot springs and remains active at high temperatures."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are primers in PCR?",
+      "options": [
+        "Large DNA fragments",
+        "Small chemically synthesized oligonucleotides complementary to DNA regions",
+        "Restriction enzymes",
+        "RNA molecules"
+      ],
+      "correct": 1,
+      "explanation": "Primers are small chemically synthesized oligonucleotides that are complementary to specific regions of the DNA template."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In PCR, the enzyme DNA polymerase extends the primers using what as a template?",
+      "options": [
+        "Plasmid DNA",
+        "Genomic DNA",
+        "RNA sequence",
+        "Protein sequence"
+      ],
+      "correct": 1,
+      "explanation": "In PCR, the DNA polymerase enzyme extends the primers using the nucleotides provided in the reaction and the genomic DNA as template. The primers are small chemically synthesised oligonucleotides complementary to the regions of DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Approximately how many copies of a DNA segment can be made when PCR amplification is repeated many times?",
+      "options": [
+        "One hundred thousand copies",
+        "One million copies",
+        "One billion copies",
+        "One trillion copies"
+      ],
+      "correct": 2,
+      "explanation": "If the process of DNA replication in PCR is repeated many times, the segment of DNA can be amplified to approximately one billion times, meaning one billion copies are made."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "From which bacterium is the thermostable DNA polymerase used in PCR isolated?",
+      "options": [
+        "Thermus aquaticus",
+        "Thermus thermophilus",
+        "Bacillus subtilis",
+        "Streptococcus pneumoniae"
+      ],
+      "correct": 0,
+      "explanation": "The thermostable DNA polymerase used in PCR is isolated from the bacterium Thermus aquaticus. This enzyme remains active during the high temperature induced denaturation of double stranded DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why is a thermostable DNA polymerase essential for PCR?",
+      "options": [
+        "Because it is cheaper than normal polymerase",
+        "Because it remains active during high temperature denaturation of double stranded DNA",
+        "Because it can cut DNA at specific locations",
+        "Because it joins DNA fragments together"
+      ],
+      "correct": 1,
+      "explanation": "A thermostable DNA polymerase is essential for PCR because it remains active during the high temperature induced denaturation of double stranded DNA. Without this property, the enzyme would be destroyed at each cycle."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "After PCR amplification, what can the amplified DNA fragment be used for?",
+      "options": [
+        "Direct sequencing only",
+        "Ligation with a vector for further cloning",
+        "Immediate protein expression without cloning",
+        "Direct insertion into the human genome"
+      ],
+      "correct": 1,
+      "explanation": "The amplified DNA fragment, if desired, can be used to ligate with a vector for further cloning. This enables the insertion of the gene of interest into host organisms."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What must be done to recipient cells before they can take up DNA from their surroundings?",
+      "options": [
+        "They must be heated to 100 degrees Celsius",
+        "They must be made competent to receive DNA",
+        "They must be treated with antibiotics",
+        "They must be frozen in liquid nitrogen"
+      ],
+      "correct": 1,
+      "explanation": "Recipient cells must be made competent to receive DNA before they can take up DNA present in their surrounding. Competent cells have the ability to absorb foreign DNA from the environment."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "If recombinant DNA bearing a gene for ampicillin resistance is transferred into E. coli cells, what happens to the host cells?",
+      "options": [
+        "They become sensitive to ampicillin",
+        "They become transformed into ampicillin-resistant cells",
+        "They die immediately",
+        "They lose their ability to reproduce"
+      ],
+      "correct": 1,
+      "explanation": "If a recombinant DNA bearing gene for resistance to an antibiotic like ampicillin is transferred into E. coli cells, the host cells become transformed into ampicillin-resistant cells. This transformation is a key step in genetic engineering."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "When transformed cells are spread on agar plates containing ampicillin, which cells grow?",
+      "options": [
+        "Only transformants grow",
+        "Only untransformed recipient cells grow",
+        "Both transformants and untransformed cells grow equally",
+        "Neither type of cell grows"
+      ],
+      "correct": 0,
+      "explanation": "When transformed cells are spread on agar plates containing ampicillin, only transformants will grow because they carry the ampicillin resistance gene. The untransformed recipient cells will die due to lack of resistance."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the ampicillin resistance gene called in the context of recombinant DNA technology?",
+      "options": [
+        "A structural gene",
+        "A selectable marker",
+        "A reporter gene",
+        "A housekeeping gene"
+      ],
+      "correct": 1,
+      "explanation": "The ampicillin resistance gene in this case is called a selectable marker. It allows scientists to select transformed cells in the presence of ampicillin, as only cells with this gene will survive."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is a protein called when it is expressed in a heterologous host?",
+      "options": [
+        "A native protein",
+        "A recombinant protein",
+        "A structural protein",
+        "A transport protein"
+      ],
+      "correct": 1,
+      "explanation": "If any protein encoding gene is expressed in a heterologous host, it is called a recombinant protein. This is the ultimate aim of most recombinant DNA technologies."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why is there a need for large-scale production after cloning a gene of interest?",
+      "options": [
+        "Because small cultures produce too much protein",
+        "Because small volume cultures cannot yield appreciable quantities of products",
+        "Because large-scale production is always required for DNA sequencing",
+        "Because the gene of interest only works in large containers"
+      ],
+      "correct": 1,
+      "explanation": "Small volume cultures cannot yield appreciable quantities of products. To produce in large quantities, bioreactors are needed where large volumes of culture can be processed."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What volume range can bioreactors typically process?",
+      "options": [
+        "10 to 100 millilitres",
+        "1 to 10 litres",
+        "100 to 1000 litres",
+        "10,000 to 100,000 litres"
+      ],
+      "correct": 2,
+      "explanation": "Bioreactors can process large volumes in the range of 100 to 1000 litres of culture. These vessels are designed for industrial-scale production of biotechnological products."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are bioreactors essentially used for?",
+      "options": [
+        "To store DNA samples at low temperatures",
+        "To separate DNA fragments by size",
+        "To biologically convert raw materials into specific products using microbial, plant, animal or human cells",
+        "To sterilize laboratory equipment"
+      ],
+      "correct": 2,
+      "explanation": "Bioreactors are vessels in which raw materials are biologically converted into specific products, individual enzymes, etc., using microbial, plant, animal or human cells."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What optimal growth conditions does a bioreactor provide?",
+      "options": [
+        "Only temperature control",
+        "Temperature, pH, substrate, salts, vitamins, and oxygen",
+        "Only light and humidity",
+        "Only carbon dioxide and nitrogen"
+      ],
+      "correct": 1,
+      "explanation": "A bioreactor provides the optimal conditions for achieving the desired product by providing optimum growth conditions including temperature, pH, substrate, salts, vitamins, and oxygen."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the most commonly used type of bioreactor?",
+      "options": [
+        "Air-lift bioreactor",
+        "Stirring type bioreactor",
+        "Packed bed bioreactor",
+        "Fluidized bed bioreactor"
+      ],
+      "correct": 1,
+      "explanation": "The most commonly used bioreactors are of the stirring type. These include the simple stirred-tank bioreactor and the sparged stirred-tank bioreactor."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the typical shape of a stirred-tank reactor?",
+      "options": [
+        "Spherical with a flat base",
+        "Cylindrical or with a curved base",
+        "Cubical with sharp edges",
+        "Conical with a pointed base"
+      ],
+      "correct": 1,
+      "explanation": "A stirred-tank reactor is usually cylindrical or with a curved base to facilitate the mixing of the reactor contents. The curved base helps in proper circulation of the culture medium."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What does the stirrer in a bioreactor facilitate?",
+      "options": [
+        "Only heating of the culture",
+        "Even mixing and oxygen availability throughout the bioreactor",
+        "Only cooling of the reactor",
+        "Separation of DNA fragments"
+      ],
+      "correct": 1,
+      "explanation": "The stirrer facilitates even mixing and oxygen availability throughout the bioreactor. This ensures that all cells receive adequate nutrients and oxygen for growth."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In a sparged stirred-tank bioreactor, how is air supplied?",
+      "options": [
+        "Through the top lid only",
+        "Sterile air bubbles are sparged through the reactor",
+        "No air is supplied in this type",
+        "Air is supplied only during the initial setup"
+      ],
+      "correct": 1,
+      "explanation": "In a sparged stirred-tank bioreactor, sterile air bubbles are sparged through the reactor. This method ensures efficient oxygen transfer to the growing culture."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which of the following systems is NOT mentioned as part of a bioreactor?",
+      "options": [
+        "Agitator system",
+        "Oxygen delivery system",
+        "Foam control system",
+        "Nitrogen freezing system"
+      ],
+      "correct": 3,
+      "explanation": "The bioreactor has an agitator system, an oxygen delivery system, a foam control system, a temperature control system, pH control system and sampling ports. A nitrogen freezing system is not mentioned."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is downstream processing in biotechnology?",
+      "options": [
+        "The process of isolating DNA from cells",
+        "The series of processes the product undergoes after biosynthesis before marketing as a finished product",
+        "The process of inserting recombinant DNA into host cells",
+        "The process of amplifying DNA using PCR"
+      ],
+      "correct": 1,
+      "explanation": "Downstream processing refers to the series of processes that the product has to be subjected through after completion of the biosynthetic stage, before it is ready for marketing as a finished product."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What processes are collectively referred to as downstream processing in biotechnology?",
+      "options": [
+        "Only separation of the product from the culture medium",
+        "Only purification of the product",
+        "Separation and purification of the product",
+        "Only formulation with preservatives"
+      ],
+      "correct": 2,
+      "explanation": "Downstream processing includes separation and purification of the product after completion of the biosynthetic stage. These are collectively referred to as downstream processing."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What must be done to a biotechnological product after purification before it can be marketed?",
+      "options": [
+        "It must be frozen immediately",
+        "It must be formulated with suitable preservatives",
+        "It must be heated to sterilize",
+        "It must be mixed with antibiotics"
+      ],
+      "correct": 1,
+      "explanation": "After purification, the product has to be formulated with suitable preservatives before it is ready for marketing as a finished product."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What kind of testing must a formulated biotechnological product undergo before marketing, especially in the case of drugs?",
+      "options": [
+        "Only temperature stability testing",
+        "Thorough clinical trials",
+        "Only colour and appearance testing",
+        "Only packaging durability testing"
+      ],
+      "correct": 1,
+      "explanation": "The formulated product has to undergo thorough clinical trials as in the case of drugs before it can be marketed. This ensures safety and efficacy for human use."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is required for each biotechnological product before it reaches the market?",
+      "options": [
+        "Only visual inspection",
+        "Only taste testing",
+        "Strict quality control testing",
+        "Only weight measurement"
+      ],
+      "correct": 2,
+      "explanation": "Strict quality control testing for each product is required before marketing. The downstream processing and quality control testing vary from product to product."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "According to the summary, what does biotechnology deal with?",
+      "options": [
+        "Only DNA sequencing and analysis",
+        "Only medical diagnosis of diseases",
+        "Large scale production and marketing of products using live organisms, cells or enzymes",
+        "Only production of vaccines"
+      ],
+      "correct": 2,
+      "explanation": "Biotechnology deals with large scale production and marketing of products and processes using live organisms, cells or enzymes. This is the broad definition that encompasses the entire field."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Modern biotechnology using genetically modified organisms was made possible when man learnt to do what?",
+      "options": [
+        "Discover new species of bacteria",
+        "Alter the chemistry of DNA and construct recombinant DNA",
+        "Build larger bioreactors",
+        "Invent the electron microscope"
+      ],
+      "correct": 1,
+      "explanation": "Modern biotechnology using genetically modified organisms was made possible only when man learnt to alter the chemistry of DNA and construct recombinant DNA. This is the foundation of modern biotechnological processes."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the key process of modern biotechnology also called?",
+      "options": [
+        "Protein synthesis",
+        "Recombinant DNA technology or genetic engineering",
+        "Cell division technology",
+        "Mitochondrial transfer"
+      ],
+      "correct": 1,
+      "explanation": "The key process of altering DNA chemistry and constructing recombinant DNA is called recombinant DNA technology or genetic engineering. This is the central technique of modern biotechnology."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which of the following enzymes is used in recombinant DNA technology to cut DNA?",
+      "options": [
+        "DNA polymerase",
+        "Restriction endonucleases",
+        "RNA polymerase",
+        "Reverse transcriptase"
+      ],
+      "correct": 1,
+      "explanation": "Restriction endonucleases are the enzymes used in recombinant DNA technology to cut DNA at specific locations. They are essential molecular scissors for genetic engineering."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme is used in recombinant DNA technology to join DNA fragments together?",
+      "options": [
+        "DNA ligase",
+        "DNA helicase",
+        "DNA gyrase",
+        "Topoisomerase"
+      ],
+      "correct": 0,
+      "explanation": "DNA ligase is the enzyme used to join DNA fragments together in recombinant DNA technology. It acts on cut DNA molecules and joins their ends to create recombinant DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the final step in the recombinant DNA technology process before marketing?",
+      "options": [
+        "Isolation of the foreign DNA",
+        "Expression of the foreign gene in the host",
+        "Making a suitable formulation for marketing",
+        "Cutting the DNA with restriction enzymes"
+      ],
+      "correct": 2,
+      "explanation": "The complete process involves isolation of foreign DNA, ferrying it into host organisms, expression of the foreign gene, purification of the gene product (functional protein), and finally making a suitable formulation for marketing."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the specific DNA sequence called that is responsible for initiating replication in a chromosome?",
+      "options": [
+        "Promoter sequence",
+        "Origin of replication",
+        "Terminator sequence",
+        "Coding sequence"
+      ],
+      "correct": 1,
+      "explanation": "The origin of replication is a specific DNA sequence in a chromosome that is responsible for initiating replication. Without this sequence, alien DNA cannot multiply in the host organism."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why does an alien piece of DNA need to be linked with an origin of replication?",
+      "options": [
+        "To protect it from restriction enzymes",
+        "So that it can replicate and multiply itself in the host organism",
+        "To change its genetic code",
+        "To make it visible under UV light"
+      ],
+      "correct": 1,
+      "explanation": "An alien DNA is linked with the origin of replication so that this alien piece of DNA can replicate and multiply itself in the host organism. This is essential for cloning."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are bioreactors in the context of biotechnology?",
+      "options": [
+        "Small tubes used for DNA extraction",
+        "Vessels in which raw materials are biologically converted into specific products using microbial, plant, animal or human cells",
+        "Devices used only for sterilizing laboratory equipment",
+        "Instruments used for measuring pH of solutions"
+      ],
+      "correct": 1,
+      "explanation": "Bioreactors are vessels in which raw materials are biologically converted into specific products, individual enzymes, etc., using microbial, plant, animal or human cells. They provide optimal growth conditions."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the typical volume range of cultures that bioreactors can process?",
+      "options": [
+        "1-10 millilitres",
+        "10-100 litres",
+        "100-1000 litres",
+        "10000-100000 litres"
+      ],
+      "correct": 2,
+      "explanation": "Bioreactors can process large volumes in the range of 100 to 1000 litres of culture. This enables large-scale production of biotechnological products like antibiotics, vaccines and enzymes."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What does downstream processing include in biotechnology?",
+      "options": [
+        "Only the initial DNA isolation step",
+        "Only the gene insertion step",
+        "Separation and purification of the product after biosynthesis",
+        "Only the selection of host cells"
+      ],
+      "correct": 2,
+      "explanation": "Downstream processing includes separation and purification, which are the processes the product undergoes after completion of the biosynthetic stage. It also includes formulation with preservatives and quality control testing."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What must a biotechnological product undergo after formulation with suitable preservatives?",
+      "options": [
+        "Only colour testing",
+        "Thorough clinical trials and strict quality control testing",
+        "Only weight measurement",
+        "Only packaging design approval"
+      ],
+      "correct": 1,
+      "explanation": "After formulation with suitable preservatives, the product has to undergo thorough clinical trials as in case of drugs, and strict quality control testing is also required for each product."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What does PCR stand for and what is its purpose?",
+      "options": [
+        "Protein Catalytic Reaction to synthesise proteins",
+        "Polymerase Chain Reaction to synthesise multiple copies of a gene in vitro",
+        "Phosphate Cleavage Reaction to break DNA bonds",
+        "Polynucleotide Construction Reaction to build new DNA"
+      ],
+      "correct": 1,
+      "explanation": "PCR stands for Polymerase Chain Reaction. Its purpose is to synthesise multiple copies of the gene or DNA of interest in vitro using two sets of primers and DNA polymerase enzyme."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What type of enzymes are restriction enzymes that act on DNA?",
+      "options": [
+        "They are ligases that join DNA fragments",
+        "They are endonucleases that cut DNA at specific locations within the molecule",
+        "They are polymerases that synthesise DNA",
+        "They are proteases that degrade proteins"
+      ],
+      "correct": 1,
+      "explanation": "Restriction enzymes are endonucleases that cut DNA at specific locations within the molecule. They are also called molecular scissors and are essential tools in recombinant DNA technology."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the key difference between an exonuclease and an endonuclease?",
+      "options": [
+        "Exonucleases cut DNA only at the ends while endonucleases cut within the DNA molecule",
+        "Exonucleases cut within the DNA while endonucleases cut only at the ends",
+        "Exonucleases join DNA fragments while endonucleases cut DNA",
+        "There is no difference between them"
+      ],
+      "correct": 0,
+      "explanation": "Exonucleases remove nucleotides from the ends of a DNA molecule, whereas endonucleases cut DNA at specific locations within the molecule. Restriction enzymes are a type of endonuclease."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme is used to break open fungal cells during DNA isolation?",
+      "options": [
+        "Lysozyme",
+        "Cellulase",
+        "Chitinase",
+        "Protease"
+      ],
+      "correct": 2,
+      "explanation": "Chitinase is the enzyme used to break open fungal cells during DNA isolation. Lysozyme is used for bacteria, cellulase for plant cells, and protease for removing proteins."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Who was Rene Descartes according to the text?",
+      "options": [
+        "An English physicist and chemist",
+        "A French philosopher, mathematician and biologist",
+        "An American engineer and inventor",
+        "A German physician and naturalist"
+      ],
+      "correct": 1,
+      "explanation": "Rene Descartes is described as a French philosopher, mathematician and biologist of the seventeenth century."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In which century did Rene Descartes live?",
+      "options": [
+        "Fifteenth century",
+        "Sixteenth century",
+        "Seventeenth century",
+        "Eighteenth century"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that Rene Descartes was a philosopher, mathematician and biologist of the seventeenth century."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What was the primary direction of human knowledge according to Descartes?",
+      "options": [
+        "To explore outer space",
+        "To develop technologies for human comfort and welfare",
+        "To study ancient civilizations",
+        "To create artistic masterpieces"
+      ],
+      "correct": 1,
+      "explanation": "The text states that all human knowledge especially natural sciences were directed to develop technologies which add to the creature comforts of human lives and value to human life."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What approach to understanding natural phenomena became dominant?",
+      "options": [
+        "Ecocentric approach",
+        "Anthropocentric approach",
+        "Theocentric approach",
+        "Biocentric approach"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly mentions that the whole approach to understanding natural phenomena became anthropocentric, meaning human-centered."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which subjects gave rise to engineering and industries?",
+      "options": [
+        "Biology and geology",
+        "Astronomy and astrology",
+        "Physics and chemistry",
+        "Mathematics and literature"
+      ],
+      "correct": 2,
+      "explanation": "The text states that Physics and chemistry gave rise to engineering, technologies and industries which worked for human comfort and welfare."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is described as the major utility of the biological world?",
+      "options": [
+        "Source of medicines",
+        "Source of building materials",
+        "Source of food",
+        "Source of energy"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that the major utility of the biological world is as a source of food."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "When did biotechnology emerge as a field?",
+      "options": [
+        "Eighteenth century",
+        "Nineteenth century",
+        "Twentieth century",
+        "Twenty-first century"
+      ],
+      "correct": 2,
+      "explanation": "The text describes biotechnology as the twentieth century off-shoot of modern biology."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What improvements did biotechnology products bring?",
+      "options": [
+        "Only quantitative improvements in food production",
+        "Only improvements in transportation",
+        "Qualitative improvement in health and food production",
+        "Improvements only in communication technology"
+      ],
+      "correct": 2,
+      "explanation": "The text states that biotechnology products brought qualitative improvement in health and food production."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the relationship between biotechnology and modern biology?",
+      "options": [
+        "Biotechnology is the parent field of modern biology",
+        "Biotechnology is an off-shoot of modern biology",
+        "They are completely unrelated fields",
+        "Modern biology is a branch of biotechnology"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that biotechnology is the twentieth century off-shoot of modern biology."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which two chapters are mentioned under UNIT IX Biotechnology?",
+      "options": [
+        "Chapter 7 and Chapter 8",
+        "Chapter 9 and Chapter 10",
+        "Chapter 11 and Chapter 12",
+        "Chapter 5 and Chapter 6"
+      ],
+      "correct": 1,
+      "explanation": "The text lists Chapter 9 Biotechnology: Principles and Processes and Chapter 10 Biotechnology and Its Applications under UNIT IX."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the full title of Chapter 9?",
+      "options": [
+        "Biotechnology: History and Development",
+        "Biotechnology: Principles and Processes",
+        "Biotechnology: Tools and Techniques",
+        "Biotechnology: Future and Scope"
+      ],
+      "correct": 1,
+      "explanation": "The text clearly states the title as Chapter 9 Biotechnology: Principles and Processes."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the full title of Chapter 10?",
+      "options": [
+        "Biotechnology and Its History",
+        "Biotechnology and Its Applications",
+        "Biotechnology and Its Limitations",
+        "Biotechnology and Its Theories"
+      ],
+      "correct": 1,
+      "explanation": "The text clearly states the title as Chapter 10 Biotechnology and Its Applications."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What does the text say about the basic principles of biotechnology?",
+      "options": [
+        "They are not discussed in this unit",
+        "They are highlighted and discussed in this unit",
+        "They are too complex to understand",
+        "They are only mentioned briefly"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the basic principles underlying biotechnological processes and some applications are highlighted and discussed in this unit."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What does 'anthropocentric' mean in the context of this text?",
+      "options": [
+        "Centered around animals",
+        "Centered around plants",
+        "Centered around humans",
+        "Centered around nature"
+      ],
+      "correct": 2,
+      "explanation": "Anthropocentric means human-centered, as the text describes the approach to understanding natural phenomena as being directed toward human comfort and welfare."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which field of science is described as the parent of biotechnology?",
+      "options": [
+        "Physics",
+        "Chemistry",
+        "Modern biology",
+        "Geology"
+      ],
+      "correct": 2,
+      "explanation": "The text describes biotechnology as the twentieth century off-shoot of modern biology, indicating modern biology is its parent field."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In which year was Herbert Boyer born?",
+      "options": [
+        "1930",
+        "1936",
+        "1940",
+        "1963"
+      ],
+      "correct": 1,
+      "explanation": "According to the text, Herbert Boyer was born in 1936."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Where did Herbert Boyer grow up?",
+      "options": [
+        "In eastern Pennsylvania",
+        "In the city of Pittsburgh",
+        "In a corner of western Pennsylvania where railroads and mines were common",
+        "In Hawaii"
+      ],
+      "correct": 2,
+      "explanation": "The text states that Boyer was brought up in a corner of western Pennsylvania where railroads and mines were the destiny of most young men."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "At which university did Boyer complete his graduate work in 1963?",
+      "options": [
+        "Stanford University",
+        "University of California at San Francisco",
+        "University of Pittsburgh",
+        "University of Hawaii"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that Boyer completed graduate work at the University of Pittsburgh in 1963."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In which year did Boyer become an assistant professor at the University of California at San Francisco?",
+      "options": [
+        "1963",
+        "1966",
+        "1969",
+        "1972"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in 1966, Boyer took over assistant professorship at the University of California at San Francisco."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What did Boyer observe about restriction enzymes of E. coli by 1969?",
+      "options": [
+        "They could only cut RNA",
+        "They could cut DNA strands and leave sticky ends",
+        "They could replicate plasmids",
+        "They could synthesize proteins directly"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Boyer observed these enzymes have the capability of cutting DNA strands in a particular fashion, which left what became known as sticky ends on the strands."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Who was the Stanford scientist that Boyer had a conversation with in Hawaii?",
+      "options": [
+        "James Watson",
+        "Francis Crick",
+        "Stanley Cohen",
+        "Paul Berg"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that this discovery led to a rich and rewarding conversation in Hawaii with a Stanford scientist named Stanley Cohen."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are plasmids according to the text?",
+      "options": [
+        "Large chromosomal DNA molecules",
+        "Small ringlets of DNA that float freely in the cytoplasm and replicate independently",
+        "Proteins that cut DNA",
+        "Enzymes that synthesize RNA"
+      ],
+      "correct": 1,
+      "explanation": "The text describes plasmids as small ringlets of DNA called plasmids which float about freely in the cytoplasm of certain bacterial cells and replicate independently from the coding strand of DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What had Cohen developed a method for?",
+      "options": [
+        "Synthesizing new DNA sequences",
+        "Removing plasmids from cells and reinserting them in other cells",
+        "Creating sticky ends on DNA",
+        "Sequencing the human genome"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Cohen had developed a method of removing these plasmids from the cell and then reinserting them in other cells."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What did combining DNA splicing with plasmid transfer enable Boyer and Cohen to do?",
+      "options": [
+        "Destroy bacterial cells",
+        "Recombine segments of DNA in desired configurations and insert them into bacterial cells",
+        "Prevent protein synthesis",
+        "Create artificial chromosomes"
+      ],
+      "correct": 1,
+      "explanation": "The text states that combining this process with DNA splicing enabled Boyer and Cohen to recombine segments of DNA in desired configurations and insert the DNA in bacterial cells, which could then act as manufacturing plants for specific proteins."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What was the significance of Boyer and Cohen's breakthrough?",
+      "options": [
+        "It led to the discovery of antibiotics",
+        "It was the basis upon which the discipline of biotechnology was built",
+        "It proved that DNA is the genetic material",
+        "It explained the structure of ribosomes"
+      ],
+      "correct": 1,
+      "explanation": "The text states that this breakthrough was the basis upon which the discipline of biotechnology was built."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What role did bacterial cells play after receiving recombinant DNA?",
+      "options": [
+        "They became resistant to all antibiotics",
+        "They acted as manufacturing plants for specific proteins",
+        "They stopped dividing",
+        "They lost their plasmids"
+      ],
+      "correct": 1,
+      "explanation": "The text states that bacterial cells could then act as manufacturing plants for specific proteins after receiving the recombinant DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Where did the conversation between Boyer and Cohen take place?",
+      "options": [
+        "At Stanford University",
+        "At the University of Pittsburgh",
+        "In Hawaii",
+        "At the University of California"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that the discovery led to a rich and rewarding conversation in Hawaii with Stanley Cohen."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "According to the text, what was the major utility of the biological world mentioned in the historical context of biotechnology?",
+      "options": [
+        "As a source of energy",
+        "As a source of food",
+        "As a source of medicine",
+        "As a source of shelter"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that 'The major utility of the biological world is as a source of food.' This is mentioned in the introductory paragraph discussing how physics and chemistry gave rise to engineering and technologies, while the biological world served primarily as a food source."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which century is described as the period when biotechnology emerged as an off-shoot of modern biology?",
+      "options": [
+        "Seventeenth century",
+        "Eighteenth century",
+        "Nineteenth century",
+        "Twentieth century"
+      ],
+      "correct": 3,
+      "explanation": "The text states that 'Biotechnology, the twentieth century off-shoot of modern biology, changed our daily life as its products brought qualitative improvement in health and food production.' This clearly identifies the twentieth century as the period when biotechnology emerged."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What does biotechnology deal with according to the definition given in the chapter?",
+      "options": [
+        "Techniques of using dead organisms to produce useful products",
+        "Techniques of using live organisms or enzymes from organisms to produce products and processes useful to humans",
+        "Techniques of using only plant cells for genetic modification",
+        "Techniques of using chemical synthesis without biological agents"
+      ],
+      "correct": 1,
+      "explanation": "The text defines biotechnology as dealing with 'techniques of using live organisms or enzymes from organisms to produce products and processes useful to humans.' This is the primary definition provided in section 9.1."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which of the following is mentioned as a traditional microbe-mediated process that could be considered a form of biotechnology?",
+      "options": [
+        "Manufacturing plastics",
+        "Making curd, bread or wine",
+        "Producing electricity",
+        "Building houses"
+      ],
+      "correct": 1,
+      "explanation": "The text specifically mentions that 'making curd, bread or wine, which are all microbe-mediated processes, could also be thought as a form of biotechnology.' These are given as examples of traditional biotechnology processes."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In what sense is biotechnology used in a restricted manner today?",
+      "options": [
+        "It refers only to processes using genetically modified organisms on a larger scale",
+        "It refers only to medical applications",
+        "It refers only to agricultural applications",
+        "It refers only to industrial fermentation"
+      ],
+      "correct": 0,
+      "explanation": "The text states that biotechnology 'is used in a restricted sense today, to refer to such of those processes which use genetically modified organisms to achieve the same on a larger scale.' This indicates the modern restricted definition focuses on GMO-based large-scale processes."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which organization has given a definition of biotechnology that encompasses both traditional view and modern molecular biotechnology?",
+      "options": [
+        "World Health Organization (WHO)",
+        "United Nations (UN)",
+        "European Federation of Biotechnology (EFB)",
+        "National Institutes of Health (NIH)"
+      ],
+      "correct": 2,
+      "explanation": "The text clearly states that 'The European Federation of Biotechnology (EFB) has given a definition of biotechnology that encompasses both traditional view and modern molecular biotechnology.' This is explicitly mentioned in the chapter."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are the two core techniques that enabled the birth of modern biotechnology?",
+      "options": [
+        "Genetic engineering and Bioprocess engineering",
+        "Tissue culture and Micropropagation",
+        "Fermentation and Distillation",
+        "Chromatography and Electrophoresis"
+      ],
+      "correct": 0,
+      "explanation": "The text explicitly states that 'Among many, the two core techniques that enabled birth of modern biotechnology are: (i) Genetic engineering and (ii) Bioprocess engineering.' These are the two fundamental techniques highlighted in section 9.1."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What does genetic engineering involve according to the text?",
+      "options": [
+        "Techniques to alter the chemistry of genetic material (DNA and RNA), to introduce these into host organisms and thus change the phenotype of the host organism",
+        "Techniques to only study DNA without any modification",
+        "Techniques to produce chemical fertilizers",
+        "Techniques to build mechanical robots"
+      ],
+      "correct": 0,
+      "explanation": "The text defines genetic engineering as 'Techniques to alter the chemistry of genetic material (DNA and RNA), to introduce these into host organisms and thus change the phenotype of the host organism.' This is the exact definition provided in the chapter."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the purpose of bioprocess engineering as described in the text?",
+      "options": [
+        "To create new species of animals",
+        "To maintain sterile ambience for growth of desired microbes in large quantities for manufacturing biotechnological products",
+        "To study the structure of proteins only",
+        "To develop computer software for biology"
+      ],
+      "correct": 1,
+      "explanation": "The text describes bioprocess engineering as 'Maintenance of sterile (microbial contamination-free) ambience in chemical engineering processes to enable growth of only the desired microbe/eukaryotic cell in large quantities for the manufacture of biotechnological products like antibiotics, vaccines, enzymes, etc.' This is the complete definition from the chapter."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which of the following is NOT mentioned as an example of processes included under biotechnology in its broader sense?",
+      "options": [
+        "In vitro fertilisation leading to a test-tube baby",
+        "Synthesising a gene and using it",
+        "Developing a DNA vaccine",
+        "Manufacturing automobiles"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions that 'in vitro fertilisation leading to a test-tube baby, synthesising a gene and using it, developing a DNA vaccine or correcting a defective gene, are all part of biotechnology.' Manufacturing automobiles is not mentioned anywhere in the text as a biotechnology process."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "According to the EFB definition, biotechnology involves the integration of what elements for products and services?",
+      "options": [
+        "Natural science and organisms, cells, parts thereof, and molecular analogues",
+        "Only mechanical engineering and physics",
+        "Only chemical compounds without biological elements",
+        "Only mathematical equations and formulas"
+      ],
+      "correct": 0,
+      "explanation": "The text quotes the EFB definition as 'The integration of natural science and organisms, cells, parts thereof, and molecular analogues for products and services.' This is the exact wording of the EFB definition provided in the chapter."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What kind of improvement did biotechnology products bring to health and food production?",
+      "options": [
+        "Quantitative improvement only",
+        "Qualitative improvement",
+        "No improvement at all",
+        "Only aesthetic improvement"
+      ],
+      "correct": 1,
+      "explanation": "The text states that biotechnology 'changed our daily life as its products brought qualitative improvement in health and food production.' The word 'qualitative' is specifically used to describe the type of improvement."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the naming convention for restriction enzymes?",
+      "options": [
+        "First letter from species, next two from genus",
+        "First letter from genus, next two from species, then strain and Roman number",
+        "First letter from strain, next two from genus",
+        "First letter from genus, next two from strain"
+      ],
+      "correct": 1,
+      "explanation": "The convention for naming restriction enzymes is that the first letter comes from the genus, the next two letters come from the species of the prokaryotic cell, followed by the strain designation and Roman numbers indicating the order of isolation."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What class of enzymes do restriction enzymes belong to?",
+      "options": [
+        "Proteases",
+        "Lipases",
+        "Nucleases",
+        "Amylases"
+      ],
+      "correct": 2,
+      "explanation": "Restriction enzymes belong to a larger class of enzymes called nucleases, which are enzymes that cleave nucleic acids."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the difference between exonucleases and endonucleases?",
+      "options": [
+        "Exonucleases cut at specific positions within DNA, endonucleases remove from ends",
+        "Exonucleases remove nucleotides from ends of DNA, endonucleases make cuts at specific positions within DNA",
+        "Exonucleases add nucleotides, endonucleases remove nucleotides",
+        "Exonucleases cut RNA, endonucleases cut DNA"
+      ],
+      "correct": 1,
+      "explanation": "Exonucleases remove nucleotides from the ends of DNA, whereas endonucleases make cuts at specific positions within the DNA molecule."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "How do restriction endonucleases function?",
+      "options": [
+        "They randomly cut DNA at any position",
+        "They inspect DNA length, find recognition sequence, bind and cut both strands at specific points",
+        "They add methyl groups to DNA",
+        "They replicate DNA strands"
+      ],
+      "correct": 1,
+      "explanation": "Restriction endonucleases function by inspecting the length of a DNA sequence, finding their specific recognition sequence, binding to the DNA, and cutting each of the two strands at specific points in their sugar-phosphate backbones."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What type of nucleotide sequences do restriction endonucleases recognize?",
+      "options": [
+        "Random sequences",
+        "Palindromic sequences",
+        "Non-coding sequences",
+        "Repeating sequences"
+      ],
+      "correct": 1,
+      "explanation": "Each restriction endonuclease recognizes a specific palindromic nucleotide sequence in DNA. A palindrome in DNA is a sequence that reads the same on both strands when orientation is considered."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Where does EcoRI cut the DNA?",
+      "options": [
+        "Between bases T and T",
+        "Between bases G and A only when sequence GAATTC is present",
+        "Between bases A and A",
+        "Between bases C and G"
+      ],
+      "correct": 1,
+      "explanation": "EcoRI cuts the DNA between bases G and A only when the sequence GAATTC is present in the DNA. This creates sticky ends that can join with other DNA fragments."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are sticky ends?",
+      "options": [
+        "Blunt ends created by restriction enzymes",
+        "Single-stranded overhangs created by restriction enzyme cuts that allow DNA fragments to join",
+        "Double-stranded breaks in DNA",
+        "Methylated DNA ends"
+      ],
+      "correct": 1,
+      "explanation": "Sticky ends are single-stranded overhangs created when restriction enzymes like EcoRI cut DNA in a staggered manner. These overhangs allow DNA fragments to join together through complementary base pairing."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is formed when DNA fragments join at sticky ends?",
+      "options": [
+        "Chromosomal DNA",
+        "Recombinant DNA",
+        "Plasmid DNA",
+        "Messenger RNA"
+      ],
+      "correct": 1,
+      "explanation": "When DNA fragments join at sticky ends, they form recombinant DNA, which is a new combination of DNA created in vitro by joining different DNA fragments."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is a palindrome in DNA?",
+      "options": [
+        "A sequence that reads differently on both strands",
+        "A sequence of base pairs that reads the same on both strands when orientation is considered",
+        "A repeating sequence of the same base",
+        "A sequence that only appears in coding regions"
+      ],
+      "correct": 1,
+      "explanation": "A palindrome in DNA is a sequence of base pairs that reads the same on the two strands when the orientation of reading is considered (5 prime to 3 prime on one strand and 3 prime to 5 prime on the other)."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What happens when a restriction endonuclease finds its recognition sequence?",
+      "options": [
+        "It adds methyl groups to the DNA",
+        "It binds to the DNA and cuts both strands at specific points in the sugar-phosphate backbone",
+        "It replicates the DNA sequence",
+        "It transcribes the DNA into RNA"
+      ],
+      "correct": 1,
+      "explanation": "When a restriction endonuclease finds its specific recognition sequence, it binds to the DNA and cuts each of the two strands at specific points in their sugar-phosphate backbones."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the example palindromic DNA sequence shown in the textbook on page 7?",
+      "options": [
+        "5'-GATC-3'",
+        "5'-GAATTC-3'",
+        "5'-AAGCTT-3'",
+        "5'-CTTAAG-3'"
+      ],
+      "correct": 1,
+      "explanation": "The textbook explicitly shows the sequence 5'-GAATTC-3' as an example of a palindromic DNA sequence that reads the same on both strands in the 5' to 3' direction."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Where do restriction enzymes cut the DNA strand relative to the palindrome site?",
+      "options": [
+        "Exactly at the center of the palindrome",
+        "A little away from the center of the palindrome sites",
+        "At the 5' end only",
+        "At the 3' end only"
+      ],
+      "correct": 1,
+      "explanation": "According to the textbook, restriction enzymes cut the strand of DNA a little away from the centre of the palindrome sites, but between the same two bases on the opposite strands."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are the single-stranded overhanging stretches at the ends of DNA called?",
+      "options": [
+        "Blunt ends",
+        "Sticky ends",
+        "Hairpin loops",
+        "Replication forks"
+      ],
+      "correct": 1,
+      "explanation": "The textbook states that restriction enzyme cutting leaves single stranded portions at the ends, which are called overhanging stretches or sticky ends."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why are sticky ends called 'sticky'?",
+      "options": [
+        "Because they are covered in sugar molecules",
+        "Because they form hydrogen bonds with their complementary cut counterparts",
+        "Because they attract water molecules",
+        "Because they contain sticky proteins"
+      ],
+      "correct": 1,
+      "explanation": "The textbook explains that sticky ends are named so because they form hydrogen bonds with their complementary cut counterparts. This stickiness facilitates the action of DNA ligase."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme facilitates the joining of DNA fragments with sticky ends?",
+      "options": [
+        "DNA polymerase",
+        "DNA ligase",
+        "Restriction endonuclease",
+        "RNA polymerase"
+      ],
+      "correct": 1,
+      "explanation": "The textbook states that the stickiness of the ends facilitates the action of the enzyme DNA ligase, which joins DNA fragments together."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are recombinant DNA molecules composed of?",
+      "options": [
+        "DNA from the same source only",
+        "DNA from different sources or genomes",
+        "RNA from different sources",
+        "Proteins and DNA combined"
+      ],
+      "correct": 1,
+      "explanation": "The textbook defines recombinant DNA molecules as being composed of DNA from different sources or genomes."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "When DNA is cut by the same restriction enzyme, what happens to the resultant fragments?",
+      "options": [
+        "They have different sticky ends that cannot join",
+        "They have the same kind of sticky ends and can be joined using DNA ligases",
+        "They become blunt ends automatically",
+        "They lose their ability to replicate"
+      ],
+      "correct": 1,
+      "explanation": "The textbook states that when cut by the same restriction enzyme, the resultant DNA fragments have the same kind of sticky-ends and these can be joined together end-to-end using DNA ligases."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In which direction does the palindromic sequence read the same on both strands?",
+      "options": [
+        "Only in the 3' to 5' direction",
+        "Only in the 5' to 3' direction",
+        "In both 5' to 3' and 3' to 5' directions",
+        "In neither direction"
+      ],
+      "correct": 2,
+      "explanation": "The textbook states that the sequence reads the same on the two strands in 5' to 3' direction, and this is also true if read in the 3' to 5' direction."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the complementary strand of the palindromic sequence 5'-GAATTC-3'?",
+      "options": [
+        "5'-GAATTC-3'",
+        "3'-CTTAAG-5'",
+        "5'-CTTAAG-3'",
+        "3'-GAATTC-5'"
+      ],
+      "correct": 1,
+      "explanation": "The textbook shows the complementary strand as 3'-CTTAAG-5', which is the base-paired complement of 5'-GAATTC-3'."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Restriction endonucleases are used in genetic engineering primarily to form what?",
+      "options": [
+        "Messenger RNA molecules",
+        "Recombinant DNA molecules",
+        "Ribosomal RNA molecules",
+        "Transfer RNA molecules"
+      ],
+      "correct": 1,
+      "explanation": "The textbook explicitly states that restriction endonucleases are used in genetic engineering to form recombinant molecules of DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What technique is used to separate DNA fragments after restriction enzyme digestion?",
+      "options": [
+        "Chromatography",
+        "Gel electrophoresis",
+        "Centrifugation",
+        "Spectrophotometry"
+      ],
+      "correct": 1,
+      "explanation": "DNA fragments are separated by gel electrophoresis, where negatively charged DNA molecules move toward the anode through an agarose gel matrix."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why do smaller DNA fragments move farther in gel electrophoresis?",
+      "options": [
+        "They have more positive charge",
+        "They experience less resistance through the gel matrix",
+        "They are heavier than larger fragments",
+        "They are attracted to the cathode"
+      ],
+      "correct": 1,
+      "explanation": "Smaller DNA fragments move farther because they experience less sieving resistance through the agarose gel matrix compared to larger fragments."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which dye is used to visualize DNA bands in gel electrophoresis under UV light?",
+      "options": [
+        "Methylene blue",
+        "Crystal violet",
+        "Ethidium bromide",
+        "Coomassie brilliant blue"
+      ],
+      "correct": 2,
+      "explanation": "Ethidium bromide is used to stain DNA fragments, which then appear as bright orange coloured bands when exposed to UV radiation."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the process called when DNA bands are cut out from the agarose gel and extracted?",
+      "options": [
+        "Amplification",
+        "Elution",
+        "Ligation",
+        "Transformation"
+      ],
+      "correct": 1,
+      "explanation": "Elution is the process of cutting out separated DNA bands from the agarose gel and extracting the DNA fragments from the gel piece."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the function of the origin of replication (ori) in a cloning vector?",
+      "options": [
+        "It provides antibiotic resistance",
+        "It is the site where DNA replication begins",
+        "It recognizes restriction enzymes",
+        "It protects DNA from nucleases"
+      ],
+      "correct": 1,
+      "explanation": "The origin of replication is the specific DNA sequence where replication starts, allowing any linked DNA to replicate within host cells."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which of the following is a selectable marker commonly used in E. coli cloning vectors?",
+      "options": [
+        "LacZ gene",
+        "Ampicillin resistance gene",
+        "GFP gene",
+        "Insulin gene"
+      ],
+      "correct": 1,
+      "explanation": "Genes encoding resistance to antibiotics such as ampicillin, chloramphenicol, tetracycline or kanamycin are useful selectable markers for E. coli."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why should a cloning vector have preferably only single recognition sites for restriction enzymes?",
+      "options": [
+        "To increase the size of the vector",
+        "To prevent the vector from replicating",
+        "To avoid generating multiple fragments that complicate gene cloning",
+        "To make the vector more stable in the host"
+      ],
+      "correct": 2,
+      "explanation": "Presence of more than one recognition site within the vector will generate several fragments, which complicates the gene cloning process."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In the pBR322 vector, what happens when foreign DNA is inserted into the tetracycline resistance gene?",
+      "options": [
+        "The plasmid loses all antibiotic resistance",
+        "The recombinant plasmid loses tetracycline resistance but retains ampicillin resistance",
+        "The plasmid becomes unable to replicate",
+        "The host cell dies immediately"
+      ],
+      "correct": 1,
+      "explanation": "When foreign DNA is ligated at the BamHI site of the tetracycline resistance gene in pBR322, the recombinant plasmids lose tetracycline resistance but still retain ampicillin resistance, allowing selection of recombinants."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the function of the origin of replication (ori) in a cloning vector?",
+      "options": [
+        "It provides antibiotic resistance to the host cell",
+        "It is the sequence from where replication starts and controls copy number",
+        "It codes for restriction enzymes used in DNA cutting",
+        "It helps in the ligation of foreign DNA to the vector"
+      ],
+      "correct": 1,
+      "explanation": "The origin of replication (ori) is a sequence from where replication starts. Any piece of DNA linked to this sequence can replicate within host cells. It also controls the copy number of the linked DNA. High copy number ori vectors are chosen when many copies of target DNA are needed."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which of the following is NOT a feature required for a cloning vector?",
+      "options": [
+        "Origin of replication (ori)",
+        "Selectable marker",
+        "Multiple cloning sites for all restriction enzymes",
+        "Cloning sites with preferably single recognition sites"
+      ],
+      "correct": 2,
+      "explanation": "A cloning vector requires ori, selectable marker, and preferably single recognition sites for commonly used restriction enzymes. Having multiple recognition sites for ALL restriction enzymes is not required and would actually complicate gene cloning by generating several fragments."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the purpose of a selectable marker in a cloning vector?",
+      "options": [
+        "To increase the copy number of the plasmid",
+        "To identify and eliminate non-transformants while permitting growth of transformants",
+        "To cut the vector DNA at specific sites",
+        "To ligate foreign DNA into the vector"
+      ],
+      "correct": 1,
+      "explanation": "A selectable marker helps identify and eliminate non-transformants while selectively permitting the growth of transformants. Genes encoding resistance to antibiotics like ampicillin, chloramphenicol, tetracycline, or kanamycin are commonly used as selectable markers for E. coli."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In the pBR322 vector, which antibiotic resistance gene is used for insertional inactivation?",
+      "options": [
+        "Ampicillin resistance gene (ampR)",
+        "Tetracycline resistance gene (tetR)",
+        "Kanamycin resistance gene",
+        "Chloramphenicol resistance gene"
+      ],
+      "correct": 1,
+      "explanation": "In pBR322, a foreign DNA can be ligated at the BamH I site of the tetracycline resistance gene (tetR). The recombinant plasmids lose tetracycline resistance due to insertion of foreign DNA but retain ampicillin resistance. This allows selection of recombinants by plating on ampicillin and then testing on tetracycline."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why is it preferable for a cloning vector to have only single recognition sites for restriction enzymes?",
+      "options": [
+        "Single sites increase the copy number of the vector",
+        "Multiple sites would generate several fragments and complicate gene cloning",
+        "Single sites make the vector more resistant to antibiotics",
+        "Single sites help in DNA denaturation during PCR"
+      ],
+      "correct": 1,
+      "explanation": "Presence of more than one recognition site within the vector will generate several fragments when cut, which complicates gene cloning. A single recognition site allows precise insertion of foreign DNA without fragmenting the vector into multiple pieces."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is insertional inactivation and how is it used for selection?",
+      "options": [
+        "It is the process of cutting DNA with restriction enzymes",
+        "It is the inactivation of a gene due to insertion of foreign DNA, used to distinguish recombinants from non-recombinants",
+        "It is the amplification of DNA using PCR",
+        "It is the transfer of DNA into host cells using heat shock"
+      ],
+      "correct": 1,
+      "explanation": "Insertional inactivation occurs when recombinant DNA is inserted within the coding sequence of an enzyme like beta-galactosidase, inactivating the gene. In the presence of a chromogenic substrate, non-recombinants produce blue colonies while recombinants (with insert) do not produce color, allowing easy identification."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which pathogen has been modified into a cloning vector for delivering genes into plants?",
+      "options": [
+        "Retroviruses",
+        "Agrobacterium tumefaciens",
+        "Escherichia coli",
+        "Bacteriophages"
+      ],
+      "correct": 1,
+      "explanation": "Agrobacterium tumefaciens, a pathogen of several dicot plants, naturally delivers T-DNA to transform plant cells into tumors. Its Ti (tumor-inducing) plasmid has been modified into a cloning vector that is no longer pathogenic but can still deliver genes of interest into plants."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the role of the rop gene in the pBR322 vector?",
+      "options": [
+        "It codes for proteins involved in the replication of the plasmid",
+        "It provides resistance to tetracycline",
+        "It acts as a restriction enzyme recognition site",
+        "It helps in the ligation of foreign DNA"
+      ],
+      "correct": 0,
+      "explanation": "The rop gene in pBR322 codes for proteins involved in the replication of the plasmid. This is separate from the antibiotic resistance genes (ampR and tetR) and the origin of replication (ori)."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "How do retroviruses serve as vectors in animal biotechnology?",
+      "options": [
+        "They naturally transform normal cells into cancerous cells and have been disarmed to deliver desirable genes",
+        "They cut DNA at specific restriction sites",
+        "They amplify DNA using PCR technology",
+        "They provide antibiotic resistance to animal cells"
+      ],
+      "correct": 0,
+      "explanation": "Retroviruses in animals have the ability to transform normal cells into cancerous cells. They have been disarmed and modified to serve as vectors that deliver desirable genes into animal cells without causing disease."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What happens when a recombinant plasmid with foreign DNA inserted into the tetracycline resistance gene is plated on ampicillin-containing medium?",
+      "options": [
+        "Both recombinants and non-recombinants will grow",
+        "Only recombinants will grow, non-recombinants will die",
+        "Only non-recombinants will grow, recombinants will die",
+        "Neither will grow on ampicillin medium"
+      ],
+      "correct": 0,
+      "explanation": "When foreign DNA is inserted into the tetracycline resistance gene (tetR) of pBR322, the recombinants lose tetracycline resistance but retain ampicillin resistance (ampR). Therefore, both recombinants and non-recombinants will grow on ampicillin-containing medium. To distinguish them, they must be transferred to tetracycline medium where only non-recombinants grow."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the function of the origin of replication (ori) in a cloning vector?",
+      "options": [
+        "It provides antibiotic resistance to the host cell",
+        "It is the sequence from where replication starts and controls copy number",
+        "It helps in identifying non-transformants",
+        "It cuts DNA at specific locations"
+      ],
+      "correct": 1,
+      "explanation": "The origin of replication (ori) is a sequence from where replication starts. Any piece of DNA linked to this sequence can be made to replicate within host cells. It also controls the copy number of the linked DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which of the following is a selectable marker commonly used in E. coli cloning vectors?",
+      "options": [
+        "DNA ligase gene",
+        "Restriction enzyme gene",
+        "Antibiotic resistance gene (e.g., ampicillin, tetracycline)",
+        "Histone protein gene"
+      ],
+      "correct": 2,
+      "explanation": "Selectable markers help identify and eliminate non-transformants while permitting growth of transformants. Genes encoding resistance to antibiotics such as ampicillin, chloramphenicol, tetracycline, or kanamycin are useful selectable markers for E. coli."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why should a cloning vector have preferably a single recognition site for restriction enzymes?",
+      "options": [
+        "To increase the copy number of the vector",
+        "To provide antibiotic resistance",
+        "To avoid generating multiple fragments that complicate gene cloning",
+        "To enhance DNA replication speed"
+      ],
+      "correct": 2,
+      "explanation": "Presence of more than one recognition site within the vector will generate several fragments, which complicates gene cloning. A single recognition site allows precise insertion of foreign DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "In the pBR322 vector, if a foreign DNA is inserted at the BamHI site of the tetracycline resistance gene, what happens to the recombinant plasmid?",
+      "options": [
+        "It loses ampicillin resistance but retains tetracycline resistance",
+        "It loses tetracycline resistance but retains ampicillin resistance",
+        "It loses both antibiotic resistances",
+        "It gains additional antibiotic resistance"
+      ],
+      "correct": 1,
+      "explanation": "When foreign DNA is ligated at the BamHI site of the tetracycline resistance gene in pBR322, the recombinant plasmids lose tetracycline resistance due to insertional inactivation but still retain ampicillin resistance. This allows selection of recombinants."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is insertional inactivation in the context of recombinant DNA technology?",
+      "options": [
+        "The process of cutting DNA with restriction enzymes",
+        "The inactivation of a gene due to insertion of foreign DNA within its coding sequence",
+        "The replication of plasmid DNA in host cells",
+        "The transformation of bacterial cells"
+      ],
+      "correct": 1,
+      "explanation": "Insertional inactivation occurs when recombinant DNA is inserted within the coding sequence of an enzyme (like beta-galactosidase), resulting in inactivation of that gene. This helps differentiate recombinants from non-recombinants based on color production."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which pathogen has been modified into a cloning vector for delivering genes into plants?",
+      "options": [
+        "Retrovirus",
+        "Agrobacterium tumefaciens",
+        "Escherichia coli",
+        "Salmonella typhimurium"
+      ],
+      "correct": 1,
+      "explanation": "Agrobacterium tumefaciens, a pathogen of dicot plants, can deliver T-DNA to transform plant cells. Its Ti plasmid has been modified into a cloning vector that is no longer pathogenic but can still deliver genes of interest into plants."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme's gene is commonly used for insertional inactivation to identify recombinant colonies?",
+      "options": [
+        "DNA polymerase",
+        "Beta-galactosidase",
+        "Restriction endonuclease",
+        "DNA ligase"
+      ],
+      "correct": 1,
+      "explanation": "Beta-galactosidase gene is commonly used for insertional inactivation. When foreign DNA is inserted within this gene, it gets inactivated. In the presence of a chromogenic substrate, non-recombinant colonies produce blue color while recombinant colonies do not produce color."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why must bacterial cells be made 'competent' before transformation with recombinant DNA?",
+      "options": [
+        "To increase their antibiotic resistance",
+        "Because DNA is hydrophilic and cannot pass through cell membranes without treatment",
+        "To activate restriction enzymes within the cell",
+        "To enhance plasmid replication"
+      ],
+      "correct": 1,
+      "explanation": "DNA is a hydrophilic molecule and cannot pass through cell membranes. Bacterial cells are made competent by treating them with divalent cations like calcium, which increases the efficiency of DNA entry through pores in the cell wall."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the heat shock method used for in recombinant DNA technology?",
+      "options": [
+        "To denature DNA for PCR",
+        "To introduce recombinant DNA into competent bacterial cells",
+        "To separate DNA fragments by gel electrophoresis",
+        "To inactivate restriction enzymes"
+      ],
+      "correct": 1,
+      "explanation": "The heat shock method involves incubating competent cells with recombinant DNA on ice, briefly placing them at 42°C, and then returning them to ice. This enables bacteria to take up the recombinant DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which method involves bombarding plant cells with high-velocity micro-particles coated with DNA?",
+      "options": [
+        "Micro-injection",
+        "Heat shock",
+        "Biolistics or gene gun",
+        "Calcium chloride treatment"
+      ],
+      "correct": 2,
+      "explanation": "Biolistics or gene gun is a method where plant cells are bombarded with high-velocity micro-particles of gold or tungsten coated with DNA. This is one of the methods to introduce alien DNA into host cells."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the role of retroviruses in recombinant DNA technology for animal cells?",
+      "options": [
+        "They are used as restriction enzymes",
+        "They have been disarmed and used to deliver desirable genes into animal cells",
+        "They are used to isolate plasmid DNA",
+        "They are used for gel electrophoresis"
+      ],
+      "correct": 1,
+      "explanation": "Retroviruses have the ability to transform normal animal cells into cancerous cells. They have been disarmed (made non-pathogenic) and are now used as vectors to deliver desirable genes into animal cells."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What happens to non-recombinant plasmids when plated on a medium containing both ampicillin and tetracycline?",
+      "options": [
+        "They cannot grow on either antibiotic",
+        "They grow on both antibiotics",
+        "They grow only on ampicillin",
+        "They grow only on tetracycline"
+      ],
+      "correct": 1,
+      "explanation": "Non-recombinant plasmids retain both antibiotic resistance genes (ampicillin and tetracycline), so they can grow on media containing both antibiotics. Recombinants lose tetracycline resistance and grow only on ampicillin."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is required for creating a recombinant vector molecule according to the text?",
+      "options": [
+        "Different restriction enzymes for vector and source DNA",
+        "The same restriction enzyme for both vector and source DNA",
+        "No restriction enzymes at all",
+        "Only DNA ligase enzyme"
+      ],
+      "correct": 1,
+      "explanation": "The text states that normally, unless one cuts the vector and the source DNA with the same restriction enzyme, the recombinant vector molecule cannot be created."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What technique is used to separate DNA fragments produced by restriction endonucleases?",
+      "options": [
+        "Centrifugation",
+        "Chromatography",
+        "Gel electrophoresis",
+        "Spectrophotometry"
+      ],
+      "correct": 2,
+      "explanation": "The text clearly states that DNA fragments can be separated by a technique known as gel electrophoresis."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the charge of DNA fragments that allows them to move in gel electrophoresis?",
+      "options": [
+        "Positively charged",
+        "Negatively charged",
+        "Neutral",
+        "Both positive and negative charges"
+      ],
+      "correct": 1,
+      "explanation": "The text states that DNA fragments are negatively charged molecules and they move towards the anode under an electric field."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which matrix is most commonly used in gel electrophoresis for DNA separation?",
+      "options": [
+        "Polyacrylamide",
+        "Agarose",
+        "Starch",
+        "Cellulose"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that the most commonly used matrix is agarose, which is a natural polymer extracted from sea weeds."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "According to the sieving effect of agarose gel, how do DNA fragments separate?",
+      "options": [
+        "Larger fragments move farther",
+        "Smaller fragments move farther",
+        "All fragments move equal distance",
+        "Fragments separate by charge only"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the smaller the fragment size, the farther it moves through the agarose gel due to the sieving effect."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which compound is used to stain DNA fragments for visualization in gel electrophoresis?",
+      "options": [
+        "Bromophenol blue",
+        "Methylene blue",
+        "Ethidium bromide",
+        "Coomassie brilliant blue"
+      ],
+      "correct": 2,
+      "explanation": "The text states that DNA fragments are visualised after staining with a compound known as ethidium bromide followed by exposure to UV radiation."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What color bands are observed when DNA is stained with ethidium bromide and exposed to UV light?",
+      "options": [
+        "Blue colored bands",
+        "Green colored bands",
+        "Bright orange colored bands",
+        "Red colored bands"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that bright orange coloured bands of DNA can be seen in an ethidium bromide stained gel exposed to UV light."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the process called when separated DNA bands are cut out from the agarose gel and extracted?",
+      "options": [
+        "Amplification",
+        "Elution",
+        "Transcription",
+        "Translation"
+      ],
+      "correct": 1,
+      "explanation": "The text defines this step as elution, where separated bands of DNA are cut out from the agarose gel and extracted from the gel piece."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which two types of vectors are mentioned as having the ability to replicate independently within bacterial cells?",
+      "options": [
+        "Chromosomes and ribosomes",
+        "Plasmids and bacteriophages",
+        "Mitochondria and chloroplasts",
+        "RNA and proteins"
+      ],
+      "correct": 1,
+      "explanation": "The text states that plasmids and bacteriophages have the ability to replicate within bacterial cells independent of the control of chromosomal DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Why do bacteriophages have very high copy numbers of their genome within bacterial cells?",
+      "options": [
+        "Because they are larger than plasmids",
+        "Because of their high number per cell",
+        "Because they integrate into chromosomal DNA",
+        "Because they are RNA viruses"
+      ],
+      "correct": 1,
+      "explanation": "The text states that bacteriophages have very high copy numbers because of their high number per cell."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the range of copy numbers mentioned for some plasmids per bacterial cell?",
+      "options": [
+        "1-2 copies",
+        "5-10 copies",
+        "15-100 copies",
+        "1000-10000 copies"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that some plasmids may have 15-100 copies per cell, while others may have only one or two copies."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the purpose of engineering vectors as described in the text?",
+      "options": [
+        "To increase bacterial cell size",
+        "To help easy linking of foreign DNA and selection of recombinants from non-recombinants",
+        "To decrease the copy number of DNA",
+        "To prevent DNA replication"
+      ],
+      "correct": 1,
+      "explanation": "The text states that vectors are engineered to help easy linking of foreign DNA and selection of recombinants from non-recombinants."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are the two core techniques that enabled the birth of modern biotechnology?",
+      "options": [
+        "Gene therapy and stem cell research",
+        "Genetic engineering and bioprocess engineering",
+        "Cloning and fermentation",
+        "PCR and gel electrophoresis"
+      ],
+      "correct": 1,
+      "explanation": "The two core techniques are genetic engineering (techniques to alter the chemistry of genetic material and introduce into host organisms) and bioprocess engineering (maintenance of sterile ambience for large-scale production)."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which of the following provides opportunities for genetic variation?",
+      "options": [
+        "Asexual reproduction only",
+        "Sexual reproduction",
+        "Binary fission",
+        "Budding"
+      ],
+      "correct": 1,
+      "explanation": "Sexual reproduction provides opportunities for variations and formulation of unique combinations of genetic setup, while asexual reproduction preserves genetic information."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the major limitation of traditional hybridization procedures?",
+      "options": [
+        "They produce too much variation",
+        "They lead to inclusion and multiplication of undesirable genes along with desired genes",
+        "They cannot produce offspring",
+        "They require modern biotechnology tools"
+      ],
+      "correct": 1,
+      "explanation": "Traditional hybridization procedures very often lead to inclusion and multiplication of undesirable genes along with the desired genes."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is required for an alien piece of DNA to multiply in a host organism?",
+      "options": [
+        "It must be a plasmid",
+        "It must contain an origin of replication",
+        "It must be cut by restriction enzymes",
+        "It must be treated with calcium chloride"
+      ],
+      "correct": 1,
+      "explanation": "For the multiplication of any alien piece of DNA in an organism, it needs to be part of a chromosome with a specific sequence known as origin of replication."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Who accomplished the construction of the first recombinant DNA molecule in 1972?",
+      "options": [
+        "Watson and Crick",
+        "Stanley Cohen and Herbert Boyer",
+        "Kary Mullis and Frederick Sanger",
+        "Paul Berg and Arthur Kornberg"
+      ],
+      "correct": 1,
+      "explanation": "Stanley Cohen and Herbert Boyer accomplished the construction of the first recombinant DNA in 1972 by isolating the antibiotic resistance gene and linking it with plasmid DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are restriction enzymes also called?",
+      "options": [
+        "Molecular glue",
+        "Molecular scissors",
+        "Molecular tape",
+        "Molecular markers"
+      ],
+      "correct": 1,
+      "explanation": "Restriction enzymes are called molecular scissors because they cut DNA at specific locations."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What role do plasmids play in recombinant DNA technology?",
+      "options": [
+        "They act as enzymes",
+        "They act as vectors to transfer DNA",
+        "They act as restriction enzymes",
+        "They act as DNA polymerase"
+      ],
+      "correct": 1,
+      "explanation": "Plasmid DNA acts as vectors to transfer the piece of DNA attached to it, similar to how a mosquito acts as a vector to transfer malarial parasite."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Which enzyme joins the cut ends of DNA molecules?",
+      "options": [
+        "Restriction endonuclease",
+        "DNA polymerase",
+        "DNA ligase",
+        "RNA polymerase"
+      ],
+      "correct": 2,
+      "explanation": "DNA ligase acts on cut DNA molecules and joins their ends, making a new combination of circular autonomously replicating DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the process of making multiple identical copies of a template DNA called?",
+      "options": [
+        "Transcription",
+        "Translation",
+        "Cloning",
+        "Mutation"
+      ],
+      "correct": 2,
+      "explanation": "Cloning is the process of making multiple identical copies of any template DNA."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What was the first recombinant DNA constructed by linking?",
+      "options": [
+        "Two plasmids",
+        "A gene encoding antibiotic resistance with a native plasmid of Salmonella typhimurium",
+        "Two chromosomes",
+        "A virus and a bacterium"
+      ],
+      "correct": 1,
+      "explanation": "The first recombinant DNA was constructed by linking a gene encoding antibiotic resistance with a native plasmid of Salmonella typhimurium."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What happens when recombinant DNA is transferred into E. coli?",
+      "options": [
+        "It is destroyed immediately",
+        "It replicates using the host's DNA polymerase",
+        "It becomes a chromosome",
+        "It produces restriction enzymes"
+      ],
+      "correct": 1,
+      "explanation": "When recombinant DNA is transferred into E. coli, it replicates using the new host's DNA polymerase enzyme and makes multiple copies."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is bioprocess engineering primarily concerned with?",
+      "options": [
+        "Cutting DNA with restriction enzymes",
+        "Maintenance of sterile ambience for large-scale production",
+        "Sequencing the human genome",
+        "Creating genetically modified organisms"
+      ],
+      "correct": 1,
+      "explanation": "Bioprocess engineering involves maintenance of sterile (microbial contamination-free) ambience in chemical engineering processes to enable growth of desired microbes in large quantities."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "How does genetic engineering overcome the limitations of traditional hybridization?",
+      "options": [
+        "By producing more offspring",
+        "By allowing isolation and introduction of only desirable genes without undesirable genes",
+        "By making the process faster",
+        "By using only bacterial cells"
+      ],
+      "correct": 1,
+      "explanation": "Genetic engineering allows us to isolate and introduce only one or a set of desirable genes without introducing undesirable genes into the target organism."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the origin of replication responsible for?",
+      "options": [
+        "Cutting DNA",
+        "Initiating DNA replication",
+        "Joining DNA fragments",
+        "Transcribing RNA"
+      ],
+      "correct": 1,
+      "explanation": "The origin of replication is a specific DNA sequence responsible for initiating replication in a chromosome."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What is the ability to multiply copies of antibiotic resistance gene in E. coli called?",
+      "options": [
+        "Transcription",
+        "Translation",
+        "Cloning of antibiotic resistance gene in E. coli",
+        "Gene therapy"
+      ],
+      "correct": 2,
+      "explanation": "The ability to multiply copies of antibiotic resistance gene in E. coli was called cloning of antibiotic resistance gene in E. coli."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "What are the three basic steps in genetically modifying an organism?",
+      "options": [
+        "Cutting, copying, and pasting DNA",
+        "Identification of DNA with desirable genes, introduction into host, and maintenance in host",
+        "Transcription, translation, and replication",
+        "Mutation, selection, and breeding"
+      ],
+      "correct": 1,
+      "explanation": "The three basic steps are: identification of DNA with desirable genes, introduction of identified DNA into the host, and maintenance of introduced DNA in the host with transfer to progeny."
+    }
+  ]
+}

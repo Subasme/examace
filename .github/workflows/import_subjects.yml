@@ -1,0 +1,33 @@
+name: Import Subject Questions
+
+on:
+  workflow_dispatch:
+    inputs:
+      subjects:
+        description: 'Subjects to import (comma-separated): Chemistry, Biology, Physics'
+        required: true
+        default: 'Chemistry'
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build question JSON from Excel
+        run: python scripts/build_questions.py
+
+      - name: Import subjects to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python scripts/import_to_supabase.py --subjects "${{ github.event.inputs.subjects }}"

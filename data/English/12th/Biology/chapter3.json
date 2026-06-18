@@ -1,0 +1,1525 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 3",
+    "chapterId": "chapter3",
+    "source": "Chapter3.xlsx",
+    "count": 126
+  },
+  "questions": [
+    {
+      "topic": "Chapter 3",
+      "question": "What is the simple definition of reproductive health according to the textbook?",
+      "options": [
+        "Healthy reproductive organs with normal functions",
+        "Only physical well-being of reproductive organs",
+        "Social aspects of reproduction only",
+        "Emotional well-being of parents only"
+      ],
+      "correct": 0,
+      "explanation": "The textbook states that reproductive health simply refers to healthy reproductive organs with normal functions."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "According to WHO, what does reproductive health mean?",
+      "options": [
+        "Physical well-being only",
+        "Total well-being in all aspects of reproduction: physical, emotional, behavioural and social",
+        "Social and behavioural aspects only",
+        "Physical and emotional aspects only"
+      ],
+      "correct": 1,
+      "explanation": "WHO defines reproductive health as total well-being in all aspects of reproduction, including physical, emotional, behavioural and social dimensions."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which country was among the first to initiate national-level action plans for reproductive health?",
+      "options": [
+        "United States",
+        "China",
+        "India",
+        "United Kingdom"
+      ],
+      "correct": 2,
+      "explanation": "India was amongst the first countries in the world to initiate action plans and programmes at a national level to attain total reproductive health as a social goal."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "When were family planning programmes initiated in India?",
+      "options": [
+        "1947",
+        "1951",
+        "1960",
+        "1975"
+      ],
+      "correct": 1,
+      "explanation": "Family planning programmes were initiated in India in 1951."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the current popular name for improved programmes covering wider reproduction-related areas?",
+      "options": [
+        "Family Planning Programmes",
+        "National Health Mission",
+        "Reproductive and Child Health Care (RCH) programmes",
+        "Mother and Child Welfare Programmes"
+      ],
+      "correct": 2,
+      "explanation": "Improved programmes covering wider reproduction-related areas are currently in operation under the popular name 'Reproductive and Child Health Care (RCH) programmes'."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What are the major tasks under RCH programmes?",
+      "options": [
+        "Only medical treatment of diseases",
+        "Creating awareness and providing facilities for building a reproductively healthy society",
+        "Population control only",
+        "Sex education in schools only"
+      ],
+      "correct": 1,
+      "explanation": "Creating awareness among people about various reproduction related aspects and providing facilities and support for building up a reproductively healthy society are the major tasks under RCH programmes."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which aspects of reproduction are included in the broader perspective of reproductive health?",
+      "options": [
+        "Physical only",
+        "Physical and emotional only",
+        "Emotional and social aspects",
+        "Physical, emotional, behavioural and social"
+      ],
+      "correct": 3,
+      "explanation": "Reproductive health has a broader perspective and includes physical, emotional, behavioural and social aspects of reproduction."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the significance of maintaining reproductive health in a society?",
+      "options": [
+        "Only for population control",
+        "For total well-being in all aspects of reproduction",
+        "Only for medical purposes",
+        "Only for economic growth"
+      ],
+      "correct": 1,
+      "explanation": "Reproductive health is significant because it ensures total well-being in all aspects of reproduction, including physical, emotional, behavioural and social well-being."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is NOT a dimension of reproductive health according to WHO?",
+      "options": [
+        "Physical",
+        "Emotional",
+        "Economic",
+        "Social"
+      ],
+      "correct": 2,
+      "explanation": "According to WHO, reproductive health includes physical, emotional, behavioural and social aspects, but not economic aspects."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What does a reproductively healthy society require according to the textbook?",
+      "options": [
+        "Only physically normal reproductive organs",
+        "Physically and functionally normal reproductive organs and normal emotional and behavioural interactions",
+        "Only social interactions",
+        "Only medical facilities"
+      ],
+      "correct": 1,
+      "explanation": "A society with people having physically and functionally normal reproductive organs and normal emotional and behavioural interactions among them in all sex-related aspects might be called reproductively healthy."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the full form of RCH mentioned in the text?",
+      "options": [
+        "Reproductive and Child Health",
+        "Reproductive Care and Health",
+        "Reproductive and Community Health",
+        "Regional Child Health"
+      ],
+      "correct": 0,
+      "explanation": "RCH stands for Reproductive and Child Health Care programmes."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is a method to achieve reproductive health mentioned in the text?",
+      "options": [
+        "Creating awareness among people",
+        "Banning all medical treatments",
+        "Restricting population growth only",
+        "Closing all health centres"
+      ],
+      "correct": 0,
+      "explanation": "Creating awareness among people about various reproduction related aspects is mentioned as a method to achieve reproductive health."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the popular name for the improved programmes covering wider reproduction-related areas in India?",
+      "options": [
+        "Family Planning Programmes",
+        "Reproductive and Child Health Care (RCH) Programmes",
+        "National Health Mission",
+        "Child Welfare Schemes"
+      ],
+      "correct": 1,
+      "explanation": "The text states that improved programmes covering wider reproduction-related areas are currently in operation under the popular name 'Reproductive and Child Health Care (RCH) programmes'."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following agencies help create awareness about reproduction-related aspects?",
+      "options": [
+        "Only government agencies",
+        "Only non-governmental agencies",
+        "Both governmental and non-governmental agencies",
+        "Only international organizations"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that with the help of audio-visual and print media, governmental and non-governmental agencies have taken various steps to create awareness among people about reproduction-related aspects."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Who among the following have a major role in disseminating information about reproduction-related aspects?",
+      "options": [
+        "Only teachers and doctors",
+        "Only government officials",
+        "Parents, relatives, teachers and friends",
+        "Only media personalities"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that parents, other close relatives, teachers and friends also have a major role in the dissemination of information about reproduction-related aspects."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Why should sex education be introduced in schools according to the text?",
+      "options": [
+        "To increase population growth",
+        "To provide right information and discourage myths and misconceptions",
+        "To promote early marriage",
+        "To reduce school attendance"
+      ],
+      "correct": 1,
+      "explanation": "The text states that introduction of sex education in schools should be encouraged to provide right information to the young so as to discourage children from believing in myths and having misconceptions about sex-related aspects."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What topics should proper information about reproductive health cover?",
+      "options": [
+        "Only reproductive organs",
+        "Only sexually transmitted diseases",
+        "Reproductive organs, adolescence, safe practices, STDs, AIDS",
+        "Only population control methods"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that proper information about reproductive organs, adolescence and related changes, safe and hygienic sexual practices, sexually transmitted diseases (STD), AIDS, etc. would help people lead a reproductively healthy life."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is NOT mentioned as something to educate people about in the marriageable age group?",
+      "options": [
+        "Birth control options",
+        "Care of pregnant mothers",
+        "Space exploration",
+        "Post-natal care of mother and child"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions educating people about birth control options, care of pregnant mothers, post-natal care of the mother and child, importance of breast feeding, and equal opportunities for male and female child. Space exploration is not mentioned."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the purpose of creating awareness about uncontrolled population growth?",
+      "options": [
+        "To promote large families",
+        "To enable people to take necessary steps to prevent problems and build a socially responsible society",
+        "To reduce economic growth",
+        "To increase migration"
+      ],
+      "correct": 1,
+      "explanation": "The text states that awareness of problems due to uncontrolled population growth needs to be created to enable people to think and take up necessary steps to prevent them and thereby build up a socially responsible and healthy society."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What are the three essential requirements for successful implementation of reproductive health action plans?",
+      "options": [
+        "Money, power and influence",
+        "Strong infrastructural facilities, professional expertise and material support",
+        "Political will, media support and public opinion",
+        "Technology, research and development"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that successful implementation requires strong infrastructural facilities, professional expertise and material support. These are essential to provide medical assistance and care to people."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is amniocentesis used for according to the text?",
+      "options": [
+        "Only for sex determination of the foetus",
+        "To test for certain genetic disorders and determine survivability of the foetus",
+        "To terminate pregnancy",
+        "To prevent sexually transmitted diseases"
+      ],
+      "correct": 1,
+      "explanation": "The text states that amniocentesis is used to test for the presence of certain genetic disorders such as Down syndrome, haemophilia, sickle-cell anemia, etc., and to determine the survivability of the foetus. The statutory ban is specifically for sex-determination."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which institution developed the oral contraceptive 'Saheli'?",
+      "options": [
+        "Indian Institute of Technology",
+        "Central Drug Research Institute (CDRI) in Lucknow",
+        "All India Institute of Medical Sciences",
+        "National Institute of Health"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that 'Saheli' - a new oral contraceptive for females - was developed by scientists at Central Drug Research Institute (CDRI) in Lucknow, India."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What does the text indicate about improved reproductive health in India?",
+      "options": [
+        "Only decreased maternal mortality rates",
+        "Decreased maternal and infant mortality, increased small families, better STD detection, and increased medical facilities",
+        "Only increased population growth",
+        "Only better education facilities"
+      ],
+      "correct": 1,
+      "explanation": "The text states that better awareness, increased medically assisted deliveries, better post-natal care leading to decreased maternal and infant mortality rates, increased couples with small families, better detection and cure of STDs, and overall increased medical facilities indicate improved reproductive health."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the statutory ban mentioned in the text regarding amniocentesis?",
+      "options": [
+        "Ban on all uses of amniocentesis",
+        "Ban on amniocentesis for sex-determination to check female foeticides",
+        "Ban on amniocentesis for genetic disorder testing",
+        "Ban on all medical procedures"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions a statutory ban on amniocentesis for sex-determination to legally check the increasing menace of female foeticides. It does not ban amniocentesis for other legitimate medical purposes like genetic disorder testing."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What was the world population in 1900 according to the textbook?",
+      "options": [
+        "1 billion",
+        "2 billion (2000 million)",
+        "3.5 billion",
+        "5 billion"
+      ],
+      "correct": 1,
+      "explanation": "The textbook states that the world population was around 2 billion (2000 million) in 1900."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What was the world population in 2011 according to the textbook?",
+      "options": [
+        "5 billion",
+        "6 billion",
+        "7.2 billion",
+        "8 billion"
+      ],
+      "correct": 2,
+      "explanation": "The textbook mentions that the world population reached 7.2 billion in 2011."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What was India's population at the time of independence?",
+      "options": [
+        "200 million",
+        "350 million",
+        "500 million",
+        "1 billion"
+      ],
+      "correct": 1,
+      "explanation": "According to the textbook, India's population was approximately 350 million at the time of independence."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is NOT mentioned as a probable reason for population explosion?",
+      "options": [
+        "Rapid decline in death rate",
+        "Decline in maternal mortality rate (MMR)",
+        "Increase in literacy rate",
+        "Increase in number of people in reproducible age"
+      ],
+      "correct": 2,
+      "explanation": "The textbook mentions rapid decline in death rate, MMR, IMR and increase in reproducible age as reasons. Increase in literacy rate is not mentioned."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What was the population growth rate according to the 2011 census report?",
+      "options": [
+        "Less than 1 percent",
+        "Less than 2 percent (20/1000/year)",
+        "Exactly 2 percent",
+        "More than 3 percent"
+      ],
+      "correct": 1,
+      "explanation": "The textbook states that according to the 2011 census, the population growth rate was less than 2 percent, i.e., 20/1000/year."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What could be the consequence of alarming population growth rate?",
+      "options": [
+        "Increase in employment opportunities",
+        "Absolute scarcity of basic requirements like food, shelter and clothing",
+        "Improvement in healthcare facilities",
+        "Decrease in pollution levels"
+      ],
+      "correct": 1,
+      "explanation": "The textbook warns that such alarming growth rate could lead to absolute scarcity of even basic requirements like food, shelter and clothing."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the slogan used in advertisements to promote smaller families?",
+      "options": [
+        "Small Family, Happy Family",
+        "Hum Do Hamare Do (we two, our two)",
+        "One Nation, One Child",
+        "Family Planning for All"
+      ],
+      "correct": 1,
+      "explanation": "The textbook mentions the slogan 'Hum Do Hamare Do' (we two, our two) used in advertisements and posters showing a happy couple with two children."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is an ideal characteristic of a contraceptive method?",
+      "options": [
+        "It should permanently prevent reproduction",
+        "It should be user-friendly, easily available, effective and reversible with no or least side-effects",
+        "It should interfere with sexual drive and desire",
+        "It should be expensive and difficult to obtain"
+      ],
+      "correct": 1,
+      "explanation": "The textbook states that an ideal contraceptive should be user-friendly, easily available, effective and reversible with no or least side-effects, and should not interfere with sexual drive or desire."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which natural contraceptive method involves avoiding coitus from day 10 to 17 of the menstrual cycle?",
+      "options": [
+        "Withdrawal method",
+        "Periodic abstinence",
+        "Lactational amenorrhea",
+        "Rhythm method"
+      ],
+      "correct": 1,
+      "explanation": "Periodic abstinence is the method where couples avoid coitus from day 10 to 17 of the menstrual cycle when ovulation is expected. This period is called the fertile period."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the maximum effective period for lactational amenorrhea as a contraceptive method?",
+      "options": [
+        "3 months",
+        "6 months",
+        "9 months",
+        "12 months"
+      ],
+      "correct": 1,
+      "explanation": "Lactational amenorrhea is effective only up to a maximum period of six months following parturition, as long as the mother fully breast-feeds the child."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which barrier method is made of thin rubber or latex sheath used to cover the penis?",
+      "options": [
+        "Diaphragm",
+        "Cervical cap",
+        "Male condom",
+        "Vault"
+      ],
+      "correct": 2,
+      "explanation": "Male condoms are barriers made of thin rubber or latex sheath that are used to cover the penis before coitus to prevent semen from entering the female reproductive tract."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is a popular brand of male condom in India?",
+      "options": [
+        "Moods",
+        "Kohinoor",
+        "Nirodh",
+        "Manforce"
+      ],
+      "correct": 2,
+      "explanation": "Nirodh is mentioned in the textbook as a popular brand of condom for males in India."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What additional benefit does condom use provide besides contraception?",
+      "options": [
+        "Treatment of infertility",
+        "Protection from STIs and AIDS",
+        "Regulation of menstrual cycle",
+        "Prevention of cervical cancer"
+      ],
+      "correct": 1,
+      "explanation": "Use of condoms has increased due to its additional benefit of protecting the user from contracting sexually transmitted infections (STIs) and AIDS."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which barrier method is inserted into the female reproductive tract to cover the cervix during coitus?",
+      "options": [
+        "Male condom",
+        "Female condom",
+        "Diaphragm, cervical cap and vault",
+        "IUD"
+      ],
+      "correct": 2,
+      "explanation": "Diaphragms, cervical caps and vaults are barriers made of rubber that are inserted into the female reproductive tract to cover the cervix during coitus."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which type of IUD releases copper ions that suppress sperm motility?",
+      "options": [
+        "Non-medicated IUDs",
+        "Copper releasing IUDs",
+        "Hormone releasing IUDs",
+        "All of the above"
+      ],
+      "correct": 1,
+      "explanation": "Copper releasing IUDs such as CuT, Cu7, and Multiload 375 release copper ions that suppress sperm motility and the fertilising capacity of sperms."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which IUD makes the uterus unsuitable for implantation and the cervix hostile to sperms?",
+      "options": [
+        "Lippes loop",
+        "CuT",
+        "Progestasert and LNG-20",
+        "Multiload 375"
+      ],
+      "correct": 2,
+      "explanation": "Hormone releasing IUDs such as Progestasert and LNG-20 make the uterus unsuitable for implantation and the cervix hostile to the sperms."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What mechanism do IUDs use to prevent conception?",
+      "options": [
+        "They kill the ovum",
+        "They increase phagocytosis of sperms within the uterus",
+        "They block the fallopian tubes",
+        "They prevent ovulation"
+      ],
+      "correct": 1,
+      "explanation": "IUDs increase phagocytosis of sperms within the uterus, and copper ions released suppress sperm motility and fertilising capacity."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which contraceptive method is ideal for females who want to delay pregnancy and space children?",
+      "options": [
+        "Oral pills",
+        "IUDs",
+        "Surgical methods",
+        "Natural methods"
+      ],
+      "correct": 1,
+      "explanation": "IUDs are ideal contraceptives for females who want to delay pregnancy and/or space children, and are one of the most widely accepted methods in India."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is a copper-releasing Intra Uterine Device (IUD)?",
+      "options": [
+        "Lippes loop",
+        "Progestasert",
+        "CuT",
+        "LNG-20"
+      ],
+      "correct": 2,
+      "explanation": "CuT is a copper-releasing IUD. Lippes loop is a non-medicated IUD, while Progestasert and LNG-20 are hormone-releasing IUDs. Copper ions released from CuT suppress sperm motility and fertilising capacity."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "How do hormone-releasing IUDs prevent pregnancy?",
+      "options": [
+        "By killing sperm cells directly",
+        "By making the uterus unsuitable for implantation and cervix hostile to sperms",
+        "By blocking the fallopian tubes completely",
+        "By preventing ovulation only"
+      ],
+      "correct": 1,
+      "explanation": "Hormone-releasing IUDs like Progestasert and LNG-20 make the uterus unsuitable for implantation and the cervix hostile to sperms. This dual action prevents pregnancy effectively."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "For how many days must oral contraceptive pills be taken continuously in one cycle?",
+      "options": [
+        "7 days",
+        "14 days",
+        "21 days",
+        "28 days"
+      ],
+      "correct": 2,
+      "explanation": "Oral contraceptive pills must be taken daily for a period of 21 days starting preferably within the first five days of the menstrual cycle. After a gap of 7 days (during which menstruation occurs), the cycle is repeated."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the unique feature of 'Saheli' oral contraceptive?",
+      "options": [
+        "It contains estrogen only",
+        "It is a once-a-week pill with very few side effects",
+        "It must be taken daily for 28 days",
+        "It is an injectable contraceptive"
+      ],
+      "correct": 1,
+      "explanation": "Saheli is a new oral contraceptive developed by scientists at CDRI Lucknow, India. It contains a non-steroidal preparation and is a 'once a week' pill with very few side effects and high contraceptive value."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the time limit for using emergency contraceptives after unprotected coitus?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "72 hours",
+        "96 hours"
+      ],
+      "correct": 2,
+      "explanation": "Administration of progestogens or progestogen-estrogen combinations or IUDs within 72 hours of coitus have been found to be very effective as emergency contraceptives. They can be used to avoid possible pregnancy due to rape or casual unprotected intercourse."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "In a vasectomy procedure, which structure is tied and cut?",
+      "options": [
+        "Fallopian tube",
+        "Vas deferens",
+        "Epididymis",
+        "Urethra"
+      ],
+      "correct": 1,
+      "explanation": "In vasectomy, a small part of the vas deferens is removed or tied up through a small incision on the scrotum. This is the male sterilisation procedure that blocks gamete transport."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which surgical method is used for female sterilisation?",
+      "options": [
+        "Vasectomy",
+        "Tubectomy",
+        "Circumcision",
+        "Hysterectomy"
+      ],
+      "correct": 1,
+      "explanation": "Tubectomy is the sterilisation procedure in the female where a small part of the fallopian tube is removed or tied up through a small incision in the abdomen or through vagina. It blocks gamete transport and prevents conception."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the main disadvantage of surgical sterilisation methods?",
+      "options": [
+        "They are not effective",
+        "Their reversibility is very poor",
+        "They cause immediate health complications",
+        "They interfere with sexual drive"
+      ],
+      "correct": 1,
+      "explanation": "Surgical methods like vasectomy and tubectomy are highly effective in preventing conception, but their reversibility is very poor. Once performed, it is extremely difficult to restore fertility."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is a non-medicated IUD?",
+      "options": [
+        "CuT",
+        "Cu7",
+        "Lippes loop",
+        "Multiload 375"
+      ],
+      "correct": 2,
+      "explanation": "Lippes loop is a non-medicated IUD. CuT, Cu7, and Multiload 375 are copper-releasing IUDs. Non-medicated IUDs work primarily by increasing phagocytosis of sperms within the uterus."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "How do copper-releasing IUDs affect sperm function?",
+      "options": [
+        "They kill sperm instantly",
+        "They suppress sperm motility and fertilising capacity",
+        "They block sperm production in testes",
+        "They change sperm DNA structure"
+      ],
+      "correct": 1,
+      "explanation": "Copper-releasing IUDs like CuT, Cu7, and Multiload 375 release Cu ions that suppress sperm motility and the fertilising capacity of sperms. This prevents fertilisation from occurring."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What happens during the 7-day gap in the oral contraceptive pill cycle?",
+      "options": [
+        "The woman takes a different medication",
+        "Menstruation occurs",
+        "The pills are stored for next cycle",
+        "No hormonal activity occurs"
+      ],
+      "correct": 1,
+      "explanation": "After taking pills for 21 days, there is a gap of 7 days during which menstruation occurs. Then the 21-day pill cycle is repeated in the same pattern until the female desires to prevent conception."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which mechanism is NOT involved in the action of oral contraceptive pills?",
+      "options": [
+        "Inhibition of ovulation",
+        "Inhibition of implantation",
+        "Alteration of cervical mucus quality",
+        "Destruction of sperm in vagina"
+      ],
+      "correct": 3,
+      "explanation": "Oral pills inhibit ovulation and implantation as well as alter the quality of cervical mucus to prevent or retard entry of sperms. They do NOT destroy sperm in the vagina."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Progestogens can be administered as contraceptives through which routes?",
+      "options": [
+        "Oral only",
+        "Oral, injectable, and implantable",
+        "Injectable only",
+        "Implantable only"
+      ],
+      "correct": 1,
+      "explanation": "Progestogens alone or in combination with estrogen can be used by females as oral pills, injections, or implants under the skin. Their mode of action is similar to that of pills but their effective periods are much longer."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Who are IUDs most suitable for?",
+      "options": [
+        "Women who want permanent sterilisation",
+        "Women who want to delay pregnancy and/or space children",
+        "Women who have reached menopause",
+        "Women with hormonal imbalances only"
+      ],
+      "correct": 1,
+      "explanation": "IUDs are ideal contraceptives for females who want to delay pregnancy and/or space children. It is one of the most widely accepted methods of contraception in India."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What type of preparation does 'Saheli' contain?",
+      "options": [
+        "Steroidal preparation",
+        "Non-steroidal preparation",
+        "Herbal preparation",
+        "Antibiotic preparation"
+      ],
+      "correct": 1,
+      "explanation": "Saheli contains a non-steroidal preparation. This is different from most other oral contraceptives which contain steroidal hormones (progestogens or progestogen-estrogen combinations)."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the full form of MTP?",
+      "options": [
+        "Medical Treatment of Pregnancy",
+        "Medical Termination of Pregnancy",
+        "Maternal Treatment Procedure",
+        "Medical Transfer Process"
+      ],
+      "correct": 1,
+      "explanation": "MTP stands for Medical Termination of Pregnancy, which refers to intentional or voluntary termination of pregnancy before full term."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "How many MTPs are performed in a year all over the world approximately?",
+      "options": [
+        "15 to 20 million",
+        "25 to 30 million",
+        "45 to 50 million",
+        "60 to 70 million"
+      ],
+      "correct": 2,
+      "explanation": "Nearly 45 to 50 million MTPs are performed in a year all over the world, which accounts to 1/5th of the total number of conceived pregnancies in a year."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "When was MTP legalised in India?",
+      "options": [
+        "1961",
+        "1971",
+        "1981",
+        "1991"
+      ],
+      "correct": 1,
+      "explanation": "Government of India legalised MTP in 1971 with some strict conditions to avoid its misuse."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What fraction of total conceived pregnancies result in MTPs annually worldwide?",
+      "options": [
+        "1/10th",
+        "1/5th",
+        "1/3rd",
+        "1/4th"
+      ],
+      "correct": 1,
+      "explanation": "MTPs account to 1/5th of the total number of conceived pregnancies in a year worldwide."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Why are MTPs performed?",
+      "options": [
+        "Only for population control",
+        "To get rid of unwanted pregnancies due to casual unprotected intercourse, failure of contraceptives, or rapes",
+        "Only for religious reasons",
+        "Only for economic reasons"
+      ],
+      "correct": 1,
+      "explanation": "MTPs are performed to get rid of unwanted pregnancies either due to casual unprotected intercourse or failure of the contraceptive used during coitus or rapes."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "During which trimester are MTPs considered relatively safe?",
+      "options": [
+        "Second trimester",
+        "Third trimester",
+        "First trimester",
+        "All trimesters are equally safe"
+      ],
+      "correct": 2,
+      "explanation": "MTPs are considered relatively safe during the first trimester, i.e., upto 12 weeks of pregnancy. Second trimester abortions are much more riskier."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is a disturbing trend observed in MTPs?",
+      "options": [
+        "All MTPs are performed by qualified doctors",
+        "A majority of MTPs are performed illegally by unqualified quacks",
+        "MTPs are never performed in India",
+        "MTPs are only done in government hospitals"
+      ],
+      "correct": 1,
+      "explanation": "One disturbing trend observed is that a majority of the MTPs are performed illegally by unqualified quacks which are not only unsafe but could be fatal too."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the dangerous misuse of amniocentesis mentioned in the text?",
+      "options": [
+        "To detect genetic disorders",
+        "To determine the sex of the unborn child followed by MTP if female",
+        "To check the health of the mother",
+        "To determine the blood type of the foetus"
+      ],
+      "correct": 1,
+      "explanation": "Another dangerous trend is the misuse of amniocentesis to determine the sex of the unborn child. Frequently, if the foetus is found to be female, it is followed by MTP - this is totally against what is ethical."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the maximum safe period for MTP in weeks?",
+      "options": [
+        "8 weeks",
+        "10 weeks",
+        "12 weeks",
+        "16 weeks"
+      ],
+      "correct": 2,
+      "explanation": "MTPs are considered relatively safe during the first trimester, i.e., upto 12 weeks of pregnancy."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What are the complications of illegal abortions?",
+      "options": [
+        "They are safe and have no complications",
+        "They are unsafe and could be fatal",
+        "They only cause minor discomfort",
+        "They are always successful"
+      ],
+      "correct": 1,
+      "explanation": "A majority of MTPs are performed illegally by unqualified quacks which are not only unsafe but could be fatal too."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What does the text say about MTPs in cases where continuation of pregnancy is harmful?",
+      "options": [
+        "MTPs are never allowed",
+        "MTPs are essential when continuation of pregnancy could be harmful or fatal to mother or foetus",
+        "MTPs are only allowed for economic reasons",
+        "MTPs are banned in all cases"
+      ],
+      "correct": 1,
+      "explanation": "MTPs are also essential in certain cases where continuation of the pregnancy could be harmful or even fatal either to the mother or to the foetus or both."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the purpose of the strict conditions imposed on MTP in India?",
+      "options": [
+        "To make MTP more expensive",
+        "To avoid misuse of MTP and check indiscriminate female foeticides",
+        "To ban MTP completely",
+        "To promote MTP for all pregnancies"
+      ],
+      "correct": 1,
+      "explanation": "Government of India legalised MTP in 1971 with some strict conditions to avoid its misuse. Such restrictions are all the more important to check indiscriminate and illegal female foeticides."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the term for spontaneous abortion?",
+      "options": [
+        "Induced abortion",
+        "Medical termination",
+        "The text mentions abortions could happen spontaneously too",
+        "Surgical abortion"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that abortions could happen spontaneously too, which refers to natural miscarriage without medical intervention."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What counselling is suggested to avoid unhealthy trends in MTP?",
+      "options": [
+        "Counselling on the need to avoid unprotected coitus and risk factors in illegal abortions",
+        "Counselling to promote MTP",
+        "No counselling is needed",
+        "Counselling only for men"
+      ],
+      "correct": 0,
+      "explanation": "Effective counselling on the need to avoid unprotected coitus and the risk factors involved in illegal abortions as well as providing more health care facilities could reverse the mentioned unhealthy trends."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the main reason for legalising MTP according to the text?",
+      "options": [
+        "To increase population",
+        "To get rid of unwanted pregnancies and protect maternal health",
+        "To promote family planning",
+        "To reduce hospital costs"
+      ],
+      "correct": 1,
+      "explanation": "MTP is legalised to get rid of unwanted pregnancies and in cases where continuation of pregnancy could be harmful or fatal to the mother or foetus."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the risk associated with second trimester abortions?",
+      "options": [
+        "They are safer than first trimester",
+        "They are much more riskier than first trimester abortions",
+        "They have no risks",
+        "They are only done in emergencies"
+      ],
+      "correct": 1,
+      "explanation": "Second trimester abortions are much more riskier compared to first trimester abortions."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the relationship between amniocentesis and female foeticide mentioned in the text?",
+      "options": [
+        "Amniocentesis is used to promote female births",
+        "Amniocentesis is misused to determine sex and if female, MTP is performed",
+        "Amniocentesis has no relation to female foeticide",
+        "Amniocentesis is banned for all purposes"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that amniocentesis is misused to determine the sex of the unborn child, and if the foetus is found to be female, it is followed by MTP. This is totally against what is ethical."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What are the two main reasons for MTP mentioned in the text?",
+      "options": [
+        "Only for rape cases and contraceptive failure",
+        "Unwanted pregnancies and harmful continuation of pregnancy",
+        "Only for population control",
+        "Only for medical research"
+      ],
+      "correct": 1,
+      "explanation": "MTPs are performed to get rid of unwanted pregnancies and in cases where continuation of pregnancy could be harmful or fatal to mother or foetus."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the ethical concern regarding misuse of amniocentesis?",
+      "options": [
+        "It is too expensive",
+        "It leads to female foeticide which is totally against ethics",
+        "It is not accurate",
+        "It causes pain to the mother"
+      ],
+      "correct": 1,
+      "explanation": "The misuse of amniocentesis for sex determination leading to female foeticide is totally against what is ethical."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What measures can reverse unhealthy trends in MTP?",
+      "options": [
+        "Banning all MTPs",
+        "Counselling, avoiding unprotected coitus, and providing more healthcare facilities",
+        "Promoting illegal abortions",
+        "Ignoring the problem"
+      ],
+      "correct": 1,
+      "explanation": "Effective counselling on avoiding unprotected coitus, awareness about risk factors in illegal abortions, and providing more healthcare facilities could reverse unhealthy trends."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What are infections transmitted through sexual intercourse collectively called?",
+      "options": [
+        "Respiratory infections",
+        "Sexually transmitted infections (STIs)",
+        "Gastrointestinal infections",
+        "Urinary tract infections"
+      ],
+      "correct": 1,
+      "explanation": "Infections or diseases transmitted through sexual intercourse are collectively called sexually transmitted infections (STI) or venereal diseases (VD) or reproductive tract infections (RTI)."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is NOT a common sexually transmitted infection mentioned in the text?",
+      "options": [
+        "Gonorrhoea",
+        "Syphilis",
+        "Tuberculosis",
+        "Genital herpes"
+      ],
+      "correct": 2,
+      "explanation": "Gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B and HIV are mentioned as common STIs. Tuberculosis is not a sexually transmitted infection."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which STI is described as the most dangerous in recent years?",
+      "options": [
+        "Gonorrhoea",
+        "Syphilis",
+        "HIV leading to AIDS",
+        "Genital warts"
+      ],
+      "correct": 2,
+      "explanation": "Among the common STIs, HIV infection is most dangerous and is discussed in detail. It is the most discussed infection in recent years."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following STIs can be transmitted through sharing of injection needles?",
+      "options": [
+        "Gonorrhoea only",
+        "Hepatitis-B and HIV",
+        "Syphilis only",
+        "Genital warts only"
+      ],
+      "correct": 1,
+      "explanation": "Some infections like hepatitis-B and HIV can also be transmitted by sharing of injection needles, surgical instruments, transfusion of blood, or from an infected mother to the foetus."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which STIs are completely curable if detected early and treated properly?",
+      "options": [
+        "All STIs including HIV",
+        "All except hepatitis-B, genital herpes and HIV",
+        "Only gonorrhoea and syphilis",
+        "None of the STIs"
+      ],
+      "correct": 1,
+      "explanation": "Except for hepatitis-B, genital herpes and HIV infections, other diseases are completely curable if detected early and treated properly."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What are the early symptoms of most STIs?",
+      "options": [
+        "High fever and headache",
+        "Itching, fluid discharge, slight pain, swellings in the genital region",
+        "Chest pain and breathing difficulty",
+        "Joint pain and muscle weakness"
+      ],
+      "correct": 1,
+      "explanation": "Early symptoms of most STIs are minor and include itching, fluid discharge, slight pain, swellings, etc., in the genital region."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Why do infected females often remain undetected for long?",
+      "options": [
+        "Because they refuse treatment",
+        "Because they may often be asymptomatic",
+        "Because they have strong immunity",
+        "Because STIs do not affect females"
+      ],
+      "correct": 1,
+      "explanation": "Infected females may often be asymptomatic and hence, may remain undetected for long."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What complications can arise from untreated STIs?",
+      "options": [
+        "Only skin rashes",
+        "PID, abortions, still births, ectopic pregnancies, infertility, cancer of reproductive tract",
+        "Only mild fever",
+        "Hair loss and weight gain"
+      ],
+      "correct": 1,
+      "explanation": "Complications of untreated STIs include pelvic inflammatory diseases (PID), abortions, still births, ectopic pregnancies, infertility or even cancer of the reproductive tract."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which age group has the highest reported incidence of STIs?",
+      "options": [
+        "5-10 years",
+        "15-24 years",
+        "35-45 years",
+        "55-65 years"
+      ],
+      "correct": 1,
+      "explanation": "The incidences of STIs are reported to be very high among persons in the age group of 15-24 years."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is NOT a recommended precaution to avoid contracting STIs?",
+      "options": [
+        "Avoid sex with unknown partners",
+        "Always use condoms during coitus",
+        "Go to a qualified doctor for early detection",
+        "Share needles with trusted partners"
+      ],
+      "correct": 3,
+      "explanation": "Recommended precautions include avoiding sex with unknown/multiple partners, using condoms, and going to a qualified doctor for early detection. Sharing needles is a mode of transmission, not a precaution."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the definition of infertility?",
+      "options": [
+        "Inability to produce children despite unprotected sexual co-habitation",
+        "Complete absence of reproductive organs",
+        "Inability to have sexual intercourse",
+        "Presence of genetic disorders only"
+      ],
+      "correct": 0,
+      "explanation": "Infertility is defined as the inability to produce children in spite of unprotected sexual co-habitation."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is NOT mentioned as a cause of infertility?",
+      "options": [
+        "Physical causes",
+        "Congenital causes",
+        "Dietary habits",
+        "Psychological causes"
+      ],
+      "correct": 2,
+      "explanation": "The reasons for infertility could be physical, congenital, diseases, drugs, immunological or even psychological. Dietary habits are not mentioned as a cause."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the popular name for the IVF technique?",
+      "options": [
+        "Artificial insemination",
+        "Test tube baby programme",
+        "Gamete transfer",
+        "Embryo implantation"
+      ],
+      "correct": 1,
+      "explanation": "In vitro fertilisation (IVF) followed by embryo transfer is popularly known as test tube baby programme."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "In ZIFT, where is the zygote or early embryo transferred?",
+      "options": [
+        "Into the uterus",
+        "Into the fallopian tube",
+        "Into the ovary",
+        "Into the vagina"
+      ],
+      "correct": 1,
+      "explanation": "ZIFT (zygote intra fallopian transfer) involves transferring the zygote or early embryos (with upto 8 blastomeres) into the fallopian tube."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What does ICSI stand for?",
+      "options": [
+        "Intra Cytoplasmic Sperm Injection",
+        "Intra Cellular Sperm Insertion",
+        "Internal Cytoplasmic Sperm Integration",
+        "Intra Cytoplasmic Sperm Insertion"
+      ],
+      "correct": 0,
+      "explanation": "ICSI stands for Intra Cytoplasmic Sperm Injection, a specialised procedure where a sperm is directly injected into the ovum."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the full form of GIFT?",
+      "options": [
+        "Gamete Intra Fallopian Transfer",
+        "Genetic Intra Fallopian Transfer",
+        "Gamete Intra Uterine Transfer",
+        "Genetic Intra Uterine Transfer"
+      ],
+      "correct": 0,
+      "explanation": "GIFT stands for Gamete Intra Fallopian Transfer, where an ovum from a donor is transferred into the fallopian tube of another female."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "In artificial insemination (AI), where is the semen introduced?",
+      "options": [
+        "Only into the vagina",
+        "Either into the vagina or into the uterus (IUI)",
+        "Only into the fallopian tube",
+        "Only into the ovary"
+      ],
+      "correct": 1,
+      "explanation": "In artificial insemination (AI), the semen is artificially introduced either into the vagina or into the uterus (IUI - intra-uterine insemination)."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is one of the best methods for couples looking for children in India according to the text?",
+      "options": [
+        "Only IVF treatment",
+        "Legal adoption of orphaned and destitute children",
+        "Surrogacy only",
+        "Medical tourism"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that legal adoption of orphaned and destitute children is one of the best methods for couples looking for children, as there are many such children who need care."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the definition of infertility according to the textbook?",
+      "options": [
+        "Inability to produce children despite protected sexual co-habitation",
+        "Inability to produce children despite unprotected sexual co-habitation",
+        "Inability to produce children due to genetic disorders only",
+        "Inability to produce children after one year of marriage"
+      ],
+      "correct": 1,
+      "explanation": "Infertility is defined as the inability to produce children inspite of unprotected sexual co-habitation."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is NOT mentioned as a cause of infertility in the textbook?",
+      "options": [
+        "Physical factors",
+        "Congenital factors",
+        "Nutritional deficiency",
+        "Psychological factors"
+      ],
+      "correct": 2,
+      "explanation": "The textbook mentions physical, congenital, diseases, drugs, immunological and psychological factors as causes of infertility. Nutritional deficiency is not mentioned."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "According to the textbook, who is often blamed for infertility in India?",
+      "options": [
+        "The male partner",
+        "The female partner",
+        "Both partners equally",
+        "Neither partner"
+      ],
+      "correct": 1,
+      "explanation": "In India, often the female is blamed for the couple being childless, but more often than not, the problem lies in the male partner."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What does IVF stand for in assisted reproductive technology?",
+      "options": [
+        "Intra Vaginal Fertilisation",
+        "In vitro Fertilisation",
+        "In vivo Fertilisation",
+        "Intra Uterine Fertilisation"
+      ],
+      "correct": 1,
+      "explanation": "IVF stands for In vitro Fertilisation, which means fertilisation outside the body in almost similar conditions as that in the body."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the popular name for the IVF followed by embryo transfer programme?",
+      "options": [
+        "Surrogacy programme",
+        "Test tube baby programme",
+        "Cloning programme",
+        "Gene therapy programme"
+      ],
+      "correct": 1,
+      "explanation": "The method of IVF followed by embryo transfer is popularly known as the test tube baby programme."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "In ZIFT, where is the zygote or early embryo transferred?",
+      "options": [
+        "Into the uterus",
+        "Into the fallopian tube",
+        "Into the ovary",
+        "Into the cervix"
+      ],
+      "correct": 1,
+      "explanation": "In ZIFT (Zygote Intra Fallopian Transfer), the zygote or early embryos with upto 8 blastomeres are transferred into the fallopian tube."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the full form of IUT mentioned in the textbook?",
+      "options": [
+        "Intra Uterine Transfer",
+        "Inter Uterine Transfer",
+        "Intra Uterine Transplant",
+        "In vitro Uterine Transfer"
+      ],
+      "correct": 0,
+      "explanation": "IUT stands for Intra Uterine Transfer, where embryos with more than 8 blastomeres are transferred into the uterus."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What does GIFT stand for in assisted reproductive technology?",
+      "options": [
+        "Gamete Intra Fallopian Transfer",
+        "Genetic Intra Fallopian Transfer",
+        "Gamete Intra Uterine Transfer",
+        "Genetic In vitro Transfer"
+      ],
+      "correct": 0,
+      "explanation": "GIFT stands for Gamete Intra Fallopian Transfer, where an ovum from a donor is transferred into the fallopian tube of another female."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is ICSI in the context of assisted reproductive technology?",
+      "options": [
+        "Injecting sperm into the uterus",
+        "Injecting sperm directly into the ovum",
+        "Injecting ovum into the fallopian tube",
+        "Injecting hormones into the female body"
+      ],
+      "correct": 1,
+      "explanation": "ICSI (Intra Cytoplasmic Sperm Injection) is a specialised procedure where a sperm is directly injected into the ovum."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is artificial insemination (AI) technique used for?",
+      "options": [
+        "For sex determination of the fetus",
+        "For correcting infertility due to inability of male partner to inseminate or low sperm counts",
+        "For preventing sexually transmitted diseases",
+        "For birth control"
+      ],
+      "correct": 1,
+      "explanation": "Artificial insemination (AI) is used to correct infertility cases due to inability of the male partner to inseminate the female or due to very low sperm counts in the ejaculates."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What does IUI stand for?",
+      "options": [
+        "Intra Uterine Insemination",
+        "Inter Uterine Injection",
+        "Intra Uterine Implantation",
+        "In vitro Uterine Insemination"
+      ],
+      "correct": 0,
+      "explanation": "IUI stands for Intra Uterine Insemination, where semen is artificially introduced into the uterus."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Why are assisted reproductive technologies available only in very few centres in India?",
+      "options": [
+        "Because they are banned by the government",
+        "Because they require extremely high precision handling and expensive instrumentation",
+        "Because they are not effective",
+        "Because they are only for foreign patients"
+      ],
+      "correct": 1,
+      "explanation": "These techniques require extremely high precision handling by specialised professionals and expensive instrumentation, making them available only in very few centres."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is mentioned as a deterrent in the adoption of assisted reproductive technologies?",
+      "options": [
+        "Only high cost",
+        "Only lack of awareness",
+        "Emotional, religious and social factors",
+        "Government restrictions"
+      ],
+      "correct": 2,
+      "explanation": "Emotional, religious and social factors are mentioned as deterrents in the adoption of these methods."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What alternative solution does the textbook suggest for couples looking to have children when ART is not possible?",
+      "options": [
+        "Surrogacy only",
+        "Legal adoption",
+        "Cloning",
+        "Gene therapy"
+      ],
+      "correct": 1,
+      "explanation": "The textbook mentions that legal adoption is one of the best methods for couples looking for children, as there are many orphaned and destitute children in India."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Where are embryos with more than 8 blastomeres transferred according to the textbook?",
+      "options": [
+        "Into the fallopian tube",
+        "Into the uterus (IUT)",
+        "Into the ovary",
+        "Into the vagina"
+      ],
+      "correct": 1,
+      "explanation": "Embryos with more than 8 blastomeres are transferred into the uterus through IUT (Intra Uterine Transfer)."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "According to the textbook, what does reproductive health refer to?",
+      "options": [
+        "Physical well-being only",
+        "Total well-being in physical, emotional, behavioural and social aspects of reproduction",
+        "Social well-being only",
+        "Emotional well-being only"
+      ],
+      "correct": 1,
+      "explanation": "Reproductive health refers to a total well-being in all aspects of reproduction, i.e., physical, emotional, behavioural and social."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which country was the first in the world to initiate action plans at national level for reproductive health?",
+      "options": [
+        "United States",
+        "United Kingdom",
+        "India",
+        "China"
+      ],
+      "correct": 2,
+      "explanation": "Our nation (India) was the first nation in the world to initiate various action plans at national level towards attaining a reproductively healthy society."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the primary step towards reproductive health according to the textbook?",
+      "options": [
+        "Providing medical facilities only",
+        "Counselling and creating awareness about reproductive organs, adolescence, safe practices, and STIs",
+        "Birth control methods only",
+        "Surgical procedures only"
+      ],
+      "correct": 1,
+      "explanation": "Counselling and creating awareness among people about reproductive organs, adolescence and associated changes, safe and hygienic sexual practices, sexually transmitted infections (STIs) including AIDS, etc., is the primary step towards reproductive health."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is NOT mentioned as a problem addressed by Reproductive and Child Health Care programmes?",
+      "options": [
+        "Menstrual irregularities",
+        "Common cold",
+        "Medical termination of pregnancy",
+        "Infertility"
+      ],
+      "correct": 1,
+      "explanation": "The textbook mentions menstrual irregularities, pregnancy related aspects, delivery, medical termination of pregnancy, STIs, birth control, infertility, post natal child and maternal management. Common cold is not mentioned."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What indicates overall improvement in reproductive health in our country?",
+      "options": [
+        "Increased population growth",
+        "Reduced maternal and infant mortality rates, early detection and cure of STIs, assistance to infertile couples",
+        "Decreased number of hospitals",
+        "Increased birth rate"
+      ],
+      "correct": 1,
+      "explanation": "An overall improvement in reproductive health has taken place as indicated by reduced maternal and infant mortality rates, early detection and cure of STIs, assistance to infertile couples, etc."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What promoted the explosive growth of population according to the textbook?",
+      "options": [
+        "Decreased health facilities",
+        "Improved health facilities and better living conditions",
+        "War and famine",
+        "Natural disasters"
+      ],
+      "correct": 1,
+      "explanation": "Improved health facilities and better living conditions promoted an explosive growth of population."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is NOT listed as a contraceptive option in the textbook?",
+      "options": [
+        "Natural methods",
+        "Barrier methods",
+        "Radiation therapy",
+        "Surgical methods"
+      ],
+      "correct": 2,
+      "explanation": "The textbook lists natural, traditional, barrier, IUDs, pills, injectables, implants and surgical methods as contraceptive options. Radiation therapy is not mentioned."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Are contraceptives regular requirements for reproductive health?",
+      "options": [
+        "Yes, they are essential daily requirements",
+        "No, they are not regular requirements but used to avoid, delay or space pregnancy",
+        "Yes, everyone must use them",
+        "No, they are completely banned"
+      ],
+      "correct": 1,
+      "explanation": "Though contraceptives are not regular requirements for reproductive health, one is forced to use them to avoid pregnancy or to delay or space pregnancy."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Is medical termination of pregnancy legalised in India?",
+      "options": [
+        "No, it is completely illegal",
+        "Yes, it is legalised in our country",
+        "Only in some states",
+        "Only for married women"
+      ],
+      "correct": 1,
+      "explanation": "Medical termination of pregnancy is legalised in our country."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "For which reasons is MTP generally performed according to the textbook?",
+      "options": [
+        "Only for population control",
+        "To get rid of unwanted pregnancy due to rapes, casual relationships, or when continuation is harmful/fatal",
+        "Only for sex selection",
+        "Only for married couples"
+      ],
+      "correct": 1,
+      "explanation": "MTP is generally performed to get rid of unwanted pregnancy due to rapes, casual relationship, etc., as also in cases when the continuation of pregnancy could be harmful or even fatal to either the mother, or the foetus or both."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What are infections or diseases transmitted through sexual intercourse called?",
+      "options": [
+        "Airborne diseases",
+        "Sexually Transmitted Infections (STIs)",
+        "Waterborne diseases",
+        "Genetic diseases"
+      ],
+      "correct": 1,
+      "explanation": "Infections or diseases transmitted through sexual intercourse are called Sexually Transmitted Diseases (STIs)."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is mentioned as a complication of STIs?",
+      "options": [
+        "Common fever",
+        "Pelvic Inflammatory Diseases (PIDs), still birth, infertility",
+        "Diabetes",
+        "Hypertension"
+      ],
+      "correct": 1,
+      "explanation": "Pelvic Inflammatory Diseases (PIDs), still birth, infertility are some of the complications of STIs."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What facilitates better cure of STIs?",
+      "options": [
+        "Late detection",
+        "Early detection",
+        "No treatment",
+        "Self-medication"
+      ],
+      "correct": 1,
+      "explanation": "Early detection facilitate better cure of these diseases."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "Which of the following is mentioned as a simple precaution to avoid contracting STIs?",
+      "options": [
+        "Sharing needles",
+        "Avoiding sexual intercourse with unknown/multiple partners and use of condoms during coitus",
+        "Taking antibiotics daily",
+        "Complete abstinence from all social activities"
+      ],
+      "correct": 1,
+      "explanation": "Avoiding sexual intercourse with unknown/multiple partners, use of condoms during coitus are some of the simple precautions to avoid contracting STIs."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "How is infertility defined in the textbook?",
+      "options": [
+        "Inability to conceive after 6 months of marriage",
+        "Inability to conceive or produce children even after 2 years of unprotected sexual cohabitation",
+        "Inability to conceive after 5 years",
+        "Complete absence of reproductive organs"
+      ],
+      "correct": 1,
+      "explanation": "Inability to conceive or produce children even after 2 years of unprotected sexual cohabitation is called infertility."
+    },
+    {
+      "topic": "Chapter 3",
+      "question": "What is the 'Test Tube Baby' Programme?",
+      "options": [
+        "A programme for cloning humans",
+        "In Vitro fertilisation followed by transfer of embryo into the female genital tract",
+        "A programme for genetic modification",
+        "A birth control programme"
+      ],
+      "correct": 1,
+      "explanation": "In Vitro fertilisation followed by transfer of embryo into the female genital tract is commonly known as the 'Test Tube Baby' Programme."
+    }
+  ]
+}

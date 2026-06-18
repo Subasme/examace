@@ -1,0 +1,1753 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 10",
+    "chapterId": "chapter10",
+    "source": "Chapter10.xlsx",
+    "count": 145
+  },
+  "questions": [
+    {
+      "topic": "Chapter 10",
+      "question": "GMO என்ற சுருக்கத்தின் முழு வடிவம் என்ன?",
+      "options": [
+        "Genetically Managed Organism",
+        "Genetically Modified Organism",
+        "Genetically Manipulated Organism",
+        "Genetically Mutated Organism"
+      ],
+      "correct": 1,
+      "explanation": "GMO என்பது Genetically Modified Organism என்று பொருள்படும். இது மரபணு மாற்றப்பட்ட தாவரங்கள், பாக்டீரியா, பூஞ்சைகள் மற்றும் விலங்குகளைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "GM பயிர்கள் பின்வரும் எந்த அச்சுறுத்தல்களுக்கு எதிர்ப்பு திறன் கொண்டவையாக மாற்றப்படலாம்?",
+      "options": [
+        "குளிர் மற்றும் வெப்பம் மட்டும்",
+        "வறட்சி மற்றும் உப்பு மட்டும்",
+        "குளிர், வறட்சி, உப்பு மற்றும் வெப்பம்",
+        "உப்பு மற்றும் வெப்பம் மட்டும்"
+      ],
+      "correct": 2,
+      "explanation": "மரபணு மாற்றம் மூலம் பயிர்கள் குளிர், வறட்சி, உப்பு மற்றும் வெப்பம் போன்ற அச்சுறுத்தல்களுக்கு எதிர்ப்பு திறன் கொண்டவையாக மாற்றப்பட்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "கோல்டன் அரிசி எந்த வைட்டமின் செறிவூட்டப்பட்ட GM பயிரின் எடுத்துக்காட்டு?",
+      "options": [
+        "வைட்டமின் C",
+        "வைட்டமின் B12",
+        "வைட்டமின் A",
+        "வைட்டமின் D"
+      ],
+      "correct": 2,
+      "explanation": "கோல்டன் அரிசி என்பது வைட்டமின் A செறிவூட்டப்பட்ட அரிசியாகும், இது மரபணு மாற்றம் மூலம் ஊட்டச்சத்து மதிப்பை அதிகரிக்கும் ஒரு எடுத்துக்காட்டு."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt நச்சு எந்த பாக்டீரியாவால் உற்பத்தி செய்யப்படுகிறது?",
+      "options": [
+        "Bacillus subtilis",
+        "Bacillus thuringiensis",
+        "Escherichia coli",
+        "Agrobacterium tumefaciens"
+      ],
+      "correct": 1,
+      "explanation": "Bt நச்சு என்பது Bacillus thuringiensis என்ற பாக்டீரியாவால் உற்பத்தி செய்யப்படுகிறது, இது பொதுவாக Bt என்று சுருக்கமாக அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt நச்சு ஏன் பாக்டீரியாவைக் கொல்லவில்லை?",
+      "options": [
+        "பாக்டீரியாக்கள் நச்சுக்கு எதிர்ப்புடையவை",
+        "நச்சு முதிர்ச்சியடையவில்லை",
+        "நச்சு பாக்டீரியாவில் செயலற்ற புரோடாக்சினாக உள்ளது",
+        "பாக்டீரியா நச்சை சிறப்புப் பையில் அடைக்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "Bt நச்சுப் புரதம் பாக்டீரியாக்களில் செயலற்ற புரோடாக்சினாக இருக்கிறது. பூச்சிகள் அதை உண்ணும்போது, அவற்றின் குடலின் கார அமிலத்தன்மையால் செயலில் உள்ள வடிவமாக மாற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "செயலற்ற Bt புரோடாக்சின் பூச்சிகளில் செயலில் உள்ள நச்சாக மாறுவதற்கு என்ன காரணம்?",
+      "options": [
+        "பூச்சி குடலின் அமில அமிலத்தன்மை",
+        "பூச்சி குடலின் கார அமிலத்தன்மை",
+        "பூச்சி உடலில் உயர்ந்த வெப்பநிலை",
+        "பாக்டீரியா உற்பத்தி செய்யும் நொதிகள்"
+      ],
+      "correct": 1,
+      "explanation": "பூச்சிகளின் குடலின் கார அமிலத்தன்மை படிகங்களைக் கரைத்து, செயலற்ற புரோடாக்சினை செயலில் உள்ள நச்சாக மாற்றுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "செயல்படுத்தப்பட்ட பிறகு Bt நச்சு பூச்சியை எப்படிக் கொல்கிறது?",
+      "options": [
+        "பூச்சியின் நரம்பு மண்டலத்தைத் தடுப்பதன் மூலம்",
+        "நடுக்குடல் மேலணுக்களில் பிணைந்து துளைகளை உருவாக்குவதன் மூலம்",
+        "குடலில் நச்சு வாயுக்களை உற்பத்தி செய்வதன் மூலம்",
+        "பூச்சியின் வெளிஓட்டைக் கரைப்பதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "செயலில் உள்ள நச்சு நடுக்குடல் மேலணுக்களின் மேற்பரப்பில் பிணைந்து துளைகளை உருவாக்குகிறது, இது அணு வீக்கம் மற்றும் அழிவை ஏற்படுத்தி இறுதியில் பூச்சியின் மரணத்தை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "எந்த cry மரபணுக்கள் பருத்தி காய்ப்புழுக்களைக் கட்டுப்படுத்துகின்றன?",
+      "options": [
+        "cryIAb மட்டும்",
+        "cryIAc மற்றும் cryIIAb",
+        "cryIIAb மட்டும்",
+        "cryIAb மற்றும் cryIAc"
+      ],
+      "correct": 1,
+      "explanation": "cryIAc மற்றும் cryIIAb மரபணுக்களால் குறியிடப்பட்ட புரதங்கள் பருத்தி காய்ப்புழுக்களைக் கட்டுப்படுத்துகின்றன, அதேசமயம் cryIAb சோளப்புழுவைக் கட்டுப்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt நச்சு புரதங்கள் எந்த பூச்சி குழுக்களைக் கொல்கின்றன?",
+      "options": [
+        "பட்டாம்பூச்சி வகைகள் மட்டும்",
+        "வண்டுகள் மட்டும்",
+        "பட்டாம்பூச்சி வகைகள், வண்டுகள் மற்றும் இருசிறகிப் பூச்சிகள்",
+        "இருசிறகிப் பூச்சிகள் மட்டும்"
+      ],
+      "correct": 2,
+      "explanation": "Bacillus thuringiensis இன் சில திரிபுகள் பட்டாம்பூச்சி வகைகள், வண்டுகள் மற்றும் ஈகள், கொசுக்கள் போன்ற இருசிறகிப் பூச்சிகளைக் கொல்லும் புரதங்களை உற்பத்தி செய்கின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "GM பூச்சி எதிர்ப்பு பயிர்கள் சுற்றுச்சூழல் தீங்கை எப்படிக் குறைக்கின்றன?",
+      "options": [
+        "உரப் பயன்பாட்டை அதிகரிப்பதன் மூலம்",
+        "இரசாயன பூச்சிக்கொல்லிகளின் பயன்பாட்டைக் குறைப்பதன் மூலம்",
+        "அதிக நீர்ப்பாசனம் தேவைப்படுவதன் மூலம்",
+        "அதிக கழிவுகளை உற்பத்தி செய்வதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "பூச்சி எதிர்ப்பு பயிர்கள் மூலம் இரசாயன பூச்சிக்கொல்லிகளின் பயன்பாட்டைக் குறைத்து, சுற்றுச்சூழலில் தீங்கு விளைவிக்கும் விளைவுகளைக் குறைக்க முடியும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "மரபணு மாற்றம் மண்ணின் வளத்தை எப்படி பேண உதவுகிறது?",
+      "options": [
+        "மண்ணில் அதிக கனிமங்களைச் சேர்ப்பதன் மூலம்",
+        "தாவரங்களின் கனிம பயன்பாட்டுத் திறனை அதிகரிப்பதன் மூலம்",
+        "மண்ணிலிருந்து கனிமங்களை அகற்றுவதன் மூலம்",
+        "மண்ணின் அமிலத்தன்மையை மாற்றுவதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "மரபணு மாற்றப்பட்ட தாவரங்கள் கனிமங்களைப் பயன்படுத்தும் திறனை அதிகரித்து, மண்ணின் வளம் விரைவில் குறைவதைத் தடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt பருத்தி எந்த வகை பயிரின் எடுத்துக்காட்டு?",
+      "options": [
+        "இயற்கைப் பயிர்",
+        "மரபணு மாற்றப்பட்ட பயிர்",
+        "பாரம்பரிய இனப்பெருக்கத்தால் உருவாக்கப்பட்ட கலப்பினப் பயிர்",
+        "இயற்கையாக பூச்சி எதிர்ப்புடைய பயிர்"
+      ],
+      "correct": 1,
+      "explanation": "Bt பருத்தி என்பது Bacillus thuringiensis இலிருந்து Bt நச்சு மரபணுக்களைப் பருத்தித் தாவரங்களில் சேர்த்து உருவாக்கப்பட்ட மரபணு மாற்றப்பட்ட பயிராகும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "வேளாண்மையில் மரபணு மாற்றத்தின் பின்வரும் நன்மைகளில் எது சரியானது?",
+      "options": [
+        "அறுவடைக்குப் பிந்தைய இழப்புகள் அதிகரித்தல்",
+        "அறுவடைக்குப் பிந்தைய இழப்புகள் குறைதல்",
+        "அறுவடைக்குப் பிந்தைய இழப்புகளில் மாற்றமில்லை",
+        "சேமிப்பு இரசாயனங்களின் பயன்பாடு அதிகரித்தல்"
+      ],
+      "correct": 1,
+      "explanation": "மரபணு மாற்றம் அறுவடைக்குப் பிந்தைய இழப்புகளைக் குறைக்க உதவுகிறது, இது மரபணு மாற்றப்பட்ட பயிர்களின் முக்கிய நன்மைகளில் ஒன்றாகும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt நச்சு மரபணு தாவரங்களில் வெளிப்படுத்தப்படும்போது எது உருவாகிறது?",
+      "options": [
+        "ஒரு இரசாயன பூச்சிக்கொல்லி",
+        "ஒரு உயிரியல் பூச்சிக்கொல்லி",
+        "ஒரு செயற்கை உரம்",
+        "ஒரு இயற்கை களைக்கொல்லி"
+      ],
+      "correct": 1,
+      "explanation": "Bt நச்சு மரபணு தாவரங்களில் குளோன் செய்யப்பட்டு வெளிப்படுத்தப்படும்போது, இரசாயன பூச்சிக்கொல்லிகள் இல்லாமல் பூச்சிகளுக்கு எதிராக பாதுகாப்பை வழங்கும் ஒரு உயிரியல் பூச்சிக்கொல்லியாக மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பின்வருவனவற்றில் எது உரையில் Bt பயிராகக் குறிப்பிடப்படவில்லை?",
+      "options": [
+        "Bt பருத்தி",
+        "Bt சோளம்",
+        "Bt கோதுமை",
+        "Bt உருளைக்கிழங்கு"
+      ],
+      "correct": 2,
+      "explanation": "உரையில் Bt பருத்தி, Bt சோளம், அரிசி, தக்காளி, உருளைக்கிழங்கு மற்றும் சோயாபீன் போன்றவை எடுத்துக்காட்டுகளாகக் குறிப்பிடப்பட்டுள்ளன, ஆனால் Bt கோதுமை குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "cryIAc மற்றும் cryIIAb இல் உள்ள 'cry' முன்னொட்டின் பொருள் என்ன?",
+      "options": [
+        "Crystal protein genes",
+        "Crying genes",
+        "Cryptic genes",
+        "உரை குறிப்பிடவில்லை"
+      ],
+      "correct": 0,
+      "explanation": "'cry' என்ற முன்னொட்டு Bacillus thuringiensis உற்பத்தி செய்யும் பூச்சிக்கொல்லி படிகப் புரதங்களுக்குக் குறியீடாக உள்ள படிகப் புரத மரபணுக்களைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "உணவு உற்பத்திக்கு அப்பாற்பட்டு, GM எந்த வடிவங்களில் தொழிற்துறைக்கு மாற்று வளங்களை வழங்கப் பயன்படுத்தப்பட்டுள்ளது?",
+      "options": [
+        "மருந்துகள் மட்டும்",
+        "மாவுச்சத்து, எரிபொருட்கள் மற்றும் மருந்துகள்",
+        "எரிபொருட்கள் மட்டும்",
+        "மாவுச்சத்து மட்டும்"
+      ],
+      "correct": 1,
+      "explanation": "மரபணு மாற்றம் தொழிற்துறைகளுக்கு மாற்று வளங்களை மாவுச்சத்து, எரிபொருட்கள் மற்றும் மருந்துகள் வடிவில் வழங்க தனிப்பயன் தாவரங்களை உருவாக்கப் பயன்படுத்தப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "B. thuringiensis எந்த வளர்ச்சிக் கட்டத்தில் புரதப் படிகங்களை உருவாக்குகிறது?",
+      "options": [
+        "அதிவேக வளர்ச்சிக் கட்டத்தில்",
+        "தனது வளர்ச்சியின் குறிப்பிட்ட கட்டத்தில்",
+        "ஸ்போர் உருவாக்கத்தின் போது மட்டும்",
+        "வளர்ச்சி முழுவதும் தொடர்ச்சியாக"
+      ],
+      "correct": 1,
+      "explanation": "B. thuringiensis தனது வளர்ச்சியின் குறிப்பிட்ட கட்டத்தில் புரதப் படிகங்களை உருவாக்குகிறது, இது நச்சு பூச்சிக்கொல்லி புரதத்தைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "வெவ்வேறு பயிர்களுக்கான Bt நச்சு மரபணுக்களின் தேர்வு எப்படி தீர்மானிக்கப்படுகிறது?",
+      "options": [
+        "சீரற்ற முறையில் தேர்ந்தெடுக்கப்படுகிறது",
+        "பயிர் மற்றும் இலக்கு வைக்கப்பட்ட பூச்சியைப் பொறுத்து",
+        "பயிர் வகையை மட்டும் பொறுத்து",
+        "மண் நிலைமைகளை மட்டும் பொறுத்து"
+      ],
+      "correct": 1,
+      "explanation": "மரபணுக்களின் தேர்வு பயிர் மற்றும் இலக்கு வைக்கப்பட்ட பூச்சியைப் பொறுத்தது, ஏனெனில் பெரும்பாலான Bt நச்சுகள் பூச்சி குழு குறிப்பிட்டவை."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "cryIAb மரபணு எந்த பூச்சியைக் கட்டுப்படுத்துகிறது?",
+      "options": [
+        "பருத்தி காய்ப்புழு",
+        "சோளப்புழு",
+        "புகையிலை மொட்டுப்புழு",
+        "படைப்புழு"
+      ],
+      "correct": 1,
+      "explanation": "cryIAb மரபணுவால் குறியிடப்பட்ட புரதம் சோளப்புழுவைக் கட்டுப்படுத்துகிறது, அதேசமயம் cryIAc மற்றும் cryIIAb பருத்தி காய்ப்புழுக்களைக் கட்டுப்படுத்துகின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt புரோடாக்சின் பூச்சியின் குடலில் நுழையும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "அது செயலற்றதாகவே இருக்கிறது",
+        "வயிற்று அமிலங்களால் அழிக்கப்படுகிறது",
+        "கார அமிலத்தன்மையால் செயலில் உள்ள நச்சாக மாற்றப்படுகிறது",
+        "மாற்றமின்றி வெளியேற்றப்படுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "பூச்சி செயலற்ற நச்சை உட்கொள்ளும்போது, குடலின் கார அமிலத்தன்மை படிகங்களைக் கரைத்து அதை செயலில் உள்ள வடிவமாக மாற்றுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "உரையில் GM தாவரங்களின் எத்தனை முக்கிய நன்மைகள் பட்டியலிடப்பட்டுள்ளன?",
+      "options": [
+        "மூன்று",
+        "நான்கு",
+        "ஐந்து",
+        "ஆறு"
+      ],
+      "correct": 2,
+      "explanation": "உரையில் ஐந்து முக்கிய நன்மைகள் பட்டியலிடப்பட்டுள்ளன: அச்சுறுத்தல்களுக்கு எதிர்ப்பு, பூச்சிக்கொல்லிகளின் பயன்பாட்டைக் குறைத்தல், அறுவடைக்குப் பிந்தைய இழப்புகளைக் குறைத்தல், கனிம பயன்பாட்டுத் திறனை அதிகரித்தல், மற்றும் ஊட்டச்சத்து மதிப்பை மேம்படுத்துதல்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பின்வருவனவற்றில் எவை Bt நச்சின் இலக்காக உள்ள பட்டாம்பூச்சி வகைகள்?",
+      "options": [
+        "வண்டுகள் மற்றும் ஈகள்",
+        "புகையிலை மொட்டுப்புழு மற்றும் படைப்புழு",
+        "கொசுக்கள் மற்றும் வண்டுகள்",
+        "ஈகள் மற்றும் கொசுக்கள்"
+      ],
+      "correct": 1,
+      "explanation": "பட்டாம்பூச்சி வகைகளில் புகையிலை மொட்டுப்புழு மற்றும் படைப்புழு அடங்கும், வண்டுகள் கோலியோப்டரன்கள் மற்றும் ஈகள்/கொசுக்கள் டிப்டரன்கள்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "இரசாயன உரங்கள் மற்றும் வேதிப்பொருட்களின் தீங்கு விளைவுகளைக் குறைக்க என்ன சாத்தியமான தீர்வு முன்வைக்கப்பட்டுள்ளது?",
+      "options": [
+        "இயற்கை வேளாண்மை மட்டும்",
+        "மரபணு மாற்றப்பட்ட பயிர்களின் பயன்பாடு",
+        "பூச்சிக்கொல்லிகளின் பயன்பாட்டை அதிகரித்தல்",
+        "பாரம்பரிய இனப்பெருக்க நுட்பங்கள்"
+      ],
+      "correct": 1,
+      "explanation": "இரசாயன உரங்கள் மற்றும் வேதிப்பொருட்களின் தீங்கு விளைவுகளைக் குறைக்க மரபணு மாற்றப்பட்ட பயிர்களின் பயன்பாடு ஒரு சாத்தியமான தீர்வாக முன்வைக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "உரையின்படி எந்த உயிரினங்கள் GMOகளாக வகைப்படுத்தப்படலாம்?",
+      "options": [
+        "தாவரங்கள் மட்டும்",
+        "விலங்குகள் மட்டும்",
+        "தாவரங்கள், பாக்டீரியா, பூஞ்சைகள் மற்றும் விலங்குகள்",
+        "பாக்டீரியா மட்டும்"
+      ],
+      "correct": 2,
+      "explanation": "மரபணு மாற்றப்பட்ட தாவரங்கள், பாக்டீரியா, பூஞ்சைகள் மற்றும் விலங்குகள் Genetically Modified Organisms என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பின்வருவனவற்றில் எது பயோதொழில்நுட்பத்தின் பயன்பாடாக அறிமுகப் பகுதியில் பட்டியலிடப்படவில்லை?",
+      "options": [
+        "மருத்துவம்",
+        "விண்வெளி ஆராய்ச்சி",
+        "உயிர்ச்சீரமைப்பு",
+        "ஆற்றல் உற்பத்தி"
+      ],
+      "correct": 1,
+      "explanation": "உரையில் பயோதொழில்நுட்பத்தின் பயன்பாடுகளாக மருத்துவம், கண்டறிதல், வேளாண்மைக்கான மரபணு மாற்றப்பட்ட பயிர்கள், செயலாக்கப்பட்ட உணவு, உயிர்ச்சீரமைப்பு, கழிவு சிகிச்சை மற்றும் ஆற்றல் உற்பத்தி ஆகியவை பட்டியலிடப்பட்டுள்ளன. விண்வெளி ஆராய்ச்சி குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "அறிமுகப் பகுதியின்படி பயோதொழில்நுட்பம் முக்கியமாக எதைக் கையாளுகிறது?",
+      "options": [
+        "மருத்துவ சிகிச்சைகள் மட்டுமே",
+        "மரபணு மாற்றப்பட்ட உயிரினங்களைப் பயன்படுத்தி உயிர்மருந்துகள் மற்றும் உயிரியல் பொருட்களின் தொழிற்சாலை அளவிலான உற்பத்தி",
+        "வேளாண்மை மேம்பாடுகள் மட்டுமே",
+        "கழிவு மேலாண்மை மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "உரையின்படி, பயோதொழில்நுட்பம் முக்கியமாக மரபணு மாற்றப்பட்ட நுண்ணுயிரிகள், பூஞ்சைகள், தாவரங்கள் மற்றும் விலங்குகளைப் பயன்படுத்தி உயிர்மருந்துகள் மற்றும் உயிரியல் பொருட்களின் தொழிற்சாலை அளவிலான உற்பத்தியைக் கையாளுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பின்வருவனவற்றில் எது பயோதொழில்நுட்பத்தின் முதல் முக்கிய ஆராய்ச்சி பகுதியாக பட்டியலிடப்பட்டுள்ளது?",
+      "options": [
+        "பொறியியல் மூலம் உகந்த நிலைமைகளை உருவாக்குதல்",
+        "மேம்படுத்தப்பட்ட உயிரினத்தின் வடிவில் சிறந்த வினையூக்கியை வழங்குதல்",
+        "கீழ்நோக்கு செயலாக்க தொழில்நுட்பங்கள்",
+        "தாவரங்களின் மரபணு மாற்றம்"
+      ],
+      "correct": 1,
+      "explanation": "மூன்று முக்கிய ஆராய்ச்சி பகுதிகள் பின்வருமாறு பட்டியலிடப்பட்டுள்ளன: (i) மேம்படுத்தப்பட்ட உயிரினம், பொதுவாக நுண்ணுயிரி அல்லது தூய நொதியின் வடிவில் சிறந்த வினையூக்கியை வழங்குதல், (ii) பொறியியல் மூலம் உகந்த நிலைமைகளை உருவாக்குதல், மற்றும் (iii) கீழ்நோக்கு செயலாக்க தொழில்நுட்பங்கள்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பசுமைப் புரட்சி உணவு வழங்கலை மும்மடங்காக்கியது ஆனாலும் இன்னும் போதுமானதாக இல்லை, அதற்கான காரணம் என்ன?",
+      "options": [
+        "உணவு தரம் குறைவாக இருந்தது",
+        "அதிகரித்து வரும் மனித மக்கள்தொகைக்கு உணவளிக்க போதாது",
+        "பயிர்கள் மரபணு மாற்றப்பட்டவை",
+        "வேதிப்பொருட்கள் தடை செய்யப்பட்டன"
+      ],
+      "correct": 1,
+      "explanation": "பசுமைப் புரட்சி உணவு வழங்கலை மும்மடங்காக்குவதில் வெற்றி பெற்றது, ஆனால் அதிகரித்து வரும் மனித மக்கள்தொகையை உணவளிப்பதற்கு இன்னும் போதுமானதாக இல்லை என்று உரை கூறுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "எந்தவொரு கல்லிலிருந்தோ அல்லது வெடிப்பிலிருந்தோ முழு தாவரத்தை உருவாக்கும் திறனுக்கு என்ன பெயர்?",
+      "options": [
+        "நுண்-பரப்பு",
+        "ஒட்டுமொத்தத்திறன்",
+        "சோமாட்டிக் கலப்பினமாக்கல்",
+        "திசு வளர்ப்பு"
+      ],
+      "correct": 1,
+      "explanation": "உரையின்படி, எந்தவொரு கல்லிலிருந்தோ அல்லது வெடிப்பிலிருந்தோ முழு தாவரத்தை உருவாக்கும் திறன் ஒட்டுமொத்தத்திறன் என வரையறுக்கப்படுகிறது. நுண்-பரப்பு என்பது திசு வளர்ப்பு மூலம் ஆயிரக்கணக்கான தாவரங்களை உற்பத்தி செய்யும் முறையாகும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "திசு வளர்ப்பில் கிருமிநீக்க நிலைமைகளில் டெஸ்ட் டியூப்பில் வளர்க்க தாவரத்தின் எந்த பகுதி எடுக்கப்படுகிறது?",
+      "options": [
+        "வேர் மட்டுமே",
+        "இலை மட்டுமே",
+        "வெடிப்பு எனப்படும் எந்தவொரு பகுதியும்",
+        "தண்டு மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "உரையின்படி, முழு தாவரங்களும் வெடிப்புகளிலிருந்து மீண்டும் உருவாக்கப்படலாம், இது சிறப்பு ஊட்டச்சத்து ஊடகங்களில் கிருமிநீக்க நிலைமைகளில் டெஸ்ட் டியூப்பில் வளர்க்கப்படும் தாவரத்தின் எந்தவொரு பகுதியும் ஆகும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "நுண்-பரப்பு மூலம் உற்பத்தி செய்யப்படும் தாவரங்களுக்கு என்ன பெயர்?",
+      "options": [
+        "மரபணு மாற்றப்பட்ட உயிரினங்கள்",
+        "சோமாக்குளோன்கள்",
+        "கடத்தப்பட்ட தாவரங்கள்",
+        "கலப்பின தாவரங்கள்"
+      ],
+      "correct": 1,
+      "explanation": "உரையின்படி, நுண்-பரப்பு மூலம் உற்பத்தி செய்யப்படும் ஒவ்வொரு தாவரமும் அவை வளர்க்கப்பட்ட அசல் தாவரத்திற்கு மரபணு ரீதியாக ஒத்தவையாக இருக்கும், மேலும் அவை சோமாக்குளோன்கள் என அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "திசு வளர்ப்பு ஊட்டச்சத்து ஊடகத்தின் அங்கமாக பின்வருவனவற்றில் எது குறிப்பிடப்படவில்லை?",
+      "options": [
+        "கார்பன் மூலமாக சுக்ரோஸ்",
+        "கனிம உப்புகள்",
+        "நுண்ணுயிர்க்கொல்லிகள்",
+        "ஆக்சின்கள் மற்றும் சைட்டோகைனின்கள் போன்ற வளர்ச்சி ஒழுங்குபடுத்திகள்"
+      ],
+      "correct": 2,
+      "explanation": "உரையில் ஊட்டச்சத்து ஊடகம் சுக்ரோஸ் போன்ற கார்பன் மூலத்தையும், கனிம உப்புகள், வைட்டமின்கள், அமினோ அமிலங்கள் மற்றும் ஆக்சின்கள் மற்றும் சைட்டோகைனின்கள் போன்ற வளர்ச்சி ஒழுங்குபடுத்திகளையும் வழங்க வேண்டும் என்று குறிப்பிடப்பட்டுள்ளது. நுண்ணுயிர்க்கொல்லிகள் குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "தாவர செல் சுவர்களை செரிமானம் செய்த பிறகு கிடைக்கும் தனிமைப்படுத்தப்பட்ட நிர்வாண புரோட்டோபிளாஸ்டுகளுக்கு என்ன பெயர்?",
+      "options": [
+        "சோமாட்டிக் கலப்பினங்கள்",
+        "வெடிப்புகள்",
+        "பிளாஸ்மா சவ்வுகளால் சூழப்பட்ட புரோட்டோபிளாஸ்டுகள்",
+        "சோமாக்குளோன்கள்"
+      ],
+      "correct": 2,
+      "explanation": "உரையின்படி, செல் சுவர்களை செரிமானம் செய்த பிறகு, விஞ்ஞானிகள் பிளாஸ்மா சவ்வுகளால் சூழப்பட்ட நிர்வாண புரோட்டோபிளாஸ்டுகளை தனிமைப்படுத்த முடிந்தது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "தக்காளி மற்றும் உருளைக்கிழங்கு புரோட்டோபிளாஸ்டுகளை இணைத்து உருவாக்கப்படும் கலப்பு தாவரத்திற்கு என்ன பெயர்?",
+      "options": [
+        "தக்காளி-உருளைக்கிழங்கு",
+        "பொமேட்டோ",
+        "பொட்டோமேட்டோ",
+        "கலப்பு தக்காளி"
+      ],
+      "correct": 1,
+      "explanation": "உரையில் தக்காளியின் புரோட்டோபிளாஸ்ட் உருளைக்கிழங்கின் புரோட்டோபிளாஸ்டுடன் இணைக்கப்பட்டு வளர்க்கப்படும்போது, ​​அது பொமேட்டோ உருவாக்கத்திற்கு வழிவகுக்கிறது என்று குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "உணவு உற்பத்தியை அதிகரிக்க மூன்றாவது விருப்பமாக பட்டியலிடப்பட்டுள்ளது எது?",
+      "options": [
+        "வேதிப்பொருள் அடிப்படையிலான வேளாண்மை",
+        "இயற்கை வேளாண்மை",
+        "மரபணு பொறியியல் பயிர் அடிப்படையிலான வேளாண்மை",
+        "நீரில் வளர்க்கப்படும் வேளாண்மை"
+      ],
+      "correct": 2,
+      "explanation": "உணவு உற்பத்தியை அதிகரிக்க பட்டியலிடப்பட்ட மூன்று விருப்பங்கள்: (i) வேதிப்பொருள் அடிப்படையிலான வேளாண்மை, (ii) இயற்கை வேளாண்மை, மற்றும் (iii) மரபணு பொறியியல் பயிர் அடிப்படையிலான வேளாண்மை."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "இரு வேறுபட்ட தாவர வகைகளிலிருந்து தனிமைப்படுத்தப்பட்ட புரோட்டோபிளாஸ்டுகள் இணைக்கப்படும் செயல்முறைக்கு என்ன பெயர்?",
+      "options": [
+        "நுண்-பரப்பு",
+        "சோமாட்டிக் கலப்பினமாக்கல்",
+        "திசு வளர்ப்பு",
+        "மரபணு சிகிச்சை"
+      ],
+      "correct": 1,
+      "explanation": "உரையின்படி, சோமாட்டிக் கலப்பினமாக்கல் என்பது இரு வேறுபட்ட தாவர வகைகளிலிருந்து தனிமைப்படுத்தப்பட்ட புரோட்டோபிளாஸ்டுகள் இணைக்கப்பட்டு கலப்பு புரோட்டோபிளாஸ்டுகளைப் பெறும் செயல்முறையாகும், இது புதிய தாவரத்தை உருவாக்க வளர்க்கப்படலாம்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "திசு வளர்ப்பு ஊடகத்தின் அங்கங்களாக குறிப்பாக குறிப்பிடப்பட்டுள்ள வளர்ச்சி ஒழுங்குபடுத்திகள் எவை?",
+      "options": [
+        "ஆக்சின்கள் மட்டுமே",
+        "சைட்டோகைனின்கள் மட்டுமே",
+        "ஆக்சின்கள் மற்றும் சைட்டோகைனின்கள்",
+        "ஜிப்ரெலின்கள் மற்றும் அப்சிசிக் அமிலம்"
+      ],
+      "correct": 2,
+      "explanation": "உரையில் திசு வளர்ப்புக்கான ஊட்டச்சத்து ஊடகத்தின் அங்கங்களாக ஆக்சின்கள் மற்றும் சைட்டோகைனின்கள் போன்ற வளர்ச்சி ஒழுங்குபடுத்திகள் குறிப்பாக குறிப்பிடப்பட்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "தாவரம் வைரஸால் தொற்றியிருந்தாலும் மெரிஸ்டம் வளர்ப்பு மூலம் வைரஸ் இல்லாத தாவரங்களைப் பெற முடிவதற்கான காரணம் என்ன?",
+      "options": [
+        "வைரஸ்கள் மெரிஸ்டத்திற்குள் நுழைய முடியாது",
+        "மெரிஸ்டம் வைரஸ் இல்லாதது",
+        "வைரஸ்கள் மெரிஸ்டத்தில் கொல்லப்படுகின்றன",
+        "மெரிஸ்டம் செல்கள் வைரஸ்களுக்கு எதிர்ப்புடையவை"
+      ],
+      "correct": 1,
+      "explanation": "உரையின்படி, தாவரம் வைரஸால் தொற்றியிருந்தாலும், மெரிஸ்டம் (உச்சி மற்றும் கட்புற) வைரஸ் இல்லாததாக இருப்பதால், மெரிஸ்டத்தை அகற்றி இன்விட்ரோவில் வளர்ப்பதன் மூலம் வைரஸ் இல்லாத தாவரங்களைப் பெறலாம்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt nacchu yen Bacillus thuringiensis paathirangalai kollaathu?",
+      "options": [
+        "Paathirangal ellaa nacchugalukkum iyarkaiyaaga thaangaathavai",
+        "Nacchu paathirangalil seyalatra protoxin-aka irukkirathu",
+        "Paathirangal nacchuvey oru kappaana kottaiyil marukkirathu",
+        "Paathira cell suvar nacchu praveshathai thadukkirathu"
+      ],
+      "correct": 1,
+      "explanation": "The Bt toxin protein exists as inactive protoxins in Bacillus thuringiensis. It only becomes active when ingested by an insect, where the alkaline pH of the gut solubilizes the crystals and converts it into an active toxin."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Seyalpadum Bt nacchu poochiyin nadukkudal purani cellkaludan parthaal enna nadakkum?",
+      "options": [
+        "Pusana ulagupadaiyai muthalilum thadukkum",
+        "Thulaigalai uruvakki cell veekkam matrum sithaiyai erpaduthum",
+        "Poochiyil oru kuruthi niruthalai erpaduthum",
+        "Poochiyin narambu thittathai nasippikkum"
+      ],
+      "correct": 1,
+      "explanation": "The activated toxin binds to the surface of midgut epithelial cells and creates pores. This causes cell swelling and lysis, eventually leading to the death of the insect."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Kizhakkaana poochi kuzhuvugalil yellathaiyum Bt nacchu protein kollaathu endru kurippitappadavillai?",
+      "options": [
+        "Lepidopterans (pugaiyilai budworm, padaiworm)",
+        "Coleopterans (vandugal)",
+        "Dipterans (ee, kozhukkattipoochi)",
+        "Hymenopterans (then, kandankathiri)"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions that Bt toxin proteins kill lepidopterans, coleopterans, and dipterans. Hymenopterans are not mentioned in the text."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Paruthi kaay puzhugalai kattupaduthum cry marapanaugal yavai?",
+      "options": [
+        "cryIAc matrum cryIAb",
+        "cryIAc matrum cryIIAb",
+        "cryIIAb matrum cryIAb",
+        "cryIAc mattum"
+      ],
+      "correct": 1,
+      "explanation": "The proteins encoded by genes cryIAc and cryIIAb control the cotton bollworms, while cryIAb controls corn borer."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Payirkalil serkkapadum Bt nacchu marapanaugalin therivu yethai adhigarithu irukkum?",
+      "options": [
+        "Payir valarkkum mannarin vakai",
+        "Payir vakai matrum ilakku poochi",
+        "Mandala kaaichal nilai",
+        "Thottathin alavu"
+      ],
+      "correct": 1,
+      "explanation": "The choice of genes depends upon the crop and the targeted pest, as most Bt toxins are insect-group specific."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "RNA interference (RNAi)-il kurippitta mRNA-vin mounam yethu karanamaaga erpadugirathu?",
+      "options": [
+        "Oru thani changili RNA moolakkooru mRNA-vudan parthu",
+        "Oru nirappu irattai changili RNA (dsRNA) moolakkooru",
+        "mRNA-vai nasikkum oru protein ensaim",
+        "mRNA-vai maatrugum oru DNA moolakkooru"
+      ],
+      "correct": 1,
+      "explanation": "RNAi involves silencing of a specific mRNA due to a complementary dsRNA molecule that binds to and prevents translation of the mRNA."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Pugaiyilai payirkalin verkalai thaakki vilaichalai kuraiyum noorpuzhu yethu?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Meloidogyne incognitia",
+        "Wuchereria bancrofti",
+        "Entamoeba histolytica"
+      ],
+      "correct": 1,
+      "explanation": "Meloidogyne incognitia is the nematode that infects the roots of tobacco plants and causes a great reduction in yield."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Eukaryotic uruvangalil RNAi-yai thodangum nirappu RNA-vin moolam yethu?",
+      "options": [
+        "Paathira noyalgalil irunthu mattum",
+        "RNA marapanaugalai kondul vaayrasaigal allathu nagarum marapana uruppukal (transposons) irunthu",
+        "Kavul noyalgalil irunthu mattum",
+        "DNA vaayrasaigalil irunthu mattum"
+      ],
+      "correct": 1,
+      "explanation": "The source of complementary RNA could be from an infection by viruses having RNA genomes or mobile genetic elements (transposons) that replicate via an RNA intermediate."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Noorpuzhu-kurippitta marapanaugalai puravu thaavarathil eppadi arimugappaduthugindrana?",
+      "options": [
+        "Thaavarathin ilaiyil niraiviyil eeyum moolam",
+        "Agrobacterium thangigalai payanpaduthi",
+        "Thaavarathin mel rasayanai eravai parithal moolam",
+        "Iyarkaiyaaga paragathal moolam"
+      ],
+      "correct": 1,
+      "explanation": "Using Agrobacterium vectors, nematode-specific genes were introduced into the host plant to produce both sense and anti-sense RNA."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Sense RNA matrum anti-sense RNA oruvarkorunar nirappanaaga irunthu puravu cellkalil inainthaal enna uruvakkum?",
+      "options": [
+        "Oru thani changili RNA moolakkooru",
+        "Oru irattai changili RNA (dsRNA) moolakkooru",
+        "Oru DNA-RNA kalandha moolakkooru",
+        "Oru protein moolakkooru"
+      ],
+      "correct": 1,
+      "explanation": "Sense and anti-sense RNA being complementary to each other form a double-stranded (dsRNA) that initiates RNAi and silences the specific mRNA of the nematode."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Kurippitta kukkidum RNA-vai velippaduthum marapana maariya puravu thaavarathil RNAi-vin parinamam yethu?",
+      "options": [
+        "Thaavaram noorpuzhuvukku adimaiyaaga maarum",
+        "Parasi marapana maariya puraviyil vazha mudiyathu",
+        "Thaavaram sirappaga valarum",
+        "Noorpuzhu thaavarathukku thaangaatha vadhavaaga maarum"
+      ],
+      "correct": 1,
+      "explanation": "The parasite could not survive in a transgenic host expressing specific interfering RNA, so the transgenic plant gets itself protected from the parasite."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Seyalatra Bt protoxin-ey seyalpadum vadhavaaga maatrum poochi kudalin yathu nilai karanamaaga amaiyum?",
+      "options": [
+        "Kudalin amla pH",
+        "Kudalin kaar pH padikalai karithu",
+        "Kudalin niyathra pH",
+        "Kudalin uyarntha veppam"
+      ],
+      "correct": 1,
+      "explanation": "The inactive toxin is converted into an active form due to the alkaline pH of the gut which solubilizes the crystals."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Manitharallaatha moolangalil irunthu eduthappatta utpattigalukku mukkiya vithyasamaana recombinant therapeutics-in payan yethu?",
+      "options": [
+        "Avai kammi selavile utpatti seyyappadum",
+        "Avai thaethaana kuruthi niruthalai erpaduthavillai",
+        "Avaikkal parisuththi murai thevai illai",
+        "Avai arai veppathil sangaalikappadalam"
+      ],
+      "correct": 1,
+      "explanation": "Recombinant therapeutics do not induce unwanted immunological responses as is common in case of similar products isolated from non-human sources."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Uraiyinpadi, ulagam muzhuvathum manitha payanpadukkaga ethanai recombinant therapeutics oppidithappattullana?",
+      "options": [
+        "Sumar 12",
+        "Sumar 20",
+        "Sumar 30",
+        "Sumar 50"
+      ],
+      "correct": 2,
+      "explanation": "At present, about 30 recombinant therapeutics have been approved for human-use the world over."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Recombinant DNA technology varuvathukku munbu insulin ethanaiya moolangalil irunthu eduthappattathu?",
+      "options": [
+        "Adu matrum aadu",
+        "Maatu matrum panri",
+        "Kudhirai matrum nai",
+        "Muyal matrum kozhi"
+      ],
+      "correct": 1,
+      "explanation": "Insulin used for diabetes was earlier extracted from pancreas of slaughtered cattle and pigs."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Manitharallaatha moolangalil irunthu eduthappatta insulin payanpaduthum pothu sila noyaligal enna samasyai erpaduthinaargal?",
+      "options": [
+        "Avargalukku diabetes type 2 erpaduthathu",
+        "Avargalukku thaethaana proteinukku allergiyaai matrum matra niruthalai erpaduthathu",
+        "Avargal insulin-ku thaangaatha vadhavaaga maarinaargal",
+        "Avargal liver nasam adainthaargal"
+      ],
+      "correct": 1,
+      "explanation": "Insulin from an animal source caused some patients to develop allergy or other types of reactions to the foreign protein."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Insulin-il ethanai polypeptide changilgal ullana matrum avai yena kurippitappattullana?",
+      "options": [
+        "Oru polypeptide changil insulin changil endru",
+        "Irandu polypeptide changilgal A changil matrum B changil endru",
+        "Moonru polypeptide changilgal A, B matrum C endru",
+        "Naangu polypeptide changilgal alpha, beta, gamma, delta endru"
+      ],
+      "correct": 1,
+      "explanation": "Insulin consists of two short polypeptide chains: chain A and chain B, that are linked together by disulphide bridges."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Insulin-in pro-hormone vadhavaaga ullathil irukkum athiriktha pahuthi yethu endru peyarkappattullathu?",
+      "options": [
+        "A peptide",
+        "B peptide",
+        "C peptide",
+        "D peptide"
+      ],
+      "correct": 2,
+      "explanation": "In mammals, insulin is synthesised as a pro-hormone which contains an extra stretch called the C peptide. This C peptide is not present in the mature insulin."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Recombinant DNA muraiyil insulin utpatti seyyum pothu mukiya thadavanaaga irunthathu yethu?",
+      "options": [
+        "Sariyaana bacterial strain-ai kandupidithal",
+        "Insulin-ey mature vadhavaaga koottam seyyathal",
+        "Manitha cellkalil irunthu DNA sequences-ai paduthuthal",
+        "Bacterial kaluthal-ai thaduthal"
+      ],
+      "correct": 1,
+      "explanation": "The main challenge for production of insulin using rDNA techniques was getting insulin assembled into a mature form."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "1983-il Eli Lilly kuzhumam manitha insulin utpatti seyyum bacteria payanpaduthiyathai eppadi seythathu?",
+      "options": [
+        "Manitha pancreas-il irunthu nera insulin eduthathu",
+        "A matrum B changilgalukku DNA sequences thayaruthi E.coli plasmid-il arimugappaduthiyathu",
+        "Laboratory-il rasayanai moolam insulin uruvakkiyathu",
+        "Bacteria-i vida yeast cellkalai payanpaduthiyathu"
+      ],
+      "correct": 1,
+      "explanation": "In 1983, Eli Lilly prepared two DNA sequences corresponding to A and B chains of human insulin and introduced them in plasmids of E.coli to produce insulin chains."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Gene therapy moolabathalaga ethai saadhikathakai muyaRugirathu?",
+      "options": [
+        "Oru manitharin udalil ulla ella marapanugalaiyum maatrum",
+        "Kuzhanthai allathu embryo-il kandupidithappatta marapana kuraiyai sari seyyathal",
+        "Pudhiya uruvangalai uruvakkathal",
+        "Makkalidathil irunthu ella marapana noikalaiyum neekkuthal"
+      ],
+      "correct": 1,
+      "explanation": "Gene therapy is a collection of methods that allows correction of a gene defect that has been diagnosed in a child or embryo. Here genes are inserted into a person's cells and tissues to treat a disease."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "1990-il kodukkappatta mudal clinical gene therapy ethai maruthuvam seyyathakai payanpaduthappattathu?",
+      "options": [
+        "Cystic fibrosis",
+        "Adenosine deaminase (ADA) kurai",
+        "Diabetes mellitus",
+        "Sickle cell anemia"
+      ],
+      "correct": 1,
+      "explanation": "The first clinical gene therapy was given in 1990 to a 4-year old girl with adenosine deaminase (ADA) deficiency."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "ADA kurai noi yethaal erpadugirathu?",
+      "options": [
+        "Viral noy",
+        "Adenosine deaminase-kana marapanu alithal",
+        "Bacterial noy",
+        "Ensaim mela autoimmune thaakkuthal"
+      ],
+      "correct": 1,
+      "explanation": "The disorder is caused due to the deletion of the gene for adenosine deaminase. This enzyme is crucial for the immune system to function."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Kizhakkaanavai ADA kurai-ku maruthuva muraiyaaga uraiyil kurippitappadavillai?",
+      "options": [
+        "Bone marrow transplantation",
+        "Enzyme replacement therapy",
+        "Radiation therapy",
+        "Lymphocytes payanpaduthiya gene therapy"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions bone marrow transplantation, enzyme replacement therapy, and gene therapy using lymphocytes. Radiation therapy is not mentioned."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "ADA gene therapy-il noyali yen sila nerangalukku orumurai marapana maatrum lymphocytes serum seyyanum?",
+      "options": [
+        "Lymphocytes kuruthi thittathal thalukkappadugindrana endru",
+        "Ithaan cellkal immortalaaga illathathal neram serndhu sathikindrana endru",
+        "Retroviral vector seyalatra vadhavaaga maarugirathu endru",
+        "ADA ensaim seekiram nasikkirathu endru"
+      ],
+      "correct": 1,
+      "explanation": "As these cells are not immortal, the patient requires periodic infusion of such genetically engineered lymphocytes."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Uraiyinpadi ADA kurai-ku oru nithiya marunthaga irukkathakai yethu seyyalam?",
+      "options": [
+        "Vazhkai muzhuvathum mudaliya bone marrow transplant",
+        "Marrow cellkalil irunthu eduthappatta marapanugalai mudaliya embryonic thalaikalil cellkalil serthal",
+        "Dhinamum seyalpadum ADA ensaim serum seyyuthal",
+        "Thymus gland-ai purnamaaga alithal"
+      ],
+      "correct": 1,
+      "explanation": "If the gene isolate from marrow cells producing ADA is introduced into cells at early embryonic stages, it could be a permanent cure."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Marapana maatriya mirugam endrathu yathu?",
+      "options": [
+        "Iyarkaiyaaga nadakkum marapana maatram ulla mirugam",
+        "DNA maatripaduthappattu oru paradesa marapanai kondum velippaduthum mirugam",
+        "Therivu vazhangal moolam utpatti seyyappatta mirugam mattum",
+        "Marapana maatram moolam udal balam koodiya mirugam"
+      ],
+      "correct": 1,
+      "explanation": "Transgenic animals are defined as animals that have had their DNA manipulated to possess and express an extra (foreign) gene. This is achieved through recombinant DNA technology."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Irukkum transgenic mirugangalil ethanai percent eligal endru kurukkirathu?",
+      "options": [
+        "50% meel",
+        "75% meel",
+        "95% meel",
+        "99% meel"
+      ],
+      "correct": 2,
+      "explanation": "The text states that although transgenic rats, rabbits, pigs, sheep, cows and fish have been produced, over 95 per cent of all existing transgenic animals are mice."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Marapana maatriya mirugangal saramana udal velaykalai matrum valarchiyai eppadi padikka uthavugindrana?",
+      "options": [
+        "Anaithu iyarkai marapanugalai karpana marapanugalal maatripaduthi",
+        "Veru vakaiyin marapanugalai arimugappaduthi valarchi amsaangalai padithu",
+        "Anaithu valarchi amsaangalai mirugathil irunthu neekki",
+        "Mirugam saramanaaga valarathai thaduthu"
+      ],
+      "correct": 1,
+      "explanation": "Transgenic animals are designed to study how genes are regulated and how they affect normal body functions and development. By introducing genes from other species that alter the formation of factors like insulin-like growth factor, scientists can study the resulting biological effects."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Kizhakkaana manitha noyil yathu transgenic model kurippitappadavillai?",
+      "options": [
+        "Cancer",
+        "Cystic fibrosis",
+        "Rheumatoid arthritis",
+        "Malaria"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions transgenic models exist for cancer, cystic fibrosis, rheumatoid arthritis and Alzheimer's disease. Malaria is not mentioned as having a transgenic model."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Marapana maatriya mirugangalil utpatti seyyappadum yathu manitha protein emphysema noyai maruthuvatharku payanpaduthappadugirathu?",
+      "options": [
+        "Insulin",
+        "Alpha-1-antitrypsin",
+        "Growth hormone",
+        "Hemoglobin"
+      ],
+      "correct": 1,
+      "explanation": "Transgenic animals can produce useful biological products such as human protein alpha-1-antitrypsin, which is used to treat emphysema. Similar attempts are being made for phenylketonuria (PKU) and cystic fibrosis."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "1997-il muthal transgenic pashu Rosie utpatti seytha paal-in visithathai yathu?",
+      "options": [
+        "Antibiotics serththa paal",
+        "Lactose illatha paal",
+        "Manitha alpha-lactalbumin (2.4g/L) serththa paal, kulandhaigalukku pusanaiyaaga samathuvaana",
+        "Kooduthal vaLam kaalam ulla paal"
+      ],
+      "correct": 2,
+      "explanation": "In 1997, the first transgenic cow Rosie produced human protein-enriched milk (2.4 grams per litre). The milk contained the human alpha-lactalbumin and was nutritionally a more balanced product for human babies than natural cow milk."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Polio vaccine ozhukku paduthalai parikshikka yathu transgenic mirugam viraivana seyyappadugirathu?",
+      "options": [
+        "Transgenic eli",
+        "Transgenic mullai",
+        "Transgenic eli",
+        "Transgenic panri"
+      ],
+      "correct": 2,
+      "explanation": "Transgenic mice are being developed for use in testing the safety of vaccines before they are used on humans. They are specifically being used to test the safety of the polio vaccine and could replace the use of monkeys."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Rasayana ozhukku paduthalai parikshithu transgenic mirugangal eppadi visithamaaga uthavugindrana?",
+      "options": [
+        "Anaithu vishamana padaarthangalukkum thaangaatha vakai",
+        "Marapana maatram seyyaatha mirugangal vida vishamana padaarthangalukku adhig vaitheriyudan",
+        "Vishangalai vegamaga viyakkum vakai",
+        "Ozhukku anumathi thevai illai"
+      ],
+      "correct": 1,
+      "explanation": "Transgenic animals are made to carry genes which make them more sensitive to toxic substances than non-transgenic animals. They are exposed to toxic substances and the effects are studied, allowing results to be obtained in less time."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Uruvangalai maatripaduthuthal kattupaduthal illamal thodarathakkathu endru urai yen solgirathu?",
+      "options": [
+        "Adhu migavum selavagirathu endru",
+        "Marapana maatram ecosystem-il arimugappaduthum pothu mudivuriyaatha payanangal erpadalam endru",
+        "Adhu migavum lab idam thevai endru",
+        "Mirugangal intha muraivil vaazhaathu endru"
+      ],
+      "correct": 1,
+      "explanation": "The text states that genetic modification of organisms can have unpredictable results when such organisms are introduced into the ecosystem. Therefore, ethical standards and regulatory bodies like GEAC are needed to evaluate the morality and safety of such activities."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Uraiyil kurippitappatta GEAC-in purna vakuppu yathu?",
+      "options": [
+        "Genetic Engineering Assessment Committee",
+        "Genetic Engineering Approval Committee",
+        "Genetic and Environmental Advisory Council",
+        "Genome Editing Approval Commission"
+      ],
+      "correct": 1,
+      "explanation": "GEAC stands for Genetic Engineering Approval Committee. It was set up by the Indian Government to make decisions regarding the validity of GM research and the safety of introducing GM-organisms for public services."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "1997-il Basmati arisi kuriththu yenna vishayam kavalai erpaduthinathu?",
+      "options": [
+        "India Basmati arisi viththuraiyai anaithaiyum niraithathu",
+        "Oru America company Basmati arisi mel US Patent Office moolam patent petrathu",
+        "Basmati arisi vakai azhinthu poyirunthathu",
+        "Anaithu Basmati vakaiyum marapana maatram seyya pattathu"
+      ],
+      "correct": 1,
+      "explanation": "In 1997, an American company got patent rights on Basmati rice through the US Patent and Trademark Office. This allowed them to sell a 'new' variety derived from Indian farmers' varieties, claiming it as an invention."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Pala desha companies sariyaana anumathi illamal bio-sadhanangalai payanpaduthuthalukku payanpaduthappadum sol endru yathu?",
+      "options": [
+        "Bioethics",
+        "Bioprospecting",
+        "Biopiracy",
+        "Bioremediation"
+      ],
+      "correct": 2,
+      "explanation": "Biopiracy is the term used to refer to the use of bio-resources by multinational companies and other organisations without proper authorisation from the countries and people concerned without compensatory payment."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Industrialized desangalum valarndhu varum desangalum biodiversity matrum traditional knowledge-il eppadi vithyasamadugindrana?",
+      "options": [
+        "Industrialized desangal biodiversity matrum traditional knowledge-il samruthamaaga irukkirathu",
+        "Valarndhu varum desangal biodiversity matrum traditional knowledge-il samruthamaaga, industrialized desangal panaththil samruthamaaga",
+        "Iruvarum samana biodiversity matrum panaththai kondirukkirathu",
+        "Valarndhu varum desangal traditional knowledge illai"
+      ],
+      "correct": 1,
+      "explanation": "The text states that most industrialized nations are rich financially but poor in biodiversity and traditional knowledge. In contrast, the developing and underdeveloped world is rich in biodiversity and traditional knowledge related to bio-resources."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "India biopiracy matrum patent vishayangalai eduthu kanakkaaga yathu sattathittam eduthullathu?",
+      "options": [
+        "Anaithu paradesa companies-ai India vil viththurai seyya niraithathu",
+        "Indian Patents Bill-in irandaam thiruththaalai patent vazhanguthal, emergency vazhanguthal, aivu matrum viraivu thittangalai eduthu ozhukkupaduthiyathu",
+        "Anaithu traditional medicine arivai arasu vadakathil kondathu",
+        "Patent muraiyai muzhuvathum neekkiyathu"
+      ],
+      "correct": 1,
+      "explanation": "The Indian Parliament has recently cleared the second amendment of the Indian Patents Bill, that takes issues like biopiracy into consideration, including patent terms of emergency provisions, research, and development initiatives."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Saransathil biotechnology manitharkalukku yethu utpatti seyyathakka seyal thiramaiyai nalgiyullathu endru kurukkirathu?",
+      "options": [
+        "Karpana rasayanangal mattum",
+        "Pala payanulla utpadithangal",
+        "Marapana maatrim seyya pattatha vithukal mattum",
+        "Maruthuva maddalgal mattum"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that biotechnology has given to humans several useful products by using microbes, plants, animals and their metabolic machinery."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Tissue culture matrum somatic hybridisation muraiygal yethu potensiyalai nalgugindrana endru saransathil kurukkirathu?",
+      "options": [
+        "Irukkum thavarangalin samanamaana klonai mattum utpatti seyyathu",
+        "In vitro thavar manipulasyonukku pudhu vakaiygalai utpatti seyyathakka migavum periya potensiyalai",
+        "Virus-illatha thavarangalai utpatti seyyathu mattum payanullathu",
+        "Miruga cells-il mattum payanpaduthalam"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that techniques of tissue culture and somatic hybridisation offer vast potential for manipulation of plants in vitro to produce new varieties."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Recombinant DNA technology yethai seyyathakku amaithullathu endru saransathil kurukkirathu?",
+      "options": [
+        "Marapana kramamittathal mattum",
+        "Microbes, thavarangal matrum mirugangalai pudhu seyal thiramaiyudan amaikkathu",
+        "Test tube-il DNA perukkam mattum",
+        "Protein synthesis mattum"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that recombinant DNA technology has made it possible to engineer microbes, plants and animals such that they have novel capabilities."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "GMOs eppadi amaikkappadugindrana endru saransathil kurukkirathu?",
+      "options": [
+        "Iyarkaiyaana vazhangal muraiyal mattum",
+        "Iyarkaiyaana muraiygalai vittu verum oru muraiyil marapanugalai matrum recombinant DNA muraiygalai payanpaduthi",
+        "Uruvangalai radiation-ukku expose seithu",
+        "Pala thalaimuraiyil therivu vazhangal moolam"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that GMOs have been created by using methods other than natural methods to transfer one or more genes from one organism to another, generally using techniques such as recombinant DNA techniques."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Kizhakkaana payanangalil yathu GM thavarangalukkana payanam endru saransathil kurippitappadavillai?",
+      "options": [
+        "Vilaichalai valarthal",
+        "Postharvest nashtaththai kurakkal",
+        "Stress-ukku thaanga vakai seyal paduthal",
+        "Suriya oli thevaiyai muzhuvathum neekkuthal"
+      ],
+      "correct": 3,
+      "explanation": "The summary mentions that GM plants have been useful in increasing crop yields, reducing postharvest losses and making crops more tolerant of stresses. Eliminating the need for sunlight is not mentioned."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Recombinant therapeutics yen thevaiyatra kuruthi niruthalai erpaduthavillai?",
+      "options": [
+        "Avai miruga proteinsilirunthu utpatti seyyappadugindrana endru",
+        "Avai manitha proteins-ukku samanamaanavai endru",
+        "Avai antibiotics serththavai endru",
+        "Avai intravenous moolam kodukkappadugindrana endru"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that since recombinant therapeutics are identical to human proteins, they do not induce unwanted immunological responses and are free from risk of infection as was observed in case of similar products isolated from non-human sources."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Recombinant DNA technology moolam utpatti seyyappadum manitha insulin patriyathu yenna visitham?",
+      "options": [
+        "Adhin amaippu iyarkaiyaana insulinilirunthu vithyasamaanathu",
+        "Adhin amaippu iyarkaiyaana insulin-ukku muthalilum samanamaanathu",
+        "Adhu iyarkaiyaana insulin vida kammi pazhathu ullathu",
+        "Adhu miruga insulin vida adhig kuruthi niruthalai erpaduthugirathu"
+      ],
+      "correct": 1,
+      "explanation": "The summary explicitly states that human insulin is made in bacteria yet its structure is absolutely identical to that of the natural insulin."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Marapana maatriya mirugangal manitha noykalukkaga model-aga eppadi uthavugindrana?",
+      "options": [
+        "Anaithu noykalukkum thaangaatha vakai",
+        "Marapanugal noy valarchiyil eppadi pangu seyyugindrana endru padithu",
+        "Manitha noykalukkaga vaccine utpatti seithu",
+        "Manitha organugalai maatru"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that transgenic animals are used to understand how genes contribute to the development of a disease by serving as models for human diseases such as cancer, cystic fibrosis, rheumatoid arthritis and Alzheimer's."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Gene therapy endrathu yathu endru saransathil kurukkirathu?",
+      "options": [
+        "Udalilirunthu anaithu seyalpadatha marapanugalai neekkuthal",
+        "Oru thalaithanithan cells matrum tissues-il marapanugalai arimugappaduthi noykalai maruthuvathu",
+        "Udalilirunthu anaithu cells-ai maatru",
+        "Genetic vazhangalai maruthuvatharku antibiotics payanpaduthuthal"
+      ],
+      "correct": 1,
+      "explanation": "The summary defines gene therapy as the insertion of genes into an individual's cells and tissues to treat diseases especially hereditary diseases, by replacing a defective mutant allele with a functional one."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Gene therapy-il vaayrasaigal yethu pangu vahigindrana?",
+      "options": [
+        "Avai maruthappadum noyai erpaduthugindrana",
+        "Arokkiya marapanugalai matrum marapana thundugalai matrum vektor-aga payanpaduthappadugindrana",
+        "Avai udalilirunthu muzhuvathum neekkappadugindrana",
+        "Avai seyalpadatha marapanugalai nasikkathakkavaaga payanpaduthappadugindrana"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that viruses that attack their hosts and introduce their genetic material into the host cell as part of their replication cycle are used as vectors to transfer healthy genes or more recently portions of genes."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Virus-illatha thavarangalai utpatti seyyatharku yathu thavar pangu visithamaaga uthavaadhu?",
+      "options": [
+        "Ilaiygal chlorophyll adhigamaaga irupathaal",
+        "Meristem (apical matrum axillary) thavar virus-inal attack pattalum virus-illamal irukkirathu",
+        "Verkal nilaththirku keezhe irupathaal kappagappattullana",
+        "Pookkal migavum seyalpadum cells irupathaal"
+      ],
+      "correct": 1,
+      "explanation": "Even if the plant is infected with a virus, the meristem (apical and axillary) is free of virus. Hence one can remove the meristem and grow it in vitro to obtain virus-free plants."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Micropropagation moolam thavarangalai utpatti seyyathal periya payanam yathu?",
+      "options": [
+        "Thavarangal moola thavarilirunthu marapana vazhiyil vithyasamaanavai",
+        "Kuraitha nerathil aayiram marapana vazhiyil samanamaana thavarangal (somaclones) utpatti seyyalam",
+        "Thavarangal saramanaaga vida periyavai valarum",
+        "Thavarangalukku pusana padaarthangal thevai illai"
+      ],
+      "correct": 1,
+      "explanation": "Micropropagation is the method of producing thousands of plants through tissue culture. Each plant will be genetically identical to the original plant from which they were grown, i.e., they are somaclones. This allows propagation of a large number of plants in very short durations."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Silar bacteria-il utpatti aagum Bt nacchu padikal bacteria-ey yen kollaathu?",
+      "options": [
+        "Bacteria nacchukku thaangaathavai",
+        "Nacchu immature-aka irukkirathu",
+        "Nacchu seyalatra-aka irukkirathu",
+        "Bacteria nacchuvey oru visithamaana kottaiyil marukkirathu"
+      ],
+      "correct": 2,
+      "explanation": "The Bt toxin protein exists as inactive protoxins in the bacteria. It only becomes active when an insect ingests the inactive toxin, where the alkaline pH of the gut solubilizes the crystals and converts it into an active toxin."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Kizhakkaanathil yathu in vitro explant valarchikku thevaiyaana medium anga kurippitappadavillai?",
+      "options": [
+        "Sucrose pondra karbon moolam",
+        "Aniyarkai uppu",
+        "Vitamins matrum amino acids",
+        "Bacteria-ey kolla antibiotics"
+      ],
+      "correct": 3,
+      "explanation": "The nutrient medium must provide a carbon source such as sucrose and also inorganic salts, vitamins, amino acids and growth regulators like auxins, cytokinins etc. Antibiotics are not mentioned as a required component."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "India-vil mattumae ethanai vakai arisi irukkirathu endru kurukkirathu?",
+      "options": [
+        "Sumar 50,000",
+        "Sumar 100,000",
+        "Sumar 200,000",
+        "Sumar 500,000"
+      ],
+      "correct": 2,
+      "explanation": "The text states that there are an estimated 200,000 varieties of rice in India alone. This highlights the incredible diversity of rice in the country."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Basmati arisi veru arisi vakaiyil irunthu vithyasamaduvathu yethu?",
+      "options": [
+        "Adhin uyarntha protein alavu",
+        "Adhin thani sutha vaasanai matrum suvai",
+        "Adhin eruppu sivappu niram",
+        "Adhin kulir kaaichalil valartha koodiya kazhivu"
+      ],
+      "correct": 1,
+      "explanation": "Basmati rice is distinct for its unique aroma and flavour. This characteristic has made it valuable and famous worldwide for centuries."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "India-vil ethanai vakai Basmati arisi samarppithu valarkkappadugirathu endru kurippitappattullathu?",
+      "options": [
+        "10",
+        "17",
+        "27",
+        "50"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that 27 documented varieties of Basmati are grown in India. These varieties have been cultivated for centuries and referenced in ancient texts, folklore and poetry."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Yethu aandil oru America company Basmati arisi mel US Patent Office moolam patent urimai petrathu?",
+      "options": [
+        "1990",
+        "1995",
+        "1997",
+        "2000"
+      ],
+      "correct": 2,
+      "explanation": "In 1997, an American company got patent rights on Basmati rice through the US Patent and Trademark Office. This was a significant event that raised concerns about biopiracy."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "America company patent petratha 'pudhu' Basmati vakaiyin nijaththa moolam yathu?",
+      "options": [
+        "America lab-il muzhuvathum viraivana seyyappattathu",
+        "India vilaiyaligal vakaiyil irunthu semi-dwarf vakaiyudan kalandhu eduthathu",
+        "America-il kattugalaga valarnthathai kandupidithathu",
+        "Paathira marapanugalai payanpaduthi marapana maatram seyyappattathu"
+      ],
+      "correct": 1,
+      "explanation": "The 'new' variety of Basmati had actually been derived from Indian farmer's varieties. Indian Basmati was crossed with semi-dwarf varieties and claimed as an invention or novelty."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Functional equivalents-ku patent visthariththal Basmati arisi viththurai seyyavarkalukku enna artham?",
+      "options": [
+        "Avarkal sudhandiramaga Basmati viththurai seyyalam",
+        "Veru Basmati arisi viththurai seyyavarkalai patent thadukkum",
+        "India vilaiyaligal mattum Basmati viththurai seyyalam",
+        "Patent America-ukkul mattum vazhangappadum"
+      ],
+      "correct": 1,
+      "explanation": "The patent extends to functional equivalents, implying that other people selling Basmati rice could be restricted by the patent. This creates a monopoly over a traditional Indian crop."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Yethu India padhinathu mooligai maruthuvangal patent petratharku muyaRchigal eduthu varugindrana?",
+      "options": [
+        "Ashwagandha matrum Brahmi",
+        "Turmeric matrum neem",
+        "Inji matrum poondu",
+        "Tulsi matrum aloe vera"
+      ],
+      "correct": 1,
+      "explanation": "Several attempts have been made to patent uses, products and processes based on Indian traditional herbal medicines, such as turmeric and neem. These are part of India's rich traditional knowledge."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Biopiracy endrathu yathu?",
+      "options": [
+        "Pugunthu vazhakka niraiththa mirugangalai kanakkaaga vettaiyaduthal",
+        "Pala desha companies sariyaana anumathi illamal bio-sadhanangalai payanpaduthuthal",
+        "Marapana maatram seyya pattatha uruvangalai iyarkaiyil vittu viduthal",
+        "Aivu uruppugalil irunthu lab upakaraangalai kollaiyadithal"
+      ],
+      "correct": 1,
+      "explanation": "Biopiracy is the term used to refer to the use of bio-resources by multinational companies and other organisations without proper authorisation from the countries and people concerned without compensatory payment."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Industrialized matrum valarndhu varum desangalukkidaiyana panaththu matrum biodiversity uravu yathu?",
+      "options": [
+        "Industrialized desangal panaththilum biodiversity-ilum samruthamaaga irukkirathu",
+        "Valarndhu varum desangal panaththilum biodiversity-ilum elumaiyudan irukkirathu",
+        "Industrialized desangal panaththil samruthamaanaalum biodiversity-il elumai, valarndhu varum desangal appadi illai",
+        "Anaithu desangalum samana panaththu matrum biodiversity-il irukkirathu"
+      ],
+      "correct": 2,
+      "explanation": "Most industrialised nations are rich financially but poor in biodiversity and traditional knowledge. In contrast, the developing and underdeveloped world is rich in biodiversity and traditional knowledge related to bio-resources."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Padhinathu arivai modern payanpaduthalkalai viraivu seyyathakkavaaga eppadi payanpaduthalam?",
+      "options": [
+        "Idhu padhinathu arikkai seyya mattum payanpaduthalam",
+        "Viththurai seyum pothu neram, uzhavu matrum selavai kuraikkathakkavaaga",
+        "Idhu modern science-il payan illai",
+        "Idhu nattupura koottankalal mattum payanpaduthalam"
+      ],
+      "correct": 1,
+      "explanation": "Traditional knowledge related to bio-resources can be exploited to develop modern applications and can also be used to save time, effort and expenditure during their commercialisation."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Valarndha matrum valarndhu varum desangalukkidaiyana bio-sadhanangal kuriththa unarvu yathu valarndhu varugirathu?",
+      "options": [
+        "Valarndha desangal bio-sadhanangal aivugalai anaithaiyum niruththavendum",
+        "Valarndha matrum valarndhu varum desangalukkidaiyana nyayam illathathu, pothiyaaga porthuga illamal, payan paduthal illathathu",
+        "Valarndhu varum desangal payanulla bio-sadhanangal illai",
+        "Anaithu bio-sadhanangalum antarrashtreeya uruppugalukku adimaiyaaga irukkavendum"
+      ],
+      "correct": 1,
+      "explanation": "There has been growing realisation of the injustice, inadequate compensation, and benefit sharing between developed and developing countries regarding the use of bio-resources and traditional knowledge."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "India Parliament biopiracy matrum patent vishayangalai eduthu kanakkaaga yethu sattathittam eduthullathu?",
+      "options": [
+        "Anaithu paradesa companies-ai India bio-sadhanangalil patent petrathai niraithathu",
+        "Indian Patents Bill-in irandaam thiruththaalai emergency vazhanguthal, aivu matrum viraivu thittangalai eduthu ozhukkupaduthiyathu",
+        "Anaithu padhinathu arivai arasu vadakathil kondathu",
+        "India-vil patent muraiyai muzhuvathum neekkiyathu"
+      ],
+      "correct": 1,
+      "explanation": "The Indian Parliament has recently cleared the second amendment of the Indian Patents Bill, that takes such issues into consideration, including patent terms of emergency provisions, research, and development initiatives."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "எந்த பாக்டீரியா Bt நச்சை உற்பத்தி செய்கிறது?",
+      "options": [
+        "Bacillus subtilis",
+        "Bacillus thuringiensis",
+        "Escherichia coli",
+        "Agrobacterium tumefaciens"
+      ],
+      "correct": 1,
+      "explanation": "Bt நச்சு Bacillus thuringiensis என்ற மண் பாக்டீரியாவால் உற்பத்தி செய்யப்படுகிறது. இந்த பாக்டீரியாவின் cry மரபணுக்கள் பயிர் தாவரங்களில் செலுத்தப்பட்டு பூச்சி எதிர்ப்பு திறனை வழங்குகின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt நச்சு ஏன் Bacillus thuringiensis பாக்டீரியாவைக் கொல்லவில்லை?",
+      "options": [
+        "பாக்டீரியா இயற்கையாகவே நச்சுக்கு எதிர்ப்புடையவை",
+        "நச்சு ஒரு சிறப்பு பாதுகாப்பு பையில் அடைக்கப்பட்டுள்ளது",
+        "நச்சு பாக்டீரியாவில் செயலற்ற protoxin ஆக இருக்கிறது",
+        "பாக்டீரியாவில் நச்சை அழிக்கும் நொதிகள் உள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "Bt நச்சு புரதம் பாக்டீரியாவில் செயலற்ற protoxin ஆக இருக்கிறது. இது பூச்சிகளின் காரச்சத்து குடலில் உட்கொள்ளப்பட்ட பிறகே செயல்படும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பூச்சி செயலற்ற Bt நச்சை உட்கொண்டால் என்ன நடக்கிறது?",
+      "options": [
+        "வயிற்று அமிலங்களால் உடனடியாக அழிக்கப்படுகிறது",
+        "குடலின் கார pH காரணமாக செயல்படும் நச்சாக மாற்றப்படுகிறது",
+        "செரிமான மண்டலத்தில் மாறாமல் கடந்து செல்கிறது",
+        "பாக்டீரியா செல் சுவர்களுடன் பிணைகிறது"
+      ],
+      "correct": 1,
+      "explanation": "பூச்சி செயலற்ற நச்சை உட்கொண்டவுடன், குடலின் கார pH காரணமாக படிகங்கள் கரைந்து செயல்படும் வடிவமாக மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "செயல்படும் Bt நச்சு பூச்சியின் எந்த செல்களுடன் பிணைந்து இறப்பை ஏற்படுத்துகிறது?",
+      "options": [
+        "நரம்பு செல்கள்",
+        "தசை செல்கள்",
+        "நடு குடல் புறணி செல்கள்",
+        "எச்சில் சுரப்பி செல்கள்"
+      ],
+      "correct": 2,
+      "explanation": "செயல்படும் நச்சு நடு குடல் புறணி செல்களின் மேற்பரப்பில் பிணைந்து துளைகளை உருவாக்கி செல் வீக்கம் மற்றும் சிதைவை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt நச்சு புரதங்களுக்கு குறியீடு செய்யும் மரபணுக்கள் எவை?",
+      "options": [
+        "cry மரபணுக்கள்",
+        "lac மரபணுக்கள்",
+        "trp மரபணுக்கள்",
+        "his மரபணுக்கள்"
+      ],
+      "correct": 0,
+      "explanation": "நச்சு cry என்று பெயரிடப்பட்ட மரபணுக்களால் குறியீடு செய்யப்படுகிறது. cryIAc மற்றும் cryIIAb போன்றவை பருத்தி காய்ப்புழுக்களை கட்டுப்படுத்துகின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பருத்தி காய்ப்புழுக்களை கட்டுப்படுத்தும் cry மரபணுக்கள் எவை?",
+      "options": [
+        "cryIAb மற்றும் cryIIAc",
+        "cryIAc மற்றும் cryIIAb",
+        "cryIIAa மற்றும் cryIIIB",
+        "cryIV மற்றும் cryV"
+      ],
+      "correct": 1,
+      "explanation": "cryIAc மற்றும் cryIIAb மரபணுக்களால் குறியீடு செய்யப்படும் புரதங்கள் பருத்தி காய்ப்புழுக்களை கட்டுப்படுத்துகின்றன, cryIAb மக்காச்சோள புழுக்களை கட்டுப்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "எந்த நூற்புழு புகையிலை தாவரங்களின் வேர்களைத் தாக்கி விளைச்சலை குறைக்கிறது?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Wuchereria bancrofti",
+        "Meloidegyne incognitia",
+        "Entamoeba histolytica"
+      ],
+      "correct": 2,
+      "explanation": "Meloidegyne incognitia என்பது புகையிலை தாவரங்களின் வேர்களைத் தாக்கி விளைச்சலை குறைக்கும் ஒரு நூற்புழு ஆகும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Meloidegyne incognitia தாக்குதலிலிருந்து புகையிலை தாவரங்களை பாதுகாக்க எந்த மூலோபாயம் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "இரசாயன பூச்சிக்கொல்லிகளின் பயன்பாடு",
+        "RNA interference (RNAi)",
+        "பாரம்பரிய கலப்பினமாக்கல்",
+        "மண் புகையூட்டல்"
+      ],
+      "correct": 1,
+      "explanation": "Meloidegyne incognitia தாக்குதலிலிருந்து புகையிலை தாவரங்களை பாதுகாக்க RNA interference (RNAi) மூலோபாயம் பயன்படுத்தப்படுகிறது. நூற்புழு-குறிப்பிட்ட மரபணுக்கள் புரவாளியில் அறிமுகப்படுத்தப்பட்டு dsRNA உற்பத்தி செய்யப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பூச்சி எதிர்ப்பு தாவரங்களின் சூழலில் RNAi என்றால் என்ன?",
+      "options": [
+        "Ribonucleic Acid Inhibition",
+        "RNA Interference",
+        "Ribosomal Nucleic Acid Integration",
+        "Reverse Nucleic Acid Inhibition"
+      ],
+      "correct": 1,
+      "explanation": "RNAi என்பது RNA Interference என்று பொருள்படும். இது நிரப்பு dsRNA மூலம் குறிப்பிட்ட mRNA அமைதியாக்கப்படும் ஒரு செல்லியல் பாதுகாப்பு முறையாகும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "RNAi இல் எந்த வகை RNA மூலக்கூறு இலக்கு mRNA உடன் பிணைந்து மொழிபெயர்ப்பைத் தடுக்கிறது?",
+      "options": [
+        "ஒற்றை-நிரல் RNA",
+        "தூதர் RNA",
+        "இரட்டை-நிரல் RNA (dsRNA)",
+        "பரிமாற்ற RNA"
+      ],
+      "correct": 2,
+      "explanation": "RNAi இல் நிரப்பு இரட்டை-நிரல் RNA (dsRNA) மூலக்கூறு குறிப்பிட்ட mRNA உடன் பிணைந்து மொழிபெயர்ப்பைத் தடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "RNAi க்காக நூற்புழு-குறிப்பிட்ட மரபணுக்கள் புரவாளி தாவரத்தில் எவ்வாறு அறிமுகப்படுத்தப்படுகின்றன?",
+      "options": [
+        "தாவர செல்களில் நேரடி ஊசி மூலம்",
+        "Agrobacterium திசுவாக்கிகளைப் பயன்படுத்தி",
+        "வைரஸ் தொற்று மூலம்",
+        "மகரந்த பரிமாற்றம் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "Agrobacterium திசுவாக்கிகளைப் பயன்படுத்தி நூற்புழு-குறிப்பிட்ட மரபணுக்கள் புரவாளி தாவரத்தில் அறிமுகப்படுத்தப்படுகின்றன. DNA இரண்டு வகை RNA உற்பத்தி செய்கிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "புரவாளி தாவர செல்களில் நேர் மற்றும் எதிர் RNA உற்பத்தி செய்யப்படும்போது என்ன நடக்கிறது?",
+      "options": [
+        "அவை இரட்டை-நிரல் RNA (dsRNA) உருவாக்குகின்றன",
+        "அவை உடனடியாக சிதைக்கப்படுகின்றன",
+        "புரத தொகுப்பை அதிகரிக்கின்றன",
+        "நேரடியாக DNA உடன் பிணைகின்றன"
+      ],
+      "correct": 0,
+      "explanation": "நேர் மற்றும் எதிர் RNA ஒன்றுக்கொன்று நிரப்பாக இருப்பதால் இரட்டை-நிரல் RNA (dsRNA) உருவாகி RNAi தொடங்கி நூற்புழுவின் mRNA அமைதியாக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "நூற்புழுக்களுக்கு எதிரான மரபணு மாற்றப்பட்ட தாவரங்களில் RNAi இன் விளைவு என்ன?",
+      "options": [
+        "தாவரம் அதிக ஊட்டச்சத்துடன் இருக்கிறது",
+        "பராசைட் மரபணு மாற்றப்பட்ட புரவாளியில் உயிர்வாழ முடியாது",
+        "தாவரம் வேகமாக வளர்கிறது",
+        "நூற்புழு தாவரத்திற்கு பயனுள்ளதாக மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "குறிப்பிட்ட தலையீடு RNA வெளிப்படுத்தும் மரபணு மாற்றப்பட்ட புரவாளியில் பராசைட் உயிர்வாழ முடியாது, எனவே தாவரம் பாதுகாக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bacillus thuringiensis இன் சில இனங்களால் உற்பத்தி செய்யப்படும் புரதங்கள் எந்த பூச்சிகளைக் கொல்கின்றன?",
+      "options": [
+        "வண்ணத்துப்பூச்சிகள் மட்டும்",
+        "Lepidopterans, coleopterans மற்றும் dipterans",
+        "கொசுக்கள் மட்டும்",
+        "வண்டுகள் மட்டும்"
+      ],
+      "correct": 1,
+      "explanation": "சில Bacillus thuringiensis இனங்கள் lepidopterans, coleopterans மற்றும் dipterans பூச்சிகளைக் கொல்லும் புரதங்களை உற்பத்தி செய்கின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bacillus thuringiensis தனது வளர்ச்சியின் எந்த கட்டத்தில் நச்சு கொண்ட புரதப் படிகங்களை உருவாக்குகிறது?",
+      "options": [
+        "தாமத கட்டம்",
+        "பதிவு கட்டம்",
+        "நிலையான கட்டம்",
+        "வளர்ச்சியின் குறிப்பிட்ட கட்டம்"
+      ],
+      "correct": 3,
+      "explanation": "Bacillus thuringiensis தனது வளர்ச்சியின் குறிப்பிட்ட கட்டத்தில் புரதப் படிகங்களை உருவாக்குகிறது. இந்த படிகங்கள் நச்சு பூச்சிக்கொல்லி புரதத்தைக் கொண்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "இரண்டு வேறுபட்ட தாவர இனங்களின் தனிமைப்படுத்தப்பட்ட protoplasts இணைக்கப்படும் செயல்முறைக்கு என்ன பெயர்?",
+      "options": [
+        "Micropropagation",
+        "Somatic hybridisation",
+        "Gene therapy",
+        "Tissue culture"
+      ],
+      "correct": 1,
+      "explanation": "இரண்டு வேறுபட்ட இனங்களின் தனிமைப்படுத்தப்பட்ட protoplasts இணைக்கப்பட்டு hybrid protoplasts பெறப்படுகிறது. இந்த செயல்முறை somatic hybridisation என்று அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "சோதனை குழாயில் சுத்தமான சூழலில் வளர்க்கப்படும் explants இலிருந்து மீண்டும் உருவாக்கப்படும் தாவரங்களுக்கு என்ன பெயர்?",
+      "options": [
+        "மரபணு மாற்றப்பட்ட தாவரங்கள்",
+        "Somaclones",
+        "கலப்பின தாவரங்கள்",
+        "சடுதிமாற்ற தாவரங்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Micropropagation மூலம் உற்பத்தி செய்யப்படும் தாவரங்கள் அசல் தாவரத்திற்கு மரபணு ரீதியாக ஒத்தவை மற்றும் somaclones என அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "வைரஸால் தாக்கப்பட்ட தாவரத்தின் எந்த பகுதி வைரஸ் இல்லாதது மற்றும் வைரஸ் இல்லாத தாவரங்களை உற்பத்தி செய்ய பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "வேர் முனை",
+        "Meristem (உச்சி மற்றும் அக்குள்)",
+        "இலை பகுதி",
+        "தண்டு புறணி"
+      ],
+      "correct": 1,
+      "explanation": "தாவரம் வைரஸால் தாக்கப்பட்டாலும், meristem (உச்சி மற்றும் அக்குள்) வைரஸ் இல்லாதது. எனவே meristem அகற்றப்பட்டு in vitro வளர்க்கப்பட்டு வைரஸ் இல்லாத தாவரங்கள் பெறப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "எந்தவொரு செல் அல்லது explant இலிருந்து முழு தாவரத்தை உருவாக்கும் திறனுக்கு என்ன பெயர்?",
+      "options": [
+        "வேறுபாடு",
+        "Totipotency",
+        "Organogenesis",
+        "Embryogenesis"
+      ],
+      "correct": 1,
+      "explanation": "எந்தவொரு செல் அல்லது explant இலிருந்து முழு தாவரத்தை உருவாக்கும் திறன் totipotency என்று அழைக்கப்படுகிறது. இந்த பண்பு திசு வளர்ப்பு நுட்பங்களில் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "protoplast இணைப்பு மூலம் உற்பத்தி செய்யப்படும் somatic hybrid க்கு எந்த உதாரணம்?",
+      "options": [
+        "Golden rice",
+        "Pomato",
+        "Bt cotton",
+        "Flavr Savr tomato"
+      ],
+      "correct": 1,
+      "explanation": "தக்காளி protoplast உடன் உருளைக்கிழங்கு protoplast இணைக்கப்பட்டு வளர்க்கப்படும்போது pomato என்ற somatic hybrid உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "திசு வளர்ப்பு (tissue culture) என்றால் என்ன?",
+      "options": [
+        "விதைகளிலிருந்து இயற்கை மண்ணில் தாவரங்களை வளர்ப்பது",
+        "தாவரத்தின் எந்தவொரு பகுதியையும் (explant) எடுத்து, சோதனைக்குழாயில் கிருமிநீக்கிய சூழலில் சிறப்பு ஊட்டச்சத்து ஊடகத்தில் வளர்த்து முழு தாவரத்தை மீண்டும் உருவாக்குவது",
+        "இரண்டு வெவ்வேறு தாவர வகைகளை கலப்பினப்படுத்துவது",
+        "தாவர வளர்ச்சியை மேம்படுத்த வேதிப்பொருட்களைப் பயன்படுத்துவது"
+      ],
+      "correct": 1,
+      "explanation": "திசு வளர்ப்பு என்பது விஞ்ஞானிகள் 1950களில் கண்டுபிடித்த ஒரு நுட்பமாகும். இதில் தாவரத்தின் எந்தவொரு பகுதியையும் (explant) எடுத்து, சோதனைக்குழாயில் கிருமிநீக்கிய சூழலில் சிறப்பு ஊட்டச்சத்து ஊடகத்தில் வளர்த்து முழு தாவரத்தை மீண்டும் உருவாக்க முடியும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "எந்தவொரு செல்லிலிருந்தோ அல்லது explant இலிருந்தோ முழு தாவரத்தை உருவாக்கும் திறன் என்னவென்று அழைக்கப்படுகிறது?",
+      "options": [
+        "ஒளிச்சேர்க்கை (Photosynthesis)",
+        "Totipotency",
+        "முளைப்பு (Germination)",
+        "உரமூட்டல் (Fertilization)"
+      ],
+      "correct": 1,
+      "explanation": "எந்தவொரு செல்லிலிருந்தோ அல்லது explant இலிருந்தோ முழு தாவரத்தை உருவாக்கும் திறன் totipotency என்று அழைக்கப்படுகிறது. இது திசு வளர்ப்பு மற்றும் நுண் பெருக்க நுட்பங்களின் அடிப்படைக் கொள்கையாகும்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "திசு வளர்ப்புக்கான ஊட்டச்சத்து ஊடகத்தின் அங்கமாக குறிப்பிடப்படாதது எது?",
+      "options": [
+        "கார்பன் மூலமாக சுக்ரோஸ்",
+        "கனிம உப்புகள்",
+        "வைட்டமின்கள் மற்றும் அமினோ அமிலங்கள்",
+        "மண் மற்றும் இயற்கை சூரிய ஒளி"
+      ],
+      "correct": 3,
+      "explanation": "ஊட்டச்சத்து ஊடகம் சுக்ரோஸ் போன்ற கார்பன் மூலம், கனிம உப்புகள், வைட்டமின்கள், அமினோ அமிலங்கள் மற்றும் ஆக்சின்கள், சைட்டோகைனின்கள் போன்ற வளர்ச்சி கட்டுப்பாட்டாளர்களை வழங்க வேண்டும். மண் மற்றும் இயற்கை சூரிய ஒளி ஆகியவை in vitro திசு வளர்ப்புக்கான ஊட்டச்சத்து ஊடகத்தின் அங்கங்களாகக் குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "திசு வளர்ப்பு மூலம் ஆயிரக்கணக்கான தாவரங்களை உற்பத்தி செய்யும் முறை என்னவென்று அழைக்கப்படுகிறது?",
+      "options": [
+        "கலப்பினப்படுத்தல் (Hybridization)",
+        "நுண் பெருக்கம் (Micropropagation)",
+        "ஒட்டு வளர்ப்பு (Grafting)",
+        "அடுக்கு வளர்ப்பு (Layering)"
+      ],
+      "correct": 1,
+      "explanation": "திசு வளர்ப்பு மூலம் ஆயிரக்கணக்கான தாவரங்களை உற்பத்தி செய்யும் முறை நுண் பெருக்கம் (micropropagation) என்று அழைக்கப்படுகிறது. இந்த முறை மிகக் குறுகிய காலத்தில் பெருமளவிலான தாவரங்களைப் பெருக்க அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "நுண் பெருக்கம் மூலம் உற்பத்தி செய்யப்படும் தாவரங்கள், அசல் தாவரத்திற்கு மரபணு ரீதியாக ஒத்தவையாக இருந்தால் அவை என்னவென்று அழைக்கப்படுகின்றன?",
+      "options": [
+        "கலப்பினங்கள் (Hybrids)",
+        "Somaclones",
+        "மரபணு மாற்றங்கள் (Mutants)",
+        "மரபணு மாற்றப்பட்டவை (Transgenics)"
+      ],
+      "correct": 1,
+      "explanation": "நுண் பெருக்கம் மூலம் உற்பத்தி செய்யப்படும் ஒவ்வொரு தாவரமும் அவை வளர்க்கப்பட்ட அசல் தாவரத்திற்கு மரபணு ரீதியாக ஒத்தவையாக இருக்கும். இவை somaclones என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "நுண் பெருக்க முறையைப் பயன்படுத்தி வணிக அளவில் உற்பத்தி செய்யப்பட்ட உணவு தாவரங்கள் எவை?",
+      "options": [
+        "கோதுமை மற்றும் பார்லி",
+        "தக்காளி, வாழைப்பழம், மற்றும் ஆப்பிள்",
+        "அரிசி மற்றும் மக்காச்சோளம்",
+        "கரும்பு மற்றும் சணல்"
+      ],
+      "correct": 1,
+      "explanation": "தக்காளி, வாழைப்பழம், ஆப்பிள் போன்ற பல முக்கிய உணவு தாவரங்கள் நுண் பெருக்க முறையைப் பயன்படுத்தி வணிக அளவில் உற்பத்தி செய்யப்பட்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "திசு வளர்ப்பு மூலம் வைரஸ் இல்லாத தாவரங்களை உற்பத்தி செய்வதற்கு மெரிஸ்டம் (meristem) ஏன் விரும்பத்தக்கதாகும்?",
+      "options": [
+        "ஏனெனில் அது மற்ற பகுதிகளை விட வேகமாக வளர்கிறது",
+        "ஏனெனில் தாவரம் வைரஸால் பாதிக்கப்பட்டிருந்தாலும் அது வைரஸ் இல்லாததாக இருக்கும்",
+        "ஏனெனில் அதில் அதிக ஊட்டச்சத்துகள் உள்ளன",
+        "ஏனெனில் அதை எடுப்பது எளிதாகும்"
+      ],
+      "correct": 1,
+      "explanation": "தாவரம் வைரஸால் பாதிக்கப்பட்டிருந்தாலும், மெரிஸ்டம் (உச்சி மற்றும் அக்சில்லரி) வைரஸ் இல்லாததாக இருக்கும். எனவே, மெரிஸ்டத்தை அகற்றி in vitro வளர்த்து வைரஸ் இல்லாத தாவரங்களைப் பெறலாம்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "விஞ்ஞானிகள் எந்த தாவரங்களின் மெரிஸ்டங்களை வளர்த்து வைரஸ் இல்லாத பெருக்கத்தில் வெற்றி பெற்றுள்ளனர்?",
+      "options": [
+        "கோதுமை, அரிசி, மற்றும் மக்காச்சோளம்",
+        "வாழைப்பழம், கரும்பு, மற்றும் உருளைக்கிழங்கு",
+        "தக்காளி, கத்தரி, மற்றும் வெண்டை",
+        "பருத்தி, சணல், மற்றும் தளிர்"
+      ],
+      "correct": 1,
+      "explanation": "விஞ்ஞானிகள் வாழைப்பழம், கரும்பு, மற்றும் உருளைக்கிழங்கு ஆகியவற்றின் மெரிஸ்டங்களை வளர்த்து திசு வளர்ப்பு மூலம் வைரஸ் இல்லாத தாவரங்களை உற்பத்தி செய்வதில் வெற்றி பெற்றுள்ளனர்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "நிர்வாண புரோட்டோபிளாஸ்டுகள் (naked protoplasts) என்றால் என்ன?",
+      "options": [
+        "தடிமனான செல் சுவர்களைக் கொண்ட தாவர செல்கள்",
+        "செல் சுவர் செரிமானம் செய்யப்பட்ட பிறகு பிளாஸ்மா சவ்வுகளால் சூழப்பட்ட தாவர செல்கள்",
+        "செல் சுவர்கள் இல்லாத பாக்டீரியா செல்கள்",
+        "சவ்வுகள் அகற்றப்பட்ட விலங்கு செல்கள்"
+      ],
+      "correct": 1,
+      "explanation": "விஞ்ஞானிகள் தாவரங்களிலிருந்து தனி செல்களைத் தனிமைப்படுத்தி, அவற்றின் செல் சுவர்களை செரிமானம் செய்த பிறகு, பிளாஸ்மா சவ்வுகளால் சூழப்பட்ட நிர்வாண புரோட்டோபிளாஸ்டுகளைத் தனிமைப்படுத்தியுள்ளனர்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Somatic hybridization என்றால் என்ன?",
+      "options": [
+        "இரண்டு தாவர இனங்களுக்கு இடையே குறுக்கு மகரந்தச் சேர்க்கை",
+        "இரண்டு வெவ்வேறு தாவர வகைகளிலிருந்து தனிமைப்படுத்தப்பட்ட புரோட்டோபிளாஸ்டுகளை ஒன்றிணைத்து கலப்பின புரோட்டோபிளாஸ்டுகளை உருவாக்குவது",
+        "இரண்டு வெவ்வேறு தாவர தண்டுகளை ஒட்டுவது",
+        "ஆய்வக சூழலில் விதை முளைப்பு"
+      ],
+      "correct": 1,
+      "explanation": "இரண்டு வெவ்வேறு தாவர வகைகளிலிருந்து தனிமைப்படுத்தப்பட்ட புரோட்டோபிளாஸ்டுகளை ஒன்றிணைத்து கலப்பின புரோட்டோபிளாஸ்டுகளைப் பெறலாம், அவை மேலும் வளர்ந்து புதிய தாவரமாக மாறும். இந்த செயல்முறை somatic hybridization என்று அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Somatic hybridization மூலம் உற்பத்தி செய்யப்படும் கலப்பினங்கள் என்னவென்று அழைக்கப்படுகின்றன?",
+      "options": [
+        "மரபணு கலப்பினங்கள் (Genetic hybrids)",
+        "Somatic hybrids",
+        "இயற்கை கலப்பினங்கள் (Natural hybrids)",
+        "செயற்கை மாற்றங்கள் (Artificial mutants)"
+      ],
+      "correct": 1,
+      "explanation": "Somatic hybridization மூலம் உற்பத்தி செய்யப்படும் கலப்பினங்கள் somatic hybrids என்று அழைக்கப்படுகின்றன. தக்காளி மற்றும் உருளைக்கிழங்கு புரோட்டோபிளாஸ்டுகளை ஒன்றிணைத்து உருவாக்கப்பட்ட pomato ஒரு உதாரணமாகக் குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "தக்காளி மற்றும் உருளைக்கிழங்கு புரோட்டோபிளாஸ்டுகளை ஒன்றிணைத்ததன் விளைவு என்ன?",
+      "options": [
+        "Pomato என்று அழைக்கப்படும் வணிக ரீதியாக வெற்றிகரமான கலப்பினம்",
+        "Pomato என்று அழைக்கப்படும் கலப்பினத் தாவரம், ஆனால் வணிகப் பயன்பாட்டிற்கான அனைத்து விரும்பத்தகுந்த பண்புகளையும் கொண்டிருக்கவில்லை",
+        "தாவரம் உருவாகாத முற்றிலும் தோல்வியடைந்த சோதனை",
+        "புதிய வகை காட்டுத் தாவரம்"
+      ],
+      "correct": 1,
+      "explanation": "தக்காளியின் புரோட்டோபிளாஸ்ட் உருளைக்கிழங்கின் புரோட்டோபிளாஸ்டுடன் ஒன்றிணைந்து pomato உருவானது. துரதிர்ஷ்டவசமாக, இந்தத் தாவரம் வணிகப் பயன்பாட்டிற்கான அனைத்து விரும்பத்தகுந்த பண்புகளையும் கொண்டிருக்கவில்லை."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "உணவு உற்பத்தியை அதிகரிக்க மூன்று விருப்பங்கள் என்ன?",
+      "options": [
+        "ஹைட்ரோபோனிக்ஸ், ஏரோபோனிக்ஸ், மற்றும் அக்வாபோனிக்ஸ்",
+        "வேளாண்-ரசாயன அடிப்படையிலான விவசாயம், கரிம விவசாயம், மற்றும் மரபணு பொறியியல் பயிர் அடிப்படையிலான விவசாயம்",
+        "பாரம்பரிய விவசாயம், இயந்திரமயமாக்கப்பட்ட விவசாயம், மற்றும் செங்குத்து விவசாயம்",
+        "நீர்ப்பாசனம், உரமூட்டல், மற்றும் பூச்சிக் கட்டுப்பாடு"
+      ],
+      "correct": 1,
+      "explanation": "உணவு உற்பத்தியை அதிகரிக்க மூன்று விருப்பங்கள் குறிப்பிடப்பட்டுள்ளன: (i) வேளாண்-ரசாயன அடிப்படையிலான விவசாயம், (ii) கரிம விவசாயம், மற்றும் (iii) மரபணு பொறியியல் பயிர் அடிப்படையிலான விவசாயம்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பசுமைப் புரட்சி உணவு வழங்கலை மும்மடங்காக்குவதில் வெற்றி பெற முக்கிய காரணம் என்ன?",
+      "options": [
+        "மேம்படுத்தப்பட்ட பயிர் வகைகள் மட்டுமே",
+        "முக்கியமாக சிறந்த மேலாண்மை நடைமுறைகள் மற்றும் வேளாண் ரசாயனங்களின் பயன்பாடு",
+        "கரிம விவசாய முறைகள் மட்டுமே",
+        "மரபணு மாற்றப்பட்ட பயிர்கள் மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "அதிகரித்த விளைச்சல் ஓரளவுக்கு மேம்படுத்தப்பட்ட பயிர் வகைகளின் பயன்பாட்டால் ஏற்பட்டது, ஆனால் முக்கியமாக சிறந்த மேலாண்மை நடைமுறைகள் மற்றும் வேளாண் ரசாயனங்கள் (உரங்கள் மற்றும் பூச்சிக்கொல்லிகள்) பயன்பாட்டால் ஏற்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பாரம்பரிய இனப்பெருக்க நுட்பங்கள் ஏன் பயிர் மேம்பாட்டின் தேவையுடன் போட்டி போடத் தவறிவிட்டன?",
+      "options": [
+        "அவை மிகவும் விலை உயர்ந்தவை",
+        "அவை போதுமான வேகமான மற்றும் திறமையான அமைப்புகளை வழங்கவில்லை",
+        "அவை அதிக நீரைத் தேவைப்படுத்தின",
+        "அவை பழம் பயிர்களில் மட்டுமே வேலை செய்தன"
+      ],
+      "correct": 1,
+      "explanation": "பாரம்பரிய இனப்பெருக்க நுட்பங்கள் தேவையுடன் போட்டி போடத் தவறிவிட்டன மற்றும் பயிர் மேம்பாட்டிற்கு போதுமான வேகமான மற்றும் திறமையான அமைப்புகளை வழங்கவில்லை, இது திசு வளர்ப்பு தொழில்நுட்பத்தின் வளர்ச்சிக்கு வழிவகுத்தது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "ஊட்டச்சத்து ஊடகத்தின் அங்கமாக குறிப்பிடப்பட்ட வளர்ச்சி கட்டுப்பாட்டாளர்கள் எவை?",
+      "options": [
+        "ஜிப்ரெலின்கள் மற்றும் அப்சிசிக் அமிலம்",
+        "ஆக்சின்கள் மற்றும் சைட்டோகைனின்கள்",
+        "எத்திலீன் மற்றும் பிராசினோஸ்டீராய்டுகள்",
+        "ஜாஸ்மோனிக் அமிலம் மற்றும் சாலிசிலிக் அமிலம்"
+      ],
+      "correct": 1,
+      "explanation": "ஊட்டச்சத்து ஊடகம் ஆக்சின்கள் மற்றும் சைட்டோகைனின்கள் போன்ற வளர்ச்சி கட்டுப்பாட்டாளர்களை வழங்க வேண்டும், சுக்ரோஸ் போன்ற கார்பன் மூலம், கனிம உப்புகள், வைட்டமின்கள் மற்றும் அமினோ அமிலங்களுடன்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "திசு வளர்ப்பில் explant என்றால் என்ன?",
+      "options": [
+        "ஒரு வகை வேதி உரம்",
+        "தாவரத்தின் எந்தவொரு பகுதியையும் எடுத்து, சோதனைக்குழாயில் கிருமிநீக்கிய சூழலில் வளர்ப்பது",
+        "தாவரங்களை பாதிக்கும் ஒரு வகை வைரஸ்",
+        "தாவர வளர்ப்பில் பயன்படுத்தப்படும் வளர்ச்சி ஹார்மோன்"
+      ],
+      "correct": 1,
+      "explanation": "Explant என்பது தாவரத்தின் எந்தவொரு பகுதியையும் எடுத்து, சோதனைக்குழாயில் கிருமிநீக்கிய சூழலில் சிறப்பு ஊட்டச்சத்து ஊடகத்தில் வளர்ப்பதாகும். இது 1950களில் விஞ்ஞானிகளால் கண்டுபிடிக்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "வளரும் நாடுகளில் உள்ள விவசாயிகளுக்கு வேளாண் ரசாயனங்கள் குறித்த முக்கிய சவால் என்ன?",
+      "options": [
+        "அவை மிகவும் மலிவானவை மற்றும் பயனற்றவை",
+        "அவை பெரும்பாலும் மிகவும் விலை உயர்ந்தவை",
+        "அரசாங்கத்தால் தடை செய்யப்பட்டவை",
+        "அவை திரவ வடிவத்தில் மட்டுமே கிடைக்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "வளரும் நாடுகளில் உள்ள விவசாயிகளுக்கு வேளாண் ரசாயனங்கள் பெரும்பாலும் மிகவும் விலை உயர்ந்தவை, மேலும் தற்போதுள்ள வகைகளுடன் பாரம்பரிய இனப்பெருக்கம் மட்டுமே மேலும் விளைச்சலை அதிகரிக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "உரையில் குறிப்பிடப்பட்ட திசு வளர்ப்பின் ஒரு முக்கியமான பயன்பாடு என்ன?",
+      "options": [
+        "மரபணு மாற்றப்பட்ட விலங்குகளை உருவாக்குவது",
+        "நோய்வாய்ப்பட்ட தாவரங்களிலிருந்து ஆரோக்கியமான தாவரங்களை மீட்டெடுப்பது",
+        "செயற்கை உரங்களை உற்பத்தி செய்வது",
+        "புதிய பூச்சிக்கொல்லிகளை உருவாக்குவது"
+      ],
+      "correct": 1,
+      "explanation": "திசு வளர்ப்பு முறையின் மற்றொரு முக்கியமான பயன்பாடு நோய்வாய்ப்பட்ட தாவரங்களிலிருந்து ஆரோக்கியமான தாவரங்களை மீட்டெடுப்பது. தாவரம் பாதிக்கப்பட்டிருந்தாலும் மெரிஸ்டம் வைரஸ் இல்லாததாக இருப்பதால் இது சாத்தியமாகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "தற்போதுள்ள பயிர் வகைகளுடன் மேலும் விளைச்சலை அதிகரிப்பது குறித்த உரை என்ன கூறுகிறது?",
+      "options": [
+        "அதிக நீருடன் எளிதாக அடையலாம்",
+        "பாரம்பரிய இனப்பெருக்கம் மட்டுமே முடியாது",
+        "கரிம முறைகள் மட்டுமே தேவை",
+        "சரியான பராமரிப்புடன் அளவற்றது"
+      ],
+      "correct": 1,
+      "explanation": "தற்போதுள்ள வகைகளுடன் மேலும் விளைச்சலை அதிகரிப்பது பாரம்பரிய இனப்பெருக்கம் மட்டுமே முடியாது என்று உரை கூறுகிறது, இது மாற்று தொழில்நுட்பமாக திசு வளர்ப்பின் வளர்ச்சிக்கு வழிவகுத்தது."
+    }
+  ]
+}

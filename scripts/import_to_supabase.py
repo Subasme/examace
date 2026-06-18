@@ -9,8 +9,10 @@ Prerequisites:
        SUPABASE_SERVICE_KEY=your-service-role-key
 
 Usage:
-  python scripts/import_to_supabase.py
-  python scripts/import_to_supabase.py --clear   # wipe tables first
+  python scripts/import_to_supabase.py                          # import all, skip existing
+  python scripts/import_to_supabase.py --clear                  # wipe all tables first
+  python scripts/import_to_supabase.py --subjects Chemistry     # replace only Chemistry
+  python scripts/import_to_supabase.py --subjects Chemistry,Biology
 """
 
 from __future__ import annotations
@@ -47,11 +49,13 @@ def get_client():
     return create_client(url, key)
 
 
-def upsert_chapters(sb, manifest: dict) -> None:
+def upsert_chapters(sb, manifest: dict, target_subjects: set | None = None) -> None:
     rows: list[dict] = []
     for lang in manifest.get("languages", []):
         for std in lang.get("standards", []):
             for subj in std.get("subjects", []):
+                if target_subjects and subj["label"] not in target_subjects:
+                    continue
                 for ch in subj.get("chapters", []):
                     rows.append({
                         "language":      lang["label"],
@@ -92,7 +96,17 @@ def insert_chapter_questions(sb, path: Path) -> int:
 
 
 def main() -> int:
-    clear = "--clear" in sys.argv
+    args = sys.argv[1:]
+    clear = "--clear" in args
+
+    # Parse --subjects flag: --subjects Chemistry  or  --subjects Chemistry,Biology
+    target_subjects: set | None = None
+    for arg in args:
+        if arg.startswith("--subjects="):
+            target_subjects = {s.strip() for s in arg.split("=", 1)[1].split(",")}
+        elif arg == "--subjects" and args.index(arg) + 1 < len(args):
+            target_subjects = {s.strip() for s in args[args.index(arg) + 1].split(",")}
+
     sb = get_client()
 
     manifest_path = DATA / "manifest.json"
@@ -107,19 +121,26 @@ def main() -> int:
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 
     if clear:
-        print("Clearing existing data…")
-        # Delete all rows by matching on a column that every row has
+        print("Clearing ALL existing data…")
         sb.table("questions").delete().gt("created_at", "2000-01-01").execute()
         sb.table("chapters").delete().neq("chapter_id", "").execute()
+    elif target_subjects:
+        print(f"Replacing questions for subjects: {', '.join(sorted(target_subjects))}…")
+        for subj in sorted(target_subjects):
+            sb.table("questions").delete().eq("subject", subj).execute()
+            sb.table("chapters").delete().eq("subject", subj).execute()
+            print(f"  Cleared existing {subj} questions.")
 
     print("Upserting chapter catalog…")
-    upsert_chapters(sb, manifest)
+    upsert_chapters(sb, manifest, target_subjects)
 
     print("Importing questions…")
     total = 0
     for lang in manifest.get("languages", []):
         for std in lang.get("standards", []):
             for subj in std.get("subjects", []):
+                if target_subjects and subj["label"] not in target_subjects:
+                    continue
                 for ch in subj.get("chapters", []):
                     p = DATA / lang["label"] / std["id"] / subj["label"] / f"{ch['id']}.json"
                     if p.exists():

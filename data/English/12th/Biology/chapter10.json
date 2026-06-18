@@ -1,0 +1,1753 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 10",
+    "chapterId": "chapter10",
+    "source": "Chapter10.xlsx",
+    "count": 145
+  },
+  "questions": [
+    {
+      "topic": "Chapter 10",
+      "question": "What is the full form of GMO?",
+      "options": [
+        "Genetically Managed Organism",
+        "Genetically Modified Organism",
+        "Genetically Manipulated Organism",
+        "Genetically Mutated Organism"
+      ],
+      "correct": 1,
+      "explanation": "GMO stands for Genetically Modified Organism, which refers to plants, bacteria, fungi, and animals whose genes have been altered by manipulation."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following abiotic stresses can GM crops be made more tolerant to?",
+      "options": [
+        "Only cold and heat",
+        "Only drought and salt",
+        "Cold, drought, salt, and heat",
+        "Only salt and heat"
+      ],
+      "correct": 2,
+      "explanation": "Genetic modification has made crops more tolerant to abiotic stresses including cold, drought, salt, and heat."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Golden rice is an example of GM crop enriched with which vitamin?",
+      "options": [
+        "Vitamin C",
+        "Vitamin B12",
+        "Vitamin A",
+        "Vitamin D"
+      ],
+      "correct": 2,
+      "explanation": "Golden rice is a Vitamin A enriched rice, which is an example of enhanced nutritional value through genetic modification."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt toxin is produced by which bacterium?",
+      "options": [
+        "Bacillus subtilis",
+        "Bacillus thuringiensis",
+        "Escherichia coli",
+        "Agrobacterium tumefaciens"
+      ],
+      "correct": 1,
+      "explanation": "Bt toxin is produced by Bacillus thuringiensis, commonly abbreviated as Bt."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Why does Bt toxin not kill the Bacillus bacteria itself?",
+      "options": [
+        "Because bacteria are resistant to the toxin",
+        "Because the toxin is immature",
+        "Because the toxin exists as inactive protoxin in the bacteria",
+        "Because bacteria enclose toxin in a special sac"
+      ],
+      "correct": 2,
+      "explanation": "The Bt toxin protein exists as inactive protoxins in the bacteria. It is only converted to active form when ingested by insects due to the alkaline pH of their gut."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What causes the conversion of inactive Bt protoxin to active toxin in insects?",
+      "options": [
+        "Acidic pH of the insect gut",
+        "Alkaline pH of the insect gut",
+        "High temperature in the insect body",
+        "Enzymes produced by the bacteria"
+      ],
+      "correct": 1,
+      "explanation": "The alkaline pH of the insect gut solubilizes the crystals and converts the inactive protoxin into active toxin."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "After activation, how does Bt toxin kill the insect?",
+      "options": [
+        "By blocking the insect's nervous system",
+        "By binding to midgut epithelial cells and creating pores",
+        "By producing toxic gases in the gut",
+        "By dissolving the insect's exoskeleton"
+      ],
+      "correct": 1,
+      "explanation": "The activated toxin binds to the surface of midgut epithelial cells and creates pores that cause cell swelling and lysis, eventually causing death."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which cry genes control cotton bollworms?",
+      "options": [
+        "cryIAb only",
+        "cryIAc and cryIIAb",
+        "cryIIAb only",
+        "cryIAb and cryIAc"
+      ],
+      "correct": 1,
+      "explanation": "The proteins encoded by genes cryIAc and cryIIAb control cotton bollworms, while cryIAb controls corn borer."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which insect groups are killed by Bt toxin proteins?",
+      "options": [
+        "Only lepidopterans",
+        "Only coleopterans",
+        "Lepidopterans, coleopterans, and dipterans",
+        "Only dipterans"
+      ],
+      "correct": 2,
+      "explanation": "Some strains of Bacillus thuringiensis produce proteins that kill lepidopterans (tobacco budworm, armyworm), coleopterans (beetles), and dipterans (flies, mosquitoes)."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How do GM pest-resistant plants help reduce environmental harm?",
+      "options": [
+        "By increasing fertilizer use",
+        "By reducing reliance on chemical pesticides",
+        "By requiring more irrigation",
+        "By producing more waste"
+      ],
+      "correct": 1,
+      "explanation": "Genetic modification has reduced reliance on chemical pesticides through pest-resistant crops, thereby minimizing harmful effects on the environment."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How does genetic modification help in maintaining soil fertility?",
+      "options": [
+        "By adding more minerals to soil",
+        "By increasing efficiency of mineral usage by plants",
+        "By removing minerals from soil",
+        "By changing soil pH"
+      ],
+      "correct": 1,
+      "explanation": "GM plants have increased efficiency of mineral usage, which prevents early exhaustion of soil fertility."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Bt cotton is an example of which type of crop?",
+      "options": [
+        "Organic crop",
+        "Genetically modified crop",
+        "Hybrid crop produced by traditional breeding",
+        "Naturally pest-resistant crop"
+      ],
+      "correct": 1,
+      "explanation": "Bt cotton is a genetically modified crop where Bt toxin genes from Bacillus thuringiensis have been incorporated into cotton plants."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is a benefit of genetic modification in agriculture?",
+      "options": [
+        "Increased post-harvest losses",
+        "Reduced post-harvest losses",
+        "No change in post-harvest losses",
+        "Increased use of storage chemicals"
+      ],
+      "correct": 1,
+      "explanation": "Genetic modification has helped to reduce post-harvest losses, which is one of the important benefits of GM crops."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is created when Bt toxin gene is expressed in plants?",
+      "options": [
+        "A chemical pesticide",
+        "A bio-pesticide",
+        "A synthetic fertilizer",
+        "An organic herbicide"
+      ],
+      "correct": 1,
+      "explanation": "When Bt toxin gene is cloned and expressed in plants, it creates a bio-pesticide that provides resistance to insects without chemical insecticides."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is NOT mentioned as a Bt crop in the text?",
+      "options": [
+        "Bt cotton",
+        "Bt corn",
+        "Bt wheat",
+        "Bt potato"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions Bt cotton, Bt corn, rice, tomato, potato, and soyabean as examples, but not Bt wheat."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What does the prefix 'cry' in cryIAc and cryIIAb stand for?",
+      "options": [
+        "Crystal protein genes",
+        "Crying genes",
+        "Cryptic genes",
+        "The text does not specify"
+      ],
+      "correct": 0,
+      "explanation": "The prefix 'cry' refers to crystal protein genes that code for the insecticidal crystal proteins produced by Bacillus thuringiensis."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Besides food production, GM has been used to supply alternative resources to industries in the form of:",
+      "options": [
+        "Only pharmaceuticals",
+        "Starches, fuels, and pharmaceuticals",
+        "Only fuels",
+        "Only starches"
+      ],
+      "correct": 1,
+      "explanation": "GM has been used to create tailor-made plants to supply alternative resources to industries in the form of starches, fuels, and pharmaceuticals."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "During which phase of growth does B. thuringiensis form protein crystals?",
+      "options": [
+        "During exponential growth phase",
+        "During a particular phase of their growth",
+        "Only during spore formation",
+        "Continuously throughout growth"
+      ],
+      "correct": 1,
+      "explanation": "B. thuringiensis forms protein crystals during a particular phase of their growth, which contain the toxic insecticidal protein."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How is the choice of Bt toxin genes determined for different crops?",
+      "options": [
+        "Randomly selected",
+        "Based on the crop and the targeted pest",
+        "Based only on the crop type",
+        "Based only on soil conditions"
+      ],
+      "correct": 1,
+      "explanation": "The choice of genes depends upon the crop and the targeted pest, as most Bt toxins are insect-group specific."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "The cryIAb gene controls which pest?",
+      "options": [
+        "Cotton bollworm",
+        "Corn borer",
+        "Tobacco budworm",
+        "Armyworm"
+      ],
+      "correct": 1,
+      "explanation": "The protein encoded by cryIAb controls corn borer, while cryIAc and cryIIAb control cotton bollworms."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What happens to Bt protoxin when it enters an insect's gut?",
+      "options": [
+        "It remains inactive",
+        "It is destroyed by stomach acids",
+        "It is converted to active toxin by alkaline pH",
+        "It is excreted unchanged"
+      ],
+      "correct": 2,
+      "explanation": "Once an insect ingests the inactive toxin, it is converted into an active form due to the alkaline pH of the gut which solubilizes the crystals."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How many major benefits of GM plants are listed in the text?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correct": 2,
+      "explanation": "The text lists five major benefits: tolerance to abiotic stresses, reduced reliance on pesticides, reduced post-harvest losses, increased mineral usage efficiency, and enhanced nutritional value."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following are examples of lepidopterans targeted by Bt toxin?",
+      "options": [
+        "Beetles and flies",
+        "Tobacco budworm and armyworm",
+        "Mosquitoes and beetles",
+        "Flies and mosquitoes"
+      ],
+      "correct": 1,
+      "explanation": "Lepidopterans include tobacco budworm and armyworm, while beetles are coleopterans and flies/mosquitoes are dipterans."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is presented as a possible solution to minimize harmful effects of fertilizers and chemicals on the environment?",
+      "options": [
+        "Organic agriculture only",
+        "Use of genetically modified crops",
+        "Increased use of pesticides",
+        "Traditional breeding techniques"
+      ],
+      "correct": 1,
+      "explanation": "Use of genetically modified crops is presented as a possible solution to minimize the use of fertilizers and chemicals and reduce their harmful effects."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which organisms can be classified as GMOs according to the text?",
+      "options": [
+        "Only plants",
+        "Only animals",
+        "Plants, bacteria, fungi, and animals",
+        "Only bacteria"
+      ],
+      "correct": 2,
+      "explanation": "Plants, bacteria, fungi, and animals whose genes have been altered by manipulation are called Genetically Modified Organisms."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is NOT listed as an application of biotechnology in the chapter introduction?",
+      "options": [
+        "Therapeutics",
+        "Space exploration",
+        "Bioremediation",
+        "Energy production"
+      ],
+      "correct": 1,
+      "explanation": "The text lists applications of biotechnology as therapeutics, diagnostics, genetically modified crops for agriculture, processed food, bioremediation, waste treatment, and energy production. Space exploration is not mentioned."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What does biotechnology essentially deal with according to the chapter introduction?",
+      "options": [
+        "Only medical treatments",
+        "Industrial scale production of biopharmaceuticals and biologicals using genetically modified organisms",
+        "Only agricultural improvements",
+        "Only waste management"
+      ],
+      "correct": 1,
+      "explanation": "The text clearly states that biotechnology essentially deals with industrial scale production of biopharmaceuticals and biologicals using genetically modified microbes, fungi, plants and animals."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is listed as the first critical research area of biotechnology?",
+      "options": [
+        "Creating optimal conditions through engineering",
+        "Providing the best catalyst in the form of improved organism usually a microbe or pure enzyme",
+        "Downstream processing technologies",
+        "Genetic modification of plants"
+      ],
+      "correct": 1,
+      "explanation": "The three critical research areas are listed as: (i) providing the best catalyst in the form of improved organism usually a microbe or pure enzyme, (ii) creating optimal conditions through engineering, and (iii) downstream processing technologies."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "The Green Revolution succeeded in tripling the food supply but was still not enough because of what reason?",
+      "options": [
+        "The food was of poor quality",
+        "It was not enough to feed the growing human population",
+        "The crops were genetically modified",
+        "Agrochemicals were banned"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the Green Revolution succeeded in tripling the food supply but yet it was not enough to feed the growing human population."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the capacity to generate a whole plant from any cell or explant called?",
+      "options": [
+        "Micro-propagation",
+        "Totipotency",
+        "Somatic hybridisation",
+        "Tissue culture"
+      ],
+      "correct": 1,
+      "explanation": "The text defines totipotency as the capacity to generate a whole plant from any cell or explant. Micro-propagation is the method of producing thousands of plants through tissue culture."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which part of a plant is taken out and grown in a test tube under sterile conditions in tissue culture?",
+      "options": [
+        "Only the root",
+        "Only the leaf",
+        "Any part called an explant",
+        "Only the stem"
+      ],
+      "correct": 2,
+      "explanation": "The text states that whole plants could be regenerated from explants, which is any part of a plant taken out and grown in a test tube under sterile conditions in special nutrient media."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What are the plants produced through micro-propagation called?",
+      "options": [
+        "Genetically modified organisms",
+        "Somaclones",
+        "Transgenic plants",
+        "Hybrid plants"
+      ],
+      "correct": 1,
+      "explanation": "The text states that each of these plants produced through micro-propagation will be genetically identical to the original plant from which they were grown, and they are called somaclones."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is NOT mentioned as a component of the nutrient medium for tissue culture?",
+      "options": [
+        "Sucrose as a carbon source",
+        "Inorganic salts",
+        "Antibiotics",
+        "Growth regulators like auxins and cytokinins"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that the nutrient medium must provide a carbon source such as sucrose and also inorganic salts, vitamins, amino acids and growth regulators like auxins and cytokinins. Antibiotics are not mentioned."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the term for isolated naked protoplasts obtained after digesting plant cell walls?",
+      "options": [
+        "Somatic hybrids",
+        "Explants",
+        "Protoplasts surrounded by plasma membranes",
+        "Somaclones"
+      ],
+      "correct": 2,
+      "explanation": "The text states that after digesting cell walls, scientists have been able to isolate naked protoplasts surrounded by plasma membranes."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the hybrid plant produced by fusing tomato and potato protoplasts called?",
+      "options": [
+        "Tomato-potato",
+        "Pomato",
+        "Potomato",
+        "Hybrid tomato"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that when a protoplast of tomato is fused with that of potato and grown, it results in the formation of pomato."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is listed as the third option for increasing food production?",
+      "options": [
+        "Agro-chemical based agriculture",
+        "Organic agriculture",
+        "Genetically engineered crop-based agriculture",
+        "Hydroponic agriculture"
+      ],
+      "correct": 2,
+      "explanation": "The three options listed for increasing food production are: (i) agro-chemical based agriculture, (ii) organic agriculture, and (iii) genetically engineered crop-based agriculture."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the process called when isolated protoplasts from two different plant varieties are fused?",
+      "options": [
+        "Micro-propagation",
+        "Somatic hybridisation",
+        "Tissue culture",
+        "Gene therapy"
+      ],
+      "correct": 1,
+      "explanation": "The text defines somatic hybridisation as the process where isolated protoplasts from two different varieties of plants are fused to get hybrid protoplasts, which can be grown to form a new plant."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which growth regulators are specifically mentioned as components of the tissue culture medium?",
+      "options": [
+        "Only auxins",
+        "Only cytokinins",
+        "Auxins and cytokinins",
+        "Gibberellins and abscisic acid"
+      ],
+      "correct": 2,
+      "explanation": "The text specifically mentions growth regulators like auxins and cytokinins as components of the nutrient medium for tissue culture."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Why can virus-free plants be obtained from meristem culture even if the plant is infected with a virus?",
+      "options": [
+        "Because viruses cannot enter the meristem",
+        "Because the meristem is free of virus",
+        "Because viruses are killed in the meristem",
+        "Because meristem cells are resistant to viruses"
+      ],
+      "correct": 1,
+      "explanation": "The text states that even if the plant is infected with a virus, the meristem (apical and axillary) is free of virus, hence virus-free plants can be obtained by removing and growing the meristem in vitro."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Why does the Bt toxin not kill the Bacillus thuringiensis bacteria itself?",
+      "options": [
+        "The bacteria are naturally resistant to all toxins",
+        "The toxin exists as an inactive protoxin in the bacteria",
+        "The bacteria enclose the toxin in a protective sac",
+        "The bacterial cell wall prevents toxin entry"
+      ],
+      "correct": 1,
+      "explanation": "The Bt toxin protein exists as inactive protoxins in Bacillus thuringiensis. It only becomes active when ingested by an insect, where the alkaline pH of the gut solubilizes the crystals and converts it into an active toxin."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What happens when the activated Bt toxin binds to the midgut epithelial cells of an insect?",
+      "options": [
+        "It blocks nutrient absorption completely",
+        "It creates pores that cause cell swelling and lysis",
+        "It triggers an immune response in the insect",
+        "It destroys the insect's nervous system"
+      ],
+      "correct": 1,
+      "explanation": "The activated toxin binds to the surface of midgut epithelial cells and creates pores. This causes cell swelling and lysis, eventually leading to the death of the insect."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following groups of insects is NOT mentioned as being killed by Bt toxin proteins?",
+      "options": [
+        "Lepidopterans (tobacco budworm, armyworm)",
+        "Coleopterans (beetles)",
+        "Dipterans (flies, mosquitoes)",
+        "Hymenopterans (bees, wasps)"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions that Bt toxin proteins kill lepidopterans (tobacco budworm, armyworm), coleopterans (beetles), and dipterans (flies, mosquitoes). Hymenopterans are not mentioned in the text."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which cry genes are mentioned as controlling cotton bollworms?",
+      "options": [
+        "cryIAc and cryIAb",
+        "cryIAc and cryIIAb",
+        "cryIIAb and cryIAb",
+        "cryIAc only"
+      ],
+      "correct": 1,
+      "explanation": "The proteins encoded by genes cryIAc and cryIIAb control the cotton bollworms, while cryIAb controls corn borer."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What determines the choice of Bt toxin genes to be incorporated into crop plants?",
+      "options": [
+        "The soil type where the crop is grown",
+        "The crop species and the targeted pest",
+        "The climate of the region",
+        "The size of the farm"
+      ],
+      "correct": 1,
+      "explanation": "The choice of genes depends upon the crop and the targeted pest, as most Bt toxins are insect-group specific."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "In RNA interference (RNAi), what causes the silencing of specific mRNA?",
+      "options": [
+        "A single-stranded RNA molecule binding to mRNA",
+        "A complementary double-stranded RNA (dsRNA) molecule",
+        "A protein enzyme that degrades mRNA",
+        "A DNA molecule that replaces the mRNA"
+      ],
+      "correct": 1,
+      "explanation": "RNAi involves silencing of a specific mRNA due to a complementary dsRNA molecule that binds to and prevents translation of the mRNA."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which nematode is mentioned as infecting tobacco plants and causing reduction in yield?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Meloidogyne incognitia",
+        "Wuchereria bancrofti",
+        "Entamoeba histolytica"
+      ],
+      "correct": 1,
+      "explanation": "Meloidogyne incognitia is the nematode that infects the roots of tobacco plants and causes a great reduction in yield."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the source of complementary RNA that initiates RNAi in eukaryotic organisms?",
+      "options": [
+        "Only from bacterial infections",
+        "From viruses with RNA genomes or mobile genetic elements (transposons)",
+        "Only from fungal infections",
+        "From DNA viruses only"
+      ],
+      "correct": 1,
+      "explanation": "The source of complementary RNA could be from an infection by viruses having RNA genomes or mobile genetic elements (transposons) that replicate via an RNA intermediate."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How are nematode-specific genes introduced into the host plant to create pest resistance?",
+      "options": [
+        "Through direct injection into plant leaves",
+        "Using Agrobacterium vectors",
+        "By spraying a chemical solution on the plant",
+        "Through natural pollination"
+      ],
+      "correct": 1,
+      "explanation": "Using Agrobacterium vectors, nematode-specific genes were introduced into the host plant to produce both sense and anti-sense RNA."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is formed when sense RNA and anti-sense RNA, being complementary to each other, come together in the host cells?",
+      "options": [
+        "A single-stranded RNA molecule",
+        "A double-stranded RNA (dsRNA) molecule",
+        "A DNA-RNA hybrid molecule",
+        "A protein molecule"
+      ],
+      "correct": 1,
+      "explanation": "Sense and anti-sense RNA being complementary to each other form a double-stranded (dsRNA) that initiates RNAi and silences the specific mRNA of the nematode."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the consequence of RNAi in the transgenic host plant expressing specific interfering RNA?",
+      "options": [
+        "The plant becomes more susceptible to the nematode",
+        "The parasite cannot survive in the transgenic host",
+        "The plant grows faster than normal",
+        "The nematode develops resistance to the plant"
+      ],
+      "correct": 1,
+      "explanation": "The parasite could not survive in a transgenic host expressing specific interfering RNA, so the transgenic plant gets itself protected from the parasite."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What condition in the insect gut is responsible for converting the inactive Bt protoxin into its active form?",
+      "options": [
+        "Acidic pH of the gut",
+        "Alkaline pH of the gut that solubilizes the crystals",
+        "Neutral pH of the gut",
+        "High temperature in the gut"
+      ],
+      "correct": 1,
+      "explanation": "The inactive toxin is converted into an active form due to the alkaline pH of the gut which solubilizes the crystals. The activated toxin then binds to midgut cells."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is a major advantage of recombinant therapeutics over products isolated from non-human sources?",
+      "options": [
+        "They are less expensive to produce",
+        "They do not induce unwanted immunological responses",
+        "They require no purification process",
+        "They can be stored at room temperature"
+      ],
+      "correct": 1,
+      "explanation": "Recombinant therapeutics do not induce unwanted immunological responses as is common in case of similar products isolated from non-human sources."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How many recombinant therapeutics have been approved for human use worldwide according to the text?",
+      "options": [
+        "About 12",
+        "About 20",
+        "About 30",
+        "About 50"
+      ],
+      "correct": 2,
+      "explanation": "At present, about 30 recombinant therapeutics have been approved for human-use the world over."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "From which animal sources was insulin historically extracted before recombinant DNA technology?",
+      "options": [
+        "Sheep and goats",
+        "Cattle and pigs",
+        "Horses and dogs",
+        "Rabbits and chickens"
+      ],
+      "correct": 1,
+      "explanation": "Insulin used for diabetes was earlier extracted from pancreas of slaughtered cattle and pigs."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What problem did some patients develop when using insulin from animal sources?",
+      "options": [
+        "They developed diabetes type 2",
+        "They developed allergy or reactions to the foreign protein",
+        "They became resistant to insulin",
+        "They suffered from liver damage"
+      ],
+      "correct": 1,
+      "explanation": "Insulin from an animal source, though caused some patients to develop allergy or other types of reactions to the foreign protein."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Insulin consists of how many polypeptide chains and what are they called?",
+      "options": [
+        "One polypeptide chain called the insulin chain",
+        "Two polypeptide chains called chain A and chain B",
+        "Three polypeptide chains called A, B, and C",
+        "Four polypeptide chains called alpha, beta, gamma, and delta"
+      ],
+      "correct": 1,
+      "explanation": "Insulin consists of two short polypeptide chains: chain A and chain B, that are linked together by disulphide bridges."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the extra stretch present in the pro-hormone form of insulin called?",
+      "options": [
+        "A peptide",
+        "B peptide",
+        "C peptide",
+        "D peptide"
+      ],
+      "correct": 2,
+      "explanation": "In mammals, insulin is synthesised as a pro-hormone which contains an extra stretch called the C peptide. This C peptide is not present in the mature insulin."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What was the main challenge in producing insulin using recombinant DNA techniques?",
+      "options": [
+        "Finding the right bacterial strain",
+        "Getting insulin assembled into a mature form",
+        "Obtaining the DNA sequences from human cells",
+        "Preventing bacterial contamination"
+      ],
+      "correct": 1,
+      "explanation": "The main challenge for production of insulin using rDNA techniques was getting insulin assembled into a mature form."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "In 1983, what did Eli Lilly company do to produce human insulin using bacteria?",
+      "options": [
+        "They extracted insulin directly from human pancreas",
+        "They prepared two DNA sequences for A and B chains and introduced them into E.coli plasmids",
+        "They synthesized insulin chemically in the laboratory",
+        "They used yeast cells instead of bacteria"
+      ],
+      "correct": 1,
+      "explanation": "In 1983, Eli Lilly prepared two DNA sequences corresponding to A and B chains of human insulin and introduced them in plasmids of E.coli to produce insulin chains."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is gene therapy fundamentally attempting to achieve?",
+      "options": [
+        "To replace all genes in a person's body",
+        "To correct a gene defect that has been diagnosed in a child or embryo",
+        "To create new species of organisms",
+        "To eliminate all genetic diseases from the population"
+      ],
+      "correct": 1,
+      "explanation": "Gene therapy is a collection of methods that allows correction of a gene defect that has been diagnosed in a child or embryo. Here genes are inserted into a person's cells and tissues to treat a disease."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What was the first clinical gene therapy given in 1990 used to treat?",
+      "options": [
+        "Cystic fibrosis",
+        "Adenosine deaminase (ADA) deficiency",
+        "Diabetes mellitus",
+        "Sickle cell anemia"
+      ],
+      "correct": 1,
+      "explanation": "The first clinical gene therapy was given in 1990 to a 4-year old girl with adenosine deaminase (ADA) deficiency. This enzyme is crucial for the immune system to function."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What causes ADA deficiency disorder?",
+      "options": [
+        "Viral infection",
+        "Deletion of the gene for adenosine deaminase",
+        "Bacterial infection",
+        "Autoimmune attack on the enzyme"
+      ],
+      "correct": 1,
+      "explanation": "The disorder is caused due to the deletion of the gene for adenosine deaminase. This enzyme is crucial for the immune system to function."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is NOT mentioned as a treatment approach for ADA deficiency?",
+      "options": [
+        "Bone marrow transplantation",
+        "Enzyme replacement therapy",
+        "Radiation therapy",
+        "Gene therapy using lymphocytes"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions bone marrow transplantation, enzyme replacement therapy, and gene therapy using lymphocytes. Radiation therapy is not mentioned."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Why does the patient require periodic infusion of genetically engineered lymphocytes in ADA gene therapy?",
+      "options": [
+        "Because the lymphocytes are rejected by the immune system",
+        "Because these cells are not immortal and die over time",
+        "Because the retroviral vector becomes inactive",
+        "Because the ADA enzyme breaks down quickly"
+      ],
+      "correct": 1,
+      "explanation": "As these cells are not immortal, the patient requires periodic infusion of such genetically engineered lymphocytes."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What could be a permanent cure for ADA deficiency according to the text?",
+      "options": [
+        "Repeated bone marrow transplants throughout life",
+        "Introducing the gene from marrow cells into cells at early embryonic stages",
+        "Daily injections of functional ADA enzyme",
+        "Complete removal of the thymus gland"
+      ],
+      "correct": 1,
+      "explanation": "If the gene isolate from marrow cells producing ADA is introduced into cells at early embryonic stages, it could be a permanent cure."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What defines a transgenic animal?",
+      "options": [
+        "An animal with a naturally occurring genetic mutation",
+        "An animal whose DNA has been manipulated to possess and express an extra foreign gene",
+        "An animal produced only through selective breeding",
+        "An animal with enhanced physical strength through genetic modification"
+      ],
+      "correct": 1,
+      "explanation": "Transgenic animals are defined as animals that have had their DNA manipulated to possess and express an extra (foreign) gene. This is achieved through recombinant DNA technology."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What percentage of all existing transgenic animals are mice?",
+      "options": [
+        "Over 50%",
+        "Over 75%",
+        "Over 95%",
+        "Over 99%"
+      ],
+      "correct": 2,
+      "explanation": "The text states that although transgenic rats, rabbits, pigs, sheep, cows and fish have been produced, over 95 per cent of all existing transgenic animals are mice."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How do transgenic animals help in studying normal physiology and development?",
+      "options": [
+        "By replacing all natural genes with synthetic ones",
+        "By introducing genes from other species to study biological effects of growth factors",
+        "By removing all growth factors from the animal",
+        "By preventing the animal from developing normally"
+      ],
+      "correct": 1,
+      "explanation": "Transgenic animals are designed to study how genes are regulated and how they affect normal body functions and development. By introducing genes from other species that alter the formation of factors like insulin-like growth factor, scientists can study the resulting biological effects."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following human diseases does NOT have a transgenic model mentioned in the text?",
+      "options": [
+        "Cancer",
+        "Cystic fibrosis",
+        "Rheumatoid arthritis",
+        "Malaria"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions transgenic models exist for cancer, cystic fibrosis, rheumatoid arthritis and Alzheimer's disease. Malaria is not mentioned as having a transgenic model."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which human protein produced in transgenic animals is used to treat emphysema?",
+      "options": [
+        "Insulin",
+        "Alpha-1-antitrypsin",
+        "Growth hormone",
+        "Hemoglobin"
+      ],
+      "correct": 1,
+      "explanation": "Transgenic animals can produce useful biological products such as human protein alpha-1-antitrypsin, which is used to treat emphysema. Similar attempts are being made for phenylketonuria (PKU) and cystic fibrosis."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What was special about the milk produced by the first transgenic cow Rosie in 1997?",
+      "options": [
+        "It contained antibiotics",
+        "It was lactose-free",
+        "It contained human alpha-lactalbumin (2.4g/L) and was nutritionally balanced for babies",
+        "It had a longer shelf life"
+      ],
+      "correct": 2,
+      "explanation": "In 1997, the first transgenic cow Rosie produced human protein-enriched milk (2.4 grams per litre). The milk contained the human alpha-lactalbumin and was nutritionally a more balanced product for human babies than natural cow milk."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which transgenic animal is being developed to test the safety of the polio vaccine?",
+      "options": [
+        "Transgenic rats",
+        "Transgenic rabbits",
+        "Transgenic mice",
+        "Transgenic pigs"
+      ],
+      "correct": 2,
+      "explanation": "Transgenic mice are being developed for use in testing the safety of vaccines before they are used on humans. They are specifically being used to test the safety of the polio vaccine and could replace the use of monkeys."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What makes transgenic animals particularly useful for chemical safety testing?",
+      "options": [
+        "They are immune to all toxic substances",
+        "They carry genes making them more sensitive to toxic substances than non-transgenic animals",
+        "They can break down toxins faster",
+        "They do not require ethical approval"
+      ],
+      "correct": 1,
+      "explanation": "Transgenic animals are made to carry genes which make them more sensitive to toxic substances than non-transgenic animals. They are exposed to toxic substances and the effects are studied, allowing results to be obtained in less time."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Why does the text state that manipulation of living organisms cannot continue without regulation?",
+      "options": [
+        "Because it is too expensive",
+        "Because genetic modification can have unpredictable results when introduced into the ecosystem",
+        "Because it requires too much laboratory space",
+        "Because animals do not survive the process"
+      ],
+      "correct": 1,
+      "explanation": "The text states that genetic modification of organisms can have unpredictable results when such organisms are introduced into the ecosystem. Therefore, ethical standards and regulatory bodies like GEAC are needed to evaluate the morality and safety of such activities."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the full form of GEAC mentioned in the text?",
+      "options": [
+        "Genetic Engineering Assessment Committee",
+        "Genetic Engineering Approval Committee",
+        "Genetic and Environmental Advisory Council",
+        "Genome Editing Approval Commission"
+      ],
+      "correct": 1,
+      "explanation": "GEAC stands for Genetic Engineering Approval Committee. It was set up by the Indian Government to make decisions regarding the validity of GM research and the safety of introducing GM-organisms for public services."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What happened in 1997 regarding Basmati rice that caused concern?",
+      "options": [
+        "India banned all exports of Basmati rice",
+        "An American company got patent rights on Basmati rice through the US Patent and Trademark Office",
+        "Basmati rice became extinct",
+        "All Basmati varieties were genetically modified"
+      ],
+      "correct": 1,
+      "explanation": "In 1997, an American company got patent rights on Basmati rice through the US Patent and Trademark Office. This allowed them to sell a 'new' variety derived from Indian farmers' varieties, claiming it as an invention."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the term used to refer to the use of bio-resources by multinational companies without proper authorization and compensatory payment?",
+      "options": [
+        "Bioethics",
+        "Bioprospecting",
+        "Biopiracy",
+        "Bioremediation"
+      ],
+      "correct": 2,
+      "explanation": "Biopiracy is the term used to refer to the use of bio-resources by multinational companies and other organisations without proper authorisation from the countries and people concerned without compensatory payment."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "According to the text, how do industrialized nations and developing countries differ in terms of biodiversity and traditional knowledge?",
+      "options": [
+        "Industrialized nations are rich in both biodiversity and traditional knowledge",
+        "Developing countries are rich in biodiversity and traditional knowledge, while industrialized nations are poor in these but rich financially",
+        "Both have equal levels of biodiversity and financial resources",
+        "Developing countries have no traditional knowledge"
+      ],
+      "correct": 1,
+      "explanation": "The text states that most industrialized nations are rich financially but poor in biodiversity and traditional knowledge. In contrast, the developing and underdeveloped world is rich in biodiversity and traditional knowledge related to bio-resources."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What legislative action has India taken to address issues related to biopiracy and patents?",
+      "options": [
+        "Banned all foreign companies from operating in India",
+        "Cleared the second amendment of the Indian Patents Bill considering patent terms, emergency provisions, and R&D initiatives",
+        "Nationalized all traditional medicine knowledge",
+        "Eliminated the patent system entirely"
+      ],
+      "correct": 1,
+      "explanation": "The Indian Parliament has recently cleared the second amendment of the Indian Patents Bill, that takes issues like biopiracy into consideration, including patent terms of emergency provisions, research, and development initiatives."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "According to the chapter summary, what has biotechnology enabled humans to produce using microbes, plants, animals and their metabolic machinery?",
+      "options": [
+        "Only synthetic chemicals",
+        "Several useful products",
+        "Only genetically modified seeds",
+        "Only pharmaceutical drugs"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that biotechnology has given to humans several useful products by using microbes, plants, animals and their metabolic machinery."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What potential do techniques of tissue culture and somatic hybridisation offer according to the summary?",
+      "options": [
+        "They can only produce identical clones of existing plants",
+        "They offer vast potential for manipulation of plants in vitro to produce new varieties",
+        "They are only useful for producing virus-free plants",
+        "They can only be used on animal cells"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that techniques of tissue culture and somatic hybridisation offer vast potential for manipulation of plants in vitro to produce new varieties."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What has recombinant DNA technology made possible according to the chapter summary?",
+      "options": [
+        "Only gene sequencing",
+        "Engineering microbes, plants and animals to have novel capabilities",
+        "Only DNA replication in test tubes",
+        "Only protein synthesis"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that recombinant DNA technology has made it possible to engineer microbes, plants and animals such that they have novel capabilities."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How are Genetically Modified Organisms (GMOs) created according to the summary?",
+      "options": [
+        "By natural breeding methods only",
+        "By using methods other than natural methods to transfer one or more genes using recombinant DNA techniques",
+        "By exposing organisms to radiation",
+        "By selective breeding over many generations"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that GMOs have been created by using methods other than natural methods to transfer one or more genes from one organism to another, generally using techniques such as recombinant DNA techniques."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is NOT mentioned as a benefit of GM plants in the summary?",
+      "options": [
+        "Increasing crop yields",
+        "Reducing postharvest losses",
+        "Making crops more tolerant of stresses",
+        "Eliminating the need for sunlight"
+      ],
+      "correct": 3,
+      "explanation": "The summary mentions that GM plants have been useful in increasing crop yields, reducing postharvest losses and making crops more tolerant of stresses. Eliminating the need for sunlight is not mentioned."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Why do recombinant therapeutics not induce unwanted immunological responses?",
+      "options": [
+        "Because they are made from animal proteins",
+        "Because they are identical to human proteins",
+        "Because they contain antibiotics",
+        "Because they are administered intravenously"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that since recombinant therapeutics are identical to human proteins, they do not induce unwanted immunological responses and are free from risk of infection as was observed in case of similar products isolated from non-human sources."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is stated about human insulin produced using recombinant DNA technology?",
+      "options": [
+        "It is different from natural insulin in structure",
+        "Its structure is absolutely identical to that of natural insulin",
+        "It is less effective than natural insulin",
+        "It causes more allergic reactions than animal insulin"
+      ],
+      "correct": 1,
+      "explanation": "The summary explicitly states that human insulin is made in bacteria yet its structure is absolutely identical to that of the natural insulin."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How do transgenic animals serve as models for human diseases according to the summary?",
+      "options": [
+        "By being immune to all diseases",
+        "By understanding how genes contribute to disease development",
+        "By producing vaccines for human diseases",
+        "By replacing human organs"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that transgenic animals are used to understand how genes contribute to the development of a disease by serving as models for human diseases such as cancer, cystic fibrosis, rheumatoid arthritis and Alzheimer's."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is gene therapy according to the summary?",
+      "options": [
+        "The removal of all defective genes from the body",
+        "The insertion of genes into an individual's cells and tissues to treat diseases especially hereditary diseases",
+        "The replacement of all cells in the body",
+        "The use of antibiotics to treat genetic disorders"
+      ],
+      "correct": 1,
+      "explanation": "The summary defines gene therapy as the insertion of genes into an individual's cells and tissues to treat diseases especially hereditary diseases, by replacing a defective mutant allele with a functional one."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What role do viruses play in gene therapy according to the summary?",
+      "options": [
+        "They cause the disease being treated",
+        "They are used as vectors to transfer healthy genes or portions of genes",
+        "They are completely eliminated from the body",
+        "They are used to destroy defective genes"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that viruses that attack their hosts and introduce their genetic material into the host cell as part of their replication cycle are used as vectors to transfer healthy genes or more recently portions of genes."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which part of the plant is best suited for making virus-free plants and why?",
+      "options": [
+        "Leaves because they have the highest chlorophyll content",
+        "Meristem (apical and axillary) because it is free of virus even if the plant is infected",
+        "Roots because they are underground and protected",
+        "Flowers because they have the most active cells"
+      ],
+      "correct": 1,
+      "explanation": "Even if the plant is infected with a virus, the meristem (apical and axillary) is free of virus. Hence one can remove the meristem and grow it in vitro to obtain virus-free plants."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the major advantage of producing plants by micropropagation?",
+      "options": [
+        "The plants are genetically different from the original plant",
+        "Thousands of genetically identical plants (somaclones) can be produced in very short durations",
+        "The plants grow much larger than normal",
+        "The plants do not require any nutrients"
+      ],
+      "correct": 1,
+      "explanation": "Micropropagation is the method of producing thousands of plants through tissue culture. Each plant will be genetically identical to the original plant from which they were grown, i.e., they are somaclones. This allows propagation of a large number of plants in very short durations."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Crystals of Bt toxin produced by some bacteria do not kill the bacteria themselves because?",
+      "options": [
+        "Bacteria are resistant to the toxin",
+        "The toxin is immature",
+        "The toxin is inactive",
+        "Bacteria enclose toxin in a special sac"
+      ],
+      "correct": 2,
+      "explanation": "The Bt toxin protein exists as inactive protoxins in the bacteria. It only becomes active when an insect ingests the inactive toxin, where the alkaline pH of the gut solubilizes the crystals and converts it into an active toxin."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is NOT mentioned as a component of the medium used for in vitro propagation of an explant?",
+      "options": [
+        "Carbon source such as sucrose",
+        "Inorganic salts",
+        "Vitamins and amino acids",
+        "Antibiotics to kill bacteria"
+      ],
+      "correct": 3,
+      "explanation": "The nutrient medium must provide a carbon source such as sucrose and also inorganic salts, vitamins, amino acids and growth regulators like auxins, cytokinins etc. Antibiotics are not mentioned as a required component."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How many varieties of rice are estimated to exist in India alone?",
+      "options": [
+        "Approximately 50,000",
+        "Approximately 100,000",
+        "Approximately 200,000",
+        "Approximately 500,000"
+      ],
+      "correct": 2,
+      "explanation": "The text states that there are an estimated 200,000 varieties of rice in India alone. This highlights the incredible diversity of rice in the country."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What makes Basmati rice distinct from other rice varieties?",
+      "options": [
+        "Its high protein content",
+        "Its unique aroma and flavour",
+        "Its bright red color",
+        "Its ability to grow in cold climates"
+      ],
+      "correct": 1,
+      "explanation": "Basmati rice is distinct for its unique aroma and flavour. This characteristic has made it valuable and famous worldwide for centuries."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How many documented varieties of Basmati are grown in India?",
+      "options": [
+        "10",
+        "17",
+        "27",
+        "50"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that 27 documented varieties of Basmati are grown in India. These varieties have been cultivated for centuries and referenced in ancient texts, folklore and poetry."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "In which year did an American company obtain patent rights on Basmati rice through the US Patent and Trademark Office?",
+      "options": [
+        "1990",
+        "1995",
+        "1997",
+        "2000"
+      ],
+      "correct": 2,
+      "explanation": "In 1997, an American company got patent rights on Basmati rice through the US Patent and Trademark Office. This was a significant event that raised concerns about biopiracy."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What was the true origin of the 'new' Basmati variety patented by the American company?",
+      "options": [
+        "It was developed entirely in American laboratories",
+        "It was derived from Indian farmer's varieties by crossing with semi-dwarf varieties",
+        "It was discovered growing wild in the United States",
+        "It was created through genetic modification using bacterial genes"
+      ],
+      "correct": 1,
+      "explanation": "The 'new' variety of Basmati had actually been derived from Indian farmer's varieties. Indian Basmati was crossed with semi-dwarf varieties and claimed as an invention or novelty."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What does the patent extension to functional equivalents imply for Basmati rice sellers?",
+      "options": [
+        "They can sell Basmati freely without any restrictions",
+        "Other people selling Basmati rice could be restricted by the patent",
+        "Only Indian farmers can sell Basmati rice",
+        "The patent only applies within the United States"
+      ],
+      "correct": 1,
+      "explanation": "The patent extends to functional equivalents, implying that other people selling Basmati rice could be restricted by the patent. This creates a monopoly over a traditional Indian crop."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which traditional Indian herbal medicines have faced attempts to patent their uses, products and processes?",
+      "options": [
+        "Ashwagandha and Brahmi",
+        "Turmeric and neem",
+        "Ginger and garlic",
+        "Tulsi and aloe vera"
+      ],
+      "correct": 1,
+      "explanation": "Several attempts have been made to patent uses, products and processes based on Indian traditional herbal medicines, such as turmeric and neem. These are part of India's rich traditional knowledge."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is biopiracy?",
+      "options": [
+        "The illegal hunting of endangered animals",
+        "The use of bio-resources by multinational companies without proper authorisation and compensatory payment",
+        "The unauthorized release of genetically modified organisms into the environment",
+        "The theft of laboratory equipment from research institutions"
+      ],
+      "correct": 1,
+      "explanation": "Biopiracy is the term used to refer to the use of bio-resources by multinational companies and other organisations without proper authorisation from the countries and people concerned without compensatory payment."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "According to the text, what is the relationship between financial wealth and biodiversity in industrialized versus developing nations?",
+      "options": [
+        "Industrialized nations are rich in both financial wealth and biodiversity",
+        "Developing nations are poor in both financial wealth and biodiversity",
+        "Industrialized nations are rich financially but poor in biodiversity, while developing nations are the opposite",
+        "All nations have equal levels of financial wealth and biodiversity"
+      ],
+      "correct": 2,
+      "explanation": "Most industrialised nations are rich financially but poor in biodiversity and traditional knowledge. In contrast, the developing and underdeveloped world is rich in biodiversity and traditional knowledge related to bio-resources."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How can traditional knowledge related to bio-resources be exploited for modern applications?",
+      "options": [
+        "It can only be used for historical documentation",
+        "It can save time, effort and expenditure during commercialisation of modern applications",
+        "It has no value in modern science",
+        "It can only be used by indigenous communities"
+      ],
+      "correct": 1,
+      "explanation": "Traditional knowledge related to bio-resources can be exploited to develop modern applications and can also be used to save time, effort and expenditure during their commercialisation."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What growing realisation has emerged regarding the relationship between developed and developing countries in terms of bio-resources?",
+      "options": [
+        "Developed countries should stop all research on bio-resources",
+        "There is injustice, inadequate compensation, and lack of benefit sharing between developed and developing countries",
+        "Developing countries have no valuable bio-resources",
+        "All bio-resources should be owned by international organizations"
+      ],
+      "correct": 1,
+      "explanation": "There has been growing realisation of the injustice, inadequate compensation, and benefit sharing between developed and developing countries regarding the use of bio-resources and traditional knowledge."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What recent legislative action has the Indian Parliament taken to address biopiracy and patent issues?",
+      "options": [
+        "Banned all foreign companies from patenting Indian bio-resources",
+        "Cleared the second amendment of the Indian Patents Bill considering emergency provisions, research and development initiatives",
+        "Nationalized all traditional knowledge under government control",
+        "Eliminated the patent system completely in India"
+      ],
+      "correct": 1,
+      "explanation": "The Indian Parliament has recently cleared the second amendment of the Indian Patents Bill, that takes such issues into consideration, including patent terms of emergency provisions, research, and development initiatives."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is tissue culture in the context of plant biotechnology?",
+      "options": [
+        "Growing whole plants from seeds in natural soil",
+        "Regenerating whole plants from explants grown in a test tube under sterile conditions in special nutrient media",
+        "Cross-breeding two different plant varieties to produce hybrids",
+        "Applying chemical fertilizers to enhance plant growth"
+      ],
+      "correct": 1,
+      "explanation": "Tissue culture refers to the technique where whole plants can be regenerated from explants (any part of a plant taken out) and grown in a test tube under sterile conditions in special nutrient media. This was discovered by scientists during the 1950s."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the capacity to generate a whole plant from any cell or explant called?",
+      "options": [
+        "Photosynthesis",
+        "Totipotency",
+        "Germination",
+        "Fertilization"
+      ],
+      "correct": 1,
+      "explanation": "The capacity to generate a whole plant from any cell or explant is called totipotency. This is the fundamental principle behind tissue culture and micropropagation techniques."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is NOT mentioned as a component of the nutrient medium for tissue culture?",
+      "options": [
+        "Sucrose as a carbon source",
+        "Inorganic salts",
+        "Vitamins and amino acids",
+        "Soil and natural sunlight"
+      ],
+      "correct": 3,
+      "explanation": "The nutrient medium must provide a carbon source such as sucrose, inorganic salts, vitamins, amino acids, and growth regulators like auxins and cytokinins. Soil and natural sunlight are not mentioned as components of the nutrient medium for in vitro tissue culture."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the method of producing thousands of plants through tissue culture called?",
+      "options": [
+        "Hybridization",
+        "Micropropagation",
+        "Grafting",
+        "Layering"
+      ],
+      "correct": 1,
+      "explanation": "The method of producing thousands of plants through tissue culture is called micropropagation. This method allows propagation of a large number of plants in very short durations."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What are the plants produced through micropropagation called if they are genetically identical to the original plant?",
+      "options": [
+        "Hybrids",
+        "Somaclones",
+        "Mutants",
+        "Transgenics"
+      ],
+      "correct": 1,
+      "explanation": "Each of the plants produced through micropropagation will be genetically identical to the original plant from which they were grown. These are called somaclones."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following food plants has been produced on commercial scale using micropropagation?",
+      "options": [
+        "Wheat and barley",
+        "Tomato, banana, and apple",
+        "Rice and maize",
+        "Sugarcane and jute"
+      ],
+      "correct": 1,
+      "explanation": "Many important food plants like tomato, banana, apple, etc. have been produced on commercial scale using micropropagation."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Why is the meristem preferred for producing virus-free plants through tissue culture?",
+      "options": [
+        "Because it grows faster than other parts",
+        "Because it is free of virus even if the plant is infected",
+        "Because it contains more nutrients",
+        "Because it is easier to extract"
+      ],
+      "correct": 1,
+      "explanation": "Even if the plant is infected with a virus, the meristem (apical and axillary) is free of virus. Hence, one can remove the meristem and grow it in vitro to obtain virus-free plants."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which plants have scientists succeeded in culturing meristems for virus-free propagation?",
+      "options": [
+        "Wheat, rice, and maize",
+        "Banana, sugarcane, and potato",
+        "Tomato, brinjal, and okra",
+        "Cotton, jute, and flax"
+      ],
+      "correct": 1,
+      "explanation": "Scientists have succeeded in culturing meristems of banana, sugarcane, and potato to produce virus-free plants through tissue culture."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What are naked protoplasts?",
+      "options": [
+        "Plant cells with thick cell walls",
+        "Plant cells surrounded by plasma membranes after cell wall digestion",
+        "Bacterial cells without cell walls",
+        "Animal cells with removed membranes"
+      ],
+      "correct": 1,
+      "explanation": "Scientists have isolated single cells from plants and after digesting their cell walls have been able to isolate naked protoplasts which are surrounded by plasma membranes."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is somatic hybridization?",
+      "options": [
+        "Cross-pollination between two plant species",
+        "Fusion of isolated protoplasts from two different plant varieties to form hybrid protoplasts",
+        "Grafting of two different plant stems",
+        "Seed germination under laboratory conditions"
+      ],
+      "correct": 1,
+      "explanation": "Isolated protoplasts from two different varieties of plants, each having a desirable character, can be fused to get hybrid protoplasts, which can be further grown to form a new plant. This process is called somatic hybridization."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What are the hybrids produced through somatic hybridization called?",
+      "options": [
+        "Genetic hybrids",
+        "Somatic hybrids",
+        "Natural hybrids",
+        "Artificial mutants"
+      ],
+      "correct": 1,
+      "explanation": "The hybrids produced through somatic hybridization are called somatic hybrids. An example mentioned is the pomato, formed by fusing tomato and potato protoplasts."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What was the result of fusing tomato and potato protoplasts?",
+      "options": [
+        "A commercially successful hybrid called pomato",
+        "A hybrid plant called pomato that did not have all desired characteristics for commercial use",
+        "A completely unsuccessful experiment with no plant formation",
+        "A new species of wild plant"
+      ],
+      "correct": 1,
+      "explanation": "A protoplast of tomato fused with that of potato resulted in the formation of pomato. Unfortunately, this plant did not have all the desired combination of characteristics for its commercial utilization."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What are the three options mentioned for increasing food production?",
+      "options": [
+        "Hydroponics, aeroponics, and aquaponics",
+        "Agro-chemical based agriculture, organic agriculture, and genetically engineered crop-based agriculture",
+        "Traditional farming, mechanized farming, and vertical farming",
+        "Irrigation, fertilization, and pest control"
+      ],
+      "correct": 1,
+      "explanation": "The three options mentioned for increasing food production are: (i) agro-chemical based agriculture, (ii) organic agriculture, and (iii) genetically engineered crop-based agriculture."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What was the main reason for the success of the Green Revolution in tripling food supply?",
+      "options": [
+        "Only improved crop varieties",
+        "Mainly due to better management practices and use of agrochemicals",
+        "Only organic farming methods",
+        "Only genetically modified crops"
+      ],
+      "correct": 1,
+      "explanation": "Increased yields have partly been due to the use of improved crop varieties, but mainly due to the use of better management practices and use of agrochemicals (fertilisers and pesticides)."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Why did traditional breeding techniques fail to keep pace with demand for crop improvement?",
+      "options": [
+        "They were too expensive",
+        "They did not provide sufficiently fast and efficient systems",
+        "They required too much water",
+        "They only worked on fruit crops"
+      ],
+      "correct": 1,
+      "explanation": "Traditional breeding techniques failed to keep pace with demand and to provide sufficiently fast and efficient systems for crop improvement, which led to the development of tissue culture technology."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which growth regulators are mentioned as components of the nutrient medium?",
+      "options": [
+        "Gibberellins and abscisic acid",
+        "Auxins and cytokinins",
+        "Ethylene and brassinosteroids",
+        "Jasmonic acid and salicylic acid"
+      ],
+      "correct": 1,
+      "explanation": "The nutrient medium must provide growth regulators like auxins and cytokinins, along with a carbon source such as sucrose, inorganic salts, vitamins, and amino acids."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is an explant in tissue culture?",
+      "options": [
+        "A type of chemical fertilizer",
+        "Any part of a plant taken out and grown in a test tube under sterile conditions",
+        "A type of virus that infects plants",
+        "A growth hormone used in plant culture"
+      ],
+      "correct": 1,
+      "explanation": "An explant is any part of a plant taken out and grown in a test tube under sterile conditions in special nutrient media. This was discovered by scientists during the 1950s."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is a major challenge for farmers in developing countries regarding agrochemicals?",
+      "options": [
+        "They are too cheap and ineffective",
+        "They are often too expensive",
+        "They are banned by the government",
+        "They are only available in liquid form"
+      ],
+      "correct": 1,
+      "explanation": "For farmers in the developing world, agrochemicals are often too expensive, and further increases in yield with existing varieties are not possible using conventional breeding alone."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is a key application of tissue culture mentioned in the text?",
+      "options": [
+        "Creating genetically modified animals",
+        "Recovery of healthy plants from diseased plants",
+        "Production of synthetic fertilizers",
+        "Development of new pesticides"
+      ],
+      "correct": 1,
+      "explanation": "Another important application of the tissue culture method is the recovery of healthy plants from diseased plants. This is possible because the meristem is free of virus even if the plant is infected."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What does the text suggest about further yield increases with existing crop varieties?",
+      "options": [
+        "They can be achieved easily with more water",
+        "They are not possible using conventional breeding alone",
+        "They require only organic methods",
+        "They are unlimited with proper care"
+      ],
+      "correct": 1,
+      "explanation": "The text states that further increases in yield with existing varieties are not possible using conventional breeding alone, which led to the development of tissue culture as an alternative technology."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which bacterium produces the Bt toxin used in genetically modified crops?",
+      "options": [
+        "Bacillus subtilis",
+        "Bacillus thuringiensis",
+        "Escherichia coli",
+        "Agrobacterium tumefaciens"
+      ],
+      "correct": 1,
+      "explanation": "Bt toxin is produced by Bacillus thuringiensis, a soil bacterium. The cry genes from this bacterium are inserted into crop plants to make them insect-resistant."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Why does the Bt toxin not kill the Bacillus thuringiensis bacteria itself?",
+      "options": [
+        "The bacteria are naturally resistant to the toxin",
+        "The toxin is enclosed in a special protective sac",
+        "The toxin exists as inactive protoxin in the bacteria",
+        "The bacteria have enzymes that destroy the toxin"
+      ],
+      "correct": 2,
+      "explanation": "The Bt toxin protein exists as inactive protoxin in the bacteria. It becomes active only in the alkaline gut of insects after ingestion."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What happens when an insect ingests the inactive Bt toxin?",
+      "options": [
+        "It is immediately destroyed by stomach acids",
+        "It is converted to active toxin due to alkaline pH of the gut",
+        "It passes through the digestive system unchanged",
+        "It binds to bacterial cell walls"
+      ],
+      "correct": 1,
+      "explanation": "Once an insect ingests the inactive toxin, it is converted into an active form due to the alkaline pH of the gut which solubilizes the crystals."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "The activated Bt toxin binds to which cells of the insect to cause death?",
+      "options": [
+        "Nerve cells",
+        "Muscle cells",
+        "Midgut epithelial cells",
+        "Salivary gland cells"
+      ],
+      "correct": 2,
+      "explanation": "The activated toxin binds to the surface of midgut epithelial cells and creates pores that cause cell swelling and lysis, leading to insect death."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which genes code for the Bt toxin proteins?",
+      "options": [
+        "cry genes",
+        "lac genes",
+        "trp genes",
+        "his genes"
+      ],
+      "correct": 0,
+      "explanation": "The toxin is coded by genes named cry. Examples include cryIAc and cryIIAb which control cotton bollworms."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which cry genes control cotton bollworms?",
+      "options": [
+        "cryIAb and cryIIAc",
+        "cryIAc and cryIIAb",
+        "cryIIAa and cryIIIB",
+        "cryIV and cryV"
+      ],
+      "correct": 1,
+      "explanation": "The proteins encoded by genes cryIAc and cryIIAb control the cotton bollworms, while cryIAb controls corn borers."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which nematode infects the roots of tobacco plants and reduces yield?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Wuchereria bancrofti",
+        "Meloidegyne incognitia",
+        "Entamoeba histolytica"
+      ],
+      "correct": 2,
+      "explanation": "Meloidegyne incognitia is a nematode that parasitizes the roots of tobacco plants and causes great reduction in yield."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What strategy is used to protect tobacco plants from Meloidegyne incognitia infestation?",
+      "options": [
+        "Application of chemical pesticides",
+        "RNA interference (RNAi)",
+        "Traditional cross-breeding",
+        "Soil fumigation"
+      ],
+      "correct": 1,
+      "explanation": "A novel strategy based on RNA interference (RNAi) is used. Nematode-specific genes are introduced into the host plant to produce dsRNA that silences nematode mRNA."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What does RNAi stand for in the context of pest-resistant plants?",
+      "options": [
+        "Ribonucleic Acid Inhibition",
+        "RNA Interference",
+        "Ribosomal Nucleic Acid Integration",
+        "Reverse Nucleic Acid Inhibition"
+      ],
+      "correct": 1,
+      "explanation": "RNAi stands for RNA Interference. It is a cellular defense method involving silencing of specific mRNA by complementary dsRNA."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "In RNAi, what type of RNA molecule binds to and prevents translation of the target mRNA?",
+      "options": [
+        "Single-stranded RNA",
+        "Messenger RNA",
+        "Double-stranded RNA (dsRNA)",
+        "Transfer RNA"
+      ],
+      "correct": 2,
+      "explanation": "RNAi involves silencing of a specific mRNA due to a complementary double-stranded (dsRNA) molecule that binds to and prevents translation of the mRNA."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "How are nematode-specific genes introduced into the host plant for RNAi?",
+      "options": [
+        "By direct injection into plant cells",
+        "Using Agrobacterium vectors",
+        "By viral infection",
+        "Through pollen transfer"
+      ],
+      "correct": 1,
+      "explanation": "Using Agrobacterium vectors, nematode-specific genes are introduced into the host plant. The DNA produces both sense and antisense RNA."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What happens when sense and antisense RNA are produced in the host plant cells?",
+      "options": [
+        "They form double-stranded RNA (dsRNA)",
+        "They are immediately degraded",
+        "They enhance protein synthesis",
+        "They bind to DNA directly"
+      ],
+      "correct": 0,
+      "explanation": "Sense and antisense RNA being complementary to each other form a double-stranded (dsRNA) that initiates RNAi and silences the specific mRNA of the nematode."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the consequence of RNAi in transgenic plants against nematodes?",
+      "options": [
+        "The plant becomes more nutritious",
+        "The parasite cannot survive in the transgenic host",
+        "The plant grows faster",
+        "The nematode becomes beneficial to the plant"
+      ],
+      "correct": 1,
+      "explanation": "The parasite could not survive in a transgenic host expressing specific interfering RNA, thus the plant is protected from the parasite."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which insects are killed by proteins produced by some strains of Bacillus thuringiensis?",
+      "options": [
+        "Only butterflies",
+        "Lepidopterans, coleopterans, and dipterans",
+        "Only mosquitoes",
+        "Only beetles"
+      ],
+      "correct": 1,
+      "explanation": "Some strains of B. thuringiensis produce proteins that kill lepidopterans (tobacco budworm, armyworm), coleopterans (beetles), and dipterans (flies, mosquitoes)."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "During which phase of growth does Bacillus thuringiensis form protein crystals containing the toxin?",
+      "options": [
+        "Lag phase",
+        "Log phase",
+        "Stationary phase",
+        "A particular phase of their growth"
+      ],
+      "correct": 3,
+      "explanation": "B. thuringiensis forms protein crystals during a particular phase of their growth. These crystals contain the toxic insecticidal protein."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the name of the process where isolated protoplasts from two different plant varieties are fused?",
+      "options": [
+        "Micropropagation",
+        "Somatic hybridisation",
+        "Gene therapy",
+        "Tissue culture"
+      ],
+      "correct": 1,
+      "explanation": "Isolated protoplasts from two different varieties can be fused to get hybrid protoplasts. This process is called somatic hybridisation and the hybrids are called somatic hybrids."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the term for plants regenerated from explants grown in test tubes under sterile conditions?",
+      "options": [
+        "Transgenic plants",
+        "Somaclones",
+        "Hybrid plants",
+        "Mutant plants"
+      ],
+      "correct": 1,
+      "explanation": "Plants produced through micropropagation are genetically identical to the original plant and are called somaclones."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which part of a virus-infected plant is free of virus and can be used to produce virus-free plants?",
+      "options": [
+        "Root tip",
+        "Meristem (apical and axillary)",
+        "Leaf blade",
+        "Stem cortex"
+      ],
+      "correct": 1,
+      "explanation": "Even if the plant is infected with a virus, the meristem (apical and axillary) is free of virus. Hence, meristem can be removed and grown in vitro to obtain virus-free plants."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What is the capacity to generate a whole plant from any cell or explant called?",
+      "options": [
+        "Differentiation",
+        "Totipotency",
+        "Organogenesis",
+        "Embryogenesis"
+      ],
+      "correct": 1,
+      "explanation": "The capacity to generate a whole plant from any cell or explant is called totipotency. This property is utilized in tissue culture techniques."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Which of the following is an example of a somatic hybrid produced through protoplast fusion?",
+      "options": [
+        "Golden rice",
+        "Pomato",
+        "Bt cotton",
+        "Flavr Savr tomato"
+      ],
+      "correct": 1,
+      "explanation": "When a protoplast of tomato is fused with that of potato and grown, it forms pomato, a somatic hybrid combining tomato and potato characteristics."
+    }
+  ]
+}

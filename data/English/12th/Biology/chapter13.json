@@ -1,0 +1,2053 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 13",
+    "chapterId": "chapter13",
+    "source": "Chapter13.xlsx",
+    "count": 170
+  },
+  "questions": [
+    {
+      "topic": "Chapter 13",
+      "question": "What is the primary approach called when we conserve and protect the whole ecosystem to save biodiversity at all levels?",
+      "options": [
+        "Ex situ conservation",
+        "In situ conservation",
+        "Cryopreservation",
+        "Tissue culture propagation"
+      ],
+      "correct": 1,
+      "explanation": "In situ conservation refers to protecting the entire ecosystem in its natural habitat, which automatically saves all levels of biodiversity. This is the on-site approach where we save the entire forest to save the tiger."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many biodiversity hotspots were initially identified by conservationists?",
+      "options": [
+        "15",
+        "25",
+        "34",
+        "12"
+      ],
+      "correct": 1,
+      "explanation": "Initially, 25 biodiversity hotspots were identified by conservationists. Subsequently, nine more were added, bringing the total to 34 biodiversity hotspots worldwide."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the current total number of biodiversity hotspots in the world?",
+      "options": [
+        "25",
+        "30",
+        "34",
+        "40"
+      ],
+      "correct": 2,
+      "explanation": "The current total number of biodiversity hotspots is 34, after initially identifying 25 and subsequently adding 9 more to the list."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT one of the three biodiversity hotspots that cover India's exceptionally high biodiversity regions?",
+      "options": [
+        "Western Ghats and Sri Lanka",
+        "Indo-Burma",
+        "Himalaya",
+        "Deccan Plateau"
+      ],
+      "correct": 3,
+      "explanation": "The three biodiversity hotspots covering India's rich biodiversity regions are Western Ghats and Sri Lanka, Indo-Burma, and Himalaya. The Deccan Plateau is not listed as a biodiversity hotspot."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of the earth's land area do all biodiversity hotspots collectively cover?",
+      "options": [
+        "Less than 1%",
+        "Less than 2%",
+        "About 5%",
+        "About 10%"
+      ],
+      "correct": 1,
+      "explanation": "All biodiversity hotspots put together cover less than 2% of the earth's land area, yet they harbour an extremely high number of species."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of ongoing mass extinctions could be reduced by strict protection of biodiversity hotspots?",
+      "options": [
+        "About 10%",
+        "About 20%",
+        "Almost 30%",
+        "About 50%"
+      ],
+      "correct": 2,
+      "explanation": "Strict protection of biodiversity hotspots could reduce the ongoing mass extinctions by almost 30%, according to the text."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many biosphere reserves does India currently have?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "18"
+      ],
+      "correct": 2,
+      "explanation": "India currently has 14 biosphere reserves that protect ecologically unique and biodiversity-rich regions."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many national parks are there in India?",
+      "options": [
+        "75",
+        "90",
+        "100",
+        "120"
+      ],
+      "correct": 1,
+      "explanation": "India has 90 national parks that serve as legally protected areas for biodiversity conservation."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many wildlife sanctuaries does India have?",
+      "options": [
+        "350",
+        "400",
+        "448",
+        "500"
+      ],
+      "correct": 2,
+      "explanation": "India has 448 wildlife sanctuaries that provide protection to various animal species and their habitats."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are sacred groves in the context of Indian biodiversity conservation?",
+      "options": [
+        "Commercial forests for timber production",
+        "Tracts of forest set aside for religious protection where trees and wildlife are venerated and given total protection",
+        "Government-owned plantations for agricultural purposes",
+        "Urban parks designed for recreational activities"
+      ],
+      "correct": 1,
+      "explanation": "Sacred groves are tracts of forest set aside in many Indian cultures where all trees and wildlife within are venerated and given total protection based on religious and cultural traditions."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In which state are the sacred groves the last refuges for a large number of rare and threatened species?",
+      "options": [
+        "Rajasthan",
+        "Karnataka",
+        "Meghalaya",
+        "Madhya Pradesh"
+      ],
+      "correct": 2,
+      "explanation": "In Meghalaya, the sacred groves are the last refuges for a large number of rare and threatened plant and animal species."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following regions does NOT have sacred groves mentioned in the text?",
+      "options": [
+        "Khasi and Jaintia Hills in Meghalaya",
+        "Aravalli Hills of Rajasthan",
+        "Western Ghat regions of Karnataka and Maharashtra",
+        "Eastern Ghats of Tamil Nadu"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions sacred groves in Khasi and Jaintia Hills (Meghalaya), Aravalli Hills (Rajasthan), Western Ghat regions (Karnataka and Maharashtra), and Sarguja, Chanda, Bastar areas (Madhya Pradesh). Eastern Ghats of Tamil Nadu is not mentioned."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is ex situ conservation?",
+      "options": [
+        "Protecting species in their natural habitat",
+        "Taking threatened animals and plants out from their natural habitat and placing them in special settings for protection",
+        "Allowing species to evolve naturally without human intervention",
+        "Creating artificial ecosystems in urban areas"
+      ],
+      "correct": 1,
+      "explanation": "Ex situ conservation is the off-site approach where threatened animals and plants are taken from their natural habitat and placed in special settings like zoological parks, botanical gardens, and wildlife safari parks for protection and special care."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT a method of ex situ conservation mentioned in the text?",
+      "options": [
+        "Zoological parks",
+        "Botanical gardens",
+        "Wildlife sanctuaries",
+        "Wildlife safari parks"
+      ],
+      "correct": 2,
+      "explanation": "Wildlife sanctuaries are part of in situ conservation, not ex situ. The text mentions zoological parks, botanical gardens, and wildlife safari parks as ex situ conservation methods."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What modern technique allows preservation of gametes of threatened species in viable and fertile condition for long periods?",
+      "options": [
+        "Tissue culture",
+        "Cryopreservation",
+        "In vitro fertilisation",
+        "Seed banks"
+      ],
+      "correct": 1,
+      "explanation": "Cryopreservation is the technique that allows gametes of threatened species to be preserved in viable and fertile condition for long periods."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What technique allows eggs to be fertilised outside the body in ex situ conservation?",
+      "options": [
+        "Cryopreservation",
+        "Tissue culture propagation",
+        "In vitro fertilisation",
+        "Seed banking"
+      ],
+      "correct": 2,
+      "explanation": "In vitro fertilisation is the technique mentioned in the text that allows eggs to be fertilised outside the body as part of advanced ex situ conservation methods."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which method can be used to propagate plants in ex situ conservation?",
+      "options": [
+        "Cryopreservation",
+        "Tissue culture methods",
+        "In vitro fertilisation",
+        "Natural pollination"
+      ],
+      "correct": 1,
+      "explanation": "Tissue culture methods are mentioned in the text as a way to propagate plants in ex situ conservation settings."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Where can seeds of different genetic strains of commercially important plants be kept for long periods?",
+      "options": [
+        "Botanical gardens",
+        "Zoological parks",
+        "Seed banks",
+        "Wildlife sanctuaries"
+      ],
+      "correct": 2,
+      "explanation": "Seed banks are mentioned in the text as places where seeds of different genetic strains of commercially important plants can be kept for long periods."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In which year and city was the historic Convention on Biological Diversity (The Earth Summit) held?",
+      "options": [
+        "1990, New York",
+        "1992, Rio de Janeiro",
+        "1995, Geneva",
+        "2000, Paris"
+      ],
+      "correct": 1,
+      "explanation": "The historic Convention on Biological Diversity, also known as The Earth Summit, was held in Rio de Janeiro in 1992."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In which year and city was the World Summit on Sustainable Development held?",
+      "options": [
+        "1992, Rio de Janeiro",
+        "1995, Kyoto",
+        "2000, Johannesburg",
+        "2002, Johannesburg"
+      ],
+      "correct": 3,
+      "explanation": "The World Summit on Sustainable Development was held in 2002 in Johannesburg, South Africa, where 190 countries pledged commitment to reduce biodiversity loss."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many countries pledged their commitment at the World Summit on Sustainable Development?",
+      "options": [
+        "150",
+        "170",
+        "190",
+        "200"
+      ],
+      "correct": 2,
+      "explanation": "190 countries pledged their commitment at the World Summit on Sustainable Development held in Johannesburg in 2002."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What was the target year set by countries at the World Summit for achieving a significant reduction in the current rate of biodiversity loss?",
+      "options": [
+        "2005",
+        "2008",
+        "2010",
+        "2015"
+      ],
+      "correct": 2,
+      "explanation": "At the World Summit on Sustainable Development, 190 countries pledged to achieve by 2010 a significant reduction in the current rate of biodiversity loss at global, regional, and local levels."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the term 'biodiversity hotspot' primarily refer to?",
+      "options": [
+        "Areas with the highest human population density",
+        "Regions with very high levels of species richness and high degree of endemism",
+        "Urban areas with maximum green cover",
+        "Agricultural regions with maximum crop diversity"
+      ],
+      "correct": 1,
+      "explanation": "Biodiversity hotspots are regions with very high levels of species richness and high degree of endemism (species confined to that region and not found anywhere else)."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the meaning of 'endemism' in the context of biodiversity hotspots?",
+      "options": [
+        "Species that can survive in any environment",
+        "Species confined to a particular region and not found anywhere else",
+        "Species that migrate seasonally",
+        "Species that are endangered worldwide"
+      ],
+      "correct": 1,
+      "explanation": "Endemism refers to species that are confined to a particular region and are not found anywhere else in the world."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why are biodiversity hotspots also described as regions of accelerated habitat loss?",
+      "options": [
+        "Because they have the highest rainfall",
+        "Because they are experiencing rapid destruction of natural habitats due to human activities",
+        "Because they are located near volcanic areas",
+        "Because they have the oldest geological formations"
+      ],
+      "correct": 1,
+      "explanation": "Biodiversity hotspots are also regions of accelerated habitat loss because they are experiencing rapid destruction of natural habitats due to various human activities, making conservation efforts urgent."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which approach to conservation is described as 'on site' conservation?",
+      "options": [
+        "Ex situ conservation",
+        "In situ conservation",
+        "Cryopreservation",
+        "Tissue culture"
+      ],
+      "correct": 1,
+      "explanation": "In situ conservation is described as 'on site' conservation because it involves protecting species in their natural habitat."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which approach to conservation is described as 'off site' conservation?",
+      "options": [
+        "In situ conservation",
+        "Ex situ conservation",
+        "Biosphere reserves",
+        "National parks"
+      ],
+      "correct": 1,
+      "explanation": "Ex situ conservation is described as 'off site' conservation because it involves taking threatened species out of their natural habitat and placing them in special settings for protection."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the main conflict that nations face regarding biodiversity conservation?",
+      "options": [
+        "Between scientific research and education",
+        "Between development and conservation",
+        "Between agriculture and industry",
+        "Between urbanisation and rural development"
+      ],
+      "correct": 1,
+      "explanation": "The text states that many nations face the conflict between development and conservation, making it unrealistic and economically not feasible to conserve all their biological wealth."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What happens to animals that have become extinct in the wild but are maintained in zoological parks?",
+      "options": [
+        "They are released back into the wild immediately",
+        "They continue to be maintained in zoological parks as part of ex situ conservation",
+        "They are used for commercial trading",
+        "They are converted to domestic animals"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that many animals have become extinct in the wild but continue to be maintained in zoological parks as part of ex situ conservation efforts."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the text say about biodiversity and political boundaries?",
+      "options": [
+        "Biodiversity is confined to national boundaries",
+        "Biodiversity knows no political boundaries",
+        "Biodiversity is highest in politically stable regions",
+        "Biodiversity is managed by political parties"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that biodiversity knows no political boundaries and its conservation is a collective responsibility of all nations."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the purpose of the Convention on Biological Diversity?",
+      "options": [
+        "To promote commercial use of biological resources",
+        "To call upon all nations to take appropriate measures for conservation of biodiversity and sustainable utilisation of its benefits",
+        "To establish international trade laws",
+        "To create new species through genetic engineering"
+      ],
+      "correct": 1,
+      "explanation": "The Convention on Biological Diversity called upon all nations to take appropriate measures for conservation of biodiversity and sustainable utilisation of its benefits."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does biodiversity refer to according to the summary?",
+      "options": [
+        "The total number of species on Earth",
+        "The sum total of diversity at all levels of biological organisation",
+        "Only the diversity of animals and plants",
+        "The diversity of ecosystems only"
+      ],
+      "correct": 1,
+      "explanation": "Biodiversity refers to the sum total of diversity that exists at all levels of biological organisation. Of particular importance is the diversity at genetic, species and ecosystem levels."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which three levels of biodiversity are mentioned as particularly important?",
+      "options": [
+        "Genetic, cellular, and ecosystem levels",
+        "Species, population, and community levels",
+        "Genetic, species, and ecosystem levels",
+        "Organism, tissue, and organ levels"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that of particular importance is the diversity at genetic, species and ecosystem levels, and conservation efforts are aimed at protecting diversity at all these levels."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many species have been recorded in the world according to the summary?",
+      "options": [
+        "Nearly 6 million",
+        "More than 1.5 million",
+        "About 45,000",
+        "More than 15,500"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that more than 1.5 million species have been recorded in the world, but there might still be nearly 6 million species waiting to be discovered."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Approximately how many species might still be waiting to be discovered and named?",
+      "options": [
+        "1.5 million",
+        "45,000",
+        "Nearly 6 million",
+        "15,500"
+      ],
+      "correct": 2,
+      "explanation": "The summary mentions that more than 1.5 million species have been recorded, but there might still be nearly 6 million species on earth waiting to be discovered and named."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of named species are animals according to the summary?",
+      "options": [
+        "50%",
+        "60%",
+        "More than 70%",
+        "90%"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that of the named species, more than 70 per cent are animals, of which 70 per cent are insects."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of animal species are insects?",
+      "options": [
+        "50%",
+        "60%",
+        "70%",
+        "80%"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that of the named species, more than 70 per cent are animals, of which 70 per cent are insects."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which group has more species than all vertebrate species combined?",
+      "options": [
+        "Plants",
+        "Insects",
+        "Fungi",
+        "Bacteria"
+      ],
+      "correct": 2,
+      "explanation": "The summary explicitly states that the group Fungi has more species than all the vertebrate species combined."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many species of plants does India have according to the summary?",
+      "options": [
+        "About 20,000",
+        "About 45,000",
+        "About 90,000",
+        "About 1,50,000"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that India has about 45,000 species of plants and twice as many species of animals."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Approximately how many species of animals does India have?",
+      "options": [
+        "About 45,000",
+        "About 90,000",
+        "About 1,50,000",
+        "About 3,00,000"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that India has about 45,000 species of plants and twice as many species of animals, which would be approximately 90,000."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many mega diversity countries are there in the world?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "34"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that India is one of the 12 mega diversity countries of the world."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Where is species diversity generally highest?",
+      "options": [
+        "At the poles",
+        "In temperate regions",
+        "In the tropics",
+        "In desert regions"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that species diversity is generally highest in the tropics and decreases towards the poles."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT mentioned as a reason for tropical species richness?",
+      "options": [
+        "More evolutionary time",
+        "Relatively constant environment",
+        "More solar energy",
+        "Higher rainfall throughout the year"
+      ],
+      "correct": 3,
+      "explanation": "The summary mentions three reasons: tropics had more evolutionary time, they provide a relatively constant environment, and they receive more solar energy. Higher rainfall is not mentioned."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the shape of the species-area relationship mentioned in the summary?",
+      "options": [
+        "Linear",
+        "Exponential",
+        "Rectangular hyperbola",
+        "Parabolic"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that the species-area relationship is generally a rectangular hyperbolic function."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are communities with high diversity believed to be?",
+      "options": [
+        "More variable and less productive",
+        "Less variable, more productive, and more resistant to invasions",
+        "Less resistant to environmental changes",
+        "More susceptible to biological invasions"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that communities with high diversity tend to be less variable, more productive and more resistant to biological invasions."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How much higher are current extinction rates compared to pre-human times?",
+      "options": [
+        "10 to 100 times",
+        "100 to 1000 times",
+        "1000 to 10000 times",
+        "50 to 500 times"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that present rates of extinction are 100 to 1000 times higher than in pre-human times."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many species have become extinct in recent times?",
+      "options": [
+        "About 500",
+        "Nearly 700",
+        "More than 1000",
+        "About 15,500"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that nearly 700 species have become extinct in recent times."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many species currently face the threat of extinction?",
+      "options": [
+        "Nearly 700",
+        "More than 15,500",
+        "About 45,000",
+        "About 650"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that more than 15,500 species currently face the threat of extinction."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many species from India face the threat of extinction?",
+      "options": [
+        "More than 450",
+        "More than 650",
+        "More than 90",
+        "More than 14"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that more than 15,500 species face extinction threat, of which more than 650 are from India."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT mentioned as a cause of high extinction rates?",
+      "options": [
+        "Habitat loss and fragmentation",
+        "Over-exploitation",
+        "Climate change",
+        "Co-extinctions"
+      ],
+      "correct": 2,
+      "explanation": "The summary mentions habitat loss and fragmentation, over-exploitation, biological invasions, and co-extinctions as causes. Climate change is not explicitly mentioned in this summary."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are the two types of biodiversity conservation mentioned?",
+      "options": [
+        "Natural and artificial conservation",
+        "In situ and ex situ conservation",
+        "Local and global conservation",
+        "Private and public conservation"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that biodiversity conservation may be in situ as well as ex situ."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In in situ conservation, where are endangered species protected?",
+      "options": [
+        "In zoological parks",
+        "In their natural habitat",
+        "In botanical gardens",
+        "In laboratories"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that in in situ conservation, endangered species are protected in their natural habitat so that the entire ecosystem is protected."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many biodiversity hotspots have been proposed for intensive conservation?",
+      "options": [
+        "25",
+        "34",
+        "12",
+        "14"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that 34 biodiversity hotspots in the world have been proposed for intensive conservation efforts."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which three hotspots cover India's rich biodiversity regions?",
+      "options": [
+        "Amazon, Congo, and Sundaland",
+        "Western Ghats-Sri Lanka, Himalaya, and Indo-Burma",
+        "Eastern Ghats, Deccan Plateau, and Thar Desert",
+        "Ganges, Brahmaputra, and Godavari"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that three hotspots - Western Ghats-Sri Lanka, Himalaya and Indo-Burma - cover India's rich biodiversity regions."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many biosphere reserves does India have?",
+      "options": [
+        "14",
+        "34",
+        "90",
+        "450"
+      ],
+      "correct": 0,
+      "explanation": "The summary states that India has 14 biosphere reserves."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many national parks does India have?",
+      "options": [
+        "14",
+        "34",
+        "90",
+        "450"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that India has 90 national parks."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many wildlife sanctuaries does India have?",
+      "options": [
+        "14",
+        "34",
+        "90",
+        "More than 450"
+      ],
+      "correct": 3,
+      "explanation": "The summary states that India has more than 450 wildlife sanctuaries."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are sacred groves mentioned in the context of in situ conservation?",
+      "options": [
+        "Areas for religious worship only",
+        "Protected forest areas with cultural significance",
+        "Commercial forestry zones",
+        "Urban green spaces"
+      ],
+      "correct": 1,
+      "explanation": "The summary mentions sacred groves as part of India's in situ conservation efforts, which are protected forest areas with religious and cultural significance."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is an ex situ conservation method?",
+      "options": [
+        "Biosphere reserves",
+        "National parks",
+        "Zoological parks",
+        "Wildlife sanctuaries"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that ex situ conservation methods include protective maintenance of threatened species in zoological parks and botanical gardens."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which advanced technique is mentioned for preserving gametes of threatened species?",
+      "options": [
+        "Solar preservation",
+        "Cryopreservation",
+        "Chemical fixation",
+        "Heat treatment"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that gametes of threatened species can be preserved using cryopreservation techniques."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are the three categories of reasons for conserving biodiversity?",
+      "options": [
+        "Economic, social, and political",
+        "Narrowly utilitarian, broadly utilitarian, and ethical",
+        "Scientific, cultural, and recreational",
+        "Local, national, and global"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that the reasons for conserving biodiversity are narrowly utilitarian, broadly utilitarian, and ethical."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is mentioned as a direct benefit from biodiversity?",
+      "options": [
+        "Climate moderation",
+        "Pharmaceuticals",
+        "Pollination",
+        "Flood control"
+      ],
+      "correct": 1,
+      "explanation": "The summary lists direct benefits as food, fibre, firewood, pharmaceuticals, etc. Climate moderation, pollination, and flood control are indirect benefits."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT mentioned as an ecosystem service?",
+      "options": [
+        "Pollination",
+        "Pest control",
+        "Soil formation",
+        "Flood control"
+      ],
+      "correct": 2,
+      "explanation": "The summary mentions ecosystem services such as pollination, pest control, climate moderation, and flood control. Soil formation is not mentioned."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "When did life originate on Earth according to the summary?",
+      "options": [
+        "Nearly 1 billion years ago",
+        "Nearly 2 billion years ago",
+        "Nearly 3.8 billion years ago",
+        "Nearly 5 billion years ago"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that life originated on earth nearly 3.8 billion years ago."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does Earth's fossil history reveal?",
+      "options": [
+        "No extinctions have occurred",
+        "Only recent extinctions",
+        "Incidence of mass extinctions in the past",
+        "Constant species numbers over time"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that Earth's fossil history reveals incidence of mass extinctions in the past."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What moral responsibility do we have regarding biodiversity?",
+      "options": [
+        "To exploit it for economic gain",
+        "To take good care and pass it on to future generations",
+        "To document all species",
+        "To create artificial habitats"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that we have a moral responsibility to take good care of earth's biodiversity and pass it on in good order to our next generation."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the title of Chapter 13?",
+      "options": [
+        "Evolution and Adaptation",
+        "Biodiversity and Conservation",
+        "Ecosystems and Biomes",
+        "Genetics and Heredity"
+      ],
+      "correct": 1,
+      "explanation": "The chapter is titled 'Biodiversity and Conservation' as clearly stated at the beginning of Chapter 13."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which two sections are listed under Chapter 13?",
+      "options": [
+        "13.1 Evolution and 13.2 Adaptation",
+        "13.1 Genetics and 13.2 Heredity",
+        "13.1 Biodiversity and 13.2 Biodiversity Conservation",
+        "13.1 Ecosystems and 13.2 Biomes"
+      ],
+      "correct": 2,
+      "explanation": "The chapter contains two sections: 13.1 Biodiversity and 13.2 Biodiversity Conservation, as listed in the chapter outline."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to the text, what would most amaze an alien visiting Earth?",
+      "options": [
+        "The size of the planet",
+        "The enormous diversity of life",
+        "The presence of water",
+        "The human population"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the first thing that would amaze and baffle an alien from a distant galaxy would most probably be the enormous diversity of life on Earth."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many species of ants are mentioned in the text?",
+      "options": [
+        "More than 10,000",
+        "More than 20,000",
+        "More than 30,000",
+        "More than 50,000"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that there are more than 20,000 species of ants on Earth."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the approximate number of beetle species mentioned?",
+      "options": [
+        "1,00,000",
+        "2,00,000",
+        "3,00,000",
+        "4,00,000"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that there are 3,00,000 species of beetles on Earth."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many species of fishes are mentioned in the text?",
+      "options": [
+        "18,000",
+        "28,000",
+        "38,000",
+        "48,000"
+      ],
+      "correct": 1,
+      "explanation": "The text states there are 28,000 species of fishes on Earth."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Approximately how many species of orchids are mentioned?",
+      "options": [
+        "10,000",
+        "15,000",
+        "Nearly 20,000",
+        "25,000"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions nearly 20,000 species of orchids."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Who popularised the term 'biodiversity'?",
+      "options": [
+        "Charles Darwin",
+        "Edward Wilson",
+        "Alexander von Humboldt",
+        "Robert May"
+      ],
+      "correct": 1,
+      "explanation": "The term biodiversity was popularised by the sociobiologist Edward Wilson."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What was Edward Wilson's profession?",
+      "options": [
+        "Ecologist",
+        "Evolutionary biologist",
+        "Sociobiologist",
+        "Taxonomist"
+      ],
+      "correct": 2,
+      "explanation": "Edward Wilson is described as a sociobiologist who popularised the term biodiversity."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does biodiversity describe according to the text?",
+      "options": [
+        "Diversity only at species level",
+        "Diversity only at genetic level",
+        "Combined diversity at all levels of biological organisation",
+        "Diversity only at ecosystem level"
+      ],
+      "correct": 2,
+      "explanation": "Biodiversity describes the combined diversity at all levels of biological organisation, from macromolecules within cells to biomes."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the range of levels of biological organisation mentioned for biodiversity?",
+      "options": [
+        "From cells to tissues",
+        "From macromolecules within cells to biomes",
+        "From organs to organ systems",
+        "From organisms to populations"
+      ],
+      "correct": 1,
+      "explanation": "The text states that diversity exists at all levels ranging from macromolecules within cells to biomes."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT one of the three main types of biodiversity mentioned?",
+      "options": [
+        "Genetic diversity",
+        "Species diversity",
+        "Ecological diversity",
+        "Morphological diversity"
+      ],
+      "correct": 3,
+      "explanation": "The three main types mentioned are genetic diversity, species diversity, and ecological diversity. Morphological diversity is not listed."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which plant is given as an example of genetic diversity?",
+      "options": [
+        "Neem",
+        "Rauwolfia vomitoria",
+        "Tulsi",
+        "Aloe vera"
+      ],
+      "correct": 1,
+      "explanation": "Rauwolfia vomitoria is given as an example showing genetic variation in potency and concentration of reserpine across different Himalayan ranges."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the active chemical produced by Rauwolfia vomitoria?",
+      "options": [
+        "Quinine",
+        "Reserpine",
+        "Morphine",
+        "Aspirin"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that Rauwolfia vomitoria produces reserpine, and genetic variation exists in its potency and concentration."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many genetically different strains of rice does India have?",
+      "options": [
+        "More than 10,000",
+        "More than 25,000",
+        "More than 50,000",
+        "More than 1,00,000"
+      ],
+      "correct": 2,
+      "explanation": "India has more than 50,000 genetically different strains of rice, demonstrating high genetic diversity."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many varieties of mango are mentioned in India?",
+      "options": [
+        "100",
+        "500",
+        "1,000",
+        "5,000"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that India has 1,000 varieties of mango."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which region has greater amphibian species diversity according to the text?",
+      "options": [
+        "Eastern Ghats",
+        "Western Ghats",
+        "Himalayas",
+        "Deccan Plateau"
+      ],
+      "correct": 1,
+      "explanation": "The Western Ghats have a greater amphibian species diversity than the Eastern Ghats, as stated in the text."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "India's ecosystem diversity is compared with which country?",
+      "options": [
+        "Sweden",
+        "Norway",
+        "Finland",
+        "Denmark"
+      ],
+      "correct": 1,
+      "explanation": "India has greater ecosystem diversity than a Scandinavian country like Norway, due to its varied ecosystems."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT listed as an ecosystem in India?",
+      "options": [
+        "Deserts",
+        "Rain forests",
+        "Tundra",
+        "Coral reefs"
+      ],
+      "correct": 2,
+      "explanation": "The ecosystems listed are deserts, rain forests, mangroves, coral reefs, wetlands, estuaries, and alpine meadows. Tundra is not mentioned."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following questions is NOT asked by ecologists in the text?",
+      "options": [
+        "Why are there so many species?",
+        "Did such great diversity exist throughout earth's history?",
+        "How can we eliminate species diversity?",
+        "How do humans benefit from the diversity of life?"
+      ],
+      "correct": 2,
+      "explanation": "The text lists six questions asked by ecologists, but eliminating species diversity is not one of them."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does 'heterogeneity' mean in the context of the text?",
+      "options": [
+        "Sameness",
+        "Diversity",
+        "Stability",
+        "Complexity"
+      ],
+      "correct": 1,
+      "explanation": "In the text, heterogeneity is used as a synonym for diversity, referring to the immense diversity in our biosphere."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "At which levels does diversity exist in our biosphere?",
+      "options": [
+        "Only at species level",
+        "Only at genetic and species levels",
+        "At all levels of biological organisation",
+        "Only at ecosystem level"
+      ],
+      "correct": 2,
+      "explanation": "The text states that immense diversity exists not only at the species level but at all levels of biological organisation."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does genetic diversity refer to?",
+      "options": [
+        "Diversity between different species",
+        "Diversity within a single species at genetic level",
+        "Diversity of ecosystems",
+        "Diversity of habitats"
+      ],
+      "correct": 1,
+      "explanation": "Genetic diversity refers to high diversity at the genetic level within a single species over its distributional range."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Species diversity refers to diversity at which level?",
+      "options": [
+        "Genetic level",
+        "Species level",
+        "Ecosystem level",
+        "Individual level"
+      ],
+      "correct": 1,
+      "explanation": "Species diversity refers to the diversity at the species level, such as comparing amphibian diversity between Western and Eastern Ghats."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Ecological diversity is diversity at which level?",
+      "options": [
+        "Genetic level within a species",
+        "Species level in a community",
+        "Ecosystem level",
+        "Individual organism level"
+      ],
+      "correct": 2,
+      "explanation": "Ecological diversity refers to diversity at the ecosystem level, such as India's varied ecosystems compared to Norway."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In Rauwolfia vomitoria, what varies genetically across Himalayan ranges?",
+      "options": [
+        "Size of the plant",
+        "Color of the flowers",
+        "Potency and concentration of reserpine",
+        "Number of leaves"
+      ],
+      "correct": 2,
+      "explanation": "The genetic variation in Rauwolfia vomitoria is in terms of the potency and concentration of the active chemical reserpine."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of world's land area does India have?",
+      "options": [
+        "1.4%",
+        "2.4%",
+        "3.4%",
+        "4.4%"
+      ],
+      "correct": 1,
+      "explanation": "Although this fact appears on page 2, the context of India's diversity begins on page 1. India has only 2.4% of the world's land area."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the common man's reaction to the number of species mentioned?",
+      "options": [
+        "He finds it easy to believe",
+        "He finds it hard to believe",
+        "He is not interested",
+        "He already knows this"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the common man would find it hard to believe the enormous numbers of species mentioned."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which scientists are trying to understand the significance of diversity?",
+      "options": [
+        "Physicists and chemists",
+        "Ecologists and evolutionary biologists",
+        "Geologists and meteorologists",
+        "Astronomers and astrophysicists"
+      ],
+      "correct": 1,
+      "explanation": "Ecologists and evolutionary biologists have been trying to understand the significance of such diversity."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which question asks about how diversification came about?",
+      "options": [
+        "Why are there so many species?",
+        "Did such great diversity exist throughout earth's history?",
+        "How did this diversification come about?",
+        "How do humans benefit from the diversity of life?"
+      ],
+      "correct": 2,
+      "explanation": "The question 'How did this diversification come about?' specifically asks about the process of diversification."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are the three most important levels of biodiversity mentioned in the chapter?",
+      "options": [
+        "Genetic diversity, species diversity, and ecological diversity",
+        "Genetic diversity, population diversity, and community diversity",
+        "Species diversity, habitat diversity, and climatic diversity",
+        "Genetic diversity, morphological diversity, and behavioral diversity"
+      ],
+      "correct": 0,
+      "explanation": "The text explicitly states that the most important levels of biodiversity are genetic diversity, species diversity, and ecological diversity. Genetic diversity refers to variation within a species, species diversity refers to variety of species, and ecological diversity refers to variety of ecosystems."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which medicinal plant is used as an example to illustrate genetic diversity in the Himalayan ranges?",
+      "options": [
+        "Digitalis purpurea",
+        "Rauwolfia vomitoria",
+        "Cinchona officinalis",
+        "Withania somnifera"
+      ],
+      "correct": 1,
+      "explanation": "The text specifically mentions Rauwolfia vomitoria as the medicinal plant growing in different Himalayan ranges that shows genetic variation in terms of potency and concentration of reserpine."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many genetically different strains of rice does India have according to the text?",
+      "options": [
+        "10,000",
+        "25,000",
+        "50,000",
+        "100,000"
+      ],
+      "correct": 2,
+      "explanation": "The text clearly states that India has more than 50,000 genetically different strains of rice, demonstrating the high genetic diversity present in the country."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which region is mentioned as having greater amphibian species diversity compared to the Eastern Ghats?",
+      "options": [
+        "The Himalayas",
+        "The Western Ghats",
+        "The Indo-Gangetic Plain",
+        "The Deccan Plateau"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the Western Ghats have a greater amphibian species diversity than the Eastern Ghats, illustrating the concept of species diversity at the regional level."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to the IUCN (2004), how many plant and animal species have been described so far?",
+      "options": [
+        "Slightly more than 1 million",
+        "Slightly more than 1.5 million",
+        "Slightly more than 2 million",
+        "Slightly more than 5 million"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that according to IUCN (2004), the total number of plant and animal species described so far is slightly more than 1.5 million."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Who made the scientifically sound estimate placing global species diversity at about 7 million?",
+      "options": [
+        "Edward Wilson",
+        "Charles Darwin",
+        "Robert May",
+        "Alexander von Humboldt"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions Robert May as the scientist who made a more conservative and scientifically sound estimate placing global species diversity at about 7 million."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What method do biologists use to estimate the total number of species on Earth?",
+      "options": [
+        "They count all species individually in tropical forests",
+        "They make a statistical comparison of temperate-tropical species richness of insects and extrapolate",
+        "They use satellite imagery to identify all habitats",
+        "They conduct DNA sequencing of all known organisms"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that biologists make a statistical comparison of the temperate-tropical species richness of an exhaustively studied group of insects and extrapolate this ratio to other groups to estimate total species."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the range of extreme estimates for the total number of species on Earth mentioned in the text?",
+      "options": [
+        "5 to 10 million",
+        "10 to 20 million",
+        "20 to 50 million",
+        "50 to 100 million"
+      ],
+      "correct": 2,
+      "explanation": "The text states that some extreme estimates for the total number of species on Earth range from 20 to 50 million."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to David Tilman's long-term ecosystem experiments, what did plots with more species show?",
+      "options": [
+        "Greater year-to-year variation in total biomass",
+        "Less year-to-year variation in total biomass",
+        "No change in biomass variation over time",
+        "Decreased overall productivity regardless of species count"
+      ],
+      "correct": 1,
+      "explanation": "David Tilman found that plots with more species showed less year-to-year variation in total biomass. He also demonstrated that increased diversity contributed to higher productivity."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the 'rivet popper hypothesis' proposed by Paul Ehrlich compare species to?",
+      "options": [
+        "Passengers in an airplane",
+        "Rivets in an airplane",
+        "Wings of an airplane",
+        "Engines of an airplane"
+      ],
+      "correct": 1,
+      "explanation": "Paul Ehrlich's rivet popper hypothesis compares species to rivets in an airplane. Just as removing rivets one by one weakens the plane, species extinction weakens ecosystem functioning. The rivets on the wings represent key species that drive major ecosystem functions."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT a consequence of biodiversity loss in a region?",
+      "options": [
+        "Decline in plant production",
+        "Lowered resistance to environmental perturbations such as drought",
+        "Increased variability in ecosystem processes like water use",
+        "Enhanced stability and productivity of the ecosystem"
+      ],
+      "correct": 3,
+      "explanation": "Loss of biodiversity leads to decline in plant production, lowered resistance to environmental perturbations such as drought, and increased variability in ecosystem processes. It does NOT enhance stability or productivity; rather, rich biodiversity is essential for ecosystem health and stability."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How much faster are current species extinction rates compared to pre-human times?",
+      "options": [
+        "10 to 100 times faster",
+        "50 to 500 times faster",
+        "100 to 1000 times faster",
+        "1000 to 10000 times faster"
+      ],
+      "correct": 2,
+      "explanation": "The current species extinction rates are estimated to be 100 to 1000 times faster than in pre-human times. Human activities are responsible for these accelerated rates, making the present 'Sixth Extinction' different from previous mass extinction episodes."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of all bird species currently face the threat of extinction?",
+      "options": [
+        "8 percent",
+        "12 percent",
+        "23 percent",
+        "32 percent"
+      ],
+      "correct": 1,
+      "explanation": "According to the text, 12 percent of all bird species, 23 percent of all mammal species, 32 percent of all amphibian species, and 31 percent of all gymnosperm species in the world face the threat of extinction."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is described as the most important cause driving animals and plants to extinction?",
+      "options": [
+        "Over-exploitation",
+        "Alien species invasions",
+        "Co-extinctions",
+        "Habitat loss and fragmentation"
+      ],
+      "correct": 3,
+      "explanation": "Habitat loss and fragmentation is described as the most important cause driving animals and plants to extinction. The text states that tropical rain forests once covering more than 14 percent of earth's land surface now cover no more than 6 percent. When large habitats are broken into small fragments, mammals and birds requiring large territories and migratory animals are badly affected."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to the text, what are the three consequences of loss of biodiversity in a region?",
+      "options": [
+        "Increase in plant production, higher resistance to drought, and decreased variability in ecosystem processes",
+        "Decline in plant production, lowered resistance to environmental perturbations, and increased variability in ecosystem processes",
+        "Increase in species diversity, improved water quality, and reduced pest cycles",
+        "Enhanced ecosystem stability, greater productivity, and better disease control"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that loss of biodiversity may lead to (a) decline in plant production, (b) lowered resistance to environmental perturbations such as drought, and (c) increased variability in certain ecosystem processes such as plant productivity, water use, and pest and disease cycles."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What term is used in the text to describe the four major causes of biodiversity loss?",
+      "options": [
+        "The Fatal Four",
+        "The Destruction Quartet",
+        "The Evil Quartet",
+        "The Extinction Factors"
+      ],
+      "correct": 2,
+      "explanation": "The text uses the sobriquet 'The Evil Quartet' to describe the four major causes of biodiversity losses."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is identified as the MOST IMPORTANT cause driving animals and plants to extinction?",
+      "options": [
+        "Over-exploitation",
+        "Alien species invasions",
+        "Co-extinctions",
+        "Habitat loss and fragmentation"
+      ],
+      "correct": 3,
+      "explanation": "The text explicitly states that 'Habitat loss and fragmentation' is the most important cause driving animals and plants to extinction."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of the earth's land surface did tropical rain forests once cover, and what percentage do they cover now?",
+      "options": [
+        "Once 20%, now 10%",
+        "Once 14%, now 6%",
+        "Once 25%, now 8%",
+        "Once 10%, now 4%"
+      ],
+      "correct": 1,
+      "explanation": "The text states that tropical rain forests once covered more than 14 per cent of the earth's land surface, but now cover no more than 6 per cent."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "The Amazon rain forest is referred to as the 'lungs of the planet' because:",
+      "options": [
+        "It produces 50% of the world's oxygen",
+        "It is so huge and harbors millions of species",
+        "It is the oldest forest on Earth",
+        "It has the highest rainfall in the world"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that the Amazon rain forest is called the 'lungs of the planet' because it is so huge and harbors probably millions of species."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which two species are mentioned as examples of extinctions due to over-exploitation in the last 500 years?",
+      "options": [
+        "Dodo and quagga",
+        "Steller's sea cow and passenger pigeon",
+        "Thylacine and Bali tiger",
+        "Nile perch and African catfish"
+      ],
+      "correct": 1,
+      "explanation": "The text specifically mentions Steller's sea cow and passenger pigeon as species that became extinct due to over-exploitation by humans in the last 500 years."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "The introduction of the Nile perch into Lake Victoria resulted in:",
+      "options": [
+        "Increased fish diversity in the lake",
+        "Extinction of more than 200 species of cichlid fish",
+        "Improved water quality",
+        "Growth of invasive weeds"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the Nile perch introduced into Lake Victoria led eventually to the extinction of an ecologically unique assemblage of more than 200 species of cichlid fish in the lake."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is co-extinction?",
+      "options": [
+        "When two species compete for the same habitat",
+        "When a species becomes extinct and its associated species also become extinct",
+        "When alien species invade a new ecosystem",
+        "When habitat fragmentation causes population decline"
+      ],
+      "correct": 1,
+      "explanation": "Co-extinction is defined in the text as the phenomenon where, when a species becomes extinct, the plant and animal species associated with it in an obligatory way also become extinct."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the term used to describe the four major causes of biodiversity loss mentioned in the text?",
+      "options": [
+        "The Fatal Four",
+        "The Evil Quartet",
+        "The Deadly Four",
+        "The Harmful Four"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that 'The Evil Quartet' is the sobriquet used to describe the four major causes of biodiversity losses."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is identified as the most important cause driving animals and plants to extinction?",
+      "options": [
+        "Over-exploitation",
+        "Alien species invasions",
+        "Habitat loss and fragmentation",
+        "Co-extinctions"
+      ],
+      "correct": 2,
+      "explanation": "The text states that 'Habitat loss and fragmentation' is the most important cause driving animals and plants to extinction."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "The Amazon rain forest is referred to as what in the text?",
+      "options": [
+        "The heart of the planet",
+        "The lungs of the planet",
+        "The brain of the planet",
+        "The liver of the planet"
+      ],
+      "correct": 1,
+      "explanation": "The text specifically mentions that the Amazon rain forest is so huge that it is called the 'lungs of the planet'."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to the text, what percentage of the earth's land surface did tropical rain forests once cover?",
+      "options": [
+        "More than 10 per cent",
+        "More than 12 per cent",
+        "More than 14 per cent",
+        "More than 16 per cent"
+      ],
+      "correct": 2,
+      "explanation": "The text states that tropical rain forests once covered more than 14 per cent of the earth's land surface, but now cover no more than 6 per cent."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following species became extinct due to over-exploitation by humans in the last 500 years?",
+      "options": [
+        "Dodo and quagga",
+        "Steller's sea cow and passenger pigeon",
+        "Thylacine and Bali tiger",
+        "Caspian tiger and Javan tiger"
+      ],
+      "correct": 1,
+      "explanation": "The text specifically mentions that Steller's sea cow and passenger pigeon were species extinctions in the last 500 years due to over-exploitation by humans."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What was the consequence of introducing the Nile perch into Lake Victoria?",
+      "options": [
+        "It increased fish diversity in the lake",
+        "It led to the extinction of more than 200 species of cichlid fish",
+        "It improved the water quality of the lake",
+        "It created a new ecosystem in the lake"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the Nile perch introduced into Lake Victoria led eventually to the extinction of an ecologically unique assemblage of more than 200 species of cichlid fish in the lake."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT mentioned as an invasive weed species in the text?",
+      "options": [
+        "Carrot grass (Parthenium)",
+        "Lantana",
+        "Water hyacinth (Eichhornia)",
+        "Eucalyptus"
+      ],
+      "correct": 3,
+      "explanation": "The text mentions carrot grass (Parthenium), Lantana, and water hyacinth (Eichhornia) as invasive weed species, but does not mention Eucalyptus."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why was the African catfish Clarias gariepinus introduced?",
+      "options": [
+        "For recreational fishing",
+        "For scientific research",
+        "For aquaculture purposes",
+        "For ornamental purposes"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the African catfish Clarias gariepinus was introduced illegally for aquaculture purposes and is posing a threat to indigenous catfishes."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What happens when a host fish species becomes extinct according to the concept of co-extinction?",
+      "options": [
+        "Its predators also become extinct",
+        "Its unique assemblage of parasites also meets the same fate",
+        "Its prey species multiply rapidly",
+        "The water body becomes polluted"
+      ],
+      "correct": 1,
+      "explanation": "The text explains that when a host fish species becomes extinct, its unique assemblage of parasites also meets the same fate as an example of co-extinction."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In the case of coevolved plant-pollinator mutualism, what happens when one species becomes extinct?",
+      "options": [
+        "The other species adapts to a new pollinator",
+        "The other species invariably becomes extinct",
+        "The ecosystem remains unaffected",
+        "A new species evolves to replace it"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in a coevolved plant-pollinator mutualism, extinction of one invariably leads to the extinction of the other."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many more hectares of rain forest would have been lost by the time you finish reading the chapter?",
+      "options": [
+        "500 hectares",
+        "1000 hectares",
+        "1500 hectares",
+        "2000 hectares"
+      ],
+      "correct": 1,
+      "explanation": "The text states that by the time you finish reading this chapter, 1000 more hectares of rain forest would have been lost."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "The Amazon rain forest is being cut and cleared for which of the following purposes?",
+      "options": [
+        "For building cities",
+        "For cultivating soya beans or conversion to grasslands for raising beef cattle",
+        "For establishing national parks",
+        "For mining operations"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the Amazon rain forest is being cut and cleared for cultivating soya beans or for conversion to grasslands for raising beef cattle."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which animals are badly affected when large habitats are broken up into small fragments?",
+      "options": [
+        "Only small insects",
+        "Mammals and birds requiring large territories and certain migratory animals",
+        "Only aquatic animals",
+        "Only reptiles"
+      ],
+      "correct": 1,
+      "explanation": "The text states that when large habitats are broken up into small fragments, mammals and birds requiring large territories and certain animals with migratory habits are badly affected."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to the text, over-exploitation occurs when what happens?",
+      "options": [
+        "When humans stop using natural resources",
+        "When 'need' turns to 'greed'",
+        "When animals overpopulate",
+        "When plants grow too fast"
+      ],
+      "correct": 1,
+      "explanation": "The text states that humans have always depended on nature for food and shelter, but when 'need' turns to 'greed', it leads to over-exploitation of natural resources."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How are alien species introduced according to the text?",
+      "options": [
+        "Only unintentionally",
+        "Only deliberately",
+        "Unintentionally or deliberately for whatever purpose",
+        "Only through natural migration"
+      ],
+      "correct": 2,
+      "explanation": "The text states that alien species are introduced unintentionally or deliberately for whatever purpose, and some of them turn invasive."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the current situation of many marine fish populations around the world?",
+      "options": [
+        "They are increasing rapidly",
+        "They are over harvested",
+        "They are protected by international laws",
+        "They have migrated to freshwater"
+      ],
+      "correct": 1,
+      "explanation": "The text states that presently many marine fish populations around the world are over harvested, endangering the continued existence of some commercially important species."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Besides total habitat loss, what else threatens the survival of many species?",
+      "options": [
+        "Climate change only",
+        "The degradation of many habitats by pollution",
+        "Natural disasters only",
+        "Volcanic eruptions"
+      ],
+      "correct": 1,
+      "explanation": "The text states that besides total loss, the degradation of many habitats by pollution also threatens the survival of many species."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is co-extinction according to the text?",
+      "options": [
+        "When two species compete for the same resource",
+        "When a species becomes extinct, the plant and animal species associated with it in an obligatory way also become extinct",
+        "When species evolve together",
+        "When species migrate together"
+      ],
+      "correct": 1,
+      "explanation": "The text defines co-extinction as when a species becomes extinct, the plant and animal species associated with it in an obligatory way also become extinct."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are the three categories of arguments for conserving biodiversity mentioned in the textbook?",
+      "options": [
+        "Economic, social, and political arguments",
+        "Narrowly utilitarian, broadly utilitarian, and ethical arguments",
+        "Scientific, cultural, and religious arguments",
+        "Local, national, and international arguments"
+      ],
+      "correct": 1,
+      "explanation": "The textbook explicitly states that reasons for conserving biodiversity can be grouped into three categories: narrowly utilitarian, broadly utilitarian, and ethical arguments."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to the textbook, what percentage of drugs currently sold worldwide are derived from plants?",
+      "options": [
+        "More than 10%",
+        "More than 15%",
+        "More than 25%",
+        "More than 50%"
+      ],
+      "correct": 2,
+      "explanation": "The textbook states that more than 25 per cent of the drugs currently sold in the market worldwide are derived from plants."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many species of plants contribute to traditional medicines used by native peoples around the world?",
+      "options": [
+        "10,000 species",
+        "15,000 species",
+        "25,000 species",
+        "50,000 species"
+      ],
+      "correct": 2,
+      "explanation": "The textbook mentions that 25,000 species of plants contribute to the traditional medicines used by native peoples around the world."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is bioprospecting as defined in the textbook?",
+      "options": [
+        "Searching for new species in deep oceans",
+        "Exploring molecular, genetic and species-level diversity for products of economic importance",
+        "Hunting animals for commercial purposes",
+        "Collecting seeds from all forests for storage"
+      ],
+      "correct": 1,
+      "explanation": "The textbook defines bioprospecting as exploring molecular, genetic and species-level diversity for products of economic importance."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of total oxygen in Earth's atmosphere is estimated to be produced by the Amazon forest through photosynthesis?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "30%"
+      ],
+      "correct": 2,
+      "explanation": "The textbook states that the fast-dwindling Amazon forest is estimated to produce, through photosynthesis, 20 per cent of the total oxygen in the earth's atmosphere."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT mentioned as a pollinator in the ecosystem services discussion?",
+      "options": [
+        "Bees",
+        "Bumblebees",
+        "Butterflies",
+        "Bats"
+      ],
+      "correct": 2,
+      "explanation": "The textbook mentions bees, bumblebees, birds and bats as pollinators. Butterflies are not mentioned in this context."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the ethical argument for conserving biodiversity emphasize?",
+      "options": [
+        "Economic profits from selling forest products",
+        "Every species has intrinsic value regardless of economic value",
+        "Creating more jobs in the tourism sector",
+        "Developing new technologies for agriculture"
+      ],
+      "correct": 1,
+      "explanation": "The ethical argument states that every species has an intrinsic value, even if it may not be of current or any economic value to us, and we have a moral duty to care for their well-being."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the meaning of in situ conservation?",
+      "options": [
+        "Conservation in laboratories",
+        "Conservation in zoos and botanical gardens",
+        "On site conservation where the whole ecosystem is protected",
+        "Conservation through genetic engineering"
+      ],
+      "correct": 2,
+      "explanation": "The textbook defines in situ conservation as protecting the whole ecosystem so that biodiversity at all levels is protected in its natural habitat."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "When is ex situ conservation considered the desirable approach?",
+      "options": [
+        "When species are abundant in the wild",
+        "When an organism is endangered and needs urgent measures to save it from extinction",
+        "When ecosystems are completely stable",
+        "When there is no human interference"
+      ],
+      "correct": 1,
+      "explanation": "The textbook states that ex situ conservation is desirable when an animal or plant is endangered or threatened and needs urgent measures to save it from extinction in the wild."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many biodiversity hotspots were initially identified, and what is the total number now?",
+      "options": [
+        "Initially 15, now 25",
+        "Initially 25, now 34",
+        "Initially 30, now 40",
+        "Initially 20, now 30"
+      ],
+      "correct": 1,
+      "explanation": "The textbook states that initially 25 biodiversity hotspots were identified, but subsequently nine more were added, bringing the total to 34."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT one of the three biodiversity hotspots that cover India's rich biodiversity regions?",
+      "options": [
+        "Western Ghats and Sri Lanka",
+        "Indo-Burma",
+        "Himalaya",
+        "Sundaland"
+      ],
+      "correct": 3,
+      "explanation": "The textbook mentions three hotspots covering India: Western Ghats and Sri Lanka, Indo-Burma, and Himalaya. Sundaland is not mentioned as covering India."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many wildlife sanctuaries does India currently have according to the textbook?",
+      "options": [
+        "90",
+        "200",
+        "448",
+        "500"
+      ],
+      "correct": 2,
+      "explanation": "The textbook states that India now has 14 biosphere reserves, 90 national parks and 448 wildlife sanctuaries."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of the world's land area does India have, and what percentage of global species diversity does it contribute?",
+      "options": [
+        "5% land area and 5% species diversity",
+        "2.4% land area and 8.1% species diversity",
+        "8.1% land area and 2.4% species diversity",
+        "10% land area and 15% species diversity"
+      ],
+      "correct": 1,
+      "explanation": "India has only 2.4% of the world's land area but contributes an impressive 8.1% of global species diversity, making it one of the 12 mega diversity countries."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many species of plants have been recorded from India according to the text?",
+      "options": [
+        "20,000 species",
+        "30,000 species",
+        "45,000 species",
+        "50,000 species"
+      ],
+      "correct": 2,
+      "explanation": "Nearly 45,000 species of plants have been recorded from India, and twice as many animal species have also been documented."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to Robert May's estimates, what percentage of total species have been recorded so far globally?",
+      "options": [
+        "10%",
+        "15%",
+        "22%",
+        "50%"
+      ],
+      "correct": 2,
+      "explanation": "If we accept May's global estimates, only 22% of the total species have been recorded so far, meaning 78% remain undiscovered."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the latitudinal range that defines the tropics according to the text?",
+      "options": [
+        "0 degrees to 30 degrees N and S",
+        "23.5 degrees N to 23.5 degrees S",
+        "30 degrees N to 30 degrees S",
+        "15 degrees N to 15 degrees S"
+      ],
+      "correct": 1,
+      "explanation": "The tropics are defined as the latitudinal range of 23.5 degrees N to 23.5 degrees S, which harbour more species than temperate or polar areas."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many bird species does Colombia have compared to New York and Greenland?",
+      "options": [
+        "Colombia: 500, New York: 200, Greenland: 100",
+        "Colombia: 1,400, New York: 105, Greenland: 56",
+        "Colombia: 2,000, New York: 300, Greenland: 150",
+        "Colombia: 800, New York: 50, Greenland: 30"
+      ],
+      "correct": 1,
+      "explanation": "Colombia located near the equator has nearly 1,400 species of birds, while New York at 41 degrees N has 105 species and Greenland at 71 degrees N only 56 species, demonstrating the latitudinal gradient."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "The Amazonian rainforest is home to approximately how many species of invertebrates?",
+      "options": [
+        "10,000",
+        "50,000",
+        "1,25,000",
+        "5,00,000"
+      ],
+      "correct": 2,
+      "explanation": "The Amazonian rainforest is home to more than 1,25,000 invertebrates, along with 40,000+ plants, 3,000 fishes, 1,300 birds, 427 mammals, 427 amphibians, and 378 reptiles."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT one of the hypotheses proposed to explain greater biological diversity in the tropics?",
+      "options": [
+        "Tropical regions have had more evolutionary time due to less disturbance",
+        "Tropical environments are less seasonal and more constant",
+        "Tropical regions receive more solar energy contributing to higher productivity",
+        "Tropical regions have larger land area than temperate regions"
+      ],
+      "correct": 3,
+      "explanation": "The three hypotheses are: (a) tropics had long evolutionary time due to less disturbance, (b) less seasonal and more constant environments promote niche specialisation, and (c) more solar energy available contributes to higher productivity. Larger land area is not mentioned as a hypothesis."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of all recorded species are animals according to the text?",
+      "options": [
+        "More than 50%",
+        "More than 70%",
+        "Exactly 50%",
+        "Less than 50%"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that more than 70 percent of all the species recorded are animals."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of total species do plants (including algae, fungi, bryophytes, gymnosperms and angiosperms) comprise?",
+      "options": [
+        "More than 50%",
+        "Exactly 30%",
+        "No more than 22%",
+        "Approximately 40%"
+      ],
+      "correct": 2,
+      "explanation": "The text states that plants (including algae, fungi, bryophytes, gymnosperms and angiosperms) comprise no more than 22 percent of the total."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which taxonomic group makes up more than 70% of the total animals?",
+      "options": [
+        "Mammals",
+        "Birds",
+        "Insects",
+        "Fishes"
+      ],
+      "correct": 2,
+      "explanation": "Among animals, insects are the most species-rich taxonomic group, making up more than 70 percent of the total animals."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to the text, out of every 10 animals on this planet, how many are insects?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "The text states that out of every 10 animals on this planet, 7 are insects."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "The number of fungi species in the world is more than the combined total of which groups?",
+      "options": [
+        "Birds and mammals only",
+        "Fishes, amphibians, reptiles and mammals",
+        "Insects and crustaceans",
+        "Plants and algae"
+      ],
+      "correct": 1,
+      "explanation": "The number of fungi species in the world is more than the combined total of the species of fishes, amphibians, reptiles and mammals."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does Figure 13.1 depict?",
+      "options": [
+        "Food chains in different ecosystems",
+        "Proportionate number of species of major taxa of plants, invertebrates and vertebrates",
+        "Evolutionary timeline of species",
+        "Geographic distribution of biodiversity"
+      ],
+      "correct": 1,
+      "explanation": "Figure 13.1 represents global biodiversity showing the proportionate number of species of major taxa of plants, invertebrates and vertebrates."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why are prokaryotes not included in the species estimates mentioned?",
+      "options": [
+        "They are not considered living organisms",
+        "Biologists are not sure about how many prokaryotic species there might be",
+        "They are too small to count",
+        "They are all extinct"
+      ],
+      "correct": 1,
+      "explanation": "Biologists are not sure about how many prokaryotic species there might be, and conventional taxonomic methods are not suitable for identifying microbial species."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the problem with identifying prokaryotic species using conventional methods?",
+      "options": [
+        "They are too large to study",
+        "Conventional taxonomic methods are not suitable for identifying microbial species",
+        "They do not have DNA",
+        "They are all identical"
+      ],
+      "correct": 1,
+      "explanation": "The problem is that conventional taxonomic methods are not suitable for identifying microbial species and many species are simply not culturable under laboratory conditions."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "If biochemical or molecular criteria are used for delineating prokaryotic species, what might happen to their diversity estimate?",
+      "options": [
+        "It would decrease significantly",
+        "It would remain the same",
+        "Their diversity alone might run into millions",
+        "It would become zero"
+      ],
+      "correct": 2,
+      "explanation": "If we accept biochemical or molecular criteria for delineating species for this group, then their diversity alone might run into millions."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is shown in the Invertebrates pie chart in Figure 13.1?",
+      "options": [
+        "Mammals, Birds, Reptiles",
+        "Insects, Molluscs, Crustaceans, Other animal groups",
+        "Fishes, Amphibians, Mammals",
+        "Angiosperms, Fungi, Algae"
+      ],
+      "correct": 1,
+      "explanation": "The Invertebrates pie chart shows Insects, Molluscs, Crustaceans, and Other animal groups."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is shown in the Vertebrates pie chart in Figure 13.1?",
+      "options": [
+        "Insects, Molluscs, Crustaceans",
+        "Fishes, Amphibians, Reptiles, Birds, Mammals",
+        "Fungi, Algae, Lichens",
+        "Angiosperms, Mosses, Ferns"
+      ],
+      "correct": 1,
+      "explanation": "The Vertebrates pie chart shows Fishes, Amphibians, Reptiles, Birds, and Mammals."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is shown in the Plants pie chart in Figure 13.1?",
+      "options": [
+        "Fishes, Amphibians, Reptiles",
+        "Angiosperms, Fungi, Algae, Lichens, Mosses, Ferns and allies",
+        "Insects, Molluscs, Crustaceans",
+        "Mammals, Birds, Reptiles"
+      ],
+      "correct": 1,
+      "explanation": "The Plants pie chart shows Angiosperms, Fungi, Algae, Lichens, Mosses, and Ferns and allies."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why are many microbial species not identifiable under laboratory conditions?",
+      "options": [
+        "They are too large to observe",
+        "They are not culturable under laboratory conditions",
+        "They do not exist in nature",
+        "They are all extinct"
+      ],
+      "correct": 1,
+      "explanation": "Many species are simply not culturable under laboratory conditions, making them difficult to identify using conventional methods."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the most species-rich taxonomic group among animals?",
+      "options": [
+        "Mammals",
+        "Birds",
+        "Insects",
+        "Reptiles"
+      ],
+      "correct": 2,
+      "explanation": "Among animals, insects are the most species-rich taxonomic group, making up more than 70 percent of the total."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "The text mentions that plants include which of the following groups?",
+      "options": [
+        "Only flowering plants",
+        "Algae, fungi, bryophytes, gymnosperms and angiosperms",
+        "Only trees and shrubs",
+        "Only grasses and herbs"
+      ],
+      "correct": 1,
+      "explanation": "The text states that plants include algae, fungi, bryophytes, gymnosperms and angiosperms."
+    }
+  ]
+}

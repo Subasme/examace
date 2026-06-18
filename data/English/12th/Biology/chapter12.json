@@ -1,0 +1,2029 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Biology",
+    "chapter": "Chapter 12",
+    "chapterId": "chapter12",
+    "source": "Chapter12.xlsx",
+    "count": 168
+  },
+  "questions": [
+    {
+      "topic": "Chapter 12",
+      "question": "What are the two main structural features of an ecosystem?",
+      "options": [
+        "Productivity and decomposition",
+        "Species composition and stratification",
+        "Energy flow and nutrient cycling",
+        "Abiotic components and biotic components"
+      ],
+      "correct": 1,
+      "explanation": "English: The summary states that species composition and stratification are the two main structural features of an ecosystem."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which four processes are identified as the important functional components of an ecosystem?",
+      "options": [
+        "Photosynthesis, respiration, transpiration, and reproduction",
+        "Productivity, decomposition, energy flow, and nutrient cycling",
+        "Predation, competition, symbiosis, and parasitism",
+        "Stratification, speciation, migration, and adaptation"
+      ],
+      "correct": 1,
+      "explanation": "English: According to the summary, productivity, decomposition, energy flow, and nutrient cycling are the four important functional components of an ecosystem."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Gross Primary Productivity (GPP) minus respiration losses equals which of the following?",
+      "options": [
+        "Secondary Productivity",
+        "Total Biomass",
+        "Net Primary Productivity (NPP)",
+        "Standing Crop"
+      ],
+      "correct": 2,
+      "explanation": "English: The formula given is GPP minus R equals NPP. Net Primary Productivity is what remains after producers use some energy for respiration."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Secondary productivity is defined as the rate of formation of new organic matter by which group?",
+      "options": [
+        "Producers",
+        "Decomposers",
+        "Consumers",
+        "Autotrophs"
+      ],
+      "correct": 2,
+      "explanation": "English: The summary clearly states that secondary productivity is the rate of assimilation of food energy by the consumers."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are the three processes involved in decomposition according to the summary?",
+      "options": [
+        "Humification, mineralisation, and oxidation",
+        "Fragmentation of detritus, leaching, and catabolism",
+        "Photolysis, hydrolysis, and autolysis",
+        "Erosion, sedimentation, and precipitation"
+      ],
+      "correct": 1,
+      "explanation": "English: The summary states that decomposition involves three processes: fragmentation of detritus, leaching, and catabolism."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Energy flow in an ecosystem is described as which type of movement?",
+      "options": [
+        "Bidirectional",
+        "Cyclical",
+        "Unidirectional",
+        "Random"
+      ],
+      "correct": 2,
+      "explanation": "English: The summary explicitly states that energy flow is unidirectional, moving from plants (solar energy capture) through producers to decomposers."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the term for the storage and movement of nutrient elements through the various components of an ecosystem?",
+      "options": [
+        "Energy flow",
+        "Nutrient cycling",
+        "Decomposition",
+        "Productivity"
+      ],
+      "correct": 1,
+      "explanation": "English: According to the summary, the storage and movement of nutrient elements through the various components of the ecosystem is called nutrient cycling, and nutrients are repeatedly used through this process."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which type of nutrient cycle uses the atmosphere or hydrosphere as its reservoir?",
+      "options": [
+        "Sedimentary cycle",
+        "Phosphorus cycle",
+        "Gaseous cycle",
+        "Lithospheric cycle"
+      ],
+      "correct": 2,
+      "explanation": "English: The summary states that the atmosphere or hydrosphere is the reservoir for the gaseous type of nutrient cycle, with carbon being the example given."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Earth's crust serves as the reservoir for which type of nutrient cycle?",
+      "options": [
+        "Carbon cycle",
+        "Nitrogen cycle",
+        "Water cycle",
+        "Sedimentary cycle (e.g., phosphorus)"
+      ],
+      "correct": 3,
+      "explanation": "English: The summary specifies that Earth's crust is the reservoir for the sedimentary type of nutrient cycle, with phosphorus being the given example."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following is cited as an example of an ecosystem service?",
+      "options": [
+        "Formation of fossil fuels",
+        "Purification of air and water by forests",
+        "Sediment deposition in rivers",
+        "Stratification of plant species"
+      ],
+      "correct": 1,
+      "explanation": "English: The summary states that products of ecosystem processes are named ecosystem services, and gives purification of air and water by forests as the example."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In the fill-in-the-blank exercise, plants are called ________ because they fix carbon dioxide.",
+      "options": [
+        "Consumers",
+        "Decomposers",
+        "Producers (Autotrophs)",
+        "Heterotrophs"
+      ],
+      "correct": 2,
+      "explanation": "English: Exercise question 1(a) asks students to fill in the blank: plants are called producers (autotrophs) because they fix carbon dioxide through photosynthesis."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In an ecosystem dominated by trees, the pyramid of numbers is of which type?",
+      "options": [
+        "Upright",
+        "Spindle-shaped",
+        "Inverted",
+        "Rectangular"
+      ],
+      "correct": 2,
+      "explanation": "English: Exercise 1(b) indicates that in a tree-dominated ecosystem the pyramid of numbers is inverted, because a single large tree may support thousands of insects and birds."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which one of the following has the largest population in a food chain? (Exercise Q2)",
+      "options": [
+        "Primary consumers",
+        "Secondary consumers",
+        "Decomposers",
+        "Producers"
+      ],
+      "correct": 3,
+      "explanation": "English: Exercise question 2 tests knowledge that producers form the base of any food chain and therefore have the largest population, as energy decreases at each successive trophic level."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the second trophic level in a lake ecosystem? (Exercise Q3)",
+      "options": [
+        "Phytoplankton",
+        "Benthos",
+        "Fishes",
+        "Zooplankton"
+      ],
+      "correct": 3,
+      "explanation": "English: Exercise question 3 establishes that zooplankton occupy the second trophic level in a lake, as they are primary consumers feeding on phytoplankton (producers at the first trophic level)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "According to Exercise Q4, secondary producers are best described as which of the following?",
+      "options": [
+        "Herbivores",
+        "Carnivores",
+        "Producers",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explanation": "English: Exercise question 4 has the correct answer as 'None of the above' because the term secondary producers is not a standard ecological term; secondary productivity refers to consumers, not a separate category called secondary producers."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What percentage of photosynthetically active radiation (PAR) do plants typically capture? (Exercise Q5)",
+      "options": [
+        "100%",
+        "50%",
+        "1 to 5%",
+        "2 to 10%"
+      ],
+      "correct": 3,
+      "explanation": "English: Exercise question 5 and the chapter content confirm that plants capture only 2 to 10 percent of the PAR, and this small fraction sustains the entire living world."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Abiotic components of an ecosystem include which of the following?",
+      "options": [
+        "Producers, consumers, and decomposers",
+        "Phytoplankton, zooplankton, and fungi",
+        "Air, water, and soil",
+        "Herbivores, carnivores, and omnivores"
+      ],
+      "correct": 2,
+      "explanation": "English: The summary states that abiotic components are inorganic materials, specifically air, water, and soil, while biotic components are producers, consumers, and decomposers."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which statement best describes Net Primary Productivity (NPP)?",
+      "options": [
+        "Total energy fixed by plants including respiration losses",
+        "Biomass available for consumption after producers use energy for respiration",
+        "Rate of new organic matter formation by consumers",
+        "Energy lost as heat at each trophic level"
+      ],
+      "correct": 1,
+      "explanation": "English: NPP equals GPP minus respiration (R). It represents the biomass or energy left after producers use some for their own respiration, making it available to heterotrophs."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is an ecosystem defined as in the text?",
+      "options": [
+        "A collection of only living organisms in a habitat",
+        "A functional unit of nature where living organisms interact with each other and the physical environment",
+        "A geographical area with only abiotic components",
+        "A man-made structure for growing plants"
+      ],
+      "correct": 1,
+      "explanation": "An ecosystem is defined as a functional unit of nature where living organisms interact among themselves and also with the surrounding physical environment."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "How does the size of an ecosystem vary according to the text?",
+      "options": [
+        "All ecosystems are exactly the same size",
+        "Ecosystems vary greatly from a small pond to a large forest or a sea",
+        "Ecosystems are always larger than 100 square kilometers",
+        "Ecosystems are always smaller than a city"
+      ],
+      "correct": 1,
+      "explanation": "The text states that ecosystem varies greatly in size from a small pond to a large forest or a sea."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What do many ecologists regard the entire biosphere as?",
+      "options": [
+        "A collection of separate, unrelated ecosystems",
+        "A global ecosystem composed of all local ecosystems on Earth",
+        "A single terrestrial ecosystem only",
+        "An aquatic ecosystem covering 70% of Earth"
+      ],
+      "correct": 1,
+      "explanation": "Many ecologists regard the entire biosphere as a global ecosystem, as a composite of all local ecosystems on Earth."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Why is it convenient to divide the biosphere into two basic categories?",
+      "options": [
+        "Because the system is too big and complex to be studied at one time",
+        "Because there are only two types of organisms on Earth",
+        "Because the biosphere is very small and simple",
+        "Because ecologists prefer working with only two categories"
+      ],
+      "correct": 0,
+      "explanation": "Since the biosphere system is too big and complex to be studied at one time, it is convenient to divide it into two basic categories."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following is an example of a terrestrial ecosystem?",
+      "options": [
+        "Pond",
+        "Lake",
+        "Forest",
+        "River"
+      ],
+      "correct": 2,
+      "explanation": "Forest, grassland and desert are examples of terrestrial ecosystems, while pond, lake, wetland, river and estuary are aquatic ecosystems."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following is an example of a man-made ecosystem?",
+      "options": [
+        "Grassland",
+        "Desert",
+        "Crop fields",
+        "Wetland"
+      ],
+      "correct": 2,
+      "explanation": "Crop fields and an aquarium are mentioned as man-made ecosystems in the text."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What does the input of an ecosystem refer to?",
+      "options": [
+        "Degradation and energy loss",
+        "Productivity",
+        "Food chain and nutrient cycling",
+        "Heat dissipation"
+      ],
+      "correct": 1,
+      "explanation": "The input of an ecosystem refers to productivity, while transfer refers to food chain/web and nutrient cycling, and output refers to degradation and energy loss."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What relationships are created as a result of energy flows within an ecosystem?",
+      "options": [
+        "Only food chains",
+        "Only nutrient cycles",
+        "Cycles, chains, and webs",
+        "Only energy pyramids"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that cycles, chains, and webs are created as a result of energy flows within the system and their interrelationship."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the term for the vertical distribution of different species occupying different levels in an ecosystem?",
+      "options": [
+        "Species composition",
+        "Stratification",
+        "Productivity",
+        "Decomposition"
+      ],
+      "correct": 1,
+      "explanation": "Stratification refers to the vertical distribution of different species occupying different levels in an ecosystem. For example, trees occupy the top vertical strata of a forest, shrubs the second, and herbs and grasses the bottom."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following is NOT one of the four aspects that show the components of an ecosystem functioning as a unit?",
+      "options": [
+        "Productivity",
+        "Decomposition",
+        "Evolution",
+        "Energy flow"
+      ],
+      "correct": 2,
+      "explanation": "The four aspects that show ecosystem components functioning as a unit are: (i) Productivity, (ii) Decomposition, (iii) Energy flow, and (iv) Nutrient cycling. Evolution is not listed among these four aspects."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In a pond ecosystem, which of the following represents the abiotic component?",
+      "options": [
+        "Phytoplankton and algae",
+        "Zooplankton and free swimming forms",
+        "Fungi and bacteria",
+        "Water with dissolved substances and soil deposit at the bottom"
+      ],
+      "correct": 3,
+      "explanation": "The abiotic component of a pond ecosystem includes the water with all dissolved inorganic and organic substances, and the rich soil deposit at the bottom of the pond. Phytoplankton and algae are autotrophic (biotic), zooplankton are consumers (biotic), and fungi/bacteria are decomposers (biotic)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What regulates the rate of function of the entire pond ecosystem?",
+      "options": [
+        "Only the water temperature",
+        "The solar input, cycle of temperature, day-length and other climatic conditions",
+        "Only the number of decomposers present",
+        "The depth of the pond only"
+      ],
+      "correct": 1,
+      "explanation": "The solar input, the cycle of temperature, day-length and other climatic conditions regulate the rate of function of the entire pond ecosystem. These abiotic factors control how the ecosystem processes work."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which organisms are found at the bottom of the pond and serve as decomposers?",
+      "options": [
+        "Phytoplankton and algae",
+        "Zooplankton and free swimming forms",
+        "Fungi, bacteria and flagellates",
+        "Floating and submerged plants"
+      ],
+      "correct": 2,
+      "explanation": "The decomposers in a pond ecosystem are fungi, bacteria and flagellates, which are especially abundant in the bottom of the pond. They break down dead organic matter and recycle nutrients."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the direction of energy movement in an ecosystem?",
+      "options": [
+        "Bidirectional between all trophic levels",
+        "Circular and recycled continuously",
+        "Unidirectional towards higher trophic levels with dissipation as heat",
+        "Random with no specific pattern"
+      ],
+      "correct": 2,
+      "explanation": "There is a unidirectional movement of energy towards the higher trophic levels, and its dissipation and loss as heat to the environment. Energy does not cycle back in the same way that nutrients do."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Primary production is defined as the amount of biomass or organic matter produced per unit area over a time period by plants during which process?",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Decomposition",
+        "Fermentation"
+      ],
+      "correct": 1,
+      "explanation": "Primary production is defined as the amount of biomass or organic matter produced per unit area over a time period by plants during photosynthesis. It is expressed in terms of weight (g m^-2) or energy (kcal m^-2)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the relationship between Gross Primary Productivity (GPP), Net Primary Productivity (NPP), and Respiration (R)?",
+      "options": [
+        "GPP + R = NPP",
+        "GPP - R = NPP",
+        "GPP x R = NPP",
+        "GPP / R = NPP"
+      ],
+      "correct": 1,
+      "explanation": "Gross Primary Productivity minus respiration losses (R) equals Net Primary Productivity (NPP). The formula is: GPP - R = NPP. NPP represents the available biomass for consumption by heterotrophs."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the annual net primary productivity of the entire biosphere approximately?",
+      "options": [
+        "55 billion tons",
+        "100 billion tons",
+        "170 billion tons",
+        "250 billion tons"
+      ],
+      "correct": 2,
+      "explanation": "The annual net primary productivity of the whole biosphere is approximately 170 billion tons (dry weight) of organic matter. Of this, the productivity of the oceans is only 55 billion tons despite occupying about 70% of the surface."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Secondary productivity is defined as the rate of formation of new organic matter by which group of organisms?",
+      "options": [
+        "Producers (plants)",
+        "Consumers (heterotrophs)",
+        "Decomposers (fungi and bacteria)",
+        "Abiotic components"
+      ],
+      "correct": 1,
+      "explanation": "Secondary productivity is defined as the rate of formation of new organic matter by consumers (heterotrophs). This is different from primary productivity which is carried out by producers (autotrophs) through photosynthesis."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is primary production defined as?",
+      "options": [
+        "The rate of respiration in plants per unit area",
+        "The amount of biomass or organic matter produced per unit area over a time period by plants during photosynthesis",
+        "The total energy consumed by herbivores in an ecosystem",
+        "The amount of carbon dioxide fixed by decomposers"
+      ],
+      "correct": 1,
+      "explanation": "Primary production is defined as the amount of biomass or organic matter produced per unit area over a time period by plants during photosynthesis. It is expressed in terms of weight (g m^-2) or energy (kcal m^-2)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "How is the rate of biomass production expressed?",
+      "options": [
+        "In terms of number of species per square meter",
+        "In terms of g m^-2 yr^-1 or kcal m^-2 yr^-1",
+        "In terms of liters of water per hectare",
+        "In terms of percentage of solar radiation captured"
+      ],
+      "correct": 1,
+      "explanation": "The rate of biomass production is called productivity. It is expressed in terms of g m^-2 yr^-1 or kcal m^-2 yr^-1 to compare the productivity of different ecosystems."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What does GPP stand for in ecosystem productivity?",
+      "options": [
+        "Gross Plant Population",
+        "General Photosynthetic Process",
+        "Gross Primary Productivity",
+        "Global Plant Production"
+      ],
+      "correct": 2,
+      "explanation": "GPP stands for Gross Primary Productivity. It is the rate of production of organic matter during photosynthesis. A considerable amount of GPP is utilized by plants in respiration."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the relationship between GPP, R, and NPP?",
+      "options": [
+        "GPP + R = NPP",
+        "GPP - R = NPP",
+        "GPP x R = NPP",
+        "GPP / R = NPP"
+      ],
+      "correct": 1,
+      "explanation": "Gross primary productivity minus respiration losses (R) is the net primary productivity (NPP). The equation is GPP - R = NPP."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is net primary productivity (NPP)?",
+      "options": [
+        "The total solar energy captured by plants",
+        "The available biomass for consumption by heterotrophs including herbivores and decomposers",
+        "The energy lost as heat during respiration",
+        "The total carbon dioxide released by plants"
+      ],
+      "correct": 1,
+      "explanation": "Net primary productivity is the available biomass for the consumption to heterotrophs (herbivores and decomposers). It represents the energy actually stored in plant biomass after respiration losses."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is secondary productivity defined as?",
+      "options": [
+        "The rate of solar energy capture by plants",
+        "The rate of formation of new organic matter by consumers",
+        "The rate of decomposition by bacteria and fungi",
+        "The rate of nutrient cycling in an ecosystem"
+      ],
+      "correct": 1,
+      "explanation": "Secondary productivity is defined as the rate of formation of new organic matter by consumers. It refers to the biomass produced by heterotrophs at higher trophic levels."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which factors affect primary productivity?",
+      "options": [
+        "Only temperature and rainfall",
+        "Plant species, environmental factors, nutrient availability, and photosynthetic capacity of plants",
+        "Only the number of herbivores in the ecosystem",
+        "Only soil pH and wind speed"
+      ],
+      "correct": 1,
+      "explanation": "Primary productivity depends on the plant species inhabiting a particular area. It also depends on a variety of environmental factors, availability of nutrients, and photosynthetic capacity of plants. Therefore, it varies in different types of ecosystems."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the approximate annual net primary productivity of the whole biosphere?",
+      "options": [
+        "50 billion tons of organic matter",
+        "100 billion tons of organic matter",
+        "170 billion tons (dry weight) of organic matter",
+        "250 billion tons of organic matter"
+      ],
+      "correct": 2,
+      "explanation": "The annual net primary productivity of the whole biosphere is approximately 170 billion tons (dry weight) of organic matter. Of this, despite occupying about 70 percent of the surface, the productivity of the oceans is only 55 billion tons."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What percentage of Earth's surface do oceans occupy?",
+      "options": [
+        "About 50 percent",
+        "About 60 percent",
+        "About 70 percent",
+        "About 80 percent"
+      ],
+      "correct": 2,
+      "explanation": "Despite occupying about 70 percent of the surface, the productivity of the oceans is only 55 billion tons out of the total 170 billion tons of net primary productivity. This shows that oceans have relatively low productivity compared to their vast area."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the productivity of the oceans in terms of billion tons of organic matter?",
+      "options": [
+        "25 billion tons",
+        "55 billion tons",
+        "85 billion tons",
+        "115 billion tons"
+      ],
+      "correct": 1,
+      "explanation": "Of the total annual net primary productivity of approximately 170 billion tons, the productivity of the oceans is only 55 billion tons, despite occupying about 70 percent of Earth's surface. The rest (115 billion tons) is on land."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Decomposition is largely which type of process?",
+      "options": [
+        "An oxygen-requiring process",
+        "An oxygen-independent process",
+        "A nitrogen-requiring process",
+        "A carbon dioxide-requiring process"
+      ],
+      "correct": 0,
+      "explanation": "The text explicitly states that 'Decomposition is largely an oxygen-requiring process.' This means decomposition needs oxygen to proceed efficiently."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What controls the rate of decomposition according to the text?",
+      "options": [
+        "Only the chemical composition of detritus",
+        "Only climatic factors",
+        "Chemical composition of detritus and climatic factors",
+        "Only soil pH and sunlight"
+      ],
+      "correct": 2,
+      "explanation": "The text states: 'The rate of decomposition is controlled by chemical composition of detritus and climatic factors.' Both factors work together to determine how fast decomposition occurs."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "If detritus is rich in lignin and chitin, what happens to the decomposition rate?",
+      "options": [
+        "It becomes quicker",
+        "It becomes slower",
+        "It remains unchanged",
+        "It stops completely"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'decomposition rate is slower if detritus is rich in lignin and chitin.' Lignin and chitin are complex, resistant compounds that decomposers find difficult to break down."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "If detritus is rich in nitrogen and water-soluble substances like sugars, what happens to the decomposition rate?",
+      "options": [
+        "It becomes slower",
+        "It becomes quicker",
+        "It stops completely",
+        "It remains unchanged"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'quicker, if detritus is rich in nitrogen and water-soluble substances like sugars.' Nitrogen and simple sugars are easily digestible by decomposers, speeding up the process."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which are the most important climatic factors that regulate decomposition?",
+      "options": [
+        "Wind speed and atmospheric pressure",
+        "Temperature and soil moisture",
+        "Sunlight and rainfall",
+        "Humidity and altitude"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states: 'Temperature and soil moisture are the most important climatic factors that regulate decomposition through their effects on the activities of soil microbes.'"
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "How do temperature and soil moisture regulate decomposition?",
+      "options": [
+        "By directly breaking down detritus",
+        "Through their effects on the activities of soil microbes",
+        "By increasing soil pH",
+        "By providing nutrients to plants"
+      ],
+      "correct": 1,
+      "explanation": "The text states that temperature and soil moisture regulate decomposition 'through their effects on the activities of soil microbes.' These factors influence how active decomposers like bacteria and fungi are."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What type of environment favours decomposition?",
+      "options": [
+        "Cold and dry environment",
+        "Warm and moist environment",
+        "Hot and dry environment",
+        "Cold and wet environment"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states: 'Warm and moist environment favour decomposition.' Warmth and moisture create ideal conditions for microbial activity."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What inhibits decomposition according to the text?",
+      "options": [
+        "High temperature and high moisture",
+        "Low temperature and anaerobiosis",
+        "High nitrogen content and sugars",
+        "Presence of earthworms and fungi"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'low temperature and anaerobiosis inhibit decomposition resulting in build up of organic.' Low temperatures slow microbial activity, and lack of oxygen prevents aerobic decomposition."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the result of low temperature and anaerobiosis inhibiting decomposition?",
+      "options": [
+        "Rapid nutrient cycling",
+        "Build up of organic matter",
+        "Increased soil fertility",
+        "Faster plant growth"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'low temperature and anaerobiosis inhibit decomposition resulting in build up of organic.' When decomposition is inhibited, organic matter accumulates instead of being broken down."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is detritus composed of according to the text?",
+      "options": [
+        "Only dead plant remains",
+        "Only dead animal remains",
+        "Dead plant remains, dead animal remains, and fecal matter",
+        "Only living organisms"
+      ],
+      "correct": 2,
+      "explanation": "The text states: 'Dead plant remains such as leaves, bark, flowers and dead remains of animals, including fecal matter, constitute detritus.' Detritus includes all organic waste materials from both plants and animals."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following is NOT a step in the process of decomposition mentioned in the text?",
+      "options": [
+        "Fragmentation",
+        "Leaching",
+        "Catabolism",
+        "Photosynthesis"
+      ],
+      "correct": 3,
+      "explanation": "The text lists these steps: fragmentation, leaching, catabolism, humification, and mineralisation. Photosynthesis is a process by which plants make food, not a decomposition step."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the process called when detritivores break down detritus into smaller particles?",
+      "options": [
+        "Leaching",
+        "Catabolism",
+        "Fragmentation",
+        "Humification"
+      ],
+      "correct": 2,
+      "explanation": "The text states: 'Detritivores (e.g., earthworm) break down detritus into smaller particles. This process is called fragmentation.' Earthworms and other detritivores physically break down large organic matter."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What happens during the process of leaching?",
+      "options": [
+        "Bacteria break down detritus into simpler substances",
+        "Water-soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts",
+        "Earthworms break down detritus into smaller particles",
+        "Humus is formed from detritus"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'By the process of leaching, water-soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts.' Leaching involves the downward movement of soluble nutrients in water."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is catabolism in the context of decomposition?",
+      "options": [
+        "Formation of humus from detritus",
+        "Breakdown of detritus by bacterial and fungal enzymes into simpler inorganic substances",
+        "Physical breakdown of detritus by earthworms",
+        "Movement of nutrients into soil by water"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'Bacterial and fungal enzymes degrade detritus into simpler inorganic substances. This process is called as catabolism.' Catabolism is the chemical breakdown of complex molecules by enzymes."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is humification?",
+      "options": [
+        "The process of breaking down detritus into smaller particles",
+        "The accumulation of a dark coloured amorphous substance called humus",
+        "The movement of water-soluble nutrients into soil",
+        "The breakdown of humus by microbes"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'Humification leads to accumulation of a dark coloured amorphous substance called humus that is highly resistant to microbial action.' Humus is the dark, nutrient-rich organic material in soil."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is a characteristic of humus?",
+      "options": [
+        "It is easily broken down by microbes",
+        "It is highly resistant to microbial action and undergoes decomposition at an extremely slow rate",
+        "It is water-soluble and leaches quickly",
+        "It is formed only from animal remains"
+      ],
+      "correct": 1,
+      "explanation": "The text states that humus 'is highly resistant to microbial action and undergoes decomposition at an extremely slow rate.' This makes humus a stable, long-term reservoir of nutrients in soil."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the role of humus in soil?",
+      "options": [
+        "It speeds up decomposition",
+        "It serves as a reservoir of nutrients",
+        "It prevents water from entering soil",
+        "It kills soil microbes"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'Being colloidal in nature it serves as a reservoir of nutrients.' Humus stores nutrients and releases them slowly for plant use."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is mineralisation?",
+      "options": [
+        "The formation of humus from detritus",
+        "The release of inorganic nutrients by further degradation of humus by microbes",
+        "The breakdown of detritus by earthworms",
+        "The movement of nutrients into deeper soil layers"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'The humus is further degraded by some microbes and release of inorganic nutrients occur by the process known as mineralisation.' Mineralisation converts organic nutrients back to inorganic forms."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "According to the decomposition cycle diagram, what happens first after a green leaf falls to the ground?",
+      "options": [
+        "It becomes organic rich soil immediately",
+        "Some are eaten by insects and other animals, and nutrients and energy enter the food web",
+        "It is broken down by earthworms",
+        "It becomes humus directly"
+      ],
+      "correct": 1,
+      "explanation": "The diagram shows: 'A green leaf falls to the ground' -> 'Some are eaten by insects and other animals. Nutrients and energy enter food web.' This is the first step in the decomposition cycle after the leaf falls."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "According to the decomposition cycle diagram, what happens to leaves that are partially consumed by decomposers?",
+      "options": [
+        "They immediately become organic rich soil",
+        "They begin to lose form and become litter",
+        "They are eaten by large animals",
+        "They release all nutrients at once"
+      ],
+      "correct": 1,
+      "explanation": "The diagram states: 'Leaves partially consumed by decomposers such as fungi and bacteria. They begin to lose form and become litter.' This is the stage where decomposition begins to visibly break down the leaf structure."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What happens to some nutrients during decomposition according to the diagram?",
+      "options": [
+        "They evaporate into the atmosphere",
+        "They leach into soil by chemical action",
+        "They are absorbed by the tree immediately",
+        "They are converted to oxygen"
+      ],
+      "correct": 1,
+      "explanation": "The diagram states: 'Some nutrients leach into soil by chemical action.' Leaching is the process where water-soluble nutrients move downward into the soil."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "According to the diagram, what organisms are involved in further decomposition?",
+      "options": [
+        "Only fungi and bacteria",
+        "Earthworms, bacteria, soil mites, fungi, etc.",
+        "Only insects and birds",
+        "Only plants"
+      ],
+      "correct": 1,
+      "explanation": "The diagram states: 'Further decomposition by earthworms, bacteria, soil, mites, fungi, etc.' Multiple types of decomposers work together in this stage."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the final product of the decomposition cycle shown in the diagram?",
+      "options": [
+        "Carbon dioxide",
+        "Organic rich soil",
+        "Fresh water",
+        "New leaves on the tree"
+      ],
+      "correct": 1,
+      "explanation": "The diagram shows the final product as 'Organic rich soil,' which then cycles back to support the tree's growth. This completes the nutrient cycle."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the role of earthworms in decomposition?",
+      "options": [
+        "They are primary consumers that eat plants",
+        "They are detritivores that break down detritus into smaller particles",
+        "They are producers that make food",
+        "They are predators that eat other animals"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'Detritivores (e.g., earthworm) break down detritus into smaller particles. This process is called fragmentation.' Earthworms are called the farmer's friend because they help in decomposition and soil loosening."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Why are earthworms referred to as the farmer's friend?",
+      "options": [
+        "Because they eat crop pests",
+        "Because they help in breakdown of complex organic matter and loosening of soil",
+        "Because they produce oxygen",
+        "Because they pollinate flowers"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'You may have heard of the earthworm being referred to as the farmer's friend. This is so because they help in the breakdown of complex organic matter as well as in loosening of the soil.'"
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What constitutes the raw material for decomposition?",
+      "options": [
+        "Living plants and animals",
+        "Detritus",
+        "Soil minerals",
+        "Water and air"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'Dead plant remains such as leaves, bark, flowers and dead remains of animals, including fecal matter, constitute detritus, which is the raw material for decomposition.'"
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following is an example of a detritivore mentioned in the text?",
+      "options": [
+        "Lion",
+        "Earthworm",
+        "Eagle",
+        "Shark"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly mentions: 'Detritivores (e.g., earthworm)' as an example of organisms that break down detritus into smaller particles."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What do decomposers break down complex organic matter into?",
+      "options": [
+        "More complex organic compounds",
+        "Inorganic substances like carbon dioxide, water and nutrients",
+        "Living organisms",
+        "Soil rocks"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'decomposers break down complex organic matter into inorganic substances like carbon dioxide, water and nutrients.' This recycling makes nutrients available for plants again."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Do all steps in decomposition operate simultaneously on the detritus?",
+      "options": [
+        "No, they operate one after another in sequence",
+        "Yes, all steps operate simultaneously",
+        "Only fragmentation and leaching operate simultaneously",
+        "Only catabolism and humification operate simultaneously"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'It is important to note that all the above steps in decomposition operate simultaneously on the detritus.' Multiple decomposition processes happen at the same time."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which substances make decomposition slower?",
+      "options": [
+        "Nitrogen and sugars",
+        "Lignin and chitin",
+        "Water and oxygen",
+        "Carbon dioxide and minerals"
+      ],
+      "correct": 1,
+      "explanation": "The text states: 'decomposition rate is slower if detritus is rich in lignin and chitin.' Lignin (found in wood) and chitin (found in insect exoskeletons and fungi) are tough, resistant compounds."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the only source of energy for all ecosystems on Earth except deep sea hydro-thermal ecosystems?",
+      "options": [
+        "Moon",
+        "Sun",
+        "Wind",
+        "Geothermal heat"
+      ],
+      "correct": 1,
+      "explanation": "According to the text, except for deep sea hydro-thermal ecosystems, the Sun is the only source of energy for all ecosystems on Earth."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What percentage of incident solar radiation is photosynthetically active radiation (PAR)?",
+      "options": [
+        "More than 75%",
+        "Exactly 50%",
+        "Less than 50%",
+        "100%"
+      ],
+      "correct": 2,
+      "explanation": "The text states that of the incident solar radiation, less than 50 percent of it is photosynthetically active radiation (PAR)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What percentage of PAR do plants capture?",
+      "options": [
+        "50-75%",
+        "25-50%",
+        "10-20%",
+        "2-10%"
+      ],
+      "correct": 3,
+      "explanation": "The text clearly states that plants capture only 2-10 percent of the PAR. This small amount of energy sustains the entire living world."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which organisms are called autotrophs in an ecosystem?",
+      "options": [
+        "Animals that eat plants",
+        "Fungi and bacteria",
+        "Plants and photosynthetic bacteria",
+        "Carnivores"
+      ],
+      "correct": 2,
+      "explanation": "The text states that plants and photosynthetic bacteria (autotrophs) fix Sun's radiant energy to make food from simple inorganic materials."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the direction of energy flow in an ecosystem?",
+      "options": [
+        "Bidirectional between all trophic levels",
+        "Circular from consumers to producers",
+        "Unidirectional from sun to producers to consumers",
+        "Random in all directions"
+      ],
+      "correct": 2,
+      "explanation": "The text describes a unidirectional flow of energy from the sun to producers and then to consumers. Energy does not flow backward."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which law of thermodynamics states that ecosystems need a constant supply of energy to synthesize molecules?",
+      "options": [
+        "First law of thermodynamics",
+        "Second law of thermodynamics",
+        "Third law of thermodynamics",
+        "Zeroth law of thermodynamics"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that ecosystems are not exempt from the Second Law of thermodynamics and need a constant supply of energy to synthesize molecules they require."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are green plants called in an ecosystem?",
+      "options": [
+        "Consumers",
+        "Decomposers",
+        "Producers",
+        "Detritivores"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that green plants in the ecosystem are called producers."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following are major producers in a terrestrial ecosystem?",
+      "options": [
+        "Phytoplankton and algae",
+        "Herbaceous and woody plants",
+        "Zooplankton and fishes",
+        "Bacteria and fungi"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in a terrestrial ecosystem, major producers are herbaceous and woody plants."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which organisms are producers in an aquatic ecosystem?",
+      "options": [
+        "Insects and birds",
+        "Phytoplankton, algae and higher plants",
+        "Goats and cows",
+        "Lions and tigers"
+      ],
+      "correct": 1,
+      "explanation": "The text states that producers in an aquatic ecosystem are various species like phytoplankton, algae and higher plants."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are organisms that depend on plants directly or indirectly for food called?",
+      "options": [
+        "Producers",
+        "Autotrophs",
+        "Consumers or heterotrophs",
+        "Saprotrophs"
+      ],
+      "correct": 2,
+      "explanation": "The text states that all animals depend on plants directly or indirectly for their food needs and are hence called consumers and also heterotrophs."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are animals called that feed directly on producers (plants)?",
+      "options": [
+        "Secondary consumers",
+        "Primary consumers or herbivores",
+        "Tertiary consumers",
+        "Carnivores"
+      ],
+      "correct": 1,
+      "explanation": "The text states that if animals feed on the producers (the plants), they are called primary consumers, and the primary consumers will be herbivores."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are common herbivores in a terrestrial ecosystem?",
+      "options": [
+        "Lions and wolves",
+        "Insects, birds and mammals",
+        "Sharks and whales",
+        "Snakes and eagles"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that some common herbivores are insects, birds and mammals in terrestrial ecosystem."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are common herbivores in an aquatic ecosystem?",
+      "options": [
+        "Phytoplankton",
+        "Molluscs",
+        "Fishes",
+        "Seals"
+      ],
+      "correct": 1,
+      "explanation": "The text states that molluscs are common herbivores in aquatic ecosystem."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are animals that feed on herbivores called?",
+      "options": [
+        "Primary consumers",
+        "Primary carnivores or secondary consumers",
+        "Producers",
+        "Decomposers"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the consumers that feed on herbivores are carnivores, or more correctly primary carnivores (though secondary consumers)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are animals that depend on primary carnivores for food called?",
+      "options": [
+        "Primary consumers",
+        "Secondary carnivores",
+        "Producers",
+        "Herbivores"
+      ],
+      "correct": 1,
+      "explanation": "The text states that animals that depend on the primary carnivores for food are labelled secondary carnivores."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In the grazing food chain example given, what is the producer?",
+      "options": [
+        "Goat",
+        "Man",
+        "Grass",
+        "Lion"
+      ],
+      "correct": 2,
+      "explanation": "The text provides a simple grazing food chain: Grass (Producer) → Goat (Primary Consumer) → Man (Secondary consumer). Therefore, grass is the producer."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In the grazing food chain example, what is the primary consumer?",
+      "options": [
+        "Grass",
+        "Goat",
+        "Man",
+        "Tiger"
+      ],
+      "correct": 1,
+      "explanation": "The text shows the grazing food chain: Grass (Producer) → Goat (Primary Consumer) → Man (Secondary consumer). The goat is the primary consumer."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In the grazing food chain example, what is the secondary consumer?",
+      "options": [
+        "Grass",
+        "Goat",
+        "Man",
+        "Deer"
+      ],
+      "correct": 2,
+      "explanation": "The text shows the grazing food chain: Grass (Producer) → Goat (Primary Consumer) → Man (Secondary consumer). Man is the secondary consumer in this example."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What happens to the energy trapped by a producer when the organism dies?",
+      "options": [
+        "It is stored forever in the dead organism",
+        "It becomes the beginning of the detritus food chain",
+        "It returns directly to the sun",
+        "It disappears completely"
+      ],
+      "correct": 1,
+      "explanation": "The text states that death of organism is the beginning of the detritus food chain. The energy does not remain in the organism forever."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What type of consumers eat other animals which in turn eat plants?",
+      "options": [
+        "Primary consumers",
+        "Secondary consumers",
+        "Producers",
+        "Herbivores"
+      ],
+      "correct": 1,
+      "explanation": "The text states that if animals eat other animals which in turn eat the plants, they are called secondary consumers."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What happens to the amount of energy at successive trophic levels in an ecosystem?",
+      "options": [
+        "Energy increases at each trophic level",
+        "Energy remains constant at all trophic levels",
+        "Energy decreases at successive trophic levels",
+        "Energy doubles at each trophic level"
+      ],
+      "correct": 2,
+      "explanation": "The amount of energy decreases at successive trophic levels because energy is lost as heat at each transfer step according to the second law of thermodynamics."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "When an organism dies, what does it become that serves as an energy source for decomposers?",
+      "options": [
+        "Humus",
+        "Detritus or dead biomass",
+        "Minerals",
+        "Organic compounds"
+      ],
+      "correct": 1,
+      "explanation": "When any organism dies it is converted to detritus or dead biomass that serves as an energy source for decomposers."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the term for the mass of living material at a particular trophic level at a given time?",
+      "options": [
+        "Primary productivity",
+        "Standing crop",
+        "Gross primary productivity",
+        "Net primary productivity"
+      ],
+      "correct": 1,
+      "explanation": "Each trophic level has a certain mass of living material at a particular time called as the standing crop."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "How is the standing crop measured?",
+      "options": [
+        "Only by the number of organisms in a unit area",
+        "Only by the mass of living organisms (biomass)",
+        "By the mass of living organisms (biomass) or the number in a unit area",
+        "By the volume of organisms in a unit area"
+      ],
+      "correct": 2,
+      "explanation": "The standing crop is measured as the mass of living organisms (biomass) or the number in a unit area."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "The biomass of a species can be expressed in terms of which of the following?",
+      "options": [
+        "Only fresh weight",
+        "Only dry weight",
+        "Fresh or dry weight",
+        "Wet weight only"
+      ],
+      "correct": 2,
+      "explanation": "The biomass of a species is expressed in terms of fresh or dry weight."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Why is measurement of biomass in terms of dry weight more accurate?",
+      "options": [
+        "Because dry weight includes water content",
+        "Because fresh weight is easier to measure",
+        "Because dry weight eliminates water content variation",
+        "Because dry weight is always heavier"
+      ],
+      "correct": 2,
+      "explanation": "Measurement of biomass in terms of dry weight is more accurate because it eliminates variation due to water content, providing a consistent standard for comparison."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What percentage of energy is transferred to each trophic level from the lower trophic level according to the 10 percent law?",
+      "options": [
+        "50 percent",
+        "25 percent",
+        "10 percent",
+        "5 percent"
+      ],
+      "correct": 2,
+      "explanation": "The transfer of energy follows the 10 percent law, meaning only 10 percent of the energy is transferred to each trophic level from the lower trophic level."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which law restricts the number of trophic levels in the grazing food chain?",
+      "options": [
+        "First law of thermodynamics",
+        "Law of conservation of mass",
+        "10 percent law of energy transfer",
+        "Law of limiting factors"
+      ],
+      "correct": 2,
+      "explanation": "The number of trophic levels in the grazing food chain is restricted as the transfer of energy follows the 10 percent law."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following levels can exist in a grazing food chain in nature?",
+      "options": [
+        "Producer only",
+        "Producer, herbivore, primary carnivore, secondary carnivore",
+        "Producer and herbivore only",
+        "Herbivore and carnivore only"
+      ],
+      "correct": 1,
+      "explanation": "In nature, it is possible to have many levels including producer, herbivore, primary carnivore, and secondary carnivore in the grazing food chain."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What shape is the base of a pyramid?",
+      "options": [
+        "Narrow",
+        "Broad",
+        "Pointed",
+        "Circular"
+      ],
+      "correct": 1,
+      "explanation": "The base of a pyramid is broad and it narrows towards the apex."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In ecological pyramids, what does the base represent?",
+      "options": [
+        "Tertiary consumers",
+        "Top level consumers",
+        "Producers or first trophic level",
+        "Decomposers"
+      ],
+      "correct": 2,
+      "explanation": "The base of each pyramid represents the producers or the first trophic level."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In ecological pyramids, what does the apex represent?",
+      "options": [
+        "Producers",
+        "Primary consumers",
+        "Tertiary or top level consumer",
+        "Herbivores"
+      ],
+      "correct": 2,
+      "explanation": "The apex represents the tertiary or top level consumer in ecological pyramids."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "How many types of ecological pyramids are usually studied?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct": 1,
+      "explanation": "The three types of ecological pyramids that are usually studied are pyramid of number, pyramid of biomass, and pyramid of energy."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following is NOT a type of ecological pyramid?",
+      "options": [
+        "Pyramid of number",
+        "Pyramid of biomass",
+        "Pyramid of energy",
+        "Pyramid of volume"
+      ],
+      "correct": 3,
+      "explanation": "The three types of ecological pyramids are pyramid of number, pyramid of biomass, and pyramid of energy. Pyramid of volume is not mentioned."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "The relationship between organisms at different trophic levels in ecological pyramids is expressed in terms of which of the following?",
+      "options": [
+        "Number only",
+        "Biomass only",
+        "Energy only",
+        "Number, biomass, or energy"
+      ],
+      "correct": 3,
+      "explanation": "This relationship is expressed in terms of number, biomass or energy."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Do organisms at each trophic level depend on those at lower trophic levels for their energy demands?",
+      "options": [
+        "No, they are independent",
+        "Yes, they depend on lower trophic levels",
+        "Only producers depend on lower levels",
+        "Only decomposers depend on lower levels"
+      ],
+      "correct": 1,
+      "explanation": "Organisms at each trophic level depend on those at the lower trophic level for their energy demands."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the 10 percent law related to?",
+      "options": [
+        "Water cycle",
+        "Nutrient cycling",
+        "Energy transfer between trophic levels",
+        "Photosynthesis efficiency"
+      ],
+      "correct": 2,
+      "explanation": "The 10 percent law states that only 10 percent of energy is transferred from one trophic level to the next in a food chain."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following best describes the direction of energy flow in a grazing food chain?",
+      "options": [
+        "Bidirectional",
+        "Circular",
+        "Unidirectional from lower to higher trophic levels",
+        "Random"
+      ],
+      "correct": 2,
+      "explanation": "Energy flows unidirectionally from the sun to producers and then to consumers at higher trophic levels."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What happens to energy that is NOT transferred to the next trophic level?",
+      "options": [
+        "It is stored in the organism",
+        "It is lost as heat to the environment",
+        "It is recycled back to producers",
+        "It becomes part of the soil"
+      ],
+      "correct": 1,
+      "explanation": "When energy flows from one trophic level to the next, some energy is always lost as heat at each step according to the second law of thermodynamics."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In the context of ecological pyramids, what does a trophic level represent?",
+      "options": [
+        "A specific species",
+        "A functional level based on feeding relationships",
+        "A geographical location",
+        "A type of habitat"
+      ],
+      "correct": 1,
+      "explanation": "The trophic level represents a functional level based on the source of nutrition or food, not a specific species."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following is a correct statement about the pyramid of energy?",
+      "options": [
+        "It can be inverted",
+        "It is always upright and can never be inverted",
+        "It has no definite shape",
+        "It is always inverted in aquatic ecosystems"
+      ],
+      "correct": 1,
+      "explanation": "Pyramid of energy is always upright and can never be inverted because energy is always lost as heat at each trophic level transfer."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What does each bar in the energy pyramid indicate?",
+      "options": [
+        "The number of organisms at each level",
+        "The biomass at each trophic level",
+        "The amount of energy present at each trophic level in a given time or annually per unit area",
+        "The volume of organisms at each level"
+      ],
+      "correct": 2,
+      "explanation": "Each bar in the energy pyramid indicates the amount of energy present at each trophic level in a given time or annually per unit area."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Why is the pyramid of biomass in the sea generally inverted?",
+      "options": [
+        "Because there are more producers than consumers",
+        "Because the biomass of fishes far exceeds that of phytoplankton",
+        "Because energy increases at each level",
+        "Because there are no decomposers in the sea"
+      ],
+      "correct": 1,
+      "explanation": "The pyramid of biomass in sea is generally inverted because the biomass of fishes far exceeds that of phytoplankton, even though phytoplankton have higher productivity."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which pyramid is always upright in most ecosystems?",
+      "options": [
+        "Pyramid of numbers only",
+        "Pyramid of biomass only",
+        "Pyramid of energy only",
+        "All three pyramids of number, energy, and biomass"
+      ],
+      "correct": 3,
+      "explanation": "In most ecosystems, all the pyramids of number, energy, and biomass are upright, with producers having more biomass and numbers than herbivores, and herbivores more than carnivores."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the main reason for the decrease in energy at higher trophic levels?",
+      "options": [
+        "Energy is stored in organisms",
+        "Energy is lost as heat during metabolic processes",
+        "Energy is absorbed by the sun",
+        "Energy is converted to water"
+      ],
+      "correct": 1,
+      "explanation": "Energy decreases at successive trophic levels because some energy is always lost as heat during metabolic processes at each transfer step."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What happens to the amount of energy at successive trophic levels in an ecosystem?",
+      "options": [
+        "It increases continuously",
+        "It remains constant",
+        "It decreases at successive trophic levels",
+        "It doubles at each level"
+      ],
+      "correct": 2,
+      "explanation": "The important point to note is that the amount of energy decreases at successive trophic levels."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "When an organism dies, what is it converted into?",
+      "options": [
+        "Living biomass",
+        "Detritus or dead biomass",
+        "Atmospheric gases",
+        "Inorganic nutrients only"
+      ],
+      "correct": 1,
+      "explanation": "When any organism dies it is converted to detritus or dead biomass that serves as an energy source for decomposers."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What do organisms at each trophic level depend on for their energy demands?",
+      "options": [
+        "The sun directly",
+        "Those at the lower trophic level",
+        "Those at the higher trophic level",
+        "Decomposers only"
+      ],
+      "correct": 1,
+      "explanation": "Organisms at each trophic level depend on those at the lower trophic level for their energy demands."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the term for the mass of living material at a particular time at each trophic level?",
+      "options": [
+        "Biomass pyramid",
+        "Standing crop",
+        "Energy flow",
+        "Productivity"
+      ],
+      "correct": 1,
+      "explanation": "Each trophic level has a certain mass of living material at a particular time called as the standing crop."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "How is the standing crop measured?",
+      "options": [
+        "Only by the number of organisms",
+        "Only by the mass of living organisms",
+        "By the mass of living organisms (biomass) or the number in a unit area",
+        "By the volume of water displaced"
+      ],
+      "correct": 2,
+      "explanation": "The standing crop is measured as the mass of living organisms (biomass) or the number in a unit area."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In what terms is the biomass of a species expressed?",
+      "options": [
+        "Only in fresh weight",
+        "Only in dry weight",
+        "In terms of fresh or dry weight",
+        "In terms of water content only"
+      ],
+      "correct": 2,
+      "explanation": "The biomass of a species is expressed in terms of fresh or dry weight."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Why is measurement of biomass in terms of dry weight more accurate?",
+      "options": [
+        "Because it includes water content",
+        "Because fresh weight varies with water content which is variable",
+        "Because dry weight is easier to calculate",
+        "Because it excludes all nutrients"
+      ],
+      "correct": 1,
+      "explanation": "Measurement of biomass in terms of dry weight is more accurate because fresh weight varies with water content which is variable depending on environmental conditions, whereas dry weight represents the actual organic matter."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What percentage of energy is transferred to each trophic level from the lower trophic level according to the 10 percent law?",
+      "options": [
+        "50%",
+        "25%",
+        "10%",
+        "90%"
+      ],
+      "correct": 2,
+      "explanation": "The transfer of energy follows 10 per cent law – only 10 per cent of the energy is transferred to each trophic level from the lower trophic level."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the reason for the restriction on the number of trophic levels in the grazing food chain?",
+      "options": [
+        "Lack of producers",
+        "The 10 percent law of energy transfer",
+        "Excessive number of decomposers",
+        "Limited water availability"
+      ],
+      "correct": 1,
+      "explanation": "The number of trophic levels in the grazing food chain is restricted as the transfer of energy follows 10 per cent law."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following levels are possible in the grazing food chain in nature?",
+      "options": [
+        "Only producer and herbivore",
+        "Producer, herbivore, primary carnivore, and secondary carnivore",
+        "Only producer and carnivore",
+        "Only decomposers and producers"
+      ],
+      "correct": 1,
+      "explanation": "In nature, it is possible to have so many levels – producer, herbivore, primary carnivore, secondary carnivore in the grazing food chain."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What serves as an energy source for decomposers?",
+      "options": [
+        "Living plants only",
+        "Detritus or dead biomass",
+        "Solar radiation directly",
+        "Only animal fecal matter"
+      ],
+      "correct": 1,
+      "explanation": "When any organism dies it is converted to detritus or dead biomass that serves as an energy source for decomposers."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "The 10 percent law of energy transfer implies that:",
+      "options": [
+        "90% energy is transferred to the next level",
+        "10% energy is lost as heat at each level",
+        "Only 10% of energy is transferred to each trophic level from the lower level",
+        "100% energy is conserved at each level"
+      ],
+      "correct": 2,
+      "explanation": "Only 10 per cent of the energy is transferred to each trophic level from the lower trophic level. The remaining 90% is lost mainly as heat during metabolic activities."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "According to the text, what question is raised about the detritus food chain?",
+      "options": [
+        "Whether it has more trophic levels than grazing food chain",
+        "Whether there is any limitation in the number of trophic levels in a detritus food chain",
+        "Whether decomposers are part of the detritus food chain",
+        "Whether detritus food chain is more efficient than grazing food chain"
+      ],
+      "correct": 1,
+      "explanation": "The text asks: Do you think there is any such limitation in a detritus food chain? This raises the question about whether the 10 percent law restriction on trophic levels also applies to detritus food chains."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "The standing crop can be measured by:",
+      "options": [
+        "Only biomass per unit area",
+        "Only number of organisms per unit area",
+        "Either biomass or number of organisms in a unit area",
+        "Volume of the ecosystem"
+      ],
+      "correct": 2,
+      "explanation": "The standing crop is measured as the mass of living organisms (biomass) or the number in a unit area."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the only source of energy for all ecosystems on Earth, except for deep sea hydro-thermal ecosystems?",
+      "options": [
+        "Moonlight",
+        "Sun",
+        "Geothermal heat",
+        "Chemical energy from volcanoes"
+      ],
+      "correct": 1,
+      "explanation": "The sun is the only source of energy for all ecosystems on Earth, with the exception of deep sea hydro-thermal ecosystems. Plants and photosynthetic bacteria capture solar energy to produce food through photosynthesis."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What percentage of incident solar radiation is photosynthetically active radiation (PAR)?",
+      "options": [
+        "More than 50%",
+        "Less than 50%",
+        "Exactly 50%",
+        "100%"
+      ],
+      "correct": 1,
+      "explanation": "Of the incident solar radiation, less than 50 percent of it is photosynthetically active radiation (PAR). This means that only a portion of the total solar energy reaching Earth can be used by plants for photosynthesis."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What percentage of PAR do plants capture to sustain the entire living world?",
+      "options": [
+        "50-60%",
+        "20-30%",
+        "2-10%",
+        "0.1-1%"
+      ],
+      "correct": 2,
+      "explanation": "Plants capture only 2-10 percent of the PAR (photosynthetically active radiation). This small amount of energy sustains the entire living world, making it crucial to understand how solar energy flows through different organisms in an ecosystem."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In which direction does energy flow in an ecosystem?",
+      "options": [
+        "Bidirectional",
+        "Circular",
+        "Unidirectional",
+        "Random"
+      ],
+      "correct": 2,
+      "explanation": "Energy flows in a unidirectional manner from the sun to producers and then to consumers. This means energy moves in one direction only and cannot be recycled within the ecosystem."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which law of thermodynamics states that ecosystems need a constant supply of energy to counteract increasing disorderliness?",
+      "options": [
+        "First Law of Thermodynamics",
+        "Second Law of Thermodynamics",
+        "Third Law of Thermodynamics",
+        "Zeroth Law of Thermodynamics"
+      ],
+      "correct": 1,
+      "explanation": "Ecosystems are not exempt from the Second Law of Thermodynamics. They need a constant supply of energy to synthesize the molecules they require and to counteract the universal tendency toward increasing disorderliness or entropy."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are the major producers in a terrestrial ecosystem?",
+      "options": [
+        "Phytoplankton and algae",
+        "Herbaceous and woody plants",
+        "Zooplankton and bacteria",
+        "Fungi and lichens"
+      ],
+      "correct": 1,
+      "explanation": "In a terrestrial ecosystem, the major producers are herbaceous and woody plants. These green plants capture solar energy through photosynthesis and form the base of the food chain."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which organisms are the producers in an aquatic ecosystem?",
+      "options": [
+        "Zooplankton and fish",
+        "Phytoplankton, algae and higher plants",
+        "Bacteria and fungi",
+        "Insects and molluscs"
+      ],
+      "correct": 1,
+      "explanation": "In an aquatic ecosystem, producers are various species like phytoplankton, algae and higher plants. These organisms perform photosynthesis and form the first trophic level in aquatic food chains."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is a grazing food chain (GFC)?",
+      "options": [
+        "A chain that begins with dead organic matter",
+        "A chain that starts with producers and moves to herbivores and carnivores",
+        "A chain involving only decomposers",
+        "A chain that cycles energy within the ecosystem"
+      ],
+      "correct": 1,
+      "explanation": "A grazing food chain (GFC) starts from plants (producers) and moves to herbivores (primary consumers) and then to carnivores (secondary consumers). An example is Grass → Goat → Man."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What does the detritus food chain (DFC) begin with?",
+      "options": [
+        "Living plants",
+        "Dead organic matter",
+        "Solar energy",
+        "Bacteria and fungi"
+      ],
+      "correct": 1,
+      "explanation": "The detritus food chain (DFC) begins with dead organic matter. It is made up of decomposers (mainly fungi and bacteria) that break down dead organic matter or detritus to meet their energy and nutrient requirements."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which organisms are known as saprotrophs in the detritus food chain?",
+      "options": [
+        "Herbivores",
+        "Carnivores",
+        "Decomposers",
+        "Producers"
+      ],
+      "correct": 2,
+      "explanation": "Decomposers in the detritus food chain are also known as saprotrophs (sapro: to decompose). They are mainly fungi and bacteria that secrete digestive enzymes to break down dead and waste materials into simple inorganic substances."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In which ecosystem is the grazing food chain (GFC) the major conduit for energy flow?",
+      "options": [
+        "Terrestrial ecosystem",
+        "Aquatic ecosystem",
+        "Desert ecosystem",
+        "Forest ecosystem"
+      ],
+      "correct": 1,
+      "explanation": "In an aquatic ecosystem, the grazing food chain (GFC) is the major conduit for energy flow. In contrast, in a terrestrial ecosystem, a much larger fraction of energy flows through the detritus food chain (DFC) than through the GFC."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is formed when food chains are naturally interconnected?",
+      "options": [
+        "A pyramid",
+        "A food web",
+        "An ecosystem",
+        "A biome"
+      ],
+      "correct": 1,
+      "explanation": "When food chains are naturally interconnected, they form a food web. This happens because some organisms of the detritus food chain are prey to grazing food chain animals, and some animals like cockroaches and crows are omnivores that feed at multiple trophic levels."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which trophic level do producers belong to?",
+      "options": [
+        "First trophic level",
+        "Second trophic level",
+        "Third trophic level",
+        "Fourth trophic level"
+      ],
+      "correct": 0,
+      "explanation": "Producers belong to the first trophic level. They are autotrophs that capture solar energy and produce organic matter through photosynthesis, forming the base of all food chains."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which trophic level do herbivores (primary consumers) occupy?",
+      "options": [
+        "First trophic level",
+        "Second trophic level",
+        "Third trophic level",
+        "Fourth trophic level"
+      ],
+      "correct": 1,
+      "explanation": "Herbivores or primary consumers occupy the second trophic level. They feed directly on producers (plants) and are the first level of consumers in the food chain."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which trophic level do carnivores (secondary consumers) occupy?",
+      "options": [
+        "First trophic level",
+        "Second trophic level",
+        "Third trophic level",
+        "Fourth trophic level"
+      ],
+      "correct": 2,
+      "explanation": "Carnivores or secondary consumers occupy the third trophic level. They feed on herbivores (primary consumers) that have eaten plants."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What are organisms called that feed directly on producers (plants)?",
+      "options": [
+        "Secondary consumers",
+        "Primary consumers",
+        "Tertiary consumers",
+        "Decomposers"
+      ],
+      "correct": 1,
+      "explanation": "Organisms that feed directly on producers (plants) are called primary consumers. These are herbivores such as insects, birds, and mammals in terrestrial ecosystems and molluscs in aquatic ecosystems."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the term for the mass of living organisms at a particular trophic level at a given time?",
+      "options": [
+        "Biomass production",
+        "Standing crop",
+        "Primary productivity",
+        "Secondary productivity"
+      ],
+      "correct": 1,
+      "explanation": "The standing crop is the mass of living organisms (biomass) or the number of organisms in a unit area at a particular trophic level at a given time. It is measured as fresh or dry weight, with dry weight being more accurate."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "According to the 10 percent law, what percentage of energy is transferred from one trophic level to the next?",
+      "options": [
+        "1%",
+        "5%",
+        "10%",
+        "50%"
+      ],
+      "correct": 2,
+      "explanation": "According to the 10 percent law, only 10 percent of the energy is transferred to each trophic level from the lower trophic level. This means 90% of energy is lost as heat or used for metabolic processes at each level."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Why is the number of trophic levels in the grazing food chain restricted?",
+      "options": [
+        "Due to lack of producers",
+        "Due to the 10 percent law of energy transfer",
+        "Due to excessive decomposers",
+        "Due to water scarcity"
+      ],
+      "correct": 1,
+      "explanation": "The number of trophic levels in the grazing food chain is restricted because the transfer of energy follows the 10 percent law. Only 10% of energy is transferred to each trophic level, so after a few levels, insufficient energy remains to support another level."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What happens to the energy trapped by a producer when the organism dies?",
+      "options": [
+        "It is lost to the environment completely",
+        "It becomes the beginning of the detritus food chain",
+        "It is transferred to the next trophic level",
+        "It is stored in the soil permanently"
+      ],
+      "correct": 1,
+      "explanation": "When an organism dies, the energy trapped by the producer becomes the beginning of the detritus food chain. The dead biomass serves as an energy source for decomposers like fungi and bacteria."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the shape of ecological pyramids in most ecosystems?",
+      "options": [
+        "Inverted",
+        "Upright",
+        "Circular",
+        "Horizontal"
+      ],
+      "correct": 1,
+      "explanation": "In most ecosystems, all the pyramids of number, energy, and biomass are upright. This means producers are more in number and biomass than herbivores, and herbivores are more than carnivores. Energy at a lower trophic level is always more than at a higher level."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In the grazing food chain example given, which organism represents the primary consumer?",
+      "options": [
+        "Grass",
+        "Goat",
+        "Man",
+        "Bacteria"
+      ],
+      "correct": 1,
+      "explanation": "In the grazing food chain Grass -> Goat -> Man, the goat feeds directly on the producer (grass) and is therefore the primary consumer."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the starting point of the detritus food chain?",
+      "options": [
+        "Living plants",
+        "Dead organic matter",
+        "Solar energy",
+        "Water bodies"
+      ],
+      "correct": 1,
+      "explanation": "The detritus food chain begins with dead organic matter, which is broken down by decomposers like fungi and bacteria."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which organisms are primarily responsible for the detritus food chain?",
+      "options": [
+        "Herbivores",
+        "Carnivores",
+        "Fungi and bacteria",
+        "Phytoplankton"
+      ],
+      "correct": 2,
+      "explanation": "The detritus food chain is made up of decomposers, mainly fungi and bacteria, which break down dead organic matter."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is another term used for decomposers in the detritus food chain?",
+      "options": [
+        "Autotrophs",
+        "Saprotrophs",
+        "Herbivores",
+        "Producers"
+      ],
+      "correct": 1,
+      "explanation": "Decomposers are also known as saprotrophs (sapro means to decompose), as they obtain energy by breaking down dead organic matter."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "In which type of ecosystem is the grazing food chain the major conduit for energy flow?",
+      "options": [
+        "Terrestrial ecosystem",
+        "Aquatic ecosystem",
+        "Desert ecosystem",
+        "Grassland ecosystem"
+      ],
+      "correct": 1,
+      "explanation": "In an aquatic ecosystem, the grazing food chain is the major conduit for energy flow, unlike terrestrial ecosystems where detritus food chain dominates."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which ecosystem has a larger fraction of energy flowing through the detritus food chain?",
+      "options": [
+        "Aquatic ecosystem",
+        "Terrestrial ecosystem",
+        "Marine ecosystem",
+        "Freshwater ecosystem"
+      ],
+      "correct": 1,
+      "explanation": "In a terrestrial ecosystem, a much larger fraction of energy flows through the detritus food chain than through the grazing food chain."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What makes a food web different from a simple food chain?",
+      "options": [
+        "It has only producers",
+        "It involves interconnection of multiple food chains",
+        "It has no consumers",
+        "It only exists in water"
+      ],
+      "correct": 1,
+      "explanation": "A food web is formed by the natural interconnection of multiple food chains, where organisms may feed at multiple trophic levels."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which of the following organisms can be considered omnivores connecting DFC and GFC?",
+      "options": [
+        "Only earthworms",
+        "Cockroaches and crows",
+        "Only bacteria",
+        "Only phytoplankton"
+      ],
+      "correct": 1,
+      "explanation": "Some animals like cockroaches and crows are omnivores that connect the detritus food chain with the grazing food chain at some levels."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What determines an organism's trophic level in an ecosystem?",
+      "options": [
+        "Its size",
+        "Its feeding relationship with other organisms",
+        "Its color",
+        "Its habitat only"
+      ],
+      "correct": 1,
+      "explanation": "Organisms occupy a specific trophic level based on their feeding relationship and source of nutrition with other organisms in the food chain."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Which trophic level do producers belong to?",
+      "options": [
+        "First trophic level",
+        "Second trophic level",
+        "Third trophic level",
+        "Fourth trophic level"
+      ],
+      "correct": 0,
+      "explanation": "Producers belong to the first trophic level as they convert solar energy into organic matter through photosynthesis."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "What is the standing crop of a trophic level?",
+      "options": [
+        "The total energy produced",
+        "The mass of living material at a particular time",
+        "The number of dead organisms",
+        "The amount of water consumed"
+      ],
+      "correct": 1,
+      "explanation": "Standing crop is the mass of living organisms (biomass) or the number in a unit area at a particular time in a trophic level."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "According to the 10 percent law, what percentage of energy is transferred to each successive trophic level?",
+      "options": [
+        "50 percent",
+        "25 percent",
+        "10 percent",
+        "90 percent"
+      ],
+      "correct": 2,
+      "explanation": "The 10 percent law states that only 10 percent of the energy is transferred to each trophic level from the lower trophic level, with the rest being lost as heat."
+    }
+  ]
+}
