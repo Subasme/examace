@@ -122,14 +122,26 @@ def main() -> int:
 
     if clear:
         print("Clearing ALL existing data…")
+        # Delete FK-referencing tables first to avoid constraint violations
+        sb.table("question_responses").delete().gt("created_at", "2000-01-01").execute()
+        sb.table("wrong_answer_tracker").delete().gt("created_at", "2000-01-01").execute()
         sb.table("questions").delete().gt("created_at", "2000-01-01").execute()
         sb.table("chapters").delete().neq("chapter_id", "").execute()
     elif target_subjects:
         print(f"Replacing questions for subjects: {', '.join(sorted(target_subjects))}…")
         for subj in sorted(target_subjects):
+            # Get IDs of questions being replaced so we can clean FK refs
+            res = sb.table("questions").select("id").eq("subject", subj).execute()
+            q_ids = [r["id"] for r in (res.data or [])]
+            if q_ids:
+                # Delete in batches to avoid URL length limits
+                for i in range(0, len(q_ids), 200):
+                    batch = q_ids[i:i + 200]
+                    sb.table("question_responses").delete().in_("question_id", batch).execute()
+                    sb.table("wrong_answer_tracker").delete().in_("question_id", batch).execute()
             sb.table("questions").delete().eq("subject", subj).execute()
             sb.table("chapters").delete().eq("subject", subj).execute()
-            print(f"  Cleared existing {subj} questions.")
+            print(f"  Cleared existing {subj} questions ({len(q_ids)} rows).")
 
     print("Upserting chapter catalog…")
     upsert_chapters(sb, manifest, target_subjects)
