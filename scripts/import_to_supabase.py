@@ -167,7 +167,11 @@ def main() -> int:
                 print("  WARNING: service_role lacks permission on wrong_answer_tracker — skipping.")
             else:
                 raise
-        sb.table("questions").delete().gt("created_at", "2000-01-01").execute()
+        # Delete questions in per-language/subject batches to avoid statement timeout
+        for lang in ["English", "Tamil"]:
+            for subj in ["Physics", "Chemistry", "Biology"]:
+                sb.table("questions").delete().eq("language", lang).eq("subject", subj).execute()
+                print(f"  Cleared {lang} {subj} questions.")
         sb.table("chapters").delete().neq("chapter_id", "").execute()
     elif target_subjects:
         # With question_tag as a unique key, re-importing a subject UPSERTs
