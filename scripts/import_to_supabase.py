@@ -123,8 +123,21 @@ def main() -> int:
     if clear:
         print("Clearing ALL existing data…")
         # Delete FK-referencing tables first to avoid constraint violations
-        sb.table("question_responses").delete().gt("created_at", "2000-01-01").execute()
-        sb.table("wrong_answer_tracker").delete().gt("created_at", "2000-01-01").execute()
+        try:
+            sb.table("question_responses").delete().gt("created_at", "2000-01-01").execute()
+        except Exception as e:
+            if "42501" in str(e) or "permission denied" in str(e).lower():
+                print("  WARNING: service_role lacks permission on question_responses — skipping.")
+                print("  Run in Supabase SQL editor: GRANT SELECT, DELETE ON public.question_responses TO service_role;")
+            else:
+                raise
+        try:
+            sb.table("wrong_answer_tracker").delete().gt("created_at", "2000-01-01").execute()
+        except Exception as e:
+            if "42501" in str(e) or "permission denied" in str(e).lower():
+                print("  WARNING: service_role lacks permission on wrong_answer_tracker — skipping.")
+            else:
+                raise
         sb.table("questions").delete().gt("created_at", "2000-01-01").execute()
         sb.table("chapters").delete().neq("chapter_id", "").execute()
     elif target_subjects:
@@ -137,8 +150,21 @@ def main() -> int:
                 # Delete in batches to avoid URL length limits
                 for i in range(0, len(q_ids), 200):
                     batch = q_ids[i:i + 200]
-                    sb.table("question_responses").delete().in_("question_id", batch).execute()
-                    sb.table("wrong_answer_tracker").delete().in_("question_id", batch).execute()
+                    try:
+                        sb.table("question_responses").delete().in_("question_id", batch).execute()
+                    except Exception as e:
+                        if "42501" in str(e) or "permission denied" in str(e).lower():
+                            print("  WARNING: service_role lacks permission on question_responses — skipping FK cleanup.")
+                            print("  Run in Supabase SQL editor: GRANT SELECT, DELETE ON public.question_responses TO service_role;")
+                        else:
+                            raise
+                    try:
+                        sb.table("wrong_answer_tracker").delete().in_("question_id", batch).execute()
+                    except Exception as e:
+                        if "42501" in str(e) or "permission denied" in str(e).lower():
+                            print("  WARNING: service_role lacks permission on wrong_answer_tracker — skipping FK cleanup.")
+                        else:
+                            raise
             sb.table("questions").delete().eq("subject", subj).execute()
             sb.table("chapters").delete().eq("subject", subj).execute()
             print(f"  Cleared existing {subj} questions ({len(q_ids)} rows).")
