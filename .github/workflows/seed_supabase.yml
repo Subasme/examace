@@ -1,11 +1,6 @@
 name: Seed Supabase Database
 on:
-  workflow_dispatch:   # run manually from GitHub Actions tab
-  push:
-    branches: [ main ]
-    paths:
-      - 'data/**'
-      - 'scripts/import_to_supabase.py'
+  workflow_dispatch:   # run manually from GitHub Actions tab only — NOT on push
 
 jobs:
   seed:
