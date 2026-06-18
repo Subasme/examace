@@ -38,8 +38,9 @@ UPDATE questions
   FROM ranked
  WHERE questions.id = ranked.id;
 
--- ── 4. Add UNIQUE constraint (drop first in case it already exists) ─────────
+-- ── 4. Add UNIQUE constraint (drop both constraint and index if they exist) ──
 ALTER TABLE questions DROP CONSTRAINT IF EXISTS questions_question_tag_key;
+DROP INDEX IF EXISTS questions_question_tag_key;
 ALTER TABLE questions
   ADD CONSTRAINT questions_question_tag_key UNIQUE (question_tag);
 
