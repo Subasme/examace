@@ -146,6 +146,7 @@ def main() -> int:
             # Get IDs of questions being replaced so we can clean FK refs
             res = sb.table("questions").select("id").eq("subject", subj).execute()
             q_ids = [r["id"] for r in (res.data or [])]
+            fk_cleanup_ok = True
             if q_ids:
                 # Delete in batches to avoid URL length limits
                 for i in range(0, len(q_ids), 200):
@@ -154,17 +155,24 @@ def main() -> int:
                         sb.table("question_responses").delete().in_("question_id", batch).execute()
                     except Exception as e:
                         if "42501" in str(e) or "permission denied" in str(e).lower():
-                            print("  WARNING: service_role lacks permission on question_responses — skipping FK cleanup.")
-                            print("  Run in Supabase SQL editor: GRANT SELECT, DELETE ON public.question_responses TO service_role;")
-                        else:
-                            raise
+                            fk_cleanup_ok = False
+                            break
+                        raise
                     try:
                         sb.table("wrong_answer_tracker").delete().in_("question_id", batch).execute()
                     except Exception as e:
                         if "42501" in str(e) or "permission denied" in str(e).lower():
-                            print("  WARNING: service_role lacks permission on wrong_answer_tracker — skipping FK cleanup.")
+                            pass  # wrong_answer_tracker FK cleanup failure is non-fatal
                         else:
                             raise
+            if not fk_cleanup_ok:
+                print(
+                    f"\nERROR: Cannot replace {subj} — service_role lacks DELETE on question_responses.\n"
+                    "Fix this once in Supabase SQL Editor, then re-run:\n"
+                    "  GRANT SELECT, DELETE ON public.question_responses TO service_role;\n"
+                    "  GRANT SELECT, DELETE ON public.wrong_answer_tracker TO service_role;"
+                )
+                return 1
             sb.table("questions").delete().eq("subject", subj).execute()
             sb.table("chapters").delete().eq("subject", subj).execute()
             print(f"  Cleared existing {subj} questions ({len(q_ids)} rows).")
