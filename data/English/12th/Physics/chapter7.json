@@ -1,0 +1,3973 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 7",
+    "chapterId": "chapter7",
+    "source": "Chapter7_QA.xlsx",
+    "count": 330
+  },
+  "questions": [
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.1 Q.1)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.1 Q.2)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.1 Q.3)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.1 Q.4)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.1 Q.5)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.1 Q.6)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.1 Q.7)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.1 Q.8)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.1 Q.9)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.1 Q.10)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.2 Q.1)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.2 Q.2)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.2 Q.3)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.2 Q.4)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.2 Q.5)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.2 Q.6)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.2 Q.7)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.2 Q.8)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.2 Q.9)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.2 Q.10)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.3 Q.1)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.3 Q.2)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.3 Q.3)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.3 Q.4)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.3 Q.5)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.3 Q.6)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.3 Q.7)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.3 Q.8)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.3 Q.9)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.3 Q.10)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.4 Q.1)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.4 Q.2)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.4 Q.3)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.4 Q.4)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.4 Q.5)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.4 Q.6)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.4 Q.7)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.4 Q.8)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.4 Q.9)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.4 Q.10)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.5 Q.1)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.5 Q.2)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.5 Q.3)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.5 Q.4)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.5 Q.5)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.5 Q.6)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.5 Q.7)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.5 Q.8)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.5 Q.9)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.5 Q.10)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.6 Q.1)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.6 Q.2)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.6 Q.3)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.6 Q.4)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.6 Q.5)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.6 Q.6)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.6 Q.7)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.6 Q.8)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.6 Q.9)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.6 Q.10)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.7 Q.1)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.7 Q.2)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.7 Q.3)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.7 Q.4)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.7 Q.5)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.7 Q.6)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.7 Q.7)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.7 Q.8)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.7 Q.9)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.7 Q.10)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.8 Q.1)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.8 Q.2)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.8 Q.3)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.8 Q.4)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.8 Q.5)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.8 Q.6)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.8 Q.7)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.8 Q.8)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.8 Q.9)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.8 Q.10)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.9 Q.1)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.9 Q.2)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.9 Q.3)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.9 Q.4)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.9 Q.5)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.9 Q.6)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.9 Q.7)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.9 Q.8)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.9 Q.9)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.9 Q.10)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.10 Q.1)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.10 Q.2)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.10 Q.3)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.10 Q.4)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.10 Q.5)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.10 Q.6)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.10 Q.7)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.10 Q.8)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.10 Q.9)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.10 Q.10)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.11 Q.1)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.11 Q.2)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.11 Q.3)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.11 Q.4)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.11 Q.5)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.11 Q.6)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.11 Q.7)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.11 Q.8)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.11 Q.9)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.11 Q.10)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.12 Q.1)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.12 Q.2)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.12 Q.3)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.12 Q.4)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.12 Q.5)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.12 Q.6)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.12 Q.7)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.12 Q.8)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.12 Q.9)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.12 Q.10)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.13 Q.1)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.13 Q.2)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.13 Q.3)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.13 Q.4)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.13 Q.5)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.13 Q.6)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.13 Q.7)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.13 Q.8)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.13 Q.9)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.13 Q.10)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.14 Q.1)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.14 Q.2)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.14 Q.3)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.14 Q.4)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.14 Q.5)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.14 Q.6)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.14 Q.7)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.14 Q.8)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.14 Q.9)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.14 Q.10)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.15 Q.1)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.15 Q.2)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.15 Q.3)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.15 Q.4)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.15 Q.5)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.15 Q.6)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.15 Q.7)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.15 Q.8)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.15 Q.9)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.15 Q.10)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.16 Q.1)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.16 Q.2)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.16 Q.3)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.16 Q.4)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.16 Q.5)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.16 Q.6)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.16 Q.7)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.16 Q.8)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.16 Q.9)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.16 Q.10)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.17 Q.1)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.17 Q.2)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.17 Q.3)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.17 Q.4)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.17 Q.5)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.17 Q.6)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.17 Q.7)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.17 Q.8)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.17 Q.9)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.17 Q.10)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.18 Q.1)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.18 Q.2)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.18 Q.3)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.18 Q.4)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.18 Q.5)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.18 Q.6)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.18 Q.7)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.18 Q.8)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.18 Q.9)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.18 Q.10)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.19 Q.1)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.19 Q.2)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.19 Q.3)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.19 Q.4)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.19 Q.5)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.19 Q.6)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.19 Q.7)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.19 Q.8)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.19 Q.9)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.19 Q.10)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.20 Q.1)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.20 Q.2)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.20 Q.3)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.20 Q.4)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.20 Q.5)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.20 Q.6)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.20 Q.7)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.20 Q.8)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.20 Q.9)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.20 Q.10)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.21 Q.1)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.21 Q.2)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.21 Q.3)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.21 Q.4)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.21 Q.5)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.21 Q.6)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.21 Q.7)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.21 Q.8)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.21 Q.9)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.21 Q.10)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.22 Q.1)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.22 Q.2)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.22 Q.3)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.22 Q.4)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.22 Q.5)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.22 Q.6)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.22 Q.7)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.22 Q.8)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.22 Q.9)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.22 Q.10)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.23 Q.1)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.23 Q.2)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.23 Q.3)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.23 Q.4)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.23 Q.5)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.23 Q.6)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.23 Q.7)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.23 Q.8)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.23 Q.9)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.23 Q.10)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.24 Q.1)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.24 Q.2)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.24 Q.3)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.24 Q.4)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.24 Q.5)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.24 Q.6)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.24 Q.7)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.24 Q.8)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.24 Q.9)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.24 Q.10)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.25 Q.1)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.25 Q.2)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.25 Q.3)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.25 Q.4)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.25 Q.5)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.25 Q.6)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.25 Q.7)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.25 Q.8)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.25 Q.9)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.25 Q.10)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.26 Q.1)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.26 Q.2)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.26 Q.3)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.26 Q.4)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.26 Q.5)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.26 Q.6)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.26 Q.7)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.26 Q.8)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.26 Q.9)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.26 Q.10)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.27 Q.1)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.27 Q.2)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.27 Q.3)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.27 Q.4)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.27 Q.5)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.27 Q.6)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.27 Q.7)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.27 Q.8)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.27 Q.9)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.27 Q.10)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.28 Q.1)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.28 Q.2)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.28 Q.3)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.28 Q.4)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.28 Q.5)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.28 Q.6)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.28 Q.7)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.28 Q.8)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.28 Q.9)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.28 Q.10)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.29 Q.1)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.29 Q.2)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.29 Q.3)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.29 Q.4)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.29 Q.5)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.29 Q.6)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.29 Q.7)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.29 Q.8)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.29 Q.9)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.29 Q.10)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.30 Q.1)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.30 Q.2)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.30 Q.3)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.30 Q.4)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.30 Q.5)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.30 Q.6)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.30 Q.7)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.30 Q.8)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.30 Q.9)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.30 Q.10)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.31 Q.1)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.31 Q.2)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.31 Q.3)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.31 Q.4)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.31 Q.5)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.31 Q.6)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.31 Q.7)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.31 Q.8)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for inductive reactance X_L? (Ref: P.31 Q.9)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of inductive reactance? (Ref: P.31 Q.10)",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Tesla"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the average power supplied to a pure inductor over one complete cycle? (Ref: P.32 Q.1)",
+      "options": [
+        "V * I",
+        "Zero",
+        "0.5 * i_m^2 * R",
+        "Infinite"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely capacitive ac circuit, what is the phase relationship between current and voltage? (Ref: P.32 Q.2)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current leads voltage by pi"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the expression for capacitive reactance X_c? (Ref: P.32 Q.3)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "How does capacitive reactance change if the frequency of the AC source is doubled? (Ref: P.32 Q.4)",
+      "options": [
+        "It is doubled",
+        "It is halved",
+        "It remains unchanged",
+        "It increases four times"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What happens when a capacitor is connected across a steady DC source? (Ref: P.32 Q.5)",
+      "options": [
+        "Current flows continuously",
+        "It blocks current after fully charging",
+        "It explodes",
+        "The voltage drops to zero"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the impedance Z of a series LCR circuit? (Ref: P.32 Q.6)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Under what condition does electrical resonance occur in a series LCR circuit? (Ref: P.32 Q.7)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the formula for the resonant frequency omega_0 of a series LCR circuit? (Ref: P.32 Q.8)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the value of the power factor cos(phi) at resonance in a series LCR circuit? (Ref: P.32 Q.9)",
+      "options": [
+        "Zero",
+        "0.5",
+        "1",
+        "Infinite"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a pure resistor connected to an AC source, what is the phase relationship between voltage and current? (Ref: P.32 Q.10)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Voltage leads current by pi/2",
+        "Voltage and current are in phase",
+        "They are out of phase by pi"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the mathematical relation between peak current i_m and peak voltage v_m in an AC resistive circuit? (Ref: P.33 Q.1)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Who invented the rotating magnetic field, induction motor, and polyphase system of AC power? (Ref: P.33 Q.2)",
+      "options": [
+        "Thomas Edison",
+        "George Westinghouse",
+        "Nikola Tesla",
+        "James Watt"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the SI unit of magnetic field named in honor of Nikola Tesla? (Ref: P.33 Q.3)",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the sum of instantaneous alternating current values over one complete cycle? (Ref: P.33 Q.4)",
+      "options": [
+        "Maximum value",
+        "Zero",
+        "Infinite",
+        "RMS value"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "Why is the average power consumed over a cycle non-zero even though the average current is zero? (Ref: P.33 Q.5)",
+      "options": [
+        "Power depends on current amplitude only",
+        "Joule heating depends on the square of current which is always positive",
+        "Resistance changes with time",
+        "Voltage is always zero"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is the relationship between the RMS current (I) and peak current (i_m)? (Ref: P.33 Q.6)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "For a household line voltage of 220 V, what is the approximate peak voltage? (Ref: P.33 Q.7)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "A light bulb is rated at 100 W for a 220 V supply. What is the resistance of the bulb? (Ref: P.33 Q.8)",
+      "options": [
+        "220 Ohms",
+        "484 Ohms",
+        "100 Ohms",
+        "440 Ohms"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "What is a phasor in alternating current circuit analysis? (Ref: P.33 Q.9)",
+      "options": [
+        "A stationary scalar quantity",
+        "A vector that rotates about the origin with angular speed omega",
+        "A linear non-periodic line",
+        "A device used to block direct current"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "In a purely inductive ac circuit, what is the phase relationship between voltage and current? (Ref: P.33 Q.10)",
+      "options": [
+        "Current leads voltage by pi/2",
+        "Current lags voltage by pi/2",
+        "They are in phase",
+        "Current lags voltage by pi"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    }
+  ]
+}

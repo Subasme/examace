@@ -1,0 +1,2293 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 11",
+    "chapterId": "chapter11",
+    "source": "Chapter11_QA.xlsx",
+    "count": 190
+  },
+  "questions": [
+    {
+      "topic": "Chapter 11",
+      "question": "What is the order of electric field strength required for field emission from a metal surface?",
+      "options": [
+        "10^6 V/m",
+        "10^8 V/m",
+        "10^4 V/m",
+        "10^10 V/m"
+      ],
+      "correct": 1,
+      "explanation": "Field emission requires a very strong electric field of the order of 10^8 V/m to pull electrons out of the metal, as in a spark plug. | துறை உமிழ்வுக்கு மிகவும் வலுவான மின்புலம் 10^8 V/m வரிசையில் தேவைப்படுகிறது, இது ஒரு ஸ்பார்க் ப்ளக் போல் மின்னணுக்களை உலோகத்திலிருந்து வெளியே இழுக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What are the electrons called that are emitted when light of suitable frequency illuminates a metal surface?",
+      "options": [
+        "Thermoelectrons",
+        "Field electrons",
+        "Photoelectrons",
+        "Cathode rays"
+      ],
+      "correct": 2,
+      "explanation": "When light of suitable frequency illuminates a metal surface, the emitted electrons are called photoelectrons. These are photo-generated electrons. | பொருத்தமான அதிர்வெண்ணைக் கொண்ட ஒளி ஒரு உலோக மேற்பரப்பை பிரகாசிக்கும் போது, வெளியேற்றப்படும் மின்னணுக்கள் ஒளிமின்னணுக்கள் என்று அழைக்கப்படுகின்றன. இவை ஒளியால் உருவாக்கப்பட்ட மின்னணுக்கள் ஆகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which year did Heinrich Hertz discover the phenomenon of photoelectric emission?",
+      "options": [
+        "1885",
+        "1886",
+        "1887",
+        "1897"
+      ],
+      "correct": 2,
+      "explanation": "The phenomenon of photoelectric emission was discovered in 1887 by Heinrich Hertz during his electromagnetic wave experiments. | ஒளிமின் விளைவு நிகழ்வு 1887-ல் ஹெய்ன்ரிச் ஹெர்ட்ஸ் அவர்களால் அவரது மின்காந்த அலை சோதனைகளின் போது கண்டுபிடிக்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What did Hertz observe when the emitter plate was illuminated by ultraviolet light from an arc lamp?",
+      "options": [
+        "The current decreased",
+        "High voltage sparks across the detector loop were enhanced",
+        "No change occurred",
+        "The temperature increased"
+      ],
+      "correct": 1,
+      "explanation": "Hertz observed that high voltage sparks across the detector loop were enhanced when the emitter plate was illuminated by ultraviolet light from an arc lamp. | ஒரு ஆர்க் விளக்கிலிருந்து புறஊதா ஒளி உமிழ்ப்பான தகட்டை பிரகாசிக்கும் போது, கண்டறிவான் வளையத்தின் குறுகே உயர்மின்னழுத்த தீப்பொறிகள் அதிகரித்ததை ஹெர்ட்ஸ் கவனித்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens when light falls on a metal surface according to the photoelectric effect?",
+      "options": [
+        "Electrons absorb energy and escape from the metal surface",
+        "Electrons lose energy and remain bound",
+        "The metal surface becomes negatively charged",
+        "The temperature of the metal decreases"
+      ],
+      "correct": 0,
+      "explanation": "When light falls on a metal surface, some electrons near the surface absorb enough energy from the incident radiation to overcome the attraction of positive ions and escape from the surface. | ஒளி ஒரு உலோக மேற்பரப்பில் விழும் போது, மேற்பரப்பிற்கு அருகிலுள்ள சில மின்னணுக்கள் படும் கதிர்வீச்சிலிருந்து போதுமான ஆற்றலை உறிஞ்சி, நேர்மின் அயனிகளின் ஈர்ப்பை மீறி மேற்பரப்பிலிருந்து தப்பிக்கின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "During which time period did Wilhelm Hallwachs and Philipp Lenard investigate the photoelectric emission phenomenon?",
+      "options": [
+        "1880-1885",
+        "1886-1902",
+        "1890-1900",
+        "1900-1910"
+      ],
+      "correct": 1,
+      "explanation": "Wilhelm Hallwachs and Philipp Lenard investigated the phenomenon of photoelectric emission in detail during 1886-1902. | வில்ஹெல்ம் ஹால்வாக்ஸ் மற்றும் பிலிப் லெனார்ட் 1886-2002 காலகட்டத்தில் ஒளிமின் விளைவு நிகழ்வை விரிவாக ஆராய்ந்தனர்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What did Lenard observe when ultraviolet radiations fell on the emitter plate in an evacuated glass tube?",
+      "options": [
+        "No current flowed",
+        "Current flowed in the circuit",
+        "The tube broke",
+        "The electrodes melted"
+      ],
+      "correct": 1,
+      "explanation": "Lenard observed that when ultraviolet radiations fell on the emitter plate of an evacuated glass tube, current flowed in the circuit. When UV radiations stopped, current also stopped. | லெனார்ட் கவனித்தபடி, வெற்றிட கண்ணாடிக் குழாயின் உமிழ்ப்பான தகட்டில் புறஊதா கதிர்வீச்சுகள் விழும் போது, சுற்றில் மின்னோட்டம் பாய்ந்தது. புறஊதா கதிர்வீச்சுகள் நிறுத்தப்பட்டபோது, மின்னோட்டமும் நிறுத்தப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What did Hallwachs observe in 1888 when a negatively charged zinc plate was illuminated by ultraviolet light?",
+      "options": [
+        "The plate gained more negative charge",
+        "The zinc plate lost its charge",
+        "The plate became neutral",
+        "No change occurred"
+      ],
+      "correct": 1,
+      "explanation": "Hallwachs observed that the zinc plate lost its charge when it was illuminated by ultraviolet light. This indicated emission of negatively charged particles. | ஹால்வாக்ஸ் கவனித்தபடி, புறஊதா ஒளியால் பிரகாசிக்கப்பட்டபோது துத்தநாகத் தகடு தன் மின்னேற்றத்தை இழந்தது. இது எதிர்மின் ஏற்றம் கொண்ட துகள்களின் உமிழ்வைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happened when an uncharged zinc plate was irradiated by ultraviolet light according to Hallwachs?",
+      "options": [
+        "It remained uncharged",
+        "It became negatively charged",
+        "It became positively charged",
+        "It lost electrons"
+      ],
+      "correct": 2,
+      "explanation": "The uncharged zinc plate became positively charged when irradiated by ultraviolet light, because negatively charged particles (electrons) were emitted from it. | மின்னேற்றமற்ற துத்தநாகத் தகடு புறஊதா ஒளியால் கதிரியக்கப்பட்டபோது நேர்மின்னேற்றம் அடைந்தது, ஏனெனில் எதிர்மின் ஏற்றம் கொண்ட துகள்கள் (மின்னணுக்கள்) அதிலிருந்து வெளியேற்றப்பட்டன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the minimum frequency below which no electrons are emitted from the emitter plate called?",
+      "options": [
+        "Cut-off frequency",
+        "Threshold frequency",
+        "Resonance frequency",
+        "Critical frequency"
+      ],
+      "correct": 1,
+      "explanation": "The minimum frequency below which no electrons are emitted is called the threshold frequency. This minimum frequency depends on the nature of the material of the emitter. | உமிழ்ப்பான தகட்டிலிருந்து மின்னணுக்கள் வெளியேறாத குறைந்தபட்ச அதிர்வெண் திறநிலை அதிர்வெண் என்று அழைக்கப்படுகிறது. இந்த குறைந்தபட்ச அதிர்வெண் உமிழ்ப்பானின் பொருளின் தன்மையைப் பொறுத்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following metals respond only to ultraviolet light for electron emission?",
+      "options": [
+        "Lithium and sodium",
+        "Zinc, cadmium, and magnesium",
+        "Potassium and caesium",
+        "Rubidium and copper"
+      ],
+      "correct": 1,
+      "explanation": "Certain metals like zinc, cadmium, and magnesium responded only to ultraviolet light having short wavelength to cause electron emission from the surface. | துத்தநாகம், காட்மியம், மற்றும் மக்னீசியம் போன்ற சில உலோகங்கள் மின்னணு உமிழ்வை ஏற்படுத்த குறைந்த அலைநீளம் கொண்ட புறஊதா ஒளிக்கு மட்டுமே பதிலளிக்கின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which alkali metals were sensitive even to visible light for photoelectric emission?",
+      "options": [
+        "Zinc and cadmium",
+        "Lithium, sodium, potassium, caesium, and rubidium",
+        "Magnesium and calcium",
+        "Iron and copper"
+      ],
+      "correct": 1,
+      "explanation": "Some alkali metals such as lithium, sodium, potassium, caesium, and rubidium were sensitive even to visible light for photoelectric emission. | லித்தியம், சோடியம், பொட்டாசியம், சீசியம், மற்றும் ருபிடியம் போன்ற சில கார உலோகங்கள் ஒளிமின் உமிழ்வுக்கு கண்ணுக்குத் தெரியும் ஒளிக்கும் உணர்வுள்ளவையாக இருந்தன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which year was the electron discovered, making it evident that light causes electron emission?",
+      "options": [
+        "1887",
+        "1895",
+        "1897",
+        "1902"
+      ],
+      "correct": 2,
+      "explanation": "After the discovery of the electron in 1897 by J.J. Thomson, it became evident that incident light causes electrons to be emitted from the emitter plate. | 1897-ல் J.J. தாம்சனால் மின்னணு கண்டுபிடிக்கப்பட்ட பிறகு, படும் ஒளி உமிழ்ப்பான தகட்டிலிருந்து மின்னணுக்களை வெளியேற்றுவதை ஒளிமின் விளைவு ஏற்படுத்துகிறது என்பது தெளிவானது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Towards which plate are the emitted electrons pushed by the electric field?",
+      "options": [
+        "Emitter plate C",
+        "Negative plate",
+        "Collector plate A",
+        "Ground plate"
+      ],
+      "correct": 2,
+      "explanation": "Due to negative charge, the emitted electrons are pushed towards the collector plate A by the electric field. | எதிர்மின் ஏற்றத்தின் காரணமாக, வெளியேற்றப்பட்ட மின்னணுக்கள் மின்புலத்தால் சேகரிப்பான் தகடு A-க்கு நோக்கி தள்ளப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What type of particles were concluded to be emitted from the zinc plate under ultraviolet light?",
+      "options": [
+        "Positively charged particles",
+        "Neutral particles",
+        "Negatively charged particles",
+        "Photons"
+      ],
+      "correct": 2,
+      "explanation": "Hallwachs concluded that negatively charged particles were emitted from the zinc plate under the action of ultraviolet light. These were later identified as electrons. | புறஊதா ஒளியின் செயல்பாட்டின் கீழ் துத்தநாகத் தகட்டிலிருந்து எதிர்மின் ஏற்றம் கொண்ட துகள்கள் வெளியேற்றப்படுகின்றன என்று ஹால்வாக்ஸ் முடிவு செய்தார். இவை பின்னர் மின்னணுக்கள் என அடையாளம் காணப்பட்டன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the experimental study, how does the stopping potential V0 vary with the frequency of incident radiation for a given photosensitive material?",
+      "options": [
+        "V0 varies exponentially with frequency",
+        "V0 varies linearly with frequency",
+        "V0 varies inversely with frequency",
+        "V0 is independent of frequency"
+      ],
+      "correct": 1,
+      "explanation": "The graph between stopping potential and frequency of incident radiation shows a straight line. This indicates that the stopping potential V0 varies linearly with the frequency of incident radiation for a given photosensitive material. | ஒரு குறிப்பிட்ட ஒளிமின் உணர்வுப்பொருளுக்கு நிறுத்தும் திறன் V0 எதிரொளிர்வு அலைவெண்ணுடன் நேர்கோட்டு வகையில் மாறுகிறது. இது வரைபடத்தில் ஒரு நேர்கோடாகக் காட்டப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the minimum cut-off frequency below which no photoelectric emission occurs, regardless of the intensity of incident light?",
+      "options": [
+        "Threshold wavelength",
+        "Threshold frequency",
+        "Resonance frequency",
+        "Cut-off voltage"
+      ],
+      "correct": 1,
+      "explanation": "The minimum cut-off frequency is called the threshold frequency (ν0). Below this frequency, no photoelectric emission is possible even if the intensity of incident light is very large. This threshold frequency is different for different metals. | குறைந்தபட்ச வெட்டு அலைவெண் வாசல் அலைவெண் (ν0) எனப்படும். இந்த அலைவெண்ணுக்குக் கீழே, எதிரொளிர்வு ஒளியின் தீவிரம் எவ்வளவு அதிகமாக இருந்தாலும் ஒளிமின் உமிழ்வு இருக்காது. இது வெவ்வேறு உலோகங்களுக்கு வேறுபடும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For a given frequency of incident radiation, how does the maximum kinetic energy of photoelectrons depend on the intensity of incident radiation?",
+      "options": [
+        "Maximum kinetic energy increases with intensity",
+        "Maximum kinetic energy decreases with intensity",
+        "Maximum kinetic energy is independent of intensity",
+        "Maximum kinetic energy varies exponentially with intensity"
+      ],
+      "correct": 2,
+      "explanation": "The maximum kinetic energy of photoelectrons depends on the frequency of incident radiation (through the stopping potential) but is independent of the intensity of incident radiation. Increasing intensity only increases the number of photoelectrons emitted, not their individual kinetic energies. | ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றல் எதிரொளிர்வு அலைவெண்ணைப் பொறுத்தது (நிறுத்தும் திறன் வழியாக), ஆனால் எதிரொளிர்வு ஒளியின் தீவிரத்தைப் பொறுத்தது அல்ல. தீவிரத்தை அதிகரிப்பது வெளியேறும் மின்னணுக்களின் எண்ணிக்கையை மட்டுமே அதிகரிக்கும், அவற்றின் தனித்துவமான இயக்க ஆற்றல்களை அல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following photosensitive materials is most sensitive to light?",
+      "options": [
+        "Zinc",
+        "Copper",
+        "Selenium",
+        "Aluminum"
+      ],
+      "correct": 2,
+      "explanation": "Selenium is more sensitive than zinc or copper to light. Different photosensitive materials respond differently to light of different wavelengths. Selenium has a lower threshold frequency and can respond to visible light more effectively. | செலீனியம் துத்தநாகம் அல்லது செப்பை விட ஒளிக்கு அதிக உணர்திறன் கொண்டது. வெவ்வேறு ஒளிமின் உணர்வுப்பொருட்கள் வெவ்வேறு அலைநீளங்களின் ஒளிக்கு வெவ்வேறு விதமாக பதிலளிக்கின்றன. செலீனியத்திற்கு குறைந்த வாசல் அலைவெண் உள்ளது மற்றும் காணக்கூடிய ஒளிக்கு மிகவும் பயனுள்ளதாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens to photoelectric emission when the frequency of incident radiation is below the threshold frequency?",
+      "options": [
+        "Emission occurs but with reduced kinetic energy",
+        "Emission occurs only if intensity is very high",
+        "No photoelectric emission occurs regardless of intensity",
+        "Emission occurs with delayed time lag"
+      ],
+      "correct": 2,
+      "explanation": "For a frequency of incident radiation lower than the cut-off frequency (threshold frequency), no photoelectric emission is possible even if the intensity is large. This is one of the fundamental observations that classical wave theory cannot explain. | எதிரொளிர்வு கதிர்வீச்சின் அலைவெண் வெட்டு அலைவெண்ணை (வாசல் அலைவெண்) விட குறைவாக இருக்கும்போது, தீவிரம் எவ்வளவு அதிகமாக இருந்தாலும் ஒளிமின் உமிழ்வு இருக்காது. இது செவ்வியல் அலைக் கோட்பாடு விளக்க முடியாத அடிப்படை கண்டறிதல்களில் ஒன்று."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How does the photoelectric current vary with the intensity of incident light for a given photosensitive material and frequency above the threshold?",
+      "options": [
+        "Photoelectric current is inversely proportional to intensity",
+        "Photoelectric current is directly proportional to intensity",
+        "Photoelectric current varies exponentially with intensity",
+        "Photoelectric current is independent of intensity"
+      ],
+      "correct": 1,
+      "explanation": "For a given photosensitive material and frequency of incident radiation (above the threshold frequency), the photoelectric current is directly proportional to the intensity of incident light. Higher intensity means more photons incident per unit time, leading to more photoelectrons emitted per second. | ஒரு குறிப்பிட்ட ஒளிமின் உணர்வுப்பொருளுக்கும் வாசல் அலைவெண்ணுக்கு மேல் உள்ள எதிரொளிர்வு கதிர்வீச்சின் அலைவெண்ணுக்கும், ஒளிமின் மின்னோட்டம் எதிரொளிர்வு ஒளியின் தீவிரத்திற்கு நேரடியாக விகிதாசாரமாகும். அதிக தீவிரம் என்பது ஒரு அலகு நேரத்தில் அதிக ஒளியனுக்கள் விழுவதைக் குறிக்கிறது, இது ஒரு வினாடிக்கு அதிக ஒளிமின் மின்னணுக்கள் வெளியேறுவதை விளைவிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the approximate time lag for photoelectric emission to start when the incident radiation frequency exceeds the threshold frequency?",
+      "options": [
+        "10^-3 seconds",
+        "10^-6 seconds",
+        "10^-9 seconds or less",
+        "10^-12 seconds"
+      ],
+      "correct": 2,
+      "explanation": "If the frequency of incident radiation exceeds the threshold frequency, the photoelectric emission starts instantaneously without any apparent time lag, even if the incident radiation is very dim. It is now known that emission starts in a time of the order of 10^-9 seconds or less. | எதிரொளிர்வு கதிர்வீச்சின் அலைவெண் வாசல் அலைவெண்ணை மீறும்போது, ஒளிமின் உமிழ்வு உடனடியாகத் தொடங்குகிறது, எதிரொளிர்வு கதிர்வீச்சு மிகவும் மங்கலாக இருந்தாலும் எந்தவிதமான தெளிவான நேரத் தாமதமும் இல்லாமல். இது 10^-9 வினாடிகள் அல்லது அதற்கும் குறைவான நேரத்தில் தொடங்குகிறது என்று தற்போது அறியப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which color of light does NOT produce photoelectric effect in copper?",
+      "options": [
+        "Ultraviolet light",
+        "Green light",
+        "Violet light",
+        "Blue light"
+      ],
+      "correct": 1,
+      "explanation": "Ultraviolet light gives rise to photoelectric effect in copper while green or red light does not. This is because green and red light have frequencies below the threshold frequency for copper. Copper requires higher frequency (shorter wavelength) ultraviolet radiation to cause photoelectric emission. | புறஊதா ஒளி செப்பில் ஒளிமின் விளைவை ஏற்படுத்துகிறது, ஆனால் பச்சை அல்லது சிவப்பு ஒளி அப்படி இல்லை. இது பச்சை மற்றும் சிவப்பு ஒளிக்கு செப்பின் வாசல் அலைவெண்ணுக்குக் கீழ் அலைவெண் உள்ளதால். செப்பில் ஒளிமின் உமிழ்வை ஏற்படுத்த அதிக அலைவெண் (குறைந்த அலைநீளம்) புறஊதா கதிர்வீச்சு தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the relationship between saturation current and the intensity of incident radiation?",
+      "options": [
+        "Saturation current is inversely proportional to intensity",
+        "Saturation current is proportional to intensity",
+        "Saturation current is independent of intensity",
+        "Saturation current decreases with increasing intensity"
+      ],
+      "correct": 1,
+      "explanation": "Saturation current is found to be proportional to the intensity of incident radiation. Saturation current corresponds to the case when all the photoelectrons emitted by the emitter plate reach the collector plate. Higher intensity means more photons, which means more electrons can be emitted, leading to higher saturation current. | பரவச மின்னோட்டம் எதிரொளிர்வு கதிர்வீச்சின் தீவிரத்திற்கு விகிதாசாரமாக இருக்கிறது. பரவச மின்னோட்டம் என்பது உமிழ்ப்பான தகட்டால் வெளியேற்றப்படும் அனைத்து ஒளிமின் மின்னணுக்களும் சேகரிப்பான தகட்டை அடையும் நிலைக்கு ஒத்ததாகும். அதிக தீவிரம் என்பது அதிக ஒளியனுக்கள், இது அதிக மின்னணுக்கள் வெளியேற்றப்படலாம் என்பதைக் குறிக்கிறது, இது அதிக பரவச மின்னோட்டத்திற்கு வழிவகுக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For a given frequency of incident light, how does the stopping potential depend on the intensity of incident radiation?",
+      "options": [
+        "Stopping potential increases with increasing intensity",
+        "Stopping potential decreases with increasing intensity",
+        "Stopping potential is independent of intensity",
+        "Stopping potential varies randomly with intensity"
+      ],
+      "correct": 2,
+      "explanation": "For a given frequency of incident light, the stopping potential is independent of its intensity. This is a crucial observation that contradicts classical wave theory, which would predict that higher intensity should give electrons more energy. The independence of stopping potential on intensity supports the photon picture of light. | ஒரு குறிப்பிட்ட எதிரொளிர்வு ஒளியின் அலைவெண்ணுக்கு, நிறுத்தும் திறன் அதன் தீவிரத்தைப் பொறுத்தது அல்ல. இது செவ்வியல் அலைக் கோட்பாட்டிற்கு முரணான ஒரு முக்கியமான கண்டறிதல், அதிக தீவிரம் மின்னணுக்களுக்கு அதிக ஆற்றலைத் தர வேண்டும் என்று கணிக்கும். நிறுத்தும் திறனின் தீவிரத்தின் மீது சார்பற்ற தன்மை ஒளியன் படத்திற்கு ஆதரவளிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Who established the wave nature of light through electromagnetic wave experiments in 1887?",
+      "options": [
+        "J.J. Thomson",
+        "Heinrich Hertz",
+        "William Crookes",
+        "Albert Einstein"
+      ],
+      "correct": 1,
+      "explanation": "Heinrich Hertz conducted experiments on the generation and detection of electromagnetic waves in 1887, which strongly established the wave nature of light. | 1887-ல் ஹெய்ன்ரிச் ஹெர்ட்ஸ் மின்காந்த அலைகளை உருவாக்குவது மற்றும் கண்டறிவது குறித்த பரிசோதனைகளை மேற்கொண்டார், இது ஒளியின் அலைத் தன்மையை வலுவாக நிறுவியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was the pressure at which electric discharge occurred between electrodes in the discharge tube?",
+      "options": [
+        "0.01 mm of mercury",
+        "0.001 mm of mercury",
+        "1.0 mm of mercury",
+        "0.1 mm of mercury"
+      ],
+      "correct": 1,
+      "explanation": "At a sufficiently low pressure of about 0.001 mm of mercury column, a discharge took place between the two electrodes when electric field was applied. | மின்னழுத்தக் குழாயில் மின்னியல் புலம் செலுத்தப்பட்டபோது, சுமார் 0.001 மி.மீ. பாதரச நெடுக்கத்தில் போதுமான குறைந்த அழுத்தத்தில் இரண்டு மின்முனைகளுக்கு இடையே மின்னிறக்கம் நிகழ்ந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What color of fluorescent glow appeared on soda glass opposite to the cathode?",
+      "options": [
+        "Blue",
+        "Red",
+        "Yellowish-green",
+        "Orange"
+      ],
+      "correct": 2,
+      "explanation": "The color of glow on the glass depended on the type of glass, being yellowish-green for soda glass. | கண்ணாடியின் மீது தோன்றும் ஒளியின் நிறம் கண்ணாடியின் வகையைப் பொறுத்தது, சோடா கண்ணாடிக்கு மஞ்சள்-பச்சை நிறமாக இருந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Who discovered cathode rays in 1870?",
+      "options": [
+        "J.J. Thomson",
+        "R.A. Millikan",
+        "Wilhelm Roentgen",
+        "William Crookes"
+      ],
+      "correct": 3,
+      "explanation": "Cathode rays were discovered in 1870 by William Crookes, who later in 1879 suggested they consisted of streams of fast moving negatively charged particles. | கேத்தோட் கதிர்கள் 1870-ல் வில்லியம் குரூக்ஸால் கண்டுபிடிக்கப்பட்டன, அவர் பின்னர் 1879-ல் அவை வேகமாக நகரும் எதிர்மின்னி ஏற்ற துகள்களின் ஓட்டமாக இருக்கலாம் என்று கூறினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the presently accepted value of the specific charge (e/m) of cathode ray particles?",
+      "options": [
+        "1.76 × 10^10 C/kg",
+        "1.76 × 10^11 C/kg",
+        "1.76 × 10^12 C/kg",
+        "1.76 × 10^9 C/kg"
+      ],
+      "correct": 1,
+      "explanation": "The presently accepted value of e/m is 1.76 × 10^11 C/kg. This value was found to be independent of the nature of the material used as cathode or the gas in the discharge tube. | தற்போது ஏற்றுக்கொள்ளப்பட்ட e/m மதிப்பு 1.76 × 10^11 C/kg ஆகும். இந்த மதிப்பு கேத்தோடாகப் பயன்படுத்தப்பட்ட பொருளின் தன்மை அல்லது மின்னிறக்கக் குழாயில் உள்ள வாயுவைப் பொறுத்து சாராமல் இருந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was the speed range of cathode ray particles as determined by J.J. Thomson?",
+      "options": [
+        "0.5 to 0.8 times the speed of light",
+        "0.01 to 0.05 times the speed of light",
+        "0.1 to 0.2 times the speed of light",
+        "0.8 to 0.9 times the speed of light"
+      ],
+      "correct": 2,
+      "explanation": "J.J. Thomson determined that cathode ray particles traveled with speeds ranging from about 0.1 to 0.2 times the speed of light (3×10^8 m/s). | ஜே.ஜே. தாம்சன் கேத்தோட் கதிர் துகள்கள் ஒளியின் வேகத்தின் (3×10^8 மீ/வி) சுமார் 0.1 முதல் 0.2 மடங்கு வேகத்தில் பயணித்தன என்று கண்டறிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which year did J.J. Thomson name the cathode ray particles as electrons?",
+      "options": [
+        "1895",
+        "1897",
+        "1887",
+        "1906"
+      ],
+      "correct": 1,
+      "explanation": "J.J. Thomson named these particles as electrons in 1897 and suggested that they were fundamental, universal constituents of matter. | ஜே.ஜே. தாம்சன் 1897-ல் இந்தத் துகள்களை எலக்ட்ரான்கள் என்று பெயரிட்டார், மேலும் அவை பொருளின் அடிப்படை, பொதுவான கூறுகள் என்று கூறினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What did the independence of e/m value from cathode material suggest?",
+      "options": [
+        "Electrons are unique to each metal",
+        "Electrons are universal particles",
+        "Different metals have different electrons",
+        "e/m varies with temperature"
+      ],
+      "correct": 1,
+      "explanation": "The value of e/m being independent of the nature of the material used as cathode suggested the universality of cathode ray particles, meaning electrons are the same regardless of their source. | கேத்தோடாகப் பயன்படுத்தப்பட்ட பொருளின் தன்மையைப் பொறுத்து e/m மதிப்பு சாராதது கேத்தோட் கதிர் துகள்களின் பொதுவான தன்மையைக் குறிப்பிட்டது, அதாவது அவற்றின் மூலத்தைப் பொறுத்து எலக்ட்ரான்கள் ஒரே மாதிரியானவை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which metal was used by Hallwachs in his photoelectric experiment with ultraviolet light?",
+      "options": [
+        "Copper",
+        "Zinc",
+        "Iron",
+        "Aluminum"
+      ],
+      "correct": 1,
+      "explanation": "Hallwachs connected a negatively charged zinc plate to an electroscope and observed that it lost its charge when illuminated by ultraviolet light. | ஹால்வாட்ச் ஒரு எதிர்மின்னி ஏற்ற துத்தநாகத் தகட்டை ஒரு மின்னோட்ட அளவியுடன் இணைத்தார், அது புற ஊதா ஒளியால் பிரகாசிக்கப்பட்டபோது அதன் மின்னேற்றத்தை இழந்ததைக் கவனித்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was the charge of an electron as determined by Millikan's oil-drop experiment?",
+      "options": [
+        "1.602 × 10^-18 C",
+        "1.602 × 10^-19 C",
+        "1.602 × 10^-20 C",
+        "1.602 × 10^-17 C"
+      ],
+      "correct": 1,
+      "explanation": "Millikan found that the charge on an oil-droplet was always an integral multiple of an elementary charge, 1.602 × 10^-19 C. This established that electric charge is quantized. | மில்லிக்கன் எண்ணெய் துளி பரிசோதனையில் எண்ணெய் துளியின் மின்னேற்றம் எப்போதும் 1.602 × 10^-19 C என்ற அடிப்படை மின்னேற்றத்தின் முழு மடங்காக இருப்பதைக் கண்டறிந்தார். இது மின்னேற்றம் அளவிடப்பட்டது என்பதை நிறுவியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens when ultraviolet light falls on certain metals?",
+      "options": [
+        "They emit positively charged particles",
+        "They emit negatively charged particles with small speeds",
+        "They absorb all the light without emission",
+        "They become transparent"
+      ],
+      "correct": 1,
+      "explanation": "In 1887, it was found that certain metals, when irradiated by ultraviolet light, emitted negatively charged particles having small speeds. These were later identified as electrons. | 1887-ல், புற ஊதா ஒளியால் கதிர்வீசப்பட்ட சில உலோகங்கள் சிறிய வேகங்களைக் கொண்ட எதிர்மின்னி ஏற்ற துகள்களை உமிழ்வதைக் கண்டறிந்தனர். இவை பின்னர் எலக்ட்ரான்கள் என அடையாளம் காணப்பட்டன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What did the identical e/m values of particles from different sources establish?",
+      "options": [
+        "Different particles exist in nature",
+        "All these particles were identical in nature",
+        "e/m depends on the experimental conditions",
+        "Only cathode rays are electrons"
+      ],
+      "correct": 1,
+      "explanation": "The value of e/m of particles emitted by UV irradiation and thermionic emission was found to be the same as that for cathode ray particles, establishing that all these particles were identical in nature. | புற ஊதா கதிர்வீச்சாலும் வெப்ப மின்னியக்க வெளியேற்றத்தாலும் வெளியேற்றப்பட்ட துகள்களின் e/m மதிப்பு கேத்தோட் கதிர் துகள்களின் மதிப்புடன் ஒன்றாக இருந்தது, இது இந்த அனைத்துத் துகள்களும் இயல்பில் ஒரே மாதிரியானவை என்பதை நிறுவியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was the significance of the fluorescent glow appearing on the glass opposite to the cathode?",
+      "options": [
+        "It indicated the presence of X-rays",
+        "It was attributed to radiation coming from the cathode",
+        "It showed the glass was heating up",
+        "It proved the wave nature of light"
+      ],
+      "correct": 1,
+      "explanation": "The fluorescent glow was attributed to the radiation which appeared to be coming from the cathode. These were later identified as cathode rays. | பிரகாசமூட்டும் ஒளிர்வு கேத்தோடிலிருந்து வருவது போல் தோன்றிய கதிர்வீச்சுக்கு காரணமாகக் கருதப்பட்டது. இவை பின்னர் கேத்தோட் கதிர்கள் என அடையாளம் காணப்பட்டன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For what discovery was J.J. Thomson awarded the Nobel Prize in Physics in 1906?",
+      "options": [
+        "Discovery of X-rays",
+        "Discovery of the electron",
+        "Discovery of the neutron",
+        "Discovery of radioactivity"
+      ],
+      "correct": 1,
+      "explanation": "J.J. Thomson was awarded the Nobel Prize in Physics in 1906 for his epoch-making discovery of the electron through his theoretical and experimental investigations on conduction of electricity by gases. | ஜே.ஜே. தாம்சன் வாயுக்களால் மின்னியக்கத்தின் கடத்தல் குறித்த தனது கோட்பாட்டு மற்றும் பரிசோதனை ஆய்வுகள் மூலம் எலக்ட்ரானைக் கண்டுபிடித்ததற்காக 1906-ல் இயற்பியலுக்கான நோபல் பரிசு வழங்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What method did J.J. Thomson use to determine the speed and e/m of cathode ray particles?",
+      "options": [
+        "Oil-drop experiment",
+        "Photoelectric effect experiment",
+        "Mutually perpendicular electric and magnetic fields",
+        "Radioactive decay measurement"
+      ],
+      "correct": 2,
+      "explanation": "J.J. Thomson was the first to determine experimentally the speed and specific charge (e/m) of cathode ray particles by applying mutually perpendicular electric and magnetic fields across the discharge tube. | ஜே.ஜே. தாம்சன் மின்னிறக்கக் குழாயில் ஒருவருக்கொரர் செங்குத்தான மின் மற்றும் காந்த புலங்களைச் செலுத்தி கேத்தோட் கதிர் துகள்களின் வேகம் மற்றும் குறிப்பிட்ட மின்னேற்றம் (e/m) ஆகியவற்றை பரிசோதனை முறையில் முதன்முதலாக கண்டறிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was discovered by Roentgen in 1895?",
+      "options": [
+        "Electron",
+        "Neutron",
+        "X-rays",
+        "Proton"
+      ],
+      "correct": 2,
+      "explanation": "The discovery of X-rays by Roentgen in 1895 was an important milestone in the understanding of atomic structure. | 1895-ல் ரோந்ட்கென் X-கதிர்களைக் கண்டுபிடித்தது அணுக்கட்டமைப்பைப் புரிந்துகொள்வதில் ஒரு முக்கிய மைல்கல்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What did Millikan's experiment establish about electric charge?",
+      "options": [
+        "Charge is continuous",
+        "Charge is quantized",
+        "Charge depends on temperature",
+        "Charge is always positive"
+      ],
+      "correct": 1,
+      "explanation": "Millikan's experiment established that electric charge is quantized, meaning it exists only in integer multiples of the elementary charge. | மில்லிக்கனின் பரிசோதனை மின்னேற்றம் அளவிடப்பட்டது என்பதை நிறுவியது, அதாவது அது அடிப்படை மின்னேற்றத்தின் முழு எண் மடங்குகளில் மட்டுமே இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How was the mass of the electron determined?",
+      "options": [
+        "By direct weighing",
+        "From the values of charge (e) and specific charge (e/m)",
+        "By measuring its volume",
+        "By using radioactive decay"
+      ],
+      "correct": 1,
+      "explanation": "From the values of charge (e) determined by Millikan and specific charge (e/m) determined by Thomson, the mass (m) of the electron could be calculated. | மில்லிக்கனால் கண்டறியப்பட்ட மின்னேற்றம் (e) மற்றும் தாம்சனால் கண்டறியப்பட்ட குறிப்பிட்ட மின்னேற்றம் (e/m) ஆகிய மதிப்புகளிலிருந்து எலக்ட்ரானின் நிறை (m) கணக்கிடப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happened to the uncharged zinc plate when irradiated by ultraviolet light?",
+      "options": [
+        "It became negatively charged",
+        "It became positively charged",
+        "It remained uncharged",
+        "It melted"
+      ],
+      "correct": 1,
+      "explanation": "Hallwachs observed that the uncharged zinc plate became positively charged when it was irradiated by ultraviolet light, indicating emission of negatively charged particles. | ஹால்வாட்ச் மின்னேற்றமற்ற துத்தநாகத் தகடு புற ஊதா ஒளியால் கதிர்வீசப்பட்டபோது நேர்மின்னி ஏற்றமடைந்ததைக் கவனித்தார், இது எதிர்மின்னி ஏற்ற துகள்களின் வெளியேற்றத்தைக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was the speed of light used in the text for calculations?",
+      "options": [
+        "3 × 10^7 m/s",
+        "3 × 10^8 m/s",
+        "3 × 10^6 m/s",
+        "3 × 10^9 m/s"
+      ],
+      "correct": 1,
+      "explanation": "The speed of light was given as 3 × 10^8 m/s, and cathode ray particles were found to travel at 0.1 to 0.2 times this speed. | ஒளியின் வேகம் 3 × 10^8 மீ/வி என்று கொடுக்கப்பட்டுள்ளது, மேலும் கேத்தோட் கதிர் துகள்கள் இந்த வேகத்தின் 0.1 முதல் 0.2 மடங்கில் பயணித்தன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the presently accepted value of the specific charge (e/m) of cathode ray particles?",
+      "options": [
+        "1.76 × 10^9 C/kg",
+        "1.76 × 10^11 C/kg",
+        "1.76 × 10^13 C/kg",
+        "1.76 × 10^15 C/kg"
+      ],
+      "correct": 1,
+      "explanation": "The presently accepted value of e/m is 1.76 × 10^11 C/kg. This value was found to be independent of the nature of the material used as the cathode or the gas in the discharge tube, suggesting the universality of cathode ray particles. | தற்போது ஏற்றுக்கொள்ளப்பட்ட e/m மதிப்பு 1.76 × 10^11 C/kg ஆகும். கேத்தோட் பயன்படுத்தப்பட்ட பொருளின் தன்மை அல்லது வெளியேற்றக் குழாயில் உள்ள வாயு ஆகியவற்றைப் பொருட்படுத்தாமல் இந்த மதிப்பு கண்டறியப்பட்டது, இது கேத்தோட் கதிர் துகள்களின் பொதுவான தன்மையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was the speed range of cathode ray particles as determined by J.J. Thomson?",
+      "options": [
+        "0.01 to 0.02 times the speed of light",
+        "0.1 to 0.2 times the speed of light",
+        "0.5 to 0.6 times the speed of light",
+        "0.8 to 0.9 times the speed of light"
+      ],
+      "correct": 1,
+      "explanation": "J.J. Thomson found that cathode ray particles traveled with speeds ranging from about 0.1 to 0.2 times the speed of light (3 × 10^8 m/s). | J.J. தாம்சன் கேத்தோட் கதிர் துகள்கள் ஒளியின் வேகத்தின் 0.1 முதல் 0.2 மடங்கு வரையிலான வேகத்தில் பயணிப்பதைக் கண்டறிந்தார் (3 × 10^8 m/s)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which physicist discovered the electron in 1897?",
+      "options": [
+        "William Crookes",
+        "Heinrich Hertz",
+        "J.J. Thomson",
+        "R.A. Millikan"
+      ],
+      "correct": 2,
+      "explanation": "J.J. Thomson named these particles as electrons in 1897 and suggested they were fundamental, universal constituents of matter. He was awarded the Nobel Prize in Physics in 1906 for this discovery. | J.J. தாம்சன் 1897-ல் இந்தத் துகள்களை எலக்ட்ரான்கள் எனப் பெயரிட்டார் மற்றும் அவை பொருளின் அடிப்படை, பொதுவான கூறுகள் என்று கூறினார். இந்தக் கண்டுபிடிப்புக்காக 1906-ல் இயற்பியலில் நோபல் பரிசு பெற்றார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the minimum energy required by an electron to escape from a metal surface called?",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Work function",
+        "Binding energy"
+      ],
+      "correct": 2,
+      "explanation": "The minimum energy required by an electron to escape from the metal surface is called the work function of the metal. It is generally denoted by φ0 and measured in eV (electron volt). | உலோகப் பரப்பிலிருந்து வெளியேற ஒரு எலக்ட்ரானுக்குத் தேவையான குறைந்தபட்ச ஆற்றல் அந்த உலோகத்தின் பணிச் செயல்பாடு (work function) எனப்படும். இது பொதுவாக φ0 எனக் குறிக்கப்பட்டு eV (எலக்ட்ரான் வோல்ட்) அலகில் அளவிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the value of 1 electron volt (eV) in joules?",
+      "options": [
+        "1.60 × 10^-19 J",
+        "1.60 × 10^-18 J",
+        "1.60 × 10^-17 J",
+        "1.60 × 10^-16 J"
+      ],
+      "correct": 0,
+      "explanation": "One electron volt is the energy gained by an electron when it has been accelerated by a potential difference of 1 volt, so that 1 eV = 1.60 × 10^-19 J. This unit is commonly used in atomic and nuclear physics. | ஒரு எலக்ட்ரான் வோல்ட் (eV) என்பது 1 வோல்ட் மின்னழுத்த வித்தியாசத்தால் முடுக்கப்படும்போது ஒரு எலக்ட்ரான் பெறும் ஆற்றல் ஆகும், அதாவது 1 eV = 1.60 × 10^-19 J. இந்த அலகு அணு மற்றும் அணுக்கரு இயற்பியலில் பரவலாகப் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is NOT a method of electron emission from a metal surface?",
+      "options": [
+        "Thermionic emission",
+        "Field emission",
+        "Photoelectric emission",
+        "Chemical emission"
+      ],
+      "correct": 3,
+      "explanation": "The three methods of electron emission from a metal surface mentioned are: (i) Thermionic emission by heating, (ii) Field emission by applying strong electric field, and (iii) Photoelectric emission by light illumination. Chemical emission is not mentioned. | உலோகப் பரப்பிலிருந்து எலக்ட்ரான் உமிழ்வதற்கான மூன்று முறைகள்: (i) சூடாக்குவதால் வெப்பமின் உமிழ்வு, (ii) வலுவான மின்புலத்தைப் பயன்படுத்துவதால் புல உமிழ்வு, மற்றும் (iii) ஒளி படுவதால் ஒளிமின் உமிழ்வு. வேதியியல் உமிழ்வு குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In thermionic emission, how is energy supplied to free electrons?",
+      "options": [
+        "By applying strong electric field",
+        "By illuminating with light",
+        "By heating the metal",
+        "By applying magnetic field"
+      ],
+      "correct": 2,
+      "explanation": "In thermionic emission, sufficient thermal energy is imparted to the free electrons by suitably heating the metal, enabling them to come out of the metal. | வெப்பமின் உமிழ்வில், உலோகத்தைப் பொருத்தமாகச் சூடாக்குவதால் சுதந்திர எலக்ட்ரான்களுக்குப் போதுமான வெப்ப ஆற்றல் வழங்கப்பட்டு, அவை உலோகத்திலிருந்து வெளியேற வசதி செய்யப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the approximate order of electric field strength required for field emission?",
+      "options": [
+        "10^6 V/m",
+        "10^8 V/m",
+        "10^10 V/m",
+        "10^12 V/m"
+      ],
+      "correct": 1,
+      "explanation": "Field emission requires applying a very strong electric field of the order of 10^8 V/m to pull electrons out of the metal, as in a spark plug. | புல உமிழ்வுக்கு, ஸ்பார்க் ப்ளக் போல, உலோகத்திலிருந்து எலக்ட்ரான்களை வெளியே இழுக்க 10^8 V/m வரிசையிலான மிக வலுவான மின்புலம் தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens when light of suitable frequency illuminates a metal surface?",
+      "options": [
+        "The metal becomes magnetized",
+        "Electrons are emitted from the surface",
+        "The metal temperature decreases",
+        "The metal becomes transparent"
+      ],
+      "correct": 1,
+      "explanation": "When light of suitable frequency illuminates a metal surface, electrons are emitted from the metal surface. These photo-generated electrons are called photoelectrons. | பொருத்தமான அதிர்வெண்ணிலான ஒளி ஒரு உலோகப் பரப்பில் படும்போது, அந்த உலோகப் பரப்பிலிருந்து எலக்ட்ரான்கள் உமிழப்படுகின்றன. இந்த ஒளியால் உருவாக்கப்பட்ட எலக்ட்ரான்கள் ஒளிமின் எலக்ட்ரான்கள் எனப்படும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Who performed the oil-drop experiment for precise measurement of electron charge?",
+      "options": [
+        "J.J. Thomson",
+        "William Crookes",
+        "R.A. Millikan",
+        "Heinrich Hertz"
+      ],
+      "correct": 2,
+      "explanation": "In 1913, R.A. Millikan performed the pioneering oil-drop experiment for the precise measurement of the charge on an electron. He found that charge is always an integral multiple of 1.602 × 10^-19 C. | 1913-ல், R.A. மில்லிக்கான் எலக்ட்ரானின் மின்னேற்றத்தைத் துல்லியமாக அளவிடுவதற்கான எண்ணெய் துளி சோதனையை மேற்கொண்டார். மின்னேற்றம் எப்போதும் 1.602 × 10^-19 C இன் முழு எண் மடங்கு என்று அவர் கண்டறிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the independence of e/m value on the nature of cathode material suggest?",
+      "options": [
+        "Cathode rays are different for different materials",
+        "Cathode rays are universal particles",
+        "Different materials produce different charges",
+        "The mass of particles varies with material"
+      ],
+      "correct": 1,
+      "explanation": "The value of e/m was found to be independent of the nature of the material used as the cathode or the gas introduced. This observation suggested the universality of cathode ray particles. | கேத்தோட் பயன்படுத்தப்பட்ட பொருளின் தன்மை அல்லது உள்ளிடப்பட்ட வாயுவைப் பொருட்படுத்தாமல் e/m மதிப்பு சாராமல் இருப்பது கேத்தோட் கதிர் துகள்களின் பொதுவான தன்மையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the charge on an electron as determined by Millikan's experiment?",
+      "options": [
+        "1.602 × 10^-18 C",
+        "1.602 × 10^-19 C",
+        "1.602 × 10^-20 C",
+        "1.602 × 10^-21 C"
+      ],
+      "correct": 1,
+      "explanation": "Millikan found that the charge on an oil-droplet was always an integral multiple of an elementary charge, 1.602 × 10^-19 C. This established that electric charge is quantised. | மில்லிக்கான், எண்ணெய் துளியின் மின்னேற்றம் எப்போதும் 1.602 × 10^-19 C என்ற அடிப்படை மின்னேற்றத்தின் முழு எண் மடங்கு என்று கண்டறிந்தார். இது மின்னேற்றம் அளவிடப்பட்டது என்பதை உறுதி செய்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which emission process uses ultraviolet light to emit electrons from metals?",
+      "options": [
+        "Thermionic emission",
+        "Field emission",
+        "Photoelectric emission",
+        "Secondary emission"
+      ],
+      "correct": 2,
+      "explanation": "Photoelectric emission occurs when light of suitable frequency (including ultraviolet light) illuminates a metal surface, causing electrons to be emitted. | ஒளிமின் உமிழ்வு பொருத்தமான அதிர்வெண்ணிலான ஒளி (புறஊதா ஒளி உட்பட) உலோகப் பரப்பில் படும்போது ஏற்படுகிறது, இது எலக்ட்ரான்களை உமிழ வசதி செய்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What force prevents free electrons from normally escaping a metal surface?",
+      "options": [
+        "Gravitational force",
+        "Attractive force of positive ions",
+        "Magnetic force",
+        "Nuclear force"
+      ],
+      "correct": 1,
+      "explanation": "When an electron attempts to come out of the metal, the metal surface acquires a positive charge and pulls the electron back. The free electron is held inside by the attractive forces of the ions. | ஒரு எலக்ட்ரான் உலோகத்திலிருந்து வெளியேற முயற்சிக்கும்போது, உலோகப் பரப்பு நேர் மின்னேற்றத்தைப் பெற்று எலக்ட்ரானை மீண்டும் இழுக்கிறது. சுதந்திர எலக்ட்ரான் அயனிகளின் ஈர்ப்பு விசைகளால் உலோகத்திற்குள் வைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The work function of a metal depends on which of the following?",
+      "options": [
+        "Intensity of incident light",
+        "Properties of the metal and nature of its surface",
+        "Frequency of incident light",
+        "Temperature of the surroundings"
+      ],
+      "correct": 1,
+      "explanation": "The work function (φ0) depends on the properties of the metal and the nature of its surface. It does not depend on the intensity or frequency of incident light. | பணிச் செயல்பாடு (φ0) உலோகத்தின் பண்புகள் மற்றும் அதன் பரப்பின் தன்மையைப் பொறுத்தது. இது படும் ஒளியின் தீவிரத்தை அல்லது அதிர்வெண்ணைப் பொறுத்ததல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What unit is commonly used to measure work function in atomic physics?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Electron volt (eV)",
+        "Newton"
+      ],
+      "correct": 2,
+      "explanation": "The work function is generally measured in eV (electron volt). One electron volt is the energy gained by an electron when accelerated by a potential difference of 1 volt. | பணிச் செயல்பாடு பொதுவாக eV (எலக்ட்ரான் வோல்ட்) அலகில் அளவிடப்படுகிறது. ஒரு எலக்ட்ரான் வோல்ட் என்பது 1 வோல்ட் மின்னழுத்த வித்தியாசத்தால் முடுக்கப்படும் ஒரு எலக்ட்ரானின் ஆற்றல் ஆகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which metals were found to emit electrons when heated to high temperature?",
+      "options": [
+        "Only alkali metals",
+        "Certain metals",
+        "Only noble gases",
+        "Only semiconductors"
+      ],
+      "correct": 1,
+      "explanation": "The text states that certain metals when heated to a high temperature were found to emit negatively charged particles (electrons). | உரையின்படி, குறிப்பிட்ட உலோகங்கள் அதிக வெப்பநிலைக்குச் சூடாக்கப்படும்போது எதிர் மின்னேற்றம் கொண்ட துகள்களை (எலக்ட்ரான்கள்) உமிழ்வதாகக் கண்டறியப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was the significance of the same e/m value for particles emitted under different conditions?",
+      "options": [
+        "Different particles were produced",
+        "All particles were identical in nature",
+        "The charge varied with conditions",
+        "The mass varied with conditions"
+      ],
+      "correct": 1,
+      "explanation": "The same e/m value for particles from cathode rays, ultraviolet irradiation, and heating established that all these particles, although produced under different conditions, were identical in nature - they were all electrons. | வெவ்வேறு நிலைகளில் (கேத்தோட் கதிர்கள், புறஊதா கதிர்வீச்சு, சூடாக்குதல்) உமிழப்பட்ட துகள்களுக்கு ஒரே e/m மதிப்பு இருப்பது, வெவ்வேறு நிலைகளில் உற்பத்தி செய்யப்பட்டாலும் அவை அனைத்தும் ஒரே தன்மையைக் கொண்டவை - அவை அனைத்தும் எலக்ட்ரான்கள் என்பதை உறுதி செய்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which year did J.J. Thomson receive the Nobel Prize for discovering the electron?",
+      "options": [
+        "1897",
+        "1900",
+        "1906",
+        "1913"
+      ],
+      "correct": 2,
+      "explanation": "J.J. Thomson was awarded the Nobel Prize in Physics in 1906 for his epoch-making discovery of the electron through his theoretical and experimental investigations on conduction of electricity by gases. | வாயுக்களால் மின்னாற்றல் கடத்தல் குறித்த தனது கோட்பாட்டு மற்றும் சோதனை முறை விசாரணைகள் மூலம் எலக்ட்ரானைக் கண்டுபிடித்ததற்காக J.J. தாம்சனுக்கு 1906-ல் இயற்பியலில் நோபல் பரிசு வழங்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the relationship between charge (e), specific charge (e/m), and mass (m) of electron?",
+      "options": [
+        "m = e × (e/m)",
+        "m = e / (e/m)",
+        "m = (e/m) / e",
+        "m = e + (e/m)"
+      ],
+      "correct": 1,
+      "explanation": "From the values of charge (e) and specific charge (e/m), the mass (m) of the electron can be determined using the relation m = e / (e/m). | மின்னேற்றம் (e) மற்றும் குறிப்பிட்ட மின்னேற்றம் (e/m) ஆகியவற்றின் மதிப்புகளிலிருந்து, m = e / (e/m) என்ற தொடர்பைப் பயன்படுத்தி எலக்ட்ரானின் நிறையை (m) கண்டறியலாம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In the experimental arrangement for studying the photoelectric effect (Figure 11.1), what is the function of plate C?",
+      "options": [
+        "It collects the emitted electrons",
+        "It emits electrons when illuminated by light",
+        "It measures the potential difference",
+        "It reverses the polarity of the circuit"
+      ],
+      "correct": 1,
+      "explanation": "Plate C is the photosensitive plate (emitter) which emits electrons when monochromatic light from source S falls on it through the quartz window W. | தகட்டு C ஒளிஉணர் தகடு (உமிழ்வான்) ஆகும், இது குவார்ட்ஸ் சாளரம் W வழியாக மூலம் S இலிருந்து வரும் ஒரு நிறமான ஒளி விழும்போது எலக்ட்ரான்களை உமிழும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the role of plate A in the photoelectric effect experimental setup?",
+      "options": [
+        "It emits photoelectrons when illuminated",
+        "It acts as the photosensitive emitter plate",
+        "It collects the electrons emitted by plate C",
+        "It blocks ultraviolet radiation from entering the tube"
+      ],
+      "correct": 2,
+      "explanation": "Plate A is the collector plate that collects the electrons emitted by plate C (the emitter) due to the electric field created by the battery. | தகட்டு A என்பது சேகரிப்பான் தகடு ஆகும், இது பேட்டரியால் உருவாக்கப்பட்ட மின்சார புலத்தால் தகட்டு C (உமிழ்வான்) இலிருந்து உமிழப்பட்ட எலக்ட்ரான்களைச் சேகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why is a quartz window used in the experimental setup for studying the photoelectric effect?",
+      "options": [
+        "To increase the intensity of incident light",
+        "To allow ultraviolet radiation to pass through and irradiate the photosensitive plate",
+        "To prevent electrons from escaping the tube",
+        "To measure the photoelectric current"
+      ],
+      "correct": 1,
+      "explanation": "A transparent quartz window is sealed on the glass tube because it permits ultraviolet radiation to pass through it and irradiate the photosensitive plate C. | கண்ணாடி குழாயில் ஒரு நிலையான குவார்ட்ஸ் சாளரம் பொருத்தப்பட்டுள்ளது, ஏனெனில் இது புற ஊதா கதிர்வீச்சை வழியாகச் செல்ல அனுமதித்து ஒளிஉணர் தகட்டு C ஐ கதிர்வீச்சு செய்யும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the purpose of the commutator in the photoelectric effect experimental circuit?",
+      "options": [
+        "To measure the photoelectric current",
+        "To vary the intensity of incident light",
+        "To reverse the polarity of plates C and A",
+        "To generate ultraviolet radiation"
+      ],
+      "correct": 2,
+      "explanation": "The commutator is used to reverse the polarity of plates C and A, allowing plate A to be maintained at either positive or negative potential with respect to the emitter C. | கம்யூடேட்டர் தகடுகள் C மற்றும் A இன் துருவத்தை மாற்றுவதற்குப் பயன்படுத்தப்படுகிறது, இது தகட்டு A ஐ உமிழ்வான் C உடன் நேர்மறை அல்லது எதிர்மறை மின்னழுத்தத்தில் பராமரிக்க அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which instruments are used to measure the potential difference and photocurrent in the photoelectric effect experiment?",
+      "options": [
+        "Ammeter and voltmeter",
+        "Voltmeter (V) and microammeter (μA)",
+        "Galvanometer and ohmmeter",
+        "Wattmeter and frequency meter"
+      ],
+      "correct": 1,
+      "explanation": "The potential difference between the emitter and collector plates is measured by a voltmeter (V), while the resulting photocurrent is measured by a microammeter (μA). | உமிழ்வான் மற்றும் சேகரிப்பான் தகடுகளுக்கு இடையேயான மின்னழுத்த வேறுபாட்டை ஒரு வோல்ட்மீட்டர் (V) மூலம் அளவிடுகிறோம், அதே நேரத்தில் உருவாகும் ஒளிமின் மின்னோட்டத்தை ஒரு மைக்ரோஅம்மீட்டர் (μA) மூலம் அளவிடுகிறோம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following parameters can be varied in the experimental study of the photoelectric effect using the arrangement shown in Figure 11.1?",
+      "options": [
+        "Only the intensity of incident light",
+        "Only the frequency of incident radiation",
+        "Intensity, frequency, potential difference, and nature of emitter material",
+        "Only the potential difference between the plates"
+      ],
+      "correct": 2,
+      "explanation": "The experimental arrangement allows variation of: (a) intensity of radiation, (b) frequency of incident radiation, (c) potential difference between plates A and C, and (d) nature of the material of plate C. | சோதனை அமைப்பு பின்வருவனவற்றை மாற்றியமைக்க அனுமதிக்கிறது: (a) கதிர்வீச்சின் தீவிரத்தை, (b) விழும் கதிர்வீச்சின் அதிர்வெண்ணை, (c) தகடுகள் A மற்றும் C க்கு இடையேயான மின்னழுத்த வேறுபாட்டை, மற்றும் (d) தகட்டு C இன் பொருளின் தன்மையை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How does the photoelectric current vary with the intensity of incident light when frequency and potential are kept fixed?",
+      "options": [
+        "It decreases exponentially with intensity",
+        "It increases linearly with intensity of incident light",
+        "It remains constant regardless of intensity",
+        "It increases quadratically with intensity"
+      ],
+      "correct": 1,
+      "explanation": "When the frequency of incident radiation and potential are fixed, the photocurrent increases linearly with the intensity of incident light, as shown graphically in Figure 11.2. | விழும் கதிர்வீச்சின் அதிர்வெண் மற்றும் மின்னழுத்தம் நிலையானபோது, ஒளிமின் மின்னோட்டம் விழும் ஒளியின் தீவிரத்துடன் நேரியலாக அதிகரிக்கிறது, இது படம் 11.2 இல் வரைபடமாகக் காட்டப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the linear relationship between photocurrent and intensity of incident light imply about photoelectrons?",
+      "options": [
+        "The energy of each photoelectron increases with intensity",
+        "The number of photoelectrons emitted per second is directly proportional to the intensity",
+        "The speed of photoelectrons depends on intensity",
+        "The work function changes with intensity"
+      ],
+      "correct": 1,
+      "explanation": "The photocurrent is directly proportional to the number of photoelectrons emitted per second. Therefore, the linear relationship implies that the number of photoelectrons emitted per second is directly proportional to the intensity of incident radiation. | ஒளிமின் மின்னோட்டம் விநாடிக்கு உமிழப்பட்ட ஒளிமின் எலக்ட்ரான்களின் எண்ணிக்கைக்கு நேரடியாக விகிதாசாரமாகும். எனவே, நேரியல் உறவு என்பது விநாடிக்கு உமிழப்பட்ட ஒளிமின் எலக்ட்ரான்களின் எண்ணிக்கை விழும் கதிர்வீச்சின் தீவிரத்திற்கு நேரடியாக விகிதாசாரமானது என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How is the intensity of light varied in the photoelectric effect experiment?",
+      "options": [
+        "By changing the frequency of the light source",
+        "By changing the distance of the light source from the emitter",
+        "By changing the material of the emitter plate",
+        "By changing the potential difference between the plates"
+      ],
+      "correct": 1,
+      "explanation": "The intensity of light is varied by changing the distance of the light source from the emitter. Light of different frequencies can be used by putting appropriate coloured filters in the path of light. | ஒளியின் தீவிரத்தை மூலத்திலிருந்து உமிழ்வான் வரையிலான தூரத்தை மாற்றுவதன் மூலம் மாற்றியமைக்கலாம். வெவ்வேறு அதிர்வெண்களைக் கொண்ட ஒளியைப் பயன்படுத்த, ஒளியின் பாதையில் பொருத்தமான வண்ண வடிப்பான்களை வைக்கலாம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why is the glass tube in the photoelectric effect experiment evacuated?",
+      "options": [
+        "To prevent oxidation of the metal plates",
+        "To allow electrons to travel from emitter to collector without collision with air molecules",
+        "To increase the temperature inside the tube",
+        "To filter the incident light"
+      ],
+      "correct": 1,
+      "explanation": "The tube is evacuated (air is removed) so that electrons emitted from plate C can travel freely to plate A without colliding with air molecules, which would otherwise scatter or absorb them. | குழாய் வெற்றிடமாக்கப்பட்டுள்ளது (காற்று அகற்றப்பட்டுள்ளது), இதனால் தகட்டு C இலிருந்து உமிழப்பட்ட எலக்ட்ரான்கள் காற்று மூலக்கூறுகளுடன் மோதாமல் சுதந்திரமாக தகட்டு A க்குச் செல்ல முடியும், இல்லையெனில் அவை சிதறடிக்கப்படும் அல்லது உறிஞ்சப்படும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the function of the battery in the photoelectric effect experimental circuit?",
+      "options": [
+        "To generate light for the experiment",
+        "To create an electric field that helps collect electrons at plate A",
+        "To heat the photosensitive plate",
+        "To measure the current in the circuit"
+      ],
+      "correct": 1,
+      "explanation": "The battery maintains the potential difference between plates C and A, creating an electric field that attracts electrons emitted from C towards the collector plate A. | பேட்டரி தகடுகள் C மற்றும் A க்கு இடையேயான மின்னழுத்த வேறுபாட்டை பராமரிக்கிறது, இது C இலிருந்து உமிழப்பட்ட எலக்ட்ரான்களை சேகரிப்பான் தகட்டு A நோக்கி ஈர்க்கும் மின்சார புலத்தை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What type of light is required from source S for the photoelectric effect to occur in the experimental setup?",
+      "options": [
+        "Any type of visible light",
+        "Monochromatic light of sufficiently short wavelength",
+        "White light containing all wavelengths",
+        "Infrared radiation only"
+      ],
+      "correct": 1,
+      "explanation": "Monochromatic light from the source S of sufficiently short wavelength passes through the window W and falls on the photosensitive plate C. The wavelength must be short enough (frequency high enough) to exceed the threshold frequency of the emitter material. | மூலம் S இலிருந்து போதுமான குறுகிய அலைநீளம் கொண்ட ஒரு நிறமான ஒளி சாளரம் W வழியாக சென்று ஒளிஉணர் தகட்டு C மீது விழும். அலைநீளம் போதுமான அளவு குறுகியதாக (அதிர்வெண் போதுமான அளவு அதிகமாக) இருக்க வேண்டும், இதனால் உமிழ்வான் பொருளின் திறநிலை அதிர்வெண்ணை மீற முடியும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the photoelectric effect experiment, how does the photoelectric current vary with the intensity of incident light?",
+      "options": [
+        "It increases exponentially with intensity",
+        "It decreases linearly with intensity",
+        "It increases linearly with intensity",
+        "It remains constant regardless of intensity"
+      ],
+      "correct": 2,
+      "explanation": "The photoelectric current increases linearly with the intensity of incident light. This is because the number of photoelectrons emitted per second is directly proportional to the intensity of incident radiation. | ஒளியின் தீவிரத்துடன் ஒளிமின் மின்னோட்டம் நேர்கோட்டு முறையில் அதிகரிக்கிறது. ஒவ்வொரு வினாடியும் வெளியேற்றப்படும் ஒளிமின் மின்னணுக்களின் எண்ணிக்கை ஒளியின் தீவிரத்திற்கு நேரடியாக விகிதாசாரமாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the maximum value of photoelectric current called when all emitted electrons are collected by the collector plate?",
+      "options": [
+        "Threshold current",
+        "Saturation current",
+        "Cut-off current",
+        "Retarding current"
+      ],
+      "correct": 1,
+      "explanation": "The maximum value of photoelectric current is called saturation current. It occurs when all the photoelectrons emitted by the emitter plate reach the collector plate, and further increase in accelerating potential does not increase the current. | ஒளிமின் மின்னோட்டத்தின் அதிகபட்ச மதிப்பு செறிவு மின்னோட்டம் (saturation current) எனப்படும். வெளியேற்றப்படும் அனைத்து ஒளிமின் மின்னணுக்களும் சேகரிப்பான் தட்டை அடையும்போது இது ஏற்படுகிறது, மேலும் மின்னோட்டத்தை அதிகரிக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the minimum negative (retarding) potential given to the collector plate for which the photocurrent becomes zero called?",
+      "options": [
+        "Accelerating potential",
+        "Threshold potential",
+        "Stopping potential",
+        "Saturation potential"
+      ],
+      "correct": 2,
+      "explanation": "The minimum negative (retarding) potential given to the collector plate for which the photocurrent stops or becomes zero is called the stopping potential or cut-off potential. It is related to the maximum kinetic energy of photoelectrons by K_max = eV_0. | சேகரிப்பான் தட்டிற்கு வழங்கப்படும் குறைந்தபட்ச எதிர்மறை (தடுப்பு) மின்னழுத்தம், ஒளிமின் மின்னோட்டம் பூஜ்ஜியமாகும்போது நிறுத்து மின்னழுத்தம் (stopping potential) அல்லது வெட்டு மின்னழுத்தம் எனப்படும். K_max = eV_0 என்ற சமன்பாட்டால் இது ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றலுடன் தொடர்புடையது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For a given frequency of incident radiation, how does the stopping potential depend on the intensity of light?",
+      "options": [
+        "It increases with increasing intensity",
+        "It decreases with increasing intensity",
+        "It is independent of intensity",
+        "It varies exponentially with intensity"
+      ],
+      "correct": 2,
+      "explanation": "For a given frequency of incident radiation, the stopping potential is independent of the intensity of light. The maximum kinetic energy of photoelectrons depends on the frequency of incident radiation and the nature of the emitter material, but not on the intensity. | கொடுக்கப்பட்ட ஒளியின் அதிர்வெண்ணுக்கு, நிறுத்து மின்னழுத்தம் ஒளியின் தீவிரத்தைப் பொறுத்தது அல்ல. ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றல் ஒளியின் அதிர்வெண் மற்றும் வெளியேற்றும் பொருளின் தன்மையைப் பொறுத்தது, தீவிரத்தைப் பொறுத்தது அல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "When the intensity of incident radiation increases from I1 to I2 (where I2 > I1), what happens to the saturation current?",
+      "options": [
+        "It remains the same",
+        "It decreases",
+        "It increases to a higher value",
+        "It becomes zero"
+      ],
+      "correct": 2,
+      "explanation": "When the intensity of incident radiation increases, the saturation current increases to a higher value. This shows that more electrons are being emitted per second, proportional to the intensity of incident radiation. | ஒளியின் தீவிரத்து அதிகரிக்கும்போது, செறிவு மின்னோட்டம் அதிக மதிப்புக்கு அதிகரிக்கிறது. இது ஒவ்வொரு வினாடியும் அதிக எண்ணிக்கையிலான மின்னணுக்கள் வெளியேற்றப்படுவதைக் காட்டுகிறது, இது ஒளியின் தீவிரத்திற்கு விகிதாசாரமாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens to the photoelectric current when a negative (retarding) potential is applied to the collector plate?",
+      "options": [
+        "It increases rapidly",
+        "It decreases rapidly until it becomes zero",
+        "It remains constant",
+        "It oscillates between maximum and minimum values"
+      ],
+      "correct": 1,
+      "explanation": "When a negative (retarding) potential is applied to the collector plate, the photoelectric current decreases rapidly until it drops to zero at the stopping potential. The electrons are repelled and only sufficiently energetic electrons can reach the collector. | சேகரிப்பான் தட்டிற்கு எதிர்மறை (தடுப்பு) மின்னழுத்தம் பயன்படுத்தப்படும்போது, ஒளிமின் மின்னோட்டம் வேகமாகக் குறைந்து நிறுத்து மின்னழுத்தத்தில் பூஜ்ஜியமாகிறது. மின்னணுக்கள் தள்ளப்படுகின்றன, மற்றும் போதுமான ஆற்றல் கொண்ட மின்னணுக்கள் மட்டுமே சேகரிப்பானை அடைய முடியும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The photocurrent is directly proportional to which of the following quantities?",
+      "options": [
+        "The frequency of incident radiation",
+        "The number of photoelectrons emitted per second",
+        "The stopping potential",
+        "The work function of the metal"
+      ],
+      "correct": 1,
+      "explanation": "The photocurrent is directly proportional to the number of photoelectrons emitted per second. Since the number of photoelectrons emitted per second is directly proportional to the intensity of incident radiation, the photocurrent also increases linearly with intensity. | ஒளிமின் மின்னோட்டம் ஒவ்வொரு வினாடியும் வெளியேற்றப்படும் ஒளிமின் மின்னணுக்களின் எண்ணிக்கைக்கு நேரடியாக விகிதாசாரமாகும். ஒளிமின் மின்னணுக்களின் எண்ணிக்கை ஒளியின் தீவிரத்திற்கு நேரடியாக விகிதாசாரமாக இருப்பதால், ஒளிமின் மின்னோட்டமும் தீவிரத்துடன் நேர்கோட்டு முறையில் அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "If the accelerating potential of plate A is increased beyond the saturation point, what happens to the photocurrent?",
+      "options": [
+        "It continues to increase",
+        "It decreases to zero",
+        "It does not increase further",
+        "It oscillates"
+      ],
+      "correct": 2,
+      "explanation": "If the accelerating potential of plate A is increased beyond the saturation point, the photocurrent does not increase further. This is because all the emitted electrons are already being collected by the collector plate, and no more electrons are available to contribute to the current. | சேகரிப்பான் தட்டின் முடுக்கு மின்னழுத்தம் செறிவு புள்ளியைக் கடந்து அதிகரிக்கப்பட்டால், ஒளிமின் மின்னோட்டம் மேலும் அதிகரிக்காது. வெளியேற்றப்பட்ட அனைத்து மின்னணுக்களும் ஏற்கனவே சேகரிக்கப்பட்டுவிட்டதால், மேலும் மின்னணுக்கள் மின்னோட்டத்திற்கு பங்களிக்கக் கிடைக்காது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which year did Louis de Broglie propose the hypothesis that moving particles of matter should display wave-like properties?",
+      "options": [
+        "1905",
+        "1913",
+        "1924",
+        "1929"
+      ],
+      "correct": 2,
+      "explanation": "Louis Victor de Broglie proposed the hypothesis in 1924 that moving particles of matter should display wave-like properties under suitable conditions. | லூயிஸ் விக்டர் டி ப்ராக்ளி 1924 ஆம் ஆண்டு, இயக்கத்தில் உள்ள பொருட்களின் துகள்கள் அலை போன்ற பண்புகளைக் காட்ட வேண்டும் என்ற கருதுகோளை முன்மொழிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the de Broglie relation that connects the wavelength of a matter wave to the momentum of a particle?",
+      "options": [
+        "λ = p/h",
+        "λ = h/p",
+        "λ = h×p",
+        "λ = h/(p²)"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie relation is λ = h/p = h/(mv), where h is Planck's constant, p is momentum, m is mass, and v is speed. | டி ப்ராக்ளி தொடர்பு λ = h/p = h/(mv) ஆகும், இங்கு h பிளாங்க் மாறிலி, p உந்தம், m நிறை, மற்றும் v வேகம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The waves associated with moving material particles are called:",
+      "options": [
+        "Electromagnetic waves",
+        "De Broglie waves or matter waves",
+        "Transverse waves",
+        "Longitudinal waves"
+      ],
+      "correct": 1,
+      "explanation": "The waves associated with moving material particles are called matter waves or de Broglie waves. | இயக்கத்தில் உள்ள பொருள் துகள்களுடன் தொடர்புடைய அலைகள் பொருள் அலைகள் அல்லது டி ப்ராக்ளி அலைகள் என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For a photon, the de Broglie wavelength equals:",
+      "options": [
+        "The frequency of the electromagnetic radiation",
+        "The wavelength of the electromagnetic radiation of which the photon is a quantum",
+        "The speed of light divided by frequency",
+        "Planck's constant divided by energy"
+      ],
+      "correct": 1,
+      "explanation": "For a photon, p = hν/c, so h/p = c/ν = λ. Thus the de Broglie wavelength of a photon equals the wavelength of the electromagnetic radiation of which the photon is a quantum of energy and momentum. | ஒரு ஃபோட்டானுக்கு, p = hν/c, எனவே h/p = c/ν = λ. எனவே ஒரு ஃபோட்டானின் டி ப்ராக்ளி அலைநீளம், அந்த ஃபோட்டான் ஆற்றல் மற்றும் உந்தத்தின் குவாண்டமாக உள்ள மின்காந்த கதிர்வீச்சின் அலைநீளத்திற்கு சமம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the de Broglie relation, the wavelength is smaller for:",
+      "options": [
+        "Lighter particles or less energetic particles",
+        "Heavier particles or more energetic particles",
+        "Particles with zero momentum",
+        "Particles at absolute zero temperature"
+      ],
+      "correct": 1,
+      "explanation": "From λ = h/(mv), the de Broglie wavelength is smaller for a heavier particle (large m) or more energetic particle (large v). | λ = h/(mv) இலிருந்து, டி ப்ராக்ளி அலைநீளம் பெரிய நிறை கொண்ட துகளுக்கு (பெரிய m) அல்லது அதிக ஆற்றல் கொண்ட துகளுக்கு (பெரிய v) குறைவாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why do macroscopic objects in our daily life not show wave-like properties?",
+      "options": [
+        "They do not have mass",
+        "Their de Broglie wavelength is so small that it is beyond any measurement",
+        "They move too slowly",
+        "They are not made of atoms"
+      ],
+      "correct": 1,
+      "explanation": "For macroscopic objects like a ball of mass 0.12 kg moving at 20 m/s, the de Broglie wavelength is 2.76×10⁻³⁴ m, which is so small that it is beyond any measurement. | பெரிய பொருட்களுக்கு, 0.12 kg நிறை கொண்ட பந்து 20 m/s வேகத்தில் செல்லும்போது, டி ப்ராக்ளி அலைநீளம் 2.76×10⁻³⁴ m ஆகும், இது மிகவும் சிறியதாக இருப்பதால் அளவிட முடியாதது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In Example 11.3, what is the de Broglie wavelength of an electron moving with a speed of 5.4×10⁶ m/s?",
+      "options": [
+        "0.0135 nm",
+        "0.135 nm",
+        "1.35 nm",
+        "13.5 nm"
+      ],
+      "correct": 1,
+      "explanation": "For the electron with mass m = 9.11×10⁻³¹ kg and speed v = 5.4×10⁶ m/s, momentum p = 4.92×10⁻²⁴ kg m/s, and λ = h/p = 6.63×10⁻³⁴ / 4.92×10⁻²⁴ = 0.135 nm. | 9.11×10⁻³¹ kg நிறை மற்றும் 5.4×10⁶ m/s வேகம் கொண்ட எலக்ட்ரானுக்கு, உந்தம் p = 4.92×10⁻²⁴ kg m/s, மற்றும் λ = h/p = 6.63×10⁻³⁴ / 4.92×10⁻²⁴ = 0.135 nm."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In Example 11.3, what is the de Broglie wavelength of a ball of mass 150 g travelling at 30.0 m/s?",
+      "options": [
+        "1.47×10⁻²⁴ m",
+        "1.47×10⁻³⁴ m",
+        "1.47×10⁻⁴⁴ m",
+        "1.47×10⁻¹⁴ m"
+      ],
+      "correct": 1,
+      "explanation": "For the ball with mass m = 0.150 kg and speed v = 30.0 m/s, momentum p = 4.50 kg m/s, and λ = h/p = 6.63×10⁻³⁴ / 4.50 = 1.47×10⁻³⁴ m. | 0.150 kg நிறை மற்றும் 30.0 m/s வேகம் கொண்ட பந்துக்கு, உந்தம் p = 4.50 kg m/s, மற்றும் λ = h/p = 6.63×10⁻³⁴ / 4.50 = 1.47×10⁻³⁴ m."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The de Broglie wavelength of an electron is comparable to:",
+      "options": [
+        "Radio wave wavelengths",
+        "Visible light wavelengths",
+        "X-ray wavelengths",
+        "Gamma ray wavelengths"
+      ],
+      "correct": 2,
+      "explanation": "The de Broglie wavelength of the electron (0.135 nm) is comparable with X-ray wavelengths. For the ball, it is about 10⁻¹⁵ times the size of the proton. | எலக்ட்ரானின் டி ப்ராக்ளி அலைநீளம் (0.135 nm) X-கதிர் அலைநீளங்களுக்கு ஒப்பிடத்தக்கது. பந்துக்கு, இது புரோட்டானின் அளவை விட 10⁻¹⁵ மடங்கு சிறியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In which domain is the wave character of particles significant and measurable?",
+      "options": [
+        "Macroscopic domain",
+        "Classical mechanics domain",
+        "Sub-atomic domain",
+        "Astronomical domain"
+      ],
+      "correct": 2,
+      "explanation": "In the sub-atomic domain, the wave character of particles is significant and measurable because particles like electrons have very small mass, giving them measurable de Broglie wavelengths. | அணு உள் களத்தில், துகள்களின் அலை பண்பு குறிப்பிடத்தக்கதாகவும் அளவிடத்தக்கதாகவும் இருக்கிறது, ஏனெனில் எலக்ட்ரான்கள் போன்ற துகள்கள் மிகச் சிறிய நிறையைக் கொண்டிருப்பதால் அளவிடத்தக்க டி ப்ராக்ளி அலைநீளங்களைப் பெறுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For what discovery was Louis de Broglie awarded the Nobel Prize in Physics in 1929?",
+      "options": [
+        "Discovery of the electron",
+        "Discovery of the wave nature of electrons",
+        "Discovery of X-rays",
+        "Discovery of the photoelectric effect"
+      ],
+      "correct": 1,
+      "explanation": "Louis Victor de Broglie was awarded the Nobel Prize in Physics in 1929 for his discovery of the wave nature of electrons. | லூயிஸ் விக்டர் டி ப்ராக்ளி, எலக்ட்ரான்களின் அலை இயல்பைக் கண்டுபிடித்ததற்காக 1929 ஆம் ஆண்டு இயற்பியலுக்கான நோபல் பரிசு பெற்றார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In the de Broglie relation λ = h/p, what does Planck's constant h do?",
+      "options": [
+        "It relates energy to frequency",
+        "It relates the wave attribute λ to the particle attribute p",
+        "It relates mass to velocity",
+        "It relates charge to mass"
+      ],
+      "correct": 1,
+      "explanation": "Planck's constant h relates the two attributes: on the left side λ is the attribute of a wave, while on the right side momentum p is a typical attribute of a particle. | பிளாங்க் மாறிலி h இரு பண்புகளையும் தொடர்புபடுத்துகிறது: இடது பக்கத்தில் λ ஒரு அலையின் பண்பாகவும், வலது பக்கத்தில் உந்தம் p ஒரு துகளின் பண்பாகவும் உள்ளது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For a ball of mass 0.12 kg moving with a speed of 20 m/s, what is the calculated de Broglie wavelength?",
+      "options": [
+        "2.76×10⁻²⁴ m",
+        "2.76×10⁻³⁴ m",
+        "2.76×10⁻⁴⁴ m",
+        "2.76×10⁻¹⁴ m"
+      ],
+      "correct": 1,
+      "explanation": "Momentum p = mv = 0.12 kg × 20 m/s = 2.40 kg m/s. Then λ = h/p = 6.63×10⁻³⁴ / 2.40 = 2.76×10⁻³⁴ m. | உந்தம் p = mv = 0.12 kg × 20 m/s = 2.40 kg m/s. பின்னர் λ = h/p = 6.63×10⁻³⁴ / 2.40 = 2.76×10⁻³⁴ m."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "De Broglie reasoned that nature was symmetrical and therefore:",
+      "options": [
+        "Only matter has wave properties",
+        "Only radiation has particle properties",
+        "If radiation shows dual aspects, so should matter",
+        "Matter and energy are completely different"
+      ],
+      "correct": 2,
+      "explanation": "De Broglie reasoned that nature was symmetrical and that the two basic physical entities - matter and energy - must have symmetrical character. If radiation shows dual aspects, so should matter. | டி ப்ராக்ளி, இயற்கை சமச்சீரானது என்றும், இரு அடிப்படை இயற்பியல் உருவாக்கங்கள் - பொருள் மற்றும் ஆற்றல் - சமச்சீர் பண்புகளைக் கொண்டிருக்க வேண்டும் என்றும் காரணம் கூறினார். கதிர்வீச்சு இரட்டை பண்புகளைக் காட்டினால், பொருளும் காட்ட வேண்டும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "De Broglie's idea of wave nature of matter was developed into a full-fledged theory of quantum mechanics by:",
+      "options": [
+        "Albert Einstein",
+        "Niels Bohr",
+        "Erwin Schrodinger",
+        "Max Planck"
+      ],
+      "correct": 2,
+      "explanation": "De Broglie's idea was developed by Erwin Schrodinger into a full-fledged theory of quantum mechanics commonly known as wave mechanics. | டி ப்ராக்ளியின் கருத்து, எர்வின் ஸ்க்ரோடிங்கர் மூலம் அலை இயங்கியல் என்று பொதுவாக அறியப்படும் முழுமையான குவாண்டம் இயங்கியல் கோட்பாட்டாக வளர்க்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the formula for de Broglie wavelength?",
+      "options": [
+        "λ = h×p",
+        "λ = h/p",
+        "λ = p/h",
+        "λ = h+p"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie wavelength is given by λ = h/p = h/(mv), where h is Planck's constant, p is momentum, m is mass, and v is velocity. | டி ப்ராக்ளி அலைநீளம் λ = h/p = h/(mv) என்று கொடுக்கப்படுகிறது, இங்கு h பிளாங்க் மாறிலி, p உந்தம், m நிறை, மற்றும் v வேகம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What are the waves associated with moving material particles called?",
+      "options": [
+        "Electromagnetic waves",
+        "De Broglie waves or matter waves",
+        "Sound waves",
+        "Gravitational waves"
+      ],
+      "correct": 1,
+      "explanation": "The waves associated with moving material particles are called matter waves or de Broglie waves. | இயக்கத்தில் உள்ள பொருள் துகள்களுடன் தொடர்புடைய அலைகள் பொருள் அலைகள் அல்லது டி ப்ராக்ளி அலைகள் என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The de Broglie wavelength of an electron is comparable to which of the following?",
+      "options": [
+        "Radio waves",
+        "Microwaves",
+        "X-rays",
+        "Infrared radiation"
+      ],
+      "correct": 2,
+      "explanation": "The de Broglie wavelength of the electron (0.135 nm) is comparable with X-ray wavelengths, making it measurable in experiments like electron diffraction. | எலக்ட்ரானின் டி ப்ராக்ளி அலைநீளம் (0.135 nm) X-கதிர் அலைநீளங்களுக்கு ஒப்பிடத்தக்கது, இது எலக்ட்ரான் விரிவிப்பு போன்ற சோதனைகளில் அளவிடத்தக்கதாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why don't macroscopic objects in daily life show wave-like properties?",
+      "options": [
+        "They have no mass",
+        "Their de Broglie wavelength is too small to measure",
+        "They move too fast",
+        "They are not particles"
+      ],
+      "correct": 1,
+      "explanation": "Macroscopic objects have very large mass, so their de Broglie wavelength is extremely small (e.g., 2.76×10⁻³⁴ m for a 0.12 kg ball), making it impossible to detect wave properties. | பெரிய பொருட்கள் மிகப் பெரிய நிறையைக் கொண்டிருப்பதால், அவற்றின் டி ப்ராக்ளி அலைநீளம் மிகவும் சிறியதாக இருக்கிறது (0.12 kg பந்துக்கு 2.76×10⁻³⁴ m), இது அலை பண்புகளைக் கண்டறிய முடியாததாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was the basis of de Broglie's hypothesis about matter waves?",
+      "options": [
+        "That nature is symmetrical and matter should also show dual nature like radiation",
+        "That only electrons have wave properties",
+        "That light is purely a wave",
+        "That matter is made of waves only"
+      ],
+      "correct": 0,
+      "explanation": "De Broglie reasoned that nature was symmetrical and that if radiation shows dual aspects (wave-particle), so should matter. | டி ப்ராக்ளி, இயற்கை சமச்சீரானது என்றும், கதிர்வீச்சு இரட்டை பண்புகளைக் (அலை-துகள்) காட்டினால், பொருளும் காட்ட வேண்டும் என்றும் காரணம் கூறினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Monochromatic light of frequency 6.0 × 10¹⁴ Hz is produced by a laser with power 2.0 × 10⁻³ W. What is the energy of a single photon in the light beam?",
+      "options": [
+        "3.98 × 10⁻¹⁹ J",
+        "6.63 × 10⁻³⁴ J",
+        "2.0 × 10⁻³ J",
+        "6.0 × 10¹⁴ J"
+      ],
+      "correct": 0,
+      "explanation": "The energy of a photon is calculated using E = hν, where h = 6.63 × 10⁻³⁴ J·s and ν = 6.0 × 10¹⁴ Hz. Therefore, E = (6.63 × 10⁻³⁴)(6.0 × 10¹⁴) = 3.98 × 10⁻¹⁹ J. | ஒரு ஒளிக்குன்றின் ஆற்றல் E = hν சூத்திரத்தைப் பயன்படுத்தி கணக்கிடப்படுகிறது, இங்கு h = 6.63 × 10⁻³⁴ J·s மற்றும் ν = 6.0 × 10¹⁴ Hz. எனவே, E = (6.63 × 10⁻³⁴)(6.0 × 10¹⁴) = 3.98 × 10⁻¹⁹ J."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For a laser emitting monochromatic light of frequency 6.0 × 10¹⁴ Hz with power 2.0 × 10⁻³ W, how many photons per second are emitted on average?",
+      "options": [
+        "3.98 × 10¹⁵ photons/s",
+        "5.0 × 10¹⁵ photons/s",
+        "2.0 × 10⁻³ photons/s",
+        "6.0 × 10¹⁴ photons/s"
+      ],
+      "correct": 1,
+      "explanation": "The number of photons per second N = P/E, where P = 2.0 × 10⁻³ W and E = 3.98 × 10⁻¹⁹ J. Therefore, N = (2.0 × 10⁻³)/(3.98 × 10⁻¹⁹) ≈ 5.0 × 10¹⁵ photons per second. | ஒவ்வொரு வினாடியும் வெளியிடப்படும் ஒளிக்குன்றுகளின் எண்ணிக்கை N = P/E, இங்கு P = 2.0 × 10⁻³ W மற்றும் E = 3.98 × 10⁻¹⁹ J. எனவே, N = (2.0 × 10⁻³)/(3.98 × 10⁻¹⁹) ≈ 5.0 × 10¹⁵ ஒளிக்குன்றுகள்/வினாடி."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The work function of caesium is 2.14 eV. What is the threshold frequency for caesium?",
+      "options": [
+        "3.24 × 10¹⁴ Hz",
+        "5.16 × 10¹⁴ Hz",
+        "2.14 × 10¹⁴ Hz",
+        "6.63 × 10¹⁴ Hz"
+      ],
+      "correct": 1,
+      "explanation": "The threshold frequency ν₀ = φ₀/h, where φ₀ = 2.14 eV = 2.14 × 1.6 × 10⁻¹⁹ J and h = 6.63 × 10⁻³⁴ J·s. Therefore, ν₀ = (2.14 × 1.6 × 10⁻¹⁹)/(6.63 × 10⁻³⁴) = 5.16 × 10¹⁴ Hz. | திறநிலை அதிர்வெண் ν₀ = φ₀/h, இங்கு φ₀ = 2.14 eV = 2.14 × 1.6 × 10⁻¹⁹ J மற்றும் h = 6.63 × 10⁻³⁴ J·s. எனவே, ν₀ = (2.14 × 1.6 × 10⁻¹⁹)/(6.63 × 10⁻³⁴) = 5.16 × 10¹⁴ Hz."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For caesium with work function 2.14 eV, if the photocurrent is brought to zero by a stopping potential of 0.60 V, what is the wavelength of the incident light?",
+      "options": [
+        "330 nm",
+        "454 nm",
+        "550 nm",
+        "632 nm"
+      ],
+      "correct": 1,
+      "explanation": "Using Einstein's photoelectric equation: eV₀ = hc/λ - φ₀, so λ = hc/(eV₀ + φ₀). Substituting h = 6.63 × 10⁻³⁴ J·s, c = 3 × 10⁸ m/s, eV₀ = 0.60 eV, and φ₀ = 2.14 eV, we get λ = (6.63 × 10⁻³⁴ × 3 × 10⁸)/(2.74 × 1.6 × 10⁻¹⁹) = 454 nm. | ஐன்ஸ்டீனின் ஒளிமின் சமன்பாட்டைப் பயன்படுத்தி: eV₀ = hc/λ - φ₀, எனவே λ = hc/(eV₀ + φ₀). h = 6.63 × 10⁻³⁴ J·s, c = 3 × 10⁸ m/s, eV₀ = 0.60 eV, மற்றும் φ₀ = 2.14 eV ஆகிய மதிப்புகளைப் பிரதியிட, λ = (6.63 × 10⁻³⁴ × 3 × 10⁸)/(2.74 × 1.6 × 10⁻¹⁹) = 454 nm கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In 1924, Louis de Broglie proposed that moving particles of matter should display wave-like properties. What is the de Broglie wavelength formula?",
+      "options": [
+        "λ = p/h",
+        "λ = h/p = h/(mv)",
+        "λ = hν",
+        "λ = c/ν"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie relation states that the wavelength λ associated with a particle of momentum p is given by λ = h/p = h/(mv), where m is the mass and v is the speed of the particle. This is known as the de Broglie relation. | டி ப்ரோக்ளி உறவுமுறை என்பது நிறையின் உந்தத்துடன் தொடர்புடைய அலைநீளம் λ = h/p = h/(mv) என்று கூறுகிறது, இங்கு m என்பது நிறையும் v என்பது துகளின் வேகமும் ஆகும். இது டி ப்ரோக்ளி உறவுமுறை என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the de Broglie wavelength associated with an electron moving with a speed of 5.4 × 10⁶ m/s? (Given: m = 9.11 × 10⁻³¹ kg, h = 6.63 × 10⁻³⁴ J·s)",
+      "options": [
+        "0.0135 nm",
+        "0.135 nm",
+        "1.35 nm",
+        "13.5 nm"
+      ],
+      "correct": 1,
+      "explanation": "First calculate momentum p = mv = (9.11 × 10⁻³¹)(5.4 × 10⁶) = 4.92 × 10⁻²⁴ kg·m/s. Then λ = h/p = (6.63 × 10⁻³⁴)/(4.92 × 10⁻²⁴) = 1.35 × 10⁻¹⁰ m = 0.135 nm. This is comparable with X-ray wavelengths. | முதலில் உந்தம் p = mv = (9.11 × 10⁻³¹)(5.4 × 10⁶) = 4.92 × 10⁻²⁴ kg·m/s என கணக்கிடவும். பின்னர் λ = h/p = (6.63 × 10⁻³⁴)/(4.92 × 10⁻²⁴) = 1.35 × 10⁻¹⁰ m = 0.135 nm. இது X-கதிர் அலைநீளங்களுக்கு ஒப்பிடத்தக்கது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "A ball of mass 0.12 kg moving with a speed of 20 m/s has a de Broglie wavelength of approximately 2.76 × 10⁻³⁴ m. Why is this wavelength not observable in everyday life?",
+      "options": [
+        "Because the ball is not charged",
+        "Because the wavelength is too small to be measured",
+        "Because the ball moves too slowly",
+        "Because de Broglie hypothesis does not apply to macroscopic objects"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie wavelength of macroscopic objects is extremely small (of the order of 10⁻³⁴ m or smaller), which is beyond any experimental measurement. This is why macroscopic objects in daily life do not show wave-like properties. On the other hand, in the sub-atomic domain, the wave character of particles is significant and measurable. | பெருநிறைப் பொருட்களின் டி ப்ரோக்ளி அலைநீளம் மிகவும் சிறியதாக (10⁻³⁴ m அல்லது அதற்கும் குறைவாக) இருப்பதால், எந்த பரிசோதனை அளவீட்டிற்கும் அப்பாற்பட்டது. இதனால்தான் அன்றாட வாழ்க்கையில் பெருநிறைப் பொருட்கள் அலைபோன்ற பண்புகளைக் காட்டுவதில்லை. ஆனால், அணுக்கரு ஆற்றல் மட்டத்தில் துகள்களின் அலைத் தன்மை குறிப்பிடத்தக்கதாகவும் அளவிடத்தக்கதாகவும் இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Einstein proposed that a light quantum (photon) can be associated with momentum. What is the momentum of a photon?",
+      "options": [
+        "p = hν",
+        "p = hν/c = h/λ",
+        "p = mc",
+        "p = E/c²"
+      ],
+      "correct": 1,
+      "explanation": "Einstein arrived at the important result that the light quantum can be associated with momentum p = hν/c = h/λ. A definite value of energy (hν) as well as momentum is a strong sign that the light quantum can be associated with a particle called photon. | ஐன்ஸ்டீன் ஒளிக்குன்று உந்தம் p = hν/c = h/λ உடன் தொடர்புடையது என்ற முக்கிய முடிவை எட்டினார். ஆற்றல் (hν) மற்றும் உந்தம் ஆகியவற்றின் துல்லியமான மதிப்பு, ஒளிக்குன்று எனப்படும் துகளுடன் தொடர்புடையது என்பதற்கான வலுவான அறிகுறியாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In 1905, Albert Einstein proposed that electromagnetic radiation energy is built up of discrete units called:",
+      "options": [
+        "Photons",
+        "Electrons",
+        "Protons",
+        "Neutrons"
+      ],
+      "correct": 0,
+      "explanation": "Einstein proposed that radiation energy consists of discrete units called quanta of energy (later named photons). Each quantum has energy hν, where h is Planck's constant and ν is the frequency. | 1905-ல் ஐன்ஸ்டீன் மின்காந்த கதிர்வீச்சின் ஆற்றல் தனித்தனி அலகுகளால் (quanta) கட்டமைக்கப்பட்டுள்ளது என்று முன்மொழிந்தார். ஒவ்வொரு குவாண்டாவின் ஆற்றல் hν, இங்கு h பிளாங்க் மாறிலி, ν அலைவெண்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to Einstein's photoelectric equation, the maximum kinetic energy of emitted photoelectrons is given by:",
+      "options": [
+        "K_max = hν + φ₀",
+        "K_max = hν - φ₀",
+        "K_max = hν × φ₀",
+        "K_max = hν / φ₀"
+      ],
+      "correct": 1,
+      "explanation": "Einstein's photoelectric equation states K_max = hν - φ₀, where hν is the photon energy and φ₀ is the work function of the metal. The electron absorbs one quantum of energy; if it exceeds the work function, the electron is emitted with kinetic energy equal to the difference. | ஐன்ஸ்டீனின் ஒளிமின் விளைவு சமன்பாடு K_max = hν - φ₀ என்று கூறுகிறது. hν என்பது ஒளிமின்னியின் ஆற்றல், φ₀ என்பது பணிச்சார்பு. எலக்ட்ரான் ஒரு ஆற்றல் அலகை உறிஞ்சுகிறது; அது பணிச்சார்பை மீறினால், வேறுபாடு அதன் இயக்க ஆற்றலாக மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In Einstein's picture of photoelectric effect, the intensity of light determines:",
+      "options": [
+        "The maximum kinetic energy of individual photoelectrons",
+        "The number of photons incident per unit area per unit time",
+        "The threshold frequency of the metal",
+        "The work function of the emitter material"
+      ],
+      "correct": 1,
+      "explanation": "Intensity is proportional to the number of energy quanta (photons) per unit area per unit time. Higher intensity means more photons, leading to more electrons being emitted, but does NOT affect the maximum kinetic energy of individual electrons, which depends only on photon energy (frequency). | ஒளித்தீவிரம் ஒரு பகுதிப் பரப்புக்கு ஒரு நேர அலகுக்கு விழும் ஒளிமின்னிகளின் எண்ணிக்கைக்கு நேர்த்தகவமையாகும். அதிக தீவிரம் = அதிக ஒளிமின்னிகள் = அதிக எலக்ட்ரான்கள் வெளியேறும். ஆனால் தனித்தனி எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றலை பாதிக்காது; அது அலைவெண்ணை மட்டுமே சார்ந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The threshold frequency ν₀ for a metal surface is related to the work function φ₀ by:",
+      "options": [
+        "ν₀ = φ₀ × h",
+        "ν₀ = φ₀ / h",
+        "ν₀ = h / φ₀",
+        "ν₀ = h + φ₀"
+      ],
+      "correct": 1,
+      "explanation": "From Einstein's equation, since K_max must be non-negative, photoelectric emission requires hν ≥ φ₀. The minimum frequency (threshold) occurs when hν₀ = φ₀, giving ν₀ = φ₀ / h. Greater work function means higher threshold frequency. | K_max எதிர்மறையாக இருக்க முடியாது என்பதால், hν ≥ φ₀ தேவை. குறைந்தபட்ச அலைவெண்ணில் hν₀ = φ₀, எனவே ν₀ = φ₀ / h. அதிக பணிச்சார்பு = அதிக திறநிலை அலைவெண்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to Einstein's photon picture, why is photoelectric emission instantaneous even with very dim light?",
+      "options": [
+        "Because many electrons absorb energy simultaneously from the wavefront",
+        "Because the basic process is absorption of one light quantum by one electron",
+        "Because the work function becomes zero at low intensities",
+        "Because the threshold frequency decreases with dimmer light"
+      ],
+      "correct": 1,
+      "explanation": "In Einstein's picture, the elementary process is a single electron absorbing a single light quantum. This is an instantaneous event. Low intensity only means fewer photons (fewer electrons participate), but each absorption event is still instantaneous. The wave theory's prediction of hours-long delay is contradicted. | ஒவ்வொரு எலக்ட்ரானும் ஒரு ஒளிமின்னியை உறிஞ்சுவது அடிப்படை செயல்முறை. இது உடனடியானது. குறைந்த தீவிரம் = குறைந்த ஒளிமின்னிகள் = குறைந்த எலக்ட்ரான்கள் பங்கேற்கும். ஆனால் ஒவ்வொரு உறிஞ்சலும் உடனடியானது. அலைக்கொள்கையின் மணிநேர தாமதக் கணிப்பு தவறானது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Millikan's experiments on photoelectric effect (1906-1916) aimed to:",
+      "options": [
+        "Prove Einstein's photoelectric equation",
+        "Disprove Einstein's photoelectric equation",
+        "Discover the electron",
+        "Measure the speed of light"
+      ],
+      "correct": 1,
+      "explanation": "Millikan initially aimed to disprove Einstein's photoelectric equation. He measured the slope of V₀ versus ν graph for sodium and other alkali metals. Using the known value of e, he determined h. The value matched Planck's constant from other experiments, thereby proving (rather than disproving) Einstein's equation in 1916. | மில்லிக்கன் ஆரம்பத்தில் ஐன்ஸ்டீனின் சமன்பாட்டை மறுக்க முயன்றார். V₀ vs ν வரைபடத்தின் சாய்வை அளவிட்டு, அறியப்பட்ட e மதிப்பைப் பயன்படுத்தி h கண்டறிந்தார். அது பிற சோதனைகளின் பிளாங்க் மாறிலியுடன் பொருந்தியது, எனவே 1916-ல் ஐன்ஸ்டீனின் சமன்பாட்டை நிரூபித்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The equation eV₀ = hν - φ₀ can be rewritten to show that the stopping potential V₀ versus frequency ν graph is:",
+      "options": [
+        "A parabola",
+        "A straight line with slope h/e",
+        "An exponential curve",
+        "A circle"
+      ],
+      "correct": 1,
+      "explanation": "Rearranging: V₀ = (h/e)ν - (φ₀/e). This is a linear equation y = mx + c form, where slope m = h/e and y-intercept = -φ₀/e. The slope is independent of the material, a universal constant ratio. This linear relationship was experimentally verified by Millikan. | V₀ = (h/e)ν - (φ₀/e) என மறுசீரமைக்கலாம். இது y = mx + c வடிவம், சாய்வு m = h/e. சாய்வு பொருளின் தன்மையைச் சாராத பொது மாறிலி விகிதம். இந்த நேர்க்கோட்டு உறவை மில்லிக்கன் சோதனையால் உறுதிப்படுத்தினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Einstein associated the light quantum not only with energy hν but also with momentum equal to:",
+      "options": [
+        "hν/c",
+        "hν × c",
+        "h/c",
+        "c/hν"
+      ],
+      "correct": 0,
+      "explanation": "Einstein showed that the light quantum has momentum p = hν/c = h/λ. A definite value of both energy and momentum is a strong signature of particle nature. This particle-like behavior was further confirmed by Compton's X-ray scattering experiment in 1924. | ஐன்ஸ்டீன் ஒளிமின்னிக்கு ஆற்றல் hν மற்றும் உந்தம் p = hν/c = h/λ இருப்பதைக் காட்டினார். ஆற்றலும் உந்தமும் தனித்தனி மதிப்புகள் துகள் தன்மையின் அறிகுறி. 1924-ல் காம்டனின் X-கதிர் சிதறல் சோதனை இதை உறுதிப்படுத்தியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For photoelectric emission to occur, the frequency of incident radiation must satisfy:",
+      "options": [
+        "ν < ν₀",
+        "ν = ν₀",
+        "ν ≥ ν₀",
+        "ν ≤ ν₀"
+      ],
+      "correct": 2,
+      "explanation": "From K_max = hν - φ₀ ≥ 0, we get hν ≥ φ₀, which means ν ≥ φ₀/h = ν₀. Below threshold frequency ν₀, no photoelectric emission occurs regardless of intensity or duration of illumination. This explains the existence of a cutoff frequency. | K_max = hν - φ₀ ≥ 0 என்பதால், ν ≥ φ₀/h = ν₀. திறநிலை அலைவெண்ணுக்குக் கீழே, எந்த தீவிரமோ காலமோ இருந்தாலும் ஒளிமின் வெளியேற்றம் இல்லை. இது வெட்டு அலைவெண்ணின் இருப்பை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The particle named 'photon' was later associated with the light quantum. Who named it?",
+      "options": [
+        "Einstein",
+        "Millikan",
+        "The name was given later by other scientists",
+        "Planck"
+      ],
+      "correct": 2,
+      "explanation": "Einstein introduced the concept of light quanta in 1905. The term 'photon' was coined later by other scientists (Gilbert Lewis in 1926). Einstein called them quanta of energy. The photon has energy hν and momentum hν/c, with speed c. | ஐன்ஸ்டீன் 1905-ல் ஒளி அலகுகளை (quanta) அறிமுகப்படுத்தினார். 'ஒளிமின்னி' (photon) என்ற பெயரை பிற அறிவியலாளர்கள் (கில்பர்ட் லூயிஸ் 1926) பின்னர் கொடுத்தனர். ஒளிமின்னிக்கு ஆற்றல் hν, உந்தம் hν/c, வேகம் c."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Einstein's photon picture explains why the maximum kinetic energy of photoelectrons is independent of light intensity because:",
+      "options": [
+        "Each electron absorbs energy from multiple photons",
+        "The basic process involves one electron absorbing one photon",
+        "Intensity changes the work function of the metal",
+        "Higher intensity photons have less energy"
+      ],
+      "correct": 1,
+      "explanation": "Since one electron absorbs exactly one photon (quantum), the energy gained by that electron depends only on the photon's energy (hν), which depends on frequency, not intensity. Intensity only affects how many photons arrive per second, thus how many electrons are emitted, but not each electron's maximum kinetic energy. | ஒரு எலக்ட்ரான் சரியாக ஒரு ஒளிமின்னியை உறிஞ்சுவதால், அதன் ஆற்றல் அலைவெண்ணை (hν) மட்டுமே சார்ந்தது. தீவிரம் ஒரு நொடிக்கு வரும் ஒளிமின்னிகளின் எண்ணிக்கையை மட்டுமே மாற்றும், ஒவ்வொரு எலக்ட்ரானின் அதிகபட்ச இயக்க ஆற்றலை அல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In the photon picture, when intensity of light of a given frequency is increased:",
+      "options": [
+        "The energy of each photon increases",
+        "The number of photons per second crossing a given area increases",
+        "The frequency of each photon increases",
+        "The wavelength of each photon decreases"
+      ],
+      "correct": 1,
+      "explanation": "All photons of a particular frequency have the same energy hν and momentum hν/c, regardless of intensity. Increasing intensity only increases the number of photons per second crossing a unit area. This is a fundamental property of the photon picture that distinguishes it from the wave picture. | குறிப்பிட்ட அலைவெண்ணின் அனைத்து ஒளிமின்னிகளும் ஒரே ஆற்றல் hν மற்றும் உந்தம் hν/c கொண்டவை. தீவிரத்தை அதிகரிப்பது ஒரு பகுதிப்பரப்புக்கு வரும் ஒளிமின்னிகளின் எண்ணிக்கையை மட்டுமே அதிகரிக்கிறது. இது அலைக்கோட்பாட்டிலிருந்து வேறுபடும் முக்கிய பண்பு."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Compton's experiment in 1924 on scattering of X-rays from electrons confirmed:",
+      "options": [
+        "The wave nature of X-rays only",
+        "The particle-like behavior of light",
+        "The photoelectric effect equation",
+        "The existence of threshold frequency"
+      ],
+      "correct": 1,
+      "explanation": "A.H. Compton's X-ray scattering experiment (1924) showed that X-rays behave like particles when interacting with electrons, transferring both energy and momentum. This confirmed the particle-like behavior of electromagnetic radiation, complementing Einstein's photon concept from photoelectric effect. | காம்டனின் 1924 X-கதிர் சிதறல் சோதனை, எலக்ட்ரான்களுடன் கதிர்வீச்சு துகள் போல நடந்து கொள்வதைக் காட்டியது. ஆற்றலும் உந்தமும் மாற்றப்படுகிறது. இது ஒளிமின் விளைவில் ஐன்ஸ்டீனின் ஒளிமின்னி கருத்தை உறுதிப்படுத்தியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The photoelectric equation K_max = hν - φ₀ accounts for the existence of threshold frequency because:",
+      "options": [
+        "It shows that at ν = ν₀, K_max becomes zero",
+        "It predicts K_max increases with intensity",
+        "It requires a minimum intensity for emission",
+        "It depends on the duration of illumination"
+      ],
+      "correct": 0,
+      "explanation": "When ν = ν₀ = φ₀/h, then K_max = h(φ₀/h) - φ₀ = 0. Below this frequency, K_max would be negative, which is physically impossible, meaning no emission occurs. This naturally explains why there exists a minimum cutoff frequency below which photoelectric effect cannot occur. | ν = ν₀ = φ₀/h எனில், K_max = h(φ₀/h) - φ₀ = 0. இதற்குக் கீழே K_max எதிர்மறையாகும், இது இயற்பியலில் இயலாது. எனவே வெட்டு அலைவெண்ணுக்குக் கீழே வெளியேற்றம் இல்லை. இது திறநிலை அலைவெண்ணின் இருப்பை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Einstein was awarded the Nobel Prize in Physics in 1921 for:",
+      "options": [
+        "Special theory of relativity only",
+        "General theory of relativity only",
+        "His contribution to theoretical physics and the photoelectric effect",
+        "Discovery of the photon"
+      ],
+      "correct": 2,
+      "explanation": "Einstein received the 1921 Nobel Prize in Physics specifically for his contribution to theoretical physics and for his discovery of the law of the photoelectric effect. While he published three pathbreaking papers in 1905 (photoelectric effect, Brownian motion, special relativity), the Nobel Committee recognized the photoelectric effect explanation. | ஐன்ஸ்டீன் 1921-ல் கோட்பாட்டு இயற்பியலுக்கான பங்களிப்பு மற்றும் ஒளிமின் விளைவின் விதியைக் கண்டறிததற்காக நோபல் பரிசு பெற்றார். 1905-ல் மூன்று கட்டுரைகள் (ஒளிமின் விளைவு, பிரவுனியன் இயக்கம், சிறப்பு சார்பியல்) எழுதியபோதும், நோபல் குழு ஒளிமின் விளைவு விளக்கத்தை அங்கீகரித்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the de Broglie wavelength of a ball of mass 0.12 kg moving with a speed of 20 m/s?",
+      "options": [
+        "2.76 × 10^-34 m",
+        "2.76 × 10^-24 m",
+        "2.76 × 10^-44 m",
+        "2.76 × 10^-14 m"
+      ],
+      "correct": 0,
+      "explanation": "Using the de Broglie relation λ = h/p, where p = mv = 0.12 kg × 20 m/s = 2.40 kg m/s. Therefore λ = (6.63 × 10^-34 J s) / (2.40 kg m/s) = 2.76 × 10^-34 m. This wavelength is extremely small and beyond any measurement, which is why macroscopic objects do not show wave-like properties. | de Broglie தொடர்பு λ = h/p ஐப் பயன்படுத்தி, p = mv = 0.12 kg × 20 m/s = 2.40 kg m/s. எனவே λ = (6.63 × 10^-34 J s) / (2.40 kg m/s) = 2.76 × 10^-34 m. இந்த அலைநீளம் மிகவும் சிறியது மற்றும் அளவிடுவதற்கு அப்பாற்பட்டது, இதுவே பெரும்பாலும் காணப்படும் பொருட்கள் அலை போன்ற பண்புகளைக் காட்டாத காரணமாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the de Broglie wavelength associated with an electron moving with a speed of 5.4 × 10^6 m/s?",
+      "options": [
+        "0.135 nm",
+        "1.35 nm",
+        "0.0135 nm",
+        "13.5 nm"
+      ],
+      "correct": 0,
+      "explanation": "For the electron: mass m = 9.11 × 10^-31 kg, speed v = 5.4 × 10^6 m/s. Momentum p = mv = 9.11 × 10^-31 × 5.4 × 10^6 = 4.92 × 10^-24 kg m/s. De Broglie wavelength λ = h/p = (6.63 × 10^-34) / (4.92 × 10^-24) = 0.135 nm. This is comparable with X-ray wavelengths. | எலக்ட்ரானுக்கு: நிறை m = 9.11 × 10^-31 kg, வேகம் v = 5.4 × 10^6 m/s. உந்தம் p = mv = 9.11 × 10^-31 × 5.4 × 10^6 = 4.92 × 10^-24 kg m/s. de Broglie அலைநீளம் λ = h/p = (6.63 × 10^-34) / (4.92 × 10^-24) = 0.135 nm. இது X-ray அலைநீளங்களுடன் ஒப்பிடத்தக்கது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the de Broglie wavelength of a ball of mass 150 g travelling at 30.0 m/s?",
+      "options": [
+        "1.47 × 10^-34 m",
+        "1.47 × 10^-24 m",
+        "1.47 × 10^-44 m",
+        "1.47 × 10^-14 m"
+      ],
+      "correct": 0,
+      "explanation": "For the ball: mass m = 0.150 kg, speed v = 30.0 m/s. Momentum p = mv = 0.150 × 30.0 = 4.50 kg m/s. De Broglie wavelength λ = h/p = (6.63 × 10^-34) / (4.50) = 1.47 × 10^-34 m. This is about 10^-15 times the size of a proton, quite beyond experimental measurement. | பந்துக்கு: நிறை m = 0.150 kg, வேகம் v = 30.0 m/s. உந்தம் p = mv = 0.150 × 30.0 = 4.50 kg m/s. de Broglie அலைநீளம் λ = h/p = (6.63 × 10^-34) / (4.50) = 1.47 × 10^-34 m. இது புரோட்டானின் அளவை விட 10^-15 மடங்கு சிறியது, சோதனை அளவீட்டிற்கு அப்பாற்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the minimum energy needed by an electron to come out from a metal surface called?",
+      "options": [
+        "Work function",
+        "Threshold frequency",
+        "Stopping potential",
+        "Photon energy"
+      ],
+      "correct": 0,
+      "explanation": "The minimum energy needed by an electron to come out from a metal surface is called the work function of the metal. It is generally denoted by φ₀ and measured in eV (electron volt). Energy greater than the work function required for electron emission can be supplied by heating, applying strong electric field, or irradiating with light of suitable frequency. | உலோகப் பரப்பிலிருந்து வெளியேற எலக்ட்ரானுக்குத் தேவையான குறைந்தபட்ச ஆற்றல் உலோகத்தின் பணிச் செயல்பாடு (work function) என்று அழைக்கப்படுகிறது. இது φ₀ எனக் குறிக்கப்பட்டு eV (எலக்ட்ரான் வோல்ட்) அலகில் அளவிடப்படுகிறது. எலக்ட்ரான் உமிழ்வுக்குத் தேவையான ஆற்றல் சூடாக்குதல், வலுவான மின்புலத்தைப் பயன்படுத்துதல், அல்லது பொருத்தமான அதிர்வெண்ணுள்ள ஒளியால் கதிர்வீச்சு செய்தல் மூலம் வழங்கப்படலாம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the phenomenon of emission of electrons by metals when illuminated by light of suitable frequency called?",
+      "options": [
+        "Photoelectric effect",
+        "Thermionic emission",
+        "Field emission",
+        "Compton effect"
+      ],
+      "correct": 0,
+      "explanation": "Photoelectric effect is the phenomenon of emission of electrons by metals when illuminated by light of suitable frequency. Certain metals respond to ultraviolet light while others are sensitive even to visible light. It involves conversion of light energy into electrical energy and follows the law of conservation of energy. The photoelectric emission is an instantaneous process. | பொருத்தமான அதிர்வெண்ணுள்ள ஒளியால் ஒளிர்த்தபோது உலோகங்களால் எலக்ட்ரான்களை உமிழும் நிகழ்வு ஒளிமின் விளைவு (photoelectric effect) என்று அழைக்கப்படுகிறது. சில உலோகங்கள் புறஊதா ஒளிக்கு மட்டுமே பதிலளிக்கின்றன, மற்றவை காட்சி ஒளிக்கும் உணர்திறன் கொண்டவை. இது ஒளி ஆற்றலை மின்னாற்றலாக மாற்றும் செயல்முறையாகும் மற்றும் ஆற்றல் பாதுகாப்பு விதிக்கு உட்பட்டது. ஒளிமின் உமிழ்வு உடனடியான செயல்முறையாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following does NOT affect the photoelectric current?",
+      "options": [
+        "Frequency of incident light alone",
+        "Intensity of incident light",
+        "Potential difference between electrodes",
+        "Nature of the emitter material"
+      ],
+      "correct": 0,
+      "explanation": "Photoelectric current depends on (i) the intensity of incident light, (ii) the potential difference applied between the two electrodes, and (iii) the nature of the emitter material. The frequency of incident light affects the maximum kinetic energy of photoelectrons (through stopping potential), but not the photocurrent directly. Above threshold frequency, current depends on intensity, not frequency alone. | ஒளிமின் மின்னோட்டம் (i) படும் ஒளியின் தீவிரத்தை, (ii) இரண்டு மின்முனைகளுக்கு இடையே பயன்படுத்தப்படும் மின்னழுத்த வேறுபாட்டை, மற்றும் (iii) உமிழும் பொருளின் இயல்பைப் பொறுத்து மாறுகிறது. படும் ஒளியின் அதிர்வெண் ஒளிமின் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றலை (நிறுத்தும் மின்னழுத்தம் வழியாக) பாதிக்கிறது, ஆனால் ஒளிமின் மின்னோட்டத்தை நேரடியாக பாதிக்காது. திறநிலை அதிர்வெண்ணுக்கு மேல், மின்னோட்டம் தீவிரத்தைப் பொறுத்தது, அதிர்வெண்ணை மட்டும் பொறுத்தது அல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the relationship between stopping potential (V₀) and maximum kinetic energy of emitted electrons?",
+      "options": [
+        "eV₀ = K_max",
+        "V₀ = e × K_max",
+        "K_max = e/V₀",
+        "V₀ = K_max²/e"
+      ],
+      "correct": 0,
+      "explanation": "The stopping potential is directly related to the maximum kinetic energy of electrons emitted: eV₀ = (1/2)mv²_max = K_max. For a given frequency of incident light, the stopping potential is independent of its intensity. The stopping potential depends on (i) the frequency of incident light, and (ii) the nature of the emitter material. | நிறுத்தும் மின்னழுத்தம் (stopping potential) உமிழப்படும் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றலுடன் நேரடியாக தொடர்புடையது: eV₀ = (1/2)mv²_max = K_max. கொடுக்கப்பட்ட அதிர்வெண்ணுக்கு, நிறுத்தும் மின்னழுத்தம் அதன் தீவிரத்தைப் பொறுத்தது அல்ல. நிறுத்தும் மின்னழுத்தம் (i) படும் ஒளியின் அதிர்வெண், மற்றும் (ii) உமிழும் பொருளின் இயல்பைப் பொறுத்து மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens when the frequency of incident light is below the threshold frequency (ν₀)?",
+      "options": [
+        "No photoelectric emission takes place regardless of intensity",
+        "Photoelectric emission occurs with low kinetic energy electrons",
+        "Photoelectric current increases with intensity",
+        "Stopping potential becomes zero"
+      ],
+      "correct": 0,
+      "explanation": "Below a certain frequency (threshold frequency) ν₀, characteristic of the metal, no photoelectric emission takes place, no matter how large the intensity may be. This minimum frequency is different for different metals. The threshold frequency is related to work function by ν₀ = φ₀/h. | உலோகத்திற்கு உரித்தான குறிப்பிட்ட அதிர்வெண்ணுக்கு (திறநிலை அதிர்வெண் ν₀) கீழே, எவ்வளவு பெரிய தீவிரத்தைக் கொண்டிருந்தாலும் ஒளிமின் உமிழ்வு நிகழாது. இந்த குறைந்தபட்ச அதிர்வெண் வெவ்வேறு உலோகங்களுக்கு வேறுபடும். திறநிலை அதிர்வெண் பணிச் செயல்பாட்டுடன் ν₀ = φ₀/h என்ற தொடர்பால் இணைக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which observation of photoelectric effect CANNOT be explained by classical wave theory?",
+      "options": [
+        "All of these: independence of K_max on intensity, existence of threshold frequency, and instantaneous nature",
+        "Only the independence of K_max on intensity",
+        "Only the existence of threshold frequency",
+        "Only the instantaneous nature of emission"
+      ],
+      "correct": 0,
+      "explanation": "The classical wave theory could not explain the main features of photoelectric effect. Its picture of continuous absorption of energy from radiation could not explain: (i) the independence of K_max on intensity, (ii) the existence of threshold frequency ν₀, and (iii) the instantaneous nature of the process. Wave theory predicts that energy absorption is continuous and should take hours for a single electron to accumulate enough energy. | பாரம்பரிய அலை கோட்பாடு ஒளிமின் விளைவின் முக்கிய அம்சங்களை விளக்க முடியவில்லை. கதிர்வீச்சிலிருந்து தொடர்ச்சியான ஆற்றல் உறிஞ்சுதலின் படம் இவற்றை விளக்க முடியவில்லை: (i) K_max தீவிரத்தைப் பொறுத்த சுதந்திரம், (ii) திறநிலை அதிர்வெண் ν₀ இருப்பு, மற்றும் (iii) செயல்முறையின் உடனடியான தன்மை. அலை கோட்பாடு ஆற்றல் உறிஞ்சுதல் தொடர்ச்சியானது என்றும் ஒரு எலக்ட்ரான் போதுமான ஆற்றலைச் சேர்க்க மணிக்கணக்கான நேரம் எடுக்கும் என்றும் கணிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to Einstein's photoelectric equation, what is the maximum kinetic energy of emitted photoelectrons?",
+      "options": [
+        "K_max = hν - φ₀ = h(ν - ν₀)",
+        "K_max = hν + φ₀",
+        "K_max = hν × φ₀",
+        "K_max = φ₀ - hν"
+      ],
+      "correct": 0,
+      "explanation": "Einstein's photoelectric equation is: (1/2)mv²_max = V₀e = hν - φ₀ = h(ν - ν₀). This equation explains all features of the photoelectric effect. Millikan's first precise measurements confirmed Einstein's photoelectric equation and obtained an accurate value of Planck's constant h. The equation is in accordance with the energy conservation law as applied to photon absorption by an electron in the metal. | ஐன்ஸ்டீனின் ஒளிமின் சமன்பாடு: (1/2)mv²_max = V₀e = hν - φ₀ = h(ν - ν₀). இந்த சமன்பாடு ஒளிமின் விளைவின் அனைத்து அம்சங்களையும் விளக்குகிறது. மில்லிக்கானின் முதல் துல்லியமான அளவீடுகள் ஐன்ஸ்டீனின் ஒளிமின் சமன்பாட்டை உறுதிப்படுத்தி பிளாங்க் மாறிலி h இன் துல்லியமான மதிப்பைப் பெற்றன. இந்த சமன்பாடு உலோகத்தில் எலக்ட்ரானால் ஒளியன் உறிஞ்சப்படுவதற்கு ஆற்றல் பாதுகாப்பு விதியுடன் இணங்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to Einstein's photoelectric equation, what is the expression for the maximum kinetic energy of emitted photoelectrons?",
+      "options": [
+        "K_max = hν + φ₀",
+        "K_max = hν - φ₀",
+        "K_max = φ₀ - hν",
+        "K_max = hν × φ₀"
+      ],
+      "correct": 1,
+      "explanation": "Einstein's photoelectric equation states that K_max = hν - φ₀, where h is Planck's constant, ν is the frequency of incident radiation, and φ₀ is the work function of the metal. This equation shows that the maximum kinetic energy of emitted electrons depends linearly on the frequency of incident light and is independent of its intensity. | ஐன்ஸ்டீனின் ஒளிமின் சமன்பாடு K_max = hν - φ₀ என்று கூறுகிறது, இங்கு h பிளாங்க் மாறிலி, ν படிவீச்சு அதிர்வெண், φ₀ உலோகத்தின் பணிச்சார்பு. இந்த சமன்பாடு வெளியேறும் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றல் படிவீச்சு அதிர்வெண்ணில் நேர்கோட்டுடன் சார்ந்துள்ளது, அதன் தீவிரத்திற்கு சாராது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the expression for the threshold frequency (cut-off frequency) of a metal in Einstein's photoelectric equation?",
+      "options": [
+        "ν₀ = h/φ₀",
+        "ν₀ = φ₀/h",
+        "ν₀ = h × φ₀",
+        "ν₀ = φ₀ × h²"
+      ],
+      "correct": 1,
+      "explanation": "The threshold frequency is given by ν₀ = φ₀/h. This is derived from Einstein's equation by setting K_max = 0, which gives hν₀ = φ₀. The greater the work function φ₀, the higher the threshold frequency needed for photoelectric emission. | திறநிலை அதிர்வெண் ν₀ = φ₀/h என்று கொடுக்கப்படுகிறது. இது ஐன்ஸ்டீன் சமன்பாட்டிலிருந்து K_max = 0 என்று வைத்து பெறப்படுகிறது, இது hν₀ = φ₀ என்று தருகிறது. பணிச்சார்பு φ₀ அதிகமாக இருந்தால், ஒளிமின் உமிழ்வுக்கு தேவையான திறநிலை அதிர்வெண் அதிகமாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which equation correctly relates the stopping potential V₀ to the frequency of incident radiation?",
+      "options": [
+        "V₀ = (h/e)ν + φ₀/e",
+        "V₀ = (e/h)ν - φ₀/h",
+        "V₀ = (h/e)ν - φ₀/e",
+        "V₀ = (h/e)ν × φ₀/e"
+      ],
+      "correct": 2,
+      "explanation": "The correct equation is V₀ = (h/e)ν - φ₀/e, derived from eV₀ = hν - φ₀ by dividing both sides by e. This shows that the V₀ versus ν graph is a straight line with slope h/e, which is independent of the nature of the material. | சரியான சமன்பாடு V₀ = (h/e)ν - φ₀/e ஆகும். இது eV₀ = hν - φ₀ இருபுறமும் e ஆல் வகுத்து பெறப்படுகிறது. V₀ மற்றும் ν வரைபடம் நேர்கோடாக இருக்கும், சாய்வு h/e உலோகத்தின் தன்மைக்கு சாராது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the slope of the stopping potential versus frequency graph represent?",
+      "options": [
+        "e/h",
+        "h/e",
+        "φ₀/h",
+        "h/φ₀"
+      ],
+      "correct": 1,
+      "explanation": "The slope of the V₀ versus ν graph is h/e. From the equation V₀ = (h/e)ν - φ₀/e, the slope is h/e. This is a universal constant independent of the material. Millikan used this to determine Planck's constant h. | V₀ மற்றும் ν வரைபடத்தின் சாய்வு h/e ஆகும். V₀ = (h/e)ν - φ₀/e சமன்பாட்டிலிருந்து சாய்வு h/e என்று கிடைக்கிறது. இது உலோகத்தின் தன்மைக்கு சாராத பொது மாறிலி. மில்லிக்கான் இதைப் பயன்படுத்தி பிளாங்க் மாறிலி h ஐ கண்டறிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was Millikan's original intention when he performed experiments on the photoelectric effect between 1906-1916?",
+      "options": [
+        "To prove Einstein's photoelectric equation",
+        "To disprove Einstein's photoelectric equation",
+        "To discover the electron",
+        "To measure the speed of light"
+      ],
+      "correct": 1,
+      "explanation": "Millikan originally aimed to disprove Einstein's photoelectric equation. However, his precise measurements actually confirmed the validity of Einstein's equation and yielded an accurate value of Planck's constant h, leading to the acceptance of the photon picture. | மில்லிக்கான் முதலில் ஐன்ஸ்டீனின் ஒளிமின் சமன்பாட்டை மறுக்க முயன்றார். ஆனால் அவரது துல்லியமான அளவீடுகள் ஐன்ஸ்டீன் சமன்பாட்டின் செல்லுபடியை உறுதிப்படுத்தின, மேலும் பிளாங்க் மாறிலி h இன் துல்லியமான மதிப்பைத் தந்தது, இது ஒளிமின் படத்தை ஏற்றுக்கொள்ள வழிவகுத்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to Einstein's photon picture, why is the maximum kinetic energy of photoelectrons independent of the intensity of incident radiation?",
+      "options": [
+        "Because photons have zero mass",
+        "Because each electron absorbs only one photon, and photon energy depends only on frequency",
+        "Because intensity affects only the number of photons, not their energy",
+        "Both B and C are correct"
+      ],
+      "correct": 3,
+      "explanation": "In Einstein's picture, photoelectric effect arises from absorption of a single quantum by a single electron. The intensity is proportional to the number of photons per unit area per unit time, but each photon has energy hν. So increasing intensity increases the number of emitted electrons but not their maximum kinetic energy. | ஐன்ஸ்டீனின் படத்தில், ஒளிமின் விளைவு ஒரு எலக்ட்ரானால் ஒரு குவாண்டம் உறிஞ்சுவதால் ஏற்படுகிறது. தீவிரம் ஒரு பகுதியில் ஒரு நேரத்தில் வரும் ஒளிமின் எண்ணிக்கைக்கு நேர்விகிதத்தில் உள்ளது, ஆனால் ஒவ்வொரு ஒளிமினும் hν ஆற்றலைக் கொண்டுள்ளது. எனவே தீவிரத்தை அதிகரிப்பது வெளியேறும் எலக்ட்ரான்களின் எண்ணிக்கையை அதிகரிக்கும், ஆனால் அவற்றின் அதிகபட்ச இயக்க ஆற்றலை அல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For photoelectric emission to occur, what condition must be satisfied regarding the frequency of incident radiation?",
+      "options": [
+        "ν must be less than ν₀",
+        "ν must be equal to ν₀",
+        "ν must be greater than or equal to ν₀",
+        "ν can be any value regardless of ν₀"
+      ],
+      "correct": 2,
+      "explanation": "Photoelectric emission is possible only if hν ≥ φ₀, which means ν ≥ ν₀ where ν₀ = φ₀/h. Below the threshold frequency, no photoelectric emission occurs regardless of how intense the incident radiation is. | ஒளிமின் உமிழ்வு hν ≥ φ₀ என்ற நிபந்தனையை பூர்த்தி செய்தால் மட்டுமே சாத்தியமாகும், இது ν ≥ ν₀ என்று அர்த்தம், இங்கு ν₀ = φ₀/h. திறநிலை அதிர்வெண்ணுக்குக் கீழே, எவ்வளவு தீவிரமான படிவீச்சு இருந்தாலும் ஒளிமின் உமிழ்வு நிகழாது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the momentum of a photon with energy E = hν?",
+      "options": [
+        "p = hν/c",
+        "p = hν × c",
+        "p = c/hν",
+        "p = hν²/c"
+      ],
+      "correct": 0,
+      "explanation": "The momentum of a photon is given by p = hν/c = h/λ. This is a fundamental property of photons that demonstrates their particle-like nature. Einstein showed that light quanta can be associated with both definite energy and momentum. | ஒளிமினின் உந்தம் p = hν/c = h/λ என்று கொடுக்கப்படுகிறது. இது ஒளிமின்களின் துகள் போன்ற தன்மையை நிரூபிக்கும் அடிப்படை பண்பு. ஐன்ஸ்டீன் ஒளி குவாண்டம்களை நிச்சயமான ஆற்றல் மற்றும் உந்தத்துடன் இணைக்க முடியும் என்று காட்டினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How did Millikan determine the value of Planck's constant h?",
+      "options": [
+        "By measuring the charge of an electron",
+        "By measuring the slope of V₀ versus ν graph and using the known value of e",
+        "By measuring the work function of sodium",
+        "By measuring the speed of photoelectrons"
+      ],
+      "correct": 1,
+      "explanation": "Millikan measured the slope of the straight line obtained for sodium in the V₀ versus ν graph. Since slope = h/e and the value of e was known, he could calculate h. The value obtained was close to 6.626 × 10⁻³⁴ J s. | மில்லிக்கான் V₀ மற்றும் ν வரைபடத்தில் சோடியத்திற்கு கிடைத்த நேர்கோட்டின் சாய்வை அளவிட்டார். சாய்வு = h/e மற்றும் e இன் மதிப்பு தெரிந்திருந்ததால், h ஐ கணக்கிட முடிந்தது. பெறப்பட்ட மதிப்பு 6.626 × 10⁻³⁴ J s க்கு நெருக்கமாக இருந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why is photoelectric emission instantaneous according to Einstein's photon picture?",
+      "options": [
+        "Because photons travel at the speed of light",
+        "Because the basic process is absorption of one light quantum by one electron, which is a single elementary process",
+        "Because the work function is very small",
+        "Because metals have many free electrons"
+      ],
+      "correct": 1,
+      "explanation": "In Einstein's picture, the basic elementary process is the absorption of a light quantum by a single electron. This process is instantaneous. Low intensity only means fewer electrons participate, not a delay in emission. The time lag is of the order of 10⁻⁹ s or less. | ஐன்ஸ்டீனின் படத்தில், அடிப்படை தொடக்க செயல்முறை ஒரு எலக்ட்ரானால் ஒளி குவாண்டம் உறிஞ்சுவதாகும். இந்த செயல்முறை உடனடியானது. குறைந்த தீவிரம் என்பது குறைந்த எலக்ட்ரான்கள் பங்கேற்கிறார்கள் என்று அர்த்தம், உமிழ்வில் தாமதம் அல்ல. நேரம் தாமதம் 10⁻⁹ s அல்லது அதற்கும் குறைவாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How does the intensity of incident radiation affect the photoelectric current for a given frequency above the threshold?",
+      "options": [
+        "Photocurrent is inversely proportional to intensity",
+        "Photocurrent is directly proportional to intensity",
+        "Photocurrent is independent of intensity",
+        "Photocurrent is proportional to the square of intensity"
+      ],
+      "correct": 1,
+      "explanation": "For a given frequency above the threshold, the photoelectric current is directly proportional to the intensity of incident light. This is because intensity is proportional to the number of photons per unit area per unit time, and more photons mean more electrons can be emitted. | திறநிலைக்கு மேல் ஒரு குறிப்பிட்ட அதிர்வெண்ணுக்கு, ஒளிமின் மின்னோட்டம் படிவீச்சு தீவிரத்திற்கு நேர்விகிதத்தில் உள்ளது. தீவிரம் ஒரு பகுதியில் ஒரு நேரத்தில் வரும் ஒளிமின் எண்ணிக்கைக்கு நேர்விகிதத்தில் உள்ளது, மேலும் அதிக ஒளிமின்கள் என்றால் அதிக எலக்ட்ரான்கள் வெளியேற முடியும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "If the work function of a metal increases, what happens to its threshold frequency?",
+      "options": [
+        "Threshold frequency decreases",
+        "Threshold frequency increases",
+        "Threshold frequency remains unchanged",
+        "Threshold frequency becomes zero"
+      ],
+      "correct": 1,
+      "explanation": "From ν₀ = φ₀/h, the threshold frequency is directly proportional to the work function. Therefore, if the work function increases, the threshold frequency also increases. Metals with higher work functions require higher frequency light to cause photoelectric emission. | ν₀ = φ₀/h இலிருந்து, திறநிலை அதிர்வெண் பணிச்சார்புக்கு நேர்விகிதத்தில் உள்ளது. எனவே பணிச்சார்பு அதிகரித்தால், திறநிலை அதிர்வெண்ணும் அதிகரிக்கும். அதிக பணிச்சார்பு கொண்ட உலோகங்களுக்கு ஒளிமின் உமிழ்வை ஏற்படுத்த அதிக அதிர்வெண் கொண்ட ஒளி தேவை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What led to the acceptance of Einstein's photon picture of electromagnetic radiation?",
+      "options": [
+        "Only theoretical predictions",
+        "Millikan's precise experimental verification of the photoelectric equation and determination of h",
+        "Discovery of the electron by J.J. Thomson",
+        "Hertz's experiments on electromagnetic waves"
+      ],
+      "correct": 1,
+      "explanation": "The successful explanation of photoelectric effect using light quanta hypothesis, combined with Millikan's precise experimental measurements confirming Einstein's equation and yielding accurate values of h and φ₀, led to the acceptance of the particle or photon description of electromagnetic radiation. | ஒளி குவாண்டம் கருதுகோளைப் பயன்படுத்தி ஒளிமின் விளைவின் வெற்றிகரமான விளக்கம், மில்லிக்கானின் துல்லியமான சோதனை அளவீடுகளுடன் இணைந்து ஐன்ஸ்டீன் சமன்பாட்டை உறுதிப்படுத்தி h மற்றும் φ₀ இன் துல்லியமான மதிப்புகளைத் தந்தது, இது மின்காந்த கதிர்வீச்சின் துகள் அல்லது ஒளிமின் விவரிப்பை ஏற்றுக்கொள்ள வழிவகுத்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The photoelectric equation can be written as eV₀ = h(ν - ν₀). What does this form show?",
+      "options": [
+        "That stopping potential depends on intensity",
+        "That maximum kinetic energy equals photon energy minus threshold energy",
+        "That work function is zero",
+        "That threshold frequency is infinite"
+      ],
+      "correct": 1,
+      "explanation": "The form eV₀ = h(ν - ν₀) = hν - hν₀ = hν - φ₀ shows that the maximum kinetic energy (eV₀) equals the photon energy (hν) minus the threshold energy (hν₀ = φ₀). This clearly demonstrates the energy conservation in the photoelectric process. | வடிவம் eV₀ = h(ν - ν₀) = hν - hν₀ = hν - φ₀ என்பது அதிகபட்ச இயக்க ஆற்றல் (eV₀) ஒளிமின் ஆற்றல் (hν) கழித்தல் திறநிலை ஆற்றல் (hν₀ = φ₀) என்று காட்டுகிறது. இது ஒளிமின் செயல்முறையில் ஆற்றல் பாதுகாப்பை தெளிவாக நிரூபிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The slope of the stopping potential versus frequency graph is said to be independent of the nature of the material. What does this imply?",
+      "options": [
+        "All metals have the same work function",
+        "The ratio h/e is a universal constant",
+        "All metals emit the same number of electrons",
+        "The threshold frequency is the same for all metals"
+      ],
+      "correct": 1,
+      "explanation": "The slope h/e is a universal constant because both h (Planck's constant) and e (elementary charge) are fundamental constants of nature. This means the slope should be the same for all materials, even though the intercept (which depends on φ₀/e) differs for different metals. | சாய்வு h/e ஒரு பொது மாறிலி, ஏனெனில் h (பிளாங்க் மாறிலி) மற்றும் e (தொடக்க மின்சுமை) இரண்டும் இயற்கையின் அடிப்படை மாறிலிகள். இது சாய்வு அனைத்து பொருட்களுக்கும் ஒரே மாதிரியாக இருக்க வேண்டும் என்று அர்த்தம், இருப்பினும் இடைமறிப்பு (φ₀/e என்று சார்ந்தது) வெவ்வேறு உலோகங்களுக்கு வேறுபடும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to Einstein's equation, how does K_max vary with the frequency of incident radiation?",
+      "options": [
+        "K_max varies inversely with frequency",
+        "K_max varies linearly with frequency",
+        "K_max varies quadratically with frequency",
+        "K_max is independent of frequency"
+      ],
+      "correct": 1,
+      "explanation": "From K_max = hν - φ₀, we see that K_max varies linearly with frequency ν. The graph of K_max versus ν is a straight line with slope h and intercept -φ₀. This linear dependence is one of the key predictions of Einstein's theory that was experimentally verified. | K_max = hν - φ₀ இலிருந்து, K_max அதிர்வெண் ν உடன் நேர்கோட்டு வகையில் மாறுபடுகிறது. K_max மற்றும் ν வரைபடம் சாய்வு h மற்றும் இடைமறிப்பு -φ₀ கொண்ட நேர்கோடு. இந்த நேர்கோட்டு சார்பு ஐன்ஸ்டீன் கோட்பாட்டின் முக்கிய கணிப்புகளில் ஒன்றாகும், இது சோதனை முறையில் உறுதிப்படுத்தப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the energy of a single photon of frequency ν?",
+      "options": [
+        "E = h/ν",
+        "E = hν",
+        "E = hν²",
+        "E = h/ν²"
+      ],
+      "correct": 1,
+      "explanation": "Each photon has energy E = hν, where h is Planck's constant (6.626 × 10⁻³⁴ J s) and ν is the frequency. This discrete energy packet is the fundamental concept of quantum theory. All photons of a particular frequency have the same energy regardless of intensity. | ஒவ்வொரு ஒளிமினும் E = hν ஆற்றலைக் கொண்டுள்ளது, இங்கு h பிளாங்க் மாறிலி (6.626 × 10⁻³⁴ J s) மற்றும் ν அதிர்வெண். இந்த தனித்துவமான ஆற்றல் தொகுப்பு குவாண்டம் கோட்பாட்டின் அடிப்படை கருத்து. ஒரு குறிப்பிட்ட அதிர்வெண் கொண்ட அனைத்து ஒளிமின்களும் தீவிரத்திற்கு சாராது ஒரே ஆற்றலைக் கொண்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the physical significance of the cut-off or threshold frequency ν₀?",
+      "options": [
+        "It is the frequency at which photocurrent is maximum",
+        "It is the minimum frequency below which no photoelectric emission occurs",
+        "It is the frequency at which stopping potential is maximum",
+        "It is the average frequency of all emitted photoelectrons"
+      ],
+      "correct": 1,
+      "explanation": "The threshold frequency ν₀ is the minimum frequency of incident radiation below which no photoelectric emission takes place, no matter how intense the incident light is. At this frequency, hν₀ = φ₀, so K_max = 0. | திறநிலை அதிர்வெண் ν₀ என்பது படிவீச்சு கதிர்வீச்சின் குறைந்தபட்ச அதிர்வெண், இதற்குக் கீழே எவ்வளவு தீவிரமான ஒளி இருந்தாலும் ஒளிமின் உமிழ்வு நிகழாது. இந்த அதிர்வெண்ணில், hν₀ = φ₀, எனவே K_max = 0."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the stopping potential V₀ in the context of photoelectric effect?",
+      "options": [
+        "The potential at which photocurrent becomes maximum",
+        "The minimum negative potential at which photocurrent becomes zero",
+        "The potential at which all electrons are emitted",
+        "The potential required to accelerate electrons"
+      ],
+      "correct": 1,
+      "explanation": "The stopping potential is the minimum negative (retarding) potential given to the collector plate for which the photocurrent stops or becomes zero. At this potential, even the most energetic photoelectrons are repelled, so eV₀ = K_max. | தடுப்பு மின்னழுத்தம் என்பது ஒளிமின் மின்னோட்டம் நிறுத்தப்படும் அல்லது பூஜ்யமாகும் கலெக்டர் தட்டின் குறைந்தபட்ச எதிர்மறை (தடுப்பு) மின்னழுத்தம். இந்த மின்னழுத்தத்தில், அதிக ஆற்றல் கொண்ட ஒளிமின் எலக்ட்ரான்களும் தள்ளப்படுகின்றன, எனவே eV₀ = K_max."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "In Einstein's photon picture, what does the intensity of light of a given frequency represent?",
+      "options": [
+        "The energy of each individual photon",
+        "The number of photons incident per unit area per unit time",
+        "The wavelength of the photons",
+        "The momentum of each photon"
+      ],
+      "correct": 1,
+      "explanation": "In Einstein's picture, the intensity of light of a given frequency is determined by the number of photons incident per unit area per unit time. Increasing intensity increases the number of photons but does not change the energy of each photon, which depends only on frequency. | ஐன்ஸ்டீனின் படத்தில், ஒரு குறிப்பிட்ட அதிர்வெண் கொண்ட ஒளியின் தீவிரம் ஒரு பகுதியில் ஒரு நேரத்தில் வரும் ஒளிமின் எண்ணிக்கையால் தீர்மானிக்கப்படுகிறது. தீவிரத்தை அதிகரிப்பது ஒளிமின்களின் எண்ணிக்கையை அதிகரிக்கும், ஆனால் ஒவ்வொரு ஒளிமினின் ஆற்றலை மாற்றாது, இது அதிர்வெண்ணை மட்டுமே சார்ந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which observation of photoelectric effect CANNOT be explained by the wave theory of light?",
+      "options": [
+        "Photocurrent increases with intensity",
+        "K_max depends on frequency, not intensity",
+        "Light can be reflected",
+        "Light shows interference"
+      ],
+      "correct": 1,
+      "explanation": "The wave theory predicts that K_max should increase with intensity, but experimentally K_max depends only on frequency, not intensity. This is a fundamental contradiction that the wave theory cannot explain, leading to the need for Einstein's photon picture. | அலை கோட்பாடு K_max தீவிரத்துடன் அதிகரிக்க வேண்டும் என்று கணிக்கிறது, ஆனால் சோதனை முறையில் K_max அதிர்வெண்ணை மட்டுமே சார்ந்துள்ளது, தீவிரத்திற்கு அல்ல. இது அலை கோட்பாடு விளக்க முடியாத ஒரு அடிப்படை முரண்பாடு, இது ஐன்ஸ்டீனின் ஒளிமின் படத்தின் தேவையை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the accepted value of Planck's constant h as determined from photoelectric experiments?",
+      "options": [
+        "6.026 × 10⁻³⁴ J s",
+        "6.626 × 10⁻³⁴ J s",
+        "6.626 × 10⁻³⁴ J/s",
+        "6.626 × 10⁻³⁴ kg m²/s"
+      ],
+      "correct": 1,
+      "explanation": "The accepted value of Planck's constant is h = 6.626 × 10⁻³⁴ J s. Millikan's photoelectric experiments confirmed this value, which was previously determined in entirely different contexts (blackbody radiation). | பிளாங்க் மாறிலியின் ஏற்றுக்கொள்ளப்பட்ட மதிப்பு h = 6.626 × 10⁻³⁴ J s. மில்லிக்கானின் ஒளிமின் சோதனைகள் இந்த மதிப்பை உறுதிப்படுத்தின, இது முன்பு முற்றிலும் வேறுபட்ட சூழல்களில் (கருப்பு உடல் கதிர்வீச்சு) தீர்மானிக்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does saturation current in photoelectric effect represent?",
+      "options": [
+        "The current when all emitted photoelectrons reach the collector plate",
+        "The maximum possible current in any circuit",
+        "The current when no electrons are emitted",
+        "The current at threshold frequency"
+      ],
+      "correct": 0,
+      "explanation": "Saturation current corresponds to the case when all the photoelectrons emitted by the emitter plate reach the collector plate. Beyond this point, increasing the accelerating potential does not increase the photocurrent because all emitted electrons are already being collected. | நிரம்பு மின்னோட்டம் என்பது உமிழ்வான் தட்டிலிருந்து வெளியேறும் அனைத்து ஒளிமின் எலக்ட்ரான்களும் கலெக்டர் தட்டை அடையும் நிலைக்கு ஒத்ததாகும். இந்த புள்ளிக்கு அப்பால், முடுக்கும் மின்னழுத்தத்தை அதிகரிப்பது ஒளிமின் மின்னோட்டத்தை அதிகரிக்காது, ஏனெனில் வெளியேறும் அனைத்து எலக்ட்ரான்களும் ஏற்கனவே சேகரிக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For what contribution was Einstein awarded the Nobel Prize in Physics in 1921?",
+      "options": [
+        "Special theory of relativity",
+        "General theory of relativity",
+        "Photoelectric effect and contribution to theoretical physics",
+        "Brownian motion"
+      ],
+      "correct": 2,
+      "explanation": "Einstein was awarded the Nobel Prize in Physics in 1921 for his contribution to theoretical physics and especially for his discovery of the law of the photoelectric effect. The photon concept was revolutionary in understanding light-matter interaction. | ஐன்ஸ்டீன் 1921 ஆம் ஆண்டில் கோட்பாட்டு இயற்பியலுக்கான அவரது பங்களிப்பு மற்றும் குறிப்பாக ஒளிமின் விளைவின் விதியைக் கண்டறிததற்காக இயற்பியலில் நோபல் பரிசு பெற்றார். ஒளிமின் கருத்தானது ஒளி-பொருள் இடைவினையைப் புரிந்துகொள்ள புரட்சிகரமானது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How is the momentum of a photon related to its wavelength?",
+      "options": [
+        "p = h/λ",
+        "p = hλ",
+        "p = λ/h",
+        "p = hλ²"
+      ],
+      "correct": 0,
+      "explanation": "The momentum of a photon is p = h/λ, where h is Planck's constant and λ is the wavelength. Since E = hν = hc/λ and p = E/c, we get p = h/λ. This shows the dual wave-particle nature of light. | ஒளிமினின் உந்தம் p = h/λ, இங்கு h பிளாங்க் மாறிலி மற்றும் λ அலைநீளம். E = hν = hc/λ மற்றும் p = E/c என்பதால், p = h/λ கிடைக்கிறது. இது ஒளியின் இரட்டை அலை-துகள் தன்மையைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens when light of frequency below the threshold frequency falls on a metal surface?",
+      "options": [
+        "Photoelectrons are emitted with low kinetic energy",
+        "No photoelectric emission occurs regardless of intensity",
+        "Photoelectrons are emitted after a time delay",
+        "Photocurrent increases linearly with intensity"
+      ],
+      "correct": 1,
+      "explanation": "When the frequency of incident radiation is below the threshold frequency (ν < ν₀), no photoelectric emission takes place, no matter how large the intensity may be. This is because each photon has energy hν < φ₀, which is insufficient to overcome the work function. | படிவீச்சு கதிர்வீச்சின் அதிர்வெண் திறநிலை அதிர்வெண்ணுக்குக் கீழே இருக்கும்போது (ν < ν₀), எவ்வளவு தீவிரமான ஒளி இருந்தாலும் ஒளிமின் உமிழ்வு நிகழாது. ஒவ்வொரு ஒளிமினும் hν < φ₀ ஆற்றலைக் கொண்டுள்ளது, இது பணிச்சார்பை மீற போதுமானதல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "The de Broglie wavelength λ associated with a particle of momentum p is given by which relation?",
+      "options": [
+        "λ = p/h",
+        "λ = h/p",
+        "λ = h × p",
+        "λ = h/p²"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie relation is λ = h/p = h/(mv), where h is Planck's constant, m is mass, and v is velocity. This revolutionary hypothesis proposed that matter has wave-like properties, complementing the particle nature of light. | டி ப்ராக்லி உறவு λ = h/p = h/(mv) ஆகும், இங்கு h பிளாங்க் மாறிலி, m நிறை, v வேகம். இந்த புரட்சிகரமான கருதுகோள் பொருள் அலை போன்ற பண்புகளைக் கொண்டுள்ளது என்று முன்மொழிந்தது, இது ஒளியின் துகள் தன்மைக்கு நிரப்பாக அமைகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is NOT a property of photons according to the photon picture?",
+      "options": [
+        "Photons are electrically neutral",
+        "Photons are deflected by electric fields",
+        "Photons travel at the speed of light",
+        "Photons have energy E = hν"
+      ],
+      "correct": 1,
+      "explanation": "Photons are electrically neutral and are not deflected by electric and magnetic fields. They travel at speed c, have energy E = hν and momentum p = hν/c. Being neutral particles, they do not interact with electric fields. | ஒளிமின்கள் மின்னியல் நடுநிலையானவை மற்றும் மின் மற்றும் காந்த புலங்களால் விலக்கப்படுவதில்லை. அவை c வேகத்தில் பயணிக்கின்றன, E = hν ஆற்றல் மற்றும் p = hν/c உந்தம் கொண்டுள்ளன. நடுநிலை துகள்களாக இருப்பதால், அவை மின் புலங்களுடன் இடைவினையாற்றுவதில்லை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Einstein's photoelectric equation is in accordance with which fundamental law?",
+      "options": [
+        "Law of conservation of mass",
+        "Law of conservation of energy",
+        "Law of conservation of momentum",
+        "Law of conservation of charge"
+      ],
+      "correct": 1,
+      "explanation": "Einstein's photoelectric equation K_max = hν - φ₀ is in accordance with the law of conservation of energy. The photon energy hν is converted into the work function φ₀ (energy needed to escape the metal) and the kinetic energy of the emitted electron. | ஐன்ஸ்டீனின் ஒளிமின் சமன்பாடு K_max = hν - φ₀ ஆற்றல் பாதுகாப்பு விதியுடன் ஒத்துப்போகிறது. ஒளிமின் ஆற்றல் hν பணிச்சார்பு φ₀ (உலோகத்திலிருந்து வெளியேற தேவையான ஆற்றல்) மற்றும் வெளியேறும் எலக்ட்ரானின் இயக்க ஆற்றலாக மாற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which experiment further confirmed the particle-like behavior of light in 1924?",
+      "options": [
+        "Hertz's electromagnetic wave experiment",
+        "Millikan's oil-drop experiment",
+        "Compton's X-ray scattering experiment",
+        "Thomson's cathode ray experiment"
+      ],
+      "correct": 2,
+      "explanation": "A.H. Compton's experiment on scattering of X-rays from electrons in 1924 further confirmed the particle-like behavior of light. This experiment showed that X-rays scatter off electrons like particles, with conservation of energy and momentum, similar to billiard ball collisions. | 1924 இல் A.H. காம்ப்டனின் எக்ஸ்-கதிர்கள் எலக்ட்ரான்களில் சிதறல் சோதனை ஒளியின் துகள் போன்ற நடத்தையை மேலும் உறுதிப்படுத்தியது. இந்த சோதனை எக்ஸ்-கதிர்கள் எலக்ட்ரான்களில் துகள்கள் போல சிதறுவதைக் காட்டியது, ஆற்றல் மற்றும் உந்தம் பாதுகாப்புடன், பில்லியர்டு பந்து மோதல்களைப் போல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to Einstein's photoelectric equation, what is the expression for maximum kinetic energy of photoelectrons?",
+      "options": [
+        "K_max = hν + φ₀",
+        "K_max = hν - φ₀",
+        "K_max = φ₀ - hν",
+        "K_max = hν × φ₀"
+      ],
+      "correct": 1,
+      "explanation": "Einstein's photoelectric equation states that the maximum kinetic energy of emitted photoelectrons equals the photon energy minus the work function: K_max = hν - φ₀. This equation elegantly explains all experimental observations of the photoelectric effect. | ஐன்ஸ்டீனின் ஒளிமின் விளைவு சமன்பாடு, வெளியேற்றப்படும் ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றல் ஒளியின் ஆற்றல் மின்னணு வெளியேறுவதற்கான குறைந்தபட்ச ஆற்றலைக் கழித்தல் என்று கூறுகிறது: K_max = hν - φ₀. இந்த சமன்பாடு ஒளிமின் விளைவின் அனைத்து சோதனைக் கூறுகளையும் விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the condition for photoelectric emission to occur according to Einstein's equation?",
+      "options": [
+        "hν < φ₀",
+        "hν = φ₀",
+        "hν > φ₀",
+        "hν = 0"
+      ],
+      "correct": 2,
+      "explanation": "For photoelectric emission to occur, the photon energy must exceed the work function: hν > φ₀. This ensures that the electron has enough energy to overcome the attractive forces of the metal surface and escape. | ஒளிமின் விளைவு ஏற்பட, ஒளியின் ஆற்றல் மின்னணு வெளியேறுவதற்கான குறைந்தபட்ச ஆற்றலை விட அதிகமாக இருக்க வேண்டும்: hν > φ₀. இது மின்னணு உலோக மேற்பரப்பின் கவர்ச்சிப் படிவிலிருந்து வெளியேறுவதற்கு போதுமான ஆற்றலைப் பெற்றிருக்கிறது என்பதை உறுதி செய்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the relationship between threshold frequency and work function?",
+      "options": [
+        "ν₀ = h × φ₀",
+        "ν₀ = φ₀ / h",
+        "ν₀ = h / φ₀",
+        "ν₀ = φ₀ + h"
+      ],
+      "correct": 1,
+      "explanation": "The threshold frequency is given by ν₀ = φ₀ / h. This means that metals with higher work functions require higher threshold frequencies. Below this frequency, no photoelectric emission occurs regardless of intensity. | விளிம்பு அதிர்வெண் ν₀ = φ₀ / h என்று கொடுக்கப்பட்டுள்ளது. இது அதிக வேலைச் செயல்பாடு கொண்ட உலோகங்களுக்கு அதிக விளிம்பு அதிர்வெண் தேவைப்படுகிறது என்பதைக் குறிக்கிறது. இந்த அதிர்வெண்ணுக்குக் கீழே, தீவிரத்தைப் பொருட்படுத்தாமல் ஒளிமின் விளைவு ஏற்படாது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How does the stopping potential V₀ vary with the frequency of incident radiation?",
+      "options": [
+        "V₀ = (h/e)ν + (φ₀/e)",
+        "V₀ = (e/h)ν - (φ₀/h)",
+        "V₀ = (h/e)ν - (φ₀/e)",
+        "V₀ = (φ₀/e)ν - (h/e)"
+      ],
+      "correct": 2,
+      "explanation": "The stopping potential varies linearly with frequency according to V₀ = (h/e)ν - (φ₀/e). This is a straight line with slope h/e, which is independent of the material. This was experimentally verified by Millikan. | நிறுத்து மின்னழுத்தம் V₀ = (h/e)ν - (φ₀/e) என்ற சமன்பாடின்படி அதிர்வெண்ணுடன் நேர்கோட்டில் மாறுகிறது. இதன் சாய்வு h/e ஆகும், இது பொருளின் தன்மையைப் பொருட்படுத்தாது. இது மில்லிக்கனால் சோதனை முறையில் உறுதி செய்யப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the slope of the V₀ versus ν graph represent?",
+      "options": [
+        "e/h",
+        "h/e",
+        "φ₀/h",
+        "h/φ₀"
+      ],
+      "correct": 1,
+      "explanation": "The slope of the stopping potential versus frequency graph is h/e, which is independent of the nature of the material. Millikan used this to determine Planck's constant h by measuring the slope and using the known value of electron charge e. | நிறுத்து மின்னழுத்தம் மற்றும் அதிர்வெண் வரைபடத்தின் சாய்வு h/e ஆகும், இது பொருளின் தன்மையைப் பொருட்படுத்தாது. மில்லிக்கன் சாய்வை அளவிட்டு மின்னணு மின்னூட்டம் e இன் அறியப்பட்ட மதிப்பைப் பயன்படுத்தி பிளாங்க் மாறிலி h ஐ கண்டறிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How does the intensity of incident radiation affect the number of photoelectrons emitted?",
+      "options": [
+        "Intensity has no effect on photoelectron emission",
+        "Higher intensity decreases the number of photoelectrons",
+        "Higher intensity increases the number of photoelectrons emitted per second",
+        "Intensity only affects the kinetic energy of photoelectrons"
+      ],
+      "correct": 2,
+      "explanation": "Intensity is proportional to the number of energy quanta per unit area per unit time. Greater intensity means more photons available, so more electrons can absorb energy quanta and escape from the metal surface. This explains why photoelectric current is proportional to intensity for frequencies above threshold. | தீவிரம் ஒரு பகுதி பரப்பளவுக்கு ஒரு நேர அலகுக்கு ஆற்றல் அலகுகளின் எண்ணிக்கைக்கு நேர் விகிதத்தில் உள்ளது. அதிக தீவிரம் என்றால் அதிக ஒளி அலகுகள் கிடைக்கின்றன, எனவே அதிக மின்னணுக்கள் ஆற்றல் அலகுகளை உறிஞ்சி உலோக மேற்பரப்பிலிருந்து வெளியேற முடியும். இது விளிம்பு அதிர்வெண்ணுக்கு மேல் உள்ள அதிர்வெண்களுக்கு ஒளிமின் மின்னோட்டம் தீவிரத்திற்கு நேர் விகிதத்தில் உள்ளது என்பதை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Why is the photoelectric emission process instantaneous?",
+      "options": [
+        "Because electrons absorb energy continuously over time",
+        "Because the basic process is absorption of a single light quantum by a single electron",
+        "Because high intensity light delivers energy faster",
+        "Because the work function is very small"
+      ],
+      "correct": 1,
+      "explanation": "In Einstein's picture, the basic elementary process is the absorption of a light quantum by an electron. This process is instantaneous. Low intensity does not mean delay because the elementary process remains the same; intensity only determines how many electrons participate. | ஐன்ஸ்டீனின் காட்சியில், அடிப்படை தனித்துவமான செயல்முறை ஒரு மின்னணு மூலம் ஒரு ஒளி அலகை உறிஞ்சுவதாகும். இந்த செயல்முறை உடனடியானது. குறைந்த தீவிரம் என்றால் தாமதம் என்று பொருளல்ல, ஏனெனில் அடிப்படை செயல்முறை ஒரே மாதிரியாக இருக்கிறது; தீவிரம் எத்தனை மின்னணுக்கள் பங்கேற்கின்றன என்பதை மட்டுமே தீர்மானிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What was Millikan's original intention when he performed photoelectric experiments from 1906-1916?",
+      "options": [
+        "To prove Einstein's photoelectric equation",
+        "To disprove Einstein's photoelectric equation",
+        "To discover the electron",
+        "To measure the speed of light"
+      ],
+      "correct": 1,
+      "explanation": "Millikan originally aimed at disproving Einstein's photoelectric equation. However, his experiments actually proved its validity instead. He measured the slope of the V₀ versus ν curve for sodium and determined Planck's constant h, which was close to the known value. | மில்லிக்கன் முதலில் ஐன்ஸ்டீனின் ஒளிமின் விளைவு சமன்பாட்டை மறுக்க முயன்றார். ஆனால், அவரது சோதனைகள் உண்மையில் அதன் செல்லுபடியை நிரூபித்தன. சோடியத்திற்கான V₀ மற்றும் ν வளைவின் சாய்வை அளவிட்டு பிளாங்க் மாறிலி h ஐ கண்டறிந்தார், இது அறியப்பட்ட மதிப்பிற்கு நெருக்கமாக இருந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What did Millikan's experiments confirm about Einstein's photoelectric equation?",
+      "options": [
+        "It was completely wrong",
+        "It was valid and the value of h matched other experiments",
+        "It only worked for ultraviolet light",
+        "It was valid only for high intensity light"
+      ],
+      "correct": 1,
+      "explanation": "Millikan's experiments confirmed the validity of Einstein's photoelectric equation. The value of Planck's constant h determined from the slope of the V₀ versus ν graph was close to 6.626×10⁻³⁴ J s, which was determined in entirely different contexts. This led to acceptance of Einstein's picture. | மில்லிக்கனின் சோதனைகள் ஐன்ஸ்டீனின் ஒளிமின் விளைவு சமன்பாட்டின் செல்லுபடியை உறுதி செய்தன. V₀ மற்றும் ν வரைபடத்தின் சாய்விலிருந்து கண்டறியப்பட்ட பிளாங்க் மாறிலி h இன் மதிப்பு 6.626×10⁻³⁴ J s க்கு நெருக்கமாக இருந்தது, இது முற்றிலும் வேறுபட்ட சூழல்களில் கண்டறியப்பட்டது. இது ஐன்ஸ்டீனின் காட்சியை ஏற்றுக்கொள்ள வழிவகுத்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For which materials did Millikan verify the photoelectric equation?",
+      "options": [
+        "Only for sodium",
+        "For a number of alkali metals over a wide range of radiation frequencies",
+        "Only for noble metals like gold and silver",
+        "Only for non-metallic materials"
+      ],
+      "correct": 1,
+      "explanation": "Millikan verified the photoelectric equation with great precision for a number of alkali metals over a wide range of radiation frequencies. This comprehensive verification strengthened the acceptance of the photon picture of light. | மில்லிக்கன் அதிக துல்லியத்துடன் பல கார உலோகங்களுக்கு அகலமான கதிர்வீச்சு அதிர்வெண்கள் வரம்பில் ஒளிமின் விளைவு சமன்பாட்டை உறுதி செய்தார். இந்த விரிவான சரிபார்ப்பு ஒளியின் ஒளிமின் காட்சியின் ஏற்பை வலுப்படுத்தியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "According to the photoelectric equation, what is the relationship between maximum kinetic energy of photoelectrons and stopping potential?",
+      "options": [
+        "K_max = e / V_0",
+        "K_max = e * V_0",
+        "K_max = V_0 / e",
+        "K_max = e + V_0"
+      ],
+      "correct": 1,
+      "explanation": "The maximum kinetic energy of photoelectrons is equal to the product of the elementary charge (e) and the stopping potential (V_0). This is expressed as K_max = eV_0. When the stopping potential is sufficient to repel even the most energetic photoelectrons, the photocurrent becomes zero. | ஒளிமின் விளைவில், மிகச்சிறந்த இயக்க ஆற்றல் (K_max) நிறுத்தும் திறன் (V_0) மற்றும் அடிப்படை மின்னூட்டம் (e) ஆகியவற்றின் பெருக்கலுக்கு சமம். K_max = eV_0 என்ற சமன்பாடு இதை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "When the intensity of incident radiation increases from I1 to I2 to I3 (where I3 > I2 > I1) at the same frequency, what happens to the saturation current?",
+      "options": [
+        "Saturation current decreases with increasing intensity",
+        "Saturation current remains the same regardless of intensity",
+        "Saturation current increases with increasing intensity",
+        "Saturation current becomes zero at higher intensities"
+      ],
+      "correct": 2,
+      "explanation": "The saturation current is found to be at higher values when the intensity of incident radiation increases. This shows that more electrons are being emitted per second, proportional to the intensity of incident radiation. Higher intensity means more photons, which leads to more photoelectrons being emitted. | செறிவு அதிகரிக்கும்போது (I3 > I2 > I1), நிறைவு மின்னோட்டம் அதிகரிக்கிறது. இது ஒளிக்கதிர்வீச்சின் செறிவுக்கு நேர்விகிதத்தில் அதிக எலக்ட்ரான்கள் உமிழப்படுவதைக் காட்டுகிறது. அதிக செறிவு என்றால் அதிக ஃபோட்டான்கள், அதனால் அதிக ஒளிமின் எலக்ட்ரான்கள் உமிழப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For a given frequency of incident radiation, how does the stopping potential change when the intensity is increased?",
+      "options": [
+        "Stopping potential increases with intensity",
+        "Stopping potential decreases with intensity",
+        "Stopping potential remains the same regardless of intensity",
+        "Stopping potential becomes zero at high intensity"
+      ],
+      "correct": 2,
+      "explanation": "For a given frequency of the incident radiation, the stopping potential is independent of its intensity. The stopping potential remains the same even when the intensity increases from I1 to I2 to I3. This means the maximum kinetic energy of photoelectrons depends on the frequency, not the intensity. | கொடுக்கப்பட்ட அதிர்வெண்ணுக்கு, நிறுத்தும் திறன் செறிவிலிருந்து சுதந்திரமானது. செறிவு I1 இலிருந்து I3 வரை அதிகரிக்கும்போதும் நிறுத்தும் திறன் மாறாது. இது மிகச்சிறந்த இயக்க ஆற்றல் அதிர்வெண்ணைப் பொறுத்தது, செறிவைப் பொறுத்தல்ல என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "If the frequencies of incident radiation are in the order v3 > v2 > v1, what is the order of stopping potentials?",
+      "options": [
+        "V01 > V02 > V03",
+        "V02 > V03 > V01",
+        "V03 > V02 > V01",
+        "V01 = V02 = V03"
+      ],
+      "correct": 2,
+      "explanation": "The stopping potentials are in the order V03 > V02 > V01 if the frequencies are in the order v3 > v2 > v1. Greater the frequency of incident light, greater is the maximum kinetic energy of the photoelectrons. Consequently, we need greater retarding potential to stop them completely. | அதிர்வெண்கள் v3 > v2 > v1 என்ற வரிசையில் இருந்தால், நிறுத்தும் திறன்கள் V03 > V02 > V01 என்ற வரிசையில் இருக்கும். அதிக அதிர்வெண் கொண்ட ஒளி, அதிக இயக்க ஆற்றல் கொண்ட ஒளிமின் எலக்ட்ரான்களைத் தருகிறது. எனவே அவற்றை முழுமையாக நிறுத்த அதிக தடை திறன் தேவை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the graph between stopping potential (V0) and frequency (v) of incident radiation show for a given photosensitive material?",
+      "options": [
+        "A parabolic curve",
+        "A straight line",
+        "An exponential curve",
+        "A circular curve"
+      ],
+      "correct": 1,
+      "explanation": "If we plot a graph between the frequency of incident radiation and the corresponding stopping potential for different metals, we get a straight line. The stopping potential V0 varies linearly with the frequency of incident radiation for a given photosensitive material. | ஒளிஉணர் பொருளுக்கு, நிறுத்தும் திறன் (V0) மற்றும் ஒளிக்கதிர்வீச்சின் அதிர்வெண் (v) இடையே வரையப்படும் வரைபடம் ஒரு நேர்க்கோட்டைக் காட்டுகிறது. V0, v-க்கு நேர்விகிதத்தில் மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the threshold frequency (cut-off frequency) in the photoelectric effect?",
+      "options": [
+        "The frequency at which photocurrent is maximum",
+        "The minimum frequency below which no photoelectric emission occurs",
+        "The frequency at which stopping potential is maximum",
+        "The frequency at which saturation current is zero"
+      ],
+      "correct": 1,
+      "explanation": "There exists a certain minimum cut-off frequency v0 for which the stopping potential is zero. Below this threshold frequency, no photoelectric emission is possible even if the intensity is large. This threshold frequency is different for different metals. | தாழ்வரம்பு அதிர்வெண் (v0) என்பது நிறுத்தும் திறன் பூஜ்யமாக இருக்கும் குறைந்தபட்ச அதிர்வெண். இந்த அதிர்வெண்ணுக்குக் கீழே, எவ்வளவு அதிக செறிவு இருந்தாலும் ஒளிமின் உமிழ்வு இருக்காது. இது வெவ்வேறு உலோகங்களுக்கு வெவ்வேறாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "Which of the following is an implication of the photoelectric effect observations?",
+      "options": [
+        "Maximum kinetic energy of photoelectrons varies linearly with intensity",
+        "Maximum kinetic energy of photoelectrons varies linearly with frequency and is independent of intensity",
+        "Maximum kinetic energy depends on both frequency and intensity equally",
+        "Maximum kinetic energy is independent of both frequency and intensity"
+      ],
+      "correct": 1,
+      "explanation": "The maximum kinetic energy of the photoelectrons varies linearly with the frequency of incident radiation, but is independent of its intensity. For a frequency lower than the cut-off frequency, no photoelectric emission is possible even if the intensity is large. | மிகச்சிறந்த இயக்க ஆற்றல் ஒளிக்கதிர்வீச்சின் அதிர்வெண்ணுக்கு நேர்விகிதத்தில் மாறுகிறது, ஆனால் அதன் செறிவிலிருந்து சுதந்திரமானது. தாழ்வரம்பு அதிர்வெண்ணுக்குக் கீழே, எவ்வளவு அதிக செறிவு இருந்தாலும் ஒளிமின் உமிழ்வு இருக்காது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What happens to photoelectric emission when the frequency of incident radiation is below the threshold frequency?",
+      "options": [
+        "Emission occurs with reduced intensity",
+        "Emission occurs with increased intensity",
+        "No photoelectric emission occurs regardless of intensity",
+        "Emission occurs only after a time delay"
+      ],
+      "correct": 2,
+      "explanation": "For a frequency v of incident radiation lower than the cut-off frequency v0, no photoelectric emission is possible even if the intensity is large. This minimum cut-off frequency is called the threshold frequency and is different for different metals. | தாழ்வரம்பு அதிர்வெண்ணுக்குக் கீழே உள்ள அதிர்வெண்ணுக்கு, எவ்வளவு அதிக செறிவு இருந்தாலும் ஒளிமின் உமிழ்வு இருக்காது. இந்த குறைந்தபட்ச அதிர்வெண் வெவ்வேறு உலோகங்களுக்கு வெவ்வேறாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "How does selenium compare to zinc or copper in terms of photosensitivity?",
+      "options": [
+        "Selenium is less sensitive than zinc and copper",
+        "Selenium is equally sensitive as zinc and copper",
+        "Selenium is more sensitive than zinc or copper",
+        "Selenium does not show photoelectric effect"
+      ],
+      "correct": 2,
+      "explanation": "Different photosensitive materials respond differently to light. Selenium is more sensitive than zinc or copper. The same photosensitive substance gives different responses to light of different wavelengths. | வெவ்வேறு ஒளிஉணர் பொருட்கள் ஒளிக்கு வெவ்வேறாக பதிலளிக்கின்றன. செலினியம், துத்தநாகம் அல்லது செம்பை விட அதிக உணர்திறன் கொண்டது. ஒரே ஒளிஉணர் பொருள் வெவ்வேறு அலைநீளங்களுக்கு வெவ்வேறு பதில்களைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What is the approximate time lag for photoelectric emission to start after illumination begins?",
+      "options": [
+        "10^-3 seconds",
+        "10^-6 seconds",
+        "10^-9 seconds or less",
+        "10^-12 seconds"
+      ],
+      "correct": 2,
+      "explanation": "If the frequency of the incident radiation exceeds the threshold frequency, the photoelectric emission starts instantaneously without any apparent time lag, even if the incident radiation is very dim. It is now known that emission starts in a time of the order of 10^-9 s or less. | அதிர்வெண் தாழ்வரம்பை மீறும்போது, ஒளிமின் உமிழ்வு உடனடியாக தொடங்குகிறது. கூடுதலாக, ஒளிக்கதிர்வீச்சு மிகவும் மங்கலாக இருந்தாலும், உமிழ்வு 10^-9 வினாடி அல்லது அதற்கும் குறைவான நேரத்தில் தொடங்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "For a given photosensitive material and frequency above threshold, what is the relationship between photoelectric current and intensity of incident light?",
+      "options": [
+        "Photoelectric current is inversely proportional to intensity",
+        "Photoelectric current is directly proportional to intensity",
+        "Photoelectric current is independent of intensity",
+        "Photoelectric current is proportional to the square of intensity"
+      ],
+      "correct": 1,
+      "explanation": "For a given photosensitive material and frequency of incident radiation above the threshold frequency, the photoelectric current is directly proportional to the intensity of incident light. This is shown graphically in Fig. 11.2 where the photocurrent increases linearly with intensity. | கொடுக்கப்பட்ட ஒளிஉணர் பொருளுக்கும், தாழ்வரம்புக்கு மேலுள்ள அதிர்வெண்ணுக்கும், ஒளிமின் மின்னோட்டம் ஒளிக்கதிர்வீச்சின் செறிவுக்கு நேர்விகிதத்தில் உள்ளது. இது வரைபடத்தில் செறிவுடன் நேர்க்கோடாக மின்னோட்டம் அதிகரிப்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "What does the saturation current correspond to in a photoelectric experiment?",
+      "options": [
+        "When no electrons reach the collector plate",
+        "When all emitted photoelectrons reach the collector plate",
+        "When only half of the electrons reach the collector plate",
+        "When the stopping potential is applied"
+      ],
+      "correct": 1,
+      "explanation": "Saturation current corresponds to the case when all the photoelectrons emitted by the emitter plate C reach the collector plate A. At this point, increasing the accelerating potential further does not increase the photocurrent. | நிறைவு மின்னோட்டம் என்பது உமிழ்வான் தகடு C-விலிருந்து உமிழப்படும் அனைத்து ஒளிமின் எலக்ட்ரான்களும் சேகரிப்பான் தகடு A-வை அடையும் நிலை. இந்தப் புள்ளியில், மேலும் முடுக்கும் திறனை அதிகரித்தாலும் ஒளிமின் மின்னோட்டம் அதிகரிக்காது."
+    }
+  ]
+}

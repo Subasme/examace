@@ -1,0 +1,2461 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 13",
+    "chapterId": "chapter13",
+    "source": "Chapter13_QA.xlsx",
+    "count": 204
+  },
+  "questions": [
+    {
+      "topic": "Chapter 13",
+      "question": "Does the density of nuclear matter depend on the size of the nucleus?",
+      "options": [
+        "Yes, larger nuclei have higher density",
+        "Yes, smaller nuclei have higher density",
+        "No, the density of nuclear matter is independent of the size of the nucleus",
+        "Only for heavy nuclei"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the density of nuclear matter is independent of the size of the nucleus. | உரை அணுக்கரு பொருளின் அடர்த்தி அணுக்கருவின் அளவைப் பொறுத்து சார்பற்றது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why is the radius of a nucleus determined by electron scattering slightly different from that determined by alpha-particle scattering?",
+      "options": [
+        "Because electrons are heavier than alpha particles",
+        "Because electron scattering senses the charge distribution whereas alpha particles sense the nuclear matter",
+        "Because alpha particles move faster than electrons",
+        "Because electrons do not interact with the nucleus"
+      ],
+      "correct": 1,
+      "explanation": "The text states that electron scattering senses the charge distribution of the nucleus, whereas alpha and similar particles sense the nuclear matter. | உரை எலக்ட்ரான் சிதறல் அணுக்கருவின் மின்னூட்ட பரவலை உணர்கிறது, அதேசமயம் அல்பா மற்றும் ஒத்த துகள்கள் அணுக்கரு பொருளை உணர்கின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "After Einstein showed the equivalence of mass and energy (E=mc^2), what must we speak of instead of separate conservation laws?",
+      "options": [
+        "Separate laws of conservation of mass and conservation of energy",
+        "A unified law of conservation of mass and energy",
+        "Only conservation of energy",
+        "Only conservation of mass"
+      ],
+      "correct": 1,
+      "explanation": "The text states that after Einstein showed E=mc^2, we cannot speak of separate laws of conservation of mass and conservation of energy, but must speak of a unified law of conservation of mass and energy. | உரை ஐன்ஸ்டீன் E=mc^2 ஐ காட்டிய பிறகு, நிறை பாதுகாப்பு மற்றும் ஆற்றல் பாதுகாப்பின் தனித்தனி விதிகளைப் பற்றி பேச முடியாது, ஆனால் நிறை மற்றும் ஆற்றல் பாதுகாப்பின் ஒருங்கிணைந்த விதியைப் பற்றி பேச வேண்டும் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the most convincing evidence that the unified law of conservation of mass and energy operates in nature?",
+      "options": [
+        "Chemical reactions",
+        "Mechanical processes",
+        "Nuclear physics",
+        "Thermal processes"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the most convincing evidence that this principle operates in nature comes from nuclear physics. | உரை இந்த கொள்கை இயற்கையில் செயல்படுகிறது என்பதற்கான மிக நம்பகமான சான்று அணுக்கரு இயற்பியலிலிருந்து வருகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the nature of the binding energy per nucleon curve show about exothermic nuclear reactions?",
+      "options": [
+        "They are only possible in chemical reactions",
+        "They are possible when two light nuclei fuse or when a heavy nucleus undergoes fission",
+        "They are impossible in all cases",
+        "They only occur at very low temperatures"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the nature of the binding energy curve shows that exothermic nuclear reactions are possible when two light nuclei fuse or when a heavy nucleus undergoes fission. | உரை பிணைப்பு ஆற்றல் வளைவின் தன்மை இரண்டு லேசான அணுக்கருக்கள் இணையும்போது அல்லது ஒரு கனமான அணுக்கரு பிளவடையும்போது வெப்ப வெளியேறும் அணுக்கரு வினைகள் சாத்தியமானவை என்பதைக் காட்டுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why does fusion require very high temperatures?",
+      "options": [
+        "To melt the nuclear fuel",
+        "Because the light nuclei must have sufficient initial energy to overcome the Coulomb potential barrier",
+        "To increase the nuclear force strength",
+        "To decrease the mass of the nuclei"
+      ],
+      "correct": 1,
+      "explanation": "The text states that for fusion, the light nuclei must have sufficient initial energy to overcome the Coulomb potential barrier, which is why fusion requires very high temperatures. | உரை இணைவுக்கு, லேசான அணுக்கருக்கள் கூலம்ப் சாத்திய தடையை மீற போதுமான ஆரம்ப ஆற்றலைக் கொண்டிருக்க வேண்டும், இதுவே இணைவு மிக உயர் வெப்பநிலைகளைத் தேவைப்படுத்துவதற்கான காரணம் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the binding energy per nucleon curve show at nuclides like ^4He and ^16O?",
+      "options": [
+        "Deep valleys",
+        "Peaks",
+        "No change",
+        "Sudden drops"
+      ],
+      "correct": 1,
+      "explanation": "The text states that although the binding energy curve is smooth and slowly varying, it shows peaks at nuclides like ^4He, ^16O etc. | உரை பிணைப்பு ஆற்றல் வளைவு வழவழப்பானது மற்றும் மெதுவாக மாறுபடுவதாக இருந்தாலும், அது ^4He, ^16O போன்ற நியூக்ளைடுகளில் உச்சங்களைக் காட்டுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the significance of peaks at nuclides like ^4He and ^16O in the binding energy curve?",
+      "options": [
+        "They indicate radioactive instability",
+        "They are considered as evidence of atom-like shell structure in nuclei",
+        "They show that these nuclei have no binding energy",
+        "They prove that fusion is impossible"
+      ],
+      "correct": 1,
+      "explanation": "The text states that peaks at nuclides like ^4He, ^16O are considered as evidence of atom-like shell structure in nuclei. | உரை ^4He, ^16O போன்ற நியூக்ளைடுகளில் உள்ள உச்சங்கள் அணுக்கருக்களில் அணு போன்ற ஓடு அமைப்பின் சான்றாகக் கருதப்படுகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are electrons and positrons described as?",
+      "options": [
+        "Two different types of neutrons",
+        "A particle-antiparticle pair",
+        "Two types of protons",
+        "Forms of electromagnetic radiation"
+      ],
+      "correct": 1,
+      "explanation": "The text states that electron and positron are a particle-antiparticle pair. | உரை எலக்ட்ரான் மற்றும் பாசிட்ரான் ஒரு துகள்-எதிர்துகள் இணை எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What happens when an electron and a positron come together?",
+      "options": [
+        "They form a neutron",
+        "They fuse to form helium",
+        "They annihilate each other giving energy in the form of gamma-ray photons",
+        "They repel each other forever"
+      ],
+      "correct": 2,
+      "explanation": "The text states that when an electron and a positron come together, they annihilate each other giving energy in the form of gamma-ray photons. | உரை ஒரு எலக்ட்ரான் மற்றும் ஒரு பாசிட்ரான் ஒன்றாக வரும்போது, அவை ஒன்றையொன்று அழித்து காமா-கதிர் ஒளிமின் துகள்களின் வடிவில் ஆற்றலைத் தருகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does radioactivity indicate about nuclei?",
+      "options": [
+        "That they are perfectly stable",
+        "That they have too many protons",
+        "That they are unstable",
+        "That they are undergoing fusion"
+      ],
+      "correct": 2,
+      "explanation": "The text states that radioactivity is an indication of the instability of nuclei. | உரை கதிரியக்கம் அணுக்கருக்களின் நிலையற்ற தன்மையின் அறிகுறி எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the required neutron to proton ratio for stability in light nuclei?",
+      "options": [
+        "About 3:2",
+        "About 2:1",
+        "Around 1:1",
+        "About 1:2"
+      ],
+      "correct": 2,
+      "explanation": "The text states that stability requires the ratio of neutron to proton to be around 1:1 for light nuclei. | உரை லேசான அணுக்கருக்களுக்கு நிலைத்தன்மை நியூட்ரான் முதல் புரோட்டான் விகிதம் சுமார் 1:1 இருக்க வேண்டும் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the neutron to proton ratio for stability in heavy nuclei?",
+      "options": [
+        "Around 1:1",
+        "About 1:2",
+        "Increases to about 3:2",
+        "About 2:3"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the neutron to proton ratio increases to about 3:2 for heavy nuclei. | உரை கனமான அணுக்கருக்களுக்கு நியூட்ரான் முதல் புரோட்டான் விகிதம் சுமார் 3:2 க்கு அதிகரிக்கிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why do heavy nuclei require more neutrons for stability?",
+      "options": [
+        "To increase the nuclear force",
+        "To overcome the effect of repulsion among the protons",
+        "To decrease the binding energy",
+        "To increase the atomic number"
+      ],
+      "correct": 1,
+      "explanation": "The text states that more neutrons are required to overcome the effect of repulsion among the protons in heavy nuclei. | உரை கனமான அணுக்கருக்களில் புரோட்டான்களுக்கிடையேயான விலக்கல் விளைவை மீற அதிக நியூட்ரான்கள் தேவைப்படுகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of known isotopes of all elements are stable?",
+      "options": [
+        "About 50%",
+        "About 25%",
+        "About 10%",
+        "About 90%"
+      ],
+      "correct": 2,
+      "explanation": "The text states that only about 10% of known isotopes of all elements are stable. | உரை அனைத்து தனிமங்களின் அறியப்பட்ட ஓரிடத்தான்களில் சுமார் 10% மட்டுமே நிலையானவை எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How are unstable isotopes artificially produced in laboratories?",
+      "options": [
+        "By heating them to high temperatures",
+        "By bombarding alpha, proton, deuteron, neutron or other particles on targets of stable nuclear species",
+        "By cooling them to absolute zero",
+        "By exposing them to visible light"
+      ],
+      "correct": 1,
+      "explanation": "The text states that unstable isotopes are artificially produced by bombarding alpha, p, d, n or other particles on targets of stable nuclear species. | உரை நிலையற்ற ஓரிடத்தான்கள் அல்பா, p, d, n அல்லது பிற துகள்களை நிலையான அணுக்கரு இனங்களின் இலக்குகளில் குண்டு வீசுவதன் மூலம் செயற்கையாக உற்பத்தி செய்யப்படுகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the estimated age of the Sun?",
+      "options": [
+        "5 × 10^8 years",
+        "5 × 10^9 years",
+        "5 × 10^10 years",
+        "5 × 10^7 years"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the age of the sun is about 5×10^9 years. | சூரியனின் வயது சுமார் 5×10^9 ஆண்டுகள் என்று உரை கூறுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How much longer is the Sun estimated to continue burning hydrogen?",
+      "options": [
+        "500 million years",
+        "1 billion years",
+        "5 billion years",
+        "10 billion years"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions there is enough hydrogen in the sun to keep it going for another 5 billion years. | சூரியனில் மற்றொரு 5 பில்லியன் ஆண்டுகளுக்கு எரிய போதுமான ஹைட்ரஜன் இருப்பதாக உரை குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What happens to the Sun when hydrogen burning stops?",
+      "options": [
+        "It becomes a white dwarf immediately",
+        "It begins to cool and collapse under gravity",
+        "It expands into a supernova",
+        "It splits into two smaller stars"
+      ],
+      "correct": 1,
+      "explanation": "After hydrogen burning stops, the sun will begin to cool and will start to collapse under gravity, which will raise the core temperature. | ஹைட்ரஜன் எரிதல் நின்ற பிறகு, சூரியன் குளிர்ச்சியடையத் தொடங்கும் மற்றும் ஈர்ப்பு விசையின் கீழ் சுருங்கத் தொடங்கும், இது கோர் வெப்பநிலையை உயர்த்தும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the Sun become when its outer envelope expands?",
+      "options": [
+        "A white dwarf",
+        "A neutron star",
+        "A red giant",
+        "A black hole"
+      ],
+      "correct": 2,
+      "explanation": "The outer envelope of the sun will expand, turning it into the so-called red giant. | சூரியனின் வெளிப்புற உறை விரிவடைந்து, அதை சிவப்பு ராட்சச நட்சத்திரமாக மாற்றும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the target temperature range for controlled fusion reactors?",
+      "options": [
+        "10^6 K",
+        "10^7 K",
+        "10^8 K",
+        "10^9 K"
+      ],
+      "correct": 2,
+      "explanation": "The aim in controlled fusion reactors is to generate steady power by heating the nuclear fuel to a temperature in the range of 10^8 K. | கட்டுப்படுத்தப்பட்ட இணைவு உலைகளில், அணு எரிபொருளை 10^8 K வெப்பநிலை வரம்பிற்கு சூடாக்குவதன் மூலம் நிலையான சக்தியை உருவாக்குவதே இலக்கு."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "At fusion temperatures, what state does the nuclear fuel exist in?",
+      "options": [
+        "Solid state",
+        "Liquid state",
+        "Gaseous state",
+        "Plasma (mixture of positive ions and electrons)"
+      ],
+      "correct": 3,
+      "explanation": "At these temperatures, the fuel is a mixture of positive ions and electrons (plasma). | இந்த வெப்பநிலைகளில், எரிபொருள் நேர்மின் அயனிகள் மற்றும் எலக்ட்ரான்களின் கலவையாக (பிளாஸ்மா) உள்ளது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the main challenge in controlled thermonuclear fusion?",
+      "options": [
+        "Finding enough fuel",
+        "Controlling the reaction rate",
+        "Confining the plasma since no container can withstand such high temperatures",
+        "Preventing radioactive waste"
+      ],
+      "correct": 2,
+      "explanation": "The challenge is to confine this plasma, since no container can stand such a high temperature. | இந்த பிளாஸ்மாவை கட்டுப்படுத்துவதே சவால், ஏனெனில் எந்த கொள்கலனும் இத்தகைய உயர்ந்த வெப்பநிலையை தாங்க முடியாது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which country is mentioned as developing techniques for controlled fusion?",
+      "options": [
+        "China only",
+        "USA only",
+        "India among several countries",
+        "Russia only"
+      ],
+      "correct": 2,
+      "explanation": "Several countries around the world including India are developing techniques in this connection. | இந்த தொடர்பாக இந்தியா உட்பட உலகெங்கும் பல நாடுகள் நுட்பங்களை வளர்த்து வருகின்றன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the potential outcome if controlled fusion reactors are successfully developed?",
+      "options": [
+        "Limited power for cities only",
+        "Almost unlimited power to humanity",
+        "Power only for industrial use",
+        "Temporary power solution"
+      ],
+      "correct": 1,
+      "explanation": "If successful, fusion reactors will hopefully supply almost unlimited power to humanity. | வெற்றி பெற்றால், இணைவு உலைகள் மனிதகுலத்திற்கு கிட்டத்தட்ட வரம்பற்ற சக்தியை வழங்கும் என்று நம்பப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In a nuclear reaction, what quantities are conserved on both sides of the equation?",
+      "options": [
+        "Number of atoms of each element",
+        "Number of protons and number of neutrons",
+        "Total mass only",
+        "Chemical bonds only"
+      ],
+      "correct": 1,
+      "explanation": "The number of protons and the number of neutrons are both separately conserved in a nuclear reaction. | அணு வினையில், புரோட்டான்களின் எண்ணிக்கை மற்றும் நியூட்ரான்களின் எண்ணிக்கை இரண்டும் தனித்தனியாக பாதுகாக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to the text, by what factor is the radius of a nucleus smaller than the radius of an atom?",
+      "options": [
+        "10^2",
+        "10^3",
+        "10^4",
+        "10^5"
+      ],
+      "correct": 2,
+      "explanation": "The text states that experiments on scattering of alpha-particles demonstrated that the radius of a nucleus was smaller than the radius of an atom by a factor of about 10^4. | உரையின்படி, அல்பா துகள்களின் சிதறல் சோதனைகள் அணுவின் ஆரத்தை விட அணுக்கருவின் ஆரம் சுமார் 10^4 காரணியால் சிறியது என்பதை நிரூபித்தன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What fraction of the atom's volume does the nucleus occupy approximately?",
+      "options": [
+        "10^-6",
+        "10^-9",
+        "10^-12",
+        "10^-15"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that the volume of a nucleus is about 10^-12 times the volume of the atom. | உரையில் தெளிவாகக் குறிப்பிடப்பட்டுள்ளபடி, அணுக்கருவின் கன அளவு அணுவின் கன அளவின் சுமார் 10^-12 மடங்கு ஆகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "If an atom is enlarged to the size of a classroom, what would be the approximate size of the nucleus?",
+      "options": [
+        "A basketball",
+        "A pinhead",
+        "A grain of sand",
+        "A marble"
+      ],
+      "correct": 1,
+      "explanation": "The text uses this analogy: If an atom is enlarged to the size of a classroom, the nucleus would be of the size of a pinhead. | உரையில் இந்த உவமை பயன்படுத்தப்பட்டுள்ளது: ஒரு அணு வகுப்பறையின் அளவிற்கு பெரிதாக்கப்பட்டால், அணுக்கரு தலையணியின் அளவில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of the mass of an atom is concentrated in the nucleus?",
+      "options": [
+        "More than 50%",
+        "More than 90%",
+        "More than 99.9%",
+        "Exactly 100%"
+      ],
+      "correct": 2,
+      "explanation": "The text clearly states that the nucleus contains more than 99.9% of the mass of an atom. | உரையில் தெளிவாகக் குறிப்பிடப்பட்டுள்ளபடி, அணுக்கரு ஒரு அணுவின் நிறையின் 99.9% க்கும் மேற்பட்டதைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following topics is NOT mentioned as being discussed in this chapter?",
+      "options": [
+        "Radioactivity",
+        "Nuclear fission",
+        "Chemical bonding",
+        "Nuclear fusion"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions discussing radioactivity, fission and fusion, but chemical bonding is not mentioned as a topic in this chapter. | உரை கதிரியக்கம், பிளவு மற்றும் இணைவு பற்றி விவாதிக்கப்படும் எனக் குறிப்பிடுகிறது, ஆனால் வேதிப்பிணைப்பு இந்த அத்தியாயத்தில் ஒரு தலைப்பாகக் குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What fundamental question does the chapter aim to answer about the nucleus?",
+      "options": [
+        "How electrons orbit the nucleus",
+        "Whether the nucleus has a structure and what its constituents are",
+        "How atoms combine to form molecules",
+        "Why atoms are electrically neutral"
+      ],
+      "correct": 1,
+      "explanation": "The text asks: Does the nucleus have a structure, just as the atom does? If so, what are the constituents of the nucleus? How are these held together? | உரை கேட்கிறது: அணுவைப் போல அணுக்கருவிற்கு அமைப்பு உள்ளதா? அப்படியானால், அணுக்கருவின் உறுப்புகள் என்ன? இவை எவ்வாறு ஒன்றாகப் பிணைக்கப்பட்டுள்ளன?"
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "The positive charge and mass in an atom are concentrated at which location?",
+      "options": [
+        "In the electron shells",
+        "At the center forming the nucleus",
+        "Distributed throughout the atom",
+        "In the outermost orbit"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in every atom, the positive charge and mass are densely concentrated at the centre of the atom forming its nucleus. | உரையின்படி, ஒவ்வொரு அணுவிலும் நேர் மின்னூட்டமும் நிறையும் அணுவின் மையத்தில் அடர்த்தியாகக் குவிந்து அதன் அணுக்கருவை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the text describe an atom as being?",
+      "options": [
+        "Completely solid",
+        "Almost empty",
+        "Filled with electrons throughout",
+        "Dense and compact"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that an atom is almost empty, since the nucleus is extremely small compared to the overall atom. | உரையில் தெளிவாகக் குறிப்பிடப்பட்டுள்ளபடி, அணுக்கரு மொத்த அணுவுடன் ஒப்பிடும்போது மிகவும் சிறியதாக இருப்பதால், ஒரு அணு கிட்டத்தட்ட வெற்றிடமாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How is the atomic mass unit (u) defined?",
+      "options": [
+        "1/10th of the mass of a hydrogen atom",
+        "1/12th of the mass of a carbon-12 atom",
+        "Equal to the mass of a proton",
+        "Equal to the mass of an electron"
+      ],
+      "correct": 1,
+      "explanation": "The text defines the atomic mass unit (u) as 1/12th of the mass of the carbon-12 atom. | உரை அணு நிறை அலகு (u) ஐ கார்பன்-12 அணுவின் நிறையின் 1/12 ஆக வரையறுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the value of 1 atomic mass unit (u) in kilograms?",
+      "options": [
+        "1.660539 × 10^-26 kg",
+        "1.660539 × 10^-27 kg",
+        "1.660539 × 10^-28 kg",
+        "1.660539 × 10^-25 kg"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the conversion: 1 u = 1.660539 × 10^-27 kg. | உரை மாற்று விகிதத்தைக் குறிப்பிடுகிறது: 1 u = 1.660539 × 10^-27 kg."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which element is given as a striking exception to the rule that atomic masses are close to integral multiples of hydrogen atom mass?",
+      "options": [
+        "Oxygen",
+        "Carbon",
+        "Chlorine",
+        "Hydrogen"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that the atomic mass of chlorine atom is 35.46 u, which is a striking exception to the rule. | உரை தெளிவாகக் குறிப்பிடுகிறது குளோரின் அணுவின் நிறை 35.46 u, இது விதிக்கு ஒரு கடுமையான விதிவிலக்கு."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are isotopes?",
+      "options": [
+        "Elements with different atomic numbers",
+        "Atoms of the same element with different masses but same chemical properties",
+        "Atoms with the same mass but different chemical properties",
+        "Radioactive elements only"
+      ],
+      "correct": 1,
+      "explanation": "The text defines isotopes as atomic species of the same element differing in mass but exhibiting the same chemical properties. | உரை ஓரிடத்தான்களை ஒரே தனிமத்தின் வெவ்வேறு நிறைகளைக் கொண்ட அணு வகைகளாக வரையறுக்கிறது, ஆனால் ஒரே வேதியியல் பண்புகளைக் காட்டுகின்றன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are the relative abundances of the two chlorine isotopes mentioned in the text?",
+      "options": [
+        "50% and 50%",
+        "75.4% and 24.6%",
+        "60% and 40%",
+        "80% and 20%"
+      ],
+      "correct": 1,
+      "explanation": "The text states the relative abundances of chlorine isotopes are 75.4% and 24.6% respectively. | உரை குளோரின் ஓரிடத்தான்களின் சார்பு நிறைவளம் 75.4% மற்றும் 24.6% எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the mass of a proton in atomic mass units?",
+      "options": [
+        "1.00000 u",
+        "1.00727 u",
+        "1.00866 u",
+        "1.00783 u"
+      ],
+      "correct": 1,
+      "explanation": "The text states the mass of a proton is 1.00727 u. | உரை புரோட்டானின் நிறை 1.00727 u எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which hydrogen isotope is unstable and does not occur naturally?",
+      "options": [
+        "Protium",
+        "Deuterium",
+        "Tritium",
+        "All hydrogen isotopes are stable"
+      ],
+      "correct": 2,
+      "explanation": "The text states that tritium nuclei are unstable, do not occur naturally and are produced artificially in laboratories. | உரை டிரிடியம் அணுக்கருக்கள் நிலையற்றவை, இயற்கையில் காணப்படுவதில்லை மற்றும் ஆய்வகங்களில் செயற்கையாக உற்பத்தி செய்யப்படுகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why was the idea that nucleus may contain electrons ruled out?",
+      "options": [
+        "Because electrons are too heavy",
+        "Because of arguments based on quantum theory",
+        "Because electrons have no charge",
+        "Because electrons are too large"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the idea was ruled out using arguments based on quantum theory. | உரை குவாண்டம் கோட்பாட்டின் அடிப்படையிலான வாதங்களைப் பயன்படுத்தி இந்த எண்ணம் நிராகரிக்கப்பட்டது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In a neutral atom, what is the relationship between the number of protons and the number of electrons?",
+      "options": [
+        "Number of protons is greater than number of electrons",
+        "Number of protons is less than number of electrons",
+        "Number of protons equals number of electrons",
+        "There is no fixed relationship"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the number of protons in the nucleus is exactly Z, the atomic number, and since the atom is neutral, the number of electrons equals the number of protons. | உரை அணுக்கருவில் உள்ள புரோட்டான்களின் எண்ணிக்கை Z, அணு எண்ணுக்கு சமம் என்றும், அணு நடுநிலையானதால் எலக்ட்ரான்களின் எண்ணிக்கை புரோட்டான்களின் எண்ணிக்கைக்கு சமம் என்றும் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the charge of the nucleus in terms of Z and e?",
+      "options": [
+        "-Ze",
+        "+Ze",
+        "Zero",
+        "+2Ze"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the charge of the nucleus is (+Ze) since the atom is neutral and the electrons have charge (-Ze). | உரை அணு நடுநிலையானதால் மற்றும் எலக்ட்ரான்கள் (-Ze) மின்னூட்டம் கொண்டதால், அணுக்கருவின் மின்னூட்டம் (+Ze) எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Who discovered the neutron and in which year?",
+      "options": [
+        "Rutherford in 1911",
+        "Chadwick in 1932",
+        "Bohr in 1922",
+        "Einstein in 1905"
+      ],
+      "correct": 1,
+      "explanation": "The text states that James Chadwick discovered the neutron in 1932 by observing emission of neutral radiation when beryllium nuclei were bombarded with alpha-particles. | உரையின்படி, ஜேம்ஸ் சாட்விக் 1932 இல் பெரிலியம் அணுக்கருக்கள் அல்பா துகள்களால் குண்டு வீசப்பட்டபோது நடுநிலை கதிர்வீச்சு வெளியேறுவதைக் கவனித்து நியூட்ரானைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What was Chadwick's key insight that solved the puzzle of the neutral radiation?",
+      "options": [
+        "The radiation was actually X-rays",
+        "The radiation consisted of a new type of neutral particle called neutrons",
+        "The radiation was electromagnetic waves with very high frequency",
+        "The radiation was composed of protons"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Chadwick assumed the neutral radiation consists of a new type of neutral particles called neutrons, which solved the puzzle. | உரையின்படி, சாட்விக் நடுநிலை கதிர்வீச்சு நியூட்ரான்கள் எனப்படும் ஒரு புதிய வகை நடுநிலை துகள்களைக் கொண்டிருக்கிறது என்று கருதி இந்த புதிரைத் தீர்த்தார்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What would be the problem if the neutral radiation consisted only of photons?",
+      "options": [
+        "Photons would not penetrate the beryllium",
+        "The energy of photons would have to be much higher than available from the bombardment",
+        "Photons would not interact with protons at all",
+        "Photons would be absorbed by the beryllium nuclei"
+      ],
+      "correct": 1,
+      "explanation": "The text states that application of conservation of energy and momentum showed that if the neutral radiation consisted of photons, the energy would have to be much higher than available from alpha-particle bombardment. | உரையின்படி, ஆற்றல் மற்றும் உந்தம் பாதுகாப்பு கொள்கைகளைப் பயன்படுத்தினால், நடுநிலை கதிர்வீச்சு ஒளிமின் துகள்களைக் கொண்டிருந்தால், அல்பா துகள் குண்டுவீச்சிலிருந்து கிடைக்கும் ஆற்றலை விட புகைப்படுத்திகளின் ஆற்றல் மிகவும் அதிகமாக இருக்க வேண்டும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the mass of a neutron in atomic mass units?",
+      "options": [
+        "1.00727 u",
+        "1.00866 u",
+        "1.00783 u",
+        "1.00000 u"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the neutron mass as 1.00866 u. | உரை நியூட்ரானின் நிறையை 1.00866 u எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the mass of a neutron in kilograms?",
+      "options": [
+        "1.6726 × 10^-27 kg",
+        "1.6749 × 10^-27 kg",
+        "1.6605 × 10^-27 kg",
+        "1.0073 × 10^-27 kg"
+      ],
+      "correct": 1,
+      "explanation": "The text states the neutron mass is 1.6749 × 10^-27 kg. | உரை நியூட்ரானின் நிறை 1.6749 × 10^-27 kg எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "For what achievement was Chadwick awarded the Nobel Prize in Physics in 1935?",
+      "options": [
+        "Discovery of the proton",
+        "Discovery of the neutron",
+        "Discovery of the electron",
+        "Theory of relativity"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that Chadwick was awarded the 1935 Nobel Prize in Physics for his discovery of the neutron. | உரை தெளிவாகக் குறிப்பிடுகிறது சாட்விக் தனது நியூட்ரான் கண்டுபிடிப்புக்காக 1935 இல் இயற்பியலுக்கான நோபல் பரிசு பெற்றார்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What happens to a free neutron?",
+      "options": [
+        "It is completely stable",
+        "It decays into a proton, an electron and an antineutrino with mean life of about 1000s",
+        "It immediately combines with another neutron",
+        "It converts into a photon"
+      ],
+      "correct": 1,
+      "explanation": "The text states that a free neutron is unstable and decays into a proton, an electron and an antineutrino with a mean life of about 1000s. | உரையின்படி, சுதந்திரமான நியூட்ரான் நிலையற்றது, அது ஒரு புரோட்டான், ஒரு எலக்ட்ரான் மற்றும் ஒரு எதிர்நொதிமம் ஆகியவற்றாக சிதைவடைகிறது, சராசரி ஆயுள் சுமார் 1000 வினாடிகள்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the relationship between mass number A, atomic number Z, and neutron number N?",
+      "options": [
+        "A = Z - N",
+        "A = Z + N",
+        "A = Z × N",
+        "A = Z / N"
+      ],
+      "correct": 1,
+      "explanation": "The text defines A = Z + N, where A is mass number, Z is atomic number (protons), and N is neutron number. | உரை A = Z + N என வரையறுக்கிறது, இங்கு A நிறை எண், Z அணு எண் (புரோட்டான்கள்), N நியூட்ரான் எண்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the term for a proton or a neutron?",
+      "options": [
+        "Nuclide",
+        "Nucleon",
+        "Isotope",
+        "Isobar"
+      ],
+      "correct": 1,
+      "explanation": "The text defines nucleon as a term for a proton or a neutron. | உரை புரோட்டான் அல்லது நியூட்ரானுக்கான சொல்லாக நியூக்ளியானை வரையறுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many neutrons are in the gold nucleus ^197_79 Au?",
+      "options": [
+        "79",
+        "118",
+        "197",
+        "276"
+      ],
+      "correct": 1,
+      "explanation": "The text states that gold nucleus ^197_79 Au contains 197 nucleons of which 79 are protons and the rest 118 are neutrons. | உரையின்படி, தங்க அணுக்கரு ^197_79 Au இல் 197 நியூக்ளியான்கள் உள்ளன, அவற்றில் 79 புரோட்டான்கள் மற்றும் மீதமுள்ள 118 நியூட்ரான்கள்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are nuclides with the same mass number A called?",
+      "options": [
+        "Isotopes",
+        "Isobars",
+        "Isotones",
+        "Nucleons"
+      ],
+      "correct": 1,
+      "explanation": "The text defines isobars as all nuclides with same mass number A. | உரை ஒரே நிறை எண் A கொண்ட அனைத்து நியூக்ளைடுகளையும் ஐசோபார்கள் என வரையறுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are nuclides with the same neutron number N but different atomic number Z called?",
+      "options": [
+        "Isotopes",
+        "Isobars",
+        "Isotones",
+        "Isomers"
+      ],
+      "correct": 2,
+      "explanation": "The text defines isotones as nuclides with same neutron number N but different atomic number Z. | உரை ஒரே நியூட்ரான் எண் N கொண்ட ஆனால் வேறுபட்ட அணு எண் Z கொண்ட நியூக்ளைடுகளை ஐசோடோன்கள் என வரையறுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many protons and neutrons does deuterium ^2_1 H contain?",
+      "options": [
+        "1 proton and 2 neutrons",
+        "1 proton and 1 neutron",
+        "2 protons and 1 neutron",
+        "2 protons and 2 neutrons"
+      ],
+      "correct": 1,
+      "explanation": "The text states that deuterium ^2_1 H contains one proton and one neutron. | உரையின்படி, டியூட்டிரியம் ^2_1 H ஒரு புரோட்டான் மற்றும் ஒரு நியூட்ரானைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many protons and neutrons does tritium ^3_1 H contain?",
+      "options": [
+        "1 proton and 1 neutron",
+        "1 proton and 2 neutrons",
+        "2 protons and 1 neutron",
+        "3 protons and no neutrons"
+      ],
+      "correct": 1,
+      "explanation": "The text states that tritium ^3_1 H contains one proton and two neutrons. | உரையின்படி, டிரிடியம் ^3_1 H ஒரு புரோட்டான் மற்றும் இரண்டு நியூட்ரான்களைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How many isotopes does the element gold have according to the text?",
+      "options": [
+        "12 isotopes",
+        "22 isotopes",
+        "32 isotopes",
+        "42 isotopes"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the element gold has 32 isotopes, ranging from A=173 to A=204. | உரையின்படி, தங்க தனிமம் 32 ஓரிடத்தான்களைக் கொண்டுள்ளது, A=173 முதல் A=204 வரை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why do isotopes of an element have identical chemical behavior?",
+      "options": [
+        "Because they have the same number of neutrons",
+        "Because they have the same electronic structure",
+        "Because they have the same mass number",
+        "Because they have the same nuclear density"
+      ],
+      "correct": 1,
+      "explanation": "The text states that chemical properties of elements depend on their electronic structure, and since isotopes have identical electronic structure they have identical chemical behavior. | உரையின்படி, தனிமங்களின் வேதியியல் பண்புகள் அவற்றின் மின்னணு அமைப்பைப் பொறுத்தவை, மேலும் ஓரிடத்தான்களுக்கு ஒரே மின்னணு அமைப்பு இருப்பதால் அவற்றுக்கு ஒரே வேதியியல் நடத்தை உள்ளது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are nuclides with the same mass number A called?",
+      "options": [
+        "Isotopes",
+        "Isobars",
+        "Isotones",
+        "Nucleons"
+      ],
+      "correct": 1,
+      "explanation": "The text defines isobars as all nuclides with the same mass number A. | உரை ஒரே நிறை எண் A கொண்ட அனைத்து நியூக்ளைடுகளையும் ஐசோபார்கள் என வரையறுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which pair of nuclides is given as an example of isobars?",
+      "options": [
+        "^2_1 H and ^3_1 H",
+        "^3_1 H and ^3_2 He",
+        "^198_80 Hg and ^197_79 Au",
+        "^12_6 C and ^14_6 C"
+      ],
+      "correct": 1,
+      "explanation": "The text gives ^3_1 H and ^3_2 He as examples of isobars since they have the same mass number A=3. | உரை A=3 என்ற ஒரே நிறை எண்ணைக் கொண்டிருப்பதால் ^3_1 H மற்றும் ^3_2 He ஆகியவற்றை ஐசோபார்களுக்கான எடுத்துக்காட்டுகளாகக் கொடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are nuclides with the same neutron number N but different atomic number Z called?",
+      "options": [
+        "Isotopes",
+        "Isobars",
+        "Isotones",
+        "Isomers"
+      ],
+      "correct": 2,
+      "explanation": "The text defines isotones as nuclides with the same neutron number N but different atomic number Z. | உரை ஒரே நியூட்ரான் எண் N கொண்ட ஆனால் வேறுபட்ட அணு எண் Z கொண்ட நியூக்ளைடுகளை ஐசோடோன்கள் என வரையறுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Who was the pioneer who postulated and established the existence of the atomic nucleus?",
+      "options": [
+        "Bohr",
+        "Einstein",
+        "Rutherford",
+        "Chadwick"
+      ],
+      "correct": 2,
+      "explanation": "The text states that Rutherford was the pioneer who postulated and established the existence of the atomic nucleus. | உரையின்படி, ரூதர்ஃபோர்ட் அணுக்கருவின் இருப்பைக் கூறி நிரூபித்த முன்னோடி ஆவார்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What was the distance of closest approach for a 5.5 MeV alpha-particle to a gold nucleus?",
+      "options": [
+        "About 4.0 × 10^-12 m",
+        "About 4.0 × 10^-13 m",
+        "About 4.0 × 10^-14 m",
+        "About 4.0 × 10^-15 m"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the distance of closest approach to a gold nucleus of an alpha-particle of kinetic energy 5.5 MeV is about 4.0 × 10^-14 m. | உரையின்படி, 5.5 MeV இயக்க ஆற்றல் கொண்ட அல்பா துகளுக்கு தங்க அணுக்கருவின் மிக நெருக்கமான அணுக்க முறை தூரம் சுமார் 4.0 × 10^-14 m."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the value of R0 in the nuclear radius formula R = R0 A^(1/3)?",
+      "options": [
+        "1.0 × 10^-15 m",
+        "1.2 × 10^-15 m",
+        "1.4 × 10^-15 m",
+        "2.0 × 10^-15 m"
+      ],
+      "correct": 1,
+      "explanation": "The text gives R0 = 1.2 × 10^-15 m = 1.2 fm. | உரை R0 = 1.2 × 10^-15 m = 1.2 fm எனக் கொடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the nuclear radius formula R = R0 A^(1/3) imply about nuclear volume?",
+      "options": [
+        "Volume is proportional to A^(1/3)",
+        "Volume is proportional to A",
+        "Volume is proportional to A^2",
+        "Volume is proportional to A^3"
+      ],
+      "correct": 1,
+      "explanation": "The text states that since volume is proportional to R^3 and R is proportional to A^(1/3), the volume is proportional to A. | உரையின்படி, கன அளவு R^3 க்கு நேர்ப்புடையது மற்றும் R, A^(1/3) க்கு நேர்ப்புடையதால், கன அளவு A க்கு நேர்ப்புடையது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the approximate density of nuclear matter?",
+      "options": [
+        "2.3 × 10^12 kg/m^3",
+        "2.3 × 10^15 kg/m^3",
+        "2.3 × 10^17 kg/m^3",
+        "2.3 × 10^19 kg/m^3"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the density of nuclear matter is approximately 2.3 × 10^17 kg/m^3. | உரையின்படி, அணுக்கரு பொருளின் அடர்த்தி சுமார் 2.3 × 10^17 kg/m^3."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How does nuclear density compare to the density of water?",
+      "options": [
+        "About the same as water",
+        "About 10^4 times water density",
+        "About 10^14 times water density",
+        "About 10^17 times water density"
+      ],
+      "correct": 2,
+      "explanation": "The text states nuclear density is 2.3 × 10^17 kg/m^3 compared to water at 10^3 kg/m^3, which is about 10^14 times greater. | உரையின்படி, அணுக்கரு அடர்த்தி 2.3 × 10^17 kg/m^3, நீர் 10^3 kg/m^3, இது சுமார் 10^14 மடங்கு அதிகம்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the nuclear density of iron as calculated in Example 13.1?",
+      "options": [
+        "2.29 × 10^15 kg/m^3",
+        "2.29 × 10^16 kg/m^3",
+        "2.29 × 10^17 kg/m^3",
+        "2.29 × 10^18 kg/m^3"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the nuclear density calculated for iron in Example 13.1 is 2.29 × 10^17 kg/m^3. | உரையின்படி, எடுத்துக்காட்டு 13.1 இல் இரும்புக்கான கணக்கிடப்பட்ட அணுக்கரு அடர்த்தி 2.29 × 10^17 kg/m^3 ஆகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which astrophysical object has matter density comparable to nuclear density?",
+      "options": [
+        "White dwarfs",
+        "Neutron stars",
+        "Black holes",
+        "Red giants"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the density of matter in neutron stars is comparable to nuclear density. | உரையின்படி, நியூட்ரான் நட்சத்திரங்களில் உள்ள பொருளின் அடர்த்தி அணுக்கரு அடர்த்திக்கு ஒப்பிடத்தக்கதாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to Einstein's theory of special relativity, what is mass considered as?",
+      "options": [
+        "A completely separate entity from energy",
+        "Another form of energy",
+        "A property that cannot be converted",
+        "Only relevant in chemical reactions"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Einstein showed from his theory of special relativity that it is necessary to treat mass as another form of energy. | உரையின்படி, ஐன்ஸ்டீன் தனது சிறப்பு சார்பியல் கோட்பாட்டிலிருந்து நிறையை மற்றொரு வடிவமான ஆற்றலாகக் கருத வேண்டும் என்று காட்டினார்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Before the advent of special relativity, what was presumed about mass and energy?",
+      "options": [
+        "They were completely unrelated",
+        "They were conserved separately in a reaction",
+        "They could be freely converted into each other",
+        "Only energy was conserved"
+      ],
+      "correct": 1,
+      "explanation": "The text states that before the advent of special relativity it was presumed that mass and energy were conserved separately in a reaction. | உரையின்படி, சிறப்பு சார்பியல் கோட்பாட்டின் வரவுக்கு முன், ஒரு வினையில் நிறை மற்றும் ஆற்றல் தனித்தனியாகப் பாதுகாக்கப்படுகின்றன என்று கருதப்பட்டது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the famous mass-energy equivalence relation given by Einstein?",
+      "options": [
+        "E = hv",
+        "E = mc^2",
+        "E = 1/2 mv^2",
+        "E = p^2/2m"
+      ],
+      "correct": 1,
+      "explanation": "The text gives the famous mass-energy equivalence relation as E = mc^2 where c is the velocity of light in vacuum. | உரை புகழ்பெற்ற நிறை-ஆற்றல் சமநிலை தொடர்பை E = mc^2 எனக் கொடுக்கிறது, இங்கு c வெற்றிடத்தில் ஒளியின் வேகம்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the approximate value of the velocity of light in vacuum c?",
+      "options": [
+        "3 × 10^6 m/s",
+        "3 × 10^7 m/s",
+        "3 × 10^8 m/s",
+        "3 × 10^9 m/s"
+      ],
+      "correct": 2,
+      "explanation": "The text states that c is approximately equal to 3 × 10^8 m/s. | உரை c சுமார் 3 × 10^8 m/s க்கு சமம் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the energy equivalent of 1 gram of substance according to Example 13.2?",
+      "options": [
+        "9 × 10^10 J",
+        "9 × 10^11 J",
+        "9 × 10^12 J",
+        "9 × 10^13 J"
+      ],
+      "correct": 3,
+      "explanation": "The text calculates in Example 13.2 that E = 10^-3 × (3 × 10^8)^2 = 9 × 10^13 J. | உரை எடுத்துக்காட்டு 13.2 இல் E = 10^-3 × (3 × 10^8)^2 = 9 × 10^13 J எனக் கணக்கிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the mass defect of a nucleus?",
+      "options": [
+        "The excess mass of the nucleus compared to its constituents",
+        "The difference in mass between the nucleus and its constituents",
+        "The mass of the electrons in the nucleus",
+        "The total mass of all protons and neutrons"
+      ],
+      "correct": 1,
+      "explanation": "The text defines mass defect as the difference in mass of a nucleus and its constituents, given by ΔM = [Z mp + (A-Z) mn] - M. | உரை நிறை குறைபாட்டை அணுக்கருவின் நிறைக்கும் அதன் உறுப்புகளின் நிறைக்கும் இடையேயான வேறுபாடு என வரையறுக்கிறது, ΔM = [Z mp + (A-Z) mn] - M."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "For oxygen-16 ^16_8 O, what is the expected mass of the nucleus?",
+      "options": [
+        "15.99493 u",
+        "15.99053 u",
+        "16.12744 u",
+        "16.00000 u"
+      ],
+      "correct": 2,
+      "explanation": "The text calculates the expected mass of ^16_8 O nucleus as 8 × 2.01593 u = 16.12744 u. | உரை ^16_8 O அணுக்கருவின் எதிர்பார்க்கப்பட்ட நிறையை 8 × 2.01593 u = 16.12744 u எனக் கணக்கிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the experimental mass of the ^16_8 O nucleus after subtracting electron masses?",
+      "options": [
+        "15.99493 u",
+        "15.99053 u",
+        "16.12744 u",
+        "0.13691 u"
+      ],
+      "correct": 1,
+      "explanation": "The text states that subtracting the mass of 8 electrons from the atomic mass gives the experimental mass of the ^16_8 O nucleus as 15.99053 u. | உரை 8 எலக்ட்ரான்களின் நிறையை அணு நிறையிலிருந்து கழித்தால் ^16_8 O அணுக்கருவின் சோதனை நிறை 15.99053 u எனக் கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the mass defect of ^16_8 O in atomic mass units?",
+      "options": [
+        "0.01369 u",
+        "0.13691 u",
+        "1.36910 u",
+        "13.6910 u"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the mass of the ^16_8 O nucleus is less than the total mass of its constituents by 0.13691 u. | உரை ^16_8 O அணுக்கருவின் நிறை அதன் உறுப்புகளின் மொத்த நிறையை விட 0.13691 u குறைவாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the energy equivalent of 1 atomic mass unit in MeV?",
+      "options": [
+        "93.15 MeV",
+        "931.5 MeV",
+        "9315 MeV",
+        "9.315 MeV"
+      ],
+      "correct": 1,
+      "explanation": "The text calculates that 1 u = 931.5 MeV/c^2 or 931.5 MeV in energy units. | உரை 1 u = 931.5 MeV/c^2 அல்லது ஆற்றல் அலகுகளில் 931.5 MeV எனக் கணக்கிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the binding energy needed to separate ^16_8 O into its constituents?",
+      "options": [
+        "12.75 MeV/c^2",
+        "127.5 MeV/c^2",
+        "1275 MeV/c^2",
+        "1.275 MeV/c^2"
+      ],
+      "correct": 1,
+      "explanation": "The text states that for ^16_8 O, ΔM = 0.13691 u = 127.5 MeV/c^2, which is the energy needed to separate it into constituents. | உரையின்படி, ^16_8 O க்கு ΔM = 0.13691 u = 127.5 MeV/c^2, இது அதன் உறுப்புகளாகப் பிரிப்பதற்கு தேவையான ஆற்றல்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is binding energy per nucleon defined as?",
+      "options": [
+        "Total binding energy divided by number of protons",
+        "Total binding energy divided by mass number A",
+        "Total binding energy divided by number of neutrons",
+        "Total binding energy multiplied by mass number A"
+      ],
+      "correct": 1,
+      "explanation": "The text defines binding energy per nucleon as Ebn = Eb / A, the ratio of binding energy to the number of nucleons. | உரை ஒவ்வொரு நியூக்ளியானுக்கான பிணைப்பு ஆற்றலை Ebn = Eb / A என வரையறுக்கிறது, இது பிணைப்பு ஆற்றலுக்கும் நியூக்ளியான்களின் எண்ணிக்கைக்கும் இடையேயான விகிதம்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the formula for binding energy per nucleon?",
+      "options": [
+        "Ebn = Eb × A",
+        "Ebn = Eb / A",
+        "Ebn = A / Eb",
+        "Ebn = Eb - A"
+      ],
+      "correct": 1,
+      "explanation": "The text defines binding energy per nucleon as Ebn = Eb / A, the ratio of binding energy to the number of nucleons. | உரை ஒவ்வொரு நியூக்ளியானுக்கான பிணைப்பு ஆற்றலை Ebn = Eb / A என வரையறுக்கிறது, இது பிணைப்பு ஆற்றலுக்கும் நியூக்ளியான்களின் எண்ணிக்கைக்கும் இடையேயான விகிதம்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the maximum binding energy per nucleon and at what mass number does it occur?",
+      "options": [
+        "About 7.6 MeV at A=238",
+        "About 8.0 MeV at A=100",
+        "About 8.75 MeV at A=56",
+        "About 9.5 MeV at A=30"
+      ],
+      "correct": 2,
+      "explanation": "The text states the curve has a maximum of about 8.75 MeV for A=56. | உரை வளைவு A=56 இல் சுமார் 8.75 MeV அதிகபட்சத்தைக் கொண்டுள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "For which range of mass numbers is the binding energy per nucleon practically constant?",
+      "options": [
+        "10 < A < 50",
+        "30 < A < 170",
+        "50 < A < 200",
+        "100 < A < 250"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Ebn is practically independent of atomic number for nuclei of middle mass number with 30 < A < 170. | உரை Ebn நடுத்தர நிறை எண் கொண்ட அணுக்கருக்களுக்கு 30 < A < 170 இல் அணு எண்ணைப் பொறுத்து கிட்டத்தட்ட சார்பற்றது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the binding energy per nucleon for uranium-238 (A=238)?",
+      "options": [
+        "About 6.5 MeV",
+        "About 7.6 MeV",
+        "About 8.5 MeV",
+        "About 9.0 MeV"
+      ],
+      "correct": 1,
+      "explanation": "The text states the binding energy per nucleon has a value of 7.6 MeV for A=238. | உரை A=238 க்கு பிணைப்பு ஆற்றல் ஒவ்வொரு நியூக்ளியானுக்கும் 7.6 MeV மதிப்பைக் கொண்டுள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "For which types of nuclei is the binding energy per nucleon lower?",
+      "options": [
+        "Only heavy nuclei (A > 170)",
+        "Only light nuclei (A < 30)",
+        "Both light nuclei (A < 30) and heavy nuclei (A > 170)",
+        "Only medium nuclei (30 < A < 170)"
+      ],
+      "correct": 2,
+      "explanation": "The text states that Ebn is lower for both light nuclei (A<30) and heavy nuclei (A>170). | உரை Ebn லேசான அணுக்கருக்களுக்கு (A<30) மற்றும் கனமான அணுக்கருக்களுக்கு (A>170) இரண்டிற்கும் குறைவாக உள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the constancy of binding energy per nucleon in the range 30 < A < 170 indicate about nuclear force?",
+      "options": [
+        "It is long-ranged",
+        "It is short-ranged",
+        "It is infinite in range",
+        "It does not exist"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the constancy of binding energy in this range is a consequence of the fact that the nuclear force is short-ranged. | உரை இந்த வரம்பில் பிணைப்பு ஆற்றலின் நிலைத்தன்மை அணுக்கரு விசை குறுகிய-வரம்புடையது என்ற உண்மையின் விளைவு எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the saturation property of nuclear force?",
+      "options": [
+        "A nucleon can only interact with all other nucleons in the nucleus",
+        "A given nucleon influences only nucleons close to it within the range of the force",
+        "The force strength increases with more nucleons",
+        "The force is strongest at the surface of the nucleus"
+      ],
+      "correct": 1,
+      "explanation": "The text describes the saturation property as the fact that a given nucleon influences only nucleons close to it within the range of the nuclear force. | உரை நிரப்பு பண்பை ஒரு குறிப்பிட்ட நியூக்ளியான் அணுக்கரு விசையின் வரம்பிற்குள் அதற்கு நெருக்கமான நியூக்ளியான்களை மட்டுமே பாதிக்கிறது என்ற உண்மையாக விவரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why would energy be released if a heavy nucleus with A=240 breaks into two nuclei with A=120?",
+      "options": [
+        "Because the total number of nucleons decreases",
+        "Because nucleons in A=120 nuclei are more tightly bound than in A=240",
+        "Because the nuclear force becomes stronger",
+        "Because the Coulomb repulsion disappears"
+      ],
+      "correct": 1,
+      "explanation": "The text states that a very heavy nucleus A=240 has lower binding energy per nucleon compared to A=120, so if it breaks into two A=120 nuclei, nucleons get more tightly bound and energy is released. | உரை மிக கனமான அணுக்கரு A=240 க்கு A=120 ஐ விட குறைவான பிணைப்பு ஆற்றல் உள்ளது, எனவே இது இரண்டு A=120 அணுக்கருக்களாக உடைந்தால் நியூக்ளியான்கள் அதிகம் இறுக்கமாக பிணைக்கப்படுகின்றன மற்றும் ஆற்றல் வெளியேறுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What important implication does the lower binding energy per nucleon of heavy nuclei have?",
+      "options": [
+        "Nuclear fusion",
+        "Nuclear fission",
+        "Radioactive decay",
+        "Chemical reactions"
+      ],
+      "correct": 1,
+      "explanation": "The text states that this has very important implications for energy production through fission, to be discussed in Section 13.7.1. | உரை இது பிளவு மூலம் ஆற்றல் உற்பத்திக்கு மிக முக்கியமான விளைவுகளைக் கொண்டுள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why is energy released when two very light nuclei (A <= 10) fuse into a heavier nucleus?",
+      "options": [
+        "Because the total mass increases",
+        "Because the binding energy per nucleon of the fused heavier nuclei is more than that of the lighter nuclei",
+        "Because the number of protons decreases",
+        "Because the nuclear force disappears"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the binding energy per nucleon of the fused heavier nuclei is more than the binding energy per nucleon of the lighter nuclei, so the final system is more tightly bound and energy is released. | உரை இணைந்த கனமான அணுக்கருக்களின் ஒவ்வொரு நியூக்ளியானுக்கான பிணைப்பு ஆற்றல் லேசான அணுக்கருக்களை விட அதிகம் என்பதால் இறுதி அமைப்பு அதிகம் இறுக்கமாக பிணைக்கப்பட்டுள்ளது மற்றும் ஆற்றல் வெளியேறுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the energy source of the sun according to the text?",
+      "options": [
+        "Nuclear fission",
+        "Nuclear fusion",
+        "Chemical combustion",
+        "Gravitational collapse"
+      ],
+      "correct": 1,
+      "explanation": "The text states that fusion is the energy source of the sun, to be discussed in Section 13.7.2. | உரை இணைவு சூரியனின் ஆற்றல் மூலம் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Compared to the Coulomb force, how strong is the nuclear force?",
+      "options": [
+        "Much weaker",
+        "About the same strength",
+        "Much stronger",
+        "Slightly stronger"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the nuclear force is much stronger than the Coulomb force acting between charges. | உரை அணுக்கரு விசை மின்னூட்டங்களுக்கிடையே செயல்படும் கூலம்ப் விசையை விட மிகவும் வலிமையானது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "At what separation distance between two nucleons is the potential energy minimum?",
+      "options": [
+        "About 0.5 fm",
+        "About 0.8 fm",
+        "About 1.2 fm",
+        "About 2.0 fm"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the potential energy is a minimum at a distance of about 0.8 fm. | உரை சுமார் 0.8 fm தூரத்தில் சாத்திய ஆற்றல் குறைந்தபட்சமாக இருக்கிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "For separations less than 0.8 fm, what is the nature of the nuclear force between two nucleons?",
+      "options": [
+        "Attractive",
+        "Repulsive",
+        "Zero",
+        "Variable"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the force is repulsive if nucleons are separated by distances less than 0.8 fm. | உரை நியூக்ளியான்கள் 0.8 fm க்கும் குறைவான தூரத்தில் பிரிக்கப்பட்டால் விசை விலக்கும் தன்மை கொண்டது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Does the nuclear force depend on the electric charge of the nucleons?",
+      "options": [
+        "Yes, it is stronger for protons",
+        "Yes, it is stronger for neutrons",
+        "No, it is approximately the same for neutron-neutron, proton-neutron and proton-proton",
+        "Yes, it only acts between protons"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the nuclear force between neutron-neutron, proton-neutron and proton-proton is approximately the same and does not depend on electric charge. | உரை நியூட்ரான்-நியூட்ரான், புரோட்டான்-நியூட்ரான் மற்றும் புரோட்டான்-புரோட்டானுக்கிடையே அணுக்கரு விசை சுமார் ஒரே மாதிரியானது மற்றும் மின்னூட்டத்தைப் பொறுத்து இல்லை எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Does the nuclear force depend on the electric charge of nucleons?",
+      "options": [
+        "Yes, it is stronger between protons",
+        "Yes, it is stronger between neutrons",
+        "No, it is approximately the same for neutron-neutron, proton-neutron and proton-proton interactions",
+        "Yes, it only acts between charged particles"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the nuclear force between neutron-neutron, proton-neutron and proton-proton is approximately the same and does not depend on electric charge. | உரை நியூட்ரான்-நியூட்ரான், புரோட்டான்-நியூட்ரான் மற்றும் புரோட்டான்-புரோட்டானுக்கிடையே அணுக்கரு விசை சுமார் ஒரே மாதிரியானது மற்றும் மின்னூட்டத்தைப் பொறுத்து இல்லை எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Is there a simple mathematical form of the nuclear force similar to Coulomb's law or Newton's law of gravitation?",
+      "options": [
+        "Yes, it follows an inverse square law",
+        "Yes, it follows an inverse cube law",
+        "No, unlike Coulomb's law or Newton's law of gravitation there is no simple mathematical form",
+        "Yes, it follows a linear relationship"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that unlike Coulomb's law or Newton's law of gravitation there is no simple mathematical form of the nuclear force. | உரை கூலம்ப் விதி அல்லது நியூட்டனின் ஈர்ப்பு விதியைப் போல அணுக்கரு விசைக்கு எளிய கணித வடிவம் இல்லை என்று தெளிவாகக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Who discovered radioactivity and in which year?",
+      "options": [
+        "Marie Curie in 1898",
+        "Rutherford in 1911",
+        "A.H. Becquerel in 1896",
+        "Einstein in 1905"
+      ],
+      "correct": 2,
+      "explanation": "The text states that A.H. Becquerel discovered radioactivity in 1896 purely by accident. | உரை A.H. பெக்கரல் 1896 இல் தற்செயலாக கதிரியக்கத்தைக் கண்டுபிடித்தார் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What was Becquerel studying when he discovered radioactivity?",
+      "options": [
+        "Nuclear fission reactions",
+        "Fluorescence and phosphorescence of compounds irradiated with visible light",
+        "Properties of cathode rays",
+        "X-ray diffraction patterns"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Becquerel was studying the fluorescence and phosphorescence of compounds irradiated with visible light when he discovered radioactivity. | உரை கதிரியக்கத்தைக் கண்டுபிடிக்கும்போது பெக்கரல் காணக்கூடிய ஒளியால் கதிர்வீச்சு செய்யப்பட்ட சேர்மங்களின் உடனொளிர்வு மற்றும் நீளொளிர்வை ஆய்வு செய்தார் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What material did Becquerel use that showed the penetrating radiation?",
+      "options": [
+        "Radium chloride",
+        "Uranium-potassium sulphate",
+        "Polonium metal",
+        "Thorium oxide"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Becquerel used uranium-potassium sulphate which emitted radiation that could penetrate black paper and silver. | உரை பெக்கரல் யுரேனியம்-பொட்டாசியம் சல்பேட்டைப் பயன்படுத்தினார், இது கருப்பு காகிதம் மற்றும் வெள்ளியை ஊடுருவும் கதிர்வீச்சை வெளியிட்டது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is radioactivity defined as in the text?",
+      "options": [
+        "A chemical reaction involving electron transfer",
+        "A nuclear phenomenon in which an unstable nucleus undergoes decay",
+        "A process of emitting visible light",
+        "A type of nuclear fusion reaction"
+      ],
+      "correct": 1,
+      "explanation": "The text defines radioactivity as a nuclear phenomenon in which an unstable nucleus undergoes a decay. | உரை கதிரியக்கத்தை ஒரு நிலையற்ற அணுக்கரு சிதைவடையும் ஒரு அணுக்கரு நிகழ்வாக வரையறுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is emitted during alpha-decay?",
+      "options": [
+        "High energy photons",
+        "Electrons or positrons",
+        "A helium nucleus ^4_2 He",
+        "Neutrons only"
+      ],
+      "correct": 2,
+      "explanation": "The text states that alpha-decay is the emission of a helium nucleus ^4_2 He. | உரை அல்பா-சிதைவு ஒரு ஹீலியம் அணுக்கரு ^4_2 He வெளியேறுவது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are positrons as described in the text?",
+      "options": [
+        "Particles with the same mass as protons but opposite charge",
+        "Particles with the same mass as electrons but with a charge exactly opposite to that of electron",
+        "High energy photons",
+        "Neutral particles with mass similar to neutrons"
+      ],
+      "correct": 1,
+      "explanation": "The text describes positrons as particles with the same mass as electrons, but with a charge exactly opposite to that of electron. | உரை பாசிட்ரான்களை எலக்ட்ரான்களைப் போலவே ஒரே நிறை கொண்ட ஆனால் எலக்ட்ரானின் மின்னூட்டத்திற்கு நேர் எதிரான மின்னூட்டம் கொண்ட துகள்களாக விவரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is emitted during gamma-decay?",
+      "options": [
+        "Helium nuclei",
+        "Electrons or positrons",
+        "High energy photons with hundreds of keV or more",
+        "Neutrons"
+      ],
+      "correct": 2,
+      "explanation": "The text states that gamma-decay involves emission of high energy photons (hundreds of keV or more). | உரை காமா-சிதைவு உயர் ஆற்றல் ஒளிமின் துகள்களை (நூற்றுக்கணக்கான keV அல்லது அதற்கு மேற்பட்ட) வெளியிடுவதை உள்ளடக்கியது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In the flat middle region of the binding energy per nucleon curve, what is the approximate value of Ebn?",
+      "options": [
+        "6.0 MeV",
+        "7.0 MeV",
+        "8.0 MeV",
+        "9.0 MeV"
+      ],
+      "correct": 2,
+      "explanation": "The text states that in the flat middle region between A=30 and A=170, the binding energy per nucleon is nearly constant at 8.0 MeV. | உரை A=30 மற்றும் A=170 இடையே உள்ள சமதள நடுப் பகுதியில், ஒவ்வொரு நியூக்ளியானுக்கான பிணைப்பு ஆற்றல் சுமார் 8.0 MeV இல் நிலையானது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "For which mass number ranges is the binding energy per nucleon less than 8.0 MeV?",
+      "options": [
+        "Only for A > 170",
+        "Only for A < 30",
+        "For both lighter nuclei (A <= 30) and heavier nuclei (A > 170)",
+        "For all mass numbers"
+      ],
+      "correct": 2,
+      "explanation": "The text states that for lighter nuclei region A<=30 and for heavier nuclei region A>170, the binding energy per nucleon is less than 8.0 MeV. | உரை லேசான அணுக்கருக்கள் A<=30 மற்றும் கனமான அணுக்கருக்கள் A>170 ஆகிய இரண்டிற்கும் ஒவ்வொரு நியூக்ளியானுக்கான பிணைப்பு ஆற்றல் 8.0 MeV க்கும் குறைவாக உள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How much more energy do nuclear sources produce compared to chemical sources for the same quantity of matter?",
+      "options": [
+        "About 100 times more",
+        "About 1000 times more",
+        "About a million times more",
+        "About a billion times more"
+      ],
+      "correct": 2,
+      "explanation": "The text states that nuclear sources produce a million times more energy than a chemical source for the same quantity of matter. | உரை அணு ஆற்றல் மூலங்கள் ஒரே அளவு பொருளுக்கு வேதி மூலங்களை விட ஒரு மில்லியன் மடங்கு அதிக ஆற்றலை உற்பத்தி செய்கின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How much energy is generated by fission of 1 kg of uranium?",
+      "options": [
+        "10^7 J",
+        "10^10 J",
+        "10^12 J",
+        "10^14 J"
+      ],
+      "correct": 3,
+      "explanation": "The text states that fission of 1 kg of uranium generates 10^14 J of energy. | உரை 1 கிலோ யுரேனியத்தின் பிளவு 10^14 J ஆற்றலை உற்பத்தி செய்கிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How much energy is produced by burning 1 kg of coal?",
+      "options": [
+        "10^4 J",
+        "10^7 J",
+        "10^10 J",
+        "10^14 J"
+      ],
+      "correct": 1,
+      "explanation": "The text states that burning of 1 kg of coal gives 10^7 J. | உரை 1 கிலோ கல்லங்கரை எரிப்பது 10^7 J ஆற்றலைத் தருகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the most important neutron-induced nuclear reaction?",
+      "options": [
+        "Nuclear fusion",
+        "Radioactive decay",
+        "Nuclear fission",
+        "Gamma emission"
+      ],
+      "correct": 2,
+      "explanation": "The text states that a most important neutron-induced nuclear reaction is fission. | உரை மிக முக்கியமான நியூட்ரான் தூண்டப்பட்ட அணுக்கரு வினை பிளவு எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the approximate energy released per fissioning nucleus in reactions like uranium fission?",
+      "options": [
+        "About 20 MeV",
+        "About 100 MeV",
+        "About 200 MeV",
+        "About 500 MeV"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the energy released (Q value) in fission reactions of nuclei like uranium is of the order of 200 MeV per fissioning nucleus. | உரை யுரேனியம் போன்ற அணுக்கருக்களின் பிளவு வினைகளில் வெளியேறும் ஆற்றல் (Q மதிப்பு) ஒவ்வொரு பிளவு அணுக்கருவுக்கும் சுமார் 200 MeV வரிசையில் உள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In a typical uranium fission reaction, what happens to the fragment products?",
+      "options": [
+        "They are immediately stable",
+        "They are radioactive nuclei that emit beta particles to achieve stable end products",
+        "They emit alpha particles only",
+        "They fuse with other nuclei"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the fragment products are radioactive nuclei and they emit beta particles in succession to achieve stable end products. | உரை துண்டு விளைபொருட்கள் கதிரியக்க அணுக்கருக்கள் மற்றும் அவை நிலையான இறுதி விளைபொருட்களை அடைய வரிசையாக பீட்டா துகள்களை வெளியிடுகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the source of energy in nuclear reactors that produce electricity?",
+      "options": [
+        "Nuclear fusion",
+        "Nuclear fission",
+        "Chemical combustion",
+        "Solar radiation"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the source of energy in nuclear reactors which produce electricity is nuclear fission. | உரை மின்சாரத்தை உற்பத்தி செய்யும் அணு உலைகளில் ஆற்றலின் மூலம் அணுக்கரு பிளவு எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the energy source of an atom bomb?",
+      "options": [
+        "Controlled nuclear fission",
+        "Uncontrolled nuclear fission",
+        "Nuclear fusion",
+        "Chemical explosives"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the enormous energy released in an atom bomb comes from uncontrolled nuclear fission. | உரை அணு குண்டில் வெளியேறும் மிகப் பெரிய ஆற்றல் கட்டுப்படுத்தப்படாத அணுக்கரு பிளவிலிருந்து வருகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is released when two light nuclei fuse to form a larger nucleus?",
+      "options": [
+        "Energy is absorbed",
+        "Energy is released because the larger nucleus is more tightly bound",
+        "No energy change occurs",
+        "Mass is created"
+      ],
+      "correct": 1,
+      "explanation": "The text states that when two light nuclei fuse to form a larger nucleus, energy is released since the larger nucleus is more tightly bound. | உரை இரண்டு லேசான அணுக்கருக்கள் ஒரு பெரிய அணுக்கருவாக இணையும்போது ஆற்றல் வெளியேறுகிறது, ஏனெனில் பெரிய அணுக்கரு அதிகம் இறுக்கமாக பிணைக்கப்பட்டுள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In the first fusion reaction, what do two protons combine to form?",
+      "options": [
+        "A triton and a proton",
+        "A deuteron and a positron with 0.42 MeV energy release",
+        "Helium-3 and a neutron",
+        "Helium-4 and two protons"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in the first reaction, two protons combine to form a deuteron and a positron with a release of 0.42 MeV energy. | உரை முதல் வினையில், இரண்டு புரோட்டான்கள் ஒரு டியூட்ரான் மற்றும் ஒரு பாசிட்ரானை உருவாக்குகின்றன, 0.42 MeV ஆற்றல் வெளியேறுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What do two deuterons combine to form in the second fusion reaction?",
+      "options": [
+        "A triton and a proton",
+        "The light isotope of helium",
+        "A deuteron and a positron",
+        "Helium-4 and two neutrons"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in the second reaction, two deuterons combine to form the light isotope of helium. | உரை இரண்டாவது வினையில், இரண்டு டியூட்ரான்கள் ஹீலியத்தின் லேசான ஓரிடத்தானை உருவாக்குகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What do two deuterons combine to form in the third fusion reaction?",
+      "options": [
+        "A deuteron and a positron",
+        "The light isotope of helium and a neutron",
+        "A triton and a proton with 4.03 MeV energy release",
+        "Helium-4 and two protons"
+      ],
+      "correct": 2,
+      "explanation": "The text states that in the third reaction, two deuterons combine to form a triton and a proton with 4.03 MeV energy release. | உரை மூன்றாவது வினையில், இரண்டு டியூட்ரான்கள் ஒரு டிரிடியன் மற்றும் ஒரு புரோட்டானை உருவாக்குகின்றன, 4.03 MeV ஆற்றல் வெளியேறுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "For fusion to take place, what must the two nuclei overcome?",
+      "options": [
+        "Gravitational attraction",
+        "Nuclear repulsion",
+        "Coulomb repulsion between the positively charged particles",
+        "Magnetic forces"
+      ],
+      "correct": 2,
+      "explanation": "The text states that for fusion to take place, the two nuclei must have enough energy to overcome the Coulomb repulsion since they are both positively charged particles. | உரை இணைவு நிகழ, இரண்டு அணுக்கருக்களும் நேர் மின்னூட்டம் கொண்ட துகள்களாக இருப்பதால் கூலம்ப் விலக்கலை மீற போதுமான ஆற்றல் கொண்டிருக்க வேண்டும் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the approximate Coulomb barrier height for two protons?",
+      "options": [
+        "About 40 keV",
+        "About 400 keV",
+        "About 4 MeV",
+        "About 40 MeV"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the barrier height for two protons is approximately 400 keV. | உரை இரண்டு புரோட்டான்களுக்கான தடை உயரம் சுமார் 400 keV எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the estimated temperature at which two protons in a proton gas would have enough energy to overcome the Coulomb barrier?",
+      "options": [
+        "About 3 × 10^7 K",
+        "About 3 × 10^8 K",
+        "About 3 × 10^9 K",
+        "About 3 × 10^10 K"
+      ],
+      "correct": 2,
+      "explanation": "The text estimates the temperature using (3/2)kT = K ≈ 400 keV, which gives T ~ 3 × 10^9 K. | உரை (3/2)kT = K ≈ 400 keV என்பதைப் பயன்படுத்தி வெப்பநிலை T ~ 3 × 10^9 K என மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is thermonuclear fusion?",
+      "options": [
+        "Fusion achieved by chemical reactions",
+        "Fusion achieved by raising the temperature so that particles have enough kinetic energy to overcome the Coulomb repulsive behaviour",
+        "Fusion achieved by magnetic confinement only",
+        "Fusion achieved at room temperature"
+      ],
+      "correct": 1,
+      "explanation": "The text defines thermonuclear fusion as fusion achieved by raising the temperature of the system so that particles have enough kinetic energy to overcome the Coulomb repulsive behaviour. | உரை வெப்ப அணுக்கரு இணைவை அமைப்பின் வெப்பநிலையை உயர்த்துவதன் மூலம் ஆற்றலை அடைவதாக வரையறுக்கிறது, இதனால் துகள்கள் கூலம்ப் விலக்கும் நடத்தையை மீற போதுமான இயக்க ஆற்றலைக் கொண்டிருக்கும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the interior temperature of the sun?",
+      "options": [
+        "About 1.5 × 10^6 K",
+        "About 1.5 × 10^7 K",
+        "About 1.5 × 10^8 K",
+        "About 1.5 × 10^9 K"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the interior of the sun has a temperature of 1.5 × 10^7 K. | உரை சூரியனின் உட்பகுதி 1.5 × 10^7 K வெப்பநிலையைக் கொண்டுள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Why does fusion occur in the sun despite its interior temperature being less than the estimated temperature required for fusion?",
+      "options": [
+        "Because the sun has a much larger volume",
+        "Because fusion in the sun involves protons whose energies are much above the average energy",
+        "Because the sun's gravity compresses the nuclei directly",
+        "Because the Coulomb barrier is lower inside the sun"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the sun's interior temperature is considerably less than the estimated temperature required for fusion of particles of average energy, and fusion involves protons whose energies are much above the average energy. | உரை சூரியனின் உட்பகுதி வெப்பநிலை சராசரி ஆற்றல் கொண்ட துகள்களின் இணைவுக்கு தேவையான மதிப்பிடப்பட்ட வெப்பநிலையை விட குறிப்பிடத்தக்க குறைவு, மேலும் இணைவு சராசரி ஆற்றலை விட மிக அதிக ஆற்றல் கொண்ட புரோட்டான்களை உள்ளடக்கியது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the fuel in the sun?",
+      "options": [
+        "Helium in the core",
+        "Hydrogen in the core",
+        "Carbon in the outer layers",
+        "Deuterium throughout the sun"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the fuel in the sun is the hydrogen in its core. | உரை சூரியனில் எரிபொருள் அதன் மையத்தில் உள்ள ஹைட்ரஜன் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In the proton-proton cycle, what is produced in the first reaction?",
+      "options": [
+        "Helium-3 and a gamma photon",
+        "A deuteron, a positron, and a neutrino with 0.42 MeV",
+        "Helium-4 and two protons",
+        "A triton and a proton"
+      ],
+      "correct": 1,
+      "explanation": "The text states the first reaction in the proton-proton cycle: ^1_1 H + ^1_1 H -> ^2_1 H + e+ + v + 0.42 MeV. | உரை புரோட்டான்-புரோட்டான் சுழற்சியின் முதல் வினை: ^1_1 H + ^1_1 H -> ^2_1 H + e+ + v + 0.42 MeV எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What happens when a positron and an electron meet in the proton-proton cycle?",
+      "options": [
+        "They form a neutron",
+        "They annihilate to produce gamma-ray photons with 1.02 MeV",
+        "They fuse to form deuterium",
+        "They repel each other indefinitely"
+      ],
+      "correct": 1,
+      "explanation": "The text states that e+ + e- -> γ + γ + 1.02 MeV, producing gamma-ray photons. | உரை e+ + e- -> γ + γ + 1.02 MeV, காமா-கதிர் ஒளிமின் துகள்களை உற்பத்தி செய்கிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is produced in the third reaction of the proton-proton cycle?",
+      "options": [
+        "A deuteron and a positron",
+        "Helium-3 and a gamma photon with 5.49 MeV",
+        "Helium-4 and two protons",
+        "A triton and a proton"
+      ],
+      "correct": 1,
+      "explanation": "The text states the third reaction: ^2_1 H + ^1_1 H -> ^3_2 He + γ + 5.49 MeV. | உரை மூன்றாவது வினை: ^2_1 H + ^1_1 H -> ^3_2 He + γ + 5.49 MeV எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the net energy released when four hydrogen atoms combine to form a helium-4 nucleus in the proton-proton cycle?",
+      "options": [
+        "About 5.49 MeV",
+        "About 12.86 MeV",
+        "About 26.7 MeV",
+        "About 400 keV"
+      ],
+      "correct": 2,
+      "explanation": "The text states that four hydrogen atoms combine to form a ^4_2 He atom with a release of 26.7 MeV of energy. | உரை நான்கு ஹைட்ரஜன் அணுக்கள் ஒரு ^4_2 He அணுவை உருவாக்க 26.7 MeV ஆற்றல் வெளியேறுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What happens when the hydrogen in a star's core gets depleted and becomes helium?",
+      "options": [
+        "The star expands and becomes hotter",
+        "The core starts to cool and the star begins to collapse under its own gravity",
+        "The star immediately becomes a black hole",
+        "The star stops emitting light"
+      ],
+      "correct": 1,
+      "explanation": "The text states that as hydrogen in the core gets depleted and becomes helium, the core starts to cool and the star begins to collapse under its own gravity. | உரை மையத்தில் உள்ள ஹைட்ரஜன் தீர்ந்து ஹீலியமாக மாறும்போது, மையம் குளிரத் தொடங்குகிறது மற்றும் நட்சத்திரம் தனது சொந்த ஈர்ப்பு விசையின் கீழ் சுருங்கத் தொடங்குகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "At what core temperature does fusion of helium nuclei into carbon take place?",
+      "options": [
+        "About 10^6 K",
+        "About 10^7 K",
+        "About 10^8 K",
+        "About 10^9 K"
+      ],
+      "correct": 2,
+      "explanation": "The text states that if the temperature increases to about 10^8 K, fusion takes place of helium nuclei into carbon. | உரை வெப்பநிலை சுமார் 10^8 K அதிகரித்தால், ஹீலியம் அணுக்கருக்கள் கார்பனாக இணைவு நிகழ்கிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to Example 13.4 solution, are nuclear reaction equations balanced in the same sense as chemical equations?",
+      "options": [
+        "Yes, the number of atoms of each element is conserved",
+        "No, elements may be transmuted so the number of atoms is not necessarily conserved, but protons and neutrons are separately conserved",
+        "No, nothing is conserved in nuclear reactions",
+        "Yes, only the total mass is conserved"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in nuclear reactions elements may be transmuted so the number of atoms of each element is not necessarily conserved, but the number of protons and neutrons are both separately conserved. | உரை அணுக்கரு வினைகளில் தனிமங்கள் மாற்றப்படலாம், எனவே ஒவ்வொரு தனிமத்தின் அணுக்களின் எண்ணிக்கை கட்டாயமாக பாதுகாக்கப்படுவதில்லை, ஆனால் புரோட்டான்கள் மற்றும் நியூட்ரான்களின் எண்ணிக்கை இரண்டும் தனித்தனியாக பாதுகாக்கப்படுகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "If both the number of protons and neutrons are conserved in each nuclear reaction, how is mass converted to energy?",
+      "options": [
+        "The total rest mass of nucleons changes",
+        "The difference in binding energies between initial and final nuclei appears as energy released or absorbed",
+        "Protons are converted to neutrons",
+        "Neutrons are converted to electrons"
+      ],
+      "correct": 1,
+      "explanation": "The text states that since proton and neutron numbers are conserved, the total rest mass is the same, but the total binding energy on the left need not equal that on the right, and the difference appears as energy released or absorbed. | உரை புரோட்டான் மற்றும் நியூட்ரான் எண்கள் பாதுகாக்கப்படுவதால் மொத்த ஓய்வு நிறை ஒரே மாதிரியானது, ஆனால் இடது புறத்தின் மொத்த பிணைப்பு ஆற்றல் வலது புறத்திற்கு சமமாக இருக்க வேண்டியதில்லை, வேறுபாடு வெளியேறும் அல்லது உறிஞ்சப்படும் ஆற்றலாக தோன்றுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Is the general impression that mass-energy interconversion takes place only in nuclear reactions and never in chemical reactions correct?",
+      "options": [
+        "Yes, it is strictly correct",
+        "No, chemical reactions also involve mass-energy interconversion but the mass defects are almost a million times smaller",
+        "No, chemical reactions involve much larger mass defects than nuclear reactions",
+        "Yes, because chemical binding energies do not contribute to mass"
+      ],
+      "correct": 1,
+      "explanation": "The text states that this general impression is strictly speaking incorrect because chemical reactions also involve mass-energy interconversion in principle, but the mass defects are almost a million times smaller than in nuclear reactions. | உரை இந்த பொதுவான எண்ணம் கண்டிப்பாகப் பேசுவதாக தவறானது, ஏனெனில் வேதி வினைகளும் கொள்கையில் நிறை-ஆற்றல் பரிமாற்றத்தை உள்ளடக்கியது, ஆனால் நிறை குறைபாடுகள் அணு வினைகளை விட கிட்டத்தட்ட ஒரு மில்லியன் மடங்கு சிறியவை எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the aim of controlled fusion reactors?",
+      "options": [
+        "To produce nuclear weapons",
+        "To generate steady power by heating nuclear fuel to temperatures in the range of 10^8 K",
+        "To study radioactive decay only",
+        "To create new chemical elements"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in controlled fusion reactors, the aim is to generate steady power by heating the nuclear fuel to a temperature in the range of 10^8 K. | உரை கட்டுப்படுத்தப்பட்ட இணைவு உலைகளில், அணு எரிபொருளை 10^8 K வரம்பில் வெப்பநிலைக்கு சூடாக்குவதன் மூலம் நிலையான ஆற்றலை உற்பத்தி செய்வதே குறிக்கோள் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "At temperatures of 10^8 K, what is the state of the nuclear fuel?",
+      "options": [
+        "Solid metal",
+        "Liquid droplets",
+        "A mixture of positive ions and electrons called plasma",
+        "A gas of neutral atoms"
+      ],
+      "correct": 2,
+      "explanation": "The text states that at these temperatures, the fuel is a mixture of positive ions and electrons (plasma). | உரை இந்த வெப்பநிலைகளில், எரிபொருள் நேர் அயனிகள் மற்றும் எலக்ட்ரான்களின் கலவை (பிளாஸ்மா) எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the main challenge in controlled thermonuclear fusion?",
+      "options": [
+        "Finding enough nuclear fuel",
+        "Confining the plasma since no container can stand such high temperature",
+        "Preventing radioactive waste",
+        "Cooling the reactor down"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the challenge is to confine this plasma, since no container can stand such a high temperature. | உரை இந்த பிளாஸ்மாவை கட்டுப்படுத்துவது சவால், ஏனெனில் எந்த கொள்கலனும் அத்தகைய உயர் வெப்பநிலையை தாங்க முடியாது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which countries are mentioned as developing techniques for controlled fusion?",
+      "options": [
+        "Only the United States and Russia",
+        "Several countries around the world including India",
+        "Only European countries",
+        "Only Asian countries"
+      ],
+      "correct": 1,
+      "explanation": "The text states that several countries around the world including India are developing techniques in this connection. | உரை இந்த தொடர்பில் உலகம் முழுவதும் பல நாடுகள் இந்தியாவை உள்ளடக்கிய முறைகளை வளர்த்து வருகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the potential outcome if controlled fusion reactors are successful?",
+      "options": [
+        "They will replace all chemical industries",
+        "They will hopefully supply almost unlimited power to humanity",
+        "They will eliminate all nuclear waste",
+        "They will make fossil fuels cheaper"
+      ],
+      "correct": 1,
+      "explanation": "The text states that if successful, fusion reactors will hopefully supply almost unlimited power to humanity. | உரை வெற்றி பெற்றால், இணைவு உலைகள் மனிதகுலத்திற்கு கிட்டத்தட்ட வரம்பற்ற ஆற்றலை வழங்கும் என நம்பப்படுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In what sense are nuclear reaction equations balanced compared to chemical equations?",
+      "options": [
+        "The number of atoms of each element is the same on both sides",
+        "Elements may be transmuted so the number of atoms is not conserved, but the number of protons and neutrons are separately conserved",
+        "Only the total mass is conserved",
+        "Nothing is conserved in nuclear reactions"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in nuclear reactions elements may be transmuted so the number of atoms of each element is not necessarily conserved, but the number of protons and neutrons are both separately conserved. | உரை அணுக்கரு வினைகளில் தனிமங்கள் மாற்றப்படலாம், எனவே ஒவ்வொரு தனிமத்தின் அணுக்களின் எண்ணிக்கை கட்டாயமாக பாதுகாக்கப்படுவதில்லை, ஆனால் புரோட்டான்கள் மற்றும் நியூட்ரான்களின் எண்ணிக்கை இரண்டும் தனித்தனியாக பாதுகாக்கப்படுகின்றன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "At very high energies, what is strictly conserved in nuclear reactions?",
+      "options": [
+        "Only the number of protons",
+        "Only the number of neutrons",
+        "Total charge and total baryon number",
+        "Only kinetic energy"
+      ],
+      "correct": 2,
+      "explanation": "The text states that at very high energies, what is strictly conserved is the total charge and total baryon number. | உரை மிக உயர் ஆற்றல்களில், மொத்த மின்னூட்டம் மற்றும் மொத்த பேரியான் எண் கண்டிப்பாக பாதுகாக்கப்படுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How is mass converted to energy in a nuclear reaction if protons and neutrons are conserved?",
+      "options": [
+        "The rest mass of individual nucleons changes",
+        "The difference in total binding energies between initial and final nuclei appears as energy",
+        "Protons are converted into energy directly",
+        "Neutrons lose their mass completely"
+      ],
+      "correct": 1,
+      "explanation": "The text states that since proton and neutron numbers are conserved, the total rest mass is the same, but the total binding energy on the left need not equal that on the right, and the difference appears as energy released or absorbed. | உரை புரோட்டான் மற்றும் நியூட்ரான் எண்கள் பாதுகாக்கப்படுவதால் மொத்த ஓய்வு நிறை ஒரே மாதிரியானது, ஆனால் இடது புறத்தின் மொத்த பிணைப்பு ஆற்றல் வலது புறத்திற்கு சமமாக இருக்க வேண்டியதில்லை, வேறுபாடு வெளியேறும் அல்லது உறிஞ்சப்படும் ஆற்றலாக தோன்றுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Does mass-energy interconversion occur in chemical reactions?",
+      "options": [
+        "No, it only occurs in nuclear reactions",
+        "Yes, in principle, but the mass defects are almost a million times smaller than in nuclear reactions",
+        "Yes, and the mass defects are larger than in nuclear reactions",
+        "No, because chemical binding energies do not exist"
+      ],
+      "correct": 1,
+      "explanation": "The text states that chemical reactions are similar to nuclear reactions in principle regarding mass-energy interconversion, but the mass defects involved in a chemical reaction are almost a million times smaller than those in a nuclear reaction. | உரை வேதி வினைகளும் கொள்கையில் நிறை-ஆற்றல் பரிமாற்றத்தில் அணு வினைகளைப் போலவே, ஆனால் வேதி வினையில் ஈடுபடும் நிறை குறைபாடுகள் அணு வினைகளை விட கிட்டத்தட்ட ஒரு மில்லியன் மடங்கு சிறியவை எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What percentage of the mass of an atom is concentrated in the nucleus according to the summary?",
+      "options": [
+        "More than 50%",
+        "More than 90%",
+        "More than 99.9%",
+        "Exactly 100%"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that more than 99.9% of the mass of the atom is concentrated in the nucleus. | சுருக்கம் அணுவின் 99.9% க்கும் மேற்பட்ட நிறை அணுக்கருவில் குவிந்துள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the value of 1 atomic mass unit (u) in kilograms according to the summary?",
+      "options": [
+        "1.660563 × 10^-26 kg",
+        "1.660563 × 10^-27 kg",
+        "1.660563 × 10^-28 kg",
+        "1.660563 × 10^-25 kg"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that 1 u = 1.660563 × 10^-27 kg. | சுருக்கம் 1 u = 1.660563 × 10^-27 kg எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the relationship between mass number A, atomic number Z, and neutron number N?",
+      "options": [
+        "A = Z - N",
+        "A = Z + N",
+        "A = Z × N",
+        "A = Z / N"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that A = Z + N, where A is the mass number, Z is the atomic number, and N is the neutron number. | சுருக்கம் A = Z + N எனக் குறிப்பிடுகிறது, இங்கு A நிறை எண், Z அணு எண், N நியூட்ரான் எண்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the formula for nuclear radius according to the summary?",
+      "options": [
+        "R = R0 A",
+        "R = R0 A^(1/2)",
+        "R = R0 A^(1/3)",
+        "R = R0 / A^(1/3)"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that radii of nuclei fit the formula R = R0 A^(1/3), where R0 = 1.2 fm. | சுருக்கம் அணுக்கருக்களின் ஆரம் R = R0 A^(1/3) வாய்பாட்டிற்கு பொருந்துகிறது, R0 = 1.2 fm எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the approximate value of R0 in the nuclear radius formula?",
+      "options": [
+        "1.0 fm",
+        "1.2 fm",
+        "1.5 fm",
+        "2.0 fm"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that R0 = 1.2 fm in the nuclear radius formula. | சுருக்கம் அணுக்கரு ஆரம் வாய்பாட்டில் R0 = 1.2 fm எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the order of magnitude of nuclear density?",
+      "options": [
+        "10^12 kg/m^3",
+        "10^15 kg/m^3",
+        "10^17 kg/m^3",
+        "10^19 kg/m^3"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that the nuclear density is of the order of 10^17 kg/m^3. | சுருக்கம் அணுக்கரு அடர்த்தி 10^17 kg/m^3 வரிசையில் உள்ளது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What force binds neutrons and protons in the nucleus?",
+      "options": [
+        "Coulomb force",
+        "Gravitational force",
+        "Short-range strong nuclear force",
+        "Magnetic force"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that neutrons and protons are bound in a nucleus by the short-range strong nuclear force. | சுருக்கம் நியூட்ரான்கள் மற்றும் புரோட்டான்கள் குறுகிய-வரம்பு வலிமையான அணுக்கரு விசையால் அணுக்கருவில் பிணைக்கப்பட்டுள்ளன எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Does the nuclear force distinguish between neutrons and protons?",
+      "options": [
+        "Yes, it acts only on protons",
+        "Yes, it acts only on neutrons",
+        "No, it does not distinguish between neutron and proton",
+        "Yes, it is stronger for protons than neutrons"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that the nuclear force does not distinguish between neutron and proton. | சுருக்கம் அணுக்கரு விசை நியூட்ரானுக்கும் புரோட்டானுக்கும் இடையே வேறுபடுத்துவதில்லை எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the formula for mass defect?",
+      "options": [
+        "ΔM = M - (Z mp + (A-Z) mn)",
+        "ΔM = (Z mp + (A-Z) mn) - M",
+        "ΔM = Z mp + A mn",
+        "ΔM = M / (Z mp + (A-Z) mn)"
+      ],
+      "correct": 1,
+      "explanation": "The summary gives the mass defect formula as ΔM = (Z mp + (A-Z) mn) - M. | சுருக்கம் நிறை குறைபாடு வாய்பாட்டை ΔM = (Z mp + (A-Z) mn) - M எனக் கொடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the approximate binding energy per nucleon in the mass number range A = 30 to 170?",
+      "options": [
+        "About 4 MeV/nucleon",
+        "About 6 MeV/nucleon",
+        "About 8 MeV/nucleon",
+        "About 10 MeV/nucleon"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that in the mass number range A = 30 to 170, the binding energy per nucleon is nearly constant, about 8 MeV/nucleon. | சுருக்கம் A = 30 முதல் 170 வரையிலான நிறை எண் வரம்பில், ஒவ்வொரு நியூக்ளியானுக்கான பிணைப்பு ஆற்றல் கிட்டத்தட்ட நிலையானது, சுமார் 8 MeV/நியூக்ளியான் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How much larger are energies associated with nuclear processes compared to chemical processes?",
+      "options": [
+        "About 10 times larger",
+        "About 100 times larger",
+        "About a million times larger",
+        "About a billion times larger"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that energies associated with nuclear processes are about a million times larger than chemical processes. | சுருக்கம் அணுக்கரு செயல்முறைகளுடன் தொடர்புடைய ஆற்றல்கள் வேதி செயல்முறைகளை விட சுமார் ஒரு மில்லியன் மடங்கு அதிகம் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the Q-value of a nuclear process defined as?",
+      "options": [
+        "Q = initial kinetic energy - final kinetic energy",
+        "Q = final kinetic energy - initial kinetic energy",
+        "Q = initial mass - final mass",
+        "Q = final mass - initial mass"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that the Q-value of a nuclear process is Q = final kinetic energy - initial kinetic energy. | சுருக்கம் அணுக்கரு செயல்முறையின் Q மதிப்பு Q = இறுதி இயக்க ஆற்றல் - ஆரம்ப இயக்க ஆற்றல் என வரையறுக்கப்படுகிறது எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are alpha-rays according to the summary?",
+      "options": [
+        "High energy photons",
+        "Electrons",
+        "Helium nuclei",
+        "Neutrons"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that alpha-rays are helium nuclei. | சுருக்கம் அல்பா-கதிர்கள் ஹீலியம் அணுக்கருக்கள் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are beta-rays according to the summary?",
+      "options": [
+        "Helium nuclei",
+        "Electrons",
+        "High energy photons",
+        "Neutrons"
+      ],
+      "correct": 1,
+      "explanation": "The summary states that beta-rays are electrons. | சுருக்கம் பீட்டா-கதிர்கள் எலக்ட்ரான்கள் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are gamma-rays according to the summary?",
+      "options": [
+        "Helium nuclei",
+        "Electrons",
+        "Electromagnetic radiation of wavelengths shorter than X-rays",
+        "Neutrons"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that gamma-rays are electromagnetic radiation of wavelengths shorter than X-rays. | சுருக்கம் காமா-கதிர்கள் X-கதிர்களை விட குறைந்த அலைநீளம் கொண்ட மின்காந்த கதிர்வீச்சு எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the source of energy of all stars including our sun?",
+      "options": [
+        "Nuclear fission of heavy elements",
+        "Chemical combustion",
+        "Fusion of hydrogen nuclei into helium nuclei",
+        "Gravitational collapse"
+      ],
+      "correct": 2,
+      "explanation": "The summary states that fusion of hydrogen nuclei into helium nuclei is the source of energy of all stars including our sun. | சுருக்கம் ஹைட்ரஜன் அணுக்கருக்கள் ஹீலியம் அணுக்கருக்களாக இணைவது நமது சூரியனை உள்ளடக்கிய அனைத்து நட்சத்திரங்களின் ஆற்றல் மூலம் எனக் குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the correct formula for mass defect (ΔM) of a nucleus?",
+      "options": [
+        "ΔM = (Z·mp + (A-Z)·mn) + M",
+        "ΔM = (Z·mp + (A-Z)·mn) - M",
+        "ΔM = M - (Z·mp + (A-Z)·mn)",
+        "ΔM = Z·mp - (A-Z)·mn"
+      ],
+      "correct": 1,
+      "explanation": "The mass defect is the difference between the total mass of individual protons and neutrons and the actual nuclear mass. Since the nucleus mass is always less than the sum of its constituents, ΔM = (Z·mp + (A-Z)·mn) - M. This missing mass is converted into binding energy according to Einstein's equation. | கருவின் நிறைக்குறைபாடு தனித்தனி புரோட்டான்களின் மற்றும் நியூட்ரான்களின் மொத்த நிறைக்கும், உண்மையான கரு நிறைக்கும் இடையேயான வித்தியாசமாகும். கரு நிறை எப்போதும் அதன் கூறுகளின் கூட்டுத்தொகையை விட குறைவாக இருப்பதால், ΔM = (Z·mp + (A-Z)·mn) - M என்ற சூத்திரம் பயன்படுகிறது. இந்த காணாமல் போன நிறை ஐன்ஸ்டீனின் சமன்பாட்டின்படி கட்டுறு ஆற்றலாக மாற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How is the binding energy (ΔEb) of a nucleus expressed using Einstein's mass-energy relation?",
+      "options": [
+        "ΔEb = ΔM / c²",
+        "ΔEb = ΔM · c",
+        "ΔEb = ΔM · c²",
+        "ΔEb = ΔM² · c"
+      ],
+      "correct": 2,
+      "explanation": "Using Einstein's famous mass-energy equivalence relation E = mc², the binding energy is expressed as ΔEb = ΔM · c², where ΔM is the mass defect. This represents the energy required to separate the nucleus into its constituent nucleons. | ஐன்ஸ்டீனின் பிரசித்தமான நிறை-ஆற்றல் சமநிலை சமன்பாடு E = mc²-ஐப் பயன்படுத்தி, கட்டுறு ஆற்றல் ΔEb = ΔM · c² என வெளிப்படுத்தப்படுகிறது, இங்கு ΔM நிறைக்குறைபாடு ஆகும். இது கருவை அதன் கூறு நியூக்ளியான்களாகப் பிரிக்க தேவையான ஆற்றலைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In which mass number range is the binding energy per nucleon nearly constant at about 8 MeV/nucleon?",
+      "options": [
+        "A = 10 to 30",
+        "A = 30 to 170",
+        "A = 170 to 240",
+        "A = 1 to 10"
+      ],
+      "correct": 1,
+      "explanation": "In the mass number range A = 30 to 170, the binding energy per nucleon is nearly constant at about 8 MeV/nucleon. This is the flat middle region of the binding energy curve where nuclei are most stable. | நிறை எண் வரம்பு A = 30 முதல் 170 வரை, ஒவ்வொரு நியூக்ளியானுக்கான கட்டுறு ஆற்றல் கிட்டத்தட்ட 8 MeV/நியூக்ளியான் என்ற அளவில் நிலையானதாக இருக்கிறது. இது கட்டுறு ஆற்றல் வளைவின் சமதளமான நடுப்பகுதியாகும், இங்கு கருக்கள் மிகவும் நிலையானவை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How do energies associated with nuclear processes compare with chemical processes?",
+      "options": [
+        "Nuclear energies are about the same as chemical energies",
+        "Nuclear energies are about 100 times larger than chemical processes",
+        "Nuclear energies are about a million times larger than chemical processes",
+        "Nuclear energies are about 10 times smaller than chemical processes"
+      ],
+      "correct": 2,
+      "explanation": "Energies associated with nuclear processes are about a million times larger than chemical processes. This is because nuclear binding involves strong forces and mass-energy conversion, while chemical processes involve only electron rearrangements with much smaller energy changes. | கருசார் செயல்முறைகளுடன் தொடர்புடைய ஆற்றல்கள் வேதிச்செயல்முறைகளை விட கிட்டத்தட்ட ஒரு மில்லியன் மடங்கு பெரியவை. இது கருக் கட்டுறு வலுவான விசைகளையும் நிறை-ஆற்றல் மாற்றத்தையும் உள்ளடக்குவதால், அதேசமயம் வேதிச்செயல்முறைகள் மிகக் குறைந்த ஆற்றல் மாற்றங்களுடன் மின்னணு மறுசீரமைப்புகளை மட்டுமே உள்ளடக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the definition of the Q-value of a nuclear process?",
+      "options": [
+        "Q = initial kinetic energy - final kinetic energy",
+        "Q = final kinetic energy - initial kinetic energy",
+        "Q = initial mass - final mass",
+        "Q = final mass - initial mass"
+      ],
+      "correct": 1,
+      "explanation": "The Q-value of a nuclear process is defined as Q = final kinetic energy - initial kinetic energy. Due to conservation of mass-energy, this is also equal to (sum of initial masses - sum of final masses)c². Positive Q means exothermic (energy released), negative Q means endothermic (energy absorbed). | ஒரு கருசார் செயல்முறையின் Q-மதிப்பு Q = இறுதி இயக்க ஆற்றல் - தொடக்க இயக்க ஆற்றல் என வரையறுக்கப்படுகிறது. நிறை-ஆற்றல் பேணல் காரணமாக, இது (தொடக்க நிறைகளின் கூட்டுத்தொகை - இறுதி நிறைகளின் கூட்டுத்தொகை)c²-க்கும் சமமாகும். நேர்மறை Q வெப்பவிசையைக் (ஆற்றல் வெளியேற்றம்) குறிக்கிறது, எதிர்மறை Q வெப்பஉறிஞ்சலைக் (ஆற்றல் உறிஞ்சப்படுதல்) குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "According to mass-energy conservation, how is Q-value also expressed?",
+      "options": [
+        "Q = (sum of final masses - sum of initial masses) c²",
+        "Q = (sum of initial masses - sum of final masses) c²",
+        "Q = (sum of initial masses + sum of final masses) c²",
+        "Q = (sum of initial masses × sum of final masses) c²"
+      ],
+      "correct": 1,
+      "explanation": "Due to conservation of mass-energy, the Q-value is also expressed as Q = (sum of initial masses - sum of final masses)c². If initial mass is greater than final mass, Q is positive and energy is released. | நிறை-ஆற்றல் பேணல் காரணமாக, Q-மதிப்பு Q = (தொடக்க நிறைகளின் கூட்டுத்தொகை - இறுதி நிறைகளின் கூட்டுத்தொகை)c² என்றும் வெளிப்படுத்தப்படுகிறது. தொடக்க நிறை இறுதி நிறையை விட அதிகமாக இருந்தால், Q நேர்மறையாக இருக்கும் மற்றும் ஆற்றல் வெளியேற்றப்படும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is radioactivity?",
+      "options": [
+        "The process of electrons jumping between energy levels",
+        "The phenomenon where nuclei transform by emitting alpha, beta, or gamma rays",
+        "The splitting of a heavy nucleus into lighter fragments",
+        "The combining of light nuclei to form a heavier nucleus"
+      ],
+      "correct": 1,
+      "explanation": "Radioactivity is the phenomenon in which nuclei of a given species transform by giving out alpha (α) rays, beta (β) rays, or gamma (γ) rays. Alpha rays are helium nuclei, beta rays are electrons, and gamma rays are electromagnetic radiation with wavelengths shorter than X-rays. | கதிரியக்கம் என்பது ஒரு குறிப்பிட்ட இனத்தின் கருக்கள் ஆல்ஃபா (α) கதிர்கள், பீட்டா (β) கதிர்கள், அல்லது காமா (γ) கதிர்களை வெளியேற்றி மாறுவதற்கான நிகழ்வாகும். ஆல்ஃபா கதிர்கள் ஹீலியம் கருக்கள், பீட்டா கதிர்கள் மின்னணுக்கள், மற்றும் காமா கதிர்கள் X-கதிர்களை விட குறைந்த அலைநீளம் கொண்ட மின்காந்த கதிர்வீச்சு ஆகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What particle is emitted during alpha (α) decay?",
+      "options": [
+        "An electron",
+        "A positron",
+        "A helium nucleus (⁴₂He)",
+        "A high-energy photon"
+      ],
+      "correct": 2,
+      "explanation": "In alpha decay, a helium nucleus (⁴₂He) is emitted. This consists of 2 protons and 2 neutrons. Alpha particles are relatively heavy and have low penetration power compared to beta and gamma radiation. | ஆல்ஃபா சிதைவில், ஒரு ஹீலியம் கரு (⁴₂He) வெளியேற்றப்படுகிறது. இது 2 புரோட்டான்கள் மற்றும் 2 நியூட்ரான்களைக் கொண்டிருக்கிறது. ஆல்ஃபா துகள்கள் பீட்டா மற்றும் காமா கதிர்வீச்சை விட அதிக நிறை கொண்டவை மற்றும் குறைந்த ஊடுருவும் திறன் கொண்டவை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What particles are emitted during beta (β) decay?",
+      "options": [
+        "Helium nuclei",
+        "Electrons or positrons",
+        "High-energy photons",
+        "Neutrons"
+      ],
+      "correct": 1,
+      "explanation": "In beta decay, electrons or positrons are emitted. Positrons are particles with the same mass as electrons but with charge exactly opposite to that of electrons. Beta decay occurs when a neutron converts to a proton or vice versa within the nucleus. | பீட்டா சிதைவில், மின்னணுக்கள் அல்லது பாசிட்ரான்கள் வெளியேற்றப்படுகின்றன. பாசிட்ரான்கள் மின்னணுக்களைப் போன்ற அதே நிறை கொண்ட துகள்களாகும், ஆனால் மின்னணுக்களுக்கு நேர்மாறான மின்னேற்றம் கொண்டவை. பீட்டா சிதைவு கருவுக்குள் ஒரு நியூட்ரான் புரோட்டானாக மாறும்போது அல்லது அதற்கு நேர்மாறாக நிகழும்போது ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is emitted during gamma (γ) decay?",
+      "options": [
+        "Helium nuclei",
+        "Electrons",
+        "High-energy photons (hundreds of keV or more)",
+        "Neutrons"
+      ],
+      "correct": 2,
+      "explanation": "Gamma decay involves the emission of high-energy photons with energies of hundreds of keV or more. These are electromagnetic radiation with wavelengths shorter than X-rays. Gamma decay usually occurs after alpha or beta decay when the nucleus is left in an excited state. | காமா சிதைவு நூற்றுக்கணக்கான keV அல்லது அதற்கு மேற்பட்ட ஆற்றல் கொண்ட உயர் ஆற்றல் ஒளிமின்னணுக்களின் வெளியேற்றத்தை உள்ளடக்குகிறது. இவை X-கதிர்களை விட குறைந்த அலைநீளம் கொண்ட மின்காந்த கதிர்வீச்சு ஆகும். காமா சிதைவு பொதுவாக ஆல்ஃபா அல்லது பீட்டா சிதைவுக்குப் பிறகு கரு உற்சாக நிலையில் இருக்கும்போது ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is nuclear fission?",
+      "options": [
+        "Combining two light nuclei to form a heavier nucleus",
+        "A heavy nucleus breaking into two smaller fragments",
+        "Emission of alpha particles from a nucleus",
+        "Conversion of mass to energy in a chemical reaction"
+      ],
+      "correct": 1,
+      "explanation": "Nuclear fission is the process where a heavy nucleus like ²³⁵₉₂U breaks into two smaller fragments. For example: ²³⁵₉₂U + ¹₀n → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3¹₀n. The fragment products are radioactive and emit beta particles to achieve stable end products. Energy of about 200 MeV is released per fission. | கருப் பிளவு என்பது ²³⁵₉₂U போன்ற ஒரு கனமான கரு இரண்டு சிறிய துண்டுகளாக உடையும் செயல்முறையாகும். எடுத்துக்காட்டாக: ²³⁵₉₂U + ¹₀n → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3¹₀n. துண்டு விளைபொருட்கள் கதிரியக்கமானவை மற்றும் நிலையான இறுதி விளைபொருட்களை அடைய பீட்டா துகள்களை வெளியேற்றுகின்றன. ஒவ்வொரு பிளவிலும் சுமார் 200 MeV ஆற்றல் வெளியேற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is nuclear fusion?",
+      "options": [
+        "A heavy nucleus splitting into lighter fragments",
+        "Lighter nuclei combining to form a larger nucleus",
+        "Emission of gamma rays from an excited nucleus",
+        "The conversion of a neutron into a proton"
+      ],
+      "correct": 1,
+      "explanation": "Nuclear fusion is the process where lighter nuclei combine to form a larger nucleus. For example, fusion of hydrogen nuclei into helium nuclei is the source of energy of all stars including our sun. Fusion requires very high temperatures to overcome the Coulomb barrier between positively charged nuclei. | கரு இணைவு என்பது இலேசான கருக்கள் ஒன்றிணைந்து ஒரு பெரிய கருவை உருவாக்கும் செயல்முறையாகும். எடுத்துக்காட்டாக, ஹைட்ரஜன் கருக்கள் ஹீலியம் கருக்களாக இணைவது நமது சூரியன் உட்பட அனைத்து விண்மீர்களின் ஆற்றல் மூலமாகும். நேர்மின்னேற்றம் கொண்ட கருக்களுக்கு இடையேயான கூலம்ப் தடையை மீற மிக உயர்ந்த வெப்பநிலைகள் தேவைப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the approximate energy released per fissioning nucleus in a fission reaction?",
+      "options": [
+        "About 2 MeV",
+        "About 20 MeV",
+        "About 200 MeV",
+        "About 2000 MeV"
+      ],
+      "correct": 2,
+      "explanation": "The energy released (Q-value) in the fission reaction of nuclei like uranium is of the order of 200 MeV per fissioning nucleus. This is estimated from the gain in binding energy per nucleon when a heavy nucleus (A≈240, Ebn≈7.6 MeV) splits into intermediate mass fragments (A≈120, Ebn≈8.5 MeV). | யுரேனியம் போன்ற கருக்களின் பிளவு வினையில் வெளியேற்றப்படும் ஆற்றல் (Q-மதிப்பு) ஒவ்வொரு பிளவு கருவுக்கும் சுமார் 200 MeV வரிசையாகும். இது ஒரு கனமான கரு (A≈240, Ebn≈7.6 MeV) இடைநிலை நிறைத் துண்டுகளாக (A≈120, Ebn≈8.5 MeV) பிளக்கும்போது ஒவ்வொரு நியூக்ளியானுக்கான கட்டுறு ஆற்றலில் கிடைக்கும் ஆதாயத்திலிருந்து மதிப்பிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the definition of one atomic mass unit (u)?",
+      "options": [
+        "The mass of one hydrogen atom",
+        "1/12th of the mass of one atom of ¹²C",
+        "The mass of one proton",
+        "The mass of one neutron"
+      ],
+      "correct": 1,
+      "explanation": "One atomic mass unit (1 u) is defined as 1/12th of the mass of one atom of carbon-12 (¹²C). This equals 1.660539 × 10⁻²⁷ kg. It is the standard unit for expressing atomic or nuclear masses. | ஒரு அணு நிறை அலகு (1 u) என்பது கார்பன்-12 (¹²C) ஒரு அணுவின் நிறையில் 1/12 பங்கு என வரையறுக்கப்படுகிறது. இது 1.660539 × 10⁻²⁷ kg-க்கு சமம். இது அணு அல்லது கரு நிறைகளை வெளிப்படுத்துவதற்கான தரநிலை அலகாகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are the dimensions of the disintegration or decay constant (λ)?",
+      "options": [
+        "[M] (Mass)",
+        "[L] (Length)",
+        "[T⁻¹] (Inverse Time)",
+        "[T] (Time)"
+      ],
+      "correct": 2,
+      "explanation": "The disintegration or decay constant (λ) has dimensions of [T⁻¹], which is inverse time. Its unit is s⁻¹ (per second). The decay constant represents the probability per unit time that a given nucleus will decay. | சிதைவு மாறிலி (λ) [T⁻¹] அளவுகளைக் கொண்டுள்ளது, இது நேரத்திற்கு நேர்மாறு ஆகும். அதன் அலகு s⁻¹ (வினாடிக்கு) ஆகும். சிதைவு மாறிலி ஒரு குறிப்பிட்ட கரு சிதையும் ஒரு அலகு நேரத்திற்கான நிகழ்தகவைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the definition of half-life (T₁/₂)?",
+      "options": [
+        "Time for all nuclei to decay",
+        "Time taken for the decay of one-half of the initial number of nuclei present in a radioactive sample",
+        "Time for the activity to reach zero",
+        "Time for one nucleus to decay"
+      ],
+      "correct": 1,
+      "explanation": "Half-life (T₁/₂) is the time taken for the decay of one-half of the initial number of nuclei present in a radioactive sample. It is a characteristic property of each radioactive isotope and does not depend on the initial amount. | அரை ஆயுள்காலம் (T₁/₂) என்பது ஒரு கதிரியக்க மாதிரியில் உள்ள தொடக்க கருக்களின் எண்ணிக்கையில் பாதிவரை சிதைவதற்கான நேரம் ஆகும். இது ஒவ்வொரு கதிரியக்க ஓரிடத்தனிமத்திற்கும் உள்ள பண்புக்கூறு மற்றும் தொடக்க அளவைப் பொறுத்து இல்லை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the definition of mean life (τ)?",
+      "options": [
+        "Time for half the nuclei to decay",
+        "Time at which the number of nuclei has been reduced to e⁻¹ of its initial value",
+        "Total lifetime of all nuclei divided by initial number",
+        "Time for all nuclei to completely decay"
+      ],
+      "correct": 1,
+      "explanation": "Mean life (τ) is the time at which the number of nuclei has been reduced to e⁻¹ (approximately 0.368) of its initial value. It is related to the decay constant by τ = 1/λ. The mean life is longer than the half-life by a factor of ln(2) ≈ 0.693. | சராசரி ஆயுள்காலம் (τ) என்பது கருக்களின் எண்ணிக்கை அதன் தொடக்க மதிப்பில் e⁻¹ (சுமார் 0.368) குறைந்த நேரம் ஆகும். இது சிதைவு மாறிலியுடன் τ = 1/λ என்ற தொடர்புடையது. சராசரி ஆயுள்காலம் அரை ஆயுள்காலத்தை விட ln(2) ≈ 0.693 காரணியால் அதிகமாகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the SI unit of activity of a radioactive sample?",
+      "options": [
+        "Curie (Ci)",
+        "Rutherford (Rd)",
+        "Becquerel (Bq)",
+        "Gray (Gy)"
+      ],
+      "correct": 2,
+      "explanation": "The SI unit of activity of a radioactive sample is Becquerel (Bq), which is defined as one disintegration per second (s⁻¹). It is named after Henri Becquerel who discovered radioactivity in 1896. 1 Bq = 1 decay/second. | ஒரு கதிரியக்க மாதிரியின் செயல்பாட்டின் SI அலகு பெக்கரல் (Bq) ஆகும், இது வினாடிக்கு ஒரு சிதைவு (s⁻¹) என வரையறுக்கப்படுகிறது. இது 1896-ல் கதிரியக்கத்தைக் கண்டுபிடித்த ஹென்றி பெக்கரல் என்பவரின் பெயரிடப்பட்டது. 1 Bq = 1 சிதைவு/வினாடி."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are the dimensions of activity (R) of a radioactive sample?",
+      "options": [
+        "[M]",
+        "[L²T⁻²]",
+        "[T⁻¹]",
+        "[T]"
+      ],
+      "correct": 2,
+      "explanation": "Activity (R) has dimensions of [T⁻¹], which is inverse time. Activity measures the rate of decay of a radioactive source, i.e., the number of disintegrations per unit time. Its SI unit is Becquerel (Bq) = s⁻¹. | செயல்பாடு (R) [T⁻¹] அளவுகளைக் கொண்டுள்ளது, இது நேரத்திற்கு நேர்மாறு ஆகும். செயல்பாடு ஒரு கதிரியக்க மூலத்தின் சிதைவு வீதத்தை அளவிடுகிறது, அதாவது ஒரு அலகு நேரத்திற்கான சிதைவுகளின் எண்ணிக்கை. அதன் SI அலகு பெக்கரல் (Bq) = s⁻¹."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What does the mass defect of a nucleus represent?",
+      "options": [
+        "The extra mass gained during nuclear formation",
+        "The difference between the sum of masses of individual nucleons and the actual nuclear mass",
+        "The mass of electrons in the atom",
+        "The mass converted to chemical energy"
+      ],
+      "correct": 1,
+      "explanation": "The mass defect represents the difference between the sum of masses of individual protons and neutrons (when unbound) and the actual mass of the nucleus. This missing mass has been converted into binding energy that holds the nucleus together, according to E = mc². | நிறைக்குறைபாடு என்பது தனித்தனி புரோட்டான்கள் மற்றும் நியூட்ரான்களின் (கட்டுறையற்ற நிலையில்) நிறைகளின் கூட்டுத்தொகைக்கும், உண்மையான கரு நிறைக்கும் இடையேயான வித்தியாசத்தைக் குறிக்கிறது. இந்த காணாமல் போன நிறை E = mc²-க்கு ஏற்ப கருவை ஒன்றாகப் பிணைக்கும் கட்டுறு ஆற்றலாக மாற்றப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the energy released when two protons combine to form a deuteron and a positron?",
+      "options": [
+        "0.42 MeV",
+        "3.27 MeV",
+        "4.03 MeV",
+        "5.49 MeV"
+      ],
+      "correct": 0,
+      "explanation": "The first reaction in the proton-proton cycle releases 0.42 MeV when two protons combine to form a deuteron and a positron. | இரண்டு புரோட்டான்கள் ஒன்றிணைந்து டியூடெரான் மற்றும் பாசிட்ரானை உருவாக்கும்போது வெளியிடப்படும் ஆற்றல் 0.42 MeV ஆகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the energy released when two deuterons combine to form a helium-3 nucleus and a neutron?",
+      "options": [
+        "0.42 MeV",
+        "3.27 MeV",
+        "4.03 MeV",
+        "12.86 MeV"
+      ],
+      "correct": 1,
+      "explanation": "When two deuterons combine to form a helium-3 nucleus and a neutron, 3.27 MeV of energy is released. | இரண்டு டியூடெரான்கள் ஒன்றிணைந்து ஹீலியம்-3 கருவும் நியூட்ரானும் உருவாகும்போது 3.27 MeV ஆற்றல் வெளியிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the approximate height of the Coulomb barrier for two protons?",
+      "options": [
+        "100 keV",
+        "200 keV",
+        "400 keV",
+        "800 keV"
+      ],
+      "correct": 2,
+      "explanation": "The Coulomb barrier height for two protons is approximately 400 keV. This is the energy required to overcome the electrostatic repulsion between two positively charged protons. | இரண்டு புரோட்டான்களுக்கான கூலம்ப் தடையின் உயரம் சுமார் 400 keV. இது இரண்டு நேர் மின்னேற்றம் கொண்ட புரோட்டான்களுக்கு இடையேயான மின்நிலை விரோதத்தை மீற தேவையான ஆற்றலாகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the estimated temperature required for two protons of average energy to overcome the Coulomb barrier?",
+      "options": [
+        "1.5×10^7 K",
+        "3×10^8 K",
+        "3×10^9 K",
+        "1.5×10^10 K"
+      ],
+      "correct": 2,
+      "explanation": "Using the relation (3/2)kT = 400 keV, the temperature is estimated to be approximately 3×10^9 K for average energy protons to overcome the Coulomb barrier. | (3/2)kT = 400 keV என்ற தொடர்பைப் பயன்படுத்தி, சராசரி ஆற்றல் கொண்ட புரோட்டான்கள் கூலம்ப் தடையை மீற சுமார் 3×10^9 K வெப்பநிலை தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the temperature of the interior of the Sun?",
+      "options": [
+        "1.5×10^6 K",
+        "1.5×10^7 K",
+        "1.5×10^8 K",
+        "1.5×10^9 K"
+      ],
+      "correct": 1,
+      "explanation": "The interior of the Sun has a temperature of approximately 1.5×10^7 K, which is considerably less than the temperature required for fusion of particles with average energy. | சூரியனின் உள்ளகத்தின் வெப்பநிலை சுமார் 1.5×10^7 K, இது சராசரி ஆற்றல் கொண்ட துகள்களின் இணைவுக்கு தேவையான வெப்பநிலையை விட குறைவாகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the total energy released when four hydrogen atoms combine to form a helium-4 atom in the Sun?",
+      "options": [
+        "12.86 MeV",
+        "26.7 MeV",
+        "5.49 MeV",
+        "0.42 MeV"
+      ],
+      "correct": 1,
+      "explanation": "The net effect of the proton-proton cycle is that four hydrogen atoms combine to form a helium-4 atom with a release of 26.7 MeV of energy. | புரோட்டான்-புரோட்டான் சுழற்சியின் மொத்த விளைவாக, நான்கு ஹைட்ரஜன் அணுக்கள் ஒன்றிணைந்து ஹீலியம்-4 அணுவை உருவாக்கி 26.7 MeV ஆற்றலை வெளியிடுகின்றன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the energy released in the reaction where two deuterons combine to form a triton and a proton?",
+      "options": [
+        "0.42 MeV",
+        "3.27 MeV",
+        "4.03 MeV",
+        "5.49 MeV"
+      ],
+      "correct": 2,
+      "explanation": "When two deuterons combine to form a triton and a proton, 4.03 MeV of energy is released. | இரண்டு டியூடெரான்கள் ஒன்றிணைந்து டிரைட்டான் மற்றும் புரோட்டானை உருவாக்கும்போது 4.03 MeV ஆற்றல் வெளியிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the energy released when a deuteron and a proton combine to form helium-3?",
+      "options": [
+        "0.42 MeV",
+        "3.27 MeV",
+        "4.03 MeV",
+        "5.49 MeV"
+      ],
+      "correct": 3,
+      "explanation": "When a deuteron and a proton combine to form helium-3, 5.49 MeV of energy is released along with a gamma ray. | ஒரு டியூடெரானும் ஒரு புரோட்டானும் ஒன்றிணைந்து ஹீலியம்-3 உருவாக்கும்போது 5.49 MeV ஆற்றலும் காமா கதிரும் வெளியிடப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "At what core temperature does helium fusion into carbon begin in a star?",
+      "options": [
+        "10^6 K",
+        "10^7 K",
+        "10^8 K",
+        "10^9 K"
+      ],
+      "correct": 2,
+      "explanation": "When hydrogen in the core is depleted and the star collapses under gravity, the core temperature rises to about 10^8 K, at which point helium nuclei fuse into carbon. | உள்ளகத்தில் உள்ள ஹைட்ரஜன் குறைந்து, நட்சத்திரம் ஈர்ப்புவிசையால் சுருங்கும்போது, உள்ளக வெப்பநிலை சுமார் 10^8 K அளவுக்கு உயர்ந்து, அப்போது ஹீலியம் கருக்கள் கார்பனாக இணைகின்றன."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the energy released when two light helium nuclei (He-3) unite to form ordinary helium (He-4)?",
+      "options": [
+        "5.49 MeV",
+        "12.86 MeV",
+        "26.7 MeV",
+        "0.42 MeV"
+      ],
+      "correct": 1,
+      "explanation": "When two light helium-3 nuclei unite to form ordinary helium-4, 12.86 MeV of energy is released. | இரண்டு இலகு ஹீலியம்-3 கருக்கள் ஒன்றிணைந்து சாதாரண ஹீலியம்-4 உருவாக்கும்போது 12.86 MeV ஆற்றல் வெளியிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the value of 1 atomic mass unit (u) in kilograms?",
+      "options": [
+        "1.660563 × 10^-27 kg",
+        "1.992647 × 10^-26 kg",
+        "1.00727 × 10^-27 kg",
+        "1.00866 × 10^-27 kg"
+      ],
+      "correct": 0,
+      "explanation": "According to the summary point 2, 1 atomic mass unit (1u) is defined as 1/12th the mass of one atom of Carbon-12, and its value is 1.660563 × 10^-27 kg. | சுருக்கப்புள்ளி 2-ஐப் பொறுத்தவரை, 1 அணு நிறை அலகு (1u) என்பது கார்பன்-12 அணுவின் 1/12 பங்கு நிறையாக வரையறுக்கப்படுகிறது, மற்றும் அதன் மதிப்பு 1.660563 × 10^-27 kg ஆகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the charge of a neutron present in the nucleus?",
+      "options": [
+        "Positive charge (+e)",
+        "Negative charge (-e)",
+        "Neutral (no charge)",
+        "Variable charge"
+      ],
+      "correct": 2,
+      "explanation": "As stated in summary point 3, a nucleus contains a neutral particle called neutron. It has no electric charge. | சுருக்கப்புள்ளி 3-ல் கூறப்பட்டுள்ளபடி, அணுக்கருவில் நொதுமி என்ற நடுநிலை துகள் உள்ளது. இதற்கு மின்சுமை இல்லை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the relationship between mass number (A), atomic number (Z), and neutron number (N)?",
+      "options": [
+        "A = Z - N",
+        "A = Z + N",
+        "A = Z × N",
+        "A = Z / N"
+      ],
+      "correct": 1,
+      "explanation": "Summary point 4 states that the mass number A is the total number of protons and neutrons in the atomic nucleus, given by A = Z + N, where Z is the number of protons and N is the number of neutrons. | சுருக்கப்புள்ளி 4-ல் கூறப்பட்டுள்ளபடி, நிறை எண் A என்பது அணுக்கருவில் உள்ள புரோட்டான்களின் மற்றும் நியூட்ரான்களின் மொத்த எண்ணிக்கையாகும், A = Z + N என்ற சூத்திரத்தால் கொடுக்கப்படுகிறது, இங்கு Z புரோட்டான்களின் எண்ணிக்கை மற்றும் N நியூட்ரான்களின் எண்ணிக்கை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the formula for the radius of a nucleus?",
+      "options": [
+        "R = R₀ × A",
+        "R = R₀ × A²",
+        "R = R₀ × A^(1/3)",
+        "R = R₀ / A^(1/3)"
+      ],
+      "correct": 2,
+      "explanation": "Summary point 5 states that the radius of nuclei fits the formula R = R₀A^(1/3), where R₀ = 1.2 fm. This implies that nuclear density is independent of A. | சுருக்கப்புள்ளி 5-ல் கூறப்பட்டுள்ளபடி, அணுக்கருக்களின் ஆரம் R = R₀A^(1/3) என்ற சூத்திரத்திற்கு ஒத்திருக்கிறது, இங்கு R₀ = 1.2 fm. இது அணுக்கரு அடர்த்தி A-லிருந்து சுயாதீனமானது என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following statements about nuclear force is correct?",
+      "options": [
+        "Nuclear force distinguishes between neutrons and protons",
+        "Nuclear force is weaker than Coulomb force",
+        "Nuclear force does not distinguish between neutron and proton",
+        "Nuclear force has infinite range"
+      ],
+      "correct": 2,
+      "explanation": "Summary point 6 states that neutrons and protons are bound in a nucleus by the short-range strong nuclear force, and the nuclear force does not distinguish between neutron and proton. | சுருக்கப்புள்ளி 6-ல் கூறப்பட்டுள்ளபடி, நொதுமிகளும் புரோட்டான்களும் குறுகிய-நெடுக்க வலிமையான அணுக்கரு விசையால் அணுக்கருவில் கட்டப்பட்டுள்ளன, மற்றும் அணுக்கரு விசை நொதுமியையும் புரோட்டானையும் வேறுபடுத்துவதில்லை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the formula for mass defect (ΔM) of a nucleus?",
+      "options": [
+        "ΔM = M - (Zmp + (A-Z)mn)",
+        "ΔM = (Zmp + (A-Z)mn) - M",
+        "ΔM = Zmp + (A-Z)mn + M",
+        "ΔM = M / (Zmp + (A-Z)mn)"
+      ],
+      "correct": 1,
+      "explanation": "Summary point 7 states that the nuclear mass M is always less than the total mass of its constituents. The mass defect is given by ΔM = (Zmp + (A-Z)mn) - M, where mp is proton mass, mn is neutron mass, and M is nuclear mass. | சுருக்கப்புள்ளி 7-ல் கூறப்பட்டுள்ளபடி, அணுக்கரு நிறை M எப்போதும் அதன் உறுப்புகளின் மொத்த நிறையை விட குறைவாக இருக்கும். நிறை குறைபாடு ΔM = (Zmp + (A-Z)mn) - M என்று கொடுக்கப்படுகிறது, இங்கு mp புரோட்டான் நிறை, mn நியூட்ரான் நிறை, மற்றும் M அணுக்கரு நிறை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In the mass number range A = 30 to 170, what is the approximate binding energy per nucleon?",
+      "options": [
+        "About 4 MeV/nucleon",
+        "About 8 MeV/nucleon",
+        "About 12 MeV/nucleon",
+        "About 16 MeV/nucleon"
+      ],
+      "correct": 1,
+      "explanation": "Summary point 7 states that in the mass number range A = 30 to 170, the binding energy per nucleon is nearly constant, about 8 MeV/nucleon. | சுருக்கப்புள்ளி 7-ல் கூறப்பட்டுள்ளபடி, நிறை எண் வரம்பு A = 30 முதல் 170 வரை, ஒவ்வொரு நியூக்ளியானுக்கான கட்டுறு ஆற்றல் கிட்டத்தட்ட மாறாதது, சுமார் 8 MeV/நியூக்ளியான்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "How is the Q-value of a nuclear process defined?",
+      "options": [
+        "Q = initial kinetic energy - final kinetic energy",
+        "Q = final kinetic energy - initial kinetic energy",
+        "Q = initial mass - final mass",
+        "Q = final mass - initial mass"
+      ],
+      "correct": 1,
+      "explanation": "Summary point 9 states that the Q-value of a nuclear process is Q = final kinetic energy - initial kinetic energy. Due to conservation of mass-energy, this is also Q = (sum of initial masses - sum of final masses)c². | சுருக்கப்புள்ளி 9-ல் கூறப்பட்டுள்ளபடி, அணுக்கரு செயல்முறையின் Q-மதிப்பு Q = இறுதி இயக்க ஆற்றல் - தொடக்க இயக்க ஆற்றல் என வரையறுக்கப்படுகிறது. நிறை-ஆற்றல் பாதுகாப்பின் காரணமாக, இது Q = (தொடக்க நிறைகளின் கூட்டுத்தொகை - இறுதி நிறைகளின் கூட்டுத்தொகை)c² என்றும் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "Which of the following is NOT a type of radioactive decay mentioned in the summary?",
+      "options": [
+        "Alpha decay (α-rays)",
+        "Beta decay (β-rays)",
+        "Gamma decay (γ-rays)",
+        "Delta decay (δ-rays)"
+      ],
+      "correct": 3,
+      "explanation": "Summary point 10 states that radioactivity involves three types of decay: α-rays (helium nuclei), β-rays (electrons), and γ-rays (electromagnetic radiation). Delta decay is not mentioned. | சுருக்கப்புள்ளி 10-ல் கூறப்பட்டுள்ளபடி, கதிரியக்கத்தில் மூன்று வகை சிதைவுகள் உள்ளன: α-கதிர்கள் (ஹீலியம் அணுக்கருக்கள்), β-கதிர்கள் (மின்னன்கள்), மற்றும் γ-கதிர்கள் (மின்காந்த கதிர்வீச்சு). டெல்டா சிதைவு குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "In nuclear fission, what happens to a heavy nucleus?",
+      "options": [
+        "It combines with another nucleus to form a heavier nucleus",
+        "It breaks into two smaller fragments",
+        "It emits only gamma rays",
+        "It remains stable without any change"
+      ],
+      "correct": 1,
+      "explanation": "Summary point 11 states that in fission, a heavy nucleus like U-235 breaks into two smaller fragments, releasing energy. | சுருக்கப்புள்ளி 11-ல் கூறப்பட்டுள்ளபடி, பிளவில், U-235 போன்ற கனமான அணுக்கரு இரண்டு சிறிய துண்டுகளாக உடைகிறது, ஆற்றலை வெளியிடுகிறது."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What is the source of energy in all stars including our sun?",
+      "options": [
+        "Nuclear fission of uranium",
+        "Nuclear fusion of hydrogen into helium",
+        "Chemical combustion of hydrogen",
+        "Gravitational collapse"
+      ],
+      "correct": 1,
+      "explanation": "Summary point 12 states that fusion of hydrogen nuclei into helium nuclei is the source of energy of all stars including our sun. | சுருக்கப்புள்ளி 12-ல் கூறப்பட்டுள்ளபடி, ஹைட்ரஜன் அணுக்கருக்களின் ஹீலியம் அணுக்கருக்களாக இணைதல், நமது சூரியன் உட்பட அனைத்து விண்மீர்களின் ஆற்றல் மூலமாகும்."
+    },
+    {
+      "topic": "Chapter 13",
+      "question": "What are nuclides with the same atomic number Z but different neutron number N called?",
+      "options": [
+        "Isobars",
+        "Isotopes",
+        "Isotones",
+        "Isomers"
+      ],
+      "correct": 1,
+      "explanation": "Summary point 4 states that nuclides with the same atomic number Z but different neutron number N are called isotopes. They have identical chemical properties. | சுருக்கப்புள்ளி 4-ல் கூறப்பட்டுள்ளபடி, ஒரே அணு எண் Z கொண்ட ஆனால் வேறுபட்ட நியூட்ரான் எண் N கொண்ட அணுக்கரு இனங்கள் ஐசோடோப்புகள் என அழைக்கப்படுகின்றன. அவை ஒரே வேதியியல் பண்புகளைக் கொண்டுள்ளன."
+    }
+  ]
+}

@@ -1,0 +1,1933 @@
+{
+  "meta": {
+    "language": "English",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 10",
+    "chapterId": "chapter10",
+    "source": "Chapter10_QA.xlsx",
+    "count": 160
+  },
+  "questions": [
+    {
+      "topic": "Chapter 10",
+      "question": "In which year did René Descartes initially propose the corpuscular model of light to derive Snell's law?",
+      "options": [
+        "1678",
+        "1687",
+        "1637",
+        "1850"
+      ],
+      "correct": 2,
+      "explanation": "Descartes proposed it in 1637. | டெகார்ட்ஸ் இதை 1637 இல் முன்மொழிந்தார்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What did the corpuscular model predict about the speed of light when bending towards the normal during refraction?",
+      "options": [
+        "Higher in second medium",
+        "Lower in second medium",
+        "Remain the same",
+        "Drop to zero"
+      ],
+      "correct": 0,
+      "explanation": "Predicted higher speed in second medium. | இரண்டாவது ஊடகத்தில் வேகம் அதிகமாக இருக்கும் என்று கணித்தது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "To which scientist is the corpuscular model often widely attributed due to the popularity of the book OPTICKS?",
+      "options": [
+        "Huygens",
+        "Descartes",
+        "Young",
+        "Newton"
+      ],
+      "correct": 3,
+      "explanation": "Attributed to Newton. | நியூட்டனுக்குக் கற்பிக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "In which year did the Dutch physicist Christiaan Huygens put forward the wave theory of light?",
+      "options": [
+        "1637",
+        "1678",
+        "1850",
+        "1801"
+      ],
+      "correct": 1,
+      "explanation": "Huygens put it forward in 1678. | ஹைஜென்ஸ் இதை 1678 இல் முன்வைத்தார்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What counter-prediction did the wave model make regarding light bending towards the normal upon refraction?",
+      "options": [
+        "Higher in second medium",
+        "Less in second medium",
+        "Infinite",
+        "Zero"
+      ],
+      "correct": 1,
+      "explanation": "Predicted less speed in second medium. | இரண்டாவது ஊடகத்தில் வேகம் குறைவாக இருக்கும் என்று கணித்தது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "When did Foucault carry out the experiment measuring the speed of light in water to settle the model conflict?",
+      "options": [
+        "1850",
+        "1801",
+        "1678",
+        "1887"
+      ],
+      "correct": 0,
+      "explanation": "Carried out in 1850. | 1850 இல் செய்யப்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "What was a major conceptual barrier to accepting wave theory initially regarding vacuum propagation?",
+      "options": [
+        "No reflection",
+        "Faster than corpuscles",
+        "Believed medium was required",
+        "No dispersion"
+      ],
+      "correct": 2,
+      "explanation": "Believed waves required a material medium. | அலைகளுக்குப் பருப்பொருள் ஊடகம் தேவை என்று நம்பப்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "In which year did Thomas Young perform his breakthrough interference experiment to establish wave nature?",
+      "options": [
+        "1850",
+        "1678",
+        "1860",
+        "1801"
+      ],
+      "correct": 3,
+      "explanation": "Performed in 1801. | 1801 இல் செய்யப்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "During which decade did James Clerk Maxwell develop the electromagnetic theory of light waves?",
+      "options": [
+        "1800s",
+        "1860s",
+        "1760s",
+        "1900s"
+      ],
+      "correct": 1,
+      "explanation": "Developed in 1860s. | 1860களில் உருவாக்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "According to Maxwell's electromagnetic formulation, what constitutes light waves traveling through a vacuum?",
+      "options": [
+        "Oscillating fields",
+        "Mechanical corpuscles",
+        "Ether vibrations",
+        "Static charges"
+      ],
+      "correct": 0,
+      "explanation": "Consists of oscillating electric and magnetic fields. | அதிர்வுறும் மின் மற்றும் காந்தப்புலங்களைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 2 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 3 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 4 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 5 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 6 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 7 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 8 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 9 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 10 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 11 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 12 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 13 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 14 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 15 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Wavefront phase parameters analysis.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Phase velocity variations across margins.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Point source isotropic wave outlines.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Geometric orientation of rays to fields.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Line source geometry profiles evaluation.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Infinite distance wavefront transformations study.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Energy distribution behavior of expanding sheets.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Huygens secondary wavelet disturbance properties.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Forward tangent envelope principles review.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "Regarding Page 16 concepts, identify the core principle validated by Malus law angular dependency functions.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    }
+  ]
+}
