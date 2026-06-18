@@ -56,8 +56,7 @@ function saveChapterLimits() {
   const limits = {
     physics:   { visibleUpTo: parseInt(document.getElementById('admin-vis-physics').value)   || 99, label },
     chemistry: { visibleUpTo: parseInt(document.getElementById('admin-vis-chemistry').value) || 99, label },
-    botany:    { visibleUpTo: parseInt(document.getElementById('admin-vis-botany').value)    || 99, label },
-    zoology:   { visibleUpTo: parseInt(document.getElementById('admin-vis-zoology').value)   || 99, label },
+    biology:   { visibleUpTo: parseInt(document.getElementById('admin-vis-biology').value)   || 99, label },
   };
   localStorage.setItem('adminChapterLimits', JSON.stringify(limits));
   const msg = document.getElementById('admin-vis-msg');
@@ -70,7 +69,7 @@ function showAdminPanel() {
   document.getElementById('admin-max-duration').value = adminConfig.free_max_test_duration;
   // Load chapter limits into selects
   const limits = getChapterLimits();
-  ['physics','chemistry','botany','zoology'].forEach(k => {
+  ['physics','chemistry','biology'].forEach(k => {
     const el = document.getElementById('admin-vis-' + k);
     if (el) el.value = String(limits[k]?.visibleUpTo ?? 99);
   });

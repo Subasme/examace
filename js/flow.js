@@ -110,9 +110,8 @@ function selectClass(stdId) {
 
 const ALL_NEET_SUBJECTS = [
   { id:'physics',   dbId:'physics',   label:'Physics',   icon:'⚛️', grad:'linear-gradient(135deg,#dbeafe,#bfdbfe)', border:'#3b82f6', color:'#1e3a8a' },
-  { id:'chemistry', dbId:'chemistry', label:'Chemistry', icon:'🧪', grad:'linear-gradient(135deg,#d1fae5,#a7f3d0)', border:'#10b981', color:'#064e3b', comingSoon:true },
-  { id:'botany',    dbId:'biology',   label:'Botany',    icon:'🌿', grad:'linear-gradient(135deg,#dcfce7,#bbf7d0)', border:'#16a34a', color:'#14532d' },
-  { id:'zoology',   dbId:'biology',   label:'Zoology',   icon:'🦁', grad:'linear-gradient(135deg,#fce7f3,#fbcfe8)', border:'#db2777', color:'#831843' },
+  { id:'chemistry', dbId:'chemistry', label:'Chemistry', icon:'🧪', grad:'linear-gradient(135deg,#d1fae5,#a7f3d0)', border:'#10b981', color:'#064e3b' },
+  { id:'biology',   dbId:'biology',   label:'Biology',   icon:'🧬', grad:'linear-gradient(135deg,#ede9fe,#ddd6fe)', border:'#7c3aed', color:'#3b0764' },
 ];
 
 function renderSubjectOptions() {
@@ -140,7 +139,6 @@ function selectSubject(subjId) {
   const def = ALL_NEET_SUBJECTS.find(s => s.id === subjId);
   const dbId = def?.dbId || subjId;
   const found = selection.standard.subjects.find(s => s.id === dbId);
-  // Store display label (e.g. "Botany") and DB label (e.g. "Biology") separately
   selection.subject = found ? { ...found, label: def ? def.label : found.label, dbLabel: found.label, uiId: subjId } : null;
   if (!selection.subject) return;
   if (appMode === 'timed') {
