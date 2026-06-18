@@ -503,11 +503,16 @@ async function saveSessionToSupabase({ questions, answers, timeTakenSecs, mode, 
     }).filter(r => r.question_id); // only rows where we have a UUID
     if (responses.length) await db.from('question_responses').insert(responses);
 
-    // 3. Increment wrong_answer_tracker (parallel RPC calls — atomic increment)
-    const wrongs = questions.filter((q, i) => q.id && answers[i] !== undefined && answers[i] !== q.correct);
-    await Promise.all(wrongs.map(q =>
-      db.rpc('increment_wrong_count', { p_user_id: authUser.id, p_question_id: q.id })
-    ));
+    // 3. Increment wrong_answer_tracker (single bulk RPC instead of N parallel calls)
+    const wrongIds = questions
+      .filter((q, i) => q.id && answers[i] !== undefined && answers[i] !== q.correct)
+      .map(q => q.id);
+    if (wrongIds.length) {
+      await db.rpc('bulk_increment_wrong_count', {
+        p_user_id: authUser.id,
+        p_question_ids: wrongIds
+      });
+    }
   } catch(e) { /* silent — results screen still shows */ }
 }
 
