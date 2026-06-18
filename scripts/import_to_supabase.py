@@ -9,9 +9,9 @@ Prerequisites:
        SUPABASE_SERVICE_KEY=your-service-role-key
 
 Usage:
-  python scripts/import_to_supabase.py                          # import all, skip existing
+  python scripts/import_to_supabase.py                          # upsert all
   python scripts/import_to_supabase.py --clear                  # wipe all tables first
-  python scripts/import_to_supabase.py --subjects Chemistry     # replace only Chemistry
+  python scripts/import_to_supabase.py --subjects Chemistry     # upsert only Chemistry
   python scripts/import_to_supabase.py --subjects Chemistry,Biology
 """
 
@@ -32,6 +32,19 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
 BATCH = 200
+
+# Maps used when generating question_tag in Python (must match DB chapters table)
+_LANG_CODE = {"English": "EN", "Tamil": "TA"}
+_SUBJ_CODE = {"Physics": "PHY", "Chemistry": "CHE", "Biology": "BIO"}
+
+
+def make_question_tag(language: str, standard: str, subject: str, chapter_id: str, index: int) -> str:
+    """Return a deterministic, globally-unique tag like EN12PHYCH01Q0042."""
+    lang = _LANG_CODE.get(language, language[:2].upper())
+    std  = "".join(c for c in standard if c.isdigit())   # "12th" → "12"
+    subj = _SUBJ_CODE.get(subject, subject[:3].upper())
+    ch   = int("".join(c for c in chapter_id if c.isdigit()))  # "chapter1" → 1
+    return f"{lang}{std}{subj}CH{ch:02d}Q{index:04d}"
 
 
 def get_client():
@@ -58,11 +71,11 @@ def upsert_chapters(sb, manifest: dict, target_subjects: set | None = None) -> N
                     continue
                 for ch in subj.get("chapters", []):
                     rows.append({
-                        "language":      lang["label"],
-                        "standard":      std["id"],
-                        "subject":       subj["label"],
-                        "chapter_id":    ch["id"],
-                        "chapter_label": ch["label"],
+                        "language":       lang["label"],
+                        "standard":       std["id"],
+                        "subject":        subj["label"],
+                        "chapter_id":     ch["id"],
+                        "chapter_label":  ch["label"],
                         "question_count": ch.get("count", 0),
                     })
     for i in range(0, len(rows), BATCH):
@@ -73,11 +86,17 @@ def upsert_chapters(sb, manifest: dict, target_subjects: set | None = None) -> N
     print(f"  Upserted {len(rows)} chapter catalog rows.")
 
 
-def insert_chapter_questions(sb, path: Path) -> int:
+def upsert_chapter_questions(sb, path: Path) -> int:
+    """Upsert questions using question_tag as the conflict key.
+
+    Because question_tag is stable across re-imports, existing rows are
+    updated in place (same UUID), so question_responses / wrong_answer_tracker
+    FK references are never broken.
+    """
     data = json.loads(path.read_text(encoding="utf-8"))
     meta = data.get("meta", {})
     rows: list[dict] = []
-    for q in data.get("questions", []):
+    for idx, q in enumerate(data.get("questions", []), start=1):
         rows.append({
             "language":      meta.get("language", ""),
             "standard":      meta.get("standard", ""),
@@ -89,9 +108,19 @@ def insert_chapter_questions(sb, path: Path) -> int:
             "options":       q.get("options", []),
             "correct":       q.get("correct", 0),
             "explanation":   q.get("explanation", ""),
+            "question_tag":  make_question_tag(
+                meta.get("language", ""),
+                meta.get("standard", ""),
+                meta.get("subject", ""),
+                meta.get("chapterId", ""),
+                idx,
+            ),
         })
     for i in range(0, len(rows), BATCH):
-        sb.table("questions").insert(rows[i:i + BATCH]).execute()
+        sb.table("questions").upsert(
+            rows[i:i + BATCH],
+            on_conflict="question_tag",
+        ).execute()
     return len(rows)
 
 
@@ -141,41 +170,10 @@ def main() -> int:
         sb.table("questions").delete().gt("created_at", "2000-01-01").execute()
         sb.table("chapters").delete().neq("chapter_id", "").execute()
     elif target_subjects:
-        print(f"Replacing questions for subjects: {', '.join(sorted(target_subjects))}…")
-        for subj in sorted(target_subjects):
-            # Get IDs of questions being replaced so we can clean FK refs
-            res = sb.table("questions").select("id").eq("subject", subj).execute()
-            q_ids = [r["id"] for r in (res.data or [])]
-            fk_cleanup_ok = True
-            if q_ids:
-                # Delete in batches to avoid URL length limits
-                for i in range(0, len(q_ids), 200):
-                    batch = q_ids[i:i + 200]
-                    try:
-                        sb.table("question_responses").delete().in_("question_id", batch).execute()
-                    except Exception as e:
-                        if "42501" in str(e) or "permission denied" in str(e).lower():
-                            fk_cleanup_ok = False
-                            break
-                        raise
-                    try:
-                        sb.table("wrong_answer_tracker").delete().in_("question_id", batch).execute()
-                    except Exception as e:
-                        if "42501" in str(e) or "permission denied" in str(e).lower():
-                            pass  # wrong_answer_tracker FK cleanup failure is non-fatal
-                        else:
-                            raise
-            if not fk_cleanup_ok:
-                print(
-                    f"\nERROR: Cannot replace {subj} — service_role lacks DELETE on question_responses.\n"
-                    "Fix this once in Supabase SQL Editor, then re-run:\n"
-                    "  GRANT SELECT, DELETE ON public.question_responses TO service_role;\n"
-                    "  GRANT SELECT, DELETE ON public.wrong_answer_tracker TO service_role;"
-                )
-                return 1
-            sb.table("questions").delete().eq("subject", subj).execute()
-            sb.table("chapters").delete().eq("subject", subj).execute()
-            print(f"  Cleared existing {subj} questions ({len(q_ids)} rows).")
+        # With question_tag as a unique key, re-importing a subject UPSERTs
+        # questions in place (same UUID) — no deletion required, so existing
+        # question_responses/wrong_answer_tracker rows remain valid.
+        print(f"Upserting questions for subjects: {', '.join(sorted(target_subjects))}…")
 
     print("Upserting chapter catalog…")
     upsert_chapters(sb, manifest, target_subjects)
@@ -190,7 +188,7 @@ def main() -> int:
                 for ch in subj.get("chapters", []):
                     p = DATA / lang["label"] / std["id"] / subj["label"] / f"{ch['id']}.json"
                     if p.exists():
-                        n = insert_chapter_questions(sb, p)
+                        n = upsert_chapter_questions(sb, p)
                         total += n
                         print(f"  {lang['label']}/{std['id']}/{subj['label']}/{ch['id']}: {n} questions")
                     else:
