@@ -1,0 +1,2029 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 12",
+    "chapterId": "chapter12",
+    "source": "Chapter12_QA_Tamil.xlsx",
+    "count": 168
+  },
+  "questions": [
+    {
+      "topic": "Chapter 12",
+      "question": "Bohr model prakaram, hydrogen atom-in ground state (n=1) energy ethana?",
+      "options": [
+        "-3.40 eV",
+        "-13.6 eV",
+        "0 eV",
+        "+13.6 eV"
+      ],
+      "correct": 1,
+      "explanation": "Bohr model prakaram, hydrogen atom-in ground state (n=1) energy -13.6 eV. Idhu thani adhigam kuraivana energy nilai, electron Bohr radius a0-sil orbit seiyum adhigam kuraivana radius-il sutrum. | According to Bohr's model, the energy of the ground state (n=1) of a hydrogen atom is -13.6 eV. This is the lowest energy state where the electron revolves in the orbit of smallest radius (Bohr radius a0)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Hydrogen atom-in ground state-ilirundhu electron-ai porthu vidatharku minimum energy ethavathu?",
+      "options": [
+        "3.40 eV",
+        "10.2 eV",
+        "13.6 eV",
+        "12.09 eV"
+      ],
+      "correct": 2,
+      "explanation": "Hydrogen atom-in ground state-ilirundhu electron-ai porthu vidatharku minimum energy 13.6 eV. Idhu hydrogen atom-in ionisation energy endru solappadum. Ground state energy -13.6 eV aayirundhal, 0 eV (viduthalai nilai) ku kondu vara +13.6 eV tharavendum. | The minimum energy required to free the electron from the ground state of hydrogen atom is 13.6 eV. This is called the ionisation energy of the hydrogen atom. Since the ground state energy is -13.6 eV, we need to supply +13.6 eV to bring it to 0 eV (free state)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Room temperature-il adhigam hydrogen atom-kal edhu nilaiyil irukkum?",
+      "options": [
+        "First excited state (n=2)",
+        "Second excited state (n=3)",
+        "Ground state (n=1)",
+        "Ionised state (n=∞)"
+      ],
+      "correct": 2,
+      "explanation": "Room temperature-il adhigam hydrogen atom-kal ground state (n=1)-il irukkum. Idharkaranam room temperature-il ulla thermal energy, electron-ai higher energy states-ku excite seivadarku pothumana energy illai. Electron adhigam samayam ground state-il irukkum. | At room temperature, most hydrogen atoms are in the ground state (n=1). This is because the thermal energy at room temperature is not sufficient to excite the electron to higher energy states. The electron spends most of its time in the ground state."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Hydrogen atom-in first excited state (n=2) energy ethana?",
+      "options": [
+        "-13.6 eV",
+        "-3.40 eV",
+        "-1.51 eV",
+        "0 eV"
+      ],
+      "correct": 1,
+      "explanation": "Hydrogen atom-in first excited state (n=2) energy -3.40 eV. Formula En = -13.6/n² eV upayogithu, n=2-ku: E2 = -13.6/4 = -3.40 eV. | The energy of the first excited state (n=2) of a hydrogen atom is -3.40 eV. This is calculated using the formula En = -13.6/n² eV. For n=2: E2 = -13.6/4 = -3.40 eV."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Hydrogen atom-ai ground state (n=1)-ilirundhu first excited state (n=2) ku excite seivadarku ethana energy vendum?",
+      "options": [
+        "3.40 eV",
+        "10.2 eV",
+        "13.6 eV",
+        "12.09 eV"
+      ],
+      "correct": 1,
+      "explanation": "Hydrogen atom-ai ground state (n=1)-ilirundhu first excited state (n=2) ku excite seivadarku energy E2 - E1 = -3.40 eV - (-13.6 eV) = 10.2 eV. Idhu indha rendu levels idaiyana energy vithyasam. | The energy required to excite a hydrogen atom from ground state (n=1) to first excited state (n=2) is E2 - E1 = -3.40 eV - (-13.6 eV) = 10.2 eV. This is the energy difference between these two levels."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Hydrogen atom-in second excited state (n=3) energy ethana?",
+      "options": [
+        "-3.40 eV",
+        "-1.51 eV",
+        "-13.6 eV",
+        "0 eV"
+      ],
+      "correct": 1,
+      "explanation": "Hydrogen atom-in second excited state (n=3) energy -1.51 eV. Formula En = -13.6/n² eV upayogithu, n=3-ku: E3 = -13.6/9 = -1.51 eV. | The energy of the second excited state (n=3) of a hydrogen atom is -1.51 eV. Using the formula En = -13.6/n² eV, for n=3: E3 = -13.6/9 = -1.51 eV."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Hydrogen atom-ai ground state (n=1)-ilirundhu second excited state (n=3) ku excite seivadarku ethana energy vendum?",
+      "options": [
+        "10.2 eV",
+        "12.09 eV",
+        "13.6 eV",
+        "3.40 eV"
+      ],
+      "correct": 1,
+      "explanation": "Hydrogen atom-ai ground state (n=1)-ilirundhu second excited state (n=3) ku excite seivadarku energy E3 - E1 = -1.51 eV - (-13.6 eV) = 12.09 eV. Idhu n=1 matrum n=3 levels idaiyana energy gap-ai kattum. | The energy required to excite a hydrogen atom from ground state (n=1) to second excited state (n=3) is E3 - E1 = -1.51 eV - (-13.6 eV) = 12.09 eV. This represents the energy gap between n=1 and n=3 levels."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Electron nucleus-ilirundhu porthu vidappadum potu (n=∞), hydrogen atom-in energy ethana?",
+      "options": [
+        "-13.6 eV",
+        "-3.40 eV",
+        "0 eV",
+        "+13.6 eV"
+      ],
+      "correct": 2,
+      "explanation": "Electron nucleus-ilirundhu porthu vidappadum potu (n=∞, r=∞), hydrogen atom-in energy 0 eV. Idhu energy level diagram-il kanikkappadum adhigam energy nilai, electron nucleus-ilirundhu viduthalai peyrra nilai. | When the electron is completely removed from the nucleus (n=∞, r=∞), the energy of the hydrogen atom is 0 eV. This is the highest energy state shown in the energy level diagram where the electron is free from the nucleus."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Principal quantum number n valarnta podhu, adjacent energy levels idaiyana gap enna aagum?",
+      "options": [
+        "Gap valarum",
+        "Gap maaraadhu",
+        "Gap kuraiyum",
+        "Gap sunniyaagum"
+      ],
+      "correct": 2,
+      "explanation": "Principal quantum number n valarnta podhu, excited states-in energies allathu allathu sameepamaaga varum. Adjacent energy levels idaiyana gap kuraiyum. Udaaharanakaaga, n=1 matrum n=2 idaiyana gap 10.2 eV, n=2 matrum n=3 idaiyana gap 1.89 eV matrame. | As the principal quantum number n increases, the energies of the excited states come closer and closer together. The spacing between adjacent energy levels decreases. For example, the gap between n=1 and n=2 is 10.2 eV, while between n=2 and n=3 it is only 1.89 eV."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Hydrogen atom-in ground state-in ionisation energy ethana?",
+      "options": [
+        "3.40 eV",
+        "10.2 eV",
+        "13.6 eV",
+        "12.09 eV"
+      ],
+      "correct": 2,
+      "explanation": "Hydrogen atom-in ground state-in ionisation energy 13.6 eV. Idhu ground state-ilirundhu electron-ai infinity-ku (viduthalai nilai) porthu vidatharku minimum energy. Idhu ground state energy-in magnitude-ku samam. | The ionisation energy of a hydrogen atom in its ground state is 13.6 eV. This is the minimum energy required to completely remove the electron from the ground state to infinity (free state). It equals the magnitude of the ground state energy."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கைகர்-மார்ஸ்டன் சோதனையில் ஆல்ஃபா துகள்களின் மூலம் எது?",
+      "options": [
+        "ரேடியம்-226",
+        "பிஸ்மத்-214 (214_83Bi)",
+        "யுரேனியம்-238",
+        "போலோனியம்-210"
+      ],
+      "correct": 1,
+      "explanation": "The experiment used alpha particles emitted from a 214_83Bi (Bismuth-214) radioactive source. | இந்த சோதனையில் 214_83Bi (பிஸ்மத்-214) கதிரியக்க மூலத்திலிருந்து உமிழப்பட்ட ஆல்ஃபா துகள்கள் பயன்படுத்தப்பட்டன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கைகர்-மார்ஸ்டன் சோதனையில் பயன்படுத்தப்பட்ட தங்கத் தகட்டின் தடிமன் என்ன?",
+      "options": [
+        "2.1 × 10^-6 m",
+        "2.1 × 10^-7 m",
+        "2.1 × 10^-8 m",
+        "2.1 × 10^-9 m"
+      ],
+      "correct": 1,
+      "explanation": "The gold foil used had a thickness of 2.1 × 10^-7 m as stated in the experimental setup. | பயன்படுத்தப்பட்ட தங்கத் தகட்டின் தடிமன் 2.1 × 10^-7 m என்று சோதனை அமைப்பில் குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கைகர்-மார்ஸ்டன் சோதனையில் ஈயம் கற்களின் நோக்கம் என்ன?",
+      "options": [
+        "கதிர்வீச்சிலிருந்து காப்பது",
+        "ஆல்ஃபா துகள் கற்றையை குறுகிய கற்றையாக்குவது",
+        "தங்கத் தகட்டை ஆதரிப்பது",
+        "சிதறிய துகள்களை உறிஞ்சுவது"
+      ],
+      "correct": 1,
+      "explanation": "The lead bricks were used to collimate the alpha particles into a narrow beam before hitting the gold foil. | ஆல்ஃபா துகள்களை குறுகிய கற்றையாக தங்கத் தகட்டில் படுவதற்கு முன் ஈயம் கற்கள் பயன்படுத்தப்பட்டன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "சிதறிய ஆல்ஃபா துகள்களை காண பயன்படுத்தப்பட்ட கண்டறிவானியில் திரை எந்த பொருளால் செய்யப்பட்டது?",
+      "options": [
+        "கால்சியம் கார்பனேட்",
+        "துத்தநாக சல்பைடு (ZnS)",
+        "பேரியம் பிளாட்டினோசயனைடு",
+        "சோடியம் அயோடைடு"
+      ],
+      "correct": 1,
+      "explanation": "The detector used a zinc sulphide (ZnS) screen to detect scattered alpha particles through scintillations. | சிதறிய ஆல்ஃபா துகள்களை ஒளிர்வுகள் மூலம் கண்டறிய துத்தநாக சல்பைடு (ZnS) திரை பயன்படுத்தப்பட்டது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "சிதறிய ஆல்ஃபா துகள்கள் துத்தநாக சல்பைடு திரையில் படும்போது என்ன நிகழ்வு ஏற்படுகிறது?",
+      "options": [
+        "ஒளிமின் விளைவு",
+        "ஒளிர்வுகள் (குறுகிய ஒளி தீப்பற்றல்கள்)",
+        "செரென்கோவ் கதிர்வீச்சு",
+        "காம்ப்டன் சிதறல்"
+      ],
+      "correct": 1,
+      "explanation": "When alpha particles strike the ZnS screen, they produce brief light flashes called scintillations which are viewed through a microscope. | ஆல்ஃபா துகள்கள் ZnS திரையில் படும்போது, அவை ஒளிர்வுகள் எனப்படும் குறுகிய ஒளி தீப்பற்றல்களை உருவாக்குகின்றன, இவை நுண்ணோக்கி மூலம் காணப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "துத்தநாக சல்பைடு திரையில் இருந்து ஒளிர்வுகள் சோதனையில் எப்படி காணப்பட்டன?",
+      "options": [
+        "கைகர் கவுண்டர் மூலம்",
+        "மேக அறை மூலம்",
+        "நுண்ணோக்கி மூலம்",
+        "புகைப்படத் தகட்டு மூலம்"
+      ],
+      "correct": 2,
+      "explanation": "The scintillations produced on the ZnS screen were viewed through a microscope to study the distribution of scattered particles. | ZnS திரையில் உருவாக்கப்பட்ட ஒளிர்வுகள் நுண்ணோக்கி மூலம் காணப்பட்டு, சிதறிய துகள்களின் பரவலை ஆய்வு செய்யப்பட்டது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கைகர்-மார்ஸ்டன் சோதனையில் சிதறல் கோணத்தின் சார்பாக எந்த அளவுரு ஆய்வு செய்யப்பட்டது?",
+      "options": [
+        "ஆல்ஃபா துகள்களின் ஆற்றல்",
+        "சிதறிய துகள்களின் எண்ணிக்கை",
+        "ஆல்ஃபா துகள்களின் வேகம்",
+        "ஆல்ஃபா துகள்களின் மின்னூட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "The distribution of the number of scattered particles was studied as a function of the angle of scattering. | சிதறிய துகள்களின் எண்ணிக்கையின் பரவல் சிதறல் கோணத்தின் சார்பாக ஆய்வு செய்யப்பட்டது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கைகர்-மார்ஸ்டன் சிதறல் சாதனத்திற்கு எந்த வகை சூழல் தேவைப்பட்டது?",
+      "options": [
+        "உயர் அழுத்த அறை",
+        "வெற்றிட அறை",
+        "செயலற்ற வாயு வளிமண்டலம்",
+        "திரவ நைட்ரஜன் குளிரூட்டல்"
+      ],
+      "correct": 1,
+      "explanation": "The entire apparatus was placed in a vacuum chamber to prevent alpha particles from colliding with air molecules. | ஆல்ஃபா துகள்கள் காற்று மூலக்கூறுகளுடன் மோதுவதைத் தடுக்க, முழு சாதனமும் வெற்றிட அறையில் வைக்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "உதாரணம் 12.1-ல், அணுவின் விகிதங்களை சூரியக் குடும்பத்திற்கு அமைத்தால், பூமி சூரியனிலிருந்து எவ்வாறு இருக்கும்?",
+      "options": [
+        "பூமி சூரியனுக்கு மிக அருகில் இருக்கும்",
+        "பூமி சூரியனிலிருந்து மிகவும் தூரத்தில் இருக்கும்",
+        "பூமி உண்மையான தூரத்தில் இருக்கும்",
+        "பூமி சூரியனுடன் மோதும்"
+      ],
+      "correct": 1,
+      "explanation": "The electron orbit to nucleus radius ratio is 10^5. Applied to the solar system, Earth's orbit would be 10^5 times the Sun's radius, giving 7×10^13 m, over 100 times the actual distance. This shows atoms have far more empty space than the solar system. | எலக்ட்ரான் சுற்றுப்பாதை முதல் அணுக்கரு ஆர விகிதம் 10^5. சூரியக் குடும்பத்திற்கு அமைத்தால், பூமியின் சுற்றுப்பாதை சூரியனின் ஆரத்தை விட 10^5 மடங்கு இருக்கும், அதாவது 7×10^13 m, இது உண்மையான தூரத்தை விட 100 மடங்கு அதிகம். இது அணுக்கள் சூரியக் குடும்பத்தை விட அதிகமான வெற்றிடத்தைக் கொண்டுள்ளதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "உதாரணம் 12.2-ல், 7.7 MeV ஆல்பா துகளின் தங்க அணுக்கருவுக்கான மிகச்சிறந்த அணுக்கத் தொலைவு என்ன?",
+      "options": [
+        "3.0×10^-14 m",
+        "6.0×10^-14 m",
+        "3.0×10^-15 m",
+        "6.0×10^-15 m"
+      ],
+      "correct": 0,
+      "explanation": "Using energy conservation, the alpha-particle's kinetic energy equals electric potential energy at closest approach. For gold (Z=79), d = 3.0×10^-14 m = 30 fm. This exceeds the actual gold nucleus radius (6 fm) because the alpha-particle reverses without touching the nucleus. | ஆற்றல் பாதுகாப்பு மூலம், ஆல்பா துகளின் இயக்க ஆற்றல் மிகச்சிறந்த அணுக்கு அருகில் மின்னழுத்த ஆற்றலுக்கு சமம். தங்கத்திற்கு (Z=79), d = 3.0×10^-14 m = 30 fm. இது உண்மையான தங்க அணுக்கரு ஆரத்தை (6 fm) விட அதிகம், ஏனெனில் ஆல்பா துகள் அணுக்கருவைத் தொடாமல் திரும்பிச் செல்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டு சிதறலில் தாக்கம் அளவு மற்றும் சிதறல் கோணம் இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "பெரிய தாக்கம் அளவு பெரிய சிதறல் கோணத்தை ஏற்படுத்தும்",
+        "சிறிய தாக்கம் அளவு பெரிய சிதறல் கோணத்தை ஏற்படுத்தும்",
+        "தாக்கம் அளவு சிதறல் கோணத்தை பாதிக்காது",
+        "சிதறல் கோணம் எப்போதும் 90 பாகைகள்"
+      ],
+      "correct": 1,
+      "explanation": "The impact parameter is the perpendicular distance from the nucleus to the initial velocity vector. A small impact parameter means the alpha-particle passes close to the nucleus, experiencing strong Coulomb repulsion and large scattering. A large impact parameter results in small deflection. | தாக்கம் அளவு என்பது அணுக்கருவிலிருந்து தொடக்க வேக வெக்டருக்கான செங்குத்துத் தொலைவு. சிறிய தாக்கம் அளவு என்றால் ஆல்பா துகள் அணுக்கருவுக்கு அருகில் செல்கிறது, வலுவான கூலம்ப் விலக்கலை அனுபவித்து பெரிய சிதறல் கோணத்தை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஆல்பா துகள் மற்றும் அணுக்கரு இடையே நேரடி மோதல் நடந்தால் என்ன நிகழும்?",
+      "options": [
+        "ஆல்பா துகள் குறைந்தபட்ச விலக்கத்துடன் கடந்து செல்லும்",
+        "ஆல்பா துகள் பின்னோக்கித் திரும்பும் (சிதறல் கோணம் ≈ 180°)",
+        "ஆல்பா துகள் அணுக்கருவால் உறிஞ்சப்படும்",
+        "ஆல்பா துகள் இரண்டு துகள்களாகப் பிரியும்"
+      ],
+      "correct": 1,
+      "explanation": "In a head-on collision, the impact parameter is minimum, and the alpha-particle experiences maximum repulsion, causing it to rebound back with scattering angle approaching 180°. This is direct evidence for concentrated positive charge in the nucleus. | நேரடி மோதலில், தாக்கம் அளவு குறைந்தபட்சமாக இருக்கும், ஆல்பா துகள் அதிகபட்ச விலக்கலை அனுபவித்து 180° சிதறல் கோணத்தில் திரும்பிச் செல்லும். இது அணுக்கருவில் குவிக்கப்பட்ட நேர்மின் மின்னேற்றத்திற்கான நேரடி சான்றாகும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் அணுக்கரு மாதிரியின்படி, அணு அளவு மற்றும் அணுக்கரு அளவு இடையேயான தோராயமான விகிதம் என்ன?",
+      "options": [
+        "10 முதல் 100 வரை",
+        "100 முதல் 1,000 வரை",
+        "10,000 முதல் 100,000 வரை",
+        "1,000,000 முதல் 10,000,000 வரை"
+      ],
+      "correct": 2,
+      "explanation": "The atomic size is about 10^-10 m while the nuclear size is about 10^-15 to 10^-14 m. This gives a ratio of about 10,000 to 100,000 times, meaning the nucleus is incredibly small compared to the overall atom, and most of the atom is empty space. | அணு அளவு சுமார் 10^-10 m, அணுக்கரு அளவு சுமார் 10^-15 முதல் 10^-14 m வரை. இது சுமார் 10,000 முதல் 100,000 மடங்கு விகிதத்தைத் தருகிறது, அதாவது அணுக்கரு மொத்த அணுவை விட மிகச் சிறியது, மற்றும் அணுவின் பெரும்பாலான பகுதி வெற்றிடமாகும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Bohr-இன் மாதிரியில் கோண உந்தத்தின் குவாண்டமாக்கலுக்கு de Broglie வழங்கிய அடிப்படை காரணம் என்ன?",
+      "options": [
+        "எலக்ட்ரான் அதன் பாதையில் நிலையான அலையாக செயல்படுகிறது",
+        "கருவியம் எலக்ட்ரான் மீது காந்த விசையை பிரயோகிக்கிறது",
+        "எலக்ட்ரான் ஒப்பீட்டியல் வேகத்தில் நகர்கிறது",
+        "பாதை வட்டமல்லாமல் நீள்வட்டமாக உள்ளது"
+      ],
+      "correct": 0,
+      "explanation": "According to de Broglie, the electron in its circular orbit must be seen as a particle wave. Standing waves are formed when the circumference of the orbit equals an integral number of wavelengths (2πr_n = nλ). This condition naturally leads to the quantisation of angular momentum. | de Broglie-இன் கூற்றுப்படி, வட்டவடிவ பாதையில் உள்ள எலக்ட்ரான் ஒரு துகள் அலையாக கருதப்பட வேண்டும். நிலையான அலைகள் பாதையின் சுற்றளவு ஒரு முழு அலைநீளங்களுக்கு சமமாக இருக்கும் போது (2πr_n = nλ) உருவாகின்றன. இந்த நிபந்தனை இயற்கையாகவே கோண உந்தத்தின் குவாண்டமாக்கலுக்கு வழிவகுக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "nth பாதையின் சுற்றளவுக்கும் de Broglie அலைநீளத்துக்கும் இடையேயான கணித உறவு என்ன?",
+      "options": [
+        "2πr_n = nλ, n = 1,2,3...",
+        "2πr_n = λ/n, n = 1,2,3...",
+        "πr_n = nλ, n = 1,2,3...",
+        "2πr_n = λ²/n, n = 1,2,3..."
+      ],
+      "correct": 0,
+      "explanation": "For an electron moving in the nth circular orbit, the total distance is the circumference of the orbit. Standing waves are formed when 2πr_n = nλ, where n is an integer. This is the fundamental equation connecting de Broglie's wave concept with Bohr's quantisation. | nth வட்டப் பாதையில் நகரும் எலக்ட்ரானுக்கு, மொத்த தூரம் பாதையின் சுற்றளவாகும். நிலையான அலைகள் 2πr_n = nλ என்ற நிபந்தனையில் உருவாகின்றன, இங்கு n ஒரு முழு எண். இது de Broglie-இன் அலை கருத்தை Bohr-இன் குவாண்டமாக்கலுடன் இணைக்கும் அடிப்படை சமன்பாடு."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "1927-ல் எலக்ட்ரான்களின் அலை தன்மையை சோதனை முறையில் உறுதிப்படுத்தியவர்கள் யார்?",
+      "options": [
+        "C.J. Davisson மற்றும் L.H. Germer",
+        "Louis de Broglie",
+        "Niels Bohr மற்றும் Ernest Rutherford",
+        "J.J. Thomson மற்றும் Max Planck"
+      ],
+      "correct": 0,
+      "explanation": "C.J. Davisson and L.H. Germer experimentally verified the wave nature of electrons in 1927, confirming de Broglie's hypothesis that material particles such as electrons also have a wave nature. | C.J. Davisson மற்றும் L.H. Germer ஆகியோர் 1927-ல் எலக்ட்ரான்களின் அலை தன்மையை சோதனை முறையில் உறுதிப்படுத்தினர். இது de Broglie-இன் கருத்துக்கு உறுதியளித்தது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "de Broglie அலைநீளத்துக்கும் எலக்ட்ரான் உந்தத்துக்கும் இடையேயான உறவு என்ன?",
+      "options": [
+        "λ = h/p",
+        "λ = p/h",
+        "λ = h × p",
+        "λ = h²/p"
+      ],
+      "correct": 0,
+      "explanation": "The de Broglie wavelength λ is given by h/p, where h is Planck's constant and p is the magnitude of the electron's momentum. If the speed is much less than the speed of light, p = mv_n. | de Broglie அலைநீளம் λ = h/p என்று கொடுக்கப்படுகிறது, இங்கு h Planck மாறிலி மற்றும் p எலக்ட்ரானின் உந்தத்தின் அளவு. வேகம் ஒளியின் வேகத்தை விட குறைவாக இருந்தால், p = mv_n."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Bohr-இன் மாதிரியின் முக்கிய குறைபாடுகளில் ஒன்று என்ன?",
+      "options": [
+        "நிறமாலை கோடுகளின் சார்பு தீவிரங்களை விளக்க முடியாது",
+        "எலக்ட்ரான் பாதைகளின் ஆரத்தை கணிக்க முடியாது",
+        "புரோட்டான்களின் இருப்பை விளக்க முடியாது",
+        "எலக்ட்ரான்களின் வேகத்தை கணிக்க முடியாது"
+      ],
+      "correct": 0,
+      "explanation": "While Bohr's model correctly predicts the frequencies of light emitted by hydrogenic atoms, it is unable to explain the relative intensities of the frequencies in the spectrum. Some transitions are more favoured than others, which Bohr's model cannot account for. | Bohr-இன் மாதிரி ஹைட்ரஜனிய அணுக்களால் உமிழப்படும் ஒளியின் அதிர்வெண்களை சரியாக கணிக்கும் போதிலும், நிறமாலையில் அதிர்வெண்களின் சார்பு தீவிரங்களை விளக்க முடியாது. சில மாற்றங்கள் மற்றவற்றை விட அதிகம் விரும்பப்படுகின்றன, இதை Bohr-இன் மாதிரி விளக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "Bohr-இன் மாதிரியை வெற்றிகரமாக பயன்படுத்தக்கூடிய அணுக்களின் வகை என்ன?",
+      "options": [
+        "ஒரே ஒரு எலக்ட்ரான் கொண்ட ஹைட்ரஜனிய அணுக்கள்",
+        "இரண்டு அல்லது அதற்கு மேற்பட்ட எலக்ட்ரான்கள் கொண்ட அனைத்து அணுக்கள்",
+        "நடுநிலை ஹைட்ரஜன் அணுக்கள் மட்டும்",
+        "எந்த எண்ணிக்கையிலான எலக்ட்ரான்கள் கொண்ட அணுக்கள்"
+      ],
+      "correct": 0,
+      "explanation": "Bohr's model is applicable to hydrogenic atoms - atoms consisting of a nucleus with positive charge +Ze and a single electron, where Z is the proton number. Examples include hydrogen atom, singly ionised helium, and doubly ionised lithium. It cannot be extended to even two-electron atoms like helium. | Bohr-இன் மாதிரி ஹைட்ரஜனிய அணுக்களுக்கு பொருந்தும் - நேர்மின் ஏற்றம் +Ze மற்றும் ஒரே ஒரு எலக்ட்ரான் கொண்ட அணுக்கள். எடுத்துக்காட்டுகள்: ஹைட்ரஜன் அணு, ஒற்றை அயனியாக்கப்பட்ட ஹீலியம். இது ஹீலியம் போன்ற இரண்டு எலக்ட்ரான் அணுக்களுக்கு கூட நீட்டிக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "நாணில் உள்ள நிலையான அலைகளின் சூழலில், எந்த அலைநீளங்கள் தப்பிக்கின்றன என்பதை எது தீர்மானிக்கிறது?",
+      "options": [
+        "முனைகளில் கணுக்கள் கொண்டு நிலையான அலைகளை உருவாக்கும் அலைகள்",
+        "மிக உயர்ந்த விரிவை கொண்ட அலைகள்",
+        "மிக குறைந்த அதிர்வெண் கொண்ட அலைகள்",
+        "ஒரே ஒரு திசையில் மட்டும் பயணிக்கும் அலைகள்"
+      ],
+      "correct": 0,
+      "explanation": "When a string is plucked, only those wavelengths survive which have nodes at the ends and form standing waves in the string. Standing waves are formed when the total distance is one wavelength, two wavelengths, or any integral number of wavelengths. | ஒரு நாண் துடிக்கப்படும்போது, முனைகளில் கணுக்கள் கொண்ட அலைகள் மட்டுமே நிலையான அலைகளாக உருவாகி தப்பிக்கின்றன. நிலையான அலைகள் மொத்த தூரம் ஒரு அலைநீளம், இரண்டு அலைநீளங்கள், அல்லது எந்த முழு எண் அலைநீளங்களாக இருக்கும் போது உருவாகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜனிய அணுக்களில் உள்ள எலக்ட்ரான்-எலக்ட்ரான் இடைவினைகளுக்கும் பல-எலக்ட்ரான் அணுக்களுக்கும் இடையே உள்ள அடிப்படை வேறுபாடு என்ன?",
+      "options": [
+        "ஹைட்ரஜனிய அணுக்களில் எலக்ட்ரான்-எலக்ட்ரான் இடைவினைகள் இல்லை",
+        "ஹைட்ரஜனிய அணுக்களில் வலுவான எலக்ட்ரான்-எலக்ட்ரான் இடைவினைகள் உள்ளன",
+        "பல-எலக்ட்ரான் அணுக்களில் எலக்ட்ரான்-கருவியம் இடைவினைகள் இல்லை",
+        "ஹைட்ரஜனிய அணுக்களில் காந்த இடைவினைகள் மட்டுமே உள்ளன"
+      ],
+      "correct": 0,
+      "explanation": "Hydrogenic atoms consist of a nucleus with positive charge +Ze and a single electron. In these atoms, more complex electron-electron interactions are nonexistent. Multi-electron atoms have additional electrical forces between electrons that Bohr's model does not include. | ஹைட்ரஜனிய அணுக்கள் நேர்மின் ஏற்றம் +Ze மற்றும் ஒரே ஒரு எலக்ட்ரான் கொண்டவை. இந்த அணுக்களில் சிக்கலான எலக்ட்ரான்-எலக்ட்ரான் இடைவினைகள் இல்லை. பல-எலக்ட்ரான் அணுக்களில் Bohr-இன் மாதிரியில் சேர்க்கப்படாத கூடுதல் மின் விசைகள் உள்ளன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "'Points to Ponder' பகுதியின்படி, சுற்றும் எலக்ட்ரான்களின் மின்காந்த கதிர்வீச்சால் நிலையற்றதாக விவரிக்கப்படும் மாதிரி எது?",
+      "options": [
+        "தாம்சனின் மாதிரி",
+        "ருதர்ஃபோர்டின் மாதிரி",
+        "போரின் மாதிரி",
+        "குவாண்டம் இயங்கியல் மாதிரி"
+      ],
+      "correct": 1,
+      "explanation": "Thomson's model is unstable electrostatically, while Rutherford's model is unstable because of electromagnetic radiation of orbiting electrons. | தாம்சனின் மாதிரி மின்னிலையியல் ரீதியாக நிலையற்றது; ருதர்ஃபோர்டின் மாதிரி சுற்றும் எலக்ட்ரான்களின் மின்காந்த கதிர்வீச்சால் நிலையற்றது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கோண உந்தத்தை மற்ற அளவுகளை விட குவாண்டமாக்க போர் தேர்ந்தெடுத்ததற்கான காரணம் என்ன?",
+      "options": [
+        "கோண உந்தம் சோதனை முறையில் அளவிட எளிதானது",
+        "பிளான்க் மாறிலி கோண உந்தத்தின் பரிமாணங்களைக் கொண்டுள்ளது",
+        "சரியான முடிவுகளைத் தரும் ஒரே அளவு அது மட்டுமே",
+        "மேக்ஸ்வெல் சமன்பாடுகளிலிருந்து நேரடியாகப் பின்பற்றுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Planck's constant h has dimensions of angular momentum, and for circular orbits, angular momentum is a very relevant quantity. The second postulate is then so natural. | பிளான்க் மாறிலி h கோண உந்தத்தின் பரிமாணங்களைக் கொண்டுள்ளது, வட்ட வட்டப்பாதைகளுக்கு கோண உந்தம் மிகவும் பொருத்தமான அளவு. எனவே இரண்டாவது உறுதிமொழி இயற்கையானது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "நிச்சயமற்ற தத்துவத்தின்படி, போரின் மாதிரியில் உள்ள வட்டப்பாதை படத்திற்கு பதிலாக எது வந்தது?",
+      "options": [
+        "நீள்வட்ட வட்டப்பாதைகள்",
+        "எலக்ட்ரான் காணப்படக்கூடிய நிகழ்தகவு மேகங்கள்",
+        "நிலையான அலைகள்",
+        "கிளாசிக்கல் பாதைகள்"
+      ],
+      "correct": 1,
+      "explanation": "The orbital picture in Bohr's model was inconsistent with the uncertainty principle. It was replaced by modern quantum mechanics in which Bohr's orbits are regions where the electron may be found with large probability. | போரின் மாதிரியில் வட்டப்பாதை படம் நிச்சயமற்ற தத்துவத்துடன் முரண்பாடாக இருந்தது. நவீன குவாண்டம் இயங்கியலால் அது மாற்றப்பட்டது, அதில் போரின் வட்டப்பாதைகள் எலக்ட்ரான் அதிக நிகழ்தகவுடன் காணப்படும் பகுதிகள்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கிரகம் போன்ற எலக்ட்ரான் கொண்ட போரின் மாதிரி பல எலக்ட்ரான் அணுக்களுக்கு பொருந்தாததற்கான காரணம் என்ன?",
+      "options": [
+        "கரு மிகவும் கனமானது",
+        "எலக்ட்ரான்-எலக்ட்ரான் மின் விசை எலக்ட்ரான்-கரு விசைக்கு ஒப்பிடத்தக்கது",
+        "எலக்ட்ரான்கள் மிகவும் வேகமாக நகர்கின்றன",
+        "அணு மிகவும் பெரிதாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Unlike the solar system, the electron-electron electric force interaction is comparable in magnitude to the electron-nucleus electrical force, because the charges and distances are of the same order of magnitude. | சூரியக் குடும்பத்திற்கு மாறாக, எலக்ட்ரான்-எலக்ட்ரான் மின் விசையின் அளவு எலக்ட்ரான்-கரு மின் விசைக்கு ஒப்பிடத்தக்கது, ஏனெனில் மின்னூட்டங்களும் தூரங்களும் ஒரே வரிசை அளவைக் கொண்டவை."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "குவாண்டம் இயங்கியலில் உள்ளபடி ஒரு நிலையை வகைப்படுத்த எத்தனை குவாண்டம் எண்கள் உள்ளன?",
+      "options": [
+        "ஒன்று (n மட்டும்)",
+        "இரண்டு (n மற்றும் l)",
+        "மூன்று (n, l, மற்றும் m)",
+        "நான்கு (n, l, m, மற்றும் s)"
+      ],
+      "correct": 3,
+      "explanation": "In quantum mechanics, a state is characterised by four quantum numbers (n, l, m, and s), but for a pure Coulomb potential as in hydrogen atom, the energy depends only on n. | குவாண்டம் இயங்கியலில், ஒரு நிலை நான்கு குவாண்டம் எண்களால் (n, l, m, மற்றும் s) வகைப்படுத்தப்படுகிறது, ஆனால் ஹைட்ரஜன் அணுவில் போன்ற தூய கூலம்ப் திறனுக்கு, ஆற்றல் n மட்டுமே சார்ந்தது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போர் மாதிரியில், எலக்ட்ரானின் சுழற்சி அதிர்வெண்ணுக்கும் நிறமாலைக் கோட்டின் அதிர்வெண்ணுக்கும் என்ன தொடர்பு?",
+      "options": [
+        "அவை எப்போதும் சமம்",
+        "அவை ஒருபோதும் தொடர்புடையவை அல்ல",
+        "பொதுவாக அவை தொடர்புடையவை அல்ல, ஆனால் பெரிய குவாண்டம் எண்களுக்கிடையே மாற்றங்களில் ஒத்துப்போகின்றன",
+        "நிறமாலை அதிர்வெண் எப்போதும் சுழற்சி அதிர்வெண்ணின் பாதி"
+      ],
+      "correct": 2,
+      "explanation": "In Bohr model, the frequency of revolution of an electron is not connected to the frequency of spectral line. The latter is the difference between two orbital energies divided by h. For transitions between large quantum numbers (n to n-1, n very large), however, the two coincide. | போர் மாதிரியில், எலக்ட்ரானின் சுழற்சி அதிர்வெண் நிறமாலைக் கோட்டின் அதிர்வெண்ணுடன் தொடர்புடையதல்ல. பின்னது இரு வட்டப்பாதை ஆற்றல்களின் வித்தியாசத்தை h ஆல் வகுத்தல். பெரிய குவாண்டம் எண்களுக்கிடையே மாற்றங்களில் இரண்டும் ஒத்துப்போகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மாதிரி இன்னும் பயனுள்ளதாகக் கருதப்படுவதற்கான காரணங்களில் பின்வருவனவற்றில் எது அடங்காது?",
+      "options": [
+        "ஹைட்ரஜன் நிறமாலையின் கிட்டத்தட்ட அனைத்து பொதுவான அம்சங்களையும் விளக்குகிறது",
+        "பல கிளாசிக்கல் இயற்பியல் கருத்துகளை உள்ளடக்கியுள்ளது",
+        "கோட்பாட்டு இயற்பியலாளர்கள் சில சிக்கல்களை புறக்கணிக்க வேண்டியிருக்கும் என்பதை எடுத்துக்காட்டுகிறது",
+        "நிறமாலைக் கோடுகளின் சார்பு தீவிரங்களை சரியாக கணிக்கிறது"
+      ],
+      "correct": 3,
+      "explanation": "Bohr's model is still useful because: (i) it accounts for almost all general features of the hydrogen spectrum, (ii) it incorporates many classical physics concepts, (iii) it demonstrates how theoretical physicists must sometimes ignore certain problems. However, it CANNOT explain relative intensities of spectral lines. | போரின் மாதிரி பயனுள்ளதாக இருப்பதற்கான காரணங்கள்: (i) ஹைட்ரஜன் நிறமாலையின் கிட்டத்தட்ட அனைத்து பொதுவான அம்சங்களையும் விளக்குகிறது, (ii) பல கிளாசிக்கல் இயற்பியல் கருத்துகளை உள்ளடக்கியது, (iii) கோட்பாட்டு இயற்பியலாளர்கள் சில சிக்கல்களை புறக்கணிக்க வேண்டியிருக்கும் என்பதை எடுத்துக்காட்டுகிறது. ஆனால் நிறமாலைக் கோடுகளின் சார்பு தீவிரங்களை விளக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "பயிற்சி 12.1 இன்படி, தாம்சனின் மாதிரியில் அணுவின் அளவு ருதர்ஃபோர்டின் மாதிரியில் அணு அளவை விட எவ்வாறு இருக்கும்?",
+      "options": [
+        "மிகவும் பெரியது",
+        "வேறுபாடு இல்லை",
+        "மிகவும் சிறியது",
+        "சரியாக இரண்டு மடங்கு"
+      ],
+      "correct": 1,
+      "explanation": "The size of the atom in Thomson's model is no different from the atomic size in Rutherford's model. Both models describe the same overall atomic size, but differ in how charge and mass are distributed within that volume. | தாம்சனின் மாதிரியில் அணுவின் அளவு ருதர்ஃபோர்டின் மாதிரியில் அணு அளவிலிருந்து வேறுபடவில்லை. இரு மாதிரிகளும் ஒரே மொத்த அணு அளவை விவரிக்கின்றன, ஆனால் அந்த பருமனுக்குள் மின்னூட்டமும் நிறையும் எவ்வாறு பரவியுள்ளன என்பதில் வேறுபடுகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "அடிநிலை நிலையில் எலக்ட்ரான்கள் நிலையான சமநிலையில் உள்ள மாதிரி எது, மற்றும் எலக்ட்ரான்கள் எப்போதும் நிகர விசையை அனுபவிக்கும் மாதிரி எது?",
+      "options": [
+        "தாம்சனின் மாதிரி; தாம்சனின் மாதிரி",
+        "ருதர்ஃபோர்டின் மாதிரி; ருதர்ஃபோர்டின் மாதிரி",
+        "தாம்சனின் மாதிரி; ருதர்ஃபோர்டின் மாதிரி",
+        "ருதர்ஃபோர்டின் மாதிரி; தாம்சனின் மாதிரி"
+      ],
+      "correct": 2,
+      "explanation": "In the ground state of Thomson's model, electrons are in stable equilibrium, while in Rutherford's model, electrons always experience a net force (centripetal force needed for circular motion). | தாம்சனின் மாதிரியில் அடிநிலை நிலையில் எலக்ட்ரான்கள் நிலையான சமநிலையில் உள்ளன, ருதர்ஃபோர்டின் மாதிரியில் எலக்ட்ரான்கள் எப்போதும் ஒரு நிகர விசையை அனுபவிக்கின்றன (வட்ட இயக்கத்திற்கு தேவையான மையநோக்கு விசை)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "எந்த மாதிரியை அடிப்படையாகக் கொண்ட கிளாசிக்கல் அணு சரிவுக்கு உள்ளாகும்?",
+      "options": [
+        "தாம்சனின் மாதிரி",
+        "ருதர்ஃபோர்டின் மாதிரி",
+        "போரின் மாதிரி",
+        "தாம்சனின் மற்றும் ருதர்ஃபோர்டின் இரு மாதிரிகளும்"
+      ],
+      "correct": 1,
+      "explanation": "A classical atom based on Rutherford's model is doomed to collapse because orbiting electrons would radiate energy and spiral into the nucleus. Thomson's model is electrostatically unstable but not doomed to collapse in the same way. | ருதர்ஃபோர்டின் மாதிரியை அடிப்படையாகக் கொண்ட கிளாசிக்கல் அணு சரிவுக்கு உள்ளாகும், ஏனெனில் சுற்றும் எலக்ட்ரான்கள் ஆற்றலைக் கதிர்வீச்சு செய்து கருவிற்குள் சுருள் வடிவமாகச் செல்லும். தாம்சனின் மாதிரி மின்னிலையியல் ரீதியாக நிலையற்றது ஆனால் அதே வகையில் சரிவுக்கு உள்ளாகாது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "எந்த மாதிரியில் கிட்டத்தட்ட தொடர்ச்சியான நிறை பரவல் உள்ளது, மற்றும் எந்த மாதிரியில் மிகவும் சீரற்ற நிறை பரவல் உள்ளது?",
+      "options": [
+        "தாம்சனின் மாதிரி; ருதர்ஃபோர்டின் மாதிரி",
+        "ருதர்ஃபோர்டின் மாதிரி; தாம்சனின் மாதிரி",
+        "போரின் மாதிரி; தாம்சனின் மாதிரி",
+        "தாம்சனின் மாதிரி; போரின் மாதிரி"
+      ],
+      "correct": 0,
+      "explanation": "An atom has a nearly continuous mass distribution in Thomson's model (positive charge spread throughout), but has a highly non-uniform mass distribution in Rutherford's model (mass concentrated in tiny nucleus). | தாம்சனின் மாதிரியில் அணு கிட்டத்தட்ட தொடர்ச்சியான நிறை பரவலைக் கொண்டுள்ளது (நேர் மின்னூட்டம் எங்கும் பரவியுள்ளது), ஆனால் ருதர்ஃபோர்டின் மாதிரியில் மிகவும் சீரற்ற நிறை பரவலைக் கொண்டுள்ளது (நிறை சிறிய கருவில் மையமாக்கப்பட்டுள்ளது)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "எந்த மாதிரியில் அணுவின் நேர் மின்னூட்டப் பகுதி பெரும்பாலான நிறையைக் கொண்டுள்ளது?",
+      "options": [
+        "தாம்சனின் மாதிரி மட்டும்",
+        "ருதர்ஃபோர்டின் மாதிரி மட்டும்",
+        "இரு மாதிரிகளும்",
+        "எந்த மாதிரியும் அல்ல"
+      ],
+      "correct": 2,
+      "explanation": "The positively charged part of the atom possesses most of the mass in both models. In Thomson's model, positive charge is spread throughout; in Rutherford's model, it is concentrated in the nucleus. | அணுவின் நேர் மின்னூட்டப் பகுதி இரு மாதிரிகளிலும் பெரும்பாலான நிறையைக் கொண்டுள்ளது. தாம்சனின் மாதிரியில் நேர் மின்னூட்டம் எங்கும் பரவியுள்ளது; ருதர்ஃபோர்டின் மாதிரியில் அது கருவில் மையமாக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஒரு அணுவில் இரு ஆற்றல் நிலைகளுக்கிடையே 2.3 eV வித்தியாசம் உள்ளது. மேல் நிலையிலிருந்து கீழ் நிலைக்கு மாறும்போது வெளியிடப்படும் கதிர்வீச்சின் அதிர்வெண் என்ன?",
+      "options": [
+        "5.55 x 10^14 Hz",
+        "2.76 x 10^14 Hz",
+        "1.84 x 10^14 Hz",
+        "3.68 x 10^14 Hz"
+      ],
+      "correct": 0,
+      "explanation": "Using E = hν, we get ν = E/h = (2.3 x 1.6 x 10^-19 J) / (6.63 x 10^-34 J·s) = 5.55 x 10^14 Hz. | E = hν பயன்படுத்தி, ν = E/h = (2.3 x 1.6 x 10^-19 J) / (6.63 x 10^-34 J·s) = 5.55 x 10^14 Hz."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவின் அடிநிலை ஆற்றல் -13.6 eV. இந்த நிலையில் எலக்ட்ரானின் இயங்க ஆற்றல் மற்றும் நிலையாற்றல் என்ன?",
+      "options": [
+        "K = +13.6 eV, U = -27.2 eV",
+        "K = +27.2 eV, U = -13.6 eV",
+        "K = -13.6 eV, U = +27.2 eV",
+        "K = -27.2 eV, U = +13.6 eV"
+      ],
+      "correct": 0,
+      "explanation": "In Bohr's model, K = -E and U = 2E. For E = -13.6 eV: K = +13.6 eV and U = -27.2 eV. Total energy E = K + U = 13.6 - 27.2 = -13.6 eV. | போரின் மாதிரியில், K = -E மற்றும் U = 2E. E = -13.6 eV க்கு: K = +13.6 eV மற்றும் U = -27.2 eV. மொத்த ஆற்றல் E = K + U = 13.6 - 27.2 = -13.6 eV."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவின் உள்ளார்ந்த எலக்ட்ரான் வட்டப்பாதையின் ஆரம் 5.3 x 10^-11 m. n=2 மற்றும் n=3 வட்டப்பாதைகளின் ஆரங்கள் என்ன?",
+      "options": [
+        "r2 = 2.12 x 10^-10 m, r3 = 4.77 x 10^-10 m",
+        "r2 = 1.06 x 10^-10 m, r3 = 1.59 x 10^-10 m",
+        "r2 = 2.12 x 10^-11 m, r3 = 4.77 x 10^-11 m",
+        "r2 = 21.2 x 10^-11 m, r3 = 47.7 x 10^-11 m"
+      ],
+      "correct": 3,
+      "explanation": "Since r_n = n² x r_1, r_2 = 4 x 5.3 x 10^-11 = 21.2 x 10^-11 m, and r_3 = 9 x 5.3 x 10^-11 = 47.7 x 10^-11 m. | r_n = n² x r_1 என்பதால், r_2 = 4 x 5.3 x 10^-11 = 21.2 x 10^-11 m, மற்றும் r_3 = 9 x 5.3 x 10^-11 = 47.7 x 10^-11 m."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் அணு மைய மாதிரியின்படி, அணுவின் முழு நேர் மின்னேற்றமும் பெரும்பாலான நிறையும் எங்கு குவிக்கப்பட்டுள்ளது?",
+      "options": [
+        "அணு முழுவதும் சமமாகப் பரவலாக",
+        "மையக்கரு (nucleus) எனப்படும் சிறிய பகுதியில்",
+        "சுற்றிவரும் மின்னணுக்களிடையே பகிர்ந்தளிக்கப்பட்டு",
+        "அணுவின் வெளிப்புறத்தில்"
+      ],
+      "correct": 1,
+      "explanation": "According to Rutherford's nuclear model, the entire positive charge and most of the mass of the atom are concentrated in a small volume called the nucleus, with electrons revolving around it like planets around the sun. | ருதர்ஃபோர்டின் அணு மைய மாதிரியின்படி, அணுவின் முழு நேர் மின்னேற்றமும் பெரும்பாலான நிறையும் ஒரு சிறிய பருமனில் உள்ள மையக்கருவில் (nucleus) குவிக்கப்பட்டுள்ளது, மின்னணுக்கள் சூரியனைச் சுற்றும் கிரகங்கள் போல அதைச் சுற்றி வருகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் சோதனைகளின்படி மையக்கருவின் அளவு எவ்வளவு?",
+      "options": [
+        "10^-10 m",
+        "10^-12 m",
+        "10^-15 m முதல் 10^-14 m வரை",
+        "10^-8 m"
+      ],
+      "correct": 2,
+      "explanation": "Rutherford's experiments suggested the size of the nucleus to be about 10^-15 m to 10^-14 m, which is much smaller than the size of the atom (10^-10 m). | ருதர்ஃபோர்டின் சோதனைகளின்படி, மையக்கருவின் அளவு சுமார் 10^-15 m முதல் 10^-14 m வரை இருப்பதாகக் கண்டறியப்பட்டது, இது அணுவின் அளவை (10^-10 m) விட மிகவும் சிறியது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "அணு மையக்கருவை விட எத்தனை மடங்கு பெரியது?",
+      "options": [
+        "10 முதல் 100 மடங்கு",
+        "1,000 முதல் 10,000 மடங்கு",
+        "10,000 முதல் 100,000 மடங்கு",
+        "1,000,000 மடங்கு"
+      ],
+      "correct": 2,
+      "explanation": "From kinetic theory, the size of an atom is about 10^-10 m, while the nucleus is about 10^-15 m to 10^-14 m. Thus, the atom is about 10,000 to 100,000 times larger than the nucleus, meaning most of the atom is empty space. | இயக்கக் கோட்பாட்டின்படி, அணுவின் அளவு சுமார் 10^-10 m ஆகவும், மையக்கருவின் அளவு 10^-15 m முதல் 10^-14 m வரையிலும் உள்ளது. எனவே, அணு மையக்கருவை விட சுமார் 10,000 முதல் 100,000 மடங்கு பெரியது, அதாவது அணுவின் பெரும்பாலான பகுதி வெற்றிடமாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "பெரும்பாலான ஆல்பா துகள்கள் மெல்லிய உலோகத் தகட்டின் வழியாக ஏன் சாய்வின்றி நேராகச் செல்கின்றன?",
+      "options": [
+        "ஆல்பா துகள்கள் அணுக்களுடன் செயல்பட மிகச்சிறியவை",
+        "அணு பெரும்பாலும் வெற்றிடமாக உள்ளது",
+        "ஆல்பா துகள்கள் மின்சுமையற்றவை",
+        "தகடு செயல்பாடுகளுக்கு மிகத் தடிமனானது"
+      ],
+      "correct": 1,
+      "explanation": "Most alpha particles pass straight through the thin metal foil because the atom is largely empty space. The electrons are too light to appreciably affect the alpha particles, and most alpha particles do not come close enough to the nucleus to be scattered. | பெரும்பாலான ஆல்பா துகள்கள் மெல்லிய உலோகத் தகட்டின் வழியாக நேராகச் செல்வதற்குக் காரணம், அணு பெரும்பாலும் வெற்றிடமாக இருப்பதுதான். மின்னணுக்கள் ஆல்பா துகள்களைக் குறிப்பிடத்தக்க வகையில் பாதிக்க மிகவும் லேசானவை, மேலும் பெரும்பாலான ஆல்பா துகள்கள் சிதறடிக்கப்படுவதற்கு மையக்கருவிற்கு போதுமான அருகில் வருவதில்லை."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "சிதறல் சோதனையின்போது ஆல்பா துகள் மையக்கருவிற்கு அருகில் வரும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "அது பாதிக்கப்படாமல் வழியாகச் செல்கிறது",
+        "அது மையக்கருவால் உறிஞ்சப்படுகிறது",
+        "அங்குள்ள தீவிரமான மின்புலம் அதைப் பெரிய கோணத்தில் சிதறடிக்கிறது",
+        "அது மையக்கருவைச் சிறிய துண்டுகளாகப் பிளக்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "When an alpha particle happens to come near a nucleus, the intense electric field there scatters it through a large angle. This is because the nucleus contains the entire positive charge of the atom, creating a strong repulsive Coulomb force on the positively charged alpha particle. | ஒரு ஆல்பா துகள் தற்செயலாக மையக்கருவிற்கு அருகில் வரும்போது, அங்குள்ள தீவிரமான மின்புலம் அதைப் பெரிய கோணத்தில் சிதறடிக்கிறது. இதற்குக் காரணம், மையக்கருவில் அணுவின் முழு நேர் மின்னேற்றமும் உள்ளது, இது நேர் மின்னேற்றம் கொண்ட ஆல்பா துகள் மீது வலுவான நழுவிசை (Coulomb force) ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்ட் சிதறல் பகுப்பாய்வில் தங்க மையக்கரு நிலையாக இருப்பதாக ஏன் கருதப்படுகிறது?",
+      "options": [
+        "தங்கத் தகடு மிகவும் மெல்லியதாக இருப்பதால்",
+        "தங்கத்தின் மையக்கரு ஆல்பா துகளை விட சுமார் 50 மடங்கு கனமானது",
+        "ஆல்பா துகள்கள் மிக மெதுவாக நகர்வதால்",
+        "மின்னணுக்கள் மையக்கருவை இடத்தில் நிலைநிறுத்துவதால்"
+      ],
+      "correct": 1,
+      "explanation": "The nucleus of gold is about 50 times heavier than an alpha particle, so it is reasonable to assume that it remains stationary throughout the scattering process. This simplifies the trajectory calculations using Newton's second law and Coulomb's law. | தங்கத்தின் மையக்கரு ஆல்பா துகளை விட சுமார் 50 மடங்கு கனமானது, எனவே சிதறல் செயல்முறை முழுவதும் அது நிலையாக இருப்பதாகக் கருதுவது நியாயமானது. இது நியூட்டனின் இரண்டாவது விதி மற்றும் கூலம்பின் விதியைப் பயன்படுத்தி வீழ்ச்சிப் பாதைக் கணக்கீடுகளை எளிதாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் சிதறல் சோதனையில் பயன்படுத்தப்பட்ட ஆல்பா துகளின் மின்னேற்றம் எவ்வளவு?",
+      "options": [
+        "+1e",
+        "+2e",
+        "+79e",
+        "மின்சுமையற்றது"
+      ],
+      "correct": 1,
+      "explanation": "Alpha particles are nuclei of helium atoms and therefore carry two units (2e) of positive charge. They also have the mass of a helium atom, which consists of 2 protons and 2 neutrons. | ஆல்பா துகள்கள் ஹீலியம் அணுக்களின் மையக்கருக்களாகும், எனவே அவை இரண்டு அலகுகள் (2e) நேர் மின்னேற்றத்தைக் கொண்டுள்ளன. அவை ஹீலியம் அணுவின் நிறையையும் கொண்டுள்ளன, இது 2 புரோட்டான்கள் மற்றும் 2 நியூட்ரான்களைக் கொண்டது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கைகர்-மார்ஸ்டன் சோதனையில் பயன்படுத்தப்பட்ட தங்கத்தின் அணு எண் (Z) என்ன?",
+      "options": [
+        "26",
+        "50",
+        "79",
+        "92"
+      ],
+      "correct": 2,
+      "explanation": "The atomic number of the foil material gold is Z=79. This means the gold nucleus carries a charge of +79e, which creates a strong repulsive force on the incoming alpha particles during the scattering experiment. | தகட்டுப் பொருளான தங்கத்தின் அணு எண் Z=79 ஆகும். இதன் பொருள் தங்க மையக்கரு +79e மின்னேற்றத்தைக் கொண்டுள்ளது, இது சிதறல் சோதனையின்போது வரும் ஆல்பா துகள்கள் மீது வலுவான நழுவிசையை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் முதல் கருதுகோள்படி, நிலையான வட்டணைகளில் உள்ள எலக்ட்ரான் என்ன செய்கிறது?",
+      "options": [
+        "தொடர்ந்து கதிரியக்க ஆற்றலை வெளியிடுகிறது",
+        "கதிரியக்க ஆற்றலை வெளியிடாமல் சுழல்கிறது",
+        "கருவுக்குள் சுருண்டு செல்கிறது",
+        "தொடர்ச்சியான நிறமாலையை வெளியிடுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's first postulate states that an electron in an atom can revolve in certain stable orbits without the emission of radiant energy, contrary to classical electromagnetic theory predictions. | போரின் முதல் கருதுகோள்படி, ஒரு எலக்ட்ரான் அணுவில் சில நிலையான வட்டணைகளில் சுழன்று வரும்போது கதிரியக்க ஆற்றலை வெளியிடாமல் இருக்கும், இது கிளாசிக்கல் மின்காந்த கோட்பாட்டின் கணிப்புகளுக்கு மாறானது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் இரண்டாவது கருதுகோள்படி, நிலையான எலக்ட்ரான் வட்டணைகளுக்கான கோண உந்த நிபந்தனை என்ன?",
+      "options": [
+        "L = nh",
+        "L = n(h/2π)",
+        "L = h/2π",
+        "L = n²h"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's second postulate states that the angular momentum L of the orbiting electron is quantized: L = nh/2π, where n is an integer called the principal quantum number and h is Planck's constant. | போரின் இரண்டாவது கருதுகோள்படி, சுழலும் எலக்ட்ரானின் கோண உந்தம் L = nh/2π என்று குவாண்டமாக்கப்படுகிறது, இங்கு n முதன்மை குவாண்டம் எண், h பிளாங்க் மாறிலி."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மூன்றாவது கருதுகோள்படி, எலக்ட்ரான் எப்போது ஒரு ஒளிமின்னியை வெளியிடுகிறது?",
+      "options": [
+        "அதிக ஆற்றல் வட்டணைக்கு செல்லும்போது",
+        "அதிக ஆற்றல் வட்டணையிலிருந்து குறைந்த ஆற்றல் வட்டணைக்கு மாறும்போது",
+        "அதே வட்டணையில் இருக்கும்போது",
+        "வெளியிலிருந்து ஆற்றலை உறிஞ்சும்போது"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's third postulate states that an electron emits a photon when it makes a transition from one of its specified non-radiating orbits to another of lower energy. The photon energy equals the energy difference between initial and final states. | போரின் மூன்றாவது கருதுகோள்படி, எலக்ட்ரான் ஒரு குறிப்பிட்ட ஆற்றல் குறைந்த வட்டணைக்கு மாறும்போது ஒரு ஒளிமின்னியை வெளியிடுகிறது. ஒளிமின்னியின் ஆற்றல் தொடக்க மற்றும் இறுதி நிலைகளுக்கு இடையேயான ஆற்றல் வேறுபாட்டுக்கு சமம்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மூன்றாவது கருதுகோள்படி, வெளியிடப்படும் ஒளிமின்னியின் அதிர்வெண் சூத்திரம் என்ன?",
+      "options": [
+        "hν = Ei + Ef",
+        "hν = Ei - Ef",
+        "hν = Ei × Ef",
+        "hν = Ei / Ef"
+      ],
+      "correct": 1,
+      "explanation": "According to Bohr's third postulate, the frequency of the emitted photon is given by hν = Ei - Ef, where Ei and Ef are the energies of the initial and final states respectively, and Ei > Ef. | போரின் மூன்றாவது கருதுகோள்படி, வெளியிடப்படும் ஒளிமின்னியின் அதிர்வெண் hν = Ei - Ef என்ற சூத்திரத்தால் கொடுக்கப்படுகிறது, இங்கு Ei மற்றும் Ef முறையே தொடக்க மற்றும் இறுதி நிலைகளின் ஆற்றல்கள், Ei > Ef."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் n-வது சாத்தியமான வட்டணையின் ஆரத்திற்கான சூத்திரம் என்ன?",
+      "options": [
+        "rn = n²h²ε₀ / πme²",
+        "rn = n²h² / 4π²mke²",
+        "rn = n²h²ε₀ / πm²e²",
+        "rn = n²h²ε₀ / πme⁴"
+      ],
+      "correct": 0,
+      "explanation": "The radius of the nth possible orbit in a hydrogen atom is given by: rn = (n²h²ε₀)/(πme²), where n is the principal quantum number, h is Planck's constant, ε₀ is the permittivity of free space, m is the electron mass, and e is the electron charge. | ஹைட்ரஜன் அணுவில் n-வது சாத்தியமான வட்டணையின் ஆரம் rn = (n²h²ε₀)/(πme²) என்ற சூத்திரத்தால் கொடுக்கப்படுகிறது, இங்கு n முதன்மை குவாண்டம் எண், h பிளாங்க் மாறிலி, ε₀ வெற்றிடத்தின் மின்கடத்துமை, m எலக்ட்ரான் நிறை, e எலக்ட்ரான் மின்சுமை."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவின் நிலையான நிலைகளில் எலக்ட்ரானின் மொத்த ஆற்றல் என்ன?",
+      "options": [
+        "En = -me⁴ / (8n²ε₀²h²)",
+        "En = +me⁴ / (8n²ε₀²h²)",
+        "En = -me² / (8n²ε₀²h²)",
+        "En = -me⁴ / (4n²ε₀²h²)"
+      ],
+      "correct": 0,
+      "explanation": "The total energy of the electron in stationary states of hydrogen atom is: En = -me⁴/(8n²ε₀²h²), where the negative sign indicates the electron is bound to the nucleus. | ஹைட்ரஜன் அணுவின் நிலையான நிலைகளில் எலக்ட்ரானின் மொத்த ஆற்றல் En = -me⁴/(8n²ε₀²h²) என்ற சூத்திரத்தால் கொடுக்கப்படுகிறது, எதிர் குறி எலக்ட்ரான் கருவுக்கு கட்டப்பட்டுள்ளது என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "எலக்ட்ரான் வோல்ட்டுகளில் வெளிப்படுத்தும்போது, ஹைட்ரஜன் அணுவின் n-வது நிலையின் ஆற்றல் என்ன?",
+      "options": [
+        "En = -13.6/n eV",
+        "En = -13.6/n² eV",
+        "En = +13.6/n² eV",
+        "En = -13.6×n² eV"
+      ],
+      "correct": 1,
+      "explanation": "When expressed in electron volts, the energy of the nth state in hydrogen atom is En = -13.6/n² eV, where n is the principal quantum number. The ground state (n=1) has energy -13.6 eV. | எலக்ட்ரான் வோல்ட்டுகளில் வெளிப்படுத்தும்போது, ஹைட்ரஜன் அணுவின் n-வது நிலையின் ஆற்றல் En = -13.6/n² eV, இங்கு n முதன்மை குவாண்டம் எண். அடிநிலை (n=1) ஆற்றல் -13.6 eV."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் மொத்த ஆற்றலின் எதிர் குறி எதைக் குறிக்கிறது?",
+      "options": [
+        "எலக்ட்ரான் எங்கும் செல்ல சுதந்திரமாக உள்ளது",
+        "எலக்ட்ரான் கருவுக்கு கட்டப்பட்டுள்ளது",
+        "எலக்ட்ரானுக்கு பூஜ்ய ஆற்றல் உள்ளது",
+        "எலக்ட்ரான் கருவிலிருந்து விலகிச் செல்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "The negative sign of the total energy indicates that the electron is bound to the nucleus. If E were positive, the electron would not follow a closed orbit around the nucleus and would escape. | மொத்த ஆற்றலின் எதிர் குறி எலக்ட்ரான் கருவுக்கு கட்டப்பட்டுள்ளது என்பதைக் குறிக்கிறது. E நேர்மறையாக இருந்தால், எலக்ட்ரான் கருவைச் சுற்றி மூடிய வட்டணையைப் பின்பற்றாது மற்றும் தப்பிவிடும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மாதிரியில் குறிப்பிடப்பட்டுள்ள பிளாங்க் மாறிலி h மதிப்பு என்ன?",
+      "options": [
+        "6.6 × 10⁻³⁴ J s",
+        "6.6 × 10⁻³⁴ J/s",
+        "6.6 × 10⁻³⁴ m/s",
+        "6.6 × 10⁻³⁴ kg m/s"
+      ],
+      "correct": 0,
+      "explanation": "Planck's constant h = 6.6 × 10⁻³⁴ J s (joule-seconds). This is the fundamental constant used in Bohr's quantization condition for angular momentum. | பிளாங்க் மாறிலி h = 6.6 × 10⁻³⁴ J s (ஜூல்-விநாடிகள்). இது கோண உந்தத்திற்கான போரின் குவாண்டமாக்கல் நிபந்தனையில் பயன்படுத்தப்படும் அடிப்படை மாறிலி."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் இரண்டாவது கருதுகோள்படி, முதல் வட்டணையில் (n=1) எலக்ட்ரானின் கோண உந்தம் என்ன?",
+      "options": [
+        "L = h/4π",
+        "L = h/2π",
+        "L = h",
+        "L = 2h/π"
+      ],
+      "correct": 1,
+      "explanation": "For n=1, the angular momentum L = nh/2π = h/2π. This is the minimum quantized value of angular momentum for an electron in a hydrogen atom. | n=1 க்கு, கோண உந்தம் L = nh/2π = h/2π. இது ஹைட்ரஜன் அணுவில் எலக்ட்ரானுக்கான குவாண்டமாக்கப்பட்ட கோண உந்தத்தின் குறைந்தபட்ச மதிப்பு."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கிளாசிக்கல் பொறியியல்படி, ஹைட்ரஜன் அணுவில் வட்டணை ஆரம் மற்றும் எலக்ட்ரான் வேகத்திற்கு இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "r = e²/(4πε₀mv²)",
+        "r = e²/(4πε₀m²v²)",
+        "r = e²/(2πε₀mv²)",
+        "r = e²/(8πε₀mv²)"
+      ],
+      "correct": 0,
+      "explanation": "The relation between orbit radius and electron velocity is r = e²/(4πε₀mv²), derived from equating electrostatic force of attraction to centripetal force required for circular motion. | வட்டணை ஆரம் மற்றும் எலக்ட்ரான் வேகத்திற்கு இடையேயான தொடர்பு r = e²/(4πε₀mv²), இது வட்ட இயக்கத்திற்குத் தேவையான மையவிலக்கு விசைக்கு மின்நிலைப்படை இழுவிசையை சமன்படுத்துவதால் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் இயக்க ஆற்றல் வட்டணை ஆரத்தில் எவ்வாறு வெளிப்படுத்தப்படுகிறது?",
+      "options": [
+        "K = e²/(8πε₀r)",
+        "K = e²/(4πε₀r)",
+        "K = e²/(2πε₀r)",
+        "K = e²/(16πε₀r)"
+      ],
+      "correct": 0,
+      "explanation": "The kinetic energy of the electron in hydrogen atom is K = e²/(8πε₀r), derived from K = ½mv² and the force balance equation. | ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் இயக்க ஆற்றல் K = e²/(8πε₀r), இது K = ½mv² மற்றும் விசை சமன்பாட்டிலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் நிலை ஆற்றல் என்ன?",
+      "options": [
+        "U = +e²/(4πε₀r)",
+        "U = -e²/(4πε₀r)",
+        "U = -e²/(2πε₀r)",
+        "U = +e²/(8πε₀r)"
+      ],
+      "correct": 1,
+      "explanation": "The potential energy of the electron in hydrogen atom is U = -e²/(4πε₀r). The negative sign indicates that the electrostatic force is in the -r direction (attractive). | ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் நிலை ஆற்றல் U = -e²/(4πε₀r). எதிர் குறி மின்நிலைப்படை விசை -r திசையில் (ஈர்க்கும்) இருப்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் மொத்த ஆற்றல் இயக்க மற்றும் நிலை ஆற்றல்களின் அடிப்படையில் என்ன?",
+      "options": [
+        "E = K + U = e²/(8πε₀r)",
+        "E = K + U = -e²/(8πε₀r)",
+        "E = K + U = e²/(4πε₀r)",
+        "E = K + U = -e²/(4πε₀r)"
+      ],
+      "correct": 1,
+      "explanation": "The total energy E = K + U = e²/(8πε₀r) - e²/(4πε₀r) = -e²/(8πε₀r). The total energy is negative, indicating the electron is bound to the nucleus. | மொத்த ஆற்றல் E = K + U = e²/(8πε₀r) - e²/(4πε₀r) = -e²/(8πε₀r). மொத்த ஆற்றல் எதிர்மறையாக இருப்பதால் எலக்ட்ரான் கருவுக்கு கட்டப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மாதிரியின் வழிமுறையில், வெவ்வேறு நிலைகளின் ஆற்றல்களைக் கணக்கிட ஆற்றல் சமன்பாட்டில் எது பதிலிடப்படுகிறது?",
+      "options": [
+        "எலக்ட்ரானின் வேகம்",
+        "குவாண்டமாக்கல் நிபந்தனையிலிருந்து பெறப்பட்ட வட்டணை ஆரம்",
+        "கருவின் நிறை",
+        "கருவின் மின்சுமை"
+      ],
+      "correct": 1,
+      "explanation": "To calculate the energies of different energy states, the value of orbital radius r obtained from Bohr's second postulate (quantization condition) is substituted into the energy equation. | வெவ்வேறு ஆற்றல் நிலைகளின் ஆற்றல்களைக் கணக்கிட, போரின் இரண்டாவது கருதுகோளிலிருந்து (குவாண்டமாக்கல் நிபந்தனை) பெறப்பட்ட வட்டணை ஆரம் r மதிப்பு ஆற்றல் சமன்பாட்டில் பதிலிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "தாம்சனின் அணு மாதிரியின்படி, நேர்மின் சார்ஜ் எவ்வாறு பரவியுள்ளது?",
+      "options": [
+        "மையத்தில் உள்ள சிறிய அணுக்கருவில் ஒன்றிணைக்கப்பட்டுள்ளது",
+        "கோள வடிவ மேகத்தில் சீராக பரவியுள்ளது",
+        "அணுவின் மேற்பரப்பில் மட்டுமே அமைந்துள்ளது",
+        "சீரற்ற முறையில் சிதறிய கட்டங்களாக உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "Thomson's model describes the atom as a spherical cloud of positive charges with electrons embedded in it. The positive charge is uniformly distributed throughout the volume. | தாம்சனின் மாதிரி, அணுவை ஒரு கோள வடிவ நேர்மின் கூட்டத்தால் விவரிக்கிறது, அதில் எலக்ட்ரான்கள் பதிக்கப்பட்டுள்ளன. நேர்மின் சார்ஜ் அணுவின் முழு பருமனிலும் சீராக பரவியுள்ளது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் அணுக்கரு மாதிரியில், அணுவின் பெரும்பாலான நிறை எங்கு ஒன்றிணைக்கப்பட்டுள்ளது?",
+      "options": [
+        "சுற்றி வரும் எலக்ட்ரான்களில்",
+        "அணுக்கருவிற்கும் எலக்ட்ரான்களுக்கும் இடையே உள்ள வெற்றிடத்தில்",
+        "மையத்தில் உள்ள சிறிய அணுக்கருவில்",
+        "அணுவின் முழு பருமனிலும் சீராக பரவியுள்ளது"
+      ],
+      "correct": 2,
+      "explanation": "Rutherford's model states that most of the mass of the atom and all its positive charge are concentrated in a tiny nucleus at the center. | ருதர்ஃபோர்டின் அணுக்கரு மாதிரியில், அணுவின் பெரும்பாலான நிறை மற்றும் அனைத்து நேர்மின் சார்ஜும் மையத்தில் உள்ள ஒரு சிறிய அணுக்கருவில் ஒன்றிணைக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் அணுக்கரு மாதிரியின் முதல் முக்கிய குறைபாடு என்ன?",
+      "options": [
+        "அணுக்களின் தொடர்ச்சியான நிறப்பிரிகையை விளக்க முடியாது",
+        "அணுக்கள் நிலையற்றவை என்று கணிக்கிறது, ஏனெனில் எலக்ட்ரான்கள் அணுக்கருவிற்குள் சுருண்டு விழ வேண்டும்",
+        "அணுக்களில் வெற்றிடம் இல்லை என்று கூறுகிறது",
+        "எலக்ட்ரான்கள் நகராதவை என்று கூறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "According to classical electromagnetic theory, accelerated electrons revolving around the nucleus must radiate energy and spiral into the nucleus, making the atom unstable. | கிளாசிக்கல் மின்காந்த கோட்பாட்டின்படி, அணுக்கருவைச் சுற்றி வரும் முடுக்கமடைந்த எலக்ட்ரான்கள் ஆற்றலை கதிர்வீச வேண்டும் மற்றும் அணுக்கருவிற்குள் சுருண்டு விழ வேண்டும். இது அணுவை நிலையற்றதாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் அணுக்கரு மாதிரியின் இரண்டாவது முக்கிய குறைபாடு என்ன?",
+      "options": [
+        "அணுக்களின் பண்பான கோடு நிறப்பிரிகையை விளக்க முடியாது",
+        "அணுக்கள் தொடர்ச்சியான நிறப்பிரிகையை வெளியிட வேண்டும் என்று கணிக்கிறது",
+        "அணுக்களின் நடுநிலை சார்ஜை கணக்கிட தவறுகிறது",
+        "எலக்ட்ரான்கள் அணுக்கருவிற்குள் விழுவதை விளக்கவில்லை"
+      ],
+      "correct": 0,
+      "explanation": "Rutherford's model cannot explain the characteristic line spectra of atoms. Classical theory predicts continuous spectra, but experiments show discrete line spectra. | ருதர்ஃபோர்டின் மாதிரி அணுக்களின் பண்பான கோடு நிறப்பிரிகையை விளக்க முடியாது. கிளாசிக்கல் கோட்பாட்டு தொடர்ச்சியான நிறப்பிரிகையை கணிக்கிறது, ஆனால் சோதனைகள் தனித்த கோடு நிறப்பிரிகையைக் காட்டுகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "கோடு நிறப்பிரிகை என்றால் என்ன?",
+      "options": [
+        "அனைத்து அலைநீளங்களின் தொடர்ச்சியான பட்டை",
+        "தனித்த இணை கோடுகளைக் கொண்ட நிறப்பிரிகை",
+        "இருண்ட கோடுகள் மட்டுமே உள்ள நிறப்பிரிகை",
+        "சூடான திண்மங்களால் மட்டுமே உருவாக்கப்படும் நிறப்பிரிகை"
+      ],
+      "correct": 1,
+      "explanation": "A line spectrum consists of isolated parallel lines. It provides useful information about atomic structure. Each element has a characteristic spectrum. | கோடு நிறப்பிரிகை என்பது தனித்த இணை கோடுகளின் தொகுப்பாகும். இது அணு அமைப்பைப் பற்றிய பயனுள்ள தகவல்களை வழங்குகிறது. ஒவ்வொரு தனிமத்திற்கும் ஒரு பண்பான நிறப்பிரிகை உள்ளது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் முதல் கோட்பாட்டின்படி, நிலையான வட்டணையில் சுற்றி வரும் எலக்ட்ரான் என்ன செய்கிறது?",
+      "options": [
+        "தொடர்ச்சியாக கதிர்வீச்சு ஆற்றலை வெளியிடுகிறது",
+        "உயர் வட்டணைகளுக்கு குதிக்கும்போது மட்டுமே ஆற்றலை வெளியிடுகிறது",
+        "கதிர்வீச்சு ஆற்றலை வெளியிடாது",
+        "அணுக்கருவிலிருந்து ஆற்றலை உறிஞ்சுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "Bohr's first postulate states that an electron can revolve in stable orbits without emitting radiant energy, contrary to classical theory. | போரின் முதல் கோட்பாட்டின்படி, எலக்ட்ரான் நிலையான வட்டணைகளில் சுற்றி வரும்போது கதிர்வீச்சு ஆற்றலை வெளியிடாது. இது கிளாசிக்கல் கோட்பாட்டிற்கு எதிரானது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் கோண உந்தத்தின் குவாண்டமாக்கல் நிபந்தனை என்ன?",
+      "options": [
+        "L = nh",
+        "L = nh/2π",
+        "L = n²h/2π",
+        "L = h/n"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's second postulate states that angular momentum is an integral multiple of h/2π, where n is the principal quantum number. | போரின் இரண்டாவது கோட்பாட்டின்படி, கோண உந்தம் h/2π இன் முழு எண் மடங்காக இருக்கும். இங்கு n என்பது முதன்மை குவாண்டம் எண்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மூன்றாவது கோட்பாட்டின்படி, உயர் ஆற்றல் நிலையிலிருந்து குறைந்த ஆற்றல் நிலைக்கு மாறும்போது என்ன நடக்கிறது?",
+      "options": [
+        "வேறுபாட்டிற்கு சமமான ஆற்றலுடன் ஒரு ஃபோட்டான் உறிஞ்சப்படுகிறது",
+        "வேறுபாட்டிற்கு சமமான ஆற்றலுடன் ஒரு ஃபோட்டான் வெளியிடப்படுகிறது",
+        "எலக்ட்ரான் தொடர்ச்சியான கதிர்வீச்சை வெளியிடுகிறது",
+        "அணுக்கரு மிகை ஆற்றலை உறிஞ்சுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's third postulate states that when an electron transitions to a lower energy state, a photon is emitted with energy equal to the difference between initial and final states. | போரின் மூன்றாவது கோட்பாட்டின்படி, எலக்ட்ரான் குறைந்த ஆற்றல் நிலைக்கு மாறும்போது, ஒரு ஃபோட்டான் வெளியிடப்படும். இதன் ஆற்றல் தொடக்க மற்றும் இறுதி நிலைகளுக்கு இடையேயான வேறுபாட்டிற்கு சமமாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மாதிரியின்படி ஹைட்ரஜன் அணுவின் அடிநிலை ஆற்றல் என்ன?",
+      "options": [
+        "-13.6 eV",
+        "-3.4 eV",
+        "-1.51 eV",
+        "0 eV"
+      ],
+      "correct": 0,
+      "explanation": "The ground state (n=1) energy of hydrogen atom is -13.6 eV. Higher n values correspond to excited states. The negative sign indicates the electron is bound. | ஹைட்ரஜன் அணுவின் அடிநிலை (n=1) ஆற்றல் -13.6 eV. n இன் உயர் மதிப்புகள் கிளர்வு நிலைகளுக்கு ஒத்திசைக்கின்றன. எதிர் குறி எலக்ட்ரான் கட்டப்பட்டுள்ளது என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவின் n-வது வட்டணையில் எலக்ட்ரானின் ஆற்றலுக்கான சூத்திரம் என்ன?",
+      "options": [
+        "En = -13.6/n eV",
+        "En = -13.6 × n eV",
+        "En = -13.6/n² eV",
+        "En = -13.6 × n² eV"
+      ],
+      "correct": 2,
+      "explanation": "The total energy in the nth state is En = -13.6/n² eV. This shows energy is quantized and depends on principal quantum number n. | n-வது நிலையில் மொத்த ஆற்றல் En = -13.6/n² eV. இது ஆற்றல் குவாண்டமாக்கப்பட்டுள்ளது மற்றும் முதன்மை குவாண்டம் எண் n மீது சார்ந்துள்ளது என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "டி ப்ரோக்ளி போரின் இரண்டாவது குவாண்டமாக்கல் கோட்பாட்டை எவ்வாறு விளக்கினார்?",
+      "options": [
+        "வட்ட வட்டணைகளில் எலக்ட்ரான்கள் நிலை அலைகளாக நடத்தையுடையவை என்று முன்மொழிந்தார்",
+        "எலக்ட்ரான்கள் அலை இயல்பு இல்லாத தனித்த துகள்கள் என்று கூறினார்",
+        "கோண உந்தம் எப்போதும் பேணப்படுகிறது என்று நிரூபித்தார்",
+        "அணுக்கரு தனித்த அதிர்வெண்களை வெளியிடுகிறது என்று காட்டினார்"
+      ],
+      "correct": 0,
+      "explanation": "De Broglie explained that electrons behave as standing waves in circular orbits. Only resonant standing waves persist, where circumference equals an integral number of wavelengths. | டி ப்ரோக்ளி விளக்கினார், வட்ட வட்டணைகளில் எலக்ட்ரான்கள் நிலை அலைகளாக நடத்தையுடையவை. ஒத்திசைவு நிலை அலைகள் மட்டுமே நீடிக்க முடியும், அதில் சுற்றளவு ஒரு முழு எண் அலைநீளத்திற்கு சமமாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மாதிரியில் வட்டணை ஆரமும் முதன்மை குவாண்டம் எண் n இடையே உள்ள தொடர்பு என்ன?",
+      "options": [
+        "rn, n க்கு நேர்விகிதத்தில் உள்ளது",
+        "rn, n² க்கு நேர்விகிதத்தில் உள்ளது",
+        "rn, 1/n க்கு நேர்விகிதத்தில் உள்ளது",
+        "rn, 1/n² க்கு நேர்விகிதத்தில் உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "In Bohr's model, the radius of the nth orbit is proportional to n². The Bohr radius a₀ is the radius of the first orbit (n=1), equal to 5.3 × 10⁻¹¹ m. | போரின் மாதிரியில், n-வது வட்டணையின் ஆரம் n² க்கு நேர்விகிதத்தில் உள்ளது. போர் ஆரம் a₀ என்பது முதல் வட்டணையின் (n=1) ஆரம், அது 5.3 × 10⁻¹¹ m."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவின் அயனியாக்கல் ஆற்றல் என்றால் என்ன?",
+      "options": [
+        "n=1 இலிருந்து n=2 க்கு எலக்ட்ரானை நகர்த்த தேவையான ஆற்றல்",
+        "அடிநிலையிலிருந்து எலக்கை விடுவிக்க தேவையான ஆற்றல்",
+        "n=2 இலிருந்து n=1 க்கு விழும்போது வெளியிடப்படும் ஆற்றல்",
+        "முதல் வட்டணையில் எலக்ட்ரானின் இயக்க ஆற்றல்"
+      ],
+      "correct": 1,
+      "explanation": "Ionization energy is the minimum energy required to free the electron from ground state to infinity. This equals 13.6 eV. | அயனியாக்கல் ஆற்றல் என்பது அடிநிலையிலிருந்து எலக்ட்ரானை விடுவிக்க குறைந்தபட்ச ஆற்றல். இது 13.6 eV க்கு சமம்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மாதிரியின் குறைபாடுகளில் எது அடங்காது?",
+      "options": [
+        "இது ஹைட்ரஜன் அணுக்களுக்கு மட்டுமே பொருந்தும்",
+        "நிறப்பிரிகை கோடுகளின் ஒப்பீட்டு தீவிரத்தை விளக்க முடியாது",
+        "ஹைட்ரஜனால் வெளியிடப்படும் ஒளியின் அதிர்வெண்களை சரியாக கணிக்கிறது",
+        "ஹீலியம் போன்ற பல எலக்ட்ரான் அணுக்களுக்கு தோல்வியடைகிறது"
+      ],
+      "correct": 2,
+      "explanation": "While Bohr's model correctly predicts frequencies of light emitted by hydrogenic atoms, this is a success, not a limitation. Limitations include: only for single-electron atoms, cannot explain relative intensities, fails for multi-electron atoms. | போரின் மாதிரி ஹைட்ரஜன் அணுக்களால் வெளியிடப்படும் ஒளியின் அதிர்வெண்களை சரியாக கணிக்கிறது, இது வெற்றி. குறைபாடுகள்: ஒரு எலக்ட்ரான் அணுக்களுக்கு மட்டுமே, ஒப்பீட்டு தீவிரத்தை விளக்க முடியாது, பல எலக்ட்ரான் அணுக்களுக்கு தோல்வியடைகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஜீகர்-மார்ஸ்டன் சோதனையில், 7.7 MeV ஆல்ஃபா துகள் அணுக்கத்திற்கு மிக நெருக்கமான அணுக்கத் தூரம் என்ன?",
+      "options": [
+        "3.0 × 10⁻¹⁴ m",
+        "3.84 × 10⁻¹⁶ m",
+        "30 fm",
+        "6 fm"
+      ],
+      "correct": 2,
+      "explanation": "The distance of closest approach d is calculated using conservation of energy. The kinetic energy K of the alpha-particle equals the electric potential energy U at closest approach. For gold (Z=79), d = 3.0 × 10⁻¹⁴ m = 30 fm. This is larger than the actual gold nucleus radius (6 fm) because the alpha-particle reverses direction without actually touching the nucleus. | ஜீகர்-மார்ஸ்டன் சோதனையில், 7.7 MeV ஆல்ஃபா துகளின் மிக நெருக்கமான அணுக்கம் தூரம் d = 3.0 × 10⁻¹⁴ m = 30 fm ஆகும். இது தங்க அணுக்கத்தின் உண்மையான ஆரத்தை (6 fm) விட அதிகமாகும், ஏனெனில் ஆல்ஃபா துகள் அணுக்கத்தை உண்மையில் தொடாமலேயே திசைமாற்றம் பெறுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஆல்ஃபா துகள் சிதறலில் ஆற்றல் பாதுகாப்பின்படி, ஆல்ஃபா துகள் தற்காலிகமாக நிற்கும்போது தொடக்க இயக்க ஆற்றல் Ki எதற்கு சமம்?",
+      "options": [
+        "கணினியின் மொத்த இயக்க ஆற்றலுக்கு",
+        "மிக நெருக்கமான அணுக்கத்தில் மின்னியல் நிலை ஆற்றல் U க்கு",
+        "இயக்க மற்றும் நிலை ஆற்றல்களின் கூட்டுத்தொகைக்கு",
+        "சுழியத்திற்கு"
+      ],
+      "correct": 1,
+      "explanation": "The key principle is conservation of mechanical energy. The initial energy Ei is just the kinetic energy K of the incoming alpha-particle. The final energy Ef is just the electric potential energy U of the system when the alpha-particle momentarily stops. Thus Ki = U at closest approach. | ஆல்ஃபா துகள் சிதறலில் ஆற்றல் பாதுகாப்பின்படி, தொடக்க இயக்க ஆற்றல் Ki, ஆல்ஃபா துகள் தற்காலிகமாக நிற்கும்போது மின்னியல் நிலை ஆற்றல் U க்கு சமமாகும். Ei = Ef என்ற சமன்பாடு K = U என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஆல்ஃபா துகள் சிதறலில் மிக நெருக்கமான அணுக்கத் தூரம் d க்கான சமன்பாடு என்ன?",
+      "options": [
+        "d = (2Ze²)/(4πε₀K)",
+        "d = (4πε₀K)/(2Ze²)",
+        "d = K/(2Ze²)",
+        "d = (2Ze²)/(4πε₀K)"
+      ],
+      "correct": 3,
+      "explanation": "From conservation of energy K = (2Ze²)/(4πε₀d), solving for d gives d = (2Ze²)/(4πε₀K). This formula shows that the distance of closest approach is inversely proportional to the kinetic energy of the alpha-particle and directly proportional to the atomic number Z of the target nucleus. | ஆல்ஃபா துகள் சிதறலில் மிக நெருக்கமான அணுக்கம் d = (2Ze²)/(4πε₀K) என்ற சமன்பாடால் கணக்கிடப்படுகிறது. இது ஆல்ஃபா துகளின் இயக்க ஆற்றலுக்கு எதிர்விகிதத்திலும், இலக்கு அணுக்கத்தின் அணு எண் Z க்கு நேர்விகிதத்திலும் இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் அணுக்க மாதிரியில், எலக்ட்ரான்களை அவற்றின் வட்டணைகளில் வைத்திருக்க மையவிலக்கு விசையை எது வழங்குகிறது?",
+      "options": [
+        "எலக்ட்ரான் மற்றும் அணுக்கத்திற்கு இடையேயான ஈர்ப்பு விசை",
+        "சுழலும் எலக்ட்ரான்களுக்கும் அணுக்கத்திற்கும் இடையேயான மின்நிலைக் கவர்ச்சி விசை",
+        "எலக்ட்ரான் சுழற்சியால் ஏற்படும் காந்த விசை",
+        "அணுக்க வலிமையான விசை"
+      ],
+      "correct": 1,
+      "explanation": "In Rutherford's nuclear model, the electrostatic force of attraction Fe between the revolving electrons and the nucleus provides the requisite centripetal force Fc to keep them in their orbits. The equation is Fe = Fc, which gives (1/4πε₀)(e²/r²) = (mv²/r). | ருதர்ஃபோர்டின் அணுக்க மாதிரியில், சுழலும் எலக்ட்ரான்களுக்கும் அணுக்கத்திற்கும் இடையேயான மின்நிலைக் கவர்ச்சி விசை Fe, அவற்றை வட்டணையில் வைத்திருக்க தேவையான மையவிலக்கு விசை Fc-ஐ வழங்குகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் இயக்கவியல் நிலையான வட்டணைக்கு, மின்நிலைக் கவர்ச்சி விசைக்கும் மையவிலக்கு விசைக்கும் இடையேயான உறவு என்ன?",
+      "options": [
+        "Fe > Fc",
+        "Fe < Fc",
+        "Fe = Fc",
+        "Fe + Fc = 0"
+      ],
+      "correct": 2,
+      "explanation": "For a dynamically stable orbit in a hydrogen atom, the electrostatic force of attraction equals the centripetal force required: Fe = Fc. This gives the equation (1/4πε₀)(e²/r²) = (mv²/r), which is the fundamental condition for orbital stability in Rutherford's classical model. | ஹைட்ரஜன் அணுவில் இயக்கவியல் நிலையான வட்டணைக்கு, மின்நிலைக் கவர்ச்சி விசை Fe மற்றும் மையவிலக்கு விசை Fc சமமாக இருக்க வேண்டும்: Fe = Fc. இது (1/4πε₀)(e²/r²) = (mv²/r) என்ற சமன்பாட்டைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் மாதிரியின்படி, ஹைட்ரஜன் அணுவில் வட்டணை ஆரம் r மற்றும் எலக்ட்ரான் வேகம் v இடையேயான உறவு என்ன?",
+      "options": [
+        "r = e²/(4πε₀mv²)",
+        "r = e²/(4πε₀v²)",
+        "r = (4πε₀mv²)/e²",
+        "r = e²/(8πε₀mv²)"
+      ],
+      "correct": 0,
+      "explanation": "From the condition Fe = Fc, we get (1/4πε₀)(e²/r²) = (mv²/r). Solving for r gives r = e²/(4πε₀mv²). This shows that the orbit radius is inversely proportional to the square of the electron velocity. | ருதர்ஃபோர்டின் மாதிரியில், Fe = Fc என்ற நிபந்தனையிலிருந்து r = e²/(4πε₀mv²) என்ற சமன்பாடு கிடைக்கிறது. இது வட்டணை ஆரம் எலக்ட்ரான் வேகத்தின் வர்க்கத்திற்கு எதிர்விகிதத்தில் இருப்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் இயக்க ஆற்றல் K, e, r, மற்றும் ε₀ வடிவில் என்ன?",
+      "options": [
+        "K = e²/(4πε₀r)",
+        "K = e²/(8πε₀r)",
+        "K = -e²/(8πε₀r)",
+        "K = e²/(2πε₀r)"
+      ],
+      "correct": 1,
+      "explanation": "The kinetic energy of the electron is K = (1/2)mv² = e²/(8πε₀r). This is derived from the orbital stability condition and the expression for velocity. The kinetic energy is positive and inversely proportional to the orbit radius. | ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் இயக்க ஆற்றல் K = (1/2)mv² = e²/(8πε₀r) ஆகும். இது வட்டணை நிலைத்தன்மை நிபந்தனையிலிருந்து பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் மின்நிலை நிலை ஆற்றல் U என்ன?",
+      "options": [
+        "U = +e²/(4πε₀r)",
+        "U = -e²/(4πε₀r)",
+        "U = e²/(8πε₀r)",
+        "U = -e²/(8πε₀r)"
+      ],
+      "correct": 1,
+      "explanation": "The electrostatic potential energy is U = -e²/(4πε₀r). The negative sign signifies that the electrostatic force is in the -r direction (attractive force). This represents the bound state of the electron. | ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் மின்நிலை நிலை ஆற்றல் U = -e²/(4πε₀r) ஆகும். எதிர்குறி எலக்ட்ரான் கட்டப்பட்ட நிலையில் இருப்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் மொத்த ஆற்றல் E என்ன?",
+      "options": [
+        "E = +e²/(8πε₀r)",
+        "E = -e²/(4πε₀r)",
+        "E = -e²/(8πε₀r)",
+        "E = +e²/(8πε₀r)"
+      ],
+      "correct": 2,
+      "explanation": "The total energy E = K + U = e²/(8πε₀r) - e²/(4πε₀r) = -e²/(8πε₀r). The negative total energy implies that the electron is bound to the nucleus. If E were positive, the electron would not follow a closed orbit. | ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் மொத்த ஆற்றல் E = K + U = -e²/(8πε₀r) ஆகும். எதிர்குறி மொத்த ஆற்றல் எலக்ட்ரான் அணுக்கத்துடன் கட்டப்பட்டுள்ளதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் மொத்த ஆற்றலின் எதிர்குறி என்ன குறிக்கிறது?",
+      "options": [
+        "எலக்ட்ரான் அணுக்கத்திலிருந்து விடுபட்டுள்ளது",
+        "எலக்ட்ரான் அணுக்கத்துடன் கட்டப்பட்டுள்ளது",
+        "எலக்ட்ரான் விடுபட்ட நிலையில் உள்ளது",
+        "எலக்ட்ரானின் இயக்க ஆற்றல் சுழியமாகும்"
+      ],
+      "correct": 1,
+      "explanation": "The negative total energy implies that the electron is bound to the nucleus. Energy would be required to remove the electron from the hydrogen atom to a distance infinitely far away from its nucleus. This is the fundamental meaning of a bound state in quantum mechanics. | எலக்ட்ரானின் எதிர்குறி மொத்த ஆற்றல் அது அணுக்கத்துடன் கட்டப்பட்டுள்ளதைக் குறிக்கிறது. அணுக்கத்திலிருந்து எலக்ட்ரானை விடுவிக்க கூடுதல் ஆற்றல் தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "உதாரணம் 12.3-ல், -13.6 eV மொத்த ஆற்றல் கொண்ட ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் வட்டணை ஆரம் என்ன?",
+      "options": [
+        "5.3 × 10⁻¹¹ m",
+        "5.3 × 10⁻¹⁰ m",
+        "5.3 × 10⁻¹² m",
+        "5.3 × 10⁻⁹ m"
+      ],
+      "correct": 0,
+      "explanation": "Using the formula E = -e²/(8πε₀r) with E = -2.2 × 10⁻¹⁸ J, and substituting the values of e and ε₀, we get r = 5.3 × 10⁻¹¹ m. This is the Bohr radius, which is the characteristic size of a hydrogen atom. | -13.6 eV மொத்த ஆற்றல் கொண்ட ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் வட்டணை ஆரம் r = 5.3 × 10⁻¹¹ m ஆகும். இது போர் ஆரம் என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "உதாரணம் 12.3-ல், ஹைட்ரஜன் அணுவில் சுழலும் எலக்ட்ரானின் வேகம் என்ன?",
+      "options": [
+        "2.2 × 10⁵ m/s",
+        "2.2 × 10⁶ m/s",
+        "2.2 × 10⁷ m/s",
+        "2.2 × 10⁴ m/s"
+      ],
+      "correct": 1,
+      "explanation": "The velocity of the revolving electron is computed from v = e/√(4πε₀mr) with m = 9.1 × 10⁻³¹ kg and r = 5.3 × 10⁻¹¹ m. This gives v = 2.2 × 10⁶ m/s, which is about 1/137 of the speed of light. | ஹைட்ரஜன் அணுவில் சுழலும் எலக்ட்ரானின் வேகம் v = e/√(4πε₀mr) சமன்பாட்டிலிருந்து 2.2 × 10⁶ m/s என கணக்கிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "de Broglie கருதுகோளின்படி, ஹைட்ரஜன் அணுவின் nth பாதையில் நகரும் எலக்ட்ரானின் அலைநீளம் என்ன?",
+      "options": [
+        "λ = h / (m v_n)",
+        "λ = m v_n / h",
+        "λ = h × m × v_n",
+        "λ = h / (2π m v_n)"
+      ],
+      "correct": 0,
+      "explanation": "According to de Broglie's hypothesis, the wavelength of a material particle is given by λ = h/p, where p is the momentum. For an electron moving with speed v_n much less than the speed of light, p = m v_n. Therefore, λ = h / (m v_n). This connects the wave nature of the electron to its particle nature. | de Broglie கருதுகோளின்படி, ஒரு பொருள் துகளின் அலைநீளம் λ = h/p என்று கொடுக்கப்படுகிறது, இங்கு p என்பது உந்தம். ஒளியின் வேகத்தை விட குறைந்த வேகத்தில் v_n வேகத்தில் நகரும் எலக்ட்ரானுக்கு, p = m v_n. எனவே, λ = h / (m v_n). இந்த தொடர்பு எலக்ட்ரானின் அலைத் தன்மையை அதன் துகள் தன்மையுடன் இணைக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "வட்டவடிவ பாதையில் நிற்கும் எலக்ட்ரான் அலை இருக்க, எந்த நிபந்தனை நிறைவேற வேண்டும்?",
+      "options": [
+        "சுற்றளவு ஒற்றைப்படை எண்ணிக்கையிலான அரை-அலைநீளங்களுக்கு சமமாக இருக்க வேண்டும்",
+        "சுற்றளவு முழு எண்ணிக்கையிலான அலைநீளங்களுக்கு சமமாக இருக்க வேண்டும்",
+        "ஆரம் முழு எண்ணிக்கையிலான அலைநீளங்களுக்கு சமமாக இருக்க வேண்டும்",
+        "விட்டம் முழு எண்ணிக்கையிலான அலைநீளங்களுக்கு சமமாக இருக்க வேண்டும்"
+      ],
+      "correct": 1,
+      "explanation": "For standing waves to form on a circular orbit, the circumference of the orbit must contain an integral number of wavelengths: 2πr_n = nλ, where n = 1, 2, 3... This is analogous to standing waves on a string where only certain wavelengths survive. Waves with other wavelengths interfere destructively. | வட்டவடிவ பாதையில் நிற்கும் அலைகள் உருவாக, பாதையின் சுற்றளவு முழு எண்ணிக்கையிலான அலைநீளங்களைக் கொண்டிருக்க வேண்டும்: 2πr_n = nλ, இங்கு n = 1, 2, 3... இது ஒரு கயிற்றில் உள்ள நிற்கும் அலைகளுக்கு ஒப்பானது. மற்ற அலைநீளங்கள் கொண்ட அலைகள் அழிவுறு குறுக்கீட்டுக்கு உள்ளாகும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "de Broglie கருதுகோள் Bohr இன் இரண்டாவது உறுதிமொழியான கோண உந்த அளவீட்டை எவ்வாறு விளக்குகிறது?",
+      "options": [
+        "எலக்ட்ரானின் இயக்க ஆற்றலை அதன் நிலையாற்றலுக்கு சமமாக்குவதன் மூலம்",
+        "நிற்கும் அலை நிபந்தனையை de Broglie அலைநீள தொடர்புடன் இணைப்பதன் மூலம்",
+        "எலக்ட்ரான் ஒளியின் வேகத்தில் நகர்கிறது என்று கருதுவதன் மூலம்",
+        "கருவை அலை மூலமாக கருதுவதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "De Broglie combined two key equations: (1) the standing wave condition 2πr_n = nλ, and (2) the de Broglie wavelength λ = h/(m v_n). Substituting gives: 2πr_n = n × h/(m v_n), which rearranges to m v_n r_n = n h/2π. This is exactly Bohr's quantization condition. | de Broglie இரண்டு முக்கிய சமன்பாடுகளை இணைத்தார்: (1) நிற்கும் அலை நிபந்தனை 2πr_n = nλ, மற்றும் (2) de Broglie அலைநீளம் λ = h/(m v_n). இரண்டாவதை முதலில் பிரதியிடுவதால்: 2πr_n = n × h/(m v_n), இது m v_n r_n = n h/2π என மறுவரிசைப்படுத்தப்படுகிறது. இது Bohr அளவீட்டு நிபந்தனையாகும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "பின்வருவனவற்றில் எது ஹைட்ரஜனிய அணு?",
+      "options": [
+        "இரண்டு எலக்ட்ரான்கள் கொண்ட ஹீலியம் அணு",
+        "ஒரு முறை அயனியாக்கப்பட்ட ஹீலியம் (He+)",
+        "நடுநிலை லித்தியம் அணு",
+        "நியான் அணு"
+      ],
+      "correct": 1,
+      "explanation": "Hydrogenic atoms consist of a nucleus with positive charge +Ze and a single electron. Examples include hydrogen atom, singly ionized helium (He+), doubly ionized lithium (Li2+), etc. Neutral helium with two electrons is NOT hydrogenic. | ஹைட்ரஜனிய அணுக்கள் +Ze நேர்மின் மின்சுமையுடன் கூடிய கருவும் ஒரே ஒரு எலக்ட்ரானும் கொண்டவை. எடுத்துக்காட்டுகள்: ஹைட்ரஜன் அணு, ஒரு முறை அயனியாக்கப்பட்ட ஹீலியம் (He+), இருமுறை அயனியாக்கப்பட்ட லித்தியம் (Li2+) போன்றவை. இரண்டு எலக்ட்ரான்கள் கொண்ட நடுநிலை ஹீலியம் ஹைட்ரஜனிய அணு அல்ல."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "பல எலக்ட்ரான் அணுக்களுக்கு Bohr மாதிரியின் முக்கிய குறைபாடு என்ன?",
+      "options": [
+        "கருவில் உள்ள நியூட்ரான்களின் எண்ணிக்கையை கணிக்க முடியாது",
+        "பல எலக்ட்ரான் அணுக்களில் குறிப்பிடத்தக்க முக்கியத்துவம் வாய்ந்த எலக்ட்ரான்-எலக்ட்ரான் இடையேயான தொடர்புகளை உள்ளடக்கவில்லை",
+        "எலக்ட்ரான்கள் பூஜ்ஜிய நிறை கொண்டவை என்று கருதுகிறது",
+        "எலக்ட்ரான்கள் ஒளியை விட வேகமாக நகர வேண்டும் என்று தேவைப்படுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The Bohr model involves only the electrical force between the nucleus and the electron. It does not include electron-electron interactions, which necessarily appear in multi-electron atoms. Each electron interacts with the nucleus and all other electrons, making analysis extremely complex. | Bohr மாதிரி கருவுக்கும் எலக்ட்ரானுக்கும் இடையேயான மின்னியல் விசையை மட்டுமே கருத்தில் கொள்கிறது. பல எலக்ட்ரான் அணுக்களில் தேவைப்படும் எலக்ட்ரான்-எலக்ட்ரான் தொடர்புகளை உள்ளடக்கவில்லை. ஒவ்வொரு எலக்ட்ரானும் கருவுடன் மற்றும் மற்ற எலக்ட்ரான்களுடன் தொடர்பு கொள்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜனின் வெவ்வேறு நிறமாலை கோடுகளின் சார்பு தீவிரங்களை Bohr மாதிரி ஏன் விளக்க இயலாது?",
+      "options": [
+        "அனைத்து மாற்றங்களும் சம நிகழ்தகவுடையவை என்று கருதுவதால்",
+        "எலக்ட்ரான்களின் அலைத் தன்மையை கணக்கில் எடுத்துக்கொள்வதில்லை",
+        "கருவை புள்ளி மின்சுமை மட்டுமாக கருதுவதால்",
+        "அனைத்து கணக்கீடுகளிலும் பாரம்பரிய இயக்கவியலை பயன்படுத்துவதால்"
+      ],
+      "correct": 0,
+      "explanation": "While Bohr's model correctly predicts frequencies, it cannot explain relative intensities. Some spectral lines are weak while others are strong. Experimental observations show some transitions are more favored, but Bohr's model assumes all allowed transitions are equally probable. | Bohr மாதிரி அதிர்வெண்களை சரியாகக் கணிக்கிறது, ஆனால் சார்பு தீவிரங்களை விளக்க இயலாது. சில நிறமாலை கோடுகள் பலவீனமானவை, மற்றவை வலுவானவை. சோதனைகள் சில மாற்றங்கள் விருப்பமானவை என்று காட்டுகின்றன, ஆனால் Bohr மாதிரி அனைத்து அனுமதிக்கப்பட்ட மாற்றங்களும் சம நிகழ்தகவுடையவை என்று கருதுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "வட்டவடிவ பாதையில் நிற்கும் அலையைக் காட்டும் படம் 12.8 இல், n=4 என்பது எதைக் குறிக்கிறது?",
+      "options": [
+        "பாதையில் 4 எலக்ட்ரான்கள் உள்ளன",
+        "சுற்றளவு 4 de Broglie அலைநீளங்களுக்கு சமம்",
+        "எலக்ட்ரான் புரோட்டானின் நிறையை விட 4 மடங்கு கொண்டது",
+        "பாதையின் ஆரம் Bohr ஆரத்தை விட 4 மடங்கு"
+      ],
+      "correct": 1,
+      "explanation": "Figure 12.8 illustrates a standing particle wave on a circular orbit for n=4. This means 4 complete de Broglie wavelengths fit into the circumference: 2πr_n = 4λ. This is the resonance condition for standing waves. | படம் 12.8 ஒரு வட்டவடிவ பாதையில் n=4 க்கு நிற்கும் துகள் அலையைக் காட்டுகிறது. இதன் பொருள் பாதையின் சுற்றளவில் 4 முழு de Broglie அலைநீளங்கள் பொருந்துகின்றன: 2πr_n = 4λ. இது நிற்கும் அலைகளுக்கான ஒத்திசைவு நிபந்தனையாகும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "1897-ல் வாயு மின்சார வெளியேற்றம் பற்றிய சோதனைகளை மேற்கொண்டு எலக்ட்ரான்களைக் கண்டுபிடித்த ஆங்கிலேய இயற்பியலாளர் யார்?",
+      "options": [
+        "எர்னஸ்ட் ரூதர்ஃபோர்டு",
+        "J.J. தாம்சன்",
+        "நீல்ஸ் போர்",
+        "ஜோஹான் பால்மர்"
+      ],
+      "correct": 1,
+      "explanation": "J.J. Thomson (1856-1940) conducted experiments on electric discharge through gases in 1897 and discovered electrons. | 1897-ல் J.J. Thomson (1856-1940) வாயு மின்சார வெளியேற்றம் பற்றிய சோதனைகளை மேற்கொண்டு எலக்ட்ரான்களைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "J.J. தாம்சன் அணுவின் முதல் மாதிரியை எந்த ஆண்டு முன்மொழிந்தார்?",
+      "options": [
+        "1897",
+        "1898",
+        "1911",
+        "1906"
+      ],
+      "correct": 1,
+      "explanation": "The first model of atom was proposed by J.J. Thomson in 1898, known as the plum pudding model. | J.J. Thomson 1898-ல் அணுவின் முதல் மாதிரியை முன்மொழிந்தார், இது புளம் புடிங் மாதிரி என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "புளம் புடிங் மாதிரி என்றால் என்ன?",
+      "options": [
+        "கிரகங்கள் சூரியனைச் சுற்றுவது போல எலக்ட்ரான்கள் அடர்த்தியான கருவைச் சுற்றுகின்றன",
+        "நேர் மின்சாரம் சீராக பரவியுள்ளது, எலக்ட்ரான்கள் தர்பூசணியில் விதைகள் போல் பதிந்துள்ளன",
+        "அணுக்கள் பிரிக்க முடியாத திடமான கோளங்கள்",
+        "எலக்ட்ரான்கள் வெற்றிடத்தில் சீரற்ற முறையில் சிதறியுள்ளன"
+      ],
+      "correct": 1,
+      "explanation": "According to Thomson's model, the positive charge is uniformly distributed and electrons are embedded like seeds in a watermelon. | Thomson-ன் மாதிரியின்படி, நேர் மின்சாரம் சீராக பரவியுள்ளது, எலக்ட்ரான்கள் தர்பூசணியில் விதைகள் போல் பதிந்துள்ளன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "தாம்சனின் சோதனைகள் எலக்ட்ரான்களைப் பற்றி என்ன வெளிப்படுத்தின?",
+      "options": [
+        "வெவ்வேறு தனிமங்களின் அணுக்களுக்கு எலக்ட்ரான்கள் வேறுபட்டவை",
+        "எலக்ட்ரான்கள் நேர் மின்சாரம் கொண்டவை",
+        "வெவ்வேறு தனிமங்களின் அனைத்து அணுக்களுக்கும் எலக்ட்ரான்கள் ஒரே மாதிரியானவை",
+        "எலக்ட்ரான்கள் ஹைட்ரஜன் அணுக்களில் மட்டுமே காணப்படுகின்றன"
+      ],
+      "correct": 2,
+      "explanation": "Thomson's experiments revealed electrons are identical for all atoms of different elements. | தாம்சனின் சோதனைகள் வெவ்வேறு தனிமங்களின் அனைத்து அணுக்களுக்கும் எலக்ட்ரான்கள் ஒரே மாதிரியானவை என்பதை வெளிப்படுத்தின."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "தாம்சனின் கண்டுபிடிப்புகளின்படி அணு ஏன் நேர் மின்சாரத்தைக் கொண்டிருக்க வேண்டும்?",
+      "options": [
+        "அணுவைக் கனமாக்க",
+        "எலக்ட்ரான்களின் எதிர்மின்னி ஏற்றைச் சமநிலைப்படுத்தி மின்னியல் நடுநிலையை பேண",
+        "பிற அணுக்களை ஈர்க்க",
+        "ஒளியை வெளியிட"
+      ],
+      "correct": 1,
+      "explanation": "Atoms are electrically neutral, so they need positive charge to neutralize electrons' negative charge. | அணுக்கள் மின்னியல் நடுநிலையாக உள்ளன, எனவே எலக்ட்ரான்களின் எதிர்மின்னி ஏற்றைச் சமநிலைப்படுத்த நேர் மின்சாரம் தேவை."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஒடுக்கப்பட்ட பொருட்கள் மற்றும் அடர்த்தியான வாயுக்கள் எந்த வகை கதிர்வீச்சை வெளியிடுகின்றன?",
+      "options": [
+        "பிரிக்கப்பட்ட அலைநீளங்கள் மட்டுமே",
+        "பல அலைநீளங்களின் தொடர்ச்சியான பரவல்",
+        "எந்த கதிர்வீச்சும் இல்லை",
+        "புற ஊதா கதிர்வீச்சு மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "Condensed matter and dense gases emit continuous distribution of several wavelengths. | ஒடுக்கப்பட்ட பொருட்கள் மற்றும் அடர்த்தியான வாயுக்கள் பல அலைநீளங்களின் தொடர்ச்சியான பரவலை வெளியிடுகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஒடுக்கப்பட்ட பொருட்கள் வெளியிடும் கதிர்வீச்சுக்கு என்ன காரணம்?",
+      "options": [
+        "அணுக்கரு வினைகள்",
+        "அண்டை அணுக்களுடனான தொடர்பால் நிர்ணயிக்கப்படும் அணுக்கள் மற்றும் மூலக்கூறுகளின் அதிர்வுகள்",
+        "ஆற்றல் நிலைகளுக்கிடையேயான எலக்ட்ரான் மாற்றங்கள்",
+        "கதிரியக்க சிதைவு"
+      ],
+      "correct": 1,
+      "explanation": "Radiation is due to oscillations of atoms and molecules governed by interaction with neighbors. | கதிர்வீச்சு அண்டை அணுக்களுடனான தொடர்பால் நிர்ணயிக்கப்படும் அணுக்கள் மற்றும் மூலக்கூறுகளின் அதிர்வுகளால் ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "அடர்த்தி குறைந்த வாயுக்கள் மின்னியல் முறையில் அல்லது தீயில் சூடாக்கப்படும்போது என்ன காணப்படுகிறது?",
+      "options": [
+        "அனைத்து அலைநீளங்களுடன் தொடர்ச்சியான நிறமாலை",
+        "அகச்சிவப்பு கதிர்வீச்சு மட்டுமே",
+        "பிரகாசமான கோடுகளாகத் தோன்றும் பிரிக்கப்பட்ட அலைநீளங்கள்",
+        "எந்த கதிர்வீச்சும் வெளியிடப்படவில்லை"
+      ],
+      "correct": 2,
+      "explanation": "Rarefied gases emit discrete wavelengths appearing as bright lines. | அடர்த்தி குறைந்த வாயுக்கள் பிரிக்கப்பட்ட அலைநீளங்களை பிரகாசமான கோடுகளாக வெளியிடுகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "அடர்த்தி குறைந்த வாயுக்களின் கதிர்வீச்சு ஏன் தனித்தனி அணுக்களால் ஏற்படுவதாகக் கருதப்படுகிறது?",
+      "options": [
+        "அணுக்கள் மிகவும் கனமானவை என்பதால்",
+        "அணுக்களுக்கிடையேயான சராசரி இடைவெளி அதிகமாக இருப்பதால்",
+        "வெப்பநிலை மிகவும் அதிகமாக இருப்பதால்",
+        "அழுத்தம் மிகவும் குறைவாக இருப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "In rarefied gases, large spacing between atoms means radiation comes from individual atoms. | அடர்த்தி குறைந்த வாயுக்களில் அணுக்களுக்கிடையே அதிக இடைவெளி இருப்பதால், கதிர்வீச்சு தனித்தனி அணுக்களிலிருந்து வருகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "அணுவின் அமைப்புக்கும் உமிழ் நிறமாலைக்கும் என்ன தொடர்பு?",
+      "options": [
+        "எந்த தொடர்பும் இல்லை",
+        "ஒவ்வொரு தனிமமும் பாரம்பரிய நிறமாலையைக் கொண்டிருப்பது அணுவின் உள் அமைப்புடன் நெருக்கமான தொடர்பைக் குறிக்கிறது",
+        "அனைத்து தனிமங்களும் ஒரே நிறமாலையைக் கொண்டிருக்கின்றன",
+        "கனமான தனிமங்கள் மட்டுமே பாரம்பரிய நிறமாலைகளைக் கொண்டிருக்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "Each element has a characteristic spectrum showing intimate relationship with atomic structure. | ஒவ்வொரு தனிமமும் பாரம்பரிய நிறமாலையைக் கொண்டிருப்பது அணுவின் உள் அமைப்புடன் நெருக்கமான தொடர்பைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "தாம்சன் மற்றும் ருதர்ஃபோர்ட் மாதிரிகள் இரண்டும் ஏன் நிலையற்ற அமைப்புகளாகும்?",
+      "options": [
+        "தாம்சன் மாதிரி மின்நிலைப்படுத்தல் காரணமாகவும், ருதர்ஃபோர்ட் மாதிரி சுற்றும் எலக்ட்ரான்களின் மின்காந்த கதிர்வீச்சு காரணமாகவும் நிலையற்றது",
+        "இரண்டு மாதிரிகளும் ஈர்ப்பு விசை காரணமாக நிலையற்றவை",
+        "இரண்டு மாதிரிகளும் அணுக்கரு விசை காரணமாக நிலையற்றவை",
+        "தாம்சன் மாதிரி கதிர்வீச்சு காரணமாகவும், ருதர்ஃபோர்ட் மாதிரி மின்நிலைப்படுத்தல் காரணமாகவும் நிலையற்றது"
+      ],
+      "correct": 0,
+      "explanation": "Thomson's model is unstable electrostatically because the positive charge cloud cannot hold electrons in stable equilibrium. Rutherford's model is unstable because according to classical electromagnetic theory, an accelerating charged electron (orbiting the nucleus) must radiate energy and spiral into the nucleus. | தாம்சனின் மாதிரி மின்நிலைப்படுத்தல் காரணமாக நிலையற்றது, ஏனெனில் நேர்மின் மேகம் எலக்ட்ரான்களை நிலையான சமநிலையில் வைத்திருக்க முடியாது. ருதர்ஃபோர்டின் மாதிரி மின்காந்த கதிர்வீச்சு காரணமாக நிலையற்றது, ஏனெனில் சுற்றும் எலக்ட்ரான் ஆற்றலை கதிர்வீச்சு செய்து அணுக்கருவில் சுருண்டுவிடும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போர் ஏன் கோண உந்தத்தை மட்டுமே குவாண்டமாக்கினார்?",
+      "options": [
+        "கோண உந்தம் வட்ட வட்டங்களில் மட்டுமே பாதுகாக்கப்படும் அளவு என்பதால்",
+        "பிளாங்க் மாறிலி h கோண உந்தத்தின் பரிமாணங்களைக் கொண்டுள்ளது, மேலும் வட்ட வட்டங்களுக்கு கோண உந்தம் மிகவும் பொருத்தமான அளவு",
+        "கோண உந்தம் சோதனையில் எளிதாக அளவிடக்கூடியது என்பதால்",
+        "கோண உந்தம் வட்டத்தின் ஆரத்திற்கு நேரடியாக விகிதாசாரம் என்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "Planck's constant h has dimensions of angular momentum [ML²T⁻¹], and for circular orbits angular momentum is the most relevant dynamical quantity. This makes the quantization condition L = nh/2π natural and physically meaningful. | பிளாங்க் மாறிலி h கோண உந்தத்தின் பரிமாணங்களைக் கொண்டுள்ளது [ML²T⁻¹], மேலும் வட்ட வட்டங்களுக்கு கோண உந்தம் மிகவும் பொருத்தமான இயக்க அளவாகும். இது L = nh/2π என்ற குவாண்டமாக்கல் நிபந்தனையை இயற்கையாகவும் இயற்பியல் ரீதியாகவும் பொருத்தமானதாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் வட்டப் படம் எந்த அடிப்படைக் கொள்கையுடன் பொருந்தாது?",
+      "options": [
+        "ஆற்றல் பாதுகாப்பு",
+        "ஹைசன்பெர்க் நிச்சயமற்ற தத்துவம்",
+        "பாலி விலக்கு கொள்கை",
+        "உந்தம் பாதுகாப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The orbital picture in Bohr's model is inconsistent with the Heisenberg uncertainty principle, which states that we cannot simultaneously know both the exact position and momentum of an electron. In modern quantum mechanics, Bohr's orbits are replaced by probability distributions where the electron may be found with large probability. | போரின் மாதிரியில் வட்டப் படம் ஹைசன்பெர்க் நிச்சயமற்ற தத்துவத்துடன் பொருந்தாது, இது எலக்ட்ரானின் சரியான இடம் மற்றும் உந்தத்தை ஒரே நேரத்தில் தெரிந்துகொள்ள முடியாது என்று கூறுகிறது. நவீன குவாண்டம் இயங்கியலில், போரின் வட்டங்கள் எலக்ட்ரான் அதிக நிகழ்தகவுடன் காணப்படும் பகுதிகளாக மாற்றப்பட்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "பல எலக்ட்ரான் அணுக்களில் எலக்ட்ரான்-எலக்ட்ரான் மின் விசை ஏன் எலக்ட்ரான்-அணுக்கரு விசைக்கு சமமானது?",
+      "options": [
+        "எலக்ட்ரான்கள் அணுக்கருவை விட மிகப் பெரிய நிறையைக் கொண்டிருப்பதால்",
+        "ஏற்றங்கள் மற்றும் தூரங்கள் இரண்டும் ஒரே வரிசை அளவில் உள்ளன",
+        "எலக்ட்ரான்கள் சார்பியல் வேகத்தில் நகர்வதால்",
+        "அணுக்கரு மின்னியல் ரீதியாக நடுநிலையானது"
+      ],
+      "correct": 1,
+      "explanation": "Unlike the solar system where planet-planet gravitational forces are negligible compared to the sun's gravity, in atoms the electron-electron electric force is comparable in magnitude to the electron-nucleus force because both the charges and distances involved are of the same order of magnitude. This is why Bohr's planet-like model fails for multi-electron atoms. | சூரியக் குடும்பத்தில் கோள்-கோள் ஈர்ப்பு விசைகள் சூரியனின் ஈர்ப்பைக் காட்டிலும் குறைவாக இருப்பதைப் போலன்றி, அணுக்களில் எலக்ட்ரான்-எலக்ட்ரான் மின் விசை எலக்ட்ரான்-அணுக்கரு விசைக்கு சமமான அளவில் உள்ளது, ஏனெனில் ஏற்றங்கள் மற்றும் தூரங்கள் இரண்டும் ஒரே வரிசை அளவில் உள்ளன. இதுவே பல எலக்ட்ரான் அணுக்களுக்கு போரின் கோள் போன்ற மாதிரி தோல்வியடைய காரணம்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "குவாண்டம் இயங்கியலில் ஒரு நிலையை எத்தனை குவாண்டம் எண்கள் வகைப்படுத்துகின்றன, போரின் மாதிரியுடன் ஒப்பிடும்போது?",
+      "options": [
+        "போரின் மாதிரி 1 குவாண்டம் எண்ணை (n) பயன்படுத்துகிறது, குவாண்டம் இயங்கியல் 4 குவாண்டம் எண்களை (n, l, m, s) பயன்படுத்துகிறது",
+        "போரின் மாதிரி 2 குவாண்டம் எண்களை, குவாண்டம் இயங்கியல் 3 குவாண்டம் எண்களை பயன்படுத்துகிறது",
+        "போரின் மாதிரி 3 குவாண்டம் எண்களை, குவாண்டம் இயங்கியல் 1 குவாண்டம் எண்ணை பயன்படுத்துகிறது",
+        "இரண்டு மாதிரிகளும் ஒரே எண்ணிக்கையிலான குவாண்டம் எண்களை பயன்படுத்துகின்றன"
+      ],
+      "correct": 0,
+      "explanation": "Bohr's model includes only one quantum number n. However, in quantum mechanics, a state is characterized by four quantum numbers: principal quantum number (n), orbital angular momentum quantum number (l), magnetic quantum number (m), and spin quantum number (s). For a pure Coulomb potential (as in hydrogen atom), the energy depends only on n. | போரின் மாதிரியில் ஒரே ஒரு குவாண்டம் எண் n மட்டுமே உள்ளது. ஆனால் குவாண்டம் இயங்கியலில், ஒரு நிலை நான்கு குவாண்டம் எண்களால் வகைப்படுத்தப்படுகிறது: முதன்மை குவாண்டம் எண் (n), வட்ட கோண உந்த குவாண்டம் எண் (l), காந்த குவாண்டம் எண் (m), மற்றும் சுழற்சி குவாண்டம் எண் (s). தூய கூலம்ப் திறன் (ஹைட்ரஜன் அணுவில் போல) இருக்கும்போது, ஆற்றல் n மீது மட்டுமே சார்ந்துள்ளது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மாதிரியின்படி, எலக்ட்ரானின் சுழற்சி அதிர்வெண்ணுக்கும் நிறநிரல் கோட்டின் அதிர்வெண்ணுக்கும் என்ன தொடர்பு?",
+      "options": [
+        "அனைத்து மாற்றங்களுக்கும் அவை எப்போதும் சமம்",
+        "அவை ஒருபோதும் தொடர்புடையவை அல்ல",
+        "சுழற்சி அதிர்வெண் நிறநிரல் கோட்டின் அதிர்வெண்ணுடன் தொடர்புடையதல்ல, பெரிய குவாண்டம் எண்களுக்கு இடையேயான மாற்றங்களில் மட்டுமே அவை பொருந்துகின்றன",
+        "நிறநிரல் கோட்டின் அதிர்வெண் எப்போதும் சுழற்சி அதிர்வெண்ணின் பாதிதான்"
+      ],
+      "correct": 2,
+      "explanation": "In Bohr's model, contrary to classical expectation, the frequency of revolution of an electron in its orbit is not connected to the frequency of the spectral line. The spectral line frequency is the difference between two orbital energies divided by h. However, for transitions between large quantum numbers (n to n-1, where n is very large), the two frequencies coincide as expected from classical physics. | போரின் மாதிரியில், செல்லும் எலக்ட்ரானின் சுழற்சி அதிர்வெண் நிறநிரல் கோட்டின் அதிர்வெண்ணுடன் தொடர்புடையதல்ல. நிறநிரல் கோட்டின் அதிர்வெண் இரண்டு வட்ட ஆற்றல்களின் வித்தியாசத்தை h ஆல் வகுப்பதால் கிடைக்கிறது. ஆனால் பெரிய குவாண்டம் எண்களுக்கு இடையேயான மாற்றங்களில் (n இல் இருந்து n-1, n மிகப் பெரியது), இரண்டு அதிர்வெண்களும் பொருந்துகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் அரை-பழமையான மாதிரி சரியாக இல்லாத போதிலும் இன்னும் பயனுள்ளதாக கருதப்படுவதற்கான முதல் காரணம் என்ன?",
+      "options": [
+        "அது அனைத்து அணுக்களின் நடத்தையையும் சரியாக கணிக்கிறது",
+        "அது மூன்று நிபந்தனைகளை மட்டுமே அடிப்படையாகக் கொண்டிருந்தாலும் ஹைட்ரஜன் நிறநிரலின் கிட்டத்தட்ட அனைத்து பொது அம்சங்களையும் விளக்குகிறது",
+        "அது மாற்றமின்றி பல எலக்ட்ரான் அணுக்களுக்கு நீட்டிக்கப்படலாம்",
+        "அது ஐன்ஸ்டீனின் சார்பியல் கோட்பாட்டுடன் பொருந்துகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The first reason Bohr's model remains useful is that it is based on just three postulates but successfully accounts for almost all the general features of the hydrogen spectrum, including the discrete energy levels and spectral lines. | போரின் மாதிரி இன்னும் பயனுள்ளதாக இருப்பதற்கான முதல் காரணம், அது மூன்று நிபந்தனைகளை மட்டுமே அடிப்படையாகக் கொண்டிருந்தாலும், ஹைட்ரஜன் நிறநிரலின் கிட்டத்தட்ட அனைத்து பொது அம்சங்களையும் விளக்குகிறது, அதில் தனி ஆற்றல் நிலைகள் மற்றும் நிறநிரல் கோடுகள் அடங்கும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "இயற்பியல் கல்வியில் போரின் மாதிரி இன்னும் பயனுள்ளதாக இருப்பதற்கான இரண்டாவது காரணம் என்ன?",
+      "options": [
+        "அது பழமையான இயற்பியலின் பல கருத்துகளை உள்ளடக்கியுள்ளது",
+        "அது மேம்பட்ட குவாண்டம் புலக் கோட்பாட்டைப் பயன்படுத்துகிறது",
+        "அதற்கு கணக்கீடுகள் தேவையில்லை",
+        "அது எலக்ட்ரான்களின் சரியான இடத்தை எல்லா நேரத்திலும் கணிக்கிறது"
+      ],
+      "correct": 0,
+      "explanation": "The second reason is that Bohr's model incorporates many concepts from classical physics, making it a valuable bridge between classical and quantum mechanics. It uses classical concepts like circular orbits and centripetal force while introducing quantum ideas. | இரண்டாவது காரணம், போரின் மாதிரி பழமையான இயற்பியலின் பல கருத்துகளை உள்ளடக்கியுள்ளது, இது பழமையான மற்றும் குவாண்டம் இயங்கியலுக்கு இடையே ஒரு மதிப்புமிக்க பாலமாக அமைகிறது. இது வட்ட வட்டங்கள் மற்றும் மையநோக்கு விசை போன்ற பழமையான கருத்துகளைப் பயன்படுத்தி குவாண்டம் கருத்துகளை அறிமுகப்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மாதிரியின் பயன்பாட்டிற்கான மூன்றாவது காரணம் கோட்பாட்டு இயற்பியலைப் பற்றி என்ன கற்றுக்கொடுக்கிறது?",
+      "options": [
+        "கோட்பாட்டு இயற்பியலாளர்கள் எந்த பிரச்சனையையும் புறக்கணிக்கக் கூடாது",
+        "கோட்பாட்டு இயற்பியலாளர் சில கணிப்புகளை செய்ய சில பிரச்சனைகளை எப்போதாவது புறக்கணிக்க வேண்டும், கணிப்புகள் சோதனையுடன் பொருந்தினால் புறக்கணிக்கப்பட்ட பிரச்சனைகளை நியாயப்படுத்த வேண்டும்",
+        "பயன்படுத்துவதற்கு முன் அனைத்து கோட்பாட்டு மாதிரிகளும் சரியாக இருக்க வேண்டும்",
+        "சோதனை உறுதிப்படுத்தல் ஒருபோதும் தேவையில்லை"
+      ],
+      "correct": 1,
+      "explanation": "The third reason demonstrates how a theoretical physicist occasionally must literally ignore certain problems of approach in hopes of making some predictions. If the predictions agree with experiment, the theoretician must then somehow rationalize the problems that were ignored. This is a pragmatic approach to scientific modeling. | மூன்றாவது காரணம், ஒரு கோட்பாட்டு இயற்பியலாளர் சில கணிப்புகளை செய்ய சில அணுகல் பிரச்சனைகளை எப்போதாவது புறக்கணிக்க வேண்டும் என்பதைக் காட்டுகிறது. கணிப்புகள் சோதனையுடன் பொருந்தினால், புறக்கணிக்கப்பட்ட பிரச்சனைகளை விளக்குவதற்கு பின்னர் முயற்சிக்க வேண்டும். இது அறிவியல் மாதிரியாக்கத்திற்கான ஒரு பயனுள்ள அணுகுமுறையாகும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் உள்ளது போல தூய கூலம்ப் திறனுக்கு, ஆற்றல் குவாண்டம் எண்களை எவ்வாறு சார்ந்துள்ளது?",
+      "options": [
+        "ஆற்றல் நான்கு குவாண்டம் எண்கள் n, l, m, மற்றும் s மீது சார்ந்துள்ளது",
+        "ஆற்றல் முதன்மை குவாண்டம் எண் n மீது மட்டுமே சார்ந்துள்ளது",
+        "ஆற்றல் வட்ட குவாண்டம் எண் l மீது மட்டுமே சார்ந்துள்ளது",
+        "ஆற்றல் சுழற்சி குவாண்டம் எண் s மீது மட்டுமே சார்ந்துள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "For a pure Coulomb potential (as in the hydrogen atom), the energy depends only on the principal quantum number n. This is why states with different l, m, and s values but the same n are degenerate (have the same energy) in hydrogen. In multi-electron atoms, this degeneracy is lifted due to electron-electron interactions. | தூய கூலம்ப் திறனுக்கு (ஹைட்ரஜன் அணுவில் போல), ஆற்றல் முதன்மை குவாண்டம் எண் n மீது மட்டுமே சார்ந்துள்ளது. இதுவே ஒரே n மதிப்புடன் வெவ்வேறு l, m, மற்றும் s மதிப்புகளைக் கொண்ட நிலைகள் ஒன்றிணைந்தவை (ஒரே ஆற்றலைக் கொண்டவை) என்பதற்கான காரணம். பல எலக்ட்ரான் அணுக்களில், எலக்ட்ரான்-எலக்ட்ரான் இடைவினைகளால் இந்த ஒன்றிணைப்பு நீக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "அடர்ந்த பொருட்கள் மற்றும் அடர்வாயுக்கள் எந்த வகை மின்காந்த கதிர்வீச்சை உமிழ்கின்றன?",
+      "options": [
+        "தனித்துவமான அலைநீளங்களை மட்டுமே கொண்ட கதிர்வீச்சு",
+        "பல்வேறு அலைநீளங்களின் தொடர்ச்சியான விநியோகத்தைக் கொண்ட கதிர்வீச்சு",
+        "ஒரே ஒரு அலைநீளத்தை மட்டுமே கொண்ட கதிர்வீச்சு",
+        "மின்காந்த கதிர்வீச்சு எதுவும் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "Condensed matter and dense gases emit electromagnetic radiation with a continuous distribution of several wavelengths. | அடர்ந்த பொருட்கள் மற்றும் அடர்வாயுக்கள் பல்வேறு அலைநீளங்களின் தொடர்ச்சியான விநியோகத்தைக் கொண்ட மின்காந்த கதிர்வீச்சை உமிழ்கின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "தீயில் சூடாக்கப்பட்ட அல்லது மின்சாரத்தால் கிளர்வுற்ற வளிமங்களிலிருந்து வெளியேறும் ஒளியின் சிறப்பியல்பு என்ன?",
+      "options": [
+        "அது தொடர்ச்சியான அலைநீள நிறமாலையைக் கொண்டுள்ளது",
+        "அது சில குறிப்பிட்ட தனித்துவமான அலைநீளங்களை மட்டுமே கொண்டுள்ளது, ஒளிரும் கோடுகளாகத் தோன்றும்",
+        "அது காணக்கூடிய ஒளியை உமிழ்வதில்லை",
+        "அது புற ஊதா கதிர்வீச்சு மட்டுமே உமிழ்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "Light from rarefied gases has only certain discrete wavelengths and appears as a series of bright lines. | தளர்வாயுக்களிலிருந்து வெளியேறும் ஒளி சில குறிப்பிட்ட தனித்துவமான அலைநீளங்களை மட்டுமே கொண்டுள்ளது, ஒளிரும் கோடுகளின் தொடராகத் தோன்றும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஒவ்வொரு தனிமத்தின் தனித்துவமான நிறமாலை அணுவின் உள் கட்டமைப்புடன் என்ன தொடர்பைக் குறிக்கிறது?",
+      "options": [
+        "அணுக்களுக்கு உள் கட்டமைப்பு இல்லை என்பதை",
+        "அணுவின் உள் கட்டமைப்பிற்கும் அதன் கதிர்வீச்சு நிறமாலைக்கும் இடையே நெருக்கமான தொடர்பு இருப்பதை",
+        "எல்லா தனிமங்களுக்கும் ஒரே மாதிரியான நிறமாலைகள் இருப்பதை",
+        "நிறமாலைகள் அணுக்கட்டமைப்புடன் தொடர்பில்லாதவை என்பதை"
+      ],
+      "correct": 1,
+      "explanation": "The characteristic spectrum suggests an intimate relationship between the internal structure of an atom and its radiation spectrum. | தனித்துவமான நிறமாலை, அணுவின் உள் கட்டமைப்பிற்கும் அதன் கதிர்வீச்சு நிறமாலைக்கும் இடையே நெருக்கமான தொடர்பு இருப்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "1885-ல் அணுவியல் ஹைட்ரஜனால் உமிழப்படும் கோடுகளின் அலைநீளங்களுக்கான எளிய அனுபவ சூத்திரத்தை யார் பெற்றார்?",
+      "options": [
+        "எர்ன்ஸ்ட் ருதர்ஃபோர்டு",
+        "ஜே.ஜே. தாம்சன்",
+        "ஜோஹான் ஜாக்கப் பால்மர்",
+        "ஹான்ஸ் கைகர்"
+      ],
+      "correct": 2,
+      "explanation": "Johann Jakob Balmer obtained the empirical formula for hydrogen spectral lines in 1885. | ஜோஹான் ஜாக்கப் பால்மர் 1885-ல் ஹைட்ரஜன் நிறமாலைக் கோடுகளுக்கான அனுபவ சூத்திரத்தைப் பெற்றார்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "எர்ன்ஸ்ட் ருதர்ஃபோர்டு ஜே.ஜே. தாம்சனுடன் என்ன உறவு கொண்டிருந்தார்?",
+      "options": [
+        "அவர் தாம்சனின் பேராசிரியர்",
+        "அவர் ஜே.ஜே. தாம்சனின் முன்னாள் ஆராய்ச்சி மாணவர்",
+        "அவர் தாம்சனின் கல்லூரி சகா",
+        "அவர் தாம்சனின் போட்டியாளர்"
+      ],
+      "correct": 1,
+      "explanation": "Ernst Rutherford was a former research student of J.J. Thomson. | எர்ன்ஸ்ட் ருதர்ஃபோர்டு ஜே.ஜே. தாம்சனின் முன்னாள் ஆராய்ச்சி மாணவர்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டு ஆல்ஃபா துகள்களை அணுக்களால் சிதறடிக்கும் சோதனையை எந்த ஆண்டு முன்மொழிந்தார்?",
+      "options": [
+        "1897",
+        "1906",
+        "1911",
+        "1885"
+      ],
+      "correct": 1,
+      "explanation": "Rutherford proposed the alpha-particle scattering experiment in 1906. | ருதர்ஃபோர்டு 1906-ல் ஆல்ஃபா துகள் சிதறல் சோதனையை முன்மொழிந்தார்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஆல்ஃபா துகள் சிதறல் சோதனையை சுமார் 1911-ல் யார் நடத்தினார்கள்?",
+      "options": [
+        "ஜே.ஜே. தாம்சன் மற்றும் எர்ன்ஸ்ட் ருதர்ஃபோர்டு",
+        "ஹான்ஸ் கைகர் மற்றும் எர்ன்ஸ்ட் மார்ஸ்டன்",
+        "ஜோஹான் பால்மர் மற்றும் நீல்ஸ் போர்",
+        "ஜேம்ஸ் கிளர்க் மேக்ஸ்வெல் மற்றும் மைக்கேல் ஃபாரடே"
+      ],
+      "correct": 1,
+      "explanation": "Hans Geiger and Ernst Marsden performed the alpha-particle scattering experiment around 1911. | ஹான்ஸ் கைகர் மற்றும் எர்ன்ஸ்ட் மார்ஸ்டன் 1911-ல் ஆல்ஃபா துகள் சிதறல் சோதனையை நடத்தினார்கள்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் கோள மாதிரியின்படி, நேர்மின் மின்னேற்றம் எங்கு குவிக்கப்பட்டுள்ளது?",
+      "options": [
+        "அணுவின் பருமன் முழுவதும் சீராக விநியோகிக்கப்பட்டுள்ளது",
+        "கருவியக்கம் எனப்படும் ஒரு சிறிய பருமனில் குவிக்கப்பட்டுள்ளது",
+        "அணுவின் வெளிப் பகுதிகளில் மட்டுமே விநியோகிக்கப்பட்டுள்ளது",
+        "எலக்ட்ரான்களுடன் இணைக்கப்பட்டுள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "According to Rutherford's model, the positive charge is concentrated in a small volume called the nucleus. | ருதர்ஃபோர்டின் மாதிரியின்படி, நேர்மின் மின்னேற்றம் கருவியக்கம் எனப்படும் ஒரு சிறிய பருமனில் குவிக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் கருவியக்க மாதிரியில் எலக்ட்ரான்கள் எவ்வாறு நகர்கின்றன?",
+      "options": [
+        "அவை நேர்மின் மின்னேற்றத்தில் தர்பூசணியில் விதைகள் போல பதிந்துள்ளன",
+        "அவை கோள்கள் சூரியனைச் சுற்றி வருவது போல கருவைச் சுற்றி சுழன்று வருகின்றன",
+        "அவை நிலையான இடங்களில் நிலைத்திருக்கின்றன",
+        "அவை அணுவுக்குள் சீரற்ற முறையில் நகர்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "In Rutherford's model, electrons revolve around the nucleus like planets around the sun. | ருதர்ஃபோர்டின் மாதிரியில், எலக்ட்ரான்கள் கோள்கள் சூரியனைச் சுற்றுவது போல கருவைச் சுற்றி சுழன்று வருகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் அணுக் கோட்பாட்டிற்கான முக்கிய பங்களிப்பு என்ன?",
+      "options": [
+        "எலக்ட்ரானின் கண்டுபிடிப்பு",
+        "அணுக்கருவின் கண்டுபிடிப்பு மற்றும் அணுவின் கோள மாதிரி",
+        "பிளம் புடிங் மாதிரியின் வளர்ச்சி",
+        "நிச்சயமற்ற தத்துவத்தின் வடிவமைப்பு"
+      ],
+      "correct": 1,
+      "explanation": "Rutherford discovered the atomic nucleus and proposed the planetary model of the atom. | ருதர்ஃபோர்டு அணுக்கருவைக் கண்டுபிடித்து அணுவின் கோள மாதிரியை முன்மொழிந்தார்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஆல்ஃபா துகள் சிதறல் சோதனையை நடத்தியபோது எர்ன்ஸ்ட் மார்ஸ்டனின் நிலை என்ன?",
+      "options": [
+        "அவர் இயற்பியல் பேராசிரியர்",
+        "அவர் 20 வயது மாணவர், இன்னும் இளங்கலை பட்டம் பெறவில்லை",
+        "அவர் நோபல் பரிசு பெற்றவர்",
+        "அவர் முனைவர் பட்டம் பெற்ற ஆராய்ச்சி உதவியாளர்"
+      ],
+      "correct": 1,
+      "explanation": "Ernst Marsden was a 20-year-old student who had not yet earned his bachelor's degree. | எர்ன்ஸ்ட் மார்ஸ்டன் 20 வயது மாணவர், இன்னும் இளங்கலை பட்டம் பெறவில்லை."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டு ஃபிரடெரிக் சாடியுடன் இணைந்து என்ன கண்டுபிடித்தார்?",
+      "options": [
+        "எலக்ட்ரான்",
+        "கதிரியக்கத்தின் நவீன கோட்பாடு",
+        "நியூட்ரான்",
+        "குவாண்டம் கோட்பாடு"
+      ],
+      "correct": 1,
+      "explanation": "Rutherford and Soddy created the modern theory of radioactivity together. | ருதர்ஃபோர்டு மற்றும் சாடி இணைந்து கதிரியக்கத்தின் நவீன கோட்பாட்டை உருவாக்கினார்கள்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டு எந்த புதிய உயர்வாயுவைக் கண்டுபிடித்தார்?",
+      "options": [
+        "நியான்",
+        "ஆர்கான்",
+        "தோரான், ரேடானின் ஒரு ஐசோடோப்",
+        "கிரிப்டான்"
+      ],
+      "correct": 2,
+      "explanation": "Rutherford discovered thoron, an isotope of radon. | ருதர்ஃபோர்டு தோரானை, ரேடானின் ஒரு ஐசோடோப்பைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "அடர்வாயுக்கள் மற்றும் தளர்வாயுக்களின் கதிர்வீச்சுக்கு இடையே முக்கிய வேறுபாடு என்ன?",
+      "options": [
+        "அடர்வாயுக்கள் தனித்துவமான அலைநீளங்களை உமிழ்கின்றன, தளர்வாயுக்கள் தொடர்ச்சியான அலைநீளங்களை உமிழ்கின்றன",
+        "அடர்வாயுக்கள் தொடர்ச்சியான அலைநீளங்களை உமிழ்கின்றன, தளர்வாயுக்கள் தனித்துவமான அலைநீளங்களை உமிழ்கின்றன",
+        "இரண்டும் தனித்துவமான அலைநீளங்களை மட்டுமே உமிழ்கின்றன",
+        "இரண்டும் தொடர்ச்சியான அலைநீளங்களை மட்டுமே உமிழ்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "Dense gases emit continuous wavelengths while rarefied gases emit discrete wavelengths. | அடர்வாயுக்கள் தொடர்ச்சியான அலைநீளங்களை உமிழ்கின்றன, தளர்வாயுக்கள் தனித்துவமான அலைநீளங்களை உமிழ்கின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "அணு நிறமாலைகளை ஆய்வு செய்வதற்கு ஹைட்ரஜன் ஏன் எளிமையான தனிமமாகக் கருதப்படுகிறது?",
+      "options": [
+        "அதன் நிறமாலை மிகவும் சிக்கலானது என்பதால்",
+        "அது மிகச் செழிப்பான தனிமம் என்பதால்",
+        "அது அறியப்பட்ட தனிமங்களில் எளிமையானது என்பதால்",
+        "அது மிகத் தீவிரமான கதிர்வீச்சை உமிழ்கிறது என்பதால்"
+      ],
+      "correct": 2,
+      "explanation": "Hydrogen is the simplest of the elements known, making it ideal for studying atomic spectra. | ஹைட்ரஜன் அறியப்பட்ட தனிமங்களில் எளிமையானது, இதனால் அணு நிறமாலைகளை ஆய்வு செய்வதற்கு இது ஏற்றது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவின் அடிநிலையில் எலக்ட்ரானின் மொத்த ஆற்றல் என்ன?",
+      "options": [
+        "+13.6 eV",
+        "-13.6 eV",
+        "+27.2 eV",
+        "-27.2 eV"
+      ],
+      "correct": 1,
+      "explanation": "The total energy of the electron in the ground state of hydrogen atom is -13.6 eV. The negative sign indicates that the electron is bound to the nucleus. | ஹைட்ரஜன் அணுவின் அடிநிலையில் இருக்கும் எலக்ட்ரானின் மொத்த ஆற்றல் -13.6 eV ஆகும். எதிர்குறி எலக்ட்ரான் கருவை மையமாகக் கொண்ட கட்டமைப்பில் இருப்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் சுற்றுப்பாதை ஆரம் என்ன?",
+      "options": [
+        "2.65 × 10⁻¹¹ m",
+        "5.3 × 10⁻¹¹ m",
+        "1.06 × 10⁻¹⁰ m",
+        "2.12 × 10⁻¹⁰ m"
+      ],
+      "correct": 1,
+      "explanation": "Using the total energy E = -13.6 eV and the formula, the orbital radius is calculated as r = 5.3 × 10⁻¹¹ m. This is known as the Bohr radius. | மொத்த ஆற்றல் E = -13.6 eV மற்றும் சூத்திரத்தைப் பயன்படுத்தி, சுற்றுப்பாதை ஆரம் r = 5.3 × 10⁻¹¹ m எனக் கணக்கிடப்படுகிறது. இது போர் ஆரம் என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் அடிநிலையில் சுற்றும் எலக்ட்ரானின் வேகம் என்ன?",
+      "options": [
+        "1.1 × 10⁶ m/s",
+        "2.2 × 10⁶ m/s",
+        "4.4 × 10⁶ m/s",
+        "6.6 × 10⁶ m/s"
+      ],
+      "correct": 1,
+      "explanation": "The velocity of the revolving electron is calculated using the formula with electron mass and Bohr radius, giving v = 2.2 × 10⁶ m/s. | சுற்றும் எலக்ட்ரானின் வேகம் சூத்திரத்தைப் பயன்படுத்தி கணக்கிடப்படுகிறது, வேகம் v = 2.2 × 10⁶ m/s கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் எதிர்குறி மொத்த ஆற்றல் எதைக் குறிக்கிறது?",
+      "options": [
+        "எலக்ட்ரான் எங்கும் சுதந்திரமாக நகர்கிறது",
+        "எலக்ட்ரான் கருவுடன் கட்டப்பட்டுள்ளது",
+        "அணு கிளர்ச்சி நிலையில் உள்ளது",
+        "எலக்ட்ரானின் இயங்கு ஆற்றல் பூஜ்ஜியம்"
+      ],
+      "correct": 1,
+      "explanation": "The negative total energy signifies that the electron is bound to the nucleus. If the energy were positive, the electron would not follow a closed orbit. | எதிர்குறி மொத்த ஆற்றல் எலக்ட்ரான் கருவுடன் கட்டப்பட்டுள்ளது என்பதைக் குறிக்கிறது. ஆற்றல் நேர்குறியாக இருந்தால், எலக்ட்ரான் மூடிய சுற்றுப்பாதையைப் பின்பற்றாது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "குறைந்த அழுத்தத்தில் வாயுவை மின்னோட்டம் கடத்தி கிளர்ச்சியூட்டும்போது எந்த வகை நிறநிரல் கிடைக்கும்?",
+      "options": [
+        "தொடர்ச்சியான நிறநிரல்",
+        "உமிழ்வு கோடு நிறநிரல்",
+        "உறிஞ்சல் நிறநிரல்",
+        "பட்டை நிறநிரல்"
+      ],
+      "correct": 1,
+      "explanation": "When atomic gas is excited at low pressure by electric current, the emitted radiation contains only specific wavelengths, producing an emission line spectrum with bright lines on dark background. | குறைந்த அழுத்தத்தில் வாயு கிளர்ச்சியூட்டப்படும்போது, உமிழும் கதிர்வீச்சு குறிப்பிட்ட அலைநீளங்களை மட்டுமே கொண்டிருக்கும், இது இருண்ட பின்னணியில் பிரகாசமான கோடுகளுடன் உமிழ்வு கோடு நிறநிரலைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "வெள்ளை ஒளி வாயு வழியாக செல்லும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "இருண்ட பின்னணியில் பிரகாசமான கோடுகள்",
+        "நிறநிரலில் இருண்ட கோடுகள்",
+        "தொடர்ச்சியான வானவில் நிறங்கள்",
+        "நிறநிரல் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "When white light passes through a gas, dark lines appear in the spectrum. These correspond to wavelengths absorbed by gas atoms, forming an absorption spectrum. | வெள்ளை ஒளி வாயு வழியாக செல்லும்போது, நிறநிரலில் இருண்ட கோடுகள் தோன்றுகின்றன. இவை வாயு அணுக்களால் உறிஞ்சப்படும் அலைநீளங்களுக்கு ஒத்திருக்கின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "குவாண்டம் கருத்துகளின் அடிப்படையில் ஹைட்ரஜன் அணுவின் நிறநிரலை விளக்கிய டேனிஷ் இயற்பியலாளர் யார்?",
+      "options": [
+        "எர்னஸ்ட் ருதர்ஃபோர்டு",
+        "ஜே.ஜே. தாம்சன்",
+        "நீல்ஸ் போர்",
+        "ஜேம்ஸ் சாட்விக்"
+      ],
+      "correct": 2,
+      "explanation": "Niels Bohr (1885-1962) was a Danish physicist who explained the hydrogen spectrum based on quantum ideas and proposed the Bohr model. | நீல்ஸ் போர் (1885-1962) குவாண்டம் கருத்துகளின் அடிப்படையில் ஹைட்ரஜன் நிறநிரலை விளக்கிய டேனிஷ் இயற்பியலாளர், போர் மாதிரியை முன்மொழிந்தவர்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவை புரோட்டான் மற்றும் எலக்ட்ரானாகப் பிரிக்க எவ்வளவு ஆற்றல் தேவை?",
+      "options": [
+        "6.8 eV",
+        "10.2 eV",
+        "13.6 eV",
+        "27.2 eV"
+      ],
+      "correct": 2,
+      "explanation": "Experimentally, 13.6 eV energy is required to separate a hydrogen atom into a proton and electron. This equals the magnitude of the ground state energy. | சோதனை முறையில், ஹைட்ரஜன் அணுவை புரோட்டான் மற்றும் எலக்ட்ரானாகப் பிரிக்க 13.6 eV ஆற்றல் தேவைப்படுகிறது. இது அடிநிலை ஆற்றலின் அளவுக்கு சமம்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஹைட்ரஜன் அணுவில் எலக்ட்ரானின் இயங்கு ஆற்றல் K மற்றும் நிலையாற்றல் U இடையே உள்ள தொடர்பு என்ன?",
+      "options": [
+        "K = U",
+        "K = -U/2",
+        "K = -U",
+        "K = 2U"
+      ],
+      "correct": 1,
+      "explanation": "For an electron in hydrogen atom, K = e²/(8πε₀r) and U = -e²/(4πε₀r), so K = -U/2. The total energy E = K + U = -e²/(8πε₀r). | ஹைட்ரஜன் அணுவில் எலக்ட்ரானுக்கு, K = e²/(8πε₀r) மற்றும் U = -e²/(4πε₀r), எனவே K = -U/2. மொத்த ஆற்றல் E = K + U = -e²/(8πε₀r)."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "பாரம்பரிய மின்காந்தக் கோட்பாட்டின்படி ருதர்ஃபோர்டு மாதிரியில் எலக்ட்ரானுக்கு என்ன நிகழும்?",
+      "options": [
+        "என்றென்றும் நிலையான சுற்றுப்பாதையில் இருக்கும்",
+        "உள்நோக்கிச் சுழன்று கருவில் விழும்",
+        "தானாக உயர் சுற்றுப்பாதைகளுக்கு தாவும்",
+        "தொடர்ச்சியான வெள்ளை ஒளியை உமிழும்"
+      ],
+      "correct": 1,
+      "explanation": "According to classical electromagnetic theory, an accelerating charged particle emits radiation. The electron loses energy continuously and spirals into the nucleus. | பாரம்பரிய மின்காந்தக் கோட்பாட்டின்படி, முடுக்கம் பெறும் மின்னேற்றப்பட்ட துகள் கதிர்வீச்சை உமிழ்கிறது. எலக்ட்ரான் தொடர்ந்து ஆற்றலை இழந்து கருவில் விழுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "குறைந்த அழுத்தத்தில் மின்னோட்டம் செலுத்தி அணு வாயு அல்லது ஆவியை கிளர்ச்சியூட்டும்போது, எந்த வகையான நிறமாலை உருவாகிறது?",
+      "options": [
+        "தொடர்ச்சியான நிறமாலை",
+        "வெளியீட்டு வரிசை நிறமாலை",
+        "உறிஞ்சல் நிறமாலை",
+        "பட்டை நிறமாலை"
+      ],
+      "correct": 1,
+      "explanation": "When an atomic gas or vapour is excited at low pressure by passing an electric current through it, the emitted radiation has a spectrum which contains certain specific wavelengths only. This spectrum is termed as emission line spectrum and it consists of bright lines on a dark background. | குறைந்த அழுத்தத்தில் அணு வாயு அல்லது ஆவியை மின்னோட்டம் செலுத்தி கிளர்ச்சியூட்டும்போது, வெளியிடப்படும் கதிர்வீச்சு ஒரு குறிப்பிட்ட அலைநீளங்களை மட்டுமே கொண்டிருக்கும். இந்த நிறமாலை வெளியீட்டு வரிசை நிறமாலை என்று அழைக்கப்படுகிறது மற்றும் இது இருண்ட பின்னணியில் பிரகாசமான கோடுகளைக் கொண்டிருக்கும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "வெள்ளை ஒளி ஒரு வாயு வழியாக சென்று, நிறமாலை மானியால் பகுப்பாய்வு செய்யப்படும்போது என்ன காணப்படுகிறது?",
+      "options": [
+        "இருண்ட பின்னணியில் பிரகாசமான கோடுகள்",
+        "நிறமாலையில் இருண்ட கோடுகள்",
+        "தொடர்ச்சியான வண்ணப் பட்டை",
+        "நிறமாலை இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "When white light passes through a gas and the transmitted light is analysed with a spectrometer, some dark lines are found in the spectrum. These dark lines correspond precisely to those wavelengths which were found in the emission line spectrum of the gas. This is called the absorption spectrum. | வெள்ளை ஒளி ஒரு வாயு வழியாக செல்லும்போது மற்றும் அந்த ஒளி நிறமாலை மானியால் பகுப்பாய்வு செய்யப்படும்போது, நிறமாலையில் சில இருண்ட கோடுகள் காணப்படுகின்றன. இந்த இருண்ட கோடுகள் வாயுவின் வெளியீட்டு வரிசை நிறமாலையில் காணப்பட்ட அலைநீளங்களுக்கு நேரடியாக ஒத்திருக்கின்றன. இதை உறிஞ்சல் நிறமாலை என்று அழைக்கின்றனர்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஒரு பொருளின் வெளியீட்டு வரிசை நிறமாலையின் படிப்பு எதற்கு பயன்படுகிறது?",
+      "options": [
+        "வாயுவின் வெப்பநிலையை அளவிட",
+        "வாயுவின் அழுத்தத்தை கண்டறிய",
+        "வாயுவை அடையாளம் காண ஒரு கைரேகை போல",
+        "வாயுவின் கன அளவை கணக்கிட"
+      ],
+      "correct": 2,
+      "explanation": "The study of emission line spectra of a material can serve as a type of fingerprint for identification of the gas. Each element has a characteristic spectrum of radiation which it emits, making it possible to identify the gas by its unique spectral pattern. | ஒரு பொருளின் வெளியீட்டு வரிசை நிறமாலையின் படிப்பு வாயுவை அடையாளம் காண ஒரு கைரேகை போன்ற பயன்பாட்டைக் கொண்டிருக்கும். ஒவ்வொரு தனிமமும் தனித்துவமான கதிர்வீச்சு நிறமாலையை வெளியிடுவதால், அதன் தனித்துவமான நிறமாலை முறையைக் கொண்டு வாயுவை அடையாளம் காண முடியும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "பாரம்பரிய மின்காந்தக் கோட்பாட்டின்படி, கருவைச் சுற்றி சுழலும் எலக்ட்ரானுக்கு என்ன நடக்கும்?",
+      "options": [
+        "அது என்றென்றும் நிலையான பாதையில் இருக்கும்",
+        "அது கதிர்வீச்சை வெளியிட்டு கருவிற்குள் சுழலும்",
+        "அது தொடர்ந்து உயர்ந்த பாதைகளுக்கு தாவும்",
+        "அது கருவிலிருந்து ஆற்றலை உறிஞ்சும்"
+      ],
+      "correct": 1,
+      "explanation": "According to classical electromagnetic theory, an accelerating charged particle emits radiation in the form of electromagnetic waves. Since an electron moving in a circular orbit is constantly accelerated, it should continuously emit radiation, lose energy, spiral inward and eventually fall into the nucleus. Thus, such an atom cannot be stable. | பாரம்பரிய மின்காந்தக் கோட்பாட்டின்படி, முடுக்கம் பெற்ற ஏற்றமுள்ள துகள் மின்காந்த அலைகளின் வடிவில் கதிர்வீச்சை வெளியிடும். வட்டவடிவ பாதையில் சுழலும் எலக்ட்ரான் தொடர்ந்து முடுக்கம் பெறுவதால், அது தொடர்ந்து கதிர்வீச்சை வெளியிட வேண்டும், ஆற்றலை இழக்க வேண்டும், உள்ளே சுழல வேண்டும் மற்றும் இறுதியில் கருவில் விழ வேண்டும். எனவே, இத்தகைய அணு நிலையானதாக இருக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "பாரம்பரிய மின்காந்தக் கோட்பாட்டின்படி, சுழலும் எலக்ட்ரான் வெளியிடும் நிறமாலையைப் பற்றி என்ன கணிக்கிறது?",
+      "options": [
+        "தனித்துவமான அலைநீளங்களைக் கொண்ட வரிசை நிறமாலை",
+        "தொடர்ச்சியான நிறமாலை",
+        "நிறமாலை இல்லை",
+        "உறிஞ்சல் நிறமாலை மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "According to classical electromagnetic theory, the frequency of the electromagnetic waves emitted by the revolving electrons is equal to the frequency of revolution. As the electrons spiral inwards, their angular velocities and hence their frequencies would change continuously, and so will the frequency of the light emitted. Thus, they would emit a continuous spectrum, in contradiction to the line spectrum actually observed. | பாரம்பரிய மின்காந்தக் கோட்பாட்டின்படி, சுழலும் எலக்ட்ரான்களால் வெளியிடப்படும் மின்காந்த அலைகளின் அதிர்வெண், சுழற்சியின் அதிர்வெண்ணுக்கு சமமாக இருக்கும். எலக்ட்ரான்கள் உள்ளே சுழலும்போது, அவற்றின் கோண வேகங்கள் மற்றும் அதிர்வெண்கள் தொடர்ந்து மாறும், எனவே வெளியிடப்படும் ஒளியின் அதிர்வெண்ணும் மாறும். எனவே, அவை ஒரு தொடர்ச்சியான நிறமாலையை வெளியிடும், ஆனால் உண்மையில் காணப்படும் வரிசை நிறமாலைக்கு இது முரண்பாடாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் மாதிரியில் குவாண்டம் கருதுகோள் கருத்துக்களைச் சேர்த்து மாற்றங்களை முன்மொழிந்தவர் யார்?",
+      "options": [
+        "ஜே.ஜே. தாம்சன்",
+        "எர்னஸ்ட் ருதர்ஃபோர்ட்",
+        "நீல்ஸ் போர்",
+        "லூயிஸ் டி புரோக்ளி"
+      ],
+      "correct": 2,
+      "explanation": "Niels Bohr made certain modifications in Rutherford's model by adding the ideas of the newly developing quantum hypothesis. Bohr studied in Rutherford's laboratory for several months in 1912 and was convinced about the validity of Rutherford's nuclear model. In 1913, he concluded that classical electromagnetic theory could not be applied to processes at the atomic scale. | நீல்ஸ் போர் புதிதாக வளர்ந்து வந்த குவாண்டம் கருதுகோளின் கருத்துக்களைச் சேர்த்து ருதர்ஃபோர்டின் மாதிரியில் சில மாற்றங்களைச் செய்தார். போர் 1912-ல் ருதர்ஃபோர்டின் ஆய்வகத்தில் சில மாதங்கள் படித்தார் மற்றும் ருதர்ஃபோர்டின் கருவ மாதிரியின் செல்லுபடியாகும் தன்மையைப் பற்றி உறுதியாக இருந்தார். 1913-ல், அணு அளவிலான செயல்முறைகளுக்கு பாரம்பரிய மின்காந்தக் கோட்பாட்டைப் பயன்படுத்த முடியாது என்று முடிவு செய்தார்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "நீல்ஸ் போர் அணு மாதிரியில் தனது மாற்றங்களை எந்த ஆண்டு முன்மொழிந்தார்?",
+      "options": [
+        "1906",
+        "1911",
+        "1912",
+        "1913"
+      ],
+      "correct": 3,
+      "explanation": "Niels Bohr studied in Rutherford's laboratory for several months in 1912 and was convinced about the validity of Rutherford's nuclear model. Faced with the dilemma of atomic stability and line spectra, Bohr in 1913 concluded that classical electromagnetic theory could not be applied to processes at the atomic scale and proposed his modifications. | நீல்ஸ் போர் 1912-ல் ருதர்ஃபோர்டின் ஆய்வகத்தில் சில மாதங்கள் படித்தார். அணுவின் நிலைப்புத்தன்மை மற்றும் வரிசை நிறமாலைகளின் சிக்கலை எதிர்கொண்டு, 1913-ல் போர் பாரம்பரிய மின்காந்தக் கோட்பாட்டை அணு அளவிலான செயல்முறைகளுக்குப் பயன்படுத்த முடியாது என்று முடிவு செய்து தனது மாற்றங்களை முன்மொழிந்தார்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் முதல் கருதுகோள் அணுவில் உள்ள எலக்ட்ரான் பாதைகளைப் பற்றி என்ன கூறுகிறது?",
+      "options": [
+        "எலக்ட்ரான்கள் சுழலும்போது தொடர்ந்து கதிர்வீச்சு ஆற்றலை வெளியிடும்",
+        "எலக்ட்ரான்கள் கதிர்வீச்சு ஆற்றலை வெளியிடாமல் சில நிலையான பாதைகளில் சுழல முடியும்",
+        "எலக்ட்ரான்கள் அடிநிலை நிலையில் மட்டுமே இருக்க முடியும்",
+        "எலக்ட்ரான்கள் கருவில் சுழல வேண்டும்"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's first postulate states that an electron in an atom could revolve in certain stable orbits without the emission of radiant energy, contrary to the predictions of electromagnetic theory. According to this postulate, each atom has certain definite stable states in which it can exist, and each possible state has definite total energy. These are called the stationary states of the atom. | போரின் முதல் கருதுகோள், ஒரு அணுவில் எலக்ட்ரான் மின்காந்தக் கோட்பாட்டின் கணிப்புகளுக்கு முரணாக, கதிர்வீச்சு ஆற்றலை வெளியிடாமல் சில நிலையான பாதைகளில் சுழல முடியும் என்று கூறுகிறது. இந்த கருதுகோளின்படி, ஒவ்வொரு அணுவும் சில குறிப்பிட்ட நிலையான நிலைகளைக் கொண்டிருக்கும், ஒவ்வொரு சாத்தியமான நிலையும் குறிப்பிட்ட மொத்த ஆற்றலைக் கொண்டிருக்கும். இவை அணுவின் நிலையான நிலைகள் என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் இரண்டாவது கருதுகோளின்படி, நிலையான எலக்ட்ரான் பாதைகளுக்கான நிபந்தனை என்ன?",
+      "options": [
+        "இயக்க ஆற்றல் அதிகபட்சமாக இருக்க வேண்டும்",
+        "கோண உந்தம் h/2π இன் முழு எண் மடங்காக இருக்க வேண்டும்",
+        "நிலையாற்றல் பூஜ்யமாக இருக்க வேண்டும்",
+        "வேகம் மாறாததாக இருக்க வேண்டும்"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's second postulate states that the electron revolves around the nucleus only in those orbits for which the angular momentum is some integral multiple of h/2π where h is the Planck's constant. Thus the angular momentum (L) of the orbiting electron is quantised. That is L = nh/2π, where n is an integer called the principal quantum number. | போரின் இரண்டாவது கருதுகோள், எலக்ட்ரான் கோண உந்தம் h/2π இன் முழு எண் மடங்காக இருக்கும் பாதைகளில் மட்டுமே கருவைச் சுற்றி சுழலும் என்று கூறுகிறது, இங்கு h பிளான்க் மாறிலி. எனவே சுழலும் எலக்ட்ரானின் கோண உந்தம் (L) குவாண்டமாக்கப்பட்டுள்ளது. அதாவது L = nh/2π, இங்கு n முதன்மை குவாண்டம் எண் என்று அழைக்கப்படும் ஒரு முழு எண்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மூன்றாவது கருதுகோளின்படி, எலக்ட்ரான் உயர்ந்த ஆற்றல் பாதையிலிருந்து குறைந்த ஆற்றல் பாதைக்கு மாறும்போது என்ன நடக்கிறது?",
+      "options": [
+        "எலக்ட்ரான் ஒரு ஒளிமின்னியை உறிஞ்சுகிறது",
+        "ஆற்றல் வித்தியாசத்திற்கு சமமான ஆற்றலுடன் ஒரு ஒளிமின்னி வெளியிடப்படுகிறது",
+        "எலக்ட்ரான் மிக உயர்ந்த பாதைக்கு தாவுகிறது",
+        "எந்த ஆற்றல் மாற்றமும் ஏற்படுவதில்லை"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's third postulate states that an electron might make a transition from one of its specified non-radiating orbits to another of lower energy. When it does so, a photon is emitted having energy equal to the energy difference between the initial and final states. The frequency of the emitted photon is given by hν = Ei - Ef, where Ei and Ef are the energies of the initial and final states and Ei > Ef. | போரின் மூன்றாவது கருதுகோள், எலக்ட்ரான் தனது குறிப்பிட்ட கதிர்வீச்சற்ற பாதைகளில் ஒன்றிலிருந்து குறைந்த ஆற்றல் கொண்ட மற்றொரு பாதைக்கு மாறலாம் என்று கூறுகிறது. அது அப்படி செய்யும்போது, ஆரம்ப மற்றும் இறுதி நிலைகளுக்கு இடையேயான ஆற்றல் வித்தியாசத்திற்கு சமமான ஆற்றலைக் கொண்ட ஒரு ஒளிமின்னி வெளியிடப்படும். வெளியிடப்படும் ஒளிமின்னியின் அதிர்வெண் hν = Ei - Ef என்று கொடுக்கப்படுகிறது, இங்கு Ei மற்றும் Ef ஆரம்ப மற்றும் இறுதி நிலைகளின் ஆற்றல்கள் மற்றும் Ei > Ef."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "எடுத்துக்காட்டு 12.4-ல், ஹைட்ரஜன் அணுவில் புரோட்டானைச் சுற்றி சுழலும் எலக்ட்ரானால் வெளியிடப்படும் ஒளியின் கணக்கிடப்பட்ட தொடக்க அதிர்வெண் என்ன?",
+      "options": [
+        "6.6 × 10^12 Hz",
+        "6.6 × 10^13 Hz",
+        "6.6 × 10^14 Hz",
+        "6.6 × 10^15 Hz"
+      ],
+      "correct": 3,
+      "explanation": "According to Example 12.4, the velocity of electron moving around a proton in hydrogen atom in an orbit of radius 5.3 × 10^-11 m is 2.2 × 10^6 m/s. The frequency of the electron moving around the proton is ν = v/(2πr) = (2.2 × 10^6)/(2π × 5.3 × 10^-11) ≈ 6.6 × 10^15 Hz. According to classical electromagnetic theory, the frequency of the electromagnetic waves emitted by the revolving electrons is equal to the frequency of its revolution around the nucleus. | எடுத்துக்காட்டு 12.4-ன்படி, 5.3 × 10^-11 m ஆரம் கொண்ட பாதையில் ஹைட்ரஜன் அணுவில் புரோட்டானைச் சுற்றி சுழலும் எலக்ட்ரானின் வேகம் 2.2 × 10^6 m/s. புரோட்டானைச் சுற்றி சுழலும் எலக்ட்ரானின் அதிர்வெண் ν = v/(2πr) = (2.2 × 10^6)/(2π × 5.3 × 10^-11) ≈ 6.6 × 10^15 Hz. பாரம்பரிய மின்காந்தக் கோட்பாட்டின்படி, கருவைச் சுற்றி சுழலும் எலக்ட்ரான்களால் வெளியிடப்படும் மின்காந்த அலைகளின் அதிர்வெண், அதன் சுழற்சியின் அதிர்வெண்ணுக்கு சமமாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் மாதிரியில் கோள் மண்டல அமைப்புக்கும் கரு-எலக்ட்ரான் அமைப்புக்கும் இடையேயான முக்கிய வேறுபாடு என்ன?",
+      "options": [
+        "இரண்டும் ஈர்ப்பு விசையால் பிடிக்கப்பட்டுள்ளன",
+        "கோள் மண்டல அமைப்பு ஈர்ப்பு விசையால் பிடிக்கப்பட்டுள்ளது, கரு-எலக்ட்ரான் அமைப்பு கூலம்ப் விதியால் இடைவினைபுரிகிறது",
+        "இரண்டும் கூலம்ப் விசையால் பிடிக்கப்பட்டுள்ளன",
+        "இரு அமைப்புகளுக்கும் இடையே வேறுபாடு இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "While the planetary system is held by gravitational force, the nucleus-electron system being charged objects, interact by Coulomb's Law of force. This is a fundamental difference between the two situations. The electrostatic Coulomb force between the positively charged nucleus and negatively charged electron provides the centripetal force for the electron's orbit. | கோள் மண்டல அமைப்பு ஈர்ப்பு விசையால் பிடிக்கப்பட்டிருக்கும்போது, கரு-எலக்ட்ரான் அமைப்பு ஏற்றமுள்ள பொருட்களாக இருப்பதால், கூலம்பின் விசை விதியால் இடைவினைபுரிகிறது. இது இரு சூழல்களுக்கும் இடையேயான அடிப்படை வேறுபாடு. நேர்மறை மின்னேற்றம் கொண்ட கருவுக்கும் எதிர்மறை மின்னேற்றம் கொண்ட எலக்ட்ரானுக்கும் இடையேயான நிலைமின் கூலம்ப் விசை, எலக்ட்ரானின் பாதைக்கு மையவிலக்கு விசையை வழங்குகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் கரு மாதிரிக்கு பாரம்பரிய மின்காந்தக் கோட்பாட்டைப் பயன்படுத்தும்போது என்ன முக்கிய சிக்கல் எழுகிறது?",
+      "options": [
+        "அணு மிக கனமாகிவிடும்",
+        "எலக்ட்ரான் கருவிற்குள் சுழல்வதால் அணு நிலைப்பற்றதாகிவிடும்",
+        "கரு எதிர்மறை மின்னேற்றம் பெறுகிறது",
+        "எலக்ட்ரான் பாதைகள் சதுர வடிவமாக மாறுகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "According to classical electromagnetic theory, an accelerating charged particle emits radiation. Since an electron revolving in a circular orbit around the nucleus is constantly accelerated (centripetal acceleration), it should continuously emit electromagnetic waves, lose energy, and spiral inward into the nucleus. This means the atom would be unstable and would collapse, which contradicts the observed stability of matter. | பாரம்பரிய மின்காந்தக் கோட்பாட்டின்படி, முடுக்கம் பெற்ற ஏற்றமுள்ள துகள் கதிர்வீச்சை வெளியிடும். கருவைச் சுற்றி வட்டப் பாதையில் சுழலும் எலக்ட்ரான் தொடர்ந்து முடுக்கம் பெறுவதால் (மையவிலக்கு முடுக்கம்), அது தொடர்ந்து மின்காந்த அலைகளை வெளியிட வேண்டும், ஆற்றலை இழக்க வேண்டும், மற்றும் கருவிற்குள் சுழல வேண்டும். இது அணு நிலைப்பற்றதாக இருக்கும் மற்றும் சரிவதற்கு வழிவகுக்கும், இது பொருளின் காணப்படும் நிலைப்புத்தன்மைக்கு முரண்பாடாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ஒரே வாயுவின் உறிஞ்சல் நிறமாலையில் உள்ள இருண்ட கோடுகளுக்கும் வெளியீட்டு நிறமாலையில் உள்ள பிரகாசமான கோடுகளுக்கும் இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "அவை முற்றிலும் வேறுபட்ட அலைநீளங்களைக் கொண்டுள்ளன",
+        "இருண்ட கோடுகள் வெளியீட்டு நிறமாலையில் உள்ள பிரகாசமான கோடுகளின் அலைநீளங்களுக்கு நேரடியாக ஒத்திருக்கின்றன",
+        "இருண்ட கோடுகள் எப்போதும் பிரகாசமான கோடுகளின் அலைநீளங்களின் பாதியில் இருக்கும்",
+        "அவற்றுக்கு இடையே எந்த தொடர்பும் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "When white light passes through a gas, the dark lines in the absorption spectrum correspond precisely to those wavelengths which were found in the emission line spectrum of the gas. This is because the gas absorbs the same wavelengths that it can emit when excited. The absorption spectrum is essentially the inverse of the emission spectrum for the same material. | வெள்ளை ஒளி ஒரு வாயு வழியாக செல்லும்போது, உறிஞ்சல் நிறமாலையில் உள்ள இருண்ட கோடுகள், வாயுவின் வெளியீட்டு வரிசை நிறமாலையில் காணப்பட்ட அலைநீளங்களுக்கு நேரடியாக ஒத்திருக்கின்றன. ஏனெனில் வாயு, கிளர்ச்சியடையும்போது வெளியிடக்கூடிய அதே அலைநீளங்களை உறிஞ்சுகிறது. உறிஞ்சல் நிறமாலை, ஒரே பொருளுக்கான வெளியீட்டு நிறமாலையின் நேர் எதிரானதாகும்."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "அணு செயல்முறைகளுடன் தொடர்புடைய பாரம்பரிய மின்காந்தக் கோட்பாட்டைப் பற்றி நீல்ஸ் போரின் முடிவு என்ன?",
+      "options": [
+        "அது அனைத்து அணு செயல்முறைகளுக்கும் சரியாக வேலை செய்கிறது",
+        "அது அணு அளவிலான செயல்முறைகளுக்குப் பயன்படுத்த முடியாது",
+        "அது கனமான அணுக்களுக்கு மட்டுமே வேலை செய்கிறது",
+        "அது குவாண்டம் இயந்திரவியலை விட துல்லியமானது"
+      ],
+      "correct": 1,
+      "explanation": "Bohr concluded that in spite of the success of electromagnetic theory in explaining large-scale phenomena, it could not be applied to the processes at the atomic scale. It became clear that a fairly radical departure from the established principles of classical mechanics and electromagnetism would be needed to understand the structure of atoms and the relation of atomic structure to atomic spectra. | போர், பெரிய அளவிலான நிகழ்வுகளை விளக்குவதில் மின்காந்தக் கோட்பாட்டின் வெற்றியைப் பொருட்படுத்தாமல், அது அணு அளவிலான செயல்முறைகளுக்குப் பயன்படுத்த முடியாது என்று முடிவு செய்தார். அணுக்களின் கட்டமைப்பையும் அணுக்கட்டமைப்புக்கும் அணு நிறமாலைகளுக்கும் இடையேயான தொடர்பையும் புரிந்துகொள்ள பாரம்பரிய இயந்திரவியல் மற்றும் மின்காந்தவியலின் நிறுவப்பட்ட கொள்கைகளிலிருந்து கணிசமான விலகல் தேவைப்படும் என்பது தெளிவானது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் முதல் கருதுகோள்படி, நிலையான வட்டணைகளில் சுற்றும் எலக்ட்ரான் என்ன செய்கிறது?",
+      "options": [
+        "தொடர்ந்து கதிர்வீச்சு ஆற்றலை உமிழ்கிறது",
+        "மாற்றங்களின் போது மட்டுமே கதிர்வீச்சு ஆற்றலை உமிழ்கிறது",
+        "கதிர்வீச்சு ஆற்றலை உமிழ்வதில்லை",
+        "தொடர்ந்து கதிர்வீச்சு ஆற்றலை உறிஞ்சுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "According to Bohr's first postulate, an electron in an atom could revolve in certain stable orbits without the emission of radiant energy, contrary to the predictions of classical electromagnetic theory. These are called stationary states. | போரின் முதல் கருதுகோள்படி, எலக்ட்ரான் அணுவில் சில நிலையான வட்டணைகளில் சுற்றும் போது கதிர்வீச்சு ஆற்றலை உமிழாது. இது கிளாசிக்கல் மின்காந்த கோட்பாட்டின் கணிப்புகளுக்கு எதிரானது. இவை நிலையான நிலைகள் என அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மாதிரியில் நிலையான வட்டணைகளுக்கான கோண உந்தம் நிபந்தனை என்ன?",
+      "options": [
+        "L = nh/4π",
+        "L = nh/2π",
+        "L = 2nh/π",
+        "L = h/2nπ"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's second postulate states that the electron revolves around the nucleus only in those orbits for which the angular momentum is some integral multiple of h/2π, where h is Planck's constant. Thus L = nh/2π. | போரின் இரண்டாவது கருதுகோள்படி, எலக்ட்ரான் கருவைச் சுற்றும் வட்டணைகளில் கோண உந்தம் h/2π இன் முழு எண் மடங்காக இருக்க வேண்டும். எனவே L = nh/2π."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் மூன்றாவது கருதுகோள்படி, எலக்ட்ரான் உயர் ஆற்றல் வட்டணையிலிருந்து குறைந்த ஆற்றல் வட்டணைக்கு மாறும்போது என்ன நடக்கிறது?",
+      "options": [
+        "எலக்ட்ரான் ஒரு ஒளிமின்னியை உறிஞ்சுகிறது",
+        "எலக்ட்ரான் ஆரம்ப மற்றும் இறுதி நிலைகளுக்கு இடையேயான ஆற்றல் வித்தியாசத்திற்கு சமமான ஆற்றல் கொண்ட ஒளிமின்னியை உமிழ்கிறது",
+        "எலக்ட்ரான் தொடர்ச்சியான கதிர்வீச்சை உமிழ்கிறது",
+        "எலக்ட்ரான் அதே ஆற்றல் நிலையில் நிலைக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "Bohr's third postulate states that when an electron makes a transition from one specified non-radiating orbit to another of lower energy, a photon is emitted having energy equal to the energy difference between the initial and final states. The frequency is given by hν = Ei - Ef. | போரின் மூன்றாவது கருதுகோள்படி, எலக்ட்ரான் உயர் ஆற்றல் நிலையிலிருந்து குறைந்த ஆற்றல் நிலைக்கு மாறும் போது, ஆரம்ப மற்றும் இறுதி நிலைகளுக்கு இடையேயான ஆற்றல் வித்தியாசத்திற்கு சமமான ஆற்றல் கொண்ட ஒரு ஒளிமின்னி உமிழப்படும். அதிர்வெண் hν = Ei - Ef எனக் கொடுக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "போரின் இரண்டாவது கருதுகோளில் குறிப்பிடப்பட்ட பிளான்க் மாறிலி h இன் மதிப்பு என்ன?",
+      "options": [
+        "6.6 × 10^-34 J s",
+        "6.6 × 10^-24 J s",
+        "6.6 × 10^-44 J s",
+        "6.6 × 10^-14 J s"
+      ],
+      "correct": 0,
+      "explanation": "The text states that Planck's constant h = 6.6 × 10^-34 J s. This constant is used in the angular momentum quantization condition L = nh/2π. | உரையில் பிளான்க் மாறிலி h = 6.6 × 10^-34 J s எனக் குறிப்பிடப்பட்டுள்ளது. இந்த மாறிலி கோண உந்தம் குவாண்டமாக்கல் நிபந்தனை L = nh/2π இல் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "எடுத்துக்காட்டு 12.4 படி, ஹைட்ரஜன் அணுவில் புரோட்டானைச் சுற்றும் எலக்ட்ரானின் அதிர்வெண் என்ன?",
+      "options": [
+        "6.6 × 10^14 Hz",
+        "6.6 × 10^15 Hz",
+        "6.6 × 10^16 Hz",
+        "6.6 × 10^13 Hz"
+      ],
+      "correct": 1,
+      "explanation": "According to Example 12.4, the velocity of electron is 2.2 × 10^6 m/s and the radius is 5.3 × 10^-11 m. The frequency is calculated as ν = v/(2πr) = (2.2 × 10^6)/(2π × 5.3 × 10^-11) ≈ 6.6 × 10^15 Hz. | எடுத்துக்காட்டு 12.4 படி, எலக்ட்ரானின் வேகம் 2.2 × 10^6 m/s மற்றும் ஆரம் 5.3 × 10^-11 m. அதிர்வெண் ν = v/(2πr) = (2.2 × 10^6)/(2π × 5.3 × 10^-11) ≈ 6.6 × 10^15 Hz எனக் கணக்கிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 12",
+      "question": "ருதர்ஃபோர்டின் அணு மாதிரியைப் பொறுத்து கிளாசிக்கல் மின்காந்த கோட்பாடு எதிர்கொள்ளும் அடிப்படை சிக்கல் என்ன?",
+      "options": [
+        "அணுக்கள் அவதானிக்கப்பட்டதை விட பெரியதாக இருக்க வேண்டும் எனக் கணிக்கிறது",
+        "முடுக்கம் பெறும் எலக்ட்ரான்கள் கதிர்வீச்சை உமிழ்ந்து கருவில் சுழன்று விழ வேண்டும் எனக் கணிக்கிறது",
+        "எலக்ட்ரான்கள் நிலையான நிலையில் இருக்க வேண்டும் எனக் கணிக்கிறது",
+        "அணுக்களுக்கு கரு இல்லை எனக் கணிக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "According to classical electromagnetic theory, an accelerating charged particle emits radiation in the form of electromagnetic waves. The energy of an accelerating electron should continuously decrease, causing the electron to spiral inward and eventually fall into the nucleus, making the atom unstable. | கிளாசிக்கல் மின்காந்த கோட்பாட்டின்படி, முடுக்கம் பெறும் மின்னேற்றப்பட்ட துகள் மின்காந்த அலைகளின் வடிவில் கதிர்வீச்சை உமிழும். முடுக்கம் பெறும் எலக்ட்ரானின் ஆற்றல் தொடர்ந்து குறைந்து, அது உள்நோக்கிச் சுழன்று இறுதியாக கருவில் விழும், எனவே அணு நிலையற்றதாகிறது."
+    }
+  ]
+}

@@ -1,0 +1,3061 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 14",
+    "chapterId": "chapter14",
+    "source": "Chapter14_QA_Tamil.xlsx",
+    "count": 254
+  },
+  "questions": [
+    {
+      "topic": "Chapter 14",
+      "question": "எடுத்துக்காட்டு 14.4-ல் காட்டப்பட்டுள்ள சிலிகான் டையோடின் V-I பண்புக்கூறின்படி, மின்னோட்டம் 15 mA ஆக இருக்கும்போது டையோடின் இயக்க மின்தடையம் என்ன?",
+      "options": [
+        "5 Ω",
+        "10 Ω",
+        "15 Ω",
+        "20 Ω"
+      ],
+      "correct": 1,
+      "explanation": "The dynamic resistance is calculated using rd = ΔV/ΔI. From the graph, at I = 20 mA, V = 0.8 V; at I = 10 mA, V = 0.7 V. Therefore, rd = (0.8 - 0.7)V / (20 - 10)mA = 0.1V / 10mA = 10 Ω. | சிலிகான் டையோடின் V-I பண்புக்கூறு வரைபடத்தில், I = 20 mA-ல் V = 0.8 V மற்றும் I = 10 mA-ல் V = 0.7 V என்பதிலிருந்து, rd = ΔV/ΔI = 0.1V/10mA = 10 Ω என கணக்கிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "எடுத்துக்காட்டு 14.4-ல், -10 V பின்னோக்கு மின்னழுத்தம் பயன்படுத்தப்படும்போது சிலிகான் டையோடின் பின்னோக்கு மின்தடையம் என்ன?",
+      "options": [
+        "1.0 × 10^5 Ω",
+        "1.0 × 10^6 Ω",
+        "1.0 × 10^7 Ω",
+        "1.0 × 10^8 Ω"
+      ],
+      "correct": 2,
+      "explanation": "From the V-I characteristic curve at V = -10 V, the current I = -1 μA. Using Ohm's law, rrb = 10V / 1μA = 10V / (1 × 10^-6 A) = 1.0 × 10^7 Ω. This extremely high resistance shows the diode's rectifying property. | V-I பண்புக்கூறு வளைவில் V = -10 V-ல் I = -1 μA. ஓமின் விதிப்படி rrb = 10V/1μA = 1.0 × 10^7 Ω. இந்த மிக உயர்ந்த மின்தடையம் டையோடின் சீராக்கும் பண்பைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சார்பு மின்னழுத்தம் திறப்பு மின்னழுத்தத்தைக் கடந்தால் டையோடு மின்னோட்டத்திற்கு என்ன நிகழும்?",
+      "options": [
+        "மின்னோட்டம் நேரியலாகக் குறையும்",
+        "மின்னோட்டம் நிலையாக இருக்கும்",
+        "மின்னோட்டம் மிக மெதுவாக அதிகரிக்கும்",
+        "மின்னோட்டம் குறிப்பிடத்தக்க அளவில் (விரைவாக) அதிகரிக்கும்"
+      ],
+      "correct": 3,
+      "explanation": "After the characteristic threshold voltage (cut-in voltage), the diode current increases significantly (exponentially) even for a very small increase in the diode bias voltage. For silicon diode this threshold is approximately 0.7 V and for germanium it is approximately 0.2 V. | திறப்பு மின்னழுத்தத்தைக் கடந்த பிறகு, மிகச் சிறிய முன்னோக்கு சார்பு மின்னழுத்த அதிகரிப்புக்கும் கூட டையோடு மின்னோட்டம் குறிப்பிடத்தக்க அளவில் (விரைவு வளர்ச்சியுடன்) அதிகரிக்கிறது. சிலிகானுக்கு இது ~0.7 V மற்றும் ஜெர்மேனியத்திற்கு ~0.2 V."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிகான் டையோடின் திறப்பு மின்னழுத்தம் (cut-in voltage) சுமார் எவ்வளவு?",
+      "options": [
+        "0.2 V",
+        "0.3 V",
+        "0.7 V",
+        "1.0 V"
+      ],
+      "correct": 2,
+      "explanation": "The threshold voltage or cut-in voltage is approximately 0.7 V for a silicon diode and approximately 0.2 V for a germanium diode. This is the minimum voltage required for the diode to conduct significantly in forward bias. | சிலிகான் டையோடின் திறப்பு மின்னழுத்தம் சுமார் 0.7 V மற்றும் ஜெர்மேனியம் டையோடுக்கு சுமார் 0.2 V. இது முன்னோக்கு சார்பில் டையோடு குறிப்பிடத்தக்க மின்னோட்டத்தைக் கடத்த குறைந்தபட்ச மின்னழுத்தம்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடில் பின்னோக்கு நிறைவு மின்னோட்டத்தின் பண்பு என்ன?",
+      "options": [
+        "பின்னோக்கு மின்னழுத்தத்துடன் அதிகரிக்கும்",
+        "மிகச் சிறியது மற்றும் சார்பு மாற்றத்துடன் கிட்டத்தட்ட நிலையாக இருக்கும்",
+        "முன்னோக்கு சார்பு மின்னோட்டத்திற்கு சமம்",
+        "வெப்பநிலை அதிகரிக்கும்போது குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "For the diode in reverse bias, the current is very small (μA range) and almost remains constant with change in bias. This is called reverse saturation current because it is limited by the concentration of minority carriers on either side of the junction, not by the applied voltage. | பின்னோக்கு சார்பில் டையோடு மின்னோட்டம் மிகச் சிறியது (μA வரம்பு) மற்றும் சார்பு மாற்றத்துடன் கிட்டத்தட்ட நிலையாக இருக்கிறது. இது சந்தி இருபுறமும் உள்ள சிறுபான்மை சுமையேற்றிகளின் செறிவால் வரையறுக்கப்படுவதால், இது பின்னோக்கு நிறைவு மின்னோட்டம் என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டையோடின் இயக்க மின்தடையம் (rd) எவ்வாறு வரையறுக்கப்படுகிறது?",
+      "options": [
+        "rd = V/I (DC மின்தடையம்)",
+        "rd = ΔV/ΔI (சிறிய மின்னழுத்த மாற்றத்திற்கும் சிறிய மின்னோட்ட மாற்றத்திற்கும் உள்ள விகிதம்)",
+        "rd = I/ΔV",
+        "rd = ΔI/ΔV"
+      ],
+      "correct": 1,
+      "explanation": "Dynamic resistance is defined as the ratio of small change in voltage (ΔV) to a small change in current (ΔI): rd = ΔV/ΔI. This is different from static or DC resistance which is simply V/I. Dynamic resistance is important for analyzing small signal behavior of diodes. | இயக்க மின்தடையம் சிறிய மின்னழுத்த மாற்றத்திற்கும் (ΔV) சிறிய மின்னோட்ட மாற்றத்திற்கும் (ΔI) உள்ள விகிதமாக வரையறுக்கப்படுகிறது: rd = ΔV/ΔI. இது நிலையான அல்லது DC மின்தடையத்தை விட வேறுபட்டது, அது V/I எளிய விகிதமாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டையோடில் பின்னோக்கு சார்பு மின்னழுத்தம் முறிவு மின்னழுத்தத்தை (Vbr) மீறும்போது என்ன நிகழும்?",
+      "options": [
+        "டையோடு முற்றிலும் கடத்தாது",
+        "பின்னோக்கு மின்னோட்டம் கடுமையாக அதிகரிக்கும் மற்றும் டையோடு அழிக்கப்படலாம்",
+        "டையோடு பின்னோக்கு திசையில் இயல்பாகக் கடத்தத் தொடங்கும்",
+        "தடைய திறன் பூஜ்ஜியமாகிவிடும்"
+      ],
+      "correct": 1,
+      "explanation": "When reverse bias reaches the breakdown voltage Vbr, the diode reverse current increases sharply. Even a slight increase in bias voltage causes large change in current. If the current is not limited by external circuit below rated value, the p-n junction will get destroyed due to overheating. | பின்னோக்கு சார்பு மின்னழுத்தம் முறிவு மின்னழுத்தத்தை அடையும்போது, பின்னோக்கு மின்னோட்டம் கடுமையாக அதிகரிக்கிறது. மிகச் சிறிய சார்பு அதிகரிப்பு கூட பெரிய மின்னோட்ட மாற்றத்தை ஏற்படுத்தும். வெளிப்புற சுற்று மின்னோட்டத்தை கட்டுப்படுத்தாவிட்டால், p-n சந்தி வெப்பமடைந்து அழிக்கப்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடின் முன்னோக்கு சார்பு மற்றும் பின்னோக்கு சார்பு மின்தடையங்களை ஒப்பிடுக.",
+      "options": [
+        "முன்னோக்கு சார்பு மின்தடையம் பின்னோக்கு சார்பு மின்தடையத்தை விட அதிகம்",
+        "முன்னோக்கு சார்பு மின்தடையம் பின்னோக்கு சார்பு மின்தடையத்தை விட குறைவு",
+        "இரண்டு மின்தடையங்களும் சமம்",
+        "முன்னோக்கு சார்பு மின்தடையம் எல்லையற்றது"
+      ],
+      "correct": 1,
+      "explanation": "The forward bias resistance is low (typically ohms to tens of ohms) as compared to the reverse bias resistance which is very high (megaohms). This property is used for rectification of AC voltages. From Example 14.4, forward resistance was 10 Ω while reverse resistance was 1.0 × 10^7 Ω. | முன்னோக்கு சார்பு மின்தடையம் (பொதுவாக ஓம்கள் முதல் பத்து ஓம்கள் வரை) பின்னோக்கு சார்பு மின்தடையத்தை (மெகாஓம்கள்) விட குறைவாகும். இந்த பண்பு AC மின்னழுத்தங்களை சீராக்கப் பயன்படுத்தப்படுகிறது. எடுத்துக்காட்டு 14.4-ல், முன்னோக்கு மின்தடையம் 10 Ω மற்றும் பின்னோக்கு மின்தடையம் 1.0 × 10^7 Ω."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டையோடு V-I பண்புக்கூறு சோதனைகளில் முன்னோக்கு மற்றும் பின்னோக்கு சார்பு மின்னோட்டங்களை அளவிட எந்த கருவிகள் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "முன்னோக்கு மற்றும் பின்னோக்கு சார்பு இரண்டற்கும் மில்லியம்மீட்டர்",
+        "முன்னோக்கு மற்றும் பின்னோக்கு சார்பு இரண்டற்கும் மைக்ரோஅம்மீட்டர்",
+        "முன்னோக்கு சார்புக்கு மில்லியம்மீட்டர் மற்றும் பின்னோக்கு சார்புக்கு மைக்ரோஅம்மீட்டர்",
+        "இரண்டு அளவீடுகளுக்கும் வோல்ட்மீட்டர்"
+      ],
+      "correct": 2,
+      "explanation": "In forward bias measurement, a milliammeter is used since the expected current is large (mA range). In reverse bias, a microammeter is used to measure the very small current (μA range). This is because forward bias current is typically in mA while reverse saturation current is in μA. | முன்னோக்கு சார்பு அளவீட்டில், எதிர்பார்க்கப்படும் மின்னோட்டம் பெரியது (mA வரம்பு) என்பதால் மில்லியம்மீட்டர் பயன்படுத்தப்படுகிறது. பின்னோக்கு சார்பில், மிகச் சிறிய மின்னோட்டத்தை (μA வரம்பு) அளவிட மைக்ரோஅம்மீட்டர் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "எடுத்துக்காட்டு 14.4-ல், I = 10 mA முதல் I = 20 mA வரையிலான டையோடு பண்புக்கூறு மூலத்தின் வழியாக செல்லும் நேர்கோடாக தோராயமாக்கப்படுகிறது. இந்த தோராயமாக்கல் எதைக் கணக்கிட அனுமதிக்கிறது?",
+      "options": [
+        "திறப்பு மின்னழுத்தத்தை மட்டும்",
+        "முறிவு மின்னழுத்தத்தை மட்டும்",
+        "ஓமின் விதியைப் பயன்படுத்தி இயக்க மின்தடையத்தை",
+        "பின்னோக்கு நிறைவு மின்னோட்டத்தை மட்டும்"
+      ],
+      "correct": 2,
+      "explanation": "By approximating the diode characteristic as a straight line between I = 10 mA to I = 20 mA passing through the origin, we can calculate the dynamic resistance using Ohm's law: rd = ΔV/ΔI = (0.8 - 0.7)V / (20 - 10)mA = 10 Ω. This linear approximation simplifies the calculation for small signal analysis. | I = 10 mA முதல் I = 20 mA வரையிலான டையோடு பண்புக்கூறை மூலத்தின் வழியாக செல்லும் நேர்கோடாக தோராயமாக்குவதன் மூலம், ஓமின் விதியைப் பயன்படுத்தி இயக்க மின்தடையத்தை கணக்கிடலாம்: rd = ΔV/ΔI = 0.1V/10mA = 10 Ω."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஜெர்மேனியம் டையோடின் திறப்பு மின்னழுத்தம் சுமார் எவ்வளவு?",
+      "options": [
+        "0.7 V",
+        "0.2 V",
+        "0.5 V",
+        "1.1 V"
+      ],
+      "correct": 1,
+      "explanation": "The threshold voltage or cut-in voltage is approximately 0.2 V for a germanium diode and approximately 0.7 V for a silicon diode. Germanium has a smaller band gap (0.7 eV) compared to silicon (1.1 eV), which results in a lower threshold voltage. | ஜெர்மேனியம் டையோடின் திறப்பு மின்னழுத்தம் சுமார் 0.2 V மற்றும் சிலிகான் டையோடுக்கு சுமார் 0.7 V. ஜெர்மேனியத்தின் பட்டை இடைவெளி (0.7 eV) சிலிகானை விட (1.1 eV) சிறியதால், குறைந்த திறப்பு மின்னழுத்தம் கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடு ஒரே திசையில் (முன்னோக்கு சார்பில்) மட்டுமே மின்னோட்டத்தைக் கடத்த அனுமதிக்கும் பண்பு எந்த பயன்பாட்டிற்கு பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "மிகைப்படுத்தல்",
+        "AC மின்னழுத்தங்களை சீராக்குதல்",
+        "அதிர்வூட்டல்",
+        "மின்னழுத்த ஒழுங்குமுறை"
+      ],
+      "correct": 1,
+      "explanation": "The p-n junction diode primarily allows the flow of current only in one direction (forward bias). The forward bias resistance is low compared to the reverse bias resistance. This property is used for rectification of AC voltages, converting AC to pulsating DC. | p-n சந்தி டையோடு முக்கியமாக ஒரே திசையில் (முன்னோக்கு சார்பில்) மின்னோட்டத்தை மட்டுமே கடத்த அனுமதிக்கிறது. இந்த பண்பு AC மின்னழுத்தங்களை சீராக்கப் பயன்படுத்தப்படுகிறது, AC-ஐ துடிப்பு DC ஆக மாற்றுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டையோடு சின்னத்தில் அம்புக்குறியின் திசை எதைக் குறிக்கிறது?",
+      "options": [
+        "எலக்ட்ரான் பாய்வின் திசை",
+        "முன்னோக்கு சார்பில் மின்னோட்டத்தின் மரபுவழி திசை",
+        "மின் புலத்தின் திசை",
+        "துளை இயக்கத்தின் திசை மட்டும்"
+      ],
+      "correct": 1,
+      "explanation": "The direction of arrow in the diode symbol indicates the conventional direction of current when the diode is under forward bias. Conventional current flows from positive to negative, which is opposite to electron flow. The arrow points from p-side to n-side. | டையோடு சின்னத்தில் அம்புக்குறியின் திசை, முன்னோக்கு சார்பில் டையோடு இருக்கும்போது மின்னோட்டத்தின் மரபுவழி திசையைக் குறிக்கிறது. மரபுவழி மின்னோட்டம் காற்று முதல் எதிர் மின்னயனி வரை பாய்கிறது, இது எலக்ட்ரான் பாய்விற்கு எதிரானது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடு முன்னோக்கு சார்பில் இருக்கும்போது சோர்வு பகுதி அகலம் என்ன ஆகிறது?",
+      "options": [
+        "அதிகரிக்கிறது",
+        "குறைகிறது",
+        "மாறாமல் இருக்கிறது",
+        "பூஜ்ஜியமாகிவிடுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Under forward bias, the applied voltage is opposite to the built-in potential. As a result, the depletion layer width decreases and the barrier height is reduced. The effective barrier height under forward bias is (V0 - V), where V0 is the built-in potential and V is the applied voltage. | முன்னோக்கு சார்பில், பயன்படுத்தப்படும் மின்னழுத்தம் உள்ளமைந்த திறனுக்கு எதிரானது. இதன் விளைவாக, சோர்வு பகுதி அகலம் குறைகிறது மற்றும் தடைய உயரம் குறைகிறது. முன்னோக்கு சார்பில் திறனானது (V0 - V) ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சார்பு மின்னழுத்தம் குறிப்பிடத்தக்க அளவில் அதிகரிக்கும்போது தடைய உயரத்திற்கு என்ன விளைவு ஏற்படுகிறது?",
+      "options": [
+        "தடைய உயரம் குறிப்பிடத்தக்க அளவில் அதிகரிக்கிறது",
+        "தடைய உயரம் நிலையாக இருக்கிறது",
+        "தடைய உயரம் குறைக்கப்பட்டு அதிக சுமையேற்றிகள் சந்தியைக் கடக்க முடியும்",
+        "தடைய திறன் தனது துருவத்தை மாற்றிக்கொள்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "If the applied forward voltage is increased significantly, the barrier height will be reduced and more number of carriers will have the required energy to cross the junction. Thus the current increases significantly (exponentially) after the threshold voltage is crossed. | முன்னோக்கு சார்பு மின்னழுத்தம் குறிப்பிடத்தக்க அளவில் அதிகரிக்கும்போது, தடைய உயரம் குறைக்கப்படும் மற்றும் அதிக எண்ணிக்கையிலான சுமையேற்றிகளுக்கு சந்தியைக் கடக்க தேவையான ஆற்றல் இருக்கும். இதனால் திறப்பு மின்னழுத்தத்தைக் கடந்த பிறகு மின்னோட்டம் குறிப்பிடத்தக்க அளவில் அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஒரு சந்தி டையோடு மின்னோட்டத்தைச் செல்ல அனுமதிக்கும் நேரம் எது?",
+      "options": [
+        "பின்னோக்கு சார்புநிலையில்",
+        "முன்னோக்கு சார்புநிலையில்",
+        "சார்புநிலையற்ற நேரத்தில்",
+        "முன்னோக்கு மற்றும் பின்னோக்கு சார்புநிலைகளில் இரண்டிலும்"
+      ],
+      "correct": 1,
+      "explanation": "A junction diode allows current to pass only when it is forward biased. In reverse bias, the diode blocks current flow except for a negligible reverse saturation current. | ஒரு சந்தி டையோடின் V-I பண்புக்கூற்றிலிருந்து, அது முன்னோக்கு சார்புநிலையில் மட்டுமே மின்னோட்டத்தைச் செல்ல அனுமதிக்கிறது. பின்னோக்கு சார்புநிலையில், டையோடு நுண்ணிய பின்னோக்கு செறிவு மின்னோட்டத்தைத் தவிர மின்னோட்டப் பாய்ச்சலைத் தடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சந்தி டையோடு மூலம் மாற்று மின்னழுத்தங்களைத் திருத்தப் பயன்படுத்தப்படும் சுற்றின் பெயர் என்ன?",
+      "options": [
+        "மிகைப்பி சுற்று",
+        "அலைவி சுற்று",
+        "திருத்தி சுற்று",
+        "வடிப்பான் சுற்று"
+      ],
+      "correct": 2,
+      "explanation": "The property of a junction diode to allow current only in forward bias is used to rectify alternating voltages, and the circuit used for this purpose is called a rectifier circuit. | ஒரு சந்தி டையோடு முன்னோக்கு சார்புநிலையில் மட்டுமே மின்னோட்டத்தை அனுமதிக்கும் பண்பு, மாற்று மின்னழுத்தங்களைத் திருத்தப் பயன்படுத்தப்படுகிறது, மேலும் இந்த நோக்கத்திற்காகப் பயன்படுத்தப்படும் சுற்று திருத்தி சுற்று என்று அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரை-அலை திருத்தியில், டையோடு எந்த அரை-சுழற்சியின்போது கடத்துகிறது?",
+      "options": [
+        "எதிர்மறை அரை-சுழற்சியில் மட்டும்",
+        "நேர்மறை மற்றும் எதிர்மறை அரை-சுழற்சிகளில் இரண்டிலும்",
+        "நேர்மறை அரை-சுழற்சியில் மட்டும்",
+        "நேர்மறை அல்லது எதிர்மறை அரை-சுழற்சியில் எதுவும் இல்லை"
+      ],
+      "correct": 2,
+      "explanation": "In a half-wave rectifier, when the voltage at terminal A is positive, the diode is forward biased and conducts. When A is negative, the diode is reverse-biased and does not conduct. Therefore, the diode conducts only during the positive half-cycle. | ஒரு அரை-அலை திருத்தியில், A முனையில் மின்னழுத்தம் நேர்மறையாக இருக்கும்போது, டையோடு முன்னோக்கு சார்புநிலையில் இருந்து கடத்துகிறது. A எதிர்மறையாக இருக்கும்போது, டையோடு பின்னோக்கு சார்புநிலையில் இருந்து கடத்தாது. எனவே, டையோடு நேர்மறை அரை-சுழற்சியில் மட்டுமே கடத்துகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "திருத்தப் பயன்பாட்டில் பயன்படுத்தப்படும் டையோடின் பின்னோக்கு செறிவு மின்னோட்டத்தின் நடைமுறை மதிப்பு என்ன?",
+      "options": [
+        "மிகப் பெரியது",
+        "சுமார் 1 மில்லி ஆம்பியர்",
+        "நுண்ணியதாகவும் பூஜ்ஜியமாகக் கருதப்படக்கூடியதாகவும் இருக்கும்",
+        "முன்னோக்கு மின்னோட்டத்திற்கு சமம்"
+      ],
+      "correct": 2,
+      "explanation": "The reverse saturation current of a diode is negligible and can be considered equal to zero for practical purposes. This is why the diode effectively blocks current during the reverse-biased half-cycle. | ஒரு டையோடின் பின்னோக்கு செறிவு மின்னோட்டம் நுண்ணியதாகவும், நடைமுறை நோக்கங்களுக்கு பூஜ்ஜியத்திற்கு சமமாகக் கருதப்படலாம். இதுவே டையோடு பின்னோக்கு சார்புநிலை அரை-சுழற்சியின்போது மின்னோட்டத்தைத் திறமையாகத் தடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரை-அலை திருத்தியின் வெளியீடு ஏன் 'அரை-அலை' என்று அழைக்கப்படுகிறது?",
+      "options": [
+        "ஏனெனில் அது மாற்றியின் இரண்டாம் நிலை மின்னழுத்தத்தின் பாதியை மட்டுமே பயன்படுத்துகிறது",
+        "ஏனெனில் திருத்தப்பட்ட வெளியீடு உள்ளீட்டு AC அலையின் பாதியில் மட்டுமே தோன்றுகிறது",
+        "ஏனெனில் அது இரண்டுக்குப் பதிலாக ஒரு டையோடு மட்டுமே பயன்படுத்துகிறது",
+        "ஏனெனில் வெளியீட்டு மின்னழுத்தம் உள்ளீட்டு மின்னழுத்தத்தின் பாதியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "The output of a half-wave rectifier is called 'half-wave' because the rectified output appears only for half of the input AC wave (the positive half-cycle), while there is no output during the negative half-cycle. | அரை-அலை திருத்தியின் வெளியீடு 'அரை-அலை' என்று அழைக்கப்படுகிறது, ஏனெனில் திருத்தப்பட்ட வெளியீடு உள்ளீட்டு AC அலையின் பாதியில் மட்டுமே (நேர்மறை அரை-சுழற்சியில்) தோன்றுகிறது, எதிர்மறை அரை-சுழற்சியின்போது வெளியீடு இல்லை."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "மைய-தொட்டி மாற்றியுடன் கூடிய முழு-அலை திருத்தியில் எத்தனை டையோடுகள் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "ஒரு டையோடு",
+        "இரண்டு டையோடுகள்",
+        "மூன்று டையோடுகள்",
+        "நான்கு டையோடுகள்"
+      ],
+      "correct": 1,
+      "explanation": "A full-wave rectifier using a centre-tap transformer employs two diodes. The p-side of both diodes are connected to the ends of the transformer secondary, and the n-sides are connected together. | மைய-தொட்டி மாற்றியைப் பயன்படுத்தும் முழு-அலை திருத்தி இரண்டு டையோடுகளைப் பயன்படுத்துகிறது. இரண்டு டையோடுகளின் p-பக்கமும் மாற்றியின் இரண்டாம் நிலை முனைகளுடன் இணைக்கப்பட்டுள்ளன, n-பக்கங்கள் ஒன்றாக இணைக்கப்பட்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு-அலை திருத்தியில் பயன்படுத்தப்படும் மாற்றியின் சிறப்பு அம்சம் என்ன?",
+      "options": [
+        "மின்னழுத்த உயர்த்தி மாற்றி",
+        "மைய-தொட்டியுடன் கூடிய மின்னழுத்த குறைப்பி மாற்றி",
+        "பிரிப்பு மாற்றி",
+        "தன்னியக்க மாற்றி"
+      ],
+      "correct": 1,
+      "explanation": "For a full-wave rectifier, the secondary of the transformer is provided with a centre tapping, making it a centre-tap transformer. This allows the two diodes to rectify alternate half-cycles. | முழு-அலை திருத்திக்கு, மாற்றியின் இரண்டாம் நிலை மைய-தொட்டியுடன் வழங்கப்படுகிறது, இது மைய-தொட்டி மாற்றியாக மாறுகிறது. இது இரண்டு டையோடுகள் மாற்றி அரை-சுழற்சிகளைத் திருத்த அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு-அலை திருத்தியில், ஒவ்வொரு டையோடும் மொத்த இரண்டாம் நிலை மின்னழுத்தத்தின் எந்தப் பகுதியைத் திருத்துகிறது?",
+      "options": [
+        "முழு இரண்டாம் நிலை மின்னழுத்தம்",
+        "மொத்த இரண்டாம் நிலை மின்னழுத்தத்தின் பாதி",
+        "மொத்த இரண்டாம் நிலை மின்னழுத்தத்தின் ஒரு மூன்றாம் பங்கு",
+        "இரண்டாம் நிலை மின்னழுத்தத்தின் இரட்டிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "In a full-wave rectifier with centre-tap transformer, the voltage rectified by each diode is only half the total secondary voltage. Each diode rectifies for half the cycle, but the two do so for alternate cycles. | மைய-தொட்டி மாற்றியுடன் கூடிய முழு-அலை திருத்தியில், ஒவ்வொரு டையோடும் திருத்தும் மின்னழுத்தம் மொத்த இரண்டாம் நிலை மின்னழுத்தத்தின் பாதியாகும். ஒவ்வொரு டையோடும் அரை சுழற்சிக்கு மட்டுமே திருத்துகிறது, ஆனால் இரண்டும் மாறி மாறி சுழற்சிகளுக்கு திருத்துகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு-அலை திருத்தியில் டையோடு D1 கடத்தும்போது, டையோடு D2-இன் நிலை என்ன?",
+      "options": [
+        "D2-மும் முன்னோக்கு சார்புநிலையில் இருந்து கடத்துகிறது",
+        "D2 பின்னோக்கு சார்புநிலையில் இருந்து கடத்தாது",
+        "D2 சார்புநிலையற்ற நிலையில் உள்ளது",
+        "D2 சேதமடைந்துள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "When the input voltage to A is positive, diode D1 gets forward biased and conducts, while D2 being reverse biased is not conducting. The voltages at A and B are out of phase with each other. | A-க்கு உள்ளீட்டு மின்னழுத்தம் நேர்மறையாக இருக்கும்போது, டையோடு D1 முன்னோக்கு சார்புநிலையில் இருந்து கடத்துகிறது, அதே சமயம் D2 பின்னோக்கு சார்புநிலையில் இருந்து கடத்தாது. A மற்றும் B-இல் மின்னழுத்தங்கள் ஒன்றுக்கொன்று எதிர் கட்டத்தில் உள்ளன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு-அலை திருத்தி அரை-அலை திருத்தியை விட ஏன் திறமையானது?",
+      "options": [
+        "ஏனெனில் அது விலையுயர்ந்த உறுப்புகளைப் பயன்படுத்துகிறது",
+        "ஏனெனில் அது நேர்மறை மற்றும் எதிர்மறை அரை-சுழற்சிகளின்போதும் வெளியீட்டு மின்னழுத்தத்தைத் தருகிறது",
+        "ஏனெனில் அது மாற்றியிலிருந்து குறைந்த மின்சக்தியைப் பெறுகிறது",
+        "ஏனெனில் அதற்கு எளிய சுற்று வடிவமைப்பு உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "A full-wave rectifier is more efficient because it produces output voltage during both the positive and negative half-cycles of the input AC, whereas a half-wave rectifier produces output only during the positive half-cycle. | முழு-அலை திருத்தி மிகவும் திறமையானது, ஏனெனில் அது உள்ளீட்டு AC-இன் நேர்மறை மற்றும் எதிர்மறை அரை-சுழற்சிகளின்போதும் வெளியீட்டு மின்னழுத்தத்தைத் தருகிறது, அதே சமயம் அரை-அலை திருத்தி நேர்மறை அரை-சுழற்சியின்போது மட்டுமே வெளியீட்டைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு-அலை திருத்தியிலிருந்து திருத்தப்பட்ட மின்னழுத்த துடிப்புகளின் வடிவம் என்ன?",
+      "options": [
+        "சதுர அலைகள்",
+        "முக்கோண அலைகள்",
+        "அரை சைனசாய்டுகளின் வடிவத்தில் துடிப்புகள்",
+        "அறுவடை அலைகள்"
+      ],
+      "correct": 2,
+      "explanation": "The rectified voltage from a full-wave rectifier is in the form of pulses of the shape of half sinusoids. Though unidirectional, it does not have a steady value and requires filtering to obtain steady DC. | முழு-அலை திருத்தியிலிருந்து திருத்தப்பட்ட மின்னழுத்தம் அரை சைனசாய்டுகளின் வடிவத்தில் துடிப்புகளாக உள்ளது. ஒரு திசையில் இருந்தாலும், அது நிலையான மதிப்பைக் கொண்டிருக்காது, நிலையான DC-ஐப் பெற வடிப்பான் தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "துடிப்பு மின்னழுத்தத்திலிருந்து நிலையான DC-ஐப் பெற, வெளியீட்டு முனையங்களில் எந்த உறுப்பு இணைக்கப்படுகிறது?",
+      "options": [
+        "தொடரில் மின்தடை",
+        "சுமைக்கு இணையாக கொள்கலன்",
+        "சுமைக்கு இணையாக மின்தூண்டி",
+        "பின்னோக்கு சார்புநிலையில் டையோடு"
+      ],
+      "correct": 1,
+      "explanation": "To get steady DC output from the pulsating voltage, normally a capacitor is connected across the output terminals (parallel to the load RL). One can also use an inductor in series with RL for the same purpose. | துடிப்பு மின்னழுத்தத்திலிருந்து நிலையான DC வெளியீட்டைப் பெற, வெளியீட்டு முனையங்களில் (சுமை RL-க்கு இணையாக) ஒரு கொள்கலன் இணைக்கப்படுகிறது. அதே நோக்கத்திற்கு RL-உடன் தொடரில் ஒரு மின்தூண்டியையும் பயன்படுத்தலாம்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கொள்கலன் வடிப்பான் சுற்றின் கால மாறிலி என்றால் என்ன?",
+      "options": [
+        "மின்தடை மற்றும் மின்தூண்டியின் பெருக்கல்",
+        "கொள்கலன் C மற்றும் பயனுள்ள மின்தடை RL-இன் பெருக்கல்",
+        "மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் உள்ள விகிதம்",
+        "கொள்கலன் மற்றும் மின்தடையின் கூட்டுத்தொகை"
+      ],
+      "correct": 1,
+      "explanation": "The rate of fall of voltage across the capacitor depends inversely upon the product of capacitance C and the effective resistance RL used in the circuit, and this product is called the time constant. To make the time constant large, the value of C should be large. | கொள்கலன் மீதான மின்னழுத்தத்தின் வீழ்ச்சி வீதம், சுற்றில் பயன்படுத்தப்படும் கொள்கலன் C மற்றும் பயனுள்ள மின்தடை RL-இன் பெருக்கலுக்கு எதிர்விகிதத்தில் உள்ளது, இந்தப் பெருக்கல் கால மாறிலி என்று அழைக்கப்படுகிறது. கால மாறிலியைப் பெரியதாக்க, C-இன் மதிப்பு பெரியதாக இருக்க வேண்டும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "மின்சார வழங்கல்களில் மிகவும் பரவலாகப் பயன்படுத்தப்படும் வடிப்பான் வகை எது?",
+      "options": [
+        "மின்தூண்டி உள்ளீட்டு வடிப்பான்",
+        "கொள்கலன் உள்ளீட்டு வடிப்பான்",
+        "மின்தடை வடிப்பான்",
+        "LC வடிப்பான் மட்டும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitor input filters use large capacitors and are the most widely used in power supplies. The output voltage obtained is nearer to the peak voltage of the rectified voltage. | கொள்கலன் உள்ளீட்டு வடிப்பான்கள் பெரிய கொள்கலன்களைப் பயன்படுத்துகின்றன மற்றும் மின்சார வழங்கல்களில் மிகவும் பரவலாகப் பயன்படுத்தப்படுகின்றன. இதன் மூலம் பெறப்படும் வெளியீட்டு மின்னழுத்தம் திருத்தப்பட்ட மின்னழுத்தத்தின் உச்ச மின்னழுத்தத்திற்கு நெருக்கமாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வடிப்பான் சுற்றில் வெளியே சுமை இல்லாதபோது கொள்கலனுக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "அது முழுமையாக மின்னிறக்கமடைகிறது",
+        "அது திருத்தப்பட்ட வெளியீட்டின் உச்ச மின்னழுத்தத்திற்கு மின்னேற்றப்பட்ட நிலையில் இருக்கும்",
+        "அது மின்னேற்றம் மற்றும் மின்னிறக்கம் இடையே அலைவடைகிறது",
+        "அது சேதமடைகிறது"
+      ],
+      "correct": 1,
+      "explanation": "If there is no external load, the capacitor remains charged to the peak voltage of the rectified output. When there is a load, it gets discharged through the load and the voltage begins to fall. | வெளியே சுமை இல்லாதபோது, கொள்கலன் திருத்தப்பட்ட வெளியீட்டின் உச்ச மின்னழுத்தத்திற்கு மின்னேற்றப்பட்ட நிலையில் இருக்கும். சுமை இருக்கும்போது, அது சுமை வழியாக மின்னிறக்கமடைந்து மின்னழுத்தம் வீழ்ச்சியடையும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "திருத்தி சுற்றில் RL-உடன் தொடரில் மின்தூண்டியைப் பயன்படுத்துவதன் நோக்கம் என்ன?",
+      "options": [
+        "வெளியீட்டு மின்னழுத்தத்தை அதிகரிப்பது",
+        "AC துடிப்புகளை வடித்தெடுத்து தூய DC மின்னழுத்தத்தைத் தருவது",
+        "மின்னோட்டப் பாய்ச்சலைக் குறைப்பது",
+        "டையோடை உடைப்பிலிருந்து பாதுகாப்பது"
+      ],
+      "correct": 1,
+      "explanation": "An inductor in series with RL can be used to filter out the AC ripple and give a pure DC voltage. These additional circuits (capacitor or inductor filters) are called filters because they filter out the AC component. | RL-உடன் தொடரில் ஒரு மின்தூண்டி AC துடிப்புகளை வடித்தெடுத்து தூய DC மின்னழுத்தத்தைத் தரப் பயன்படுத்தப்படலாம். இந்த கூடுதல் சுற்றுகள் (கொள்கலன் அல்லது மின்தூண்டி வடிப்பான்கள்) AC பகுதியை வடித்தெடுப்பதால் வடிப்பான்கள் என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டையோடின் பின்னோக்கு உடைப்பு மின்னழுத்தம் உச்ச AC மின்னழுத்தத்தை விட அதிகமாக இருக்க வேண்டியதன் காரணம் என்ன?",
+      "options": [
+        "திருத்தத்தின் திறனை அதிகரிக்க",
+        "எதிர்மறை அரை-சுழற்சியின்போது டையோடை பின்னோக்கு உடைப்பிலிருந்து பாதுகாக்க",
+        "முன்னோக்கு மின்னோட்டத்தைக் குறைக்க",
+        "வெளியீட்டு மின்னழுத்தத்தை அதிகரிக்க"
+      ],
+      "correct": 1,
+      "explanation": "The reverse breakdown voltage of the diode must be sufficiently higher than the peak AC voltage at the secondary of the transformer to protect the diode from reverse breakdown during the negative half-cycle when it is reverse biased. | மாற்றியின் இரண்டாம் நிலையில் உச்ச AC மின்னழுத்தத்தை விட டையோடின் பின்னோக்கு உடைப்பு மின்னழுத்தம் போதுமான அளவு அதிகமாக இருக்க வேண்டும், எதிர்மறை அரை-சுழற்சியின்போது டையோடு பின்னோக்கு சார்புநிலையில் இருக்கும்போது பின்னோக்கு உடைப்பிலிருந்து பாதுகாக்க."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு-அலை திருத்தியில் A-இல் நேர்மறை அரை-சுழற்சியின்போது, மைய-தொட்டியைப் பொறுத்து B-இல் மின்னழுத்தம் என்ன?",
+      "options": [
+        "நேர்மறை",
+        "எதிர்மறை",
+        "பூஜ்ஜியம்",
+        "A-இற்கு சமம்"
+      ],
+      "correct": 1,
+      "explanation": "When the input voltage to A with respect to the centre tap is positive, the voltage at B being out of phase will be negative. This allows D1 to conduct while D2 remains non-conducting. | மைய-தொட்டியைப் பொறுத்து A-க்கு உள்ளீட்டு மின்னழுத்தம் நேர்மறையாக இருக்கும்போது, B-இல் மின்னழுத்தம் எதிர் கட்டத்தில் இருப்பதால் எதிர்மறையாக இருக்கும். இது D1 கடத்த அனுமதிக்கிறது, அதே சமயம் D2 கடத்தாத நிலையில் இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "திருத்தி சுற்றுகளில் 'வடிப்பான்' என்ற சொல்லின் பொருள் என்ன?",
+      "options": [
+        "எல்லா மின்னோட்டத்தையும் தடுக்கும் சாதனம்",
+        "AC துடிப்புகளை வடித்தெடுத்து தூய DC மின்னழுத்தத்தைத் தரும் சுற்று",
+        "AC அதிர்வெண்ணை அதிகரிக்கும் சாதனம்",
+        "DC-ஐ AC-ஆக மாற்றும் சுற்று"
+      ],
+      "correct": 1,
+      "explanation": "Filters are additional circuits (using capacitor or inductor) that appear to filter out the AC ripple from the rectified output and give a pure DC voltage. They smooth out the pulsating DC into steady DC. | வடிப்பான்கள் திருத்தப்பட்ட வெளியீட்டிலிருந்து AC துடிப்புகளை வடித்தெடுத்து தூய DC மின்னழுத்தத்தைத் தரும் கூடுதல் சுற்றுகள் (கொள்கலன் அல்லது மின்தூண்டி பயன்படுத்தி). அவை துடிப்பு DC-ஐ நிலையான DC-ஆக மென்மையாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கொள்கலன் வடிப்பான் சுமை மீதான மின்னழுத்தத்தை எவ்வாறு பேணுகிறது?",
+      "options": [
+        "எல்லா AC பகுதிகளையும் தடுப்பதன் மூலம்",
+        "உயரும் மின்னழுத்தத்தின்போது மின்னேற்றம் செய்து, மின்னழுத்தம் வீழும்போது சுமை வழியாக மின்னிறக்கம் செய்வதன் மூலம்",
+        "உள்ளீட்டு அதிர்வெண்ணை அதிகரிப்பதன் மூலம்",
+        "சுமை மின்தடையைக் குறைப்பதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "When the voltage across the capacitor is rising, it gets charged. When there is a load, it gets discharged through the load and the voltage begins to fall. In the next half-cycle, it again gets charged to the peak value, maintaining a relatively steady voltage. | கொள்கலன் மீதான மின்னழுத்தம் உயரும்போது, அது மின்னேற்றமடைகிறது. சுமை இருக்கும்போது, அது சுமை வழியாக மின்னிறக்கமடைந்து மின்னழுத்தம் வீழ்ச்சியடையும். அடுத்த அரை-சுழற்சியில், அது மீண்டும் உச்ச மதிப்பிற்கு மின்னேற்றமடைந்து, ஒப்பீட்டளவில் நிலையான மின்னழுத்தத்தைப் பேணுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "திருத்தி சுற்றுகளில் வடிப்பதற்கு கொள்கலனுக்கு மாற்றாக பயன்படுத்தப்படும் உறுப்பு எது?",
+      "options": [
+        "இணையில் மின்தடை",
+        "RL-உடன் தொடரில் மின்தூண்டி",
+        "இணையில் டையோடு",
+        "தொடரில் மாற்றி"
+      ],
+      "correct": 1,
+      "explanation": "One can use an inductor in series with RL for filtering purposes instead of a capacitor. Both capacitor (parallel) and inductor (series) configurations serve to reduce AC ripple in the output. | RL-உடன் தொடரில் ஒரு மின்தூண்டியை கொள்கலனுக்கு மாற்றாக வடிப்பதற்குப் பயன்படுத்தலாம். கொள்கலன் (இணை) மற்றும் மின்தூண்டி (தொடர்) இரண்டு அமைப்புகளும் வெளியீட்டில் AC துடிப்பைக் குறைக்கப் பணியாற்றுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கால மாறிலிக்கும் கொள்கலன் மீதான மின்னழுத்த வீழ்ச்சி வீதத்திற்கும் இடையே உள்ள உறவு என்ன?",
+      "options": [
+        "நேர்விகிதத்தில்",
+        "எதிர்விகிதத்தில்",
+        "எந்த உறவும் இல்லை",
+        "சமம்"
+      ],
+      "correct": 1,
+      "explanation": "The rate of fall of voltage across the capacitor depends inversely upon the time constant (product of C and RL). A larger time constant means a slower rate of voltage fall, resulting in smoother DC output. | கொள்கலன் மீதான மின்னழுத்தத்தின் வீழ்ச்சி வீதம் கால மாறிலிக்கு (C மற்றும் RL-இன் பெருக்கல்) எதிர்விகிதத்தில் உள்ளது. பெரிய கால மாறிலி என்பது மெதுவான மின்னழுத்த வீழ்ச்சி வீதத்தைக் குறிக்கிறது, இது மென்மையான DC வெளியீட்டைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "மையத் தட்டு மின்மாற்றி கொண்ட முழு அலை செப்பமிப்பானில் எத்தனை இருமுனையங்கள் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "ஒரு இருமுனையம்",
+        "இரண்டு இருமுனையங்கள்",
+        "மூன்று இருமுனையங்கள்",
+        "நான்கு இருமுனையங்கள்"
+      ],
+      "correct": 1,
+      "explanation": "A full-wave rectifier using a center-tap transformer requires two diodes. Diode D1 conducts during one half-cycle and Diode D2 conducts during the other half-cycle, allowing both halves of the AC input to produce output. | மையத் தட்டை மின்மாற்றி கொண்ட முழு அலை செப்பமிப்பானில் இரண்டு இருமுனையங்கள் பயன்படுத்தப்படுகின்றன. ஒரு அரை சுற்றில் D1 இருமுனையமும், மற்ற அரை சுற்றில் D2 இருமுனையமும் கடத்துகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு அலை செப்பமிப்பானில் A மற்றும் B புள்ளிகளில் உள்ள உள்ளீட்டு மின்னழுத்தங்களுக்கு இடையேயான கட்ட வேறுபாடு என்ன?",
+      "options": [
+        "ஒரே கட்டத்தில் (0 பாகை)",
+        "90 பாகைகள் வேறுபாடு",
+        "180 பாகைகள் வேறுபாடு",
+        "270 பாகைகள் வேறுபாடு"
+      ],
+      "correct": 2,
+      "explanation": "The voltages at points A and B are 180 degrees out of phase. When A is positive with respect to the center tap, B is negative, and vice versa. This allows each diode to conduct during alternate half-cycles. | A மற்றும் B புள்ளிகளில் உள்ள மின்னழுத்தங்கள் 180 பாகைகள் மாறுபாட்டில் உள்ளன. A மையத் தட்டை விட நேர்மறையாக இருக்கும்போது, B எதிர்மறையாக இருக்கும். இது ஒவ்வொரு இருமுனையத்தையும் மாற்றி மாற்றி கடத்த அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு அலை செப்பமிப்பானில் A புள்ளியில் நேர்மறை அரை சுற்றின்போது எந்த இருமுனையம் கடத்துகிறது?",
+      "options": [
+        "D2 மட்டும் கடத்துகிறது",
+        "D1 மற்றும் D2 இரண்டும் கடத்துகின்றன",
+        "D1 மட்டும் கடத்துகிறது",
+        "இரண்டும் கடத்தாது"
+      ],
+      "correct": 2,
+      "explanation": "When the voltage at A is positive with respect to the center tap, diode D1 becomes forward biased and conducts. At the same instant, voltage at B is negative, making D2 reverse biased and non-conducting. | A புள்ளியில் மின்னழுத்தம் மையத் தட்டை விட நேர்மறையாக இருக்கும்போது, D1 இருமுனையம் முன்னோக்கு சார்புநிலையாகி கடத்துகிறது. அதே நேரத்தில், B புள்ளியில் மின்னழுத்தம் எதிர்மறையாக இருப்பதால் D2 பின்னோக்கு சார்புநிலையாகி கடத்தாது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரை அலை செப்பமிப்பானை விட முழு அலை செப்பமிப்பானின் முக்கிய நன்மை என்ன?",
+      "options": [
+        "குறைந்த உறுப்புகள் தேவைப்படுகின்றன",
+        "AC உள்ளீட்டின் இரு அரை சுற்றுகளிலும் வெளியீட்டை உருவாக்குகிறது",
+        "குறைந்த மின்னழுத்தத்தில் இயங்குகிறது",
+        "மின்மாற்றி தேவையில்லை"
+      ],
+      "correct": 1,
+      "explanation": "A full-wave rectifier produces output voltage during both the positive and negative half-cycles of the AC input, making it more efficient than a half-wave rectifier which only produces output during one half-cycle. | முழு அலை செப்பமிப்பான் AC உள்ளீட்டின் நேர்மறை மற்றும் எதிர்மறை இரு அரை சுற்றுகளிலும் வெளியீட்டு மின்னழுத்தத்தை உருவாக்குகிறது. இது அரை அலை செப்பமிப்பானை விட திறன்மிக்கதாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு அலை செப்பமிப்பானில் ஒவ்வொரு இருமுனையமும் மொத்த இரண்டாம் நிலை மின்னழுத்தத்தில் எந்த பகுதியை செப்பமிக்கிறது?",
+      "options": [
+        "முழு இரண்டாம் நிலை மின்னழுத்தம்",
+        "இரண்டாம் நிலை மின்னழுத்தத்தில் ஒரு மூன்றாம் பங்கு",
+        "மொத்த இரண்டாம் நிலை மின்னழுத்தத்தில் பாதி",
+        "இரண்டாம் நிலை மின்னழுத்தத்தில் ஒரு நான்காம் பங்கு"
+      ],
+      "correct": 2,
+      "explanation": "Each diode in a full-wave rectifier rectifies only half of the total secondary voltage. The center-tap divides the secondary winding into two equal parts, and each diode handles the voltage from one half of the winding. | ஒவ்வொரு இருமுனையமும் மொத்த இரண்டாம் நிலை மின்னழுத்தத்தில் பாதியை மட்டுமே செப்பமிக்கிறது. மையத் தட்டு இரண்டாம் நிலை சுருளை இரண்டு சம பகுதிகளாகப் பிரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு அலை செப்பமிப்பானில் A புள்ளியில் எதிர்மறை அரை சுற்றின்போது எந்த இருமுனையம் கடத்துகிறது?",
+      "options": [
+        "D1 மட்டும்",
+        "D2 மட்டும்",
+        "D1 மற்றும் D2 இரண்டும்",
+        "இரண்டும் கடத்தாது"
+      ],
+      "correct": 1,
+      "explanation": "When voltage at A becomes negative with respect to the center tap, voltage at B becomes positive. Therefore, diode D2 becomes forward biased and conducts, while D1 is reverse biased. | A புள்ளியில் மின்னழுத்தம் மையத் தட்டை விட எதிர்மறையாக இருக்கும்போது, B புள்ளியில் மின்னழுத்தம் நேர்மறையாகிறது. எனவே D2 இருமுனையம் முன்னோக்கு சார்புநிலையாகி கடத்துகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "செப்பமிப்பானின் வெளியீட்டு முனையங்களில் கொள்ளியை இணைப்பதன் நோக்கம் என்ன?",
+      "options": [
+        "AC அலையை அதிகரிக்க",
+        "AC அலையை வடித்தெடுத்து தூய DC மின்னழுத்தத்தை வழங்க",
+        "வெளியீட்டு மின்னழுத்தத்தை பூஜ்ஜியமாகக் குறைக்க",
+        "AC ஐ DC ஆக மாற்ற"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor connected across the output terminals acts as a filter. It charges to the peak voltage during conduction and discharges through the load when the rectified output falls, thereby reducing AC ripple and providing a steadier DC output. | வெளியீட்டு முனையங்களில் இணைக்கப்பட்ட கொள்ளி ஒரு வடிப்பானாகச் செயல்படுகிறது. கடத்தும் போது உச்ச மின்னழுத்தத்திற்கு சார்ஜ் செய்து, செப்பமிக்கப்பட்ட வெளியீடு குறையும்போது சுமையின் வழியாக வெளியேறுகிறது. இது AC அலையைக் குறைத்து மென்மையான DC வெளியீட்டை வழங்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "செப்பமிப்பான் சுற்றில் கொள்ளி வடிப்பானின் கால மாறிலி எந்த பெருக்கலைச் சார்ந்துள்ளது?",
+      "options": [
+        "மின்னழுத்தம் × மின்னோட்டம்",
+        "கொள்ளளவு × சுமை மின்தடையம்",
+        "அதிர்வெண் × தூண்டல்",
+        "திறன் × நேரம்"
+      ],
+      "correct": 1,
+      "explanation": "The time constant of the capacitor filter is given by the product of capacitance C and the effective load resistance RL. To make the time constant large, the value of C should be large, which helps maintain a steady output voltage. | கொள்ளி வடிப்பானின் கால மாறிலி கொள்ளளவு C மற்றும் செயல்பாட்டு சுமை மின்தடையம் RL ஆகியவற்றின் பெருக்கலாகும். கால மாறிலியை அதிகமாக்க, C மதிப்பு அதிகமாக இருக்க வேண்டும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "செப்பமிப்பான்களுக்கான கொள்ளி உள்ளீட்டு வடிப்பான்களில் பெரிய கொள்ளிகள் ஏன் விரும்பப்படுகின்றன?",
+      "options": [
+        "சுற்றின் செலவைக் குறைக்க",
+        "AC உள்ளீட்டு அதிர்வெண்ணை அதிகரிக்க",
+        "கால மாறிலியைப் பெரிதாக்கி சுமையில் மின்னழுத்த வீழ்ச்சியைக் குறைக்க",
+        "செப்பமிக்கப்பட்ட வெளியீட்டின் உச்ச மின்னழுத்தத்தைக் குறைக்க"
+      ],
+      "correct": 2,
+      "explanation": "Large capacitors are used because they make the time constant (C × RL) large. This means the capacitor discharges more slowly through the load, resulting in less voltage fall and a smoother DC output closer to the peak voltage. | பெரிய கொள்ளிகள் பயன்படுத்தப்படுவதன் காரணம், அவை கால மாறிலியை (C × RL) பெரிதாக்குகின்றன. இதனால் கொள்ளி சுமையின் வழியாக மெதுவாக வெளியேறுகிறது, இது குறைந்த மின்னழுத்த வீழ்ச்சியையும், உச்ச மின்னழுத்தத்திற்கு நெருக்கமான மென்மையான DC வெளியீட்டையும் தருகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வடிப்பான் சுற்றில் செப்பமிக்கப்பட்ட மின்னழுத்தம் உயரும்போது கொள்ளிக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "சுமையின் வழியாக வெளியேறுகிறது",
+        "உச்ச மின்னழுத்தத்திற்கு சார்ஜ் செய்யப்படுகிறது",
+        "மாறா மின்னழுத்தத்தில் இருக்கிறது",
+        "முற்றிலும் மின்னோட்டத்தைத் தடுக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the rectified voltage across the capacitor is rising, the capacitor gets charged. If there is no external load, it remains charged to the peak voltage of the rectified output. With a load, it discharges and recharges in each cycle. | செப்பமிக்கப்பட்ட மின்னழுத்தம் உயரும்போது, கொள்ளி சார்ஜ் செய்யப்படுகிறது. வெளிப்புற சுமை இல்லாதபோது, அது செப்பமிக்கப்பட்ட வெளியீட்டின் உச்ச மின்னழுத்தத்திற்கு சார்ஜ் செய்யப்பட்ட நிலையில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கொள்ளி உள்ளீட்டு வடிப்பானைப் பயன்படுத்தி பெறப்படும் வெளியீட்டு மின்னழுத்தம் எந்த மதிப்பிற்கு நெருக்கமாக இருக்கும்?",
+      "options": [
+        "செப்பமிக்கப்பட்ட வெளியீட்டின் சராசரி மின்னழுத்தம்",
+        "AC உள்ளீட்டின் RMS மின்னழுத்தம்",
+        "செப்பமிக்கப்பட்ட மின்னழுத்தத்தின் உச்ச மின்னழுத்தம்",
+        "பூஜ்ஜிய மின்னழுத்தம்"
+      ],
+      "correct": 2,
+      "explanation": "The capacitor input filter charges to the peak voltage of the rectified output and maintains the voltage close to this peak value, making the output voltage nearer to the peak voltage rather than the average value. | கொள்ளி உள்ளீட்டு வடிப்பான் செப்பமிக்கப்பட்ட வெளியீட்டின் உச்ச மின்னழுத்தத்திற்கு சார்ஜ் செய்யப்படுகிறது. இது மின்னழுத்தத்தை இந்த உச்ச மதிப்பிற்கு நெருக்கமாகப் பேணுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "மின்சார வழங்கல்களில் அதிகமாகப் பயன்படுத்தப்படும் வடிப்பான் வகை எது?",
+      "options": [
+        "தூண்டி உள்ளீட்டு வடிப்பான்",
+        "கொள்ளி உள்ளீட்டு வடிப்பான்",
+        "மின்தடை உள்ளீட்டு வடிப்பான்",
+        "மின்மாற்றி உள்ளீட்டு வடிப்பான்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitor input filters are most widely used in power supplies because they provide an output voltage closer to the peak rectified voltage and effectively reduce AC ripple, giving a smoother DC output. | கொள்ளி உள்ளீட்டு வடிப்பான்கள் மின்சார வழங்கல்களில் அதிகமாகப் பயன்படுத்தப்படுகின்றன. அவை உச்ச செப்பமிக்கப்பட்ட மின்னழுத்தத்திற்கு நெருக்கமான வெளியீட்டு மின்னழுத்தத்தை வழங்குகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முழு அலை செப்பமிப்பான் சுற்றில் வெளியீடு எங்கிருந்து எடுக்கப்படுகிறது?",
+      "options": [
+        "மையத் தட்டிற்கும் முதல் நிலை சுருளிற்கும் இடையே",
+        "இருமுனையங்களின் பொதுப் புள்ளிக்கும் மின்மாற்றியின் மையத் தட்டிற்கும் இடையே",
+        "இரண்டாம் நிலை சுருளின் இரு முனைகளுக்கும் இடையே மட்டும்",
+        "முதல் மற்றும் இரண்டாம் நிலை சுருள்களுக்கும் இடையே"
+      ],
+      "correct": 1,
+      "explanation": "In a full-wave rectifier with center-tap transformer, the output is taken between the common point where the n-sides of both diodes are connected together and the center-tap of the transformer secondary winding. | மையத் தட்டு மின்மாற்றி கொண்ட முழு அலை செப்பமிப்பானில், வெளியீடு இரு இருமுனையங்களின் n-பக்கங்கள் இணைக்கப்பட்ட பொதுப் புள்ளியிலிருந்தும், மின்மாற்றியின் இரண்டாம் நிலை மையத் தட்டிலிருந்தும் எடுக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வடிப்பான் சுற்றில் கொள்ளியின் மின்னழுத்த வீழ்ச்சி வீதத்தை எது தீர்மானிக்கிறது?",
+      "options": [
+        "உள்ளீட்டு AC அதிர்வெண் மட்டும்",
+        "கொள்ளளவு மற்றும் சுமை மின்தடையத்தின் பெருக்கலின் நேர்மாறு",
+        "இருமுனைய முன்னோக்கு மின்னழுத்த வீழ்ச்சி",
+        "மின்மாற்றி சுற்று விகிதம்"
+      ],
+      "correct": 1,
+      "explanation": "The rate of fall of voltage across the capacitor depends inversely upon the product of capacitance C and the effective resistance RL used in the circuit. This product is called the time constant of the circuit. | கொள்ளியின் மின்னழுத்த வீழ்ச்சி வீதம், சுற்றில் பயன்படுத்தப்பட்ட கொள்ளளவு C மற்றும் செயல்பாட்டு மின்தடையம் RL ஆகியவற்றின் பெருக்கலின் நேர்மாற்றைச் சார்ந்துள்ளது. இந்தப் பெருக்கல் சுற்றின் கால மாறிலி எனப்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கொள்ளி வடிப்பானுக்கு வெளிப்புற சுமை இணைக்கப்படாவிட்டால் கொள்ளி மின்னழுத்தம் என்ன ஆகிறது?",
+      "options": [
+        "உடனடியாக பூஜ்ஜியமாக வெளியேறுகிறது",
+        "செப்பமிக்கப்பட்ட வெளியீட்டின் உச்ச மின்னழுத்தத்திற்கு சார்ஜ் செய்யப்பட்ட நிலையில் இருக்கிறது",
+        "பூஜ்ஜியம் மற்றும் உச்ச மின்னழுத்தத்திற்கு இடையில் அதிர்கிறது",
+        "உள்ளீட்டைப் பொருட்படுத்தாமல் குறைந்து கொண்டே இருக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "If there is no external load connected, the capacitor remains charged to the peak voltage of the rectified output. Without a discharge path through a load, the capacitor maintains its charge at the peak value. | வெளிப்புற சுமை இணைக்கப்படாதபோது, கொள்ளி செப்பமிக்கப்பட்ட வெளியீட்டின் உச்ச மின்னழுத்தத்திற்கு சார்ஜ் செய்யப்பட்ட நிலையில் இருக்கும். சுமை வழியாக வெளியேறும் பாதை இல்லாததால், கொள்ளி தன் சார்ஜை உச்ச மதிப்பில் பேணுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "T = 0 K இல் உள்ள固有 அரைகடத்தி எவ்வாறு நடத்தைக் காட்டுகிறது?",
+      "options": [
+        "அறை வெப்பநிலையில் (300 K) நல்ல கடத்தியாக",
+        "T = 0 K இல் காப்பியாக (insulator)",
+        "T = 100 K இல் மோசமான கடத்தியாக",
+        "0 K க்கு மேல் அனைத்து வெப்பநிலைகளிலும் கடத்தியாக"
+      ],
+      "correct": 1,
+      "explanation": "At absolute zero temperature, an intrinsic semiconductor behaves like an insulator because there is no thermal energy to excite electrons from valence band to conduction band. | சுழிய வெப்பநிலையில் (T = 0 K), உள்ள固有 அரைகடத்தி ஒரு காப்பியாக நடத்தைக் காட்டுகிறது, ஏனெனில் வேலன்ஸ் பட்டையிலிருந்து கடத்தல் பட்டைக்கு எலக்ட்ரான்களை உற்சாகப்படுத்த போதிய வெப்ப ஆற்றல் இல்லை."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "0 K க்கு மேல் வெப்பநிலை அதிகரிக்கும்போது உள்ள固有 அரைகடத்தியில் என்ன நிகழ்கிறது?",
+      "options": [
+        "எலக்ட்ரான்கள் வேலன்ஸ் பட்டையில் மட்டுமே இருக்கின்றன",
+        "எலக்ட்ரான்கள் கடத்தல் பட்டையிலிருந்து வேலன்ஸ் பட்டைக்கு நகர்கின்றன",
+        "வெப்ப ஆற்றல் சில எலக்ட்ரான்களை வேலன்ஸ் பட்டையிலிருந்து கடத்தல் பட்டைக்கு உற்சாகப்படுத்துகிறது",
+        "அனைத்து எலக்ட்ரான்களும் உடனடியாக கடத்தல் பட்டைக்கு தாவுகின்றன"
+      ],
+      "correct": 2,
+      "explanation": "Thermal energy at temperatures above 0 K excites some electrons from the valence band to the conduction band, creating electron-hole pairs for conduction. | 0 K க்கு மேல் வெப்பநிலையில் வெப்ப ஆற்றல் சில எலக்ட்ரான்களை வேலன்ஸ் பட்டையிலிருந்து கடத்தல் பட்டைக்கு உற்சாகப்படுத்துகிறது, கடத்துதலுக்கான எலக்ட்ரான்-துளை ஜோடிகளை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "T > 0 K இல் உள்ள固有 அரைகடத்தியின் ஆற்றல் பட்டை வரைபடத்தில் நிரப்பப்பட்ட வட்டங்கள் எதைக் குறிக்கின்றன?",
+      "options": [
+        "துளைகளை (holes)",
+        "எலக்ட்ரான்களை (electrons)",
+        "மாசு அணுக்களை (dopant atoms)",
+        "புரோட்டான்களை (protons)"
+      ],
+      "correct": 1,
+      "explanation": "In the energy band diagram of an intrinsic semiconductor at T > 0 K, filled circles represent electrons in the conduction band and empty circles represent holes in the valence band. | T > 0 K இல் உள்ள固有 அரைகடத்தியின் ஆற்றல் பட்டை வரைபடத்தில், நிரப்பப்பட்ட வட்டங்கள் கடத்தல் பட்டையில் உள்ள எலக்ட்ரான்களையும், வெற்று வட்டங்கள் வேலன்ஸ் பட்டையில் உள்ள துளைகளையும் குறிக்கின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கார்பன் (C) காப்பியாக இருக்கும்போது சிலிக்கான் (Si) மற்றும் ஜெர்மேனியம் (Ge) அரைகடத்திகளாக இருப்பதற்கான காரணம் என்ன?",
+      "options": [
+        "C இல் Si மற்றும் Ge வை விட குறைவான வேலன்ஸ் எலக்ட்ரான்கள் உள்ளன",
+        "C இல் அயனியாக்கல் ஆற்றல் அதிகமாகவும், Ge இல் குறைவாகவும் உள்ளது",
+        "C வேறு படிக கட்டமைப்பைக் கொண்டுள்ளது",
+        "C, Si மற்றும் Ge வை விட கனமானது"
+      ],
+      "correct": 1,
+      "explanation": "The ionization energy required to remove an electron is highest for C (5.4 eV) because its bonding electrons are in the 2nd orbit, while Ge has the lowest (0.7 eV) with electrons in the 4th orbit. | C இல் எலக்ட்ரானை அகற்ற தேவையான அயனியாக்கல் ஆற்றல் அதிகமாக உள்ளது (5.4 eV), ஏனெனில் அதன் பிணைப்பு எலக்ட்ரான்கள் 2வது கோளில் உள்ளன, Ge இல் குறைந்தது (0.7 eV) 4வது கோளில் எலக்ட்ரான்கள் உள்ளன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "தூய அரைகடத்திகளில் மாசுக்களைச் சேர்ப்பதன் முக்கிய காரணம் என்ன?",
+      "options": [
+        "கடத்துதிறனைக் குறைக்க",
+        "கடத்துதிறனை மேம்படுத்த",
+        "நிறத்தை மாற்ற",
+        "அடர்த்தியை அதிகரிக்க"
+      ],
+      "correct": 1,
+      "explanation": "The conductivity of an intrinsic semiconductor at room temperature is very low. Adding impurities (doping) increases conductivity manifold, making them useful for electronic devices. | அறை வெப்பநிலையில் உள்ள固有 அரைகடத்தியின் கடத்துதிறன் மிகக் குறைவு. மாசுக்களைச் சேர்ப்பது (doping) கடத்துதிறனை பல மடங்கு அதிகரிக்கிறது, மின்னணு சாதனங்களுக்கு பயனுள்ளதாக ஆக்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "தூய அரைகடத்தியில் விரும்பத்தகுந்த மாசுக்களை வேண்டுமென்றே சேர்க்கும் செயல்முறையை என்னவென்று அழைக்கின்றனர்?",
+      "options": [
+        "விரவல் (diffusion)",
+        "சாய்வு (drift)",
+        "மாசூட்டல் (doping)",
+        "மீளிணைப்பு (recombination)"
+      ],
+      "correct": 2,
+      "explanation": "The deliberate addition of desirable impurities to a pure semiconductor is called doping. The impurity atoms are called dopants. | தூய அரைகடத்தியில் விரும்பத்தகுந்த மாசுக்களை வேண்டுமென்றே சேர்ப்பதை மாசூட்டல் (doping) என்று அழைக்கின்றனர். மாசு அணுக்கள் dopants என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரைகடத்திகளில் மாசூட்டலுக்கு பொதுவாக எந்த அளவு மாசு சேர்க்கப்படுகிறது?",
+      "options": [
+        "100 பாகங்களில் 1 பாகம்",
+        "மில்லியனுக்கு சில பாகங்கள் (ppm)",
+        "மாசு மற்றும் அரைகடத்தி சம பாகங்கள்",
+        "100% தூய மாசு"
+      ],
+      "correct": 1,
+      "explanation": "Only a very small amount of impurity, typically a few parts per million (ppm), is added to increase conductivity without distorting the crystal lattice structure. | படிக வலையமைப்பை சிதைக்காமல் கடத்துதிறனை அதிகரிக்க, மிகக் குறைந்த அளவு மாசு, பொதுவாக மில்லியனுக்கு சில பாகங்கள் (ppm), சேர்க்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si அல்லது Ge இல் மாசூட்டலுக்கு பயன்படுத்தப்படும் ஐந்து இணைதிறன் மாசு எது?",
+      "options": [
+        "போரான் (Boron, B)",
+        "அலுமினியம் (Aluminium, Al)",
+        "ஆர்சனிக் (Arsenic, As)",
+        "இண்டியம் (Indium, In)"
+      ],
+      "correct": 2,
+      "explanation": "Pentavalent dopants (valency 5) include Arsenic (As), Antimony (Sb), and Phosphorous (P). Trivalent dopants include Boron (B), Aluminium (Al), and Indium (In). | ஐந்து இணைதிறன் மாசுக்கள் (valency 5) ஆர்சனிக் (As), ஆன்டிமனி (Sb), மற்றும் பாஸ்பரஸ் (P) ஆகியவற்றை உள்ளடக்கியது. மூன்று இணைதிறன் மாசுக்கள் போரான் (B), அலுமினியம் (Al), மற்றும் இண்டியம் (In) ஆகியவற்றை உள்ளடக்கியது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si அல்லது Ge இல் மாசு அணுவைத் தேர்ந்தெடுக்க ஒரு தேவையான நிபந்தனை என்ன?",
+      "options": [
+        "மாசு Si அல்லது Ge வை விட கனமாக இருக்க வேண்டும்",
+        "மாசு ஒரே நிறத்தைக் கொண்டிருக்க வேண்டும்",
+        "மாசு மற்றும் அரைகடத்தி அணுக்களின் அளவுகள் கிட்டத்தட்ட ஒரே மாதிரியாக இருக்க வேண்டும்",
+        "மாசு அவர்திர அட்டவணையில் ஒரே குழுவிலிருந்து வர வேண்டும்"
+      ],
+      "correct": 2,
+      "explanation": "A necessary condition for doping is that the sizes of dopant and semiconductor atoms should be nearly the same so the dopant does not distort the original crystal lattice. | மாசூட்டலுக்கு ஒரு தேவையான நிபந்தனை என்னவென்றால், மாசு மற்றும் அரைகடத்தி அணுக்களின் அளவுகள் கிட்டத்தட்ட ஒரே மாதிரியாக இருக்க வேண்டும், இதனால் மாசு அசல் படிக வலையமைப்பை சிதைக்காது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si அல்லது Ge இற்கான மாசுக்கள் அவர்திர அட்டவணையின் எந்த குழுக்களிலிருந்து பொதுவாக தேர்ந்தெடுக்கப்படுகின்றன?",
+      "options": [
+        "குழு 1 மற்றும் குழு 2",
+        "குழு 3 மற்றும் குழு 5",
+        "குழு 6 மற்றும் குழு 7",
+        "குழு 8 மற்றும் குழு 9"
+      ],
+      "correct": 1,
+      "explanation": "Since Si or Ge belongs to Group 4, dopants are chosen from nearby Group 3 (trivalent) and Group 5 (pentavalent) to ensure similar atomic sizes. | Si அல்லது Ge குழு 4 இல் உள்ளதால், மாசுக்கள் அருகிலுள்ள குழு 3 (மூன்று இணைதிறன்) மற்றும் குழு 5 (ஐந்து இணைதிறன்) இலிருந்து தேர்ந்தெடுக்கப்படுகின்றன, ஒத்த அணு அளவுகளை உறுதி செய்ய."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Diode மற்றும் transistor போன்ற பல semiconductor சாதனங்களின் அடிப்படை கட்டமைப்பு எது?",
+      "options": [
+        "Metal wire",
+        "p-n junction",
+        "Vacuum tube",
+        "Resistor"
+      ],
+      "correct": 1,
+      "explanation": "A p-n junction is the basic building block of many semiconductor devices like diodes, transistors, etc. | p-n junction என்பது diode, transistor போன்ற பல semiconductor சாதனங்களின் அடிப்படை கட்டமைப்பாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n junction உருவாக்கத்தின் போது எந்த இரண்டு முக்கிய செயல்முறைகள் நிகழ்கின்றன?",
+      "options": [
+        "Conduction மற்றும் insulation",
+        "Diffusion மற்றும் drift",
+        "Reflection மற்றும் refraction",
+        "Evaporation மற்றும் condensation"
+      ],
+      "correct": 1,
+      "explanation": "Two important processes occur during the formation of a p-n junction: diffusion and drift. | p-n junction உருவாக்கத்தின் போது இரண்டு முக்கிய செயல்முறைகள் நிகழ்கின்றன: diffusion மற்றும் drift."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n junction உருவாக்கத்தின் போது holes எந்த திசையில் diffuse செய்கின்றன?",
+      "options": [
+        "n- பக்கத்திலிருந்து p- பக்கத்திற்கு",
+        "p- பக்கத்திலிருந்து n- பக்கத்திற்கு",
+        "இரு பக்கங்களிலிருந்தும் சமமாக",
+        "Holes diffuse செய்வதில்லை"
+      ],
+      "correct": 1,
+      "explanation": "Holes diffuse from p-side to n-side (p to n) due to the concentration gradient across p- and n-sides. | p- மற்றும் n- பக்கங்களுக்கு இடையேயான செறிவு வேறுபாட்டால், holes p- பக்கத்திலிருந்து n- பக்கத்திற்கு (p to n) diffuse செய்கின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n junction உருவாக்கத்தின் போது electrons எந்த திசையில் diffuse செய்கின்றன?",
+      "options": [
+        "p- பக்கத்திலிருந்து n- பக்கத்திற்கு",
+        "n- பக்கத்திலிருந்து p- பக்கத்திற்கு",
+        "Electrons diffuse செய்வதில்லை",
+        "இரு பக்கங்களிலிருந்தும் சமமாக"
+      ],
+      "correct": 1,
+      "explanation": "Electrons diffuse from n-side to p-side (n to p) due to the concentration gradient. | செறிவு வேறுபாட்டால், electrons n- பக்கத்திலிருந்து p- பக்கத்திற்கு (n to p) diffuse செய்கின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n junction உருவாக்கத்தின் போது electrons மற்றும் holes குறைக்கப்படும் பகுதிக்கு என்ன பெயர்?",
+      "options": [
+        "Conduction region",
+        "Depletion region",
+        "Accumulation region",
+        "Neutral region"
+      ],
+      "correct": 1,
+      "explanation": "The space-charge region on either side of the junction is known as the depletion region because electrons and holes taking part in the initial movement are depleted from this region. | Junction-இன் இரு பக்கங்களிலும் உள்ள space-charge region, depletion region என அழைக்கப்படுகிறது, ஏனெனில் ஆரம்ப இயக்கத்தில் பங்கேற்கும் electrons மற்றும் holes இந்தப் பகுதியிலிருந்து குறைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Depletion region-இன் தடிமன் எவ்வளவு?",
+      "options": [
+        "ஒரு micrometre",
+        "ஒரு micrometre-இன் ஒரு பத்தாவது பகுதி",
+        "ஒரு millimetre",
+        "ஒரு centimetre"
+      ],
+      "correct": 1,
+      "explanation": "The thickness of the depletion region is of the order of one-tenth of a micrometre. | Depletion region-இன் தடிமன் ஒரு micrometre-இன் ஒரு பத்தாவது பகுதி அளவிற்கு இருக்கும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n junction உருவாக்கத்தின் போது n- பக்கத்தில் எந்த வகை மின்னூட்டம் உருவாகிறது?",
+      "options": [
+        "எதிர்மறை space-charge region",
+        "நேர்மறை space-charge region",
+        "Neutral charge region",
+        "எந்த மின்னூட்டமும் உருவாகிறதில்லை"
+      ],
+      "correct": 1,
+      "explanation": "As electrons diffuse from n to p, they leave behind ionised donors (positive charge) on the n-side, creating a positive space-charge region. | n- பக்கத்திலிருந்து electrons p- பக்கத்திற்கு diffuse செல்லும்போது, ionised donors (நேர்மறை மின்னூட்டம்) பின்னால் விடப்படுகின்றன, இதனால் n- பக்கத்தில் நேர்மறை space-charge region உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n junction உருவாக்கத்தின் போது p- பக்கத்தில் எந்த வகை மின்னூட்டம் உருவாகிறது?",
+      "options": [
+        "நேர்மறை space-charge region",
+        "எதிர்மறை space-charge region",
+        "Neutral charge region",
+        "எந்த மின்னூட்டமும் உருவாகிறதில்லை"
+      ],
+      "correct": 1,
+      "explanation": "As holes diffuse from p to n, they leave behind ionised acceptors (negative charge) on the p-side, creating a negative space-charge region. | p- பக்கத்திலிருந்து holes n- பக்கத்திற்கு diffuse செல்லும்போது, ionised acceptors (எதிர்மறை மின்னூட்டம்) பின்னால் விடப்படுகின்றன, இதனால் p- பக்கத்தில் எதிர்மறை space-charge region உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n junction முழுவதும் உருவாகும் electric field-இன் திசை எது?",
+      "options": [
+        "p- பக்கத்திலிருந்து n- பக்கத்திற்கு",
+        "n- பக்கத்திலிருந்து p- பக்கத்திற்கு",
+        "நேர்மறை மின்னூட்டத்திலிருந்து எதிர்மறை மின்னூட்டத்தை நோக்கி",
+        "Electric field உருவாகிறதில்லை"
+      ],
+      "correct": 2,
+      "explanation": "An electric field directed from positive charge towards negative charge develops across the junction due to the space-charge regions. | Space-charge regions காரணமாக, junction முழுவதும் நேர்மறை மின்னூட்டத்திலிருந்து எதிர்மறை மின்னூட்டத்தை நோக்கி ஒரு electric field உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Electric field-ஆல் ஏற்படும் charge carriers-இன் இயக்கத்திற்கு என்ன பெயர்?",
+      "options": [
+        "Diffusion",
+        "Drift",
+        "Conduction",
+        "Radiation"
+      ],
+      "correct": 1,
+      "explanation": "The motion of charge carriers due to the electric field is called drift. | Electric field-ஆல் ஏற்படும் charge carriers-இன் இயக்கம் drift என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சமநிலையில் drift current மற்றும் diffusion current-இன் உறவு என்ன?",
+      "options": [
+        "Drift current எப்போதும் பெரிதாக இருக்கும்",
+        "Diffusion current எப்போதும் பெரிதாக இருக்கும்",
+        "அவை சமமாகவும் எதிர் திசைகளிலும் இருக்கும்",
+        "இரண்டும் பூஜ்ஜியமாகிவிடும்"
+      ],
+      "correct": 2,
+      "explanation": "At equilibrium, the diffusion current equals the drift current, and they are opposite in direction. | சமநிலையில், diffusion current மற்றும் drift current சமமாகவும், எதிர் திசைகளிலும் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சமநிலையில் உள்ள p-n junction-இல் net current எவ்வாறு இருக்கும்?",
+      "options": [
+        "அதிகபட்ச current",
+        "மிக அதிக current",
+        "எந்த net current-உம் இல்லை",
+        "Reverse current மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "In a p-n junction under equilibrium, there is no net current because the diffusion current equals the drift current. | சமநிலையில் உள்ள p-n junction-இல், diffusion current மற்றும் drift current சமமாக இருப்பதால் எந்த net current-உம் இல்லை."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Junction முழுவதும் உள்ள potential difference-ஐ என்ன என்று அழைக்கிறார்கள்?",
+      "options": [
+        "Applied voltage",
+        "Barrier potential",
+        "Thermal voltage",
+        "Breakdown voltage"
+      ],
+      "correct": 1,
+      "explanation": "The potential difference across the junction that tends to prevent further flow of carriers is called the barrier potential. | Carriers-இன் மேலும் ஓட்டத்தைத் தடுக்கும் junction முழுவதும் உள்ள potential difference barrier potential என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சமநிலையில் n- material p- material-இடம் ஒப்பிடும்போது ஏன் நேர்மறையாக உள்ளது?",
+      "options": [
+        "n- region-க்கு electrons சேர்க்கப்பட்டதால்",
+        "n- region electrons-ஐ இழந்துவிட்டது, p- region electrons-ஐப் பெற்றுள்ளது",
+        "n- region-க்கு holes சேர்க்கப்பட்டதால்",
+        "இரு region-களிலும் சமமான electrons உள்ளதால்"
+      ],
+      "correct": 1,
+      "explanation": "The n-material has lost electrons, and p-material has acquired electrons, making n positive relative to p. | n- material electrons-ஐ இழந்துவிட்டது, p- material electrons-ஐப் பெற்றுள்ளது, இதனால் n, p-க்கு ஒப்பிடும்போது நேர்மறையாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-type slab-ஐயும் n-type slab-ஐயும் physically இணைத்து p-n junction உருவாக்க முடியுமா?",
+      "options": [
+        "ஆம், அது சரியாக செயல்படும்",
+        "இல்லை, ஏனெனில் junction discontinuity-ஆக செயல்படும்",
+        "ஆம், ஆனால் அதிக வெப்பநிலையில் மட்டுமே",
+        "இல்லை, ஏனெனில் அவை ஒன்றையொன்று விலக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "No, any slab has roughness much larger than inter-atomic crystal spacing, so continuous contact at atomic level is not possible. The junction will behave as a discontinuity for flowing charge carriers. | இல்லை, எந்த slab-இன் தோற்றமும் inter-atomic crystal spacing-ஐ விட பெரியதாக இருக்கும், எனவே atomic level-இல் தொடர்ச்சியான தொடர்பு சாத்தியமற்றது. Junction flowing charge carriers-க்கு discontinuity-ஆக செயல்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Semiconductor diode அடிப்படையில் என்ன?",
+      "options": [
+        "இரண்டு electrodes கொண்ட vacuum tube",
+        "இறுதிகளில் metallic contacts உள்ள p-n junction",
+        "மாறுபடும் resistance கொண்ட resistor",
+        "இரண்டு plates கொண்ட capacitor"
+      ],
+      "correct": 1,
+      "explanation": "A semiconductor diode is basically a p-n junction with metallic contacts provided at the ends for the application of an external voltage. | Semiconductor diode என்பது அடிப்படையில் external voltage-ஐப் பயன்படுத்துவதற்காக இறுதிகளில் metallic contacts வழங்கப்பட்ட p-n junction ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Semiconductor diode-க்கு எத்தனை terminals உள்ளன?",
+      "options": [
+        "ஒரு terminal",
+        "இரண்டு terminals",
+        "மூன்று terminals",
+        "நான்கு terminals"
+      ],
+      "correct": 1,
+      "explanation": "A semiconductor diode is a two-terminal device. | Semiconductor diode என்பது இரண்டு terminal சாதனமாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Diode symbol-இல் உள்ள arrow-இன் திசை எதைக் குறிக்கிறது?",
+      "options": [
+        "Electron flow-இன் திசை",
+        "Forward bias-இல் current-இன் conventional direction",
+        "Hole movement-இன் திசை மட்டுமே",
+        "Electric field-இன் திசை"
+      ],
+      "correct": 1,
+      "explanation": "The direction of the arrow indicates the conventional direction of current when the diode is under forward bias. | Arrow-இன் திசை, diode forward bias-இல் இருக்கும்போது current-இன் conventional direction-ஐக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Forward bias பயன்படுத்தப்படும்போது depletion layer width என்ன ஆகிறது?",
+      "options": [
+        "அதிகரிக்கிறது",
+        "குறைகிறது",
+        "அப்படியே இருக்கிறது",
+        "முடிவில்லாததாக மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Under forward bias, the applied voltage is opposite to the built-in potential, so the depletion layer width decreases and the barrier height is reduced. | Forward bias-இல், பயன்படுத்தப்பட்ட voltage built-in potential-க்கு எதிராக இருப்பதால், depletion layer width குறைந்து, barrier height குறைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Forward bias-இல் effective barrier height எவ்வாறு கணக்கிடப்படுகிறது?",
+      "options": [
+        "V0 + V",
+        "V0 - V",
+        "V0 மட்டுமே",
+        "V மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "The effective barrier height under forward bias is (V0 - V), where V0 is the built-in potential and V is the applied voltage. | Forward bias-இல் effective barrier height (V0 - V) ஆகும், இங்கு V0 என்பது built-in potential மற்றும் V என்பது பயன்படுத்தப்பட்ட voltage."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடு முன்னோக்கு சாய்வில் இருக்கும்போது, எந்த பக்கம் மின்கலத்தின் நேர்மின் முனையுடன் இணைக்கப்படுகிறது?",
+      "options": [
+        "n-பக்கம்",
+        "p-பக்கம்",
+        "இரு பக்கங்களும் சமமாக",
+        "எந்த பக்கமும் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "In forward bias, the p-side is connected to the positive terminal and the n-side to the negative terminal. This reduces the barrier potential and allows current to flow. | முன்னோக்கு சாய்வில், p-பக்கம் நேர்மின் முனையுடனும் n-பக்கம் எதிர்மின் முனையுடனும் இணைக்கப்படுகிறது. இது தடை திறனைக் குறைத்து மின்னோட்டத்தை ஓட அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடு முன்னோக்கு சாய்வில் இருக்கும்போது சோர்வு பகுதியின் அகலத்திற்கு என்ன நடக்கிறது?",
+      "options": [
+        "இது குறிப்பிடத்தக்க அளவில் அதிகரிக்கிறது",
+        "இது மாறாமல் இருக்கிறது",
+        "இது குறைகிறது",
+        "இது பூஜ்யமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "Under forward bias, the applied voltage opposes the built-in potential, causing the depletion layer width to decrease and the barrier height to reduce. | முன்னோக்கு சாய்வில், பயன்படுத்தப்பட்ட மின்னழுத்தம் உள்ளமைந்த திறனுக்கு எதிராக செயல்படுவதால், சோர்வு பகுதியின் அகலம் குறைந்து தடை உயரம் குறைகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சாய்வில் திறமையான தடை உயரம் என்ன?",
+      "options": [
+        "V0 + V",
+        "V0 - V",
+        "V0 × V",
+        "V0 / V"
+      ],
+      "correct": 1,
+      "explanation": "The effective barrier height under forward bias is (V0 - V), where V0 is the built-in potential and V is the applied forward voltage. | முன்னோக்கு சாய்வில் திறமையான தடை உயரம் (V0 - V) ஆகும், இங்கு V0 உள்ளமைந்த திறனும் V பயன்படுத்தப்பட்ட முன்னோக்கு மின்னழுத்தமும் ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சாய்வில் n-பக்கத்திலிருந்து எலக்ட்ரான்கள் சோர்வு பகுதியைக் கடந்து p-பக்கத்தை அடையும் செயல்முறை என்ன என்று அழைக்கப்படுகிறது?",
+      "options": [
+        "பெரும்பான்மை ஊர்தி செலுத்துதல்",
+        "சிறுபான்மை ஊர்தி செலுத்துதல்",
+        "விரவல் மின்னோட்டம்",
+        "சறுக்கு மின்னோட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "Under forward bias, electrons from n-side cross to p-side (where they become minority carriers) and holes from p-side cross to n-side. This process is called minority carrier injection. | முன்னோக்கு சாய்வில், n-பக்கத்திலிருந்து எலக்ட்ரான்கள் p-பக்கத்திற்கு (அங்கு அவை சிறுபான்மை ஊர்திகளாக மாறும்) கடந்து செல்கின்றன. இந்த செயல்முறை சிறுபான்மை ஊர்தி செலுத்துதல் எனப்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடில் முன்னோக்கு மின்னோட்டத்தின் பொதுவான அளவு வரம்பு என்ன?",
+      "options": [
+        "மைக்ரோஅம்பியர் (μA)",
+        "மில்லியம்பியர் (mA)",
+        "அம்பியர் (A)",
+        "நானோஅம்பியர் (nA)"
+      ],
+      "correct": 1,
+      "explanation": "The forward current in a p-n junction diode is typically in the milliampere (mA) range, as stated in the textbook. | p-n சந்தி டையோடில் முன்னோக்கு மின்னோட்டம் பொதுவாக மில்லியம்பியர் (mA) வரம்பில் இருக்கும், பாடநூலில் குறிப்பிடப்பட்டுள்ளபடி."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடு பின்னோக்கு சாய்வில் இருக்கும்போது, எந்த பக்கம் நேர்மின் முனையுடன் இணைக்கப்படுகிறது?",
+      "options": [
+        "p-பக்கம்",
+        "n-பக்கம்",
+        "இரு பக்கங்களும்",
+        "எந்த பக்கமும் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "In reverse bias, the n-side is connected to the positive terminal and the p-side to the negative terminal, which increases the barrier potential. | பின்னோக்கு சாய்வில், n-பக்கம் நேர்மின் முனையுடனும் p-பக்கம் எதிர்மின் முனையுடனும் இணைக்கப்படுகிறது, இது தடை திறனை அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடு பின்னோக்கு சாய்வில் இருக்கும்போது தடை உயரத்திற்கு என்ன நடக்கிறது?",
+      "options": [
+        "இது குறைகிறது",
+        "இது மாறாமல் இருக்கிறது",
+        "இது அதிகரிக்கிறது",
+        "இது பூஜ்யமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "Under reverse bias, the applied voltage adds to the built-in potential, increasing the barrier height to (V0 + V) and widening the depletion region. | பின்னோக்கு சாய்வில், பயன்படுத்தப்பட்ட மின்னழுத்தம் உள்ளமைந்த திறனுடன் கூட்டப்படுவதால், தடை உயரம் (V0 + V) ஆக அதிகரித்து சோர்வு பகுதி விரிவடைகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடில் பின்னோக்கு மின்னோட்டத்தின் அளவு வரம்பு என்ன?",
+      "options": [
+        "மில்லியம்பியர் (mA)",
+        "மைக்ரோஅம்பியர் (μA)",
+        "அம்பியர் (A)",
+        "கிலோஅம்பியர் (kA)"
+      ],
+      "correct": 1,
+      "explanation": "The reverse current (drift current) is of the order of microamperes (μA) because it depends only on minority carriers which are very few in number. | பின்னோக்கு மின்னோட்டம் (சறுக்கு மின்னோட்டம்) மைக்ரோஅம்பியர் (μA) வரம்பில் இருக்கும், ஏனெனில் இது மிகக் குறைந்த எண்ணிக்கையிலுள்ள சிறுபான்மை ஊர்திகளை மட்டுமே சார்ந்துள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டையோடின் பின்னோக்கு மின்னோட்டம் கூர்மையாக அதிகரிக்கும் முக்கியமான பின்னோக்கு சாய்வு மின்னழுத்தம் என்ன என்று அழைக்கப்படுகிறது?",
+      "options": [
+        "வெட்டு-உள் மின்னழுத்தம்",
+        "தடை திறன்",
+        "உடைப்பு மின்னழுத்தம்",
+        "திறப்பு மின்னழுத்தம்"
+      ],
+      "correct": 2,
+      "explanation": "The breakdown voltage (Vbr) is the critical reverse bias voltage at which the reverse current increases sharply and the diode may get destroyed if current is not limited. | உடைப்பு மின்னழுத்தம் (Vbr) என்பது பின்னோக்கு மின்னோட்டம் கூர்மையாக அதிகரிக்கும் முக்கியமான பின்னோக்கு சாய்வு மின்னழுத்தம், மின்னோட்டம் கட்டுப்படுத்தப்படாவிட்டால் டையோடு அழிந்துவிடும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சாய்வு V-I பண்புக்கூறு சோதனையில் மின்னோட்டத்தை அளவிட எந்த கருவி பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "மைக்ரோஅம்மீட்டர்",
+        "மில்லியம்மீட்டர்",
+        "அம்மீட்டர்",
+        "கால்வனோமீட்டர்"
+      ],
+      "correct": 1,
+      "explanation": "A milliammeter is used in forward bias measurement because the expected current is large (in mA range), while a microammeter is used in reverse bias. | முன்னோக்கு சாய்வு அளவீட்டில் மில்லியம்மீட்டர் பயன்படுத்தப்படுகிறது, ஏனெனில் எதிர்பார்க்கப்படும் மின்னோட்டம் பெரியது (mA வரம்பில்), பின்னோக்கு சாய்வில் மைக்ரோஅம்மீட்டர் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிகான் டையோடுக்கான திறப்பு மின்னழுத்தம் (வெட்டு-உள் மின்னழுத்தம்) என்ன?",
+      "options": [
+        "~0.2V",
+        "~0.7V",
+        "~1.0V",
+        "~0.5V"
+      ],
+      "correct": 1,
+      "explanation": "The threshold voltage or cut-in voltage is approximately 0.7V for silicon diode and approximately 0.2V for germanium diode. | திறப்பு மின்னழுத்தம் அல்லது வெட்டு-உள் மின்னழுத்தம் சிலிகான் டையோடுக்கு சுமார் 0.7V மற்றும் ஜெர்மேனியம் டையோடுக்கு சுமார் 0.2V ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஜெர்மேனியம் டையோடுக்கான திறப்பு மின்னழுத்தம் (வெட்டு-உள் மின்னழுத்தம்) என்ன?",
+      "options": [
+        "~0.7V",
+        "~0.2V",
+        "~1.1V",
+        "~0.5V"
+      ],
+      "correct": 1,
+      "explanation": "The threshold voltage for a germanium diode is approximately 0.2V, while for a silicon diode it is approximately 0.7V. | ஜெர்மேனியம் டையோடுக்கான திறப்பு மின்னழுத்தம் சுமார் 0.2V, சிலிகான் டையோடுக்கு இது சுமார் 0.7V."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உடைப்புக்கு முன் பின்னோக்கு சாய்வில் கிட்டத்தட்ட மாறாமல் இருக்கும் மின்னோட்டம் என்ன என்று அழைக்கப்படுகிறது?",
+      "options": [
+        "முன்னோக்கு மின்னோட்டம்",
+        "விரவல் மின்னோட்டம்",
+        "பின்னோக்கு செறிவு மின்னோட்டம்",
+        "உடைப்பு மின்னோட்டம்"
+      ],
+      "correct": 2,
+      "explanation": "In reverse bias, the current is very small (~μA) and almost remains constant with change in bias. It is called reverse saturation current. | பின்னோக்கு சாய்வில், மின்னோட்டம் மிகக் குறைவாக (~μA) இருந்து சாய்வு மாற்றத்துடன் கிட்டத்தட்ட மாறாமல் இருக்கும். இது பின்னோக்கு செறிவு மின்னோட்டம் எனப்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டையோடின் இயக்க எதிர்ப்பு எவ்வாறு வரையறுக்கப்படுகிறது?",
+      "options": [
+        "V/I",
+        "ΔV/ΔI",
+        "I/V",
+        "ΔI/ΔV"
+      ],
+      "correct": 1,
+      "explanation": "Dynamic resistance is defined as the ratio of small change in voltage (ΔV) to a small change in current (ΔI): rd = ΔV/ΔI. | இயக்க எதிர்ப்பு என்பது சிறிய மின்னழுத்த மாற்றத்திற்கும் (ΔV) சிறிய மின்னோட்ட மாற்றத்திற்கும் (ΔI) உள்ள விகிதமாக வரையறுக்கப்படுகிறது: rd = ΔV/ΔI."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடில் முன்னோக்கு சாய்வில் எந்த மின்னோட்டம் மிகையானது?",
+      "options": [
+        "சறுக்கு மின்னோட்டம்",
+        "சிறுபான்மை ஊர்தி செலுத்துதலால் ஏற்படும் விரவல் மின்னோட்டம்",
+        "பின்னோக்கு செறிவு மின்னோட்டம்",
+        "கசிவு மின்னோட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "Under forward bias, the dominant current is the diffusion current due to minority carrier injection, which is typically in mA range. | முன்னோக்கு சாய்வில், மிகையான மின்னோட்டம் சிறுபான்மை ஊர்தி செலுத்துதலால் ஏற்படும் விரவல் மின்னோட்டம், இது பொதுவாக mA வரம்பில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடுக்குப் பின்னோக்கு சாய்வு பயன்படுத்தப்படும்போது விரவல் மின்னோட்டத்திற்கு என்ன நடக்கிறது?",
+      "options": [
+        "இது குறிப்பிடத்தக்க அளவில் அதிகரிக்கிறது",
+        "இது முன்னோக்கு சாய்வை விட மிகவும் குறைந்துவிடும்",
+        "இது அதேயாக இருக்கிறது",
+        "இது எல்லையற்றதாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Under reverse bias, the diffusion current decreases enormously compared to forward bias because the barrier height increases, suppressing carrier flow across the junction. | பின்னோக்கு சாய்வில், தடை உயரம் அதிகரிப்பதால் சந்தி மீது ஊர்திகளின் ஓட்டம் அடக்கப்படுவதால், விரவல் மின்னோட்டம் முன்னோக்கு சாய்வை விட மிகவும் குறைந்துவிடும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சாய்வில் உள்ள டையோடில் பாரம்பரிய மின்னோட்டத்தின் திசை எது?",
+      "options": [
+        "n-பக்கத்திலிருந்து p-பக்கத்திற்கு",
+        "p-பக்கத்திலிருந்து n-பக்கத்திற்கு",
+        "மின்னோட்டம் ஓடாது",
+        "இரு திசைகளிலும் சமமாக"
+      ],
+      "correct": 1,
+      "explanation": "The direction of arrow in the diode symbol indicates the conventional direction of current, which flows from p-side to n-side when forward biased. | டையோடு குறியீட்டில் அம்புக்குறியின் திசை பாரம்பரிய மின்னோட்ட திசையைக் குறிக்கிறது, இது முன்னோக்கு சாய்வில் p-பக்கத்திலிருந்து n-பக்கத்திற்கு ஓடுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "V-I பண்புக்கூறு சோதனையில் பொட்டென்ஷியோமீட்டரைப் பயன்படுத்துவதற்கான முக்கிய காரணம் என்ன?",
+      "options": [
+        "மின்னழுத்தத்தை நேரடியாக அளவிட",
+        "டையோடுக்கு பயன்படுத்தப்படும் மின்னழுத்தத்தை மாற்ற",
+        "டையோடை சேதத்திலிருந்து பாதுகாக்க",
+        "மின்னோட்டத்தை நேரடியாக அளவிட"
+      ],
+      "correct": 1,
+      "explanation": "The potentiometer (or rheostat) is used so that the applied voltage to the diode can be changed to obtain different values of current for plotting the V-I graph. | பொட்டென்ஷியோமீட்டர் (அல்லது ரியோஸ்டாட்) V-I வரைபடத்தை வரைய வெவ்வேறு மின்னோட்ட மதிப்புகளைப் பெற டையோடுக்கு பயன்படுத்தப்படும் மின்னழுத்தத்தை மாற்றுவதற்காகப் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடை சீரமைப்புக்குப் பயன்படுத்துவதற்கான முக்கிய பண்பு என்ன?",
+      "options": [
+        "இது இரு திசைகளிலும் சமமாக மின்னோட்டத்தை அனுமதிக்கிறது",
+        "இது ஒரு திசையில் மட்டுமே (முன்னோக்கு சாய்வில்) மின்னோட்டத்தை அனுமதிக்கிறது",
+        "இது அனைத்து மின்னோட்டத்தையும் முழுமையாகத் தடுக்கிறது",
+        "இது உள்ளீட்டு சிக்னலை பெருக்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The p-n junction diode primarily allows the flow of current only in one direction (forward bias), with low forward resistance compared to high reverse resistance. This property is used for rectification. | p-n சந்தி டையோடு பிரதானமாக ஒரு திசையில் மட்டுமே (முன்னோக்கு சாய்வில்) மின்னோட்டத்தை ஓட அனுமதிக்கிறது, அதிக பின்னோக்கு எதிர்ப்பை விட குறைந்த முன்னோக்கு எதிர்ப்புடன். இந்த பண்பு சீரமைப்புக்குப் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்னோக்கு சாய்வில் உள்ள p-n சந்தி டையோடில் சறுக்கு மின்னோட்டத்தை எதனால் ஏற்படுகிறது?",
+      "options": [
+        "சந்தியைக் கடந்து செல்லும் பெரும்பான்மை ஊர்திகள்",
+        "மின்புலத்தால் அவற்றின் பெரும்பான்மை மண்டலத்திற்கு துடைக்கப்படும் சிறுபான்மை ஊர்திகள்",
+        "புதிய ஊர்திகளின் வெப்பநிலை உருவாக்கம்",
+        "வெளிப்புற ஒளி விளக்கம்"
+      ],
+      "correct": 1,
+      "explanation": "In reverse bias, the electric field sweeps electrons on p-side and holes on n-side (minority carriers) to their respective majority zones, causing the small drift current. | பின்னோக்கு சாய்வில், மின்புலம் p-பக்கத்தில் உள்ள எலக்ட்ரான்களையும் n-பக்கத்தில் உள்ள துளைகளையும் (சிறுபான்மை ஊர்திகள்) அவற்றின் பெரும்பான்மை மண்டலங்களுக்கு துடைத்து, சிறிய சறுக்கு மின்னோட்டத்தை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si அல்லது Ge-ஐ n-வகை குறைகடத்தியாக மாற்றுவதற்கு எந்த வகை மாசு அணுக்கள் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "மூவலன்ட் அணுக்கள் போன்ற போரான் மற்றும் அலுமினியம்",
+        "பைவலன்ட் அணுக்கள் போன்ற ஆர்சனிக், ஆண்டிமனி, மற்றும் பாஸ்பரஸ்",
+        "இருவலன்ட் அணுக்கள் போன்ற கால்சியம் மற்றும் மக்னீசியம்",
+        "ஒருவலன்ட் அணுக்கள் போன்ற சோடியம் மற்றும் பொட்டாசியம்"
+      ],
+      "correct": 1,
+      "explanation": "Pentavalent atoms (valency 5) such as Arsenic (As), Antimony (Sb), and Phosphorous (P) are used as dopants to create n-type semiconductors. These atoms have five valence electrons, and when they replace a tetravalent Si or Ge atom in the crystal lattice, four electrons form covalent bonds while the fifth electron remains weakly bound and becomes available for conduction. | n-வகை குறைகடத்திகளை உருவாக்க பைவலன்ட் அணுக்கள் (5 இணைதிறன்) பயன்படுத்தப்படுகின்றன. ஆர்சனிக் (As), ஆண்டிமனி (Sb), மற்றும் பாஸ்பரஸ் (P) போன்ற அணுக்கள் நான்கு இணைதிறன் கொண்ட Si அல்லது Ge அணுவைப் பதிலீடு செய்யும்போது, நான்கு எலக்ட்ரான்கள் பிணைப்பை உருவாக்குகின்றன மற்றும் ஐந்தாவது எலக்ட்ரான் தளர்வாக பிணைக்கப்பட்டு கடத்துதலுக்கு கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "n-வகை குறைகடத்தியில் பைவலன்ட் மாசு அணுவின் ஐந்தாவது இணை எலக்ட்ரானுக்கு என்ன நடக்கிறது?",
+      "options": [
+        "அது அண்டை அணுவுடன் பிணைப்பை உருவாக்குகிறது",
+        "அது அதன் பெற்றோர் அணுவுடன் மிகவும் தளர்வாக பிணைக்கப்பட்டு சுதந்திரமாக நகர்கிறது",
+        "அது முழு பூஜ்ஜிய வெப்பநிலையில் உடனடியாக கடத்தும் பட்டைக்கு தாவுகிறது",
+        "அது ஒரு துளையுடன் இணைந்து அயனியாக்கப்பட்ட கொடுப்பாளரை உருவாக்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In an n-type semiconductor, when a pentavalent atom occupies a position in the crystal lattice of Si or Ge, four of its electrons bond with the four silicon neighbors while the fifth remains very weakly bound to its parent atom. This fifth electron sees the four bonding electrons as part of the effective core, so the ionization energy required to set it free is very small (~0.01 eV for Ge and ~0.05 eV for Si), making it available for conduction even at room temperature. | n-வகை குறைகடத்தியில், ஒரு பைவலன்ட் அணு படிகக் கட்டமைப்பில் Si அல்லது Ge இடத்தை ஆக்கிரமிக்கும்போது, அதன் நான்கு எலக்ட்ரான்கள் அண்டை அணுக்களுடன் பிணைக்கின்றன. ஐந்தாவது எலக்ட்ரான் மிகவும் தளர்வாக பிணைக்கப்பட்டிருக்கிறது. இந்த எலக்ட்ரான் பிணைப்பு எலக்ட்ரான்களை திறமையான கருவாகக் காண்கிறது, எனவே அதை விடுவிக்க தேவையான அயனியாக்கும் ஆற்றல் மிகக் குறைவு (Ge-க்கு ~0.01 eV, Si-க்கு ~0.05 eV), இது அறை வெப்பநிலையிலேயே கடத்துதலுக்கு கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "n-வகை குறைகடத்தியில் கடத்தும் எலக்ட்ரான்களின் எண்ணிக்கை (ne) மற்றும் துளைகளின் எண்ணிக்கை (nh) இடையேயான உறவு என்ன?",
+      "options": [
+        "ne = nh",
+        "ne >> nh",
+        "ne << nh",
+        "ne + nh = மாறிலி"
+      ],
+      "correct": 1,
+      "explanation": "In an n-type semiconductor doped with pentavalent impurity, electrons become the majority carriers and holes become the minority carriers. The total number of conduction electrons ne is due to electrons contributed by donors plus those generated intrinsically, while the total number of holes nh is only due to holes from the intrinsic source. The rate of recombination of holes increases due to the increased number of electrons, reducing the hole concentration further. Thus, ne is much greater than nh. | n-வகை குறைகடத்தியில், பைவலன்ட் மாசு சேர்ப்பதால் எலக்ட்ரான்கள் பெரும்பான்மை கடத்திகளாகவும், துளைகள் சிறுபான்மை கடத்திகளாகவும் மாறுகின்றன. மொத்த கடத்தும் எலக்ட்ரான்கள் ne என்பது கொடுப்பாளர்களால் வழங்கப்பட்ட எலக்ட்ரான்கள் மற்றும் உள்ளார்ந்த முறையில் உருவாக்கப்பட்ட எலக்ட்ரான்களால் உருவாகிறது. துளைகளின் எண்ணிக்கை nh என்பது உள்ளார்ந்த மூலத்திலிருந்து மட்டுமே வருகிறது. எலக்ட்ரான்களின் அதிகரிப்பால் துளைகளின் மறுசேர்க்கை விகிதம் அதிகரித்து, துளை செறிவு மேலும் குறைகிறது. எனவே, ne என்பது nh ஐ விட மிகவும் அதிகம்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "n-வகை குறைகடத்தியில் மாசு அணுக்களால் கடத்துதலுக்கு கிடைக்கும் எலக்ட்ரான்களின் எண்ணிக்கையை எது தீர்மானிக்கிறது?",
+      "options": [
+        "சுற்றுப்புற வெப்பநிலை",
+        "மாசூட்டல் மட்டம் (மாசு அணுக்களின் செறிவு)",
+        "பயன்படுத்தப்படும் மின்சார புலம்",
+        "குறைகடத்தியின் பட்டை இடைவெளி ஆற்றல்"
+      ],
+      "correct": 1,
+      "explanation": "The number of electrons made available for conduction by dopant atoms depends strongly upon the doping level and is independent of any increase in ambient temperature. On the other hand, the number of free electrons (with an equal number of holes) generated by Si atoms increases only weakly with temperature. This is why doping is an effective method to control conductivity. | மாசு அணுக்களால் கடத்துதலுக்கு கிடைக்கும் எலக்ட்ரான்களின் எண்ணிக்கை மாசூட்டல் மட்டத்தை (doping level) பொறுத்தது மற்றும் சுற்றுப்புற வெப்பநிலையின் அதிகரிப்பிலிருந்து சுதந்திரமானது. மறுபுறம், Si அணுக்களால் உருவாக்கப்படும் இலவச எலக்ட்ரான்களின் (சமமான துளைகளுடன்) எண்ணிக்கை வெப்பநிலையுடன் மிகவும் பலவீனமாக அதிகரிக்கிறது. எனவே, கடத்துதிறனைக் கட்டுப்படுத்த மாசூட்டல் ஒரு திறமையான முறையாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "n-வகை குறைகடத்தியில் அதிகரித்த மறுசேர்க்கையால் துளைகளின் எண்ணிக்கைக்கு என்ன நடக்கிறது?",
+      "options": [
+        "துளைகளின் எண்ணிக்கை குறிப்பிடத்தக்க அளவில் அதிகரிக்கிறது",
+        "துளைகளின் எண்ணிக்கை மாறாமல் இருக்கிறது",
+        "துளைகளின் எண்ணிக்கை மேலும் குறைகிறது",
+        "துளைகளின் எண்ணிக்கை எலக்ட்ரான்களின் எண்ணிக்கைக்கு சமமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "In a doped semiconductor, the total number of conduction electrons ne is due to electrons contributed by donors and those generated intrinsically, while the total number of holes nh is only due to holes from the intrinsic source. But the rate of recombination of holes would increase due to the increase in the number of electrons. As a result, the number of holes would get reduced further. This makes electrons the majority carriers and holes the minority carriers. | மாசூட்டப்பட்ட குறைகடத்தியில், மொத்த கடத்தும் எலக்ட்ரான்கள் ne என்பது கொடுப்பாளர்களால் வழங்கப்பட்ட எலக்ட்ரான்கள் மற்றும் உள்ளார்ந்த முறையில் உருவாக்கப்பட்ட எலக்ட்ரான்களால் உருவாகிறது. மொத்த துளைகளின் எண்ணிக்கை nh என்பது உள்ளார்ந்த மூலத்திலிருந்து மட்டுமே வருகிறது. ஆனால் எலக்ட்ரான்களின் அதிகரிப்பால் துளைகளின் மறுசேர்க்கை விகிதம் அதிகரிக்கும். இதன் விளைவாக, துளைகளின் எண்ணிக்கை மேலும் குறையும். இது எலக்ட்ரான்களை பெரும்பான்மை கடத்திகளாகவும், துளைகளை சிறுபான்மை கடத்திகளாகவும் ஆக்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஜெர்மேனியத்தில் பைவலன்ட் மாசிலிருந்து ஐந்தாவது எலக்ட்ரானை விடுவிக்க தேவையான அயனியாக்கும் ஆற்றல் சுமார் எவ்வளவு?",
+      "options": [
+        "0.72 eV",
+        "1.1 eV",
+        "0.01 eV",
+        "3.0 eV"
+      ],
+      "correct": 2,
+      "explanation": "The energy required to separate the fifth electron from its parent atom is approximately 0.01 eV for germanium and 0.05 eV for silicon. This is very small compared to the energy required to jump the forbidden band (~0.72 eV for Ge and ~1.1 eV for Si) in the intrinsic semiconductor. This small ionization energy means the fifth electron becomes free even at room temperature. | ஜெர்மேனியத்தில் ஐந்தாவது எலக்ட்ரானை அதன் பெற்றோர் அணுவிலிருந்து பிரிக்க தேவையான ஆற்றல் சுமார் 0.01 eV மற்றும் சிலிகானுக்கு 0.05 eV. இது உள்ளார்ந்த குறைகடத்தியில் தடைபட்ட பட்டையைக் கடக்க தேவையான ஆற்றலுக்கு (~0.72 eV Ge-க்கு, ~1.1 eV Si-க்கு) மிகக் குறைவு. இந்த சிறிய அயனியாக்கும் ஆற்றல் காரணமாக, ஐந்தாவது எலக்ட்ரான் அறை வெப்பநிலையிலேயே இலவசமாகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பைவலன்ட் மாசு ஏன் கொடுப்பாளர் மாசு என்று அழைக்கப்படுகிறது?",
+      "options": [
+        "ஏனெனில் அது குறைகடத்தியிலிருந்து எலக்ட்ரான்களை ஏற்றுக்கொள்கிறது",
+        "ஏனெனில் அது கடத்துதலுக்கு ஒரு கூடுதல் எலக்ட்ரானை வழங்குகிறது",
+        "ஏனெனில் அது இணை பட்டையில் துளைகளை உருவாக்குகிறது",
+        "ஏனெனில் அது பட்டை இடைவெளி ஆற்றலைக் குறைக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "The pentavalent dopant is called a donor impurity because it donates one extra electron for conduction. When a pentavalent atom is added to Si or Ge, four of its valence electrons form covalent bonds with neighboring atoms, while the fifth electron remains weakly bound and becomes available as a free electron for conduction. This donation of extra electrons increases the conductivity of the semiconductor. | பைவலன்ட் மாசு கொடுப்பாளர் மாசு என்று அழைக்கப்படுகிறது, ஏனெனில் இது கடத்துதலுக்கு ஒரு கூடுதல் எலக்ட்ரானை வழங்குகிறது. Si அல்லது Ge-க்கு ஒரு பைவலன்ட் அணு சேர்க்கப்படும்போது, அதன் நான்கு இணை எலக்ட்ரான்கள் அண்டை அணுக்களுடன் பிணைப்பை உருவாக்குகின்றன, ஐந்தாவது எலக்ட்ரான் தளர்வாக பிணைக்கப்பட்டு கடத்துதலுக்கான இலவச எலக்ட்ரானாக கிடைக்கிறது. இந்த கூடுதல் எலக்ட்ரான்களின் வழங்கல் குறைகடத்தியின் கடத்துதிறனை அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "n-வகை குறைகடத்தியில் எலக்ட்ரான்களின் அதிகரிப்பு துளைகளின் செறிவை எவ்வாறு பாதிக்கிறது?",
+      "options": [
+        "துளைகளின் செறிவு அதிகரிக்கிறது",
+        "துளைகளின் செறிவு குறைகிறது",
+        "துளைகளின் செறிவு மாறாமல் இருக்கிறது",
+        "துளைகளின் செறிவு பூஜ்ஜியமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In an n-type semiconductor, the recombination process increases because there are more electrons available to recombine with holes. As electrons are the majority carriers and holes are the minority carriers, the increased electron concentration leads to more frequent electron-hole recombination events. This reduces the hole concentration further, making nh much smaller than ne. | n-வகை குறைகடத்தியில், மறுசேர்க்கை செயல்முறை அதிகரிக்கிறது, ஏனெனில் துளைகளுடன் மறுசேர்க்கை செய்ய அதிக எலக்ட்ரான்கள் கிடைக்கின்றன. எலக்ட்ரான்கள் பெரும்பான்மை கடத்திகளாகவும், துளைகள் சிறுபான்மை கடத்திகளாகவும் இருப்பதால், அதிகரித்த எலக்ட்ரான் செறிவு அதிகமான எலக்ட்ரான்-துளை மறுசேர்க்கை நிகழ்வுகளுக்கு வழிவகுக்கிறது. இது துளை செறிவை மேலும் குறைக்கிறது, nh ஐ ne விட மிகக் குறைவாக ஆக்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si அல்லது Ge-ஐ Al, B, In போன்ற மூன்று வேலன்சி மாசுகளால் மாசுபடுத்தும் போது எந்த வகை கடத்தி கிடைக்கிறது?",
+      "options": [
+        "n-type கடத்தி",
+        "p-type கடத்தி",
+        "உள்ளார்ந்த கடத்தி",
+        "சேர்ம கடத்தி"
+      ],
+      "correct": 1,
+      "explanation": "When Si or Ge is doped with a trivalent impurity (valency 3) like Aluminium, Boron, or Indium, a p-type semiconductor is obtained. The trivalent atom has one valence electron less than Si or Ge, creating a vacancy or hole that is available for conduction. | Si அல்லது Ge-ஐ மூன்று வேலன்சி மாசுகள் (Al, B, In) மூலம் மாசுபடுத்தும் போது p-type கடத்தி கிடைக்கிறது. மூன்று வேலன்சி மாசு Si/Ge-வை விட ஒரு எலக்ட்ரான் குறைவாகக் கொண்டிருப்பதால், ஒரு காலி இடம் (hole) உருவாகி கடத்தலுக்கு உதவுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-type கடத்தியில் பெரும்பான்மை காரியர்கள் எவை?",
+      "options": [
+        "எலக்ட்ரான்கள்",
+        "புரோட்டான்கள்",
+        "holes",
+        "நியூட்ரான்கள்"
+      ],
+      "correct": 2,
+      "explanation": "In p-type semiconductors, holes are the majority carriers and electrons are the minority carriers. The trivalent impurity creates holes that become the dominant charge carriers. | p-type கடத்திகளில் holes பெரும்பான்மை காரியர்களாகவும், எலக்ட்ரான்கள் சிறுபான்மை காரியர்களாகவும் உள்ளன. மூன்று வேலன்சி மாசுகள் உருவாக்கும் holes ஆதிக்கம் செலுத்தும் மின்னேற்றக் காரியர்கள் ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-type கடத்தியில் சிறுபான்மை காரியர்கள் எவை?",
+      "options": [
+        "holes",
+        "எலக்ட்ரான்கள்",
+        "அயனிகள்",
+        "அணுக்கள்"
+      ],
+      "correct": 1,
+      "explanation": "In p-type semiconductors, electrons are the minority carriers. The source of conduction electrons is only intrinsic generation, while holes are contributed by both the dopant and intrinsic generation. | p-type கடத்திகளில் எலக்ட்ரான்கள் சிறுபான்மை காரியர்களாகும். கடத்தல் எலக்ட்ரான்களின் மூலம் உள்ளார்ந்த உருவாக்கம் மட்டுமே, அதேசமயம் holes மாசு மற்றும் உள்ளார்ந்த உருவாக்கம் இரண்டாலும் வருகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si அல்லது Ge-இல் மூன்று வேலன்சி அணு மாசுபடுத்தப்படும்போது, நான்காவது அண்டை Si அணுவுடன் என்ன நிகழ்கிறது?",
+      "options": [
+        "நான்கு எலக்ட்ரான்களுடன் முழு கோவலன்ட் பிணைப்பு உருவாகிறது",
+        "காலி இடம் அல்லது hole-உடன் கோவலன்ட் பிணைப்பு உருவாகிறது",
+        "கடத்தல் பட்டைக்கு கூடுதல் எலக்ட்ரான் வழங்கப்படுகிறது",
+        "அது donor அணுவாக மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The trivalent dopant can form covalent bonds with only three neighbouring Si atoms. The bond with the fourth neighbour has a vacancy or hole because the trivalent atom has no electron to offer. | மூன்று வேலன்சி மாசு Si அணுக்களுடன் மூன்று கோவலன்ட் பிணைப்புகள் மட்டுமே உருவாக்க முடியும். நான்காவது அண்டை அணுவுடன் எலக்ட்ரான் இல்லாததால் ஒரு காலி இடம் (hole) உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-type பொருளில், மூன்று வேலன்சி அயல் அணு நான்காவது எலக்ட்ரானை அண்டை Si அணுவுடன் பகிர்ந்து கொள்ளும்போது, அது எந்த மின்னேற்றத்தைப் பெறுகிறது?",
+      "options": [
+        "நேர்மறை மின்னேற்றம்",
+        "எதிர்மறை மின்னேற்றம்",
+        "நடுநிலை மின்னேற்றம்",
+        "மின்னேற்ற மாற்றம் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "The trivalent foreign atom becomes effectively negatively charged when it shares a fourth electron with a neighbouring Si atom. It can be treated as a core of one negative charge along with its associated hole. | p-type பொருளில், மூன்று வேலன்சி அணு நான்காவது எலக்ட்ரானை அண்டை Si அணுவுடன் பகிர்ந்து கொள்ளும்போது, அது எதிர்மறை மின்னேற்றம் பெறுகிறது. இது ஒரு எதிர்மறை மின்னேற்றத்துடன் தொடர்புடைய hole-உடன் கருதப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெப்பநிலை சமநிலையில் கடத்தியின் எலக்ட்ரான் மற்றும் hole செறிவுகளுக்கு இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "n_e + n_h = n_i^2",
+        "n_e * n_h = n_i^2",
+        "n_e / n_h = n_i^2",
+        "n_e - n_h = n_i^2"
+      ],
+      "correct": 1,
+      "explanation": "The electron and hole concentration in a semiconductor in thermal equilibrium is given by n_e * n_h = n_i^2, where n_i is the intrinsic carrier concentration. This is the law of mass action for semiconductors. | வெப்பநிலை சமநிலையில் கடத்தியின் எலக்ட்ரான் மற்றும் hole செறிவுகளுக்கு n_e * n_h = n_i^2 என்ற தொடர்பு உள்ளது. இங்கு n_i உள்ளார்ந்த காரியர் செறிவாகும். இது கடத்திகளின் பொருள் வினைச் சட்டமாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கார்பனின் (வைரம்) ஆற்றல் இடைவெளி என்ன?",
+      "options": [
+        "0 eV",
+        "0.7 eV",
+        "1.1 eV",
+        "5.4 eV"
+      ],
+      "correct": 3,
+      "explanation": "The energy gap of Carbon (diamond) is 5.4 eV, which is very large. This makes carbon an insulator because electrons cannot easily jump from the valence band to the conduction band. | கார்பனின் (வைரம்) ஆற்றல் இடைவெளி 5.4 eV ஆகும், இது மிகப் பெரியது. இதனால் எலக்ட்ரான்கள் வேலன்ஸ் பட்டையிலிருந்து கடத்தல் பட்டைக்கு எளிதாகத் தாவ முடியாது, எனவே கார்பன் காப்புப்பொருளாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிகானின் ஆற்றல் இடைவெளி என்ன?",
+      "options": [
+        "0 eV",
+        "0.7 eV",
+        "1.1 eV",
+        "5.4 eV"
+      ],
+      "correct": 2,
+      "explanation": "The energy gap of Silicon is 1.1 eV. This moderate energy gap allows some electrons to be thermally excited from the valence band to the conduction band at room temperature, making Si a semiconductor. | சிலிகானின் ஆற்றல் இடைவெளி 1.1 eV ஆகும். இந்த மிதமான ஆற்றல் இடைவெளி அறை வெப்பநிலையில் சில எலக்ட்ரான்களை வேலன்ஸ் பட்டையிலிருந்து கடத்தல் பட்டைக்கு வெப்ப முறையில் தூண்ட அனுமதிக்கிறது, இதனால் Si ஒரு கடத்தியாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஜெர்மேனியத்தின் ஆற்றல் இடைவெளி என்ன?",
+      "options": [
+        "0 eV",
+        "0.7 eV",
+        "1.1 eV",
+        "5.4 eV"
+      ],
+      "correct": 1,
+      "explanation": "The energy gap of Germanium is 0.7 eV. This smaller energy gap compared to Si means more electrons are thermally excited at room temperature, giving Ge higher intrinsic conductivity than Si. | ஜெர்மேனியத்தின் ஆற்றல் இடைவெளி 0.7 eV ஆகும். Si-வை விட இந்த சிறிய ஆற்றல் இடைவெளி அறை வெப்பநிலையில் அதிக எலக்ட்ரான்களை வெப்ப முறையில் தூண்டுகிறது, இதனால் Ge-க்கு Si-வை விட அதிக உள்ளார்ந்த கடத்துத்திறன் உள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "IV குழு உறுப்பினரான துத்தநாகம் (Sn) ஏன் ஒரு உலோகமாகும்?",
+      "options": [
+        "அதற்கு மிகப் பெரிய ஆற்றல் இடைவெளி உள்ளது",
+        "அதற்கு 0 eV ஆற்றல் இடைவெளி உள்ளது",
+        "அதற்கு 1.1 eV மிதமான ஆற்றல் இடைவெளி உள்ளது",
+        "அது ஒரு காப்புப்பொருள்"
+      ],
+      "correct": 1,
+      "explanation": "Tin (Sn) is a group IV element but it is a metal because the energy gap in its case is 0 eV. With zero energy gap, the valence and conduction bands overlap, allowing free electron movement like in metals. | துத்தநாகம் (Sn) IV குழு உறுப்பினராக இருந்தாலும், அது ஒரு உலோகமாகும் ஏனெனில் அதன் ஆற்றல் இடைவெளி 0 eV ஆகும். பூஜ்ஜிய ஆற்றல் இடைவெளியில் வேலன்ஸ் மற்றும் கடத்தல் பட்டைகள் மேலொழுங்கு செய்கின்றன, இதனால் உலோகங்களில் போல் எலக்ட்ரான்கள் சுதந்திரமாக நகர முடிகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-type கடத்தியின் ஆற்றல் பட்டை வரைபடத்தில், acceptor ஆற்றல் மட்டம் (E_A) எங்கு அமைந்துள்ளது?",
+      "options": [
+        "கடத்தல் பட்டையின் கீழ் எல்லைக்கு சற்று கீழே",
+        "வேலன்ஸ் பட்டையின் மேல் எல்லைக்கு சற்று மேலே",
+        "பட்டை இடைவெளியின் நடுவில்",
+        "கடத்தல் பட்டைக்குள்"
+      ],
+      "correct": 1,
+      "explanation": "For p-type semiconductor, the acceptor energy level E_A is slightly above the top E_V of the valence band. With very small energy supply, an electron from the valence band can jump to E_A, creating a hole in the valence band. | p-type கடத்தியில், acceptor ஆற்றல் மட்டம் E_A வேலன்ஸ் பட்டையின் மேல் E_V-க்கு மேல் சற்று மேலே அமைந்துள்ளது. மிகச் சிறிய ஆற்றல் வழங்கப்படும்போது, வேலன்ஸ் பட்டையிலிருந்து ஒரு எலக்ட்ரான் E_A-க்குத் தாவி, வேலன்ஸ் பட்டையில் ஒரு hole-ஐ உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "n-type கடத்தியின் ஆற்றல் பட்டை வரைபடத்தில், donor ஆற்றல் மட்டம் (E_D) எங்கு அமைந்துள்ளது?",
+      "options": [
+        "கடத்தல் பட்டையின் கீழ் எல்லைக்கு சற்று கீழே",
+        "வேலன்ஸ் பட்டையின் மேல் எல்லைக்கு சற்று மேலே",
+        "பட்டை இடைவெளியின் நடுவில்",
+        "வேலன்ஸ் பட்டைக்குள்"
+      ],
+      "correct": 0,
+      "explanation": "In n-type Si semiconductor, the donor energy level E_D is slightly below the bottom E_C of the conduction band. Electrons from this level move into the conduction band with very small supply of energy (~0.01 eV for Ge, ~0.05 eV for Si). | n-type Si கடத்தியில், donor ஆற்றல் மட்டம் E_D கடத்தல் பட்டையின் கீழ் E_C-க்கு கீழே சற்று கீழே அமைந்துள்ளது. இந்த மட்டத்திலிருந்து எலக்ட்ரான்கள் மிகச் சிறிய ஆற்றல் (~0.01 eV Ge-க்கு, ~0.05 eV Si-க்கு) கொடுக்கப்படும்போது கடத்தல் பட்டைக்கு நகர்கின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெளிப்புற கடத்தியில் படிகம் மொத்த மின்னேற்ற நடுநிலையை எவ்வாறு பேணுகிறது?",
+      "options": [
+        "holes-வை விட அதிக எலக்ட்ரான்கள் இருப்பதால்",
+        "எலக்ட்ரான்களை விட அதிக holes இருப்பதால்",
+        "கூடுதல் காரியர்களின் மின்னேற்றம் படிகக் கட்டத்தில் அயனியாக்கப்பட்ட மையங்களின் மின்னேற்றத்திற்கு சமமாகவும் எதிராகவும் உள்ளது",
+        "எல்லா மாசுகளையும் அகற்றுவதால்"
+      ],
+      "correct": 2,
+      "explanation": "The crystal maintains overall charge neutrality as the charge of additional charge carriers is just equal and opposite to that of the ionised cores in the lattice. For n-type, positive ionised donors balance extra electrons; for p-type, negative ionised acceptors balance extra holes. | படிகம் மொத்த மின்னேற்ற நடுநிலையை பேணுகிறது, கூடுதல் மின்னேற்றக் காரியர்களின் மின்னேற்றம் படிகக் கட்டத்தில் அயனியாக்கப்பட்ட மையங்களின் மின்னேற்றத்திற்கு சமமாகவும் எதிராகவும் உள்ளது. n-type-க்கு, நேர்மறை அயனியாக்கப்பட்ட donors கூடுதல் எலக்ட்ரான்களை சமநிலைப்படுத்துகின்றன; p-type-க்கு, எதிர்மறை அயனியாக்கப்பட்ட acceptors கூடுதல் holes-ஐ சமநிலைப்படுத்துகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெளிப்புற கடத்தியில் மாசுபடுத்தல் அதிகரிக்கும்போது சிறுபான்மை காரியர்களின் உள்ளார்ந்த செறிவுக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "குறிப்பிடத்தக்களவு அதிகரிக்கிறது",
+        "மாற்றமே இல்லாமல் இருக்கிறது",
+        "பெரும்பான்மை காரியர்களுடன் அதிகரித்த மறுசேர்க்கை காரணமாக குறைகிறது",
+        "பெரும்பான்மை காரியர் செறிவுக்கு சமமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "In extrinsic semiconductors, because of the abundance of majority carriers, minority carriers produced thermally have more chance of meeting majority carriers and getting destroyed through recombination. The dopant indirectly helps reduce the intrinsic concentration of minority carriers. | வெளிப்புற கடத்திகளில், பெரும்பான்மை காரியர்களின் அதிகமானதால், வெப்ப முறையில் உருவாக்கப்படும் சிறுபான்மை காரியர்கள் பெரும்பான்மை காரியர்களைச் சந்தித்து மறுசேர்க்கை மூலம் அழியும் வாய்ப்பு அதிகம். மாசு மறைமுகமாக சிறுபான்மை காரியர்களின் உள்ளார்ந்த செறிவைக் குறைக்க உதவுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-type பொருளின் பொதுவாகப் பயன்படுத்தப்படும் வரைபடக் குறிப்பீட்டில், மாற்று acceptor-ன் நிலையான மையம் எதைக் காட்டுகிறது?",
+      "options": [
+        "ஒரு கூடுதல் பயனுள்ள நேர்மறை மின்னேற்றத்துடன் மற்றும் அதன் தொடர்புடைய எலக்ட்ரான்",
+        "ஒரு கூடுதல் பயனுள்ள எதிர்மறை மின்னேற்றத்துடன் மற்றும் அதன் தொடர்புடைய hole",
+        "கூடுதல் மின்னேற்றம் இல்லை",
+        "நான்கு எலக்ட்ரான்களுடன் நடுநிலை அணு"
+      ],
+      "correct": 1,
+      "explanation": "The commonly used schematic representation of p-type material shows only the fixed core of the substituent acceptor with one effective additional negative charge and its associated hole. This represents the trivalent atom that has accepted an electron, becoming negatively charged. | p-type பொருளின் பொதுவாகப் பயன்படுத்தப்படும் வரைபடக் குறிப்பீட்டில், மாற்று acceptor-ன் நிலையான மையம் ஒரு கூடுதல் எதிர்மறை மின்னேற்றத்துடன் மற்றும் அதன் தொடர்புடைய hole-உடன் காட்டப்படுகிறது. இது ஒரு எலக்ட்ரானை ஏற்றுக்கொண்ட மூன்று வேலன்சி அணுவைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்வருவனவற்றில் ஆற்றல் இடைவெளிகளை மிகப்பெரியதிலிருந்து மிகச் சிறியதற்கு சரியாக வரிசைப்படுத்துவது எது?",
+      "options": [
+        "C > Si > Ge > Sn",
+        "Sn > Ge > Si > C",
+        "Si > Ge > C > Sn",
+        "Ge > Si > C > Sn"
+      ],
+      "correct": 0,
+      "explanation": "The energy gaps are: C (diamond) = 5.4 eV, Si = 1.1 eV, Ge = 0.7 eV, and Sn = 0 eV. Therefore the correct order from largest to smallest is C > Si > Ge > Sn. | ஆற்றல் இடைவெளிகள்: C (வைரம்) = 5.4 eV, Si = 1.1 eV, Ge = 0.7 eV, Sn = 0 eV. எனவே மிகப்பெரியதிலிருந்து மிகச் சிறியதற்கான சரியான வரிசை C > Si > Ge > Sn ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si மற்றும் Ge கடத்திகளாக இருக்கும்போது, கார்பன் (வைரம்) ஏன் காப்புப்பொருளாக உள்ளது?",
+      "options": [
+        "கார்பனுக்கு அதிக வேலன்ஸ் எலக்ட்ரான்கள் உள்ளன",
+        "கார்பனுக்கு மிகப் பெரிய ஆற்றல் இடைவெளி (5.4 eV) உள்ளது, வெப்பத் தூண்டல் நொடிப்பொழுது",
+        "கார்பனின் அணு அளவு சிறியது",
+        "கார்பனுக்கு பூஜ்ஜிய ஆற்றல் இடைவெளி உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "Carbon (diamond) has an energy gap of 5.4 eV, which is much larger than Si (1.1 eV) and Ge (0.7 eV). At room temperature, thermal energy is insufficient to excite electrons across such a large gap, making C an insulator. | கார்பனுக்கு (வைரம்) 5.4 eV ஆற்றல் இடைவெளி உள்ளது, இது Si (1.1 eV) மற்றும் Ge (0.7 eV)-வை விட மிகப் பெரியது. அறை வெப்பநிலையில், வெப்ப ஆற்றல் இவ்வளவு பெரிய இடைவெளியைக் கடக்க எலக்ட்ரான்களைத் தூண்ட போதுமானதாக இல்லை, எனவே C ஒரு காப்புப்பொருளாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-type கடத்தியில், எலக்ட்ரான் ஒரு காலி இடத்தை நிரப்பத் தாவும்போது hole எவ்வாறு நகர்கிறது?",
+      "options": [
+        "எலக்ட்ரானின் திசையிலேயே hole நகர்கிறது",
+        "எலக்ட்ரானின் எதிர் திசையில் hole நகர்கிறது",
+        "hole எப்போதும் நகர்வதில்லை",
+        "hole ஒரு எலக்ட்ரானாக மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When an electron from a neighbouring atom jumps to fill a vacancy (hole), the hole effectively moves to the site from which the electron came. Thus, the hole moves in the opposite direction to the electron movement. | அண்டை அணுவிலிருந்து ஒரு எலக்ட்ரான் காலி இடத்தை (hole) நிரப்பத் தாவும்போது, hole எலக்ட்ரான் வந்த இடத்திற்கு நகர்வது போல் தோன்றுகிறது. எனவே hole எலக்ட்ரான் இயக்கத்திற்கு எதிர் திசையில் நகர்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஐந்து வேலன்சி donor-லிருந்து ஐந்தாவது எலக்ட்ரானை விடுவிக்க தேவையான அயனியாக்க ஆற்றல், உள்ளார்ந்த Si அல்லது Ge-வின் பட்டை இடைவெளி ஆற்றலுடன் ஒப்பிடும்போது எப்படி இருக்கிறது?",
+      "options": [
+        "பட்டை இடைவெளியை விட மிக அதிகம்",
+        "பட்டை இடைவெளிக்கு சுமார் சமம்",
+        "பட்டை இடைவெளியை விட மிகக் குறைவு",
+        "பூஜ்ஜியம்"
+      ],
+      "correct": 2,
+      "explanation": "The ionization energy required to free the fifth electron from a pentavalent donor is very small (~0.01 eV for Ge, ~0.05 eV for Si) compared to the band gap energy (~0.72 eV for Ge, ~1.1 eV for Si). This is because the fifth electron is very weakly bound to its parent atom. | ஐந்து வேலன்சி donor-லிருந்து ஐந்தாவது எலக்ட்ரானை விடுவிக்க தேவையான அயனியாக்க ஆற்றல் (~0.01 eV Ge-க்கு, ~0.05 eV Si-க்கு) பட்டை இடைவெளி ஆற்றலை (~0.72 eV Ge-க்கு, ~1.1 eV Si-க்கு) விட மிகச் சிறியது. ஏனெனில் ஐந்தாவது எலக்ட்ரான் அதன் தாய் அணுவுடன் மிகவும் பலவீனமாகப் பிணைக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அறை வெப்பநிலையில் p-type கடத்தியில் பெரும்பாலான acceptor அணுக்களுக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "அவை நடுநிலையாகவே இருக்கின்றன",
+        "பெரும்பாலும் அயனியாக்கப்பட்டு வேலன்ஸ் பட்டையில் holes-ஐ விடுகின்றன",
+        "அனைத்தும் எலக்ட்ரான்களுடன் மறுசேர்க்கை அடைகின்றன",
+        "அவை கடத்தல் பட்டைக்கு நகர்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "At room temperature, most of the acceptor atoms get ionised. An electron from the valence band jumps to the acceptor level, leaving holes in the valence band. Thus the density of holes in the valence band is predominantly due to impurity. | அறை வெப்பநிலையில், பெரும்பாலான acceptor அணுக்கள் அயனியாக்கப்படுகின்றன. வேலன்ஸ் பட்டையிலிருந்து ஒரு எலக்ட்ரான் acceptor மட்டத்திற்குத் தாவி, வேலன்ஸ் பட்டையில் holes-ஐ விட்டுச் செல்கிறது. எனவே வேலன்ஸ் பட்டையில் holes-ன் அடர்த்தி பெரும்பாலும் மாசுவால் உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "n-type மற்றும் p-type கடத்திகளை உருவாக்க முறையே எந்த குழு மாசுகள் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "III குழு n-type-க்கும் V குழு p-type-க்கும்",
+        "V குழு n-type-க்கும் III குழு p-type-க்கும்",
+        "IV குழு இரண்டு வகைகளுக்கும்",
+        "II குழு இரண்டு வகைகளுக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Pentavalent (Group V) elements like As, Sb, P are used as donors for n-type semiconductors. Trivalent (Group III) elements like B, Al, In are used as acceptors for p-type semiconductors. | n-type கடத்திகளுக்கு As, Sb, P போன்ற ஐந்து வேலன்சி (V குழு) மாசுகள் donor-களாகப் பயன்படுத்தப்படுகின்றன. p-type கடத்திகளுக்கு B, Al, In போன்ற மூன்று வேலன்சி (III குழு) மாசுகள் acceptor-களாகப் பயன்படுத்தப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "C, Si, மற்றும் Ge-இல் அறை வெப்பநிலையில் எந்தப் பொருளுக்கு அதிக உள்ளார்ந்த கடத்துத்திறன் உள்ளது?",
+      "options": [
+        "கார்பன்",
+        "சிலிகான்",
+        "ஜெர்மேனியம்",
+        "அனைத்தும் சமமான கடத்துத்திறன்"
+      ],
+      "correct": 2,
+      "explanation": "Germanium has the smallest energy gap (0.7 eV) among C (5.4 eV), Si (1.1 eV), and Ge (0.7 eV). A smaller energy gap means more electrons are thermally excited to the conduction band at room temperature, resulting in higher intrinsic conductivity. | Ge-க்கு C (5.4 eV), Si (1.1 eV), Ge (0.7 eV) ஆகியவற்றில் மிகச் சிறிய ஆற்றல் இடைவெளி (0.7 eV) உள்ளது. சிறிய ஆற்றல் இடைவெளி அறை வெப்பநிலையில் அதிக எலக்ட்ரான்களை கடத்தல் பட்டைக்கு வெப்ப முறையில் தூண்டுகிறது, இதனால் அதிக உள்ளார்ந்த கடத்துத்திறன் கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஐந்து வேலன்சி மாசுவால் மாசுபடுத்தப்பட்ட n-type கடத்தியில், எலக்ட்ரான் மற்றும் hole செறிவுகளுக்கு இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "n_e = n_h",
+        "n_e >> n_h",
+        "n_h >> n_e",
+        "n_e = 0"
+      ],
+      "correct": 1,
+      "explanation": "In an n-type semiconductor doped with pentavalent impurity, electrons become the majority carriers and holes become the minority carriers. Therefore, n_e >> n_h. The number of conduction electrons is much larger than the number of holes. | ஐந்து வேலன்சி மாசுவால் மாசுபடுத்தப்பட்ட n-type கடத்தியில், எலக்ட்ரான்கள் பெரும்பான்மை காரியர்களாகவும் holes சிறுபான்மை காரியர்களாகவும் மாறுகின்றன. எனவே n_e >> n_h. கடத்தல் எலக்ட்ரான்களின் எண்ணிக்கை holes-ன் எண்ணிக்கையை விட மிக அதிகம்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கடத்தியில் hole-ன் பயனுள்ள மின்னேற்றம் என்ன?",
+      "options": [
+        "எதிர்மறை மின்னேற்றம் (-q)",
+        "நேர்மறை மின்னேற்றம் (+q)",
+        "நடுநிலை மின்னேற்றம் (0)",
+        "மாறக்கூடிய மின்னேற்றம்"
+      ],
+      "correct": 1,
+      "explanation": "A hole is the vacancy left when an electron is removed from a covalent bond. It behaves as an apparent free particle with effective positive charge (+q). The neighbourhood from which the free electron has come out leaves a vacancy with an effective charge (+q). | hole என்பது கோவலன்ட் பிணைப்பிலிருந்து எலக்ட்ரான் அகற்றப்பட்டபோது உருவாகும் காலி இடம். இது +q என்ற பயனுள்ள நேர்மறை மின்னேற்றத்துடன் ஒரு தோற்ற கட்டுருவாக நடந்து கொள்கிறது. எலக்ட்ரான் வெளியேறிய இடம் +q என்ற பயனுள்ள மின்னேற்றத்துடன் ஒரு காலி இடத்தை விட்டுச் செல்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரைக்கடத்தி இருமுனையம் அடிப்படையில் என்னவாகும்?",
+      "options": [
+        "ஒரே அரைக்கடத்தி துண்டு",
+        "இரு முனைகளிலும் உலோக தொடர்புகள் கொண்ட p-n சந்தி",
+        "இரு முனைகள் கொண்ட வெற்றிடக் குழாய்",
+        "அரைக்கடத்தி பூச்சு கொண்ட மின்தடையி"
+      ],
+      "correct": 1,
+      "explanation": "A semiconductor diode is basically a p-n junction with metallic contacts provided at the ends for the application of an external voltage. It is a two terminal device. | அரைக்கடத்தி இருமுனையம் என்பது அடிப்படையில் p-n சந்தியாகும், இதன் இரு முனைகளிலும் வெளிப்புற மின்னழுத்தத்தைப் பயன்படுத்துவதற்காக உலோக தொடர்புகள் வழங்கப்படுகின்றன. இது இரு முனைக் கருவியாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி இருமுனையத்தில் எத்தனை முனைகள் உள்ளன?",
+      "options": [
+        "ஒரு முனை",
+        "இரு முனைகள்",
+        "மூன்று முனைகள்",
+        "நான்கு முனைகள்"
+      ],
+      "correct": 1,
+      "explanation": "A p-n junction diode is a two terminal device with p-side and n-side as the two terminals. | p-n சந்தி இருமுனையம் என்பது இரு முனைக் கருவியாகும், p-பக்கம் மற்றும் n-பக்கம் என இரண்டு முனைகள் கொண்டது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி இருமுனைய சின்னத்தில் அம்புக்குறியின் திசை எதைக் குறிக்கிறது?",
+      "options": [
+        "எலக்ட்ரான் பாய்வின் திசை",
+        "முன்னோக்கு சார்பில் மின்னோட்டத்தின் பாரம்பரிய திசை",
+        "மின்புலத்தின் திசை",
+        "காந்தப்புலத்தின் திசை"
+      ],
+      "correct": 1,
+      "explanation": "The direction of arrow in the diode symbol indicates the conventional direction of current when the diode is under forward bias. | இருமுனைய சின்னத்தில் அம்புக்குறியின் திசை, இருமுனையம் முன்னோக்கு சார்பில் இருக்கும்போது மின்னோட்டத்தின் பாரம்பரிய திசையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சார்பில் p-n சந்தி இருமுனையத்தின் எந்தப் பக்கம் மின்கலத்தின் நேர் முனையுடன் இணைக்கப்படுகிறது?",
+      "options": [
+        "n-பக்கம்",
+        "p-பக்கம்",
+        "இரு பக்கங்களும் சமமாக",
+        "எந்தப் பக்கமும் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "When forward biased, the p-side is connected to the positive terminal of the battery and n-side to the negative terminal. | முன்னோக்கு சார்பில், p-பக்கம் மின்கலத்தின் நேர் முனையுடனும், n-பக்கம் எதிர் முனையுடனும் இணைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சார்பில் பயன்படுத்தப்பட்ட மின்னழுத்தத்தின் பெரும்பாலான வீழ்ச்சி எங்கு ஏற்படுகிறது?",
+      "options": [
+        "p-பக்கத்தில் மட்டும்",
+        "n-பக்கத்தில் மட்டும்",
+        "வற்றிப்பகுதியில்",
+        "உலோக தொடர்புகளில்"
+      ],
+      "correct": 2,
+      "explanation": "The applied voltage mostly drops across the depletion region because the resistance of the depletion region is very high compared to the resistance of n-side and p-side. | முன்னோக்கு சார்பில், பயன்படுத்தப்பட்ட மின்னழுத்தத்தின் பெரும்பாலான வீழ்ச்சி வற்றிப்பகுதியில் ஏற்படுகிறது, ஏனெனில் வற்றிப்பகுதியின் மின்தடை n-பக்கம் மற்றும் p-பக்கத்தின் மின்தடையை விட மிக அதிகமாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சார்பு பயன்படுத்தப்படும்போது வற்றிப்பகுதியின் அகலம் என்ன ஆகிறது?",
+      "options": [
+        "அதிகரிக்கிறது",
+        "குறைகிறது",
+        "மாறாமல் இருக்கிறது",
+        "சுழியமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Under forward bias, the depletion layer width decreases and the barrier height is reduced because the applied voltage opposes the built-in potential. | முன்னோக்கு சார்பில், வற்றிப்பகுதியின் அகலம் குறைகிறது மற்றும் தடை உயரம் குறைகிறது, ஏனெனில் பயன்படுத்தப்பட்ட மின்னழுத்தம் உள்ளமைக்கப்பட்ட மின்னழுத்தத்திற்கு எதிராக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சார்பில் திறன்மிகு தடை உயரம் என்ன?",
+      "options": [
+        "V0 + V",
+        "V0 - V",
+        "V0 மட்டும்",
+        "V மட்டும்"
+      ],
+      "correct": 1,
+      "explanation": "The effective barrier height under forward bias is (V0 - V), where V0 is the built-in potential and V is the applied voltage. | முன்னோக்கு சார்பில் திறன்மிகு தடை உயரம் (V0 - V) ஆகும், இங்கு V0 என்பது உள்ளமைக்கப்பட்ட மின்னழுத்தம் மற்றும் V என்பது பயன்படுத்தப்பட்ட மின்னழுத்தம்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சார்பில் n-பக்கத்திலிருந்து எலக்ட்ரான்கள் வற்றிப்பகுதியைக் கடந்து p-பக்கத்தை அடையும் செயல்முறை என்ன என்று அழைக்கப்படுகிறது?",
+      "options": [
+        "பெரும்பான்மை ஊர்தி ஊட்டல்",
+        "சிறுபான்மை ஊர்தி ஊட்டல்",
+        "விரவல் மின்னோட்டம்",
+        "இயக்க மின்னோட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "Under forward bias, electrons from n-side cross the depletion region and reach p-side where they are minority carriers. This process is called minority carrier injection. | முன்னோக்கு சார்பில், n-பக்கத்திலிருந்து எலக்ட்ரான்கள் வற்றிப்பகுதியைக் கடந்து p-பக்கத்தை அடைகின்றன, அங்கு அவை சிறுபான்மை ஊர்திகளாகும். இந்த செயல்முறை சிறுபான்மை ஊர்தி ஊட்டல் எனப்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்னோக்கு சார்பில் மின்கலத்தின் நேர் முனையுடன் எந்தப் பக்கம் இணைக்கப்படுகிறது?",
+      "options": [
+        "p-பக்கம்",
+        "n-பக்கம்",
+        "இரு பக்கங்களும்",
+        "எந்தப் பக்கமும் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "Under reverse bias, the n-side is connected to the positive terminal and p-side to the negative terminal of the battery. | பின்னோக்கு சார்பில், n-பக்கம் மின்கலத்தின் நேர் முனையுடனும், p-பக்கம் எதிர் முனையுடனும் இணைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்னோக்கு சார்பில் தடை உயரம் என்ன ஆகிறது?",
+      "options": [
+        "குறைகிறது",
+        "அதிகரிக்கிறது",
+        "அப்படியே இருக்கிறது",
+        "சுழியமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Under reverse bias, the barrier height increases and the depletion region widens because the applied voltage is in the same direction as the barrier potential. | பின்னோக்கு சார்பில், தடை உயரம் அதிகரிக்கிறது மற்றும் வற்றிப்பகுதி விரிவடைகிறது, ஏனெனில் பயன்படுத்தப்பட்ட மின்னழுத்தம் தடை மின்னழுத்தத்தின் அதே திசையில் உள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்னோக்கு சார்பில் திறன்மிகு தடை உயரம் என்ன?",
+      "options": [
+        "V0 - V",
+        "V0 + V",
+        "V0 மட்டும்",
+        "V மட்டும்"
+      ],
+      "correct": 1,
+      "explanation": "The effective barrier height under reverse bias is (V0 + V), where V0 is the built-in potential and V is the applied voltage. | பின்னோக்கு சார்பில் திறன்மிகு தடை உயரம் (V0 + V) ஆகும், இங்கு V0 என்பது உள்ளமைக்கப்பட்ட மின்னழுத்தம் மற்றும் V என்பது பயன்படுத்தப்பட்ட மின்னழுத்தம்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்னோக்கு சார்பில் இயக்க மின்னோட்டத்தின் அளவு எந்த வரிசையில் இருக்கும்?",
+      "options": [
+        "மில்லியம்பியர்கள் (mA)",
+        "மைக்ரோ ஆம்பியர்கள் (μA)",
+        "ஆம்பியர்கள் (A)",
+        "நானோ ஆம்பியர்கள் (nA)"
+      ],
+      "correct": 1,
+      "explanation": "The drift current under reverse bias is of the order of a few microamperes (μA) because it is due to the motion of minority carriers. | பின்னோக்கு சார்பில் இயக்க மின்னோட்டம் சில மைக்ரோ ஆம்பியர்கள் (μA) அளவில் இருக்கும், ஏனெனில் இது சிறுபான்மை ஊர்திகளின் இயக்கத்தால் ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்னோக்கு சார்பில் இருமுனையத்தின் மின்னோட்டம் கடுமையாக அதிகரிக்கும் மாறுபாட்டு மின்னழுத்தம் என்ன அழைக்கப்படுகிறது?",
+      "options": [
+        "திறப்பு மின்னழுத்தம்",
+        "வெட்டு-உள் மின்னழுத்தம்",
+        "முறிவு மின்னழுத்தம்",
+        "தடை மின்னழுத்தம்"
+      ],
+      "correct": 2,
+      "explanation": "The breakdown voltage (Vbr) is the critical reverse bias voltage at which the diode reverse current increases sharply. | முறிவு மின்னழுத்தம் (Vbr) என்பது பின்னோக்கு சார்பில் இருமுனையத்தின் மின்னோட்டம் கடுமையாக அதிகரிக்கும் மாறுபாட்டு மின்னழுத்தமாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிகான் இருமுனையத்தின் திறப்பு மின்னழுத்தம் சுமார் எவ்வளவு?",
+      "options": [
+        "0.2 V",
+        "0.7 V",
+        "1.0 V",
+        "0.5 V"
+      ],
+      "correct": 1,
+      "explanation": "The threshold voltage or cut-in voltage is approximately 0.7 V for a silicon diode and 0.2 V for a germanium diode. | திறப்பு மின்னழுத்தம் அல்லது வெட்டு-உள் மின்னழுத்தம் சிலிகான் இருமுனையத்திற்கு சுமார் 0.7 V மற்றும் ஜெர்மேனியம் இருமுனையத்திற்கு 0.2 V ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "இருமுனையத்தின் இயக்க மின்தடை எவ்வாறு வரையறுக்கப்படுகிறது?",
+      "options": [
+        "மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையேயான விகிதம் (V/I)",
+        "மின்னழுத்தத்தின் சிறிய மாற்றத்திற்கும் மின்னோட்டத்தின் சிறிய மாற்றத்திற்கும் இடையேயான விகிதம் (ΔV/ΔI)",
+        "மின்னழுத்தம் மற்றும் மின்னோட்டத்தின் பெருக்கல் (V×I)",
+        "மின்னழுத்தம் மற்றும் மின்னோட்டத்திற்கும் இடையேயான வித்தியாசம் (V-I)"
+      ],
+      "correct": 1,
+      "explanation": "Dynamic resistance is defined as the ratio of small change in voltage ΔV to a small change in current ΔI: rd = ΔV/ΔI. | இயக்க மின்தடை என்பது மின்னழுத்தத்தின் சிறிய மாற்றம் ΔV-க்கும் மின்னோட்டத்தின் சிறிய மாற்றம் ΔI-க்கும் இடையேயான விகிதமாக வரையறுக்கப்படுகிறது: rd = ΔV/ΔI."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சாய்வில் p-n சந்தி டையோடின் V-I பண்புகளைக் கண்டறியும் சுற்றுப்படத்தில், டையோடுடன் தொடர்ச்சியாக இணைக்கப்படும் கருவி எது?",
+      "options": [
+        "வோல்ட்மீட்டர்",
+        "மில்லி அம்மீட்டர்",
+        "மைக்ரோ அம்மீட்டர்",
+        "கெல்வனோமீட்டர்"
+      ],
+      "correct": 1,
+      "explanation": "A milliammeter is used in forward bias because the expected current is large (in mA range). A microammeter is used in reverse bias where current is very small. | முன்னோக்கு சாய்வில் மின்னோட்டம் மில்லி ஆம்பியர் அளவில் அதிகமாக இருப்பதால் மில்லி அம்மீட்டர் பயன்படுத்தப்படுகிறது. பின்னோக்கு சாய்வில் மின்னோட்டம் மிகக் குறைவாக இருப்பதால் மைக்ரோ அம்மீட்டர் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிகான் டையோடின் தோராயமான தொடக்க மின்னழுத்தம் (cut-in voltage) என்ன?",
+      "options": [
+        "0.2 V",
+        "0.3 V",
+        "0.7 V",
+        "1.0 V"
+      ],
+      "correct": 2,
+      "explanation": "The threshold voltage or cut-in voltage is approximately 0.7 V for silicon diode and approximately 0.2 V for germanium diode. | சிலிகான் டையோடின் தொடக்க மின்னழுத்தம் சுமார் 0.7 V ஆகும். ஜெர்மேனியம் டையோடுக்கு இது சுமார் 0.2 V ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடு பின்னோக்கு சாய்வில் உடைப்புக்கு முன்பு, பின்னோக்கு மின்னோட்டத்தின் தன்மை என்ன?",
+      "options": [
+        "மின்னழுத்தத்துடன் விரைவாக வளர்கிறது",
+        "மிகக் குறைவாகவும் மின்னழுத்த மாற்றத்துடன் கிட்டத்தட்ட நிலையாகவும் இருக்கிறது",
+        "மின்னழுத்தத்துடன் நேரியலாகக் குறைகிறது",
+        "உடனடியாக பூஜ்யமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In reverse bias, the current is very small (microamperes) and almost remains constant with change in bias. This is called reverse saturation current. It is not limited by applied voltage but by minority carrier concentration. | பின்னோக்கு சாய்வில் மின்னோட்டம் மிகக் குறைவாகவும் (மைக்ரோ ஆம்பியர்) மின்னழுத்த மாற்றத்துடன் கிட்டத்தட்ட நிலையாகவும் இருக்கும். இது பின்னோக்கு நிறைவு மின்னோட்டம் எனப்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டையோடின் இயக்க மின்தடையம் (dynamic resistance) எதன் விகிதமாக வரையறுக்கப்படுகிறது?",
+      "options": [
+        "மொத்த மின்னழுத்தத்திற்கும் மொத்த மின்னோட்டத்திற்கும் இடையே",
+        "மின்னழுத்தத்தின் சிறிய மாற்றத்திற்கும் மின்னோட்டத்தின் சிறிய மாற்றத்திற்கும் இடையே",
+        "அதிகபட்ச மின்னழுத்தத்திற்கும் அதிகபட்ச மின்னோட்டத்திற்கும் இடையே",
+        "பின்னோக்கு மின்னழுத்தத்திற்கும் பின்னோக்கு மின்னோட்டத்திற்கும் இடையே"
+      ],
+      "correct": 1,
+      "explanation": "Dynamic resistance is defined as rd = delta V / delta I, which is the ratio of small change in voltage to a small change in current. This is different from static resistance which is V/I. | இயக்க மின்தடையம் rd = ΔV / ΔI என வரையறுக்கப்படுகிறது. இது மின்னழுத்தத்தின் சிறிய மாற்றத்திற்கும் மின்னோட்டத்தின் சிறிய மாற்றத்திற்கும் இடையேயான விகிதமாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டையோடின் பின்னோக்கு சாய்வு மின்னழுத்தம் உடைப்பு மின்னழுத்தத்தை (Vbr) மீறும்போது என்ன நடக்கிறது?",
+      "options": [
+        "டையோடு முற்றிலும் கடத்தாதாகிறது",
+        "பின்னோக்கு மின்னோட்டம் திடீரென அதிகரித்து டையோடு சேதமடையலாம்",
+        "டையோடு பின்னோக்கு திசையில் சாதாரணமாகக் கடத்தத் தொடங்குகிறது",
+        "தடைய மின்னழுத்தம் பூஜ்யமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When reverse bias equals breakdown voltage, the reverse current increases sharply. Even a slight increase in bias causes large current change. If not limited externally, the diode gets destroyed due to overheating. | பின்னோக்கு சாய்வு உடைப்பு மின்னழுத்தத்தை அடையும்போது, பின்னோக்கு மின்னோட்டம் திடீரென அதிகரிக்கிறது. வெளிப்புறமாக கட்டுப்படுத்தப்படாவிட்டால், அதிகச் சூட்டால் டையோடு சேதமடையும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சாய்வில், பயன்படுத்தப்படும் மின்னழுத்தம் தொடக்க மின்னழுத்தத்தைக் கடந்ததும் டையோடு மின்னோட்டம் எவ்வாறு நடத்தைக் காட்டுகிறது?",
+      "options": [
+        "நிலையாக இருக்கிறது",
+        "நேரியலாகக் குறைகிறது",
+        "மிகச் சிறிய மின்னழுத்த அதிகரிப்புக்கும் குறிப்பிடத்தக்க அளவில் (விரைவாக) அதிகரிக்கிறது",
+        "பூஜ்யமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "After the threshold voltage, the diode current increases significantly (exponentially) even for a very small increase in the diode bias voltage. This is the conducting region of the diode. | தொடக்க மின்னழுத்தத்தைக் கடந்த பிறகு, மிகச் சிறிய மின்னழுத்த அதிகரிப்புக்கும் டையோடு மின்னோட்டம் குறிப்பிடத்தக்க அளவில் (விரைவு வளர்ச்சியாக) அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "முன்னோக்கு சாய்வு அளவீட்டில் மில்லி அம்மீட்டரும், பின்னோக்கு சாய்வு அளவீட்டில் மைக்ரோ அம்மீட்டரும் ஏன் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "முன்னோக்கு சாய்வு மின்னழுத்தம் பின்னோக்கு சாய்வு மின்னழுத்தத்தை விட அதிகமாக இருப்பதால்",
+        "முன்னோக்கு சாய்வு மின்னோட்டம் மில்லி ஆம்பியர் அளவிலும், பின்னோக்கு சாய்வு மின்னோட்டம் மைக்ரோ ஆம்பியர் அளவிலும் இருப்பதால்",
+        "முன்னோக்கு சாய்வில் டையோடு மின்தடையம் அதிகமாக இருப்பதால்",
+        "இரண்டு வழக்குகளிலும் மின்கல மின்னழுத்தம் வேறுபடுவதால்"
+      ],
+      "correct": 1,
+      "explanation": "In forward bias, the current is usually in mA range due to majority carrier injection, so a milliammeter is used. In reverse bias, current is very small (microA range) due to minority carriers only, so a microammeter is used. | முன்னோக்கு சாய்வில் பெரும்பான்மை ஊர்திகள் செலுத்தப்படுவதால் மின்னோட்டம் மில்லி ஆம்பியர் அளவில் இருக்கிறது. பின்னோக்கு சாய்வில் சிறுபான்மை ஊர்திகள் மட்டுமே இருப்பதால் மின்னோட்டம் மிகக் குறைவாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-n சந்தி டையோடு முன்னோக்கு சாய்வில் இருக்கும்போது, விளைவாக தடைய உயரம் என்னவாகிறது?",
+      "options": [
+        "(V0 + V) ஆக அதிகரிக்கிறது",
+        "(V0 - V) ஆகக் குறைகிறது",
+        "V0 இல் மாறாமல் இருக்கிறது",
+        "உடனடியாக பூஜ்யமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Under forward bias, the applied voltage V opposes the built-in potential V0. The effective barrier height becomes (V0 - V), which reduces the depletion width and allows current flow. | முன்னோக்கு சாய்வில், பயன்படுத்தப்படும் மின்னழுத்தம் V உள்ளமைந்த மின்னழுத்தம் V0 ஐ எதிர்க்கிறது. விளைவாக தடைய உயரம் (V0 - V) ஆகக் குறைகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "V-I பண்புகளைக் கண்டறிய பின்னோக்கு சாய்வு சுற்றில், மின்கலம் எவ்வாறு இணைக்கப்படுகிறது?",
+      "options": [
+        "நேர் முனையை p-பக்கத்திற்கும், எதிர் முனையை n-பக்கத்திற்கும்",
+        "எதிர் முனையை p-பக்கத்திற்கும், நேர் முனையை n-பக்கத்திற்கும்",
+        "இரண்டு முனைகளையும் p-பக்கத்திற்கு",
+        "இரண்டு முனைகளையும் n-பக்கத்திற்கு"
+      ],
+      "correct": 1,
+      "explanation": "In reverse bias, the n-side is connected to the positive terminal of the battery and the p-side is connected to the negative terminal. This increases the barrier potential. | பின்னோக்கு சாய்வில், n-பக்கம் மின்கலத்தின் நேர் முனையுடனும், p-பக்கம் எதிர் முனையுடனும் இணைக்கப்படுகிறது. இது தடைய மின்னழுத்தத்தை அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "எடுத்துக்காட்டு 14.4-இல், ID = 15 mA இல் சிலிகான் டையோடின் முன்னோக்கு மின்தடையம் தோராயமாகக் கணக்கிடப்படுகிறது:",
+      "options": [
+        "5 ஓம்",
+        "10 ஓம்",
+        "15 ஓம்",
+        "20 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Using the linear approximation between I=10mA (V=0.7V) and I=20mA (V=0.8V), the dynamic resistance is calculated as delta V / delta I = 0.1V / 10mA = 10 ohm. | I=10mA (V=0.7V) மற்றும் I=20mA (V=0.8V) இடையே நேர்கோட்டு மதிப்பீட்டைப் பயன்படுத்தி, இயக்க மின்தடையம் ΔV / ΔI = 0.1V / 10mA = 10 ஓம் என கணக்கிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-வகை அரைகடத்தியில், ஏற்பி ஆற்றல் மட்டம் E_A எங்கு அமைந்துள்ளது?",
+      "options": [
+        "மதிப்புக்குழுவிற்கு சற்று கீழே",
+        "மதிப்புக்குழு மேல் எல்லை E_V-க்கு சற்று மேலே",
+        "பட்டை இடைவெளியின் நடுவில்",
+        "கடத்திப் பட்டைக்கு சற்று கீழே"
+      ],
+      "correct": 1,
+      "explanation": "In p-type semiconductors, the acceptor energy level E_A is located slightly above the top of the valence band E_V. With very small energy supply, an electron from the valence band can jump to level E_A, ionizing the acceptor negatively. | p-வகை அரைகடத்திகளில், ஏற்பி ஆற்றல் மட்டம் E_A மதிப்புக்குழு மேல் எல்லை E_V-க்கு சற்று மேலே அமைந்துள்ளது. மிகக் குறைந்த ஆற்றல் வழங்கப்படும்போது, மதிப்புக்குழுவிலிருந்து ஒரு எலக்ட்ரான் E_A மட்டத்திற்கு தாவி ஏற்பியை எதிர்மறையாக அயனியாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "p-வகை அரைகடத்தியில், மதிப்புக்குழுவிலிருந்து ஒரு எலக்ட்ரான் ஏற்பி மட்டம் E_A-க்கு தாவும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "கடத்திப் பட்டையில் ஒரு சுதந்திர எலக்ட்ரான் உருவாகிறது",
+        "ஏற்பி நேர்மறையாக அயனியாகிறது",
+        "மதிப்புக்குழுவில் ஒரு துளை உருவாகிறது மற்றும் ஏற்பி எதிர்மறையாக அயனியாகிறது",
+        "பட்டை இடைவெளி ஆற்றல் அதிகரிக்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "When an electron from the valence band jumps to acceptor level E_A, the acceptor gets ionized negatively and a hole is created in the valence band. This hole becomes the majority charge carrier in p-type semiconductors. | மதிப்புக்குழுவிலிருந்து ஒரு எலக்ட்ரான் ஏற்பி மட்டம் E_A-க்கு தாவும்போது, ஏற்பி எதிர்மறையாக அயனியாக்கப்படுகிறது மற்றும் மதிப்புக்குழுவில் ஒரு துளை உருவாகிறது. இந்த துளை p-வகை அரைகடத்திகளில் பெரும்பான்மை மின்னூட்டம் கடத்தியாகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அறை வெப்பநிலையில், p-வகை அரைகடத்தியில் உள்ள ஏற்பி அணுக்களின் நிலை என்ன?",
+      "options": [
+        "பெரும்பாலான ஏற்பி அணுக்கள் நடுநிலையாகவே உள்ளன",
+        "பெரும்பாலான ஏற்பி அணுக்கள் அயனியாக்கப்பட்டு மதிப்புக்குழுவில் துளைகளை விட்டுச் செல்கின்றன",
+        "அனைத்து ஏற்பி அணுக்களும் எலக்ட்ரான்களுடன் மீண்டும் இணைகின்றன",
+        "ஏற்பி அணுக்கள் கடத்திப் பட்டைக்கு நகர்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "At room temperature, most of the acceptor atoms get ionized leaving holes in the valence band. Thus the density of holes in the valence band is predominantly due to impurity in the extrinsic semiconductor. | அறை வெப்பநிலையில், பெரும்பாலான ஏற்பி அணுக்கள் அயனியாக்கப்பட்டு மதிப்புக்குழுவில் துளைகளை விட்டுச் செல்கின்றன. எனவே மதிப்புக்குழுவில் துளைகளின் அடர்த்தி பெரும்பாலும் புற அரைகடத்தியில் உள்ள மாசுவினால் ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெப்ப சமநிலையில் உள்ள அரைகடத்தியில் எலக்ட்ரான் மற்றும் துளை செறிவுகளுக்கு இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "n_e + n_h = n_i",
+        "n_e * n_h = n_i^2",
+        "n_e / n_h = n_i",
+        "n_e - n_h = n_i^2"
+      ],
+      "correct": 1,
+      "explanation": "The electron and hole concentration in a semiconductor in thermal equilibrium is given by n_e * n_h = n_i^2, where n_i is the intrinsic carrier concentration. This is a fundamental relationship valid for all semiconductors. | வெப்ப சமநிலையில் உள்ள அரைகடத்தியில் எலக்ட்ரான் மற்றும் துளை செறிவுகளுக்கு n_e * n_h = n_i^2 என்ற தொடர்பு உள்ளது. இங்கு n_i உள்ளார்ந்த கடத்தி செறிவு ஆகும். இது அனைத்து அரைகடத்திகளுக்கும் பொருந்தும் அடிப்படைத் தொடர்பாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிக்கானின் (Si) ஆற்றல் பட்டை இடைவெளி என்ன?",
+      "options": [
+        "0.7 eV",
+        "1.1 eV",
+        "5.4 eV",
+        "0 eV"
+      ],
+      "correct": 1,
+      "explanation": "The energy band gap of silicon (Si) is 1.1 eV. This value is intermediate between that of insulators (large gap >3 eV) and conductors (zero or overlapping gap), making Si a semiconductor. | சிலிக்கானின் (Si) ஆற்றல் பட்டை இடைவெளி 1.1 eV ஆகும். இந்த மதிப்பு கடத்தாப் பொருட்களுக்கும் (பெரிய இடைவெளி >3 eV) கடத்திகளுக்கும் (பூஜ்ய அல்லது மேலடுக்கு இடைவெளி) இடைப்பட்டதாக இருப்பதால் Si ஒரு அரைகடத்தியாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஜெர்மேனியத்தின் (Ge) ஆற்றல் பட்டை இடைவெளி என்ன?",
+      "options": [
+        "5.4 eV",
+        "1.1 eV",
+        "0.7 eV",
+        "0 eV"
+      ],
+      "correct": 2,
+      "explanation": "The energy band gap of germanium (Ge) is 0.7 eV. Ge has a smaller band gap than Si, which means it requires less energy to excite electrons from the valence band to the conduction band. | ஜெர்மேனியத்தின் (Ge) ஆற்றல் பட்டை இடைவெளி 0.7 eV ஆகும். Si-யை விட Ge-க்கு சிறிய பட்டை இடைவெளி உள்ளது, எனவே மதிப்புக்குழுவிலிருந்து கடத்திப் பட்டைக்கு எலக்ட்ரான்களை உற்சாகப்படுத்த குறைந்த ஆற்றல் போதும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வைர வடிவிலுள்ள கார்பனின் (C) ஆற்றல் பட்டை இடைவெளி என்ன?",
+      "options": [
+        "0.7 eV",
+        "1.1 eV",
+        "5.4 eV",
+        "0 eV"
+      ],
+      "correct": 2,
+      "explanation": "The energy band gap of carbon (diamond) is 5.4 eV. This large band gap (>3 eV) makes diamond an insulator, as electrons cannot be thermally excited across such a large gap at room temperature. | கார்பனின் (வைரம்) ஆற்றல் பட்டை இடைவெளி 5.4 eV ஆகும். இந்த பெரிய பட்டை இடைவெளி (>3 eV) வைரத்தை கடத்தாப் பொருளாக்குகிறது, ஏனெனில் அறை வெப்பநிலையில் இத்தகைய பெரிய இடைவெளியை எலக்ட்ரான்கள் கடக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "IV குழு உறுப்பினரான துத்தநாகம் (Sn) ஏன் ஒரு உலோகமாக வகைப்படுத்தப்படுகிறது?",
+      "options": [
+        "அதன் பட்டை இடைவெளி 5.4 eV",
+        "அதன் பட்டை இடைவெளி 0 eV",
+        "அது ஐந்து இணைதிறன் மாசுகளால் மாசுபடுத்தப்பட்டுள்ளது",
+        "அதன் பட்டை இடைவெளி 1.1 eV"
+      ],
+      "correct": 1,
+      "explanation": "Tin (Sn) is a group IV element but is classified as a metal because its energy band gap is 0 eV. This means the conduction and valence bands overlap, allowing free electron movement like in metals. | துத்தநாகம் (Sn) IV குழு உறுப்பினராக இருந்தாலும் ஒரு உலோகமாக வகைப்படுத்தப்படுகிறது, ஏனெனில் அதன் ஆற்றல் பட்டை இடைவெளி 0 eV ஆகும். இதனால் கடத்திப் பட்டை மற்றும் மதிப்புக்குழு மேலடுக்கப்படுகின்றன, உலோகங்களைப் போல எலக்ட்ரான்கள் சுதந்திரமாக நகர அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உதாரணம் 14.2-ல், 5 x 10^28 அணுக்கள்/m^3 கொண்ட தூய Si படிகம் 1 ppm As-ஆல் மாசுபடுத்தப்படுகிறது. எலக்ட்ரான் செறிவு n_e எவ்வளவு?",
+      "options": [
+        "1.5 x 10^16 m^-3",
+        "5 x 10^22 m^-3",
+        "4.5 x 10^9 m^-3",
+        "5 x 10^28 m^-3"
+      ],
+      "correct": 1,
+      "explanation": "For 1 ppm doping, N_D = 5 x 10^28 x 10^-6 = 5 x 10^22 m^-3. Since thermally generated electrons (n_i ~ 10^16 m^-3) are negligibly small compared to doped electrons, n_e ≈ N_D = 5 x 10^22 m^-3. | 1 ppm மாசுபடுத்தலுக்கு, N_D = 5 x 10^28 x 10^-6 = 5 x 10^22 m^-3. வெப்ப முறையில் உருவாக்கப்பட்ட எலக்ட்ரான்கள் (n_i ~ 10^16 m^-3) மாசுபடுத்தப்பட்ட எலக்ட்ரான்களை விட மிகக் குறைவாக இருப்பதால், n_e ≈ N_D = 5 x 10^22 m^-3."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உதாரணம் 14.2-ல், 1 ppm As-ஆல் Si மாசுபடுத்தப்பட்ட பிறகு துளை செறிவு n_h எவ்வளவு?",
+      "options": [
+        "5 x 10^22 m^-3",
+        "1.5 x 10^16 m^-3",
+        "4.5 x 10^9 m^-3",
+        "5 x 10^28 m^-3"
+      ],
+      "correct": 2,
+      "explanation": "Using n_e * n_h = n_i^2, we get n_h = n_i^2 / n_e = (2.25 x 10^32) / (5 x 10^22) ≈ 4.5 x 10^9 m^-3. This shows holes become minority carriers in n-type semiconductors. | n_e * n_h = n_i^2 என்பதைப் பயன்படுத்தி, n_h = n_i^2 / n_e = (2.25 x 10^32) / (5 x 10^22) ≈ 4.5 x 10^9 m^-3. இது n-வகை அரைகடத்திகளில் துளைகள் சிறுபான்மை கடத்திகளாக மாறுவதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "T = 0K இல் ஒரு உள்ளார்ந்த குறைக்கடத்தி எவ்வாறு நடத்தைக் காட்டுகிறது?",
+      "options": [
+        "அது ஒரு மீகடத்தி போல செயல்படுகிறது",
+        "அது ஒரு காப்புப்பொருள் போல செயல்படுகிறது",
+        "அது அதிகபட்ச கடத்தும்திறனைக் காட்டுகிறது",
+        "அது ஒரு புறக்கடத்தியாக மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "At T = 0K, an intrinsic semiconductor behaves like an insulator because no thermal energy is available to excite electrons from the valence band to the conduction band. | T = 0K இல், உள்ளார்ந்த குறைக்கடத்தி ஒரு காப்புப்பொருள் போல செயல்படுகிறது, ஏனெனில் மின்னணுக்களை விழைவு பட்டையிலிருந்து கடத்தல் பட்டைக்கு கிளர்வூட்ட தேவையான வெப்ப ஆற்றல் கிடைக்காது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "T > 0K இல் உள்ளார்ந்த குறைக்கடத்தியில் மின்னணுக்களை விழைவு பட்டையிலிருந்து கடத்தல் பட்டைக்கு கிளர்வூட்டும் ஆற்றலின் மூலம் எது?",
+      "options": [
+        "வெளிப்புற மின்புலம்",
+        "வெப்ப ஆற்றல்",
+        "காந்தப்புலம்",
+        "எந்திர அழுத்தம்"
+      ],
+      "correct": 1,
+      "explanation": "At temperatures above absolute zero (T > 0K), thermal energy excites some electrons from the valence band to the conduction band, creating electron-hole pairs. | முழு சுழியத்திற்கு மேலான வெப்பநிலைகளில் (T > 0K), வெப்ப ஆற்றல் சில மின்னணுக்களை விழைவு பட்டையிலிருந்து கடத்தல் பட்டைக்கு கிளர்வூட்டுகிறது, மின்னணு-ஓட்டை இணைகளை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "T > 0K இல் உள்ளார்ந்த குறைக்கடத்தியில் மின்னணுக்கள் கடத்தல் பட்டைக்கு செல்லும்போது விழைவு பட்டையில் எது உருவாகிறது?",
+      "options": [
+        "புரோட்டான்கள்",
+        "நியூட்ரான்கள்",
+        "ஓட்டைகள்",
+        "அயனிகள்"
+      ],
+      "correct": 2,
+      "explanation": "When electrons are thermally excited from the valence band to the conduction band, they leave behind equal numbers of holes (vacant energy levels) in the valence band. | மின்னணுக்கள் விழைவு பட்டையிலிருந்து கடத்தல் பட்டைக்கு வெப்பத்தால் கிளர்வூட்டப்படும்போது, அவை விழைவு பட்டையில் சம எண்ணிக்கையிலான ஓட்டைகளை (காலி ஆற்றல் நிலைகள்) விட்டுச்செல்கின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உதாரணம் 14.1 படி, கார்பன் (C) ஏன் காப்புப்பொருளாகவும் சிலிகான் (Si) மற்றும் ஜெர்மேனியம் (Ge) ஏன் உள்ளார்ந்த குறைக்கடத்திகளாகவும் உள்ளன?",
+      "options": [
+        "கார்பனுக்கு Si மற்றும் Ge-யை விட அதிக விழைவு மின்னணுக்கள் உள்ளன",
+        "மூன்றிலும் கார்பனுக்கு மிக உயர்ந்த அயனியாக்க ஆற்றல் உள்ளது",
+        "கார்பனுக்கு வேறுபட்ட படிக அமைப்பு உள்ளது",
+        "கார்பன் Si மற்றும் Ge-யை விட கனமானது"
+      ],
+      "correct": 1,
+      "explanation": "The 4 bonding electrons of C, Si, and Ge lie in the 2nd, 3rd, and 4th orbits respectively. Carbon has the highest ionization energy (Eg), making it extremely difficult to free electrons for conduction. | C, Si, மற்றும் Ge ஆகியவற்றின் 4 பிணைப்பு மின்னணுக்கள் முறையே 2வது, 3வது, மற்றும் 4வது வட்டணைகளில் உள்ளன. கார்பனுக்கு மிக உயர்ந்த அயனியாக்க ஆற்றல் (Eg) உள்ளது, இதனால் கடத்தலுக்கான மின்னணுக்களை விடுவிப்பது மிகக் கடினம்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கார்பன், சிலிகான், மற்றும் ஜெர்மேனியத்திற்கான அயனியாக்க ஆற்றலின் (Eg) வரிசை உயர்ந்ததிலிருந்து குறைந்ததாக எது?",
+      "options": [
+        "Eg(C) > Eg(Si) > Eg(Ge)",
+        "Eg(Ge) > Eg(Si) > Eg(C)",
+        "Eg(Si) > Eg(C) > Eg(Ge)",
+        "Eg(C) = Eg(Si) = Eg(Ge)"
+      ],
+      "correct": 0,
+      "explanation": "The ionization energy decreases as we go down the group: Carbon has the highest Eg, followed by Silicon, and Germanium has the lowest. This is because the outermost electrons are farther from the nucleus in heavier elements. | குழுவில் கீழே செல்லும்போது அயனியாக்க ஆற்றல் குறைகிறது: கார்பனுக்கு மிக உயர்ந்த Eg உள்ளது, அதைத் தொடர்ந்து சிலிகான், மற்றும் ஜெர்மேனியத்திற்கு மிகக் குறைந்தது. இது கனமான தனிமங்களில் வெளிப்புற மின்னணுக்கள் உட்கருவிலிருந்து வெகுதூரத்தில் இருப்பதால்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பாடநூலின் படம் 14.6(b) இல் எத்தனை வெப்பத்தால் உருவாக்கப்பட்ட மின்னணு-ஓட்டை இணைகள் காட்டப்பட்டுள்ளன?",
+      "options": [
+        "இரண்டு",
+        "மூன்று",
+        "நான்கு",
+        "ஐந்து"
+      ],
+      "correct": 2,
+      "explanation": "Figure 14.6(b) shows four thermally generated electron-hole pairs at T > 0K, represented by filled circles (electrons) in the conduction band and empty circles (holes) in the valence band. | படம் 14.6(b) இல் T > 0K இல் நான்கு வெப்பத்தால் உருவாக்கப்பட்ட மின்னணு-ஓட்டை இணைகள் காட்டப்பட்டுள்ளன, கடத்தல் பட்டையில் நிரப்பப்பட்ட வட்டங்கள் (மின்னணுக்கள்) மற்றும் விழைவு பட்டையில் காலி வட்டங்கள் (ஓட்டைகள்) மூலம் குறிக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "படம் 14.6(b) இல் நிரப்பப்பட்ட வட்டங்கள் எதைக் குறிக்கின்றன?",
+      "options": [
+        "விழைவு பட்டையில் உள்ள ஓட்டைகள்",
+        "கடத்தல் பட்டையில் உள்ள மின்னணுக்கள்",
+        "உட்கருவில் உள்ள புரோட்டான்கள்",
+        "படிகக் கட்டத்தில் உள்ள நியூட்ரான்கள்"
+      ],
+      "correct": 1,
+      "explanation": "In the energy band diagram, filled circles represent electrons that have been thermally excited to the conduction band, while empty circles represent holes left behind in the valence band. | ஆற்றல் பட்டை வரைபடத்தில், நிரப்பப்பட்ட வட்டங்கள் கடத்தல் பட்டைக்கு வெப்பத்தால் கிளர்வூட்டப்பட்ட மின்னணுக்களைக் குறிக்கின்றன, அதேசமயம் காலி வட்டங்கள் விழைவு பட்டையில் விட்டுச்செல்லப்பட்ட ஓட்டைகளைக் குறிக்கின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உள்ளார்ந்த குறைக்கடத்தியின் ஆற்றல் பட்டை வரைபடத்தில் Eg என்ற ஆற்றல் இடைவெளி எதைக் குறிக்கிறது?",
+      "options": [
+        "விழைவு பட்டையின் அகலம்",
+        "விழைவு பட்டையின் மேற்புறத்திற்கும் கடத்தல் பட்டையின் கீழ்ப்பகுதிக்கும் இடையிலான ஆற்றல் வேறுபாடு",
+        "கட்டற்ற மின்னணுக்களின் இயக்க ஆற்றல்",
+        "ஓட்டைகளின் நிலை ஆற்றல்"
+      ],
+      "correct": 1,
+      "explanation": "The energy gap Eg represents the minimum energy required to excite an electron from the top of the valence band (Ev) to the bottom of the conduction band (Ec). | ஆற்றல் இடைவெளி Eg என்பது விழைவு பட்டையின் மேற்புறத்திலிருந்து (Ev) கடத்தல் பட்டையின் கீழ்ப்பகுதிக்கு (Ec) ஒரு மின்னணுவை கிளர்வூட்ட தேவையான குறைந்தபட்ச ஆற்றலைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si மற்றும் Ge-க்கு குறிப்பிடத்தக்க அளவில் கட்டற்ற மின்னணுக்கள் உள்ளன, ஆனால் C-க்கு இல்லை ஏன்?",
+      "options": [
+        "Si மற்றும் Ge-க்கு C-யை விட அதிக விழைவு மின்னணுக்கள் உள்ளன",
+        "Si மற்றும் Ge-யின் அயனியாக்க ஆற்றல் C-யை விட குறைவாகும்",
+        "Si மற்றும் Ge-க்கு வேறுபட்ட படிக அமைப்பு உள்ளது",
+        "Si மற்றும் Ge ஆனவை C-யை விட கனமான அணுக்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Si and Ge have lower ionization energies compared to C, meaning less energy is required to free their valence electrons for conduction. Carbon's high ionization energy makes electron liberation negligible. | Si மற்றும் Ge ஆகியவை C-யை விட குறைந்த அயனியாக்க ஆற்றலைக் கொண்டுள்ளன, அதாவது அவற்றின் விழைவு மின்னணுக்களை கடத்தலுக்காக விடுவிப்பதற்கு குறைந்த ஆற்றல் தேவைப்படுகிறது. கார்பனின் உயர்ந்த அயனியாக்க ஆற்றல் மின்னணு விடுவிப்பை நகர்த்த முடியாததாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உள்ளார்ந்த குறைக்கடத்தியில் வெப்பநிலை அதிகரிக்கும்போது வெப்பத்தால் கிளர்வூட்டப்பட்ட மின்னணுக்களின் எண்ணிக்கை என்ன ஆகிறது?",
+      "options": [
+        "அது அடுக்கு வகையாக குறைகிறது",
+        "அது மாறாமல் இருக்கிறது",
+        "அது அதிகரிக்கிறது",
+        "அது சுழியமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "As temperature increases, more thermal energy becomes available, exciting more electrons from the valence band to the conduction band, thereby increasing the number of free electrons and holes. | வெப்பநிலை அதிகரிக்கும்போது, அதிக வெப்ப ஆற்றல் கிடைக்கிறது, இது விழைவு பட்டையிலிருந்து கடத்தல் பட்டைக்கு அதிக மின்னணுக்களை கிளர்வூட்டுகிறது, இதனால் கட்டற்ற மின்னணுக்கள் மற்றும் ஓட்டைகளின் எண்ணிக்கை அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "0K வெப்பநிலையில் குறைகடத்தியின் மேல் பட்டையான கடத்தல் பட்டையின் நிலை என்ன?",
+      "options": [
+        "முழுமையாக நிரப்பப்பட்டுள்ளது",
+        "முழுமையாக காலியாக உள்ளது",
+        "ஓரளவு நிரப்பப்பட்டுள்ளது",
+        "வேலன்ஸ் பட்டையுடன் ஒன்றன் மேல் ஒன்றாக உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "At 0K, the conduction band is completely empty in a semiconductor. The valence band is completely filled with electrons. This is the characteristic energy band configuration at absolute zero temperature. | 0K-இல், குறைகடத்தியின் கடத்தல் பட்டை முழுமையாக காலியாக உள்ளது. வேலன்ஸ் பட்டை முழுமையாக எலக்ட்ரான்களால் நிரப்பப்பட்டுள்ளது. இது முழுமையான பூஜ்ய வெப்பநிலையில் உள்ள பண்பான ஆற்றல் பட்டை அமைப்பாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஆற்றல் பட்டை இடைவெளி Eg எந்த இரண்டு நிலைகளுக்கு இடையே வரையறுக்கப்படுகிறது?",
+      "options": [
+        "கடத்தல் பட்டையின் மேல் மற்றும் கீழ் நிலைகளுக்கு இடையே",
+        "வேலன்ஸ் பட்டையின் மேல் மற்றும் கடத்தல் பட்டையின் கீழ் நிலைகளுக்கு இடையே",
+        "வேலன்ஸ் பட்டையின் கீழ் மற்றும் கடத்தல் பட்டையின் மேல் நிலைகளுக்கு இடையே",
+        "இரண்டு அண்டு எலக்ட்ரான்களுக்கு இடையே"
+      ],
+      "correct": 1,
+      "explanation": "The energy band gap Eg is defined as the gap between the top of the valence band (Ev) and the bottom of the conduction band (Ec). This gap determines whether a material is a metal, insulator, or semiconductor. | ஆற்றல் பட்டை இடைவெளி Eg என்பது வேலன்ஸ் பட்டையின் மேல் நிலை (Ev) மற்றும் கடத்தல் பட்டையின் கீழ் நிலை (Ec) இடையே வரையறுக்கப்படுகிறது. இந்த இடைவெளி ஒரு பொருள் உலோகம், கடத்தாப் பொருள், அல்லது குறைகடத்தி என்பதை தீர்மானிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உலோகங்களில் கடத்தல் பட்டை மற்றும் வேலன்ஸ் பட்டை ஒன்றன் மேல் ஒன்றாக இருப்பதால் என்ன நிகழ்கிறது?",
+      "options": [
+        "எலக்ட்ரான்கள் கடத்தல் பட்டைக்கு நகர முடியாது",
+        "எலக்ட்ரான்கள் எளிதாக கடத்தல் பட்டைக்கு நகர்கின்றன",
+        "பொருள் கடத்தாப் பொருளாக மாறுகிறது",
+        "ஆற்றல் இடைவெளி அதிகரிக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the conduction and valence bands overlap in metals, electrons from the valence band can easily move into the conduction band. This makes a large number of electrons available for electrical conduction, giving metals their high conductivity. | உலோகங்களில் கடத்தல் மற்றும் வேலன்ஸ் பட்டைகள் ஒன்றன் மேல் ஒன்றாக இருக்கும்போது, வேலன்ஸ் பட்டையிலிருந்து எலக்ட்ரான்கள் கடத்தல் பட்டைக்கு எளிதாக நகர்ந்து செல்கின்றன. இது மின் கடத்தலுக்கு பெருமளவு எலக்ட்ரான்களைக் கிடைக்கச் செய்கிறது, இதனால் உலோகங்கள் அதிக கடத்துதிறனைப் பெறுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கடத்தாப் பொருட்களின் ஆற்றல் பட்டை இடைவெளி Eg இன் மதிப்பு எவ்வளவு?",
+      "options": [
+        "Eg 3 eV-க்கும் குறைவு",
+        "Eg 3 eV-க்கும் அதிகம்",
+        "Eg பூஜ்யம்",
+        "Eg 0.5 eV மற்றும் 1 eV இடையே"
+      ],
+      "correct": 1,
+      "explanation": "Insulators have a large band gap where Eg is greater than 3 eV. There are no electrons in the conduction band, making electrical conduction impossible. Thermal energy is insufficient to excite electrons across this large gap. | கடத்தாப் பொருட்களில் Eg 3 eV-க்கும் அதிகமான பெரிய பட்டை இடைவெளி உள்ளது. கடத்தல் பட்டையில் எலக்ட்ரான்கள் இல்லை, எனவே மின் கடத்தல் சாத்தியமில்லை. வெப்ப ஆற்றல் இந்த பெரிய இடைவெளியைக் கடக்க எலக்ட்ரான்களைத் தூண்ட போதுமானதாக இல்லை."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "எந்த வகைப் பொருளில் ஆற்றல் பட்டை இடைவெளி Eg பூஜ்யத்திற்கு சமமாக இருக்கும்?",
+      "options": [
+        "குறைகடத்தி",
+        "கடத்தாப் பொருள்",
+        "உலோகம்",
+        "மீகடத்தி"
+      ],
+      "correct": 2,
+      "explanation": "In metals, the energy band gap is approximately zero because the conduction and valence bands overlap. This allows electrons to move freely between bands, resulting in high electrical conductivity. | உலோகங்களில், கடத்தல் மற்றும் வேலன்ஸ் பட்டைகள் ஒன்றன் மேல் ஒன்றாக இருப்பதால் ஆற்றல் பட்டை இடைவெளி தோராயமாக பூஜ்யமாக இருக்கிறது. இது எலக்ட்ரான்கள் பட்டைகளுக்கு இடையே சுதந்திரமாக நகர அனுமதிக்கிறது, இதனால் அதிக மின் கடத்துதிறன் ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "குறைகடத்திகளில் அறை வெப்பநிலையில் சில எலக்ட்ரான்கள் கடத்தல் பட்டைக்கு நுழைவதற்கான காரணம் என்ன?",
+      "options": [
+        "பெரிய ஆற்றல் பட்டை இடைவெளி",
+        "சிறிய ஆற்றல் பட்டை இடைவெளி",
+        "பட்டைகள் ஒன்றன் மேல் ஒன்றாக இருத்தல்",
+        "உயர் வெப்பநிலை தேவை"
+      ],
+      "correct": 1,
+      "explanation": "Semiconductors have a small band gap (Eg less than or equal to 3 eV). At room temperature, some electrons from the valence band can acquire enough thermal energy to cross this gap and enter the conduction band, enabling limited conduction. | குறைகடத்திகளில் சிறிய பட்டை இடைவெளி (Eg 3 eV-க்கும் குறைவு அல்லது சமம்) உள்ளது. அறை வெப்பநிலையில், வேலன்ஸ் பட்டையிலிருந்து சில எலக்ட்ரான்கள் இந்த இடைவெளியைக் கடந்து கடத்தல் பட்டைக்குள் நுழைய போதுமான வெப்ப ஆற்றலைப் பெறுகின்றன, இதனால் குறைந்த அளவு கடத்தல் சாத்தியமாகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "0K-இல் குறைகடத்தியின் வேலன்ஸ் பட்டையில் உள்ள எலக்ட்ரான்களின் எண்ணிக்கை எவ்வாறு இருக்கும்?",
+      "options": [
+        "4N",
+        "8N",
+        "2N",
+        "N"
+      ],
+      "correct": 0,
+      "explanation": "For a Si or Ge crystal containing N atoms, there are 4N valence electrons. At 0K, all these 4N electrons completely fill the valence band. The conduction band with 4N available states is completely empty at absolute zero. | N அணுக்களைக் கொண்ட Si அல்லது Ge படிகத்தில் 4N வேலன்ஸ் எலக்ட்ரான்கள் உள்ளன. 0K-இல், இந்த 4N எலக்ட்ரான்கள் அனைத்தும் வேலன்ஸ் பட்டையை முழுமையாக நிரப்புகின்றன. 4N கிடைக்கும் நிலைகளைக் கொண்ட கடத்தல் பட்டை முழுமையான பூஜ்ய வெப்பநிலையில் முழுமையாக காலியாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஆற்றல் பட்டை வரைபடத்தில் Ec க்கு மேல் என்ன இருக்கிறது?",
+      "options": [
+        "வேலன்ஸ் பட்டை",
+        "நெருக்கமான ஆற்றல் நிலைகளின் பெரிய தொகுப்பு",
+        "எதுவும் இல்லை",
+        "பூஜ்ய ஆற்றல் மட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "Above Ec (lowest energy level in conduction band) and below Ev (highest energy level in valence band), there are a large number of closely spaced energy levels. These are part of the continuous energy bands in the solid. | Ec (கடத்தல் பட்டையின் குறைந்தபட்ச ஆற்றல் நிலை) க்கு மேலும் Ev (வேலன்ஸ் பட்டையின் அதிகபட்ச ஆற்றல் நிலை) க்குக் கீழும் பெருமளவு நெருக்கமான ஆற்றல் நிலைகள் உள்ளன. இவை திண்மத்தில் உள்ள தொடர்ச்சியான ஆற்றல் பட்டைகளின் பகுதியாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்வருவனவற்றில் எது உலோகங்களின் குறைந்த மின்தடைக்கு காரணம்?",
+      "options": [
+        "பெரிய ஆற்றல் பட்டை இடைவெளி",
+        "கடத்தல் பட்டையின் ஓரளவு நிரப்பப்பட்ட நிலை அல்லது பட்டைகளின் ஒன்றன் மேல் ஒன்றாக இருத்தல்",
+        "வேலன்ஸ் பட்டையின் முழு நிரப்பப்பட்ட நிலை",
+        "கடத்தல் பட்டையின் காலியான நிலை"
+      ],
+      "correct": 1,
+      "explanation": "Metals have low resistance because either the conduction band is partially filled (allowing electrons to move to higher levels) or the conduction and valence bands overlap (allowing easy electron movement). Both conditions provide many free electrons for conduction. | உலோகங்கள் குறைந்த மின்தடையைக் கொண்டுள்ளன, ஏனெனில் கடத்தல் பட்டை ஓரளவு நிரப்பப்பட்டிருப்பதால் (எலக்ட்ரான்கள் உயர் நிலைகளுக்கு நகர அனுமதிக்கிறது) அல்லது கடத்தல் மற்றும் வேலன்ஸ் பட்டைகள் ஒன்றன் மேல் ஒன்றாக இருப்பதால் (எளிதான எலக்ட்ரான் நகர்வுக்கு அனுமதிக்கிறது). இரண்டு நிலைகளும் கடத்தலுக்கு பல இலவச எலக்ட்ரான்களை வழங்குகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "குறைகடத்தி, உலோகம் மற்றும் கடத்தாப் பொருள் ஆகியவற்றை வேறுபடுத்துவதற்கான முக்கிய காரணி எது?",
+      "options": [
+        "அணுக்களின் எண்ணிக்கை",
+        "அணுக்களின் அளவு",
+        "ஆற்றல் பட்டை இடைவெளி Eg இன் அளவு",
+        "வெப்ப கடத்துதிறன்"
+      ],
+      "correct": 2,
+      "explanation": "The key factor that distinguishes metals, semiconductors, and insulators is the energy band gap Eg. Metals have Eg approximately zero (overlapping bands), semiconductors have small Eg (less than or equal to 3 eV), and insulators have large Eg (greater than 3 eV). | உலோகங்கள், குறைகடத்திகள், மற்றும் கடத்தாப் பொருட்களை வேறுபடுத்துவதற்கான முக்கிய காரணி ஆற்றல் பட்டை இடைவெளி Eg ஆகும். உலோகங்களில் Eg தோராயமாக பூஜ்யம் (ஒன்றன் மேல் ஒன்றான பட்டைகள்), குறைகடத்திகளில் சிறிய Eg (3 eV-க்கும் குறைவு அல்லது சமம்), மற்றும் கடத்தாப் பொருட்களில் பெரிய Eg (3 eV-க்கும் அதிகம்) உள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "1948 ஆம் ஆண்டில் டிரான்சிஸ்டர் கண்டுபிடிக்கப்படுவதற்கு முன், மின்னணு சுற்றுகளின் அடிப்படை கட்டமைப்பு தொகுதிகள் எவை?",
+      "options": [
+        "குறைக்கடத்தி சாதனங்கள்",
+        "வெற்றிடக் குழாய்கள் (வால்வுகள் என்றும் அழைக்கப்படுகின்றன)",
+        "திரவ படிக காட்சிகள்",
+        "ஒருங்கிணைந்த சுற்றுகள்"
+      ],
+      "correct": 1,
+      "explanation": "Before 1948, electronic devices were primarily vacuum tubes (also called valves) such as diodes, triodes, tetrodes, and pentodes. | 1948 ஆம் ஆண்டு டிரான்சிஸ்டர் கண்டுபிடிக்கப்படுவதற்கு முன், மின்னணு சாதனங்கள் பெரும்பாலும் வெற்றிடக் குழாய்கள் (வால்வுகள் என்றும் அழைக்கப்படுகின்றன) போன்ற டையோடுகள், டிரையோடுகள், டெட்ரோடுகள் மற்றும் பென்டோடுகளாக இருந்தன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஒரு டிரையோடு வெற்றிடக் குழாயில் எத்தனை மின்முனைகள் உள்ளன?",
+      "options": [
+        "இரண்டு மின்முனைகள்",
+        "மூன்று மின்முனைகள்",
+        "நான்கு மின்முனைகள்",
+        "ஐந்து மின்முனைகள்"
+      ],
+      "correct": 1,
+      "explanation": "A triode has three electrodes: cathode, plate (anode), and grid. A diode has two, a tetrode has four, and a pentode has five. | ஒரு டிரையோடில் மூன்று மின்முனைகள் உள்ளன: கேத்தோடு, தட்டு (அனோடு) மற்றும் கிரிட். டையோடில் இரண்டு, டெட்ரோடில் நான்கு, மற்றும் பென்டோடில் ஐந்து மின்முனைகள் உள்ளன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெற்றிடக் குழாயில் மின்னணுக்கள் எந்த உறுப்பால் வழங்கப்படுகின்றன?",
+      "options": [
+        "அனோடு",
+        "கிரிட்",
+        "சூடாக்கப்பட்ட கேத்தோடு",
+        "குறைக்கடத்தி இணைப்பு"
+      ],
+      "correct": 2,
+      "explanation": "In vacuum tubes, electrons are supplied by a heated cathode. The controlled flow of these electrons in vacuum is obtained by varying the voltage between different electrodes. | வெற்றிடக் குழாய்களில், மின்னணுக்கள் சூடாக்கப்பட்ட கேத்தோடால் வழங்கப்படுகின்றன. வெவ்வேறு மின்முனைகளுக்கு இடையே மின்னழுத்தத்தை மாற்றுவதன் மூலம் இந்த மின்னணுக்களின் கட்டுப்படுத்தப்பட்ட ஓட்டம் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெற்றிடக் குழாயின் மின்முனைகளுக்கு இடையே வெற்றிடம் ஏன் தேவை?",
+      "options": [
+        "கேத்தோடின் வெப்பநிலையை அதிகரிக்க",
+        "காற்று மூலக்கூறுகளுடன் மோதி மின்னணுக்கள் ஆற்றலை இழக்காமல் தடுக்க",
+        "சாதனத்தின் அளவைக் குறைக்க",
+        "மின்முனைகளின் கடத்துத்திறனை அதிகரிக்க"
+      ],
+      "correct": 1,
+      "explanation": "Vacuum is required in the inter-electrode space because otherwise the moving electrons may lose their energy on collision with air molecules in their path. | மின்முனைகளுக்கு இடையேயான இடத்தில் வெற்றிடம் தேவை, ஏனெனில் இல்லாவிட்டால் நகரும் மின்னணுக்கள் தங்கள் பாதையில் உள்ள காற்று மூலக்கூறுகளுடன் மோதி தங்கள் ஆற்றலை இழக்க நேரிடும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்வருவனவற்றில் எது வெற்றிடக் குழாய் சாதனங்களின் பண்பு அல்ல?",
+      "options": [
+        "அவை பெரியவை",
+        "அவை அதிக சக்தியை நுகர்கின்றன",
+        "அவை நீண்ட ஆயுள் மற்றும் உயர் நம்பகத்தன்மையைக் கொண்டுள்ளன",
+        "அவை உயர் மின்னழுத்தங்களில் (~100V) இயங்குகின்றன"
+      ],
+      "correct": 2,
+      "explanation": "Vacuum tube devices are bulky, consume high power, operate at high voltages (~100V), and have limited life and low reliability. They do NOT have long life and high reliability. | வெற்றிடக் குழாய் சாதனங்கள் பெரியவை, அதிக சக்தியை நுகர்கின்றன, உயர் மின்னழுத்தங்களில் (~100V) இயங்குகின்றன, மற்றும் குறுகிய ஆயுள் மற்றும் குறைந்த நம்பகத்தன்மையைக் கொண்டுள்ளன. அவை நீண்ட ஆயுள் மற்றும் உயர் நம்பகத்தன்மையைக் கொண்டவை அல்ல."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "நவீன திண்ம நிலை குறைக்கடத்தி மின்னணுவியல் வளர்ச்சியின் தொடக்கம் எந்த தசாப்தத்தில் உணரப்பட்டது?",
+      "options": [
+        "1920கள்",
+        "1930கள்",
+        "1940கள்",
+        "1950கள்"
+      ],
+      "correct": 1,
+      "explanation": "The seed of the development of modern solid-state semiconductor electronics goes back to the 1930s when it was realized that some solid-state semiconductors and their junctions offer the possibility of controlling charge carriers. | நவீன திண்ம நிலை குறைக்கடத்தி மின்னணுவியல் வளர்ச்சியின் விதை 1930களுக்குச் செல்கிறது, அப்போது சில திண்ம நிலை குறைக்கடத்திகள் மற்றும் அவற்றின் இணைப்புகள் மின்னேற்றம் சுமப்பவர்களைக் கட்டுப்படுத்தும் சாத்தியத்தை வழங்குகின்றன என்பது உணரப்பட்டது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "குறைக்கடத்தியில் நகரும் மின்னேற்றங்களின் எண்ணிக்கையை மாற்ற எந்த எளிய தூண்டல்கள் உதவுகின்றன?",
+      "options": [
+        "வெப்பம் மட்டுமே",
+        "ஒளி மட்டுமே",
+        "ஒளி, வெப்பம், அல்லது சிறிய மின்னழுத்தம்",
+        "பெரிய மின்னழுத்தம் மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "Simple excitations like light, heat, or small applied voltage can change the number of mobile charges in a semiconductor. | ஒளி, வெப்பம், அல்லது சிறிய மின்னழுத்தம் போன்ற எளிய தூண்டல்கள் குறைக்கடத்தியில் நகரும் மின்னேற்றங்களின் எண்ணிக்கையை மாற்ற முடியும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "குறைக்கடத்தி சாதனங்களின் முக்கிய நன்மை என்ன?",
+      "options": [
+        "வெளிப்புற சூடாக்கல் தேவை",
+        "பெரிய வெற்றிட இடம் தேவை",
+        "சிறிய அளவு மற்றும் குறைந்த சக்தி நுகர்வு",
+        "உயர் மின்னழுத்தத்தில் இயங்கும்"
+      ],
+      "correct": 2,
+      "explanation": "Semiconductor devices are small in size, consume low power, operate at low voltages, and have long life and high reliability. They do not require external heating or large evacuated space. | குறைக்கடத்தி சாதனங்கள் சிறிய அளவில், குறைந்த சக்தியை நுகரும், குறைந்த மின்னழுத்தங்களில் இயங்கும், மற்றும் நீண்ட ஆயுள் மற்றும் உயர் நம்பகத்தன்மையைக் கொண்டுள்ளன. அவை வெளிப்புற சூடாக்கல் அல்லது பெரிய வெற்றிட இடத்தைத் தேவைப்படுத்தாது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "தொலைக்காட்சி மற்றும் கணினி மானிட்டர்களில் கேத்தோட் கதிர் குழாய்களை (CRT) மாற்றும் காட்சி தொழில்நுட்பம் எது?",
+      "options": [
+        "வெற்றிட பிளூரோசென்ட் காட்சி",
+        "திரவ படிக காட்சி (LCD)",
+        "பிளாஸ்மா காட்சி",
+        "ஒளிரும் டையோடு (LED) காட்சி"
+      ],
+      "correct": 1,
+      "explanation": "Cathode Ray Tubes (CRT) used in television and computer monitors are being replaced by Liquid Crystal Display (LCD) monitors with supporting solid state electronics. | தொலைக்காட்சி மற்றும் கணினி மானிட்டர்களில் பயன்படுத்தப்படும் கேத்தோட் கதிர் குழாய்கள் (CRT), திண்ம நிலை மின்னணு ஆதரவுடன் திரவ படிக காட்சி (LCD) மானிட்டர்களால் மாற்றப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "குறைக்கடத்திகள் பற்றிய முறையான புரிதலுக்கு முன்பே, வானொலி அலைகளைக் கண்டறிய எந்த இயற்கை படிகம் பயன்படுத்தப்பட்டது?",
+      "options": [
+        "குவார்ட்ஸ்",
+        "கலேனா (ஈய சல்பைடு, PbS)",
+        "வைரம்",
+        "கிராஃபைட்"
+      ],
+      "correct": 1,
+      "explanation": "Much before the full implications of semiconductor devices was formally understood, a naturally occurring crystal of galena (Lead sulphide, PbS) with a metal point contact attached to it was used as detector of radio waves. | குறைக்கடத்தி சாதனங்களின் முழு பொருள் முறையாகப் புரிந்துகொள்ளப்படுவதற்கு முன்பே, ஒரு உலோக புள்ளி தொடர்பு இணைக்கப்பட்ட இயற்கையாக நிகழும் கலேனா (ஈய சல்பைடு, PbS) படிகம் வானொலி அலைகளின் கண்டறிவாகப் பயன்படுத்தப்பட்டது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "2-மின்முனை சாதனம் என்று விவரிக்கப்படும் குறைக்கடத்தி சாதனம் எது?",
+      "options": [
+        "இருமுனைய இணைப்பு டிரான்சிஸ்டர்",
+        "இணைப்பு டையோடு",
+        "டிரையோடு வெற்றிடக் குழாய்",
+        "டெட்ரோடு வெற்றிடக் குழாய்"
+      ],
+      "correct": 1,
+      "explanation": "The chapter discusses semiconductor devices including junction diodes (a 2-electrode device) and bipolar junction transistors (a 3-electrode device). | இந்த அத்தியாயம் இணைப்பு டையோடுகள் (2-மின்முனை சாதனம்) மற்றும் இருமுனைய இணைப்பு டிரான்சிஸ்டர்கள் (3-மின்முனை சாதனம்) உள்ளிட்ட குறைக்கடத்தி சாதனங்களைப் பற்றி விவாதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "3-மின்முனை சாதனம் என்று விவரிக்கப்படும் குறைக்கடத்தி சாதனம் எது?",
+      "options": [
+        "இணைப்பு டையோடு",
+        "இருமுனைய இணைப்பு டிரான்சிஸ்டர்",
+        "வெற்றிட டையோடு",
+        "பென்டோடு வெற்றிடக் குழாய்"
+      ],
+      "correct": 1,
+      "explanation": "The chapter discusses semiconductor devices including junction diodes (a 2-electrode device) and bipolar junction transistors (a 3-electrode device). | இந்த அத்தியாயம் இணைப்பு டையோடுகள் (2-மின்முனை சாதனம்) மற்றும் இருமுனைய இணைப்பு டிரான்சிஸ்டர்கள் (3-மின்முனை சாதனம்) உள்ளிட்ட குறைக்கடத்தி சாதனங்களைப் பற்றி விவாதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெற்றிடக் குழாய் சாதனங்களில் மின்னணுக்களின் முக்கிய ஓட்டத் திசை எது?",
+      "options": [
+        "அனோடிலிருந்து கேத்தோடுக்கு",
+        "கேத்தோடிலிருந்து அனோடுக்கு மட்டுமே",
+        "இரு திசைகளிலும் சமமாக",
+        "கிரிட்டிலிருந்து கேத்தோடுக்கு"
+      ],
+      "correct": 1,
+      "explanation": "In vacuum tube devices, electrons can flow only from the cathode to the anode (i.e., only in one direction). Therefore, such devices are generally referred to as valves. | வெற்றிடக் குழாய் சாதனங்களில், மின்னணுக்கள் கேத்தோடிலிருந்து அனோடுக்கு மட்டுமே ஓட முடியும் (அதாவது, ஒரே திசையில் மட்டுமே). எனவே, இத்தகைய சாதனங்கள் பொதுவாக வால்வுகள் என்று குறிப்பிடப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெற்றிடக் குழாய் சாதனங்களின் இயக்க மின்னழுத்த வரம்பு என்ன?",
+      "options": [
+        "~1-10V",
+        "~10-50V",
+        "~100V",
+        "~1000V"
+      ],
+      "correct": 2,
+      "explanation": "Vacuum tube devices operate generally at high voltages (~100V). This is in contrast to semiconductor devices which operate at low voltages. | வெற்றிடக் குழாய் சாதனங்கள் பொதுவாக உயர் மின்னழுத்தங்களில் (~100V) இயங்குகின்றன. இது குறைந்த மின்னழுத்தங்களில் இயங்கும் குறைக்கடத்தி சாதனங்களுக்கு மாறானது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்வருவனவற்றில் உரையில் குறிப்பிடப்படாத வெற்றிடக் குழாய் வகை எது?",
+      "options": [
+        "டையோடு",
+        "டிரையோடு",
+        "ஹெக்சோடு",
+        "பென்டோடு"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions vacuum diode (2 electrodes), triode (3 electrodes), tetrode (4 electrodes), and pentode (5 electrodes). Hexode is not mentioned. | உரையில் வெற்றிட டையோடு (2 மின்முனைகள்), டிரையோடு (3 மின்முனைகள்), டெட்ரோடு (4 மின்முனைகள்), மற்றும் பென்டோடு (5 மின்முனைகள்) ஆகியவை குறிப்பிடப்பட்டுள்ளன. ஹெக்சோடு குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "1948 ஆம் ஆண்டில் டிரான்சிஸ்டர் கண்டுபிடிக்கப்படுவதற்கு முன்பு, மின்னணு சுற்றுகளின் அடிப்படை கட்டற்கற்கள் என்னவாக இருந்தன?",
+      "options": [
+        "அரைக்கடத்து டையோடுகள்",
+        "வெற்றிடக் குழாய்கள் (வால்வுகள் என்றும் அழைக்கப்படுகின்றன)",
+        "ஒருங்கிணைந்த சுற்றுகள்",
+        "திரவ படிக காட்சிகள்"
+      ],
+      "correct": 1,
+      "explanation": "Before 1948, electronic circuits were built using vacuum tubes (valves) like diodes, triodes, tetrodes, and pentodes. These devices controlled electron flow in vacuum. | 1948 ஆம் ஆண்டிற்கு முன்பு, மின்னணு சுற்றுகள் வெற்றிடக் குழாய்கள் (வால்வுகள்) போன்ற டையோடுகள், டிரையோடுகள், டெட்ரோடுகள் மற்றும் பென்ட்டோடுகள் பயன்படுத்தி கட்டப்பட்டன. இந்தக் கருவிகள் வெற்றிடத்தில் எலக்ட்ரான் பாய்வைக் கட்டுப்படுத்தின."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "டிரையோடில் எத்தனை மின்முனைகள் உள்ளன?",
+      "options": [
+        "இரண்டு மின்முனைகள்",
+        "மூன்று மின்முனைகள் - கேத்தோட், தட்டு மற்றும் கிரிட்",
+        "நான்கு மின்முனைகள்",
+        "ஐந்து மின்முனைகள்"
+      ],
+      "correct": 1,
+      "explanation": "A triode is a vacuum tube with three electrodes: cathode, plate (anode), and grid. This is explicitly stated in the text. | டிரையோடு என்பது மூன்று மின்முனைகளைக் கொண்ட வெற்றிடக் குழாய்: கேத்தோட், தட்டு (அனோட்) மற்றும் கிரிட். இது உரையில் தெளிவாகக் குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெற்றிடக் குழாயில் எலக்ட்ரான்களை எந்த கூறு வழங்குகிறது?",
+      "options": [
+        "அனோடு",
+        "கிரிட்",
+        "சூடாக்கப்பட்ட கேத்தோட்",
+        "தட்டு"
+      ],
+      "correct": 2,
+      "explanation": "The text states that in vacuum tubes, electrons are supplied by a heated cathode. The controlled flow is then obtained by varying voltage between electrodes. | உரையின்படி, வெற்றிடக் குழாய்களில் எலக்ட்ரான்கள் சூடாக்கப்பட்ட கேத்தோட் மூலம் வழங்கப்படுகின்றன. பின்னர் மின்முனைகளுக்கு இடையே மின்னழுத்தத்தை மாற்றுவதன் மூலம் கட்டுப்படுத்தப்பட்ட பாய்வு பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெற்றிடக் குழாயின் மின்முனைகளுக்கு இடையே வெற்றிடம் ஏன் தேவைப்படுகிறது?",
+      "options": [
+        "மின்னழுத்தத்தை அதிகரிக்க",
+        "காற்று மூலக்கூறுகளுடன் மோதி எலக்ட்ரான்கள் ஆற்றலை இழப்பதைத் தடுக்க",
+        "கருவியின் அளவைக் குறைக்க",
+        "மின்முனைகளின் எண்ணிக்கையை அதிகரிக்க"
+      ],
+      "correct": 1,
+      "explanation": "Vacuum is required because otherwise moving electrons may lose their energy on collision with air molecules in their path. | வெற்றிடம் தேவைப்படுகிறது, ஏனெனில் அப்படி இல்லாவிட்டால் நகரும் எலக்ட்ரான்கள் தங்கள் பாதையில் உள்ள காற்று மூலக்கூறுகளுடன் மோதி தங்கள் ஆற்றலை இழக்க நேரிடும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெற்றிடக் குழாய் சாதனங்கள் ஏன் 'வால்வுகள்' என்று குறிப்பிடப்படுகின்றன?",
+      "options": [
+        "அவற்றுள் வால்வுகள் இருப்பதால்",
+        "எலக்ட்ரான்கள் கேத்தோடிலிருந்து அனோடுக்கு மட்டுமே (ஒரு திசையில்) பாய முடியும்",
+        "அவை நீர் பாய்வைக் கட்டுப்படுத்துவதால்",
+        "அவை பல மின்முனைகளைக் கொண்டிருப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "Vacuum tubes are called valves because electrons can flow only from the cathode to the anode, i.e., only in one direction. | வெற்றிடக் குழாய்கள் வால்வுகள் என்று அழைக்கப்படுகின்றன, ஏனெனில் எலக்ட்ரான்கள் கேத்தோடிலிருந்து அனோடுக்கு மட்டுமே பாய முடியும், அதாவது ஒரே ஒரு திசையில் மட்டுமே."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெற்றிடக் குழாய் சாதனங்களின் பின்வரும் குறைபாடுகளில் எது அல்ல?",
+      "options": [
+        "அவை பெரியவை",
+        "அவை அதிக சக்தியை நுகர்கின்றன",
+        "அவை நீண்ட ஆயுள் மற்றும் அதிக நம்பகத்தன்மையைக் கொண்டுள்ளன",
+        "அவை அதிக மின்னழுத்தங்களில் செயல்படுகின்றன"
+      ],
+      "correct": 2,
+      "explanation": "The text states vacuum tubes are bulky, consume high power, operate at high voltages, and have limited life and low reliability. Long life and high reliability are advantages of semiconductor devices, not vacuum tubes. | உரையின்படி வெற்றிடக் குழாய்கள் பெரியவை, அதிக சக்தியை நுகர்கின்றன, அதிக மின்னழுத்தங்களில் செயல்படுகின்றன, மற்றும் குறுகிய ஆயுள் மற்றும் குறைந்த நம்பகத்தன்மையைக் கொண்டுள்ளன. நீண்ட ஆயுள் மற்றும் அதிக நம்பகத்தன்மை என்பவை அரைக்கடத்து சாதனங்களின் நன்மைகள், வெற்றிடக் குழாய்களின் அல்ல."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "நவீன திண்ம நிலை அரைக்கடத்து மின்னணுவியலின் வளர்ச்சி எப்போது தொடங்கியது?",
+      "options": [
+        "1948",
+        "1930கள்",
+        "1950கள்",
+        "1920கள்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that the seed of development of modern solid-state semiconductor electronics goes back to the 1930s when it was realized that some solid-state semiconductors offer the possibility of controlling charge carriers. | நவீன திண்ம நிலை அரைக்கடத்து மின்னணுவியலின் வளர்ச்சி 1930களுக்குச் செல்கிறது என்று உரை கூறுகிறது, அப்போது சில திண்ம நிலை அரைக்கடத்துகள் மின்னேற்ற ஊர்விகளைக் கட்டுப்படுத்தும் சாத்தியத்தை வழங்குகின்றன என்பது உணரப்பட்டது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "எந்த எளிய தூண்டுதல்கள் அரைக்கடத்தில் நகையும் மின்னேற்றங்களின் எண்ணிக்கையை மாற்ற முடியும்?",
+      "options": [
+        "வெப்பம் மட்டுமே",
+        "ஒளி, வெப்பம், அல்லது சிறிய மின்னழுத்தம்",
+        "ஒளி மட்டுமே",
+        "மின் ஆற்றல் மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "The text states that simple excitations like light, heat, or small applied voltage can change the number of mobile charges in a semiconductor. | உரையின்படி ஒளி, வெப்பம் அல்லது சிறிய மின்னழுத்தம் போன்ற எளிய தூண்டுதல்கள் அரைக்கடத்தில் நகையும் மின்னேற்றங்களின் எண்ணிக்கையை மாற்ற முடியும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரைக்கடத்து சாதனங்களில் மின்னேற்ற ஊர்விகளின் வழங்கலும் பாய்வும் எங்கு நிகழ்கின்றன?",
+      "options": [
+        "வெற்றிட இடத்தில்",
+        "திண்மத்திற்குள்",
+        "வெளிப்புற சுற்றில் மட்டுமே",
+        "மின்முனைகளில்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that in semiconductor devices, the supply and flow of charge carriers are within the solid itself, unlike vacuum tubes where electrons flow in evacuated space. | உரையின்படி அரைக்கடத்து சாதனங்களில் மின்னேற்ற ஊர்விகளின் வழங்கலும் பாய்வும் திண்மத்திற்குள் இருக்கின்றன, வெற்றிடக் குழாய்களில் எலக்ட்ரான்கள் வெற்றிட இடத்தில் பாய்வதைப் போல அல்ல."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "தொலைக்காட்சி மற்றும் கணினி மானிட்டர்களில் கேத்தோட் கதிர் குழாய்களை (CRT) எது மாற்றுகிறது?",
+      "options": [
+        "வெற்றிடக் குழாய்கள்",
+        "திண்ம நிலை மின்னணுவுடன் திரவ படிக காட்சி (LCD) மானிட்டர்கள்",
+        "டிரையோடுகள்",
+        "பென்ட்டோடுகள்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that CRTs used in television and computer monitors are being replaced by Liquid Crystal Display (LCD) monitors with supporting solid state electronics. | உரையின்படி தொலைக்காட்சி மற்றும் கணினி மானிட்டர்களில் பயன்படுத்தப்படும் கேத்தோட் கதிர் குழாய்கள் (CRT) திண்ம நிலை மின்னணு ஆதரவுடன் திரவ படிக காட்சி (LCD) மானிட்டர்களால் மாற்றப்பட்டு வருகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரைக்கடத்து சாதனங்களின் முழு விளைவுகள் புரிந்துகொள்ளப்படுவதற்கு முன்பு, வானொலி அலைகளைக் கண்டறிய எது பயன்படுத்தப்பட்டது?",
+      "options": [
+        "சிலிகான் டையோடு",
+        "உலோக புள்ளி தொடர்புடன் இயற்கையாகக் கிடைக்கும் கலீனா படிகம் (ஈய சல்பைட், PbS)",
+        "டிரான்சிஸ்டர்",
+        "ஒருங்கிணைந்த சுற்று"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that a naturally occurring crystal of galena (Lead sulphide, PbS) with a metal point contact was used as a detector of radio waves. | அரைக்கடத்து சாதனங்களின் முழு விளைவுகள் முறையாகப் புரிந்துகொள்ளப்படுவதற்கு முன்பு, இயற்கையாகக் கிடைக்கும் கலீனா (ஈய சல்பைட், PbS) படிகம் ஒரு உலோக புள்ளி தொடர்புடன் வானொலி அலைகளைக் கண்டறிய பயன்படுத்தப்பட்டது என்று உரை குறிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உலோகங்களின் மின்தடையின் தோராயமான வரம்பு என்ன?",
+      "options": [
+        "10^11 முதல் 10^19 ஓம் மீட்டர்",
+        "10^-2 முதல் 10^-8 ஓம் மீட்டர்",
+        "10^-5 முதல் 10^6 ஓம் மீட்டர்",
+        "10^2 முதல் 10^8 ஓம் மீட்டர்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that metals possess very low resistivity in the range of 10^-2 to 10^-8 ohm meter. | உரையின்படி உலோகங்கள் மிகக் குறைந்த மின்தடையைக் கொண்டுள்ளன, அதன் வரம்பு 10^-2 முதல் 10^-8 ஓம் மீட்டர் வரை."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரைக்கடத்துகளின் மின்கடத்துதிறனின் தோராயமான வரம்பு என்ன?",
+      "options": [
+        "10^2 முதல் 10^8 S m^-1",
+        "10^-11 முதல் 10^-19 S m^-1",
+        "10^-5 முதல் 10^-6 S m^-1",
+        "10^5 முதல் 10^-6 S m^-1"
+      ],
+      "correct": 3,
+      "explanation": "The text states semiconductors have conductivity intermediate to metals and insulators, approximately 10^5 to 10^-6 S m^-1. | உரையின்படி அரைக்கடத்துகள் உலோகங்கள் மற்றும் காப்பிகளுக்கு இடைப்பட்ட மின்கடத்துதிறனைக் கொண்டுள்ளன, சுமார் 10^5 முதல் 10^-6 S m^-1 வரை."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்வருவனவற்றில் எவை அடிப்படை அரைக்கடத்துகளுக்கு எடுத்துக்காட்டுகள்?",
+      "options": [
+        "CdS மற்றும் GaAs",
+        "Si மற்றும் Ge",
+        "அன்த்ராசீன் மற்றும் பாலிபைரோல்",
+        "InP மற்றும் CdSe"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that elemental semiconductors are Si and Ge. Compound semiconductors include CdS, GaAs, CdSe, InP, etc. | உரை தெளிவாகக் கூறுகிறது அடிப்படை அரைக்கடத்துகள் Si மற்றும் Ge ஆகும். சேர்ம அரைக்கடத்துகளில் CdS, GaAs, CdSe, InP போன்றவை அடங்கும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "பின்வருவனவற்றில் எது கரிம பலபடி அரைக்கடத்துக்கு எடுத்துக்காட்டு?",
+      "options": [
+        "CdS",
+        "GaAs",
+        "பாலிபைரோல்",
+        "InP"
+      ],
+      "correct": 2,
+      "explanation": "The text lists organic polymer semiconductors as polypyrrole, polyaniline, and polythiophene. CdS, GaAs, and InP are inorganic compound semiconductors. | உரை கரிம பலபடி அரைக்கடத்துகளை பாலிபைரோல், பாலியனிலின் மற்றும் பாலிதையோபீன் என பட்டியலிடுகிறது. CdS, GaAs, மற்றும் InP கனிம சேர்ம அரைக்கடத்துகள்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "தனித்த அணுவில் எலக்ட்ரானின் ஆற்றலை எது தீர்மானிக்கிறது?",
+      "options": [
+        "அணுவின் வெப்பநிலை",
+        "அது சுற்றி வரும் வட்டணை",
+        "கருவில் உள்ள புரோட்டான்களின் எண்ணிக்கை",
+        "வெளிப்புற காந்தப்புலம்"
+      ],
+      "correct": 1,
+      "explanation": "According to the Bohr atomic model, in an isolated atom the energy of any of its electrons is decided by the orbit in which it revolves. | போர் அணு மாதிரியின்படி, தனித்த அணுவில் எந்த எலக்ட்ரானின் ஆற்றலும் அது சுற்றி வரும் வட்டணையால் தீர்மானிக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அணுக்கள் திண்மம் உருவாக்க ஒன்றாக வரும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "எலக்ட்ரான்கள் முழுமையாக நகர்வதை நிறுத்துகின்றன",
+        "அண்டை அணுக்களின் வெளிப்புற எலக்ட்ரான் வட்டணைகள் மிக அருகில் வருகின்றன அல்லது மேலடுக்கு கொள்ளுகின்றன",
+        "அனைத்து எலக்ட்ரான்களும் ஒரே ஆற்றல் மட்டத்திற்கு நகர்கின்றன",
+        "அணுக்கள் ஒன்றையொன்று விலக்கி இடைவெளிகளை உருவாக்குகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "When atoms come together to form a solid, the outer orbits of electrons from neighbouring atoms come very close or could even overlap, making electron motion very different from that in an isolated atom. | திண்மம் உருவாக்க அணுக்கள் ஒன்றாக வரும்போது, அண்டை அணுக்களின் வெளிப்புற எலக்ட்ரான் வட்டணைகள் மிக அருகில் வருகின்றன அல்லது மேலடுக்கு கொள்ளக்கூடும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "திண்மத்தில் ஆற்றல் பட்டைகள் என்றால் என்ன?",
+      "options": [
+        "தனித்த அணுக்களிலிருந்து மாறாமல் இருக்கும் தனித்த ஆற்றல் மட்டங்கள்",
+        "தனித்துவமான இடத்தில் உள்ள எலக்ட்ரான்களால் உருவாக்கப்பட்ட தொடர்ச்சியான ஆற்றல் மாறுபாடு கொண்ட வேறுபட்ட ஆற்றல் மட்டங்கள்",
+        "அனைத்து எலக்ட்ரான்களாலும் பகிரப்பட்ட ஒற்றை ஆற்றல் மட்டங்கள்",
+        "எலக்ட்ரான் இயக்கத்தைத் தடுக்கும் ஆற்றல் இடைவெளிகள்"
+      ],
+      "correct": 1,
+      "explanation": "Inside the crystal each electron has a unique position, and these different energy levels with continuous energy variation form what are called energy bands. | படிகத்தின் உள்ளே ஒவ்வொரு எலக்ட்ரானுக்கும் தனித்துவமான இடம் உள்ளது, இந்த வேறுபட்ட ஆற்றல் மட்டங்கள் தொடர்ச்சியான ஆற்றல் மாறுபாட்டுடன் ஆற்றல் பட்டைகளை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வேலன்ஸ் எலக்ட்ரான்களின் ஆற்றல் மட்டங்களை எந்த பட்டை உள்ளடக்கியது?",
+      "options": [
+        "கடத்தல் பட்டை",
+        "வேலன்ஸ் பட்டை",
+        "தடைபட்டை",
+        "ஃபெர்மி பட்டை"
+      ],
+      "correct": 1,
+      "explanation": "The energy band which includes the energy levels of the valence electrons is called the valence band. | வேலன்ஸ் எலக்ட்ரான்களின் ஆற்றல் மட்டங்களை உள்ளடக்கிய ஆற்றல் பட்டை வேலன்ஸ் பட்டை எனப்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வேலன்ஸ் பட்டைக்கு மேலே உள்ள ஆற்றல் பட்டை என்னவென்று அழைக்கப்படுகிறது?",
+      "options": [
+        "வேலன்ஸ் பட்டை",
+        "கடத்தல் பட்டை",
+        "ஆற்றல் இடைவெளி",
+        "தடைப்பகுதி"
+      ],
+      "correct": 1,
+      "explanation": "The energy band above the valence band is called the conduction band. | வேலன்ஸ் பட்டைக்கு மேலே உள்ள ஆற்றல் பட்டை கடத்தல் பட்டை எனப்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உலோகங்களில் வேலன்ஸ் பட்டையிலிருந்து எலக்ட்ரான்கள் எளிதாக கடத்தல் பட்டைக்கு நகர என்ன நிபந்தனை தேவை?",
+      "options": [
+        "கடத்தல் பட்டை முழுமையாக காலியாக இருக்கும்போது",
+        "கடத்தல் பட்டையின் கீழ்மட்டம் வேலன்ஸ் பட்டையின் உயர்மட்டத்தை விட குறைவாக இருக்கும்போது",
+        "பட்டைகளுக்கு இடையே பெரிய ஆற்றல் இடைவெளி இருக்கும்போது",
+        "வெப்பநிலை தனிம வெப்பநிலையில் இருக்கும்போது"
+      ],
+      "correct": 1,
+      "explanation": "If the lowest level in the conduction band happens to be lower than the highest level of the valence band, electrons from the valence band can easily move into the conduction band. This is the case with metallic conductors. | கடத்தல் பட்டையின் கீழ்மட்டம் வேலன்ஸ் பட்டையின் உயர்மட்டத்தை விட குறைவாக இருந்தால், வேலன்ஸ் பட்டையிலிருந்து எலக்ட்ரான்கள் எளிதாக கடத்தல் பட்டைக்கு நகரலாம். இது உலோகக் கடத்திகளில் நிகழ்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கடத்தல் பட்டை வேலன்ஸ் பட்டையுடன் மேலடுக்கு கொள்ளும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "எலக்ட்ரான்கள் வேலன்ஸ் பட்டையில் சிக்கிக்கொள்கின்றன",
+        "எலக்ட்ரான்கள் கடத்தல் பட்டைக்கு சுதந்திரமாக நகரலாம்",
+        "பொருள் காப்பியாக மாறுகிறது",
+        "அனைத்து எலக்ட்ரான்களும் தங்கள் ஆற்றலை இழக்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "When the conduction band overlaps on the valence band, electrons can move freely into it. This is the case with metallic conductors. | கடத்தல் பட்டை வேலன்ஸ் பட்டையுடன் மேலடுக்கு கொள்ளும்போது, எலக்ட்ரான்கள் அதில் சுதந்திரமாக நகரலாம். இது உலோகக் கடத்திகளில் நிகழ்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெளிப்புற ஆற்றல் இல்லாமல் தனிம வெப்பநிலையில் கடத்தல் பட்டையின் நிலை என்ன?",
+      "options": [
+        "எலக்ட்ரான்களால் பகுதியளவு நிரப்பப்பட்டுள்ளது",
+        "முழுமையாக காலியாக உள்ளது",
+        "வேலன்ஸ் பட்டையுடன் மேலடுக்கு கொண்டுள்ளது",
+        "அனைத்து வேலன்ஸ் எலக்ட்ரான்களையும் கொண்டுள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "Normally the conduction band is empty. With no external energy, all the valence electrons will reside in the valence band. | வழக்கமாக கடத்தல் பட்டை காலியாக இருக்கும். வெளிப்புற ஆற்றல் இல்லாமல், அனைத்து வேலன்ஸ் எலக்ட்ரான்களும் வேலன்ஸ் பட்டையில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "கடத்தல் பட்டைக்கும் வேலன்ஸ் பட்டைக்கும் இடையே இடைவெளி உள்ள பொருட்களில் கடத்தலுக்கான சாத்தியத்தை எது உருவாக்குகிறது?",
+      "options": [
+        "கடத்தல் பட்டையிலிருந்து வேலன்ஸ் பட்டைக்கு மட்டும் நகரும் எலக்ட்ரான்கள்",
+        "இடைவெளியைக் கடந்து கடத்தல் பட்டைக்கு நுழையும் எலக்ட்ரான்களும் வேலன்ஸ் பட்டையில் காலிகளை உருவாக்குவதும்",
+        "கடத்தல் பட்டையிலிருந்து வேலன்ஸ் பட்டைக்கு நகரும் குழிகள்",
+        "இரு பட்டைகளிலும் எலக்ட்ரான்களின் முழுமையான இல்லாமை"
+      ],
+      "correct": 1,
+      "explanation": "Some electrons from the valence band may gain external energy to cross the gap between the conduction band and the valence band. These electrons will move into the conduction band, and at the same time they will create vacant energy levels in the valence band where other valence electrons can move. | வேலன்ஸ் பட்டையிலிருந்து சில எலக்ட்ரான்கள் வெளிப்புற ஆற்றலைப் பெற்று கடத்தல் பட்டைக்கும் வேலன்ஸ் பட்டைக்கும் இடையே உள்ள இடைவெளியைக் கடந்து செல்லலாம். இந்த எலக்ட்ரான்கள் கடத்தல் பட்டைக்கு நகர்ந்து, வேலன்ஸ் பட்டையில் காலி ஆற்றல் மட்டங்களை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "N அணுக்களைக் கொண்ட Si அல்லது Ge படிகத்தில் மொத்த வெளிப்புற எலக்ட்ரான்களின் எண்ணிக்கை என்ன?",
+      "options": [
+        "N",
+        "2N",
+        "4N",
+        "8N"
+      ],
+      "correct": 2,
+      "explanation": "For Si and Ge, the number of electrons in the outermost orbit is 4. Hence, the total number of outer electrons in the crystal is 4N. | சிலிகான் மற்றும் ஜெர்மேனியத்திற்கு, வெளிப்புற வட்டணையில் உள்ள எலக்ட்ரான்களின் எண்ணிக்கை 4. எனவே, படிகத்தில் உள்ள மொத்த வெளிப்புற எலக்ட்ரான்களின் எண்ணிக்கை 4N ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si அல்லது Ge இன் வெளிப்புற வட்டணையில் இருக்கக்கூடிய அதிகபட்ச எலக்ட்ரான்களின் எண்ணிக்கை என்ன?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "explanation": "The maximum possible number of electrons in the outer orbit is 8 (2s + 6p electrons). | வெளிப்புற வட்டணையில் இருக்கக்கூடிய அதிகபட்ச எலக்ட்ரான்களின் எண்ணிக்கை 8 (2s + 6p எலக்ட்ரான்கள்)."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si அல்லது Ge படிகத்தில் 4N வேலன்ஸ் எலக்ட்ரான்களுக்கு எத்தனை கிடைக்கக்கூடிய ஆற்றல் நிலைகள் உள்ளன?",
+      "options": [
+        "4N",
+        "8N",
+        "2N",
+        "16N"
+      ],
+      "correct": 1,
+      "explanation": "For the 4N valence electrons there are 8N available energy states. | 4N வேலன்ஸ் எலக்ட்ரான்களுக்கு 8N கிடைக்கக்கூடிய ஆற்றல் நிலைகள் உள்ளன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si மற்றும் Ge படிகக் கட்டங்களில் அணுக்களுக்கு இடையே உள்ள எந்த தூரத்தில் ஆற்றல் பட்டைகள் பிரிகின்றன?",
+      "options": [
+        "மிகப் பெரிய தூரங்களில் மட்டுமே",
+        "Si மற்றும் Ge படிகக் கட்டங்களில் அணுக்களுக்கு இடையே உள்ள தூரத்தில்",
+        "அணுக்கள் ஒன்றையொன்று தொடும்போது மட்டுமே",
+        "அணுக்களுக்கு இடையே முடிவில்லாத தூரத்தில்"
+      ],
+      "correct": 1,
+      "explanation": "At the distance between the atoms in the crystal lattices of Si and Ge, the energy band of these 8N states is split apart into two which are separated by an energy gap Eg. | சிலிகான் மற்றும் ஜெர்மேனியம் படிகக் கட்டங்களில் அணுக்களுக்கு இடையே உள்ள தூரத்தில், இந்த 8N நிலைகளின் ஆற்றல் பட்டை இரண்டாகப் பிரிகிறது, அவை Eg ஆற்றல் இடைவெளியால் பிரிக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "தனிம வெப்பநிலையில் 4N வேலன்ஸ் எலக்ட்ரான்களால் முழுமையாக நிரப்பப்பட்ட கீழ் பட்டை என்னவென்று அழைக்கப்படுகிறது?",
+      "options": [
+        "கடத்தல் பட்டை",
+        "வேலன்ஸ் பட்டை",
+        "தடைபட்டை",
+        "ஆற்றல் இடைவெளி"
+      ],
+      "correct": 1,
+      "explanation": "The lower band which is completely occupied by the 4N valence electrons at temperature of absolute zero is the valence band. | தனிம வெப்பநிலையில் 4N வேலன்ஸ் எலக்ட்ரான்களால் முழுமையாக நிரப்பப்பட்ட கீழ் பட்டை வேலன்ஸ் பட்டை எனப்படும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "4N ஆற்றல் நிலைகளைக் கொண்ட மேல் பட்டை என்னவென்று அழைக்கப்படுகிறது?",
+      "options": [
+        "வேலன்ஸ் பட்டை",
+        "கடத்தல் பட்டை",
+        "தடைப்பகுதி",
+        "ஆற்றல் இடைவெளி"
+      ],
+      "correct": 1,
+      "explanation": "The other band consisting of 4N energy states, called the conduction band, is completely empty at absolute zero. | 4N ஆற்றல் நிலைகளைக் கொண்ட மற்றொரு பட்டை கடத்தல் பட்டை எனப்படும், இது தனிம வெப்பநிலையில் முழுமையாக காலியாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிகானின் வெளிப்புற வட்டணை எண் என்ன?",
+      "options": [
+        "n = 2",
+        "n = 3",
+        "n = 4",
+        "n = 5"
+      ],
+      "correct": 1,
+      "explanation": "For Si, the outermost orbit is the third orbit (n = 3). | சிலிகானுக்கு, வெளிப்புற வட்டணை மூன்றாவது வட்டணை (n = 3) ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஜெர்மேனியத்தின் வெளிப்புற வட்டணை எண் என்ன?",
+      "options": [
+        "n = 2",
+        "n = 3",
+        "n = 4",
+        "n = 5"
+      ],
+      "correct": 2,
+      "explanation": "For Ge, the outermost orbit is the fourth orbit (n = 4). | ஜெர்மேனியத்திற்கு, வெளிப்புற வட்டணை நான்காவது வட்டணை (n = 4) ஆகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "Si மற்றும் Ge இன் வெளிப்புற வட்டணையில் எத்தனை எலக்ட்ரான்கள் உள்ளன?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 1,
+      "explanation": "The number of electrons in the outermost orbit is 4 (2s and 2p electrons). | வெளிப்புற வட்டணையில் உள்ள எலக்ட்ரான்களின் எண்ணிக்கை 4 (2s மற்றும் 2p எலக்ட்ரான்கள்)."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "தனிம வெப்பநிலையில் கடத்தல் பட்டையின் நிலை என்ன?",
+      "options": [
+        "எலக்ட்ரான்களால் பகுதியளவு நிரப்பப்பட்டுள்ளது",
+        "முழுமையாக காலியாக உள்ளது",
+        "வேலன்ஸ் பட்டையுடன் மேலடுக்கு கொண்டுள்ளது",
+        "குழிகளால் நிரப்பப்பட்டுள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "The conduction band is completely empty at absolute zero. | கடத்தல் பட்டை தனிம வெப்பநிலையில் முழுமையாக காலியாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "படிகத்தில் அணுக்களுக்கு இடையே உள்ள தூரத்தைப் பொறுத்து 8N தனித்த ஆற்றல் மட்டங்களுக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "தூரத்தைப் பொருட்படுத்தாமல் எப்போதும் ஒற்றை தொடர்ச்சியான பட்டையை உருவாக்குகின்றன",
+        "தொடர்ச்சியான பட்டையை உருவாக்கலாம் அல்லது வெவ்வேறு பட்டைகளில் குழுவாக்கப்படலாம்",
+        "அருகாமை தூரங்களில் முழுமையாக மறைந்துவிடுகின்றன",
+        "தனித்த மட்டங்களாக மட்டுமே இருக்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "These 8N discrete energy levels can either form a continuous band or they may be grouped in different bands depending upon the distance between the atoms in the crystal. | இந்த 8N தனித்த ஆற்றல் மட்டங்கள் படிகத்தில் அணுக்களுக்கு இடையே உள்ள தூரத்தைப் பொறுத்து தொடர்ச்சியான பட்டையை உருவாக்கலாம் அல்லது வெவ்வேறு பட்டைகளில் குழுவாக்கப்படலாம்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "ஜெர்மேனியம் மற்றும் சிலிகானின் படிக அமைப்பு என்னவென்று அழைக்கப்படுகிறது?",
+      "options": [
+        "பொருள் மைய கனசதுர அமைப்பு",
+        "வைரம் போன்ற அமைப்பு",
+        "அறுகோண அடுக்கு அமைப்பு",
+        "முக மைய கனசதுர அமைப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The lattice structures of Ge and Si are called diamond-like structures. In this structure, each atom is surrounded by four nearest neighbors. | ஜெர்மேனியம் மற்றும் சிலிகானின் படிக அமைப்புகள் வைரம் போன்ற அமைப்புகள் என்று அழைக்கப்படுகின்றன. இந்த அமைப்பில் ஒவ்வொரு அணுவும் நான்கு அருகாமை அண்ட அணுக்களால் சூழப்பட்டிருக்கும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிகான் மற்றும் ஜெர்மேனியம் அணுக்களில் எத்தனை வெளிப்புற எலக்ட்ரான்கள் உள்ளன?",
+      "options": [
+        "2 வெளிப்புற எலக்ட்ரான்கள்",
+        "3 வெளிப்புற எலக்ட்ரான்கள்",
+        "4 வெளிப்புற எலக்ட்ரான்கள்",
+        "5 வெளிப்புற எலக்ட்ரான்கள்"
+      ],
+      "correct": 2,
+      "explanation": "Si and Ge atoms have four valence electrons each. These are shared with four nearest neighbor atoms to form covalent bonds. | சிலிகான் மற்றும் ஜெர்மேனியம் அணுக்கள் ஒவ்வொன்றும் நான்கு வெளிப்புற எலக்ட்ரான்களைக் கொண்டுள்ளன. இவை நான்கு அருகாமை அண்ட அணுக்களுடன் பகிர்ந்து கொள்ளப்பட்டு குணப்பிணைப்புகளை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிகான் அல்லது ஜெர்மேனியம் அணுக்கள் அண்ட அணுக்களுடன் தங்கள் வெளிப்புற எலக்ட்ரான்களை பகிர்ந்து கொள்ளும்போது எந்த வகை பிணைப்பு உருவாகிறது?",
+      "options": [
+        "அயனி பிணைப்பு",
+        "உலோக பிணைப்பு",
+        "குணப்பிணைப்பு",
+        "ஹைட்ரஜன் பிணைப்பு"
+      ],
+      "correct": 2,
+      "explanation": "The shared electron pairs between Si or Ge atoms and their neighbors form covalent bonds or valence bonds. These bonds hold the atoms together strongly. | சிலிகான் அல்லது ஜெர்மேனியம் அணுக்களும் அவற்றின் அண்ட அணுக்களும் பகிர்ந்து கொள்ளும் எலக்ட்ரான் ஜோடிகள் குணப்பிணைப்புகள் அல்லது வெளிப்புற பிணைப்புகளை உருவாக்குகின்றன. இந்த பிணைப்புகள் அணுக்களை வலுவாக ஒன்றாக வைத்திருக்கின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "எந்த நிபந்தனையில் உள்ளார்ந்த அரைக்கடத்தியின் அனைத்து குணப்பிணைப்புகளும் நிலையாக இருக்கும்?",
+      "options": [
+        "உயர் வெப்பநிலையில்",
+        "அறை வெப்பநிலையில்",
+        "குறைந்த வெப்பநிலையில்",
+        "வலுவான விண்மின் புலத்தின் கீழ்"
+      ],
+      "correct": 2,
+      "explanation": "At low temperatures, all covalent bonds in an intrinsic semiconductor remain intact. This is an idealized picture where no bonds are broken. | குறைந்த வெப்பநிலையில், உள்ளார்ந்த அரைக்கடத்தியின் அனைத்து குணப்பிணைப்புகளும் நிலையாக இருக்கும். இது எந்த பிணைப்பும் உடையாத ஒரு சித்தாந்த படமாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "வெப்பநிலை அதிகரிக்கும்போது உள்ளார்ந்த அரைக்கடத்தியில் குணப்பிணைப்புகளுக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "பிணைப்புகள் வலுவாகின்றன",
+        "சில எலக்ட்ரான்கள் பிணைப்புகளிலிருந்து விடுபடுகின்றன",
+        "பிணைப்புகள் அயனி பிணைப்புகளாக மாறுகின்றன",
+        "பிணைப்புகளின் எண்ணிக்கை இரட்டிப்பாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "As temperature increases, more thermal energy becomes available to electrons, and some electrons may break away from covalent bonds, becoming free electrons that contribute to conduction. | வெப்பநிலை அதிகரிக்கும்போது, எலக்ட்ரான்களுக்கு அதிக வெப்ப ஆற்றல் கிடைக்கிறது, மற்றும் சில எலக்ட்ரான்கள் குணப்பிணைப்புகளிலிருந்து விடுபட்டு கடத்தலுக்கு பங்களிக்கும் சுதந்திர எலக்ட்ரான்களாக மாறுகின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உள்ளார்ந்த அரைக்கடத்தியில் ஒரு சுதந்திர எலக்ட்ரான் குணப்பிணைப்பிலிருந்து வெளியேறும்போது என்ன உருவாகிறது?",
+      "options": [
+        "ஒரு புரோட்டான்",
+        "ஒரு நியூட்ரான்",
+        "பயனுள்ள நேர்மின் மின்னூட்டத்துடன் கூடிய ஒரு துளை",
+        "ஒரு அயனி பிணைப்பு"
+      ],
+      "correct": 2,
+      "explanation": "When a free electron leaves a covalent bond, it creates a vacancy with an effective positive charge (+q) called a hole. The hole behaves as an apparent free particle with effective positive charge. | ஒரு சுதந்திர எலக்ட்ரான் குணப்பிணைப்பிலிருந்து வெளியேறும்போது, அது +q என்ற பயனுள்ள நேர்மின் மின்னூட்டத்துடன் கூடிய ஒரு வெற்றிடத்தை உருவாக்குகிறது, இது துளை என்று அழைக்கப்படுகிறது. இந்த துளை பயனுள்ள நேர்மின் மின்னூட்டத்துடன் கூடிய ஒரு தெளிவான சுதந்திர துகளாக நடந்து கொள்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உள்ளார்ந்த அரைக்கடத்தியில் சுதந்திர எலக்ட்ரான்களின் எண்ணிக்கைக்கும் (ne) துளைகளின் எண்ணிக்கைக்கும் (nh) இடையேயான உறவு என்ன?",
+      "options": [
+        "ne > nh",
+        "ne < nh",
+        "ne = nh = ni",
+        "ne + nh = 0"
+      ],
+      "correct": 2,
+      "explanation": "In intrinsic semiconductors, the number of free electrons (ne) is equal to the number of holes (nh). This common value is called the intrinsic carrier concentration (ni). | உள்ளார்ந்த அரைக்கடத்திகளில், சுதந்திர எலக்ட்ரான்களின் எண்ணிக்கை (ne) துளைகளின் எண்ணிக்கைக்கு (nh) சமமாக இருக்கும். இந்த பொதுவான மதிப்பு உள்ளார்ந்த காரியர் செறிவு (ni) என்று அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரைக்கடத்தி படிகத்தில் துளை எவ்வாறு நகர்வது போல் தோன்றுகிறது?",
+      "options": [
+        "சுதந்திர எலக்ட்ரான் துளைக்குள் நகர்வதால்",
+        "அண்ட பிணைப்பிலிருந்து ஒரு எலக்ட்ரான் வெற்றிடத்தை நிரப்ப குதிப்பதால்",
+        "துளையே ஒரு துகளாக நகர்வதால்",
+        "வெப்ப கதிர்வீச்சு துளையை தள்ளுவதால்"
+      ],
+      "correct": 1,
+      "explanation": "A hole appears to move when an electron from a covalent bond at a neighboring site jumps to fill the vacant site (hole). After the jump, the hole is now at the neighboring site. | அண்ட தளத்தில் உள்ள குணப்பிணைப்பிலிருந்து ஒரு எலக்ட்ரான் வெற்றிடத்தை (துளை) நிரப்ப குதிக்கும்போது, துளை நகர்வது போல் தோன்றுகிறது. குதித்த பிறகு, துளை இப்போது அண்ட தளத்தில் உள்ளது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உள்ளார்ந்த அரைக்கடத்தியில் மொத்த மின்னோட்டம் (I) எதற்கு சமமாகும்?",
+      "options": [
+        "I = Ie - Ih",
+        "I = Ie + Ih",
+        "I = Ie * Ih",
+        "I = Ie / Ih"
+      ],
+      "correct": 1,
+      "explanation": "The total current I is the sum of the electron current (Ie) and the hole current (Ih). Both electrons and holes contribute to conduction under an applied electric field. | மொத்த மின்னோட்டம் I என்பது எலக்ட்ரான் மின்னோட்டம் (Ie) மற்றும் துளை மின்னோட்டம் (Ih) ஆகியவற்றின் கூட்டுத்தொகையாகும். விண்மின் புலத்தின் கீழ் எலக்ட்ரான்களும் துளைகளும் கடத்தலுக்கு பங்களிக்கின்றன."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உள்ளார்ந்த அரைக்கடத்தியில் சமநிலையில், காரியர்களின் உருவாக்க வீதத்திற்கும் மறுஇணைப்பு வீதத்திற்கும் இடையேயான உறவு என்ன?",
+      "options": [
+        "உருவாக்க வீதம் > மறுஇணைப்பு வீதம்",
+        "உருவாக்க வீதம் < மறுஇணைப்பு வீதம்",
+        "உருவாக்க வீதம் = மறுஇணைப்பு வீதம்",
+        "உருவாக்க வீதம் = 2 * மறுஇணைப்பு வீதம்"
+      ],
+      "correct": 2,
+      "explanation": "At equilibrium, the rate of generation of conduction electrons and holes is equal to the rate of recombination. Recombination occurs when an electron collides with a hole. | சமநிலையில், கடத்தல் எலக்ட்ரான்கள் மற்றும் துளைகளின் உருவாக்க வீதம் மறுஇணைப்பு வீதத்திற்கு சமமாக இருக்கும். ஒரு எலக்ட்ரான் துளையுடன் மோதும்போது மறுஇணைப்பு நிகழ்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "அரைக்கடத்தியில் துளையின் மின்னூட்டம் என்ன?",
+      "options": [
+        "எலக்ட்ரான் மின்னூட்டத்திற்கு சமமான எதிர்மின் மின்னூட்டம்",
+        "சுழிய மின்னூட்டம்",
+        "பயனுள்ள நேர்மின் மின்னூட்டம் (+q)",
+        "எலக்ட்ரான் மின்னூட்டத்தின் இரட்டிப்பு"
+      ],
+      "correct": 2,
+      "explanation": "A hole has an effective positive electronic charge (+q). It is created when an electron leaves a covalent bond, leaving behind a vacancy that behaves as a positive charge carrier. | அரைக்கடத்தியில் துளைக்கு பயனுள்ள நேர்மின் மின்னூட்டம் (+q) உள்ளது. ஒரு எலக்ட்ரான் குணப்பிணைப்பிலிருந்து வெளியேறும்போது, நேர்மின் காரியராக செயல்படும் ஒரு வெற்றிடத்தை விட்டுச்செல்கிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "விண்மின் புலத்தின் கீழ் துளைகளின் இயக்கத்தை சரியாக விவரிக்கும் கூற்று எது?",
+      "options": [
+        "துளைகள் நேர்மின் திறனை நோக்கி நகர்கின்றன",
+        "துளைகள் எதிர்மின் திறனை நோக்கி நகர்கின்றன",
+        "துளைகள் விண்மின் புலத்தின் கீழ் நகராது",
+        "துளைகள் விண்மின் புலத்திற்கு செங்குத்தாக நகர்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "Under the action of an electric field, holes move towards negative potential, giving rise to hole current (Ih). This is opposite to the direction of electron movement. | விண்மின் புலத்தின் செயல்பாட்டின் கீழ், துளைகள் எதிர்மின் திறனை நோக்கி நகர்கின்றன, இது துளை மின்னோட்டத்தை (Ih) உருவாக்குகிறது. இது எலக்ட்ரான் இயக்கத்தின் திசைக்கு எதிரானது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "மிதமான வெப்பநிலைகளில் உள்ளார்ந்த அரைக்கடத்தியில் சுதந்திர எலக்ட்ரான்கள் மற்றும் துளைகளின் உருவாக்கத்திற்கு என்ன காரணம்?",
+      "options": [
+        "வெளிப்புற விண்மின் புலம்",
+        "வெப்ப ஆற்றல்",
+        "காந்த புலம்",
+        "ஒளி ஆற்றல் மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "At moderate temperatures, thermal energy provides enough energy for some electrons to break away from covalent bonds, creating free electrons and holes. | மிதமான வெப்பநிலைகளில், வெப்ப ஆற்றல் சில எலக்ட்ரான்களுக்கு குணப்பிணைப்புகளிலிருந்து விடுபட போதுமான ஆற்றலை வழங்குகிறது, இது சுதந்திர எலக்ட்ரான்கள் மற்றும் துளைகளை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "உள்ளார்ந்த அரைக்கடத்திகளின் சூழலில் ni என்ற குறியீடு எதைக் குறிக்கிறது?",
+      "options": [
+        "உள்ளார்ந்த அணுக்களின் எண்ணிக்கை",
+        "உள்ளார்ந்த காரியர் செறிவு",
+        "உள்ளார்ந்த ஆற்றல் மட்டம்",
+        "மாசு அணுக்களின் எண்ணிக்கை"
+      ],
+      "correct": 1,
+      "explanation": "The symbol ni represents the intrinsic carrier concentration, which is the equal concentration of free electrons and holes in an intrinsic semiconductor at a given temperature. | ni என்ற குறியீடு உள்ளார்ந்த காரியர் செறிவைக் குறிக்கிறது, இது கொடுக்கப்பட்ட வெப்பநிலையில் உள்ளார்ந்த அரைக்கடத்தியில் சுதந்திர எலக்ட்ரான்கள் மற்றும் துளைகளின் சமமான செறிவாகும்."
+    },
+    {
+      "topic": "Chapter 14",
+      "question": "சிலிகான் அல்லது ஜெர்மேனியத்தின் குணப்பிணைப்பில் உள்ள இரண்டு பகிர்ந்த எலக்ட்ரான்களின் தன்மை என்ன?",
+      "options": [
+        "அவை இரண்டு அணுக்களுக்கு இடையில் நிலையாக இருக்கின்றன",
+        "அவை தொடர்புடைய அணுக்களுக்கு இடையில் முன்னும் பின்னுமாக நகர்கின்றன",
+        "அவை படிகம் முழுவதும் சுதந்திரமாக நகர்கின்றன",
+        "அவை முழுமையாக ஒரு அணுவிற்கு மாற்றப்படுகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "The two shared electrons in a covalent bond can be assumed to shuttle back-and-forth between the associated atoms, holding them together strongly. | குணப்பிணைப்பில் உள்ள இரண்டு பகிர்ந்த எலக்ட்ரான்கள் தொடர்புடைய அணுக்களுக்கு இடையில் முன்னும் பின்னுமாக நகர்வதாக கருதப்படலாம், இது அவற்றை வலுவாக ஒன்றாக வைத்திருக்கிறது."
+    }
+  ]
+}

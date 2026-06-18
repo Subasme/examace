@@ -1,0 +1,1933 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 10",
+    "chapterId": "chapter10",
+    "source": "Chapter10_QA_Tamil.xlsx",
+    "count": 160
+  },
+  "questions": [
+    {
+      "topic": "Chapter 10",
+      "question": "ரெனே டெகார்ட்ஸ் எந்த ஆண்டில் ஸ்நெல் விதியை வருவிப்பதற்காக முதன்முதலில் ஒளியின் துகள் மாதிரியை முன்மொழிந்தார்?",
+      "options": [
+        "1678",
+        "1687",
+        "1637",
+        "1850"
+      ],
+      "correct": 2,
+      "explanation": "Descartes proposed it in 1637. | டெகார்ட்ஸ் இதை 1637 இல் முன்மொழிந்தார்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "ஒளிவிலகலின் போது செங்குத்துக்கோட்டை நோக்கி ஒளி வளையும்போது ஒளியின் வேகம் பற்றி துகள் மாதிரி என்ன கணித்தது?",
+      "options": [
+        "Higher in second medium",
+        "Lower in second medium",
+        "Remain the same",
+        "Drop to zero"
+      ],
+      "correct": 0,
+      "explanation": "Predicted higher speed in second medium. | இரண்டாவது ஊடகத்தில் வேகம் அதிகமாக இருக்கும் என்று கணித்தது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "ஆப்டிக்ஸ் (OPTICKS) என்ற புத்தகத்தின் புகழ் காரணமாக ஒளியின் துகள் மாதிரி பெரும்பாலும் எந்த அறிவியலாளருக்குக் கற்பிக்கப்படுகிறது?",
+      "options": [
+        "Huygens",
+        "Descartes",
+        "Young",
+        "Newton"
+      ],
+      "correct": 3,
+      "explanation": "Attributed to Newton. | நியூட்டனுக்குக் கற்பிக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "டச்சு இயற்பியலாளர் கிறிஸ்டியன் ஹைஜென்ஸ் எந்த ஆண்டில் ஒளியின் அலைக் கொள்கையை முன்வைத்தார்?",
+      "options": [
+        "1637",
+        "1678",
+        "1850",
+        "1801"
+      ],
+      "correct": 1,
+      "explanation": "Huygens put it forward in 1678. | ஹைஜென்ஸ் இதை 1678 இல் முன்வைத்தார்."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "ஒளிவிலகலின் போது செங்குத்துக்கோட்டை நோக்கி ஒளி வளையும்போது ஒளியின் வேகம் பற்றி அலை மாதிரி என்ன எதிர்-கணிப்பைக் கூறியது?",
+      "options": [
+        "Higher in second medium",
+        "Less in second medium",
+        "Infinite",
+        "Zero"
+      ],
+      "correct": 1,
+      "explanation": "Predicted less speed in second medium. | இரண்டாவது ஊடகத்தில் வேகம் குறைவாக இருக்கும் என்று கணித்தது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "மாதிரி மோதலைத் தீர்ப்பதற்காக நீரில் ஒளியின் வேகத்தை அளவிடும் சோதனையை போக்கோ எந்த ஆண்டில் செய்தார்?",
+      "options": [
+        "1850",
+        "1801",
+        "1678",
+        "1887"
+      ],
+      "correct": 0,
+      "explanation": "Carried out in 1850. | 1850 இல் செய்யப்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "வெற்றிடத்தில் பரவுவது தொடர்பாக ஆரம்பத்தில் அலைக் கொள்கையை ஏற்றுக்கொள்வதற்கு இருந்த ஒரு பெரிய கருத்தியல் தடை என்ன?",
+      "options": [
+        "No reflection",
+        "Faster than corpuscles",
+        "Believed medium was required",
+        "No dispersion"
+      ],
+      "correct": 2,
+      "explanation": "Believed waves required a material medium. | அலைகளுக்குப் பருப்பொருள் ஊடகம் தேவை என்று நம்பப்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "ஒளியின் அலைப்பண்பை நிறுவ தாமஸ் யங் தனது குறுக்கீட்டு விளைவு சோதனையை எந்த ஆண்டில் செய்தார்?",
+      "options": [
+        "1850",
+        "1678",
+        "1860",
+        "1801"
+      ],
+      "correct": 3,
+      "explanation": "Performed in 1801. | 1801 இல் செய்யப்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "ஜேம்ஸ் கிளார்க் மேக்ஸ்வெல் எந்த தசாப்தத்தில் ஒளியின் மின்காந்த அலைக் கொள்கையை உருவாக்கினார்?",
+      "options": [
+        "1800s",
+        "1860s",
+        "1760s",
+        "1900s"
+      ],
+      "correct": 1,
+      "explanation": "Developed in 1860s. | 1860களில் உருவாக்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "மேக்ஸ்வெல்லின் மின்காந்த சூத்திரத்தின்படி, வெற்றிடத்தில் பரவும் ஒளி அலைகளை உருவாக்குவது எது?",
+      "options": [
+        "Oscillating fields",
+        "Mechanical corpuscles",
+        "Ether vibrations",
+        "Static charges"
+      ],
+      "correct": 0,
+      "explanation": "Consists of oscillating electric and magnetic fields. | அதிர்வுறும் மின் மற்றும் காந்தப்புலங்களைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 2 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 3 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 4 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 5 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 6 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 7 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 8 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 9 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 10 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 11 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 12 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 13 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 14 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 15 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Locus of identical phase",
+        "Varying wave axis",
+        "Zero frequency loop",
+        "Maximum reflection node"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Wavefront phase parameters analysis. | அலைமுகப்பு கட்ட அளவுருக்கள் பகுப்பாய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Speed of wavefront propagation",
+        "Group packet velocity",
+        "Thermal wave index",
+        "Static density constant"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Phase velocity variations across margins. | எல்லைகளில் கட்ட திசைவேக மாற்றங்கள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Spherical distribution map",
+        "Cylindrical contour",
+        "Flat layer structure",
+        "Asymmetric axis grid"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Point source isotropic wave outlines. | புள்ளி மூல ஐசோட்ரோபிக் அலை கோடுகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Perpendicular alignment",
+        "Tangential interface",
+        "Parallel alignment",
+        "Oblique convergence line"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Geometric orientation of rays to fields. | புலங்களுக்கு கதிர்களின் வடிவியல் நோக்குநிலை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cylindrical configurations",
+        "Spherical profiles",
+        "Toroidal structures",
+        "Planar wave sheets"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Line source geometry profiles evaluation. | நேர்க்கோடு மூல வடிவியல் சுயவிவரங்கள் மதிப்பீடு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Plane wave approximations",
+        "Hyperbolic paths",
+        "Conical segments",
+        "Parabolic tracking"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Infinite distance wavefront transformations study. | முடிவிலா தொலைவு அலைமுகப்பு மாற்றங்கள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Constant net power over area",
+        "Amplifying core values",
+        "Step loss quantization",
+        "Logarithmic decay factor"
+      ],
+      "correct": 2,
+      "explanation": "Evaluates core parameters of Energy distribution behavior of expanding sheets. | விரிவடையும் தாள்களின் ஆற்றல் விநியோக நடத்தை இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Source of new disturbances",
+        "Reflected phase boundary",
+        "Static nodal anchor",
+        "Absorbing focal core"
+      ],
+      "correct": 3,
+      "explanation": "Evaluates core parameters of Huygens secondary wavelet disturbance properties. | ஹைஜென்ஸ் இரண்டாம் நிலை சிற்றலை இடையூறு பண்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "New wavefront locus",
+        "Backward trace target",
+        "Static origin coordinate",
+        "Focal convergence point"
+      ],
+      "correct": 0,
+      "explanation": "Evaluates core parameters of Forward tangent envelope principles review. | முன்னோக்கிய தொடுகோட்டு உறை கொள்கைகள் ஆய்வு இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    },
+    {
+      "topic": "Chapter 10",
+      "question": "பக்கம் 16 இன் கருத்துக்களைப் பொறுத்து, மாலஸ் விதி கோணச் சார்பு சார்புகள் மூலம் சரிபார்க்கப்பட்ட முக்கியக் கொள்கையைக் கண்டறியவும்.",
+      "options": [
+        "Cosine square correlation",
+        "Sine direct profile",
+        "Tangent ratio linear",
+        "Independent phase tracker"
+      ],
+      "correct": 1,
+      "explanation": "Evaluates core parameters of Malus law angular dependency functions. | மாலஸ் விதி கோணச் சார்பு சார்புகள் இன் முக்கிய அளவுருக்களை மதிப்பிடுகிறது."
+    }
+  ]
+}

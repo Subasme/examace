@@ -1,0 +1,2293 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 11",
+    "chapterId": "chapter11",
+    "source": "Chapter11_QA_Tamil.xlsx",
+    "count": 190
+  },
+  "questions": [
+    {
+      "topic": "Chapter 11",
+      "question": "உலோக மேற்பரப்பிலிருந்து துறை உமிழ்வுக்கு தேவைப்படும் மின்புல வலிமையின் வரிசை என்ன?",
+      "options": [
+        "10^6 V/m",
+        "10^8 V/m",
+        "10^4 V/m",
+        "10^10 V/m"
+      ],
+      "correct": 1,
+      "explanation": "Field emission requires a very strong electric field of the order of 10^8 V/m to pull electrons out of the metal, as in a spark plug. | துறை உமிழ்வுக்கு மிகவும் வலுவான மின்புலம் 10^8 V/m வரிசையில் தேவைப்படுகிறது, இது ஒரு ஸ்பார்க் ப்ளக் போல் மின்னணுக்களை உலோகத்திலிருந்து வெளியே இழுக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பொருத்தமான அதிர்வெண் கொண்ட ஒளி உலோக மேற்பரப்பை பிரகாசிக்கும் போது வெளியேற்றப்படும் மின்னணுக்கள் என்ன அழைக்கப்படுகின்றன?",
+      "options": [
+        "வெப்ப மின்னணுக்கள்",
+        "துறை மின்னணுக்கள்",
+        "ஒளிமின்னணுக்கள்",
+        "காதோட் கதிர்கள்"
+      ],
+      "correct": 2,
+      "explanation": "When light of suitable frequency illuminates a metal surface, the emitted electrons are called photoelectrons. These are photo-generated electrons. | பொருத்தமான அதிர்வெண்ணைக் கொண்ட ஒளி ஒரு உலோக மேற்பரப்பை பிரகாசிக்கும் போது, வெளியேற்றப்படும் மின்னணுக்கள் ஒளிமின்னணுக்கள் என்று அழைக்கப்படுகின்றன. இவை ஒளியால் உருவாக்கப்பட்ட மின்னணுக்கள் ஆகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஹெய்ன்ரிச் ஹெர்ட்ஸ் ஒளிமின் விளைவு நிகழ்வை எந்த ஆண்டு கண்டுபிடித்தார்?",
+      "options": [
+        "1885",
+        "1886",
+        "1887",
+        "1897"
+      ],
+      "correct": 2,
+      "explanation": "The phenomenon of photoelectric emission was discovered in 1887 by Heinrich Hertz during his electromagnetic wave experiments. | ஒளிமின் விளைவு நிகழ்வு 1887-ல் ஹெய்ன்ரிச் ஹெர்ட்ஸ் அவர்களால் அவரது மின்காந்த அலை சோதனைகளின் போது கண்டுபிடிக்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரு ஆர்க் விளக்கிலிருந்து புறஊதா ஒளி உமிழ்ப்பான தகட்டை பிரகாசிக்கும் போது ஹெர்ட்ஸ் என்ன கவனித்தார்?",
+      "options": [
+        "மின்னோட்டம் குறைந்தது",
+        "கண்டறிவான் வளையத்தின் குறுகே உயர்மின்னழுத்த தீப்பொறிகள் அதிகரித்தன",
+        "எந்த மாற்றமும் ஏற்படவில்லை",
+        "வெப்பநிலை அதிகரித்தது"
+      ],
+      "correct": 1,
+      "explanation": "Hertz observed that high voltage sparks across the detector loop were enhanced when the emitter plate was illuminated by ultraviolet light from an arc lamp. | ஒரு ஆர்க் விளக்கிலிருந்து புறஊதா ஒளி உமிழ்ப்பான தகட்டை பிரகாசிக்கும் போது, கண்டறிவான் வளையத்தின் குறுகே உயர்மின்னழுத்த தீப்பொறிகள் அதிகரித்ததை ஹெர்ட்ஸ் கவனித்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவின்படி ஒளி உலோக மேற்பரப்பில் விழும் போது என்ன நடக்கிறது?",
+      "options": [
+        "மின்னணுக்கள் ஆற்றலை உறிஞ்சி உலோக மேற்பரப்பிலிருந்து தப்பிக்கின்றன",
+        "மின்னணுக்கள் ஆற்றலை இழந்து கட்டப்பட்டே இருக்கின்றன",
+        "உலோக மேற்பரப்பு எதிர்மின்னேற்றம் அடைகிறது",
+        "உலோகத்தின் வெப்பநிலை குறைகிறது"
+      ],
+      "correct": 0,
+      "explanation": "When light falls on a metal surface, some electrons near the surface absorb enough energy from the incident radiation to overcome the attraction of positive ions and escape from the surface. | ஒளி ஒரு உலோக மேற்பரப்பில் விழும் போது, மேற்பரப்பிற்கு அருகிலுள்ள சில மின்னணுக்கள் படும் கதிர்வீச்சிலிருந்து போதுமான ஆற்றலை உறிஞ்சி, நேர்மின் அயனிகளின் ஈர்ப்பை மீறி மேற்பரப்பிலிருந்து தப்பிக்கின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "வில்ஹெல்ம் ஹால்வாக்ஸ் மற்றும் பிலிப் லெனார்ட் ஒளிமின் விளைவை எந்த காலகட்டத்தில் ஆராய்ந்தனர்?",
+      "options": [
+        "1880-1885",
+        "1886-1902",
+        "1890-1900",
+        "1900-1910"
+      ],
+      "correct": 1,
+      "explanation": "Wilhelm Hallwachs and Philipp Lenard investigated the phenomenon of photoelectric emission in detail during 1886-1902. | வில்ஹெல்ம் ஹால்வாக்ஸ் மற்றும் பிலிப் லெனார்ட் 1886-2002 காலகட்டத்தில் ஒளிமின் விளைவு நிகழ்வை விரிவாக ஆராய்ந்தனர்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "வெற்றிட கண்ணாடிக் குழாயின் உமிழ்ப்பான தகட்டில் புறஊதா கதிர்வீச்சுகள் விழும் போது லெனார்ட் என்ன கவனித்தார்?",
+      "options": [
+        "மின்னோட்டம் பாயவில்லை",
+        "சுற்றில் மின்னோட்டம் பாய்ந்தது",
+        "குழாய் உடைந்தது",
+        "மின்முனைகள் உருகின"
+      ],
+      "correct": 1,
+      "explanation": "Lenard observed that when ultraviolet radiations fell on the emitter plate of an evacuated glass tube, current flowed in the circuit. When UV radiations stopped, current also stopped. | லெனார்ட் கவனித்தபடி, வெற்றிட கண்ணாடிக் குழாயின் உமிழ்ப்பான தகட்டில் புறஊதா கதிர்வீச்சுகள் விழும் போது, சுற்றில் மின்னோட்டம் பாய்ந்தது. புறஊதா கதிர்வீச்சுகள் நிறுத்தப்பட்டபோது, மின்னோட்டமும் நிறுத்தப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1888-ல் எதிர்மின் ஏற்றம் கொண்ட துத்தநாகத் தகடு புறஊதா ஒளியால் பிரகாசிக்கப்பட்டபோது ஹால்வாக்ஸ் என்ன கவனித்தார்?",
+      "options": [
+        "தகடு அதிக எதிர்மின் ஏற்றத்தைப் பெற்றது",
+        "துத்தநாகத் தகடு தன் மின்னேற்றத்தை இழந்தது",
+        "தகடு நடுநிலையானது",
+        "எந்த மாற்றமும் ஏற்படவில்லை"
+      ],
+      "correct": 1,
+      "explanation": "Hallwachs observed that the zinc plate lost its charge when it was illuminated by ultraviolet light. This indicated emission of negatively charged particles. | ஹால்வாக்ஸ் கவனித்தபடி, புறஊதா ஒளியால் பிரகாசிக்கப்பட்டபோது துத்தநாகத் தகடு தன் மின்னேற்றத்தை இழந்தது. இது எதிர்மின் ஏற்றம் கொண்ட துகள்களின் உமிழ்வைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மின்னேற்றமற்ற துத்தநாகத் தகடு புறஊதா ஒளியால் கதிரியக்கப்பட்டபோது என்ன நடந்தது?",
+      "options": [
+        "அது மின்னேற்றமற்றதாகவே இருந்தது",
+        "அது எதிர்மின் ஏற்றம் அடைந்தது",
+        "அது நேர்மின் ஏற்றம் அடைந்தது",
+        "அது மின்னணுக்களை இழந்தது"
+      ],
+      "correct": 2,
+      "explanation": "The uncharged zinc plate became positively charged when irradiated by ultraviolet light, because negatively charged particles (electrons) were emitted from it. | மின்னேற்றமற்ற துத்தநாகத் தகடு புறஊதா ஒளியால் கதிரியக்கப்பட்டபோது நேர்மின்னேற்றம் அடைந்தது, ஏனெனில் எதிர்மின் ஏற்றம் கொண்ட துகள்கள் (மின்னணுக்கள்) அதிலிருந்து வெளியேற்றப்பட்டன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "உமிழ்ப்பான தகட்டிலிருந்து மின்னணுக்கள் வெளியேறாத குறைந்தபட்ச அதிர்வெண்ணுக்கு என்ன பெயர்?",
+      "options": [
+        "வெட்டு அதிர்வெண்",
+        "திறநிலை அதிர்வெண்",
+        "ஒத்ததிர்வு அதிர்வெண்",
+        "மாறுநிலை அதிர்வெண்"
+      ],
+      "correct": 1,
+      "explanation": "The minimum frequency below which no electrons are emitted is called the threshold frequency. This minimum frequency depends on the nature of the material of the emitter. | உமிழ்ப்பான தகட்டிலிருந்து மின்னணுக்கள் வெளியேறாத குறைந்தபட்ச அதிர்வெண் திறநிலை அதிர்வெண் என்று அழைக்கப்படுகிறது. இந்த குறைந்தபட்ச அதிர்வெண் உமிழ்ப்பானின் பொருளின் தன்மையைப் பொறுத்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பின்வரும் உலோகங்களில் எவை மின்னணு உமிழ்வுக்கு புறஊதா ஒளிக்கு மட்டுமே பதிலளிக்கின்றன?",
+      "options": [
+        "லித்தியம் மற்றும் சோடியம்",
+        "துத்தநாகம், காட்மியம், மற்றும் மக்னீசியம்",
+        "பொட்டாசியம் மற்றும் சீசியம்",
+        "ருபிடியம் மற்றும் செம்பு"
+      ],
+      "correct": 1,
+      "explanation": "Certain metals like zinc, cadmium, and magnesium responded only to ultraviolet light having short wavelength to cause electron emission from the surface. | துத்தநாகம், காட்மியம், மற்றும் மக்னீசியம் போன்ற சில உலோகங்கள் மின்னணு உமிழ்வை ஏற்படுத்த குறைந்த அலைநீளம் கொண்ட புறஊதா ஒளிக்கு மட்டுமே பதிலளிக்கின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பின்வரும் கார உலோகங்களில் எவை ஒளிமின் உமிழ்வுக்கு கண்ணுக்குத் தெரியும் ஒளிக்கும் உணர்வுள்ளவை?",
+      "options": [
+        "துத்தநாகம் மற்றும் காட்மியம்",
+        "லித்தியம், சோடியம், பொட்டாசியம், சீசியம், மற்றும் ருபிடியம்",
+        "மக்னீசியம் மற்றும் கால்சியம்",
+        "இரும்பு மற்றும் செம்பு"
+      ],
+      "correct": 1,
+      "explanation": "Some alkali metals such as lithium, sodium, potassium, caesium, and rubidium were sensitive even to visible light for photoelectric emission. | லித்தியம், சோடியம், பொட்டாசியம், சீசியம், மற்றும் ருபிடியம் போன்ற சில கார உலோகங்கள் ஒளிமின் உமிழ்வுக்கு கண்ணுக்குத் தெரியும் ஒளிக்கும் உணர்வுள்ளவையாக இருந்தன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மின்னணு கண்டுபிடிக்கப்பட்ட ஆண்டு எது, இது ஒளி மின்னணு உமிழ்வை ஏற்படுத்துகிறது என்பதை தெளிவுபடுத்தியது?",
+      "options": [
+        "1887",
+        "1895",
+        "1897",
+        "1902"
+      ],
+      "correct": 2,
+      "explanation": "After the discovery of the electron in 1897 by J.J. Thomson, it became evident that incident light causes electrons to be emitted from the emitter plate. | 1897-ல் J.J. தாம்சனால் மின்னணு கண்டுபிடிக்கப்பட்ட பிறகு, படும் ஒளி உமிழ்ப்பான தகட்டிலிருந்து மின்னணுக்களை வெளியேற்றுவதை ஒளிமின் விளைவு ஏற்படுத்துகிறது என்பது தெளிவானது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "வெளியேற்றப்பட்ட மின்னணுக்கள் மின்புலத்தால் எந்த தகட்டை நோக்கி தள்ளப்படுகின்றன?",
+      "options": [
+        "உமிழ்ப்பான் தகடு C",
+        "எதிர்மின் தகடு",
+        "சேகரிப்பான் தகடு A",
+        "தரை தகடு"
+      ],
+      "correct": 2,
+      "explanation": "Due to negative charge, the emitted electrons are pushed towards the collector plate A by the electric field. | எதிர்மின் ஏற்றத்தின் காரணமாக, வெளியேற்றப்பட்ட மின்னணுக்கள் மின்புலத்தால் சேகரிப்பான் தகடு A-க்கு நோக்கி தள்ளப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "புறஊதா ஒளியின் கீழ் துத்தநாகத் தகட்டிலிருந்து வெளியேற்றப்பட்ட துகள்களின் தன்மை என்ன?",
+      "options": [
+        "நேர்மின் ஏற்றம் கொண்ட துகள்கள்",
+        "நடுநிலை துகள்கள்",
+        "எதிர்மின் ஏற்றம் கொண்ட துகள்கள்",
+        "ஒளிமின் துகள்கள்"
+      ],
+      "correct": 2,
+      "explanation": "Hallwachs concluded that negatively charged particles were emitted from the zinc plate under the action of ultraviolet light. These were later identified as electrons. | புறஊதா ஒளியின் செயல்பாட்டின் கீழ் துத்தநாகத் தகட்டிலிருந்து எதிர்மின் ஏற்றம் கொண்ட துகள்கள் வெளியேற்றப்படுகின்றன என்று ஹால்வாக்ஸ் முடிவு செய்தார். இவை பின்னர் மின்னணுக்கள் என அடையாளம் காணப்பட்டன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரு குறிப்பிட்ட ஒளிமின் உணர்வுப்பொருளுக்கு, எதிரொளிர்வு கதிர்வீச்சின் அலைவெண்ணுடன் நிறுத்தும் திறன் V0 எவ்வாறு மாறுகிறது?",
+      "options": [
+        "அலைவெண்ணுடன் அதிசய வளைவாக மாறுகிறது",
+        "அலைவெண்ணுடன் நேர்கோட்டு வகையில் மாறுகிறது",
+        "அலைவெண்ணுடன் எதிர்விகிதமாக மாறுகிறது",
+        "அலைவெண்ணைப் பொறுத்து சார்பற்றதாக இருக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "The graph between stopping potential and frequency of incident radiation shows a straight line. This indicates that the stopping potential V0 varies linearly with the frequency of incident radiation for a given photosensitive material. | ஒரு குறிப்பிட்ட ஒளிமின் உணர்வுப்பொருளுக்கு நிறுத்தும் திறன் V0 எதிரொளிர்வு அலைவெண்ணுடன் நேர்கோட்டு வகையில் மாறுகிறது. இது வரைபடத்தில் ஒரு நேர்கோடாகக் காட்டப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எதிரொளிர்வு ஒளியின் தீவிரம் எவ்வளவு அதிகமாக இருந்தாலும், ஒளிமின் உமிழ்வு இல்லாத குறைந்தபட்ச வெட்டு அலைவெண்ணை என்ன அழைக்கிறோம்?",
+      "options": [
+        "வாசல் அலைநீளம்",
+        "வாசல் அலைவெண்",
+        "ஒத்திசைவு அலைவெண்",
+        "வெட்டு மின்னழுத்தம்"
+      ],
+      "correct": 1,
+      "explanation": "The minimum cut-off frequency is called the threshold frequency (ν0). Below this frequency, no photoelectric emission is possible even if the intensity of incident light is very large. This threshold frequency is different for different metals. | குறைந்தபட்ச வெட்டு அலைவெண் வாசல் அலைவெண் (ν0) எனப்படும். இந்த அலைவெண்ணுக்குக் கீழே, எதிரொளிர்வு ஒளியின் தீவிரம் எவ்வளவு அதிகமாக இருந்தாலும் ஒளிமின் உமிழ்வு இருக்காது. இது வெவ்வேறு உலோகங்களுக்கு வேறுபடும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரு குறிப்பிட்ட எதிரொளிர்வு கதிர்வீச்சு அலைவெண்ணுக்கு, ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றல் எதிரொளிர்வு கதிர்வீச்சின் தீவிரத்தை எவ்வாறு சார்ந்திருக்கிறது?",
+      "options": [
+        "தீவிரத்துடன் அதிகரிக்கிறது",
+        "தீவிரத்துடன் குறைகிறது",
+        "தீவிரத்தைப் பொறுத்து சார்பற்றதாக இருக்கிறது",
+        "தீவிரத்துடன் அதிசய வகையில் மாறுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "The maximum kinetic energy of photoelectrons depends on the frequency of incident radiation (through the stopping potential) but is independent of the intensity of incident radiation. Increasing intensity only increases the number of photoelectrons emitted, not their individual kinetic energies. | ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றல் எதிரொளிர்வு அலைவெண்ணைப் பொறுத்தது (நிறுத்தும் திறன் வழியாக), ஆனால் எதிரொளிர்வு கதிர்வீச்சின் தீவிரத்தைப் பொறுத்தது அல்ல. தீவிரத்தை அதிகரிப்பது வெளியேறும் மின்னணுக்களின் எண்ணிக்கையை மட்டுமே அதிகரிக்கும், அவற்றின் தனித்துவமான இயக்க ஆற்றல்களை அல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பின்வரும் ஒளிமின் உணர்வுப்பொருட்களில் ஒளிக்கு அதிக உணர்திறன் கொண்டது எது?",
+      "options": [
+        "துத்தநாகம்",
+        "செப்பு",
+        "செலீனியம்",
+        "அலுமினியம்"
+      ],
+      "correct": 2,
+      "explanation": "Selenium is more sensitive than zinc or copper to light. Different photosensitive materials respond differently to light of different wavelengths. Selenium has a lower threshold frequency and can respond to visible light more effectively. | செலீனியம் துத்தநாகம் அல்லது செப்பை விட ஒளிக்கு அதிக உணர்திறன் கொண்டது. வெவ்வேறு ஒளிமின் உணர்வுப்பொருட்கள் வெவ்வேறு அலைநீளங்களின் ஒளிக்கு வெவ்வேறு விதமாக பதிலளிக்கின்றன. செலீனியத்திற்கு குறைந்த வாசல் அலைவெண் உள்ளது மற்றும் காணக்கூடிய ஒளிக்கு மிகவும் பயனுள்ளதாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எதிரொளிர்வு கதிர்வீச்சின் அலைவெண் வாசல் அலைவெண்ணுக்குக் கீழ் இருக்கும்போது ஒளிமின் உமிழ்வுக்கு என்ன நடக்கிறது?",
+      "options": [
+        "குறைந்த இயக்க ஆற்றலுடன் உமிழ்வு நிகழ்கிறது",
+        "தீவிரம் மிக அதிகமாக இருந்தால் மட்டுமே உமிழ்வு நிகழ்கிறது",
+        "தீவிரம் எவ்வளவு அதிகமாக இருந்தாலும் ஒளிமின் உமிழ்வு இல்லை",
+        "தாமதமான நேர இடைவெளியுடன் உமிழ்வு நிகழ்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "For a frequency of incident radiation lower than the cut-off frequency (threshold frequency), no photoelectric emission is possible even if the intensity is large. This is one of the fundamental observations that classical wave theory cannot explain. | எதிரொளிர்வு கதிர்வீச்சின் அலைவெண் வெட்டு அலைவெண்ணை (வாசல் அலைவெண்) விட குறைவாக இருக்கும்போது, தீவிரம் எவ்வளவு அதிகமாக இருந்தாலும் ஒளிமின் உமிழ்வு இருக்காது. இது செவ்வியல் அலைக் கோட்பாடு விளக்க முடியாத அடிப்படை கண்டறிதல்களில் ஒன்று."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "வாசல் அலைவெண்ணுக்கு மேல் உள்ள ஒரு குறிப்பிட்ட ஒளிமின் உணர்வுப்பொருளுக்கும் அலைவெண்ணுக்கும், ஒளிமின் மின்னோட்டம் எதிரொளிர்வு ஒளியின் தீவிரத்துடன் எவ்வாறு மாறுகிறது?",
+      "options": [
+        "தீவிரத்துடன் எதிர்விகிதமாக மாறுகிறது",
+        "தீவிரத்துடன் நேரடி விகிதமாக மாறுகிறது",
+        "தீவிரத்துடன் அதிசய வகையில் மாறுகிறது",
+        "தீவிரத்தைப் பொறுத்து சார்பற்றதாக இருக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "For a given photosensitive material and frequency of incident radiation (above the threshold frequency), the photoelectric current is directly proportional to the intensity of incident light. Higher intensity means more photons incident per unit time, leading to more photoelectrons emitted per second. | ஒரு குறிப்பிட்ட ஒளிமின் உணர்வுப்பொருளுக்கும் வாசல் அலைவெண்ணுக்கு மேல் உள்ள எதிரொளிர்வு கதிர்வீச்சின் அலைவெண்ணுக்கும், ஒளிமின் மின்னோட்டம் எதிரொளிர்வு ஒளியின் தீவிரத்திற்கு நேரடியாக விகிதாசாரமாகும். அதிக தீவிரம் என்பது ஒரு அலகு நேரத்தில் அதிக ஒளியனுக்கள் விழுவதைக் குறிக்கிறது, இது ஒரு வினாடிக்கு அதிக ஒளிமின் மின்னணுக்கள் வெளியேறுவதை விளைவிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எதிரொளிர்வு கதிர்வீச்சின் அலைவெண் வாசல் அலைவெண்ணை மீறும்போது, ஒளிமின் உமிழ்வு தொடங்க தோராயமான நேர இடைவெளி என்ன?",
+      "options": [
+        "10^-3 வினாடிகள்",
+        "10^-6 வினாடிகள்",
+        "10^-9 வினாடிகள் அல்லது அதற்கும் குறைவு",
+        "10^-12 வினாடிகள்"
+      ],
+      "correct": 2,
+      "explanation": "If the frequency of incident radiation exceeds the threshold frequency, the photoelectric emission starts instantaneously without any apparent time lag, even if the incident radiation is very dim. It is now known that emission starts in a time of the order of 10^-9 seconds or less. | எதிரொளிர்வு கதிர்வீச்சின் அலைவெண் வாசல் அலைவெண்ணை மீறும்போது, ஒளிமின் உமிழ்வு உடனடியாகத் தொடங்குகிறது, எதிரொளிர்வு கதிர்வீச்சு மிகவும் மங்கலாக இருந்தாலும் எந்தவிதமான தெளிவான நேரத் தாமதமும் இல்லாமல். இது 10^-9 வினாடிகள் அல்லது அதற்கும் குறைவான நேரத்தில் தொடங்குகிறது என்று தற்போது அறியப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "செப்பில் ஒளிமின் விளைவை ஏற்படுத்தாத ஒளி நிறம் எது?",
+      "options": [
+        "புறஊதா ஒளி",
+        "பச்சை ஒளி",
+        "ஊதா ஒளி",
+        "நீல ஒளி"
+      ],
+      "correct": 1,
+      "explanation": "Ultraviolet light gives rise to photoelectric effect in copper while green or red light does not. This is because green and red light have frequencies below the threshold frequency for copper. Copper requires higher frequency (shorter wavelength) ultraviolet radiation to cause photoelectric emission. | புறஊதா ஒளி செப்பில் ஒளிமின் விளைவை ஏற்படுத்துகிறது, ஆனால் பச்சை அல்லது சிவப்பு ஒளி அப்படி இல்லை. இது பச்சை மற்றும் சிவப்பு ஒளிக்கு செப்பின் வாசல் அலைவெண்ணுக்குக் கீழ் அலைவெண் உள்ளதால். செப்பில் ஒளிமின் உமிழ்வை ஏற்படுத்த அதிக அலைவெண் (குறைந்த அலைநீளம்) புறஊதா கதிர்வீச்சு தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பரவச மின்னோட்டம் மற்றும் எதிரொளிர்வு கதிர்வீச்சின் தீவிரத்திற்கு இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "பரவச மின்னோட்டம் தீவிரத்துடன் எதிர்விகிதமாகும்",
+        "பரவச மின்னோட்டம் தீவிரத்துடன் விகிதாசாரமாகும்",
+        "பரவச மின்னோட்டம் தீவிரத்தைப் பொறுத்து சார்பற்றதாகும்",
+        "பரவச மின்னோட்டம் அதிகரிக்கும் தீவிரத்துடன் குறைகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Saturation current is found to be proportional to the intensity of incident radiation. Saturation current corresponds to the case when all the photoelectrons emitted by the emitter plate reach the collector plate. Higher intensity means more photons, which means more electrons can be emitted, leading to higher saturation current. | பரவச மின்னோட்டம் எதிரொளிர்வு கதிர்வீச்சின் தீவிரத்திற்கு விகிதாசாரமாக இருக்கிறது. பரவச மின்னோட்டம் என்பது உமிழ்ப்பான தகட்டால் வெளியேற்றப்படும் அனைத்து ஒளிமின் மின்னணுக்களும் சேகரிப்பான தகட்டை அடையும் நிலைக்கு ஒத்ததாகும். அதிக தீவிரம் என்பது அதிக ஒளியனுக்கள், இது அதிக மின்னணுக்கள் வெளியேற்றப்படலாம் என்பதைக் குறிக்கிறது, இது அதிக பரவச மின்னோட்டத்திற்கு வழிவகுக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரு குறிப்பிட்ட எதிரொளிர்வு ஒளியின் அலைவெண்ணுக்கு, நிறுத்தும் திறன் எதிரொளிர்வு கதிர்வீச்சின் தீவிரத்தை எவ்வாறு சார்ந்திருக்கிறது?",
+      "options": [
+        "தீவிரம் அதிகரிக்கும்போது நிறுத்தும் திறன் அதிகரிக்கிறது",
+        "தீவிரம் அதிகரிக்கும்போது நிறுத்தும் திறன் குறைகிறது",
+        "நிறுத்தும் திறன் தீவிரத்தைப் பொறுத்து சார்பற்றதாக இருக்கிறது",
+        "நிறுத்தும் திறன் தீவிரத்துடன் சீரற்ற வகையில் மாறுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "For a given frequency of incident light, the stopping potential is independent of its intensity. This is a crucial observation that contradicts classical wave theory, which would predict that higher intensity should give electrons more energy. The independence of stopping potential on intensity supports the photon picture of light. | ஒரு குறிப்பிட்ட எதிரொளிர்வு ஒளியின் அலைவெண்ணுக்கு, நிறுத்தும் திறன் அதன் தீவிரத்தைப் பொறுத்தது அல்ல. இது செவ்வியல் அலைக் கோட்பாட்டிற்கு முரணான ஒரு முக்கியமான கண்டறிதல், அதிக தீவிரம் மின்னணுக்களுக்கு அதிக ஆற்றலைத் தர வேண்டும் என்று கணிக்கும். நிறுத்தும் திறனின் தீவிரத்தின் மீது சார்பற்ற தன்மை ஒளியன் படத்திற்கு ஆதரவளிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எந்த ஆண்டில் லூயிஸ் டி ப்ராக்ளி, இயக்கத்தில் உள்ள பொருட்களின் துகள்கள் அலை போன்ற பண்புகளைக் காட்ட வேண்டும் என்ற கருதுகோளை முன்மொழிந்தார்?",
+      "options": [
+        "1905",
+        "1913",
+        "1924",
+        "1929"
+      ],
+      "correct": 2,
+      "explanation": "Louis Victor de Broglie proposed the hypothesis in 1924 that moving particles of matter should display wave-like properties under suitable conditions. | லூயிஸ் விக்டர் டி ப்ராக்ளி 1924 ஆம் ஆண்டு, இயக்கத்தில் உள்ள பொருட்களின் துகள்கள் அலை போன்ற பண்புகளைக் காட்ட வேண்டும் என்ற கருதுகோளை முன்மொழிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரு துகளின் உந்தத்தை அலைநீளத்துடன் இணைக்கும் டி ப்ராக்ளி தொடர்பு எது?",
+      "options": [
+        "λ = p/h",
+        "λ = h/p",
+        "λ = h×p",
+        "λ = h/(p²)"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie relation is λ = h/p = h/(mv), where h is Planck's constant, p is momentum, m is mass, and v is speed. | டி ப்ராக்ளி தொடர்பு λ = h/p = h/(mv) ஆகும், இங்கு h பிளாங்க் மாறிலி, p உந்தம், m நிறை, மற்றும் v வேகம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "இயக்கத்தில் உள்ள பொருள் துகள்களுடன் தொடர்புடைய அலைகள் என்ன அழைக்கப்படுகின்றன?",
+      "options": [
+        "மின்காந்த அலைகள்",
+        "டி ப்ராக்ளி அலைகள் அல்லது பொருள் அலைகள்",
+        "குறுக்கு அலைகள்",
+        "நீளவாக்கு அலைகள்"
+      ],
+      "correct": 1,
+      "explanation": "The waves associated with moving material particles are called matter waves or de Broglie waves. | இயக்கத்தில் உள்ள பொருள் துகள்களுடன் தொடர்புடைய அலைகள் பொருள் அலைகள் அல்லது டி ப்ராக்ளி அலைகள் என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரு ஃபோட்டானுக்கு, டி ப்ராக்ளி அலைநீளம் எதற்கு சமம்?",
+      "options": [
+        "மின்காந்த கதிர்வீச்சின் அதிர்வெண்ணுக்கு",
+        "மின்காந்த கதிர்வீச்சின் அலைநீளத்திற்கு, அதன் ஃபோட்டான் ஒரு குவாண்டம் ஆகும்",
+        "ஒளியின் வேகத்தை அதிர்வெண்ணால் வகுக்கப்பட்டதற்கு",
+        "பிளாங்க் மாறிலியை ஆற்றலால் வகுக்கப்பட்டதற்கு"
+      ],
+      "correct": 1,
+      "explanation": "For a photon, p = hν/c, so h/p = c/ν = λ. Thus the de Broglie wavelength of a photon equals the wavelength of the electromagnetic radiation of which the photon is a quantum of energy and momentum. | ஒரு ஃபோட்டானுக்கு, p = hν/c, எனவே h/p = c/ν = λ. எனவே ஒரு ஃபோட்டானின் டி ப்ராக்ளி அலைநீளம், அந்த ஃபோட்டான் ஆற்றல் மற்றும் உந்தத்தின் குவாண்டமாக உள்ள மின்காந்த கதிர்வீச்சின் அலைநீளத்திற்கு சமம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "டி ப்ராக்ளி தொடர்பின்படி, அலைநீளம் எந்த வகை துகள்களுக்கு குறைவாக இருக்கும்?",
+      "options": [
+        "இலகு துகள்கள் அல்லது குறைந்த ஆற்றல் கொண்ட துகள்கள்",
+        "கனமான துகள்கள் அல்லது அதிக ஆற்றல் கொண்ட துகள்கள்",
+        "பூஜ்ய உந்தம் கொண்ட துகள்கள்",
+        "சுத்த பூஜ்ய வெப்பநிலையில் உள்ள துகள்கள்"
+      ],
+      "correct": 1,
+      "explanation": "From λ = h/(mv), the de Broglie wavelength is smaller for a heavier particle (large m) or more energetic particle (large v). | λ = h/(mv) இலிருந்து, டி ப்ராக்ளி அலைநீளம் பெரிய நிறை கொண்ட துகளுக்கு (பெரிய m) அல்லது அதிக ஆற்றல் கொண்ட துகளுக்கு (பெரிய v) குறைவாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "நம் அன்றாட வாழ்க்கையில் உள்ள பெரிய பொருட்கள் ஏன் அலை போன்ற பண்புகளைக் காட்டுவதில்லை?",
+      "options": [
+        "அவற்றிற்கு நிறை இல்லை",
+        "அவற்றின் டி ப்ராக்ளி அலைநீளம் மிகவும் சிறியதாக இருப்பதால் அளவிட முடியாதது",
+        "அவை மிக மெதுவாக நகர்கின்றன",
+        "அவை அணுக்களால் ஆனவை அல்ல"
+      ],
+      "correct": 1,
+      "explanation": "For macroscopic objects like a ball of mass 0.12 kg moving at 20 m/s, the de Broglie wavelength is 2.76×10⁻³⁴ m, which is so small that it is beyond any measurement. | பெரிய பொருட்களுக்கு, 0.12 kg நிறை கொண்ட பந்து 20 m/s வேகத்தில் செல்லும்போது, டி ப்ராக்ளி அலைநீளம் 2.76×10⁻³⁴ m ஆகும், இது மிகவும் சிறியதாக இருப்பதால் அளவிட முடியாதது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "5.4×10⁶ m/s வேகத்தில் நகரும் எலக்ட்ரானின் டி ப்ராக்ளி அலைநீளம் என்ன?",
+      "options": [
+        "0.0135 nm",
+        "0.135 nm",
+        "1.35 nm",
+        "13.5 nm"
+      ],
+      "correct": 1,
+      "explanation": "For the electron with mass m = 9.11×10⁻³¹ kg and speed v = 5.4×10⁶ m/s, momentum p = 4.92×10⁻²⁴ kg m/s, and λ = h/p = 6.63×10⁻³⁴ / 4.92×10⁻²⁴ = 0.135 nm. | 9.11×10⁻³¹ kg நிறை மற்றும் 5.4×10⁶ m/s வேகம் கொண்ட எலக்ட்ரானுக்கு, உந்தம் p = 4.92×10⁻²⁴ kg m/s, மற்றும் λ = h/p = 6.63×10⁻³⁴ / 4.92×10⁻²⁴ = 0.135 nm."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "150 g நிறை கொண்ட பந்து 30.0 m/s வேகத்தில் செல்லும்போது, அதன் டி ப்ராக்ளி அலைநீளம் என்ன?",
+      "options": [
+        "1.47×10⁻²⁴ m",
+        "1.47×10⁻³⁴ m",
+        "1.47×10⁻⁴⁴ m",
+        "1.47×10⁻¹⁴ m"
+      ],
+      "correct": 1,
+      "explanation": "For the ball with mass m = 0.150 kg and speed v = 30.0 m/s, momentum p = 4.50 kg m/s, and λ = h/p = 6.63×10⁻³⁴ / 4.50 = 1.47×10⁻³⁴ m. | 0.150 kg நிறை மற்றும் 30.0 m/s வேகம் கொண்ட பந்துக்கு, உந்தம் p = 4.50 kg m/s, மற்றும் λ = h/p = 6.63×10⁻³⁴ / 4.50 = 1.47×10⁻³⁴ m."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எலக்ட்ரானின் டி ப்ராக்ளி அலைநீளம் பின்வருவனவற்றில் எதற்கு ஒப்பிடத்தக்கது?",
+      "options": [
+        "வானொலி அலை அலைநீளங்கள்",
+        "காணக்கூடிய ஒளி அலைநீளங்கள்",
+        "X-கதிர் அலைநீளங்கள்",
+        "காமா கதிர் அலைநீளங்கள்"
+      ],
+      "correct": 2,
+      "explanation": "The de Broglie wavelength of the electron (0.135 nm) is comparable with X-ray wavelengths. For the ball, it is about 10⁻¹⁵ times the size of the proton. | எலக்ட்ரானின் டி ப்ராக்ளி அலைநீளம் (0.135 nm) X-கதிர் அலைநீளங்களுக்கு ஒப்பிடத்தக்கது. பந்துக்கு, இது புரோட்டானின் அளவை விட 10⁻¹⁵ மடங்கு சிறியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எந்த களத்தில் துகள்களின் அலை பண்பு குறிப்பிடத்தக்கதாகவும் அளவிடத்தக்கதாகவும் இருக்கிறது?",
+      "options": [
+        "பெரிய பொருள் களம்",
+        "பாரம்பரிய இயங்கியல் களம்",
+        "அணு உள் களம்",
+        "வானியல் களம்"
+      ],
+      "correct": 2,
+      "explanation": "In the sub-atomic domain, the wave character of particles is significant and measurable because particles like electrons have very small mass, giving them measurable de Broglie wavelengths. | அணு உள் களத்தில், துகள்களின் அலை பண்பு குறிப்பிடத்தக்கதாகவும் அளவிடத்தக்கதாகவும் இருக்கிறது, ஏனெனில் எலக்ட்ரான்கள் போன்ற துகள்கள் மிகச் சிறிய நிறையைக் கொண்டிருப்பதால் அளவிடத்தக்க டி ப்ராக்ளி அலைநீளங்களைப் பெறுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1929 ஆம் ஆண்டு லூயிஸ் டி ப்ராக்ளிக்கு இயற்பியலுக்கான நோபல் பரிசு எந்த கண்டுபிடிப்புக்காக வழங்கப்பட்டது?",
+      "options": [
+        "எலக்ட்ரானின் கண்டுபிடிப்பு",
+        "எலக்ட்ரான்களின் அலை இயல்பின் கண்டுபிடிப்பு",
+        "X-கதிர்களின் கண்டுபிடிப்பு",
+        "ஒளிமின் விளைவின் கண்டுபிடிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "Louis Victor de Broglie was awarded the Nobel Prize in Physics in 1929 for his discovery of the wave nature of electrons. | லூயிஸ் விக்டர் டி ப்ராக்ளி, எலக்ட்ரான்களின் அலை இயல்பைக் கண்டுபிடித்ததற்காக 1929 ஆம் ஆண்டு இயற்பியலுக்கான நோபல் பரிசு பெற்றார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "டி ப்ராக்ளி தொடர்பு λ = h/p இல், பிளாங்க் மாறிலி h என்ன செய்கிறது?",
+      "options": [
+        "ஆற்றலை அதிர்வெண்ணுடன் தொடர்புபடுத்துகிறது",
+        "அலை பண்பு λ ஐ துகள் பண்பு p உடன் தொடர்புபடுத்துகிறது",
+        "நிறையை வேகத்துடன் தொடர்புபடுத்துகிறது",
+        "மின்னேற்றத்தை நிறையுடன் தொடர்புபடுத்துகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Planck's constant h relates the two attributes: on the left side λ is the attribute of a wave, while on the right side momentum p is a typical attribute of a particle. | பிளாங்க் மாறிலி h இரு பண்புகளையும் தொடர்புபடுத்துகிறது: இடது பக்கத்தில் λ ஒரு அலையின் பண்பாகவும், வலது பக்கத்தில் உந்தம் p ஒரு துகளின் பண்பாகவும் உள்ளது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "0.12 kg நிறை கொண்ட பந்து 20 m/s வேகத்தில் நகரும்போது, கணக்கிடப்பட்ட டி ப்ராக்ளி அலைநீளம் என்ன?",
+      "options": [
+        "2.76×10⁻²⁴ m",
+        "2.76×10⁻³⁴ m",
+        "2.76×10⁻⁴⁴ m",
+        "2.76×10⁻¹⁴ m"
+      ],
+      "correct": 1,
+      "explanation": "Momentum p = mv = 0.12 kg × 20 m/s = 2.40 kg m/s. Then λ = h/p = 6.63×10⁻³⁴ / 2.40 = 2.76×10⁻³⁴ m. | உந்தம் p = mv = 0.12 kg × 20 m/s = 2.40 kg m/s. பின்னர் λ = h/p = 6.63×10⁻³⁴ / 2.40 = 2.76×10⁻³⁴ m."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "டி ப்ராக்ளி இயற்கை சமச்சீரானது என்று காரணம் கூறி, என்ன முடிவுக்கு வந்தார்?",
+      "options": [
+        "பொருளுக்கு மட்டுமே அலை பண்புகள் உள்ளன",
+        "கதிர்வீச்சுக்கு மட்டுமே துகள் பண்புகள் உள்ளன",
+        "கதிர்வீச்சு இரட்டை பண்புகளைக் காட்டினால், பொருளும் காட்ட வேண்டும்",
+        "பொருளும் ஆற்றலும் முற்றிலும் வேறுபட்டவை"
+      ],
+      "correct": 2,
+      "explanation": "De Broglie reasoned that nature was symmetrical and that the two basic physical entities - matter and energy - must have symmetrical character. If radiation shows dual aspects, so should matter. | டி ப்ராக்ளி, இயற்கை சமச்சீரானது என்றும், இரு அடிப்படை இயற்பியல் உருவாக்கங்கள் - பொருள் மற்றும் ஆற்றல் - சமச்சீர் பண்புகளைக் கொண்டிருக்க வேண்டும் என்றும் காரணம் கூறினார். கதிர்வீச்சு இரட்டை பண்புகளைக் காட்டினால், பொருளும் காட்ட வேண்டும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பொருளின் அலை இயல்பு குறித்த டி ப்ராக்ளியின் கருத்து, யாரால் முழுமையான குவாண்டம் இயங்கியல் கோட்பாட்டாக வளர்க்கப்பட்டது?",
+      "options": [
+        "ஆல்பர்ட் ஐன்ஸ்டீன்",
+        "நீல்ஸ் போர்",
+        "எர்வின் ஸ்க்ரோடிங்கர்",
+        "மேக்ஸ் பிளாங்க்"
+      ],
+      "correct": 2,
+      "explanation": "De Broglie's idea was developed by Erwin Schrodinger into a full-fledged theory of quantum mechanics commonly known as wave mechanics. | டி ப்ராக்ளியின் கருத்து, எர்வின் ஸ்க்ரோடிங்கர் மூலம் அலை இயங்கியல் என்று பொதுவாக அறியப்படும் முழுமையான குவாண்டம் இயங்கியல் கோட்பாட்டாக வளர்க்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "டி ப்ராக்ளி அலைநீளத்திற்கான சூத்திரம் எது?",
+      "options": [
+        "λ = h×p",
+        "λ = h/p",
+        "λ = p/h",
+        "λ = h+p"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie wavelength is given by λ = h/p = h/(mv), where h is Planck's constant, p is momentum, m is mass, and v is velocity. | டி ப்ராக்ளி அலைநீளம் λ = h/p = h/(mv) என்று கொடுக்கப்படுகிறது, இங்கு h பிளாங்க் மாறிலி, p உந்தம், m நிறை, மற்றும் v வேகம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "இயக்கத்தில் உள்ள பொருள் துகள்களுடன் தொடர்புடைய அலைகள் என்ன அழைக்கப்படுகின்றன?",
+      "options": [
+        "மின்காந்த அலைகள்",
+        "டி ப்ராக்ளி அலைகள் அல்லது பொருள் அலைகள்",
+        "ஒலி அலைகள்",
+        "ஈர்ப்பு அலைகள்"
+      ],
+      "correct": 1,
+      "explanation": "The waves associated with moving material particles are called matter waves or de Broglie waves. | இயக்கத்தில் உள்ள பொருள் துகள்களுடன் தொடர்புடைய அலைகள் பொருள் அலைகள் அல்லது டி ப்ராக்ளி அலைகள் என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எலக்ட்ரானின் டி ப்ராக்ளி அலைநீளம் பின்வருவனவற்றில் எதற்கு ஒப்பிடத்தக்கது?",
+      "options": [
+        "வானொலி அலைகள்",
+        "நுண்ணலைகள்",
+        "X-கதிர்கள்",
+        "அகச்சிவப்பு கதிர்வீச்சு"
+      ],
+      "correct": 2,
+      "explanation": "The de Broglie wavelength of the electron (0.135 nm) is comparable with X-ray wavelengths, making it measurable in experiments like electron diffraction. | எலக்ட்ரானின் டி ப்ராக்ளி அலைநீளம் (0.135 nm) X-கதிர் அலைநீளங்களுக்கு ஒப்பிடத்தக்கது, இது எலக்ட்ரான் விரிவிப்பு போன்ற சோதனைகளில் அளவிடத்தக்கதாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "நம் அன்றாட வாழ்க்கையில் உள்ள பெரிய பொருட்கள் ஏன் அலை போன்ற பண்புகளைக் காட்டுவதில்லை?",
+      "options": [
+        "அவற்றிற்கு நிறை இல்லை",
+        "அவற்றின் டி ப்ராக்ளி அலைநீளம் அளவிட முடியாத அளவிற்கு மிகச் சிறியது",
+        "அவை மிக வேகமாக நகர்கின்றன",
+        "அவை துகள்கள் அல்ல"
+      ],
+      "correct": 1,
+      "explanation": "Macroscopic objects have very large mass, so their de Broglie wavelength is extremely small (e.g., 2.76×10⁻³⁴ m for a 0.12 kg ball), making it impossible to detect wave properties. | பெரிய பொருட்கள் மிகப் பெரிய நிறையைக் கொண்டிருப்பதால், அவற்றின் டி ப்ராக்ளி அலைநீளம் மிகவும் சிறியதாக இருக்கிறது (0.12 kg பந்துக்கு 2.76×10⁻³⁴ m), இது அலை பண்புகளைக் கண்டறிய முடியாததாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பொருள் அலைகள் குறித்த டி ப்ராக்ளியின் கருதுகோளின் அடிப்படை என்ன?",
+      "options": [
+        "இயற்கை சமச்சீரானது, கதிர்வீச்சைப் போல பொருளும் இரட்டை இயல்பைக் காட்ட வேண்டும்",
+        "எலக்ட்ரான்களுக்கு மட்டுமே அலை பண்புகள் உள்ளன",
+        "ஒளி முற்றிலும் அலை ஆகும்",
+        "பொருள் அலைகளால் மட்டுமே ஆனது"
+      ],
+      "correct": 0,
+      "explanation": "De Broglie reasoned that nature was symmetrical and that if radiation shows dual aspects (wave-particle), so should matter. | டி ப்ராக்ளி, இயற்கை சமச்சீரானது என்றும், கதிர்வீச்சு இரட்டை பண்புகளைக் (அலை-துகள்) காட்டினால், பொருளும் காட்ட வேண்டும் என்றும் காரணம் கூறினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "6.0 × 10¹⁴ Hz அதிர்வெண்ணில் ஒற்றைநிற ஒளியை உருவாக்கும் லேசர், 2.0 × 10⁻³ W திறன் வெளியிடுகிறது. அந்த ஒளிக்கற்றையில் ஒரு ஒளிக்குன்றின் ஆற்றல் என்ன?",
+      "options": [
+        "3.98 × 10⁻¹⁹ J",
+        "6.63 × 10⁻³⁴ J",
+        "2.0 × 10⁻³ J",
+        "6.0 × 10¹⁴ J"
+      ],
+      "correct": 0,
+      "explanation": "The energy of a photon is calculated using E = hν, where h = 6.63 × 10⁻³⁴ J·s and ν = 6.0 × 10¹⁴ Hz. Therefore, E = (6.63 × 10⁻³⁴)(6.0 × 10¹⁴) = 3.98 × 10⁻¹⁹ J. | ஒரு ஒளிக்குன்றின் ஆற்றல் E = hν சூத்திரத்தைப் பயன்படுத்தி கணக்கிடப்படுகிறது, இங்கு h = 6.63 × 10⁻³⁴ J·s மற்றும் ν = 6.0 × 10¹⁴ Hz. எனவே, E = (6.63 × 10⁻³⁴)(6.0 × 10¹⁴) = 3.98 × 10⁻¹⁹ J."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "6.0 × 10¹⁴ Hz அதிர்வெண்ணில் 2.0 × 10⁻³ W திறன் கொண்ட லேசர், ஒவ்வொரு வினாடியும் சராசரியாக எத்தனை ஒளிக்குன்றுகளை வெளியிடுகிறது?",
+      "options": [
+        "3.98 × 10¹⁵ ஒளிக்குன்றுகள்/வினாடி",
+        "5.0 × 10¹⁵ ஒளிக்குன்றுகள்/வினாடி",
+        "2.0 × 10⁻³ ஒளிக்குன்றுகள்/வினாடி",
+        "6.0 × 10¹⁴ ஒளிக்குன்றுகள்/வினாடி"
+      ],
+      "correct": 1,
+      "explanation": "The number of photons per second N = P/E, where P = 2.0 × 10⁻³ W and E = 3.98 × 10⁻¹⁹ J. Therefore, N = (2.0 × 10⁻³)/(3.98 × 10⁻¹⁹) ≈ 5.0 × 10¹⁵ photons per second. | ஒவ்வொரு வினாடியும் வெளியிடப்படும் ஒளிக்குன்றுகளின் எண்ணிக்கை N = P/E, இங்கு P = 2.0 × 10⁻³ W மற்றும் E = 3.98 × 10⁻¹⁹ J. எனவே, N = (2.0 × 10⁻³)/(3.98 × 10⁻¹⁹) ≈ 5.0 × 10¹⁵ ஒளிக்குன்றுகள்/வினாடி."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "சீசியத்தின் பணிச் செயல்பாடு 2.14 eV. சீசியத்திற்கான திறநிலை அதிர்வெண் என்ன?",
+      "options": [
+        "3.24 × 10¹⁴ Hz",
+        "5.16 × 10¹⁴ Hz",
+        "2.14 × 10¹⁴ Hz",
+        "6.63 × 10¹⁴ Hz"
+      ],
+      "correct": 1,
+      "explanation": "The threshold frequency ν₀ = φ₀/h, where φ₀ = 2.14 eV = 2.14 × 1.6 × 10⁻¹⁹ J and h = 6.63 × 10⁻³⁴ J·s. Therefore, ν₀ = (2.14 × 1.6 × 10⁻¹⁹)/(6.63 × 10⁻³⁴) = 5.16 × 10¹⁴ Hz. | திறநிலை அதிர்வெண் ν₀ = φ₀/h, இங்கு φ₀ = 2.14 eV = 2.14 × 1.6 × 10⁻¹⁹ J மற்றும் h = 6.63 × 10⁻³⁴ J·s. எனவே, ν₀ = (2.14 × 1.6 × 10⁻¹⁹)/(6.63 × 10⁻³⁴) = 5.16 × 10¹⁴ Hz."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "2.14 eV பணிச் செயல்பாடு கொண்ட சீசியத்தில், 0.60 V தடுப்பு மின்னழுத்தத்தால் ஒளிமின் மின்னோட்டம் பூஜ்யமாக்கப்படும்போது, விழும் ஒளியின் அலைநீளம் என்ன?",
+      "options": [
+        "330 nm",
+        "454 nm",
+        "550 nm",
+        "632 nm"
+      ],
+      "correct": 1,
+      "explanation": "Using Einstein's photoelectric equation: eV₀ = hc/λ - φ₀, so λ = hc/(eV₀ + φ₀). Substituting h = 6.63 × 10⁻³⁴ J·s, c = 3 × 10⁸ m/s, eV₀ = 0.60 eV, and φ₀ = 2.14 eV, we get λ = (6.63 × 10⁻³⁴ × 3 × 10⁸)/(2.74 × 1.6 × 10⁻¹⁹) = 454 nm. | ஐன்ஸ்டீனின் ஒளிமின் சமன்பாட்டைப் பயன்படுத்தி: eV₀ = hc/λ - φ₀, எனவே λ = hc/(eV₀ + φ₀). h = 6.63 × 10⁻³⁴ J·s, c = 3 × 10⁸ m/s, eV₀ = 0.60 eV, மற்றும் φ₀ = 2.14 eV ஆகிய மதிப்புகளைப் பிரதியிட, λ = (6.63 × 10⁻³⁴ × 3 × 10⁸)/(2.74 × 1.6 × 10⁻¹⁹) = 454 nm கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1924-ல் லூயிஸ் டி ப்ரோக்ளி, நகரும் பொருட்களுக்கு அலைபோன்ற பண்புகள் இருக்கும் என்று முன்மொழிந்தார். டி ப்ரோக்ளி அலைநீள சூத்திரம் என்ன?",
+      "options": [
+        "λ = p/h",
+        "λ = h/p = h/(mv)",
+        "λ = hν",
+        "λ = c/ν"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie relation states that the wavelength λ associated with a particle of momentum p is given by λ = h/p = h/(mv), where m is the mass and v is the speed of the particle. This is known as the de Broglie relation. | டி ப்ரோக்ளி உறவுமுறை என்பது நிறையின் உந்தத்துடன் தொடர்புடைய அலைநீளம் λ = h/p = h/(mv) என்று கூறுகிறது, இங்கு m என்பது நிறையும் v என்பது துகளின் வேகமும் ஆகும். இது டி ப்ரோக்ளி உறவுமுறை என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "5.4 × 10⁶ m/s வேகத்தில் நகரும் எலக்ட்ரானுடன் தொடர்புடைய டி ப்ரோக்ளி அலைநீளம் என்ன? (கொடுக்கப்பட்டவை: m = 9.11 × 10⁻³¹ kg, h = 6.63 × 10⁻³⁴ J·s)",
+      "options": [
+        "0.0135 nm",
+        "0.135 nm",
+        "1.35 nm",
+        "13.5 nm"
+      ],
+      "correct": 1,
+      "explanation": "First calculate momentum p = mv = (9.11 × 10⁻³¹)(5.4 × 10⁶) = 4.92 × 10⁻²⁴ kg·m/s. Then λ = h/p = (6.63 × 10⁻³⁴)/(4.92 × 10⁻²⁴) = 1.35 × 10⁻¹⁰ m = 0.135 nm. This is comparable with X-ray wavelengths. | முதலில் உந்தம் p = mv = (9.11 × 10⁻³¹)(5.4 × 10⁶) = 4.92 × 10⁻²⁴ kg·m/s என கணக்கிடவும். பின்னர் λ = h/p = (6.63 × 10⁻³⁴)/(4.92 × 10⁻²⁴) = 1.35 × 10⁻¹⁰ m = 0.135 nm. இது X-கதிர் அலைநீளங்களுக்கு ஒப்பிடத்தக்கது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "0.12 kg நிறையும் 20 m/s வேகமும் கொண்ட பந்தின் டி ப்ரோக்ளி அலைநீளம் சுமார் 2.76 × 10⁻³⁴ m. அன்றாட வாழ்க்கையில் இந்த அலைநீளம் ஏன் காணப்படுவதில்லை?",
+      "options": [
+        "பந்து மின்சுமையற்றது என்பதால்",
+        "அலைநீளம் அளவிட மிகவும் சிறியதாக இருப்பதால்",
+        "பந்து மிக மெதுவாக நகர்வதால்",
+        "டி ப்ரோக்ளி கருதுகோள் பெருநிறைப் பொருட்களுக்கு பொருந்தாது என்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie wavelength of macroscopic objects is extremely small (of the order of 10⁻³⁴ m or smaller), which is beyond any experimental measurement. This is why macroscopic objects in daily life do not show wave-like properties. On the other hand, in the sub-atomic domain, the wave character of particles is significant and measurable. | பெருநிறைப் பொருட்களின் டி ப்ரோக்ளி அலைநீளம் மிகவும் சிறியதாக (10⁻³⁴ m அல்லது அதற்கும் குறைவாக) இருப்பதால், எந்த பரிசோதனை அளவீட்டிற்கும் அப்பாற்பட்டது. இதனால்தான் அன்றாட வாழ்க்கையில் பெருநிறைப் பொருட்கள் அலைபோன்ற பண்புகளைக் காட்டுவதில்லை. ஆனால், அணுக்கரு ஆற்றல் மட்டத்தில் துகள்களின் அலைத் தன்மை குறிப்பிடத்தக்கதாகவும் அளவிடத்தக்கதாகவும் இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீன், ஒளிக்குன்றுக்கு (போட்டானுக்கு) உந்தம் இருக்கும் என்று முன்மொழிந்தார். ஒளிக்குன்றின் உந்தம் என்ன?",
+      "options": [
+        "p = hν",
+        "p = hν/c = h/λ",
+        "p = mc",
+        "p = E/c²"
+      ],
+      "correct": 1,
+      "explanation": "Einstein arrived at the important result that the light quantum can be associated with momentum p = hν/c = h/λ. A definite value of energy (hν) as well as momentum is a strong sign that the light quantum can be associated with a particle called photon. | ஐன்ஸ்டீன் ஒளிக்குன்று உந்தம் p = hν/c = h/λ உடன் தொடர்புடையது என்ற முக்கிய முடிவை எட்டினார். ஆற்றல் (hν) மற்றும் உந்தம் ஆகியவற்றின் துல்லியமான மதிப்பு, ஒளிக்குன்று எனப்படும் துகளுடன் தொடர்புடையது என்பதற்கான வலுவான அறிகுறியாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1905-ல் ஐன்ஸ்டீன் முன்மொழிந்தபடி, மின்காந்த கதிர்வீச்சின் ஆற்றல் எவ்வாறு கட்டமைக்கப்பட்டுள்ளது?",
+      "options": [
+        "தொடர்ச்சியான அலைகளாக",
+        "தனித்தனி ஆற்றல் அலகுகளாக (quanta)",
+        "மின்னணு அலைகளாக",
+        "துகள் கற்றைகளாக மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "Einstein proposed that radiation energy is built up of discrete units called quanta of energy. Each quantum has energy hν, where h is Planck's constant and ν is the frequency. | ஐன்ஸ்டீன் கதிர்வீச்சின் ஆற்றல் தனித்தனி அலகுகளால் (quanta) கட்டமைக்கப்பட்டுள்ளது என்று முன்மொழிந்தார். ஒவ்வொரு குவாண்டாவின் ஆற்றல் hν, இங்கு h பிளாங்க் மாறிலி, ν அலைவெண்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின் விளைவு சமன்பாடின்படி, வெளியேறும் ஒளிமின் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றல் எவ்வாறு கணக்கிடப்படுகிறது?",
+      "options": [
+        "K_max = hν + φ₀",
+        "K_max = hν - φ₀",
+        "K_max = hν × φ₀",
+        "K_max = hν / φ₀"
+      ],
+      "correct": 1,
+      "explanation": "Einstein's photoelectric equation states K_max = hν - φ₀, where hν is the photon energy and φ₀ is the work function. The electron absorbs one quantum; if it exceeds the work function, the electron is emitted with kinetic energy equal to the difference. | ஐன்ஸ்டீனின் சமன்பாடு K_max = hν - φ₀. hν ஒளிமின்னி ஆற்றல், φ₀ பணிச்சார்பு. எலக்ட்ரான் ஒரு ஆற்றல் அலகை உறிஞ்சுகிறது; அது பணிச்சார்பை மீறினால், வேறுபாடு அதன் இயக்க ஆற்றலாக மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின்னி கோட்பாட்டில், ஒளியின் தீவிரம் எதை தீர்மானிக்கிறது?",
+      "options": [
+        "தனித்தனி ஒளிமின் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றலை",
+        "ஒரு பகுதிப்பரப்புக்கு ஒரு நேர அலகுக்கு விழும் ஒளிமின்னிகளின் எண்ணிக்கையை",
+        "உலோகத்தின் திறநிலை அலைவெண்ணை",
+        "வெளியேற்றி பொருளின் பணிச்சார்பை"
+      ],
+      "correct": 1,
+      "explanation": "Intensity is proportional to the number of energy quanta (photons) per unit area per unit time. Higher intensity means more photons, leading to more electrons being emitted, but does NOT affect the maximum kinetic energy of individual electrons, which depends only on photon energy (frequency). | தீவிரம் ஒரு பகுதிப்பரப்புக்கு ஒரு நேர அலகுக்கு விழும் ஒளிமின்னிகளின் எண்ணிக்கைக்கு நேர்த்தகவமையாகும். அதிக தீவிரம் = அதிக ஒளிமின்னிகள் = அதிக எலக்ட்ரான்கள். ஆனால் தனித்தனி எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றலை பாதிக்காது; அது அலைவெண்ணை மட்டுமே சார்ந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரு உலோகப் பரப்பின் திறநிலை அலைவெண் ν₀, பணிச்சார்பு φ₀ உடன் எவ்வாறு தொடர்புடையது?",
+      "options": [
+        "ν₀ = φ₀ × h",
+        "ν₀ = φ₀ / h",
+        "ν₀ = h / φ₀",
+        "ν₀ = h + φ₀"
+      ],
+      "correct": 1,
+      "explanation": "From Einstein's equation, since K_max must be non-negative, photoelectric emission requires hν ≥ φ₀. The minimum frequency (threshold) occurs when hν₀ = φ₀, giving ν₀ = φ₀ / h. Greater work function means higher threshold frequency. | K_max ≥ 0 என்பதால் hν ≥ φ₀ தேவை. குறைந்தபட்ச அலைவெண்ணில் hν₀ = φ₀, எனவே ν₀ = φ₀ / h. அதிக பணிச்சார்பு = அதிக திறநிலை அலைவெண்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின்னி கோட்பாட்டின்படி, மிகக் குறைந்த தீவிரமுள்ள ஒளியிலும் ஒளிமின் வெளியேற்றம் உடனடியாக ஏன் நிகழ்கிறது?",
+      "options": [
+        "அலைமுனையிலிருந்து பல எலக்ட்ரான்கள் ஒரே நேரத்தில் ஆற்றலை உறிஞ்சுவதால்",
+        "அடிப்படை செயல்முறை ஒரு எலக்ட்ரான் ஒரு ஒளிமின்னியை உறிஞ்சுவதால்",
+        "குறைந்த தீவிரத்தில் பணிச்சார்பு பூஜ்ஜியமாக மாறுவதால்",
+        "குறைந்த ஒளியில் திறநிலை அலைவெண் குறைவதால்"
+      ],
+      "correct": 1,
+      "explanation": "In Einstein's picture, the elementary process is a single electron absorbing a single light quantum. This is an instantaneous event. Low intensity only means fewer photons (fewer electrons participate), but each absorption event is still instantaneous. The wave theory's prediction of hours-long delay is contradicted. | ஒவ்வொரு எலக்ட்ரானும் ஒரு ஒளிமின்னியை உறிஞ்சுவது அடிப்படை செயல்முறை. இது உடனடியானது. குறைந்த தீவிரம் = குறைந்த ஒளிமின்னிகள் = குறைந்த எலக்ட்ரான்கள் பங்கேற்கும். ஆனால் ஒவ்வொரு உறிஞ்சலும் உடனடியானது. அலைக்கொள்கையின் மணிநேர தாமதக் கணிப்பு தவறானது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மில்லிக்கனின் ஒளிமின் விளைவு சோதனைகள் (1906-1916) ஆரம்பத்தில் என்ன நோக்கத்துடன் மேற்கொள்ளப்பட்டன?",
+      "options": [
+        "ஐன்ஸ்டீனின் சமன்பாட்டை நிரூபிக்க",
+        "ஐன்ஸ்டீனின் சமன்பாட்டை மறுக்க",
+        "எலக்ட்ரானைக் கண்டறிய",
+        "ஒளியின் வேகத்தை அளவிட"
+      ],
+      "correct": 1,
+      "explanation": "Millikan initially aimed to disprove Einstein's photoelectric equation. He measured the slope of V₀ versus ν graph for sodium and other alkali metals. Using the known value of e, he determined h. The value matched Planck's constant from other experiments, thereby proving (rather than disproving) Einstein's equation in 1916. | மில்லிக்கன் ஆரம்பத்தில் ஐன்ஸ்டீனின் சமன்பாட்டை மறுக்க முயன்றார். V₀ vs ν வரைபடத்தின் சாய்வை அளவிட்டு, அறியப்பட்ட e மதிப்பைப் பயன்படுத்தி h கண்டறிந்தார். அது பிற சோதனைகளின் பிளாங்க் மாறிலியுடன் பொருந்தியது, எனவே 1916-ல் ஐன்ஸ்டீனின் சமன்பாட்டை நிரூபித்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "சமன்பாடு eV₀ = hν - φ₀ ஐ மறுசீரமைக்கும்போது, நிறுத்து திறன் V₀ மற்றும் அலைவெண் ν வரைபடம் எவ்வடிவம் காட்டுகிறது?",
+      "options": [
+        "பரவளைவு",
+        "h/e சாய்வு கொண்ட நேர்க்கோடு",
+        "அடுக்கு வளைவு",
+        "வட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "Rearranging: V₀ = (h/e)ν - (φ₀/e). This is a linear equation y = mx + c form, where slope m = h/e and y-intercept = -φ₀/e. The slope is independent of the material, a universal constant ratio. This linear relationship was experimentally verified by Millikan. | V₀ = (h/e)ν - (φ₀/e) என மறுசீரமைக்கலாம். இது y = mx + c வடிவம், சாய்வு m = h/e. சாய்வு பொருளின் தன்மையைச் சாராத பொது மாறிலி விகிதம். இந்த நேர்க்கோட்டு உறவை மில்லிக்கன் சோதனையால் உறுதிப்படுத்தினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீன் ஒளிமின்னிக்கு ஆற்றல் hν மட்டுமல்லாமல், உந்தத்தையும் இணைத்தார். அந்த உந்தம் என்ன?",
+      "options": [
+        "hν/c",
+        "hν × c",
+        "h/c",
+        "c/hν"
+      ],
+      "correct": 0,
+      "explanation": "Einstein showed that the light quantum has momentum p = hν/c = h/λ. A definite value of both energy and momentum is a strong signature of particle nature. This particle-like behavior was further confirmed by Compton's X-ray scattering experiment in 1924. | ஐன்ஸ்டீன் ஒளிமின்னிக்கு ஆற்றல் hν மற்றும் உந்தம் p = hν/c = h/λ இருப்பதைக் காட்டினார். ஆற்றலும் உந்தமும் தனித்தனி மதிப்புகள் துகள் தன்மையின் அறிகுறி. 1924-ல் காம்டனின் X-கதிர் சிதறல் சோதனை இதை உறுதிப்படுத்தியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் வெளியேற்றம் நிகழ, விழும் கதிர்வீச்சின் அலைவெண் எந்த நிபந்தனையை பூர்த்தி செய்ய வேண்டும்?",
+      "options": [
+        "ν < ν₀",
+        "ν = ν₀",
+        "ν ≥ ν₀",
+        "ν ≤ ν₀"
+      ],
+      "correct": 2,
+      "explanation": "From K_max = hν - φ₀ ≥ 0, we get hν ≥ φ₀, which means ν ≥ φ₀/h = ν₀. Below threshold frequency ν₀, no photoelectric emission occurs regardless of intensity or duration of illumination. This explains the existence of a cutoff frequency. | K_max = hν - φ₀ ≥ 0 என்பதால், ν ≥ φ₀/h = ν₀. திறநிலை அலைவெண்ணுக்குக் கீழே, எந்த தீவிரமோ காலமோ இருந்தாலும் ஒளிமின் வெளியேற்றம் இல்லை. இது வெட்டு அலைவெண்ணின் இருப்பை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின்னி (photon) என்ற பெயர் யாரால் கொடுக்கப்பட்டது?",
+      "options": [
+        "ஐன்ஸ்டீனால்",
+        "மில்லிக்கனால்",
+        "பிற அறிவியலாளர்களால் பின்னர்",
+        "பிளாங்க்கால்"
+      ],
+      "correct": 2,
+      "explanation": "Einstein introduced the concept of light quanta in 1905. The term 'photon' was coined later by other scientists (Gilbert Lewis in 1926). Einstein called them quanta of energy. The photon has energy hν and momentum hν/c, with speed c. | ஐன்ஸ்டீன் 1905-ல் ஒளி அலகுகளை (quanta) அறிமுகப்படுத்தினார். 'ஒளிமின்னி' (photon) என்ற பெயரை பிற அறிவியலாளர்கள் (கில்பர்ட் லூயிஸ் 1926) பின்னர் கொடுத்தனர். ஒளிமின்னிக்கு ஆற்றல் hν, உந்தம் hν/c, வேகம் c."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின்னி கோட்பாடு, ஒளிமின் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றல் ஒளித்தீவிரத்தைச் சாராததை ஏன் விளக்குகிறது?",
+      "options": [
+        "ஒவ்வொரு எலக்ட்ரானும் பல ஒளிமின்னிகளிலிருந்து ஆற்றலை உறிஞ்சுவதால்",
+        "அடிப்படை செயல்முறை ஒரு எலக்ட்ரான் ஒரு ஒளிமின்னியை உறிஞ்சுவதால்",
+        "தீவிரம் உலோகத்தின் பணிச்சார்பை மாற்றுவதால்",
+        "அதிக தீவிரமுள்ள ஒளிமின்னிகளுக்கு குறைந்த ஆற்றல் இருப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "Since one electron absorbs exactly one photon (quantum), the energy gained by that electron depends only on the photon's energy (hν), which depends on frequency, not intensity. Intensity only affects how many photons arrive per second, thus how many electrons are emitted, but not each electron's maximum kinetic energy. | ஒரு எலக்ட்ரான் சரியாக ஒரு ஒளிமின்னியை உறிஞ்சுவதால், அதன் ஆற்றல் அலைவெண்ணை (hν) மட்டுமே சார்ந்தது. தீவிரம் ஒரு நொடிக்கு வரும் ஒளிமின்னிகளின் எண்ணிக்கையை மட்டுமே மாற்றும், ஒவ்வொரு எலக்ட்ரானின் அதிகபட்ச இயக்க ஆற்றலை அல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின்னி கோட்பாட்டில், குறிப்பிட்ட அலைவெண்ணின் ஒளித்தீவிரம் அதிகரிக்கும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "ஒவ்வொரு ஒளிமின்னியின் ஆற்றல் அதிகரிக்கிறது",
+        "ஒரு பகுதிப்பரப்புக்கு வரும் ஒளிமின்னிகளின் எண்ணிக்கை அதிகரிக்கிறது",
+        "ஒவ்வொரு ஒளிமின்னியின் அலைவெண் அதிகரிக்கிறது",
+        "ஒவ்வொரு ஒளிமின்னியின் அலைநீளம் குறைகிறது"
+      ],
+      "correct": 1,
+      "explanation": "All photons of a particular frequency have the same energy hν and momentum hν/c, regardless of intensity. Increasing intensity only increases the number of photons per second crossing a unit area. This is a fundamental property of the photon picture that distinguishes it from the wave picture. | குறிப்பிட்ட அலைவெண்ணின் அனைத்து ஒளிமின்னிகளும் ஒரே ஆற்றல் hν மற்றும் உந்தம் hν/c கொண்டவை. தீவிரத்தை அதிகரிப்பது ஒரு பகுதிப்பரப்புக்கு வரும் ஒளிமின்னிகளின் எண்ணிக்கையை மட்டுமே அதிகரிக்கிறது. இது அலைக்கோட்பாட்டிலிருந்து வேறுபடும் முக்கிய பண்பு."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1924-ல் காம்டனின் X-கதிர் சிதறல் சோதனை எதை உறுதிப்படுத்தியது?",
+      "options": [
+        "X-கதிர்களின் அலைத் தன்மை மட்டுமே",
+        "ஒளியின் துகள் போன்ற நடத்தை",
+        "ஒளிமின் விளைவு சமன்பாட்டை",
+        "திறநிலை அலைவெண்ணின் இருப்பை"
+      ],
+      "correct": 1,
+      "explanation": "A.H. Compton's X-ray scattering experiment (1924) showed that X-rays behave like particles when interacting with electrons, transferring both energy and momentum. This confirmed the particle-like behavior of electromagnetic radiation, complementing Einstein's photon concept from photoelectric effect. | காம்டனின் 1924 X-கதிர் சிதறல் சோதனை, எலக்ட்ரான்களுடன் கதிர்வீச்சு துகள் போல நடந்து கொள்வதைக் காட்டியது. ஆற்றலும் உந்தமும் மாற்றப்படுகிறது. இது ஒளிமின் விளைவில் ஐன்ஸ்டீனின் ஒளிமின்னி கருத்தை உறுதிப்படுத்தியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு சமன்பாடு K_max = hν - φ₀, திறநிலை அலைவெண்ணின் இருப்பை எவ்வாறு விளக்குகிறது?",
+      "options": [
+        "ν = ν₀ எனில் K_max பூஜ்ஜியமாகிறது என்பதைக் காட்டுவதால்",
+        "K_max தீவிரத்துடன் அதிகரிக்கிறது என்று கணிக்கிறது",
+        "வெளியேற்றத்திற்கு குறைந்தபட்ச தீவிரம் தேவை என்று கூறுகிறது",
+        "ஒளிர்வு காலத்தைச் சார்ந்தது என்று கூறுகிறது"
+      ],
+      "correct": 0,
+      "explanation": "When ν = ν₀ = φ₀/h, then K_max = h(φ₀/h) - φ₀ = 0. Below this frequency, K_max would be negative, which is physically impossible, meaning no emission occurs. This naturally explains why there exists a minimum cutoff frequency below which photoelectric effect cannot occur. | ν = ν₀ = φ₀/h எனில், K_max = h(φ₀/h) - φ₀ = 0. இதற்குக் கீழே K_max எதிர்மறையாகும், இது இயற்பியலில் இயலாது. எனவே வெட்டு அலைவெண்ணுக்குக் கீழே வெளியேற்றம் இல்லை. இது திறநிலை அலைவெண்ணின் இருப்பை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீன் 1921-ல் இயற்பியலுக்கான நோபல் பரிசு எதற்காக பெற்றார்?",
+      "options": [
+        "சிறப்பு சார்பியல் கோட்பாடு மட்டுமே",
+        "பொது சார்பியல் கோட்பாடு மட்டுமே",
+        "கோட்பாட்டு இயற்பியலுக்கான பங்களிப்பு மற்றும் ஒளிமின் விளைவு",
+        "ஒளிமின்னியைக் கண்டறிததற்காக"
+      ],
+      "correct": 2,
+      "explanation": "Einstein received the 1921 Nobel Prize in Physics specifically for his contribution to theoretical physics and for his discovery of the law of the photoelectric effect. While he published three pathbreaking papers in 1905 (photoelectric effect, Brownian motion, special relativity), the Nobel Committee recognized the photoelectric effect explanation. | ஐன்ஸ்டீன் 1921-ல் கோட்பாட்டு இயற்பியலுக்கான பங்களிப்பு மற்றும் ஒளிமின் விளைவின் விதியைக் கண்டறிததற்காக நோபல் பரிசு பெற்றார். 1905-ல் மூன்று கட்டுரைகள் (ஒளிமின் விளைவு, பிரவுனியன் இயக்கம், சிறப்பு சார்பியல்) எழுதியபோதும், நோபல் குழு ஒளிமின் விளைவு விளக்கத்தை அங்கீகரித்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "0.12 kg நிறையுடன் 20 m/s வேகத்தில் நகரும் ஒரு பந்தின் de Broglie அலைநீளம் என்ன?",
+      "options": [
+        "2.76 × 10^-34 m",
+        "2.76 × 10^-24 m",
+        "2.76 × 10^-44 m",
+        "2.76 × 10^-14 m"
+      ],
+      "correct": 0,
+      "explanation": "Using the de Broglie relation λ = h/p, where p = mv = 0.12 kg × 20 m/s = 2.40 kg m/s. Therefore λ = (6.63 × 10^-34 J s) / (2.40 kg m/s) = 2.76 × 10^-34 m. This wavelength is extremely small and beyond any measurement. | de Broglie தொடர்பு λ = h/p ஐப் பயன்படுத்தி, p = mv = 0.12 kg × 20 m/s = 2.40 kg m/s. எனவே λ = (6.63 × 10^-34 J s) / (2.40 kg m/s) = 2.76 × 10^-34 m. இந்த அலைநீளம் மிகவும் சிறியது மற்றும் அளவிடுவதற்கு அப்பாற்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "5.4 × 10^6 m/s வேகத்தில் நகரும் ஒரு எலக்ட்ரானுடன் தொடர்புடைய de Broglie அலைநீளம் என்ன?",
+      "options": [
+        "0.135 nm",
+        "1.35 nm",
+        "0.0135 nm",
+        "13.5 nm"
+      ],
+      "correct": 0,
+      "explanation": "For the electron: mass m = 9.11 × 10^-31 kg, speed v = 5.4 × 10^6 m/s. Momentum p = mv = 4.92 × 10^-24 kg m/s. De Broglie wavelength λ = h/p = 0.135 nm. This is comparable with X-ray wavelengths. | எலக்ட்ரானுக்கு: நிறை m = 9.11 × 10^-31 kg, வேகம் v = 5.4 × 10^6 m/s. உந்தம் p = mv = 4.92 × 10^-24 kg m/s. de Broglie அலைநீளம் λ = h/p = 0.135 nm. இது X-ray அலைநீளங்களுடன் ஒப்பிடத்தக்கது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "150 g நிறையுடன் 30.0 m/s வேகத்தில் பயணிக்கும் ஒரு பந்தின் de Broglie அலைநீளம் என்ன?",
+      "options": [
+        "1.47 × 10^-34 m",
+        "1.47 × 10^-24 m",
+        "1.47 × 10^-44 m",
+        "1.47 × 10^-14 m"
+      ],
+      "correct": 0,
+      "explanation": "For the ball: mass m = 0.150 kg, speed v = 30.0 m/s. Momentum p = 4.50 kg m/s. De Broglie wavelength λ = 1.47 × 10^-34 m. This is about 10^-15 times the size of a proton, quite beyond experimental measurement. | பந்துக்கு: நிறை m = 0.150 kg, வேகம் v = 30.0 m/s. உந்தம் p = 4.50 kg m/s. de Broglie அலைநீளம் λ = 1.47 × 10^-34 m. இது புரோட்டானின் அளவை விட 10^-15 மடங்கு சிறியது, சோதனை அளவீட்டிற்கு அப்பாற்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "உலோகப் பரப்பிலிருந்து வெளியேற எலக்ட்ரானுக்குத் தேவையான குறைந்தபட்ச ஆற்றல் என்ன அழைக்கப்படுகிறது?",
+      "options": [
+        "பணிச் செயல்பாடு (Work function)",
+        "திறநிலை அதிர்வெண் (Threshold frequency)",
+        "நிறுத்தும் மின்னழுத்தம் (Stopping potential)",
+        "ஒளியன் ஆற்றல் (Photon energy)"
+      ],
+      "correct": 0,
+      "explanation": "The minimum energy needed by an electron to come out from a metal surface is called the work function of the metal. It is generally denoted by φ₀ and measured in eV. Energy greater than the work function can be supplied by heating, applying strong electric field, or irradiating with light of suitable frequency. | உலோகப் பரப்பிலிருந்து வெளியேற எலக்ட்ரானுக்குத் தேவையான குறைந்தபட்ச ஆற்றல் உலோகத்தின் பணிச் செயல்பாடு (work function) என்று அழைக்கப்படுகிறது. இது φ₀ எனக் குறிக்கப்பட்டு eV அலகில் அளவிடப்படுகிறது. பணிச் செயல்பாட்டை விட அதிகமான ஆற்றல் சூடாக்குதல், வலுவான மின்புலம், அல்லது பொருத்தமான அதிர்வெண்ணுள்ள ஒளி மூலம் வழங்கப்படலாம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பொருத்தமான அதிர்வெண்ணுள்ள ஒளியால் ஒளிர்த்தபோது உலோகங்களால் எலக்ட்ரான்களை உமிழும் நிகழ்வு என்ன அழைக்கப்படுகிறது?",
+      "options": [
+        "ஒளிமின் விளைவு (Photoelectric effect)",
+        "வெப்பமின் உமிழ்வு (Thermionic emission)",
+        "மின்புல உமிழ்வு (Field emission)",
+        "காம்டன் விளைவு (Compton effect)"
+      ],
+      "correct": 0,
+      "explanation": "Photoelectric effect is the phenomenon of emission of electrons by metals when illuminated by light of suitable frequency. It involves conversion of light energy into electrical energy and follows the law of conservation of energy. The photoelectric emission is an instantaneous process. | பொருத்தமான அதிர்வெண்ணுள்ள ஒளியால் ஒளிர்த்தபோது உலோகங்களால் எலக்ட்ரான்களை உமிழும் நிகழ்வு ஒளிமின் விளைவு (photoelectric effect) என்று அழைக்கப்படுகிறது. இது ஒளி ஆற்றலை மின்னாற்றலாக மாற்றும் செயல்முறையாகும் மற்றும் ஆற்றல் பாதுகாப்பு விதிக்கு உட்பட்டது. ஒளிமின் உமிழ்வு உடனடியான செயல்முறையாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பின்வருவனவற்றில் ஒளிமின் மின்னோட்டத்தை பாதிக்காதது எது?",
+      "options": [
+        "படும் ஒளியின் அதிர்வெண் மட்டும்",
+        "படும் ஒளியின் தீவிரம்",
+        "மின்முனைகளுக்கு இடையேயுள்ள மின்னழுத்த வேறுபாடு",
+        "உமிழும் பொருளின் இயல்பு"
+      ],
+      "correct": 0,
+      "explanation": "Photoelectric current depends on intensity of incident light, potential difference between electrodes, and nature of emitter material. The frequency affects maximum kinetic energy through stopping potential, but not photocurrent directly. Above threshold frequency, current depends on intensity, not frequency alone. | ஒளிமின் மின்னோட்டம் படும் ஒளியின் தீவிரத்தை, மின்முனைகளுக்கு இடையேயுள்ள மின்னழுத்த வேறுபாட்டை, மற்றும் உமிழும் பொருளின் இயல்பைப் பொறுத்து மாறுகிறது. அதிர்வெண் அதிகபட்ச இயக்க ஆற்றலை பாதிக்கிறது, ஆனால் மின்னோட்டத்தை நேரடியாக பாதிக்காது. திறநிலை அதிர்வெண்ணுக்கு மேல், மின்னோட்டம் தீவிரத்தைப் பொறுத்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "நிறுத்தும் மின்னழுத்தம் (V₀) மற்றும் உமிழப்படும் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றலுக்கு இடையேயுள்ள தொடர்பு என்ன?",
+      "options": [
+        "eV₀ = K_max",
+        "V₀ = e × K_max",
+        "K_max = e/V₀",
+        "V₀ = K_max²/e"
+      ],
+      "correct": 0,
+      "explanation": "The stopping potential is directly related to maximum kinetic energy: eV₀ = (1/2)mv²_max = K_max. For a given frequency, stopping potential is independent of intensity. It depends on frequency of incident light and nature of emitter material. | நிறுத்தும் மின்னழுத்தம் அதிகபட்ச இயக்க ஆற்றலுடன் நேரடியாக தொடர்புடையது: eV₀ = (1/2)mv²_max = K_max. கொடுக்கப்பட்ட அதிர்வெண்ணுக்கு, நிறுத்தும் மின்னழுத்தம் தீவிரத்தைப் பொறுத்தது அல்ல. இது படும் ஒளியின் அதிர்வெண் மற்றும் உமிழும் பொருளின் இயல்பைப் பொறுத்து மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "திறநிலை அதிர்வெண்ணுக்கு (ν₀) கீழே படும் ஒளியின் அதிர்வெண் இருக்கும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "தீவிரம் எவ்வளவு அதிகமாக இருந்தாலும் ஒளிமின் உமிழ்வு நிகழாது",
+        "குறைந்த இயக்க ஆற்றல் எலக்ட்ரான்களுடன் ஒளிமின் உமிழ்வு நிகழ்கிறது",
+        "தீவிரத்துடன் ஒளிமின் மின்னோட்டம் அதிகரிக்கிறது",
+        "நிறுத்தும் மின்னழுத்தம் பூஜ்ஜியமாகிறது"
+      ],
+      "correct": 0,
+      "explanation": "Below threshold frequency ν₀, characteristic of the metal, no photoelectric emission takes place, no matter how large the intensity may be. This minimum frequency is different for different metals. The threshold frequency is related to work function by ν₀ = φ₀/h. | உலோகத்திற்கு உரித்தான திறநிலை அதிர்வெண்ணுக்கு (ν₀) கீழே, எவ்வளவு பெரிய தீவிரத்தைக் கொண்டிருந்தாலும் ஒளிமின் உமிழ்வு நிகழாது. இந்த குறைந்தபட்ச அதிர்வெண் வெவ்வேறு உலோகங்களுக்கு வேறுபடும். திறநிலை அதிர்வெண் பணிச் செயல்பாட்டுடன் ν₀ = φ₀/h என்ற தொடர்பால் இணைக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பாரம்பரிய அலை கோட்பாடால் விளக்க முடியாத ஒளிமின் விளைவின் அவதானிப்புகள் எவை?",
+      "options": [
+        "இவை அனைத்தும்: K_max தீவிரத்தைப் பொறுத்த சுதந்திரம், திறநிலை அதிர்வெண் இருப்பு, உடனடியான தன்மை",
+        "K_max தீவிரத்தைப் பொறுத்த சுதந்திரம் மட்டும்",
+        "திறநிலை அதிர்வெண் இருப்பு மட்டும்",
+        "உமிழ்வின் உடனடியான தன்மை மட்டும்"
+      ],
+      "correct": 0,
+      "explanation": "Classical wave theory could not explain: (i) independence of K_max on intensity, (ii) existence of threshold frequency ν₀, and (iii) instantaneous nature. Wave theory predicts continuous energy absorption taking hours for a single electron to accumulate enough energy. | பாரம்பரிய அலை கோட்பாடு இவற்றை விளக்க முடியவில்லை: (i) K_max தீவிரத்தைப் பொறுத்த சுதந்திரம், (ii) திறநிலை அதிர்வெண் ν₀ இருப்பு, (iii) செயல்முறையின் உடனடியான தன்மை. அலை கோட்பாடு தொடர்ச்சியான ஆற்றல் உறிஞ்சுதலைக் கணிக்கிறது, ஒரு எலக்ட்ரான் போதுமான ஆற்றலைச் சேர்க்க மணிக்கணக்கான நேரம் எடுக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின் சமன்பாடின்படி, உமிழப்படும் ஒளிமின் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றல் என்ன?",
+      "options": [
+        "K_max = hν - φ₀ = h(ν - ν₀)",
+        "K_max = hν + φ₀",
+        "K_max = hν × φ₀",
+        "K_max = φ₀ - hν"
+      ],
+      "correct": 0,
+      "explanation": "Einstein's photoelectric equation: (1/2)mv²_max = V₀e = hν - φ₀ = h(ν - ν₀). This explains all features of photoelectric effect. Millikan's measurements confirmed this equation and obtained accurate Planck's constant h. The equation follows energy conservation law for photon absorption by an electron. | ஐன்ஸ்டீனின் ஒளிமின் சமன்பாடு: (1/2)mv²_max = V₀e = hν - φ₀ = h(ν - ν₀). இது ஒளிமின் விளைவின் அனைத்து அம்சங்களையும் விளக்குகிறது. மில்லிக்கானின் அளவீடுகள் இந்த சமன்பாட்டை உறுதிப்படுத்தி பிளாங்க் மாறிலி h இன் துல்லியமான மதிப்பைப் பெற்றன. இந்த சமன்பாடு எலக்ட்ரானால் ஒளியன் உறிஞ்சப்படுவதற்கு ஆற்றல் பாதுகாப்பு விதியுடன் இணங்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின் சமன்பாட்டின்படி, வெளியேறும் ஒளிமின் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றலுக்கான வெளிப்பாடு என்ன?",
+      "options": [
+        "K_max = hν + φ₀",
+        "K_max = hν - φ₀",
+        "K_max = φ₀ - hν",
+        "K_max = hν × φ₀"
+      ],
+      "correct": 1,
+      "explanation": "Einstein's photoelectric equation states that K_max = hν - φ₀, where h is Planck's constant, ν is the frequency of incident radiation, and φ₀ is the work function of the metal. This equation shows that the maximum kinetic energy of emitted electrons depends linearly on the frequency of incident light and is independent of its intensity. | ஐன்ஸ்டீனின் ஒளிமின் சமன்பாடு K_max = hν - φ₀ என்று கூறுகிறது, இங்கு h பிளாங்க் மாறிலி, ν படிவீச்சு அதிர்வெண், φ₀ உலோகத்தின் பணிச்சார்பு. இந்த சமன்பாடு வெளியேறும் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றல் படிவீச்சு அதிர்வெண்ணில் நேர்கோட்டுடன் சார்ந்துள்ளது, அதன் தீவிரத்திற்கு சாராது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின் சமன்பாட்டில் ஒரு உலோகத்தின் திறநிலை அதிர்வெண்ணுக்கான (cut-off frequency) வெளிப்பாடு என்ன?",
+      "options": [
+        "ν₀ = h/φ₀",
+        "ν₀ = φ₀/h",
+        "ν₀ = h × φ₀",
+        "ν₀ = φ₀ × h²"
+      ],
+      "correct": 1,
+      "explanation": "The threshold frequency is given by ν₀ = φ₀/h. This is derived from Einstein's equation by setting K_max = 0, which gives hν₀ = φ₀. The greater the work function φ₀, the higher the threshold frequency needed for photoelectric emission. | திறநிலை அதிர்வெண் ν₀ = φ₀/h என்று கொடுக்கப்படுகிறது. இது ஐன்ஸ்டீன் சமன்பாட்டிலிருந்து K_max = 0 என்று வைத்து பெறப்படுகிறது, இது hν₀ = φ₀ என்று தருகிறது. பணிச்சார்பு φ₀ அதிகமாக இருந்தால், ஒளிமின் உமிழ்வுக்கு தேவையான திறநிலை அதிர்வெண் அதிகமாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "படிவீச்சு அதிர்வெண்ணுடன் தடுப்பு மின்னழுத்தம் V₀ ஐ சரியாக இணைக்கும் சமன்பாடு எது?",
+      "options": [
+        "V₀ = (h/e)ν + φ₀/e",
+        "V₀ = (e/h)ν - φ₀/h",
+        "V₀ = (h/e)ν - φ₀/e",
+        "V₀ = (h/e)ν × φ₀/e"
+      ],
+      "correct": 2,
+      "explanation": "The correct equation is V₀ = (h/e)ν - φ₀/e, derived from eV₀ = hν - φ₀ by dividing both sides by e. This shows that the V₀ versus ν graph is a straight line with slope h/e, which is independent of the nature of the material. | சரியான சமன்பாடு V₀ = (h/e)ν - φ₀/e ஆகும். இது eV₀ = hν - φ₀ இருபுறமும் e ஆல் வகுத்து பெறப்படுகிறது. V₀ மற்றும் ν வரைபடம் நேர்கோடாக இருக்கும், சாய்வு h/e உலோகத்தின் தன்மைக்கு சாராது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "தடுப்பு மின்னழுத்தம் மற்றும் அதிர்வெண் வரைபடத்தின் சாய்வு எதைக் குறிக்கிறது?",
+      "options": [
+        "e/h",
+        "h/e",
+        "φ₀/h",
+        "h/φ₀"
+      ],
+      "correct": 1,
+      "explanation": "The slope of the V₀ versus ν graph is h/e. From the equation V₀ = (h/e)ν - φ₀/e, the slope is h/e. This is a universal constant independent of the material. Millikan used this to determine Planck's constant h. | V₀ மற்றும் ν வரைபடத்தின் சாய்வு h/e ஆகும். V₀ = (h/e)ν - φ₀/e சமன்பாட்டிலிருந்து சாய்வு h/e என்று கிடைக்கிறது. இது உலோகத்தின் தன்மைக்கு சாராத பொது மாறிலி. மில்லிக்கான் இதைப் பயன்படுத்தி பிளாங்க் மாறிலி h ஐ கண்டறிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1906-1916 காலகட்டத்தில் மில்லிக்கான் ஒளிமின் விளைவு சோதனைகளை மேற்கொண்டபோது அவரது முதல் நோக்கம் என்ன?",
+      "options": [
+        "ஐன்ஸ்டீனின் ஒளிமின் சமன்பாட்டை நிரூபிக்க",
+        "ஐன்ஸ்டீனின் ஒளிமின் சமன்பாட்டை மறுக்க",
+        "எலக்ட்ரானைக் கண்டறிய",
+        "ஒளியின் வேகத்தை அளவிட"
+      ],
+      "correct": 1,
+      "explanation": "Millikan originally aimed to disprove Einstein's photoelectric equation. However, his precise measurements actually confirmed the validity of Einstein's equation and yielded an accurate value of Planck's constant h, leading to the acceptance of the photon picture. | மில்லிக்கான் முதலில் ஐன்ஸ்டீனின் ஒளிமின் சமன்பாட்டை மறுக்க முயன்றார். ஆனால் அவரது துல்லியமான அளவீடுகள் ஐன்ஸ்டீன் சமன்பாட்டின் செல்லுபடியை உறுதிப்படுத்தின, மேலும் பிளாங்க் மாறிலி h இன் துல்லியமான மதிப்பைத் தந்தது, இது ஒளிமின் படத்தை ஏற்றுக்கொள்ள வழிவகுத்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின் படத்தின்படி, ஒளிமின் எலக்ட்ரான்களின் அதிகபட்ச இயக்க ஆற்றல் படிவீச்சு தீவிரத்திற்கு சாராதது ஏன்?",
+      "options": [
+        "ஒளிமின்களின் நிறை பூஜ்யம் என்பதால்",
+        "ஒவ்வொரு எலக்ட்ரானும் ஒரு ஒளிமினை மட்டுமே உறிஞ்சுகிறது, ஒளிமின் ஆற்றல் அதிர்வெண்ணை மட்டுமே சார்ந்தது",
+        "தீவிரம் ஒளிமின்களின் எண்ணிக்கையை மட்டுமே பாதிக்கிறது, அவற்றின் ஆற்றலை அல்ல",
+        "B மற்றும் C இரண்டும் சரி"
+      ],
+      "correct": 3,
+      "explanation": "In Einstein's picture, photoelectric effect arises from absorption of a single quantum by a single electron. The intensity is proportional to the number of photons per unit area per unit time, but each photon has energy hν. So increasing intensity increases the number of emitted electrons but not their maximum kinetic energy. | ஐன்ஸ்டீனின் படத்தில், ஒளிமின் விளைவு ஒரு எலக்ட்ரானால் ஒரு குவாண்டம் உறிஞ்சுவதால் ஏற்படுகிறது. தீவிரம் ஒரு பகுதியில் ஒரு நேரத்தில் வரும் ஒளிமின் எண்ணிக்கைக்கு நேர்விகிதத்தில் உள்ளது, ஆனால் ஒவ்வொரு ஒளிமினும் hν ஆற்றலைக் கொண்டுள்ளது. எனவே தீவிரத்தை அதிகரிப்பது வெளியேறும் எலக்ட்ரான்களின் எண்ணிக்கையை அதிகரிக்கும், ஆனால் அவற்றின் அதிகபட்ச இயக்க ஆற்றலை அல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் உமிழ்வு நிகழ படிவீச்சு அதிர்வெண் தொடர்பாக எந்த நிபந்தனை பூர்த்தி செய்யப்பட வேண்டும்?",
+      "options": [
+        "ν, ν₀ விட குறைவாக இருக்க வேண்டும்",
+        "ν, ν₀ க்கு சமமாக இருக்க வேண்டும்",
+        "ν, ν₀ விட அதிகமாக அல்லது சமமாக இருக்க வேண்டும்",
+        "ν, ν₀ தனித்துவமாக எந்த மதிப்பாகவும் இருக்கலாம்"
+      ],
+      "correct": 2,
+      "explanation": "Photoelectric emission is possible only if hν ≥ φ₀, which means ν ≥ ν₀ where ν₀ = φ₀/h. Below the threshold frequency, no photoelectric emission occurs regardless of how intense the incident radiation is. | ஒளிமின் உமிழ்வு hν ≥ φ₀ என்ற நிபந்தனையை பூர்த்தி செய்தால் மட்டுமே சாத்தியமாகும், இது ν ≥ ν₀ என்று அர்த்தம், இங்கு ν₀ = φ₀/h. திறநிலை அதிர்வெண்ணுக்குக் கீழே, எவ்வளவு தீவிரமான படிவீச்சு இருந்தாலும் ஒளிமின் உமிழ்வு நிகழாது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "E = hν ஆற்றல் கொண்ட ஒளிமினின் உந்தம் என்ன?",
+      "options": [
+        "p = hν/c",
+        "p = hν × c",
+        "p = c/hν",
+        "p = hν²/c"
+      ],
+      "correct": 0,
+      "explanation": "The momentum of a photon is given by p = hν/c = h/λ. This is a fundamental property of photons that demonstrates their particle-like nature. Einstein showed that light quanta can be associated with both definite energy and momentum. | ஒளிமினின் உந்தம் p = hν/c = h/λ என்று கொடுக்கப்படுகிறது. இது ஒளிமின்களின் துகள் போன்ற தன்மையை நிரூபிக்கும் அடிப்படை பண்பு. ஐன்ஸ்டீன் ஒளி குவாண்டம்களை நிச்சயமான ஆற்றல் மற்றும் உந்தத்துடன் இணைக்க முடியும் என்று காட்டினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மில்லிக்கான் பிளாங்க் மாறிலி h இன் மதிப்பை எவ்வாறு தீர்மானித்தார்?",
+      "options": [
+        "எலக்ட்ரானின் மின்சுமையை அளவிடுவதன் மூலம்",
+        "V₀ மற்றும் ν வரைபடத்தின் சாய்வை அளவிட்டு e இன் அறியப்பட்ட மதிப்பைப் பயன்படுத்துவதன் மூலம்",
+        "சோடியத்தின் பணிச்சார்பை அளவிடுவதன் மூலம்",
+        "ஒளிமின் எலக்ட்ரான்களின் வேகத்தை அளவிடுவதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "Millikan measured the slope of the straight line obtained for sodium in the V₀ versus ν graph. Since slope = h/e and the value of e was known, he could calculate h. The value obtained was close to 6.626 × 10⁻³⁴ J s. | மில்லிக்கான் V₀ மற்றும் ν வரைபடத்தில் சோடியத்திற்கு கிடைத்த நேர்கோட்டின் சாய்வை அளவிட்டார். சாய்வு = h/e மற்றும் e இன் மதிப்பு தெரிந்திருந்ததால், h ஐ கணக்கிட முடிந்தது. பெறப்பட்ட மதிப்பு 6.626 × 10⁻³⁴ J s க்கு நெருக்கமாக இருந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின் படத்தின்படி ஒளிமின் உமிழ்வு உடனடியானது ஏன்?",
+      "options": [
+        "ஒளிமின்கள் ஒளியின் வேகத்தில் பயணிப்பதால்",
+        "அடிப்படை செயல்முறை ஒரு எலக்ட்ரானால் ஒரு ஒளி குவாண்டம் உறிஞ்சுவது, இது ஒரு தனித்த தொடக்க செயல்முறை",
+        "பணிச்சார்பு மிகக் குறைவானதால்",
+        "உலோகங்களில் அதிக சுதந்திர எலக்ட்ரான்கள் இருப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "In Einstein's picture, the basic elementary process is the absorption of a light quantum by a single electron. This process is instantaneous. Low intensity only means fewer electrons participate, not a delay in emission. The time lag is of the order of 10⁻⁹ s or less. | ஐன்ஸ்டீனின் படத்தில், அடிப்படை தொடக்க செயல்முறை ஒரு எலக்ட்ரானால் ஒளி குவாண்டம் உறிஞ்சுவதாகும். இந்த செயல்முறை உடனடியானது. குறைந்த தீவிரம் என்பது குறைந்த எலக்ட்ரான்கள் பங்கேற்கிறார்கள் என்று அர்த்தம், உமிழ்வில் தாமதம் அல்ல. நேரம் தாமதம் 10⁻⁹ s அல்லது அதற்கும் குறைவாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "திறநிலைக்கு மேல் ஒரு குறிப்பிட்ட அதிர்வெண்ணுக்கு, படிவீச்சு தீவிரம் ஒளிமின் மின்னோட்டத்தை எவ்வாறு பாதிக்கிறது?",
+      "options": [
+        "ஒளிமின் மின்னோட்டம் தீவிரத்திற்கு எதிர் விகிதத்தில் உள்ளது",
+        "ஒளிமின் மின்னோட்டம் தீவிரத்திற்கு நேர் விகிதத்தில் உள்ளது",
+        "ஒளிமின் மின்னோட்டம் தீவிரத்திற்கு சாராது",
+        "ஒளிமின் மின்னோட்டம் தீவிரத்தின் வர்க்கத்திற்கு நேர் விகிதத்தில் உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "For a given frequency above the threshold, the photoelectric current is directly proportional to the intensity of incident light. This is because intensity is proportional to the number of photons per unit area per unit time, and more photons mean more electrons can be emitted. | திறநிலைக்கு மேல் ஒரு குறிப்பிட்ட அதிர்வெண்ணுக்கு, ஒளிமின் மின்னோட்டம் படிவீச்சு தீவிரத்திற்கு நேர்விகிதத்தில் உள்ளது. தீவிரம் ஒரு பகுதியில் ஒரு நேரத்தில் வரும் ஒளிமின் எண்ணிக்கைக்கு நேர்விகிதத்தில் உள்ளது, மேலும் அதிக ஒளிமின்கள் என்றால் அதிக எலக்ட்ரான்கள் வெளியேற முடியும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரு உலோகத்தின் பணிச்சார்பு அதிகரித்தால், அதன் திறநிலை அதிர்வெண்ணுக்கு என்ன நிகழும்?",
+      "options": [
+        "திறநிலை அதிர்வெண் குறையும்",
+        "திறநிலை அதிர்வெண் அதிகரிக்கும்",
+        "திறநிலை அதிர்வெண் மாறாது",
+        "திறநிலை அதிர்வெண் பூஜ்யமாகும்"
+      ],
+      "correct": 1,
+      "explanation": "From ν₀ = φ₀/h, the threshold frequency is directly proportional to the work function. Therefore, if the work function increases, the threshold frequency also increases. Metals with higher work functions require higher frequency light to cause photoelectric emission. | ν₀ = φ₀/h இலிருந்து, திறநிலை அதிர்வெண் பணிச்சார்புக்கு நேர்விகிதத்தில் உள்ளது. எனவே பணிச்சார்பு அதிகரித்தால், திறநிலை அதிர்வெண்ணும் அதிகரிக்கும். அதிக பணிச்சார்பு கொண்ட உலோகங்களுக்கு ஒளிமின் உமிழ்வை ஏற்படுத்த அதிக அதிர்வெண் கொண்ட ஒளி தேவை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் மின்காந்த கதிர்வீச்சின் ஒளிமின் படத்தை ஏற்றுக்கொள்ள எது வழிவகுத்தது?",
+      "options": [
+        "கோட்பாட்டு கணிப்புகள் மட்டுமே",
+        "மில்லிக்கானின் துல்லியமான சோதனை உறுதிப்படுத்தல் மற்றும் h இன் தீர்மானிப்பு",
+        "J.J. தாம்சனின் எலக்ட்ரான் கண்டுபிடிப்பு",
+        "ஹெர்ட்ஸின் மின்காந்த அலை சோதனைகள்"
+      ],
+      "correct": 1,
+      "explanation": "The successful explanation of photoelectric effect using light quanta hypothesis, combined with Millikan's precise experimental measurements confirming Einstein's equation and yielding accurate values of h and φ₀, led to the acceptance of the particle or photon description of electromagnetic radiation. | ஒளி குவாண்டம் கருதுகோளைப் பயன்படுத்தி ஒளிமின் விளைவின் வெற்றிகரமான விளக்கம், மில்லிக்கானின் துல்லியமான சோதனை அளவீடுகளுடன் இணைந்து ஐன்ஸ்டீன் சமன்பாட்டை உறுதிப்படுத்தி h மற்றும் φ₀ இன் துல்லியமான மதிப்புகளைத் தந்தது, இது மின்காந்த கதிர்வீச்சின் துகள் அல்லது ஒளிமின் விவரிப்பை ஏற்றுக்கொள்ள வழிவகுத்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் சமன்பாடு eV₀ = h(ν - ν₀) என்று எழுதலாம். இந்த வடிவம் என்ன காட்டுகிறது?",
+      "options": [
+        "தடுப்பு மின்னழுத்தம் தீவிரத்தைச் சார்ந்தது",
+        "அதிகபட்ச இயக்க ஆற்றல் ஒளிமின் ஆற்றல் கழித்தல் திறநிலை ஆற்றல்",
+        "பணிச்சார்பு பூஜ்யம்",
+        "திறநிலை அதிர்வெண் முடிவில்லாதது"
+      ],
+      "correct": 1,
+      "explanation": "The form eV₀ = h(ν - ν₀) = hν - hν₀ = hν - φ₀ shows that the maximum kinetic energy (eV₀) equals the photon energy (hν) minus the threshold energy (hν₀ = φ₀). This clearly demonstrates the energy conservation in the photoelectric process. | வடிவம் eV₀ = h(ν - ν₀) = hν - hν₀ = hν - φ₀ என்பது அதிகபட்ச இயக்க ஆற்றல் (eV₀) ஒளிமின் ஆற்றல் (hν) கழித்தல் திறநிலை ஆற்றல் (hν₀ = φ₀) என்று காட்டுகிறது. இது ஒளிமின் செயல்முறையில் ஆற்றல் பாதுகாப்பை தெளிவாக நிரூபிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "தடுப்பு மின்னழுத்தம் மற்றும் அதிர்வெண் வரைபடத்தின் சாய்வு உலோகத்தின் தன்மைக்கு சாராது என்று கூறப்படுகிறது. இது என்ன குறிக்கிறது?",
+      "options": [
+        "அனைத்து உலோகங்களுக்கும் ஒரே பணிச்சார்பு உள்ளது",
+        "விகிதம் h/e ஒரு பொது மாறிலி",
+        "அனைத்து உலோகங்களும் ஒரே எண்ணிக்கையிலான எலக்ட்ரான்களை வெளியேற்றுகின்றன",
+        "அனைத்து உலோகங்களுக்கும் திறநிலை அதிர்வெண் ஒன்றே"
+      ],
+      "correct": 1,
+      "explanation": "The slope h/e is a universal constant because both h (Planck's constant) and e (elementary charge) are fundamental constants of nature. This means the slope should be the same for all materials, even though the intercept (which depends on φ₀/e) differs for different metals. | சாய்வு h/e ஒரு பொது மாறிலி, ஏனெனில் h (பிளாங்க் மாறிலி) மற்றும் e (தொடக்க மின்சுமை) இரண்டும் இயற்கையின் அடிப்படை மாறிலிகள். இது சாய்வு அனைத்து பொருட்களுக்கும் ஒரே மாதிரியாக இருக்க வேண்டும் என்று அர்த்தம், இருப்பினும் இடைமறிப்பு (φ₀/e என்று சார்ந்தது) வெவ்வேறு உலோகங்களுக்கு வேறுபடும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் சமன்பாட்டின்படி, K_max படிவீச்சு அதிர்வெண்ணுடன் எவ்வாறு மாறுபடுகிறது?",
+      "options": [
+        "K_max அதிர்வெண்ணுடன் எதிர் விகிதத்தில் மாறுபடுகிறது",
+        "K_max அதிர்வெண்ணுடன் நேர்கோட்டு வகையில் மாறுபடுகிறது",
+        "K_max அதிர்வெண்ணின் வர்க்கத்துடன் மாறுபடுகிறது",
+        "K_max அதிர்வெண்ணுக்கு சாராது"
+      ],
+      "correct": 1,
+      "explanation": "From K_max = hν - φ₀, we see that K_max varies linearly with frequency ν. The graph of K_max versus ν is a straight line with slope h and intercept -φ₀. This linear dependence is one of the key predictions of Einstein's theory that was experimentally verified. | K_max = hν - φ₀ இலிருந்து, K_max அதிர்வெண் ν உடன் நேர்கோட்டு வகையில் மாறுபடுகிறது. K_max மற்றும் ν வரைபடம் சாய்வு h மற்றும் இடைமறிப்பு -φ₀ கொண்ட நேர்கோடு. இந்த நேர்கோட்டு சார்பு ஐன்ஸ்டீன் கோட்பாட்டின் முக்கிய கணிப்புகளில் ஒன்றாகும், இது சோதனை முறையில் உறுதிப்படுத்தப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ν அதிர்வெண் கொண்ட ஒரு ஒளிமினின் ஆற்றல் என்ன?",
+      "options": [
+        "E = h/ν",
+        "E = hν",
+        "E = hν²",
+        "E = h/ν²"
+      ],
+      "correct": 1,
+      "explanation": "Each photon has energy E = hν, where h is Planck's constant (6.626 × 10⁻³⁴ J s) and ν is the frequency. This discrete energy packet is the fundamental concept of quantum theory. All photons of a particular frequency have the same energy regardless of intensity. | ஒவ்வொரு ஒளிமினும் E = hν ஆற்றலைக் கொண்டுள்ளது, இங்கு h பிளாங்க் மாறிலி (6.626 × 10⁻³⁴ J s) மற்றும் ν அதிர்வெண். இந்த தனித்துவமான ஆற்றல் தொகுப்பு குவாண்டம் கோட்பாட்டின் அடிப்படை கருத்து. ஒரு குறிப்பிட்ட அதிர்வெண் கொண்ட அனைத்து ஒளிமின்களும் தீவிரத்திற்கு சாராது ஒரே ஆற்றலைக் கொண்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "திறநிலை அல்லது வெட்டு அதிர்வெண் ν₀ இன் இயற்பியல் முக்கியத்துவம் என்ன?",
+      "options": [
+        "ஒளிமின் மின்னோட்டம் அதிகமாக இருக்கும் அதிர்வெண்",
+        "இதற்குக் கீழே ஒளிமின் உமிழ்வு நிகழாத குறைந்தபட்ச அதிர்வெண்",
+        "தடுப்பு மின்னழுத்தம் அதிகமாக இருக்கும் அதிர்வெண்",
+        "வெளியேறும் அனைத்து ஒளிமின் எலக்ட்ரான்களின் சராசரி அதிர்வெண்"
+      ],
+      "correct": 1,
+      "explanation": "The threshold frequency ν₀ is the minimum frequency of incident radiation below which no photoelectric emission takes place, no matter how intense the incident light is. At this frequency, hν₀ = φ₀, so K_max = 0. | திறநிலை அதிர்வெண் ν₀ என்பது படிவீச்சு கதிர்வீச்சின் குறைந்தபட்ச அதிர்வெண், இதற்குக் கீழே எவ்வளவு தீவிரமான ஒளி இருந்தாலும் ஒளிமின் உமிழ்வு நிகழாது. இந்த அதிர்வெண்ணில், hν₀ = φ₀, எனவே K_max = 0."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவில் தடுப்பு மின்னழுத்தம் V₀ என்றால் என்ன?",
+      "options": [
+        "ஒளிமின் மின்னோட்டம் அதிகமாக இருக்கும் மின்னழுத்தம்",
+        "ஒளிமின் மின்னோட்டம் பூஜ்யமாகும் குறைந்தபட்ச எதிர்மறை மின்னழுத்தம்",
+        "அனைத்து எலக்ட்ரான்களும் வெளியேறும் மின்னழுத்தம்",
+        "எலக்ட்ரான்களை முடுக்க தேவையான மின்னழுத்தம்"
+      ],
+      "correct": 1,
+      "explanation": "The stopping potential is the minimum negative (retarding) potential given to the collector plate for which the photocurrent stops or becomes zero. At this potential, even the most energetic photoelectrons are repelled, so eV₀ = K_max. | தடுப்பு மின்னழுத்தம் என்பது ஒளிமின் மின்னோட்டம் நிறுத்தப்படும் அல்லது பூஜ்யமாகும் கலெக்டர் தட்டின் குறைந்தபட்ச எதிர்மறை (தடுப்பு) மின்னழுத்தம். இந்த மின்னழுத்தத்தில், அதிக ஆற்றல் கொண்ட ஒளிமின் எலக்ட்ரான்களும் தள்ளப்படுகின்றன, எனவே eV₀ = K_max."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின் படத்தில், ஒரு குறிப்பிட்ட அதிர்வெண் கொண்ட ஒளியின் தீவிரம் எதைக் குறிக்கிறது?",
+      "options": [
+        "ஒவ்வொரு தனித்த ஒளிமினின் ஆற்றல்",
+        "ஒரு பகுதியில் ஒரு நேரத்தில் வரும் ஒளிமின் எண்ணிக்கை",
+        "ஒளிமின்களின் அலைநீளம்",
+        "ஒவ்வொரு ஒளிமினின் உந்தம்"
+      ],
+      "correct": 1,
+      "explanation": "In Einstein's picture, the intensity of light of a given frequency is determined by the number of photons incident per unit area per unit time. Increasing intensity increases the number of photons but does not change the energy of each photon, which depends only on frequency. | ஐன்ஸ்டீனின் படத்தில், ஒரு குறிப்பிட்ட அதிர்வெண் கொண்ட ஒளியின் தீவிரம் ஒரு பகுதியில் ஒரு நேரத்தில் வரும் ஒளிமின் எண்ணிக்கையால் தீர்மானிக்கப்படுகிறது. தீவிரத்தை அதிகரிப்பது ஒளிமின்களின் எண்ணிக்கையை அதிகரிக்கும், ஆனால் ஒவ்வொரு ஒளிமினின் ஆற்றலை மாற்றாது, இது அதிர்வெண்ணை மட்டுமே சார்ந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளியின் அலை கோட்பாடால் விளக்க முடியாத ஒளிமின் விளைவின் எந்த அவதானிப்பு?",
+      "options": [
+        "ஒளிமின் மின்னோட்டம் தீவிரத்துடன் அதிகரிக்கிறது",
+        "K_max அதிர்வெண்ணைச் சார்ந்துள்ளது, தீவிரத்திற்கு அல்ல",
+        "ஒளி பிரதிபலிக்க முடியும்",
+        "ஒளி குறுக்கீட்டைக் காட்டுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The wave theory predicts that K_max should increase with intensity, but experimentally K_max depends only on frequency, not intensity. This is a fundamental contradiction that the wave theory cannot explain, leading to the need for Einstein's photon picture. | அலை கோட்பாடு K_max தீவிரத்துடன் அதிகரிக்க வேண்டும் என்று கணிக்கிறது, ஆனால் சோதனை முறையில் K_max அதிர்வெண்ணை மட்டுமே சார்ந்துள்ளது, தீவிரத்திற்கு அல்ல. இது அலை கோட்பாடு விளக்க முடியாத ஒரு அடிப்படை முரண்பாடு, இது ஐன்ஸ்டீனின் ஒளிமின் படத்தின் தேவையை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் சோதனைகளிலிருந்து தீர்மானிக்கப்பட்ட பிளாங்க் மாறிலி h இன் ஏற்றுக்கொள்ளப்பட்ட மதிப்பு என்ன?",
+      "options": [
+        "6.026 × 10⁻³⁴ J s",
+        "6.626 × 10⁻³⁴ J s",
+        "6.626 × 10⁻³⁴ J/s",
+        "6.626 × 10⁻³⁴ kg m²/s"
+      ],
+      "correct": 1,
+      "explanation": "The accepted value of Planck's constant is h = 6.626 × 10⁻³⁴ J s. Millikan's photoelectric experiments confirmed this value, which was previously determined in entirely different contexts (blackbody radiation). | பிளாங்க் மாறிலியின் ஏற்றுக்கொள்ளப்பட்ட மதிப்பு h = 6.626 × 10⁻³⁴ J s. மில்லிக்கானின் ஒளிமின் சோதனைகள் இந்த மதிப்பை உறுதிப்படுத்தின, இது முன்பு முற்றிலும் வேறுபட்ட சூழல்களில் (கருப்பு உடல் கதிர்வீச்சு) தீர்மானிக்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவில் நிரம்பு மின்னோட்டம் எதைக் குறிக்கிறது?",
+      "options": [
+        "அனைத்து வெளியேறும் ஒளிமின் எலக்ட்ரான்களும் கலெக்டர் தட்டை அடையும் போதுள்ள மின்னோட்டம்",
+        "எந்த சுற்றிலும் அதிகபட்ச சாத்தியமான மின்னோட்டம்",
+        "எலக்ட்ரான்கள் வெளியேறாத போதுள்ள மின்னோட்டம்",
+        "திறநிலை அதிர்வெண்ணில் உள்ள மின்னோட்டம்"
+      ],
+      "correct": 0,
+      "explanation": "Saturation current corresponds to the case when all the photoelectrons emitted by the emitter plate reach the collector plate. Beyond this point, increasing the accelerating potential does not increase the photocurrent because all emitted electrons are already being collected. | நிரம்பு மின்னோட்டம் என்பது உமிழ்வான் தட்டிலிருந்து வெளியேறும் அனைத்து ஒளிமின் எலக்ட்ரான்களும் கலெக்டர் தட்டை அடையும் நிலைக்கு ஒத்ததாகும். இந்த புள்ளிக்கு அப்பால், முடுக்கும் மின்னழுத்தத்தை அதிகரிப்பது ஒளிமின் மின்னோட்டத்தை அதிகரிக்காது, ஏனெனில் வெளியேறும் அனைத்து எலக்ட்ரான்களும் ஏற்கனவே சேகரிக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1921 இல் ஐன்ஸ்டீன் இயற்பியலில் நோபல் பரிசு பெற காரணமான பங்களிப்பு என்ன?",
+      "options": [
+        "சிறப்பு சார்பியல் கோட்பாடு",
+        "பொது சார்பியல் கோட்பாடு",
+        "ஒளிமின் விளைவு மற்றும் கோட்பாட்டு இயற்பியலுக்கான பங்களிப்பு",
+        "பிரவுனியன் இயக்கம்"
+      ],
+      "correct": 2,
+      "explanation": "Einstein was awarded the Nobel Prize in Physics in 1921 for his contribution to theoretical physics and especially for his discovery of the law of the photoelectric effect. The photon concept was revolutionary in understanding light-matter interaction. | ஐன்ஸ்டீன் 1921 ஆம் ஆண்டில் கோட்பாட்டு இயற்பியலுக்கான அவரது பங்களிப்பு மற்றும் குறிப்பாக ஒளிமின் விளைவின் விதியைக் கண்டறிததற்காக இயற்பியலில் நோபல் பரிசு பெற்றார். ஒளிமின் கருத்தானது ஒளி-பொருள் இடைவினையைப் புரிந்துகொள்ள புரட்சிகரமானது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமினின் உந்தம் அதன் அலைநீளத்துடன் எவ்வாறு தொடர்புடையது?",
+      "options": [
+        "p = h/λ",
+        "p = hλ",
+        "p = λ/h",
+        "p = hλ²"
+      ],
+      "correct": 0,
+      "explanation": "The momentum of a photon is p = h/λ, where h is Planck's constant and λ is the wavelength. Since E = hν = hc/λ and p = E/c, we get p = h/λ. This shows the dual wave-particle nature of light. | ஒளிமினின் உந்தம் p = h/λ, இங்கு h பிளாங்க் மாறிலி மற்றும் λ அலைநீளம். E = hν = hc/λ மற்றும் p = E/c என்பதால், p = h/λ கிடைக்கிறது. இது ஒளியின் இரட்டை அலை-துகள் தன்மையைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "திறநிலை அதிர்வெண்ணுக்குக் கீழே உள்ள அதிர்வெண் கொண்ட ஒளி உலோகத் தளத்தில் விழும்போது என்ன நிகழும்?",
+      "options": [
+        "குறைந்த இயக்க ஆற்றல் கொண்ட ஒளிமின் எலக்ட்ரான்கள் வெளியேறும்",
+        "தீவிரத்திற்கு சாராமல் ஒளிமின் உமிழ்வு நிகழாது",
+        "ஒரு நேரத் தாமதத்திற்குப் பிறகு ஒளிமின் எலக்ட்ரான்கள் வெளியேறும்",
+        "ஒளிமின் மின்னோட்டம் தீவிரத்துடன் நேர்கோட்டு வகையில் அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "When the frequency of incident radiation is below the threshold frequency (ν < ν₀), no photoelectric emission takes place, no matter how large the intensity may be. This is because each photon has energy hν < φ₀, which is insufficient to overcome the work function. | படிவீச்சு கதிர்வீச்சின் அதிர்வெண் திறநிலை அதிர்வெண்ணுக்குக் கீழே இருக்கும்போது (ν < ν₀), எவ்வளவு தீவிரமான ஒளி இருந்தாலும் ஒளிமின் உமிழ்வு நிகழாது. ஒவ்வொரு ஒளிமினும் hν < φ₀ ஆற்றலைக் கொண்டுள்ளது, இது பணிச்சார்பை மீற போதுமானதல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "உந்தம் p கொண்ட துகளுடன் தொடர்புடைய டி ப்ராக்லி அலைநீளம் λ எந்த உறவால் கொடுக்கப்படுகிறது?",
+      "options": [
+        "λ = p/h",
+        "λ = h/p",
+        "λ = h × p",
+        "λ = h/p²"
+      ],
+      "correct": 1,
+      "explanation": "The de Broglie relation is λ = h/p = h/(mv), where h is Planck's constant, m is mass, and v is velocity. This revolutionary hypothesis proposed that matter has wave-like properties, complementing the particle nature of light. | டி ப்ராக்லி உறவு λ = h/p = h/(mv) ஆகும், இங்கு h பிளாங்க் மாறிலி, m நிறை, v வேகம். இந்த புரட்சிகரமான கருதுகோள் பொருள் அலை போன்ற பண்புகளைக் கொண்டுள்ளது என்று முன்மொழிந்தது, இது ஒளியின் துகள் தன்மைக்கு நிரப்பாக அமைகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் படத்தின்படி பின்வருவனவற்றில் எது ஒளிமின்களின் பண்பு அல்ல?",
+      "options": [
+        "ஒளிமின்கள் மின்னியல் நடுநிலையானவை",
+        "ஒளிமின்கள் மின் புலங்களால் விலக்கப்படுகின்றன",
+        "ஒளிமின்கள் ஒளியின் வேகத்தில் பயணிக்கின்றன",
+        "ஒளிமின்கள் E = hν ஆற்றல் கொண்டுள்ளன"
+      ],
+      "correct": 1,
+      "explanation": "Photons are electrically neutral and are not deflected by electric and magnetic fields. They travel at speed c, have energy E = hν and momentum p = hν/c. Being neutral particles, they do not interact with electric fields. | ஒளிமின்கள் மின்னியல் நடுநிலையானவை மற்றும் மின் மற்றும் காந்த புலங்களால் விலக்கப்படுவதில்லை. அவை c வேகத்தில் பயணிக்கின்றன, E = hν ஆற்றல் மற்றும் p = hν/c உந்தம் கொண்டுள்ளன. நடுநிலை துகள்களாக இருப்பதால், அவை மின் புலங்களுடன் இடைவினையாற்றுவதில்லை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின் சமன்பாடு எந்த அடிப்படை விதியுடன் ஒத்துப்போகிறது?",
+      "options": [
+        "நிறை பாதுகாப்பு விதி",
+        "ஆற்றல் பாதுகாப்பு விதி",
+        "உந்தம் பாதுகாப்பு விதி",
+        "மின்சுமை பாதுகாப்பு விதி"
+      ],
+      "correct": 1,
+      "explanation": "Einstein's photoelectric equation K_max = hν - φ₀ is in accordance with the law of conservation of energy. The photon energy hν is converted into the work function φ₀ (energy needed to escape the metal) and the kinetic energy of the emitted electron. | ஐன்ஸ்டீனின் ஒளிமின் சமன்பாடு K_max = hν - φ₀ ஆற்றல் பாதுகாப்பு விதியுடன் ஒத்துப்போகிறது. ஒளிமின் ஆற்றல் hν பணிச்சார்பு φ₀ (உலோகத்திலிருந்து வெளியேற தேவையான ஆற்றல்) மற்றும் வெளியேறும் எலக்ட்ரானின் இயக்க ஆற்றலாக மாற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1924 இல் ஒளியின் துகள் போன்ற நடத்தையை மேலும் உறுதிப்படுத்திய சோதனை எது?",
+      "options": [
+        "ஹெர்ட்ஸின் மின்காந்த அலை சோதனை",
+        "மில்லிக்கானின் எண்ணெய் துளி சோதனை",
+        "காம்ப்டனின் எக்ஸ்-கதிர் சிதறல் சோதனை",
+        "தாம்சனின் கேத்தோட் கதிர் சோதனை"
+      ],
+      "correct": 2,
+      "explanation": "A.H. Compton's experiment on scattering of X-rays from electrons in 1924 further confirmed the particle-like behavior of light. This experiment showed that X-rays scatter off electrons like particles, with conservation of energy and momentum, similar to billiard ball collisions. | 1924 இல் A.H. காம்ப்டனின் எக்ஸ்-கதிர்கள் எலக்ட்ரான்களில் சிதறல் சோதனை ஒளியின் துகள் போன்ற நடத்தையை மேலும் உறுதிப்படுத்தியது. இந்த சோதனை எக்ஸ்-கதிர்கள் எலக்ட்ரான்களில் துகள்கள் போல சிதறுவதைக் காட்டியது, ஆற்றல் மற்றும் உந்தம் பாதுகாப்புடன், பில்லியர்டு பந்து மோதல்களைப் போல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் ஒளிமின் விளைவு சமன்பாட்டின்படி, வெளியேற்றப்படும் ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றல் என்ன?",
+      "options": [
+        "K_max = hν + φ₀",
+        "K_max = hν - φ₀",
+        "K_max = φ₀ - hν",
+        "K_max = hν × φ₀"
+      ],
+      "correct": 1,
+      "explanation": "Einstein's photoelectric equation states that the maximum kinetic energy of emitted photoelectrons equals the photon energy minus the work function: K_max = hν - φ₀. This equation elegantly explains all experimental observations of the photoelectric effect. | ஐன்ஸ்டீனின் ஒளிமின் விளைவு சமன்பாடு, வெளியேற்றப்படும் ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றல் ஒளியின் ஆற்றல் மின்னணு வெளியேறுவதற்கான குறைந்தபட்ச ஆற்றலைக் கழித்தல் என்று கூறுகிறது: K_max = hν - φ₀. இந்த சமன்பாடு ஒளிமின் விளைவின் அனைத்து சோதனைக் கூறுகளையும் விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஐன்ஸ்டீனின் சமன்பாட்டின்படி ஒளிமின் விளைவு ஏற்பட என்ன நிபந்தனை தேவை?",
+      "options": [
+        "hν < φ₀",
+        "hν = φ₀",
+        "hν > φ₀",
+        "hν = 0"
+      ],
+      "correct": 2,
+      "explanation": "For photoelectric emission to occur, the photon energy must exceed the work function: hν > φ₀. This ensures that the electron has enough energy to overcome the attractive forces of the metal surface and escape. | ஒளிமின் விளைவு ஏற்பட, ஒளியின் ஆற்றல் மின்னணு வெளியேறுவதற்கான குறைந்தபட்ச ஆற்றலை விட அதிகமாக இருக்க வேண்டும்: hν > φ₀. இது மின்னணு உலோக மேற்பரப்பின் கவர்ச்சிப் படிவிலிருந்து வெளியேறுவதற்கு போதுமான ஆற்றலைப் பெற்றிருக்கிறது என்பதை உறுதி செய்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "விளிம்பு அதிர்வெண் மற்றும் வேலைச் செயல்பாட்டுக்கு இடையேயான உறவு என்ன?",
+      "options": [
+        "ν₀ = h × φ₀",
+        "ν₀ = φ₀ / h",
+        "ν₀ = h / φ₀",
+        "ν₀ = φ₀ + h"
+      ],
+      "correct": 1,
+      "explanation": "The threshold frequency is given by ν₀ = φ₀ / h. This means that metals with higher work functions require higher threshold frequencies. Below this frequency, no photoelectric emission occurs regardless of intensity. | விளிம்பு அதிர்வெண் ν₀ = φ₀ / h என்று கொடுக்கப்பட்டுள்ளது. இது அதிக வேலைச் செயல்பாடு கொண்ட உலோகங்களுக்கு அதிக விளிம்பு அதிர்வெண் தேவைப்படுகிறது என்பதைக் குறிக்கிறது. இந்த அதிர்வெண்ணுக்குக் கீழே, தீவிரத்தைப் பொருட்படுத்தாமல் ஒளிமின் விளைவு ஏற்படாது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "நிறுத்து மின்னழுத்தம் V₀ விழும் ஒளியின் அதிர்வெண்ணுடன் எவ்வாறு மாறுகிறது?",
+      "options": [
+        "V₀ = (h/e)ν + (φ₀/e)",
+        "V₀ = (e/h)ν - (φ₀/h)",
+        "V₀ = (h/e)ν - (φ₀/e)",
+        "V₀ = (φ₀/e)ν - (h/e)"
+      ],
+      "correct": 2,
+      "explanation": "The stopping potential varies linearly with frequency according to V₀ = (h/e)ν - (φ₀/e). This is a straight line with slope h/e, which is independent of the material. This was experimentally verified by Millikan. | நிறுத்து மின்னழுத்தம் V₀ = (h/e)ν - (φ₀/e) என்ற சமன்பாடின்படி அதிர்வெண்ணுடன் நேர்கோட்டில் மாறுகிறது. இதன் சாய்வு h/e ஆகும், இது பொருளின் தன்மையைப் பொருட்படுத்தாது. இது மில்லிக்கனால் சோதனை முறையில் உறுதி செய்யப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "V₀ மற்றும் ν வரைபடத்தின் சாய்வு எதைக் குறிக்கிறது?",
+      "options": [
+        "e/h",
+        "h/e",
+        "φ₀/h",
+        "h/φ₀"
+      ],
+      "correct": 1,
+      "explanation": "The slope of the stopping potential versus frequency graph is h/e, which is independent of the nature of the material. Millikan used this to determine Planck's constant h by measuring the slope and using the known value of electron charge e. | நிறுத்து மின்னழுத்தம் மற்றும் அதிர்வெண் வரைபடத்தின் சாய்வு h/e ஆகும், இது பொருளின் தன்மையைப் பொருட்படுத்தாது. மில்லிக்கன் சாய்வை அளவிட்டு மின்னணு மின்னூட்டம் e இன் அறியப்பட்ட மதிப்பைப் பயன்படுத்தி பிளாங்க் மாறிலி h ஐ கண்டறிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "விழும் ஒளியின் தீவிரம் ஒளிமின் மின்னணுக்களின் எண்ணிக்கையை எவ்வாறு பாதிக்கிறது?",
+      "options": [
+        "தீவிரம் ஒளிமின் விளைவை பாதிக்காது",
+        "அதிக தீவிரம் ஒளிமின் மின்னணுக்களின் எண்ணிக்கையை குறைக்கிறது",
+        "அதிக தீவிரம் ஒளிமின் மின்னணுக்களின் எண்ணிக்கையை அதிகரிக்கிறது",
+        "தீவிரம் ஒளிமின் மின்னணுக்களின் இயக்க ஆற்றலை மட்டுமே பாதிக்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "Intensity is proportional to the number of energy quanta per unit area per unit time. Greater intensity means more photons available, so more electrons can absorb energy quanta and escape from the metal surface. This explains why photoelectric current is proportional to intensity for frequencies above threshold. | தீவிரம் ஒரு பகுதி பரப்பளவுக்கு ஒரு நேர அலகுக்கு ஆற்றல் அலகுகளின் எண்ணிக்கைக்கு நேர் விகிதத்தில் உள்ளது. அதிக தீவிரம் என்றால் அதிக ஒளி அலகுகள் கிடைக்கின்றன, எனவே அதிக மின்னணுக்கள் ஆற்றல் அலகுகளை உறிஞ்சி உலோக மேற்பரப்பிலிருந்து வெளியேற முடியும். இது விளிம்பு அதிர்வெண்ணுக்கு மேல் உள்ள அதிர்வெண்களுக்கு ஒளிமின் மின்னோட்டம் தீவிரத்திற்கு நேர் விகிதத்தில் உள்ளது என்பதை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு செயல்முறை ஏன் உடனடியானது?",
+      "options": [
+        "மின்னணுக்கள் நேரத்தின் மீது தொடர்ச்சியாக ஆற்றலை உறிஞ்சுவதால்",
+        "அடிப்படை செயல்முறை ஒரு மின்னணு மூலம் ஒரு ஒளி அலகை உறிஞ்சுவதால்",
+        "அதிக தீவிரம் கொண்ட ஒளி ஆற்றலை வேகமாக வழங்குவதால்",
+        "வேலைச் செயல்பாடு மிகவும் சிறியதாக இருப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "In Einstein's picture, the basic elementary process is the absorption of a light quantum by an electron. This process is instantaneous. Low intensity does not mean delay because the elementary process remains the same; intensity only determines how many electrons participate. | ஐன்ஸ்டீனின் காட்சியில், அடிப்படை தனித்துவமான செயல்முறை ஒரு மின்னணு மூலம் ஒரு ஒளி அலகை உறிஞ்சுவதாகும். இந்த செயல்முறை உடனடியானது. குறைந்த தீவிரம் என்றால் தாமதம் என்று பொருளல்ல, ஏனெனில் அடிப்படை செயல்முறை ஒரே மாதிரியாக இருக்கிறது; தீவிரம் எத்தனை மின்னணுக்கள் பங்கேற்கின்றன என்பதை மட்டுமே தீர்மானிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1906-1916 காலகட்டத்தில் மில்லிக்கன் ஒளிமின் சோதனைகளை மேற்கொண்டபோது அவரது முதல் நோக்கம் என்ன?",
+      "options": [
+        "ஐன்ஸ்டீனின் சமன்பாட்டை நிரூபிக்க",
+        "ஐன்ஸ்டீனின் சமன்பாட்டை மறுக்க",
+        "மின்னணுவை கண்டறிய",
+        "ஒளியின் வேகத்தை அளவிட"
+      ],
+      "correct": 1,
+      "explanation": "Millikan originally aimed at disproving Einstein's photoelectric equation. However, his experiments actually proved its validity instead. He measured the slope of the V₀ versus ν curve for sodium and determined Planck's constant h, which was close to the known value. | மில்லிக்கன் முதலில் ஐன்ஸ்டீனின் ஒளிமின் விளைவு சமன்பாட்டை மறுக்க முயன்றார். ஆனால், அவரது சோதனைகள் உண்மையில் அதன் செல்லுபடியை நிரூபித்தன. சோடியத்திற்கான V₀ மற்றும் ν வளைவின் சாய்வை அளவிட்டு பிளாங்க் மாறிலி h ஐ கண்டறிந்தார், இது அறியப்பட்ட மதிப்பிற்கு நெருக்கமாக இருந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மில்லிக்கனின் சோதனைகள் ஐன்ஸ்டீனின் சமன்பாட்டைப் பற்றி என்ன உறுதி செய்தன?",
+      "options": [
+        "அது முற்றிலும் தவறானது",
+        "அது செல்லுபடியாகும் மற்றும் h இன் மதிப்பு பிற சோதனைகளுடன் பொருந்தியது",
+        "அது புற ஊதா ஒளிக்கு மட்டுமே வேலை செய்தது",
+        "அது அதிக தீவிரம் கொண்ட ஒளிக்கு மட்டுமே செல்லுபடியானது"
+      ],
+      "correct": 1,
+      "explanation": "Millikan's experiments confirmed the validity of Einstein's photoelectric equation. The value of Planck's constant h determined from the slope of the V₀ versus ν graph was close to 6.626×10⁻³⁴ J s, which was determined in entirely different contexts. This led to acceptance of Einstein's picture. | மில்லிக்கனின் சோதனைகள் ஐன்ஸ்டீனின் ஒளிமின் விளைவு சமன்பாட்டின் செல்லுபடியை உறுதி செய்தன. V₀ மற்றும் ν வரைபடத்தின் சாய்விலிருந்து கண்டறியப்பட்ட பிளாங்க் மாறிலி h இன் மதிப்பு 6.626×10⁻³⁴ J s க்கு நெருக்கமாக இருந்தது, இது முற்றிலும் வேறுபட்ட சூழல்களில் கண்டறியப்பட்டது. இது ஐன்ஸ்டீனின் காட்சியை ஏற்றுக்கொள்ள வழிவகுத்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மில்லிக்கன் ஒளிமின் சமன்பாட்டை எந்த பொருட்களுக்கு உறுதி செய்தார்?",
+      "options": [
+        "சோடியத்திற்கு மட்டுமே",
+        "பல கார உலோகங்களுக்கு அகலமான கதிர்வீச்சு அதிர்வெண்கள் வரம்பில்",
+        "தங்கம் மற்றும் வெள்ளி போன்ற உயர் உலோகங்களுக்கு மட்டுமே",
+        "உலோகமற்ற பொருட்களுக்கு மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "Millikan verified the photoelectric equation with great precision for a number of alkali metals over a wide range of radiation frequencies. This comprehensive verification strengthened the acceptance of the photon picture of light. | மில்லிக்கன் அதிக துல்லியத்துடன் பல கார உலோகங்களுக்கு அகலமான கதிர்வீச்சு அதிர்வெண்கள் வரம்பில் ஒளிமின் விளைவு சமன்பாட்டை உறுதி செய்தார். இந்த விரிவான சரிபார்ப்பு ஒளியின் ஒளிமின் காட்சியின் ஏற்பை வலுப்படுத்தியது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவில், மிகச்சிறந்த இயக்க ஆற்றலுக்கும் நிறுத்தும் திறனுக்கும் இடையேயான உறவு என்ன?",
+      "options": [
+        "K_max = e / V_0",
+        "K_max = e * V_0",
+        "K_max = V_0 / e",
+        "K_max = e + V_0"
+      ],
+      "correct": 1,
+      "explanation": "The maximum kinetic energy of photoelectrons equals the product of elementary charge and stopping potential: K_max = eV_0. When stopping potential can repel even the most energetic electrons, photocurrent becomes zero. | ஒளிமின் விளைவில், மிகச்சிறந்த இயக்க ஆற்றல் (K_max) அடிப்படை மின்னூட்டம் (e) மற்றும் நிறுத்தும் திறன் (V_0) ஆகியவற்றின் பெருக்கலுக்கு சமம். K_max = eV_0 என்ற சமன்பாடு இதை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரே அதிர்வெண்ணில் செறிவு I1 இலிருந்து I2 பின் I3-க்கு அதிகரிக்கும்போது (I3 > I2 > I1), நிறைவு மின்னோட்டம் எவ்வாறு மாறுகிறது?",
+      "options": [
+        "செறிவு அதிகரிக்கும்போது நிறைவு மின்னோட்டம் குறைகிறது",
+        "செறிவைப் பொருட்படுத்தாமல் நிறைவு மின்னோட்டம் மாறாது",
+        "செறிவு அதிகரிக்கும்போது நிறைவு மின்னோட்டம் அதிகரிக்கிறது",
+        "அதிக செறிவில் நிறைவு மின்னோட்டம் பூஜ்யமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "When intensity increases, saturation current is found at higher values. More electrons are emitted per second proportional to intensity. Higher intensity means more photons leading to more photoelectrons. | செறிவு அதிகரிக்கும்போது நிறைவு மின்னோட்டம் அதிகரிக்கிறது. இது ஒளிக்கதிர்வீச்சின் செறிவுக்கு நேர்விகிதத்தில் அதிக எலக்ட்ரான்கள் உமிழப்படுவதைக் காட்டுகிறது. அதிக செறிவு என்றால் அதிக ஃபோட்டான்கள், எனவே அதிக ஒளிமின் எலக்ட்ரான்கள்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "கொடுக்கப்பட்ட அதிர்வெண்ணுக்கு, செறிவு அதிகரிக்கும்போது நிறுத்தும் திறன் எவ்வாறு மாறுகிறது?",
+      "options": [
+        "செறிவுடன் நிறுத்தும் திறன் அதிகரிக்கிறது",
+        "செறிவுடன் நிறுத்தும் திறன் குறைகிறது",
+        "செறிவைப் பொருட்படுத்தாமல் நிறுத்தும் திறன் மாறாது",
+        "அதிக செறிவில் நிறுத்தும் திறன் பூஜ்யமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "For a given frequency, stopping potential is independent of intensity. Even when intensity increases from I1 to I3, stopping potential remains the same. Maximum kinetic energy depends on frequency, not intensity. | கொடுக்கப்பட்ட அதிர்வெண்ணுக்கு, நிறுத்தும் திறன் செறிவிலிருந்து சுதந்திரமானது. செறிவு I1 இலிருந்து I3 வரை அதிகரிக்கும்போதும் நிறுத்தும் திறன் மாறாது. மிகச்சிறந்த இயக்க ஆற்றல் அதிர்வெண்ணைப் பொறுத்தது, செறிவைப் பொறுத்தல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிக்கதிர்வீச்சின் அதிர்வெண்கள் v3 > v2 > v1 என்ற வரிசையில் இருந்தால், நிறுத்தும் திறன்களின் வரிசை என்ன?",
+      "options": [
+        "V01 > V02 > V03",
+        "V02 > V03 > V01",
+        "V03 > V02 > V01",
+        "V01 = V02 = V03"
+      ],
+      "correct": 2,
+      "explanation": "Stopping potentials are in order V03 > V02 > V01 when frequencies are v3 > v2 > v1. Greater frequency means greater maximum kinetic energy of photoelectrons, requiring greater retarding potential to stop them. | அதிர்வெண்கள் v3 > v2 > v1 என்றால், நிறுத்தும் திறன்கள் V03 > V02 > V01. அதிக அதிர்வெண் என்றால் அதிக இயக்க ஆற்றல், எனவே அதிக தடை திறன் தேவை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிஉணர் பொருளுக்கு, நிறுத்தும் திறன் (V0) மற்றும் அதிர்வெண் (v) இடையேயான வரைபடம் எதைக் காட்டுகிறது?",
+      "options": [
+        "ஒரு பரவளைவு வளைவு",
+        "ஒரு நேர்க்கோடு",
+        "ஒரு அடுக்கு வளைவு",
+        "ஒரு வட்ட வளைவு"
+      ],
+      "correct": 1,
+      "explanation": "The graph between stopping potential and frequency of incident radiation for different metals gives a straight line. Stopping potential varies linearly with frequency for a given photosensitive material. | ஒளிஉணர் பொருளுக்கு, நிறுத்தும் திறன் மற்றும் அதிர்வெண் இடையேயான வரைபடம் ஒரு நேர்க்கோட்டைக் காட்டுகிறது. V0, v-க்கு நேர்விகிதத்தில் மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவில் தாழ்வரம்பு அதிர்வெண் (cut-off frequency) என்றால் என்ன?",
+      "options": [
+        "ஒளிமின் மின்னோட்டம் அதிகமாக இருக்கும் அதிர்வெண்",
+        "அதற்குக் கீழே ஒளிமின் உமிழ்வு இல்லாத குறைந்தபட்ச அதிர்வெண்",
+        "நிறுத்தும் திறன் அதிகமாக இருக்கும் அதிர்வெண்",
+        "நிறைவு மின்னோட்டம் பூஜ்யமாக இருக்கும் அதிர்வெண்"
+      ],
+      "correct": 1,
+      "explanation": "There exists a minimum cut-off frequency v0 where stopping potential is zero. Below this threshold frequency, no photoelectric emission occurs even with large intensity. This threshold frequency differs for different metals. | தாழ்வரம்பு அதிர்வெண் (v0) என்பது நிறுத்தும் திறன் பூஜ்யமாக இருக்கும் குறைந்தபட்ச அதிர்வெண். இதற்குக் கீழே, எவ்வளவு அதிக செறிவு இருந்தாலும் ஒளிமின் உமிழ்வு இருக்காது. இது வெவ்வேறு உலோகங்களுக்கு வெவ்வேறாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு அவதானிப்புகளின் விளைவுகளில் எது சரியானது?",
+      "options": [
+        "மிகச்சிறந்த இயக்க ஆற்றல் செறிவுக்கு நேர்விகிதத்தில் மாறுகிறது",
+        "மிகச்சிறந்த இயக்க ஆற்றல் அதிர்வெண்ணுக்கு நேர்விகிதத்தில் மாறுகிறது, செறிவிலிருந்து சுதந்திரமானது",
+        "மிகச்சிறந்த இயக்க ஆற்றல் அதிர்வெண் மற்றும் செறிவு இரண்டையும் சமமாகப் பொறுத்தது",
+        "மிகச்சிறந்த இயக்க ஆற்றல் அதிர்வெண் மற்றும் செறிவு இரண்டிலிருந்தும் சுதந்திரமானது"
+      ],
+      "correct": 1,
+      "explanation": "Maximum kinetic energy varies linearly with frequency of incident radiation but is independent of intensity. Below cut-off frequency, no emission occurs even with large intensity. | மிகச்சிறந்த இயக்க ஆற்றல் அதிர்வெண்ணுக்கு நேர்விகிதத்தில் மாறுகிறது, ஆனால் செறிவிலிருந்து சுதந்திரமானது. தாழ்வரம்பு அதிர்வெண்ணுக்குக் கீழே, எவ்வளவு அதிக செறிவு இருந்தாலும் உமிழ்வு இருக்காது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிக்கதிர்வீச்சின் அதிர்வெண் தாழ்வரம்புக்குக் கீழே இருக்கும்போது ஒளிமின் உமிழ்வுக்கு என்ன நடக்கிறது?",
+      "options": [
+        "குறைந்த செறிவில் உமிழ்வு நிகழ்கிறது",
+        "அதிக செறிவில் உமிழ்வு நிகழ்கிறது",
+        "செறிவைப் பொருட்படுத்தாமல் ஒளிமின் உமிழ்வு இல்லை",
+        "சிறிது நேரத் தாமதத்திற்குப் பிறகு உமிழ்வு நிகழ்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "For incident radiation frequency below cut-off frequency v0, no photoelectric emission is possible even with large intensity. This minimum cut-off frequency is called threshold frequency and differs for different metals. | தாழ்வரம்பு அதிர்வெண்ணுக்குக் கீழே உள்ள அதிர்வெண்ணுக்கு, எவ்வளவு அதிக செறிவு இருந்தாலும் ஒளிமின் உமிழ்வு இருக்காது. இந்த குறைந்தபட்ச அதிர்வெண் வெவ்வேறு உலோகங்களுக்கு வெவ்வேறாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிஉணர்திறனில் செலினியம், துத்தநாகம் மற்றும் செம்புடன் ஒப்பிடும்போது எப்படி இருக்கிறது?",
+      "options": [
+        "செலினியம் துத்தநாகம் மற்றும் செம்பை விட குறைந்த உணர்திறன் கொண்டது",
+        "செலினியம் துத்தநாகம் மற்றும் செம்புக்கு சமமான உணர்திறன் கொண்டது",
+        "செலினியம் துத்தநாகம் அல்லது செம்பை விட அதிக உணர்திறன் கொண்டது",
+        "செலினியம் ஒளிமின் விளைவைக் காட்டுவதில்லை"
+      ],
+      "correct": 2,
+      "explanation": "Different photosensitive materials respond differently to light. Selenium is more sensitive than zinc or copper. The same photosensitive substance gives different responses to different wavelengths. | வெவ்வேறு ஒளிஉணர் பொருட்கள் ஒளிக்கு வெவ்வேறாக பதிலளிக்கின்றன. செலினியம், துத்தநாகம் அல்லது செம்பை விட அதிக உணர்திறன் கொண்டது. ஒரே ஒளிஉணர் பொருள் வெவ்வேறு அலைநீளங்களுக்கு வெவ்வேறு பதில்களைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிர்வு தொடங்கிய பிறகு ஒளிமின் உமிழ்வு தொடங்க சுமார் எவ்வளவு நேரத் தாமதம் உள்ளது?",
+      "options": [
+        "10^-3 வினாடிகள்",
+        "10^-6 வினாடிகள்",
+        "10^-9 வினாடிகள் அல்லது குறைவு",
+        "10^-12 வினாடிகள்"
+      ],
+      "correct": 2,
+      "explanation": "If incident radiation frequency exceeds threshold frequency, photoelectric emission starts instantaneously without apparent time lag, even with very dim radiation. Emission starts in time of order 10^-9 s or less. | அதிர்வெண் தாழ்வரம்பை மீறும்போது, ஒளிமின் உமிழ்வு உடனடியாக தொடங்குகிறது. கூடுதலாக, ஒளிக்கதிர்வீச்சு மிகவும் மங்கலாக இருந்தாலும், உமிழ்வு 10^-9 வினாடி அல்லது அதற்கும் குறைவான நேரத்தில் தொடங்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "கொடுக்கப்பட்ட ஒளிஉணர் பொருளுக்கும், தாழ்வரம்புக்கு மேலுள்ள அதிர்வெண்ணுக்கும், ஒளிமின் மின்னோட்டம் மற்றும் செறிவுக்கு இடையேயான உறவு என்ன?",
+      "options": [
+        "ஒளிமின் மின்னோட்டம் செறிவுக்கு எதிர்விகிதத்தில் உள்ளது",
+        "ஒளிமின் மின்னோட்டம் செறிவுக்கு நேர்விகிதத்தில் உள்ளது",
+        "ஒளிமின் மின்னோட்டம் செறிவிலிருந்து சுதந்திரமானது",
+        "ஒளிமின் மின்னோட்டம் செறிவின் வர்க்கத்திற்கு நேர்விகிதத்தில் உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "For given photosensitive material and frequency above threshold, photoelectric current is directly proportional to intensity of incident light. This is shown graphically where photocurrent increases linearly with intensity. | கொடுக்கப்பட்ட ஒளிஉணர் பொருளுக்கும், தாழ்வரம்புக்கு மேலுள்ள அதிர்வெண்ணுக்கும், ஒளிமின் மின்னோட்டம் ஒளிக்கதிர்வீச்சின் செறிவுக்கு நேர்விகிதத்தில் உள்ளது. இது வரைபடத்தில் செறிவுடன் நேர்க்கோடாக மின்னோட்டம் அதிகரிப்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் சோதனையில் நிறைவு மின்னோட்டம் எதற்கு ஒத்ததாக இருக்கிறது?",
+      "options": [
+        "எந்த எலக்ட்ரான்களும் சேகரிப்பான் தகட்டை அடையாதபோது",
+        "உமிழப்படும் அனைத்து ஒளிமின் எலக்ட்ரான்களும் சேகரிப்பான் தகட்டை அடையும்போது",
+        "பாதி எலக்ட்ரான்கள் மட்டுமே சேகரிப்பான் தகட்டை அடையும்போது",
+        "நிறுத்தும் திறன் பயன்படுத்தப்படும்போது"
+      ],
+      "correct": 1,
+      "explanation": "Saturation current corresponds to when all photoelectrons emitted by emitter plate C reach collector plate A. At this point, further increasing accelerating potential does not increase photocurrent. | நிறைவு மின்னோட்டம் என்பது உமிழ்வான் தகடு C-விலிருந்து உமிழப்படும் அனைத்து ஒளிமின் எலக்ட்ரான்களும் சேகரிப்பான் தகடு A-வை அடையும் நிலை. இந்தப் புள்ளியில், மேலும் முடுக்கும் திறனை அதிகரித்தாலும் ஒளிமின் மின்னோட்டம் அதிகரிக்காது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1887-ல் மின்காந்த அலைகளின் உருவாக்கம் மற்றும் கண்டறிதல் பரிசோதனைகள் மூலம் ஒளியின் அலைத் தன்மையை நிறுவியவர் யார்?",
+      "options": [
+        "ஜே.ஜே. தாம்சன்",
+        "ஹெய்ன்ரிச் ஹெர்ட்ஸ்",
+        "வில்லியம் குரூக்ஸ்",
+        "ஆல்பர்ட் ஐன்ஸ்டீன்"
+      ],
+      "correct": 1,
+      "explanation": "Heinrich Hertz conducted experiments on electromagnetic waves in 1887 which established the wave nature of light. | 1887-ல் ஹெய்ன்ரிச் ஹெர்ட்ஸ் மின்காந்த அலைகள் குறித்த பரிசோதனைகளை மேற்கொண்டு ஒளியின் அலைத் தன்மையை நிறுவினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மின்னிறக்கக் குழாயில் மின்முனைகளுக்கு இடையே மின்னிறக்கம் நிகழ குறைந்தபட்ச அழுத்தம் என்ன?",
+      "options": [
+        "0.01 மி.மீ. பாதரச நெடுக்கம்",
+        "0.001 மி.மீ. பாதரச நெடுக்கம்",
+        "1.0 மி.மீ. பாதரச நெடுக்கம்",
+        "0.1 மி.மீ. பாதரச நெடுக்கம்"
+      ],
+      "correct": 1,
+      "explanation": "At about 0.001 mm of mercury pressure, discharge occurred between electrodes. | சுமார் 0.001 மி.மீ. பாதரச அழுத்தத்தில் மின்முனைகளுக்கு இடையே மின்னிறக்கம் நிகழ்ந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "கேத்தோடிற்கு எதிர்ப்புறமுள்ள கண்ணாடியில் தோன்றிய பிரகாசமூட்டும் ஒளிர்வின் நிறம் சோடா கண்ணாடிக்கு என்ன?",
+      "options": [
+        "நீலம்",
+        "சிவப்பு",
+        "மஞ்சள்-பச்சை",
+        "ஆரஞ்சு"
+      ],
+      "correct": 2,
+      "explanation": "The glow color depended on glass type, being yellowish-green for soda glass. | ஒளிர்வின் நிறம் கண்ணாடியின் வகையைப் பொறுத்தது, சோடா கண்ணாடிக்கு மஞ்சள்-பச்சையாக இருந்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1870-ல் கேத்தோட் கதிர்களைக் கண்டுபிடித்தவர் யார்?",
+      "options": [
+        "ஜே.ஜே. தாம்சன்",
+        "ஆர்.ஏ. மில்லிக்கன்",
+        "வில்ஹெல்ம் ரோந்ட்கென்",
+        "வில்லியம் குரூக்ஸ்"
+      ],
+      "correct": 3,
+      "explanation": "William Crookes discovered cathode rays in 1870 and later suggested they were fast moving negatively charged particles. | வில்லியம் குரூக்ஸ் 1870-ல் கேத்தோட் கதிர்களைக் கண்டுபிடித்தார், பின்னர் அவை வேகமாக நகரும் எதிர்மின்னி ஏற்ற துகள்கள் என்று கூறினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "கேத்தோட் கதிர் துகள்களின் குறிப்பிட்ட மின்னேற்றம் (e/m) இன் தற்போதைய ஏற்றுக்கொள்ளப்பட்ட மதிப்பு என்ன?",
+      "options": [
+        "1.76 × 10^10 C/kg",
+        "1.76 × 10^11 C/kg",
+        "1.76 × 10^12 C/kg",
+        "1.76 × 10^9 C/kg"
+      ],
+      "correct": 1,
+      "explanation": "The accepted value of e/m is 1.76 × 10^11 C/kg, independent of cathode material. | e/m இன் ஏற்றுக்கொள்ளப்பட்ட மதிப்பு 1.76 × 10^11 C/kg, கேத்தோட் பொருளைப் பொறுத்து சாராதது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஜே.ஜே. தாம்சன் கண்டறிந்த கேத்தோட் கதிர் துகள்களின் வேக வரம்பு என்ன?",
+      "options": [
+        "ஒளி வேகத்தின் 0.5 முதல் 0.8 மடங்கு",
+        "ஒளி வேகத்தின் 0.01 முதல் 0.05 மடங்கு",
+        "ஒளி வேகத்தின் 0.1 முதல் 0.2 மடங்கு",
+        "ஒளி வேகத்தின் 0.8 முதல் 0.9 மடங்கு"
+      ],
+      "correct": 2,
+      "explanation": "Cathode ray particles traveled at 0.1 to 0.2 times the speed of light. | கேத்தோட் கதிர் துகள்கள் ஒளி வேகத்தின் 0.1 முதல் 0.2 மடங்கில் பயணித்தன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஜே.ஜே. தாம்சன் கேத்தோட் கதிர் துகள்களுக்கு எலக்ட்ரான்கள் என்ற பெயரிட்ட ஆண்டு எது?",
+      "options": [
+        "1895",
+        "1897",
+        "1887",
+        "1906"
+      ],
+      "correct": 1,
+      "explanation": "Thomson named these particles as electrons in 1897, calling them fundamental universal constituents. | தாம்சன் 1897-ல் இந்தத் துகள்களை எலக்ட்ரான்கள் என்று பெயரிட்டார், அவை அடிப்படை பொதுவான கூறுகள் என்று கூறினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "e/m மதிப்பு கேத்தோட் பொருளிலிருந்து சாராதது என்பது எதைக் குறிக்கிறது?",
+      "options": [
+        "ஒவ்வொரு உலோகத்திற்கும் தனித்துவமான எலக்ட்ரான்கள் உள்ளன",
+        "எலக்ட்ரான்கள் பொதுவான துகள்கள்",
+        "வெவ்வேறு உலோகங்களுக்கு வெவ்வேறு எலக்ட்ரான்கள் உள்ளன",
+        "e/m வெப்பநிலையைப் பொறுத்து மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The independence of e/m from cathode material suggested the universality of electrons. | கேத்தோட் பொருளிலிருந்து e/m சாராதது எலக்ட்ரான்களின் பொதுவான தன்மையைக் குறிப்பிட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஹால்வாட்ச் தனது புற ஊதா ஒளி பரிசோதனையில் எந்த உலோகத்தைப் பயன்படுத்தினார்?",
+      "options": [
+        "செம்பு",
+        "துத்தநாகம்",
+        "இரும்பு",
+        "அலுமினியம்"
+      ],
+      "correct": 1,
+      "explanation": "Hallwachs used a negatively charged zinc plate connected to an electroscope in his UV light experiment. | ஹால்வாட்ச் தனது புற ஊதா ஒளி பரிசோதனையில் எதிர்மின்னி ஏற்ற துத்தநாகத் தகட்டை மின்னோட்ட அளவியுடன் இணைத்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மில்லிக்கனின் எண்ணெய் துளி பரிசோதனையில் கண்டறியப்பட்ட எலக்ட்ரானின் மின்னேற்றம் என்ன?",
+      "options": [
+        "1.602 × 10^-18 C",
+        "1.602 × 10^-19 C",
+        "1.602 × 10^-20 C",
+        "1.602 × 10^-17 C"
+      ],
+      "correct": 1,
+      "explanation": "Millikan found the elementary charge to be 1.602 × 10^-19 C, establishing charge quantization. | மில்லிக்கன் அடிப்படை மின்னேற்றம் 1.602 × 10^-19 C என்று கண்டறிந்தார், மின்னேற்ற அளவிடுதலை நிறுவினார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "புற ஊதா ஒளி சில உலோகங்களின் மீது படும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "அவை நேர்மின்னி ஏற்ற துகள்களை உமிழ்கின்றன",
+        "அவை சிறிய வேகங்களில் எதிர்மின்னி ஏற்ற துகள்களை உமிழ்கின்றன",
+        "அவை ஒளியை உறிஞ்சிக்கொண்டு எதுவும் உமிழ்வதில்லை",
+        "அவை ஒளிபுகும் தன்மை பெறுகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "Metals irradiated by UV light emitted negatively charged particles with small speeds, later identified as electrons. | புற ஊதா ஒளியால் கதிர்வீசப்பட்ட உலோகங்கள் சிறிய வேகங்களில் எதிர்மின்னி ஏற்ற துகள்களை உமிழ்ந்தன, பின்னர் அவை எலக்ட்ரான்கள் என அடையாளம் காணப்பட்டன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "வெவ்வேறு மூலங்களிலிருந்து வந்த துகள்களின் ஒரே மாதிரியான e/m மதிப்பு எதை நிறுவியது?",
+      "options": [
+        "இயற்கையில் வெவ்வேறு துகள்கள் உள்ளன",
+        "இந்த அனைத்துத் துகள்களும் இயல்பில் ஒரே மாதிரியானவை",
+        "e/m பரிசோதனை நிலைமைகளைப் பொறுத்து மாறுகிறது",
+        "கேத்தோட் கதிர்கள் மட்டுமே எலக்ட்ரான்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Identical e/m values from different sources established that all these particles were identical in nature. | வெவ்வேறு மூலங்களிலிருந்து வந்த ஒரே மாதிரியான e/m மதிப்புகள் இந்த அனைத்துத் துகள்களும் இயல்பில் ஒரே மாதிரியானவை என்பதை நிறுவின."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "கேத்தோடிற்கு எதிர்ப்புறமுள்ள கண்ணாடியில் தோன்றிய பிரகாசமூட்டும் ஒளிர்வின் முக்கியத்துவம் என்ன?",
+      "options": [
+        "X-கதிர்களின் இருப்பைக் குறிப்பிடுகிறது",
+        "கேத்தோடிலிருந்து வரும் கதிர்வீச்சுக்கு காரணமாகக் கருதப்பட்டது",
+        "கண்ணாடி வெப்பமடைவதைக் காட்டுகிறது",
+        "ஒளியின் அலைத் தன்மையை நிரூபிக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "The glow was attributed to radiation coming from the cathode, later identified as cathode rays. | ஒளிர்வு கேத்தோடிலிருந்து வரும் கதிர்வீச்சுக்கு காரணமாகக் கருதப்பட்டது, பின்னர் அது கேத்தோட் கதிர்கள் என அடையாளம் காணப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1906-ல் ஜே.ஜே. தாம்சனுக்கு இயற்பியலுக்கான நோபல் பரிசு எதற்காக வழங்கப்பட்டது?",
+      "options": [
+        "X-கதிர்களைக் கண்டுபிடித்ததற்காக",
+        "எலக்ட்ரானைக் கண்டுபிடித்ததற்காக",
+        "நியூட்ரானைக் கண்டுபிடித்ததற்காக",
+        "கதிரியக்கத்தைக் கண்டுபிடித்ததற்காக"
+      ],
+      "correct": 1,
+      "explanation": "Thomson was awarded the Nobel Prize in 1906 for his discovery of the electron. | தாம்சனுக்கு 1906-ல் எலக்ட்ரானைக் கண்டுபிடித்ததற்காக இயற்பியலுக்கான நோபல் பரிசு வழங்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "கேத்தோட் கதிர் துகள்களின் வேகம் மற்றும் e/m ஐ கண்டறிய ஜே.ஜே. தாம்சன் பயன்படுத்திய முறை என்ன?",
+      "options": [
+        "எண்ணெய் துளி பரிசோதனை",
+        "ஒளிமின் விளைவு பரிசோதனை",
+        "ஒருவருக்கொரர் செங்குத்தான மின் மற்றும் காந்த புலங்கள்",
+        "கதிரியக்க சிதைவு அளவீடு"
+      ],
+      "correct": 2,
+      "explanation": "Thomson used mutually perpendicular electric and magnetic fields across the discharge tube to determine speed and e/m. | தாம்சன் மின்னிறக்கக் குழாயில் ஒருவருக்கொரர் செங்குத்தான மின் மற்றும் காந்த புலங்களைப் பயன்படுத்தி வேகம் மற்றும் e/m ஐ கண்டறிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1895-ல் ரோந்ட்கென் கண்டுபிடித்தது என்ன?",
+      "options": [
+        "எலக்ட்ரான்",
+        "நியூட்ரான்",
+        "X-கதிர்கள்",
+        "புரோட்டான்"
+      ],
+      "correct": 2,
+      "explanation": "Roentgen discovered X-rays in 1895, an important milestone in atomic structure understanding. | ரோந்ட்கென் 1895-ல் X-கதிர்களைக் கண்டுபிடித்தார், இது அணுக்கட்டமைப்பு புரிதலில் ஒரு முக்கிய மைல்கல்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மில்லிக்கனின் பரிசோதனை மின்னேற்றம் பற்றி என்ன நிறுவியது?",
+      "options": [
+        "மின்னேற்றம் தொடர்ச்சியானது",
+        "மின்னேற்றம் அளவிடப்பட்டது",
+        "மின்னேற்றம் வெப்பநிலையைப் பொறுத்தது",
+        "மின்னேற்றம் எப்போதும் நேர்மறை"
+      ],
+      "correct": 1,
+      "explanation": "Millikan's experiment established that electric charge is quantized, existing only in integer multiples. | மில்லிக்கனின் பரிசோதனை மின்னேற்றம் அளவிடப்பட்டது என்பதை நிறுவியது, அது முழு எண் மடங்குகளில் மட்டுமே இருக்கும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எலக்ட்ரானின் நிறை எவ்வாறு கணக்கிடப்பட்டது?",
+      "options": [
+        "நேரடி எடை போடுவதன் மூலம்",
+        "மின்னேற்றம் (e) மற்றும் குறிப்பிட்ட மின்னேற்றம் (e/m) மதிப்புகளிலிருந்து",
+        "அதன் கனத்தை அளவிடுவதன் மூலம்",
+        "கதிரியக்க சிதைவைப் பயன்படுத்துவதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "The mass of electron was determined from charge e (Millikan) and specific charge e/m (Thomson). | எலக்ட்ரானின் நிறை மில்லிக்கனால் கண்டறியப்பட்ட மின்னேற்றம் e மற்றும் தாம்சனால் கண்டறியப்பட்ட குறிப்பிட்ட மின்னேற்றம் e/m ஆகியவற்றிலிருந்து கணக்கிடப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "புற ஊதா ஒளியால் கதிர்வீசப்பட்டபோது மின்னேற்றமற்ற துத்தநாகத் தகடு என்ன ஆனது?",
+      "options": [
+        "எதிர்மின்னி ஏற்றமடைந்தது",
+        "நேர்மின்னி ஏற்றமடைந்தது",
+        "மின்னேற்றமற்றதாகவே இருந்தது",
+        "உருகியது"
+      ],
+      "correct": 1,
+      "explanation": "The uncharged zinc plate became positively charged when irradiated by UV light, showing emission of negative particles. | மின்னேற்றமற்ற துத்தநாகத் தகடு புற ஊதா ஒளியால் கதிர்வீசப்பட்டபோது நேர்மின்னி ஏற்றமடைந்தது, இது எதிர்மின்னி துகள்களின் வெளியேற்றத்தைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "உரையில் கணக்கீடுகளுக்குப் பயன்படுத்தப்பட்ட ஒளியின் வேகம் என்ன?",
+      "options": [
+        "3 × 10^7 மீ/வி",
+        "3 × 10^8 மீ/வி",
+        "3 × 10^6 மீ/வி",
+        "3 × 10^9 மீ/வி"
+      ],
+      "correct": 1,
+      "explanation": "The speed of light was given as 3 × 10^8 m/s in the text. | உரையில் ஒளியின் வேகம் 3 × 10^8 மீ/வி என்று கொடுக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "கேத்தோட் கதிர் துகள்களின் குறிப்பிட்ட மின்னேற்றம் (e/m) இன் தற்போதைய ஏற்றுக்கொள்ளப்பட்ட மதிப்பு என்ன?",
+      "options": [
+        "1.76 × 10^9 C/kg",
+        "1.76 × 10^11 C/kg",
+        "1.76 × 10^13 C/kg",
+        "1.76 × 10^15 C/kg"
+      ],
+      "correct": 1,
+      "explanation": "The presently accepted value of e/m is 1.76 × 10^11 C/kg. This value was found to be independent of the nature of the material used as the cathode or the gas in the discharge tube. | தற்போது ஏற்றுக்கொள்ளப்பட்ட e/m மதிப்பு 1.76 × 10^11 C/kg ஆகும். கேத்தோட் பயன்படுத்தப்பட்ட பொருளின் தன்மை அல்லது வெளியேற்றக் குழாயில் உள்ள வாயு ஆகியவற்றைப் பொருட்படுத்தாமல் இந்த மதிப்பு கண்டறியப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "J.J. தாம்சனால் கண்டறியப்பட்ட கேத்தோட் கதிர் துகள்களின் வேக வரம்பு என்ன?",
+      "options": [
+        "ஒளியின் வேகத்தின் 0.01 முதல் 0.02 மடங்கு",
+        "ஒளியின் வேகத்தின் 0.1 முதல் 0.2 மடங்கு",
+        "ஒளியின் வேகத்தின் 0.5 முதல் 0.6 மடங்கு",
+        "ஒளியின் வேகத்தின் 0.8 முதல் 0.9 மடங்கு"
+      ],
+      "correct": 1,
+      "explanation": "J.J. Thomson found that cathode ray particles traveled with speeds ranging from about 0.1 to 0.2 times the speed of light (3 × 10^8 m/s). | J.J. தாம்சன் கேத்தோட் கதிர் துகள்கள் ஒளியின் வேகத்தின் 0.1 முதல் 0.2 மடங்கு வரையிலான வேகத்தில் பயணிப்பதைக் கண்டறிந்தார் (3 × 10^8 m/s)."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1897-ல் எலக்ட்ரானைக் கண்டுபிடித்த இயற்பியலாளர் யார்?",
+      "options": [
+        "வில்லியம் க்ரூக்ஸ்",
+        "ஹைன்ரிச் ஹெர்ட்ஸ்",
+        "J.J. தாம்சன்",
+        "R.A. மில்லிக்கான்"
+      ],
+      "correct": 2,
+      "explanation": "J.J. Thomson named these particles as electrons in 1897 and suggested they were fundamental, universal constituents of matter. He was awarded the Nobel Prize in Physics in 1906. | J.J. தாம்சன் 1897-ல் இந்தத் துகள்களை எலக்ட்ரான்கள் எனப் பெயரிட்டார் மற்றும் அவை பொருளின் அடிப்படை, பொதுவான கூறுகள் என்று கூறினார். 1906-ல் இயற்பியலில் நோபல் பரிசு பெற்றார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "உலோகப் பரப்பிலிருந்து வெளியேற ஒரு எலக்ட்ரானுக்குத் தேவையான குறைந்தபட்ச ஆற்றலை என்ன என்று அழைக்கிறார்கள்?",
+      "options": [
+        "இயக்க ஆற்றல்",
+        "நிலையாற்றல்",
+        "பணிச் செயல்பாடு (Work function)",
+        "கட்டுப்பாட்டு ஆற்றல்"
+      ],
+      "correct": 2,
+      "explanation": "The minimum energy required by an electron to escape from the metal surface is called the work function. It is denoted by φ0 and measured in eV. | உலோகப் பரப்பிலிருந்து வெளியேற ஒரு எலக்ட்ரானுக்குத் தேவையான குறைந்தபட்ச ஆற்றல் பணிச் செயல்பாடு (work function) எனப்படும். இது φ0 எனக் குறிக்கப்பட்டு eV அலகில் அளவிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "1 எலக்ட்ரான் வோல்ட் (eV) என்பது எத்தனை ஜூல்களுக்குச் சமம்?",
+      "options": [
+        "1.60 × 10^-18 J",
+        "1.60 × 10^-19 J",
+        "1.60 × 10^-17 J",
+        "1.60 × 10^-16 J"
+      ],
+      "correct": 1,
+      "explanation": "One electron volt is the energy gained by an electron when accelerated by a potential difference of 1 volt, so 1 eV = 1.60 × 10^-19 J. | ஒரு எலக்ட்ரான் வோல்ட் (eV) என்பது 1 வோல்ட் மின்னழுத்த வித்தியாசத்தால் முடுக்கப்படும்போது ஒரு எலக்ட்ரான் பெறும் ஆற்றல் ஆகும், அதாவது 1 eV = 1.60 × 10^-19 J."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பின்வருவனவற்றில் எது உலோகப் பரப்பிலிருந்து எலக்ட்ரான் உமிழ்வதற்கான முறை அல்ல?",
+      "options": [
+        "வெப்பமின் உமிழ்வு",
+        "புல உமிழ்வு",
+        "ஒளிமின் உமிழ்வு",
+        "வேதியியல் உமிழ்வு"
+      ],
+      "correct": 3,
+      "explanation": "The three methods are: (i) Thermionic emission by heating, (ii) Field emission by strong electric field, and (iii) Photoelectric emission by light. Chemical emission is not mentioned. | மூன்று முறைகள்: (i) சூடாக்குவதால் வெப்பமின் உமிழ்வு, (ii) வலுவான மின்புலத்தால் புல உமிழ்வு, (iii) ஒளியால் ஒளிமின் உமிழ்வு. வேதியியல் உமிழ்வு குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "வெப்பமின் உமிழ்வில் சுதந்திர எலக்ட்ரான்களுக்கு ஆற்றல் எவ்வாறு வழங்கப்படுகிறது?",
+      "options": [
+        "வலுவான மின்புலத்தைப் பயன்படுத்துவதால்",
+        "ஒளியால் படுவதால்",
+        "உலோகத்தைச் சூடாக்குவதால்",
+        "காந்தப் புலத்தைப் பயன்படுத்துவதால்"
+      ],
+      "correct": 2,
+      "explanation": "In thermionic emission, sufficient thermal energy is imparted to free electrons by suitably heating the metal. | வெப்பமின் உமிழ்வில், உலோகத்தைப் பொருத்தமாகச் சூடாக்குவதால் சுதந்திர எலக்ட்ரான்களுக்குப் போதுமான வெப்ப ஆற்றல் வழங்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "புல உமிழ்வுக்குத் தேவையான மின்புல வலிமையின் தோராயமான வரிசை என்ன?",
+      "options": [
+        "10^6 V/m",
+        "10^8 V/m",
+        "10^10 V/m",
+        "10^12 V/m"
+      ],
+      "correct": 1,
+      "explanation": "Field emission requires a very strong electric field of the order of 10^8 V/m to pull electrons out of the metal, as in a spark plug. | புல உமிழ்வுக்கு, ஸ்பார்க் ப்ளக் போல, உலோகத்திலிருந்து எலக்ட்ரான்களை வெளியே இழுக்க 10^8 V/m வரிசையிலான மிக வலுவான மின்புலம் தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "பொருத்தமான அதிர்வெண்ணிலான ஒளி உலோகப் பரப்பில் படும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "உலோகம் காந்தமயமாகிறது",
+        "பரப்பிலிருந்து எலக்ட்ரான்கள் உமிழப்படுகின்றன",
+        "உலோகத்தின் வெப்பநிலை குறைகிறது",
+        "உலோகம் ஒளிபுகும் தன்மை பெறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When light of suitable frequency illuminates a metal surface, electrons are emitted. These are called photoelectrons. | பொருத்தமான அதிர்வெண்ணிலான ஒளி உலோகப் பரப்பில் படும்போது எலக்ட்ரான்கள் உமிழப்படுகின்றன. இவை ஒளிமின் எலக்ட்ரான்கள் எனப்படும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எலக்ட்ரானின் மின்னேற்றத்தைத் துல்லியமாக அளவிட எண்ணெய் துளி சோதனையை மேற்கொண்டவர் யார்?",
+      "options": [
+        "J.J. தாம்சன்",
+        "வில்லியம் க்ரூக்ஸ்",
+        "R.A. மில்லிக்கான்",
+        "ஹைன்ரிச் ஹெர்ட்ஸ்"
+      ],
+      "correct": 2,
+      "explanation": "In 1913, R.A. Millikan performed the oil-drop experiment for precise measurement of electron charge. He found charge is always an integral multiple of 1.602 × 10^-19 C. | 1913-ல், R.A. மில்லிக்கான் எலக்ட்ரானின் மின்னேற்றத்தைத் துல்லியமாக அளவிட எண்ணெய் துளி சோதனையை மேற்கொண்டார். மின்னேற்றம் எப்போதும் 1.602 × 10^-19 C இன் முழு எண் மடங்கு என்று கண்டறிந்தார்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "கேத்தோட் பொருளின் தன்மையைப் பொருட்படுத்தாமல் e/m மதிப்பு ஒரே மாதிரியாக இருப்பது எதைக் குறிக்கிறது?",
+      "options": [
+        "வெவ்வேறு பொருட்களுக்கு வெவ்வேறு கதிர்கள்",
+        "கேத்தோட் கதிர் துகள்கள் பொதுவானவை",
+        "வெவ்வேறு நிலைகளில் வெவ்வேறு மின்னேற்றம்",
+        "வெவ்வேறு பொருட்களில் வெவ்வேறு நிறை"
+      ],
+      "correct": 1,
+      "explanation": "The independence of e/m on cathode material suggests the universality of cathode ray particles. | கேத்தோட் பொருளின் தன்மையைப் பொருட்படுத்தாமல் e/m மதிப்பு மாறாதது கேத்தோட் கதிர் துகள்களின் பொதுவான தன்மையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "மில்லிக்கானின் சோதனையால் கண்டறியப்பட்ட எலக்ட்ரானின் மின்னேற்ற மதிப்பு என்ன?",
+      "options": [
+        "1.602 × 10^-18 C",
+        "1.602 × 10^-19 C",
+        "1.602 × 10^-20 C",
+        "1.602 × 10^-21 C"
+      ],
+      "correct": 1,
+      "explanation": "Millikan found the charge on an oil-droplet was always an integral multiple of 1.602 × 10^-19 C, establishing charge quantisation. | மில்லிக்கான் எண்ணெய் துளியின் மின்னேற்றம் எப்போதும் 1.602 × 10^-19 C இன் முழு எண் மடங்கு என்று கண்டறிந்தார், இது மின்னேற்ற அளவிடலை உறுதி செய்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எந்த உமிழ்வு செயல்முறை புறஊதா ஒளியைப் பயன்படுத்தி உலோகங்களிலிருந்து எலக்ட்ரான்களை உமிழ்கிறது?",
+      "options": [
+        "வெப்பமின் உமிழ்வு",
+        "புல உமிழ்வு",
+        "ஒளிமின் உமிழ்வு",
+        "இரண்டாம் நிலை உமிழ்வு"
+      ],
+      "correct": 2,
+      "explanation": "Photoelectric emission occurs when light of suitable frequency (including ultraviolet) illuminates a metal surface, causing electron emission. | ஒளிமின் உமிழ்வு பொருத்தமான அதிர்வெண்ணிலான ஒளி (புறஊதா ஒளி உட்பட) உலோகப் பரப்பில் படும்போது ஏற்படுகிறது, இது எலக்ட்ரான் உமிழ்வை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "சுதந்திர எலக்ட்ரான்கள் வழக்கமாக உலோகப் பரப்பிலிருந்து வெளியேறுவதைத் தடுக்கும் விசை எது?",
+      "options": [
+        "ஈர்ப்பு விசை",
+        "நேர் அயனிகளின் ஈர்ப்பு விசை",
+        "காந்த விசை",
+        "அணுக்கரு விசை"
+      ],
+      "correct": 1,
+      "explanation": "When an electron tries to escape, the metal surface acquires positive charge and pulls it back. Free electrons are held by attractive forces of ions. | எலக்ட்ரான் வெளியேற முயற்சிக்கும்போது, உலோகப் பரப்பு நேர் மின்னேற்றத்தைப் பெற்று அதை மீண்டும் இழுக்கிறது. சுதந்திர எலக்ட்ரான்கள் அயனிகளின் ஈர்ப்பு விசைகளால் வைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒரு உலோகத்தின் பணிச் செயல்பாடு (work function) பின்வருவனவற்றில் எதைப் பொறுத்தது?",
+      "options": [
+        "படும் ஒளியின் தீவிரத்தை",
+        "உலோகத்தின் பண்புகள் மற்றும் அதன் பரப்பின் தன்மையை",
+        "படும் ஒளியின் அதிர்வெண்ணை",
+        "சுற்றுப்புற வெப்பநிலையை"
+      ],
+      "correct": 1,
+      "explanation": "The work function depends on the properties of the metal and the nature of its surface, not on light intensity or frequency. | பணிச் செயல்பாடு உலோகத்தின் பண்புகள் மற்றும் அதன் பரப்பின் தன்மையைப் பொறுத்தது, ஒளியின் தீவிரத்தை அல்லது அதிர்வெண்ணைப் பொறுத்ததல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "அணு இயற்பியலில் பணிச் செயல்பாட்டை அளவிட பொதுவாகப் பயன்படுத்தப்படும் அலகு எது?",
+      "options": [
+        "ஜூல்",
+        "வாட்",
+        "எலக்ட்ரான் வோல்ட் (eV)",
+        "நியூட்டன்"
+      ],
+      "correct": 2,
+      "explanation": "The work function is generally measured in eV (electron volt). One eV is the energy gained by an electron accelerated by 1 volt potential difference. | பணிச் செயல்பாடு பொதுவாக eV (எலக்ட்ரான் வோல்ட்) அலகில் அளவிடப்படுகிறது. ஒரு eV என்பது 1 வோல்ட் மின்னழுத்த வித்தியாசத்தால் முடுக்கப்படும் எலக்ட்ரானின் ஆற்றல் ஆகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "அதிக வெப்பநிலைக்குச் சூடாக்கப்படும்போது எலக்ட்ரான்களை உமிழ்ந்த உலோகங்கள் எவை?",
+      "options": [
+        "அல்கலி உலோகங்கள் மட்டும்",
+        "குறிப்பிட்ட உலோகங்கள்",
+        "உயர் வாயுக்கள் மட்டும்",
+        "குறைகடத்திகள் மட்டும்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that certain metals when heated to high temperature emit negatively charged particles (electrons). | உரையின்படி, குறிப்பிட்ட உலோகங்கள் அதிக வெப்பநிலைக்குச் சூடாக்கப்படும்போது எதிர் மின்னேற்றம் கொண்ட துகள்களை (எலக்ட்ரான்கள்) உமிழ்கின்றன."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "வெவ்வேறு நிலைகளில் உமிழப்பட்ட துகள்களுக்கு ஒரே e/m மதிப்பு இருப்பதன் முக்கியத்துவம் என்ன?",
+      "options": [
+        "வெவ்வேறு துகள்கள் உற்பத்தி செய்யப்பட்டன",
+        "அனைத்து துகள்களும் ஒரே தன்மையைக் கொண்டவை",
+        "நிலைகளைப் பொறுத்து மின்னேற்றம் மாறியது",
+        "நிலைகளைப் பொறுத்து நிறை மாறியது"
+      ],
+      "correct": 1,
+      "explanation": "The same e/m value for particles from different conditions established they were all identical in nature - all electrons. | வெவ்வேறு நிலைகளில் உமிழப்பட்ட துகள்களுக்கு ஒரே e/m மதிப்பு இருப்பது அவை அனைத்தும் ஒரே தன்மையைக் கொண்டவை - அனைத்தும் எலக்ட்ரான்கள் என்பதை உறுதி செய்தது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "J.J. தாம்சன் எலக்ட்ரானைக் கண்டுபிடித்ததற்காக எந்த ஆண்டு நோபல் பரிசு பெற்றார்?",
+      "options": [
+        "1897",
+        "1900",
+        "1906",
+        "1913"
+      ],
+      "correct": 2,
+      "explanation": "J.J. Thomson was awarded the Nobel Prize in Physics in 1906 for his discovery of the electron through investigations on conduction of electricity by gases. | வாயுக்களால் மின்னாற்றல் கடத்தல் குறித்த விசாரணைகள் மூலம் எலக்ட்ரானைக் கண்டுபிடித்ததற்காக J.J. தாம்சனுக்கு 1906-ல் இயற்பியலில் நோபல் பரிசு வழங்கப்பட்டது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "எலக்ட்ரானின் மின்னேற்றம் (e), குறிப்பிட்ட மின்னேற்றம் (e/m), மற்றும் நிறை (m) ஆகியவற்றுக்கு இடையேயான தொடர்பு என்ன?",
+      "options": [
+        "m = e × (e/m)",
+        "m = e / (e/m)",
+        "m = (e/m) / e",
+        "m = e + (e/m)"
+      ],
+      "correct": 1,
+      "explanation": "From charge (e) and specific charge (e/m), mass (m) can be determined using m = e / (e/m). | மின்னேற்றம் (e) மற்றும் குறிப்பிட்ட மின்னேற்றம் (e/m) ஆகியவற்றிலிருந்து, m = e / (e/m) என்ற தொடர்பைப் பயன்படுத்தி நிறையை (m) கண்டறியலாம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவை ஆய்வு செய்யும் சோதனை அமைப்பில் (படம் 11.1), தகட்டு C இன் செயல்பாடு என்ன?",
+      "options": [
+        "அது உமிழப்பட்ட எலக்ட்ரான்களைச் சேகரிக்கிறது",
+        "ஒளி விழும்போது அது எலக்ட்ரான்களை உமிழ்கிறது",
+        "அது மின்னழுத்த வேறுபாட்டை அளவிடுகிறது",
+        "அது சுற்றின் துருவத்தை மாற்றுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Plate C is the photosensitive plate (emitter) which emits electrons when monochromatic light from source S falls on it through the quartz window W. | தகட்டு C ஒளிஉணர் தகடு (உமிழ்வான்) ஆகும், இது குவார்ட்ஸ் சாளரம் W வழியாக மூலம் S இலிருந்து வரும் ஒரு நிறமான ஒளி விழும்போது எலக்ட்ரான்களை உமிழும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு சோதனை அமைப்பில் தகட்டு A இன் பங்கு என்ன?",
+      "options": [
+        "ஒளி விழும்போது அது ஒளிமின் எலக்ட்ரான்களை உமிழ்கிறது",
+        "அது ஒளிஉணர் உமிழ்வான் தகடாக செயல்படுகிறது",
+        "அது தகட்டு C இலிருந்து உமிழப்பட்ட எலக்ட்ரான்களைச் சேகரிக்கிறது",
+        "அது புற ஊதா கதிர்வீச்சு குழாய்க்குள் நுழைவதைத் தடுக்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "Plate A is the collector plate that collects the electrons emitted by plate C (the emitter) due to the electric field created by the battery. | தகட்டு A என்பது சேகரிப்பான் தகடு ஆகும், இது பேட்டரியால் உருவாக்கப்பட்ட மின்சார புலத்தால் தகட்டு C (உமிழ்வான்) இலிருந்து உமிழப்பட்ட எலக்ட்ரான்களைச் சேகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவை ஆய்வு செய்யும் சோதனை அமைப்பில் குவார்ட்ஸ் சாளரம் ஏன் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "விழும் ஒளியின் தீவிரத்தை அதிகரிப்பதற்காக",
+        "புற ஊதா கதிர்வீச்சு கடந்து சென்று ஒளிஉணர் தகட்டை கதிர்வீச்சு செய்ய அனுமதிப்பதற்காக",
+        "எலக்ட்ரான்கள் குழாயிலிருந்து தப்பிப்பதைத் தடுப்பதற்காக",
+        "ஒளிமின் மின்னோட்டத்தை அளவிடுவதற்காக"
+      ],
+      "correct": 1,
+      "explanation": "A transparent quartz window is sealed on the glass tube because it permits ultraviolet radiation to pass through it and irradiate the photosensitive plate C. | கண்ணாடி குழாயில் ஒரு நிலையான குவார்ட்ஸ் சாளரம் பொருத்தப்பட்டுள்ளது, ஏனெனில் இது புற ஊதா கதிர்வீச்சை வழியாகச் செல்ல அனுமதித்து ஒளிஉணர் தகட்டு C ஐ கதிர்வீச்சு செய்யும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு சோதனை சுற்றில் கம்யூடேட்டரின் நோக்கம் என்ன?",
+      "options": [
+        "ஒளிமின் மின்னோட்டத்தை அளவிடுவது",
+        "விழும் ஒளியின் தீவிரத்தை மாற்றுவது",
+        "தகடுகள் C மற்றும் A இன் துருவத்தை மாற்றுவது",
+        "புற ஊதா கதிர்வீச்சை உருவாக்குவது"
+      ],
+      "correct": 2,
+      "explanation": "The commutator is used to reverse the polarity of plates C and A, allowing plate A to be maintained at either positive or negative potential with respect to the emitter C. | கம்யூடேட்டர் தகடுகள் C மற்றும் A இன் துருவத்தை மாற்றுவதற்குப் பயன்படுத்தப்படுகிறது, இது தகட்டு A ஐ உமிழ்வான் C உடன் நேர்மறை அல்லது எதிர்மறை மின்னழுத்தத்தில் பராமரிக்க அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு சோதனையில் மின்னழுத்த வேறுபாட்டையும் ஒளிமின் மின்னோட்டத்தையும் அளவிட எந்த கருவிகள் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "அம்மீட்டர் மற்றும் வோல்ட்மீட்டர்",
+        "வோல்ட்மீட்டர் (V) மற்றும் மைக்ரோஅம்மீட்டர் (μA)",
+        "கால்வனோமீட்டர் மற்றும் ஓம்மீட்டர்",
+        "வாட்ட்மீட்டர் மற்றும் அதிர்வெண் மீட்டர்"
+      ],
+      "correct": 1,
+      "explanation": "The potential difference between the emitter and collector plates is measured by a voltmeter (V), while the resulting photocurrent is measured by a microammeter (μA). | உமிழ்வான் மற்றும் சேகரிப்பான் தகடுகளுக்கு இடையேயான மின்னழுத்த வேறுபாட்டை ஒரு வோல்ட்மீட்டர் (V) மூலம் அளவிடுகிறோம், அதே நேரத்தில் உருவாகும் ஒளிமின் மின்னோட்டத்தை ஒரு மைக்ரோஅம்மீட்டர் (μA) மூலம் அளவிடுகிறோம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "படம் 11.1 இல் காட்டப்பட்டுள்ள அமைப்பைப் பயன்படுத்தி ஒளிமின் விளைவின் சோதனை ஆய்வில் பின்வருவனவற்றில் எந்த அளவுருக்களை மாற்றியமைக்க முடியும்?",
+      "options": [
+        "விழும் ஒளியின் தீவிரம் மட்டுமே",
+        "விழும் கதிர்வீச்சின் அதிர்வெண் மட்டுமே",
+        "தீவிரம், அதிர்வெண், மின்னழுத்த வேறுபாடு, மற்றும் உமிழ்வான் பொருளின் தன்மை",
+        "தகடுகளுக்கு இடையேயான மின்னழுத்த வேறுபாடு மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "The experimental arrangement allows variation of: (a) intensity of radiation, (b) frequency of incident radiation, (c) potential difference between plates A and C, and (d) nature of the material of plate C. | சோதனை அமைப்பு பின்வருவனவற்றை மாற்றியமைக்க அனுமதிக்கிறது: (a) கதிர்வீச்சின் தீவிரத்தை, (b) விழும் கதிர்வீச்சின் அதிர்வெண்ணை, (c) தகடுகள் A மற்றும் C க்கு இடையேயான மின்னழுத்த வேறுபாட்டை, மற்றும் (d) தகட்டு C இன் பொருளின் தன்மையை."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "அதிர்வெண் மற்றும் மின்னழுத்தம் நிலையானபோது, விழும் ஒளியின் தீவிரத்துடன் ஒளிமின் மின்னோட்டம் எவ்வாறு மாறுகிறது?",
+      "options": [
+        "அது தீவிரத்துடன் அதிகரிக்கும் வகையில் குறைகிறது",
+        "அது விழும் ஒளியின் தீவிரத்துடன் நேரியலாக அதிகரிக்கிறது",
+        "தீவிரத்தைப் பொருட்படுத்தாமல் அது நிலையானதாக இருக்கிறது",
+        "அது தீவிரத்துடன் வர்க்கமாக அதிகரிக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "When the frequency of incident radiation and potential are fixed, the photocurrent increases linearly with the intensity of incident light, as shown graphically in Figure 11.2. | விழும் கதிர்வீச்சின் அதிர்வெண் மற்றும் மின்னழுத்தம் நிலையானபோது, ஒளிமின் மின்னோட்டம் விழும் ஒளியின் தீவிரத்துடன் நேரியலாக அதிகரிக்கிறது, இது படம் 11.2 இல் வரைபடமாகக் காட்டப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் மின்னோட்டத்திற்கும் விழும் ஒளியின் தீவிரத்திற்கும் இடையேயான நேரியல் உறவு ஒளிமின் எலக்ட்ரான்களைப் பற்றி என்ன குறிக்கிறது?",
+      "options": [
+        "ஒவ்வொரு ஒளிமின் எலக்ட்ரானின் ஆற்றலும் தீவிரத்துடன் அதிகரிக்கிறது",
+        "விநாடிக்கு உமிழப்பட்ட ஒளிமின் எலக்ட்ரான்களின் எண்ணிக்கை தீவிரத்திற்கு நேரடியாக விகிதாசாரமானது",
+        "ஒளிமின் எலக்ட்ரான்களின் வேகம் தீவிரத்தைப் பொறுத்தது",
+        "வேலைச் செயல்பாடு தீவிரத்துடன் மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The photocurrent is directly proportional to the number of photoelectrons emitted per second. Therefore, the linear relationship implies that the number of photoelectrons emitted per second is directly proportional to the intensity of incident radiation. | ஒளிமின் மின்னோட்டம் விநாடிக்கு உமிழப்பட்ட ஒளிமின் எலக்ட்ரான்களின் எண்ணிக்கைக்கு நேரடியாக விகிதாசாரமாகும். எனவே, நேரியல் உறவு என்பது விநாடிக்கு உமிழப்பட்ட ஒளிமின் எலக்ட்ரான்களின் எண்ணிக்கை விழும் கதிர்வீச்சின் தீவிரத்திற்கு நேரடியாக விகிதாசாரமானது என்பதைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு சோதனையில் ஒளியின் தீவிரத்தை எவ்வாறு மாற்றியமைக்கிறார்கள்?",
+      "options": [
+        "ஒளி மூலத்தின் அதிர்வெண்ணை மாற்றுவதன் மூலம்",
+        "ஒளி மூலத்திலிருந்து உமிழ்வான் வரையிலான தூரத்தை மாற்றுவதன் மூலம்",
+        "உமிழ்வான் தகட்டின் பொருளை மாற்றுவதன் மூலம்",
+        "தகடுகளுக்கு இடையேயான மின்னழுத்த வேறுபாட்டை மாற்றுவதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "The intensity of light is varied by changing the distance of the light source from the emitter. Light of different frequencies can be used by putting appropriate coloured filters in the path of light. | ஒளியின் தீவிரத்தை மூலத்திலிருந்து உமிழ்வான் வரையிலான தூரத்தை மாற்றுவதன் மூலம் மாற்றியமைக்கலாம். வெவ்வேறு அதிர்வெண்களைக் கொண்ட ஒளியைப் பயன்படுத்த, ஒளியின் பாதையில் பொருத்தமான வண்ண வடிப்பான்களை வைக்கலாம்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு சோதனையில் கண்ணாடி குழாய் ஏன் வெற்றிடமாக்கப்படுகிறது?",
+      "options": [
+        "உலோக தகடுகளின் ஆக்ஸிஜனேற்றத்தைத் தடுப்பதற்காக",
+        "காற்று மூலக்கூறுகளுடன் மோதாமல் எலக்ட்ரான்கள் உமிழ்வானிலிருந்து சேகரிப்பானுக்குச் செல்வதற்காக",
+        "குழாய்க்குள் வெப்பநிலையை அதிகரிப்பதற்காக",
+        "விழும் ஒளியை வடிப்பதற்காக"
+      ],
+      "correct": 1,
+      "explanation": "The tube is evacuated (air is removed) so that electrons emitted from plate C can travel freely to plate A without colliding with air molecules, which would otherwise scatter or absorb them. | குழாய் வெற்றிடமாக்கப்பட்டுள்ளது (காற்று அகற்றப்பட்டுள்ளது), இதனால் தகட்டு C இலிருந்து உமிழப்பட்ட எலக்ட்ரான்கள் காற்று மூலக்கூறுகளுடன் மோதாமல் சுதந்திரமாக தகட்டு A க்குச் செல்ல முடியும், இல்லையெனில் அவை சிதறடிக்கப்படும் அல்லது உறிஞ்சப்படும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு சோதனை சுற்றில் பேட்டரியின் செயல்பாடு என்ன?",
+      "options": [
+        "சோதனைக்கான ஒளியை உருவாக்குவது",
+        "தகட்டு A இல் எலக்ட்ரான்களைச் சேகரிக்க உதவும் மின்சார புலத்தை உருவாக்குவது",
+        "ஒளிஉணர் தகட்டை சூடாக்குவது",
+        "சுற்றில் மின்னோட்டத்தை அளவிடுவது"
+      ],
+      "correct": 1,
+      "explanation": "The battery maintains the potential difference between plates C and A, creating an electric field that attracts electrons emitted from C towards the collector plate A. | பேட்டரி தகடுகள் C மற்றும் A க்கு இடையேயான மின்னழுத்த வேறுபாட்டை பராமரிக்கிறது, இது C இலிருந்து உமிழப்பட்ட எலக்ட்ரான்களை சேகரிப்பான் தகட்டு A நோக்கி ஈர்க்கும் மின்சார புலத்தை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "சோதனை அமைப்பில் ஒளிமின் விளைவு ஏற்பட மூலம் S இலிருந்து எந்த வகை ஒளி தேவைப்படுகிறது?",
+      "options": [
+        "எந்த வகை கண்ணுக்குத் தெரியும் ஒளியும்",
+        "போதுமான குறுகிய அலைநீளம் கொண்ட ஒரு நிறமான ஒளி",
+        "எல்லா அலைநீளங்களையும் கொண்ட வெள்ளை ஒளி",
+        "அகச்சிவப்பு கதிர்வீச்சு மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "Monochromatic light from the source S of sufficiently short wavelength passes through the window W and falls on the photosensitive plate C. The wavelength must be short enough (frequency high enough) to exceed the threshold frequency of the emitter material. | மூலம் S இலிருந்து போதுமான குறுகிய அலைநீளம் கொண்ட ஒரு நிறமான ஒளி சாளரம் W வழியாக சென்று ஒளிஉணர் தகட்டு C மீது விழும். அலைநீளம் போதுமான அளவு குறுகியதாக (அதிர்வெண் போதுமான அளவு அதிகமாக) இருக்க வேண்டும், இதனால் உமிழ்வான் பொருளின் திறநிலை அதிர்வெண்ணை மீற முடியும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் விளைவு சோதனையில், ஒளிமின் மின்னோட்டம் ஒளியின் தீவிரத்துடன் எவ்வாறு மாறுகிறது?",
+      "options": [
+        "அது அதிர்வெண்ணுடன் அதிகரிக்கிறது",
+        "அது தீவிரத்துடன் நேர்கோட்டு முறையில் குறைகிறது",
+        "அது தீவிரத்துடன் நேர்கோட்டு முறையில் அதிகரிக்கிறது",
+        "அது தீவிரத்தைப் பொறுத்து மாறாததாக இருக்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "The photoelectric current increases linearly with the intensity of incident light. This is because the number of photoelectrons emitted per second is directly proportional to the intensity of incident radiation. | ஒளியின் தீவிரத்துடன் ஒளிமின் மின்னோட்டம் நேர்கோட்டு முறையில் அதிகரிக்கிறது. ஒவ்வொரு வினாடியும் வெளியேற்றப்படும் ஒளிமின் மின்னணுக்களின் எண்ணிக்கை ஒளியின் தீவிரத்திற்கு நேரடியாக விகிதாசாரமாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "அனைத்து வெளியேற்றப்பட்ட மின்னணுக்களும் சேகரிப்பான் தட்டால் சேகரிக்கப்படும்போது, ஒளிமின் மின்னோட்டத்தின் அதிகபட்ச மதிப்பை என்ன என்று அழைக்கிறார்கள்?",
+      "options": [
+        "வெட்டு மின்னோட்டம்",
+        "செறிவு மின்னோட்டம்",
+        "நிறுத்து மின்னோட்டம்",
+        "தடுப்பு மின்னோட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "The maximum value of photoelectric current is called saturation current. It occurs when all the photoelectrons emitted by the emitter plate reach the collector plate, and further increase in accelerating potential does not increase the current. | ஒளிமின் மின்னோட்டத்தின் அதிகபட்ச மதிப்பு செறிவு மின்னோட்டம் (saturation current) எனப்படும். வெளியேற்றப்படும் அனைத்து ஒளிமின் மின்னணுக்களும் சேகரிப்பான் தட்டை அடையும்போது இது ஏற்படுகிறது, மேலும் மின்னோட்டத்தை அதிகரிக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் மின்னோட்டம் பூஜ்ஜியமாகும்போது, சேகரிப்பான் தட்டிற்கு வழங்கப்படும் குறைந்தபட்ச எதிர்மறை மின்னழுத்தத்தை என்ன என்று அழைக்கிறார்கள்?",
+      "options": [
+        "முடுக்கு மின்னழுத்தம்",
+        "வெட்டு மின்னழுத்தம்",
+        "நிறுத்து மின்னழுத்தம்",
+        "செறிவு மின்னழுத்தம்"
+      ],
+      "correct": 2,
+      "explanation": "The minimum negative (retarding) potential given to the collector plate for which the photocurrent stops or becomes zero is called the stopping potential or cut-off potential. It is related to the maximum kinetic energy of photoelectrons by K_max = eV_0. | சேகரிப்பான் தட்டிற்கு வழங்கப்படும் குறைந்தபட்ச எதிர்மறை (தடுப்பு) மின்னழுத்தம், ஒளிமின் மின்னோட்டம் பூஜ்ஜியமாகும்போது நிறுத்து மின்னழுத்தம் (stopping potential) அல்லது வெட்டு மின்னழுத்தம் எனப்படும். K_max = eV_0 என்ற சமன்பாட்டால் இது ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றலுடன் தொடர்புடையது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "கொடுக்கப்பட்ட அதிர்வெண்ணுக்கு, நிறுத்து மின்னழுத்தம் ஒளியின் தீவிரத்தைப் பொறுத்தது என்ன?",
+      "options": [
+        "தீவிரத்துடன் அதிகரிக்கிறது",
+        "தீவிரத்துடன் குறைகிறது",
+        "தீவிரத்தைப் பொறுத்து மாறாதது",
+        "தீவிரத்துடன் அடுக்கு முறையில் மாறுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "For a given frequency of incident radiation, the stopping potential is independent of the intensity of light. The maximum kinetic energy of photoelectrons depends on the frequency of incident radiation and the nature of the emitter material, but not on the intensity. | கொடுக்கப்பட்ட ஒளியின் அதிர்வெண்ணுக்கு, நிறுத்து மின்னழுத்தம் ஒளியின் தீவிரத்தைப் பொறுத்தது அல்ல. ஒளிமின் மின்னணுக்களின் அதிகபட்ச இயக்க ஆற்றல் ஒளியின் அதிர்வெண் மற்றும் வெளியேற்றும் பொருளின் தன்மையைப் பொறுத்தது, தீவிரத்தைப் பொறுத்தது அல்ல."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளியின் தீவிரம் I1 இலிருந்து I2 ஆக அதிகரிக்கும்போது (I2 > I1), செறிவு மின்னோட்டம் என்ன ஆகிறது?",
+      "options": [
+        "அது மாறாததாக இருக்கிறது",
+        "அது குறைகிறது",
+        "அது அதிக மதிப்புக்கு அதிகரிக்கிறது",
+        "அது பூஜ்ஜியமாகிறது"
+      ],
+      "correct": 2,
+      "explanation": "When the intensity of incident radiation increases, the saturation current increases to a higher value. This shows that more electrons are being emitted per second, proportional to the intensity of incident radiation. | ஒளியின் தீவிரத்து அதிகரிக்கும்போது, செறிவு மின்னோட்டம் அதிக மதிப்புக்கு அதிகரிக்கிறது. இது ஒவ்வொரு வினாடியும் அதிக எண்ணிக்கையிலான மின்னணுக்கள் வெளியேற்றப்படுவதைக் காட்டுகிறது, இது ஒளியின் தீவிரத்திற்கு விகிதாசாரமாகும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "சேகரிப்பான் தட்டிற்கு எதிர்மறை (தடுப்பு) மின்னழுத்தம் பயன்படுத்தப்படும்போது, ஒளிமின் மின்னோட்டம் என்ன ஆகிறது?",
+      "options": [
+        "அது வேகமாக அதிகரிக்கிறது",
+        "அது வேகமாக குறைந்து பூஜ்ஜியமாகிறது",
+        "அது மாறாததாக இருக்கிறது",
+        "அது அதிகபட்ச மற்றும் குறைந்தபட்ச மதிப்புகளுக்கு இடையே அதிர்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "When a negative (retarding) potential is applied to the collector plate, the photoelectric current decreases rapidly until it drops to zero at the stopping potential. The electrons are repelled and only sufficiently energetic electrons can reach the collector. | சேகரிப்பான் தட்டிற்கு எதிர்மறை (தடுப்பு) மின்னழுத்தம் பயன்படுத்தப்படும்போது, ஒளிமின் மின்னோட்டம் வேகமாகக் குறைந்து நிறுத்து மின்னழுத்தத்தில் பூஜ்ஜியமாகிறது. மின்னணுக்கள் தள்ளப்படுகின்றன, மற்றும் போதுமான ஆற்றல் கொண்ட மின்னணுக்கள் மட்டுமே சேகரிப்பானை அடைய முடியும்."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "ஒளிமின் மின்னோட்டம் பின்வரும் எந்த அளவுடன் நேரடியாக விகிதாசாரமாகும்?",
+      "options": [
+        "ஒளியின் அதிர்வெண்",
+        "ஒவ்வொரு வினாடியும் வெளியேற்றப்படும் ஒளிமின் மின்னணுக்களின் எண்ணிக்கை",
+        "நிறுத்து மின்னழுத்தம்",
+        "உலோகத்தின் பணிச் செயல்"
+      ],
+      "correct": 1,
+      "explanation": "The photocurrent is directly proportional to the number of photoelectrons emitted per second. Since the number of photoelectrons emitted per second is directly proportional to the intensity of incident radiation, the photocurrent also increases linearly with intensity. | ஒளிமின் மின்னோட்டம் ஒவ்வொரு வினாடியும் வெளியேற்றப்படும் ஒளிமின் மின்னணுக்களின் எண்ணிக்கைக்கு நேரடியாக விகிதாசாரமாகும். ஒளிமின் மின்னணுக்களின் எண்ணிக்கை ஒளியின் தீவிரத்திற்கு நேரடியாக விகிதாசாரமாக இருப்பதால், ஒளிமின் மின்னோட்டமும் தீவிரத்துடன் நேர்கோட்டு முறையில் அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 11",
+      "question": "சேகரிப்பான் தட்டின் முடுக்கு மின்னழுத்தம் செறிவு புள்ளியைக் கடந்து அதிகரிக்கப்பட்டால், ஒளிமின் மின்னோட்டம் என்ன ஆகிறது?",
+      "options": [
+        "அது தொடர்ந்து அதிகரிக்கிறது",
+        "அது பூஜ்ஜியமாக குறைகிறது",
+        "அது மேலும் அதிகரிக்காது",
+        "அது அதிர்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "If the accelerating potential of plate A is increased beyond the saturation point, the photocurrent does not increase further. This is because all the emitted electrons are already being collected by the collector plate, and no more electrons are available to contribute to the current. | சேகரிப்பான் தட்டின் முடுக்கு மின்னழுத்தம் செறிவு புள்ளியைக் கடந்து அதிகரிக்கப்பட்டால், ஒளிமின் மின்னோட்டம் மேலும் அதிகரிக்காது. வெளியேற்றப்பட்ட அனைத்து மின்னணுக்களும் ஏற்கனவே சேகரிக்கப்பட்டுவிட்டதால், மேலும் மின்னணுக்கள் மின்னோட்டத்திற்கு பங்களிக்கக் கிடைக்காது."
+    }
+  ]
+}

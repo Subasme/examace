@@ -425,6 +425,36 @@
               "label": "Physics",
               "chapters": [
                 {
+                  "id": "chapter10",
+                  "label": "Chapter 10",
+                  "path": "Tamil/12th/Physics/chapter10.json",
+                  "count": 160
+                },
+                {
+                  "id": "chapter11",
+                  "label": "Chapter 11",
+                  "path": "Tamil/12th/Physics/chapter11.json",
+                  "count": 190
+                },
+                {
+                  "id": "chapter12",
+                  "label": "Chapter 12",
+                  "path": "Tamil/12th/Physics/chapter12.json",
+                  "count": 168
+                },
+                {
+                  "id": "chapter13",
+                  "label": "Chapter 13",
+                  "path": "Tamil/12th/Physics/chapter13.json",
+                  "count": 204
+                },
+                {
+                  "id": "chapter14",
+                  "label": "Chapter 14",
+                  "path": "Tamil/12th/Physics/chapter14.json",
+                  "count": 254
+                },
+                {
                   "id": "chapter1",
                   "label": "Chapter 1",
                   "path": "Tamil/12th/Physics/chapter1.json",
@@ -459,10 +489,28 @@
                   "label": "Chapter 6",
                   "path": "Tamil/12th/Physics/chapter6.json",
                   "count": 249
+                },
+                {
+                  "id": "chapter7",
+                  "label": "Chapter 7",
+                  "path": "Tamil/12th/Physics/chapter7.json",
+                  "count": 330
+                },
+                {
+                  "id": "chapter8",
+                  "label": "Chapter 8",
+                  "path": "Tamil/12th/Physics/chapter8.json",
+                  "count": 108
+                },
+                {
+                  "id": "chapter9",
+                  "label": "Chapter 9",
+                  "path": "Tamil/12th/Physics/chapter9.json",
+                  "count": 371
                 }
               ],
               "allChaptersPath": "Tamil/12th/Physics/all-chapters.json",
-              "totalQuestions": 1891
+              "totalQuestions": 3676
             }
           ]
         }

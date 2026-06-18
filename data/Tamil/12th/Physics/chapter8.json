@@ -1,0 +1,1309 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 8",
+    "chapterId": "chapter8",
+    "source": "Chapter8_QA_Tamil.xlsx",
+    "count": 108
+  },
+  "questions": [
+    {
+      "topic": "Chapter 8",
+      "question": "கார்பன் மோனாக்சைடு மூலக்கூறை கார்பன் மற்றும் ஆக்ஸிஜன் அணுக்களாக பிரிக்க 11 eV ஆற்றல் தேவைப்படுகிறது. இந்த பிரிப்பை அடைய பொருத்தமான மின்காந்த கதிர்வீச்சின் குறைந்தபட்ச அதிர்வெண் எந்த பகுதியில் அமைந்துள்ளது?",
+      "options": [
+        "கட்புலன் பகுதி",
+        "அகச்சிவப்பு பகுதி",
+        "புற ஊதா பகுதி",
+        "நுண்ணலை பகுதி"
+      ],
+      "correct": 2,
+      "explanation": "Energy E = 11 eV = 11 × 1.6 × 10⁻¹⁹ J. Using E = hν, frequency ν = E/h ≈ 2.66 × 10¹⁵ Hz. This frequency falls in the ultraviolet region (10¹⁵ to 10¹⁷ Hz). | ஆற்றல் E = 11 eV = 11 × 1.6 × 10⁻¹⁹ J. E = hν என்பதைப் பயன்படுத்தி, அதிர்வெண் ν = E/h ≈ 2.66 × 10¹⁵ Hz. இந்த அதிர்வெண் புற ஊதா பகுதியில் (10¹⁵ முதல் 10¹⁷ Hz வரை) அமைந்துள்ளது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "E = E₀ cos(kz - ωt) î என்ற வரிவடிவ முனைப்படுத்தப்பட்ட மின்காந்த அலை, z = a இல் உள்ள ஒரு முழுமையாக பிரதிபலிக்கும் முடிவில்லா சுவரில் செங்குத்தாக படுகிறது. சுவர் பொருள் ஒளி செயலற்றது எனக் கருதினால், பிரதிபலிக்கும் அலை எவ்வாறு இருக்கும்?",
+      "options": [
+        "E = -E₀ cos(kz - ωt) î",
+        "E = E₀ cos(kz + ωt) î",
+        "E = -E₀ cos(kz + ωt) î",
+        "E = E₀ sin(kz - ωt) î"
+      ],
+      "correct": 1,
+      "explanation": "For a perfectly reflecting wall, the reflected wave propagates in the opposite direction, so kz changes to -kz. The phase change of π is accounted for by the cosine function transformation. The correct form is E = E₀ cos(kz + ωt) î. | முழுமையாக பிரதிபலிக்கும் சுவருக்கு, பிரதிபலிக்கும் அலை எதிர் திசையில் பரவுகிறது, எனவே kz → -kz மாறுகிறது. π கட்ட மாற்றம் cosine சார்பு மாற்றத்தால் கணக்கிடப்படுகிறது. சரியான வடிவம் E = E₀ cos(kz + ωt) î."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "20 W/cm² ஆற்றல் பாய்வுடன் கூடிய ஒளி, செங்குத்து படிவத்தில் ஒரு பிரதிபலிக்காத மேற்பரப்பில் படுகிறது. மேற்பரப்பின் பரப்பளவு 30 cm² என்றால், 30 நிமிடங்களில் (முழு உறிஞ்சுதலுக்கு) வழங்கப்படும் மொத்த உந்தம் எவ்வளவு?",
+      "options": [
+        "36 × 10⁻⁵ kg m/s",
+        "36 × 10⁻⁴ kg m/s",
+        "108 × 10⁴ kg m/s",
+        "1.08 × 10⁷ kg m/s"
+      ],
+      "correct": 1,
+      "explanation": "For complete absorption, momentum p = U/c. Total energy U = Intensity × Area × Time = 20 × 30 × 1800 = 1.08 × 10⁶ J. Therefore p = (1.08 × 10⁶)/(3 × 10⁸) = 36 × 10⁻⁴ kg m/s. | முழு உறிஞ்சுதலுக்கு, உந்தம் p = U/c. மொத்த ஆற்றல் U = தீவிரம் × பரப்பளவு × நேரம் = 20 × 30 × 1800 = 1.08 × 10⁶ J. எனவே p = (1.08 × 10⁶)/(3 × 10⁸) = 36 × 10⁻⁴ kg m/s."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "100 W பல்பிலிருந்து வரும் கதிர்வீச்சால் 3 m தூரத்தில் உருவாக்கப்படும் மின்புல தீவிரம் E. அதே தூரத்தில் 50 W பல்பிலிருந்து வரும் கதிர்வீச்சால் உருவாக்கப்படும் மின்புல தீவிரம் எவ்வளவு?",
+      "options": [
+        "E/2",
+        "2E",
+        "E/√2",
+        "√2E"
+      ],
+      "correct": 2,
+      "explanation": "Intensity I ∝ Power P and I ∝ E². Therefore E² ∝ P, so E ∝ √P. When power is halved from 100 W to 50 W, the electric field intensity becomes E/√2. | தீவிரம் I ∝ ஆற்றல் P மற்றும் I ∝ E². எனவே E² ∝ P, E ∝ √P. ஆற்றல் 100 W இலிருந்து 50 W ஆக குறையும்போது, மின்புல தீவிரம் E/√2 ஆகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மின்காந்த அலையின் மின்புலம் E மற்றும் காந்தப்புலம் B என்றால், அலையின் பரவல் திசை எது வழியாக இருக்கும்?",
+      "options": [
+        "E",
+        "B",
+        "B × E",
+        "E × B"
+      ],
+      "correct": 3,
+      "explanation": "The direction of propagation is given by the Poynting vector S = (1/μ₀)(E × B). Therefore, the wave propagates in the direction of E × B. | பரவல் திசை Poynting வெக்டர் S = (1/μ₀)(E × B) மூலம் கொடுக்கப்படுகிறது. எனவே, அலை E × B திசையில் பரவுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மின்காந்த அலையின் தீவிரத்திற்கு மின்புலம் மற்றும் காந்தப்புலம் வழங்கும் பங்களிப்பின் விகிதம் என்ன?",
+      "options": [
+        "c : 1",
+        "c² : 1",
+        "1 : 1",
+        "√c : 1"
+      ],
+      "correct": 2,
+      "explanation": "The energy density of electric field is u_E = (1/2)ε₀E² and magnetic field is u_B = (1/2μ₀)B². For EM waves, E = cB and c = 1/√(μ₀ε₀). Substituting gives u_E = u_B. Therefore, the ratio is 1:1. | மின்புலத்தின் ஆற்றல் அடர்த்தி u_E = (1/2)ε₀E² மற்றும் காந்தப்புலத்தின் ஆற்றல் அடர்த்தி u_B = (1/2μ₀)B². மின்காந்த அலைகளுக்கு E = cB மற்றும் c = 1/√(μ₀ε₀). மாற்றுவதால் u_E = u_B. எனவே விகிதம் 1:1."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "ஒரு இரட்டைமுனை அண்டென்னாவிலிருந்து வெளியேறும் மின்காந்த அலையின் மின்புல வீச்சு E₀. ஆற்றலை முக்கியமாகக் கொண்டு செல்லும் மின்புல வீச்சு எவ்வாறு குறைகிறது?",
+      "options": [
+        "1/r³",
+        "1/r²",
+        "1/r",
+        "மாறாதது"
+      ],
+      "correct": 2,
+      "explanation": "For a dipole antenna, the electric field amplitude E₀ falls off as 1/r in the far-field (radiation zone). The intensity falls off as 1/r², but the field amplitude itself falls as 1/r. | இரட்டைமுனை அண்டென்னாவுக்கு, மின்புல வீச்சு E₀ தொலைவு r இல் 1/r விகிதத்தில் குறைகிறது (தொலை புலம்). தீவிரம் 1/r² விகிதத்தில் குறைந்தாலும், புல வீச்சு 1/r விகிதத்தில் குறைகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பின்வரும் மின்காந்த கதிர்வீச்சுகளில் எது மிக உயர்ந்த அதிர்வெண்ணைக் கொண்டுள்ளது?",
+      "options": [
+        "வானொலி அலைகள்",
+        "அகச்சிவப்பு கதிர்வீச்சு",
+        "கட்புலன் ஒளி",
+        "காமா கதிர்கள்"
+      ],
+      "correct": 3,
+      "explanation": "The electromagnetic spectrum in order of increasing frequency is: radio waves < microwaves < infrared < visible light < ultraviolet < X-rays < gamma rays. Gamma rays have the highest frequency. | அதிகரிக்கும் அதிர்வெண் வரிசையில் மின்காந்த நிறப்பட்டை: வானொலி அலைகள் < நுண்ணலைகள் < அகச்சிவப்பு < கட்புலன் ஒளி < புற ஊதா < X-கதிர்கள் < காமா கதிர்கள். காமா கதிர்கள் மிக உயர்ந்த அதிர்வெண்ணைக் கொண்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் மின்காந்த அலைகளின் வேகம் எதற்கு சமம்?",
+      "options": [
+        "1/√(μ₀ε₀)",
+        "√(μ₀ε₀)",
+        "μ₀ε₀",
+        "1/(μ₀ε₀)"
+      ],
+      "correct": 0,
+      "explanation": "The speed of electromagnetic waves in vacuum is c = 1/√(μ₀ε₀), where μ₀ is the permeability of free space and ε₀ is the permittivity of free space. This equals approximately 3 × 10⁸ m/s. | வெற்றிடத்தில் மின்காந்த அலைகளின் வேகம் c = 1/√(μ₀ε₀), இங்கு μ₀ வெற்றிடத்தின் ஊடுருவுதிறன் மற்றும் ε₀ வெற்றிடத்தின் மின்கடத்துமை. இது சுமார் 3 × 10⁸ m/s ஆகும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் மின்காந்த அலைக்கு, மின்புல வீச்சு E₀ மற்றும் காந்தப்புல வீச்சு B₀ இடையேயான உறவு என்ன?",
+      "options": [
+        "E₀ = B₀/c",
+        "E₀ = cB₀",
+        "E₀ = c²B₀",
+        "E₀ = B₀/c²"
+      ],
+      "correct": 1,
+      "explanation": "For electromagnetic waves in vacuum, E₀/B₀ = c, where c is the speed of light. Therefore, E₀ = cB₀. This relationship ensures that the electric and magnetic field energies are equal. | வெற்றிடத்தில் மின்காந்த அலைகளுக்கு, E₀/B₀ = c, இங்கு c ஒளியின் வேகம். எனவே, E₀ = cB₀. இந்த உறவு மின் மற்றும் காந்த புல ஆற்றல்கள் சமமாக இருப்பதை உறுதி செய்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மின்காந்த அலையால் கொண்டு செல்லப்படும் ஆற்றல் எதன் மூலம் கொடுக்கப்படுகிறது?",
+      "options": [
+        "மின்புல வெக்டர் மட்டும்",
+        "காந்தப்புல வெக்டர் மட்டும்",
+        "Poynting வெக்டர்",
+        "இடப்பெயர்வு மின்னோட்டம்"
+      ],
+      "correct": 2,
+      "explanation": "The Poynting vector S = (1/μ₀)(E × B) represents the energy flow per unit area per unit time in an electromagnetic wave. Its direction gives the direction of energy propagation. | Poynting வெக்டர் S = (1/μ₀)(E × B) மின்காந்த அலையில் ஒரு அலகு பரப்பளவுக்கு ஒரு அலகு நேரத்திற்கு ஆற்றல் பாய்வை குறிக்கிறது. அதன் திசை ஆற்றல் பரவல் திசையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "செயற்கைக்கோள் தகவல்தொடர்பில் எந்த மின்காந்த கதிர்வீச்சு பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "வானொலி அலைகள்",
+        "அகச்சிவப்பு கதிர்வீச்சு",
+        "புற ஊதா கதிர்வீச்சு",
+        "X-கதிர்கள்"
+      ],
+      "correct": 0,
+      "explanation": "Radio waves are used in satellite communication because they can travel long distances, penetrate through the atmosphere, and can be easily modulated to carry information. | செயற்கைக்கோள் தகவல்தொடர்புக்கு வானொலி அலைகள் பயன்படுத்தப்படுகின்றன, ஏனெனில் அவை நீண்ட தூரங்களைக் கடக்க முடியும், வளிமண்டலத்தின் வழியாக ஊடுருவ முடியும், மற்றும் தகவலை ஏந்த மாறுபடுத்தப்பட முடியும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "இடப்பெயர்வு மின்னோட்டம் எதனால் உருவாக்கப்படுகிறது?",
+      "options": [
+        "கடத்தியில் எலக்ட்ரான்களின் பாய்வு",
+        "நேரம் மாறும் மின்புலம்",
+        "நிலையான காந்தப்புலம்",
+        "மாறாத மின்புலம்"
+      ],
+      "correct": 1,
+      "explanation": "Displacement current is defined as I_d = ε₀(dΦ_E/dt), produced by a time-varying electric field. It was introduced by Maxwell to complete Ampere's law and explain electromagnetic wave propagation. | இடப்பெயர்வு மின்னோட்டம் I_d = ε₀(dΦ_E/dt) என வரையறுக்கப்படுகிறது, இது நேரம் மாறும் மின்புலத்தால் உருவாக்கப்படுகிறது. மேக்ஸ்வெல் Ampere விதியை நிறைவு செய்து மின்காந்த அலை பரவலை விளக்க இதை அறிமுகப்படுத்தினார்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "கட்புலன் ஒளியின் அலைநீள வீச்சு சுமார் எவ்வளவு?",
+      "options": [
+        "400 nm முதல் 700 nm",
+        "700 nm முதல் 1000 nm",
+        "1 nm முதல் 10 nm",
+        "1 m முதல் 10 m"
+      ],
+      "correct": 0,
+      "explanation": "The visible light spectrum ranges from approximately 400 nm (violet) to 700 nm (red). This corresponds to frequencies from about 4.3 × 10¹⁴ Hz to 7.5 × 10¹⁴ Hz. | கட்புலன் ஒளி நிறப்பட்டை சுமார் 400 nm (ஊதா) முதல் 700 nm (சிவப்பு) வரை விரிவடைந்துள்ளது. இது சுமார் 4.3 × 10¹⁴ Hz முதல் 7.5 × 10¹⁴ Hz வரையிலான அதிர்வெண்களுக்கு ஒத்ததாகும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "E = E₀ cos(kz - ωt) î என்ற நேர்கோட்டு முனையப்பட்ட மின்காந்த அலை, z = a இல் ஒரு முழுமையாக பிரதிபலிக்கும் முடிவில்லா சுவரில் செங்குத்தாக படுகிறது. சுவர் பொருள் ஒளியியல் செயலற்றது எனக் கொண்டால், பிரதிபலிக்கப்பட்ட அலை எது?",
+      "options": [
+        "Eᵣ = -E₀ cos(kz - ωt) î",
+        "Eᵣ = E₀ cos(kz + ωt) î",
+        "Eᵣ = -E₀ cos(kz + ωt) î",
+        "Eᵣ = E₀ sin(kz - ωt) î"
+      ],
+      "correct": 2,
+      "explanation": "When an EM wave reflects from a perfectly reflecting surface, the electric field undergoes a phase reversal (π phase shift), giving a negative sign. Additionally, the reflected wave propagates in the opposite direction, so the argument changes from (kz - ωt) to (kz + ωt). Thus, the reflected wave is Eᵣ = -E₀ cos(kz + ωt) î. | ஒரு முழுமையாக பிரதிபலிக்கும் மேற்பரப்பிலிருந்து மின்காந்த அலை பிரதிபலிக்கும்போது, மின்புலம் கட்ட மாற்றத்திற்கு (π கட்ட மாற்றம்) உட்படுகிறது, இது எதிர்குறியைத் தருகிறது. மேலும், பிரதிபலிக்கப்பட்ட அலை எதிர் திசையில் பரவுவதால், வாதம் (kz - ωt) இலிருந்து (kz + ωt) ஆக மாறுகிறது. எனவே, பிரதிபலிக்கப்பட்ட அலை Eᵣ = -E₀ cos(kz + ωt) î ஆகும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "20 W/cm² ஆற்றல் பாயம் கொண்ட ஒளி, செங்குத்தான படிவத்தில் ஒரு பிரதிபலிப்பற்ற மேற்பரப்பில் விழுகிறது. மேற்பரப்பின் பரப்பளவு 30 cm² எனில், 30 நிமிடங்களில் (முழுமையான உறிஞ்சுதலுக்கு) வழங்கப்பட்ட மொத்த உந்தம் என்ன?",
+      "options": [
+        "36 × 10⁻⁵ kg m/s",
+        "36 × 10⁻⁴ kg m/s",
+        "108 × 10⁴ kg m/s",
+        "1.08 × 10⁷ kg m/s"
+      ],
+      "correct": 1,
+      "explanation": "For complete absorption, momentum delivered p = (I × A × t) / c. Given: I = 20 W/cm² = 20 × 10⁴ W/m², A = 30 cm² = 30 × 10⁻⁴ m², t = 30 min = 1800 s, c = 3 × 10⁸ m/s. Calculating: p = (20 × 10⁴ × 30 × 10⁻⁴ × 1800) / (3 × 10⁸) = (20 × 30 × 1800) / (3 × 10⁸) = 1,080,000 / (3 × 10⁸) = 36 × 10⁻⁴ kg m/s. | முழுமையான உறிஞ்சுதலுக்கு, வழங்கப்பட்ட உந்தம் p = (I × A × t) / c. கொடுக்கப்பட்டவை: I = 20 W/cm² = 20 × 10⁴ W/m², A = 30 cm² = 30 × 10⁻⁴ m², t = 30 நிமிடம் = 1800 s, c = 3 × 10⁸ m/s. கணக்கிடுதல்: p = (20 × 10⁴ × 30 × 10⁻⁴ × 1800) / (3 × 10⁸) = 36 × 10⁻⁴ kg m/s."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "100 W பல்பிலிருந்து வரும் கதிர்வீச்சுகள் 3 m தூரத்தில் E மின்புல தீவிரத்தன்மையை உருவாக்குகின்றன. அதே தூரத்தில் 50 W பல்பிலிருந்து வரும் கதிர்வீச்சுகளின் மின்புல தீவிரத்தன்மை என்ன?",
+      "options": [
+        "E/2",
+        "2E",
+        "E/√2",
+        "√2 E"
+      ],
+      "correct": 2,
+      "explanation": "Intensity I is proportional to power P. Since intensity is proportional to the square of electric field amplitude (I ∝ E²), we have E² ∝ P, so E ∝ √P. When power changes from 100 W to 50 W (halved), E changes by factor √(50/100) = 1/√2. Therefore, the new electric field intensity is E/√2. | தீவிரத்தன்மை I, சக்தி P உடன் நேர்விகிதத்தில் உள்ளது. தீவிரத்தன்மை மின்புல வீச்சின் வர்க்கத்திற்கு நேர்விகிதத்தில் உள்ளது (I ∝ E²), எனவே E² ∝ P, மேலும் E ∝ √P. சக்தி 100 W இலிருந்து 50 W ஆக மாறும்போது (பாதியாக), E √(50/100) = 1/√2 காரணியால் மாறுகிறது. எனவே, புதிய மின்புல தீவிரத்தன்மை E/√2 ஆகும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "E மற்றும் B ஒரு மின்காந்த அலையின் மின்புலம் மற்றும் காந்தப்புல வெக்டர்களைக் குறிக்கின்றன எனில், அலையின் பரவல் திசை எது?",
+      "options": [
+        "E திசையில்",
+        "B திசையில்",
+        "B × E திசையில்",
+        "E × B திசையில்"
+      ],
+      "correct": 3,
+      "explanation": "The direction of propagation of an electromagnetic wave is given by the Poynting vector S = (1/μ₀)(E × B). The Poynting vector points in the direction of energy flow, which is the direction of wave propagation. Therefore, the wave propagates along E × B. | ஒரு மின்காந்த அலையின் பரவும் திசை, போயிண்டிங் வெக்டர் S = (1/μ₀)(E × B) மூலம் தரப்படுகிறது. போயிண்டிங் வெக்டர் ஆற்றல் பாய்வின் திசையைக் குறிக்கிறது, இது அலை பரவலின் திசையாகும். எனவே, அலை E × B திசையில் பரவுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "ஒரு மின்காந்த அலையின் தீவிரத்திற்கு மின்புலம் மற்றும் காந்தப்புல bileşenleri இன் பங்களிப்புகளின் விகிதம் என்ன?",
+      "options": [
+        "c : 1",
+        "c² : 1",
+        "1 : 1",
+        "1/c : 1"
+      ],
+      "correct": 2,
+      "explanation": "In an electromagnetic wave, the energy is equally shared between the electric field and magnetic field components. The energy density of the electric field is u_E = (1/2)ε₀E² and the energy density of the magnetic field is u_B = (1/2μ₀)B². For an EM wave, E = cB and c = 1/√(μ₀ε₀), which gives u_E = u_B. Therefore, the ratio of their contributions to intensity is 1:1. | ஒரு மின்காந்த அலையில், ஆற்றல் மின்புலம் மற்றும் காந்தப்புல bileşenleri இடையே சமமாக பகிரப்படுகிறது. மின்புலத்தின் ஆற்றல் அடர்த்தி u_E = (1/2)ε₀E² மற்றும் காந்தப்புலத்தின் ஆற்றல் அடர்த்தி u_B = (1/2μ₀)B². மின்காந்த அலைக்கு, E = cB மற்றும் c = 1/√(μ₀ε₀), இது u_E = u_B எனத் தருகிறது. எனவே, தீவிரத்திற்கான அவற்றின் பங்களிப்புகளின் விகிதம் 1:1 ஆகும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "ஒரு இருமுனை அலைவாங்கியிலிருந்து மின்காந்த அலை வெளியேறுகிறது, E₀ அதன் மின்புல வெக்டரின் வீச்சாகும். மூலத்திலிருந்து குறிப்பிடத்தக்க ஆற்றலைக் கொண்டு செல்லும் மின்புல வீச்சு r தூரத்தில் எவ்வாறு குறைகிறது?",
+      "options": [
+        "1/r³",
+        "1/r²",
+        "1/r",
+        "மாறாததாக இருக்கும்"
+      ],
+      "correct": 2,
+      "explanation": "For a dipole antenna radiating electromagnetic waves, the amplitude of the electric field falls off as 1/r. This is because the intensity (which is proportional to E²) follows the inverse square law (1/r²), so the amplitude E follows 1/r. This is characteristic of radiation fields from oscillating dipoles. | ஒரு இருமுனை அலைவாங்கி மின்காந்த அலைகளை உமிழும்போது, மின்புல வீச்சு 1/r எனக் குறைகிறது. தீவிரத்தன்மை (E² உடன் நேர்விகிதத்தில்) எதிர்வர்க்க விதி (1/r²) பின்பற்றுவதால், வீச்சு E, 1/r எனப் பின்பற்றுகிறது. இது அதிரும் இருமுனைகளின் கதிர்வீச்சுப் புலங்களின் பண்பாகும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "z திசையில் வெற்றிடத்தில் பயணிக்கும் மின்காந்த அலையின் மின் புலம் E = (E1 i + E2 j) cos(kz - ωt) என்ற அமைப்பில் உள்ளது. தொடர்புடைய காந்த புலத்திற்கான சரியான வெளிப்பாடு எது?",
+      "options": [
+        "B = (1/c)(E1 i - E2 j) cos(kz - ωt)",
+        "B = (1/c)(E2 i + E1 j) cos(kz - ωt)",
+        "B = (1/c)(E1 i + E2 j) cos(kz - ωt)",
+        "B = (1/c)(E2 i - E1 j) cos(kz - ωt)"
+      ],
+      "correct": 0,
+      "explanation": "For an EM wave propagating along z, the magnetic field is perpendicular to both E and the direction of propagation. Using the relation B = (1/c)(k × E) where k is along z, we get B = (1/c)(E1 i - E2 j) cos(kz - ωt). | z திசையில் பரவும் EM அலைக்கு, காந்த புலம் E மற்றும் பரவும் திசைக்கு செங்குத்தாக இருக்கும். B = (1/c)(k × E) என்ற தொடர்பைப் பயன்படுத்தி, B = (1/c)(E1 i - E2 j) cos(kz - ωt) கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "z அச்சு வழியாக பயணிக்கும் மின்காந்த அலை E = E0 cos(kz - ωt) என்ற அமைப்பில் உள்ளது. தொடர்புடைய காந்த புலம் பற்றிய சரியான கூற்று எது?",
+      "options": [
+        "B = (1/c)(k × E) = (1/ω)(k × E)",
+        "B = c(k × E) = ω(k × E)",
+        "B = (1/c)(E × k) = (1/ω)(E × k)",
+        "B = c(E × k) = ω(E × k)"
+      ],
+      "correct": 0,
+      "explanation": "The magnetic field in an EM wave is related to the electric field by B = (1/c)(k × E). Since c = ω/k, we can also write B = (1/ω)(k × E). This follows from Maxwell's equations. | EM அலையில் காந்த புலம் மின் புலத்துடன் B = (1/c)(k × E) என்ற தொடர்பில் இருக்கிறது. c = ω/k என்பதால் B = (1/ω)(k × E) என்றும் எழுதலாம்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "x திசையில் பரவும் மின்காந்த அலைக்கு, E மற்றும் B புலங்களின் சாத்தியமான இணைகள் எவை?",
+      "options": [
+        "Ex மற்றும் Bx",
+        "Ey மற்றும் Bz",
+        "Ez மற்றும் By",
+        "B மற்றும் C இரண்டும்"
+      ],
+      "correct": 3,
+      "explanation": "In an EM wave, E and B are perpendicular to each other and both are perpendicular to the direction of propagation. For propagation along x, E can be along y with B along z, or E can be along z with B along y. | EM அலையில் E மற்றும் B ஒன்றுக்கொன்று செங்குத்தாகவும், பரவும் திசைக்கு செங்குத்தாகவும் இருக்கும். x திசையில் பரவும்போது, E y-இலும் B z-இலும் இருக்கலாம், அல்லது E z-இலும் B y-இலும் இருக்கலாம்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "10^9 Hz அதிர்வெண்ணில் சமநிலை நிலையைச் சுற்றி அதிரும் மின்னூட்டம் உருவாக்கும் மின்காந்த அலைகளின் அதிர்வெண் என்ன?",
+      "options": [
+        "10^9 Hz",
+        "2 × 10^9 Hz",
+        "0.5 × 10^9 Hz",
+        "10^18 Hz"
+      ],
+      "correct": 0,
+      "explanation": "The frequency of EM waves produced by an oscillating charge equals the frequency of oscillation. A charge oscillating at 10^9 Hz produces EM waves of the same frequency, which falls in the radio wave region. | அதிர்வும் மின்னூட்டத்தால் உருவாக்கப்படும் EM அலைகளின் அதிர்வெண், மின்னூட்டத்தின் அதிர்வெண்ணுக்கு சமமாக இருக்கும். 10^9 Hz அதிர்வெண் கொண்ட மின்னூட்டம் 10^9 Hz அதிர்வெண் கொண்ட EM அலைகளை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பின்வருவனவற்றில் எது மின்காந்த அலைகளின் மூலமாக இருக்க முடியும்?",
+      "options": [
+        "மாறா வேகத்தில் நகரும் மின்னூட்டம்",
+        "நிலையாக இருக்கும் மின்னூட்டம்",
+        "வட்டப்பாதையில் நகரும் மின்னூட்டம்",
+        "முடுக்கமின்றி சீரான மின் புலத்தில் உள்ள மின்னூட்டம்"
+      ],
+      "correct": 2,
+      "explanation": "Accelerated charges produce electromagnetic waves. A charge moving in a circular orbit is constantly accelerating (centripetal acceleration), so it radiates EM waves. | முடுக்கம் பெற்ற மின்னூட்டங்கள் EM அலைகளை உருவாக்குகின்றன. வட்டப்பாதையில் சுழலும் மின்னூட்டம் தொடர்ந்து முடுக்கம் பெறுகிறது, எனவே EM அலைகளை உமிழ்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "தீவிரத்தன்மை I கொண்ட மின்காந்த அலை வெற்றிடத்தில் உள்ள மேற்பரப்பில் படும்போது, அலை முழுமையாக உறிஞ்சப்பட்டால் கதிர்வீச்சு அழுத்தம் என்ன?",
+      "options": [
+        "p = 2I/c",
+        "p = I/c",
+        "p = I/2c",
+        "p = 4I/c"
+      ],
+      "correct": 1,
+      "explanation": "When an EM wave is totally absorbed, the radiation pressure is p = I/c. For total reflection, the pressure is 2I/c. The momentum transfer is complete for absorption. | EM அலை முழுமையாக உறிஞ்சப்படும்போது, கதிர்வீச்சு அழுத்தம் p = I/c. முழுமையாக பிரதிபலிக்கும்போது 2I/c."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "z திசையில் வாயு வெற்றிடத்தில் பரவும் ஒரு மின்காந்த அலைக்கு மின்புலம் E = (E1 i + E2 j) cos(kz - ωt) என்று அமைந்தால், தொடர்புடைய காந்தப்புலத்தின் சரியான வெளிப்பாடு எது?",
+      "options": [
+        "B = (1/c)(E2 i - E1 j) cos(kz - ωt)",
+        "B = (1/c)(E1 i + E2 j) cos(kz - ωt)",
+        "B = (1/c)(E1 i - E2 j) cos(kz - ωt)",
+        "B = (1/c)(E2 i + E1 j) cos(kz - ωt)"
+      ],
+      "correct": 2,
+      "explanation": "For an EM wave propagating in vacuum, the magnetic field is related to the electric field by B = (1/c)(k × E). For propagation along z-direction with E = (E1 i + E2 j) cos(kz - ωt), the cross product k × E gives (E1 i - E2 j) cos(kz - ωt), making option C correct. | வாயு வெற்றிடத்தில் பரவும் மின்காந்த அலைக்கு, காந்தப்புலம் B = (1/c)(k × E) என்ற தொடர்பால் மின்புலத்துடன் தொடர்புடையது. z-திசையில் பரவும் போது E = (E1 i + E2 j) cos(kz - ωt) என்றால், k × E = (E1 i - E2 j) cos(kz - ωt) என்பதால் விருப்பம் C சரியானது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "z அச்சில் பரவும் மின்காந்த அலைக்கு E = E0 cos(kz - ωt) என்றால், அலையின் பண்புகள் பற்றிய சரியான கூற்று எது?",
+      "options": [
+        "அலைத்திசை k, E மற்றும் B இரண்டிற்கும் இணையானது",
+        "மின்புலம் E, காந்தப்புலம் B இற்கு இணையானது",
+        "k · E = 0 மற்றும் k · B = 0, அதாவது k, E மற்றும் B இரண்டிற்கும் செங்குத்தானது",
+        "E × B = 0, அதாவது E மற்றும் B இணையானவை"
+      ],
+      "correct": 2,
+      "explanation": "In an electromagnetic wave, the electric field E, magnetic field B, and wave vector k are all mutually perpendicular. The wave vector k is perpendicular to both E and B, so k · E = 0 and k · B = 0. The direction of propagation is given by E × B. | மின்காந்த அலையில், மின்புலம் E, காந்தப்புலம் B, மற்றும் அலைத்திசை k ஆகியவை ஒன்றுக்கொன்று செங்குத்தானவை. அலைத்திசை k, E மற்றும் B இரண்டிற்கும் செங்குத்தானது, எனவே k · E = 0 மற்றும் k · B = 0. பரவும் திசை E × B ஆல் தரப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "x திசையில் பரவும் தள மின்காந்த அலைக்கு, E மற்றும் B புலக் கூறுகளின் சரியான ஜோடி எது?",
+      "options": [
+        "Ex மற்றும் Bx மட்டுமே",
+        "Ey மற்றும் Bz, அல்லது Ez மற்றும் By",
+        "Ex மற்றும் By மட்டுமே",
+        "Ey மற்றும் By மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "For an EM wave propagating along x-direction, the electric and magnetic fields must be perpendicular to each other and both perpendicular to the direction of propagation. Therefore, valid pairs are (Ey, Bz) or (Ez, By). The fields cannot have components along the direction of propagation (x-direction). | x-திசையில் பரவும் மின்காந்த அலைக்கு, மின்புலம் மற்றும் காந்தப்புலம் ஒன்றுக்கொன்று செங்குத்தாகவும், பரவும் திசைக்கும் செங்குத்தாகவும் இருக்க வேண்டும். எனவே செல்லுபடியாக்கும் ஜோடிகள் (Ey, Bz) அல்லது (Ez, By). பரவும் திசையில் (x-திசை) கூறுகள் இருக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "10^9 Hz அதிர்வெண்ணில் சமநிலை நிலையைச் சுற்றி அதிரும் மின்மம் உருவாக்கும் மின்காந்த அலைகளின் பண்புகள் எவை?",
+      "options": [
+        "அலைகளின் அதிர்வெண் 2×10^9 Hz, அலைநீளம் 0.6 m",
+        "அலைகளின் அதிர்வெண் 10^9 Hz, அலைநீளம் 0.3 m, வானொலி அலைப் பகுதியில் அமைந்துள்ளன",
+        "அலைகளின் அதிர்வெண் 0.5×10^9 Hz, அலைநீளம் 0.6 m",
+        "அலைகளின் அதிர்வெண் 10^9 Hz, அலைநீளம் 3 m"
+      ],
+      "correct": 1,
+      "explanation": "The frequency of emitted EM waves equals the frequency of oscillation of the charged particle, which is 10^9 Hz. The wavelength λ = c/f = (3×10^8 m/s)/(10^9 Hz) = 0.3 m. This frequency falls in the radio wave region of the electromagnetic spectrum. | உமிழப்படும் மின்காந்த அலைகளின் அதிர்வெண், மின்மமான துகளின் அதிர்வெண்ணுக்கு சமம், அதாவது 10^9 Hz. அலைநீளம் λ = c/f = (3×10^8 m/s)/(10^9 Hz) = 0.3 m. இந்த அதிர்வெண் மின்காந்த நிரலில் வானொலி அலைப் பகுதியில் விழுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பின்வரும் நிலைகளில் எது மின்காந்த அலைகளின் மூலமாக இருக்க முடியும்?",
+      "options": [
+        "நிலையான திசைவேகத்தில் நேர்க்கோட்டில் செல்லும் மின்மம்",
+        "நிலையாக இருக்கும் மின்மம்",
+        "வட்ட வட்டத்தில் செல்லும் மின்மம் அல்லது மின்புலத்தில் விழும் மின்மம்",
+        "வட்டப் பாதையில் நிலையான வேகத்தில் நிலையான திசைவேகத்தில் செல்லும் மின்மம்"
+      ],
+      "correct": 2,
+      "explanation": "Accelerated charges produce electromagnetic waves. A charge moving in a circular orbit undergoes centripetal acceleration, and a charge falling in an electric field experiences acceleration due to the electric force. Constant velocity (straight line or circular with constant speed but changing velocity direction) involves acceleration in circular motion. Charges at rest or moving with constant velocity in a straight line do not radiate EM waves. | முடுக்கப்பட்ட மின்மங்கள் மின்காந்த அலைகளை உருவாக்குகின்றன. வட்ட வட்டத்தில் செல்லும் மின்மம் மையவிலக்க முடுக்கத்திற்கு உட்படுகிறது, மின்புலத்தில் விழும் மின்மம் மின் விசையால் முடுக்கப்படுகிறது. நிலையான திசைவேகம் (நேர்க்கோட்டில் அல்லது வட்டத்தில்) மின்காந்த அலைகளை உமிழாது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "தீவிரம் I கொண்ட மின்காந்த அலை வாயு வெற்றிடத்தில் உள்ள பரப்பின் மீது விழுகிறது. கதிர்வீச்சு அழுத்தம் p பற்றிய சரியான கூற்றுகள் எவை?",
+      "options": [
+        "பரப்புப் பண்புகளைப் பொருட்படுத்தாமல் கதிர்வீச்சு அழுத்தம் எப்போதும் I/c",
+        "முழு உறிஞ்சலுக்கு I/c, முழு பிரதிபலிப்புக்கு 2I/c, உண்மையான பரப்புகளுக்கு I/c மற்றும் 2I/c இடையே",
+        "முழு உறிஞ்சலுக்கு 2I/c, முழு பிரதிபலிப்புக்கு I/c",
+        "பரப்புப் பண்புகளைப் பொருட்படுத்தாமல் கதிர்வீச்சு அழுத்தம் எப்போதும் 2I/c"
+      ],
+      "correct": 1,
+      "explanation": "For complete absorption, radiation pressure p = I/c because the momentum transfer is only from incident photons. For complete reflection, p = 2I/c because momentum change is doubled (photons reverse direction). Real surfaces partially absorb and partially reflect, so the pressure lies between I/c and 2I/c. | முழு உறிஞ்சலுக்கு கதிர்வீச்சு அழுத்தம் p = I/c, ஏனெனில் உந்தம் மாற்றம் வரும் ஒளிமின்னணுக்களிடமிருந்து மட்டுமே. முழு பிரதிபலிப்புக்கு p = 2I/c, ஏனெனில் உந்தம் மாற்றம் இரட்டிப்பாகிறது. உண்மையான பரப்புகள் ஓரளவு உறிஞ்சி ஓரளவு பிரதிபலிக்கின்றன, எனவே அழுத்தம் I/c மற்றும் 2I/c இடையே இருக்கும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "நுண்ணலை அடுப்பு நீர் மூலக்கூறுகளைக் கொண்ட உணவுப் பொருளை ஏன் மிகவும் திறமையாகச் சூடாக்குகிறது?",
+      "options": [
+        "நீர் மூலக்கூறுகள் நுண்ணலை கதிர்வீச்சுக்கு ஒளிபுகாவை",
+        "நீர் மூலக்கூறுகளுக்கு 2.45 GHz நுண்ணலை அதிர்வெண்ணுடன் பொருந்தும் இயற்கை ஒத்திசைவு அதிர்வெண் உள்ளது, திறமையான ஆற்றல் உறிஞ்சலை ஏற்படுத்துகிறது",
+        "நீர் மூலக்கூறுகள் நுண்ணலை கதிர்வீச்சை முழுமையாகப் பிரதிபலிக்கின்றன",
+        "நீர் மூலக்கூறுகள் நுண்ணலை ஒளிமின்னணுக்களுடன் வேதியியல் எதிர்வினைபுரிகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "Water molecules are polar molecules with a permanent dipole moment. The microwave frequency of 2.45 GHz matches the rotational resonant frequency of water molecules, causing them to rotate and absorb energy efficiently. This rotational motion is converted to thermal energy through molecular collisions, heating the food. | நீர் மூலக்கூறுகள் நிரந்தர இருபுற மின்னிலை கொண்ட துருவ மூலக்கூறுகள். 2.45 GHz நுண்ணலை அதிர்வெண், நீர் மூலக்கூறுகளின் சுழல் ஒத்திசைவு அதிர்வெண்ணுடன் பொருந்துகிறது, அவை சுழன்று ஆற்றலை திறமையாக உறிஞ்சுகின்றன. இந்த சுழல் இயக்கம் மூலக்கூறு மோதல்கள் வழியாக வெப்ப ஆற்றலாக மாற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "இணை தட்டுக் கொள்கலனின் மின்மம் q = q0 cos(2πνt) என மாறுகிறது. கொள்கலனின் வழியான இடப்பெயர்வு மின்னோட்டம் என்ன?",
+      "options": [
+        "Id = q0 sin(2πνt)",
+        "Id = -2πνq0 sin(2πνt)",
+        "Id = 2πνq0 cos(2πνt)",
+        "Id = 0"
+      ],
+      "correct": 1,
+      "explanation": "The displacement current is given by Id = ε0(dΦE/dt) = dq/dt. Differentiating q = q0 cos(2πνt) with respect to time gives dq/dt = -2πνq0 sin(2πνt). This equals the displacement current through the capacitor, showing that displacement current equals the rate of change of charge on the plates. | இடப்பெயர்வு மின்னோட்டம் Id = ε0(dΦE/dt) = dq/dt என்று தரப்படுகிறது. q = q0 cos(2πνt) ஐ நேரத்தின் பொருத்து வகையிடுவதால் dq/dt = -2πνq0 sin(2πνt) கிடைக்கிறது. இது இடப்பெயர்வு மின்னோட்டத்திற்கு சமம், தகட்டில் மின்ம மாற்ற வீதத்திற்கு சமம் என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "ஒரு கற்றையின் காந்தப்புலம் B = 12×10^-8 sin(1.20×10^7 z - 3.60×10^15 t) T எனக் கொடுக்கப்பட்டுள்ளது. கற்றையின் சராசரி தீவிரம் என்ன?",
+      "options": [
+        "I = 1.72 W/m²",
+        "I = 3.44 W/m²",
+        "I = 0.86 W/m²",
+        "I = 6.88 W/m²"
+      ],
+      "correct": 0,
+      "explanation": "The average intensity of an EM wave is I = (cB0²)/(2μ0). Given B0 = 12×10^-8 T, c = 3×10^8 m/s, and μ0 = 4π×10^-7 H/m. Substituting: I = (3×10^8 × (12×10^-8)²)/(2 × 4π×10^-7) = (3×10^8 × 144×10^-16)/(8π×10^-7) = (432×10^-8)/(25.13×10^-7) ≈ 1.72 W/m². | மின்காந்த அலையின் சராசரி தீவிரம் I = (cB0²)/(2μ0). B0 = 12×10^-8 T, c = 3×10^8 m/s, μ0 = 4π×10^-7 H/m என்பதைப் பதிலிடுவதால்: I = (3×10^8 × (12×10^-8)²)/(2 × 4π×10^-7) ≈ 1.72 W/m² கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Poynting திசையன் S = (1/μ0) E × B என வரையறுக்கப்படுகிறது. தள மின்காந்த அலைக்கு S மற்றும் t வரைபடத்தின் தன்மை என்ன?",
+      "options": [
+        "மின்காந்த அலையின் அதே அதிர்வெண்ணில் சைன் வளைவு, T காலத்தில் பூஜ்யத்தைச் சுற்றி அதிர்கிறது",
+        "நேரான கிடைமட்டக் கோடு",
+        "பரவளைய வளைவு",
+        "படிநிலைச் சார்பு"
+      ],
+      "correct": 0,
+      "explanation": "For a plane EM wave with E = E0 sin(kz - ωt) and B = B0 sin(kz - ωt), the Poynting vector S = (1/μ0)E × B = (E0B0/μ0) sin²(kz - ωt). Since sin²(θ) = (1 - cos(2θ))/2, S oscillates at twice the frequency of the EM wave but remains always positive, varying between 0 and E0B0/μ0 with average value E0B0/(2μ0). | தள மின்காந்த அலைக்கு E = E0 sin(kz - ωt) மற்றும் B = B0 sin(kz - ωt) என்றால், Poynting திசையன் S = (1/μ0)E × B = (E0B0/μ0) sin²(kz - ωt). sin²(θ) = (1 - cos(2θ))/2 என்பதால், S அலையின் இரட்டை அதிர்வெண்ணில் அதிர்கிறது, ஆனால் எப்போதும் நேர்மறையாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "C.V. ராமன் பேராசிரியர் லேசர் கற்றையைப் பயன்படுத்தி ஒரு சிறிய ஒளி உருண்டையை வெற்றிட அறையில் மிதக்க வைத்தார். இது மின்காந்த அலைகளின் எந்தப் பண்பை விளக்குகிறது?",
+      "options": [
+        "விளிம்புவிரிவு",
+        "கதிர்வீச்சு அழுத்தம் (மின்காந்த அலைகளின் உந்தம் மாற்றம்)",
+        "குறுக்கீடு",
+        "முனைவாக்கம்"
+      ],
+      "correct": 1,
+      "explanation": "The experiment demonstrated radiation pressure, where electromagnetic waves carry momentum and exert pressure on objects. The laser beam transferred momentum to the tiny ball, balancing gravity and suspending it. Another example is the tail of a comet pointing away from the Sun due to radiation pressure from sunlight. | இந்த சோதனை கதிர்வீச்சு அழுத்தத்தை விளக்குகிறது, அதாவது மின்காந்த அலைகள் உந்தத்தைக் கொண்டு பொருட்களின் மீது அழுத்தம் செலுத்துகின்றன. லேசர் கற்றை சிறிய பந்திற்கு உந்தத்தை மாற்றி, ஈர்ப்பு விசையைச் சமன்படுத்தி பந்தை மிதக்க வைத்தது. மற்றொரு உதாரணம்: வால்நட்சத்திரத்தின் வால் சூரிய ஒளியின் கதிர்வீச்சு அழுத்தத்தால் சூரியனுக்கு எதிராக சுட்டிக்காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மாறும் அதிர்வெண் AC மூலம் ஒரு கொள்கலனுடன் இணைக்கப்பட்டுள்ளது. அதிர்வெண் குறையும்போது இடப்பெயர்வு மின்னோட்டம் எவ்வாறு மாறும்?",
+      "options": [
+        "அதிர்வெண் குறையும்போது இடப்பெயர்வு மின்னோட்டம் அதிகரிக்கிறது",
+        "அதிர்வெண் குறையும்போது இடப்பெயர்வு மின்னோட்டம் குறைகிறது",
+        "அதிர்வெண்ணைப் பொருட்படுத்தாமல் இடப்பெயர்வு மின்னோட்டம் நிலையாக இருக்கிறது",
+        "எல்லா அதிர்வெண்களிலும் இடப்பெயர்வு மின்னோட்டம் பூஜ்யமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The displacement current in a capacitor is Id = ε0(dΦE/dt) = C(dV/dt). For an AC source V = V0 sin(ωt), the displacement current is Id = ωCV0 cos(ωt), which is proportional to frequency ω = 2πν. Therefore, as frequency decreases, the displacement current decreases proportionally. | கொள்கலனில் இடப்பெயர்வு மின்னோட்டம் Id = ε0(dΦE/dt) = C(dV/dt). AC மூலத்திற்கு V = V0 sin(ωt) என்றால், Id = ωCV0 cos(ωt), இது அதிர்வெண் ω = 2πν உடன் நேரடி விகிதத்தில் உள்ளது. எனவே அதிர்வெண் குறையும்போது இடப்பெயர்வு மின்னோட்டம் விகிதாசாரமாகக் குறைகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "4×10^8 Hz அதிர்வெண்ணில் கடல் நீரின் மின்கடத்துமை ε ≈ ε₀, காந்தச்செறிவு μ ≈ μ₀, மற்றும் மின்தடையம் ρ = 0.25 Ω-m. கடல் நீரில் மூழ்கிய சமாந்தரத் தட்டு கொள்கலன் மாறுதிசை மின்னழுத்த மூலம் V(t) = V₀ sin(2πνt) மூலம் இயக்கப்படுகிறது. கடத்தும் மின்னோட்ட அடர்த்தியில் இடப்பெயர்ச்சி மின்னோட்ட அடர்த்தியின் பங்கு என்ன?",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/9",
+        "1/16"
+      ],
+      "correct": 2,
+      "explanation": "கடத்தும் மின்னோட்ட அடர்த்தி J_c = E/ρ = σE, இங்கு σ = 1/ρ = 4 S/m. இடப்பெயர்ச்சி மின்னோட்ட அடர்த்தி J_d = ε₀(dE/dt) = ε₀ωE. விகிதம் J_d/J_c = ε₀ω/σ = (ε₀ × 2π × 4×10^8) / 4 ≈ 1/9. | The conduction current density J_c = E/ρ = σE, where σ = 1/ρ = 4 S/m. The displacement current density J_d = ε₀(dE/dt) = ε₀ωE. The ratio J_d/J_c = ε₀ω/σ = (ε₀ × 2π × 4×10^8) / 4 ≈ 1/9."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "கடல் நீர் கொள்கலன் பிரச்சனையில் (ν = 4×10^8 Hz, ρ = 0.25 Ω-m), கடத்தும் மின்னோட்ட அடர்த்தி J_c ஐ சரியாகக் குறிக்கும் வெளிப்பாடு எது?",
+      "options": [
+        "J_c = ε₀ωE",
+        "J_c = E/ρ",
+        "J_c = ε₀(dE/dt)",
+        "J_c = μ₀I₀ν cos(2πνt)"
+      ],
+      "correct": 1,
+      "explanation": "கடத்தும் மின்னோட்ட அடர்த்தி ஓமின் விதியின் நுண்ணிய வடிவத்தால் கொடுக்கப்படுகிறது: J_c = σE = E/ρ, இங்கு σ கடத்துத்திறன் மற்றும் ρ மின்தடையும் ஆகும். இது கடத்தும் ஊடகத்தில் மின்னூட்டம் ஏந்திகளின் உண்மையான ஓட்டத்தைக் குறிக்கிறது. | The conduction current density is given by Ohm's law in microscopic form: J_c = σE = E/ρ, where σ is the conductivity and ρ is the resistivity. This represents the actual flow of charge carriers in the conducting medium."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மாறுதிசை மின்னோட்டம் I(t) = I₀ sin(2πνt) கொண்ட நீளமான நேர்கோட்டு கேபிளில், உள்ளே தூண்டப்பட்ட மின்புலம் E(s,t) = μ₀I₀ν cos(2πνt) ln(s). கேபிளின் உள்ளே இடப்பெயர்ச்சி மின்னோட்ட அடர்த்தி J_d என்ன?",
+      "options": [
+        "J_d = ε₀μ₀I₀ν² sin(2πνt) ln(s)",
+        "J_d = -ε₀μ₀I₀ν² sin(2πνt) ln(s)",
+        "J_d = ε₀μ₀I₀ν cos(2πνt) ln(s)",
+        "J_d = ε₀I₀ν² cos(2πνt) ln(s)"
+      ],
+      "correct": 1,
+      "explanation": "இடப்பெயர்ச்சி மின்னோட்ட அடர்த்தி J_d = ε₀(dE/dt). E(s,t) = μ₀I₀ν cos(2πνt) ln(s) ஐ t உடன் வகைக்கெழு கொள்ள dE/dt = -μ₀I₀ν² sin(2πνt) ln(s). எனவே J_d = -ε₀μ₀I₀ν² sin(2πνt) ln(s). | The displacement current density is J_d = ε₀(dE/dt). Differentiating E(s,t) = μ₀I₀ν cos(2πνt) ln(s) with respect to t gives dE/dt = -μ₀I₀ν² sin(2πνt) ln(s). Therefore J_d = -ε₀μ₀I₀ν² sin(2πνt) ln(s)."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "கேபிளின் குறுக்குவெட்டுப்பகுதியில் (ஆரம் a) இடப்பெயர்ச்சி மின்னோட்ட அடர்த்தியை ஒருங்கிணைக்கும்போது, மொத்த இடப்பெயர்ச்சி மின்னோட்டம் I_d என்ன?",
+      "options": [
+        "I_d = ε₀μ₀I₀ν² sin(2πνt) × πa²",
+        "I_d = -ε₀μ₀I₀ν² sin(2πνt) × πa²/2",
+        "I_d = -ε₀μ₀I₀ν² sin(2πνt) × πa² ln(a)",
+        "I_d = -ε₀μ₀I₀ν² sin(2πνt) × πa²/4"
+      ],
+      "correct": 2,
+      "explanation": "கேபிளின் குறுக்குவெட்டுப்பகுதியில் J_d ஐ ஒருங்கிணைத்து மொத்த இடப்பெயர்ச்சி மின்னோட்டம் I_d கிடைக்கிறது. J_d = -ε₀μ₀I₀ν² sin(2πνt) ln(s), மற்றும் 0 முதல் a வரை ln(s) ஐ வட்டப்பகுதியில் ஒருங்கிணைக்க πa² ln(a) முதன்மை உறுப்பாக வருகிறது. | The total displacement current is obtained by integrating J_d over the cross-sectional area. Since J_d = -ε₀μ₀I₀ν² sin(2πνt) ln(s), and integrating ln(s) over the circular area from 0 to a gives πa² ln(a) as the dominant term."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "ஒத்த அச்சு கேபிள் பிரச்சனையில், இடப்பெயர்ச்சி மின்னோட்டம் I_d ஐ கடத்தும் மின்னோட்டம் I₀ உடன் எவ்வாறு ஒப்பிடலாம்?",
+      "options": [
+        "I_d, I₀ விட மிகப் பெரியது",
+        "I_d, I₀ க்கு சமமாக உள்ளது",
+        "I_d, I₀ விட மிகச் சிறியது",
+        "I_d எப்போதும் பூஜ்ஜியம்"
+      ],
+      "correct": 2,
+      "explanation": "இடப்பெயர்ச்சி மின்னோட்டம் I_d = -ε₀μ₀I₀ν² sin(2πνt) × (வடிவியல் காரணி). ε₀μ₀ = 1/c² மற்றும் ν = 4×10^8 Hz என்பதால், ε₀μ₀ν² ≈ 1.78, ஆனால் வழக்கமான கேபிள் அளவுகளுக்கு ln(a) உள்ளடக்கிய வடிவியல் காரணி I_d ஐ I₀ விட மிகக் குறைவாக்குகிறது. | The displacement current I_d = -ε₀μ₀I₀ν² sin(2πνt) × (geometric factor). Since ε₀μ₀ = 1/c² and ν = 4×10^8 Hz, the factor ε₀μ₀ν² ≈ 1.78, but the geometric factor involving ln(a) makes I_d much smaller than I₀ for typical cable dimensions."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் z-திசையில் பயணிக்கும் தள EM அலை E = E₀ sin(kz - ωt) î க்கு, செவ்வக வளையம் 1234 (z மற்றும் x அச்சுகளுக்கு சமாந்தரமான பக்கங்கள், உயரம் h) மீது ∮ E·dl மதிப்பிடுக. முடிவு என்ன?",
+      "options": [
+        "E₀h[sin(kz₁ - ωt) - sin(kz₂ - ωt)]",
+        "E₀h[sin(kz₂ - ωt) - sin(kz₁ - ωt)]",
+        "E₀h[cos(kz₁ - ωt) - cos(kz₂ - ωt)]",
+        "பூஜ்ஜியம்"
+      ],
+      "correct": 1,
+      "explanation": "செவ்வக வளையத்தில் ∮ E·dl க்கு பக்கங்கள் 1→2 மற்றும் 3→4 இல் இருந்து பங்களிப்புகள் உள்ளன. z₁ இல் பக்கம் 1→2: E·dl = E₀ sin(kz₁ - ωt) × h. z₂ இல் பக்கம் 3→4 (எதிர் திசை): E·dl = -E₀ sin(kz₂ - ωt) × h. மொத்தம் E₀h[sin(kz₂ - ωt) - sin(kz₁ - ωt)]. | The line integral ∮ E·dl over the rectangular loop has contributions from sides 1→2 and 3→4. For side 1→2 at position z₁: E·dl = E₀ sin(kz₁ - ωt) × h. For side 3→4 at position z₂ (opposite direction): E·dl = -E₀ sin(kz₂ - ωt) × h. The total is E₀h[sin(kz₂ - ωt) - sin(kz₁ - ωt)]."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலை பிரச்சனையில் அதே செவ்வக வளையத்திற்கு, வளையம் 1234 எல்லைக்குள் உள்ள பரப்பில் ∮ B·ds மதிப்பிடுக. காந்த ஒளிர்வு என்ன?",
+      "options": [
+        "B₀h/k [cos(kz₁ - ωt) - cos(kz₂ - ωt)]",
+        "B₀h/k [sin(kz₂ - ωt) - sin(kz₁ - ωt)]",
+        "B₀h [cos(kz₁ - ωt) - cos(kz₂ - ωt)]",
+        "B₀h² [sin(kz₂ - ωt) - sin(kz₁ - ωt)]"
+      ],
+      "correct": 0,
+      "explanation": "காந்தப்புலம் B = B₀ sin(kz - ωt) ĵ. ஒளிர்வு Φ_B = ∫ B·ds = ∫ B₀ sin(kz - ωt) h dz, z₁ முதல் z₂ வரை. ஒருங்கிணைத்தால் Φ_B = B₀h/k [cos(kz₁ - ωt) - cos(kz₂ - ωt)]. | The magnetic field is B = B₀ sin(kz - ωt) ĵ. The flux Φ_B = ∫ B·ds = ∫ B₀ sin(kz - ωt) h dz from z₁ to z₂. Integrating gives Φ_B = B₀h/k [cos(kz₁ - ωt) - cos(kz₂ - ωt)]."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலையில் செவ்வக வளையத்திற்கு பாரடேயின் விதி ∮ E·dl = -dΦ_B/dt பயன்படுத்த, E₀ மற்றும் B₀ இடையே என்ன தொடர்பு கிடைக்கிறது?",
+      "options": [
+        "E₀/B₀ = 1/c",
+        "E₀/B₀ = c",
+        "E₀/B₀ = c²",
+        "E₀/B₀ = 1/c²"
+      ],
+      "correct": 1,
+      "explanation": "பாரடேயின் விதியிலிருந்து: ∮ E·dl ≈ E₀hkΔz cos(kz - ωt). மற்றும் -dΦ_B/dt ≈ B₀hωΔz sin(kz - ωt). சமன் செய்து ω = ck பயன்படுத்த E₀/B₀ = c கிடைக்கிறது. | From Faraday's law: ∮ E·dl ≈ E₀hkΔz cos(kz - ωt). And -dΦ_B/dt ≈ B₀hωΔz sin(kz - ωt). Equating and using ω = ck gives E₀/B₀ = c."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலைக்கு ஆம்பியர்-மேக்ஸ்வெல் விதி ∮ B·dl = μ₀I + μ₀ε₀(dΦ_E/dt) பயன்படுத்த, என்ன அடிப்படை தொடர்பு நிரூபிக்கப்படுகிறது?",
+      "options": [
+        "c = μ₀ε₀",
+        "c = 1/(μ₀ε₀)",
+        "c = 1/√(μ₀ε₀)",
+        "c = √(μ₀ε₀)"
+      ],
+      "correct": 2,
+      "explanation": "ஆம்பியர்-மேக்ஸ்வெல் விதி காந்தப்புல சுற்றோட்டத்தை இடப்பெயர்ச்சி மின்னோட்டத்துடன் தொடர்புபடுத்துகிறது. EM அலைக்கு, x-z தளத்தில் வளையத்தில் ∮ B·dl மதிப்பிட்டு μ₀ε₀(dΦ_E/dt) உடன் சமன் செய்தால் c = 1/√(μ₀ε₀) கிடைக்கிறது. | The Ampere-Maxwell law relates the magnetic field circulation to the displacement current. For the EM wave, evaluating ∮ B·dl around a loop in the x-z plane and equating to μ₀ε₀(dΦ_E/dt) yields the relationship c = 1/√(μ₀ε₀)."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "E = E₀ sin(kz - ωt) î மற்றும் B = B₀ sin(kz - ωt) ĵ என விவரிக்கப்படும் தள EM அலைக்கு, சராசரி ஆற்றல் அடர்த்தி u_av என்ன?",
+      "options": [
+        "u_av = (1/2)ε₀E₀² + (1/2)(B₀²/μ₀)",
+        "u_av = (1/4)ε₀E₀² + (1/4)(B₀²/μ₀)",
+        "u_av = (1/2)ε₀E₀²",
+        "u_av = (1/2)(B₀²/μ₀)"
+      ],
+      "correct": 1,
+      "explanation": "உடனடி ஆற்றல் அடர்த்தி u = (1/2)ε₀E² + (1/2)(B²/μ₀). சைன் சார்புக்கு ஒரு காலத்தின் சராசரி 1/2. எனவே u_av = (1/4)ε₀E₀² + (1/4)(B₀²/μ₀). | The instantaneous energy density is u = (1/2)ε₀E² + (1/2)(B²/μ₀). For sinusoidal fields, the time average of sin²(kz - ωt) over one period is 1/2. Therefore u_av = (1/4)ε₀E₀² + (1/4)(B₀²/μ₀)."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "தள EM அலையின் கால சராசரி செறிவு (Poynting திசையன் அளவு) என்ன?",
+      "options": [
+        "S = (1/2)cε₀E₀²",
+        "S = (1/4)cε₀E₀²",
+        "S = cε₀E₀²",
+        "S = (1/2)ε₀E₀²"
+      ],
+      "correct": 0,
+      "explanation": "பாயின்டிங் திசையன் S = (1/μ₀)E × B. சராசரி <sin²> = 1/2. B₀ = E₀/c மற்றும் c = 1/√(μ₀ε₀) பயன்படுத்த S_av = (1/2)cε₀E₀². | The Poynting vector S = (1/μ₀)E × B. The time average gives <sin²> = 1/2. Using B₀ = E₀/c and c = 1/√(μ₀ε₀), we get S_av = (1/2)cε₀E₀²."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பிரச்சனை 8.29 இல், 4×10^8 Hz அதிர்வெண்ணில் கடல் நீர் எந்த பண்புகளால் வகைப்படுத்தப்படுகிறது?",
+      "options": [
+        "ε ≈ ε₀, μ ≈ μ₀, ρ = 0.25 Ω-m",
+        "ε = 2ε₀, μ = 2μ₀, ρ = 0.5 Ω-m",
+        "ε ≈ 80ε₀, μ ≈ μ₀, ρ = 0.25 Ω-m",
+        "ε ≈ ε₀, μ ≈ 2μ₀, ρ = 0.1 Ω-m"
+      ],
+      "correct": 0,
+      "explanation": "பிரச்சனை 8.29 இல் கடல் நீர் 4×10^8 Hz அதிர்வெண்ணில் ε ≈ ε₀, μ ≈ μ₀, மற்றும் ρ = 0.25 Ω-m பண்புகளைக் கொண்டுள்ளது என்று தெளிவாகக் கூறப்பட்டுள்ளது. | The problem explicitly states that sea water at frequency 4×10^8 Hz has permittivity approximately equal to free space permittivity ε₀, permeability approximately equal to free space permeability μ₀, and resistivity ρ = 0.25 Ω-m."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பிரச்சனை 8.30 இல், ஒத்த அச்சு கேபிளின் வடிவியல் அமைப்பு என்ன?",
+      "options": [
+        "z-அச்சில் நீளம் l, ஆரம் a இங்கு a >> l",
+        "z-அச்சில் நீளம் l, ஆரம் a இங்கு a << l",
+        "x-அச்சில் நீளம் l, ஆரம் a இங்கு a = l",
+        "y-அச்சில் நீளம் l, ஆரம் a இங்கு a >> l"
+      ],
+      "correct": 1,
+      "explanation": "பிரச்சனை 8.30 இல் கேபிள் நீளம் l, z-அச்சில் சமச்சீராக வைக்கப்பட்டுள்ளது, ஆரம் a, மற்றும் a << l என்ற நிபந்தனை தெளிவாகக் குறிப்பிடப்பட்டுள்ளது. | The problem states the cable of length l is placed symmetrically along the z-axis with radius a, and explicitly specifies the condition a << l, meaning the cable is much longer than its radius."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "ஒத்த அச்சு கேபிள் பிரச்சனையில், கேபிளின் உள்ளே கம்பியிலிருந்து தூரம் s இல் தூண்டப்பட்ட மின்புலத்தின் வெளிப்பாடு என்ன?",
+      "options": [
+        "E(s,t) = μ₀I₀ν sin(2πνt) ln(s)",
+        "E(s,t) = μ₀I₀ν cos(2πνt) ln(s)",
+        "E(s,t) = μ₀I₀ν² cos(2πνt) s",
+        "E(s,t) = μ₀I₀ sin(2πνt) ln(s)/ν"
+      ],
+      "correct": 1,
+      "explanation": "பிரச்சனையில் தூண்டப்பட்ட மின்புலம் E(s,t) = μ₀I₀ν cos(2πνt) ln(s) என்று தெளிவாகக் கொடுக்கப்பட்டுள்ளது, இங்கு புலம் அதிர்வெண் ν, மின்னோட்ட வீச்சு I₀, மற்றும் மையக் கம்பியிலிருந்து தூரம் s உடன் மடக்கையியல் மாறுபடுகிறது. | The problem explicitly gives the induced electric field as E(s,t) = μ₀I₀ν cos(2πνt) ln(s), where the field depends on the frequency ν, the current amplitude I₀, and varies logarithmically with distance s from the central wire."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பிரச்சனை 8.31 இல் தள EM அலை எந்த திசையில் பயணிக்கிறது?",
+      "options": [
+        "நேர் x-அச்சில்",
+        "நேர் y-அச்சில்",
+        "நேர் z-அச்சில்",
+        "எதிர் z-அச்சில்"
+      ],
+      "correct": 2,
+      "explanation": "அலை E = E₀ sin(kz - ωt) î மற்றும் B = B₀ sin(kz - ωt) ĵ என விவரிக்கப்படுகிறது. வாதம் (kz - ωt) நேர் z-திசையில் பரவுவதைக் குறிக்கிறது, ஏனெனில் நேரத்துடன் z அதிகரிக்கும்போது கட்டம் மாறாததாக இருக்கிறது. | The wave is described by E = E₀ sin(kz - ωt) î and B = B₀ sin(kz - ωt) ĵ. The argument (kz - ωt) indicates propagation in the positive z-direction, as the phase remains constant when z increases with time."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பிரச்சனை 8.31 இல் EM அலையின் மின்புல திசையன் எந்த திசையில் முனைவாக்கம் அடைந்துள்ளது?",
+      "options": [
+        "x-அச்சில் (î திசை)",
+        "y-அச்சில் (ĵ திசை)",
+        "z-அச்சில் (k̂ திசை)",
+        "x-y தளத்தில் வட்ட முனைவாக்கம்"
+      ],
+      "correct": 0,
+      "explanation": "மின்புலம் E = E₀ sin(kz - ωt) î எனக் கொடுக்கப்பட்டுள்ளது, இங்கு î x-அச்சில் அலகு திசையன். இது மின்புலம் தூய்மையாக x-திசையில் அதிர்வதைக் குறிக்கிறது, எனவே x-திசையில் நேர்கோட்டு முனைவாக்கம் உள்ளது. | The electric field is given as E = E₀ sin(kz - ωt) î, where î is the unit vector along the x-axis. This means the electric field oscillates purely along the x-direction, making it linearly polarized along x."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் தள EM அலைக்கு, மின்புல வீச்சு E₀ மற்றும் காந்தப்புல வீச்சு B₀ இடையே என்ன தொடர்பு உள்ளது?",
+      "options": [
+        "E₀ = B₀/c",
+        "E₀ = cB₀",
+        "E₀ = B₀c²",
+        "E₀ = B₀/√c"
+      ],
+      "correct": 1,
+      "explanation": "வெற்றிடத்தில் EM அலைகளுக்கான மேக்ஸ்வெல் சமன்பாடுகளிலிருந்து, மின் மற்றும் காந்த புல வீச்சுகள் E₀ = cB₀ என்று தொடர்புபடுத்தப்பட்டுள்ளன, இங்கு c ஒளியின் வேகம். | From Maxwell's equations for EM waves in vacuum, the electric and magnetic field amplitudes are related by E₀ = cB₀, where c is the speed of light."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "கடல் நீர் கொள்கலன் பிரச்சனையில், கொள்கலனை இயக்கும் மாறுதிசை மின்னழுத்த மூலத்தின் வடிவம் என்ன?",
+      "options": [
+        "V(t) = V₀ cos(2πνt)",
+        "V(t) = V₀ sin(2πνt)",
+        "V(t) = V₀ e^(2πνt)",
+        "V(t) = V₀ tan(2πνt)"
+      ],
+      "correct": 1,
+      "explanation": "பிரச்சனையில் மின்னழுத்த மூலம் V(t) = V₀ sin(2πνt) என்று தெளிவாகக் குறிப்பிடப்பட்டுள்ளது, இது வீச்சு V₀ மற்றும் அதிர்வெண் ν கொண்ட சைன் வகை மாறுதிசை மின்னழுத்தம். | The problem explicitly states the voltage source is V(t) = V₀ sin(2πνt), which is a sinusoidal alternating voltage with amplitude V₀ and frequency ν."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "ஒத்த அச்சு கேபிள் பிரச்சனையில், மாறுதிசை மின்னோட்டம் எவ்வாறு ஓடுகிறது?",
+      "options": [
+        "மையக் கம்பியில் மட்டும் கீழே",
+        "கடத்தும் குழாயில் மட்டும் கீழே",
+        "மையக் கம்பியில் கீழே ஓடி, ஒத்த அச்சு கடத்தும் குழாயில் திரும்பி ஓடுகிறது",
+        "கேபிளைச் சுற்றி வட்டப் பாதையில்"
+      ],
+      "correct": 2,
+      "explanation": "பிரச்சனையில் மாறுதிசை மின்னோட்டம் I(t) = I₀ sin(2πνt) மையக் கம்பியில் கீழே ஓடி, ஒத்த அச்சு கடத்தும் குழாயில் திரும்பி ஓடுகிறது, ஒரு முழு சுற்று உருவாக்குகிறது. | The problem states that the alternating current I(t) = I₀ sin(2πνt) flows down the central thin wire and returns along the co-axial conducting tube, forming a complete circuit."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பிரச்சனை 8.31 இல், செவ்வக வளையம் 1234 இன் பக்கங்கள் எந்த அச்சுகளுக்கு சமாந்தரமாக அமைந்துள்ளன?",
+      "options": [
+        "x மற்றும் y அச்சுகள்",
+        "x மற்றும் z அச்சுகள்",
+        "y மற்றும் z அச்சுகள்",
+        "x மற்றும் y அச்சுகள் மட்டும்"
+      ],
+      "correct": 1,
+      "explanation": "படம் 8.2 இல், செவ்வக வளையத்தின் பக்கங்கள் z-அச்சிற்கு சமாந்தரமானவை (கிடைமட்ட பக்கங்கள் 1→2 மற்றும் 3→4) மற்றும் x-அச்சிற்கு சமாந்தரமானவை (செங்குத்து பக்கங்கள் 2→3 மற்றும் 4→1, உயரம் h). வளையம் x-z தளத்தில் உள்ளது. | From the figure description (Fig. 8.2), the rectangular loop has sides parallel to the z-axis (horizontal sides 1→2 and 3→4) and the x-axis (vertical sides 2→3 and 4→1, with height h). The loop lies in the x-z plane."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பிரச்சனை 8.29 இல் கடல் நீரின் மின்தடையம் 0.25 Ω-m எனில் அதன் கடத்துத்திறன் என்ன?",
+      "options": [
+        "0.25 S/m",
+        "4 S/m",
+        "2.5 S/m",
+        "0.4 S/m"
+      ],
+      "correct": 1,
+      "explanation": "கடத்துத்திறன் σ மின்தடையின் தலைகீழ். ρ = 0.25 Ω-m என்பதால் σ = 1/0.25 = 4 S/m. | Conductivity σ is the reciprocal of resistivity ρ. Given ρ = 0.25 Ω-m, σ = 1/ρ = 1/0.25 = 4 S/m."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "ஒத்த அச்சு கேபிள் பிரச்சனையில், அதிர்வெண் ν எனில் மாறுதிசை மின்னோட்டத்தின் கோண அதிர்வெண் ω என்ன?",
+      "options": [
+        "ω = πν",
+        "ω = 2πν",
+        "ω = 4πν",
+        "ω = ν/2π"
+      ],
+      "correct": 1,
+      "explanation": "கோண அதிர்வெண் ω சாதாரண அதிர்வெண் ν உடன் ω = 2πν என்று தொடர்புபடுத்தப்பட்டுள்ளது. மின்னோட்டம் I(t) = I₀ sin(2πνt) என்பதால் கோண அதிர்வெண் 2πν என்பது உறுதி. | The angular frequency ω is related to the ordinary frequency ν by ω = 2πν. The current is given as I(t) = I₀ sin(2πνt), confirming that the angular frequency is 2πν."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலை E = E₀ sin(kz - ωt) இல், அலை எண் k என்ன குறிக்கிறது?",
+      "options": [
+        "அலையின் அதிர்வெண்",
+        "கோண அதிர்வெண் ஒளி வேகத்தால் வகுக்கப்பட்டது",
+        "அலையின் விண்மீன் அதிர்வெண்",
+        "மின்புலத்தின் வீச்சு"
+      ],
+      "correct": 2,
+      "explanation": "அலை எண் k = 2π/λ அலையின் விண்மீன் அதிர்வெண்ணைக் குறிக்கிறது, பரவும் திசையில் ஒரு அலகு தூரத்திற்கு எத்தனை ஆரையன் கட்ட மாற்றம் என்பதைக் காட்டுகிறது. k = ω/c என்று கோண அதிர்வெண்ணுடன் தொடர்புபடுத்தப்பட்டுள்ளது. | The wave number k = 2π/λ represents the spatial frequency of the wave, indicating how many radians of phase change per unit distance along the propagation direction. It is related to angular frequency by k = ω/c."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலையில் மின்புல உறுப்பின் உடனடி ஆற்றல் அடர்த்தி என்ன?",
+      "options": [
+        "u_E = (1/2)ε₀E²",
+        "u_E = ε₀E²",
+        "u_E = (1/2)E²/ε₀",
+        "u_E = (1/4)ε₀E²"
+      ],
+      "correct": 0,
+      "explanation": "மின்புலத்தின் ஆற்றல் அடர்த்தி u_E = (1/2)ε₀E², இங்கு E மின்புலத்தின் அளவு. இது மின்காந்தக் கோட்பாட்டின் அடிப்படை முடிவு. | The energy density of the electric field is u_E = (1/2)ε₀E², where E is the electric field magnitude. This is a fundamental result from electromagnetic theory."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலையில் காந்தப்புல உறுப்பின் உடனடி ஆற்றல் அடர்த்தி என்ன?",
+      "options": [
+        "u_B = (1/2)μ₀B²",
+        "u_B = (1/2)(B²/μ₀)",
+        "u_B = B²/μ₀",
+        "u_B = (1/4)μ₀B²"
+      ],
+      "correct": 1,
+      "explanation": "காந்தப்புலத்தின் ஆற்றல் அடர்த்தி u_B = (1/2)(B²/μ₀) = B²/(2μ₀), இங்கு B காந்தப்புலத்தின் அளவு. இது மின்புல ஆற்றல் அடர்த்தியின் காந்த ஒத்திசைவு. | The energy density of the magnetic field is u_B = (1/2)(B²/μ₀) = B²/(2μ₀), where B is the magnetic field magnitude. This is the magnetic analog of the electric field energy density."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் z-திசையில் பரவும் தள மின்காந்த அலை E = E₀ sin(kz - ωt) î மற்றும் B = B₀ sin(kz - ωt) ĵ எனக் கொடுக்கப்பட்டுள்ளது. செவ்வக வளையத்திற்கு பாரடேயின் மின்காந்த தூண்டல் சட்டத்தைப் பயன்படுத்தி, E₀/B₀ விகிதம் எதற்கு சமம்?",
+      "options": [
+        "வெற்றிடத்தில் ஒளியின் வேகம், c",
+        "வெற்றிடத்தின் மின் தகவமைப்பு, ε₀",
+        "வெற்றிடத்தின் காந்த பொறுமை, μ₀",
+        "கோண வேகம், ω"
+      ],
+      "correct": 0,
+      "explanation": "By applying Faraday's law ∮E·dl = -dφB/dt to the rectangular loop and comparing the line integral of E with the time rate of change of magnetic flux through the loop, we obtain E₀/B₀ = ω/k. Since ω/k = c for electromagnetic waves in vacuum, the ratio E₀/B₀ equals the speed of light c. | வாக்குமூலத்தின் சட்டத்தை (∮E·dl = -dφB/dt) செவ்வக வளையத்திற்குப் பயன்படுத்தி, E இன் கோட்டு ஒருங்கிணைந்ததை காந்தப் பாயத்தின் நேர வேக மாற்றத்துடன் ஒப்பிடுகையில், E₀/B₀ = ω/k எனக் கிடைக்கிறது. மின்காந்த அலைகளுக்கு ω/k = c என்பதால், E₀/B₀ = c ஆகும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் ஒரு தள மின்காந்த அலைக்கு, அதே செவ்வக வளையத்திற்கு அம்பியர்-மேக்ஸ்வெல் சட்டம் (∮B·dl = μ₀I + ε₀ dφE/dt) பயன்படுத்தப்படும்போது, ஒளியின் வேகம் c எவ்வாறு கொடுக்கப்படுகிறது?",
+      "options": [
+        "c = μ₀ε₀",
+        "c = 1/√(μ₀ε₀)",
+        "c = √(μ₀ε₀)",
+        "c = μ₀/ε₀"
+      ],
+      "correct": 1,
+      "explanation": "Applying the Ampere-Maxwell law to the loop and using the displacement current term ε₀(dφE/dt), we compare the line integral of B with the changing electric flux. This yields B₀/E₀ = μ₀ε₀ω/k. Since E₀/B₀ = c and ω/k = c, substituting gives c = 1/√(μ₀ε₀). | அம்பியர்-மேக்ஸ்வெல் சட்டத்தை வளையத்திற்குப் பயன்படுத்தி, இடப்பெயர்வு மின்னோட்டத்தைக் கணக்கில் எடுத்துக்கொண்டு, B இன் கோட்டு ஒருங்கிணைந்ததை மாறும் மின் பாயத்துடன் ஒப்பிடுகையில் B₀/E₀ = μ₀ε₀ω/k கிடைக்கிறது. E₀/B₀ = c மற்றும் ω/k = c என்பதைப் பதிலிட்டால், c = 1/√(μ₀ε₀) எனக் கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் ஒரு தள மின்காந்த அலைக்கு, சராசரி ஆற்றல் அடர்த்தி u_av எவ்வாறு கொடுக்கப்படுகிறது?",
+      "options": [
+        "u_av = (1/2)ε₀E₀² + (1/2)(B₀²/μ₀)",
+        "u_av = (1/4)ε₀E₀² + (1/4)(B₀²/μ₀)",
+        "u_av = ε₀E₀² + (B₀²/μ₀)",
+        "u_av = (1/2)ε₀E₀²"
+      ],
+      "correct": 1,
+      "explanation": "The instantaneous energy density of an EM wave is u = (1/2)ε₀E² + (1/2)(B²/μ₀). For a sinusoidal wave, E = E₀ sin(kz - ωt) and B = B₀ sin(kz - ωt). The time average of sin² over one period is 1/2. Therefore, the average electric energy density is (1/4)ε₀E₀² and the average magnetic energy density is (1/4)(B₀²/μ₀), giving u_av = (1/4)ε₀E₀² + (1/4)(B₀²/μ₀). | மின்காந்த அலையின் உடனடி ஆற்றல் அடர்த்தி u = (1/2)ε₀E² + (1/2)(B²/μ₀). சைன் அலைக்கு, E = E₀ sin(kz - ωt) மற்றும் B = B₀ sin(kz - ωt). ஒரு காலத்தில் sin² இன் சராசரி 1/2. எனவே, சராசரி மின் ஆற்றல் அடர்த்தி (1/4)ε₀E₀² மற்றும் சராசரி காந்த ஆற்றல் அடர்த்தி (1/4)(B₀²/μ₀), எனவே u_av = (1/4)ε₀E₀² + (1/4)(B₀²/μ₀)."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் ஒரு தள மின்காந்த அலையின் நேர சராசரி தீவிரம் I_av எவ்வாறு கொடுக்கப்படுகிறது?",
+      "options": [
+        "I_av = cε₀E₀²",
+        "I_av = (1/2)cε₀E₀²",
+        "I_av = (1/4)cε₀E₀²",
+        "I_av = 2cε₀E₀²"
+      ],
+      "correct": 1,
+      "explanation": "The intensity of an EM wave is given by the Poynting vector magnitude S = (1/μ₀)EB. For a plane wave, E = E₀ sin(kz - ωt) and B = B₀ sin(kz - ωt), and E₀/B₀ = c. The time average of sin² is 1/2. Thus S_av = (1/μ₀)(E₀B₀/2) = (1/2μ₀)E₀B₀. Substituting B₀ = E₀/c and using c = 1/√(μ₀ε₀), we get I_av = (1/2)cε₀E₀². | மின்காந்த அலையின் தீவிரம் Poynting வெக்டர் அளவால் S = (1/μ₀)EB எனக் கொடுக்கப்படுகிறது. தள அலைக்கு, E = E₀ sin(kz - ωt), B = B₀ sin(kz - ωt), மற்றும் E₀/B₀ = c. sin² இன் சராசரி 1/2. எனவே S_av = (1/2μ₀)E₀B₀. B₀ = E₀/c என்றும் c = 1/√(μ₀ε₀) என்றும் பதிலிட்டால், I_av = (1/2)cε₀E₀² கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "படத்தில் காட்டப்பட்டுள்ள செவ்வக வளையம் 1234 (x மற்றும் z அச்சுகளுக்கு இணையான பக்கங்கள், x வழியாக உயரம் h, மற்றும் z வழியாக அகலம்) க்கு, E = E₀ sin(kz - ωt) î அலைக்கு ∮E·dl மதிப்பிடும்போது, எந்த பக்கங்களின் பங்களிப்பு பூஜ்யமற்றதாக இருக்கும்?",
+      "options": [
+        "பக்கங்கள் 1-2 மற்றும் 3-4 மட்டுமே",
+        "பக்கங்கள் 2-3 மற்றும் 4-1 மட்டுமே",
+        "பக்கங்கள் 1-2 மற்றும் 2-3 மட்டுமே",
+        "நான்கு பக்கங்களும் சமமாக பங்களிக்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "The electric field E is along the x-direction (î). Sides 1-2 and 3-4 are parallel to the z-axis, so E is perpendicular to dl on these sides, giving zero contribution. Sides 2-3 and 4-1 are parallel to the x-axis, so E is parallel to dl on these sides, giving non-zero contributions. The integral along 2-3 gives E₀h sin(kz₂ - ωt) and along 4-1 gives -E₀h sin(kz₁ - ωt). | மின் புலம் E x-திசையில் (î) உள்ளது. பக்கங்கள் 1-2 மற்றும் 3-4 z-அச்சிற்கு இணையாக உள்ளன, எனவே E இந்த பக்கங்களில் dl க்கு செங்குத்தாக உள்ளது, பங்களிப்பு பூஜ்யம். பக்கங்கள் 2-3 மற்றும் 4-1 x-அச்சிற்கு இணையாக உள்ளன, எனவே E இந்த பக்கங்களில் dl க்கு இணையாக உள்ளது, பங்களிப்பு பூஜ்யமற்றது. 2-3 வழியான ஒருங்கிணைப்பு E₀h sin(kz₂ - ωt) மற்றும் 4-1 வழியானது -E₀h sin(kz₁ - ωt) தருகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "B = B₀ sin(kz - ωt) ĵ அலைக்கு செவ்வக வளையம் 1234 வழியான காந்த பாயம் φB மதிப்பிடும்போது, காந்த புலம் எந்த திசையில் நோக்கியுள்ளது?",
+      "options": [
+        "x-அச்சு",
+        "y-அச்சு",
+        "z-அச்சு",
+        "x மற்றும் z அச்சுகள் இரண்டும்"
+      ],
+      "correct": 1,
+      "explanation": "The magnetic field vector is given as B = B₀ sin(kz - ωt) ĵ, which means it is directed along the y-axis (the ĵ direction). The loop lies in the x-z plane, so the magnetic flux through the loop depends on the y-component of B passing through the area of the loop. | காந்த புல வெக்டர் B = B₀ sin(kz - ωt) ĵ எனக் கொடுக்கப்பட்டுள்ளது, அதாவது அது y-அச்சு (ĵ திசை) வழியாக உள்ளது. வளையம் x-z தளத்தில் உள்ளது, எனவே வளையத்தின் வழியான காந்த பாயம் வளையத்தின் பரப்பளவின் வழியாக செல்லும் B இன் y-பகுதியைச் சார்ந்துள்ளது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "அம்பியர்-மேக்ஸ்வெல் சமன்பாடு ∮B·dl = μ₀I + ε₀(dφE/dt) இல், ε₀(dφE/dt) என்ற உறுப்பு எதைக் குறிக்கிறது?",
+      "options": [
+        "வளையத்தின் வழியான கடத்தல் மின்னோட்டம்",
+        "வளையத்தின் வழியான இடப்பெயர்வு மின்னோட்டம்",
+        "வளையத்தின் வழியான மொத்த மின்னோட்டம்",
+        "வளையத்தில் தூண்டப்பட்ட மின்னியக்க விசை"
+      ],
+      "correct": 1,
+      "explanation": "The term ε₀(dφE/dt) is Maxwell's displacement current, which arises from the time-varying electric flux through a surface. Even in the absence of actual charge flow (conduction current), a changing electric field produces a magnetic field equivalent to that produced by a current. This was Maxwell's crucial modification to Ampere's law. | ε₀(dφE/dt) என்ற உறுப்பு மேக்ஸ்வெலின் இடப்பெயர்வு மின்னோட்டம் ஆகும், இது ஒரு பரப்பின் வழியாக மாறும் மின் பாயத்திலிருந்து உருவாகிறது. உண்மையான மின்னோட்ட ஓட்டம் (கடத்தல் மின்னோட்டம்) இல்லாதபோதும், மாறும் மின் புலம் ஒரு மின்னோட்டத்தால் உருவாக்கப்படும் காந்த புலத்திற்கு சமமான காந்த புலத்தை உருவாக்குகிறது. இது அம்பியரின் சட்டத்திற்கு மேக்ஸ்வெல் செய்த முக்கியமான மாற்றமாகும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் ஒரு தள மின்காந்த அலைக்கு, சராசரி மின் ஆற்றல் அடர்த்தி மற்றும் சராசரி காந்த ஆற்றல் அடர்த்தி எவ்வாறு தொடர்புடையவை?",
+      "options": [
+        "மின் ஆற்றல் அடர்த்தி காந்த ஆற்றல் அடர்த்தியை விட இரண்டு மடங்கு",
+        "காந்த ஆற்றல் அடர்த்தி மின் ஆற்றல் அடர்த்தியை விட இரண்டு மடங்கு",
+        "இரண்டும் அளவில் சமம்",
+        "மின் ஆற்றல் அடர்த்தி காந்த ஆற்றல் அடர்த்தியின் பாதி"
+      ],
+      "correct": 2,
+      "explanation": "The average electric energy density is u_E = (1/4)ε₀E₀² and the average magnetic energy density is u_B = (1/4)(B₀²/μ₀). Using the relation E₀ = cB₀ and c = 1/√(μ₀ε₀), we can show that ε₀E₀² = B₀²/μ₀, which means u_E = u_B. Thus, the electric and magnetic contributions to the total energy density are equal. | சராசரி மின் ஆற்றல் அடர்த்தி u_E = (1/4)ε₀E₀² மற்றும் சராசரி காந்த ஆற்றல் அடர்த்தி u_B = (1/4)(B₀²/μ₀). E₀ = cB₀ மற்றும் c = 1/√(μ₀ε₀) என்ற உறவைப் பயன்படுத்தி, ε₀E₀² = B₀²/μ₀ எனக் காட்டலாம், அதாவது u_E = u_B. எனவே, மொத்த ஆற்றல் அடர்த்தியில் மின் மற்றும் காந்த பங்களிப்புகள் சமமாக உள்ளன."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "E = E₀ sin(kz - ωt) î மற்றும் B = B₀ sin(kz - ωt) ĵ என விவரிக்கப்படும் மின்காந்த அலையின் பரவும் திசை எது?",
+      "options": [
+        "நேர்மறை x-அச்சு வழியாக",
+        "நேர்மறை y-அச்சு வழியாக",
+        "நேர்மறை z-அச்சு வழியாக",
+        "எதிர்மறை z-அச்சு வழியாக"
+      ],
+      "correct": 2,
+      "explanation": "The wave has the form sin(kz - ωt), which represents a wave traveling in the positive z-direction. The argument (kz - ωt) indicates that as time increases, the phase remains constant when z increases, meaning the wave propagates along +z. The E field is along x, B field is along y, and E × B gives the propagation direction along z. | அலை sin(kz - ωt) வடிவத்தில் உள்ளது, இது +z திசையில் பயணிக்கும் அலையைக் குறிக்கிறது. வாதம் (kz - ωt) நேரம் அதிகரிக்கும்போது, z அதிகரிக்கும்போது கட்டம் மாறாததைக் குறிக்கிறது, அதாவது அலை +z வழியாக பரவுகிறது. E புலம் x வழியாக, B புலம் y வழியாக, மற்றும் E × B z வழியாக பரவும் திசையைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மின்காந்த அலையின் உடனடி ஆற்றல் அடர்த்தி, மின் புலம் அதன் அதிகபட்ச மதிப்பு E₀ ஐ அடையும் புள்ளியில் எவ்வாறு இருக்கும்?",
+      "options": [
+        "u = (1/2)ε₀E₀²",
+        "u = ε₀E₀²",
+        "u = (1/2)ε₀E₀² + (1/2)(B₀²/μ₀)",
+        "u = (1/4)ε₀E₀² + (1/4)(B₀²/μ₀)"
+      ],
+      "correct": 2,
+      "explanation": "The instantaneous energy density is the sum of instantaneous electric and magnetic energy densities: u = (1/2)ε₀E² + (1/2)(B²/μ₀). At the point where E = E₀ (maximum), B = B₀ simultaneously for a plane wave. Therefore, the instantaneous energy density at maximum field is u = (1/2)ε₀E₀² + (1/2)(B₀²/μ₀). The average over a cycle gives the 1/4 factors. | உடனடி ஆற்றல் அடர்த்தி உடனடி மின் மற்றும் காந்த ஆற்றல் அடர்த்திகளின் கூட்டுத்தொகை: u = (1/2)ε₀E² + (1/2)(B²/μ₀). E = E₀ (அதிகபட்சம்) என்ற புள்ளியில், தள அலைக்கு ஒரே நேரத்தில் B = B₀. எனவே, அதிகபட்ச புலத்தில் உடனடி ஆற்றல் அடர்த்தி u = (1/2)ε₀E₀² + (1/2)(B₀²/μ₀). ஒரு சுழற்சியின் சராசரி 1/4 காரணிகளைத் தருகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "செவ்வக வளையத்தைப் பயன்படுத்தி E₀/B₀ = c என நிறுவும்போது, பாரடேயின் மின்காந்த தூண்டல் சட்டம் தூண்டப்பட்ட மின்னியக்க விசை எதற்கு சமம் எனக் கூறுகிறது?",
+      "options": [
+        "வளையத்தின் வழியான மின் பாயத்தின் மாற்ற வேகம்",
+        "வளையத்தின் வழியான காந்த பாயத்தின் எதிர் மாற்ற வேகம்",
+        "வளையத்தால் சூழப்பட்ட மொத்த மின்னோட்டம்",
+        "வளையத்தின் வழியான இடப்பெயர்வு மின்னோட்டம்"
+      ],
+      "correct": 1,
+      "explanation": "Faraday's law states that ∮E·dl = -dφB/dt, where φB is the magnetic flux through the surface bounded by the loop. The negative sign indicates that the induced electric field opposes the change in magnetic flux (Lenz's law). This is the fundamental equation used to relate the electric and magnetic field amplitudes. | பாரடேயின் சட்டம் ∮E·dl = -dφB/dt எனக் கூறுகிறது, இங்கு φB வளையத்தால் எல்லையிடப்பட்ட பரப்பின் வழியான காந்த பாயம். எதிர் குறி தூண்டப்பட்ட மின் புலம் காந்த பாய மாற்றத்தை எதிர்க்கிறது (லென்ஸின் சட்டம்). இது மின் மற்றும் காந்த புல விசைகளை தொடர்புபடுத்தப் பயன்படும் அடிப்படை சமன்பாடு."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மின்காந்த அலைக்கு E₀/B₀ விகிதத்தின் (மின் புல விசை / காந்த புல விசை) பரிமாணங்கள் எவை?",
+      "options": [
+        "[L²T⁻²]",
+        "[LT⁻¹]",
+        "[L²T⁻¹]",
+        "[LT⁻²]"
+      ],
+      "correct": 1,
+      "explanation": "Electric field E has dimensions [MLT⁻³A⁻¹] and magnetic field B has dimensions [MT⁻²A⁻¹]. The ratio E/B has dimensions [L T⁻¹], which are the dimensions of velocity. This confirms that E₀/B₀ = c, the speed of light, which is a velocity. | மின் புலம் E இன் பரிமாணம் [MLT⁻³A⁻¹] மற்றும் காந்த புலம் B இன் பரிமாணம் [MT⁻²A⁻¹]. E/B இன் பரிமாணம் [L T⁻¹], இது வேகத்தின் பரிமாணம். இது E₀/B₀ = c, ஒளியின் வேகம், என்பதை உறுதிப்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "E = E₀ sin(kz - ωt) î மற்றும் B = B₀ sin(kz - ωt) ĵ அலைக்கு, Poynting வெக்டர் S = (1/μ₀)E × B எந்த திசையைக் குறிக்கிறது?",
+      "options": [
+        "î × ĵ = k̂ (நேர்மறை z-திசை)",
+        "ĵ × î = -k̂ (எதிர்மறை z-திசை)",
+        "î × î = 0",
+        "ĵ × ĵ = 0"
+      ],
+      "correct": 0,
+      "explanation": "The Poynting vector S = (1/μ₀)E × B gives the direction of energy flow. Since E is along î (x-direction) and B is along ĵ (y-direction), the cross product î × ĵ = k̂, which is the positive z-direction. This confirms that energy propagates in the same direction as the wave. | Poynting வெக்டர் S = (1/μ₀)E × B ஆற்றல் ஓட்டத்தின் திசையைத் தருகிறது. E î (x-திசை) வழியாகவும், B ĵ (y-திசை) வழியாகவும் இருப்பதால், குறுக்கு பெருக்கல் î × ĵ = k̂, அதாவது +z திசை. இது ஆற்றல் அலையின் திசையிலேயே பரவுகிறது என்பதை உறுதிப்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வருவாயில் பயன்படுத்தப்படும் செவ்வக வளையம் 1234 இன் பக்கங்கள் எவ்வாறு அமைந்துள்ளன?",
+      "options": [
+        "அனைத்து பக்கங்களும் z-அச்சிற்கு இணையாக",
+        "இரண்டு பக்கங்கள் x-அச்சிற்கும் இரண்டு பக்கங்கள் z-அச்சிற்கும் இணையாக",
+        "அனைத்து பக்கங்களும் x-அச்சிற்கு இணையாக",
+        "இரண்டு பக்கங்கள் y-அச்சிற்கும் இரண்டு பக்கங்கள் z-அச்சிற்கும் இணையாக"
+      ],
+      "correct": 1,
+      "explanation": "From the figure description, the loop 1234 has sides parallel to the x and z axes. The height h is along the x-direction (between sides 2-3 and 4-1), and the width is along the z-direction (between sides 1-2 and 3-4). This orientation is crucial for evaluating the line integrals of E and B. | பட விளக்கத்தின்படி, வளையம் 1234 இன் பக்கங்கள் x மற்றும் z அச்சுகளுக்கு இணையாக உள்ளன. உயரம் h x-திசையில் (பக்கங்கள் 2-3 மற்றும் 4-1 இடையே) மற்றும் அகலம் z-திசையில் (பக்கங்கள் 1-2 மற்றும் 3-4 இடையே). இந்த திசையமைப்பு E மற்றும் B இன் கோட்டு ஒருங்கிணைந்துகளை மதிப்பிடுவதற்கு மிகவும் முக்கியமானது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "வெற்றிடத்தில் ஒரு மின்காந்த அலைக்கு, மின் புல விசை E₀ என்றால், காந்த புல விசை B₀ எவ்வாறு தொடர்புடையது?",
+      "options": [
+        "B₀ = E₀/c",
+        "B₀ = cE₀",
+        "B₀ = E₀/c²",
+        "B₀ = c²E₀"
+      ],
+      "correct": 0,
+      "explanation": "From the derivation using Faraday's law, we established that E₀/B₀ = c. Therefore, B₀ = E₀/c. This means the magnetic field amplitude is smaller than the electric field amplitude by a factor of c (the speed of light, approximately 3 × 10⁸ m/s). | பாரடேயின் சட்டத்தைப் பயன்படுத்திய வருவாயில், E₀/B₀ = c என நிறுவப்பட்டுள்ளது. எனவே, B₀ = E₀/c. இதன் பொருள் காந்த புல விசை E₀ இன் விசையை c (ஒளியின் வேகம், சுமார் 3 × 10⁸ மீ/வி) என்ற காரணியால் வகுத்ததாகும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "x திசையில் பரவும் தள EM அலைக்கு, E மற்றும் B புலங்களின் சாத்தியமான சோடிகள் எவை?",
+      "options": [
+        "Ex, By",
+        "Ey, Bz",
+        "Ez, By",
+        "மேற்கண்ட அனைத்தும்"
+      ],
+      "correct": 1,
+      "explanation": "For an EM wave propagating along x-direction, E and B must be perpendicular to each other and both perpendicular to the direction of propagation. Therefore, valid pairs are (Ey, Bz) and (Ez, By). Option B is correct as Ey and Bz are perpendicular to each other and both perpendicular to x-direction. | x-திசையில் பரவும் EM அலைக்கு, E மற்றும் B ஒன்றுக்கொன்று செங்குத்தாகவும், பரவும் திசைக்கு செங்குத்தாகவும் இருக்க வேண்டும். எனவே (Ey, Bz) மற்றும் (Ez, By) சரியான சோடிகள். விருப்பம் B சரியானது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "10^9 Hz அதிர்வெண்ணில் சமநிலை நிலையைச் சுற்றி அதிரும் மின்னேற்றம் பெற்ற துகள் உருவாக்கும் EM அலையின் அதிர்வெண் என்ன?",
+      "options": [
+        "10^9 Hz",
+        "2 × 10^9 Hz",
+        "0.5 × 10^9 Hz",
+        "4 × 10^9 Hz"
+      ],
+      "correct": 0,
+      "explanation": "The frequency of the emitted electromagnetic wave is equal to the frequency of oscillation of the charged particle. Since the particle oscillates at 10^9 Hz, the EM wave will also have a frequency of 10^9 Hz. | மின்னேற்றம் பெற்ற துகளின் அதிர்வு அதிர்வெண்ணுக்கு சமமாக EM அலையின் அதிர்வெண் இருக்கும். துகள் 10^9 Hz அதிர்வெண்ணில் அதிர்வதால், EM அலையும் 10^9 Hz அதிர்வெண்ணைக் கொண்டிருக்கும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "10^9 Hz அதிர்வெண்ணில் அதிரும் மின்னேற்றம் பெற்ற துகள் உருவாக்கும் EM அலையின் அலைநீளம் சுமார் எவ்வளவு?",
+      "options": [
+        "0.1 m",
+        "0.3 m",
+        "0.5 m",
+        "1.0 m"
+      ],
+      "correct": 1,
+      "explanation": "Using the formula λ = c/f, where c = 3 × 10^8 m/s and f = 10^9 Hz, we get λ = (3 × 10^8)/(10^9) = 0.3 m. | λ = c/f சூத்திரத்தைப் பயன்படுத்தி, c = 3 × 10^8 m/s மற்றும் f = 10^9 Hz எனில், λ = (3 × 10^8)/(10^9) = 0.3 m கிடைக்கும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "10^9 Hz அதிர்வெண்ணில் அதிரும் மின்னேற்றம் பெற்ற துகளால் உருவாக்கப்படும் EM அலைகள் EM நிறப்பட்டையின் எந்தப் பகுதியைச் சார்ந்தவை?",
+      "options": [
+        "கண்ணுக்குத் தெரியும் ஒளி",
+        "அகச்சிவப்பு",
+        "வானொலி அலைகள்",
+        "X-கதிர்கள்"
+      ],
+      "correct": 2,
+      "explanation": "A frequency of 10^9 Hz (1 GHz) corresponds to the radio wave region of the electromagnetic spectrum. Radio waves typically range from about 10^3 Hz to 10^9 Hz. | 10^9 Hz (1 GHz) அதிர்வெண் EM நிறப்பட்டையின் வானொலி அலை பகுதிக்கு உரியது. வானொலி அலைகள் பொதுவாக 10^3 Hz முதல் 10^9 Hz வரையில் உள்ளன."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலைகளின் மூலமாக இருக்கக்கூடியது எது?",
+      "options": [
+        "மாறா வேகத்தில் நகரும் மின்னேற்றம்",
+        "வட்டப்பாதையில் நகரும் மின்னேற்றம்",
+        "நிற்கும் மின்னேற்றம்",
+        "முடுக்கமின்றி சீரான மின்வெளியில் உள்ள மின்னேற்றம்"
+      ],
+      "correct": 1,
+      "explanation": "Accelerated charges produce electromagnetic waves. A charge moving in a circular orbit is continuously accelerating (centripetal acceleration), so it emits EM waves. A charge at rest or moving with constant velocity does not produce EM waves. | முடுக்கம் பெறும் மின்னேற்றங்கள் EM அலைகளை உருவாக்குகின்றன. வட்டப்பாதையில் சுழலும் மின்னேற்றம் தொடர்ந்து முடுக்கம் பெறுகிறது (நடுவியல் முடுக்கம்), எனவே EM அலைகளை உமிழ்கிறது. நிற்கும் அல்லது மாறா வேகத்தில் நகரும் மின்னேற்றம் EM அலைகளை உருவாக்காது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "தீவிரம் I கொண்ட EM அலை வெற்றிடத்தில் வைக்கப்பட்ட முழுமையாக உறிஞ்சும் பரப்பில் படும்போது, கதிர்வீச்சு அழுத்தம் என்ன?",
+      "options": [
+        "I/c",
+        "2I/c",
+        "I/(2c)",
+        "பூஜ்யம்"
+      ],
+      "correct": 0,
+      "explanation": "For complete absorption, the radiation pressure p = I/c, where I is the intensity and c is the speed of light. This is because the momentum transferred per unit time per unit area equals the energy absorbed per unit time per unit area divided by c. | முழுமையாக உறிஞ்சப்படும்போது, கதிர்வீச்சு அழுத்தம் p = I/c. இங்கு I தீவிரத்தையும் c ஒளியின் வேகத்தையும் குறிக்கிறது. ஒரு அலகு பரப்பளவுக்கு ஒரு அலகு நேரத்தில் மாற்றப்படும் உந்தம், உறிஞ்சப்படும் ஆற்றலை c ஆல் வகுத்ததற்கு சமம்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "தீவிரம் I கொண்ட EM அலை வெற்றிடத்தில் வைக்கப்பட்ட முழுமையாக பிரதிபலிக்கும் பரப்பில் படும்போது, கதிர்வீச்சு அழுத்தம் என்ன?",
+      "options": [
+        "I/c",
+        "2I/c",
+        "I/(2c)",
+        "பூஜ்யம்"
+      ],
+      "correct": 1,
+      "explanation": "For total reflection, the momentum change is twice that for absorption, so the radiation pressure p = 2I/c. The wave transfers momentum to the surface and then rebounds, effectively doubling the momentum transfer. | முழுமையாக பிரதிபலிக்கும்போது, உந்த மாற்றம் உறிஞ்சுதலை விட இரட்டிப்பாக இருக்கும், எனவே கதிர்வீச்சு அழுத்தம் p = 2I/c. அலை பரப்புக்கு உந்தத்தை மாற்றி மீண்டும் திரும்புவதால், உந்த மாற்றம் இரட்டிப்பாகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலையை ஓரளவு உறிஞ்சியும் ஓரளவு பிரதிபலிக்கியும் செய்யும் உண்மையான பரப்பில், கதிர்வீச்சு அழுத்தம் p எந்த வரம்பில் இருக்கும்?",
+      "options": [
+        "p = I/c",
+        "p = 2I/c",
+        "I/c < p < 2I/c",
+        "p = 0"
+      ],
+      "correct": 2,
+      "explanation": "Real surfaces partially absorb and partially reflect EM waves. Therefore, the radiation pressure lies between the values for complete absorption (I/c) and complete reflection (2I/c). | உண்மையான பரப்புகள் EM அலைகளை ஓரளவு உறிஞ்சியும், ஓரளவு பிரதிபலிக்கியும் செய்கின்றன. எனவே கதிர்வீச்சு அழுத்தம் முழு உறிஞ்சுதலுக்கான (I/c) மற்றும் முழு பிரதிபலிப்புக்கான (2I/c) மதிப்புகளுக்கு இடையில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பரவலான வானொலி நிலையத்தைப் பொறுத்து கையடக்க வானொலியின் திசையமைப்பு ஏன் முக்கியமானது?",
+      "options": [
+        "வானொலி அலைகள் நெடுவழி அலைகள் என்பதால்",
+        "அதிகபட்ச சமிக்ஞை ஏற்புக்கு, ஏற்றுக்கொள்ளும் அண்டென்னா வரும் அலையின் மின்னியல் புலத்திற்கு இணையாக இருக்க வேண்டும்",
+        "வானொலி அலைகள் நேர்கோட்டில் மட்டுமே பயணிக்கின்றன",
+        "வானொலி நேரடியாக நிலையத்தை நோக்கி இருக்க வேண்டும்"
+      ],
+      "correct": 1,
+      "explanation": "The receiving antenna must be oriented parallel to the electric field vector of the incoming electromagnetic wave for maximum signal reception. EM waves are transverse waves with E and B fields perpendicular to the direction of propagation. | வரும் EM அலையின் மின்னியல் புலத்திற்கு இணையாக ஏற்றுக்கொள்ளும் அண்டென்னா இருக்க வேண்டும். EM அலைகள் குறுக்கு அலைகள் என்பதால், அண்டென்னாவின் திசையமைப்பு மிக முக்கியமானது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "நீர் மூலக்கூறுகளைக் கொண்ட உணவுப் பொருளை மைக்ரோவேவ் அடுப்பு ஏன் மிகத் திறமையாக சூடாக்குகிறது?",
+      "options": [
+        "நீர் மூலக்கூறுகள் உலோகப் பண்புடையவை என்பதால்",
+        "மைக்ரோவேவ் அலைகளின் அதிர்வெண் நீர் மூலக்கூறுகளின் இயற்கை சுழல் அதிர்வெண்ணுக்கு பொருந்தி ஒத்திசைவு உறிஞ்சுதலை ஏற்படுத்துவதால்",
+        "நீர் மூலக்கூறுகள் மைக்ரோவேவ் அலைகளை பிரதிபலிக்கின்றன",
+        "நீர் மைக்ரோவேவ் அலைகளை உறையவைக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "Microwave ovens operate at a frequency (about 2.45 GHz) that matches the natural rotational frequency of water molecules. This causes resonance, leading to efficient absorption of microwave energy and heating of the food. | மைக்ரோவேவ் அலைகளின் அதிர்வெண் (சுமார் 2.45 GHz) நீர் மூலக்கூறுகளின் இயற்கை சுழல் அதிர்வெண்ணுக்கு பொருந்துகிறது. இது ஒத்திசைவை உருவாக்கி, ஆற்றலை திறமையாக உறிஞ்சி உணவை சூடாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "q = q0 cos(2πνt) என மின்னேற்றம் மாறும் இணைத்தகடு கொள்ளளவியில், இடப்பெயர்வு மின்னோட்டம் எதற்கு விகிதாசாரமானது?",
+      "options": [
+        "cos(2πνt)",
+        "sin(2πνt)",
+        "cos^2(2πνt)",
+        "மாறா மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The displacement current Id = ε0 dΦE/dt = dq/dt. Since q = q0 cos(2πνt), then dq/dt = -q0(2πν)sin(2πνt). Therefore, the displacement current is proportional to sin(2πνt). | இடப்பெயர்வு மின்னோட்டம் Id = dq/dt. q = q0 cos(2πνt) எனில், dq/dt = -q0(2πν)sin(2πνt). எனவே இடப்பெயர்வு மின்னோட்டம் sin(2πνt) க்கு நேர்விகிதத்தில் உள்ளது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மாறும் அதிர்வெண் AC மூலம் கொள்ளளவியுடன் இணைக்கப்பட்டுள்ளது. அதிர்வெண் குறையும்போது, இடப்பெயர்வு மின்னோட்டம் என்ன ஆகும்?",
+      "options": [
+        "அதிகரிக்கும்",
+        "குறையும்",
+        "மாறாமல் இருக்கும்",
+        "பூஜ்யமாகும்"
+      ],
+      "correct": 1,
+      "explanation": "The displacement current in a capacitor is Id = V/Xc = V(2πνC), where Xc is the capacitive reactance. As frequency ν decreases, the displacement current decreases proportionally. | கொள்ளளவில் இடப்பெயர்வு மின்னோட்டம் Id = V(2πνC). அதிர்வெண் ν குறையும்போது, இடப்பெயர்வு மின்னோட்டம் விகிதாசாரமாக குறைகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "B = 12 × 10^-8 sin(1.20 × 10^7 z - 3.60 × 10^15 t) T என்ற காந்த புலம் கொண்ட கற்றையின் சராசரி தீவிரம் என்ன?",
+      "options": [
+        "1.72 W/m^2",
+        "3.44 W/m^2",
+        "0.86 W/m^2",
+        "6.88 W/m^2"
+      ],
+      "correct": 0,
+      "explanation": "From the equation, B0 = 12 × 10^-8 T. The average intensity I = (B0^2 c)/(2μ0) = ((12 × 10^-8)^2 × 3 × 10^8)/(2 × 4π × 10^-7) = 1.72 W/m^2 approximately. | B0 = 12 × 10^-8 T என்பதிலிருந்து, சராசரி தீவிரம் I = (B0^2 c)/(2μ0) = 1.72 W/m^2 கிடைக்கும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "Poynting வெக்டர் S = (1/μ0) E × B என வரையறுக்கப்படுகிறது. தள EM அலைக்கு S vs t வரைபடத்தின் தன்மை என்ன?",
+      "options": [
+        "நேர்க்கோடு",
+        "2ω அதிர்வெண் கொண்ட சைன் வளைவு",
+        "ω அதிர்வெண் கொண்ட சைன் வளைவு",
+        "பரவளைய வளைவு"
+      ],
+      "correct": 1,
+      "explanation": "Since E and B both vary as sin(kz - ωt), their product S varies as sin^2(kz - ωt). Using the identity sin^2(θ) = (1 - cos(2θ))/2, the Poynting vector oscillates at frequency 2ω. | E மற்றும் B இரண்டும் sin(kz - ωt) போல மாறுவதால், S = sin^2(kz - ωt) போல மாறுகிறது. sin^2(θ) = (1 - cos(2θ))/2 என்பதால், Poynting வெக்டர் 2ω அதிர்வெண்ணில் அதிர்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "C.V. Raman பேராசிரியர் லேசர் கற்றையைப் பயன்படுத்தி வெற்றிடக் கலனில் ஒரு சிறிய ஒளிப் பந்தை தொங்கவிட்டார். EM அலைகளின் எந்தப் பண்பு இங்கு காட்டப்பட்டது?",
+      "options": [
+        "பிரதிபலிப்பு",
+        "விலகல்",
+        "கதிர்வீச்சு அழுத்தம்",
+        "விளிம்புவிரிவு"
+      ],
+      "correct": 2,
+      "explanation": "The laser beam exerted radiation pressure on the tiny ball, which balanced the gravitational force and suspended the ball. This demonstrates that electromagnetic waves carry momentum and exert pressure on surfaces. | லேசர் கற்றை சிறிய பந்தின் மீது கதிர்வீச்சு அழுத்தத்தை ஏற்படுத்தி, ஈர்ப்பு விசையை சமநிலைப்படுத்தி பந்தை தொங்கவிட்டது. இது EM அலைகள் உந்தத்தைக் கொண்டு அழுத்தத்தை ஏற்படுத்துகின்றன என்பதைக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலைகளால் ஏற்படும் கதிர்வீச்சு அழுத்தத்திற்கு மற்றொரு எடுத்துக்காட்டு எது?",
+      "options": [
+        "ஒளியை பிரதிபலிக்கும் கண்ணாடி",
+        "சூரிய கதிர்வீச்சு அழுத்தத்தால் சூரியனிலிருந்து விலகி நோக்கி இருக்கும் வால்நட்சத்திரத்தின் வால்",
+        "ஒளியை குவிக்கும் வில்லை",
+        "ஒளியை பிரிக்கும் பட்டகம்"
+      ],
+      "correct": 1,
+      "explanation": "The tail of a comet points away from the Sun because the solar radiation pressure pushes the dust and gas particles away from the Sun. This is a classic example of radiation pressure in nature. | வால்நட்சத்திரத்தின் வால் சூரியனிலிருந்து விலகி நோக்கி இருப்பது சூரிய கதிர்வீச்சு அழுத்தம் தூசி மற்றும் வாயு துகள்களை விரட்டுவதால். இது இயற்கையில் கதிர்வீச்சு அழுத்தத்தின் சிறந்த எடுத்துக்காட்டு."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "q = q0 cos(2πνt) என மின்னேற்றம் மாறும் இணைத்தகடு கொள்ளளவியில் இடப்பெயர்வு மின்னோட்டம் என்ன?",
+      "options": [
+        "q0 cos(2πνt)",
+        "-2πνq0 sin(2πνt)",
+        "q0 sin(2πνt)",
+        "2πνq0 cos(2πνt)"
+      ],
+      "correct": 1,
+      "explanation": "The displacement current Id = dq/dt = d/dt[q0 cos(2πνt)] = -q0(2πν)sin(2πνt) = -2πνq0 sin(2πνt). | இடப்பெயர்வு மின்னோட்டம் Id = dq/dt = d/dt[q0 cos(2πνt)] = -2πνq0 sin(2πνt) என கிடைக்கும்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "அலைநீளம் λ1 செயற்கைக்கோள் தொடர்பாடலுக்கு பயன்படுத்தப்படுகிறது. இந்த அலைநீளம் EM நிறப்பட்டையின் எந்தப் பகுதியைச் சார்ந்தது?",
+      "options": [
+        "மைக்ரோவேவ்",
+        "வானொலி அலைகள்",
+        "அகச்சிவப்பு",
+        "கண்ணுக்குத் தெரியும் ஒளி"
+      ],
+      "correct": 0,
+      "explanation": "Microwaves are used in satellite communication because they can penetrate through the atmosphere and are suitable for long-distance communication via satellites. | செயற்கைக்கோள் தொடர்பாடலுக்கு மைக்ரோவேவ் அலைகள் பயன்படுத்தப்படுகின்றன, ஏனெனில் அவை வளிமண்டலத்தை ஊடுருவி நீண்ட தூர தொடர்பாடலுக்கு ஏற்றவை."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "நீர் சுத்திகரிப்பான்களில் கிருமிகளைக் கொல்ல எந்த EM கதிர்வீச்சு பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "அகச்சிவப்பு",
+        "புறஊதா",
+        "X-கதிர்கள்",
+        "காமா கதிர்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Ultraviolet (UV) radiation is used in water purifiers to kill germs and bacteria because UV light has sufficient energy to destroy the DNA of microorganisms. | புறஊதா (UV) கதிர்வீச்சு நுண்ணுயிரிகளின் DNA ஐ அழிக்க போதுமான ஆற்றலைக் கொண்டிருப்பதால், நீர் சுத்திகரிப்பான்களில் கிருமிகளைக் கொல்ல பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "நிலத்தடி குழாய்களில் எண்ணெய் கசிவை கண்டறிய எந்த EM கதிர்வீச்சு பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "X-கதிர்கள்",
+        "காமா கதிர்கள்",
+        "அகச்சிவப்பு",
+        "புறஊதா"
+      ],
+      "correct": 2,
+      "explanation": "Infrared radiation is used to detect oil leakage in underground pipelines because oil has different infrared absorption characteristics compared to soil, allowing detection through thermal imaging. | எண்ணெய் மற்றும் மண்ணின் அகச்சிவப்பு உறிஞ்சுதல் பண்புகள் வேறுபடுவதால், அகச்சிவப்பு கதிர்வீச்சு நிலத்தடி குழாய்களில் எண்ணெய் கசிவை கண்டறிய பயன்படுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மூடுபனி மற்றும் பனிமூட்டம் நிலையில் விமான தடங்களில் பார்வையை மேம்படுத்த எந்த EM கதிர்வீச்சு பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "அகச்சிவப்பு",
+        "புறஊதா",
+        "X-கதிர்கள்",
+        "மைக்ரோவேவ்"
+      ],
+      "correct": 0,
+      "explanation": "Infrared radiation is used to improve visibility during fog and mist because infrared waves can penetrate through fog better than visible light, and infrared cameras can detect heat signatures. | அகச்சிவப்பு அலைகள் கண்ணுக்குத் தெரியும் ஒளியை விட மூடுபனியை ஊடுருவக்கூடியதால், மூடுபனி மற்றும் பனிமூட்டம் நிலையில் விமான தடங்களில் பார்வையை மேம்படுத்த பயன்படுகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "பின்வரும் அலைநீளங்களை ஏறுவரிசையில் அமைக்கவும்: λ1 (செயற்கைக்கோள் தொடர்பாடல்), λ2 (நீர் சுத்திகரிப்பு), λ3 (எண்ணெய் குழாய் கண்டறிதல்), λ4 (விமான தட பார்வை):",
+      "options": [
+        "λ2 < λ4 < λ3 < λ1",
+        "λ2 < λ3 < λ4 < λ1",
+        "λ1 < λ2 < λ3 < λ4",
+        "λ4 < λ3 < λ2 < λ1"
+      ],
+      "correct": 1,
+      "explanation": "λ2 is UV (shortest, ~10^-8 to 10^-7 m), λ3 is infrared (~10^-6 to 10^-3 m), λ4 is infrared but longer wavelength than λ3, and λ1 is microwaves (longest, ~10^-3 to 10^-1 m). So λ2 < λ3 < λ4 < λ1. | λ2 புறஊதா (குறுகிய, ~10^-8 முதல் 10^-7 m), λ3 அகச்சிவப்பு (~10^-6 முதல் 10^-3 m), λ4 அகச்சிவப்பு ஆனால் λ3 விட நீளமான அலைநீளம், λ1 மைக்ரோவேவ் (நீளமான, ~10^-3 முதல் 10^-1 m). எனவே λ2 < λ3 < λ4 < λ1."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "ஒரு முழு காலம் T மீது கதிர்வீச்சு பாய அடர்த்தி S இன் சராசரி மதிப்பு என்ன?",
+      "options": [
+        "S = (1/2cμ0) E0^2",
+        "S = (1/cμ0) E0^2",
+        "S = (1/4cμ0) E0^2",
+        "S = cμ0 E0^2"
+      ],
+      "correct": 0,
+      "explanation": "The time-averaged Poynting vector magnitude is S = (1/2) c ε0 E0^2. Using c = 1/√(μ0ε0), this can be written as S = (1/2cμ0) E0^2. | கால சராசரி Poynting வெக்டர் அளவு S = (1/2) c ε0 E0^2. c = 1/√(μ0ε0) என்பதைப் பயன்படுத்தி, S = (1/2cμ0) E0^2 என எழுதலாம்."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "2μF இணைத்தகடு கொள்ளளவி கொடுக்கப்பட்டுள்ளது. தகடுகளுக்கு இடையே 1mA உடனடி இடப்பெயர்வு மின்னோட்டத்தை ஏற்படுத்த என்ன மின்னழுத்த மாற்ற வீதம் தேவை?",
+      "options": [
+        "500 V/s",
+        "1000 V/s",
+        "250 V/s",
+        "2000 V/s"
+      ],
+      "correct": 0,
+      "explanation": "Id = C(dV/dt), so dV/dt = Id/C = (1 × 10^-3)/(2 × 10^-6) = 500 V/s. | Id = C(dV/dt) என்பதால், dV/dt = Id/C = (1 × 10^-3)/(2 × 10^-6) = 500 V/s."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "தீவிரம் I கொண்ட EM அலை வெற்றிடத்தில் வைக்கப்பட்ட பரப்பின் மீது கதிர்வீச்சு அழுத்தம் I/c. இது எதிலிருந்து பெறப்படுகிறது?",
+      "options": [
+        "மின்னேற்ற சேமிப்பு",
+        "உந்தம் சேமிப்பு",
+        "ஆற்றல் சேமிப்பு",
+        "Maxwell இன் முதல் சமன்பாடு"
+      ],
+      "correct": 1,
+      "explanation": "Radiation pressure is derived from the conservation of momentum. The momentum of the EM wave is p = U/c, where U is energy. Pressure = force/area = (dp/dt)/area = (dU/dt)/(c × area) = I/c. | கதிர்வீச்சு அழுத்தம் உந்தம் சேமிப்பிலிருந்து பெறப்படுகிறது. EM அலையின் உந்தம் p = U/c. அழுத்தம் = விசை/பரப்பு = (dp/dt)/பரப்பு = I/c."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "விளக்கிலிருந்து தூரம் இரட்டிப்பாக்கப்பட்டால், ஒளியின் தீவிரம் என்ன ஆகும்?",
+      "options": [
+        "அப்படியே",
+        "பாதி",
+        "ஒரு கால்",
+        "இரட்டிப்பு"
+      ],
+      "correct": 2,
+      "explanation": "For a point source, intensity follows the inverse square law: I ∝ 1/r^2. If distance is doubled (r → 2r), intensity becomes I/(2^2) = I/4. | புள்ளி மூலத்திற்கு, தீவிரம் எதிர் வர்க்க சட்டத்தைப் பின்பற்றுகிறது: I ∝ 1/r^2. தூரம் இரட்டிப்பாகும்போது (r → 2r), தீவிரம் I/4 ஆகிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "லேசர் கற்றை ஒரு அறையின் நீளம் முழுவதும் மாறா தீவிரத்தை பேணுகிறது. இதற்கு காரணமான வடிவியல் பண்பு எது?",
+      "options": [
+        "விரிவாக்கம்",
+        "அதிக ஒற்றுமை மற்றும் குறைந்த விரிவாக்கம்",
+        "விலகல்",
+        "விளிம்புவிரிவு"
+      ],
+      "correct": 1,
+      "explanation": "Laser beams have high coherence and very low divergence, meaning they spread out very little. This allows the intensity to remain nearly constant over long distances, unlike ordinary light from a bulb which diverges significantly. | லேசர் கற்றைகள் அதிக ஒற்றுமை மற்றும் மிகக் குறைந்த விரிவாக்கத்தைக் கொண்டுள்ளன. இது தூரத்தில் தீவிரத்தை கிட்டத்தட்ட மாறாமல் வைத்திருக்கிறது, விளக்கின் ஒளி போல அல்ல."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "மின்னியல் புலம் E மின்னேற்றம் பெற்ற துகளின் மீது qE விசையை ஏற்படுத்தினாலும், EM அலையின் மின்னியல் புலம் கதிர்வீச்சு அழுத்தத்திற்கு பங்களிக்காது. ஏன்?",
+      "options": [
+        "EM அலைகளில் மின்னியல் புலம் பூஜ்யம் என்பதால்",
+        "மின்னியல் புலம் அதிர்கிறது மற்றும் கால சராசரி விசை பூஜ்யம்",
+        "காந்த புலம் மட்டுமே அழுத்தத்திற்கு பங்களிக்கிறது",
+        "EM அலைகளுக்கு உந்தம் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "The electric field of an EM wave oscillates sinusoidally. The force qE on a charged particle also oscillates, and over one complete cycle, the time-averaged force is zero. However, the wave still transfers energy because energy transfer depends on E^2 which is always positive. | EM அலையின் மின்னியல் புலம் சைன் அலை போல அதிர்கிறது. மின்னேற்றம் பெற்ற துகளின் மீது விசை qE அதிர்கிறது, ஒரு முழு சுழற்சியில் சராசரி விசை பூஜ்யம். ஆனால் ஆற்றல் மாற்றம் E^2 மீது சார்ந்துள்ளதால் நிகழ்கிறது."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலையில் மின்னியல் புலம் மற்றும் காந்த புலம் ஆகியவை தீவிரத்திற்கு செய்யும் பங்களிப்பின் விகிதம் என்ன?",
+      "options": [
+        "c:1",
+        "c^2:1",
+        "1:1",
+        "1:c"
+      ],
+      "correct": 2,
+      "explanation": "The energy density of the electric field is (1/2)ε0E^2 and that of the magnetic field is (1/2μ0)B^2. For an EM wave, E = cB and c = 1/√(μ0ε0), so both energy densities are equal. Therefore, the ratio of contributions to intensity is 1:1. | மின் புலத்தின் ஆற்றல் அடர்த்தி (1/2)ε0E^2 மற்றும் காந்த புலத்தின் ஆற்றல் அடர்த்தி (1/2μ0)B^2. EM அலைக்கு E = cB என்பதால், இரண்டு ஆற்றல் அடர்த்திகளும் சமம். எனவே தீவிரத்திற்கான பங்களிப்பு விகிதம் 1:1."
+    },
+    {
+      "topic": "Chapter 8",
+      "question": "EM அலையின் பரவும் திசை எதன் வழியாக உள்ளது?",
+      "options": [
+        "E",
+        "B",
+        "B × E",
+        "E × B"
+      ],
+      "correct": 3,
+      "explanation": "The direction of propagation of an EM wave is given by the cross product E × B, which is perpendicular to both E and B vectors. This follows from Maxwell's equations and the Poynting vector definition. | EM அலையின் பரவும் திசை E × B குறுக்கு பெருக்கத்தால் கொடுக்கப்படுகிறது, இது E மற்றும் B இரண்டுக்கும் செங்குத்தாக உள்ளது."
+    }
+  ]
+}

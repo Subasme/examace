@@ -1,0 +1,3973 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Physics",
+    "chapter": "Chapter 7",
+    "chapterId": "chapter7",
+    "source": "Chapter7_QA_Tamil.xlsx",
+    "count": 330
+  },
+  "questions": [
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 1 வினா 1)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 1 வினா 2)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 1 வினா 3)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 1 வினா 4)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 1 வினா 5)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 1 வினா 6)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 1 வினா 7)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 1 வினா 8)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 1 வினா 9)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 1 வினா 10)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 2 வினா 1)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 2 வினா 2)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 2 வினா 3)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 2 வினா 4)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 2 வினா 5)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 2 வினா 6)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 2 வினா 7)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 2 வினா 8)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 2 வினா 9)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 2 வினா 10)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 3 வினா 1)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 3 வினா 2)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 3 வினா 3)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 3 வினா 4)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 3 வினா 5)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 3 வினா 6)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 3 வினா 7)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 3 வினா 8)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 3 வினா 9)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 3 வினா 10)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 4 வினா 1)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 4 வினா 2)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 4 வினா 3)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 4 வினா 4)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 4 வினா 5)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 4 வினா 6)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 4 வினா 7)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 4 வினா 8)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 4 வினா 9)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 4 வினா 10)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 5 வினா 1)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 5 வினா 2)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 5 வினா 3)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 5 வினா 4)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 5 வினா 5)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 5 வினா 6)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 5 வினா 7)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 5 வினா 8)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 5 வினா 9)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 5 வினா 10)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 6 வினா 1)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 6 வினா 2)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 6 வினா 3)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 6 வினா 4)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 6 வினா 5)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 6 வினா 6)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 6 வினா 7)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 6 வினா 8)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 6 வினா 9)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 6 வினா 10)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 7 வினா 1)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 7 வினா 2)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 7 வினா 3)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 7 வினா 4)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 7 வினா 5)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 7 வினா 6)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 7 வினா 7)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 7 வினா 8)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 7 வினா 9)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 7 வினா 10)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 8 வினா 1)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 8 வினா 2)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 8 வினா 3)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 8 வினா 4)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 8 வினா 5)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 8 வினா 6)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 8 வினா 7)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 8 வினா 8)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 8 வினா 9)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 8 வினா 10)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 9 வினா 1)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 9 வினா 2)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 9 வினா 3)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 9 வினா 4)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 9 வினா 5)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 9 வினா 6)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 9 வினா 7)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 9 வினா 8)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 9 வினா 9)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 9 வினா 10)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 10 வினா 1)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 10 வினா 2)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 10 வினா 3)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 10 வினா 4)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 10 வினா 5)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 10 வினா 6)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 10 வினா 7)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 10 வினா 8)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 10 வினா 9)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 10 வினா 10)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 11 வினா 1)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 11 வினா 2)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 11 வினா 3)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 11 வினா 4)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 11 வினா 5)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 11 வினா 6)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 11 வினா 7)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 11 வினா 8)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 11 வினா 9)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 11 வினா 10)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 12 வினா 1)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 12 வினா 2)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 12 வினா 3)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 12 வினா 4)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 12 வினா 5)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 12 வினா 6)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 12 வினா 7)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 12 வினா 8)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 12 வினா 9)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 12 வினா 10)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 13 வினா 1)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 13 வினா 2)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 13 வினா 3)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 13 வினா 4)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 13 வினா 5)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 13 வினா 6)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 13 வினா 7)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 13 வினா 8)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 13 வினா 9)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 13 வினா 10)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 14 வினா 1)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 14 வினா 2)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 14 வினா 3)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 14 வினா 4)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 14 வினா 5)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 14 வினா 6)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 14 வினா 7)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 14 வினா 8)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 14 வினா 9)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 14 வினா 10)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 15 வினா 1)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 15 வினா 2)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 15 வினா 3)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 15 வினா 4)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 15 வினா 5)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 15 வினா 6)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 15 வினா 7)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 15 வினா 8)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 15 வினா 9)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 15 வினா 10)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 16 வினா 1)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 16 வினா 2)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 16 வினா 3)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 16 வினா 4)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 16 வினா 5)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 16 வினா 6)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 16 வினா 7)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 16 வினா 8)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 16 வினா 9)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 16 வினா 10)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 17 வினா 1)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 17 வினா 2)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 17 வினா 3)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 17 வினா 4)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 17 வினா 5)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 17 வினா 6)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 17 வினா 7)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 17 வினா 8)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 17 வினா 9)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 17 வினா 10)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 18 வினா 1)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 18 வினா 2)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 18 வினா 3)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 18 வினா 4)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 18 வினா 5)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 18 வினா 6)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 18 வினா 7)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 18 வினா 8)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 18 வினா 9)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 18 வினா 10)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 19 வினா 1)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 19 வினா 2)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 19 வினா 3)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 19 வினா 4)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 19 வினா 5)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 19 வினா 6)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 19 வினா 7)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 19 வினா 8)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 19 வினா 9)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 19 வினா 10)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 20 வினா 1)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 20 வினா 2)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 20 வினா 3)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 20 வினா 4)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 20 வினா 5)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 20 வினா 6)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 20 வினா 7)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 20 வினா 8)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 20 வினா 9)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 20 வினா 10)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 21 வினா 1)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 21 வினா 2)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 21 வினா 3)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 21 வினா 4)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 21 வினா 5)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 21 வினா 6)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 21 வினா 7)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 21 வினா 8)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 21 வினா 9)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 21 வினா 10)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 22 வினா 1)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 22 வினா 2)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 22 வினா 3)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 22 வினா 4)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 22 வினா 5)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 22 வினா 6)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 22 வினா 7)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 22 வினா 8)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 22 வினா 9)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 22 வினா 10)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 23 வினா 1)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 23 வினா 2)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 23 வினா 3)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 23 வினா 4)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 23 வினா 5)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 23 வினா 6)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 23 வினா 7)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 23 வினா 8)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 23 வினா 9)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 23 வினா 10)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 24 வினா 1)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 24 வினா 2)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 24 வினா 3)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 24 வினா 4)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 24 வினா 5)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 24 வினா 6)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 24 வினா 7)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 24 வினா 8)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 24 வினா 9)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 24 வினா 10)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 25 வினா 1)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 25 வினா 2)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 25 வினா 3)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 25 வினா 4)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 25 வினா 5)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 25 வினா 6)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 25 வினா 7)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 25 வினா 8)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 25 வினா 9)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 25 வினா 10)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 26 வினா 1)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 26 வினா 2)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 26 வினா 3)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 26 வினா 4)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 26 வினா 5)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 26 வினா 6)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 26 வினா 7)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 26 வினா 8)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 26 வினா 9)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 26 வினா 10)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 27 வினா 1)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 27 வினா 2)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 27 வினா 3)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 27 வினா 4)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 27 வினா 5)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 27 வினா 6)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 27 வினா 7)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 27 வினா 8)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 27 வினா 9)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 27 வினா 10)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 28 வினா 1)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 28 வினா 2)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 28 வினா 3)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 28 வினா 4)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 28 வினா 5)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 28 வினா 6)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 28 வினா 7)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 28 வினா 8)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 28 வினா 9)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 28 வினா 10)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 29 வினா 1)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 29 வினா 2)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 29 வினா 3)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 29 வினா 4)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 29 வினா 5)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 29 வினா 6)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 29 வினா 7)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 29 வினா 8)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 29 வினா 9)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 29 வினா 10)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 30 வினா 1)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 30 வினா 2)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 30 வினா 3)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 30 வினா 4)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 30 வினா 5)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 30 வினா 6)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 30 வினா 7)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 30 வினா 8)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 30 வினா 9)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 30 வினா 10)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 31 வினா 1)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 31 வினா 2)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 31 வினா 3)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 31 வினா 4)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 31 வினா 5)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 31 வினா 6)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 31 வினா 7)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 31 வினா 8)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பு X_L க்கான வாய்ப்பாடு என்ன? (பக்கம் 31 வினா 9)",
+      "options": [
+        "X_L = 1 / (omega * L)",
+        "X_L = omega * L",
+        "X_L = omega / L",
+        "X_L = L / omega"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reactance is: \n\n X_L = \\omega L \n\n | மின் தூண்டல் மின்மறுப்பு: \n\n X_L = \\omega L"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின் தூண்டல் மின்மறுப்பின் SI அலகு என்ன? (பக்கம் 31 வினா 10)",
+      "options": [
+        "ஹென்றி",
+        "பாரட்",
+        "ஓம்",
+        "டெஸ்லா"
+      ],
+      "correct": 2,
+      "explanation": "The dimension of inductive reactance is the same as that of resistance, so its SI unit is ohm. | மின் தூண்டல் மின்மறுப்பின் பரிமாணம் மின்தடையின் பரிமாணமே ஆகும், எனவே இதன் SI அலகு ஓம் ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுச் சுற்றில் தூய மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் என்ன? (பக்கம் 32 வினா 1)",
+      "options": [
+        "V * I",
+        "சுழி (பூஜ்ஜியம்)",
+        "0.5 * i_m^2 * R",
+        "முடிவிலி"
+      ],
+      "correct": 1,
+      "explanation": "The average power supplied to an inductor over one complete cycle is zero because the current lags the voltage by 90 degrees. | மின்னோட்டம் மின்னழுத்தத்தை விட 90 டிகிரி பின்தங்குவதால், ஒரு முழுச் சுற்றில் மின் தூண்டிக்கு அளிக்கப்பட்ட சராசரி திறன் சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின்தேக்கி கொண்ட AC சுற்றில், மின்னோட்டத்திற்கும் மின்னழுத்தத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 32 வினா 2)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi முந்துகிறது"
+      ],
+      "correct": 0,
+      "explanation": "In a pure capacitor, current leads the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின்தேக்கியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று முந்தியிருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மின்தேக்கி மின்மறுப்பு X_c க்கான கோவை என்ன? (பக்கம் 32 வினா 3)",
+      "options": [
+        "X_c = omega * C",
+        "X_c = 1 / (omega * C)",
+        "X_c = C / omega",
+        "X_c = omega / C"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is: \n\n X_c = 1 / (\\omega C) \n\n | மின்தேக்கி மின்மறுப்பு: \n\n X_c = 1 / (\\omega C)"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "AC மூலத்தின் அதிர்வெண் இருமடங்கானால் மின்தேக்கி மின்மறுப்பு எவ்வாறு மாறும்? (பக்கம் 32 வினா 4)",
+      "options": [
+        "இருமடங்காகும்",
+        "பாதியாகக் குறையும்",
+        "மாற்றமின்றி இருக்கும்",
+        "நான்கு மடங்காக அதிகரிக்கும்"
+      ],
+      "correct": 1,
+      "explanation": "Capacitive reactance is inversely proportional to frequency, so doubling the frequency halves the reactance. | மின்தேக்கி மின்மறுப்பு அதிர்வெண்ணிற்கு எதிர்விகிதத்தில் இருப்பதால், அதிர்வெண் இருமடங்காகும்போது மின்மறுப்பு பாதியாகக் குறையும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு சீரான DC மூலத்துடன் மின்தேக்கி இணைக்கப்படும் போது என்ன நடக்கும்? (பக்கம் 32 வினா 5)",
+      "options": [
+        "மின்னோட்டம் தொடர்ச்சியாகப் பாய்கிறது",
+        "முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டத்தைத் தடுக்கும்",
+        "வெடிக்கும்",
+        "மின்னழுத்தம் சுழியாகக் குறையும்"
+      ],
+      "correct": 1,
+      "explanation": "A capacitor blocks DC in steady state because after getting fully charged, no current flows. | நிலைத்த நிலையில் மின்தேக்கி நேர்திசை மின்னோட்டத்தைத் தடுக்கும், ஏனெனில் முழுமையாக மின்னூட்டம் பெற்ற பின் மின்னோட்டம் பாயாது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு Z க்கான கோவை என்ன? (பக்கம் 32 வினா 6)",
+      "options": [
+        "Z = R + X_L + X_c",
+        "Z = sqrt( R^2 + (X_c - X_L)^2 )",
+        "Z = sqrt( R^2 + X_L^2 + X_c^2 )",
+        "Z = R - X_L - X_c"
+      ],
+      "correct": 1,
+      "explanation": "The impedance of a series LCR circuit is: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2} \n\n | ஒரு தொடர் LCR சுற்றின் மின்மறுப்பு கோவை: \n\n Z = \\sqrt{R^2 + (X_c - X_L)^2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "எந்த நிபந்தனையின் கீழ் ஒரு தொடர் LCR சுற்றில் மின் ஒத்ததிர்வு ஏற்படுகிறது? (பக்கம் 32 வினா 7)",
+      "options": [
+        "X_L = 0",
+        "X_c = 0",
+        "X_L = X_c",
+        "R = 0"
+      ],
+      "correct": 2,
+      "explanation": "Resonance occurs when the inductive reactance equals the capacitive reactance (X_L = X_c). | மின் தூண்டல் மின்மறுப்பும் மின்தேக்கி மின்மறுப்பும் சமமாக இருக்கும்போது (X_L = X_c) ஒத்ததிர்வு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றின் ஒத்ததிர்வு அதிர்வெண் omega_0 க்கான வாய்ப்பாடு என்ன? (பக்கம் 32 வினா 8)",
+      "options": [
+        "omega_0 = L * C",
+        "omega_0 = 1 / sqrt(L * C)",
+        "omega_0 = sqrt(L / C)",
+        "omega_0 = 1 / (L * C)"
+      ],
+      "correct": 1,
+      "explanation": "The resonant angular frequency is: \n\n \\omega_0 = 1 / \\sqrt{LC} \n\n | ஒத்ததிர்வு கோண அதிர்வெண்: \n\n \\omega_0 = 1 / \\sqrt{LC}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தொடர் LCR சுற்றில் ஒத்ததிர்வின் போது திறன் காரணி cos(phi) இன் மதிப்பு என்ன? (பக்கம் 32 வினா 9)",
+      "options": [
+        "சுழி",
+        "0.5",
+        "1",
+        "முடிவிலி"
+      ],
+      "correct": 2,
+      "explanation": "At resonance, the phase difference phi is 0, so the power factor cos(0) = 1. | ஒத்ததிர்வின் போது கட்ட வேறுபாடு phi சுழியாகும், எனவே திறன் காரணி cos(0) = 1."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மூலத்துடன் இணைக்கப்பட்ட ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையிலான கட்டத் தொடர்பு என்ன? (பக்கம் 32 வினா 10)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தம் மின்னோட்டத்தை விட pi/2 முந்துகிறது",
+        "மின்னழுத்தமும் மின்னோட்டமும் ஒரே கட்டத்தில் உள்ளன",
+        "அவை pi கட்ட வேறுபாடு கொண்டுள்ளன"
+      ],
+      "correct": 2,
+      "explanation": "In a pure resistor, the phase angle between voltage and current is zero, meaning they are in phase. | ஒரு தூய மின்தடையில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டக் கோணம் சுழியாகும், அதாவது அவை ஒரே கட்டத்தில் இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு AC மின்தடைச் சுற்றில் பெரும மின்னோட்டம் i_m மற்றும் பெரும மின்னழுத்தம் v_m ஆகியவற்றிற்கு இடையிலான கணிதத் தொடர்பு என்ன? (பக்கம் 33 வினா 1)",
+      "options": [
+        "i_m = v_m * R",
+        "i_m = v_m / R",
+        "i_m = R / v_m",
+        "i_m = v_m / sqrt(2)"
+      ],
+      "correct": 1,
+      "explanation": "Ohm's law holds true for resistive AC circuits giving the relation: \n\n i_m = v_m / R \n\n | மின்தடை கொண்ட AC சுற்றுகளுக்கு ஓம் விதி பொருந்தும், தொடர்பு: \n\n i_m = v_m / R"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சுழலும் காந்தப்புலம், தூண்டல் மோட்டார் மற்றும் AC மின்சாரத்தின் பல்கட்ட அமைப்பைக் கண்டுபிடித்தவர் யார்? (பக்கம் 33 வினா 2)",
+      "options": [
+        "தாமஸ் எடிசன்",
+        "ஜார்ஜ் வெஸ்டிங்ஹவுஸ்",
+        "நிகோலா டெஸ்லா",
+        "ஜேம்ஸ் வாட்"
+      ],
+      "correct": 2,
+      "explanation": "Nikola Tesla conceived the rotating magnetic field and invented the induction motor. | நிகோலா டெஸ்லா சுழலும் காந்தப்புலக் கொள்கையை உருவாக்கி தூண்டல் மோட்டாரைக் கண்டுபிடித்தார்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "நிகோலா டெஸ்லாவின் நினைவாகப் பெயரிடப்பட்ட காந்தப்புலத்தின் SI அலகு எது? (பக்கம் 33 வினா 3)",
+      "options": [
+        "வெபர்",
+        "டெஸ்லா",
+        "ஹென்றி",
+        "பாரட்"
+      ],
+      "correct": 1,
+      "explanation": "The SI unit of magnetic field is Tesla (T). | காந்தப்புலத்தின் SI அலகு டெஸ்லா (T) ஆகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு முழுமையான சுற்றில் மாறுதிசை மின்னோட்டத்தின் கணநேர மதிப்புகளின் கூடுதல் என்ன? (பக்கம் 33 வினா 4)",
+      "options": [
+        "பெரும மதிப்பு",
+        "சுழி (பூஜ்ஜியம்)",
+        "முடிவிலி",
+        "RMS மதிப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The average value of a sinusoidal quantity over a complete cycle is zero. | ஒரு முழுச் சுற்றில் சைன் வடிவ அளவின் சராசரி மதிப்பு சுழியாகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "சராசரி மின்னோட்டம் சுழியாக இருந்தாலும் ஒரு சுற்றில் நுகரப்படும் சராசரி திறன் ஏன் சுழியாவதில்லை? (பக்கம் 33 வினா 5)",
+      "options": [
+        "திறன் மின்னோட்ட வீச்சை மட்டுமே பொறுத்தது",
+        "ஜூல் வெப்பவிளைவு மின்னோட்டத்தின் இருமடியைச் சார்ந்தது, இது எப்போதும் நேர்மறையாகும்",
+        "மின்தடை காலப்போக்கில் மாறுகிறது",
+        "மின்னழுத்தம் எப்போதும் சுழியாகும்"
+      ],
+      "correct": 1,
+      "explanation": "Joule heating depends on i^2, which is always positive whether current is positive or negative. | ஜூல் வெப்பமாதல் i^2 ஐப் பொறுத்தது, இது மின்னோட்டம் நேர்மறையாக இருந்தாலும் எதிர்மறையாக இருந்தாலும் எப்போதும் நேர்மறையாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்புக்கும் (I) பெரும மின்னோட்ட மதிப்புக்கும் (i_m) உள்ள தொடர்பு என்ன? (பக்கம் 33 வினா 6)",
+      "options": [
+        "I = i_m / 2",
+        "I = i_m / sqrt(2)",
+        "I = sqrt(2) * i_m",
+        "I = i_m"
+      ],
+      "correct": 1,
+      "explanation": "The root mean square current is given by: \n\n I = i_m / \\sqrt{2} \n\n | மின்னோட்டத்தின் சராசரி இருமடி மூல மதிப்பு: \n\n I = i_m / \\sqrt{2}"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V வீட்டு மின்னழுத்த விநியோகத்தின் தோராயமான பெரும மின்னழுத்தம் (peak voltage) என்ன? (பக்கம் 33 வினா 7)",
+      "options": [
+        "220 V",
+        "110 V",
+        "311 V",
+        "440 V"
+      ],
+      "correct": 2,
+      "explanation": "Peak voltage is given by: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V \n\n | பெரும மின்னழுத்தம் பின்வருமாறு கணக்கிடப்படுகிறது: \n\n v_m = \\sqrt{2} * V = 1.414 * 220 = 311 V"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "220 V மின்னழுத்த மூலத்தில் 100 W திறன் கொண்ட ஒரு மின்விளக்கு இணைக்கப்பட்டால் அதன் மின்தடை என்ன? (பக்கம் 33 வினா 8)",
+      "options": [
+        "220 ஓம்",
+        "484 ஓம்",
+        "100 ஓம்",
+        "440 ஓம்"
+      ],
+      "correct": 1,
+      "explanation": "Resistance is: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega \n\n | மின்தடை மதிப்பு: \n\n R = V^2 / P = 220^2 / 100 = 484 \\Omega"
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "மாறுதிசை மின்சுற்று பகுப்பாய்வில் 'கட்ட வெக்டர்' (phasor) என்பது என்ன? (பக்கம் 33 வினா 9)",
+      "options": [
+        "ஒரு நிலையான ஸ்கேலார் அளவு",
+        "ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டர்",
+        "ஒரு நேரியல் காலமுறையற்ற கோடு",
+        "நேர்திசை மின்னோட்டத்தைத் தடுக்கும் ஒரு சாதனம்"
+      ],
+      "correct": 1,
+      "explanation": "A phasor is a vector which rotates about the origin with angular speed omega. | கட்ட வெக்டர் என்பது ஆதியைப் பொறுத்து omega கோண வேகத்தில் சுழலும் ஒரு வெக்டராகும்."
+    },
+    {
+      "topic": "Chapter 7",
+      "question": "ஒரு தூய மின் தூண்டல் கொண்ட AC சுற்றில், மின்னழுத்தத்திற்கும் மின்னோட்டத்திற்கும் இடையே உள்ள கட்டத் தொடர்பு என்ன? (பக்கம் 33 வினா 10)",
+      "options": [
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 முந்துகிறது",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi/2 பின்தங்குகிறது",
+        "அவை ஒரே கட்டத்தில் உள்ளன",
+        "மின்னோட்டம் மின்னழுத்தத்தை விட pi பின்தங்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In a pure inductor, current lags the voltage by pi/2 radian or one-quarter of a cycle. | ஒரு தூய மின் தூண்டியில், மின்னோட்டமானது மின்னழுத்தத்தை விட pi/2 ரேடியன் அல்லது கால் பகுதி சுற்று பின்தங்கியிருக்கும்."
+    }
+  ]
+}
