@@ -305,6 +305,74 @@
               "totalQuestions": 3462
             },
             {
+              "id": "chemistry",
+              "label": "Chemistry",
+              "chapters": [
+                {
+                  "id": "chapter1",
+                  "label": "Chapter 1",
+                  "path": "Tamil/12th/Chemistry/chapter1.json",
+                  "count": 350
+                },
+                {
+                  "id": "chapter10",
+                  "label": "Chapter 10",
+                  "path": "Tamil/12th/Chemistry/chapter10.json",
+                  "count": 312
+                },
+                {
+                  "id": "chapter2",
+                  "label": "Chapter 2",
+                  "path": "Tamil/12th/Chemistry/chapter2.json",
+                  "count": 400
+                },
+                {
+                  "id": "chapter3",
+                  "label": "Chapter 3",
+                  "path": "Tamil/12th/Chemistry/chapter3.json",
+                  "count": 357
+                },
+                {
+                  "id": "chapter4",
+                  "label": "Chapter 4",
+                  "path": "Tamil/12th/Chemistry/chapter4.json",
+                  "count": 377
+                },
+                {
+                  "id": "chapter5",
+                  "label": "Chapter 5",
+                  "path": "Tamil/12th/Chemistry/chapter5.json",
+                  "count": 277
+                },
+                {
+                  "id": "chapter6",
+                  "label": "Chapter 6",
+                  "path": "Tamil/12th/Chemistry/chapter6.json",
+                  "count": 407
+                },
+                {
+                  "id": "chapter7",
+                  "label": "Chapter 7",
+                  "path": "Tamil/12th/Chemistry/chapter7.json",
+                  "count": 464
+                },
+                {
+                  "id": "chapter8",
+                  "label": "Chapter 8",
+                  "path": "Tamil/12th/Chemistry/chapter8.json",
+                  "count": 349
+                },
+                {
+                  "id": "chapter9",
+                  "label": "Chapter 9",
+                  "path": "Tamil/12th/Chemistry/chapter9.json",
+                  "count": 234
+                }
+              ],
+              "allChaptersPath": "Tamil/12th/Chemistry/all-chapters.json",
+              "totalQuestions": 3527
+            },
+            {
               "id": "physics",
               "label": "Physics",
               "chapters": [

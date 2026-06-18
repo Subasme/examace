@@ -1,0 +1,2821 @@
+{
+  "meta": {
+    "language": "Tamil",
+    "standard": "12th",
+    "subject": "Chemistry",
+    "chapter": "Chapter 9",
+    "chapterId": "chapter9",
+    "source": "Chapter9.xlsx",
+    "count": 234
+  },
+  "questions": [
+    {
+      "topic": "Chapter 9",
+      "question": "ஆமோனியாவின் இரண்டு ஹைட்ரஜன் அணுக்கள் ஆல்கைல் குழுக்களால் மாற்றப்பட்டால், எந்த வகை அமீன் உருவாகும்?",
+      "options": [
+        "முதன்மை அமீன்",
+        "இரண்டாம்நிலை அமீன்",
+        "மூன்றாம்நிலை அமீன்",
+        "குவாட்டர்னரி அமோனியம் உப்பு"
+      ],
+      "correct": 1,
+      "explanation": "When two hydrogen atoms of ammonia are replaced by alkyl or aryl groups, a secondary amine (R2NH) is formed. | ஆமோனியாவின் இரண்டு ஹைட்ரஜன் அணுக்கள் ஆல்கைல் அல்லது அரைல் குழுக்களால் மாற்றப்படும்போது, இரண்டாம்நிலை அமீன் (R2NH) உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "மூன்றாம்நிலை அமீனின் பொது வாய்ப்பாடு எது?",
+      "options": [
+        "RNH2",
+        "R2NH",
+        "R3N",
+        "R4NX"
+      ],
+      "correct": 2,
+      "explanation": "Tertiary amines have the general formula R3N where all three hydrogen atoms of ammonia are replaced by alkyl or aryl groups. | மூன்றாம்நிலை அமீன்களின் பொது வாய்ப்பாடு R3N ஆகும், இங்கு ஆமோனியாவின் மூன்று ஹைட்ரஜன் அணுக்களும் ஆல்கைல் அல்லது அரைல் குழுக்களால் மாற்றப்பட்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனைத்து ஆல்கைல் அல்லது அரைல் குழுக்களும் வேறுபட்டவையாக இருக்கும்போது, அமீன்களை என்னவென்று அழைக்கிறோம்?",
+      "options": [
+        "எளிய அமீன்கள்",
+        "கலப்பு அமீன்கள்",
+        "முதன்மை அமீன்கள்",
+        "இரண்டாம்நிலை அமீன்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Amines are called 'mixed' when all the alkyl or aryl groups are different, and 'simple' when they are the same. | ஆல்கைல் அல்லது அரைல் குழுக்கள் வேறுபட்டவையாக இருக்கும்போது 'கலப்பு' அமீன்கள், ஒரே மாதிரியாக இருக்கும்போது 'எளிய' அமீன்கள் என்று அழைக்கப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பொதுவான முறையில், CH3NH2 எவ்வாறு பெயரிடப்படுகிறது?",
+      "options": [
+        "மீத்தேனமீன்",
+        "மீத்தைலமீன்",
+        "அமினோமீத்தேன்",
+        "N-மீத்தைலமீத்தேனமீன்"
+      ],
+      "correct": 1,
+      "explanation": "In the common system, aliphatic amines are named by prefixing the alkyl group to amine as one word. CH3NH2 is called methylamine. | பொதுவான முறையில், ஆலிஃபாட்டிக் அமீன்கள் ஆல்கைல் குழுவை 'amine' என்பதற்கு முன்னொட்டாக ஒரு சொல்லாகப் பெயரிடப்படுகின்றன. CH3NH2 methylamine என்று அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "IUPAC முறையில், முதன்மை அமீன்களுக்குப் பெயரிடும்போது 'alkane' இல் உள்ள எந்த எழுத்து 'amine' என்று மாற்றப்படுகிறது?",
+      "options": [
+        "a",
+        "e",
+        "n",
+        "l"
+      ],
+      "correct": 1,
+      "explanation": "In IUPAC system, primary amines are named as alkanamines by replacing the 'e' of alkane with the word 'amine'. | IUPAC முறையில், முதன்மை அமீன்கள் alkanamine என்று பெயரிடப்படுகின்றன, இங்கு alkane இல் உள்ள 'e' எழுத்து 'amine' என்ற சொல்லால் மாற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "(CH3CH2)3N இன் IUPAC பெயர் என்ன?",
+      "options": [
+        "ட்ரைத்தைலமீன்",
+        "N,N-டைத்தைலெத்தேனமீன்",
+        "N,N,N-ட்ரைத்தைலமீன்",
+        "ட்ரைத்தைலெத்தேனமீன்"
+      ],
+      "correct": 1,
+      "explanation": "For tertiary amines, the locant N is used to designate substituents on nitrogen. (CH3CH2)3N is N,N-diethylethanamine. | மூன்றாம்நிலை அமீன்களுக்கு, நைட்ரஜனில் உள்ள பதிலிகளைக் குறிக்க N என்ற இடக்குறியீடு பயன்படுத்தப்படுகிறது. (CH3CH2)3N N,N-diethylethanamine என்று பெயரிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அரைலமீன்களில், NH2 குழு எதனுடன் நேரடியாக இணைக்கப்பட்டுள்ளது?",
+      "options": [
+        "ஆல்கேன் வளையம்",
+        "பென்சீன் வளையம்",
+        "ஆல்கைன் சங்கிலி",
+        "ஈதர் குழு"
+      ],
+      "correct": 1,
+      "explanation": "In arylamines, the NH2 group is directly attached to the benzene ring. C6H5NH2 is the simplest example. | அரைலமீன்களில், NH2 குழு பென்சீன் வளையத்துடன் நேரடியாக இணைக்கப்பட்டுள்ளது. C6H5NH2 எளியதமான எடுத்துக்காட்டாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ட்ரைமீத்தைலமீனில் C-N-C கோணத்தின் மதிப்பு என்ன?",
+      "options": [
+        "109.5 டிகிரி",
+        "120 டிகிரி",
+        "108 டிகிரி",
+        "90 டிகிரி"
+      ],
+      "correct": 2,
+      "explanation": "Due to the unshared electron pair on nitrogen, the C-N-E angle is less than 109.5 degrees. In trimethylamine it is 108 degrees. | நைட்ரஜனில் உள்ள பகிரப்படாத எலக்ட்ரான் ஜோடி காரணமாக, C-N-E கோணம் 109.5 டிகிரியை விடக் குறைவாக இருக்கும். ட்ரைமீத்தைலமீனில் இது 108 டிகிரி."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களில் நைட்ரஜன் அணுவின் ஹைபிரிடைசேஷன் நிலை எது?",
+      "options": [
+        "sp",
+        "sp2",
+        "sp3",
+        "dsp2"
+      ],
+      "correct": 2,
+      "explanation": "Nitrogen orbitals in amines are sp3 hybridised, and the geometry of amines is pyramidal due to the unshared electron pair. | அமீன்களில் நைட்ரஜனின் ஆர்பிட்டல்கள் sp3 ஹைபிரிடைஸ் செய்யப்பட்டுள்ளன, மேலும் பகிரப்படாத எலக்ட்ரான் ஜோடி காரணமாக அமீன்களின் வடிவியல் பிரமிடு வடிவமாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரோ சேர்மங்களை அமீன்களாகக் குறைக்கும் முறையில், FeCl2 உருவாகி ஹைட்ரோலைஸ் செய்யப்படுவதால் என்ன நன்மை உள்ளது?",
+      "options": [
+        "வினையின் வேகம் அதிகரிக்கிறது",
+        "HCl மீண்டும் விடுவிக்கப்படுவதால் குறைந்த அளவு HCl மட்டுமே தேவை",
+        "வினை வெப்பநிலை குறைகிறது",
+        "தூய்மையான தயாரிப்பு கிடைக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "Reduction with iron scrap and HCl is preferred because FeCl2 formed gets hydrolysed to release HCl during the reaction, so only a small amount of HCl is needed to initiate. | இரும்புத் துண்டுகள் மற்றும் HCl மூலம் குறைப்பது விரும்பத்தக்கது, ஏனெனில் உருவாகும் FeCl2 ஹைட்ரோலைஸ் செய்யப்பட்டு வினையின் போது HCl-ஐ விடுவிக்கிறது, எனவே வினையைத் தொடங்க குறைந்த அளவு HCl மட்டுமே தேவை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டயசோனியம் உப்புகளின் பொதுவான சூத்திரம் என்ன?",
+      "options": [
+        "R-NH2+X-",
+        "R-N2+X-",
+        "R-NO2+X-",
+        "R-CN+X-"
+      ],
+      "correct": 1,
+      "explanation": "The general formula of diazonium salts is R-N2+X- where R stands for an aryl group and X- may be Cl-, Br-, HSO4-, BF4- etc. | டயசோனியம் உப்புகளின் பொதுவான சூத்திரம் R-N2+X- ஆகும், இங்கு R ஒரு அரைல் குழுவையும், X- என்பது Cl-, Br-, HSO4-, BF4- போன்றவற்றையும் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "C6H5N2+Cl- இன் IUPAC பெயர் என்ன?",
+      "options": [
+        "பென்சைல் குளோரைடு",
+        "பென்சீன்டயசோனியம் குளோரைடு",
+        "ஃபினைல் டயசோனியம் உப்பு",
+        "அனிலின் ஹைட்ரோகுளோரைடு"
+      ],
+      "correct": 1,
+      "explanation": "C6H5N2+Cl- is named as benzenediazonium chloride by suffixing 'diazonium' to the parent hydrocarbon followed by the anion name. | C6H5N2+Cl- என்பது பென்சீன்டயசோனியம் குளோரைடு என அழைக்கப்படுகிறது. இது பெற்றோர் ஹைட்ரோகார்பனின் பெயருக்கு 'டயசோனியம்' என்ற பின்னொட்டைச் சேர்த்து, அதைத் தொடர்ந்து அனயனின் பெயரைக் கொண்டு பெயரிடப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எந்த அமீன்கள் மிகவும் நிலையற்ற டயசோனியம் உப்புகளை உருவாக்குகின்றன?",
+      "options": [
+        "முதல்நிலை அரோமாட்டிக் அமீன்கள்",
+        "இரண்டாம் நிலை அலிபாட்டிக் அமீன்கள்",
+        "முதல்நிலை அலிபாட்டிக் அமீன்கள்",
+        "மூன்றாம் நிலை அமீன்கள்"
+      ],
+      "correct": 2,
+      "explanation": "Primary aliphatic amines form highly unstable alkyldiazonium salts, whereas primary aromatic amines form relatively stable arenediazonium salts at low temperatures. | முதல்நிலை அலிபாட்டிக் அமீன்கள் மிகவும் நிலையற்ற அல்கைல்டயசோனியம் உப்புகளை உருவாக்குகின்றன, அதே சமயம் முதல்நிலை அரோமாட்டிக் அமீன்கள் குறைந்த வெப்பநிலைகளில் ஒப்பீட்டளவில் நிலையான அரீன்டயசோனியம் உப்புகளை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அரீன்டயசோனியம் உப்புகள் எந்த வெப்பநிலை வரம்பில் நிலையாக இருக்கும்?",
+      "options": [
+        "273-278 K",
+        "298-303 K",
+        "323-328 K",
+        "373-378 K"
+      ],
+      "correct": 0,
+      "explanation": "Arenediazonium salts are stable for a short time in solution at low temperatures of 273-278 K. Above this temperature, they decompose readily. | அரீன்டயசோனியம் உப்புகள் 273-278 K குறைந்த வெப்பநிலையில் கரைசலில் குறுகிய காலத்திற்கு நிலையாக இருக்கும். இந்த வெப்பநிலையைக் கடந்தால், அவை எளிதாக சிதைவடையும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதல்நிலை அரோமாட்டிக் அமீன்களை டயசோனியம் உப்புகளாக மாற்றும் செயல்முறைக்கு என்ன பெயர்?",
+      "options": [
+        "அம்மோனோலிசிஸ்",
+        "டயசோட்டிசேஷன்",
+        "இணைப்பு வினை",
+        "சாண்ட்மேயர் வினை"
+      ],
+      "correct": 1,
+      "explanation": "The conversion of primary aromatic amines into diazonium salts is known as diazotisation. This is done by reacting aniline with nitrous acid at 273-278 K. | முதல்நிலை அரோமாட்டிக் அமீன்களை டயசோனியம் உப்புகளாக மாற்றுவது டயசோட்டிசேஷன் என்று அழைக்கப்படுகிறது. இது 273-278 K வெப்பநிலையில் அனிலினை நைட்ரஸ் அமிலத்துடன் சேர்த்து செய்யப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டயசோட்டிசேஷனுக்காக நைட்ரஸ் அமிலம் எவ்வாறு தயாரிக்கப்படுகிறது?",
+      "options": [
+        "NaNO3 + H2SO4",
+        "NaNO2 + HCl",
+        "HNO3 + NaOH",
+        "NH4Cl + NaNO2"
+      ],
+      "correct": 1,
+      "explanation": "Nitrous acid is produced in the reaction mixture by the reaction of sodium nitrite (NaNO2) with hydrochloric acid (HCl). | நைட்ரஸ் அமிலம் சோடியம் நைட்ரைட்டை (NaNO2) ஹைட்ரோகுளோரிக் அமிலத்துடன் (HCl) சேர்த்து வினைபுரிவதன் மூலம் வினைக்கலவையில் உருவாக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டயசோனியம் உப்பு தயாரித்த பிறகு ஏன் பொதுவாக சேமிக்கப்படுவதில்லை?",
+      "options": [
+        "அது மிகவும் விலையுயர்ந்தது",
+        "அது நிலையற்றது மற்றும் எளிதாக சிதைவடையும்",
+        "அது கண்ணாடி கொள்கலன்களுடன் வினைபுரியும்",
+        "அது மிகவும் நச்சுத்தன்மை கொண்டது"
+      ],
+      "correct": 1,
+      "explanation": "Due to its instability, the diazonium salt is not generally stored and is used immediately after its preparation. It decomposes easily in the dry state and reacts with water when warmed. | அதன் நிலையற்ற தன்மை காரணமாக, டயசோனியம் உப்பு பொதுவாக சேமிக்கப்படுவதில்லை மற்றும் தயாரித்த உடனேயே பயன்படுத்தப்படுகிறது. இது உலர்ந்த நிலையில் எளிதாக சிதைவடைந்து, சூடாக்கும்போது நீருடன் வினைபுரிகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சீன்டயசோனியம் குளோரைடின் இயற்பியல் நிலை என்ன?",
+      "options": [
+        "வண்ணமற்ற திரவம்",
+        "வெள்ளைத் தூள்",
+        "வண்ணமற்ற படிகத் திண்மம்",
+        "வெளிர் மஞ்சள் வாயு"
+      ],
+      "correct": 2,
+      "explanation": "Benzenediazonium chloride is a colourless crystalline solid that is readily soluble in water and stable in cold conditions. | பென்சீன்டயசோனியம் குளோரைடு ஒரு வண்ணமற்ற படிகத் திண்மமாகும், இது நீரில் எளிதாக கரைந்து, குளிர்ந்த நிலையில் நிலையாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எந்த டயசோனியம் உப்பு நீரில் கரையாதது மற்றும் அறை வெப்பநிலையில் நிலையாக உள்ளது?",
+      "options": [
+        "பென்சீன்டயசோனியம் குளோரைடு",
+        "பென்சீன்டயசோனியம் புரோமைடு",
+        "பென்சீன்டயசோனியம் ஃப்ளூரோபோரேட்",
+        "பென்சீன்டயசோனியம் ஹைட்ரஜன்சல்பேட்"
+      ],
+      "correct": 2,
+      "explanation": "Benzenediazonium fluoroborate is water insoluble and stable at room temperature, unlike benzenediazonium chloride which is water soluble. | பென்சீன்டயசோனியம் ஃப்ளூரோபோரேட் நீரில் கரையாதது மற்றும் அறை வெப்பநிலையில் நிலையாக இருக்கிறது, நீரில் கரையக்கூடிய பென்சீன்டயசோனியம் குளோரைடுக்கு மாறாக."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சாண்ட்மேயர் வினையில், ஹேலைடுகளை பென்சீன் வளையத்தில் அறிமுகப்படுத்த எந்த அயனி பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "Cu(II) அயனி",
+        "Fe(III) அயனி",
+        "Cu(I) அயனி",
+        "Ni(II) அயனி"
+      ],
+      "correct": 2,
+      "explanation": "In Sandmeyer reaction, Cl-, Br-, and CN- nucleophiles are introduced into the benzene ring in the presence of Cu(I) ion. This is a displacement of nitrogen reaction. | சாண்ட்மேயர் வினையில், Cl-, Br-, மற்றும் CN- நியூக்ளியோஃபைல்கள் Cu(I) அயனியின் முன்னிலையில் பென்சீன் வளையத்தில் அறிமுகப்படுத்தப்படுகின்றன. இது நைட்ரஜன் இடமாற்று வினையாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டயசோனியம் உப்பு ஹைபோபாஸ்ஃபரஸ் அமிலத்துடன் சேர்க்கப்படும்போது என்ன விளைபொருள் கிடைக்கிறது?",
+      "options": [
+        "அரைல் ஹேலைடு",
+        "அரைல் ஆல்கஹால்",
+        "அரீன்",
+        "அரைல் நைட்ரோ சேர்மம்"
+      ],
+      "correct": 2,
+      "explanation": "Mild reducing agents like hypophosphorous acid (H3PO2) reduce diazonium salts to arenes, with nitrogen being replaced by hydrogen. The reducing agent gets oxidised to phosphorous acid. | ஹைபோபாஸ்ஃபரஸ் அமிலம் (H3PO2) போன்ற மிதமான ஒடுக்கும் முகவர்கள் டயசோனியம் உப்புகளை அரீன்களாக ஒடுக்குகின்றன, நைட்ரஜன் ஹைட்ரஜனால் மாற்றப்படுகிறது. ஒடுக்கும் முகவர் பாஸ்ஃபரஸ் அமிலமாக ஆக்ஸிஜனேற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சாண்ட்மேயர் மற்றும் கேட்டர்மன் வினைகளில் எதற்கு சிறந்த விளைச்சல் கிடைக்கிறது?",
+      "options": [
+        "சாண்ட்மேயர் வினை",
+        "கேட்டர்மன் வினை",
+        "இரண்டும் சமமான விளைச்சல்",
+        "விளைச்சல் வெப்பநிலையைப் பொறுத்தது மட்டுமே"
+      ],
+      "correct": 0,
+      "explanation": "The yield in Sandmeyer reaction is found to be better than Gattermann reaction. Sandmeyer uses Cu(I) salts while Gattermann uses copper powder with halogen acid. | சாண்ட்மேயர் வினையின் விளைச்சல் கேட்டர்மன் வினையை விட சிறந்ததாகக் காணப்படுகிறது. சாண்ட்மேயர் Cu(I) உப்புகளைப் பயன்படுத்துகிறது, அதே சமயம் கேட்டர்மன் காப்பர் தூளை ஹேலஜன் அமிலத்துடன் பயன்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டயசோனியம் உப்புகளின் இணைப்பு வினை எந்த வகை வினையாகும்?",
+      "options": [
+        "நியூக்ளியோஃபிலிக் மாற்று",
+        "எலக்ட்ராஃபிலிக் மாற்று",
+        "சுதந்திர முறை மாற்று",
+        "கூட்டல் வினை"
+      ],
+      "correct": 1,
+      "explanation": "Coupling reaction of diazonium salts with phenols or arylamines is an example of electrophilic substitution reaction. The diazonium ion acts as an electrophile. | டயசோனியம் உப்புகளின் இணைப்பு வினை, ஃபினால்களுடன் அல்லது அரைலமீன்களுடன் எலக்ட்ராஃபிலிக் மாற்று வினையின் எடுத்துக்காட்டாகும். டயசோனியம் அயனி ஒரு எலக்ட்ராஃபைலாக செயல்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "p-ஹைட்ராக்ஸியசோபென்சீன் சாயத்தின் நிறம் என்ன?",
+      "options": [
+        "சிவப்பு",
+        "ஆரஞ்சு",
+        "மஞ்சள்",
+        "நீலம்"
+      ],
+      "correct": 1,
+      "explanation": "p-Hydroxyazobenzene is an orange dye formed by coupling benzenediazonium chloride with phenol at the para position. | p-ஹைட்ராக்ஸியசோபென்சீன் ஒரு ஆரஞ்சு நிற சாயமாகும், இது பென்சீன்டயசோனியம் குளோரைடை ஃபினாலுடன் பாரா இடத்தில் இணைப்பதன் மூலம் உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "p-அமினோஅசோபென்சீன் சாயத்தின் நிறம் என்ன?",
+      "options": [
+        "சிவப்பு",
+        "ஆரஞ்சு",
+        "மஞ்சள்",
+        "பச்சை"
+      ],
+      "correct": 2,
+      "explanation": "p-Aminoazobenzene is a yellow dye formed by coupling benzenediazonium chloride with aniline. | p-அமினோஅசோபென்சீன் ஒரு மஞ்சள் நிற சாயமாகும், இது பென்சீன்டயசோனியம் குளோரைடை அனிலினுடன் இணைப்பதன் மூலம் உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டயசோனியம் உப்புக் கரைசல் 283 K க்கு மேல் சூடாக்கப்படும்போது என்ன நடக்கிறது?",
+      "options": [
+        "அது அரைல் ஹேலைடை உருவாக்குகிறது",
+        "அது ஃபினாலாக நீராற்றப்படுகிறது",
+        "அது அசோ சாயத்தை உருவாக்குகிறது",
+        "அது நிலையாக இருக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "If the temperature of the diazonium salt solution is allowed to rise up to 283 K, the salt gets hydrolysed to phenol, with nitrogen gas being liberated. | டயசோனியம் உப்புக் கரைசலின் வெப்பநிலை 283 K க்கு மேல் உயர்ந்தால், உப்பு ஃபினாலாக நீராற்றப்படுகிறது, நைட்ரஜன் வாயு விடுவிக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டயசோனியம் குழுவை ஹைட்ரஜனால் மாற்றுவதற்கு எந்த ஒடுக்கும் முகவர் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "LiAlH4",
+        "NaBH4",
+        "ஹைபோபாஸ்ஃபரஸ் அமிலம்",
+        "Zn/HCl"
+      ],
+      "correct": 2,
+      "explanation": "Hypophosphorous acid (H3PO2) or ethanol are mild reducing agents that reduce diazonium salts to arenes by replacing the diazonium group with hydrogen. | ஹைபோபாஸ்ஃபரஸ் அமிலம் (H3PO2) அல்லது எத்தனால் ஆகியவை மிதமான ஒடுக்கும் முகவர்களாகும், இவை டயசோனியம் உப்புகளை டயசோனியம் குழுவை ஹைட்ரஜனால் மாற்றுவதன் மூலம் அரீன்களாக ஒடுக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டயசோனியம் உப்பு KI உடன் வினைபுரியும்போது என்ன விளைபொருள் கிடைக்கிறது?",
+      "options": [
+        "அரைல் குளோரைடு",
+        "அரைல் புரோமைடு",
+        "அரைல் அயோடைடு",
+        "அரைல் ஃப்ளூரைடு"
+      ],
+      "correct": 2,
+      "explanation": "When diazonium salt solution is treated with potassium iodide (KI), aryl iodide is formed along with nitrogen gas. This is a replacement by iodide ion reaction. | டயசோனியம் உப்புக் கரைசலை பொட்டாசியம் அயோடைடு (KI) உடன் சேர்க்கும்போது, அரைல் அயோடைடு நைட்ரஜன் வாயுவுடன் உருவாகிறது. இது அயோடைடு அயனி மூலம் இடமாற்று வினையாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சீன்டையசோனியம் குளோரைடின் இயற்பியல் தோற்றம் என்ன?",
+      "options": [
+        "மஞ்சள் நிற படிகத் திண்மம்",
+        "நிறமற்ற படிகத் திண்மம்",
+        "வெள்ளை நிற தூள்",
+        "பழுப்பு நிற திரவம்"
+      ],
+      "correct": 1,
+      "explanation": "According to the text, benzenediazonium chloride is a colourless crystalline solid. | உரையின்படி, பென்சீன்டையசோனியம் குளோரைடு நிறமற்ற படிகத் திண்மமாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எந்த டையசோனியம் உப்பு நீரில் கரையாதது மற்றும் அறை வெப்பநிலையில் நிலையானது?",
+      "options": [
+        "பென்சீன்டையசோனியம் குளோரைடு",
+        "பென்சீன்டையசோனியம் புரோமைடு",
+        "பென்சீன்டையசோனியம் புளூரோபோரேட்",
+        "பென்சீன்டையசோனியம் அயோடைடு"
+      ],
+      "correct": 2,
+      "explanation": "The text states that benzenediazonium fluoroborate is water insoluble and stable at room temperature, unlike the chloride which is soluble in water. | உரையின்படி, பென்சீன்டையசோனியம் புளூரோபோரேட் நீரில் கரையாதது மற்றும் அறை வெப்பநிலையில் நிலையானது, குளோரைடு நீரில் கரையக்கூடியது என்பதற்கு மாறாக."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையசோனியம் உப்புகளின் வினைகள் எத்தனை பரந்த வகைகளாகப் பிரிக்கப்பட்டுள்ளன?",
+      "options": [
+        "ஒன்று",
+        "இரண்டு",
+        "மூன்று",
+        "நான்கு"
+      ],
+      "correct": 1,
+      "explanation": "The text clearly states that reactions of diazonium salts can be broadly divided into two categories: (A) reactions involving displacement of nitrogen and (B) reactions involving retention of diazo group. | உரையின்படி, டையசோனியம் உப்புகளின் வினைகள் பரந்த அடிப்படையில் இரண்டு வகைகளாகப் பிரிக்கப்படுகின்றன: (A) நைட்ரஜன் இடப்பெயர்ச்சியை உள்ளடக்கிய வினைகள் மற்றும் (B) டையசோ குழுவைத் தக்கவைத்துக் கொள்ளும் வினைகள்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Cu(I) அயனி பயன்படுத்தி பென்சீன் வளையத்தில் Cl-, Br-, மற்றும் CN- அறிமுகப்படுத்தப்படும் வினையின் பெயர் என்ன?",
+      "options": [
+        "கேட்டர்மேன் வினை",
+        "சாண்ட்மேயர் வினை",
+        "ஹாஃப்மேன் வினை",
+        "கேப்ரியல் தொகுப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The Sandmeyer reaction involves the introduction of Cl-, Br-, and CN- nucleophiles into the benzene ring in the presence of Cu(I) ion. The Gattermann reaction uses copper powder with halogen acids instead. | சாண்ட்மேயர் வினையில் Cu(I) அயனி இருப்பதால் Cl-, Br-, மற்றும் CN- நியூக்ளியோஃபைல்கள் பென்சீன் வளையத்தில் அறிமுகப்படுத்தப்படுகின்றன. கேட்டர்மேன் வினையில் செம்பு தூள் மற்றும் ஹாலஜன் அமிலங்கள் பயன்படுத்தப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "குளோரினை பென்சீன் வளையத்தில் அறிமுகப்படுத்த கேட்டர்மேன் வினையில் எந்த வினைப்பொருள் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "CuCl மட்டும்",
+        "செம்பு தூள் மற்றும் HCl",
+        "Fe மற்றும் HCl",
+        "Ni மற்றும் HCl"
+      ],
+      "correct": 1,
+      "explanation": "The Gattermann reaction treats the diazonium salt solution with halogen acid (HCl or HBr) in the presence of copper powder. This is different from Sandmeyer reaction which uses Cu(I) salts. | கேட்டர்மேன் வினையில் டையசோனியம் உப்பு கரைசலை செம்பு தூள் இருப்பதால் ஹாலஜன் அமிலத்துடன் (HCl அல்லது HBr) சேர்த்து செயல்படுத்துகிறார்கள். இது Cu(I) உப்புகளைப் பயன்படுத்தும் சாண்ட்மேயர் வினையிலிருந்து வேறுபடுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஹாலைடுகளை பென்சீன் வளையத்தில் அறிமுகப்படுத்துவதற்கு எந்த வினை சிறந்த விளைச்சலைத் தருகிறது?",
+      "options": [
+        "கேட்டர்மேன் வினை",
+        "சாண்ட்மேயர் வினை",
+        "இரண்டும் சமமான விளைச்சலைத் தருகின்றன",
+        "இரண்டும் நல்ல விளைச்சலைத் தருவதில்லை"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the yield in Sandmeyer reaction is found to be better than Gattermann reaction. | உரையில் தெளிவாகக் குறிப்பிடப்பட்டுள்ளபடி, சாண்ட்மேயர் வினையின் விளைச்சல் கேட்டர்மேன் வினையை விட சிறந்ததாகக் காணப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எந்த ஹாலஜனை நேரடியாக பென்சீன் வளையத்தில் அறிமுகப்படுத்துவது கடினம், ஆனால் டையசோனியம் உப்புகள் வழியாக அறிமுகப்படுத்த முடியும்?",
+      "options": [
+        "குளோரின்",
+        "புரோமின்",
+        "அயோடின்",
+        "புளூரைன்"
+      ],
+      "correct": 2,
+      "explanation": "The text states that iodine is not easily introduced into the benzene ring directly, but when the diazonium salt solution is treated with potassium iodide, iodobenzene is formed. | உரையின்படி, அயோடினை நேரடியாக பென்சீன் வளையத்தில் அறிமுகப்படுத்துவது எளிதல்ல, ஆனால் டையசோனியம் உப்பு கரைசலை பொட்டாசியம் அயோடைடுடன் சேர்க்கும்போது அயோடோபென்சீன் உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஹைபோஃபாஸ்பரஸ் அமிலம் (H3PO2) பயன்படுத்தி டையசோனியம் உப்பைக் குறைக்கும்போது என்ன விளைபொருள் உருவாகிறது?",
+      "options": [
+        "ஃபினால்",
+        "அரீல் ஹாலைடு",
+        "அரீன் (பென்சீன் வழிப்பொருள்)",
+        "நைட்ரோ சேர்மம்"
+      ],
+      "correct": 2,
+      "explanation": "Hypophosphorous acid (phosphinic acid) reduces diazonium salts to arenes (ArH), and itself gets oxidised to phosphorous acid (H3PO3). The diazo group is replaced by hydrogen. | ஹைபோஃபாஸ்பரஸ் அமிலம் (பாஸ்பினிக் அமிலம்) டையசோனியம் உப்புகளை அரீன்களாக (ArH) குறைக்கிறது, மேலும் அது ஃபாஸ்பரஸ் அமிலமாக (H3PO3) ஆக்சிஜனேற்றம் அடைகிறது. டையசோ குழு ஹைட்ரஜனால் மாற்றியமைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையசோனியம் உப்பு எந்த வெப்பநிலையில் நீரால் பிரித்து ஃபினாலாக மாறுகிறது?",
+      "options": [
+        "273K",
+        "278K",
+        "283K",
+        "298K"
+      ],
+      "correct": 2,
+      "explanation": "The text states that if the temperature of the diazonium salt solution is allowed to rise up to 283K, the salt gets hydrolysed to phenol. This is higher than the diazotization temperature of 273-278K. | உரையின்படி, டையசோனியம் உப்பு கரைசலின் வெப்பநிலை 283K வரை உயர்த்தப்பட்டால், உப்பு ஃபினாலாக நீரால் பிரிகைக்கு உட்படுகிறது. இது 273-278K உள்ள டையசோட்டைசேஷன் வெப்பநிலையை விட அதிகமாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையசோனியம் உப்புகளின் இணைப்பு வினைகளில் எந்த வகையான விளைபொருள் உருவாகிறது?",
+      "options": [
+        "நிறமற்ற சேர்மங்கள்",
+        "விரிவான இணைப்புடன் கூடிய அசோ சேர்மங்கள்",
+        "எளிய அரோமாட்டிக் ஹைட்ரோகார்பன்கள்",
+        "கார்பாக்சிலிக் அமிலங்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Coupling reactions produce azo compounds that have an extended conjugate system with both aromatic rings joined through the -N=N- bond. These compounds are often coloured and used as dyes. | இணைப்பு வினைகள் விரிவான இணைப்பு அமைப்பைக் கொண்ட அசோ சேர்மங்களை உருவாக்குகின்றன, இரண்டு அரோமாட்டிக் வளையங்களும் -N=N- பிணைப்பு மூலம் இணைக்கப்பட்டுள்ளன. இந்த சேர்மங்கள் பெரும்பாலும் வண்ணமயமானவை மற்றும் சாயங்களாகப் பயன்படுத்தப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பின்வருவனவற்றில் எந்த குழுவை டையசோனியம் உப்புகள் வழியாக அரோமாட்டிக் வளையத்தில் அறிமுகப்படுத்த முடியாது?",
+      "options": [
+        "-F",
+        "-Cl",
+        "-CH3",
+        "-CN"
+      ],
+      "correct": 2,
+      "explanation": "The text lists -F, -Cl, -Br, -I, -CN, -OH, -NO2 as groups that can be introduced via diazonium salts. The methyl group (-CH3) is not mentioned among these. | உரையில் -F, -Cl, -Br, -I, -CN, -OH, -NO2 ஆகிய குழுக்கள் டையசோனியம் உப்புகள் வழியாக அறிமுகப்படுத்தப்படலாம் என்று குறிப்பிடப்பட்டுள்ளது. மெத்தைல் குழு (-CH3) இவற்றில் குறிப்பிடப்படவில்லை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சீன்டையசோனியம் குளோரைடு ஃபினாலுடன் இணைப்பு வினைபுரியும்போது என்ன விளைபொருள் உருவாகிறது?",
+      "options": [
+        "p-அமினோஅசோபென்சீன்",
+        "p-ஹைட்ராக்ஸியஅசோபென்சீன்",
+        "அயோடோபென்சீன்",
+        "நைட்ரோபென்சீன்"
+      ],
+      "correct": 1,
+      "explanation": "Benzene diazonium chloride reacts with phenol at its para position to form p-hydroxyazobenzene (an orange dye). p-Aminoazobenzene is formed when it reacts with aniline. | பென்சீன் டையசோனியம் குளோரைடு ஃபினாலுடன் அதன் பாரா இடத்தில் வினைபுரிந்து p-ஹைட்ராக்ஸியஅசோபென்சீனை (ஆரஞ்சு நிற சாயம்) உருவாக்குகிறது. p-அமினோஅசோபென்சீன் அனிலினுடன் வினைபுரியும்போது உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையசோனியம் உப்புகளை அரீன்களாகக் குறைக்கும்போது எத்தனாலாக ஆக்சிஜனேற்றம் அடையும் குறைப்பு முகவர் எது?",
+      "options": [
+        "ஹைபோஃபாஸ்பரஸ் அமிலம்",
+        "எத்தனால்",
+        "சோடியம் போரோஹைட்ரைடு",
+        "லித்தியம் அலுமினியம் ஹைட்ரைடு"
+      ],
+      "correct": 1,
+      "explanation": "Ethanol reduces diazonium salts to arenes and itself gets oxidised to ethanal (CH3CHO). Hypophosphorous acid gets oxidised to phosphorous acid (H3PO3). | எத்தனால் டையசோனியம் உப்புகளை அரீன்களாகக் குறைத்து, அது எத்தனாலாக (CH3CHO) ஆக்சிஜனேற்றம் அடைகிறது. ஹைபோஃபாஸ்பரஸ் அமிலம் ஃபாஸ்பரஸ் அமிலமாக (H3PO3) ஆக்சிஜனேற்றம் அடைகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையசோனியம் உப்புகளுடன் வினைபுரியும்போது புளூரோபோரிக் அமிலத்தின் (HBF4) பங்கு என்ன?",
+      "options": [
+        "அது ஒரு குறைப்பு முகவராக செயல்படுகிறது",
+        "அது டையசோனியம் புளூரோபோரேட்டை வீழ்படிவாக்கி, சூடாக்கும்போது அரீல் புளூரைடைத் தருகிறது",
+        "அது -NO2 குழுவை அறிமுகப்படுத்துகிறது",
+        "அது டையசோனியம் உப்பை நீரால் பிரித்து ஃபினாலாக மாற்றுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "When arenediazonium chloride is treated with fluoroboric acid, arene diazonium fluoroborate is precipitated which on heating decomposes to yield aryl fluoride. This is the method to introduce fluorine into the aromatic ring. | அரீன்டையசோனியம் குளோரைடு புளூரோபோரிக் அமிலத்துடன் சேர்க்கப்படும்போது, அரீன் டையசோனியம் புளூரோபோரேட் வீழ்படிவாகிறது, அது சூடாக்கப்படும்போது அரீல் புளூரைடைத் தருகிறது. இது அரோமாட்டிக் வளையத்தில் புளூரைனை அறிமுகப்படுத்தும் முறையாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையசோனியம் குழுவை -NO2 ஆல் மாற்றியமைக்க, நீர்த்த சோடியம் நைட்ரைடு மற்றும் செம்புடன் எந்த சேர்மம் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "பென்சீன்டையசோனியம் குளோரைடு",
+        "பென்சீன்டையசோனியம் புளூரோபோரேட்",
+        "பென்சீன்டையசோனியம் புரோமைடு",
+        "பென்சீன்டையசோனியம் அயோடைடு"
+      ],
+      "correct": 1,
+      "explanation": "When diazonium fluoroborate is heated with aqueous sodium nitrite solution in the presence of copper, the diazonium group is replaced by -NO2 group. The fluoroborate salt is specifically required for this transformation. | டையசோனியம் புளூரோபோரேட் செம்பு இருப்பதால் நீர்த்த சோடியம் நைட்ரைட் கரைசலுடன் சூடாக்கப்படும்போது, டையசோனியம் குழு -NO2 குழுவால் மாற்றியமைக்கப்படுகிறது. இந்த மாற்றத்திற்கு குறிப்பாக புளூரோபோரேட் உப்பு தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சீன்டையசோனியம் குளோரைடு நிறமற்ற படிகத் திண்மம். இது நீருடன் சூடாக்கப்படும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "இது நிலையாக இருந்து முழுமையாக கரைகிறது",
+        "இது நீருடன் வினைபுரிந்து சிதைவடைகிறது",
+        "இது நீர் மூலக்கூறுகளுடன் வளைய சேர்மமாக மாறுகிறது",
+        "இது பலபடியாக்கம் அடைந்து பெரிய மூலக்கூறாக மாறுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Benzenediazonium chloride is stable in cold but reacts with water when warmed. It decomposes easily in the dry state. | பென்சீன்டையசோனியம் குளோரைடு குளிரில் நிலையானது ஆனால் சூடாக்கப்படும்போது நீருடன் வினைபுரிந்து சிதைவடைகிறது. உலர்ந்த நிலையில் இது எளிதாக சிதைவடைகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சாண்ட்மேயர் வினையில், பென்சீன் வளையத்தில் Cl-, Br-, CN- குழுக்களை அறிமுகப்படுத்த எந்த அயன் வினையூக்கியாகப் பயன்படுகிறது?",
+      "options": [
+        "Fe(III) அயன்",
+        "Cu(I) அயன்",
+        "Ni(II) அயன்",
+        "Zn(II) அயன்"
+      ],
+      "correct": 1,
+      "explanation": "The Sandmeyer reaction uses Cu(I) ion as catalyst to introduce halides and cyanide into the benzene ring by displacing nitrogen from diazonium salts. | சாண்ட்மேயர் வினையில் Cu(I) அயன் வினையூக்கியாகப் பயன்படுத்தப்படுகிறது. இது டையசோனியம் உப்புகளிலிருந்து நைட்ரஜனை விலக்கி வளையத்தில் ஹாலைடுகள் மற்றும் சயனைடை அறிமுகப்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சாண்ட்மேயர் வினைக்கும் கேட்டர்மேன் வினைக்கும் உள்ள முக்கிய வேறுபாடு என்ன?",
+      "options": [
+        "கேட்டர்மேன் வினை Cu(I) உப்புகளுக்குப் பதிலாக செம்புத் தூளைப் பயன்படுத்துகிறது",
+        "சாண்ட்மேயர் வினை கேட்டர்மேனை விட அதிக வெப்பநிலையில் நடைபெறுகிறது",
+        "கேட்டர்மேன் வினை குளோரோபென்சீன் வழிப்பொருட்களை மட்டுமே உருவாக்குகிறது",
+        "சாண்ட்மேயர் UV ஒளியைக் கோருகிறது, கேட்டர்மேன் கோருவதில்லை"
+      ],
+      "correct": 0,
+      "explanation": "The Gatterman reaction uses copper powder with halogen acid instead of Cu(I) salts used in Sandmeyer reaction. The yield in Sandmeyer reaction is better than Gatterman reaction. | கேட்டர்மேன் வினையில் Cu(I) உப்புகளுக்குப் பதிலாக செம்புத் தூள் மற்றும் ஹாலஜன் அமிலம் பயன்படுத்தப்படுகிறது. சாண்ட்மேயர் வினையின் விளைச்சல் கேட்டர்மேன் வினையை விட சிறந்தது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சீன்டையசோனியம் குளோரைடிலிருந்து அயோடோபென்சீன் எவ்வாறு தயாரிக்கப்படுகிறது?",
+      "options": [
+        "KI கரைசலுடன் நேரடியாக சேர்ப்பதன் மூலம்",
+        "அயோடின் மற்றும் சிவப்பு பாஸ்பரஸுடன் சூடாக்குவதன் மூலம்",
+        "CuI மற்றும் HI உடன் வினைபுரிவதன் மூலம்",
+        "அயோடைடு அயன்களின் இருப்பில் மின்பகுளை மூலம்"
+      ],
+      "correct": 0,
+      "explanation": "Iodine is not easily introduced into benzene ring directly, but when diazonium salt solution is treated with potassium iodide, iodobenzene is formed. | அயோடினை நேரடியாக பென்சீன் வளையத்தில் அறிமுகப்படுத்துவது கடினம், ஆனால் டையசோனியம் உப்பு கரைசலை பொட்டாசியம் அயோடைடுடன் சேர்க்கும்போது அயோடோபென்சீன் உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அரீன்டையசோனியம் குளோரைடை புளூரோபோரிக் அமிலத்துடன் சேர்க்கும்போது என்ன விளைபொருள் உருவாகிறது?",
+      "options": [
+        "நேரடியாக அரைல் புளூரைடு",
+        "அரீன்டையசோனியம் புளூரோபோரேட் படிவு",
+        "பென்சீன் மற்றும் நைட்ரஜன் வாயு",
+        "பீனால் மற்றும் HF"
+      ],
+      "correct": 1,
+      "explanation": "When arenediazonium chloride is treated with fluoroboric acid, arenediazonium fluoroborate is precipitated which on heating decomposes to yield aryl fluoride. | அரீன்டையசோனியம் குளோரைடை புளூரோபோரிக் அமிலத்துடன் சேர்க்கும்போது அரீன்டையசோனியம் புளூரோபோரேட் படிவாகிறது. இதைச் சூடாக்கும்போது அரைல் புளூரைடு கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எந்த ஒடுக்கும் முகவர் டையசோனியம் குழுவை ஹைட்ரஜனால் பதிலீடு செய்து டையசோனியம் உப்புகளை அரீன்களாக மாற்றுகிறது?",
+      "options": [
+        "LiAlH4",
+        "NaBH4",
+        "ஹைபோபாஸ்பரஸ் அமிலம் (H3PO2)",
+        "Zn/HCl"
+      ],
+      "correct": 2,
+      "explanation": "Mild reducing agents like hypophosphorous acid (phosphinic acid) or ethanol reduce diazonium salts to arenes and get oxidised to phosphorous acid and ethanal respectively. | மிதமான ஒடுக்கும் முகவர்களான ஹைபோபாஸ்பரஸ் அமிலம் (H3PO2) அல்லது எத்தனால் டையசோனியம் உப்புகளை அரீன்களாக ஒடுக்குகின்றன. இவை முறையே பாஸ்பரஸ் அமிலம் மற்றும் எத்தனாலாக ஆக்சிஜனேற்றம் அடைகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எந்த வெப்பநிலையில் பென்சீன்டையசோனியம் குளோரைடு நீரால் பிரித்தலுக்கு உட்பட்டு பீனாலாக மாறுகிறது?",
+      "options": [
+        "273-278 K",
+        "283 K",
+        "298 K",
+        "373 K"
+      ],
+      "correct": 1,
+      "explanation": "If the temperature of diazonium salt solution is allowed to rise upto 283 K, the salt gets hydrolysed to phenol with evolution of nitrogen gas and HCl. | டையசோனியம் உப்பு கரைசலின் வெப்பநிலை 283 K வரை உயர்த்தப்படும்போது, உப்பு நைட்ரஜன் வாயு மற்றும் HCl வெளியேற்றத்துடன் பீனாலாக நீரால் பிரித்தலுக்கு உட்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "கார நடுநிலையில் பென்சீன்டையசோனியம் குளோரைடு பீனாலுடன் வினைபுரியும்போது என்ன விளைபொருள் உருவாகிறது?",
+      "options": [
+        "அனிலின் மற்றும் பீனால்",
+        "p-ஹைட்ராக்ஸிஅசோபென்சீன் (ஆரஞ்சு நிறமி)",
+        "பென்சீன் மற்றும் நைட்ரஜன் வாயு",
+        "p-அமினோபீனால்"
+      ],
+      "correct": 1,
+      "explanation": "Benzenediazonium chloride reacts with phenol at its para position in basic medium to form p-hydroxyazobenzene, an orange dye. This is called coupling reaction. | பென்சீன்டையசோனியம் குளோரைடு கார நடுநிலையில் பீனாலுடன் அதன் பாரா இடத்தில் வினைபுரிந்து p-ஹைட்ராக்ஸிஅசோபென்சீன் (ஆரஞ்சு நிறமி) உருவாகிறது. இது இணைவு வினை என்று அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமில நடுநிலையில் பென்சீன்டையசோனியம் குளோரைடு அனிலினுடன் இணையும்போது எந்த வகை நிறமி உருவாகிறது?",
+      "options": [
+        "சிவப்பு நிறமி",
+        "நீல நிறமி",
+        "மஞ்சள் நிறமி (p-அமினோஅசோபென்சீன்)",
+        "பச்சை நிறமி"
+      ],
+      "correct": 2,
+      "explanation": "The reaction of diazonium salt with aniline yields p-aminoazobenzene, a yellow dye. This is an example of electrophilic substitution reaction. | டையசோனியம் உப்பு அனிலினுடன் வினைபுரிந்து p-அமினோஅசோபென்சீன், ஒரு மஞ்சள் நிறமியைத் தருகிறது. இது எலக்ட்ராஃபிலிக் பதிலீட்டு வினையின் எடுத்துக்காட்டாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையசோனியம் உப்புகளைப் பயன்படுத்தி அரோமாட்டிக் வளையத்தில் பின்வரும் குழுக்களில் எதை அறிமுகப்படுத்த முடியாது?",
+      "options": [
+        "புளூரைடு குழு (-F)",
+        "சயனோ குழு (-CN)",
+        "மெத்தில் குழு (-CH3)",
+        "நைட்ரோ குழு (-NO2)"
+      ],
+      "correct": 2,
+      "explanation": "Diazonium salts are used to introduce -F, -Cl, -Br, -I, -CN, -OH, -NO2 groups. Methyl group cannot be introduced through diazonium salt reactions. | டையசோனியம் உப்புகள் -F, -Cl, -Br, -I, -CN, -OH, -NO2 குழுக்களை அறிமுகப்படுத்தப் பயன்படுகின்றன. மெத்தில் குழுவை டையசோனியம் உப்பு வினைகள் மூலம் அறிமுகப்படுத்த முடியாது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நீரிய கரைசலில் மாற்றுப்படிவ அம்மோனியம் கேட்டயன்களின் நிலைப்புத்தன்மை வரிசை என்ன?",
+      "options": [
+        "மூன்றாம் நிலை > இரண்டாம் நிலை > முதல் நிலை",
+        "முதல் நிலை > இரண்டாம் நிலை > மூன்றாம் நிலை",
+        "இரண்டாம் நிலை > முதல் நிலை > மூன்றாம் நிலை",
+        "மூன்றாம் நிலை > முதல் நிலை > இரண்டாம் நிலை"
+      ],
+      "correct": 1,
+      "explanation": "Primary ammonium cations have three hydrogen atoms available for hydrogen bonding with water, making them most stable. Secondary cations have two H atoms, and tertiary cations have only one H atom for hydrogen bonding. Greater cation stability means stronger basic nature of the corresponding amine. | முதல் நிலை அம்மோனியம் கேட்டயன்களுக்கு நீருடன் ஹைட்ரஜன் பிணைப்புக்கு மூன்று ஹைட்ரஜன் அணுக்கள் கிடைக்கின்றன, இதனால் அவை மிகவும் நிலையானவை. இரண்டாம் நிலை கேட்டயன்களுக்கு இரண்டு H அணுக்கள், மூன்றாம் நிலை கேட்டயன்களுக்கு ஒரே ஒரு H அணு மட்டுமே H-பிணைப்புக்கு உள்ளது. கேட்டயனின் அதிக நிலைப்புத்தன்மை என்பது அதற்குரிய அமீனின் அதிக காரத்தன்மையைக் குறிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களின் காரத்தன்மையை பாதிக்காத காரணி எது?",
+      "options": [
+        "ஆல்கைல் குழுக்களின் தூண்டல் விளைவு",
+        "ஹைட்ரஜன் பிணைப்பு வழியான கரைசலாக்க விளைவு",
+        "ஆல்கைல் குழுக்களின் விண்கோளத் தடை",
+        "நைட்ரஜனின் ஒளிமின் விளைவு"
+      ],
+      "correct": 3,
+      "explanation": "The basic strength of alkylamines is determined by three factors: inductive effect (+I), solvation through hydrogen bonding, and steric hindrance of alkyl groups. The photoelectric effect is completely unrelated to amine basicity and does not influence it. | ஆல்கைல் அமீன்களின் காரத்தன்மை மூன்று காரணிகளால் தீர்மானிக்கப்படுகிறது: தூண்டல் விளைவு (+I), ஹைட்ரஜன் பிணைப்பு வழியான கரைசலாக்கம், மற்றும் ஆல்கைல் குழுக்களின் விண்கோளத் தடை. ஒளிமின் விளைவு அமீன் காரத்தன்மையுடன் முற்றிலும் தொடர்பில்லாதது மற்றும் அதை பாதிக்காது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நீரிய கரைசலில் மெத்தில் பதிலீடு செய்யப்பட்ட அமீன்களின் சரியான காரத்தன்மை வரிசை எது?",
+      "options": [
+        "(CH3)3N > (CH3)2NH > CH3NH2 > NH3",
+        "(CH3)2NH > CH3NH2 > (CH3)3N > NH3",
+        "CH3NH2 > (CH3)2NH > (CH3)3N > NH3",
+        "NH3 > CH3NH2 > (CH3)2NH > (CH3)3N"
+      ],
+      "correct": 1,
+      "explanation": "For methyl substituted amines in aqueous solution: (CH3)2NH > CH3NH2 > (CH3)3N > NH3. Dimethylamine has the best balance of inductive effect and solvation. Trimethylamine has maximum +I effect but poor solvation due to steric hindrance. Methylamine has good solvation but less +I effect. | நீரிய கரைசலில் மெத்தில் பதிலீடு செய்யப்பட்ட அமீன்களுக்கு: (CH3)2NH > CH3NH2 > (CH3)3N > NH3. டைமெத்திலமீனுக்கு தூண்டல் விளைவு மற்றும் கரைசலாக்கம் இடையே சிறந்த சமநிலை உள்ளது. டிரைமெத்திலமீனுக்கு அதிகபட்ச +I விளைவு உள்ளது ஆனால் விண்கோளத் தடை காரணமாக மோசமான கரைசலாக்கம் உள்ளது. மெத்திலமீனுக்கு நல்ல கரைசலாக்கம் உள்ளது ஆனால் குறைந்த +I விளைவு உள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நீரிய கரைசலில் எத்தில் பதிலீடு செய்யப்பட்ட அமீன்களின் காரத்தன்மை வரிசை எது?",
+      "options": [
+        "(C2H5)2NH > (C2H5)3N > C2H5NH2 > NH3",
+        "C2H5NH2 > (C2H5)2NH > (C2H5)3N > NH3",
+        "(C2H5)3N > (C2H5)2NH > C2H5NH2 > NH3",
+        "NH3 > C2H5NH2 > (C2H5)2NH > (C2H5)3N"
+      ],
+      "correct": 0,
+      "explanation": "For ethyl substituted amines: (C2H5)2NH > (C2H5)3N > C2H5NH2 > NH3. The ethyl group is larger than methyl, causing more steric hindrance. However, diethylamine maintains the best balance, while triethylamine ranks higher than in the methyl series due to stronger +I effect. | எத்தில் பதிலீடு செய்யப்பட்ட அமீன்களுக்கு: (C2H5)2NH > (C2H5)3N > C2H5NH2 > NH3. எத்தில் குழு மெத்திலை விட பெரியது, இதனால் அதிக விண்கோளத் தடை. இருப்பினும், டைஎத்திலமீன் சிறந்த சமநிலையை பேணுகிறது, மற்றும் வலுவான +I விளைவு காரணமாக டிரைஎத்திலமீன் மெத்தில் தொடரை விட உயர்ந்த இடத்தில் உள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலீன் அம்மோனியாவை விட குறைந்த காரமாக இருப்பதற்கான காரணம் என்ன?",
+      "options": [
+        "NH2 குழு தூண்டல் விளைவால் வளையத்திற்கு மின்னணுக்களை வழங்குகிறது",
+        "நைட்ரஜனில் உள்ள தனித்த எதிர்மின்னோட்டம் ஒத்திசைவு மூலம் பென்சீன் வளையத்திற்குள் பரவச்செய்யப்படுகிறது",
+        "பென்சீன் வளையம் NH2 குழுவிற்கு மின்னணுக்களை வழங்குகிறது",
+        "அனிலீனுக்கு அனிலினியம் அயனியை விட அதிக ஒத்திசைவு கட்டமைப்புகள் உள்ளன"
+      ],
+      "correct": 1,
+      "explanation": "In aniline, the lone pair on nitrogen is in conjugation with the benzene ring, making it less available for protonation. The unshared electron pair participates in resonance with the aromatic ring, delocalizing electron density and reducing proton acceptability. | அனிலீனில், நைட்ரஜனில் உள்ள தனித்த எதிர்மின்னோட்டம் பென்சீன் வளையத்துடன் இணைந்துள்ளது, இதனால் புரோட்டானேற்றத்திற்கு குறைந்த அளவில் கிடைக்கிறது. பகிர்வற்ற எதிர்மின்னோட்டம் அரோமாட்டிக் வளையத்துடன் ஒத்திசைவில் பங்கேற்று, மின்னணு அடர்த்தியைப் பரவச்செய்து புரோட்டான் ஏற்கும் திறனைக் குறைக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலீன் மற்றும் அனிலினியம் அயனியின் ஒத்திசைவு கட்டமைப்புகளின் எண்ணிக்கை என்ன?",
+      "options": [
+        "அனிலீனுக்கு 3, அனிலினியம் அயனிக்கு 2",
+        "அனிலீனுக்கு 5, அனிலினியம் அயனிக்கு 2",
+        "அனிலீனுக்கு 2, அனிலினியம் அயனிக்கு 5",
+        "அனிலீனுக்கு 4, அனிலினியம் அயனிக்கு 3"
+      ],
+      "correct": 1,
+      "explanation": "Aniline has five resonating structures while anilinium ion has only two. Greater number of resonating structures means greater stability. Since aniline is more stable than anilinium ion, it has less tendency to accept a proton, making it a weaker base than ammonia. | அனிலீனுக்கு ஐந்து ஒத்திசைவு கட்டமைப்புகள் உள்ளன, அதேசமயம் அனிலினியம் அயனிக்கு இரண்டு மட்டுமே. அதிக எண்ணிக்கையிலான ஒத்திசைவு கட்டமைப்புகள் என்பது அதிக நிலைப்புத்தன்மை. அனிலீன் அனிலினியம் அயனியை விட நிலையானது என்பதால், அதற்கு புரோட்டானை ஏற்க குறைந்த சாத்தியக்கூறு, இதனால் அது அம்மோனியாவை விட குறைந்த காரமாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பதிலீடு செய்யப்பட்ட அனிலீனின் காரத்தன்மையை அதிகரிக்கும் மின்னணு விடுவிக்கும் குழு எது?",
+      "options": [
+        "-NO2 குழு",
+        "-SO3H குழு",
+        "-OCH3 குழு",
+        "-COOH குழு"
+      ],
+      "correct": 2,
+      "explanation": "Electron releasing groups like -OCH3 and -CH3 increase basic strength by increasing electron density on nitrogen through +I effect and resonance. Electron withdrawing groups like -NO2, -SO3H, -COOH decrease basic strength by withdrawing electron density. | -OCH3 மற்றும் -CH3 போன்ற மின்னணு விடுவிக்கும் குழுக்கள் +I விளைவு மற்றும் ஒத்திசைவு வழியாக நைட்ரஜனில் மின்னணு அடர்த்தியை அதிகரிப்பதன் மூலம் காரத்தன்மையை அதிகரிக்கின்றன. -NO2, -SO3H, -COOH போன்ற மின்னணு பறிப்புக் குழுக்கள் மின்னணு அடர்த்தியை பறிப்பதன் மூலம் காரத்தன்மையைக் குறைக்கின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலீனில் மின்னணு பறிப்புக் குழு பதிலீடு செய்யப்படும்போது காரத்தன்மைக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "காரத்தன்மை கணிசமாக அதிகரிக்கிறது",
+        "காரத்தன்மை குறைகிறது",
+        "காரத்தன்மை மாறாமல் இருக்கிறது",
+        "காரத்தன்மை அம்மோனியாவிற்கு சமமாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Electron withdrawing groups such as -NO2, -SO3H, -COOH, and halogens decrease the basic strength of substituted aniline. These groups withdraw electron density from the ring and further reduce the availability of the lone pair on nitrogen for protonation. | -NO2, -SO3H, -COOH மற்றும் ஹாலஜன்கள் போன்ற மின்னணு பறிப்புக் குழுக்கள் பதிலீடு செய்யப்பட்ட அனிலீனின் காரத்தன்மையைக் குறைக்கின்றன. இந்தக் குழுக்கள் வளையத்திலிருந்து மின்னணு அடர்த்தியை பறித்து, நைட்ரஜனில் உள்ள தனித்த எதிர்மின்னோட்டத்தின் புரோட்டானேற்றத்திற்கான கிடைக்கும் தன்மையை மேலும் குறைக்கின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "வாயு நிலையில் அமீன்களின் எதிர்பார்க்கப்படும் காரத்தன்மை வரிசை எது?",
+      "options": [
+        "முதல் நிலை > இரண்டாம் நிலை > மூன்றாம் நிலை > NH3",
+        "மூன்றாம் நிலை > இரண்டாம் நிலை > முதல் நிலை > NH3",
+        "இரண்டாம் நிலை > மூன்றாம் நிலை > முதல் நிலை > NH3",
+        "NH3 > முதல் நிலை > இரண்டாம் நிலை > மூன்றாம் நிலை"
+      ],
+      "correct": 1,
+      "explanation": "In the gaseous phase, basicity follows the inductive effect order: tertiary > secondary > primary > NH3. In gas phase, there is no solvation effect. The +I effect of alkyl groups increases electron density on nitrogen with more alkyl substitutions. | வாயு நிலையில், காரத்தன்மை தூண்டல் விளைவு வரிசையைப் பின்பற்றுகிறது: மூன்றாம் நிலை > இரண்டாம் நிலை > முதல் நிலை > NH3. வாயு நிலையில் கரைசலாக்க விளைவு இல்லை. அதிக ஆல்கைல் பதிலீடுகளுடன் ஆல்கைல் குழுக்களின் +I விளைவு நைட்ரஜனில் மின்னணு அடர்த்தியை அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஆல்கைல் அமீன்களின் காரத்தன்மை வரிசை வாயு நிலையிலிருந்து நீரிய நிலைக்கு மாறுவதற்கான காரணம் என்ன?",
+      "options": [
+        "நைட்ரஜனின் கலப்பினமாதல் மாற்றம்",
+        "தூண்டல் விளைவு, கரைசலாக்க விளைவு, மற்றும் விண்கோளத் தடையின் இடைவினை",
+        "மூலக்கூறு எடையில் மாற்றம்",
+        "அமீன்களின் நிறத்தில் மாற்றம்"
+      ],
+      "correct": 1,
+      "explanation": "The basicity order changes due to the interplay of three factors: (1) inductive effect (+I) which increases basicity with more alkyl groups, (2) solvation through hydrogen bonding which stabilizes the cation, and (3) steric hindrance which reduces solvation. In aqueous phase, solvation and steric effects compete with inductive effect, reversing the expected order. | காரத்தன்மை வரிசை மாறுவதற்கு மூன்று காரணிகளின் இடைவினை காரணமாகும்: (1) அதிக ஆல்கைல் குழுக்களுடன் காரத்தன்மையை அதிகரிக்கும் தூண்டல் விளைவு (+I), (2) கேட்டயனை நிலைப்படுத்தும் ஹைட்ரஜன் பிணைப்பு வழியான கரைசலாக்கம், மற்றும் (3) கரைசலாக்கத்தைக் குறைக்கும் விண்கோளத் தடை. நீரிய நிலையில், கரைசலாக்கம் மற்றும் விண்கோள விளைவுகள் தூண்டல் விளைவுடன் போட்டியிட்டு வரிசையை மாற்றுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "தூண்டல் விளைவின்படி, வாயு நிலையில் அமீன்களின் காரத்தன்மையின் சரியான வரிசை எது?",
+      "options": [
+        "முதல் நிலை அமீன் > இரண்டாம் நிலை அமீன் > மூன்றாம் நிலை அமீன் > NH3",
+        "மூன்றாம் நிலை அமீன் > இரண்டாம் நிலை அமீன் > முதல் நிலை அமீன் > NH3",
+        "NH3 > முதல் நிலை அமீன் > இரண்டாம் நிலை அமீன் > மூன்றாம் நிலை அமீன்",
+        "இரண்டாம் நிலை அமீன் > மூன்றாம் நிலை அமீன் > முதல் நிலை அமீன் > NH3"
+      ],
+      "correct": 1,
+      "explanation": "In the gaseous phase, the basicity order follows the expected inductive effect: tertiary amine > secondary amine > primary amine > NH3. Alkyl groups push electrons toward nitrogen via +I effect, making the lone pair more available for protonation. More alkyl groups mean greater electron density on nitrogen. | வாயு நிலையில், காரத்தன்மை வரிசை எதிர்பார்க்கப்படும் தூண்டல் விளைவைப் பின்பற்றுகிறது: மூன்றாம் நிலை அமீன் > இரண்டாம் நிலை அமீன் > முதல் நிலை அமீன் > NH3. ஆல்கைல் குழுக்கள் +I விளைவு மூலம் நைட்ரஜனை நோக்கி எலக்ட்ரான்களைத் தள்ளுகின்றன, தனித்த இணையை புரோட்டானேற்றத்திற்கு அதிகம் கிடைக்கச் செய்கின்றன. அதிக ஆல்கைல் குழுக்கள் நைட்ரஜனில் அதிக எலக்ட்ரான் அடர்த்தியை அளிக்கின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "வாயு நிலைக்கும் நீர்நிலைக்கும் இடையே அமீன்களின் காரத்தன்மை வரிசை வேறுபாட்டிற்கு காரணமாகாத காரணி எது?",
+      "options": [
+        "ஆல்கைல் குழுக்களின் தூண்டல் விளைவு",
+        "நீர் மூலக்கூறுகளுடன் ஹைட்ரஜன் பந்தத்தின் மூலம் நீராற்றல் விளைவு",
+        "நைட்ரஜனின் கலப்பினமாக்கம் sp3 இலிருந்து sp2 க்கு மாறுவது",
+        "ஆல்கைல் குழுக்களின் விண்கோளத் தடை"
+      ],
+      "correct": 2,
+      "explanation": "The three factors causing the difference are: (1) inductive effect (+I) of alkyl groups, (2) solvation effect through hydrogen bonding with water molecules, and (3) steric hindrance of alkyl groups. The hybridization of nitrogen remains sp3 in all amines and does not change between phases. | வேறுபாட்டை ஏற்படுத்தும் மூன்று காரணிகள்: (1) ஆல்கைல் குழுக்களின் +I தூண்டல் விளைவு, (2) நீர் மூலக்கூறுகளுடன் ஹைட்ரஜன் பந்தத்தின் மூலம் நீராற்றல் விளைவு, (3) ஆல்கைல் குழுக்களின் விண்கோளத் தடை. அனைத்து அமீன்களிலும் நைட்ரஜனின் கலப்பினமாக்கம் sp3 ஆகவே இருக்கிறது, நிலைகளுக்கு இடையே மாறுவதில்லை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நீரில் நீராற்றல் விளைவால் மாற்றியமைக்கப்பட்ட அம்மோனியம் அயனிகளின் நிலைப்பாட்டின் சரியான வரிசை எது?",
+      "options": [
+        "முதல் நிலை > இரண்டாம் நிலை > மூன்றாம் நிலை",
+        "மூன்றாம் நிலை > இரண்டாம் நிலை > முதல் நிலை",
+        "இரண்டாம் நிலை > மூன்றாம் நிலை > முதல் நிலை",
+        "முதல் நிலை > மூன்றாம் நிலை > இரண்டாம் நிலை"
+      ],
+      "correct": 0,
+      "explanation": "The solvation stability order is Primary > Secondary > Tertiary. Primary ammonium ions have three hydrogen atoms for H-bonding with water, secondary have two, and tertiary have only one. Greater H-bonding means greater solvation and cation stability. | நீராற்றல் நிலைப்பாட்டின் வரிசை முதல் நிலை > இரண்டாம் நிலை > மூன்றாம் நிலை. முதல் நிலை அம்மோனியம் அயனிகளுக்கு நீருடன் ஹைட்ரஜன் பந்தத்திற்கு மூன்று ஹைட்ரஜன் அணுக்கள், இரண்டாம் நிலைக்கு இரண்டு, மூன்றாம் நிலைக்கு ஒன்று மட்டுமே. அதிக ஹைட்ரஜன் பந்தம் அதிக நீராற்றல் மற்றும் அயனி நிலைப்பாட்டை அளிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நீர்த்தீர்வில் மெத்தைல் மாற்றியமைக்கப்பட்ட அமீன்களின் காரத்தன்மை வரிசை எது?",
+      "options": [
+        "(CH3)3N > CH3NH2 > (CH3)2NH > NH3",
+        "(CH3)2NH > CH3NH2 > (CH3)3N > NH3",
+        "CH3NH2 > (CH3)2NH > (CH3)3N > NH3",
+        "NH3 > (CH3)3N > (CH3)2NH > CH3NH2"
+      ],
+      "correct": 1,
+      "explanation": "For methylamines in aqueous solution: (CH3)2NH > CH3NH2 > (CH3)3N > NH3. Dimethylamine is strongest due to optimal balance of +I effect and solvation. Trimethylamine has strong +I but poor solvation due to steric hindrance and only one H for H-bonding. | நீர்த்தீர்வில் மெத்திலமீன்களுக்கு: (CH3)2NH > CH3NH2 > (CH3)3N > NH3. டைமெத்திலமீன் +I விளைவு மற்றும் நீராற்றலுக்கு உகந்த சமநிலையால் வலிமையானது. டிரைமெத்திலமீனுக்கு வலுவான +I விளைவு உள்ளபோதிலும், விண்கோளத் தடை மற்றும் ஹைட்ரஜன் பந்தத்திற்கு ஒரே H மட்டுமே இருப்பதால் மோசமான நீராற்றல் உள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நீர்த்தீர்வில் எத்தைல் மாற்றியமைக்கப்பட்ட அமீன்களின் காரத்தன்மை வரிசையில் பின்வற்றுள் எது சரியானதல்ல?",
+      "options": [
+        "(C2H5)2NH > (C2H5)3N > C2H5NH2 > NH3",
+        "(C2H5)3N > (C2H5)2NH > C2H5NH2 > NH3",
+        "C2H5NH2 > (C2H5)2NH > (C2H5)3N > NH3",
+        "NH3 > C2H5NH2 > (C2H5)2NH > (C2H5)3N"
+      ],
+      "correct": 3,
+      "explanation": "The correct order for ethylamines in aqueous solution is (C2H5)2NH > (C2H5)3N > C2H5NH2 > NH3. Options B and C are also incorrect. Option D is completely reversed, placing NH3 as the strongest base, which is never true for alkylamines. The larger ethyl group causes steric hindrance to H-bonding. | நீர்த்தீர்வில் எத்திலமீன்களின் சரியான வரிசை (C2H5)2NH > (C2H5)3N > C2H5NH2 > NH3. விருப்பங்கள் B மற்றும் C மும் தவறானவை. விருப்பம் D முற்றிலும் தலைகீழாக உள்ளது, NH3 ஐ வலிமையான காரமாக வைக்கிறது. பெரிய எத்தைல் குழு ஹைட்ரஜன் பந்தத்திற்கு விண்கோளத் தடையை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எலக்ட்ரான் தரும் அமீனோ குழு இருந்தாலும் அனிலின் அம்மோனியாவை விட பலவீனமான காரமாக இருப்பதற்கான காரணம் என்ன?",
+      "options": [
+        "NH2 குழு வளையத்திலிருந்து எலக்ட்ரான்களை தூண்டல் விளைவால் விலக்குகிறது",
+        "நைட்ரஜனில் உள்ள தனித்த இணை பென்சீன் வளையத்திற்குள் ஒத்திசைவு மூலம் பரவலாக்கப்பட்டு, புரோட்டானேற்றத்திற்கு குறைந்த கிடைப்பானதாகிறது",
+        "அனிலின் நீருடன் வலுவான ஹைட்ரஜன் பந்தங்களை உருவாக்கி புரோட்டானேற்றத்தைத் தடுக்கிறது",
+        "பென்சீன் வளையம் நைட்ரஜனுக்கு எலக்ட்ரான்களைத் தந்து அதன் எலக்ட்ரான் அடர்த்தியை மிகைப்படுத்துகிறது"
+      ],
+      "correct": 1,
+      "explanation": "In aniline, the lone pair on nitrogen is in conjugation with the benzene ring through resonance. This delocalization makes it less available for protonation. Aniline has five resonance structures, anilinium ion has only two, making aniline more stable and less willing to accept a proton. | அனிலினில் நைட்ரஜனில் உள்ள தனித்த இணை பென்சீன் வளையத்துடன் ஒத்திசைவு மூலம் இணைந்துள்ளது. இந்தப் பரவலாக்கம் புரோட்டானேற்றத்திற்கு அதைக் குறைக்கிறது. அனிலினுக்கு ஐந்து ஒத்திசைவு கட்டமைப்புகள், அனிலினியம் அயனிக்கு இரண்டு மட்டுமே, அனிலினை அதிக நிலையானதாகவும் புரோட்டானை ஏற்காததாகவும் ஆக்குகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலினுக்கும் அனிலினியம் அயனிக்கும் முறையே எத்தனை ஒத்திசைவு கட்டமைப்புகள் உள்ளன?",
+      "options": [
+        "அனிலின்: 5, அனிலினியம் அயனி: 2",
+        "அனிலின்: 3, அனிலினியம் அயனி: 2",
+        "அனிலின்: 4, அனிலினியம் அயனி: 3",
+        "அனிலின்: 2, அனிலினியம் அயனி: 5"
+      ],
+      "correct": 0,
+      "explanation": "Aniline is a resonance hybrid of five structures (I-V) where the lone pair participates in ring conjugation. The anilinium ion, after protonation, has only two resonance structures because the positive charge on nitrogen prevents extended delocalization. More resonance structures mean greater stability. | அனிலின் தனித்த இணை வளைய ஒத்திசைவில் பங்கேற்கும் ஐந்து (I-V) கட்டமைப்புகளின் கலவை. புரோட்டானேற்றத்திற்குப் பிறகு அனிலினியம் அயனிக்கு இரண்டு மட்டுமே, ஏனெனில் நைட்ரஜனில் நேர்மறை மின்னூட்டம் விரிவான பரவலாக்கத்தைத் தடுக்கிறது. அதிக கட்டமைப்புகள் அதிக நிலைப்பாட்டை அர்த்தப்படுத்துகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "மாற்றியமைக்கப்பட்ட அனிலினில் எலக்ட்ரான் விடுவிப்பு குழுக்களின் விளைவு பற்றிய சரியான கூற்று எது?",
+      "options": [
+        "நைட்ரஜனிலிருந்து எலக்ட்ரான் அடர்த்தியை விலக்கி காரத்தன்மையைக் குறைக்கின்றன",
+        "காரத்தன்மையில் எந்த விளைவையும் ஏற்படுத்துவதில்லை",
+        "நைட்ரஜனில் எலக்ட்ரான் அடர்த்தியை அதிகரித்து காரத்தன்மையை அதிகரிக்கின்றன",
+        "அமீனோ குழுவை அழித்து அனிலினை முற்றிலும் காரமற்றதாக மாற்றுகின்றன"
+      ],
+      "correct": 2,
+      "explanation": "Electron releasing groups like -OCH3 and -CH3 increase basic strength of substituted aniline. These groups push electrons toward the ring and nitrogen, increasing electron density on nitrogen and making the lone pair more available for protonation. This counteracts the resonance withdrawal effect. | -OCH3 மற்றும் -CH3 போன்ற எலக்ட்ரான் விடுவிப்பு குழுக்கள் மாற்றியமைக்கப்பட்ட அனிலினின் காரத்தன்மையை அதிகரிக்கின்றன. இந்தக் குழுக்கள் வளையம் மற்றும் நைட்ரஜனை நோக்கி எலக்ட்ரான்களைத் தள்ளி, நைட்ரஜனில் எலக்ட்ரான் அடர்த்தியை அதிகரித்து புரோட்டானேற்றத்திற்கு தனித்த இணையை அதிகம் கிடைக்கச் செய்கின்றன. இது ஒத்திசைவு விலக்கு விளைவை எதிர்க்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "மாற்றியமைக்கப்பட்ட அனிலினில் எலக்ட்ரான் விலக்கு குழுக்களின் விளைவு பற்றிய சரியான கூற்று எது?",
+      "options": [
+        "நேர்மறை மின்னூட்டத்தை நிலைப்படுத்தி காரத்தன்மையை அதிகரிக்கின்றன",
+        "காரத்தன்மையில் எந்த விளைவையும் ஏற்படுத்துவதில்லை",
+        "எலக்ட்ரான் அடர்த்தியைச் சேர்த்து அனிலினை வலுவான காரமாக மாற்றுகின்றன",
+        "நைட்ரஜனிலிருந்து மேலும் எலக்ட்ரான் அடர்த்தியை விலக்கி காரத்தன்மையைக் குறைக்கின்றன"
+      ],
+      "correct": 3,
+      "explanation": "Electron withdrawing groups like -NO2, -SO3H, -COOH, and -X decrease basic strength of substituted aniline. These groups pull electrons away from the ring and nitrogen, further reducing electron density on nitrogen and making the lone pair even less available for protonation. This compounds the already weak basicity of aniline. | -NO2, -SO3H, -COOH, மற்றும் -X போன்ற எலக்ட்ரான் விலக்கு குழுக்கள் மாற்றியமைக்கப்பட்ட அனிலினின் காரத்தன்மையைக் குறைக்கின்றன. இந்தக் குழுக்கள் வளையம் மற்றும் நைட்ரஜனிலிருந்து எலக்ட்ரான்களை விலக்கி, நைட்ரஜனில் எலக்ட்ரான் அடர்த்தியை மேலும் குறைத்து புரோட்டானேற்றத்திற்கு தனித்த இணையை மிகவும் குறைக்கின்றன. இது அனிலினின் ஏற்கனவே பலவீனமான காரத்தன்மையை மோசமாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஆல்கைல் குழுக்களின் எலக்ட்ரான் விடுவிப்பு தன்மை (+I விளைவு) அம்மோனியாவுடன் ஒப்பிடும்போது ஆல்கைனமீன்களின் காரத்தன்மையை எவ்வாறு பாதிக்கிறது?",
+      "options": [
+        "நைட்ரஜனை நோக்கி எலக்ட்ரான்களைத் தள்ளி அம்மோனியம் அயனியை நிலைப்படுத்தி காரத்தன்மையை அதிகரிக்கிறது",
+        "நைட்ரஜனிலிருந்து எலக்ட்ரான்களை விலக்கி காரத்தன்மையைக் குறைக்கிறது",
+        "காரத்தன்மையில் எந்த விளைவையும் ஏற்படுத்துவதில்லை",
+        "நைட்ரஜனின் கலப்பினமாக்கத்தை sp3 இலிருந்து sp2 க்கு மாற்றுகிறது"
+      ],
+      "correct": 0,
+      "explanation": "The +I effect of alkyl groups pushes electrons toward nitrogen, making the lone pair more available for protonation. The substituted ammonium ion is stabilized by dispersal of positive charge through the +I effect. Hence, alkylamines are stronger bases than ammonia. | ஆல்கைல் குழுக்களின் +I விளைவு நைட்ரஜனை நோக்கி எலக்ட்ரான்களைத் தள்ளுகிறது, தனித்த இணையை புரோட்டானேற்றத்திற்கு அதிகம் கிடைக்கச் செய்கிறது. மாற்றியமைக்கப்பட்ட அம்மோனியம் அயனி +I விளைவால் நேர்மறை மின்னூட்டத்தின் பரவலாக்கத்தால் நிலைப்படுத்தப்படுகிறது. எனவே ஆல்கைலமீன்கள் அம்மோனியாவை விட வலிமையான காரங்கள்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஆல்கைல் குழு CH3 விட பெரியதாக இருக்கும்போது, விண்கோளத் தடை நீர்த்தீர்வில் காரத்தன்மை வரிசையை எவ்வாறு பாதிக்கிறது?",
+      "options": [
+        "விண்கோளத் தடை காரத்தன்மையைப் பாதிக்காது",
+        "விண்கோளத் தடை குழு அளவைப் பொருட்படுத்தாமல் எப்போதும் காரத்தன்மையை அதிகரிக்கிறது",
+        "ஹைட்ரஜன் பந்தத்திற்கான விண்கோளத் தடை காரத்தன்மையின் சார்பு வரிசையை மாற்றுகிறது",
+        "விண்கோளத் தடை அனைத்து அமீன்களையும் சம காரத்தன்மையுடன் மாற்றுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "When alkyl groups are larger than CH3, steric hindrance to hydrogen bonding with water affects solvation stabilization of ammonium cations. The change from -CH3 to -C2H5 changes the basic strength order because larger groups hinder effective solvation, altering the balance between inductive and solvation effects. | ஆல்கைல் குழுக்கள் CH3 விட பெரியதாக இருக்கும்போது, நீருடன் ஹைட்ரஜன் பந்தத்திற்கு விண்கோளத் தடை அம்மோனியம் அயனிகளின் நீராற்றல் நிலைப்பாட்டைப் பாதிக்கிறது. -CH3 இலிருந்து -C2H5 க்கு மாறுவது காரத்தன்மை வரிசையை மாற்றுகிறது, ஏனெனில் பெரிய குழுக்கள் திறமையான நீராற்றலைத் தடுத்து தூண்டல் மற்றும் நீராற்றல் விளைவுகளுக்கு இடையே சமநிலையை மாற்றுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஒத்திசைவு கட்டமைப்பு பகுப்பாய்வின்படி அனிலின் அம்மோனியாவை விட குறைந்த காரமாக இருப்பதற்கான காரணம் என்ன?",
+      "options": [
+        "அனிலினியம் அயனியை விட அனிலினுக்கு குறைவான ஒத்திசைவு கட்டமைப்புகள் உள்ளன",
+        "பென்சீன் வளையம் புரோட்டானேற்றத்திற்குப் பிறகு அனிலினை அதிக நிலைப்படுத்த எலக்ட்ரான்களைத் தருகிறது",
+        "அனிலினுக்கும் அம்மோனியாவுக்கும் சமமான ஒத்திசைவு கட்டமைப்புகள் உள்ளன",
+        "அனிலினியம் அயனியை விட அனிலின் அதிக ஒத்திசைவு கட்டமைப்புகளால் அதிக நிலையானது, எனவே புரோட்டானேற்றத்தை எதிர்க்கிறது"
+      ],
+      "correct": 3,
+      "explanation": "Aniline has five resonance structures while anilinium ion has only two. Greater number of resonance structures means greater stability. Since aniline is more stable than anilinium ion, aniline resists accepting a proton to form the less stable anilinium ion. This makes aniline less basic than ammonia. | அனிலினுக்கு ஐந்து ஒத்திசைவு கட்டமைப்புகள், அனிலினியம் அயனிக்கு இரண்டு மட்டுமே. அதிக கட்டமைப்புகள் அதிக நிலைப்பாட்டை அர்த்தப்படுத்துகின்றன. அனிலின் அனிலினியம் அயனியை விட அதிக நிலையானதால், குறைந்த நிலைப்பாடுள்ள அனிலினியம் அயனியை உருவாக்க புரோட்டானை ஏற்பதை அனிலின் எதிர்க்கிறது. இது அனிலினை அம்மோனியாவை விட குறைந்த காரமாக ஆக்குகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களின் அசைலேஷன் வினையில் பயன்படுத்தப்படும் வினைப்பொருள் எது?",
+      "options": [
+        "அல்கைல் ஆலைடுகள்",
+        "அமில குளோரைடுகள், நீர்நீக்கிகள் மற்றும் எஸ்டர்கள்",
+        "சோடியம் ஹைட்ராக்சைடு",
+        "குளோரோஃபார்ம் மற்றும் KOH"
+      ],
+      "correct": 1,
+      "explanation": "Primary and secondary amines react with acid chlorides, anhydrides and esters to form amides through nucleophilic substitution. | முதன்மை மற்றும் இரண்டாம்நிலை அமீன்கள் அமில குளோரைடுகள், நீர்நீக்கிகள் மற்றும் எஸ்டர்களுடன் வினைபுரிந்து அமைடுகளை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களின் அசைலேஷன் வினையில் கிடைக்கும் விளைபொருள் எது?",
+      "options": [
+        "ஆல்கஹால்கள்",
+        "எஸ்டர்கள்",
+        "அமைடுகள்",
+        "கார்பாக்சிலிக் அமிலங்கள்"
+      ],
+      "correct": 2,
+      "explanation": "Acylation of amines produces amides, which are formed by replacement of hydrogen atom of -NH2 or >N-H group by the acyl group. | அமீன்களின் அசைலேஷன் அமைடுகளை உருவாக்குகிறது, இது -NH2 அல்லது >N-H குழுவின் ஹைட்ரஜன் அணுவை அசைல் குழுவால் மாற்றுவதன் மூலம் உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அசைலேஷன் வினையின் போது பிரிடின் ஏன் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "வினையூக்கியாக செயல்பட",
+        "HCl-ஐ அகற்றி சமநிலையை வலதுபுறத்திற்கு நகர்த்த",
+        "வெப்பநிலையை அதிகரிக்க",
+        "வினைப்பொருட்களை கரைக்க"
+      ],
+      "correct": 1,
+      "explanation": "Pyridine, being a stronger base than the amine, removes HCl formed during the reaction and shifts the equilibrium to the right hand side, favoring amide formation. | அமீனை விட வலுவான காரமான பிரிடின், வினையின் போது உருவாகும் HCl-ஐ அகற்றி சமநிலையை வலதுபுறத்திற்கு நகர்த்துகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களுடன் பென்சோயில் குளோரைடு வினைபுரியும் வினையின் பெயர் என்ன?",
+      "options": [
+        "அசிட்டிலேஷன்",
+        "அல்கைலேஷன்",
+        "பென்சோயிலேஷன்",
+        "கார்பிலமைன் வினை"
+      ],
+      "correct": 2,
+      "explanation": "The reaction of amines with benzoyl chloride (C6H5COCl) is specifically known as benzoylation. | அமீன்களுடன் பென்சோயில் குளோரைடு வினைபுரிவது பென்சோயிலேஷன் என்று குறிப்பாக அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அறை வெப்பநிலையில் அமீன்கள் கார்பாக்சிலிக் அமிலங்களுடன் வினைபுரிந்து எதை உருவாக்குகின்றன?",
+      "options": [
+        "அமைடுகள்",
+        "எஸ்டர்கள்",
+        "உப்புகள்",
+        "ஆல்கஹால்கள்"
+      ],
+      "correct": 2,
+      "explanation": "Amines react with carboxylic acids at room temperature to form salts, not amides which require more vigorous conditions. | அமீன்கள் அறை வெப்பநிலையில் கார்பாக்சிலிக் அமிலங்களுடன் வினைபுரிந்து உப்புகளை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "கார்பிலமைன் வினையைப் புரியும் அமீன்களின் வகை எது?",
+      "options": [
+        "இரண்டாம்நிலை அமீன்கள் மட்டும்",
+        "மூன்றாம்நிலை அமீன்கள் மட்டும்",
+        "முதன்மை அமீன்கள் மட்டும்",
+        "அனைத்து வகை அமீன்களும்"
+      ],
+      "correct": 2,
+      "explanation": "Only primary amines (both aliphatic and aromatic) undergo the carbylamine reaction with chloroform and ethanolic KOH to form foul-smelling isocyanides. | முதன்மை அமீன்கள் மட்டுமே குளோரோஃபார்ம் மற்றும் எத்தனாலிக் KOH உடன் கார்பிலமைன் வினையைப் புரிந்து துர்நாற்றமுள்ள ஐசோசயனைடுகளை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "கார்பிலமைன் வினையின் விளைபொருள் எது?",
+      "options": [
+        "அமைடுகள்",
+        "ஐசோசயனைடுகள்",
+        "டையசோனியம் உப்புகள்",
+        "ஆல்கஹால்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Primary amines on heating with chloroform and ethanolic potassium hydroxide form isocyanides or carbylamines, which are foul-smelling substances. | முதன்மை அமீன்கள் குளோரோஃபார்ம் மற்றும் எத்தனாலிக் பொட்டாசியம் ஹைட்ராக்சைடுடன் சூடாக்கப்படும்போது ஐசோசயனைடுகள் அல்லது கார்பிலமைன்களை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதன்மை அலிஃபாட்டிக் அமீன்கள் நைட்ரஸ் அமிலத்துடன் வினைபுரியும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "நிலையான டையசோனியம் உப்புகளை உருவாக்குகின்றன",
+        "நிலையற்ற டையசோனியம் உப்புகளை உருவாக்கி நைட்ரஜன் வாயுவை வெளியேற்றுகின்றன",
+        "அமைடுகளை உருவாக்குகின்றன",
+        "வினைபுரிவதில்லை"
+      ],
+      "correct": 1,
+      "explanation": "Primary aliphatic amines react with nitrous acid to form unstable aliphatic diazonium salts which decompose to liberate nitrogen gas quantitatively and form alcohols. | முதன்மை அலிஃபாட்டிக் அமீன்கள் நைட்ரஸ் அமிலத்துடன் வினைபுரிந்து நிலையற்ற டையசோனியம் உப்புகளை உருவாக்கி நைட்ரஜன் வாயுவை வெளியேற்றுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அரோமாட்டிக் அமீன்கள் நைட்ரஸ் அமிலத்துடன் டையசோனியம் உப்புகளை உருவாக்கும் வெப்பநிலை வரம்பு என்ன?",
+      "options": [
+        "273-278 K",
+        "300-310 K",
+        "350-360 K",
+        "373-383 K"
+      ],
+      "correct": 0,
+      "explanation": "Aromatic amines react with nitrous acid at low temperatures (273-278 K) to form stable diazonium salts, unlike aliphatic amines which form unstable salts. | அரோமாட்டிக் அமீன்கள் குறைந்த வெப்பநிலைகளில் (273-278 K) நைட்ரஸ் அமிலத்துடன் வினைபுரிந்து நிலையான டையசோனியம் உப்புகளை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதன்மை அலிஃபாட்டிக் அமீன்களில் இருந்து நைட்ரஸ் அமிலத்துடன் வினைபுரிந்து கிடைக்கும் நைட்ரஜன் வாயுவின் அளவீட்டு வெளியேற்றம் எதன் மதிப்பீட்டிற்கு பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "கார்போஹைட்ரேட்டுகள்",
+        "அமினோ அமிலங்கள் மற்றும் புரதங்கள்",
+        "கொழுப்புகள் மற்றும் எண்ணெய்கள்",
+        "வைட்டமின்கள்"
+      ],
+      "correct": 1,
+      "explanation": "The quantitative evolution of nitrogen gas from the reaction of primary aliphatic amines with nitrous acid is used in the estimation of amino acids and proteins. | முதன்மை அலிஃபாட்டிக் அமீன்களுடன் நைட்ரஸ் அமிலத்தின் வினையில் இருந்து நைட்ரஜன் வாயுவின் அளவீட்டு வெளியேற்றம் அமினோ அமிலங்கள் மற்றும் புரதங்களின் மதிப்பீட்டில் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதல்நிலை அமீன்களைச் சோதிப்பதற்கான கார்பைலமைன் வினையில் எந்த கருவிகள் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "குளோரோஃபார்ம் மற்றும் நீர்த்த NaOH",
+        "குளோரோஃபார்ம் மற்றும் எத்தனாலிக் KOH",
+        "புரோமின் நீர் மற்றும் NaOH",
+        "நைட்ரஸ் அமிலம் மற்றும் HCl"
+      ],
+      "correct": 1,
+      "explanation": "The carbylamine reaction uses chloroform and ethanolic potassium hydroxide. Primary amines react with these reagents on heating to form foul-smelling isocyanides (carbylamines). Secondary and tertiary amines do not show this reaction. | கார்பைலமைன் வினையில் குளோரோஃபார்ம் மற்றும் எத்தனாலிக் பொட்டாசியம் ஹைட்ராக்சைடு பயன்படுத்தப்படுகிறது. முதல்நிலை அமீன்கள் இவற்றுடன் சூடாக்கப்பட்டு துர்நாற்றம் வீசும் ஐசோசயனைடுகளை உருவாக்குகின்றன. இரண்டாம் மற்றும் மூன்றாம் நிலை அமீன்கள் இந்த வினையைக் காட்டுவதில்லை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதல்நிலை அரோமாட்டிக் அமீன்கள் நைட்ரஸ் அமிலத்துடன் டையசோனியம் உப்புகளைத் தயாரிக்கும் வெப்பநிலை வரம்பு என்ன?",
+      "options": [
+        "273-278 K",
+        "298-303 K",
+        "323-333 K",
+        "373-383 K"
+      ],
+      "correct": 0,
+      "explanation": "Primary aromatic amines react with nitrous acid at low temperatures of 273-278 K to form stable arenediazonium salts. This conversion is called diazotisation. At higher temperatures, the diazonium salts decompose. The stability is explained by resonance in the arenediazonium ion. | முதல்நிலை அரோமாட்டிக் அமீன்கள் 273-278 K குறைந்த வெப்பநிலையில் நைட்ரஸ் அமிலத்துடன் வினைபுரிந்து நிலையான அரீன்டையசோனியம் உப்புகளை உருவாக்குகின்றன. இந்த மாற்றம் டையசோட்டிசேஷன் என அழைக்கப்படுகிறது. அதிக வெப்பநிலையில் டையசோனியம் உப்புகள் சிதைகின்றன. அரீன்டையசோனியம் அயனியின் ஒத்திசைவு மூலம் நிலைப்பாடு விளக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களை வேறுபடுத்துவதற்காக ஹின்ஸ்பெர்க் கருவியாகப் பயன்படுத்தப்படுவது எது?",
+      "options": [
+        "அசெட்டைல் குளோரைடு",
+        "பென்சீன்சல்போனைல் குளோரைடு (C6H5SO2Cl)",
+        "குளோரோஃபார்ம்",
+        "சோடியம் நைட்ரைட்"
+      ],
+      "correct": 1,
+      "explanation": "Benzenesulphonyl chloride (C6H5SO2Cl), also known as Hinsberg reagent, reacts differently with primary, secondary, and tertiary amines. Primary amines form N-alkylbenzenesulphonamides with an acidic hydrogen (soluble in alkali). Secondary amines form N,N-dialkylbenzenesulphonamides without acidic hydrogen (insoluble in alkali). Tertiary amines do not react. | பென்சீன்சல்போனைல் குளோரைடு (C6H5SO2Cl), ஹின்ஸ்பெர்க் கருவியாகவும் அழைக்கப்படுகிறது, முதல், இரண்டாம், மூன்றாம் நிலை அமீன்களுடன் வேறுபட்ட வகையில் வினைபுரிகிறது. முதல்நிலை அமீன்கள் அமில ஹைட்ரஜன் கொண்ட N-அல்கைல்பென்சீன்சல்போனமைடுகளை (காரத்தில் கரையக்கூடிய) உருவாக்குகின்றன. இரண்டாம் நிலை அமீன்கள் அமில ஹைட்ரஜன் இல்லாத N,N-டையல்கைல்பென்சீன்சல்போனமைடுகளை (காரத்தில் கரையாத) உருவாக்குகின்றன. மூன்றாம் நிலை அமீன்கள் வினைபுரிவதில்லை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஹின்ஸ்பெர்க் சோதனையில் முதல்நிலை அமீன்களின் விளைபொருள் ஏன் காரத்தில் கரைகிறது?",
+      "options": [
+        "நைட்ரஜனில் இரண்டு அல்கைல் குழுக்கள் இருப்பதால்",
+        "நைட்ரஜனுடன் இணைந்த ஹைட்ரஜன் எலக்ட்ரான் இழுக்கும் சல்போனைல் குழுவால் மிகவும் அமிலமாக இருப்பதால்",
+        "நான்காம் நிலை அமோனியம் உப்பை உருவாக்குவதால்",
+        "நைட்ரஜனில் ஹைட்ரஜன் இல்லாததால்"
+      ],
+      "correct": 1,
+      "explanation": "In the reaction of benzenesulphonyl chloride with primary amines, the product N-alkylbenzenesulphonamide contains a hydrogen atom attached to nitrogen. This hydrogen is strongly acidic due to the presence of the strong electron-withdrawing sulphonyl group. Hence, it is soluble in alkali. | பென்சீன்சல்போனைல் குளோரைடு முதல்நிலை அமீன்களுடன் வினைபுரியும்போது, விளைபொருளான N-அல்கைல்பென்சீன்சல்போனமைடில் நைட்ரஜனுடன் இணைந்த ஹைட்ரஜன் அணு உள்ளது. இந்த ஹைட்ரஜன் வலுவான எலக்ட்ரான் இழுக்கும் சல்போனைல் குழுவின் வழியாக மிகவும் அமிலத்தன்மை கொண்டதாகிறது. எனவே, இது காரத்தில் கரைகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஹின்ஸ்பெர்க் கருவியுடன் இரண்டாம் நிலை அமீன்கள் வினைபுரியும்போது உருவாகும் விளைபொருளின் பண்பு என்ன?",
+      "options": [
+        "அமில ஹைட்ரஜன் காரணமாக காரத்தில் கரைகிறது",
+        "நைட்ரஜனுடன் இணைந்த ஹைட்ரஜன் இல்லாததால் காரத்தில் கரையாது",
+        "டையசோனியம் உப்பை உருவாக்குகிறது",
+        "நைட்ரஜன் வாயுவை விடுவிக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "When benzenesulphonyl chloride reacts with secondary amines, the product is N,N-dialkylbenzenesulphonamide. Since this product does not contain any hydrogen atom attached to the nitrogen atom, it is not acidic and hence insoluble in alkali. This distinguishes secondary amines from primary amines. | பென்சீன்சல்போனைல் குளோரைடு இரண்டாம் நிலை அமீன்களுடன் வினைபுரியும்போது, விளைபொருள் N,N-டையல்கைல்பென்சீன்சல்போனமைடு ஆகும். இந்த விளைபொருளில் நைட்ரஜன் அணுவுடன் இணைந்த எந்த ஹைட்ரஜன் அணுவும் இல்லை, எனவே அது அமிலத்தன்மை இல்லாததால் காரத்தில் கரையாது. இது இரண்டாம் நிலை அமீன்களை முதல்நிலை அமீன்களிடமிருந்து வேறுபடுத்திக் காட்டுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஹின்ஸ்பெர்க் கருவியுடன் மூன்றாம் நிலை அமீன்கள் எப்படி நடந்து கொள்கின்றன?",
+      "options": [
+        "காரத்தில் கரையக்கூடிய சல்போனமைடுகளை உருவாக்குகின்றன",
+        "காரத்தில் கரையாத சல்போனமைடுகளை உருவாக்குகின்றன",
+        "முற்றிலும் வினைபுரிவதில்லை",
+        "டையசோனியம் உப்புகளை உருவாக்குகின்றன"
+      ],
+      "correct": 2,
+      "explanation": "Tertiary amines do not react with benzenesulphonyl chloride (Hinsberg reagent). This property, along with the different behaviors of primary and secondary amines, is used for the distinction and separation of primary, secondary, and tertiary amines. Modern practice uses p-toluenesulphonyl chloride instead. | மூன்றாம் நிலை அமீன்கள் பென்சீன்சல்போனைல் குளோரைடுடன் (ஹின்ஸ்பெர்க் கருவி) வினைபுரிவதில்லை. முதல் மற்றும் இரண்டாம் நிலை அமீன்களின் வேறுபட்ட நடத்தைகளுடன் இந்த பண்பு, முதல், இரண்டாம், மூன்றாம் நிலை அமீன்களை வேறுபடுத்தி பிரிப்பதற்குப் பயன்படுத்தப்படுகிறது. நவீன பயிற்சியில் p-டாலுயீன்சல்போனைல் குளோரைடு பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதல்நிலை அலிஃபாட்டிக் அமீன்கள் நைட்ரஸ் அமிலத்துடன் வினைபுரியும்போது என்ன விளைபொருட்கள் உருவாகின்றன?",
+      "options": [
+        "நிலையான டையசோனியம் உப்புகள் மற்றும் நீர்",
+        "நிலையற்ற டையசோனியம் உப்புகள், நைட்ரஜன் வாயுவை விடுவித்து, ஆல்கஹால்களை உருவாக்குகின்றன",
+        "அசோ சாயங்கள் மற்றும் நைட்ரஜன் வாயு",
+        "ஃபீனால்கள் மற்றும் நைட்ரஜன் வாயு"
+      ],
+      "correct": 1,
+      "explanation": "Primary aliphatic amines react with nitrous acid to form unstable aliphatic diazonium salts. These salts decompose immediately, liberating nitrogen gas quantitatively and forming alcohols. This quantitative evolution of nitrogen is used in estimation of amino acids and proteins. | முதல்நிலை அலிஃபாட்டிக் அமீன்கள் நைட்ரஸ் அமிலத்துடன் வினைபுரிந்து நிலையற்ற அலிஃபாட்டிக் டையசோனியம் உப்புகளை உருவாக்குகின்றன. இவை உடனடியாக சிதைந்து, நைட்ரஜன் வாயுவை அளவிடத்தக்க வகையில் விடுவித்து, ஆல்கஹால்களை உருவாக்குகின்றன. இந்த அளவிடத்தக்க நைட்ரஜன் விடுவிப்பு அமினோ அமிலங்கள் மற்றும் புரதங்களின் அளவீட்டில் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "இரண்டாம் மற்றும் மூன்றாம் நிலை அமீன்கள் நைட்ரஸ் அமிலத்துடன் எப்படி வினைபுரிகின்றன?",
+      "options": [
+        "முதல்நிலை அரோமாட்டிக் அமீன்கள் போல நிலையான டையசோனியம் உப்புகளை உருவாக்குகின்றன",
+        "முதல்நிலை அமீன்களிடமிருந்து வேறுபட்ட வகையில், நைட்ரோசோ சேர்மங்களை அல்லது வேறு விளைபொருட்களை உருவாக்குகின்றன",
+        "நைட்ரஸ் அமிலத்துடன் முற்றிலும் வினைபுரிவதில்லை",
+        "நைட்ரஜன் வாயுவை அளவிடத்தக்க வகையில் விடுவிக்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "Secondary and tertiary amines react with nitrous acid in a different manner from primary amines. Secondary amines form nitrosoamines (yellow oily compounds), while tertiary amines undergo ring substitution if aromatic, or form complex products if aliphatic. This difference helps distinguish the three classes of amines. | இரண்டாம் மற்றும் மூன்றாம் நிலை அமீன்கள் முதல்நிலை அமீன்களிடமிருந்து வேறுபட்ட வகையில் நைட்ரஸ் அமிலத்துடன் வினைபுரிகின்றன. இரண்டாம் நிலை அமீன்கள் நைட்ரோசோஅமீன்களை (மஞ்சள் நிற எண்ணெய் போன்ற சேர்மங்கள்) உருவாக்குகின்றன, மூன்றாம் நிலை அமீன்கள் அரோமாட்டிக் எனில் வளைய மாற்றத்தை, அலிஃபாட்டிக் எனில் சிக்கலான விளைபொருட்களை உருவாக்குகின்றன. இந்த வேறுபாடு மூன்று வகுப்பு அமீன்களையும் வேறுபடுத்த உதவுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதல்நிலை அரோமாட்டிக் அமீன்களை நைட்ரஸ் அமிலம் மூலம் டையசோனியம் உப்புகளாக மாற்றும் வினையின் பெயர் என்ன?",
+      "options": [
+        "கார்பைலமைன் வினை",
+        "டையசோட்டிசேஷன்",
+        "அமோனோலிசிஸ்",
+        "அசெட்டிலேஷன்"
+      ],
+      "correct": 1,
+      "explanation": "The conversion of primary aromatic amines into diazonium salts using nitrous acid (prepared in situ from NaNO2 and HCl) at 273-278 K is called diazotisation. This is a very important reaction for synthesizing various aromatic compounds. | முதல்நிலை அரோமாட்டிக் அமீன்களை NaNO2 மற்றும் HCl இலிருந்து தயாரிக்கப்படும் நைட்ரஸ் அமிலம் மூலம் 273-278 K இல் டையசோனியம் உப்புகளாக மாற்றுவது டையசோட்டிசேஷன் என அழைக்கப்படுகிறது. இது பல்வேறு அரோமாட்டிக் சேர்மங்களைத் தொகுப்பதற்கான மிக முக்கியமான வினையாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களுடன் வினைபுரிவதற்காக நைட்ரஸ் அமிலம் எப்படி இடத்தில் (in situ) தயாரிக்கப்படுகிறது?",
+      "options": [
+        "NaNO3 மற்றும் H2SO4 ஐ கலப்பதன் மூலம்",
+        "NaNO2 மற்றும் HCl போன்ற கனிம அமிலத்தை கலப்பதன் மூலம்",
+        "NaNH2 மற்றும் HNO3 ஐ கலப்பதன் மூலம்",
+        "வணிக HNO2 கரைசலை நேரடியாகப் பயன்படுத்துவதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "Nitrous acid is prepared in situ by mixing sodium nitrite (NaNO2) with a mineral acid such as HCl. The reaction produces nitrous acid in the reaction mixture immediately before it reacts with the amine. Nitrous acid is unstable and cannot be stored. | நைட்ரஸ் அமிலம் NaNO2 ஐ HCl போன்ற கனிம அமிலத்துடன் கலப்பதன் மூலம் இடத்தில் (in situ) தயாரிக்கப்படுகிறது. இந்த வினை நைட்ரஸ் அமிலத்தை அமீனுடன் வினைபுரிவதற்கு முன்பு வினைக்கலவையில் உடனடியாக உருவாக்குகிறது. நைட்ரஸ் அமிலம் நிலையற்றது, எனவே சேமிக்க முடியாது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எத்திலமீன் நைட்ரஸ் அமிலத்துடன் வினைபுரியும்போது இறுதி கரிம விளைபொருள் என்ன?",
+      "options": [
+        "எத்தில் டையசோனியம் குளோரைடு",
+        "எத்தனால்",
+        "எத்தில் நைட்ரைட்",
+        "நைட்ரோஎத்தேன்"
+      ],
+      "correct": 1,
+      "explanation": "When primary aliphatic amines like ethylamine react with nitrous acid, they form unstable aliphatic diazonium salts that immediately decompose, liberating nitrogen gas and forming the corresponding alcohol (ethanol in this case). | முதல்நிலை அலிஃபாட்டிக் அமீன்கள் எத்திலமீன் போன்றவை நைட்ரஸ் அமிலத்துடன் வினைபுரியும்போது, நிலையற்ற அலிஃபாட்டிக் டையசோனியம் உப்புகளை உருவாக்குகின்றன, அவை உடனடியாக சிதைந்து நைட்ரஜன் வாயுவை விடுவித்து, தொடர்புடைய ஆல்கஹாலை (இந்த வழக்கில் எத்தனால்) உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "கார்பைலமைன் வினை எந்த செயல்பாட்டுக் குழுவிற்கான சோதனையாகப் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "இரண்டாம் நிலை அமினோ குழு (-NH-)",
+        "முதல்நிலை அமினோ குழு (-NH2)",
+        "மூன்றாம் நிலை அமினோ குழு (-N<)",
+        "நைட்ரோ குழு (-NO2)"
+      ],
+      "correct": 1,
+      "explanation": "The carbylamine reaction (isocyanide test) is specifically used to test for the presence of a primary amino group (-NH2). Both aliphatic and aromatic primary amines give this test. The foul smell of isocyanide confirms the presence of primary amine. | கார்பைலமைன் வினை (ஐசோசயனைட் சோதனை) முதல்நிலை அமினோ குழு (-NH2) இருப்பதைச் சோதிப்பதற்காகக் குறிப்பாகப் பயன்படுத்தப்படுகிறது. அலிஃபாட்டிக் மற்றும் அரோமாட்டிக் முதல்நிலை அமீன்கள் இரண்டும் இந்த சோதனையைத் தருகின்றன. ஐசோசயனைடின் துர்நாற்றம் முதல்நிலை அமீனின் இருப்பை உறுதிப்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "மூன்று வகை அமீன்களுக்கும் ஹின்ஸ்பெர்க் சோதனை முடிவுகளை சரியாக சுருக்கமாகக் கூறுவது எது?",
+      "options": [
+        "முதல்நிலை: காரத்தில் கரைகிறது; இரண்டாம் நிலை: காரத்தில் கரையாது; மூன்றாம் நிலை: வினைபுரிவதில்லை",
+        "முதல்நிலை: காரத்தில் கரையாது; இரண்டாம் நிலை: காரத்தில் கரைகிறது; மூன்றாம் நிலை: டையசோனியம் உப்பை உருவாக்குகிறது",
+        "மூன்று வகைகளும் காரத்தில் கரையக்கூடிய விளைபொருட்களை உருவாக்குகின்றன",
+        "மூன்று வகைகளும் காரத்தில் கரையாத விளைபொருட்களை உருவாக்குகின்றன"
+      ],
+      "correct": 0,
+      "explanation": "In the Hinsberg test: Primary amines form N-alkylbenzenesulphonamides with acidic H (soluble in alkali); Secondary amines form N,N-dialkylbenzenesulphonamides without acidic H (insoluble in alkali); Tertiary amines do not react at all. This pattern allows clear distinction between all three classes. | ஹின்ஸ்பெர்க் சோதனையில்: முதல்நிலை அமீன்கள் அமில H கொண்ட N-அல்கைல்பென்சீன்சல்போனமைடுகளை (காரத்தில் கரையக்கூடிய) உருவாக்குகின்றன; இரண்டாம் நிலை அமீன்கள் அமில H இல்லாத N,N-டையல்கைல்பென்சீன்சல்போனமைடுகளை (காரத்தில் கரையாத) உருவாக்குகின்றன; மூன்றாம் நிலை அமீன்கள் முற்றிலும் வினைபுரிவதில்லை. இந்த வடிவம் மூன்று வகுப்புகளையும் தெளிவாக வேறுபடுத்த அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நவீன ஹின்ஸ்பெர்க் சோதனை பயிற்சியில் பென்சீன்சல்போனைல் குளோரைடுக்குப் பதிலாக எந்த கருவி பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "அசெட்டைல் குளோரைடு",
+        "p-டாலுயீன்சல்போனைல் குளோரைடு",
+        "பென்சோயில் குளோரைடு",
+        "தயோனைல் குளோரைடு"
+      ],
+      "correct": 1,
+      "explanation": "In modern practice, p-toluenesulphonyl chloride has replaced benzenesulphonyl chloride as the Hinsberg reagent. It works on the same principle but is more convenient to use. The test remains valuable for distinguishing primary, secondary, and tertiary amines. | நவீன பயிற்சியில், p-டாலுயீன்சல்போனைல் குளோரைடு பென்சீன்சல்போனைல் குளோரைடுக்குப் பதிலாக ஹின்ஸ்பெர்க் கருவியாகப் பயன்படுத்தப்படுகிறது. இது அதே கொள்கையின் அடிப்படையில் செயல்படுகிறது, ஆனால் பயன்படுத்துவதற்கு இன்னும் வசதியாக உள்ளது. இந்த சோதனை முதல், இரண்டாம், மூன்றாம் நிலை அமீன்களை வேறுபடுத்துவதில் தொடர்ந்து மதிப்புமிக்கதாக உள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "கார்பைலமைன் வினையில் முதல்நிலை அமீன்களின் விளைபொருளின் தன்மை என்ன?",
+      "options": [
+        "இனிப்பு மணமுள்ள திரவம்",
+        "துர்நாற்றம் வீசும் ஐசோசயனைடு",
+        "நிறமற்ற வாயு",
+        "நீல நிறத் திடப்பொருள்"
+      ],
+      "correct": 1,
+      "explanation": "Primary amines react with chloroform and ethanolic KOH on heating to form isocyanides (carbylamines), which are foul-smelling substances. This characteristic foul smell is used to identify primary amines. The reaction is also called isocyanide test. | முதல்நிலை அமீன்கள் குளோரோஃபார்ம் மற்றும் எத்தனாலிக் KOH உடன் சூடாக்கப்பட்டு துர்நாற்றம் வீசும் ஐசோசயனைடுகளை (கார்பைலமைன்கள்) உருவாக்குகின்றன. இந்த குறிப்பிட்ட துர்நாற்றம் முதல்நிலை அமீன்களை அடையாளம் காணப் பயன்படுத்தப்படுகிறது. இந்த வினை ஐசோசயனைட் சோதனை என்றும் அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலின் அடர் கந்தக அமிலத்துடன் வினைபுரிந்தால் எந்த விளைபொருள் உருவாகிறது?",
+      "options": [
+        "அனிலினியம் குளோரைடு",
+        "அனிலினியம் ஹைட்ரஜன்சல்பேட்",
+        "சல்பானிலிக் அமிலம்",
+        "p-நைட்ரோஅனிலின்"
+      ],
+      "correct": 1,
+      "explanation": "Aniline reacts with concentrated sulphuric acid to form anilinium hydrogensulphate. This is the initial product before further heating. | அனிலின் அடர் கந்தக அமிலத்துடன் வினைபுரிந்து அனிலினியம் ஹைட்ரஜன்சல்பேட்டை உருவாக்குகிறது. இது மேலும் சூடாக்குவதற்கு முன்பான ஆரம்ப விளைபொருள் ஆகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலினியம் ஹைட்ரஜன்சல்பேட்டை சல்பானிலிக் அமிலமாக மாற்ற எந்த வெப்பநிலை வரம்பில் சூடாக்க வேண்டும்?",
+      "options": [
+        "273-278 K",
+        "288 K",
+        "453-473 K",
+        "373 K"
+      ],
+      "correct": 2,
+      "explanation": "Anilinium hydrogensulphate is heated with sulphuric acid at 453-473 K to produce p-aminobenzene sulphonic acid, commonly known as sulphanilic acid. | அனிலினியம் ஹைட்ரஜன்சல்பேட்டை கந்தக அமிலத்துடன் 453-473 K வெப்பநிலையில் சூடாக்கும்போது p-அமினோபென்சீன் சல்போனிக் அமிலம் (சல்பானிலிக் அமிலம்) உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "p-அமினோபென்சீன் சல்போனிக் அமிலத்தின் பொதுப் பெயர் என்ன?",
+      "options": [
+        "அனிலின் சல்பேட்",
+        "சல்பானிலிக் அமிலம்",
+        "பென்சீன் சல்போனிக் அமிலம்",
+        "p-தொலுயீன் சல்போனிக் அமிலம்"
+      ],
+      "correct": 1,
+      "explanation": "p-aminobenzene sulphonic acid is commonly known as sulphanilic acid. It is formed by heating anilinium hydrogensulphate with sulphuric acid at 453-473 K. | p-அமினோபென்சீன் சல்போனிக் அமிலம் பொதுவாக சல்பானிலிக் அமிலம் என அழைக்கப்படுகிறது. இது அனிலினியம் ஹைட்ரஜன்சல்பேட்டை கந்தக அமிலத்துடன் 453-473 K வெப்பநிலையில் சூடாக்குவதால் உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சல்பானிலிக் அமிலம் அமில மற்றும் காரக் குழுக்களைக் கொண்டிருப்பதால் எந்த வகை அயனியை உருவாக்குகிறது?",
+      "options": [
+        "அனிலினியம் அயனி",
+        "டயசோனியம் அயனி",
+        "ஸ்விட்டர் அயனி",
+        "அம்மோனியம் அயனி"
+      ],
+      "correct": 2,
+      "explanation": "Sulphanilic acid forms a zwitter ion because it contains both an amino group (basic) and a sulphonic acid group (acidic) in the same molecule. | சல்பானிலிக் அமிலம் ஒரே மூலக்கூற்றில் அமினோ குழு (காரம்) மற்றும் சல்போனிக் அமில குழு (அமிலம்) ஆகிய இரண்டையும் கொண்டிருப்பதால் ஸ்விட்டர் அயனியை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலின் ப்ரீடெல்-கிராஃப்ட் ஆல்க்கைலேற்ற வினையை ஏன் அடையாது?",
+      "options": [
+        "அனிலின் மிகவும் வினைபுரிந்து ஆக்சிஜனேற்றம் அடைகிறது",
+        "அனிலின் AlCl3 வினையூக்கியுடன் உப்பை உருவாக்கி நைட்ரஜனை நேர்மின்னாக்குகிறது",
+        "அனிலின் வினை ஊடகத்தில் கரையாது",
+        "அனிலினில் நைட்ரஜனில் ஹைட்ரஜன் அணுக்கள் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "Aniline does not undergo Friedel-Crafts reaction because it forms a salt with aluminium chloride (AlCl3), the Lewis acid catalyst. This makes the nitrogen atom acquire a positive charge, which acts as a strong deactivating group for further reaction. | அனிலின் ப்ரீடெல்-கிராஃப்ட் வினையை அடையாததற்கான காரணம், அது லூயிஸ் அமில வினையூக்கியான அலுமினியம் குளோரைடுடன் (AlCl3) உப்பை உருவாக்குவதால் நைட்ரஜன் அணு நேர்மின்னைப் பெற்று மேலும் வினைபுரிவதை வலுவாகத் தடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ப்ரீடெல்-கிராஃப்ட் வினையில் அனிலின் உப்பை உருவாக்குவதற்குக் காரணமான வினையூக்கி எது?",
+      "options": [
+        "நிக்கல்",
+        "பல்லேடியம்",
+        "அலுமினியம் குளோரைடு (AlCl3)",
+        "இரும்புத் தூள்"
+      ],
+      "correct": 2,
+      "explanation": "Aluminium chloride (AlCl3) is the Lewis acid catalyst used in Friedel-Crafts reaction. It forms a salt with aniline, making nitrogen positively charged and preventing the reaction. | அலுமினியம் குளோரைடு (AlCl3) ப்ரீடெல்-கிராஃப்ட் வினையில் பயன்படுத்தப்படும் லூயிஸ் அமில வினையூக்கியாகும். இது அனிலினுடன் உப்பை உருவாக்கி நைட்ரஜனை நேர்மின்னாக்கி வினையைத் தடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலின் AlCl3 உடன் உப்பை உருவாக்கும்போது நைட்ரஜன் அணுவில் என்ன மாற்றம் ஏற்படுகிறது?",
+      "options": [
+        "நடுநிலையாகிறது",
+        "நேர்மின்னைப் பெறுகிறது",
+        "எதிர்மின்னைப் பெறுகிறது",
+        "அதன் தனித்த எலக்ட்ரான் ஜோடியை முழுவதுமாக இழக்கிறது"
+      ],
+      "correct": 1,
+      "explanation": "When aniline forms a salt with AlCl3, the nitrogen atom acquires a positive charge. This positively charged nitrogen acts as a strong deactivating group, preventing electrophilic aromatic substitution. | அனிலின் AlCl3 உடன் உப்பை உருவாக்கும்போது, நைட்ரஜன் அணு நேர்மின்னைப் பெறுகிறது. இந்த நேர்மின்னுடைய நைட்ரஜன் வலுவான செயலிழப்புக் குழுவாக செயல்பட்டு மின்னணு வழங்கும் அரோமாட்டிக் பதிலீட்டைத் தடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "வினையூக்கியுடன் உப்பு உருவாதல் காரணமாக அனிலின் எந்த வினையை அடையாது?",
+      "options": [
+        "நைட்ரேற்றம்",
+        "சல்போனேற்றம்",
+        "ப்ரீடெல்-கிராஃப்ட் ஆல்க்கைலேற்றம் மற்றும் அசிட்டைலேற்றம்",
+        "புரோமினேற்றம்"
+      ],
+      "correct": 2,
+      "explanation": "Aniline does not undergo Friedel-Crafts alkylation and acetylation because it forms a salt with aluminium chloride (AlCl3), the Lewis acid catalyst used in these reactions. | அனிலின் ப்ரீடெல்-கிராஃப்ட் ஆல்க்கைலேற்றம் மற்றும் அசிட்டைலேற்றம் வினைகளை அடையாததற்கான காரணம், இந்த வினைகளில் பயன்படுத்தப்படும் லூயிஸ் அமில வினையூக்கியான அலுமினியம் குளோரைடுடன் (AlCl3) உப்பை உருவாக்குவதால் ஆகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலின்-AlCl3 உப்பில் நேர்மின்னுடைய நைட்ரஜன் பென்சீன் வளையத்தில் என்ன தாக்கத்தை ஏற்படுத்துகிறது?",
+      "options": [
+        "மின்னணு பதிலீட்டுக்கு வளையத்தை செயல்படுத்துகிறது",
+        "வலுவான செயலிழப்புக் குழுவாக செயல்படுகிறது",
+        "வளையத்தில் எந்த தாக்கமும் இல்லை",
+        "பென்சீனை விட வளையத்தை வினைபுரியும் தன்மையுடையதாக்குகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The positively charged nitrogen in the aniline-AlCl3 salt acts as a strong deactivating group. This prevents further electrophilic aromatic substitution reactions from occurring. | அனிலின்-AlCl3 உப்பில் உள்ள நேர்மின்னுடைய நைட்ரஜன் வலுவான செயலிழப்புக் குழுவாக செயல்படுகிறது. இது மேலும் மின்னணு வழங்கும் அரோமாட்டிக் பதிலீட்டு வினைகளை நடக்கவிடாமல் தடுக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலினின் சல்போனேற்றத்தில் 453-473 K சூடாக்குவதற்கு முன்பு உருவாகும் முதல் இடைநிலைப் பொருள் எது?",
+      "options": [
+        "நேரடியாக சல்பானிலிக் அமிலம்",
+        "அனிலினியம் ஹைட்ரஜன்சல்பேட்",
+        "p-நைட்ரோஅனிலின்",
+        "பென்சீன் சல்போனிக் அமிலம்"
+      ],
+      "correct": 1,
+      "explanation": "In sulphonation of aniline, the first step is reaction with concentrated sulphuric acid to form anilinium hydrogensulphate. This intermediate is then heated at 453-473 K to produce sulphanilic acid. | அனிலினின் சல்போனேற்றத்தில், முதல் படி அடர் கந்தக அமிலத்துடன் வினைபுரிந்து அனிலினியம் ஹைட்ரஜன்சல்பேட்டை உருவாக்குவதாகும். இந்த இடைநிலைப் பொருள் பின்னர் 453-473 K வெப்பநிலையில் சூடாக்கப்பட்டு சல்பானிலிக் அமிலத்தை உருவாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "4-நைட்ரோடாலுவீனை 2-புரோமோபென்சோயிக் அமிலமாக மாற்றும் தொகுப்பில், 2-புரோமோ-4-அமினோடாலுவீனை NaNO2 மற்றும் HCl உடன் 273-278K வெப்பநிலையில் சிகிச்சையளிப்பதன் நோக்கம் என்ன?",
+      "options": [
+        "அமினோ குழுவை மெத்தில் குழுவாக ஒடுக்குவது",
+        "அமினோ குழுவை டையசோனியம் உப்பாக மாற்றி பின்னர் மாற்றீடு செய்வது",
+        "அரோமாட்டிக் வளையத்தில் மீட்டா நிலையில் புரோமினேற்றம் செய்வது",
+        "மெத்தில் குழுவை கார்பாக்சிலிக் அமிலமாக ஆக்ஸிடேஷன் செய்வது"
+      ],
+      "correct": 1,
+      "explanation": "The reaction of a primary aromatic amine with NaNO2 and HCl at 273-278K is diazotization, converting the amino group into a diazonium salt. This diazonium group is an excellent leaving group and can be replaced by various nucleophiles. In this synthesis, the diazonium group is later replaced by hydrogen using H3PO2 to give 2-bromotoluene, which is then oxidized to 2-bromobenzoic acid. | NaNO2 மற்றும் HCl உடன் 273-278K வெப்பநிலையில் முதல்நிலை அரோமாட்டிக் அமீனின் எதிர்வினை டையசோட்டைசேஷன் ஆகும், இது அமினோ குழுவை டையசோனியம் உப்பாக மாற்றுகிறது. இந்த டையசோனியம் குழு சிறந்த வெளியேறும் குழுவாகும், பல்வேறு நியூக்ளியோஃபைல்களால் மாற்றப்படலாம். இந்த தொகுப்பில், H3PO2 மூலம் ஹைட்ரஜனால் மாற்றப்பட்டு 2-bromotoluene கிடைக்கிறது, பின்னர் ஆக்ஸிடேஷனால் 2-bromobenzoic acid ஆக மாற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "2-புரோமோ-4-அமினோடாலுவீனிலிருந்து 2-புரோமோடாலுவீன் தயாரிக்க டையசோனியம் குழுவை ஹைட்ரஜனால் மாற்ற எந்த வினைப்பொருள் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "Sn மற்றும் HCl",
+        "H3PO2 (ஹைபோஃபாஸ்பரஸ் அமிலம்)",
+        "கார விடைப்பாட்டில் KMnO4",
+        "அசிட்டிக் அமிலத்தில் Br2"
+      ],
+      "correct": 1,
+      "explanation": "Hypophosphorous acid (H3PO2) is a mild reducing agent that reduces diazonium salts to arenes by replacing the diazo group with hydrogen. In this reaction, H3PO2 gets oxidized to phosphorous acid (H3PO3) while the diazonium salt is converted to the corresponding hydrocarbon. This is a key step in removing the amino group after it has served its purpose in directing substitution. | ஹைபோஃபாஸ்பரஸ் அமிலம் (H3PO2) ஒரு மிதமான ஒடுக்கும் முகவர் ஆகும், இது டையசோனியம் உப்புகளை அரீன்களாக ஒடுக்குகிறது. H3PO2 ஃபாஸ்பரஸ் அமிலமாக (H3PO3) ஆக்ஸிடேஷன் அடைகிறது, அதே சமயம் டையசோனியம் உப்பு அதற்குரிந்த ஹைட்ரோகார்பனாக மாற்றப்படுகிறது. இது மாற்றீட்டை நோக்கி வழிநடத்திய பின் அமினோ குழுவை அகற்றுவதற்கான முக்கிய படி."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "2-புரோமோடாலுவீனை 2-புரோமோபென்சோயிக் அமிலமாக மாற்றும் இறுதி படி என்ன?",
+      "options": [
+        "LiAlH4 மூலம் ஒடுக்கம்",
+        "கார விடைப்பாட்டில் KMnO4 மூலம் ஆக்ஸிடேஷன்",
+        "HNO3 மற்றும் H2SO4 மூலம் நைட்ரேற்றம்",
+        "Friedel-Crafts அசைலேற்றம்"
+      ],
+      "correct": 1,
+      "explanation": "The methyl group attached to an aromatic ring can be oxidized to a carboxylic acid group using strong oxidizing agents like KMnO4 in alkaline medium. This is a standard method for converting alkyl side chains on aromatic rings to carboxylic acids. The bromine substituent remains intact during this oxidation because it is stable under these conditions. | அரோமாட்டிக் வளையத்துடன் இணைந்த மெத்தில் குழு வலுவான ஆக்ஸிடேசிங் முகவர்களால் கார்பாக்சிலிக் அமில குழுவாக ஆக்ஸிடேஷன் அடைகிறது. KMnO4 கார விடைப்பாட்டில் இந்த நிலையான முறையாகும். புரோமைன் மாற்றீடு இந்த ஆக்ஸிடேஷனின் போது நிலையானதாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "3-மெத்திலஅனிலினை 3-நைட்ரோடாலுவீனாக மாற்ற எந்த முறை பின்பற்றப்பட வேண்டும்?",
+      "options": [
+        "HNO3 மற்றும் H2SO4 உடன் நேரடி நைட்ரேற்றம்",
+        "டையசோட்டைசேஷன் செய்து Cu/NaNO2 உடன் டையசோ குழுவை NO2 மூலம் மாற்றுதல்",
+        "அசிட்டைலேஷன் செய்து நைட்ரேற்றம் மற்றும் ஹைட்ரோலிசிஸ்",
+        "Sn/HCl மூலம் ஒடுக்கம் செய்து KMnO4 மூலம் ஆக்ஸிடேஷன்"
+      ],
+      "correct": 1,
+      "explanation": "To convert an amino group to a nitro group, the amino group is first converted to a diazonium salt by diazotization with NaNO2/HCl at low temperature. Then the diazonium fluoroborate is heated with aqueous NaNO2 in presence of copper to replace the diazo group with NO2. Direct nitration of aniline would give mixtures due to high reactivity and oxidation. | அமினோ குழுவை நைட்ரோ குழுவாக மாற்ற, முதலில் NaNO2/HCl உடன் குறைந்த வெப்பநிலையில் டையசோட்டைசேஷன் செய்யப்படுகிறது. பின்னர் டையசோனியம் ஃப்ளூரோபோரேட்டை Cu/NaNO2 உடன் சூடாக்கி NO2 மூலம் மாற்றப்படுகிறது. அனிலினின் நேரடி நைட்ரேற்றம் உயர் வினைத்திறன் மற்றும் ஆக்ஸிடேஷனால் கலவைகளைத் தரும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலினை 1,3,5-ட்ரைபுரோமோபென்சீனாக மாற்ற சரியான எதிர்வினை வரிசை என்ன?",
+      "options": [
+        "டையசோட்டைசேஷன் செய்து அதிகப்படியான Br2 உடன் எதிர்வினை",
+        "Br2 நீருடன் புரோமினேற்றம் செய்து ட்ரைபுரோமோஅனிலின் பெற்று, பின்னர் டையசோட்டைசேஷன் செய்து H மூலம் மாற்றம்",
+        "நைட்ரேற்றம் செய்து ஒடுக்கம் மற்றும் புரோமினேற்றம்",
+        "அசிட்டைலேஷன் செய்து புரோமினேற்றம் மற்றும் ஹைட்ரோலிசிஸ்"
+      ],
+      "correct": 1,
+      "explanation": "Aniline reacts with bromine water to give 2,4,6-tribromoaniline (white precipitate) due to high activation by NH2 group. Then the amino group is diazotized and replaced with hydrogen using H3PO2 or ethanol to give 1,3,5-tribromobenzene. The NH2 group is used to activate the ring for bromination and then removed. | அனிலின் Br2 நீருடன் வினையாற்றி 2,4,6-ட்ரைபுரோமோஅனிலினைத் தருகிறது (NH2 குழுவின் உயர் செயல்படுத்துதலால்). பின்னர் அமினோ குழு டையசோட்டைசேஷன் செய்யப்பட்டு H3PO2 அல்லது எத்தனால் மூலம் ஹைட்ரஜனால் மாற்றப்பட்டு 1,3,5-ட்ரைபுரோமோபென்சீன் கிடைக்கிறது. NH2 குழு புரோமினேற்றத்திற்கு வளையத்தை செயல்படுத்திய பின் அகற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சுருக்கத்தின்படி, அமீன் simple அல்லது mixed என வகைப்படுத்துவதை எது தீர்மானிக்கிறது?",
+      "options": [
+        "நைட்ரஜன் sp3 ஹைபிரிடைசேஷன் அடைந்துள்ளதா என்பது",
+        "நைட்ரஜனுடன் இணைந்துள்ள அனைத்து ஆல்கைல் அல்லது அரைல் குழுக்கள் ஒரே மாதிரியானவையா அல்லது வேறுபட்டவையா என்பது",
+        "அமீன் முதல், இரண்டாம், அல்லது மூன்றாம் நிலையா என்பது",
+        "அமீன் ஆலிஃபாட்டிக் அல்லது அரோமாட்டிக் என்பது"
+      ],
+      "correct": 1,
+      "explanation": "The Summary states that amines are said to be simple when all the alkyl or aryl groups are the same, and mixed when they are different. This classification is independent of whether the amine is primary, secondary, or tertiary. For example, (CH3)3N is a simple tertiary amine, while CH3NHC2H5 is a mixed secondary amine. | சுருக்கத்தில், அனைத்து ஆல்கைல் அல்லது அரைல் குழுக்கள் ஒரே மாதிரியாக இருந்தால் simple amine, வேறுபட்டால் mixed amine எனக் கூறப்படுகிறது. இந்த வகைப்பாடு அமீன் முதல், இரண்டாம், அல்லது மூன்றாம் நிலையா என்பதைப் பொறுத்தது அல்ல. (CH3)3N ஒரு simple மூன்றாம்நிலை அமீன், CH3NHC2H5 ஒரு mixed இரண்டாம்நிலை அமீன்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சுருக்கத்தின்படி, மூன்று வகை அமீன்களும் (முதல், இரண்டாம், மூன்றாம் நிலை) Lewis காரமாக செயல்படுகின்றன. இந்த நடத்தைக்கான அமைப்பியல் காரணம் என்ன?",
+      "options": [
+        "நைட்ரஜனுடன் இணைந்துள்ள ஹைட்ரஜன் அணுக்களின் இருப்பு",
+        "நைட்ரஜன் அணுவில் தனித்த எலக்ட்ரான் ஜோடியின் இருப்பு",
+        "நைட்ரஜன் அணுவின் sp3 ஹைபிரிடைசேஷன்",
+        "அமீன் மூலக்கூறின் பிரமிட வடிவியல்"
+      ],
+      "correct": 1,
+      "explanation": "According to the Summary, all three types of amines have one unshared electron pair on the nitrogen atom, which makes them behave as Lewis bases. A Lewis base is an electron pair donor. The lone pair on nitrogen can donate to electron-deficient species (Lewis acids). While sp3 hybridization and pyramidal geometry are structural features, the direct reason for basicity is the availability of the lone pair. | சுருக்கத்தின்படி, மூன்று வகை அமீன்களிலும் நைட்ரஜன் அணுவில் ஒரு தனித்த எலக்ட்ரான் ஜோடி உள்ளது, இது Lewis காரமாக செயல்பட வைக்கிறது. Lewis காரம் எலக்ட்ரான் ஜோடி தானமளிப்பவர். நைட்ரஜனில் உள்ள தனித்த ஜோடி எலக்ட்ரான் குறைந்த இனங்களுக்கு (Lewis அமிலங்கள்) தானமளிக்க முடியும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சுருக்கத்தின்படி, ஆல்கைலமீன்களின் காரத்தன்மைக்கு பங்களிக்காத காரணி எது?",
+      "options": [
+        "ஆல்கைல் குழுக்களின் எலக்ட்ரான் விடும் தூண்டல் விளைவு",
+        "ஆல்கைல் குழுக்களின் விண்கோளத் தடை",
+        "அரோமாட்டிக் வளையத்துடனான ஒத்திசைவு",
+        "நீர் மூலக்கூறுகளுடனான ஹைட்ரஜன் பிணைப்பு (solvation)"
+      ],
+      "correct": 2,
+      "explanation": "The Summary specifically mentions that in alkylamines, a combination of electron releasing effect, steric effect, and H-bonding factors influence the stability of substituted ammonium cations in protic polar solvents. Resonance with an aromatic ring is a factor only for arylamines like aniline, not for alkylamines. The interplay of these three factors explains why the basicity order differs between gas phase and aqueous solution. | சுருக்கத்தில், ஆல்கைலமீன்களில் எலக்ட்ரான் விடும் விளைவு, விண்கோளத் தடை, மற்றும் H-bonding காரணிகளின் சேர்க்கை protic துருவ கரைப்பான்களில் மாற்றீட்டு அம்மோனியம் அயனிகளின் நிலைப்பாட்டை பாதிக்கிறது. அரோமாட்டிக் வளையத்துடனான ஒத்திசைவு அரைலமீன்களுக்கு மட்டுமே. இந்த மூன்று காரணிகளின் இணைப்பே வளிமண்டலம் மற்றும் நீர்த்த கரைசலில் வேறுபட்ட காரத்தன்மை வரிசையை விளக்குகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சுருக்கத்தின்படி, -OCH3 மற்றும் -CH3 போன்ற எலக்ட்ரான் விடும் குழுக்கள் மாற்றீட்டு அனிலின்களில் ஏன் முக்கியமானவை?",
+      "options": [
+        "மாற்றீட்டு அனிலினின் கொதிநிலையை அதிகரிக்கின்றன",
+        "மாற்றீட்டு அனிலினின் காரத்தன்மையை அதிகரிக்கின்றன",
+        "மாற்றீட்டு அனிலினை நீரில் அதிகம் கரையச் செய்கின்றன",
+        "அரோமாட்டிக் வளையத்தின் வினைத்திறனை குறைக்கின்றன"
+      ],
+      "correct": 1,
+      "explanation": "The Summary states that in aromatic amines, electron releasing groups like -OCH3 and -CH3 increase basic strength, while electron withdrawing groups like -NO2, -SO3H, -COOH, and -X decrease basic character. Electron releasing groups push electron density toward the nitrogen atom, making the lone pair more available for protonation and stabilizing the anilinium cation. | சுருக்கத்தில், அரோமாட்டிக் அமீன்களில் -OCH3 மற்றும் -CH3 போன்ற எலக்ட்ரான் விடும் குழுக்கள் காரத்தன்மையை அதிகரிக்கின்றன, -NO2, -SO3H, -COOH, -X போன்ற எலக்ட்ரான் இழுக்கும் குழுக்கள் காரத்தன்மையைக் குறைக்கின்றன. எலக்ட்ரான் விடும் குழுக்கள் நைட்ரஜன் அணுவை நோக்கி எலக்ட்ரான் அடர்த்தியை தள்ளுகின்றன, தனித்த ஜோடியை புரோட்டானேற்றத்திற்கு அதிகமாகக் கிடைக்கச் செய்கின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சுருக்கத்தில் குறிப்பிடப்பட்டுள்ளபடி, p-டாலுவீன்சல்போனைல் குளோரைடின் அமீன்களை அடையாளம் காணுவதில் பங்கு என்ன?",
+      "options": [
+        "அமீன்களின் அசைலேற்றத்திற்கு வினையூக்கியாக செயல்படுவது",
+        "முதல், இரண்டாம், மூன்றாம் நிலை அமீன்களுடன் வேறுபட்ட முறையில் எதிர்வினையாற்றி அவற்றை வேறுபடுத்துவது",
+        "அனைத்து அமீன்களையும் டையசோனியம் உப்புகளாக மாற்றுவது",
+        "முதல்நிலை அமீன்களை நைட்ரோ சேர்மங்களாக ஆக்ஸிடேஷன் செய்வது"
+      ],
+      "correct": 1,
+      "explanation": "The Summary states that p-toluenesulphonyl chloride (also known as Hinsberg reagent) is used for the identification of primary, secondary, and tertiary amines. Primary amines give N-substituted sulphonamides soluble in alkali; secondary amines give sulphonamides insoluble in alkali; tertiary amines do not react. This differential behavior allows distinction between all three types. | சுருக்கத்தில், p-டாலுவீன்சல்போனைல் குளோரைடு (Hinsberg சோதனை) முதல், இரண்டாம், மூன்றாம் நிலை அமீன்களை அடையாளம் காணப் பயன்படுத்தப்படுகிறது. முதல்நிலை அமீன்கள் காரத்தில் கரையும் N-மாற்றீட்டு சல்போனமைடுகளைத் தருகின்றன; இரண்டாம்நிலை காரத்தில் கரையாத சல்போனமைடுகளைத் தருகின்றன; மூன்றாம்நிலை எதிர்வினையாற்றாது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சுருக்கத்தின்படி, அரோமாட்டிக் அமீன்களின் எலக்ட்ரோஃபிலிக் மாற்றீட்டு எதிர்வினைகளில் வினைத்திறனை எவ்வாறு கட்டுப்படுத்த முடியும்?",
+      "options": [
+        "அமீனை டையசோனியம் உப்பாக மாற்றுவதன் மூலம்",
+        "அசிட்டைல் குளோரைடு அல்லது அசிட்டிக் நீரிலி மூலம் அசைலேற்றம் செய்வதன் மூலம்",
+        "தளர்ந்த நைட்ரிக் அமிலத்தால் நைட்ரேற்றம் செய்வதன் மூலம்",
+        "Sn மற்றும் HCl மூலம் ஒடுக்கம் செய்வதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "The Summary states that the reactivity of aromatic amines can be controlled by acylation process, i.e., by treating with acetyl chloride or acetic anhydride. This converts the strongly activating -NH2 group to a less activating -NHCOCH3 group. The lone pair on nitrogen is delocalized toward the carbonyl oxygen, making it less available for donation to the ring, thus moderating reactivity and allowing monosubstitution. | சுருக்கத்தில், அரோமாட்டிக் அமீன்களின் வினைத்திறனை அசிட்டைல் குளோரைடு அல்லது அசிட்டிக் நீரிலி மூலம் அசைலேற்றம் செய்வதன் மூலம் கட்டுப்படுத்த முடியும். இது வலுவாக செயல்படுத்தும் -NH2 குழுவை குறைந்த செயல்படுத்தும் -NHCOCH3 குழுவாக மாற்றுகிறது. நைட்ரஜனில் உள்ள தனித்த ஜோடி கார்போனைல் ஆக்ஸிஜனை நோக்கி பரவியடைந்து வளையத்திற்கு தானமளிப்பதைக் குறைக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சுருக்கத்தில் குறிப்பிடப்பட்டுள்ள மூன்றாம்நிலை அமீன்களின் வணிக பயன்பாடு என்ன?",
+      "options": [
+        "சவரன்களில் surfactant-களாகப் பயன்பாடு",
+        "பூச்சி ஈர்ப்பான்களாகப் பயன்பாடு",
+        "பல் மருத்துவத்தில் உள்ளூர் மயக்க மருந்தாகப் பயன்பாடு",
+        "சாய தொகுப்பில் இடைநிலைப் பொருட்களாகப் பயன்பாடு"
+      ],
+      "correct": 1,
+      "explanation": "The Summary specifically mentions that tertiary amines like trimethylamine are used as insect attractants. Other applications mentioned elsewhere in the chapter include quaternary ammonium salts as surfactants, novocain as anesthetic, and diazonium salts as dye intermediates, but the Summary specifically highlights insect attractants for tertiary amines. | சுருக்கத்தில், ட்ரைமெத்திலமீன் போன்ற மூன்றாம்நிலை அமீன்கள் பூச்சி ஈர்ப்பான்களாகப் பயன்படுத்தப்படுகின்றன எனக் குறிப்பிடப்பட்டுள்ளது. அத்தியாயத்தின் பிற பகுதிகளில் குவாட்டர்னரி அம்மோனியம் உப்புகள் surfactant-களாக, நோவோகைன் மயக்க மருந்தாக, டையசோனியம் உப்புகள் சாய இடைநிலைப் பொருட்களாக குறிப்பிடப்பட்டுள்ளன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்கள் எந்த மூலக்கூறின் வழிப்பெறுதிகளாகக் கருதப்படுகின்றன?",
+      "options": [
+        "நீர்",
+        "அம்மோனியா",
+        "மீத்தேன்",
+        "கார்பன் டையாக்சைடு"
+      ],
+      "correct": 1,
+      "explanation": "Amines are derivatives of ammonia obtained by replacing one or more hydrogen atoms with alkyl or aryl groups. | அமீன்கள் அம்மோனியாவின் வழிப்பெறுதிகளாகும், அதில் ஒன்று அல்லது அதற்கு மேற்பட்ட ஹைட்ரஜன் அணுக்கள் ஆல்கைல் அல்லது அரைல் குழுக்களால் மாற்றப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரஜனின் sp3 கலப்பாக்கத்தால் அமீன்களின் வடிவமைப்பு என்ன?",
+      "options": [
+        "நேர்க்கோடு",
+        "நான்முகி",
+        "பிரமிட்",
+        "தட்டையான"
+      ],
+      "correct": 2,
+      "explanation": "The nitrogen atom in amines is sp3 hybridized with a pyramidal geometry due to the presence of an unshared electron pair. | அமீன்களில் நைட்ரஜன் அணு sp3 கலப்பாக்கம் அடைந்து, பகிரப்படாத எலக்ட்ரான் ஜோடியால் பிரமிட வடிவமைப்பைக் கொண்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதல்நிலை அமீனின் பொது வாய்பாடு என்ன?",
+      "options": [
+        "R3N",
+        "R2NH",
+        "RNH2",
+        "R4NX"
+      ],
+      "correct": 2,
+      "explanation": "Primary amines have the formula RNH2 where one hydrogen of ammonia is replaced by an alkyl or aryl group. | முதல்நிலை அமீன்களின் வாய்பாடு RNH2 ஆகும், அதில் அம்மோனியாவின் ஒரு ஹைட்ரஜன் அணு ஆல்கைல் அல்லது அரைல் குழுவால் மாற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "இரண்டாம்நிலை அமீனில் அம்மோனியாவின் எத்தனை ஹைட்ரஜன் அணுக்கள் மாற்றப்படுகின்றன?",
+      "options": [
+        "ஒன்று",
+        "இரண்டு",
+        "மூன்று",
+        "எதுவும் இல்லை"
+      ],
+      "correct": 1,
+      "explanation": "In secondary amines, two hydrogen atoms of ammonia are replaced by alkyl or aryl groups giving R2NH or R-NHR'. | இரண்டாம்நிலை அமீன்களில், அம்மோனியாவின் இரண்டு ஹைட்ரஜன் அணுக்கள் ஆல்கைல் அல்லது அரைல் குழுக்களால் மாற்றப்படுகின்றன, R2NH அல்லது R-NHR' கிடைக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "மூன்றாம்நிலை அமீனை எது வகைப்படுத்துகிறது?",
+      "options": [
+        "நைட்ரஜன் ஒரு கார்பனுடன் பிணைக்கப்பட்டுள்ளது",
+        "நைட்ரஜன் இரண்டு கார்பன்களுடன் பிணைக்கப்பட்டுள்ளது",
+        "நைட்ரஜன் மூன்று கார்பன்களுடன் பிணைக்கப்பட்டுள்ளது",
+        "நைட்ரஜன் நான்கு கார்பன்களுடன் பிணைக்கப்பட்டுள்ளது"
+      ],
+      "correct": 2,
+      "explanation": "Tertiary amines have nitrogen bonded to three alkyl or aryl groups with formula R3N, R2NR', or RNR'R''. | மூன்றாம்நிலை அமீன்களில் நைட்ரஜன் மூன்று ஆல்கைல் அல்லது அரைல் குழுக்களுடன் பிணைக்கப்பட்டுள்ளது, வாய்பாடு R3N, R2NR', அல்லது RNR'R''."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பொதுவான முறையில் அலிஃபாடிக் அமீன் எவ்வாறு பெயரிடப்படுகிறது?",
+      "options": [
+        "அல்கேன் பெயருக்கு -amine என்ற பின்னொட்டைச் சேர்த்து",
+        "ஆல்கைல் குழுவை amine என்ற சொல்லுக்கு முன்னொட்டாக ஒரே சொல்லாக",
+        "ரோமன் எண்களைப் பயன்படுத்தி",
+        "தாய் சங்கிலிக்கு amino- என்ற முன்னொட்டைச் சேர்த்து"
+      ],
+      "correct": 1,
+      "explanation": "In common system, aliphatic amines are named by prefixing the alkyl group to amine as one word, e.g., methylamine. | பொதுவான முறையில், அலிஃபாடிக் அமீன்கள் ஆல்கைல் குழுவை amine என்ற சொல்லுக்கு முன்னொட்டாக ஒரே சொல்லாகப் பெயரிடப்படுகின்றன, எ.கா. மெத்திலமீன்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "CH3NH2 இன் IUPAC பெயர் என்ன?",
+      "options": [
+        "மெத்திலமீன்",
+        "மெத்தனமீன்",
+        "அமினோமீத்தேன்",
+        "மெத்திலம்மோனியா"
+      ],
+      "correct": 1,
+      "explanation": "In IUPAC system, primary amines are named as alkanamines by replacing 'e' of alkane with 'amine', so CH3NH2 is methanamine. | IUPAC முறையில், முதல்நிலை அமீன்கள் அல்கேனின் 'e' எழுத்தை 'amine' என்று மாற்றி அல்கேனமீன்கள் என்று பெயரிடப்படுகின்றன, எனவே CH3NH2 மெத்தனமீன்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "CH3NHCH2CH3 இன் IUPAC பெயர் என்ன?",
+      "options": [
+        "எத்தில்மெத்திலமீன்",
+        "N-மெத்திலெத்தனமீன்",
+        "மெத்திலெத்திலமீன்",
+        "N-எத்தில்மெத்தனமீன்"
+      ],
+      "correct": 1,
+      "explanation": "For secondary amines, locant N is used to designate substituent on nitrogen. CH3NHCH2CH3 is N-methylethanamine. | இரண்டாம்நிலை அமீன்களுக்கு, நைட்ரஜனில் உள்ள பதிலீட்டானைக் குறிக்க N என்ற இடக்குறிப்பு பயன்படுத்தப்படுகிறது. CH3NHCH2CH3 N-மெத்திலெத்தனமீன்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களின் முக்கிய வணிகப் பயன்பாடு என்ன?",
+      "options": [
+        "சுத்திகரிப்பு முகவர்களாக",
+        "மருந்துகள் மற்றும் நார்களின் தொகுப்பில் இடைநிலைப் பொருட்களாக",
+        "உணவு பாதுகாப்பிகளாக",
+        "எரிபொருட்களாக"
+      ],
+      "correct": 1,
+      "explanation": "The chief commercial use of amines is as intermediates in the synthesis of medicines and fibres. | அமீன்களின் முக்கிய வணிகப் பயன்பாடு மருந்துகள் மற்றும் நார்களின் தொகுப்பில் இடைநிலைப் பொருட்களாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "இரண்டாம்நிலை அமினோ குழுவைக் கொண்டு இரத்த அழுத்தத்தை அதிகரிக்கப் பயன்படுத்தப்படும் உயிரியல் சேர்மம் எது?",
+      "options": [
+        "நோவோகைன்",
+        "பெனாட்ரில்",
+        "அட்ரினலின்",
+        "குவாட்டர்னரி அம்மோனியம் உப்பு"
+      ],
+      "correct": 2,
+      "explanation": "Adrenaline and ephedrine, both containing secondary amino groups, are used to increase blood pressure. | அட்ரினலின் மற்றும் எஃபெட்ரின், இரண்டும் இரண்டாம்நிலை அமினோ குழுக்களைக் கொண்டுள்ளன, இரத்த அழுத்தத்தை அதிகரிக்கப் பயன்படுத்தப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நோவோகைன் எதற்காகப் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "இரத்த அழுத்தத்தை அதிகரிப்பதற்கு",
+        "ஆன்டிஹிஸ்டமின் மருந்தாக",
+        "பல் மருத்துவத்தில் மயக்க மருந்தாக",
+        "சர்ஃபேக்டன்டாக"
+      ],
+      "correct": 2,
+      "explanation": "Novocain is a synthetic amino compound used as an anaesthetic in dentistry. | நோவோகைன் ஒரு செயற்கை அமினோ சேர்மமாகும், பல் மருத்துவத்தில் மயக்க மருந்தாகப் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டயசோனியம் உப்புகள் எதற்கான இடைநிலைப் பொருட்களாகப் பயன்படுத்தப்படுகின்றன?",
+      "options": [
+        "அலிஃபாடிக் சேர்மங்களின் தயாரிப்புக்கு",
+        "வண்ணங்கள் உட்பட அரோமாட்டிக் சேர்மங்களின் தயாரிப்புக்கு",
+        "பாலிமர்களின் தொகுப்புக்கு மட்டும்",
+        "சர்ஃபேக்டன்ட்களின் உற்பத்திக்கு"
+      ],
+      "correct": 1,
+      "explanation": "Diazonium salts are intermediates in the preparation of a variety of aromatic compounds including dyes. | டயசோனியம் உப்புகள், வண்ணங்கள் உட்பட பல்வேறு அரோமாட்டிக் சேர்மங்களின் தயாரிப்பில் இடைநிலைப் பொருட்களாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "CH3-CH2-NH2 இன் IUPAC பெயர் என்ன?",
+      "options": [
+        "Methylamine",
+        "Ethylamine",
+        "Ethanamine",
+        "Propan-1-amine"
+      ],
+      "correct": 2,
+      "explanation": "According to IUPAC nomenclature, primary amines are named as alkanamines by replacing the 'e' of the alkane with 'amine'. CH3-CH2-NH2 contains two carbon atoms, so the parent alkane is ethane. Replacing 'e' with 'amine' gives 'ethanamine'. The common name is ethylamine, but the IUPAC name is ethanamine. | IUPAC பெயரிடும் முறையில், முதல்நிலை அமீன்களை அல்கேனின் 'e' எழுத்தை 'amine' என்று மாற்றி அல்கேனமீன் என்று பெயரிடுகிறோம். CH3-CH2-NH2 இரண்டு கார்பன் அணுக்களைக் கொண்டுள்ளது, எனவே தாய் அல்கேன் எத்தேன். 'e' ஐ 'amine' ஆக மாற்றுவதால் 'ethanamine' கிடைக்கிறது. பொதுப் பெயர் ethylamine, ஆனால் IUPAC பெயர் ethanamine."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "IUPAC முறையில் முதல்நிலை அமீன்களுக்கு என்ன பின்னொட்டு பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "-ol",
+        "-amine",
+        "-al",
+        "-one"
+      ],
+      "correct": 1,
+      "explanation": "In the IUPAC system, primary amines are named as alkanamines. The 'e' of the parent alkane is replaced by the word 'amine'. For example, CH3NH2 (methane + amine) becomes methanamine. This is the standard IUPAC suffix for all primary amines. | IUPAC முறையில், முதல்நிலை அமீன்களை அல்கேனமீன்கள் என்று பெயரிடுகிறோம். தாய் அல்கேனின் 'e' எழுத்தை 'amine' என்ற சொல்லால் மாற்றுகிறோம். எடுத்துக்காட்டாக, CH3NH2 (methane + amine) methanamine ஆகிறது. இது அனைத்து முதல்நிலை அமீன்களுக்கும் IUPAC பின்னொட்டு ஆகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "(CH3CH2)3N இன் IUPAC பெயர் என்ன?",
+      "options": [
+        "Triethylamine",
+        "N,N-Diethylethanamine",
+        "N-Ethylethanamine",
+        "N,N,N-Triethylamine"
+      ],
+      "correct": 1,
+      "explanation": "For tertiary amines in IUPAC nomenclature, the locant N is used to designate substituents attached to the nitrogen atom. (CH3CH2)3N has three ethyl groups attached to nitrogen. The longest chain attached to N is considered the parent (ethanamine), and the other two ethyl groups are designated as N-ethyl substituents, giving N,N-diethylethanamine. | IUPAC பெயரிடும் முறையில் மூன்றாம் நிலை அமீன்களுக்கு, N என்ற இடக்குறிப்பு நைட்ரஜன் அணுவில் இணைந்துள்ள பதிலிகளைக் குறிக்கப் பயன்படுகிறது. (CH3CH2)3N இல் மூன்று எத்தைல் குழுக்கள் நைட்ரஜனில் இணைந்துள்ளன. N இல் இணைந்த மிக நீண்ட சங்கிலி தாய் சங்கிலியாக (ethanamine) கருதப்படுகிறது, மற்ற இரண்டு எத்தைல் குழுக்கள் N-ethyl பதிலிகளாகக் குறிக்கப்படுகின்றன, எனவே N,N-diethylethanamine."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "C6H5-NH2 இன் ஏற்றுக்கொள்ளப்பட்ட IUPAC பெயர் எது?",
+      "options": [
+        "Phenylamine",
+        "Aniline",
+        "Benzenamine",
+        "B மற்றும் C இரண்டும்"
+      ],
+      "correct": 3,
+      "explanation": "C6H5-NH2 is the simplest arylamine. In the common system, it is known as aniline. According to IUPAC system, the suffix 'e' of arene is replaced by 'amine', giving benzenamine. However, 'aniline' is also an accepted IUPAC name for this compound, making both B and C correct. | C6H5-NH2 எளிமையான அரைலமீன் ஆகும். பொதுவான முறையில் இது aniline என்று அழைக்கப்படுகிறது. IUPAC முறையில், அரீனின் 'e' எழுத்தை 'amine' ஆக மாற்றுவதால் benzenamine கிடைக்கிறது. ஆனால் 'aniline' என்பதும் இச்சேர்மத்திற்கு ஏற்றுக்கொள்ளப்பட்ட IUPAC பெயராகும், எனவே B மற்றும் C இரண்டும் சரியானவை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "இரண்டாம் மற்றும் மூன்றாம் நிலை அமீன்களைப் பெயரிடும்போது, நைட்ரஜன் அணுவில் இணைந்துள்ள பதிலிகளைக் குறிக்க என்ன இடக்குறிப்பு பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "C",
+        "N",
+        "O",
+        "H"
+      ],
+      "correct": 1,
+      "explanation": "In IUPAC nomenclature for secondary and tertiary amines, the locant 'N' is used to designate substituents that are attached directly to the nitrogen atom rather than to the carbon chain. For example, CH3NHCH2CH3 is named as N-methylethanamine, where the methyl group is attached to nitrogen. | IUPAC பெயரிடும் முறையில் இரண்டாம் மற்றும் மூன்றாம் நிலை அமீன்களுக்கு, கார்பன் சங்கிலியை விட நேரடியாக நைட்ரஜன் அணுவில் இணைந்துள்ள பதிலிகளைக் குறிக்க 'N' என்ற இடக்குறிப்பு பயன்படுத்தப்படுகிறது. எடுத்துக்காட்டாக, CH3NHCH2CH3 ஐ N-methylethanamine என்று பெயரிடுகிறோம், இங்கு மெத்தைல் குழு நைட்ரஜனில் இணைந்துள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "CH3-NH-CH(CH3)2 இன் IUPAC பெயர் என்ன?",
+      "options": [
+        "Isopropylmethylamine",
+        "N-Methylpropan-2-amine",
+        "N-Methyl-2-propanamine",
+        "Dimethylamine"
+      ],
+      "correct": 1,
+      "explanation": "CH3-NH-CH(CH3)2 is a secondary amine. The parent chain is the longest carbon chain attached to N, which is propan-2-amine (isopropylamine). The methyl group attached to nitrogen is designated with the locant N, giving N-methylpropan-2-amine. The common name would be isopropylmethylamine. | CH3-NH-CH(CH3)2 ஒரு இரண்டாம் நிலை அமீன் ஆகும். N இல் இணைந்த மிக நீண்ட கார்பன் சங்கிலி propan-2-amine (isopropylamine). நைட்ரஜனில் இணைந்த மெத்தைல் குழு N இடக்குறிப்பால் குறிக்கப்படுகிறது, எனவே N-methylpropan-2-amine. பொதுப் பெயர் isopropylmethylamine."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "தாய் சங்கிலியில் வெவ்வேறு இடங்களில் ஒன்றுக்கும் மேற்பட்ட அமினோ குழுக்கள் இருக்கும்போது, அவற்றின் இடங்கள் எவ்வாறு குறிப்பிடப்படுகின்றன?",
+      "options": [
+        "கிரேக்க எழுத்துகளைப் பயன்படுத்துவதால்",
+        "NH2 குழுக்களைக் கொண்ட கார்பன் அணுக்களுக்கு எண்கள் கொடுப்பதால்",
+        "முன்னொட்டுகளை மட்டும் பயன்படுத்துவதால்",
+        "அகர வரிசையில் வைப்பதால்"
+      ],
+      "correct": 1,
+      "explanation": "When multiple amino groups are present at different positions in the parent chain, their positions are specified by giving numbers to the carbon atoms bearing the NH2 groups. A suitable prefix such as di, tri, etc. is attached to 'amine'. The letter 'e' of the hydrocarbon suffix is retained. For example, H2N-CH2-CH2-NH2 is named as ethane-1,2-diamine. | பல அமினோ குழுக்கள் தாய் சங்கிலியில் வெவ்வேறு இடங்களில் இருக்கும்போது, NH2 குழுக்களைக் கொண்ட கார்பன் அணுக்களுக்கு எண்களைக் கொடுத்து அவற்றின் இடங்கள் குறிப்பிடப்படுகின்றன. di, tri போன்ற பொருத்தமான முன்னொட்டு 'amine' இல் இணைக்கப்படுகிறது. ஹைட்ரோகார்பனின் 'e' எழுத்து வைத்திருக்கப்படுகிறது. எடுத்துக்காட்டாக, H2N-CH2-CH2-NH2 ஐ ethane-1,2-diamine என்று பெயரிடுகிறோம்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "H2N-CH2-CH2-CH2-NH2 இன் IUPAC பெயர் என்ன?",
+      "options": [
+        "Propane-1,3-diamine",
+        "Propane-1,2-diamine",
+        "Propylenediamine",
+        "Diaminopropane"
+      ],
+      "correct": 0,
+      "explanation": "H2N-CH2-CH2-CH2-NH2 contains three carbon atoms in the parent chain with amino groups at positions 1 and 3. According to IUPAC rules, the positions are numbered to give the lowest locants to the substituents. The 'e' of propane is retained, and the prefix 'di' is attached to 'amine', giving propane-1,3-diamine. | H2N-CH2-CH2-CH2-NH2 இல் மூன்று கார்பன் அணுக்கள் உள்ளன, அமினோ குழுக்கள் 1 மற்றும் 3 ஆம் இடங்களில் உள்ளன. IUPAC விதிகளின்படி, பதிலிகளுக்கு குறைந்த இடக்குறிப்புகள் கிடைக்குமாறு எண்ணிடுகிறோம். propane இன் 'e' வைத்திருக்கப்படுகிறது, 'di' முன்னொட்டு 'amine' இல் இணைக்கப்படுகிறது, எனவே propane-1,3-diamine."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "CH3-CH2-CH2-NH2 இன் பொதுப் பெயர் எது?",
+      "options": [
+        "Isopropylamine",
+        "n-Propylamine",
+        "Propylamine",
+        "B மற்றும் C இரண்டும்"
+      ],
+      "correct": 3,
+      "explanation": "CH3-CH2-CH2-NH2 is a primary amine with a straight-chain propyl group attached to NH2. In the common system, it is called n-propylamine (normal propylamine) or simply propylamine. Both names are acceptable in common nomenclature. The IUPAC name is propan-1-amine. | CH3-CH2-CH2-NH2 ஒரு முதல்நிலை அமீன், நேர்கோட்டு propyl குழு NH2 இல் இணைந்துள்ளது. பொதுவான முறையில் இது n-propylamine (normal propylamine) அல்லது எளிமையாக propylamine என்று அழைக்கப்படுகிறது. இரண்டு பெயர்களும் பொதுவான பெயரிடலில் ஏற்றுக்கொள்ளப்படுகின்றன. IUPAC பெயர் propan-1-amine."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "p-Bromoaniline இன் IUPAC பெயர் எது?",
+      "options": [
+        "4-Bromoaniline",
+        "4-Bromobenzenamine",
+        "p-Bromobenzenamine",
+        "A மற்றும் B இரண்டும்"
+      ],
+      "correct": 3,
+      "explanation": "p-Bromoaniline has a bromine atom at the para position (position 4) relative to the amino group on the benzene ring. According to IUPAC, it can be named as 4-bromobenzenamine (replacing 'e' of benzene with 'amine') or 4-bromoaniline (using the accepted IUPAC name aniline). Both 4-bromobenzenamine and 4-bromoaniline are correct IUPAC names. | p-Bromoaniline இல் பென்சீன் வளையத்தில் அமினோ குழுவின் para இடத்தில் (4 ஆம் இடம்) புரோமின் அணு உள்ளது. IUPAC முறையில், இது 4-bromobenzenamine (benzene இன் 'e' ஐ 'amine' ஆக மாற்றுவது) அல்லது 4-bromoaniline (ஏற்றுக்கொள்ளப்பட்ட IUPAC பெயர் aniline ஐப் பயன்படுத்துவது) என்று பெயரிடலாம். 4-bromobenzenamine மற்றும் 4-bromoaniline இரண்டும் சரியான IUPAC பெயர்கள்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரோ சேர்மங்களை அமீன்களாகக் குறைப்பதற்கு பின்வருவனவற்றில் எது பொருத்தமான வினையூக்கி அல்ல?",
+      "options": [
+        "Pd வினையூக்கியுடன் H2 வாயு",
+        "HCl உடன் Sn உலோகம்",
+        "HCl உடன் Fe உலோகம்",
+        "எத்தனாலுடன் NaOH"
+      ],
+      "correct": 3,
+      "explanation": "Nitro compounds are reduced to amines using H2/Pd, Sn/HCl, or Fe/HCl. NaOH with ethanol is not a reducing agent for this conversion. The preferred method uses Fe/HCl because FeCl2 formed gets hydrolyzed to release HCl during the reaction, requiring only a small amount of acid to initiate. | நைட்ரோ சேர்மங்கள் அமீன்களாகக் குறைக்கப்பட H2/Pd, Sn/HCl, அல்லது Fe/HCl பயன்படுத்தப்படுகிறது. NaOH மற்றும் எத்தனால் இந்த மாற்றத்திற்கு ஒரு குறைப்பு முகவர் அல்ல. Fe/HCl முறை விரும்பப்படுகிறது ஏனெனில் உருவாகும் FeCl2 நீராற்பகுப்பு அடைந்து HCl வெளியிடுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஆல்கைல் ஆலைடுகளின் அம்மோனாலிசிஸில் அம்மோனியாவின் பங்கு என்ன?",
+      "options": [
+        "அது எலக்ட்ரோஃபைலாகச் செயல்படுகிறது",
+        "அது நியூக்ளியோஃபைலாகச் செயல்படுகிறது",
+        "அது வினையூக்கியாகச் செயல்படுகிறது",
+        "அது கரைப்பானாக மட்டுமே செயல்படுகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Ammonia acts as a nucleophile in ammonolysis. The nitrogen atom of ammonia has a lone pair of electrons that attacks the carbon atom of the alkyl halide, displacing the halide ion. This is a nucleophilic substitution reaction where the C-X bond is cleaved by the ammonia molecule. | அம்மோனாலிசிஸில் அம்மோனியா நியூக்ளியோஃபைலாகச் செயல்படுகிறது. அம்மோனியாவின் நைட்ரஜன் அணுவில் உள்ள தனித்த எலக்ட்ரான் ஜோடி ஆல்கைல் ஆலைடின் கார்பன் அணுவைத் தாக்கி ஆலைடு அயனியை விலக்குகிறது. இது நியூக்ளியோஃபிலிக் பதிலீட்டு வினையாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களைத் தயாரிக்க அம்மோனாலிசிஸ் முறையின் முக்கிய குறைபாடு என்ன?",
+      "options": [
+        "இது மிக உயர்ந்த வெப்பநிலையைத் தேவைப்படுத்துகிறது",
+        "இது முதல்நிலை, இரண்டாம்நிலை, மூன்றாம்நிலை அமீன்கள் மற்றும் குவாட்டர்னரி அம்மோனியம் உப்பின் கலவையைத் தருகிறது",
+        "இது அரோமாட்டிக் ஆலைடுகளுக்கு மட்டுமே வேலை செய்கிறது",
+        "இது விலையுயர்ந்த வினையூக்கிகளைத் தேவைப்படுத்துகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Ammonolysis has the disadvantage of yielding a mixture of primary, secondary, and tertiary amines along with quaternary ammonium salt. However, the primary amine can be obtained as the major product by using a large excess of ammonia. The primary amine formed acts as a nucleophile and further reacts with alkyl halide. | அம்மோனாலிசிஸ் முறையின் முக்கிய குறைபாடு என்னவென்றால், இது முதல்நிலை, இரண்டாம்நிலை, மூன்றாம்நிலை அமீன்கள் மற்றும் குவாட்டர்னரி அம்மோனியம் உப்பின் கலவையைத் தருகிறது. எனினும், அதிகப்படியான அம்மோனியாவைப் பயன்படுத்தி முதல்நிலை அமீனை முக்கிய விளைபொருளாகப் பெறலாம்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களுடன் ஆலைடுகளின் வினைத்திறனின் சரியான வரிசை எது?",
+      "options": [
+        "RCl > RBr > RI",
+        "RBr > RI > RCl",
+        "RI > RBr > RCl",
+        "RI > RCl > RBr"
+      ],
+      "correct": 2,
+      "explanation": "The order of reactivity of halides with amines is RI > RBr > RCl. This follows the trend of leaving group ability. Iodide is the best leaving group due to its larger size and weaker C-I bond, followed by bromide and then chloride. | ஆலைடுகளின் வினைத்திறன் வரிசை RI > RBr > RCl ஆகும். இது விடுபடும் குழு திறனின் போக்கைப் பின்பற்றுகிறது. அயோடைட் பெரிய அளவு மற்றும் பலவீனமான C-I பிணைப்பு காரணமாக சிறந்த விடுபடும் குழுவாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "மூன்றாம்நிலை அமீன் ஆல்கைல் ஆலைடுடன் வினைபுரியும்போது இறுதி விளைபொருள் என்ன?",
+      "options": [
+        "இரண்டாம்நிலை அமீன்",
+        "முதல்நிலை அமீன்",
+        "குவாட்டர்னரி அம்மோனியம் உப்பு",
+        "அமைடு"
+      ],
+      "correct": 2,
+      "explanation": "When a tertiary amine reacts with an alkyl halide, it forms a quaternary ammonium salt (R4N+X-). This is the final product of exhaustive alkylation. The nitrogen now carries a positive charge and is bonded to four alkyl groups. | மூன்றாம்நிலை அமீன் ஆல்கைல் ஆலைடுடன் வினைபுரியும்போது குவாட்டர்னரி அம்மோனியம் உப்பு (R4N+X-) உருவாகிறது. இது முழு ஆல்கைலேஷனின் இறுதி விளைபொருளாகும். நைட்ரஜன் இப்போது நேர்மின் மின்னேற்றத்தைக் கொண்டு நான்கு ஆல்கைல் குழுக்களுடன் பிணைக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அம்மோனாலிசிஸின்போது உருவாகும் பதிலீட்டு அம்மோனியம் உப்பிலிருந்து சுதந்திர அமீன் எவ்வாறு பெறப்படுகிறது?",
+      "options": [
+        "அமிலத்துடன் சூடாக்குவதன் மூலம்",
+        "NaOH அல்லது KOH போன்ற வலுவான காரத்தால் செயல்படுத்துவதன் மூலம்",
+        "வினைக்கலவையைக் குளிரூட்டுவதன் மூலம்",
+        "மேலும் ஆல்கைல் ஆலைடைச் சேர்ப்பதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "The free amine is obtained from the ammonium salt by treatment with a strong base such as NaOH or KOH. The base deprotonates the ammonium ion to liberate the free amine. This is an acid-base reaction where the strong base neutralizes the acidic ammonium salt. | பதிலீட்டு அம்மோனியம் உப்பிலிருந்து சுதந்திர அமீன் NaOH அல்லது KOH போன்ற வலுவான காரத்தால் பெறப்படுகிறது. காரம் அம்மோனியம் அயனியிலிருந்து புரோட்டானை நீக்கி சுதந்திர அமீனை விடுவிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரைல்களை முதல்நிலை அமீன்களாகக் குறைப்பதற்கு எந்த வினைப்பொருள் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "NaOH மற்றும் H2O",
+        "LiAlH4 அல்லது H2/Ni",
+        "Br2 மற்றும் NaOH",
+        "HCl மற்றும் Zn"
+      ],
+      "correct": 1,
+      "explanation": "Nitriles are reduced to primary amines using lithium aluminium hydride (LiAlH4) or catalytic hydrogenation with H2/Ni. This reaction is used for the ascent of amine series, producing amines with one more carbon atom than the starting nitrile. | நைட்ரைல்கள் LiAlH4 அல்லது H2/Ni வினையூக்க ஹைட்ரஜனேஷன் மூலம் முதல்நிலை அமீன்களாகக் குறைக்கப்படுகின்றன. இந்த வினை அமீன் வரிசையின் ஏற்றத்திற்குப் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமைடு LiAlH4 மூலம் குறைக்கப்படும்போது என்ன விளைபொருள் கிடைக்கிறது?",
+      "options": [
+        "கார்பாக்சிலிக் அமிலம்",
+        "நைட்ரைல்",
+        "அமீன்",
+        "ஆல்கஹால்"
+      ],
+      "correct": 2,
+      "explanation": "Amides on reduction with lithium aluminium hydride (LiAlH4) yield amines. The carbonyl group of the amide is reduced to a methylene group, converting the amide into an amine with the same carbon skeleton. | அமைடுகள் LiAlH4 மூலம் குறைக்கப்படும்போது அமீன்கள் கிடைக்கின்றன. அமைடின் கார்போனைல் குழு மெத்திலீன் குழுவாகக் குறைக்கப்பட்டு அமீனாக மாற்றப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரோ சேர்மங்களுக்கு Sn/HCl முறையை விட இரும்புத் துண்டுகள் மற்றும் HCl முறை ஏன் விரும்பப்படுகிறது?",
+      "options": [
+        "இரும்பு தாதுவை விட மலிவானது",
+        "வினையின்போது உருவாகும் FeCl2 நீராற்பகுப்பு அடைந்து HCl வெளியிடுகிறது",
+        "இரும்புடன் வினை வேகமாக நடக்கிறது",
+        "இரும்பு இரண்டாம்நிலை அமீன்களின் சிறந்த விளைச்சலைத் தருகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Reduction with iron scrap and HCl is preferred because FeCl2 formed during the reaction gets hydrolyzed to release hydrochloric acid. Thus, only a small amount of HCl is required to initiate the reaction, making it more economical. | இரும்புத் துண்டுகள் மற்றும் HCl மூலம் குறைப்பு விரும்பப்படுகிறது ஏனெனில் வினையின்போது உருவாகும் FeCl2 நீராற்பகுப்பு அடைந்து HCl வெளியிடுகிறது. எனவே வினையைத் தொடங்க சிறிய அளவு HCl மட்டுமே தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஆல்கைல் ஆலைடுகளின் அம்மோனாலிசிஸ் பொதுவாக எந்த வெப்பநிலையில் மேற்கொள்ளப்படுகிறது?",
+      "options": [
+        "அறை வெப்பநிலை (298 K)",
+        "273 K",
+        "மூடிய குழாயில் 373 K",
+        "473 K"
+      ],
+      "correct": 2,
+      "explanation": "The ammonolysis reaction is carried out in a sealed tube at 373 K (100°C). This elevated temperature is necessary to facilitate the nucleophilic substitution reaction between ammonia and the alkyl halide. | அம்மோனாலிசிஸ் வினை 373 K (100°C) வெப்பநிலையில் மூடிய குழாயில் மேற்கொள்ளப்படுகிறது. அம்மோனியாவுக்கும் ஆல்கைல் ஆலைடுக்கும் இடையேயான நியூக்ளியோஃபிலிக் பதிலீட்டு வினையை எளிதாக்க இந்த உயர்ந்த வெப்பநிலை தேவைப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஆல்கைல் ஆலைடு அம்மோனியாவுடன் வினைபுரிந்து ஆலஜன் அணுவை அமினோ குழுவால் மாற்றும் செயல்முறை என்ன அழைக்கப்படுகிறது?",
+      "options": [
+        "ஹைட்ரோலிசிஸ்",
+        "அம்மோனோலிசிஸ்",
+        "அமினேஷன்",
+        "நைட்ரேஷன்"
+      ],
+      "correct": 1,
+      "explanation": "Ammonolysis is the process where ammonia cleaves the C-X bond and replaces the halogen with an amino group. This nucleophilic substitution occurs in a sealed tube at 373K. | அம்மோனோலிசிஸ் என்பது அம்மோனியா C-X பிணைப்பை உடைத்து ஆலஜனை அமினோ குழுவால் மாற்றும் செயல்முறையாகும். இந்த நியூக்ளியோஃபிலிக் மாற்று 373K வெப்பநிலையில் மூடிய குழாயில் நடைபெறுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அம்மோனோலிசிஸ் முறையின் முக்கிய குறைபாடு என்ன?",
+      "options": [
+        "மிக உயர்ந்த வெப்பநிலை தேவைப்படுவது",
+        "மூன்றாம்நிலை அமைன்களை மட்டுமே தருவது",
+        "முதல்நிலை, இரண்டாம்நிலை, மூன்றாம்நிலை அமைன்கள் மற்றும் நான்காம்நிலை அம்மோனியம் உப்புகளின் கலவையைத் தருவது",
+        "அரைல் ஆலைடுகளுடன் மட்டுமே வேலை செய்வது"
+      ],
+      "correct": 2,
+      "explanation": "Ammonolysis produces a mixture of primary, secondary, tertiary amines and quaternary ammonium salts. Primary amine can be made the major product by using large excess of ammonia. | அம்மோனோலிசிஸ் முதல்நிலை, இரண்டாம்நிலை, மூன்றாம்நிலை அமைன்கள் மற்றும் நான்காம்நிலை அம்மோனியம் உப்புகளின் கலவையைத் தருகிறது. அதிக அளவு அம்மோனியாவைப் பயன்படுத்துவதன் மூலம் முதல்நிலை அமைனை முக்கிய விளைபொருளாக்கலாம்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமைன்களுடன் ஆலைடுகளின் சரியான வினைத்திறன் வரிசை எது?",
+      "options": [
+        "RCl > RBr > RI",
+        "RI > RBr > RCl",
+        "RBr > RI > RCl",
+        "RCl > RI > RBr"
+      ],
+      "correct": 1,
+      "explanation": "The reactivity order RI > RBr > RCl is due to the decreasing bond strength from C-I to C-Cl. The larger iodine atom forms a weaker bond with carbon, making it more easily displaced. | RI > RBr > RCl என்ற வினைத்திறன் வரிசை C-I இலிருந்து C-Cl வரை குறையும் பிணைப்பு வலிமை காரணமாகும். பெரிய அயோடின் அணு கார்பனுடன் பலவீனமான பிணைப்பை உருவாக்குவதால், அது எளிதாக இடமாற்றம் செய்யப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரைல்களை முதல்நிலை அமைன்களாக ஒடுக்குவதற்கு எந்த வினைப்பொருள் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "NaOH",
+        "LiAlH4 அல்லது H2/Ni",
+        "HCl",
+        "Br2/KOH"
+      ],
+      "correct": 1,
+      "explanation": "LiAlH4 or catalytic hydrogenation with H2/Ni reduces nitriles to primary amines. This adds two hydrogen atoms across the C≡N triple bond. | LiAlH4 அல்லது H2/Ni வினையூக்க ஹைட்ரஜனேற்றம் நைட்ரைல்களை முதல்நிலை அமைன்களாக ஒடுக்குகிறது. இது C≡N மூன்றுமடங்கு பிணைப்பில் இரண்டு ஹைட்ரஜன் அணுக்களைச் சேர்க்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமைடுகளை LiAlH4 மூலம் ஒடுக்கும்போது என்ன விளைபொருள் கிடைக்கிறது?",
+      "options": [
+        "கார்பாக்சிலிக் அமிலங்கள்",
+        "அமைன்கள்",
+        "நைட்ரைல்கள்",
+        "ஆல்கஹால்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Reduction of amides with LiAlH4 converts the carbonyl group (C=O) to a methylene group (CH2), producing an amine. The nitrogen remains attached to the carbon chain. | LiAlH4 மூலம் அமைடுகளை ஒடுக்குவது கார்பனைல் குழுவை (C=O) மெத்திலீன் குழுவாக (CH2) மாற்றி அமைனை உருவாக்குகிறது. நைட்ரஜன் கார்பன் சங்கிலியுடன் இணைந்திருக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "குளோரோஈதேனை NaCN, பின்னர் LiAlH4/H2O வரிசையில் மாற்றும்போது என்ன விளைபொருள் கிடைக்கிறது?",
+      "options": [
+        "ஈதேனமைன்",
+        "புரோபான்-1-அமைன்",
+        "புரோபேன்நைட்ரைல்",
+        "பென்சைலமைன்"
+      ],
+      "correct": 1,
+      "explanation": "Chloroethane reacts with NaCN to form propanenitrile, which upon reduction gives propan-1-amine. This increases the carbon chain by one carbon atom. | குளோரோஈதேன் NaCN உடன் வினைபுரிந்து புரோபேன்நைட்ரைலை உருவாக்குகிறது, பின்னர் ஒடுக்கப்பட்டு புரோபான்-1-அமைன் கிடைக்கிறது. இது கார்பன் சங்கிலியை ஒரு கார்பன் அணுவால் அதிகரிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "மூன்றாம்நிலை அமைன் ஆல்கைல் ஆலைடுடன் வினைபுரிந்தால் இறுதி விளைபொருள் என்ன?",
+      "options": [
+        "இரண்டாம்நிலை அமைன்",
+        "நான்காம்நிலை அம்மோனியம் உப்பு",
+        "முதல்நிலை அமைன்",
+        "அமைடு"
+      ],
+      "correct": 1,
+      "explanation": "Tertiary amine reacting with alkyl halide forms quaternary ammonium salt (R4NX+). This completes the series from primary to quaternary through successive alkylation. | மூன்றாம்நிலை அமைன் ஆல்கைல் ஆலைடுடன் வினைபுரிந்து நான்காம்நிலை அம்மோனியம் உப்பை (R4NX+) உருவாக்குகிறது. இது முதல்நிலையிலிருந்து நான்காம்நிலை வரை தொடர்ச்சியான ஆல்கைலேற்றத்தின் மூலம் முழுமையடைகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அம்மோனோலிசிஸின்போது உருவாகும் அம்மோனியம் உப்பிலிருந்து இலவச அமைனை எவ்வாறு பெறுவது?",
+      "options": [
+        "அமிலத்துடன் சூடாக்குவதன் மூலம்",
+        "NaOH அல்லது KOH போன்ற வலுவான காரத்தால் செயல்படுத்துவதன் மூலம்",
+        "வடித்தல் மட்டும் மூலம்",
+        "நீரைச் சேர்ப்பதன் மூலம்"
+      ],
+      "correct": 1,
+      "explanation": "Treatment with strong base like NaOH or KOH deprotonates the ammonium salt, releasing the free amine. The base neutralizes the acid component of the salt. | NaOH அல்லது KOH போன்ற வலுவான காரம் அம்மோனியம் உப்பிலிருந்து புரோட்டானை அகற்றி இலவச அமைனை விடுவிக்கிறது. காரம் உப்பின் அமிலப் பகுதியை நடுநிலைப்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சைல் குளோரைடு ஈதனாலிக் அம்மோனியாவுடன் அம்மோனோலிசிஸ் செய்யும்போது என்ன விளைபொருள் உருவாகிறது?",
+      "options": [
+        "அனிலின்",
+        "பென்சைலமைன்",
+        "N,N-டைமெத்தில்பென்சைலமைன்",
+        "டாலுயீன்"
+      ],
+      "correct": 1,
+      "explanation": "Benzyl chloride undergoes ammonolysis to form benzylamine. The -NH2 group replaces the -Cl atom through nucleophilic substitution. | பென்சைல் குளோரைடு அம்மோனோலிசிஸ் செய்யும்போது பென்சைலமைன் உருவாகிறது. -NH2 குழு நியூக்ளியோஃபிலிக் மாற்று வினை மூலம் -Cl அணுவை மாற்றுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஈதேனமைன் அதிக குளோரோஈதேனுடன் வினைபுரியும்போது இறுதி ஆல்கைலேற்ற விளைபொருள் என்ன?",
+      "options": [
+        "N-ஈதில்ஈதேனமைன்",
+        "N,N-டைஈதில்ஈதேனமைன்",
+        "நான்காம்நிலை அம்மோனியம் உப்பு",
+        "ஈதேனமைடு"
+      ],
+      "correct": 2,
+      "explanation": "Excess alkyl halide causes successive alkylation from primary to quaternary ammonium salt through secondary and tertiary amines. | அதிக ஆல்கைல் ஆலைடு முதல்நிலையிலிருந்து நான்காம்நிலை அம்மோனியம் உப்பு வரை இரண்டாம்நிலை மற்றும் மூன்றாம்நிலை அமைன்கள் வழியாக தொடர்ச்சியான ஆல்கைலேற்றத்தை ஏற்படுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரைல்களை அமைன்களாக ஒடுக்குவது அமைன் தொகுப்பில் எந்த நோக்கத்திற்காகப் பயன்படுகிறது?",
+      "options": [
+        "அமைன் வரிசை இறக்கம்",
+        "அமைன் வரிசை ஏற்றம்",
+        "ஐசோமரைசேஷன்",
+        "பாலிமரைசேஷன்"
+      ],
+      "correct": 1,
+      "explanation": "Nitrile reduction is used for ascent of amine series, adding one carbon to the chain. The -CN group contributes one carbon atom. | நைட்ரைல் ஒடுக்கம் அமைன் வரிசையில் ஒரு கார்பனைச் சேர்த்து ஏற்றத்திற்குப் பயன்படுகிறது. -CN குழு ஒரு கார்பன் அணுவைப் பங்களிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "குளோரோஈதேனை ஒரு கார்பன் அணு அதிகரித்து புரோபான்-1-அமைனாக மாற்றும் வினை வரிசை எது?",
+      "options": [
+        "நேரடி அம்மோனோலிசிஸ்",
+        "NaCN பின்னர் LiAlH4 ஒடுக்கம்",
+        "ஹாஃப்மேன் புரோமமைட் சிதைவு",
+        "கேப்ரியல் ப்தாலிமைடு தொகுப்பு"
+      ],
+      "correct": 1,
+      "explanation": "NaCN adds one carbon to form propanenitrile, then LiAlH4 reduces it to propan-1-amine. This is the standard method for one-carbon ascent in amine series. | NaCN ஒரு கார்பனைச் சேர்த்து புரோபேன்நைட்ரைலை உருவாக்குகிறது, பின்னர் LiAlH4 அதை புரோபான்-1-அமைனாக ஒடுக்குகிறது. இது அமைன் வரிசையில் ஒரு கார்பன் ஏற்றத்திற்கான செந்தர முறையாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "கேப்ரியல் தாலிமைடு தொகுப்பு முறையின் முக்கிய நோக்கம் என்ன?",
+      "options": [
+        "இரண்டாம் நிலை அமீன்களை தயாரித்தல்",
+        "மூன்றாம் நிலை அமீன்களை தயாரித்தல்",
+        "முதல் நிலை அமீன்களை தயாரித்தல்",
+        "நான்காம் நிலை அம்மோனியம் உப்புகளை தயாரித்தல்"
+      ],
+      "correct": 2,
+      "explanation": "Gabriel phthalimide synthesis is specifically used for the preparation of primary amines. Phthalimide on treatment with ethanolic potassium hydroxide forms potassium salt of phthalimide, which on heating with alkyl halide followed by alkaline hydrolysis produces the corresponding primary amine. | கேப்ரியல் தாலிமைடு தொகுப்பு முறை குறிப்பாக முதல்நிலை அமீன்களை தயாரிக்க பயன்படுகிறது. தாலிமைடு எத்தனாலிக் பொட்டாசியம் ஹைட்ராக்சைடுடன் சிகிச்சை செய்யும்போது பொட்டாசியம் தாலிமைடு உப்பு உருவாகிறது, இது அல்கைல் ஹேலைடுடன் சூடாக்கப்பட்டு பின்னர் கார நீராற்றல் பகுப்பால் தொடர்புடைய முதல்நிலை அமீனை தருகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அரோமாட்டிக் முதல்நிலை அமீன்களை கேப்ரியல் தாலிமைடு தொகுப்பு முறையால் தயாரிக்க முடியாததற்கான காரணம் என்ன?",
+      "options": [
+        "அரைல் ஹேலைடுகள் மிகவும் வினையூக்கமாக இருக்கின்றன",
+        "அரைல் ஹேலைடுகள் தாலிமைடு எதிர்மின் அயனியுடன் நியூக்ளியோஃபிலிக் மாற்றத்தை செய்யாது",
+        "இந்த வினை இரண்டாம் நிலை அமீன்களை மட்டுமே தருகிறது",
+        "அரோமாட்டிக் அமீன்கள் வினைபுரிய மிகவும் நிலையானவை"
+      ],
+      "correct": 1,
+      "explanation": "Aromatic primary amines cannot be prepared by Gabriel phthalimide synthesis because aryl halides do not undergo nucleophilic substitution with the anion formed by phthalimide. This is due to the lack of reactivity of aryl halides in SN2 reactions because of the sp2 hybridized carbon and resonance stabilization in the aromatic ring. | அரோமாட்டிக் முதல்நிலை அமீன்களை கேப்ரியல் தாலிமைடு தொகுப்பு முறையால் தயாரிக்க முடியாது, ஏனெனில் அரைல் ஹேலைடுகள் தாலிமைடால் உருவாக்கப்பட்ட எதிர்மின் அயனியுடன் நியூக்ளியோஃபிலிக் மாற்றத்தை செய்யாது. இது sp2 கலப்பாக்க கார்பன் மற்றும் அரோமாட்டிக் வளையத்தில் ஒத்திசைவு நிலைப்பாடு காரணமாக SN2 வினைகளில் அரைல் ஹேலைடுகளின் வினைபுரிதல் இல்லாததால் ஆகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஹாஃப்மேன் புரோமமைடு சிதைவு வினையில் அமைடின் கார்பன் எண்ணிக்கைக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "கார்பன் எண்ணிக்கை ஒன்றால் அதிகரிக்கிறது",
+        "கார்பன் எண்ணிக்கை அப்படியே இருக்கிறது",
+        "கார்பன் எண்ணிக்கை ஒன்றால் குறைகிறது",
+        "கார்பன் எண்ணிக்கை இரண்டால் குறைகிறது"
+      ],
+      "correct": 2,
+      "explanation": "In Hoffmann bromamide degradation reaction, the amine formed contains one carbon less than that present in the amide. This is a degradation reaction where an alkyl or aryl group migrates from the carbonyl carbon of the amide to the nitrogen atom, resulting in loss of one carbon as CO2. | ஹாஃப்மேன் புரோமமைடு சிதைவு வினையில், உருவாக்கப்படும் அமீன் அமைடில் உள்ளதை விட ஒரு கார்பன் குறைவாக உள்ளது. இது ஒரு சிதைவு வினையாகும், இதில் அல்கைல் அல்லது அரைல் குழு அமைடின் கார்பனைல் கார்பனிலிருந்து நைட்ரஜன் அணுவிற்கு இடப்பெயர்ச்சி செய்கிறது, இதனால் CO2 ஆக ஒரு கார்பன் இழப்பு ஏற்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஹாஃப்மேன் புரோமமைடு சிதைவு வினையில் பயன்படுத்தப்படும் வினைப்பொருட்கள் எவை?",
+      "options": [
+        "புரோமின் மற்றும் நீர்த்த அல்லது எத்தனாலிக் சோடியம் ஹைட்ராக்சைடு",
+        "குளோரின் மற்றும் நீர்த்த பொட்டாசியம் ஹைட்ராக்சைடு",
+        "அயோடின் மற்றும் மெத்தனாலிக் சோடியம் ஹைட்ராக்சைடு",
+        "புரோமின் மற்றும் செறிவான கந்தக அமிலம்"
+      ],
+      "correct": 0,
+      "explanation": "Hoffmann bromamide degradation is carried out by treating an amide with bromine in an aqueous or ethanolic solution of sodium hydroxide. The reaction involves migration of an alkyl or aryl group from carbonyl carbon to nitrogen with loss of one carbon. | ஹாஃப்மேன் புரோமமைடு சிதைவு வினையை சோடியம் ஹைட்ராக்சைடின் நீர்த்த அல்லது எத்தனாலிக் கரைசலில் புரோமினுடன் அமைடை சிகிச்சை செய்வதன் மூலம் மேற்கொள்ளப்படுகிறது. இந்த வினையில் கார்பனைல் கார்பனிலிருந்து நைட்ரஜனுக்கு அல்கைல் அல்லது அரைல் குழுவின் இடப்பெயர்ச்சி ஒரு கார்பன் இழப்புடன் நிகழ்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "CH3-CH2-Cl ஐ CH3-CH2-CH2-NH2 ஆக மாற்றுவதில் முதல் படி என்ன?",
+      "options": [
+        "அம்மோனியாவுடன் அம்மோனோலிசிஸ்",
+        "நைட்ரைல் உருவாக்க எத்தனாலிக் NaCN உடன் வினை",
+        "LiAlH4 மூலம் குறைப்பு",
+        "கேப்ரியல் தாலிமைடு தொகுப்பு"
+      ],
+      "correct": 1,
+      "explanation": "The conversion involves first reacting chloroethane with ethanolic NaCN to form propanenitrile (CH3-CH2-C triple bond N), which adds one carbon. Then catalytic hydrogenation (H2/Ni) reduces the nitrile to propan-1-amine. This is called ascent of amine series. | இந்த மாற்றம் முதலில் குளோரோஎத்தேனை எத்தனாலிக் NaCN உடன் வினைபுரிய வைத்து புரோபேன்நைட்ரைல் (CH3-CH2-C triple bond N) உருவாக்குவதை உள்ளடக்கியது, இது ஒரு கார்பனை சேர்க்கிறது. பின்னர் வினையூக்க ஹைட்ரஜனேற்றம் (H2/Ni) நைட்ரைலை புரோபேன்-1-அமீனாகக் குறைக்கிறது. இது அமீன் தொடரின் ஏற்றம் என அழைக்கப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஹாஃப்மேன் புரோமமைடு வினையால் புரோபேனமீனை தரும் அமைடு எது?",
+      "options": [
+        "எத்தனமைடு",
+        "புரோபனமைடு",
+        "பியூட்டனமைடு",
+        "பென்டனமைடு"
+      ],
+      "correct": 2,
+      "explanation": "Propanamine contains three carbons. Since Hoffmann bromamide degradation removes one carbon from the amide, the starting amide must contain four carbon atoms. Therefore, butanamide (C4H9NO) is the correct answer. | புரோபேனமீன் மூன்று கார்பன்களைக் கொண்டுள்ளது. ஹாஃப்மேன் புரோமமைடு சிதைவு அமைடிலிருந்து ஒரு கார்பனை அகற்றுவதால், தொடக்க அமைடு நான்கு கார்பன் அணுக்களைக் கொண்டிருக்க வேண்டும். எனவே, பியூட்டனமைடு (C4H9NO) சரியான பதிலாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சமைடின் ஹாஃப்மேன் சிதைவின் விளைபொருள் என்ன?",
+      "options": [
+        "பென்சில் ஆல்கஹால்",
+        "அனிலின் அல்லது பென்சினமீன்",
+        "டாலுயீன்",
+        "பென்சாயிக் அமிலம்"
+      ],
+      "correct": 1,
+      "explanation": "Benzamide is an aromatic amide containing seven carbon atoms (C6H5CONH2). Hoffmann degradation removes one carbon (the carbonyl carbon), so the amine formed is aromatic primary amine containing six carbon atoms, which is aniline (benzenamine). | பென்சமைடு ஏழு கார்பன் அணுக்களைக் கொண்ட ஒரு அரோமாட்டிக் அமைடு ஆகும் (C6H5CONH2). ஹாஃப்மேன் சிதைவு ஒரு கார்பனை (கார்பனைல் கார்பன்) அகற்றுவதால், உருவாக்கப்படும் அமீன் ஆறு கார்பன் அணுக்களைக் கொண்ட அரோமாட்டிக் முதல்நிலை அமீனாகும், இது அனிலின் (பென்சினமீன்) ஆகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரைல் LiAlH4 அல்லது வினையூக்க ஹைட்ரஜனேற்றத்தால் குறைக்கப்படும்போது அதன் விளைபொருள் என்ன?",
+      "options": [
+        "இரண்டாம் நிலை அமீன்",
+        "மூன்றாம் நிலை அமீன்",
+        "முதல் நிலை அமீன்",
+        "அமைடு"
+      ],
+      "correct": 2,
+      "explanation": "Nitriles on reduction with lithium aluminium hydride (LiAlH4) or catalytic hydrogenation produce primary amines. This reaction is used for ascent of amine series, i.e., for preparation of amines containing one carbon atom more than the starting amine. | நைட்ரைல்கள் லித்தியம் அலுமினியம் ஹைட்ரைட் (LiAlH4) அல்லது வினையூக்க ஹைட்ரஜனேற்றத்தால் குறைக்கப்படும்போது முதல்நிலை அமீன்களை தருகின்றன. இந்த வினை அமீன் தொடரின் ஏற்றத்திற்கு பயன்படுகிறது, அதாவது தொடக்க அமீனை விட ஒரு கார்பன் அணு அதிகமாக கொண்ட அமீன்களை தயாரிக்க."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமைடுகளை அமீன்களாக குறைக்க பயன்படுத்தப்படும் வினைப்பொருள் எது?",
+      "options": [
+        "NaBH4",
+        "LiAlH4",
+        "H2/Pd",
+        "Fe/HCl"
+      ],
+      "correct": 1,
+      "explanation": "Amides on reduction with lithium aluminium hydride (LiAlH4) yield amines. This is a common method for converting amides to amines. The reaction proceeds through multiple steps involving formation of tetrahedral intermediates. | அமைடுகள் லித்தியம் அலுமினியம் ஹைட்ரைட் (LiAlH4) மூலம் குறைக்கப்படும்போது அமீன்களை தருகின்றன. இது அமைடுகளை அமீன்களாக மாற்றுவதற்கான பொதுவான முறையாகும். இந்த வினை பல்வேறு படிநிலைகள் வழியாக நான்முக இடைநிலைகளின் உருவாக்கத்தை உள்ளடக்கியது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பக்கம் 6 இல் அமீன்களை தயாரிக்க குறிப்பிடப்படாத முறை எது?",
+      "options": [
+        "கேப்ரியல் தாலிமைடு தொகுப்பு",
+        "ஹாஃப்மேன் புரோமமைடு சிதைவு",
+        "அல்கைல் ஹேலைடுகளின் அம்மோனோலிசிஸ்",
+        "நைட்ரைல்களின் குறைப்பு"
+      ],
+      "correct": 2,
+      "explanation": "Ammonolysis of alkyl halides is discussed on page 4 and 5 of the textbook, not on page 6. Page 6 specifically covers Gabriel phthalimide synthesis, Hoffmann bromamide degradation, reduction of nitriles, and reduction of amides. | அல்கைல் ஹேலைடுகளின் அம்மோனோலிசிஸ் பாடநூலின் பக்கம் 4 மற்றும் 5 இல் விவாதிக்கப்படுகிறது, பக்கம் 6 இல் அல்ல. பக்கம் 6 குறிப்பாக கேப்ரியல் தாலிமைடு தொகுப்பு, ஹாஃப்மேன் புரோமமைடு சிதைவு, நைட்ரைல்களின் குறைப்பு, மற்றும் அமைடுகளின் குறைப்பு ஆகியவற்றை உள்ளடக்கியது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Hoffmann bromamide சிதைவு வினையில் எந்த அமைடு propanamine தருகிறது?",
+      "options": [
+        "Propanamide",
+        "Butanamide",
+        "Pentanamide",
+        "Ethanamide"
+      ],
+      "correct": 1,
+      "explanation": "In Hoffmann bromamide degradation, the amide loses one carbon atom. Since propanamine contains three carbons, the starting amide must contain four carbon atoms, which is butanamide. | Hoffmann bromamide வினையில் அமைடு ஒரு கார்பன் அணுவை இழக்கிறது. புரோப்பேனமீனில் மூன்று கார்பன்கள் உள்ளதால், தொடக்க அமைடில் நான்கு கார்பன்கள் இருக்க வேண்டும், அது பியூட்டேனமைடு ஆகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Benzamide Hoffmann bromamide சிதைவுக்கு உட்படுத்தும்போது கிடைக்கும் விளைபொருள் எது?",
+      "options": [
+        "Benzylamine",
+        "Aniline",
+        "Toluene",
+        "Benzoic acid"
+      ],
+      "correct": 1,
+      "explanation": "Benzamide is an aromatic amide containing seven carbon atoms. In Hoffmann degradation, the amide loses one carbon (the carbonyl carbon), producing an aromatic primary amine with six carbons, which is aniline (benzenamine). | பென்சமைடு ஏழு கார்பன் அணுக்கள் கொண்ட அரோமாட்டிக் அமைடு. Hoffmann சிதைவில், அமைடு ஒரு கார்பனை (கார்பனைல் கார்பன்) இழக்கிறது, ஆறு கார்பன்கள் கொண்ட அரோமாட்டிக் முதல்நிலை அமீனை உருவாக்குகிறது, அது அனிலின் (பென்சீனமீன்) ஆகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "குறைந்த அலிஃபாட்டிக் அமீன்களின் அறை வெப்பநிலையில் உள்ள நிலை என்ன?",
+      "options": [
+        "திண்மம்",
+        "திரவம்",
+        "வாயு",
+        "அடர்த்தியான எண்ணெய்"
+      ],
+      "correct": 2,
+      "explanation": "According to the text, lower aliphatic amines are gases with fishy odour. Primary amines with three or more carbon atoms are liquids, and still higher ones are solids. | உரையின்படி, குறைந்த அலிஃபாட்டிக் அமீன்கள் மீன் வாசனையுடன் கூடிய வாயுக்கள். மூன்று அல்லது அதற்கு மேற்பட்ட கார்பன்கள் கொண்ட முதல்நிலை அமீன்கள் திரவங்கள், இன்னும் உயர்ந்தவை திண்மங்கள்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "குறைந்த அலிஃபாட்டிக் அமீன்கள் நீரில் கரைவதற்கான காரணம் என்ன?",
+      "options": [
+        "அவை நீருடன் அயனி பந்தங்களை உருவாக்குகின்றன",
+        "அவை நீர் மூலக்கூறுகளுடன் ஹைட்ரஜன் பந்தங்களை உருவாக்க முடியும்",
+        "அவை அதிக மூலக்கூறு நிறை கொண்டவை",
+        "அவை துருவமற்ற சேர்மங்கள்"
+      ],
+      "correct": 1,
+      "explanation": "Lower aliphatic amines are soluble in water because they can form hydrogen bonds with water molecules. The nitrogen atom can form H-bonds with water's hydrogen atoms. | குறைந்த அலிஃபாட்டிக் அமீன்கள் நீரில் கரையக்கூடியவை, ஏனெனில் அவை நீர் மூலக்கூறுகளுடன் ஹைட்ரஜன் பந்தங்களை உருவாக்க முடியும். நைட்ரஜன் அணு நீரின் ஹைட்ரஜன் அணுக்களுடன் H-பந்தங்களை உருவாக்க முடியும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களின் மோலார் நிறை அதிகரிக்கும்போது நீரில் கரைதிறன் எப்படி மாறுகிறது?",
+      "options": [
+        "அதிகரிக்கிறது",
+        "மாறாதது",
+        "குறைகிறது",
+        "முதலில் அதிகரித்து பின் குறைகிறது"
+      ],
+      "correct": 2,
+      "explanation": "Solubility decreases with increase in molar mass of amines due to increase in size of the hydrophobic alkyl part. Higher amines are essentially insoluble in water. | அமீன்களின் மோலார் நிறை அதிகரிக்கும்போது கரைதிறன் குறைகிறது, ஏனெனில் நீர்விரோத அல்கைல் பகுதியின் அளவு அதிகரிக்கிறது. உயர்ந்த அமீன்கள் அடிப்படையில் நீரில் கரையாதவை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரஜனின் மின்னெதிர்ப்பு 3.0 மற்றும் ஆக்ஸிஜனின் மின்னெதிர்ப்பு 3.5 என்றால், நீரில் அதிகம் கரையக்கூடியது எது: butan-1-ol அல்லது butan-1-amine?",
+      "options": [
+        "Butan-1-amine",
+        "இரண்டும் சமமாக கரையக்கூடியவை",
+        "Butan-1-ol",
+        "இரண்டும் கரையாதவை"
+      ],
+      "correct": 2,
+      "explanation": "Butan-1-ol is more soluble in water than butan-1-amine because alcohols are more polar than amines and form stronger intermolecular hydrogen bonds than amines. Oxygen's higher electronegativity (3.5) compared to nitrogen (3.0) makes alcohols more polar. | பியூட்டேன்-1-ஆல் பியூட்டேன்-1-அமீனை விட நீரில் அதிகம் கரையக்கூடியது, ஏனெனில் ஆல்கஹால்கள் அமீன்களை விட அதிக துருவத்தன்மை கொண்டவை மற்றும் அமீன்களை விட வலுவான பரமாணுக்க H-பந்தங்களை உருவாக்குகின்றன. நைட்ரஜனை (3.0) விட ஆக்ஸிஜனின் அதிக மின்னெதிர்ப்பு (3.5) ஆல்கஹால்களை மிகவும் துருவமாக்குகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சமஅமைப்பு அமீன்களின் கொதிநிலை வரிசை என்ன?",
+      "options": [
+        "மூன்றாம்நிலை > இரண்டாம்நிலை > முதல்நிலை",
+        "இரண்டாம்நிலை > முதல்நிலை > மூன்றாம்நிலை",
+        "முதல்நிலை > இரண்டாம்நிலை > மூன்றாம்நிலை",
+        "முதல்நிலை > மூன்றாம்நிலை > இரண்டாம்நிலை"
+      ],
+      "correct": 2,
+      "explanation": "Primary amines have two hydrogen atoms available for hydrogen bond formation, so they have more intermolecular association. Secondary amines have one H-atom for H-bonding. Tertiary amines have no hydrogen on nitrogen, so no intermolecular H-bonding. Thus boiling point order is Primary > Secondary > Tertiary. | முதல்நிலை அமீன்களில் ஹைட்ரஜன் பந்தம் உருவாக்க இரண்டு ஹைட்ரஜன் அணுக்கள் உள்ளன, எனவே அதிக பரமாணுக்க சங்கமம் உள்ளது. இரண்டாம்நிலை அமீன்களில் H-பந்தத்திற்கு ஒரு H-அணு உள்ளது. மூன்றாம்நிலை அமீன்களில் நைட்ரஜனில் ஹைட்ரஜன் இல்லை, எனவே பரமாணுக்க H-பந்தம் இல்லை. எனவே கொதிநிலை வரிசை: முதல்நிலை > இரண்டாம்நிலை > மூன்றாம்நிலை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலின் மற்றும் பிற அரைலமீன்கள் சேமிப்பில் வண்ணமாகுவதற்கான காரணம் என்ன?",
+      "options": [
+        "ஒளிவேதி வினைகளால்",
+        "வளிமண்டல ஆக்சிஜனேற்றத்தால்",
+        "பல்லிணைவாக்கத்தால்",
+        "ஆவியாதலால்"
+      ],
+      "correct": 1,
+      "explanation": "Aniline and other arylamines are usually colourless but get coloured on storage due to atmospheric oxidation. The amino group is easily oxidized by air. | அனிலின் மற்றும் பிற அரைலமீன்கள் பொதுவாக வண்ணமற்றவை, ஆனால் சேமிப்பில் வளிமண்டல ஆக்சிஜனேற்றத்தால் வண்ணமாகின்றன. அமினோ குழு காற்றால் எளிதில் ஆக்சிஜனேற்றம் அடைகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களை கரைக்கக்கூடிய கரிம கரைப்பான்கள் எவை?",
+      "options": [
+        "ஆல்கஹால் மட்டுமே",
+        "ஆல்கஹால், ஈதர் மற்றும் பென்சீன்",
+        "நீர் மட்டுமே",
+        "பென்சீன் மட்டுமே"
+      ],
+      "correct": 1,
+      "explanation": "Amines are soluble in organic solvents like alcohol, ether and benzene. They are basic and polar compounds that can interact with various organic solvents through different intermolecular forces. | அமீன்கள் ஆல்கஹால், ஈதர் மற்றும் பென்சீன் போன்ற கரிம கரைப்பான்களில் கரையக்கூடியவை. அவை பல்வேறு கரிம கரைப்பான்களுடன் வெவ்வேறு பரமாணுக்க விசைகள் மூலம் தொடர்பு கொள்ளக்கூடிய அடிப்படை மற்றும் துருவ சேர்மங்கள்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதல்நிலை அமீன்களில் பரமாணுக்க ஹைட்ரஜன் பந்தத்திற்கு எத்தனை ஹைட்ரஜன் அணுக்கள் உள்ளன?",
+      "options": [
+        "பூஜ்யம்",
+        "ஒன்று",
+        "இரண்டு",
+        "மூன்று"
+      ],
+      "correct": 2,
+      "explanation": "Primary amines have the formula R-NH2, meaning there are two hydrogen atoms directly attached to nitrogen. These two hydrogen atoms are available for intermolecular hydrogen bond formation with the nitrogen of another molecule. | முதல்நிலை அமீன்கள் R-NH2 சூத்திரத்தைக் கொண்டுள்ளன, அதாவது நைட்ரஜனுடன் நேரடியாக இரண்டு ஹைட்ரஜன் அணுக்கள் இணைந்துள்ளன. இந்த இரண்டு ஹைட்ரஜன் அணுக்களும் மற்றொரு மூலக்கூறின் நைட்ரஜனுடன் பரமாணுக்க ஹைட்ரஜன் பந்தம் உருவாக்க பயன்படுத்தப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதன்மை அமீன்களின் கொதிநிலை மூன்றாம் நிலை அமீன்களை விட அதிகமாக இருப்பதற்கான முக்கிய காரணம் என்ன?",
+      "options": [
+        "முதன்மை அமீன்களின் மூலப்பொருள் நிறை அதிகம்",
+        "முதன்மை அமீன்களில் இணைப்பு நைட்ரஜன் பிணைப்பு உள்ளது",
+        "முதன்மை அமீன்கள் மூன்றாம் நிலை அமீன்களை விட அதிக முனைவுத்தன்மை கொண்டவை",
+        "முதன்மை அமீன்களில் அயனி இடைவினைகள் அதிகம்"
+      ],
+      "correct": 1,
+      "explanation": "Primary amines have two hydrogen atoms attached to nitrogen, enabling intermolecular hydrogen bonding between the nitrogen of one molecule and the hydrogen of another. Tertiary amines lack hydrogen atoms on nitrogen, so they cannot form such hydrogen bonds. This makes primary amines have higher boiling points than tertiary amines. | முதன்மை அமீன்களில் நைட்ரஜனுடன் இரண்டு ஹைட்ரஜன் அணுக்கள் இணைந்துள்ளதால், ஒரு மூலக்கூறின் நைட்ரஜனுக்கும் மற்றொரு மூலக்கூறின் ஹைட்ரஜனுக்கும் இடையே இணைப்பு நைட்ரஜன் பிணைப்பு உருவாகிறது. மூன்றாம் நிலை அமீன்களில் நைட்ரஜனில் ஹைட்ரஜன் அணுக்கள் இல்லாததால் இந்தப் பிணைப்பு உருவாவதில்லை. எனவே முதன்மை அமீன்களின் கொதிநிலை அதிகமாக இருக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "உரையில் கொடுக்கப்பட்டுள்ள கொதிநிலை வரிசையின்படி, ஒரே மாதிரியான அமீன்களுக்கு எந்த வரிசை சரியானது?",
+      "options": [
+        "மூன்றாம் நிலை > இரண்டாம் நிலை > முதன்மை",
+        "இரண்டாம் நிலை > மூன்றாம் நிலை > முதன்மை",
+        "முதன்மை > இரண்டாம் நிலை > மூன்றாம் நிலை",
+        "முதன்மை > மூன்றாம் நிலை > இரண்டாம் நிலை"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that the order of boiling points of isomeric amines is: Primary > Secondary > Tertiary. This is because primary amines have two hydrogen atoms available for hydrogen bond formation, secondary amines have one, and tertiary amines have none. | உரையில் தெளிவாகக் குறிப்பிடப்பட்டுள்ளபடி, ஒரே மாதிரியான அமீன்களின் கொதிநிலை வரிசை: முதன்மை > இரண்டாம் நிலை > மூன்றாம் நிலை. முதன்மை அமீன்களில் இரண்டு ஹைட்ரஜன் அணுக்கள் பிணைப்புக்கு உள்ளன, இரண்டாம் நிலையில் ஒன்று, மூன்றாம் நிலையில் எதுவும் இல்லை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எந்த வகை அமீன் இணைப்பு நைட்ரஜன் பிணைப்பைக் காட்டுவதில்லை?",
+      "options": [
+        "முதன்மை அமீன்கள்",
+        "இரண்டாம் நிலை அமீன்கள்",
+        "மூன்றாம் நிலை அமீன்கள்",
+        "எல்லா அமீன்களும் பிணைப்பைக் காட்டுகின்றன"
+      ],
+      "correct": 2,
+      "explanation": "Tertiary amines do not have intermolecular association due to the absence of hydrogen atom available for hydrogen bond formation. Primary and secondary amines can form hydrogen bonds because they have hydrogen atoms attached to nitrogen. | மூன்றாம் நிலை அமீன்களில் நைட்ரஜனுடன் இணைந்த ஹைட்ரஜன் அணு இல்லாததால், இணைப்பு நைட்ரஜன் பிணைப்பு உருவாவதில்லை. முதன்மை மற்றும் இரண்டாம் நிலை அமீன்களில் நைட்ரஜனுடன் ஹைட்ரஜன் அணுக்கள் இருப்பதால் பிணைப்பு உருவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஒத்த மூலப்பொருள் நிறை கொண்ட அமீன்களை விட ஆல்கஹால்கள் நீரில் அதிகம் கரைவதற்கான காரணம் என்ன?",
+      "options": [
+        "ஆல்கஹால்களின் மூலப்பொருள் நிறை குறைவு",
+        "ஆல்கஹால்கள் அதிக முனைவுத்தன்மை கொண்டவை மற்றும் அதிக பலமான இணைப்பு நைட்ரஜன் பிணைப்புகளை உருவாக்குகின்றன",
+        "ஆல்கஹால்களில் ஆக்சிஜனின் மின்னணு எதிர்மறைத் தன்மை அதிகம்",
+        "ஆல்கஹால்களில் அயனி தன்மை உள்ளது"
+      ],
+      "correct": 1,
+      "explanation": "The text states that alcohols are more polar than amines and form stronger intermolecular hydrogen bonds than amines. The electronegativity of oxygen in alcohols is 3.5 compared to 3.0 for nitrogen in amines, making alcohols more polar and better at hydrogen bonding with water. | உரையின்படி, ஆல்கஹால்கள் அமீன்களை விட அதிக முனைவுத்தன்மை கொண்டவை மற்றும் அதிக பலமான இணைப்பு நைட்ரஜன் பிணைப்புகளை உருவாக்குகின்றன. ஆல்கஹால்களில் ஆக்சிஜனின் மின்னணு எதிர்மறைத் தன்மை 3.5, அமீன்களில் நைட்ரஜனின் தன்மை 3.0, எனவே ஆல்கஹால்கள் நீருடன் சிறந்த பிணைப்பை உருவாக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அலிஃபாட்டிக் அமீன்களின் மூலப்பொருள் நிறை அதிகரிக்கும்போது அவற்றின் நீரில் கரைதிறனுக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "கரைதிறன் தொடர்ந்து அதிகரிக்கிறது",
+        "கரைதிறன் மாறாமல் இருக்கிறது",
+        "நீர்விரோத அல்கைல் பகுதியின் அளவு அதிகரிப்பதால் கரைதிறன் குறைகிறது",
+        "கரைதிறன் முதலில் குறைந்து பின்னர் அதிகரிக்கிறது"
+      ],
+      "correct": 2,
+      "explanation": "Lower aliphatic amines are soluble in water because they can form hydrogen bonds with water molecules. However, solubility decreases with increase in molar mass of amines due to increase in size of the hydrophobic alkyl part. Higher amines are essentially insoluble in water. | குறைந்த அலிஃபாட்டிக் அமீன்கள் நீரில் கரையும், ஏனெனில் அவை நீர் மூலக்கூறுகளுடன் நைட்ரஜன் பிணைப்பு உருவாக்கும். ஆனால் மூலப்பொருள் நிறை அதிகரிக்கும்போது, நீர்விரோத அல்கைல் பகுதியின் அளவு அதிகரிப்பதால் கரைதிறன் குறைகிறது. உயர் அமீன்கள் நீரில் கரையாது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "ஒத்த மூலப்பொருள் நிறை கொண்ட சேர்மங்களில் அமீன்கள், ஆல்கஹால்கள், அல்கேன்கள் ஆகியவற்றில் எதற்கு அதிக கொதிநிலை உள்ளது?",
+      "options": [
+        "அமீன்கள்",
+        "ஆல்கஹால்கள்",
+        "அல்கேன்கள்",
+        "அனைத்திற்கும் ஒரே கொதிநிலை"
+      ],
+      "correct": 1,
+      "explanation": "Alcohols form stronger intermolecular hydrogen bonds than amines due to higher electronegativity of oxygen (3.5) compared to nitrogen (3.0). Alkanes cannot form hydrogen bonds at all. Therefore, alcohols have the highest boiling points among compounds of similar molecular mass. | ஆல்கஹால்கள் அமீன்களை விட அதிக பலமான இணைப்பு நைட்ரஜன் பிணைப்புகளை உருவாக்குகின்றன, ஏனெனில் ஆக்சிஜனின் மின்னணு எதிர்மறைத் தன்மை (3.5) நைட்ரஜனை விட (3.0) அதிகம். அல்கேன்கள் நைட்ரஜன் பிணைப்பு உருவாக்க முடியாது. எனவே ஒத்த மூலப்பொருள் நிறை கொண்ட சேர்மங்களில் ஆல்கஹால்களின் கொதிநிலை அதிகமாக இருக்கும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "இரண்டாம் நிலை அமீன்களை விட முதன்மை அமீன்களில் இணைப்பு நைட்ரஜன் பிணைப்பு அதிகமாக இருப்பதற்கான காரணம் என்ன?",
+      "options": [
+        "முதன்மை அமீன்களில் அதிக கார்பன் அணுக்கள் உள்ளன",
+        "முதன்மை அமீன்களில் இரண்டு ஹைட்ரஜன் அணுக்கள் பிணைப்புக்கு கிடைக்கின்றன",
+        "முதன்மை அமீன்களில் அதிக மின்னணு எதிர்மறைத் தன்மை உள்ளது",
+        "முதன்மை அமீன்களின் மூலப்பொருள் நிறை குறைவு"
+      ],
+      "correct": 1,
+      "explanation": "Primary amines have two hydrogen atoms attached to nitrogen that are available for hydrogen bond formation. Secondary amines have only one hydrogen atom on nitrogen. Therefore, primary amines can form more extensive hydrogen bonding networks compared to secondary amines. | முதன்மை அமீன்களில் நைட்ரஜனுடன் இரண்டு ஹைட்ரஜன் அணுக்கள் இணைந்துள்ளன, அவை பிணைப்புக்கு கிடைக்கின்றன. இரண்டாம் நிலை அமீன்களில் நைட்ரஜனில் ஒரு ஹைட்ரஜன் அணு மட்டுமே உள்ளது. எனவே முதன்மை அமீன்கள் இரண்டாம் நிலை அமீன்களை விட அதிக பிணைப்பு வலையமைப்பை உருவாக்க முடியும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "மூன்று அல்லது அதற்கு மேற்பட்ட கார்பன் அணுக்கள் கொண்ட முதன்மை அமீன்களின் இயற்பியல் நிலை என்ன?",
+      "options": [
+        "வாயுக்கள்",
+        "திரவங்கள்",
+        "திண்மங்கள்",
+        "வெப்பநிலையைப் பொறுத்து மாறும்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that lower aliphatic amines are gases with fishy odour. Primary amines with three or more carbon atoms are liquid, and still higher ones are solid. Aniline and other arylamines are usually colourless liquids. | உரையின்படி, குறைந்த அலிஃபாட்டிக் அமீன்கள் மீன் வாசனை கொண்ட வாயுக்கள். மூன்று அல்லது அதற்கு மேற்பட்ட கார்பன் அணுக்கள் கொண்ட முதன்மை அமீன்கள் திரவ நிலையில் உள்ளன, அதற்கும் உயர்ந்தவை திண்ம நிலையில் உள்ளன. அனிலீன் மற்றும் பிற அரைலமீன்கள் பொதுவாக நிறமற்ற திரவங்கள்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "NaOH போன்ற காரத்துடன் அமைன் உப்புகளை செயல்படுத்தும்போது என்ன நிகழ்கிறது?",
+      "options": [
+        "அவை நைட்ரஜன் வாயுவாக சிதைவடைகின்றன",
+        "அவை மூல அமைனை மீண்டும் உருவாக்குகின்றன",
+        "அவை டையசோனியம் உப்புகளை உருவாக்குகின்றன",
+        "அவை பலபடியாக்கலுக்கு உட்படுகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "Amine salts on treatment with a base like NaOH regenerate the parent amine. This reaction is the basis for the separation of amines from non-basic organic compounds. | NaOH போன்ற காரத்துடன் அமைன் உப்புகளை செயல்படுத்தும்போது, அவை மூல அமைனை மீண்டும் உருவாக்குகின்றன. இந்த வினை அமைன்களை அடிப்படையற்ற கரிம சேர்மங்களிலிருந்து பிரிப்பதற்கான அடிப்படையாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமைன் உப்புகளின் எந்த பண்பு அமைன்களை அடிப்படையற்ற கரிம சேர்மங்களிலிருந்து பிரிப்பதற்கு பயன்படுகிறது?",
+      "options": [
+        "அவை நீரில் கரையாது ஆனால் ஈதரில் கரைகின்றன",
+        "அவை நீரில் கரைகின்றன ஆனால் ஈதர் போன்ற கரிம கரைப்பான்களில் கரையாது",
+        "அவை ஆல்கஹால்களுடன் வலுவான ஹைட்ரஜன் பிணைப்புகளை உருவாக்குகின்றன",
+        "அவை அனைத்து வகை ஹைட்ரோகார்பன்களுடனும் வினைபுரிகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "Amine salts are soluble in water but insoluble in organic solvents like ether. This property allows separation of amines from non-basic organic compounds that are insoluble in water. | அமைன் உப்புகள் நீரில் கரையும் ஆனால் ஈதர் போன்ற கரிம கரைப்பான்களில் கரையாது. இந்த பண்பு அமைன்களை நீரில் கரையாத அடிப்படையற்ற கரிம சேர்மங்களிலிருந்து பிரிப்பதை அனுமதிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "Kb மதிப்புக்கும் அமைன்களின் காரத்தன்மைக்கும் உள்ள தொடர்பு என்ன?",
+      "options": [
+        "அதிக Kb என்றால் பலவீனமான காரம்",
+        "Kb மதிப்புக்கும் காரத்தன்மைக்கும் தொடர்பில்லை",
+        "அதிக Kb என்றால் வலுவான காரம்",
+        "குறைந்த Kb என்றால் வலுவான காரம்"
+      ],
+      "correct": 2,
+      "explanation": "Larger the value of Kb or smaller the value of pKb, stronger is the base. Kb is the base dissociation constant. | Kb மதிப்பு அதிகமாக இருந்தால் அல்லது pKb மதிப்பு குறைவாக இருந்தால், அடிப்படை அதிகமாக இருக்கும். Kb என்பது அடிப்படை பிரிவு மாறிலியாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அம்மோனியாவின் pKb மதிப்பு என்ன?",
+      "options": [
+        "3.38",
+        "4.751",
+        "9.38",
+        "3.00"
+      ],
+      "correct": 1,
+      "explanation": "The pKb value of ammonia is 4.751. This is used as a reference point to compare basicity of aliphatic and aromatic amines. | அம்மோனியாவின் pKb மதிப்பு 4.751. இது அலிபாட்டிக் மற்றும் அரோமாட்டிக் அமைன்களின் காரத்தன்மையை ஒப்பிடுவதற்கான குறிப்பு புள்ளியாகப் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அலிபாட்டிக் அமைன்கள் அம்மோனியாவை விட வலுவான காரங்களாக இருப்பதற்கான காரணம் என்ன?",
+      "options": [
+        "ஆல்கைல் குழுக்களின் -I விளைவு காரணமாக",
+        "ஆல்கைல் குழுக்களின் +I விளைவு நைட்ரஜனில் அதிக எதிர்மின்னு அடர்த்தியை ஏற்படுத்துவதால்",
+        "வளையத்தில் ஒத்திசைவு நிலைப்பாடு காரணமாக",
+        "நீர் மூலக்கூறுகளுடன் ஹைட்ரஜன் பிணைப்பு காரணமாக"
+      ],
+      "correct": 1,
+      "explanation": "Aliphatic amines are stronger bases than ammonia due to +I effect of alkyl groups leading to high electron density on the nitrogen atom. Their pKb values lie in the range of 3 to 4.22. | அலிபாட்டிக் அமைன்கள் அம்மோனியாவை விட வலுவான காரங்கள், ஏனெனில் ஆல்கைல் குழுக்களின் +I விளைவு நைட்ரஜன் அணுவில் அதிக எதிர்மின்னு அடர்த்தியை ஏற்படுத்துகிறது. அவற்றின் pKb மதிப்புகள் 3 முதல் 4.22 வரை இருக்கும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பின்வருவனவற்றில் எந்த அமைன் அதிக pKb மதிப்பைக் கொண்டு, பலவீனமான காரத்தன்மையைக் குறிக்கிறது?",
+      "options": [
+        "மீதனமைன்",
+        "N,N-டையெதிலெதனமைன்",
+        "பென்சீனமைன்",
+        "N-எதிலெதனமைன்"
+      ],
+      "correct": 2,
+      "explanation": "Benzenamine (aniline) has pKb value of 9.38, which is the highest among the given options. Higher pKb means weaker base. Aromatic amines are weaker bases than ammonia due to electron withdrawing nature of aryl group. | பென்சீனமைன் (அனிலின்) pKb மதிப்பு 9.38, இது கொடுக்கப்பட்ட விருப்பங்களில் அதிகமானது. அதிக pKb என்றால் பலவீனமான காரம். அரோமாட்டிக் அமைன்கள் அம்மோனியாவை விட பலவீனமான காரங்கள், ஏனெனில் அரைல் குழுவின் எதிர்மின்னு ஈர்க்கும் தன்மை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "pKb க்கான சரியான சூத்திரம் எது?",
+      "options": [
+        "pKb = log Kb",
+        "pKb = -log Kb",
+        "pKb = Kb / 10",
+        "pKb = 1/Kb"
+      ],
+      "correct": 1,
+      "explanation": "pKb is defined as pKb = -log Kb, where Kb is the base dissociation constant. This is analogous to pH = -log[H+]. | pKb = -log Kb என வரையறுக்கப்படுகிறது, இங்கு Kb என்பது அடிப்படை பிரிவு மாறிலி. இது pH = -log[H+] என்பதற்கு ஒத்ததாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அட்டவணை 9.3 படி, எந்த அமைன் pKb மதிப்பு 3.00 கொண்டுள்ளது?",
+      "options": [
+        "மீதனமைன்",
+        "எதனமைன்",
+        "N-எதிலெதனமைன்",
+        "N,N-டைமெதில்மீதனமைன்"
+      ],
+      "correct": 2,
+      "explanation": "According to Table 9.3, N-Ethylethanamine has pKb value of 3.00, making it the strongest base among the listed amines due to its lowest pKb value. | அட்டவணை 9.3 படி, N-எதிலெதனமைன் pKb மதிப்பு 3.00, இது பட்டியலிடப்பட்ட அமைன்களில் அதன் குறைந்த pKb மதிப்பு காரணமாக அதிக காரத்தன்மை கொண்டதாக அமைகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "CH3(CH2)2NH2 என்ற சேர்மத்தின் சரியான IUPAC பெயர் மற்றும் வகைப்பாடு என்ன?",
+      "options": [
+        "புரோப்பேன்-1-அமீன், முதல்நிலை அமீன்",
+        "புரோப்பேன்-2-அமீன், இரண்டாம்நிலை அமீன்",
+        "எத்தேன்-1,2-டையமீன், முதல்நிலை அமீன்",
+        "பியூட்டேன்-1-அமீன், மூன்றாம்நிலை அமீன்"
+      ],
+      "correct": 0,
+      "explanation": "CH3(CH2)2NH2 has three carbon atoms in the main chain with NH2 attached to the first carbon. The IUPAC name is propan-1-amine. Since nitrogen is bonded to one carbon group and two hydrogens, it is a primary amine. | CH3(CH2)2NH2 இல் மூன்று கார்பன்கள் முதன்மை சங்கிலியில் உள்ளன, NH2 முதல் கார்பனுடன் இணைந்துள்ளது. IUPAC பெயர் propan-1-amine. நைட்ரஜன் ஒரு கார்பன் குழுவுடன் மற்றும் இரண்டு ஹைட்ரஜன்களுடன் பிணைக்கப்பட்டுள்ளதால் இது முதல்நிலை அமீன்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "C6H5NHCH3 என்ற சேர்மத்தை வகைப்படுத்துக?",
+      "options": [
+        "முதல்நிலை அமீன்",
+        "இரண்டாம்நிலை அமீன்",
+        "மூன்றாம்நிலை அமீன்",
+        "குவாட்டர்னரி அம்மோனியம் உப்பு"
+      ],
+      "correct": 1,
+      "explanation": "In C6H5NHCH3, the nitrogen atom is bonded to two carbon groups (one phenyl and one methyl) and one hydrogen atom. This is the defining characteristic of a secondary amine (R-NH-R'). | C6H5NHCH3 இல் நைட்ரஜன் அணு இரண்டு கார்பன் குழுக்களுடன் (ஒரு பினைல், ஒரு மெத்தில்) மற்றும் ஒரு ஹைட்ரஜனுடன் பிணைக்கப்பட்டுள்ளது. இது இரண்டாம்நிலை அமீனின் (R-NH-R') வரையறை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எத்திலமீன் நீரில் கரையும், ஆனால் அனிலின் கரையாது - இதற்கான காரணம் என்ன?",
+      "options": [
+        "எத்திலமீன் அதிக மூலக்கூறு நிறையைக் கொண்டுள்ளது",
+        "எத்திலமீன் நீருடன் ஹைட்ரஜன் பிணைப்பு உருவாக்க முடியும், அனிலின் பெரிய ஹைட்ரோஃபோபிக் பகுதியால் கரையாது",
+        "அனிலின் அதிக காரத்தன்மையால் நீரில் கரையாது",
+        "எத்திலமீன் அயனியாக்கும் திறன் குறைவால் நீரில் கரைகிறது"
+      ],
+      "correct": 1,
+      "explanation": "Lower aliphatic amines like ethylamine are soluble in water because they can form hydrogen bonds with water molecules. However, aniline has a large hydrophobic phenyl group that reduces solubility. As molar mass increases, the hydrophobic alkyl/aryl part dominates, decreasing solubility. | குறைந்த ஆலிஃபாட்டிக் அமீன்கள் நீருடன் ஹைட்ரஜன் பிணைப்பு உருவாக்குவதால் நீரில் கரைகின்றன. அனிலினில் பெரிய ஹைட்ரோஃபோபிக் பினைல் குழு உள்ளதால் கரைதிறன் குறைகிறது. மூலக்கூறு நிறை அதிகரிக்கும்போது ஹைட்ரோஃபோபிக் பகுதி ஆதிக்கம் செலுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "முதல்நிலை அமீன்களின் கொதிநிலை இரண்டாம்நிலை மற்றும் மூன்றாம்நிலை அமீன்களை விட அதிகமாக இருப்பதற்கான காரணம் என்ன?",
+      "options": [
+        "முதல்நிலை அமீன்களில் அதிக வான்டர்வால்ஸ் விசைகள் உள்ளன",
+        "முதல்நிலை அமீன்கள் இரண்டு ஹைட்ரஜன் அணுக்களைக் கொண்டதால் அண்டை மூலக்கூறுகளுடன் ஹைட்ரஜன் பிணைப்பு உருவாக்க முடியும்",
+        "முதல்நிலை அமீன்கள் அதிக காரத்தன்மையைக் கொண்டுள்ளன",
+        "முதல்நிலை அமீன்கள் சிறிய மூலக்கூறு நிறையைக் கொண்டுள்ளன"
+      ],
+      "correct": 1,
+      "explanation": "Primary and secondary amines exhibit intermolecular hydrogen bonding. Primary amines have two hydrogen atoms available for H-bonding, making their intermolecular association stronger than secondary amines (one H). Tertiary amines have no H on nitrogen, so no H-bonding. Thus boiling point order: Primary > Secondary > Tertiary. | முதல்நிலை மற்றும் இரண்டாம்நிலை அமீன்கள் அண்டை மூலக்கூறு ஹைட்ரஜன் பிணைப்பைக் கொண்டுள்ளன. முதல்நிலை அமீன்களில் இரண்டு ஹைட்ரஜன்கள் H-bondingக்கு உள்ளன. மூன்றாம்நிலை அமீன்களில் நைட்ரஜனில் H இல்லாததால் H-bonding இல்லை. வரிசை: முதல்நிலை > இரண்டாம்நிலை > மூன்றாம்நிலை."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அனிலினை நைட்ரேற்றம் செய்யும்போது m-நைட்ரோஅனிலின் கிடைப்பதற்கான காரணம் என்ன?",
+      "options": [
+        "அமினோ குழு மீட்டா-திசையன் குழுவாக செயல்படுகிறது",
+        "அமில வினைப்பாட்டில் அனிலின் புரோட்டானேற்றம் அடைந்து அனிலினியம் அயனியாகிறது, இது மீட்டா-திசையன் குழு",
+        "நைட்ரேற்றத்தின்போது அனிலின் ஆக்ஸிடேற்றம் அடைகிறது",
+        "நைட்ரிக் அமிலம் அனிலினுடன் வினையாற்றாது"
+      ],
+      "correct": 1,
+      "explanation": "In strongly acidic nitration medium, aniline gets protonated to form anilinium ion (-NH3+). This positively charged group is meta-directing and deactivating. Although free -NH2 is ortho-para directing, the protonated form dominates in strong acid, giving substantial meta product along with ortho-para derivatives. | வலுவான அமில நைட்ரேற்ற வினைப்பாட்டில் அனிலின் புரோட்டானேற்றம் அடைந்து -NH3+ அயனியாகிறது. இந்த நேர்மின் ஏற்றம் கொண்ட குழு மீட்டா-திசையன். விடுதலையான -NH2 ஆர்த்தோ-பாரா திசையன் என்றாலும், வலுவான அமிலத்தில் புரோட்டானேற்ற வடிவமே ஆதிக்கம் செலுத்துகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அரோமாட்டிக் அமீன்களின் டையசோனியம் உப்புகள் ஆலிஃபாட்டிக் அமீன்களின் டையசோனியம் உப்புகளை விட ஏன் நிலையானவை?",
+      "options": [
+        "அரோமாட்டிக் வளையம் டையசோனியம் குழுவை இலக்கு செய்கிறது",
+        "அரோமாட்டிக் வளையத்துடன் ஒத்திசைவால் டையசோனியம் அயனி நிலைப்படுத்தப்படுகிறது",
+        "ஆலிஃபாட்டிக் அமீன்கள் அதிக வினைத்திறன் கொண்டவை",
+        "அரோமாட்டிக் அமீன்கள் குறைந்த வினைத்திறன் கொண்டவை"
+      ],
+      "correct": 1,
+      "explanation": "Arenediazonium salts are stabilized by resonance between the diazonium group and the aromatic ring. The positive charge is delocalized into the ring. Alkyldiazonium salts lack this resonance stabilization and are highly unstable, immediately decomposing to release nitrogen gas. | அரீன்டையசோனியம் உப்புகள் டையசோனியம் குழுவுக்கும் அரோமாட்டிக் வளையத்துக்கும் இடையே ஒத்திசைவால் நிலைப்படுத்தப்படுகின்றன. நேர்மின் ஏற்றம் வளையத்தில் பரவியடைகிறது. ஆல்கைல்டையசோனியம் உப்புகளில் இந்த ஒத்திசைவு நிலைப்பாடு இல்லாததால் உடனடியாக சிதைந்து நைட்ரஜன் வளிமம் விடுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "C6H5NH2, C6H5NHCH3, C6H5CH2NH2 ஆகியவற்றின் காரத்தன்மை வளர்ச்சி வரிசை என்ன?",
+      "options": [
+        "C6H5NH2 < C6H5NHCH3 < C6H5CH2NH2",
+        "C6H5CH2NH2 < C6H5NHCH3 < C6H5NH2",
+        "C6H5NHCH3 < C6H5NH2 < C6H5CH2NH2",
+        "C6H5NH2 < C6H5CH2NH2 < C6H5NHCH3"
+      ],
+      "correct": 0,
+      "explanation": "Aniline (C6H5NH2) has lone pair delocalized into ring by resonance - weakest base. N-methylaniline (C6H5NHCH3) has +I effect of CH3 but still some resonance - slightly stronger. Benzylamine (C6H5CH2NH2) has NH2 separated from ring by CH2, so no resonance, only +I effect of CH2 and C6H5 - strongest base among these three. | அனிலினில் (C6H5NH2) தனித்த ஜோடி வளையத்தில் ஒத்திசைவால் பரவியடைந்து மிகவும் பலவீன காரம். N-மெத்திலஅனிலினில் (C6H5NHCH3) CH3 இன் +I விளைவு உள்ளது. பென்சிலமீனில் (C6H5CH2NH2) NH2 வளையத்திலிருந்து CH2 மூலம் பிரிக்கப்பட்டுள்ளதால் ஒத்திசைவு இல்லை - மிகவும் வலுவான காரம்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களின் காரத்தன்மையை குறிக்க Kb மற்றும் pKb மதிப்புகள் பயன்படுத்தப்படுகின்றன. pKb மற்றும் காரத்தன்மையின் உறவு என்ன?",
+      "options": [
+        "pKb அதிகரிக்கும்போது காரத்தன்மை அதிகரிக்கிறது",
+        "pKb குறையும்போது காரத்தன்மை அதிகரிக்கிறது",
+        "pKb மற்றும் Kb ஒரே மதிப்புகள்",
+        "pKb காரத்தன்மையை குறிக்காது"
+      ],
+      "correct": 1,
+      "explanation": "pKb = -log Kb. Larger Kb means stronger base (more OH- produced). Therefore, smaller pKb means stronger base. For example, ammonia has pKb 4.75, methylamine has pKb 3.38 (stronger base), and aniline has pKb 9.38 (much weaker base). | pKb = -log Kb. அதிக Kb = வலுவான காரம் (அதிக OH-). எனவே குறைந்த pKb = வலுவான காரம். உதாரணம்: அம்மோனியா pKb 4.75, மெத்திலமீன் pKb 3.38 (வலுவான காரம்), அனிலின் pKb 9.38 (மிகவும் பலவீன காரம்)."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களின் அல்கைலேற்ற எதிர்வினையின்போது இறுதி விளைபொருள் என்ன?",
+      "options": [
+        "முதல்நிலை அமீன் மட்டுமே",
+        "இரண்டாம்நிலை அமீன் மட்டுமே",
+        "முதல், இரண்டாம், மூன்றாம் நிலை அமீன்கள் மற்றும் குவாட்டர்னரி அம்மோனியம் உப்புகளின் கலவை",
+        "அமைடு மட்டுமே"
+      ],
+      "correct": 2,
+      "explanation": "Ammonolysis of alkyl halides produces a mixture of primary, secondary, and tertiary amines, plus quaternary ammonium salts. The primary amine formed acts as a nucleophile and reacts further with more alkyl halide. Taking large excess of ammonia favors primary amine formation. | ஆல்கைல் ஆலைடுகளின் அம்மோனாலிசிஸ் முதல், இரண்டாம், மூன்றாம் நிலை அமீன்கள் மற்றும் குவாட்டர்னரி அம்மோனியம் உப்புகளின் கலவையைத் தருகிறது. உருவாகும் முதல்நிலை அமீன் மேலும் ஆல்கைல் ஆலைடுடன் வினையாற்றுகிறது. அதிக அம்மோனியா முதல்நிலை அமீன் உருவாக்கத்தை ஊக்குவிக்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "C2H5OH, (CH3)2NH, C2H5NH2 ஆகியவற்றின் கொதிநிலை வளர்ச்சி வரிசை என்ன?",
+      "options": [
+        "(CH3)2NH < C2H5NH2 < C2H5OH",
+        "C2H5OH < C2H5NH2 < (CH3)2NH",
+        "C2H5NH2 < (CH3)2NH < C2H5OH",
+        "(CH3)2NH < C2H5OH < C2H5NH2"
+      ],
+      "correct": 0,
+      "explanation": "Boiling points depend on intermolecular forces. (CH3)2NH (tertiary amine, no H-bonding) has lowest bp 310.5K. C2H5NH2 (primary amine, H-bonding) has bp 350.8K. C2H5OH (alcohol, stronger H-bonding due to more electronegative O) has highest bp 390.3K. Order: (CH3)2NH < C2H5NH2 < C2H5OH. | கொதிநிலை அண்டை மூலக்கூறு விசைகளைப் பொறுத்தது. (CH3)2NH (H-bonding இல்லை) குறைந்த கொதிநிலை 310.5K. C2H5NH2 (H-bonding) 350.8K. C2H5OH (O அதிக மின்னெதிர்ப்பு, வலுவான H-bonding) 390.3K. வரிசை: (CH3)2NH < C2H5NH2 < C2H5OH."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அமீன்களின் அசைலேற்ற எதிர்வினையில் பயன்படுத்தப்படும் அடிப்படையின் பாத்திரம் என்ன?",
+      "options": [
+        "வினையூக்கியாக செயல்படுவது",
+        "உருவாகும் HCl-ஐ அகற்றி சமநிலையை வலதுபுறம் நகர்த்துவது",
+        "வினை வெப்பநிலையை குறைப்பது",
+        "அமீனை செயலிழக்கச் செய்வது"
+      ],
+      "correct": 1,
+      "explanation": "Acylation of amines with acid chlorides or anhydrides produces HCl as byproduct. A base stronger than the amine (like pyridine) is used to remove HCl. This shifts the equilibrium to the right (Le Chatelier's principle), increasing product yield. The base does not act as catalyst but as HCl scavenger. | அமீன்களின் அசைலேற்றத்தில் HCl துணை விளைபொருளாக உருவாகிறது. அமீனை விட வலுவான அடிப்படை (pyridine) HCl-ஐ அகற்றுகிறது. இது Le Chatelier கொள்கைப்படி சமநிலையை வலதுபுறம் நகர்த்துகிறது. அடிப்படை வினையூக்கி அல்ல, HCl திரட்டி."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அசோ சாயங்கள் தயாரிப்பில் டையசோனியம் உப்புகளின் பங்கு என்ன?",
+      "options": [
+        "டையசோனியம் உப்புகள் சாயங்களாக மாற்றப்படுகின்றன",
+        "டையசோனியம் உப்புகள் பீனால்கள் அல்லது அரைலமீன்களுடன் இணைவு எதிர்வினையாற்றி அசோ சாயங்களை உருவாக்குகின்றன",
+        "டையசோனியம் உப்புகள் அமிலமாக்கி சாயங்களை உருவாக்குகின்றன",
+        "டையசோனியம் உப்புகள் ஒடுக்க எதிர்வினையால் சாயங்களாக மாற்றப்படுகின்றன"
+      ],
+      "correct": 1,
+      "explanation": "Diazonium salts undergo coupling reactions with phenols (in alkaline medium) or arylamines (in acidic medium) to form azo compounds. These azo products have extended conjugation through the -N=N- bond, making them colored. They are used as azo dyes. Example: benzenediazonium chloride + phenol gives p-hydroxyazobenzene (orange dye). | டையசோனியம் உப்புகள் பீனால்களுடன் (கார வினைப்பாட்டில்) அல்லது அரைலமீன்களுடன் (அமில வினைப்பாட்டில்) இணைவு எதிர்வினையாற்றி அசோ சேர்மங்களை உருவாக்குகின்றன. -N=N- பிணைப்பு வழியாக நீளமான ஒத்திசைவு அமைப்பு நிறமூட்டுகிறது. உதாரணம்: பென்சீன்டையசோனியம் குளோரைடு + பீனால் = p-ஹைட்ராக்சியசோபென்சீன் (ஆரஞ்சு சாயம்)."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சீன்டையாசோனியம் குளோரைடின் இயற்பியல் நிலை என்ன?",
+      "options": [
+        "மஞ்சள் நிற எண்ணெய் திரவம்",
+        "நிறமற்ற படிகத் திண்மம்",
+        "வெள்ளை நிற படிவமற்ற தூள்",
+        "பழுப்பு நிற பாகுநிலை திரவம்"
+      ],
+      "correct": 1,
+      "explanation": "Benzenediazonium chloride is described as a colourless crystalline solid in the textbook. | பென்சீன்டையாசோனியம் குளோரைடு நிறமற்ற படிகத் திண்மம் என்று பாடநூலில் விவரிக்கப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சீன்டையாசோனியம் குளோரைடின் நீரில் கரையும் தன்மை பற்றிய கூற்றுகளில் எது சரியானது?",
+      "options": [
+        "நீரில் கரையாது, கரிம கரைப்பான்களில் கரையும்",
+        "நீரில் எளிதாகக் கரையும்",
+        "குளிர்ந்த நீரில் மட்டுமே சற்று கரையும்",
+        "அமில ஊடகத்தில் மட்டுமே கரையும்"
+      ],
+      "correct": 1,
+      "explanation": "The text states that benzenediazonium chloride is readily soluble in water. | பாடநூலின்படி, பென்சீன்டையாசோனியம் குளோரைடு நீரில் எளிதாகக் கரைகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "பென்சீன்டையாசோனியம் குளோரைடு எந்த வெப்பநிலையில் நிலையானது?",
+      "options": [
+        "300Kக்கு மேல்",
+        "அறை வெப்பநிலையில் மட்டுமே",
+        "குளிர்ந்த நிலையில் நிலையானது, ஆனால் சூடாக்கும்போது சிதைவடைகிறது",
+        "எல்லா வெப்பநிலைகளிலும் நிலையானது"
+      ],
+      "correct": 2,
+      "explanation": "The text states that benzenediazonium chloride is stable in cold but reacts with water when warmed. | குளிர்ந்த நிலையில் நிலையானது, ஆனால் சூடாக்கும்போது நீருடன் வினைபுரிகிறது என்று குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "உலர்ந்த நிலையில் பென்சீன்டையாசோனியம் குளோரைடுக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "மேலும் நிலையாகிறது",
+        "எளிதில் சிதைவடைகிறது",
+        "பதங்கமாகிறது",
+        "பலபடியாகிறது"
+      ],
+      "correct": 1,
+      "explanation": "The text clearly states that benzenediazonium chloride decomposes easily in the dry state. | உலர்ந்த நிலையில் பென்சீன்டையாசோனியம் குளோரைடு எளிதில் சிதைவடைகிறது என்று குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எந்த டையாசோனியம் உப்பு நீரில் கரையாதது மற்றும் அறை வெப்பநிலையில் நிலையானது?",
+      "options": [
+        "பென்சீன்டையாசோனியம் குளோரைடு",
+        "பென்சீன்டையாசோனியம் புரோமைடு",
+        "பென்சீன்டையாசோனியம் ஃபுளோரோபோரேட்",
+        "பென்சீன்டையாசோனியம் ஹைட்ரஜன்சல்பேட்"
+      ],
+      "correct": 2,
+      "explanation": "The text specifically mentions that benzenediazonium fluoroborate is water insoluble and stable at room temperature. | பென்சீன்டையாசோனியம் ஃபுளோரோபோரேட் நீரில் கரையாதது மற்றும் அறை வெப்பநிலையில் நிலையானது என்று குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையாசோனியம் உப்புகளின் வினைகள் எத்தனை வகைகளாகப் பிரிக்கப்பட்டுள்ளன?",
+      "options": [
+        "இரண்டு",
+        "மூன்று",
+        "நான்கு",
+        "ஐந்து"
+      ],
+      "correct": 0,
+      "explanation": "The text divides diazonium salt reactions into two categories: (A) reactions involving displacement of nitrogen and (B) reactions involving retention of diazo group. | டையாசோனியம் உப்புகளின் வினைகள் இரண்டு வகைகளாகப் பிரிக்கப்பட்டுள்ளன: (A) நைட்ரஜன் இடமாற்றம் மற்றும் (B) டையாசோ குழுவைத் தக்கவைத்தல்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "நைட்ரஜன் இடமாற்ற வினைகளில் உருவாகும் நைட்ரஜனுக்கு என்ன நிகழ்கிறது?",
+      "options": [
+        "கரைசலில் தங்கியிருக்கிறது",
+        "அம்மோனியாவாக மாற்றப்படுகிறது",
+        "வாயுவாக வினைக்கலவையிலிருந்து வெளியேறுகிறது",
+        "நைட்ரஜன் டையாக்சைடாக மாறுகிறது"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the nitrogen formed escapes from the reaction mixture as a gas. | உருவாகும் நைட்ரஜன் வாயுவாக வினைக்கலவையிலிருந்து வெளியேறுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சாண்ட்மேயர் வினை என்றால் என்ன?",
+      "options": [
+        "ஹைட்ராக்சில் குழுவால் டையாசோனியம் குழுவை இடமாற்றம் செய்தல்",
+        "Cu(I) அயனியின் முன்னிலையில் Cl, Br, CN அறிமுகப்படுத்துதல்",
+        "ஃபினாலுடன் இணைவு வினை",
+        "எத்தனாலைக் கொண்டு அரீனாக ஒடுக்குதல்"
+      ],
+      "correct": 1,
+      "explanation": "The Sandmeyer reaction involves introducing Cl, Br, and CN nucleophiles in the benzene ring in the presence of Cu(I) ion. | சாண்ட்மேயர் வினையில் Cu(I) அயனியின் முன்னிலையில் Cl, Br, CN குழுக்கள் பென்சீன் வளையத்தில் அறிமுகப்படுத்தப்படுகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "கேட்டர்மேன் வினையில் எந்த முகவர் பயன்படுத்தப்படுகிறது?",
+      "options": [
+        "Cu(I) உப்பு",
+        "செம்புத் தூள் மற்றும் ஹாலஜன் அமிலம்",
+        "பொட்டாசியம் அயோடைடு",
+        "ஃபுளோரோபோரிக் அமிலம்"
+      ],
+      "correct": 1,
+      "explanation": "The Gattermann reaction uses copper powder with corresponding halogen acid to introduce chlorine or bromine. | கேட்டர்மேன் வினையில் செம்புத் தூள் மற்றும் சம்பந்தப்பட்ட ஹாலஜன் அமிலம் பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "சாண்ட்மேயர் மற்றும் கேட்டர்மேன் வினைகளில் எது சிறந்த விளைச்சலைத் தருகிறது?",
+      "options": [
+        "கேட்டர்மேன் வினை",
+        "சாண்ட்மேயர் வினை",
+        "இரண்டும் சமமான விளைச்சல்",
+        "தீர்மானிக்க முடியாது"
+      ],
+      "correct": 1,
+      "explanation": "The text explicitly states that the yield in Sandmeyer reaction is better than Gattermann reaction. | சாண்ட்மேயர் வினையின் விளைச்சல் கேட்டர்மேன் வினையை விட சிறந்தது என்று குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையாசோனியம் உப்புகளிலிருந்து அயோடோபென்சீன் எவ்வாறு தயாரிக்கப்படுகிறது?",
+      "options": [
+        "Cu(I) உடன் சாண்ட்மேயர் வினை மூலம்",
+        "பொட்டாசியம் அயோடைடுடன் சேர்த்தல்",
+        "ஃபுளோரோபோரிக் அமிலத்துடன் சூடாக்குதல்",
+        "ஹைபோபாஸ்பரஸ் அமிலத்தால் ஒடுக்குதல்"
+      ],
+      "correct": 1,
+      "explanation": "Iodobenzene is obtained by treating diazonium salt solution with potassium iodide. | அயோடோபென்சீன் டையாசோனியம் உப்பு கரைசலுடன் பொட்டாசியம் அயோடைடைச் சேர்த்துப் பெறப்படுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அரீன்டையாசோனியம் குளோரைடை ஃபுளோரோபோரிக் அமிலத்துடன் சேர்க்கும்போது என்ன உருவாகிறது?",
+      "options": [
+        "நேரடியாக அரைல் ஃபுளோரைடு",
+        "அரீன்டையாசோனியம் ஃபுளோரோபோரேட் படிவம்",
+        "ஃபினால்",
+        "அரைல் சயனைடு"
+      ],
+      "correct": 1,
+      "explanation": "Arenediazonium fluoroborate is precipitated when treated with fluoroboric acid, which on heating yields aryl fluoride. | ஃபுளோரோபோரிக் அமிலத்துடன் சேர்க்கும்போது அரீன்டையாசோனியம் ஃபுளோரோபோரேட் படிவாகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "எந்த ஒடுக்கும் முகவர் டையாசோனியம் உப்புகளை அரீன்களாக மாற்றுகிறது?",
+      "options": [
+        "வலுவான ஆக்சிஜனேற்றும் முகவர்",
+        "ஹைபோபாஸ்பரஸ் அமிலம் அல்லது எத்தனால்",
+        "செறிவான கந்தக அமிலம்",
+        "சோடியம் ஹைட்ராக்சைடு"
+      ],
+      "correct": 1,
+      "explanation": "Mild reducing agents like hypophosphorous acid or ethanol reduce diazonium salts to arenes. | ஹைபோபாஸ்பரஸ் அமிலம் அல்லது எத்தனால் போன்ற மிதமான ஒடுக்கும் முகவர்கள் டையாசோனியம் உப்புகளை அரீன்களாக ஒடுக்குகின்றன."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையாசோனியம் உப்பு கரைசலின் வெப்பநிலை 283K ஆக உயரும்போது என்ன விளைபொருள் உருவாகிறது?",
+      "options": [
+        "அரைல் ஹாலைடு",
+        "ஃபினால்",
+        "அசோ சேர்மம்",
+        "அரைல் சயனைடு"
+      ],
+      "correct": 1,
+      "explanation": "When the temperature rises to 283K, the diazonium salt gets hydrolyzed to phenol. | வெப்பநிலை 283K ஆக உயரும்போது டையாசோனியம் உப்பு நீராற்பகுப்புக்கு உட்பட்டு ஃபினாலாக மாறுகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "செம்பின் முன்னிலையில் NaNO2 உடன் டையாசோனியம் ஃபுளோரோபோரேட்டைச் சூடாக்கும்போது எந்த குழு இடமாற்றம் செய்கிறது?",
+      "options": [
+        "OH குழு",
+        "NO2 குழு",
+        "CN குழு",
+        "Br குழு"
+      ],
+      "correct": 1,
+      "explanation": "The diazonium group is replaced by NO2 group when heated with aqueous sodium nitrite in presence of copper. | செம்பின் முன்னிலையில் நீர்த்த சோடியம் நைட்ரைட்டுடன் சூடாக்கும்போது NO2 குழு இடமாற்றம் செய்கிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "டையாசோனியம் உப்புகளின் இணைவு வினை எந்த வகை வினை?",
+      "options": [
+        "நியூக்ளியோஃபிலிக் மாற்று வினை",
+        "எலக்ட்ரோஃபிலிக் மாற்று வினை",
+        "சுதந்திர தனிம வினை",
+        "கூட்டல் வினை"
+      ],
+      "correct": 1,
+      "explanation": "The coupling reaction of diazonium salts with phenols or arylamines is an example of electrophilic substitution reaction. | டையாசோனியம் உப்புகளின் இணைவு வினை எலக்ட்ரோஃபிலிக் மாற்று வினையின் எடுத்துக்காட்டாகும்."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "p-ஹைட்ராக்சிஅசோபென்சீன் சாயத்தின் நிறம் என்ன?",
+      "options": [
+        "மஞ்சள்",
+        "ஆரஞ்சு",
+        "சிவப்பு",
+        "நீலம்"
+      ],
+      "correct": 1,
+      "explanation": "The text identifies p-hydroxyazobenzene as an orange dye. | p-ஹைட்ராக்சிஅசோபென்சீன் ஆரஞ்சு நிறச் சாயமாக குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "p-அமினோஅசோபென்சீன் சாயத்தின் நிறம் என்ன?",
+      "options": [
+        "ஆரஞ்சு",
+        "மஞ்சள்",
+        "பச்சை",
+        "ஊதா"
+      ],
+      "correct": 1,
+      "explanation": "The text identifies p-aminoazobenzene as a yellow dye. | p-அமினோஅசோபென்சீன் மஞ்சள் நிறச் சாயமாக குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "இணைவு வினையில் ஃபினாலின் எந்த நிலை டையாசோனியம் உப்புடன் இணைகிறது?",
+      "options": [
+        "ஆர்த்தோ நிலை",
+        "மீட்டா நிலை",
+        "பாரா நிலை",
+        "ஆர்த்தோ மற்றும் பாரா நிலைகள்"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the phenol molecule at its para position is coupled with the diazonium salt. | ஃபினால் மூலக்கூறின் பாரா நிலையில் டையாசோனியம் உப்புடன் இணைகிறது."
+    },
+    {
+      "topic": "Chapter 9",
+      "question": "அசோ சாயங்களுக்கு நிறம் தரும் கட்டமைப்பு அம்சம் எது?",
+      "options": [
+        "ஹாலஜன் அணுக்களின் இருப்பு",
+        "N=N பிணைப்புடன் கூடிய விரிவான இணை கட்டமைப்பு",
+        "நைட்ரோ குழுக்களின் இருப்பு மட்டுமே",
+        "நீளமான ஆல்கைல் சங்கிலிகள்"
+      ],
+      "correct": 1,
+      "explanation": "Azo products have an extended conjugate system with both aromatic rings joined through the N=N bond, making them coloured. | அசோ விளைபொருட்களில் N=N பிணைப்பு வழியாக இணைக்கப்பட்ட விரிவான இணை கட்டமைப்பு நிறத்திற்குக் காரணமாகிறது."
+    }
+  ]
+}
