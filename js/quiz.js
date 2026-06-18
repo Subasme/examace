@@ -298,6 +298,12 @@ function practiceNav(dir) {
       awardXP('chapter_test', selection.chapter?.id || null).catch(() => {});
       recordChapterSession(selection.chapter?.id, selection.subject?.dbLabel || selection.subject?.label, chapCorrect, total).catch(() => {});
       checkAndShowAchievements().catch(() => {});
+      // Progression unlock — requires ≥20 questions to count as an attempt
+      if (total >= 20 && selection.chapter?.id && appMode === 'practice') {
+        const scorePct = Math.round(chapCorrect / total * 100);
+        const subj = selection.subject?.dbLabel || selection.subject?.label;
+        recordChapterAttempt(selection.chapter.id, subj, scorePct, total).catch(() => {});
+      }
     }
     if (!practiceState.skipDaily && userPlan !== 'premium' && userPlan !== 'unlimited' && selection.chapter && isDailyComplete(selection.chapter)) {
       document.getElementById('done-chapter').textContent = selection.chapter.label;
