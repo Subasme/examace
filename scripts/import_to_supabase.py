@@ -153,7 +153,7 @@ def main() -> int:
         print("Clearing ALL existing data…")
         # Delete FK-referencing tables first to avoid constraint violations
         try:
-            sb.table("question_responses").delete().gt("created_at", "2000-01-01").execute()
+            sb.table("question_responses").delete().neq("id", "00000000-0000-0000-0000-000000000000").execute()
         except Exception as e:
             if "42501" in str(e) or "permission denied" in str(e).lower():
                 print("  WARNING: service_role lacks permission on question_responses — skipping.")
@@ -161,7 +161,7 @@ def main() -> int:
             else:
                 raise
         try:
-            sb.table("wrong_answer_tracker").delete().gt("created_at", "2000-01-01").execute()
+            sb.table("wrong_answer_tracker").delete().neq("user_id", "00000000-0000-0000-0000-000000000000").execute()
         except Exception as e:
             if "42501" in str(e) or "permission denied" in str(e).lower():
                 print("  WARNING: service_role lacks permission on wrong_answer_tracker — skipping.")
