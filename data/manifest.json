@@ -14,81 +14,81 @@
               "chapters": [
                 {
                   "id": "chapter1",
-                  "label": "Chapter 1",
+                  "label": "Sexual Reproduction in Flowering Plants",
                   "path": "English/12th/Biology/chapter1.json",
                   "count": 367
                 },
                 {
-                  "id": "chapter10",
-                  "label": "Chapter 10",
-                  "path": "English/12th/Biology/chapter10.json",
-                  "count": 145
-                },
-                {
-                  "id": "chapter11",
-                  "label": "Chapter 11",
-                  "path": "English/12th/Biology/chapter11.json",
-                  "count": 213
-                },
-                {
-                  "id": "chapter12",
-                  "label": "Chapter 12",
-                  "path": "English/12th/Biology/chapter12.json",
-                  "count": 168
-                },
-                {
-                  "id": "chapter13",
-                  "label": "Chapter 13",
-                  "path": "English/12th/Biology/chapter13.json",
-                  "count": 170
-                },
-                {
                   "id": "chapter2",
-                  "label": "Chapter 2",
+                  "label": "Human Reproduction",
                   "path": "English/12th/Biology/chapter2.json",
                   "count": 174
                 },
                 {
                   "id": "chapter3",
-                  "label": "Chapter 3",
+                  "label": "Reproductive Health",
                   "path": "English/12th/Biology/chapter3.json",
                   "count": 126
                 },
                 {
                   "id": "chapter4",
-                  "label": "Chapter 4",
+                  "label": "Principles of Inheritance and Variation",
                   "path": "English/12th/Biology/chapter4.json",
                   "count": 498
                 },
                 {
                   "id": "chapter5",
-                  "label": "Chapter 5",
+                  "label": "Molecular Basis of Inheritance",
                   "path": "English/12th/Biology/chapter5.json",
                   "count": 406
                 },
                 {
                   "id": "chapter6",
-                  "label": "Chapter 6",
+                  "label": "Evolution",
                   "path": "English/12th/Biology/chapter6.json",
                   "count": 347
                 },
                 {
                   "id": "chapter7",
-                  "label": "Chapter 7",
+                  "label": "Human Health and Disease",
                   "path": "English/12th/Biology/chapter7.json",
                   "count": 480
                 },
                 {
                   "id": "chapter8",
-                  "label": "Chapter 8",
+                  "label": "Microbes in Human Welfare",
                   "path": "English/12th/Biology/chapter8.json",
                   "count": 157
                 },
                 {
                   "id": "chapter9",
-                  "label": "Chapter 9",
+                  "label": "Biotechnology: Principles and Processes",
                   "path": "English/12th/Biology/chapter9.json",
                   "count": 179
+                },
+                {
+                  "id": "chapter10",
+                  "label": "Biotechnology and its Applications",
+                  "path": "English/12th/Biology/chapter10.json",
+                  "count": 145
+                },
+                {
+                  "id": "chapter11",
+                  "label": "Organisms and Populations",
+                  "path": "English/12th/Biology/chapter11.json",
+                  "count": 213
+                },
+                {
+                  "id": "chapter12",
+                  "label": "Ecosystem",
+                  "path": "English/12th/Biology/chapter12.json",
+                  "count": 168
+                },
+                {
+                  "id": "chapter13",
+                  "label": "Biodiversity and Conservation",
+                  "path": "English/12th/Biology/chapter13.json",
+                  "count": 170
                 }
               ],
               "allChaptersPath": "English/12th/Biology/all-chapters.json",
@@ -100,63 +100,63 @@
               "chapters": [
                 {
                   "id": "chapter1",
-                  "label": "Chapter 1",
+                  "label": "Solutions",
                   "path": "English/12th/Chemistry/chapter1.json",
                   "count": 350
                 },
                 {
-                  "id": "chapter10",
-                  "label": "Chapter 10",
-                  "path": "English/12th/Chemistry/chapter10.json",
-                  "count": 312
-                },
-                {
                   "id": "chapter2",
-                  "label": "Chapter 2",
+                  "label": "Electrochemistry",
                   "path": "English/12th/Chemistry/chapter2.json",
                   "count": 400
                 },
                 {
                   "id": "chapter3",
-                  "label": "Chapter 3",
+                  "label": "Chemical Kinetics",
                   "path": "English/12th/Chemistry/chapter3.json",
                   "count": 345
                 },
                 {
                   "id": "chapter4",
-                  "label": "Chapter 4",
+                  "label": "d and f Block Elements",
                   "path": "English/12th/Chemistry/chapter4.json",
                   "count": 377
                 },
                 {
                   "id": "chapter5",
-                  "label": "Chapter 5",
+                  "label": "Coordination Compounds",
                   "path": "English/12th/Chemistry/chapter5.json",
                   "count": 334
                 },
                 {
                   "id": "chapter6",
-                  "label": "Chapter 6",
+                  "label": "Haloalkanes and Haloarenes",
                   "path": "English/12th/Chemistry/chapter6.json",
                   "count": 407
                 },
                 {
                   "id": "chapter7",
-                  "label": "Chapter 7",
+                  "label": "Alcohols, Phenols and Ethers",
                   "path": "English/12th/Chemistry/chapter7.json",
                   "count": 464
                 },
                 {
                   "id": "chapter8",
-                  "label": "Chapter 8",
+                  "label": "Aldehydes, Ketones and Carboxylic Acids",
                   "path": "English/12th/Chemistry/chapter8.json",
                   "count": 349
                 },
                 {
                   "id": "chapter9",
-                  "label": "Chapter 9",
+                  "label": "Amines",
                   "path": "English/12th/Chemistry/chapter9.json",
                   "count": 234
+                },
+                {
+                  "id": "chapter10",
+                  "label": "Biomolecules",
+                  "path": "English/12th/Chemistry/chapter10.json",
+                  "count": 312
                 }
               ],
               "allChaptersPath": "English/12th/Chemistry/all-chapters.json",
@@ -168,39 +168,87 @@
               "chapters": [
                 {
                   "id": "chapter1",
-                  "label": "Chapter 1",
+                  "label": "Electric Charges and Fields",
                   "path": "English/12th/Physics/chapter1.json",
                   "count": 456
                 },
                 {
                   "id": "chapter2",
-                  "label": "Chapter 2",
+                  "label": "Electrostatic Potential and Capacitance",
                   "path": "English/12th/Physics/chapter2.json",
                   "count": 347
                 },
                 {
                   "id": "chapter3",
-                  "label": "Chapter 3",
+                  "label": "Current Electricity",
                   "path": "English/12th/Physics/chapter3.json",
                   "count": 244
                 },
                 {
                   "id": "chapter4",
-                  "label": "Chapter 4",
+                  "label": "Moving Charges and Magnetism",
                   "path": "English/12th/Physics/chapter4.json",
                   "count": 384
                 },
                 {
                   "id": "chapter5",
-                  "label": "Chapter 5",
+                  "label": "Magnetism and Matter",
                   "path": "English/12th/Physics/chapter5.json",
                   "count": 213
                 },
                 {
                   "id": "chapter6",
-                  "label": "Chapter 6",
+                  "label": "Electromagnetic Induction",
                   "path": "English/12th/Physics/chapter6.json",
                   "count": 249
+                },
+                {
+                  "id": "chapter7",
+                  "label": "Alternating Current",
+                  "path": "English/12th/Physics/chapter7.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter8",
+                  "label": "Electromagnetic Waves",
+                  "path": "English/12th/Physics/chapter8.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter9",
+                  "label": "Ray Optics and Optical Instruments",
+                  "path": "English/12th/Physics/chapter9.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter10",
+                  "label": "Wave Optics",
+                  "path": "English/12th/Physics/chapter10.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter11",
+                  "label": "Dual Nature of Radiation and Matter",
+                  "path": "English/12th/Physics/chapter11.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter12",
+                  "label": "Atoms",
+                  "path": "English/12th/Physics/chapter12.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter13",
+                  "label": "Nuclei",
+                  "path": "English/12th/Physics/chapter13.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter14",
+                  "label": "Semiconductor Electronics",
+                  "path": "English/12th/Physics/chapter14.json",
+                  "count": 0
                 }
               ],
               "allChaptersPath": "English/12th/Physics/all-chapters.json",
@@ -224,81 +272,81 @@
               "chapters": [
                 {
                   "id": "chapter1",
-                  "label": "Chapter 1",
+                  "label": "Sexual Reproduction in Flowering Plants",
                   "path": "Tamil/12th/Biology/chapter1.json",
                   "count": 379
                 },
                 {
-                  "id": "chapter10",
-                  "label": "Chapter 10",
-                  "path": "Tamil/12th/Biology/chapter10.json",
-                  "count": 145
-                },
-                {
-                  "id": "chapter11",
-                  "label": "Chapter 11",
-                  "path": "Tamil/12th/Biology/chapter11.json",
-                  "count": 233
-                },
-                {
-                  "id": "chapter12",
-                  "label": "Chapter 12",
-                  "path": "Tamil/12th/Biology/chapter12.json",
-                  "count": 168
-                },
-                {
-                  "id": "chapter13",
-                  "label": "Chapter 13",
-                  "path": "Tamil/12th/Biology/chapter13.json",
-                  "count": 170
-                },
-                {
                   "id": "chapter2",
-                  "label": "Chapter 2",
+                  "label": "Human Reproduction",
                   "path": "Tamil/12th/Biology/chapter2.json",
                   "count": 174
                 },
                 {
                   "id": "chapter3",
-                  "label": "Chapter 3",
+                  "label": "Reproductive Health",
                   "path": "Tamil/12th/Biology/chapter3.json",
                   "count": 126
                 },
                 {
                   "id": "chapter4",
-                  "label": "Chapter 4",
+                  "label": "Principles of Inheritance and Variation",
                   "path": "Tamil/12th/Biology/chapter4.json",
                   "count": 498
                 },
                 {
                   "id": "chapter5",
-                  "label": "Chapter 5",
+                  "label": "Molecular Basis of Inheritance",
                   "path": "Tamil/12th/Biology/chapter5.json",
                   "count": 406
                 },
                 {
                   "id": "chapter6",
-                  "label": "Chapter 6",
+                  "label": "Evolution",
                   "path": "Tamil/12th/Biology/chapter6.json",
                   "count": 347
                 },
                 {
                   "id": "chapter7",
-                  "label": "Chapter 7",
+                  "label": "Human Health and Disease",
                   "path": "Tamil/12th/Biology/chapter7.json",
                   "count": 480
                 },
                 {
                   "id": "chapter8",
-                  "label": "Chapter 8",
+                  "label": "Microbes in Human Welfare",
                   "path": "Tamil/12th/Biology/chapter8.json",
                   "count": 157
                 },
                 {
                   "id": "chapter9",
-                  "label": "Chapter 9",
+                  "label": "Biotechnology: Principles and Processes",
                   "path": "Tamil/12th/Biology/chapter9.json",
                   "count": 179
+                },
+                {
+                  "id": "chapter10",
+                  "label": "Biotechnology and its Applications",
+                  "path": "Tamil/12th/Biology/chapter10.json",
+                  "count": 145
+                },
+                {
+                  "id": "chapter11",
+                  "label": "Organisms and Populations",
+                  "path": "Tamil/12th/Biology/chapter11.json",
+                  "count": 233
+                },
+                {
+                  "id": "chapter12",
+                  "label": "Ecosystem",
+                  "path": "Tamil/12th/Biology/chapter12.json",
+                  "count": 168
+                },
+                {
+                  "id": "chapter13",
+                  "label": "Biodiversity and Conservation",
+                  "path": "Tamil/12th/Biology/chapter13.json",
+                  "count": 170
                 }
               ],
               "allChaptersPath": "Tamil/12th/Biology/all-chapters.json",
@@ -310,63 +358,63 @@
               "chapters": [
                 {
                   "id": "chapter1",
-                  "label": "Chapter 1",
+                  "label": "Solutions",
                   "path": "Tamil/12th/Chemistry/chapter1.json",
                   "count": 350
                 },
                 {
-                  "id": "chapter10",
-                  "label": "Chapter 10",
-                  "path": "Tamil/12th/Chemistry/chapter10.json",
-                  "count": 312
-                },
-                {
                   "id": "chapter2",
-                  "label": "Chapter 2",
+                  "label": "Electrochemistry",
                   "path": "Tamil/12th/Chemistry/chapter2.json",
                   "count": 400
                 },
                 {
                   "id": "chapter3",
-                  "label": "Chapter 3",
+                  "label": "Chemical Kinetics",
                   "path": "Tamil/12th/Chemistry/chapter3.json",
                   "count": 357
                 },
                 {
                   "id": "chapter4",
-                  "label": "Chapter 4",
+                  "label": "d and f Block Elements",
                   "path": "Tamil/12th/Chemistry/chapter4.json",
                   "count": 377
                 },
                 {
                   "id": "chapter5",
-                  "label": "Chapter 5",
+                  "label": "Coordination Compounds",
                   "path": "Tamil/12th/Chemistry/chapter5.json",
                   "count": 277
                 },
                 {
                   "id": "chapter6",
-                  "label": "Chapter 6",
+                  "label": "Haloalkanes and Haloarenes",
                   "path": "Tamil/12th/Chemistry/chapter6.json",
                   "count": 407
                 },
                 {
                   "id": "chapter7",
-                  "label": "Chapter 7",
+                  "label": "Alcohols, Phenols and Ethers",
                   "path": "Tamil/12th/Chemistry/chapter7.json",
                   "count": 464
                 },
                 {
                   "id": "chapter8",
-                  "label": "Chapter 8",
+                  "label": "Aldehydes, Ketones and Carboxylic Acids",
                   "path": "Tamil/12th/Chemistry/chapter8.json",
                   "count": 349
                 },
                 {
                   "id": "chapter9",
-                  "label": "Chapter 9",
+                  "label": "Amines",
                   "path": "Tamil/12th/Chemistry/chapter9.json",
                   "count": 234
+                },
+                {
+                  "id": "chapter10",
+                  "label": "Biomolecules",
+                  "path": "Tamil/12th/Chemistry/chapter10.json",
+                  "count": 312
                 }
               ],
               "allChaptersPath": "Tamil/12th/Chemistry/all-chapters.json",
@@ -378,39 +426,87 @@
               "chapters": [
                 {
                   "id": "chapter1",
-                  "label": "Chapter 1",
+                  "label": "Electric Charges and Fields",
                   "path": "Tamil/12th/Physics/chapter1.json",
                   "count": 456
                 },
                 {
                   "id": "chapter2",
-                  "label": "Chapter 2",
+                  "label": "Electrostatic Potential and Capacitance",
                   "path": "Tamil/12th/Physics/chapter2.json",
                   "count": 345
                 },
                 {
                   "id": "chapter3",
-                  "label": "Chapter 3",
+                  "label": "Current Electricity",
                   "path": "Tamil/12th/Physics/chapter3.json",
                   "count": 244
                 },
                 {
                   "id": "chapter4",
-                  "label": "Chapter 4",
+                  "label": "Moving Charges and Magnetism",
                   "path": "Tamil/12th/Physics/chapter4.json",
                   "count": 384
                 },
                 {
                   "id": "chapter5",
-                  "label": "Chapter 5",
+                  "label": "Magnetism and Matter",
                   "path": "Tamil/12th/Physics/chapter5.json",
                   "count": 213
                 },
                 {
                   "id": "chapter6",
-                  "label": "Chapter 6",
+                  "label": "Electromagnetic Induction",
                   "path": "Tamil/12th/Physics/chapter6.json",
                   "count": 249
+                },
+                {
+                  "id": "chapter7",
+                  "label": "Alternating Current",
+                  "path": "Tamil/12th/Physics/chapter7.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter8",
+                  "label": "Electromagnetic Waves",
+                  "path": "Tamil/12th/Physics/chapter8.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter9",
+                  "label": "Ray Optics and Optical Instruments",
+                  "path": "Tamil/12th/Physics/chapter9.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter10",
+                  "label": "Wave Optics",
+                  "path": "Tamil/12th/Physics/chapter10.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter11",
+                  "label": "Dual Nature of Radiation and Matter",
+                  "path": "Tamil/12th/Physics/chapter11.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter12",
+                  "label": "Atoms",
+                  "path": "Tamil/12th/Physics/chapter12.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter13",
+                  "label": "Nuclei",
+                  "path": "Tamil/12th/Physics/chapter13.json",
+                  "count": 0
+                },
+                {
+                  "id": "chapter14",
+                  "label": "Semiconductor Electronics",
+                  "path": "Tamil/12th/Physics/chapter14.json",
+                  "count": 0
                 }
               ],
               "allChaptersPath": "Tamil/12th/Physics/all-chapters.json",
