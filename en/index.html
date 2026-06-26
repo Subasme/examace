@@ -391,9 +391,7 @@ function switchToTamil() {
 
 // On load, if lang saved as 'ta', redirect
 (function() {
-  var lang = localStorage.getItem('lang');
-  if (lang === 'ta') { window.location.href = '/ta/'; }
-  else { localStorage.setItem('lang', 'en'); }
+  localStorage.setItem('lang', 'en');
 })();
 </script>
 </body>
