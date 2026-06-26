@@ -264,11 +264,23 @@
     if (planBtn) planBtn.textContent = 'இலவசத்துடன் தொடர்';
   }
 
+  function patchStaticHome() {
+    var sub = document.getElementById('greeting-sub');
+    if (sub) sub.textContent = 'இன்று பயிற்சி செய்ய தயாரா?';
+    var sh = document.getElementById('sessions-heading');
+    if (sh) sh.textContent = 'உங்கள் NEET தயாரிப்பு';
+    var sl = document.querySelector('#home-stats-row .stat-box:nth-child(1) .stat-lbl');
+    if (sl) sl.textContent = 'முயற்சிகள்';
+    var ss = document.querySelector('#home-stats-row .stat-box:nth-child(3) .stat-lbl');
+    if (ss) ss.textContent = 'தொடர்ச்சி';
+  }
+
   /* Run after DOM is ready */
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', applyTranslations);
+    document.addEventListener('DOMContentLoaded', function() { applyTranslations(); patchStaticHome(); });
   } else {
     applyTranslations();
+    patchStaticHome();
   }
 
   /* Patch dynamically-rendered home sections */

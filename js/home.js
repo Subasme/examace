@@ -1,3 +1,6 @@
+const _isTa = () => localStorage.getItem('lang') === 'ta';
+const _taH  = (en, ta) => _isTa() ? ta : en;
+
 async function renderHomeSessions() {
   const el = document.getElementById('home-sessions');
   if (!el) return;
@@ -19,14 +22,14 @@ async function renderHomeSessions() {
     el.innerHTML = sessions.map(({ lang, std, gradient }) => {
       const totalQ = std.subjects.reduce((s, x) => s + (x.totalQuestions || 0), 0);
       const subjNames = std.subjects.map(s => s.label).join(' · ');
-      const langLabel = lang.label === 'Tamil' ? 'Tamil Medium' : 'English Medium';
+      const langLabel = lang.label === 'Tamil' ? _taH('Tamil Medium','தமிழ் வழி') : _taH('English Medium','ஆங்கில வழி');
       const recKey = 'examace_rec_'+lang.id+'_'+std.id;
       let recLine = '';
       try {
         const rec = JSON.parse(localStorage.getItem(recKey) || 'null');
-        if (rec?.chapLabel) recLine = `<div class="sc-rec">▶ Continue: ${rec.chapLabel}</div>`;
-        else recLine = `<div class="sc-rec">▶ Start from Chapter 1</div>`;
-      } catch(e) { recLine = `<div class="sc-rec">▶ Start Practicing</div>`; }
+        if (rec?.chapLabel) recLine = `<div class="sc-rec">▶ ${_taH('Continue','தொடர்')}: ${rec.chapLabel}</div>`;
+        else recLine = `<div class="sc-rec">▶ ${_taH('Start from Chapter 1','அத்தியாயம் 1 முதல் தொடங்கு')}</div>`;
+      } catch(e) { recLine = `<div class="sc-rec">▶ ${_taH('Start Practicing','பயிற்சி தொடங்குங்கள்')}</div>`; }
       return `<div class="session-card" style="background:${gradient}" onclick="quickStartSession('${lang.id}','${std.id}')">
         <div>
           <div class="sc-header">
@@ -103,12 +106,12 @@ function renderHomeFeatures() {
     const fcDone5 = fcDone >= FREE_FC_DAILY;
     const tfDone5 = tfDone >= FREE_TF_DAILY;
     el.innerHTML = `
-    <div class="section-title">Today's Practice</div>
+    <div class="section-title">${_taH("Today's Practice",'இன்றைய பயிற்சி')}</div>
     <div class="daily-activity-card ${fcDone5 ? 'dac-done' : ''}" onclick="${fcDone5 ? '' : "openFlow('flashcard')"}">
       <div class="dac-icon" style="background:#ede9fb">🃏</div>
       <div class="dac-body">
-        <div class="dac-title">Flashcards</div>
-        <div class="dac-sub">${fcDone5 ? 'Completed for today!' : 'Flip cards to learn key facts'}</div>
+        <div class="dac-title">${_taH('Flashcards','நினைவட்டைகள்')}</div>
+        <div class="dac-sub">${fcDone5 ? _taH('Completed for today!','இன்றைக்கு முடிந்தது!') : _taH('Flip cards to learn key facts','முக்கிய தகவல்களை அட்டைகளில் படிக்கவும்')}</div>
         <div class="dac-bar"><div class="dac-fill" style="background:var(--purple);width:${fcPct}%"></div></div>
       </div>
       <div class="dac-count" style="color:${fcDone5 ? 'var(--success)' : 'var(--purple)'}">${fcDone5 ? '✓' : fcDone + '/' + FREE_FC_DAILY}</div>
@@ -116,52 +119,52 @@ function renderHomeFeatures() {
     <div class="daily-activity-card ${tfDone5 ? 'dac-done' : ''}" onclick="${tfDone5 ? '' : "openFlow('truefalse')"}">
       <div class="dac-icon" style="background:#edfaf4">✅</div>
       <div class="dac-body">
-        <div class="dac-title">True / False Quiz</div>
-        <div class="dac-sub">${tfDone5 ? 'Completed for today!' : 'Test what you know'}</div>
+        <div class="dac-title">${_taH('True / False Quiz','சரி / தவறு வினாடி வினா')}</div>
+        <div class="dac-sub">${tfDone5 ? _taH('Completed for today!','இன்றைக்கு முடிந்தது!') : _taH('Test what you know','உங்களுக்கு தெரிந்ததை சோதிக்கவும்')}</div>
         <div class="dac-bar"><div class="dac-fill" style="background:var(--success);width:${tfPct}%"></div></div>
       </div>
       <div class="dac-count" style="color:${tfDone5 ? 'var(--success)' : '#00897b'}">${tfDone5 ? '✓' : tfDone + '/' + FREE_TF_DAILY}</div>
     </div>
-    <div class="section-title" style="margin-top:.75rem;color:var(--muted)">Upgrade to Unlock</div>
+    <div class="section-title" style="margin-top:.75rem;color:var(--muted)">${_taH('Upgrade to Unlock','திறக்க மேம்படுத்துங்கள்')}</div>
     <div class="premium-row">
-      <div class="pf-card" onclick="showUpgradePrompt('MCQ Practice')">📚<br/>Practice<span class="pf-badge">PRO</span></div>
-      <div class="pf-card" onclick="showUpgradePrompt('Weekly Grand Test')">🏆<br/>Grand Test<span class="pf-badge">PRO</span></div>
-      <div class="pf-card" onclick="showUpgradePrompt('Timed Test')">⚡<br/>Timed Test<span class="pf-badge">PRO</span></div>
-      <div class="pf-card" onclick="showUpgradePrompt('Study Community')">💬<br/>Community<span class="pf-badge">PRO</span></div>
+      <div class="pf-card" onclick="showUpgradePrompt('MCQ Practice')">📚<br/>${_taH('Practice','பயிற்சி')}<span class="pf-badge">PRO</span></div>
+      <div class="pf-card" onclick="showUpgradePrompt('Weekly Grand Test')">🏆<br/>${_taH('Grand Test','கிராண்ட் சோதனை')}<span class="pf-badge">PRO</span></div>
+      <div class="pf-card" onclick="showUpgradePrompt('Timed Test')">⚡<br/>${_taH('Timed Test','நேர சோதனை')}<span class="pf-badge">PRO</span></div>
+      <div class="pf-card" onclick="showUpgradePrompt('Study Community')">💬<br/>${_taH('Community','சமூகம்')}<span class="pf-badge">PRO</span></div>
     </div>`;
   } else {
     el.innerHTML = `
-      <div class="section-title">Practice</div>
+      <div class="section-title">${_taH('Practice','பயிற்சி')}</div>
       <button class="act-card act-practice" onclick="openFlow('practice')">
         <div class="act-icon">📚</div>
         <div class="act-body">
-          <div class="act-title">Practice Mode</div>
-          <div class="act-sub">Chapter-wise MCQs · Instant feedback</div>
+          <div class="act-title">${_taH('Practice Mode','பயிற்சி முறை')}</div>
+          <div class="act-sub">${_taH('Chapter-wise MCQs · Instant feedback','அத்தியாயம்-வாரியான MCQ · உடனடி கருத்து')}</div>
         </div>
-        <div class="act-badge">Unlimited →</div>
+        <div class="act-badge">${_taH('Unlimited →','வரம்பற்றது →')}</div>
       </button>
       <button class="act-card act-timed" onclick="openFlow('timed')">
         <div class="act-icon">⚡</div>
         <div class="act-body">
-          <div class="act-title">Timed Test</div>
-          <div class="act-sub">Race the clock · All subjects</div>
+          <div class="act-title">${_taH('Timed Test','நேர சோதனை')}</div>
+          <div class="act-sub">${_taH('Race the clock · All subjects','நேரத்துடன் போட்டி · அனைத்து பாடங்கள்')}</div>
         </div>
-        <div class="act-badge">Up to 180 min →</div>
+        <div class="act-badge">${_taH('Up to 180 min →','180 நிமிடம் வரை →')}</div>
       </button>
       <button class="act-card act-grand" onclick="openFlow('grand')">
         <div class="act-icon">🏆</div>
         <div class="act-body">
-          <div class="act-title">Grand Test</div>
-          <div class="act-sub">Full NEET simulation · 180 questions</div>
+          <div class="act-title">${_taH('Grand Test','கிராண்ட் சோதனை')}</div>
+          <div class="act-sub">${_taH('Full NEET simulation · 180 questions','முழு NEET உருவகம் · 180 கேள்விகள்')}</div>
         </div>
-        <div class="act-badge">3 h 15 m →</div>
+        <div class="act-badge">${_taH('3 h 15 m →','3 மணி 15 நிமிடம் →')}</div>
       </button>
-      <div class="section-title" style="margin-top:.65rem">More Features</div>
+      <div class="section-title" style="margin-top:.65rem">${_taH('More Features','மேலும் அம்சங்கள்')}</div>
       <div class="premium-row">
-        <div class="pf-card" onclick="openFlow('flashcard')">🃏<br/>Flashcards</div>
-        <div class="pf-card" onclick="openFlow('truefalse')">✅<br/>True/False</div>
-        <div class="pf-card" onclick="showScreen('leaderboard')">🏅<br/>Leaderboard</div>
-        <div class="pf-card" onclick="showScreen('dashboard')">📊<br/>Dashboard</div>
+        <div class="pf-card" onclick="openFlow('flashcard')">🃏<br/>${_taH('Flashcards','நினைவட்டைகள்')}</div>
+        <div class="pf-card" onclick="openFlow('truefalse')">✅<br/>${_taH('True/False','சரி/தவறு')}</div>
+        <div class="pf-card" onclick="showScreen('leaderboard')">🏅<br/>${_taH('Leaderboard','தரவரிசை')}</div>
+        <div class="pf-card" onclick="showScreen('dashboard')">📊<br/>${_taH('Dashboard','டாஷ்போர்டு')}</div>
       </div>`;
   }
 }
@@ -224,7 +227,7 @@ function renderHomeStats() {
       sac.style.color = acc >= 75 ? 'var(--success)' : acc >= 50 ? 'var(--blue)' : 'var(--danger)';
     }
     const sacLbl = document.getElementById('stat-accuracy-lbl');
-    if (sacLbl) sacLbl.textContent = 'Accuracy';
+    if (sacLbl) sacLbl.textContent = _taH('Accuracy','துல்லியம்');
   }
   if (ss) ss.textContent = streak > 0 ? streak : (total > 0 ? '1' : '0');
 }

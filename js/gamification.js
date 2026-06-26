@@ -1,5 +1,9 @@
 // ── GAMIFICATION ENGINE — Phase 2: XP + Level System ────────────────────────
 
+// Tamil translation helper — returns Tamil string when lang=ta, else English
+const _isTa = () => localStorage.getItem('lang') === 'ta';
+const _ta = (en, ta) => _isTa() ? ta : en;
+
 const XP_REWARDS = {
   correct_mcq:   10,
   difficult_mcq: 20,
@@ -146,16 +150,16 @@ function renderHomeXPCard() {
     <div class="xpc-top">
       <div class="xpc-badge">${icon}</div>
       <div class="xpc-meta">
-        <div class="xpc-level-title">Level ${id} &middot; ${title}</div>
+        <div class="xpc-level-title">${_ta('Level','நிலை')} ${id} &middot; ${title}</div>
         <div class="xpc-xp-row">
           <span class="xpc-total">${totalXP.toLocaleString()} XP</span>
-          ${todayXP > 0 ? `<span class="xpc-today">+${todayXP} today</span>` : ''}
+          ${todayXP > 0 ? `<span class="xpc-today">+${todayXP} ${_ta('today','இன்று')}</span>` : ''}
         </div>
       </div>
     </div>
     <div class="xpc-bar-wrap">
       <div class="xpc-bar"><div class="xpc-fill" style="width:${progress}%"></div></div>
-      <div class="xpc-hint">${xpToNext ? `${xpToNext} XP to Level ${id + 1}` : '👑 Max Level Reached!'}</div>
+      <div class="xpc-hint">${xpToNext ? `${xpToNext} XP ${_ta(`to Level ${id+1}`,`நிலை ${id+1}-க்கு`)}` : _ta('👑 Max Level Reached!','👑 உச்ச நிலை அடைந்தீர்கள்!')}</div>
     </div>`;
 }
 
@@ -351,7 +355,7 @@ function renderDailyMissionCard() {
   if (!el || !authUser) return;
 
   if (!dailyTarget.loaded) {
-    el.innerHTML = `<div class="dm-loading"><div class="spinner" style="width:20px;height:20px;border-width:2px;margin:0"></div><span>Loading mission…</span></div>`;
+    el.innerHTML = `<div class="dm-loading"><div class="spinner" style="width:20px;height:20px;border-width:2px;margin:0"></div><span>${_ta('Loading mission…','பணி ஏற்றுகிறது…')}</span></div>`;
     el.style.display = 'block';
     return;
   }
@@ -361,7 +365,7 @@ function renderDailyMissionCard() {
           isCompleted } = dailyTarget;
   const remaining  = Math.max(0, targetMCQs - completedMCQs);
   const totalPct   = Math.min(100, Math.round(completedMCQs / Math.max(targetMCQs, 1) * 100));
-  const tier       = targetMCQs >= 150 ? '🔥 Advanced' : targetMCQs >= 100 ? '⚡ Intermediate' : '📚 Beginner';
+  const tier       = targetMCQs >= 150 ? _ta('🔥 Advanced','🔥 மேம்பட்ட') : targetMCQs >= 100 ? _ta('⚡ Intermediate','⚡ இடைநிலை') : _ta('📚 Beginner','📚 தொடக்கநிலை');
 
   const subjBar = (label, done, target, color) => {
     const pct = Math.min(100, target > 0 ? Math.round(Math.min(done, target) / target * 100) : 0);
@@ -379,20 +383,20 @@ function renderDailyMissionCard() {
   el.innerHTML = `
     <div class="dm-header">
       <div class="dm-header-left">
-        <div class="dm-title">${isCompleted ? '✅ Mission Complete!' : '🎯 Today\'s Mission'}</div>
-        <div class="dm-sub">${tier} · ${targetMCQs} MCQs${streakData.currentStreak > 0 ? ` · 🔥 ${streakData.currentStreak}d streak` : ''}</div>
+        <div class="dm-title">${isCompleted ? _ta('✅ Mission Complete!','✅ பணி முடிந்தது!') : _ta("🎯 Today's Mission","🎯 இன்றைய பணி")}</div>
+        <div class="dm-sub">${tier} · ${targetMCQs} MCQs${streakData.currentStreak > 0 ? ` · 🔥 ${streakData.currentStreak}${_ta('d streak','நாள் தொடர்')}` : ''}</div>
       </div>
       ${!isCompleted ? `<div class="dm-reward-badge">+200 XP</div>` : ''}
     </div>
     <div class="dm-subjects">
-      ${subjBar('⚛️ Physics',   physicsCompleted,   physicsTarget,   '#3b82f6')}
-      ${subjBar('🧪 Chemistry', chemistryCompleted, chemistryTarget, '#10b981')}
-      ${subjBar('🧬 Biology',   biologyCompleted,   biologyTarget,   '#ec4899')}
+      ${subjBar(_ta('⚛️ Physics','⚛️ இயற்பியல்'),   physicsCompleted,   physicsTarget,   '#3b82f6')}
+      ${subjBar(_ta('🧪 Chemistry','🧪 வேதியியல்'), chemistryCompleted, chemistryTarget, '#10b981')}
+      ${subjBar(_ta('🧬 Biology','🧬 உயிரியல்'),   biologyCompleted,   biologyTarget,   '#ec4899')}
     </div>
     <div class="dm-total-bar"><div class="dm-total-fill" style="width:${totalPct}%"></div></div>
     <div class="dm-footer">
-      <span class="dm-done-txt">${completedMCQs} / ${targetMCQs} done</span>
-      <span class="dm-remain-txt">${isCompleted ? '🏆 Goal achieved!' : `${remaining} more to go`}</span>
+      <span class="dm-done-txt">${completedMCQs} / ${targetMCQs} ${_ta('done','முடிந்தது')}</span>
+      <span class="dm-remain-txt">${isCompleted ? _ta('🏆 Goal achieved!','🏆 இலக்கு அடைந்தது!') : `${remaining} ${_ta('more to go','மேலும் தேவை')}`}</span>
     </div>`;
 }
 
@@ -407,24 +411,24 @@ function renderStreakWidget() {
 
   el.style.display = 'flex';
   el.innerHTML = currentStreak === 0
-    ? `<div class="sc-empty">🔥 Answer 20 MCQs today to start your streak!</div>`
+    ? `<div class="sc-empty">${_ta('🔥 Answer 20 MCQs today to start your streak!','🔥 இன்று 20 MCQகள் பதிலளித்து தொடர்ச்சியை தொடங்குங்கள்!')}</div>`
     : `
       <div class="sc-item">
         <div class="sc-icon">🔥</div>
         <div class="sc-val">${currentStreak}</div>
-        <div class="sc-lbl">Day Streak</div>
+        <div class="sc-lbl">${_ta('Day Streak','நாள் தொடர்')}</div>
       </div>
       <div class="sc-divider"></div>
       <div class="sc-item">
         <div class="sc-icon">🏆</div>
         <div class="sc-val">${longestStreak}</div>
-        <div class="sc-lbl">Best Ever</div>
+        <div class="sc-lbl">${_ta('Best Ever','சிறந்த சாதனை')}</div>
       </div>
       <div class="sc-divider"></div>
       <div class="sc-item">
         <div class="sc-icon">⚡</div>
         <div class="sc-val">${toMilestone}</div>
-        <div class="sc-lbl">Days to +500 XP</div>
+        <div class="sc-lbl">${_ta('Days to +500 XP','+500 XP-க்கு நாட்கள்')}</div>
       </div>`;
 }
 
