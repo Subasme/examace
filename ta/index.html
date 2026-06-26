@@ -387,9 +387,7 @@ function switchToEnglish() {
 }
 
 (function() {
-  var lang = localStorage.getItem('lang');
-  if (lang === 'en') { window.location.href = '/en/'; }
-  else { localStorage.setItem('lang', 'ta'); }
+  localStorage.setItem('lang', 'ta');
 })();
 </script>
 </body>
