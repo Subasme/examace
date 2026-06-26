@@ -273,6 +273,14 @@
     if (sl) sl.textContent = 'முயற்சிகள்';
     var ss = document.querySelector('#home-stats-row .stat-box:nth-child(3) .stat-lbl');
     if (ss) ss.textContent = 'தொடர்ச்சி';
+    var tabAll = document.getElementById('ach-tab-all');
+    if (tabAll) tabAll.textContent = 'அனைத்தும்';
+    var tabPrac = document.getElementById('ach-tab-practice');
+    if (tabPrac) tabPrac.textContent = 'பயிற்சி';
+    var tabAcc = document.getElementById('ach-tab-accuracy');
+    if (tabAcc) tabAcc.textContent = 'துல்லியம்';
+    var tabCon = document.getElementById('ach-tab-consistency');
+    if (tabCon) tabCon.textContent = 'தொடர்ச்சி';
   }
 
   /* Run after DOM is ready */

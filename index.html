@@ -616,10 +616,10 @@ function resetLang() {
 
   <!-- Category tabs -->
   <div class="ach-tabs">
-    <button class="ach-tab active" data-tab="all"         onclick="filterAchievementTab('all')">All</button>
-    <button class="ach-tab"        data-tab="practice"    onclick="filterAchievementTab('practice')">Practice</button>
-    <button class="ach-tab"        data-tab="accuracy"    onclick="filterAchievementTab('accuracy')">Accuracy</button>
-    <button class="ach-tab"        data-tab="consistency" onclick="filterAchievementTab('consistency')">Consistency</button>
+    <button class="ach-tab active" data-tab="all"         onclick="filterAchievementTab('all')" id="ach-tab-all">All</button>
+    <button class="ach-tab"        data-tab="practice"    onclick="filterAchievementTab('practice')" id="ach-tab-practice">Practice</button>
+    <button class="ach-tab"        data-tab="accuracy"    onclick="filterAchievementTab('accuracy')" id="ach-tab-accuracy">Accuracy</button>
+    <button class="ach-tab"        data-tab="consistency" onclick="filterAchievementTab('consistency')" id="ach-tab-consistency">Consistency</button>
   </div>
 
   <!-- Achievement cards -->
@@ -939,6 +939,11 @@ function resetLang() {
 </body>
 </html>
 
+<script>
+/* Global Tamil helpers — available to ALL scripts */
+function _isTa(){ return localStorage.getItem('lang')==='ta'; }
+function _ta(en,ta){ return _isTa()?ta:en; }
+</script>
 <script src="js/tamil.js"></script>
 <script src="js/config.js"></script>
 <script src="js/db.js"></script>
