@@ -5,7 +5,12 @@ async function renderHomeSessions() {
     await loadManifest();
     const sessions = [];
     let idx = 0;
+    const uiLang = localStorage.getItem('lang') || 'en';
     (manifest.languages || []).forEach(lang => {
+      // Filter: Tamil UI → show only Tamil Medium; English UI → show only English Medium
+      const isTamilLang = lang.label === 'Tamil' || (lang.id || '').toLowerCase().includes('tamil');
+      if (uiLang === 'ta' && !isTamilLang) return;
+      if (uiLang === 'en' && isTamilLang) return;
       (lang.standards || []).forEach(std => {
         sessions.push({ lang, std, gradient: SESSION_GRADIENTS[idx++ % SESSION_GRADIENTS.length] });
       });

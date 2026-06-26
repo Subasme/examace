@@ -271,16 +271,97 @@
     applyTranslations();
   }
 
+  /* Patch dynamically-rendered home sections */
+  function patchHomeFeatures() {
+    var el = document.getElementById('home-features');
+    if (!el || el._taPatch) return;
+    el._taPatch = true;
+
+    /* Section titles */
+    el.querySelectorAll('.section-title').forEach(function(t) {
+      if (t.textContent.trim() === "Today's Practice") t.textContent = 'இன்றைய பயிற்சி';
+      if (t.textContent.trim() === 'Upgrade to Unlock') t.textContent = 'திறக்க மேம்படுத்துங்கள்';
+      if (t.textContent.trim() === 'Practice') t.textContent = 'பயிற்சி';
+      if (t.textContent.trim() === 'More Features') t.textContent = 'மேலும் அம்சங்கள்';
+    });
+
+    /* Activity cards */
+    el.querySelectorAll('.dac-title').forEach(function(t) {
+      if (t.textContent === 'Flashcards') t.textContent = 'நினைவட்டைகள்';
+      if (t.textContent === 'True / False Quiz') t.textContent = 'சரி / தவறு வினாடி வினா';
+    });
+    el.querySelectorAll('.dac-sub').forEach(function(t) {
+      if (t.textContent === 'Flip cards to learn key facts') t.textContent = 'முக்கிய தகவல்களை அட்டைகளில் படிக்கவும்';
+      if (t.textContent === 'Test what you know') t.textContent = 'உங்களுக்கு தெரிந்ததை சோதிக்கவும்';
+    });
+
+    /* Act cards (premium) */
+    el.querySelectorAll('.act-title').forEach(function(t) {
+      if (t.textContent === 'Practice Mode') t.textContent = 'பயிற்சி முறை';
+      if (t.textContent === 'Timed Test') t.textContent = 'நேர சோதனை';
+      if (t.textContent === 'Grand Test') t.textContent = 'கிராண்ட் சோதனை';
+    });
+    el.querySelectorAll('.act-sub').forEach(function(t) {
+      if (t.textContent === 'Chapter-wise MCQs · Instant feedback') t.textContent = 'அத்தியாயம்-வாரியான MCQ · உடனடி கருத்து';
+      if (t.textContent === 'Race the clock · All subjects') t.textContent = 'நேரத்துடன் போட்டி · அனைத்து பாடங்கள்';
+      if (t.textContent === 'Full NEET simulation · 180 questions') t.textContent = 'முழு NEET உருவகம் · 180 கேள்விகள்';
+    });
+    el.querySelectorAll('.act-badge').forEach(function(t) {
+      if (t.textContent === 'Unlimited →') t.textContent = 'வரம்பற்றது →';
+      if (t.textContent === 'Up to 180 min →') t.textContent = '180 நிமிடம் வரை →';
+      if (t.textContent === '3 h 15 m →') t.textContent = '3 மணி 15 நிமிடம் →';
+    });
+
+    /* Mini feature cards */
+    el.querySelectorAll('.pf-card').forEach(function(c) {
+      var t = c.textContent.trim();
+      if (t.includes('Flashcards')) c.innerHTML = c.innerHTML.replace('Flashcards', 'நினைவட்டைகள்');
+      if (t.includes('True/False')) c.innerHTML = c.innerHTML.replace('True/False', 'சரி/தவறு');
+      if (t.includes('Leaderboard')) c.innerHTML = c.innerHTML.replace('Leaderboard', 'தரவரிசை');
+      if (t.includes('Dashboard')) c.innerHTML = c.innerHTML.replace('Dashboard', 'டாஷ்போர்டு');
+      if (t.includes('Practice')) c.innerHTML = c.innerHTML.replace('Practice', 'பயிற்சி');
+      if (t.includes('Grand Test')) c.innerHTML = c.innerHTML.replace('Grand Test', 'கிராண்ட் சோதனை');
+      if (t.includes('Timed Test')) c.innerHTML = c.innerHTML.replace('Timed Test', 'நேர சோதனை');
+      if (t.includes('Community')) c.innerHTML = c.innerHTML.replace('Community', 'சமூகம்');
+    });
+  }
+
+  function patchSessionHeading() {
+    var h = document.querySelector('.sessions-heading');
+    if (h) h.textContent = 'உங்கள் NEET தயாரிப்பு';
+
+    /* session card rec lines */
+    document.querySelectorAll('.sc-rec').forEach(function(el) {
+      if (el.textContent.startsWith('▶ Start from Chapter')) el.textContent = '▶ அத்தியாயம் 1 முதல் தொடங்கு';
+      if (el.textContent.startsWith('▶ Start Practicing')) el.textContent = '▶ பயிற்சி தொடங்குங்கள்';
+      if (el.textContent.startsWith('▶ Continue:')) {/* keep chapter name as is */}
+    });
+  }
+
+  function patchAccuracyLabel() {
+    var lbl = document.getElementById('stat-accuracy-lbl');
+    if (lbl && lbl.textContent === 'Accuracy') lbl.textContent = 'துல்லியம்';
+  }
+
   /* Re-apply when screens change (MutationObserver for dynamic content) */
   var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(m) {
       if (m.type === 'childList' && m.addedNodes.length) {
         applyTranslations();
+        patchHomeFeatures();
+        patchSessionHeading();
+        patchAccuracyLabel();
       }
     });
   });
   document.addEventListener('DOMContentLoaded', function() {
-    observer.observe(document.body, { childList: true, subtree: false });
+    observer.observe(document.body, { childList: true, subtree: true });
+    // Also re-patch periodically for delayed renders
+    setTimeout(function() {
+      patchHomeFeatures();
+      patchSessionHeading();
+      patchAccuracyLabel();
+    }, 1500);
   });
 
 })();
