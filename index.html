@@ -76,9 +76,8 @@
 <script>
 (function(){
   var lang = localStorage.getItem('lang');
-  if (lang === 'ta') { window.location.replace('/ta/'); return; }
-  if (lang === 'en') { return; }
-  // No preference — show overlay
+  if (lang) { return; } // already chose — show the app directly
+  // No preference yet — show overlay
   document.getElementById('lang-overlay').style.display = 'block';
   document.body.style.overflow = 'hidden';
 })();
@@ -97,13 +96,17 @@ function chooseLang(lang) {
 <script>
 (function(){
   var lang = localStorage.getItem('lang');
-  if (lang === 'en') {
-    var btn = document.getElementById('lang-switcher-btn');
-    var inner = document.getElementById('lang-switcher-inner');
-    if (btn && inner) {
-      inner.textContent = '🇮🇳 தமிழ்';
-      btn.style.display = 'block';
-    }
+  var btn = document.getElementById('lang-switcher-btn');
+  var inner = document.getElementById('lang-switcher-inner');
+  if (!btn || !inner) return;
+  if (lang === 'ta') {
+    inner.textContent = '🇬🇧 English';
+    btn.style.display = 'block';
+    btn.onclick = function(){ localStorage.setItem('lang','en'); window.location.href='/en/'; };
+  } else {
+    inner.textContent = '🇮🇳 தமிழ்';
+    btn.style.display = 'block';
+    btn.onclick = function(){ localStorage.setItem('lang','ta'); window.location.href='/ta/'; };
   }
 })();
 function resetLang() {
