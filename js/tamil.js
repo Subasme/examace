@@ -344,19 +344,21 @@
   }
 
   /* Re-apply when screens change (MutationObserver for dynamic content) */
+  var _patching = false;
   var observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(m) {
-      if (m.type === 'childList' && m.addedNodes.length) {
-        applyTranslations();
-        patchHomeFeatures();
-        patchSessionHeading();
-        patchAccuracyLabel();
-      }
-    });
+    if (_patching) return;
+    var hasNew = mutations.some(function(m) { return m.addedNodes.length > 0; });
+    if (!hasNew) return;
+    _patching = true;
+    applyTranslations();
+    patchHomeFeatures();
+    patchSessionHeading();
+    patchAccuracyLabel();
+    _patching = false;
   });
   document.addEventListener('DOMContentLoaded', function() {
-    observer.observe(document.body, { childList: true, subtree: true });
-    // Also re-patch periodically for delayed renders
+    // subtree:false — only watch direct children of body (screen switches), not every text change
+    observer.observe(document.body, { childList: true, subtree: false });
     setTimeout(function() {
       patchHomeFeatures();
       patchSessionHeading();
