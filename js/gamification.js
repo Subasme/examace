@@ -1,8 +1,6 @@
 // ── GAMIFICATION ENGINE — Phase 2: XP + Level System ────────────────────────
 
-// Tamil translation helper — returns Tamil string when lang=ta, else English
-const _isTa = () => localStorage.getItem('lang') === 'ta';
-const _ta = (en, ta) => _isTa() ? ta : en;
+// _isTa() and _ta() are defined globally in index.html
 
 const XP_REWARDS = {
   correct_mcq:   10,
@@ -507,11 +505,11 @@ function renderAchievementsScreen() {
   const summary = document.getElementById('ach-summary');
   if (summary) {
     summary.innerHTML = `
-      <div class="ach-sum-stat"><div class="ach-sum-val">${unlocked.length}<span style="opacity:.5;font-size:.8em">/${userAchievements.length}</span></div><div class="ach-sum-lbl">Unlocked</div></div>
+      <div class="ach-sum-stat"><div class="ach-sum-val">${unlocked.length}<span style="opacity:.5;font-size:.8em">/${userAchievements.length}</span></div><div class="ach-sum-lbl">${_ta('Unlocked','திறக்கப்பட்டது')}</div></div>
       <div class="ach-sum-divider"></div>
-      <div class="ach-sum-stat"><div class="ach-sum-val">${totalXPEarned.toLocaleString()}</div><div class="ach-sum-lbl">XP Earned</div></div>
+      <div class="ach-sum-stat"><div class="ach-sum-val">${totalXPEarned.toLocaleString()}</div><div class="ach-sum-lbl">${_ta('XP Earned','XP சம்பாதித்தது')}</div></div>
       <div class="ach-sum-divider"></div>
-      <div class="ach-sum-stat"><div class="ach-sum-val">${locked.length}</div><div class="ach-sum-lbl">Remaining</div></div>`;
+      <div class="ach-sum-stat"><div class="ach-sum-val">${locked.length}</div><div class="ach-sum-lbl">${_ta('Remaining','மீதமுள்ளது')}</div></div>`;
   }
 
   _renderAchievementCards();
@@ -530,7 +528,7 @@ function renderAchievementsScreen() {
           <div class="ach-tip-card">
             <span class="ach-tip-icon">${a.icon}</span>
             <div class="ach-tip-body">
-              <div class="ach-tip-title">Almost there!</div>
+              <div class="ach-tip-title">${_ta('Almost there!','கிட்டத்தட்ட வந்துவிட்டீர்கள்!')}</div>
               <div class="ach-tip-text">${_achievementTip(a)}</div>
             </div>
           </div>`).join('')
@@ -542,13 +540,13 @@ function _achievementTip(ach) {
   const p    = ach.prog;
   const left = p.target - Math.min(p.current, p.target);
   switch (ach.criteria_type) {
-    case 'mcqs_solved':       return `Solve ${left.toLocaleString()} more MCQs to unlock <b>${ach.title}</b>.`;
-    case 'accuracy':          return `Raise your accuracy to ${p.target}% to unlock <b>${ach.title}</b>.`;
-    case 'streak':            return `Practice for ${left} more day${left !== 1 ? 's' : ''} in a row to unlock <b>${ach.title}</b>.`;
-    case 'subject_biology':   return `Score ${p.target}%+ in Biology (${p.note}) to unlock <b>${ach.title}</b>.`;
-    case 'subject_physics':   return `Score ${p.target}%+ in Physics (${p.note}) to unlock <b>${ach.title}</b>.`;
-    case 'subject_chemistry': return `Score ${p.target}%+ in Chemistry (${p.note}) to unlock <b>${ach.title}</b>.`;
-    default:                  return `Keep going to unlock <b>${ach.title}</b>!`;
+    case 'mcqs_solved':       return _ta(`Solve ${left.toLocaleString()} more MCQs to unlock <b>${ach.title}</b>.`,`<b>${ach.title}</b> திறக்க ${left.toLocaleString()} MCQ கேள்விகளுக்கு மேலும் பதிலளியுங்கள்.`);
+    case 'accuracy':          return _ta(`Raise your accuracy to ${p.target}% to unlock <b>${ach.title}</b>.`,`<b>${ach.title}</b> திறக்க உங்கள் துல்லியத்தை ${p.target}% ஆக உயர்த்துங்கள்.`);
+    case 'streak':            return _ta(`Practice for ${left} more day${left !== 1 ? 's' : ''} in a row to unlock <b>${ach.title}</b>.`,`<b>${ach.title}</b> திறக்க தொடர்ந்து ${left} நாள் மேலும் பயிற்சி செய்யுங்கள்.`);
+    case 'subject_biology':   return _ta(`Score ${p.target}%+ in Biology (${p.note}) to unlock <b>${ach.title}</b>.`,`<b>${ach.title}</b> திறக்க உயிரியலில் ${p.target}%+ மதிப்பெண் (${p.note}) பெறுங்கள்.`);
+    case 'subject_physics':   return _ta(`Score ${p.target}%+ in Physics (${p.note}) to unlock <b>${ach.title}</b>.`,`<b>${ach.title}</b> திறக்க இயற்பியலில் ${p.target}%+ மதிப்பெண் (${p.note}) பெறுங்கள்.`);
+    case 'subject_chemistry': return _ta(`Score ${p.target}%+ in Chemistry (${p.note}) to unlock <b>${ach.title}</b>.`,`<b>${ach.title}</b> திறக்க வேதியியலில் ${p.target}%+ மதிப்பெண் (${p.note}) பெறுங்கள்.`);
+    default:                  return _ta(`Keep going to unlock <b>${ach.title}</b>!`,`<b>${ach.title}</b> திறக்க தொடர்ந்து முயற்சி செய்யுங்கள்!`);
   }
 }
 
@@ -570,7 +568,7 @@ function _renderAchievementCards() {
   ];
 
   if (!sorted.length) {
-    el.innerHTML = `<div class="ach-empty">No achievements in this category yet.</div>`;
+    el.innerHTML = `<div class="ach-empty">${_ta('No achievements in this category yet.','இந்த பிரிவில் இன்னும் சாதனைகள் இல்லை.')}</div>`;
     return;
   }
 
@@ -629,19 +627,19 @@ function renderHomeAchievementsWidget() {
   if (!unlocked.length) {
     el.innerHTML = `
       <div class="haw-header">
-        <span class="haw-title">🏅 Achievements</span>
-        <button class="haw-see-all" onclick="showScreen('achievements')">See All →</button>
+        <span class="haw-title">🏅 ${_ta('Achievements','சாதனைகள்')}</span>
+        <button class="haw-see-all" onclick="showScreen('achievements')">${_ta('See All →','அனைத்தும் காண →')}</button>
       </div>
-      <div class="haw-empty">Answer MCQs to unlock your first achievement!</div>`;
+      <div class="haw-empty">${_ta('Answer MCQs to unlock your first achievement!','உங்கள் முதல் சாதனையை திறக்க MCQகளுக்கு பதிலளியுங்கள்!')}</div>`;
     return;
   }
 
   const recent = unlocked.slice(0, 4);
   el.innerHTML = `
     <div class="haw-header">
-      <span class="haw-title">🏅 Achievements</span>
+      <span class="haw-title">🏅 ${_ta('Achievements','சாதனைகள்')}</span>
       <span class="haw-count">${unlocked.length}/${total}</span>
-      <button class="haw-see-all" onclick="showScreen('achievements')">See All →</button>
+      <button class="haw-see-all" onclick="showScreen('achievements')">${_ta('See All →','அனைத்தும் காண →')}</button>
     </div>
     <div class="haw-badges">
       ${recent.map(a => `
