@@ -12,12 +12,105 @@
 <meta name="twitter:card"       content="summary"/>
 <meta name="twitter:title"      content="KARNAN — NEET UG Practice Platform"/>
 <meta name="twitter:description" content="Free NEET UG practice with 7,000+ MCQs. Chapter-wise MCQs, timed tests, mistake tracker and analytics."/>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <link rel="stylesheet" href="css/styles.css"/>
 
 </head>
 <body>
+
+<!-- ═══════════════════════════════════════════════════
+     LANGUAGE SELECTOR OVERLAY
+     Shown on first visit (no 'lang' in localStorage).
+     Choosing English saves lang=en and hides overlay.
+     Choosing Tamil redirects to /ta/.
+════════════════════════════════════════════════════ -->
+<div id="lang-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:#0a0f1e;overflow-y:auto">
+<style>
+#lang-overlay{font-family:'DM Sans',sans-serif;color:#f1f5f9}
+.lo-inner{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem 1.5rem;text-align:center;background:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(108,60,225,.3),transparent)}
+.lo-logo{display:flex;align-items:center;gap:12px;margin-bottom:2rem;font-family:'Sora',sans-serif;font-weight:800;font-size:1.4rem;color:#f5c518}
+.lo-logo img{height:44px;width:44px;object-fit:contain;border-radius:50%;border:2px solid rgba(245,197,24,.4)}
+.lo-tagline{font-size:.95rem;color:#94a3b8;margin-bottom:3rem;line-height:1.7;max-width:400px}
+.lo-tagline strong{color:#f1f5f9;display:block;font-size:1.05rem;margin-bottom:.3rem}
+.lo-cards{display:flex;gap:1.25rem;flex-wrap:wrap;justify-content:center;margin-bottom:2rem}
+.lo-card{
+  background:#111827;border:2px solid #1e2d45;border-radius:18px;
+  padding:2rem 2.5rem;cursor:pointer;transition:all .25s;
+  min-width:180px;max-width:220px;flex:1;
+  display:flex;flex-direction:column;align-items:center;gap:.75rem;
+  text-decoration:none;color:inherit;
+}
+.lo-card:hover{border-color:#f5c518;background:#1a2236;transform:translateY(-4px);box-shadow:0 16px 40px rgba(245,197,24,.15)}
+.lo-card-flag{font-size:3rem;line-height:1}
+.lo-card-title{font-family:'Sora',sans-serif;font-size:1.3rem;font-weight:800;color:#f1f5f9}
+.lo-card-sub{font-size:.85rem;color:#94a3b8}
+.lo-card.tamil .lo-card-title{font-family:'Noto Sans Tamil','Sora',sans-serif}
+.lo-card.tamil .lo-card-sub{font-family:'Noto Sans Tamil',sans-serif}
+@media(max-width:440px){.lo-cards{flex-direction:column;align-items:center}.lo-card{width:100%;max-width:280px}}
+</style>
+<div class="lo-inner">
+  <div class="lo-logo">
+    <img src="assets/logo.png" alt="KARNAN"/>
+    KARNAN
+  </div>
+  <div class="lo-tagline">
+    <strong>Choose your language / உங்கள் மொழியை தேர்ந்தெடுக்கவும்</strong>
+    Free NEET UG practice · Physics, Chemistry &amp; Biology
+  </div>
+  <div class="lo-cards">
+    <div class="lo-card" onclick="chooseLang('en')">
+      <div class="lo-card-flag">🇬🇧</div>
+      <div class="lo-card-title">English</div>
+      <div class="lo-card-sub">Practice in English</div>
+    </div>
+    <div class="lo-card tamil" onclick="chooseLang('ta')">
+      <div class="lo-card-flag">🇮🇳</div>
+      <div class="lo-card-title">தமிழ்</div>
+      <div class="lo-card-sub">தமிழில் பயிற்சி செய்யுங்கள்</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+(function(){
+  var lang = localStorage.getItem('lang');
+  if (lang === 'ta') { window.location.replace('/ta/'); return; }
+  if (lang === 'en') { return; }
+  // No preference — show overlay
+  document.getElementById('lang-overlay').style.display = 'block';
+  document.body.style.overflow = 'hidden';
+})();
+function chooseLang(lang) {
+  localStorage.setItem('lang', lang);
+  if (lang === 'ta') { window.location.href = '/ta/'; return; }
+  document.getElementById('lang-overlay').style.display = 'none';
+  document.body.style.overflow = '';
+}
+</script>
+
+<!-- Persistent language toggle (top-right, shown after lang chosen) -->
+<div id="lang-switcher-btn" style="display:none;position:fixed;top:12px;right:12px;z-index:500">
+  <button id="lang-switcher-inner" onclick="resetLang()" style="background:#f5c518;color:#0a0f1e;border:none;padding:6px 14px;border-radius:20px;font-weight:700;font-size:.78rem;cursor:pointer;font-family:'Sora',sans-serif;box-shadow:0 2px 10px rgba(245,197,24,.3)"></button>
+</div>
+<script>
+(function(){
+  var lang = localStorage.getItem('lang');
+  if (lang === 'en') {
+    var btn = document.getElementById('lang-switcher-btn');
+    var inner = document.getElementById('lang-switcher-inner');
+    if (btn && inner) {
+      inner.textContent = '🇮🇳 தமிழ்';
+      btn.style.display = 'block';
+    }
+  }
+})();
+function resetLang() {
+  localStorage.setItem('lang', 'ta');
+  window.location.href = '/ta/';
+}
+</script>
 
 <nav>
   <div class="nav-logo" onclick="goHome()">
