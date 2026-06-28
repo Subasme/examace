@@ -374,14 +374,14 @@ async function startTimedTest() {
     let allQs = [];
     if (subjects.length > 1) {
       const results = await Promise.all(subjects.map(s =>
-        fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: s.label })
+        fetchAllSubjectQuestions(selection.language.label, selection.standard.id, s)
       ));
       const perSubj = Math.floor(timedQCount / subjects.length);
       results.forEach((subQs, i) => {
         allQs = allQs.concat(shuffle(subQs.map(q => ({ ...q, subject: subjects[i]?.label || q.subject }))).slice(0, perSubj));
       });
     } else {
-      allQs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.dbLabel || selection.subject.label });
+      allQs = await fetchAllSubjectQuestions(selection.language.label, selection.standard.id, selection.subject);
     }
     const qs = shuffle(allQs).slice(0, timedQCount);
     timedState = { questions: qs, idx: 0, answers: {}, marked: {}, secs: timedDuration, totalSecs: timedDuration, timer: null, start: Date.now(), name };
