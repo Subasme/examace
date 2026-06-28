@@ -79,6 +79,61 @@ function showAdminPanel() {
     labelEl.value = anyLabel;
   }
   showScreen('admin');
+  loadAdminUsers();
+}
+
+async function loadAdminUsers() {
+  const el = document.getElementById('admin-users-list');
+  if (!el) return;
+  el.innerHTML = '<div style="color:var(--muted);font-size:.83rem">Loading…</div>';
+  try {
+    const { data, error } = await db.rpc('get_all_user_profiles');
+    if (error) throw new Error(error.message);
+    if (!data || !data.length) { el.innerHTML = '<div style="color:var(--muted);font-size:.83rem">No users found.</div>'; return; }
+    el.innerHTML = `
+      <div style="overflow-x:auto">
+        <table style="width:100%;border-collapse:collapse;font-size:.82rem">
+          <thead>
+            <tr style="border-bottom:1.5px solid var(--border);color:var(--muted)">
+              <th style="text-align:left;padding:.4rem .5rem">${_ta('Name','பெயர்')}</th>
+              <th style="text-align:left;padding:.4rem .5rem">${_ta('Email','மின்னஞ்சல்')}</th>
+              <th style="text-align:left;padding:.4rem .5rem">${_ta('Joined','சேர்ந்த தேதி')}</th>
+              <th style="text-align:left;padding:.4rem .5rem">${_ta('Plan','திட்டம்')}</th>
+              <th style="text-align:left;padding:.4rem .5rem">${_ta('Status','நிலை')}</th>
+              <th style="padding:.4rem .5rem"></th>
+            </tr>
+          </thead>
+          <tbody>
+            ${data.map(u => {
+              const joined = u.created_at ? new Date(u.created_at).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' }) : '—';
+              const statusLabel = u.disabled ? _ta('Disabled','முடக்கப்பட்டது') : _ta('Enabled','இயக்கத்தில்');
+              const statusColor = u.disabled ? 'var(--danger)' : 'var(--success)';
+              const btnLabel = u.disabled ? _ta('Enable','இயக்கு') : _ta('Disable','முடக்கு');
+              return `<tr style="border-bottom:1px solid var(--border)">
+                <td style="padding:.45rem .5rem">${u.display_name || '—'}</td>
+                <td style="padding:.45rem .5rem;color:var(--muted)">${u.email}</td>
+                <td style="padding:.45rem .5rem;white-space:nowrap">${joined}</td>
+                <td style="padding:.45rem .5rem">${u.plan}</td>
+                <td style="padding:.45rem .5rem;color:${statusColor};font-weight:700">${statusLabel}</td>
+                <td style="padding:.45rem .5rem"><button class="btn btn-sm ${u.disabled ? 'btn-primary' : 'btn-outline'}" style="font-size:.75rem;padding:3px 10px" onclick="toggleUserDisabled('${u.id}',${u.disabled})">${btnLabel}</button></td>
+              </tr>`;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>`;
+  } catch(e) {
+    el.innerHTML = `<div style="color:var(--danger);font-size:.83rem">Failed to load users: ${e.message}</div>`;
+  }
+}
+
+async function toggleUserDisabled(userId, currentlyDisabled) {
+  try {
+    const { error } = await db.from('user_profiles').update({ disabled: !currentlyDisabled }).eq('id', userId);
+    if (error) throw new Error(error.message);
+    await loadAdminUsers();
+  } catch(e) {
+    alert('Failed to update user: ' + e.message);
+  }
 }
 
 async function loadSupabaseHomeStats() {
