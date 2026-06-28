@@ -10,24 +10,35 @@ async function renderHomeSessions() {
     const uiLang = localStorage.getItem('lang') || 'en';
     (manifest.languages || []).forEach(lang => {
       // Filter: Tamil UI → show only Tamil Medium; English UI → show only English Medium
-      const isTamilLang = lang.label === 'Tamil' || (lang.id || '').toLowerCase().includes('tamil');
+      const langKey = (lang.id || lang.label || '').toLowerCase();
+      const isTamilLang = langKey === 'tamil' || langKey.startsWith('tamil') || lang.label === 'Tamil';
+      const isEnglishLang = langKey === 'english' || langKey.startsWith('english') || lang.label === 'English';
       if (uiLang === 'ta' && !isTamilLang) return;
-      if (uiLang === 'en' && isTamilLang) return;
+      if (uiLang === 'en' && !isEnglishLang) return;
       (lang.standards || []).forEach(std => {
         sessions.push({ lang, std, gradient: SESSION_GRADIENTS[idx++ % SESSION_GRADIENTS.length] });
       });
     });
     if (!sessions.length) { el.innerHTML = '<div style="color:var(--muted);font-size:.82rem;padding:.5rem;grid-column:1/-1">No sessions found.</div>'; return; }
+    // Subject name translation map for Tamil UI
+    const SUBJ_TA = { 'Biology': 'உயிரியல்', 'Chemistry': 'வேதியியல்', 'Physics': 'இயற்பியல்' };
     el.innerHTML = sessions.map(({ lang, std, gradient }) => {
       const totalQ = std.subjects.reduce((s, x) => s + (x.totalQuestions || 0), 0);
-      const subjNames = std.subjects.map(s => s.label).join(' · ');
+      const subjNames = std.subjects.map(s => _isTa() ? (SUBJ_TA[s.label] || s.label) : s.label).join(' · ');
       const langLabel = lang.label === 'Tamil' ? _ta('Tamil Medium','தமிழ் வழி') : _ta('English Medium','ஆங்கில வழி');
       const recKey = 'examace_rec_'+lang.id+'_'+std.id;
       let recLine = '';
       try {
         const rec = JSON.parse(localStorage.getItem(recKey) || 'null');
-        if (rec?.chapLabel) recLine = `<div class="sc-rec">▶ ${_ta('Continue','தொடர்')}: ${rec.chapLabel}</div>`;
-        else recLine = `<div class="sc-rec">▶ ${_ta('Start from Chapter 1','அத்தியாயம் 1 முதல் தொடங்கு')}</div>`;
+        if (rec?.chapId) {
+          // Look up fresh chapter label from manifest (avoids stale stored label)
+          const recSubj = std.subjects.find(s => s.id === rec.subjId);
+          const recChap = recSubj?.chapters?.find(c => c.id === rec.chapId);
+          const chapLabel = recChap?.label || rec.chapLabel || rec.chapId;
+          recLine = `<div class="sc-rec">▶ ${_ta('Continue','தொடர்')}: ${chapLabel}</div>`;
+        } else {
+          recLine = `<div class="sc-rec">▶ ${_ta('Start from Chapter 1','அத்தியாயம் 1 முதல் தொடங்கு')}</div>`;
+        }
       } catch(e) { recLine = `<div class="sc-rec">▶ ${_ta('Start Practicing','பயிற்சி தொடங்குங்கள்')}</div>`; }
       return `<div class="session-card" style="background:${gradient}" onclick="quickStartSession('${lang.id}','${std.id}')">
         <div>
@@ -35,8 +46,8 @@ async function renderHomeSessions() {
             <div class="sc-lang">${langLabel}</div>
             <div class="sc-class-badge">${std.label}</div>
           </div>
-          <div class="sc-title">NEET UG<br/>Preparation</div>
-          <div class="sc-subjects">${subjNames}${totalQ ? `<br/>${totalQ.toLocaleString()} questions` : ''}</div>
+          <div class="sc-title">NEET UG<br/>${_ta('Preparation','தயாரிப்பு')}</div>
+          <div class="sc-subjects">${subjNames}${totalQ ? `<br/>${totalQ.toLocaleString()} ${_ta('questions','கேள்விகள்')}` : ''}</div>
         </div>
         ${recLine}
       </div>`;
