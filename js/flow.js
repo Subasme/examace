@@ -168,23 +168,25 @@ const ALL_NEET_SUBJECTS = [
   { id:'chemistry', dbId:'chemistry', label:'Chemistry', icon:'🧪', grad:'linear-gradient(135deg,#d1fae5,#a7f3d0)', border:'#10b981', color:'#064e3b' },
   { id:'biology',   dbId:'biology',   label:'Biology',   icon:'🧬', grad:'linear-gradient(135deg,#ede9fe,#ddd6fe)', border:'#7c3aed', color:'#3b0764' },
 ];
+const SUBJ_LABELS_TA = { 'Physics':'இயற்பியல்', 'Chemistry':'வேதியியல்', 'Biology':'உயிரியல்' };
+function _subjLabel(label) { return _isTa() ? (SUBJ_LABELS_TA[label] || label) : label; }
 
 function renderSubjectOptions() {
   const subs = selection.standard?.subjects || [];
-  const modeLabel = (appMode === 'truefalse') ? 'True / False' : (appMode === 'flashcard') ? 'Flashcards' : 'Practice';
+  const modeLabel = (appMode === 'truefalse') ? _ta('True / False','சரி / தவறு') : (appMode === 'flashcard') ? _ta('Flashcards','நினைவட்டைகள்') : _ta('Practice','பயிற்சி');
   const titleEl = document.getElementById('subject-screen-title');
-  if (titleEl) titleEl.textContent = `${modeLabel} — Choose a Subject`;
+  if (titleEl) titleEl.textContent = `${modeLabel} — ${_ta('Choose a Subject','பாடம் தேர்ந்தெடுக்கவும்')}`;
   document.getElementById('subject-options').innerHTML = ALL_NEET_SUBJECTS.map(s => {
     const found = subs.find(x => x.id === s.dbId);
     const locked = s.comingSoon || !found;
     const chapCount = found ? found.chapters.length : 0;
-    const meta = locked ? 'Coming Soon' : `${chapCount} chapters`;
+    const meta = locked ? _ta('Coming Soon','விரைவில்') : `${chapCount} ${_ta('chapters','அத்தியாயங்கள்')}`;
     return `<div class="subj-card-v2${locked ? ' locked' : ''}"
         style="background:${s.grad};border-color:${s.border};color:${s.color}"
         ${locked ? '' : `onclick="selectSubject('${s.id}')"`}>
       <span class="s2-icon">${s.icon}</span>
-      <div class="s2-name">${s.label}</div>
-      <div class="s2-meta">${locked ? `<span class="s2-soon">Coming Soon</span>` : meta}</div>
+      <div class="s2-name">${_subjLabel(s.label)}</div>
+      <div class="s2-meta">${locked ? `<span class="s2-soon">${_ta('Coming Soon','விரைவில்')}</span>` : meta}</div>
       ${locked ? '<span class="s2-lock">🔒</span>' : ''}
     </div>`;
   }).join('');
@@ -215,10 +217,11 @@ async function renderChapters() {
   const isPremium = userPlan === 'premium' || userPlan === 'unlimited';
   const isWeakAreas = appMode === 'weakareas';
   const useProgression = appMode === 'practice' && authUser;
+  const subjDisplay = _subjLabel(subj);
   document.getElementById('chapter-title').textContent = isWeakAreas
-    ? `${subj} — Weak Areas`
-    : appMode === 'challenge' ? `${subj} — Challenge`
-    : `${subj} — Select Chapter`;
+    ? `${subjDisplay} — ${_ta('Weak Areas','பலவீன பகுதிகள்')}`
+    : appMode === 'challenge' ? `${subjDisplay} — ${_ta('Challenge','சவால்')}`
+    : `${subjDisplay} — ${_ta('Select Chapter','அத்தியாயம் தேர்ந்தெடுக்கவும்')}`;
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading chapters…</p></div>';
   await Promise.all([
     preloadDailyData(),
@@ -227,16 +230,16 @@ async function renderChapters() {
   const totalDoneQs = chaps.reduce((sum, c) => sum + getDailyDone(c).count, 0);
   const bannerEl = document.getElementById('daily-progress-banner');
   if (isWeakAreas && bannerEl) {
-    bannerEl.innerHTML = `<div style="background:linear-gradient(90deg,#fff0f0,#ffe4e4);border-left:4px solid #dc2626;border-radius:8px;padding:.6rem .9rem;margin-bottom:.75rem;font-size:.82rem;font-weight:700;color:#9b1c1c">🎯 Weak Areas Mode — Chapters sorted by lowest accuracy first</div>`;
+    bannerEl.innerHTML = `<div style="background:linear-gradient(90deg,#fff0f0,#ffe4e4);border-left:4px solid #dc2626;border-radius:8px;padding:.6rem .9rem;margin-bottom:.75rem;font-size:.82rem;font-weight:700;color:#9b1c1c">🎯 ${_ta('Weak Areas Mode — Chapters sorted by lowest accuracy first','பலவீன பகுதி முறை — குறைந்த துல்லியம் முதலில் காட்டப்படும்')}</div>`;
   } else if (appMode === 'challenge' && bannerEl) {
-    bannerEl.innerHTML = `<div style="background:linear-gradient(90deg,#1e1b4b,#312e81);border-radius:8px;padding:.6rem .9rem;margin-bottom:.75rem;font-size:.82rem;font-weight:700;color:#c7d2fe">🏆 Challenge Mode — Answers revealed only at the end. No hints!</div>`;
+    bannerEl.innerHTML = `<div style="background:linear-gradient(90deg,#1e1b4b,#312e81);border-radius:8px;padding:.6rem .9rem;margin-bottom:.75rem;font-size:.82rem;font-weight:700;color:#c7d2fe">🏆 ${_ta('Challenge Mode — Answers revealed only at the end. No hints!','சவால் முறை — விடைகள் இறுதியில் மட்டுமே காட்டப்படும். குறிப்புகள் இல்லை!')}</div>`;
   } else if (isPremium) {
     const DAILY_GOAL = 20;
     const pct = Math.min(100, Math.round(totalDoneQs / DAILY_GOAL * 100));
     if (bannerEl) bannerEl.innerHTML = `<div class="daily-banner">
       <div style="font-size:1.4rem">🌟</div>
-      <div class="db-text"><b>Unlimited Practice</b><br/>
-      ${totalDoneQs} questions answered today · Keep pushing!
+      <div class="db-text"><b>${_ta('Unlimited Practice','வரம்பற்ற பயிற்சி')}</b><br/>
+      ${totalDoneQs} ${_ta('questions answered today · Keep pushing!','கேள்விகள் இன்று பதிலளித்தது · தொடர்ந்து முயற்சி செய்யுங்கள்!')}
       <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${pct}%"></div></div></div></div>`;
   } else {
     const subjectTotal = getSubjectDailyTotal();
@@ -244,8 +247,8 @@ async function renderChapters() {
     const pct = Math.min(100, Math.round(subjectTotal / subjectLimit * 100));
     if (bannerEl) bannerEl.innerHTML = `<div class="daily-banner">
       <div style="font-size:1.4rem">📅</div>
-      <div class="db-text"><b>Daily Practice — ${subjectLimit} Questions Per Subject</b><br/>
-      ${subjectTotal} of ${subjectLimit} questions done today
+      <div class="db-text"><b>${_ta(`Daily Practice — ${subjectLimit} Questions Per Subject`,`தினசரி பயிற்சி — ${subjectLimit} கேள்விகள் / பாடம்`)}</b><br/>
+      ${_ta(`${subjectTotal} of ${subjectLimit} questions done today`,`இன்று ${subjectTotal} / ${subjectLimit} கேள்விகள் முடிந்தது`)}
       <div class="daily-limit-bar"><div class="daily-limit-fill" style="width:${pct}%"></div></div></div></div>`;
   }
   const CHAP_COLORS = [
@@ -319,24 +322,24 @@ async function renderChapters() {
 
     let status;
     if (isCleared) {
-      status = `<span class="ch-card-status" style="color:#059669">✅ Cleared · ${unlockData.best_score}%</span>`;
+      status = `<span class="ch-card-status" style="color:#059669">✅ ${_ta('Cleared','முடிந்தது')} · ${unlockData.best_score}%</span>`;
     } else if (userPlan === 'unlimited') {
       const chapStats = progress.chapters?.[c.label] || progress.chapters?.[c.id] || null;
       const passed = chapStats?.correct || 0;
       const failed = chapStats ? (chapStats.total - chapStats.correct) : 0;
       status = chapStats
-        ? `<span class="ch-card-status"><span style="color:#059669">✓ ${passed} passed</span> · <span style="color:#e84545">✗ ${failed} failed</span></span>`
-        : `<span class="ch-card-status" style="color:#6b7280">▶ Practice Now</span>`;
+        ? `<span class="ch-card-status"><span style="color:#059669">✓ ${passed} ${_ta('passed','சரி')}</span> · <span style="color:#e84545">✗ ${failed} ${_ta('failed','தவறு')}</span></span>`
+        : `<span class="ch-card-status" style="color:#6b7280">▶ ${_ta('Practice Now','இப்போது பயிற்சி செய்')}</span>`;
     } else if (isPremium) {
       status = dayData.count > 0
-        ? `<span class="ch-card-status" style="color:#059669">✅ ${dayData.count} answered today</span>`
-        : `<span class="ch-card-status" style="color:#6b7280">▶ Practice Now</span>`;
+        ? `<span class="ch-card-status" style="color:#059669">✅ ${dayData.count} ${_ta('answered today','இன்று பதிலளித்தது')}</span>`
+        : `<span class="ch-card-status" style="color:#6b7280">▶ ${_ta('Practice Now','இப்போது பயிற்சி செய்')}</span>`;
     } else {
       const subjectDone = getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
       const subjectRemaining = Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
       status = subjectDone
-        ? `<span class="ch-card-status" style="color:#059669">✅ Daily limit reached</span>`
-        : `<span class="ch-card-status" style="color:#6b7280">📝 ${subjectRemaining} left today</span>`;
+        ? `<span class="ch-card-status" style="color:#059669">✅ ${_ta('Daily limit reached','இன்றைய வரம்பு முடிந்தது')}</span>`
+        : `<span class="ch-card-status" style="color:#6b7280">📝 ${subjectRemaining} ${_ta('left today','இன்று மீதம்')}</span>`;
     }
 
     // Motivational threshold hint for open-but-not-cleared chapters
@@ -344,7 +347,7 @@ async function renderChapters() {
     if (useProgression && !isCleared) {
       const att = unlockData?.attempt_no || 0;
       const needed = att === 0 ? 80 : att === 1 ? 70 : att === 2 ? 60 : 50;
-      thresholdHint = `<span style="font-size:.65rem;color:#7c3aed;font-weight:700;margin-top:.18rem;display:block">🎯 Score ${needed}% to clear${att > 0 ? ` (attempt ${att + 1})` : ''}</span>`;
+      thresholdHint = `<span style="font-size:.65rem;color:#7c3aed;font-weight:700;margin-top:.18rem;display:block">🎯 ${_ta(`Score ${needed}% to clear${att > 0 ? ` (attempt ${att + 1})` : ''}`, `${needed}% மதிப்பெண் பெற்று முடிக்கவும்${att > 0 ? ` (முயற்சி ${att + 1})` : ''}`)}</span>`;
     }
 
     let accBadge = '';
@@ -352,9 +355,9 @@ async function renderChapters() {
       const acc = chapAccMap[c.id];
       if (acc !== null && acc !== undefined) {
         const accColor = acc < 50 ? '#dc2626' : acc < 70 ? '#d97706' : '#059669';
-        accBadge = `<span style="font-size:.65rem;font-weight:700;color:${accColor};margin-top:.2rem;display:block">${acc}% accuracy</span>`;
+        accBadge = `<span style="font-size:.65rem;font-weight:700;color:${accColor};margin-top:.2rem;display:block">${acc}% ${_ta('accuracy','துல்லியம்')}</span>`;
       } else {
-        accBadge = `<span style="font-size:.65rem;color:var(--muted);margin-top:.2rem;display:block">Not attempted</span>`;
+        accBadge = `<span style="font-size:.65rem;color:var(--muted);margin-top:.2rem;display:block">${_ta('Not attempted','முயற்சிக்கப்படவில்லை')}</span>`;
       }
     }
     const chapDone = userPlan === 'free' && getSubjectDailyTotal() >= FREE_DAILY_LIMIT;
@@ -362,14 +365,14 @@ async function renderChapters() {
       ${(chapDone || adminLocked) ? 'disabled' : `onclick="selectChapter('${c.id}')"`}>
       <div class="ch-card-body">
         <div class="ch-card-name">${_chapLabel(c.label)}</div>
-        ${adminLocked ? `<span class="ch-card-status" style="color:#9ca3af">🔒 Not available yet</span>` : status}
+        ${adminLocked ? `<span class="ch-card-status" style="color:#9ca3af">🔒 ${_ta('Not available yet','இன்னும் கிடைக்கவில்லை')}</span>` : status}
         ${thresholdHint}${accBadge}
       </div>
       <div class="ch-card-num" style="background:${adminLocked ? '#9ca3af' : col.badge}">
         <span>CH</span><span style="font-size:.95rem;font-weight:900">${chapNum}</span>
       </div>
     </button>`;
-  }).join('') || '<div class="info-box">No chapters available.</div>';
+  }).join('') || `<div class="info-box">${_ta('No chapters available.','அத்தியாயங்கள் எதுவும் இல்லை.')}</div>`;
   document.getElementById('reset-note').textContent = isPremium ? '' : `⏰ Resets at midnight · Next reset in ${getTimeUntilMidnight()}`;
 }
 
