@@ -549,6 +549,14 @@ function resetLang() {
     <div id="admin-vis-msg" style="font-size:.83rem;color:var(--success);margin:.5rem 0;display:none">✅ Chapter limits saved</div>
     <button class="btn btn-primary btn-block" onclick="saveChapterLimits()" style="margin-top:.75rem">💾 Save Chapter Limits</button>
   </div>
+  <!-- Users section -->
+  <div class="section-card" style="margin-top:1rem" id="admin-users-section">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.75rem">
+      <h3 style="margin:0">👥 Registered Users</h3>
+      <button class="btn btn-outline btn-sm" onclick="loadAdminUsers()" id="admin-users-refresh-btn">↻ Refresh</button>
+    </div>
+    <div id="admin-users-list"><div style="color:var(--muted);font-size:.83rem">Loading users…</div></div>
+  </div>
   <button class="btn btn-outline btn-sm" onclick="showScreen('profile')" style="margin-top:.75rem">← Back to Profile</button>
 </div>
 
@@ -782,8 +790,7 @@ function resetLang() {
     <div class="eti"><div class="eti-num do">2</div><div class="eti-text">Attempt Biology first — it's the highest-scoring section (360 marks) with no complex calculations</div></div>
     <div class="eti"><div class="eti-num do">3</div><div class="eti-text">Use the rough sheet for Physics numericals — write down known values and formula before solving</div></div>
     <div class="eti"><div class="eti-num do">4</div><div class="eti-text">Mark uncertain questions and revisit — don't get stuck; move on and come back</div></div>
-    <div class="eti"><div class="eti-num do">5</div><div class="eti-text">Manage time: ~1 min per Biology Q, ~1.5 min Chemistry, ~2 min Physics — keep checking the clock</div></div>
-    <div class="eti"><div class="eti-num do">6</div><div class="eti-text">Trust NCERT — 85%+ of NEET questions come directly from NCERT text and diagrams</div></div>
+    <div class="eti"><div class="eti-num do">5</div><div class="eti-text">Trust NCERT — 85%+ of NEET questions come directly from NCERT text and diagrams</div></div>
   </div>
 
   <!-- Don'ts section -->
@@ -793,8 +800,7 @@ function resetLang() {
     <div class="eti"><div class="eti-num dont">2</div><div class="eti-text">Don't spend more than 2 minutes on any single question — time loss compounds quickly</div></div>
     <div class="eti"><div class="eti-num dont">3</div><div class="eti-text">Don't change an answer you were initially confident about — first instinct is usually correct</div></div>
     <div class="eti"><div class="eti-num dont">4</div><div class="eti-text">Don't neglect NCERT diagrams and figures — labelled diagrams are frequently tested directly</div></div>
-    <div class="eti"><div class="eti-num dont">5</div><div class="eti-text">Don't leave any Biology question unanswered — there is no negative mark risk if you make an educated guess</div></div>
-    <div class="eti"><div class="eti-num dont">6</div><div class="eti-text">Don't panic over unfamiliar questions — eliminate impossible options and make a reasoned choice</div></div>
+    <div class="eti"><div class="eti-num dont">5</div><div class="eti-text">Don't panic over unfamiliar questions — eliminate impossible options and make a reasoned choice</div></div>
   </div>
 
   <!-- Study Tips section -->
@@ -804,8 +810,7 @@ function resetLang() {
     <div class="eti"><div class="eti-num tip">2</div><div class="eti-text">For Physics, understand derivations and formulas conceptually — don't just memorise; practise numericals daily</div></div>
     <div class="eti"><div class="eti-num tip">3</div><div class="eti-text">For Chemistry, memorise named reactions, reagents, and exception compounds chapter by chapter</div></div>
     <div class="eti"><div class="eti-num tip">4</div><div class="eti-text">Use spaced repetition for revision: review chapters after 1 day, 1 week, and 1 month</div></div>
-    <div class="eti"><div class="eti-num tip">5</div><div class="eti-text">Solve at least 5 previous NEET papers under timed conditions — it builds exam stamina and reveals weak areas</div></div>
-    <div class="eti"><div class="eti-num tip">6</div><div class="eti-text">Focus revision on weak chapters — 20% of chapters contribute roughly 80% of marks</div></div>
+    <div class="eti"><div class="eti-num tip">5</div><div class="eti-text">Focus revision on weak chapters — 20% of chapters contribute roughly 80% of marks</div></div>
   </div>
 
   <button class="btn btn-outline btn-sm" onclick="goHome()">← Back to Home</button>
@@ -933,6 +938,21 @@ function resetLang() {
     <div class="lu-title" id="lu-title">Learner</div>
     <div class="lu-xp" id="lu-xp"></div>
     <button class="btn btn-primary" onclick="closeLevelUpModal()" style="margin-top:1.25rem;width:100%">Keep Going! 🚀</button>
+  </div>
+</div>
+
+<!-- Resume Practice Prompt -->
+<div id="resume-prompt-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:9999;align-items:center;justify-content:center;padding:1.5rem">
+  <div style="background:var(--card);border-radius:var(--radius);padding:1.75rem;max-width:340px;width:100%;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,.4)">
+    <div style="font-size:2rem;margin-bottom:.5rem">📖</div>
+    <div style="font-weight:800;font-size:1.05rem;margin-bottom:.4rem" id="resume-prompt-title">Resume Practice?</div>
+    <div style="color:var(--muted);font-size:.88rem;margin-bottom:1.25rem">
+      You left off at <strong>Question <span id="resume-q-num"></span></strong>. Continue from here?
+    </div>
+    <div style="display:flex;gap:.75rem">
+      <button id="resume-restart-btn" class="btn btn-outline" style="flex:1">Restart</button>
+      <button id="resume-continue-btn" class="btn btn-primary" style="flex:1">Continue →</button>
+    </div>
   </div>
 </div>
 

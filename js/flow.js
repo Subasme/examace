@@ -404,12 +404,57 @@ async function selectChapter(chapterId) {
     const pool = isPremiumOrUnlimited ? allQs : (fresh.length >= remaining ? fresh : allQs);
     const qs = shuffle(pool).slice(0, remaining);
     if (!qs.length) { renderChapters(); showScreen('chapters'); return; }
-    practiceState = { questions: qs, idx: 0, answers: {}, skipDaily: false, chapter, start: Date.now() };
-    renderPracticeQ();
-    showScreen('practice-quiz');
+    // Check for saved practice progress for this chapter
+    const progressKey = 'practice_progress_' + chapter.id;
+    let savedIdx = 0;
+    try { savedIdx = parseInt(localStorage.getItem(progressKey) || '0') || 0; } catch(e) {}
+    if (savedIdx > 0 && savedIdx < qs.length) {
+      // Show resume prompt
+      _showResumePrompt(qs, chapter, progressKey, savedIdx);
+    } else {
+      localStorage.removeItem(progressKey);
+      practiceState = { questions: qs, idx: 0, answers: {}, skipDaily: false, chapter, start: Date.now(), progressKey };
+      renderPracticeQ();
+      showScreen('practice-quiz');
+    }
   } catch (e) {
     renderChapters(); showScreen('chapters');
   }
+}
+
+function _showResumePrompt(qs, chapter, progressKey, savedIdx) {
+  const overlay = document.getElementById('resume-prompt-overlay');
+  if (!overlay) {
+    // Fallback: just start fresh if overlay HTML not present
+    practiceState = { questions: qs, idx: 0, answers: {}, skipDaily: false, chapter, start: Date.now(), progressKey };
+    renderPracticeQ(); showScreen('practice-quiz'); return;
+  }
+  document.getElementById('resume-q-num').textContent = savedIdx + 1;
+  const rptEl = document.getElementById('resume-prompt-title');
+  if (rptEl) rptEl.textContent = _ta('Resume Practice?', 'பயிற்சியை தொடரவா?');
+  const rpdEl = overlay.querySelector('div > div:nth-child(3)');
+  if (rpdEl) rpdEl.innerHTML = _ta(
+    `You left off at <strong>Question ${savedIdx + 1}</strong>. Continue from here?`,
+    `கேள்வி <strong>${savedIdx + 1}</strong> வரை வந்தீர்கள். இங்கிருந்து தொடரவா?`
+  );
+  const rstBtn = document.getElementById('resume-restart-btn');
+  if (rstBtn) rstBtn.textContent = _ta('Restart', 'மீண்டும் தொடங்கு');
+  const cntBtn = document.getElementById('resume-continue-btn');
+  if (cntBtn) cntBtn.textContent = _ta('Continue →', 'தொடர் →');
+  overlay.style.display = 'flex';
+  overlay._continueHandler = () => {
+    overlay.style.display = 'none';
+    practiceState = { questions: qs, idx: savedIdx, answers: {}, skipDaily: false, chapter, start: Date.now(), progressKey };
+    renderPracticeQ(); showScreen('practice-quiz');
+  };
+  overlay._restartHandler = () => {
+    overlay.style.display = 'none';
+    localStorage.removeItem(progressKey);
+    practiceState = { questions: qs, idx: 0, answers: {}, skipDaily: false, chapter, start: Date.now(), progressKey };
+    renderPracticeQ(); showScreen('practice-quiz');
+  };
+  document.getElementById('resume-continue-btn').onclick = overlay._continueHandler;
+  document.getElementById('resume-restart-btn').onclick = overlay._restartHandler;
 }
 
 async function startGrandTestNow() {

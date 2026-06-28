@@ -284,12 +284,21 @@ function answerPractice(i) {
     setDailyDone(selection.chapter, dayData);
   }
   saveStorage();
+  // Save resume progress
+  if (practiceState.progressKey) {
+    const nextIdx = practiceState.idx + 1;
+    if (nextIdx < practiceState.questions.length) {
+      try { localStorage.setItem(practiceState.progressKey, String(nextIdx)); } catch(e) {}
+    }
+  }
   renderPracticeQ();
 }
 
 function practiceNav(dir) {
   const total = practiceState.questions.length;
   if (dir === 1 && practiceState.idx === total - 1) {
+    // Chapter complete — clear resume progress
+    if (practiceState.progressKey) { try { localStorage.removeItem(practiceState.progressKey); } catch(e) {} }
     const timeTakenSecs = Math.round((Date.now() - (practiceState.start || Date.now())) / 1000);
     saveSessionToSupabase({ questions: practiceState.questions, answers: practiceState.answers, timeTakenSecs, mode: appMode || 'practice', chapterId: selection.chapter?.id });
     // XP + mastery on chapter completion

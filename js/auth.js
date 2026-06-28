@@ -101,6 +101,14 @@ async function handleLogin() {
   const { data, error } = await db.auth.signInWithPassword({ email, password });
   btn.disabled = false; btn.textContent = 'Sign In';
   if (error) { errEl.textContent = error.message; errEl.style.display = 'block'; return; }
+  // Check if this user has been disabled by admin
+  const { data: profile } = await db.from('user_profiles').select('disabled').eq('id', data.user.id).single();
+  if (profile?.disabled) {
+    await db.auth.signOut();
+    errEl.textContent = _ta('Your account has been disabled. Please contact support.','உங்கள் கணக்கு முடக்கப்பட்டுள்ளது. ஆதரவை தொடர்பு கொள்ளவும்.');
+    errEl.style.display = 'block';
+    return;
+  }
   authUser = data.user;
   await loadUserPlan();
   await initApp();
