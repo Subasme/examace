@@ -72,7 +72,10 @@ async function fetchQuestions({ language, standard, subject, chapterId }) {
       const url = `${SUPABASE_URL}/storage/v1/object/public/questions/${language.toLowerCase()}/${standard.toLowerCase().replace(/\s+/g,'')}/${subject.toLowerCase()}/${chapterId}.json`;
       const res = await fetch(url);
       if (res.ok) {
-        const data = await res.json();
+        const raw = await res.json();
+        // Support both flat array [] and nested {meta, questions:[]} formats
+        const data = Array.isArray(raw) ? raw : (Array.isArray(raw.questions) ? raw.questions : []);
+        if (!data.length) throw new Error('empty');
         return data
           .filter(r => !r.status || r.status === 'active')
           .map(r => {

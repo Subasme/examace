@@ -34,7 +34,7 @@ async function renderHomeSessions() {
           // Look up fresh chapter label from manifest (avoids stale stored label)
           const recSubj = std.subjects.find(s => s.id === rec.subjId);
           const recChap = recSubj?.chapters?.find(c => c.id === rec.chapId);
-          const chapLabel = recChap?.label || rec.chapLabel || rec.chapId;
+          const chapLabel = _chapLabel(recChap?.label || rec.chapLabel || rec.chapId);
           recLine = `<div class="sc-rec">▶ ${_ta('Continue','தொடர்')}: ${chapLabel}</div>`;
         } else {
           recLine = `<div class="sc-rec">▶ ${_ta('Start from Chapter 1','அத்தியாயம் 1 முதல் தொடங்கு')}</div>`;

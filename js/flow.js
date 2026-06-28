@@ -304,7 +304,7 @@ async function renderChapters() {
     if (prog.locked) {
       return `<button class="ch-card ch-locked" style="background:#f3f4f6;border:2px solid #d1d5db;position:relative;opacity:.7" disabled>
         <div class="ch-card-body">
-          <div class="ch-card-name" style="color:#374151">${c.label}</div>
+          <div class="ch-card-name" style="color:#374151">${_chapLabel(c.label)}</div>
           <span class="ch-card-status" style="color:#6b7280;font-size:.72rem">🔒 ${prog.hint}</span>
         </div>
         <div class="ch-card-num" style="background:#9ca3af">
@@ -361,7 +361,7 @@ async function renderChapters() {
     return `<button class="ch-card${adminLocked ? ' ch-locked' : ''}" style="background:${col.bg};border:2px solid ${col.border};position:relative"
       ${(chapDone || adminLocked) ? 'disabled' : `onclick="selectChapter('${c.id}')"`}>
       <div class="ch-card-body">
-        <div class="ch-card-name">${c.label}</div>
+        <div class="ch-card-name">${_chapLabel(c.label)}</div>
         ${adminLocked ? `<span class="ch-card-status" style="color:#9ca3af">🔒 Not available yet</span>` : status}
         ${thresholdHint}${accBadge}
       </div>
@@ -384,7 +384,7 @@ async function selectChapter(chapterId) {
   }
   if (appMode === 'flashcard' || appMode === 'truefalse') { startFlashcards(chapter); return; }
   if (isDailyComplete(chapter)) {
-    document.getElementById('done-chapter').textContent = chapter.label;
+    document.getElementById('done-chapter').textContent = _chapLabel(chapter.label);
     const limitEl = document.getElementById('done-limit');
     if (limitEl) limitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
     const subLimitEl = document.getElementById('done-subject-limit');

@@ -41,7 +41,7 @@ function renderFlashcard() {
   document.getElementById('fc-progress').style.width = ((idx + 1) / total * 100) + '%';
   // "Subject · Chapter" breadcrumb
   const subjectName = q.subject || selection.subject?.label || '';
-  const chapterName = selection.chapter?.label || '';
+  const chapterName = _chapLabel(selection.chapter?.label || '');
   const breadcrumb = [subjectName, chapterName].filter(Boolean).join(' · ');
   const bc = document.getElementById('fc-breadcrumb');
   const bcBack = document.getElementById('fc-breadcrumb-back');
@@ -188,7 +188,7 @@ function renderPracticeQ() {
   document.getElementById('pq-total').textContent = total;
   document.getElementById('pq-progress').style.width = ((idx + 1) / total * 100) + '%';
   const chapEl = document.getElementById('pq-chapter-name');
-  if (chapEl) chapEl.textContent = selection.chapter?.label || q.chapter || '';
+  if (chapEl) chapEl.textContent = _chapLabel(selection.chapter?.label || q.chapter || '');
   const sc = document.getElementById('pq-subj-chip');
   sc.textContent = q.subject || selection.subject?.label || '';
   sc.className = 'subject-chip ' + subjClass(q.subject || selection.subject?.label);
@@ -315,7 +315,7 @@ function practiceNav(dir) {
       }
     }
     if (!practiceState.skipDaily && userPlan !== 'premium' && userPlan !== 'unlimited' && selection.chapter && isDailyComplete(selection.chapter)) {
-      document.getElementById('done-chapter').textContent = selection.chapter.label;
+      document.getElementById('done-chapter').textContent = _chapLabel(selection.chapter.label);
       const limitEl = document.getElementById('done-limit');
       if (limitEl) limitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
       const subLimitEl = document.getElementById('done-subject-limit');
