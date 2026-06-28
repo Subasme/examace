@@ -63,8 +63,12 @@ function buildQuestion({ id, question_text, optMap, correct_option, explanation,
   return { id, question: question_text, options, correct, correct_option, shuffleMap: keys, explanation: explanation || '', topic, chapter, tag, subject };
 }
 
+// Returns true if text contains Tamil Unicode characters (U+0B80–U+0BFF)
+function _hasTamilText(text) { return /[஀-௿]/.test(text || ''); }
+
 async function fetchQuestions({ language, standard, subject, chapterId }) {
-  const lang_id = language === 'Tamil' ? 2 : 1;
+  const isT = language.toLowerCase() === 'tamil';
+  const lang_id = isT ? 2 : 1;  // case-insensitive Tamil detection
 
   // ── Layer 1: Storage JSON (CDN-cached, free of DB quota) ─────────────────
   if (chapterId) {
@@ -76,7 +80,7 @@ async function fetchQuestions({ language, standard, subject, chapterId }) {
         // Support both flat array [] and nested {meta, questions:[]} formats
         const data = Array.isArray(raw) ? raw : (Array.isArray(raw.questions) ? raw.questions : []);
         if (!data.length) throw new Error('empty');
-        return data
+        const mapped = data
           .filter(r => !r.status || r.status === 'active')
           .map(r => {
             const optMap = { A: r.options?.[0], B: r.options?.[1], C: r.options?.[2], D: r.options?.[3] };
@@ -85,6 +89,9 @@ async function fetchQuestions({ language, standard, subject, chapterId }) {
               explanation: r.explanation, topic: r.topic || subject,
               chapter: r.chapter_label || chapterId, tag: r.question_tag || r.tag || '', subject });
           });
+        // For Tamil: verify the file actually contains Tamil text, not English
+        if (!isT || _hasTamilText(mapped[0]?.question)) return mapped;
+        // Tamil path returned English content — fall through to DB layers
       }
     } catch(e) { /* fall through */ }
   }
@@ -102,7 +109,7 @@ async function fetchQuestions({ language, standard, subject, chapterId }) {
     if (chapterId) qb = qb.eq('chapter_id', chapterId);
     const { data, error } = await qb;
     if (!error && data?.length) {
-      return data.map(r => {
+      const mapped = data.map(r => {
         const trans = Array.isArray(r.question_translations) ? r.question_translations[0] : r.question_translations;
         const optMap = {};
         (r.options || []).forEach(o => { optMap[o.option_key] = o.option_text; });
@@ -111,6 +118,8 @@ async function fetchQuestions({ language, standard, subject, chapterId }) {
           explanation: trans?.explanation, topic: r.topic || r.chapter_label,
           chapter: r.chapter_label || chapterId, tag: r.question_tag || '', subject });
       });
+      // For Tamil: verify actual Tamil content before accepting
+      if (!isT || _hasTamilText(mapped[0]?.question)) return mapped;
     }
   } catch(e) { /* fall through to legacy */ }
 
@@ -121,7 +130,7 @@ async function fetchQuestions({ language, standard, subject, chapterId }) {
   if (chapterId) qb = qb.eq('chapter_id', chapterId);
   const { data, error } = await qb;
   if (error) throw new Error('Could not load questions');
-  return (data || []).map(r => {
+  const mapped3 = (data || []).map(r => {
     const correct_option = r.correct_option || 'ABCD'[r.correct] || 'A';
     const optMap = { A: r.options?.[0], B: r.options?.[1], C: r.options?.[2], D: r.options?.[3] };
     return buildQuestion({ id: r.id, question_text: r.question, optMap, correct_option,
@@ -129,5 +138,37 @@ async function fetchQuestions({ language, standard, subject, chapterId }) {
       chapter: r.chapter_label || r.topic || chapterId || subject,
       tag: r.question_tag || '', subject });
   });
+  // For Tamil: if Layer 3 also returns English text, signal no Tamil content available
+  if (isT && mapped3.length > 0 && !_hasTamilText(mapped3[0]?.question)) {
+    throw new Error('tamil_unavailable');
+  }
+  return mapped3;
+}
+
+// Fetch all questions for a subject — used by timed/grand tests.
+// Tries a bulk DB fetch first; if it returns English for a Tamil request,
+// falls back to chapter-by-chapter CDN fetches (Layer 1).
+async function fetchAllSubjectQuestions(language, standard, subjectObj) {
+  const isStr = typeof subjectObj === 'string';
+  const subjectLabel = isStr ? subjectObj : (subjectObj.dbLabel || subjectObj.label);
+  const chapters = isStr ? [] : (subjectObj.chapters || []);
+  const isT = language.toLowerCase() === 'tamil';
+
+  // Bulk DB attempt first (fast path)
+  try {
+    const qs = await fetchQuestions({ language, standard, subject: subjectLabel });
+    if (qs.length > 0 && (!isT || _hasTamilText(qs[0]?.question))) return qs;
+  } catch(e) { if (e?.message !== 'tamil_unavailable') throw e; }
+
+  // For Tamil (or bulk returned nothing/English): chapter-by-chapter via CDN
+  if (chapters.length > 0) {
+    const results = await Promise.allSettled(
+      chapters.map(c => fetchQuestions({ language, standard, subject: subjectLabel, chapterId: c.id }))
+    );
+    const combined = results.flatMap(r => r.status === 'fulfilled' ? r.value : []);
+    if (combined.length > 0) return combined;
+  }
+
+  return [];
 }
 

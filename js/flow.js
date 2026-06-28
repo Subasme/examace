@@ -421,7 +421,11 @@ async function selectChapter(chapterId) {
       showScreen('practice-quiz');
     }
   } catch (e) {
-    renderChapters(); showScreen('chapters');
+    const msg = e?.message === 'tamil_unavailable'
+      ? _ta('Tamil questions not available for this chapter yet. Please try another chapter.', 'இந்த அத்தியாயத்திற்கு தமிழ் கேள்விகள் இன்னும் கிடைக்கவில்லை. வேறு அத்தியாயத்தை முயற்சிக்கவும்.')
+      : _ta('Failed to load questions. Please try again.', 'கேள்விகளை ஏற்ற முடியவில்லை. மீண்டும் முயற்சிக்கவும்.');
+    showToast(msg);
+    renderChapters(); showScreen('practice-chapter');
   }
 }
 
@@ -469,7 +473,7 @@ async function startGrandTestNow() {
   try {
     const subjects = selection.standard?.subjects || [];
     const results = await Promise.all(subjects.map(s =>
-      fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: s.label })
+      fetchAllSubjectQuestions(selection.language.label, selection.standard.id, s)
     ));
     const perSubj = Math.floor(180 / Math.max(subjects.length, 1));
     let qs = [];
