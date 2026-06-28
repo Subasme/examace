@@ -38,6 +38,7 @@ $$;
 GRANT EXECUTE ON FUNCTION get_all_user_profiles() TO authenticated;
 
 -- Allow admin to update disabled flag on any row
+DROP POLICY IF EXISTS "Admin can update any user_profile" ON user_profiles;
 CREATE POLICY "Admin can update any user_profile"
   ON user_profiles FOR UPDATE
   USING (
