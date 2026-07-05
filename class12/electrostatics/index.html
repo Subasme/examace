@@ -41,13 +41,15 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 .btn-admin-nav:hover{opacity:.88}
 
 /* ── HERO BANNER ── */
-.hero-banner{position:relative;border-radius:var(--radius);overflow:hidden;margin-bottom:1.25rem;min-height:180px;background:#020b18}
-.hero-banner img{width:100%;display:block;max-height:280px;object-fit:cover;object-position:center 30%}
-.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,11,24,.85) 0%,rgba(2,11,24,.3) 60%,transparent 100%)}
-.hero-text{position:absolute;bottom:1.25rem;left:1.25rem}
-.hero-tag{font-size:.68rem;font-weight:800;letter-spacing:.16em;color:var(--gold);text-transform:uppercase;margin-bottom:.3rem}
-.hero-h{font-family:'Sora',sans-serif;font-weight:800;font-size:clamp(1.3rem,5vw,2.2rem);color:#fff;line-height:1.1}
-.hero-sub{font-size:.82rem;color:var(--muted);margin-top:.3rem}
+/* Show only the top 58% of the image (the electric field diagram), hiding the built-in text at the bottom */
+.hero-banner{position:relative;border-radius:var(--radius);overflow:hidden;margin-bottom:1.25rem;background:#020b18;height:200px}
+@media(min-width:600px){.hero-banner{height:260px}}
+.hero-banner img{width:100%;height:172%;display:block;object-fit:cover;object-position:center top;margin-top:0}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,11,24,.82) 0%,rgba(2,11,24,.45) 55%,rgba(2,11,24,.15) 100%)}
+.hero-text{position:absolute;bottom:1.1rem;left:1.25rem}
+.hero-tag{font-size:.65rem;font-weight:800;letter-spacing:.16em;color:var(--gold);text-transform:uppercase;margin-bottom:.3rem}
+.hero-h{font-family:'Sora',sans-serif;font-weight:800;font-size:clamp(1.25rem,5vw,2rem);color:#fff;line-height:1.1}
+.hero-sub{font-size:.78rem;color:var(--muted);margin-top:.3rem}
 
 /* ── LANDING ── */
 #landing{max-width:780px;margin:0 auto;padding:1rem 1rem 2rem}
@@ -527,9 +529,21 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 
     <div class="divider">or use email</div>
 
+    <input class="inp" type="text" id="modal-name" placeholder="Your full name *" style="margin-bottom:.5rem"/>
     <input class="inp" type="email" id="modal-email" placeholder="your@email.com" onkeydown="if(event.key==='Enter')sendMagicLink()"/>
     <button class="btn-email-send" id="btn-send-link" onclick="sendMagicLink()">Send Magic Link</button>
     <div class="modal-msg" id="modal-msg"></div>
+  </div>
+</div>
+
+<!-- ═══════ NAME COLLECTION MODAL (shown after Google login with no name) ═══════ -->
+<div class="modal-overlay" id="name-modal">
+  <div class="modal" style="max-width:380px">
+    <div class="modal-title">One last step 👋</div>
+    <div class="modal-sub">What should we call you? (Required to continue)</div>
+    <input class="inp" type="text" id="name-inp" placeholder="Your full name" onkeydown="if(event.key==='Enter')saveName()"/>
+    <button class="btn-email-send" id="btn-save-name" onclick="saveName()">Save &amp; Continue</button>
+    <div class="modal-msg" id="name-msg"></div>
   </div>
 </div>
 
@@ -566,18 +580,46 @@ function _initSupabase() {
     _updateNavAuth();
     if (_event === 'SIGNED_IN') {
       closeLoginModal();
-      showToast('Logged in — welcome! 🎉');
       if (el('done-login-prompt')) el('done-login-prompt').style.display = 'none';
-      _upsertProfile(session.user);
+      _handleSignIn(session.user);
     }
   });
   return supa;
 }
 window.addEventListener('load', () => _initSupabase());
 
-async function _upsertProfile(user) {
+async function _handleSignIn(user) {
+  const metaName = (user.user_metadata?.full_name || user.user_metadata?.name || '').trim();
+  if (!metaName) {
+    // No name from provider — ask the user
+    el('name-modal').classList.add('open');
+    el('name-inp').value = '';
+    el('name-msg').textContent = '';
+    el('name-inp').focus();
+  } else {
+    showToast('Logged in — welcome! 🎉');
+    await _upsertProfile(user, metaName);
+  }
+}
+
+async function saveName() {
+  const name = el('name-inp').value.trim();
+  if (!name || name.length < 2) {
+    const m = el('name-msg'); m.textContent = 'Please enter your name.'; m.className = 'modal-msg err'; return;
+  }
+  const btn = el('btn-save-name'); btn.disabled = true; btn.textContent = 'Saving…';
+  await _upsertProfile(_authUser, name);
+  // Also update user metadata so nav shows the name
+  if (supa) await supa.auth.updateUser({ data: { full_name: name } });
+  el('nav-user-name').textContent = name;
+  btn.disabled = false; btn.textContent = 'Save & Continue';
+  el('name-modal').classList.remove('open');
+  showToast('Welcome, ' + name + '! 🎉');
+}
+
+async function _upsertProfile(user, nameOverride) {
   if (!supa || !user) return;
-  const name = user.user_metadata?.full_name || user.user_metadata?.name || user.email?.split('@')[0] || '';
+  const name = nameOverride || user.user_metadata?.full_name || user.user_metadata?.name || '';
   await supa.from('user_profiles').upsert({
     id: user.id, display_name: name,
     signup_source: 'electrostatics_landing',
@@ -618,43 +660,74 @@ async function doLogout() {
   showToast('Logged out successfully.');
 }
 
+let _adminData = null;
+let _adminTab  = 'landing'; // 'all' | 'landing'
+
 async function openAdminPanel() {
   if (!_isAdmin()) return;
   el('admin-modal').classList.add('open');
-  const content = el('admin-content');
-  content.innerHTML = '<div style="color:var(--muted);text-align:center;padding:2rem">Loading users…</div>';
+  _renderAdminContent('<div style="color:var(--muted);text-align:center;padding:2rem">Loading users…</div>');
   const s = _initSupabase();
-  if (!s) { content.innerHTML = '<div style="color:var(--red)">Supabase not ready.</div>'; return; }
+  if (!s) { _renderAdminContent('<div style="color:var(--red)">Supabase not ready.</div>'); return; }
   const { data, error } = await s.rpc('get_all_user_profiles');
-  if (error) { content.innerHTML = `<div style="color:var(--red)">Error: ${error.message}</div>`; return; }
-  const landing = (data||[]).filter(u => u.signup_source === 'electrostatics_landing');
-  const all     = data||[];
-  content.innerHTML = `
-    <div style="display:flex;gap:1rem;margin-bottom:1rem;flex-wrap:wrap">
-      <div style="background:var(--navy3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:.6rem 1rem;text-align:center;flex:1">
-        <div style="font-family:'Sora',sans-serif;font-size:1.6rem;font-weight:800;color:var(--gold)">${all.length}</div>
-        <div style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em">Total Users</div>
+  if (error) { _renderAdminContent(`<div style="color:var(--red)">Error: ${error.message}</div>`); return; }
+  _adminData = data || [];
+  _renderAdminTable();
+}
+
+function _renderAdminContent(html) { el('admin-content').innerHTML = html; }
+
+function _renderAdminTable() {
+  if (!_adminData) return;
+  const all     = _adminData;
+  const landing = _adminData.filter(u => u.signup_source === 'electrostatics_landing');
+  const list    = _adminTab === 'landing' ? landing : all;
+
+  function userRow(u) {
+    const src = u.signup_source === 'electrostatics_landing'
+      ? `<span style="font-size:.68rem;background:#0a1f14;color:var(--green);border:1px solid var(--green);border-radius:4px;padding:.1rem .4rem;white-space:nowrap">landing</span>`
+      : `<span style="font-size:.68rem;background:var(--navy3);color:var(--muted);border:1px solid var(--border);border-radius:4px;padding:.1rem .4rem;white-space:nowrap">main app</span>`;
+    return `<div style="border-bottom:1px solid var(--border);padding:.55rem .25rem;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap">
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;color:var(--white);font-size:.85rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${u.email}</div>
+        <div style="font-size:.72rem;color:var(--muted)">${u.display_name||'—'} · ${u.plan||'free'} · ${new Date(u.created_at).toLocaleDateString('en-IN')}</div>
       </div>
-      <div style="background:var(--navy3);border:1px solid var(--green);border-radius:var(--radius-sm);padding:.6rem 1rem;text-align:center;flex:1">
-        <div style="font-family:'Sora',sans-serif;font-size:1.6rem;font-weight:800;color:var(--green)">${landing.length}</div>
-        <div style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em">From This Page</div>
+      ${src}
+    </div>`;
+  }
+
+  _renderAdminContent(`
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:.6rem;margin-bottom:1rem">
+      <div style="background:var(--navy3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:.6rem;text-align:center">
+        <div style="font-family:'Sora',sans-serif;font-size:1.5rem;font-weight:800;color:var(--gold)">${all.length}</div>
+        <div style="font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em">Total</div>
+      </div>
+      <div style="background:var(--navy3);border:1px solid var(--green);border-radius:var(--radius-sm);padding:.6rem;text-align:center">
+        <div style="font-family:'Sora',sans-serif;font-size:1.5rem;font-weight:800;color:var(--green)">${landing.length}</div>
+        <div style="font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em">Landing Page</div>
+      </div>
+      <div style="background:var(--navy3);border:1px solid var(--blue);border-radius:var(--radius-sm);padding:.6rem;text-align:center">
+        <div style="font-family:'Sora',sans-serif;font-size:1.5rem;font-weight:800;color:var(--blue)">${all.length - landing.length}</div>
+        <div style="font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em">Main App</div>
       </div>
     </div>
-    <div style="font-family:'Sora',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-bottom:.5rem">Recent signups from landing page</div>
-    ${landing.length === 0
-      ? '<div style="color:var(--muted);padding:.75rem;text-align:center">No signups from this page yet.</div>'
-      : landing.slice(0,20).map(u => `
-        <div style="background:var(--navy3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:.6rem .85rem;margin-bottom:.4rem;display:flex;align-items:center;justify-content:space-between;gap:.5rem;flex-wrap:wrap">
-          <div>
-            <div style="font-weight:600;color:var(--white)">${u.email}</div>
-            <div style="font-size:.72rem;color:var(--muted)">${u.display_name || '—'} · ${u.plan||'free'} · ${new Date(u.created_at).toLocaleDateString()}</div>
-          </div>
-          <div style="font-size:.7rem;background:#0a1f14;color:var(--green);border:1px solid var(--green);border-radius:4px;padding:.15rem .45rem">${u.signup_source}</div>
-        </div>`).join('')
-    }
-    <div style="margin-top:.75rem;text-align:right">
-      <a href="https://karnan.guru" target="_blank" style="color:var(--gold);font-size:.8rem">Open Full Admin Panel →</a>
-    </div>`;
+
+    <div style="display:flex;gap:.4rem;margin-bottom:.75rem">
+      <button onclick="_adminTab='landing';_renderAdminTable()" style="flex:1;padding:.45rem;border:none;border-radius:var(--radius-sm);font-weight:700;font-size:.8rem;cursor:pointer;background:${_adminTab==='landing'?'var(--green)':'var(--navy3)'};color:${_adminTab==='landing'?'#000':'var(--muted)'}">
+        🔗 This Page (${landing.length})
+      </button>
+      <button onclick="_adminTab='all';_renderAdminTable()" style="flex:1;padding:.45rem;border:none;border-radius:var(--radius-sm);font-weight:700;font-size:.8rem;cursor:pointer;background:${_adminTab==='all'?'var(--gold)':'var(--navy3)'};color:${_adminTab==='all'?'#000':'var(--muted)'}">
+        👥 All Users (${all.length})
+      </button>
+    </div>
+
+    <div style="max-height:340px;overflow-y:auto">
+      ${list.length === 0
+        ? '<div style="color:var(--muted);text-align:center;padding:1.5rem">No users yet.</div>'
+        : list.map(userRow).join('')}
+    </div>
+    <button onclick="openAdminPanel()" style="width:100%;margin-top:.75rem;background:var(--navy3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:.5rem;color:var(--muted);font-size:.8rem;cursor:pointer">↻ Refresh</button>
+  `);
 }
 
 function openLoginModal()  { el('login-modal').classList.add('open'); }
@@ -686,11 +759,16 @@ async function loginGoogle() {
 async function sendMagicLink() {
   const s = _initSupabase();
   if (!s) { showToast('Auth not ready yet. Please wait a moment.'); return; }
+  const name  = el('modal-name').value.trim();
   const email = el('modal-email').value.trim();
+  if (!name || name.length < 2) { setModalMsg('Please enter your full name.', true); el('modal-name').focus(); return; }
   if (!email || !email.includes('@')) { setModalMsg('Please enter a valid email.', true); return; }
   const btn = el('btn-send-link');
   btn.disabled = true; btn.textContent = 'Sending…';
-  const { error } = await s.auth.signInWithOtp({ email, options: { emailRedirectTo: window.location.href } });
+  const { error } = await s.auth.signInWithOtp({
+    email,
+    options: { emailRedirectTo: window.location.href, data: { full_name: name } }
+  });
   btn.disabled = false; btn.textContent = 'Send Magic Link';
   if (error) setModalMsg('Error: ' + error.message, true);
   else       setModalMsg('✓ Check your inbox for the login link!', false);
@@ -1204,6 +1282,7 @@ function tfNav(dir) {
   showLanding();
   el('login-modal').addEventListener('click', e => { if (e.target===el('login-modal')) closeLoginModal(); });
   el('admin-modal').addEventListener('click', e => { if (e.target===el('admin-modal')) el('admin-modal').classList.remove('open'); });
+  // name-modal cannot be closed by clicking outside — user must enter name
 })();
 </script>
 </body>
