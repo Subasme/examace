@@ -576,13 +576,13 @@ function showLanding() {
 }
 function showQuiz() {
   el('landing').style.display   = 'none';
-  el('quiz-view').style.display = '';
+  el('quiz-view').style.display = 'block';
   el('done-view').style.display = 'none';
 }
 function showDone() {
   el('landing').style.display   = 'none';
   el('quiz-view').style.display = 'none';
-  el('done-view').style.display = '';
+  el('done-view').style.display = 'block';
   const {correct,total,pct} = _scoreText();
   el('done-score').textContent    = `${correct} / ${total} correct  (${pct}%)`;
   el('done-score').style.color    = pct>=75?'#22c55e':pct>=50?'#3b82f6':'#ef4444';
