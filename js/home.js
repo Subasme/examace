@@ -135,6 +135,14 @@ function renderHomeFeatures() {
       </div>
       <div class="dac-count" style="color:${tfDone5 ? 'var(--success)' : '#00897b'}">${tfDone5 ? '✓' : tfDone + '/' + FREE_TF_DAILY}</div>
     </div>
+    <div class="act-card act-practice" style="margin-top:.65rem;cursor:pointer" onclick="openElectrostaticsMode()">
+      <div class="act-icon">⚡</div>
+      <div class="act-body">
+        <div class="act-title">${_ta('Electrostatics Only','மின்னியல் மட்டும்')}</div>
+        <div class="act-sub">${_ta('Class 12 · 20 Questions/day · No repeat until pool exhausted','வகுப்பு 12 · 20 கேள்விகள்/நாள் · குளம் முடியும் வரை மீண்டும் வராது')}</div>
+      </div>
+      <div class="act-badge">${_ta('Free →','இலவசம் →')}</div>
+    </div>
     <div class="section-title" style="margin-top:.75rem;color:var(--muted)">${_ta('Upgrade to Unlock','திறக்க மேம்படுத்துங்கள்')}</div>
     <div class="premium-row">
       <div class="pf-card" onclick="showUpgradePrompt('MCQ Practice')">📚<br/>${_ta('Practice','பயிற்சி')}<span class="pf-badge">PRO</span></div>
@@ -175,6 +183,14 @@ function renderHomeFeatures() {
         <div class="pf-card" onclick="openFlow('truefalse')">✅<br/>${_ta('True/False','சரி/தவறு')}</div>
         <div class="pf-card" onclick="showScreen('leaderboard')">🏅<br/>${_ta('Leaderboard','தரவரிசை')}</div>
         <div class="pf-card" onclick="showScreen('dashboard')">📊<br/>${_ta('Dashboard','டாஷ்போர்டு')}</div>
+      </div>
+      <div class="act-card act-practice" style="margin-top:.65rem;cursor:pointer" onclick="openElectrostaticsMode()">
+        <div class="act-icon">⚡</div>
+        <div class="act-body">
+          <div class="act-title">${_ta('Electrostatics Only','மின்னியல் மட்டும்')}</div>
+          <div class="act-sub">${_ta('Class 12 · Electric Charges &amp; Potential · 20 Q/day','வகுப்பு 12 · மின்னூட்டம் &amp; மின்னிலை · 20 கேள்விகள்/நாள்')}</div>
+        </div>
+        <div class="act-badge">⚡ →</div>
       </div>`;
   }
 }

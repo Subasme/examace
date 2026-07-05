@@ -220,6 +220,9 @@ function renderPracticeQ() {
   if (banner && appMode === 'challenge') {
     banner.style.cssText = 'background:linear-gradient(90deg,#1e1b4b,#312e81);border-left-color:#6366f1;color:#c7d2fe';
     banner.querySelector('span').textContent = '🏆 Challenge Mode';
+  } else if (banner && appMode === 'electrostatics') {
+    banner.style.cssText = 'background:linear-gradient(90deg,#fef9c3,#fef08a);border-left-color:#f59e0b;color:#78350f';
+    banner.querySelector('span').textContent = _ta('⚡ Electrostatics Practice', '⚡ மின்னியல் பயிற்சி');
   } else if (banner) {
     banner.style.cssText = '';
     banner.querySelector('span').textContent = '📚 Practice Mode';
@@ -228,7 +231,12 @@ function renderPracticeQ() {
   const wrong = Object.keys(answers).length - correct;
   const ch = practiceState.chapter || selection.chapter;
   let statusText = `✅ ${correct}  ❌ ${wrong}`;
-  if (!practiceState.skipDaily && userPlan === 'free') {
+  if (appMode === 'electrostatics') {
+    const esState = _esLoad();
+    const served  = esState.servedToday || 0;
+    const limit   = Math.min(ES_DAILY_MAX, served); // best-effort display
+    statusText += `  ⚡ ${idx + 1}/${total} ${_ta('today', 'இன்று')}`;
+  } else if (!practiceState.skipDaily && userPlan === 'free') {
     const dailyLeft = Math.max(0, FREE_DAILY_LIMIT - getSubjectDailyTotal());
     statusText += `  📅 ${dailyLeft} left today`;
   }
@@ -314,7 +322,9 @@ function practiceNav(dir) {
         recordChapterAttempt(selection.chapter.id, subj, scorePct, total).catch(() => {});
       }
     }
-    if (!practiceState.skipDaily && userPlan !== 'premium' && userPlan !== 'unlimited' && selection.chapter && isDailyComplete(selection.chapter)) {
+    if (appMode === 'electrostatics') {
+      openElectrostaticsMode();
+    } else if (!practiceState.skipDaily && userPlan !== 'premium' && userPlan !== 'unlimited' && selection.chapter && isDailyComplete(selection.chapter)) {
       document.getElementById('done-chapter').textContent = _chapLabel(selection.chapter.label);
       const limitEl = document.getElementById('done-limit');
       if (limitEl) limitEl.textContent = `${FREE_DAILY_LIMIT} questions`;
