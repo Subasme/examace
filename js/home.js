@@ -143,6 +143,14 @@ function renderHomeFeatures() {
       </div>
       <div class="act-badge">${_ta('Free →','இலவசம் →')}</div>
     </div>
+    <div class="act-card act-practice" style="margin-top:.5rem;cursor:pointer;background:linear-gradient(135deg,#e0f2fe,#f0f9ff);border-color:#38bdf8" onclick="openECFMode()">
+      <div class="act-icon">🔵</div>
+      <div class="act-body">
+        <div class="act-title">${_ta('Electric Charges &amp; Fields','மின்னூட்டங்கள் &amp; புலங்கள்')}</div>
+        <div class="act-sub">${_ta('Class 12 · 200 Q pool · 20 per day · Rotates daily','வகுப்பு 12 · 200 கேள்விகள் · 20/நாள் · தினசரி சுழலும்')}</div>
+      </div>
+      <div class="act-badge" style="color:#0369a1">${_ta('Free →','இலவசம் →')}</div>
+    </div>
     <div class="section-title" style="margin-top:.75rem;color:var(--muted)">${_ta('Upgrade to Unlock','திறக்க மேம்படுத்துங்கள்')}</div>
     <div class="premium-row">
       <div class="pf-card" onclick="showUpgradePrompt('MCQ Practice')">📚<br/>${_ta('Practice','பயிற்சி')}<span class="pf-badge">PRO</span></div>
@@ -191,6 +199,14 @@ function renderHomeFeatures() {
           <div class="act-sub">${_ta('Class 12 · Electric Charges &amp; Potential · 20 Q/day','வகுப்பு 12 · மின்னூட்டம் &amp; மின்னிலை · 20 கேள்விகள்/நாள்')}</div>
         </div>
         <div class="act-badge">⚡ →</div>
+      </div>
+      <div class="act-card act-practice" style="margin-top:.5rem;cursor:pointer;background:linear-gradient(135deg,#e0f2fe,#f0f9ff);border-color:#38bdf8" onclick="openECFMode()">
+        <div class="act-icon">🔵</div>
+        <div class="act-body">
+          <div class="act-title">${_ta('Electric Charges &amp; Fields','மின்னூட்டங்கள் &amp; புலங்கள்')}</div>
+          <div class="act-sub">${_ta('Class 12 · 200 Q pool · 20 Q/day · Rotates daily','வகுப்பு 12 · 200 கேள்விகள் · 20/நாள் · தினசரி சுழலும்')}</div>
+        </div>
+        <div class="act-badge" style="color:#0369a1">→</div>
       </div>`;
   }
 }
