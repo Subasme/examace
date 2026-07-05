@@ -35,6 +35,19 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 .user-chip .dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0}
 .btn-login-nav{background:var(--gold);color:#000;font-weight:700;font-size:.8rem;border:none;border-radius:99px;padding:.35rem .9rem;cursor:pointer}
 .btn-login-nav:hover{opacity:.88}
+.btn-logout-nav{background:transparent;color:var(--muted);font-weight:600;font-size:.78rem;border:1px solid var(--border);border-radius:99px;padding:.3rem .75rem;cursor:pointer}
+.btn-logout-nav:hover{color:var(--white);border-color:var(--muted)}
+.btn-admin-nav{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;font-weight:800;font-size:.78rem;border:none;border-radius:99px;padding:.3rem .85rem;cursor:pointer}
+.btn-admin-nav:hover{opacity:.88}
+
+/* ── HERO BANNER ── */
+.hero-banner{position:relative;border-radius:var(--radius);overflow:hidden;margin-bottom:1.25rem;min-height:180px;background:#020b18}
+.hero-banner img{width:100%;display:block;max-height:280px;object-fit:cover;object-position:center 30%}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,11,24,.85) 0%,rgba(2,11,24,.3) 60%,transparent 100%)}
+.hero-text{position:absolute;bottom:1.25rem;left:1.25rem}
+.hero-tag{font-size:.68rem;font-weight:800;letter-spacing:.16em;color:var(--gold);text-transform:uppercase;margin-bottom:.3rem}
+.hero-h{font-family:'Sora',sans-serif;font-weight:800;font-size:clamp(1.3rem,5vw,2.2rem);color:#fff;line-height:1.1}
+.hero-sub{font-size:.82rem;color:var(--muted);margin-top:.3rem}
 
 /* ── LANDING ── */
 #landing{max-width:780px;margin:0 auto;padding:1rem 1rem 2rem}
@@ -252,16 +265,29 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 <nav class="topnav">
   <div class="topnav-brand">KARNAN <span>PHYSICS</span></div>
   <div class="topnav-right">
+    <button class="btn-admin-nav" id="btn-admin" style="display:none" onclick="openAdminPanel()">⚙ Admin</button>
     <div class="user-chip" id="nav-user" style="display:none">
       <div class="dot"></div>
       <span id="nav-user-name">User</span>
     </div>
+    <button class="btn-logout-nav" id="btn-nav-logout" style="display:none" onclick="doLogout()">Logout</button>
     <button class="btn-login-nav" id="btn-nav-login" onclick="openLoginModal()">Login / Sign Up</button>
   </div>
 </nav>
 
 <!-- ═══════ LANDING VIEW ═══════ -->
 <div id="landing">
+
+  <!-- Hero image banner -->
+  <div class="hero-banner">
+    <img src="hero.png" alt="Electric Charges and Fields — Chapter 1" loading="eager"/>
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+      <div class="hero-tag">Chapter 1 · Class 12 · NEET</div>
+      <div class="hero-h">Electric Charges<br/>&amp; Fields</div>
+      <div class="hero-sub">Daily Practice · 200 MCQs · 20 Qs/day</div>
+    </div>
+  </div>
 
   <!-- Top 3-column bar -->
   <div class="top-bar">
@@ -507,6 +533,16 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
   </div>
 </div>
 
+<!-- ═══════ ADMIN PANEL MODAL ═══════ -->
+<div class="modal-overlay" id="admin-modal">
+  <div class="modal" style="max-width:600px;max-height:90vh;overflow-y:auto">
+    <button class="modal-close" onclick="el('admin-modal').classList.remove('open')">✕</button>
+    <div class="modal-title" style="color:var(--gold)">⚙ Admin Panel</div>
+    <div class="modal-sub">Landing page signups from electrostatics_landing</div>
+    <div id="admin-content" style="margin-top:1rem;font-size:.82rem"></div>
+  </div>
+</div>
+
 <!-- Toast -->
 <div class="toast" id="toast"></div>
 
@@ -549,27 +585,102 @@ async function _upsertProfile(user) {
   }, { onConflict: 'id', ignoreDuplicates: false });
 }
 
+const ADMIN_EMAIL = 'karnanphysics2026@gmail.com';
+
+function _isAdmin() { return _authUser && _authUser.email === ADMIN_EMAIL; }
+
 function _updateNavAuth() {
-  const chip = el('nav-user'), btn = el('btn-nav-login');
+  const chip    = el('nav-user');
+  const btnLogin  = el('btn-nav-login');
+  const btnLogout = el('btn-nav-logout');
+  const btnAdmin  = el('btn-admin');
   if (_authUser) {
     const name = _authUser.user_metadata?.full_name || _authUser.email?.split('@')[0] || 'User';
     el('nav-user-name').textContent = name;
-    chip.style.display = ''; btn.style.display = 'none';
+    chip.style.display    = '';
+    btnLogout.style.display = '';
+    btnLogin.style.display  = 'none';
+    btnAdmin.style.display  = _isAdmin() ? '' : 'none';
   } else {
-    chip.style.display = 'none'; btn.style.display = '';
+    chip.style.display    = 'none';
+    btnLogout.style.display = 'none';
+    btnLogin.style.display  = '';
+    btnAdmin.style.display  = 'none';
   }
   // Re-render landing buttons so locked/unlocked state updates
   if (el('landing').style.display !== 'none') renderLandingAction();
+}
+
+async function doLogout() {
+  const s = _initSupabase();
+  if (!s) return;
+  await s.auth.signOut();
+  showToast('Logged out successfully.');
+}
+
+async function openAdminPanel() {
+  if (!_isAdmin()) return;
+  el('admin-modal').classList.add('open');
+  const content = el('admin-content');
+  content.innerHTML = '<div style="color:var(--muted);text-align:center;padding:2rem">Loading users…</div>';
+  const s = _initSupabase();
+  if (!s) { content.innerHTML = '<div style="color:var(--red)">Supabase not ready.</div>'; return; }
+  const { data, error } = await s.rpc('get_all_user_profiles');
+  if (error) { content.innerHTML = `<div style="color:var(--red)">Error: ${error.message}</div>`; return; }
+  const landing = (data||[]).filter(u => u.signup_source === 'electrostatics_landing');
+  const all     = data||[];
+  content.innerHTML = `
+    <div style="display:flex;gap:1rem;margin-bottom:1rem;flex-wrap:wrap">
+      <div style="background:var(--navy3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:.6rem 1rem;text-align:center;flex:1">
+        <div style="font-family:'Sora',sans-serif;font-size:1.6rem;font-weight:800;color:var(--gold)">${all.length}</div>
+        <div style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em">Total Users</div>
+      </div>
+      <div style="background:var(--navy3);border:1px solid var(--green);border-radius:var(--radius-sm);padding:.6rem 1rem;text-align:center;flex:1">
+        <div style="font-family:'Sora',sans-serif;font-size:1.6rem;font-weight:800;color:var(--green)">${landing.length}</div>
+        <div style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em">From This Page</div>
+      </div>
+    </div>
+    <div style="font-family:'Sora',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-bottom:.5rem">Recent signups from landing page</div>
+    ${landing.length === 0
+      ? '<div style="color:var(--muted);padding:.75rem;text-align:center">No signups from this page yet.</div>'
+      : landing.slice(0,20).map(u => `
+        <div style="background:var(--navy3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:.6rem .85rem;margin-bottom:.4rem;display:flex;align-items:center;justify-content:space-between;gap:.5rem;flex-wrap:wrap">
+          <div>
+            <div style="font-weight:600;color:var(--white)">${u.email}</div>
+            <div style="font-size:.72rem;color:var(--muted)">${u.display_name || '—'} · ${u.plan||'free'} · ${new Date(u.created_at).toLocaleDateString()}</div>
+          </div>
+          <div style="font-size:.7rem;background:#0a1f14;color:var(--green);border:1px solid var(--green);border-radius:4px;padding:.15rem .45rem">${u.signup_source}</div>
+        </div>`).join('')
+    }
+    <div style="margin-top:.75rem;text-align:right">
+      <a href="https://karnan.guru" target="_blank" style="color:var(--gold);font-size:.8rem">Open Full Admin Panel →</a>
+    </div>`;
 }
 
 function openLoginModal()  { el('login-modal').classList.add('open'); }
 function closeLoginModal() { el('login-modal').classList.remove('open'); el('modal-msg').textContent = ''; }
 
 async function loginGoogle() {
-  const s = _initSupabase();
-  if (!s) { showToast('Auth not ready yet. Please wait a moment.'); return; }
-  const { error } = await s.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
-  if (error) showToast('Google login failed. Please try again.');
+  // Retry init up to 3s if Supabase CDN hasn't loaded yet
+  let s = _initSupabase();
+  if (!s) {
+    const btn = document.querySelector('.btn-google-lg');
+    if (btn) { btn.disabled = true; btn.textContent = 'Loading…'; }
+    await new Promise(r => setTimeout(r, 1500));
+    s = _initSupabase();
+    if (btn) { btn.disabled = false; btn.innerHTML = btn.innerHTML || 'Continue with Google'; }
+  }
+  if (!s) { showToast('Could not connect. Please refresh and try again.'); return; }
+  const btn = document.querySelector('.btn-google-lg');
+  if (btn) { btn.disabled = true; btn.textContent = 'Redirecting to Google…'; }
+  const { error } = await s.auth.signInWithOAuth({
+    provider: 'google',
+    options: { redirectTo: window.location.href, queryParams: { prompt: 'select_account' } }
+  });
+  if (error) {
+    if (btn) { btn.disabled = false; btn.textContent = 'Continue with Google'; }
+    showToast('Google login failed: ' + error.message);
+  }
 }
 
 async function sendMagicLink() {
@@ -1092,6 +1203,7 @@ function tfNav(dir) {
 
   showLanding();
   el('login-modal').addEventListener('click', e => { if (e.target===el('login-modal')) closeLoginModal(); });
+  el('admin-modal').addEventListener('click', e => { if (e.target===el('admin-modal')) el('admin-modal').classList.remove('open'); });
 })();
 </script>
 </body>
