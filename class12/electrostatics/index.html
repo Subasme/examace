@@ -8,12 +8,10 @@
 <meta property="og:title" content="Electrostatics Daily Practice — KARNAN Physics"/>
 <meta property="og:description" content="20 free NEET MCQs every day on Electric Charges and Fields. Detailed explanations, NEET pattern, updated daily."/>
 <meta property="og:url" content="https://karnan.guru/class12/electrostatics"/>
+<!-- Fonts non-blocking -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
-<!-- Supabase for auth -->
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<!-- Question pool — loaded first so ECF_QUESTIONS is defined before inline scripts -->
-<script src="../../js/data-ecf.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/></noscript>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -375,29 +373,40 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 <!-- Toast -->
 <div class="toast" id="toast"></div>
 
+<!-- Scripts at bottom — non-blocking page render -->
+<script src="../../js/data-ecf.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" async></script>
 
 <script>
-// ── Supabase ──────────────────────────────────────────────────────────────────
+// ── Supabase (loaded async — init lazily after DOMContentLoaded) ──────────────
 const SUPA_URL = 'https://vtswgisxeylubvazcefe.supabase.co';
 const SUPA_KEY = 'sb_publishable_lTpVWMDF42ocz84PXirWww_iVcNyeZ-';
-const supa = window.supabase.createClient(SUPA_URL, SUPA_KEY);
+let supa = null;
 
 let _authUser = null;
 
-// ── Auth ──────────────────────────────────────────────────────────────────────
-supa.auth.getSession().then(({ data }) => {
-  _authUser = data?.session?.user || null;
-  _updateNavAuth();
-});
-supa.auth.onAuthStateChange((_event, session) => {
-  _authUser = session?.user || null;
-  _updateNavAuth();
-  if (_event === 'SIGNED_IN') {
-    closeLoginModal();
-    showToast('Logged in — welcome! 🎉');
-    if (el('done-login-prompt')) el('done-login-prompt').style.display = 'none';
-  }
-});
+function _initSupabase() {
+  if (supa) return supa;
+  if (!window.supabase) return null;
+  supa = window.supabase.createClient(SUPA_URL, SUPA_KEY);
+  supa.auth.getSession().then(({ data }) => {
+    _authUser = data?.session?.user || null;
+    _updateNavAuth();
+  });
+  supa.auth.onAuthStateChange((_event, session) => {
+    _authUser = session?.user || null;
+    _updateNavAuth();
+    if (_event === 'SIGNED_IN') {
+      closeLoginModal();
+      showToast('Logged in — welcome! 🎉');
+      if (el('done-login-prompt')) el('done-login-prompt').style.display = 'none';
+    }
+  });
+  return supa;
+}
+
+// Try to init Supabase once it loads (async script fires window.onload after)
+window.addEventListener('load', () => _initSupabase());
 
 function _updateNavAuth() {
   const chip = el('nav-user');
@@ -417,7 +426,9 @@ function openLoginModal()  { el('login-modal').classList.add('open'); }
 function closeLoginModal() { el('login-modal').classList.remove('open'); el('modal-msg').textContent = ''; }
 
 async function loginGoogle() {
-  const { error } = await supa.auth.signInWithOAuth({
+  const s = _initSupabase();
+  if (!s) { showToast('Auth not ready yet. Please wait a moment.'); return; }
+  const { error } = await s.auth.signInWithOAuth({
     provider: 'google',
     options: { redirectTo: window.location.href }
   });
@@ -425,11 +436,13 @@ async function loginGoogle() {
 }
 
 async function sendMagicLink() {
+  const s = _initSupabase();
+  if (!s) { showToast('Auth not ready yet. Please wait a moment.'); return; }
   const email = el('modal-email').value.trim();
   if (!email || !email.includes('@')) { setModalMsg('Please enter a valid email.', true); return; }
   const btn = el('btn-send-link');
   btn.disabled = true; btn.textContent = 'Sending…';
-  const { error } = await supa.auth.signInWithOtp({
+  const { error } = await s.auth.signInWithOtp({
     email,
     options: { emailRedirectTo: window.location.href }
   });
