@@ -90,6 +90,16 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 .mode-selector{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-bottom:.75rem}
 @media(max-width:600px){.mode-selector{grid-template-columns:1fr}}
 .mode-btn-wrap{display:flex;flex-direction:column;gap:.4rem}
+.mode-locked{background:var(--navy2);border:1.5px dashed var(--border);border-radius:var(--radius);padding:.85rem .75rem;text-align:center;cursor:pointer;transition:border-color .15s}
+.mode-locked:hover{border-color:var(--muted)}
+.mode-locked-icon{font-size:1.3rem;margin-bottom:.25rem}
+.mode-locked-label{font-family:'Sora',sans-serif;font-weight:700;font-size:.82rem;color:var(--muted);letter-spacing:.03em}
+.mode-locked-sub{font-size:.72rem;color:var(--gold);margin-top:.2rem}
+.all-done-bar{background:linear-gradient(90deg,#0a1f14,#1a3a2a);border:2px solid var(--green);border-radius:var(--radius);padding:1rem 1.25rem;margin-top:.75rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
+.all-done-text{font-family:'Sora',sans-serif;font-size:.88rem;font-weight:700;color:var(--green)}
+.all-done-sub{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+.btn-goto-app{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;font-weight:800;border:none;border-radius:var(--radius-sm);padding:.6rem 1.25rem;font-size:.88rem;cursor:pointer;white-space:nowrap}
+.btn-goto-app:hover{opacity:.88}
 .btn-mode{width:100%;padding:.85rem .75rem;border:none;border-radius:var(--radius);cursor:pointer;font-family:'Sora',sans-serif;font-weight:800;font-size:.88rem;letter-spacing:.03em;transition:transform .15s,box-shadow .15s}
 .btn-mode:hover{transform:translateY(-2px)}
 .btn-mode.mcq{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;box-shadow:0 4px 16px rgba(59,130,246,.3)}
@@ -470,6 +480,9 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
       <button class="btn-gold" onclick="repeatCurrent()">🔁 Repeat</button>
       <button class="btn-back" onclick="showLanding()">← Back to Home</button>
     </div>
+    <div id="done-full-app" style="display:none;margin-top:.25rem">
+      <button class="btn-goto-app" style="width:100%;padding:.75rem" onclick="window.open('https://karnan.guru','_blank')">🏆 All done today! Explore Full App → karnan.guru</button>
+    </div>
   </div>
 </div><!-- /#done-view -->
 
@@ -545,6 +558,8 @@ function _updateNavAuth() {
   } else {
     chip.style.display = 'none'; btn.style.display = '';
   }
+  // Re-render landing buttons so locked/unlocked state updates
+  if (el('landing').style.display !== 'none') renderLandingAction();
 }
 
 function openLoginModal()  { el('login-modal').classList.add('open'); }
@@ -698,7 +713,6 @@ function renderLandingAction() {
 
   function modeBtn(mode, label, icon, cls) {
     const st = mode === 'mcq' ? _mcqSt : mode === 'fc' ? _fcSt : _tfSt;
-    const qs = mode === 'mcq' ? _mcqQs : mode === 'fc' ? _fcQs : _tfQs;
     const done = st.completed && !st.repeatMode;
     const answered = Object.keys(st.answers||{}).length;
     let statusHtml, btnLabel;
@@ -721,11 +735,38 @@ function renderLandingAction() {
     </div>`;
   }
 
+  function lockedBtn(label, icon) {
+    return `<div class="mode-btn-wrap">
+      <div class="mode-locked" onclick="openLoginModal()">
+        <div class="mode-locked-icon">${icon} 🔒</div>
+        <div class="mode-locked-label">${label}</div>
+        <div class="mode-locked-sub">Login to unlock</div>
+      </div>
+    </div>`;
+  }
+
+  const fcCol  = _authUser ? modeBtn('fc','Flashcards','🃏','fc')       : lockedBtn('Flashcards','🃏');
+  const tfCol  = _authUser ? modeBtn('tf','True / False','🔵','tf')     : lockedBtn('True / False','🔵');
+
+  const allDone = _authUser
+    && (_mcqSt.completed && !_mcqSt.repeatMode)
+    && (_fcSt.completed  && !_fcSt.repeatMode)
+    && (_tfSt.completed  && !_tfSt.repeatMode);
+
+  const allDoneBar = allDone ? `
+    <div class="all-done-bar">
+      <div>
+        <div class="all-done-text">🏆 All 3 modes complete for today!</div>
+        <div class="all-done-sub">Come back tomorrow for a fresh set of questions.</div>
+      </div>
+      <button class="btn-goto-app" onclick="window.open('https://karnan.guru','_blank')">Explore Full App →</button>
+    </div>` : '';
+
   la.innerHTML = `<div class="mode-selector">
     ${modeBtn('mcq','MCQ Quiz','📋','mcq')}
-    ${modeBtn('fc','Flashcards','🃏','fc')}
-    ${modeBtn('tf','True / False','🔵','tf')}
-  </div>`;
+    ${fcCol}
+    ${tfCol}
+  </div>${allDoneBar}`;
 }
 
 function startMode(mode) {
@@ -781,6 +822,12 @@ function showDone() {
   }
   el('done-tomorrow').textContent = `A new set of ${DAILY_LIMIT} questions unlocks tomorrow!`;
   el('done-reset').textContent = `Resets in ${timeUntilMidnight()}`;
+
+  const allDone = _authUser
+    && (_mcqSt.completed && !_mcqSt.repeatMode)
+    && (_fcSt.completed  && !_fcSt.repeatMode)
+    && (_tfSt.completed  && !_tfSt.repeatMode);
+  el('done-full-app').style.display = allDone ? 'block' : 'none';
 }
 
 // ── Share ─────────────────────────────────────────────────────────────────────
