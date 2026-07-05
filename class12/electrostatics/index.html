@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Electrostatics — Class 12 NEET Practice | KARNAN Physics</title>
+<meta name="description" content="Free daily NEET practice for Class 12 Physics Chapter 1 Electrostatics. 20 MCQs + 20 Flashcards + 20 True/False questions every day. Detailed solutions. NEET pattern."/>
+<meta property="og:title" content="Electrostatics Daily Practice — KARNAN Physics"/>
+<meta property="og:description" content="20 free NEET MCQs every day on Electric Charges and Fields. Detailed explanations, NEET pattern, updated daily."/>
+<meta property="og:url" content="https://karnan.guru/class12/electrostatics"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="../../js/data-ecf.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0a0f1e;--navy2:#111827;--navy3:#1e2d45;
+  --gold:#f5c518;--gold2:#d97706;
+  --blue:#3b82f6;--blue-light:#dbeafe;--blue-dark:#1e3a8a;
+  --green:#22c55e;--green-light:#dcfce7;--green-dark:#166534;
+  --purple:#8b5cf6;--purple-light:#ede9fe;--purple-dark:#5b21b6;
+  --white:#f1f5f9;--muted:#94a3b8;--border:#1e2d45;
+  --radius:12px;--radius-sm:8px;
+}
+body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;min-height:100vh;line-height:1.6}
+
+/* ── LANDING ── */
+#landing{max-width:780px;margin:0 auto;padding:1rem 1rem 2rem}
+
+/* top banner */
+.top-bar{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:.75rem;margin-bottom:1.5rem;padding:1rem;background:var(--navy2);border:1.5px solid var(--border);border-radius:var(--radius)}
+.formula-box{background:#0d1b2e;border:2px solid var(--gold);border-radius:var(--radius-sm);padding:.6rem .9rem;font-family:'Sora',sans-serif;color:var(--gold);font-size:.85rem;line-height:1.5}
+.formula-box .label{font-weight:800;font-size:.75rem;letter-spacing:.08em;margin-bottom:.2rem}
+.formula-box .eq{font-size:1rem}
+.brand{text-align:center}
+.brand-logo{font-family:'Sora',sans-serif;font-weight:800;font-size:1.15rem;color:var(--white);letter-spacing:.05em}
+.brand-logo span{color:var(--gold)}
+.brand-sub{font-size:.68rem;color:var(--muted);letter-spacing:.12em;margin-top:.15rem}
+.neet-badge{background:#0d1b2e;border:2px solid var(--gold);border-radius:var(--radius-sm);padding:.6rem .9rem;text-align:right}
+.neet-badge .nb-top{font-size:.7rem;color:var(--muted);letter-spacing:.1em}
+.neet-badge .nb-main{font-family:'Sora',sans-serif;font-weight:800;font-size:1.1rem;color:var(--gold)}
+.neet-badge .nb-wave{color:var(--gold);font-size:.9rem;letter-spacing:.02em}
+
+/* chapter heading */
+.chap-row{display:flex;align-items:center;justify-content:center;gap:.75rem;margin-bottom:.5rem;flex-wrap:wrap}
+.chap-label{font-family:'Sora',sans-serif;font-size:.75rem;font-weight:700;color:var(--muted);letter-spacing:.18em;text-transform:uppercase}
+.updated-badge{background:var(--gold);color:#000;font-size:.72rem;font-weight:800;padding:.3rem .7rem;border-radius:20px;letter-spacing:.06em;display:flex;align-items:center;gap:.3rem;white-space:nowrap}
+.chapter-title{text-align:center;font-family:'Sora',sans-serif;font-weight:800;font-size:clamp(2rem,8vw,3.2rem);color:var(--white);letter-spacing:.04em;line-height:1.1;margin-bottom:1.5rem;text-transform:uppercase}
+
+/* feature cards */
+.cards-row{display:grid;grid-template-columns:repeat(3,1fr);gap:.9rem;margin-bottom:1.5rem}
+@media(max-width:600px){.cards-row{grid-template-columns:1fr}}
+.feat-card{background:var(--navy2);border-radius:var(--radius);padding:1.25rem 1rem;text-align:center;border:2px solid var(--border)}
+.feat-card.blue{border-color:var(--blue);background:#0d1b38}
+.feat-card.green{border-color:var(--green);background:#0a1f14}
+.feat-card.purple{border-color:var(--purple);background:#13102a}
+.feat-icon{font-size:2.5rem;margin-bottom:.5rem;display:block}
+.feat-num{font-family:'Sora',sans-serif;font-size:3rem;font-weight:800;line-height:1}
+.feat-card.blue .feat-num{color:var(--blue)}
+.feat-card.green .feat-num{color:var(--green)}
+.feat-card.purple .feat-num{color:var(--purple)}
+.feat-label{font-family:'Sora',sans-serif;font-size:.78rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:.75rem}
+.feat-card.blue .feat-label{color:var(--blue)}
+.feat-card.green .feat-label{color:var(--green)}
+.feat-card.purple .feat-label{color:var(--purple)}
+.feat-divider{border:none;border-top:1px solid var(--border);margin:.6rem 0}
+.feat-list{list-style:none;text-align:left;font-size:.78rem;color:var(--muted);display:flex;flex-direction:column;gap:.3rem}
+.feat-list li::before{content:"✅ ";font-size:.7rem}
+
+/* CTA bar */
+.cta-bar{background:linear-gradient(90deg,#1a0d00,#2d1a00);border:2px solid var(--gold2);border-radius:var(--radius);padding:1rem 1.25rem;margin-bottom:1.25rem;display:flex;align-items:center;gap:1rem}
+.cta-icon{font-size:2rem;flex-shrink:0}
+.cta-text .line1{font-family:'Sora',sans-serif;font-size:clamp(.8rem,2.5vw,1rem);font-weight:800;color:var(--gold);letter-spacing:.04em;text-transform:uppercase}
+.cta-text .line2{font-size:.85rem;color:var(--muted);font-style:italic;margin-top:.15rem}
+.cta-text .brand-sig{color:var(--gold);font-weight:700}
+
+/* start button */
+.btn-start{display:block;width:100%;padding:1rem;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;font-family:'Sora',sans-serif;font-weight:800;font-size:1.05rem;border:none;border-radius:var(--radius);cursor:pointer;letter-spacing:.04em;transition:transform .15s,box-shadow .15s;margin-bottom:.75rem}
+.btn-start:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(245,197,24,.35)}
+.already-done{text-align:center;color:var(--muted);font-size:.85rem;padding:.75rem;background:var(--navy2);border-radius:var(--radius);border:1px solid var(--border)}
+.already-done strong{color:var(--green)}
+
+/* ── QUIZ ── */
+#quiz-view{display:none;max-width:640px;margin:0 auto;padding:1rem 1rem 2rem}
+.quiz-hero{background:linear-gradient(135deg,#0d1b38,#1a2a4a);border:2px solid var(--blue);border-radius:var(--radius);padding:.9rem 1.1rem;margin-bottom:1rem;display:flex;align-items:center;gap:.75rem}
+.quiz-hero-icon{font-size:1.8rem}
+.quiz-hero-text .qh-title{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem;color:var(--white)}
+.quiz-hero-text .qh-sub{font-size:.8rem;color:var(--muted);margin-top:.1rem}
+.progress-bar{background:var(--navy3);border-radius:99px;height:7px;overflow:hidden;margin-bottom:1rem}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--blue),var(--green));border-radius:99px;transition:width .3s}
+.question-box{background:var(--navy2);border:1.5px solid var(--border);border-radius:var(--radius);padding:1.1rem;margin-bottom:.9rem}
+.q-text{font-size:.97rem;font-weight:500;color:var(--white);line-height:1.65;margin-bottom:1rem}
+.opt{background:var(--navy3);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.75rem 1rem;margin-bottom:.5rem;cursor:pointer;font-size:.88rem;color:var(--white);display:flex;align-items:flex-start;gap:.75rem;transition:border-color .15s,background .15s;user-select:none}
+.opt:hover:not(.locked){border-color:var(--blue);background:#0d1b38}
+.opt.locked{cursor:default}
+.opt.correct{border-color:var(--green)!important;background:#0a2010!important;color:#86efac}
+.opt.wrong{border-color:#ef4444!important;background:#2a0a0a!important;color:#fca5a5}
+.opt-key{background:var(--navy);border:1px solid var(--border);border-radius:4px;padding:.1rem .4rem;font-size:.75rem;font-weight:700;color:var(--muted);flex-shrink:0;margin-top:.05rem}
+.opt.correct .opt-key{background:#064e3b;border-color:var(--green);color:#86efac}
+.opt.wrong .opt-key{background:#7f1d1d;border-color:#ef4444;color:#fca5a5}
+.exp-box{display:none;background:#0d1f0f;border-left:3px solid var(--green);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.75rem 1rem;font-size:.83rem;color:#86efac;line-height:1.7;margin-top:.75rem}
+.exp-box.show{display:block}
+.exp-box.wrong-bg{background:#1f0d0d;border-left-color:#ef4444;color:#fca5a5}
+.exp-box strong{display:block;font-weight:700;margin-bottom:.25rem;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase}
+.quiz-nav{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.btn{border:none;border-radius:var(--radius-sm);padding:.55rem 1.1rem;font-family:'DM Sans',sans-serif;font-size:.88rem;font-weight:600;cursor:pointer;transition:opacity .15s}
+.btn-outline{background:transparent;border:1.5px solid var(--border);color:var(--white)}
+.btn-outline:hover{border-color:var(--muted)}
+.btn-primary{background:var(--blue);color:#fff}
+.btn-primary:hover{opacity:.88}
+.btn:disabled{opacity:.45;cursor:default}
+.q-score{font-size:.78rem;color:var(--muted)}
+
+/* completion */
+#done-view{display:none;max-width:640px;margin:0 auto;padding:1rem 1rem 2rem;text-align:center}
+.done-card{background:var(--navy2);border:2px solid var(--green);border-radius:var(--radius);padding:2rem 1.5rem;margin-bottom:1rem}
+.done-emoji{font-size:3rem;margin-bottom:.5rem}
+.done-title{font-family:'Sora',sans-serif;font-weight:800;font-size:1.4rem;margin-bottom:.5rem}
+.done-score{font-family:'Sora',sans-serif;font-size:2rem;font-weight:800;margin-bottom:.4rem}
+.done-sub{color:var(--muted);font-size:.88rem;margin-bottom:.25rem}
+.done-reset{color:var(--muted);font-size:.78rem}
+.done-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;font-weight:800;border:none;border-radius:var(--radius-sm);padding:.65rem 1.4rem;font-size:.9rem;cursor:pointer}
+.btn-gold:hover{opacity:.88}
+.btn-back{background:var(--navy3);color:var(--white);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.65rem 1.4rem;font-size:.9rem;cursor:pointer}
+</style>
+</head>
+<body>
+
+<!-- ═══════ LANDING VIEW ═══════ -->
+<div id="landing">
+
+  <!-- Top 3-column bar -->
+  <div class="top-bar">
+    <div class="formula-box">
+      <div class="label">COULOMB'S LAW</div>
+      <div class="eq">F = <sup>1</sup>⁄<sub>4πε₀</sub> · q₁q₂ / r²</div>
+    </div>
+    <div class="brand">
+      <div class="brand-logo">KARNAN <span>PHYSICS</span></div>
+      <div class="brand-sub">CONCEPT · CLARITY · CONFIDENCE</div>
+    </div>
+    <div class="neet-badge">
+      <div class="nb-top">PHYSICS 12TH</div>
+      <div class="nb-main">NEET</div>
+      <div class="nb-wave">〰〰〰〰〰</div>
+    </div>
+  </div>
+
+  <!-- Chapter heading -->
+  <div class="chap-row">
+    <div class="chap-label">— Chapter 1 —</div>
+    <div class="updated-badge">📅 Updated Daily</div>
+  </div>
+  <h1 class="chapter-title">Electrostatics</h1>
+
+  <!-- Feature cards -->
+  <div class="cards-row">
+    <div class="feat-card blue">
+      <span class="feat-icon">📋</span>
+      <div class="feat-num">20</div>
+      <div class="feat-label">Free NEET Practice Questions</div>
+      <hr class="feat-divider"/>
+      <ul class="feat-list">
+        <li>Chapter 1 based</li>
+        <li>NEET pattern</li>
+        <li>Detailed solutions</li>
+        <li>Boost your accuracy</li>
+      </ul>
+    </div>
+    <div class="feat-card green">
+      <span class="feat-icon">🃏</span>
+      <div class="feat-num">20</div>
+      <div class="feat-label">Flashcards Daily</div>
+      <hr class="feat-divider"/>
+      <ul class="feat-list">
+        <li>Key concepts simplified</li>
+        <li>Formulae: Quick recall</li>
+        <li>Diagrams &amp; definitions</li>
+        <li>Revise smart, score more</li>
+      </ul>
+    </div>
+    <div class="feat-card purple">
+      <span class="feat-icon" style="font-weight:900;font-family:'Sora',sans-serif;font-size:1.8rem;color:var(--purple)">T|F</span>
+      <div class="feat-num">20</div>
+      <div class="feat-label">True / False Questions Daily</div>
+      <hr class="feat-divider"/>
+      <ul class="feat-list">
+        <li>Exam-focused practice</li>
+        <li>Strengthen your understanding</li>
+        <li>Spot your weak areas</li>
+        <li>Quick &amp; Effective Practice</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- CTA bar -->
+  <div class="cta-bar">
+    <div class="cta-icon">🎯</div>
+    <div class="cta-text">
+      <div class="line1">Daily Practice. Strong Concepts. Top Results.</div>
+      <div class="line2">Let's Master Electrostatics Together! <span class="brand-sig">— Karnan Physics</span></div>
+    </div>
+  </div>
+
+  <!-- Start button (or done message) -->
+  <div id="landing-action"></div>
+
+</div><!-- /#landing -->
+
+
+<!-- ═══════ QUIZ VIEW ═══════ -->
+<div id="quiz-view">
+  <div class="quiz-hero">
+    <div class="quiz-hero-icon">⚡</div>
+    <div class="quiz-hero-text">
+      <div class="qh-title">Electric Charges &amp; Fields</div>
+      <div class="qh-sub" id="quiz-sub">Question 1 of 20 today</div>
+    </div>
+  </div>
+
+  <div class="progress-bar"><div class="progress-fill" id="quiz-prog" style="width:5%"></div></div>
+
+  <div class="question-box">
+    <div class="q-text" id="quiz-q"></div>
+    <div id="quiz-opts"></div>
+    <div class="exp-box" id="quiz-exp"><strong>Explanation</strong><span id="quiz-exp-text"></span></div>
+  </div>
+
+  <div class="quiz-nav">
+    <button class="btn btn-outline" id="quiz-prev" onclick="qNav(-1)">← Prev</button>
+    <span class="q-score" id="quiz-score"></span>
+    <button class="btn btn-primary" id="quiz-next" onclick="qNav(1)">Next →</button>
+  </div>
+</div><!-- /#quiz-view -->
+
+
+<!-- ═══════ DONE VIEW ═══════ -->
+<div id="done-view">
+  <div class="done-card">
+    <div class="done-emoji">🎉</div>
+    <div class="done-title">Daily Set Complete!</div>
+    <div class="done-score" id="done-score"></div>
+    <div class="done-sub" id="done-tomorrow"></div>
+    <div class="done-reset" id="done-reset"></div>
+  </div>
+  <div class="done-actions">
+    <button class="btn-gold" onclick="repeatToday()">🔁 Repeat Today's Set</button>
+    <button class="btn-back" onclick="showLanding()">← Back to Home</button>
+  </div>
+</div><!-- /#done-view -->
+
+
+<script>
+// ── Constants ─────────────────────────────────────────────────────────────────
+const STORE_KEY   = 'karnan_ecf_progress';
+const DAILY_LIMIT = 20;
+const LETTERS     = ['1','2','3','4'];
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let _state   = null;
+let _dispQs  = [];   // today's display-ready questions
+
+// ── Storage helpers ───────────────────────────────────────────────────────────
+function localDate() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+function loadState() {
+  try { return JSON.parse(localStorage.getItem(STORE_KEY) || 'null') || {}; } catch(e) { return {}; }
+}
+function saveState(s) { try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch(e) {} }
+
+function checkRollover(s) {
+  const today = localDate();
+  if (s.lastDate !== today) {
+    s.lastDate = today; s.todaysQuestions = null;
+    s.answers = {}; s.currentIdx = 0; s.completed = false; s.repeatMode = false;
+  }
+  if (!s.cycleCount)   s.cycleCount   = 0;
+  if (!s.poolCursor)   s.poolCursor   = 0;
+  if (!s.answers)      s.answers      = {};
+  return s;
+}
+
+// ── Question pool ─────────────────────────────────────────────────────────────
+function doShuffle(arr) {
+  for (let i = arr.length-1; i > 0; i--) {
+    const j = Math.floor(Math.random()*(i+1));
+    [arr[i],arr[j]] = [arr[j],arr[i]];
+  }
+  return arr;
+}
+
+function pickTodaysSet(s) {
+  const total = ECF_QUESTIONS.length;
+  let cursor = s.poolCursor || 0;
+  if (!s.shuffleOrder || s.shuffleOrder.length !== total) {
+    s.shuffleOrder = doShuffle([...Array(total).keys()]);
+    s.cycleCount   = (s.cycleCount || 0) + 1;
+    cursor = 0;
+  }
+  if (cursor >= total) {
+    s.shuffleOrder = doShuffle([...Array(total).keys()]);
+    s.cycleCount   = (s.cycleCount || 0) + 1;
+    cursor = 0;
+  }
+  const indices = s.shuffleOrder.slice(cursor, cursor + DAILY_LIMIT);
+  s.poolCursor  = cursor + indices.length;
+  if (indices.length < DAILY_LIMIT) {
+    s.shuffleOrder = doShuffle([...Array(total).keys()]);
+    s.cycleCount   = (s.cycleCount || 0) + 1;
+    const extra = s.shuffleOrder.slice(0, DAILY_LIMIT - indices.length);
+    indices.push(...extra);
+    s.poolCursor = extra.length;
+  }
+  return indices.map(i => ECF_QUESTIONS[i]);
+}
+
+function buildDisplayQ(q) {
+  const keys    = doShuffle(['A','B','C','D']);
+  // q.options is array [A_text, B_text, C_text, D_text]
+  const opts    = keys.map(k => q.options['ABCD'.indexOf(k)]);
+  const correct = keys.indexOf(q.correct_option);
+  return { ...q, displayOptions: opts, displayCorrect: correct };
+}
+
+// ── Time until midnight ───────────────────────────────────────────────────────
+function timeUntilMidnight() {
+  const now = new Date(), mid = new Date(now);
+  mid.setHours(24,0,0,0);
+  const diff = mid - now;
+  return `${Math.floor(diff/3600000)}h ${Math.floor((diff%3600000)/60000)}m`;
+}
+
+// ── Views ─────────────────────────────────────────────────────────────────────
+function el(id) { return document.getElementById(id); }
+
+function showLanding() {
+  el('landing').style.display   = '';
+  el('quiz-view').style.display = 'none';
+  el('done-view').style.display = 'none';
+  renderLandingAction();
+}
+function showQuiz() {
+  el('landing').style.display   = 'none';
+  el('quiz-view').style.display = '';
+  el('done-view').style.display = 'none';
+}
+function showDone() {
+  el('landing').style.display   = 'none';
+  el('quiz-view').style.display = 'none';
+  el('done-view').style.display = '';
+  const total   = _dispQs.length;
+  const correct = Object.entries(_state.answers).filter(([i,a]) => a === _dispQs[+i]?.displayCorrect).length;
+  const pct     = total ? Math.round(correct/total*100) : 0;
+  el('done-score').textContent = `${correct} / ${total} correct  (${pct}%)`;
+  el('done-score').style.color = pct >= 75 ? '#22c55e' : pct >= 50 ? '#3b82f6' : '#ef4444';
+  el('done-tomorrow').textContent = `A new set of ${DAILY_LIMIT} questions unlocks tomorrow!`;
+  el('done-reset').textContent    = `Resets in ${timeUntilMidnight()}`;
+}
+
+function renderLandingAction() {
+  const la = el('landing-action');
+  if (_state.completed && !_state.repeatMode) {
+    const correct = Object.entries(_state.answers).filter(([i,a]) => a === _dispQs[+i]?.displayCorrect).length;
+    la.innerHTML = `
+      <div class="already-done">
+        <strong>✓ Today's set complete!</strong><br/>
+        You scored ${correct} / ${DAILY_LIMIT}  ·  A new set unlocks in ${timeUntilMidnight()}
+        <br/><br/>
+        <button class="btn-gold" onclick="repeatToday()" style="margin-right:.5rem">🔁 Repeat Today's Set</button>
+      </div>`;
+  } else {
+    const answered = Object.keys(_state.answers).length;
+    const label = answered > 0 && !_state.repeatMode
+      ? `Continue — Question ${answered+1} of ${DAILY_LIMIT}`
+      : `Start Today's 20 Questions →`;
+    la.innerHTML = `<button class="btn-start" onclick="startQuiz()">${label}</button>`;
+  }
+}
+
+// ── Quiz logic ────────────────────────────────────────────────────────────────
+function startQuiz() {
+  showQuiz();
+  renderQ(_state.currentIdx || 0);
+}
+
+function renderQ(idx) {
+  _state.currentIdx = idx;
+  const q     = _dispQs[idx];
+  const total = _dispQs.length;
+
+  el('quiz-sub').textContent  = `Question ${idx+1} of ${total} today`;
+  el('quiz-prog').style.width = Math.round((idx+1)/total*100) + '%';
+  el('quiz-q').textContent    = q.question;
+
+  const answered = _state.answers[idx];
+  el('quiz-opts').innerHTML = q.displayOptions.map((opt, i) => {
+    let cls = 'opt';
+    if (answered !== undefined) {
+      cls += ' locked';
+      if (i === q.displayCorrect) cls += ' correct';
+      else if (i === answered)    cls += ' wrong';
+    }
+    return `<div class="${cls}" onclick="answer(${i})">
+      <div class="opt-key">${LETTERS[i]}</div>${opt}
+    </div>`;
+  }).join('');
+
+  const expEl = el('quiz-exp');
+  if (answered !== undefined) {
+    el('quiz-exp-text').textContent = q.explanation || '';
+    expEl.classList.add('show');
+    expEl.classList.toggle('wrong-bg', answered !== q.displayCorrect);
+  } else {
+    expEl.classList.remove('show');
+  }
+
+  const correct = Object.entries(_state.answers).filter(([i,a]) => a === _dispQs[+i]?.displayCorrect).length;
+  const wrong   = Object.keys(_state.answers).length - correct;
+  el('quiz-score').textContent = `✅ ${correct}  ❌ ${wrong}`;
+
+  el('quiz-prev').style.visibility = idx === 0 ? 'hidden' : 'visible';
+  el('quiz-next').textContent = idx === total-1 ? 'Finish ✓' : 'Next →';
+
+  saveState(_state);
+}
+
+function answer(optIdx) {
+  if (_state.answers[_state.currentIdx] !== undefined) return;
+  _state.answers[_state.currentIdx] = optIdx;
+  saveState(_state);
+  renderQ(_state.currentIdx);
+}
+
+function qNav(dir) {
+  const total = _dispQs.length;
+  if (dir === 1 && _state.currentIdx === total-1) {
+    _state.completed = true;
+    saveState(_state);
+    showDone();
+    return;
+  }
+  renderQ(Math.max(0, Math.min(total-1, _state.currentIdx + dir)));
+}
+
+function repeatToday() {
+  _state.answers    = {};
+  _state.currentIdx = 0;
+  _state.completed  = false;
+  _state.repeatMode = true;
+  saveState(_state);
+  startQuiz();
+}
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+(function init() {
+  _state = loadState();
+  _state = checkRollover(_state);
+  if (!_state.todaysQuestions || !_state.todaysQuestions.length) {
+    _state.todaysQuestions = pickTodaysSet(_state);
+  }
+  _dispQs = _state.todaysQuestions.map(buildDisplayQ);
+  saveState(_state);
+  showLanding();
+})();
+</script>
+</body>
+</html>
