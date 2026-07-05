@@ -1,6 +1,9 @@
 -- Track where a user signed up from (e.g. 'main_app', 'electrostatics_landing')
 ALTER TABLE user_profiles ADD COLUMN IF NOT EXISTS signup_source TEXT DEFAULT 'main_app';
 
+-- Drop first because return type is changing (adding signup_source column)
+DROP FUNCTION IF EXISTS get_all_user_profiles();
+
 -- Update get_all_user_profiles to include signup_source
 CREATE OR REPLACE FUNCTION get_all_user_profiles()
 RETURNS TABLE (
