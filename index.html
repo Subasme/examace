@@ -305,6 +305,66 @@ function resetLang() {
   </div>
 </div>
 
+<!-- ── ELECTROSTATICS PRACTICE SCREEN ──────────────────────────────────── -->
+<div id="screen-electrostatics" class="screen">
+
+  <!-- Hero header -->
+  <div style="background:linear-gradient(135deg,#fef9c3,#fef08a);border:2px solid #fbbf24;border-radius:var(--radius);padding:1.1rem 1.25rem;margin-bottom:1.1rem;display:flex;align-items:center;gap:.9rem">
+    <div style="font-size:2.4rem;line-height:1">⚡</div>
+    <div>
+      <div style="font-family:'Sora',sans-serif;font-weight:800;font-size:1.1rem;color:#78350f">Electrostatics Practice</div>
+      <div style="font-size:.82rem;color:#92400e;margin-top:.15rem">Physics · Class 12 · Electric Charges &amp; Fields · Electrostatic Potential</div>
+    </div>
+  </div>
+
+  <!-- Loading state -->
+  <div id="es-load-msg" style="text-align:center;padding:2rem;color:var(--muted);font-size:.9rem">
+    <div class="spinner" style="margin:0 auto .75rem"></div>Loading questions…
+  </div>
+
+  <!-- Main content (shown after load) -->
+  <div id="es-content" style="display:none">
+
+    <!-- Cycle badge -->
+    <div id="es-cycle-badge" style="display:none;background:#ede9fe;color:#6d28d9;font-size:.75rem;font-weight:700;padding:.3rem .75rem;border-radius:20px;margin-bottom:.85rem;border:1px solid #c4b5fd"></div>
+
+    <!-- Today's progress card -->
+    <div class="section-card" style="margin-bottom:.9rem">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.55rem">
+        <span style="font-weight:700;font-size:.92rem">Today's Progress</span>
+        <span id="es-progress-text" style="font-size:.85rem;color:var(--purple);font-weight:700">0 / 20</span>
+      </div>
+      <div class="progress-bar" style="margin-bottom:0">
+        <div class="progress-fill teal" id="es-progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+
+    <!-- Pool-size caveat (hidden unless pool < 20) -->
+    <div id="es-pool-info" style="display:none;background:#fef3c7;border:1px solid #fcd34d;border-radius:8px;padding:.5rem .8rem;font-size:.78rem;color:#92400e;margin-bottom:.85rem"></div>
+
+    <!-- Start / Continue button -->
+    <button id="es-start-btn" class="btn btn-primary btn-block" style="background:linear-gradient(135deg,#f59e0b,#d97706);border-color:#d97706;margin-bottom:.75rem" onclick="startElectrostaticsSession()">Start Practice →</button>
+
+    <!-- Daily done panel (inlined below button when done) -->
+    <div id="es-daily-done" style="display:none;background:linear-gradient(135deg,#d1fae5,#a7f3d0);border:2px solid #10b981;border-radius:var(--radius);padding:1.1rem 1.25rem;text-align:center">
+      <div style="font-size:2rem;margin-bottom:.4rem">🎉</div>
+      <div id="es-done-msg" style="font-weight:700;font-size:.92rem;color:#064e3b;line-height:1.6"></div>
+      <div id="es-reset-msg" style="font-size:.8rem;color:#065f46;margin-top:.4rem"></div>
+    </div>
+
+    <!-- Info section -->
+    <div class="section-card" style="margin-top:.85rem;font-size:.82rem;color:var(--muted);line-height:1.8">
+      <div style="font-weight:700;color:var(--text);margin-bottom:.4rem">ℹ️ How it works</div>
+      <div>• 20 questions per day · resets at midnight</div>
+      <div>• Questions never repeat until the full pool is exhausted</div>
+      <div>• Progress is shared across English and Tamil</div>
+    </div>
+
+  </div><!-- /#es-content -->
+
+  <div style="margin-top:1rem"><button class="btn btn-outline btn-sm" onclick="goHome()">← Home</button></div>
+</div><!-- /#screen-electrostatics -->
+
 <div id="screen-timed-setup" class="screen">
   <div class="card" style="margin-bottom:1rem;background:linear-gradient(135deg,#fffbea,#fff3c0);border-color:var(--gold)">
     <h2 style="font-size:1.3rem;font-weight:800;color:#7a5200;margin-bottom:.3rem">⭐ Weekly Timed Test</h2>
@@ -971,6 +1031,7 @@ function _ta(en,ta){ return _isTa()?ta:en; }
 <script src="js/gamification.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/flow.js"></script>
+<script src="js/electrostatics.js"></script>
 <script src="js/quiz.js"></script>
 <script src="js/leaderboard.js"></script>
 <script src="js/dashboard.js"></script>
