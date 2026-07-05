@@ -4,12 +4,15 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Electrostatics — Class 12 NEET Practice | KARNAN Physics</title>
-<meta name="description" content="Free daily NEET practice for Class 12 Physics Chapter 1 Electrostatics. 20 MCQs + 20 Flashcards + 20 True/False questions every day. Detailed solutions. NEET pattern."/>
+<meta name="description" content="Free daily NEET practice for Class 12 Physics Chapter 1 Electrostatics. 20 MCQs every day. Detailed solutions. NEET pattern."/>
 <meta property="og:title" content="Electrostatics Daily Practice — KARNAN Physics"/>
 <meta property="og:description" content="20 free NEET MCQs every day on Electric Charges and Fields. Detailed explanations, NEET pattern, updated daily."/>
 <meta property="og:url" content="https://karnan.guru/class12/electrostatics"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+<!-- Supabase for auth -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<!-- Question pool — loaded first so ECF_QUESTIONS is defined before inline scripts -->
 <script src="../../js/data-ecf.js"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -19,10 +22,21 @@
   --blue:#3b82f6;--blue-light:#dbeafe;--blue-dark:#1e3a8a;
   --green:#22c55e;--green-light:#dcfce7;--green-dark:#166534;
   --purple:#8b5cf6;--purple-light:#ede9fe;--purple-dark:#5b21b6;
+  --red:#ef4444;
   --white:#f1f5f9;--muted:#94a3b8;--border:#1e2d45;
   --radius:12px;--radius-sm:8px;
 }
 body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;min-height:100vh;line-height:1.6}
+
+/* ── TOP NAV ── */
+.topnav{display:flex;align-items:center;justify-content:space-between;padding:.65rem 1rem;background:var(--navy2);border-bottom:1.5px solid var(--border);position:sticky;top:0;z-index:100}
+.topnav-brand{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem;color:var(--white);letter-spacing:.04em}
+.topnav-brand span{color:var(--gold)}
+.topnav-right{display:flex;align-items:center;gap:.6rem}
+.user-chip{display:flex;align-items:center;gap:.4rem;background:var(--navy3);border:1px solid var(--border);border-radius:99px;padding:.3rem .75rem;font-size:.78rem;color:var(--muted)}
+.user-chip .dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0}
+.btn-login-nav{background:var(--gold);color:#000;font-weight:700;font-size:.8rem;border:none;border-radius:99px;padding:.35rem .9rem;cursor:pointer}
+.btn-login-nav:hover{opacity:.88}
 
 /* ── LANDING ── */
 #landing{max-width:780px;margin:0 auto;padding:1rem 1rem 2rem}
@@ -111,21 +125,77 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 .btn:disabled{opacity:.45;cursor:default}
 .q-score{font-size:.78rem;color:var(--muted)}
 
-/* completion */
+/* ── DONE ── */
 #done-view{display:none;max-width:640px;margin:0 auto;padding:1rem 1rem 2rem;text-align:center}
 .done-card{background:var(--navy2);border:2px solid var(--green);border-radius:var(--radius);padding:2rem 1.5rem;margin-bottom:1rem}
 .done-emoji{font-size:3rem;margin-bottom:.5rem}
 .done-title{font-family:'Sora',sans-serif;font-weight:800;font-size:1.4rem;margin-bottom:.5rem}
 .done-score{font-family:'Sora',sans-serif;font-size:2rem;font-weight:800;margin-bottom:.4rem}
 .done-sub{color:var(--muted);font-size:.88rem;margin-bottom:.25rem}
-.done-reset{color:var(--muted);font-size:.78rem}
-.done-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center}
+.done-reset{color:var(--muted);font-size:.78rem;margin-bottom:1.2rem}
+.done-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center;margin-bottom:1rem}
 .btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;font-weight:800;border:none;border-radius:var(--radius-sm);padding:.65rem 1.4rem;font-size:.9rem;cursor:pointer}
 .btn-gold:hover{opacity:.88}
 .btn-back{background:var(--navy3);color:var(--white);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.65rem 1.4rem;font-size:.9rem;cursor:pointer}
+
+/* share panel */
+.share-panel{background:var(--navy2);border:1.5px solid var(--border);border-radius:var(--radius);padding:1.1rem 1rem;margin-bottom:1rem;text-align:center}
+.share-title{font-family:'Sora',sans-serif;font-weight:700;font-size:.88rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.75rem}
+.share-btns{display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap}
+.btn-wa{background:#25D366;color:#fff;font-weight:700;border:none;border-radius:var(--radius-sm);padding:.55rem 1.1rem;font-size:.88rem;cursor:pointer;display:flex;align-items:center;gap:.4rem}
+.btn-wa:hover{opacity:.88}
+.btn-copy{background:var(--navy3);color:var(--white);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.55rem 1.1rem;font-size:.88rem;cursor:pointer;display:flex;align-items:center;gap:.4rem}
+.btn-copy:hover{border-color:var(--muted)}
+.btn-copy.copied{border-color:var(--green);color:var(--green)}
+.btn-karnan{background:linear-gradient(135deg,var(--blue-dark),#1e3a8a);color:#fff;font-weight:700;border:none;border-radius:var(--radius-sm);padding:.55rem 1.1rem;font-size:.88rem;cursor:pointer;display:flex;align-items:center;gap:.4rem}
+.btn-karnan:hover{opacity:.88}
+
+/* login panel on done screen */
+.login-prompt{background:#0d1b2e;border:1.5px solid var(--blue);border-radius:var(--radius);padding:1rem;margin-bottom:1rem;text-align:center}
+.login-prompt p{color:var(--muted);font-size:.85rem;margin-bottom:.75rem}
+.login-prompt strong{color:var(--white)}
+.btn-google{background:#fff;color:#222;font-weight:700;border:none;border-radius:var(--radius-sm);padding:.6rem 1.2rem;font-size:.88rem;cursor:pointer;display:inline-flex;align-items:center;gap:.5rem}
+.btn-google:hover{opacity:.88}
+
+/* ── LOGIN MODAL ── */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:200;align-items:center;justify-content:center;padding:1rem}
+.modal-overlay.open{display:flex}
+.modal{background:var(--navy2);border:1.5px solid var(--border);border-radius:var(--radius);padding:2rem 1.5rem;width:100%;max-width:400px;position:relative}
+.modal-close{position:absolute;top:.75rem;right:.75rem;background:none;border:none;color:var(--muted);font-size:1.2rem;cursor:pointer;line-height:1}
+.modal-close:hover{color:var(--white)}
+.modal-title{font-family:'Sora',sans-serif;font-weight:800;font-size:1.2rem;margin-bottom:.25rem}
+.modal-sub{color:var(--muted);font-size:.83rem;margin-bottom:1.25rem}
+.btn-google-lg{width:100%;background:#fff;color:#222;font-weight:700;border:none;border-radius:var(--radius-sm);padding:.75rem;font-size:.95rem;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:.6rem;margin-bottom:1rem}
+.btn-google-lg:hover{opacity:.88}
+.divider{display:flex;align-items:center;gap:.75rem;margin:.75rem 0;color:var(--muted);font-size:.78rem}
+.divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--border)}
+.inp{width:100%;background:var(--navy3);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.65rem .9rem;color:var(--white);font-size:.9rem;margin-bottom:.65rem;font-family:'DM Sans',sans-serif;outline:none}
+.inp:focus{border-color:var(--blue)}
+.btn-email-send{width:100%;background:var(--blue);color:#fff;font-weight:700;border:none;border-radius:var(--radius-sm);padding:.7rem;font-size:.9rem;cursor:pointer}
+.btn-email-send:hover{opacity:.88}
+.btn-email-send:disabled{opacity:.5;cursor:default}
+.modal-msg{font-size:.83rem;margin-top:.6rem;text-align:center}
+.modal-msg.ok{color:var(--green)}
+.modal-msg.err{color:var(--red)}
+
+/* toast */
+.toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(60px);background:var(--navy2);border:1px solid var(--border);border-radius:99px;padding:.5rem 1.2rem;font-size:.85rem;color:var(--white);z-index:300;opacity:0;transition:transform .25s,opacity .25s;white-space:nowrap}
+.toast.show{transform:translateX(-50%) translateY(0);opacity:1}
 </style>
 </head>
 <body>
+
+<!-- ── TOP NAV ── -->
+<nav class="topnav">
+  <div class="topnav-brand">KARNAN <span>PHYSICS</span></div>
+  <div class="topnav-right">
+    <div class="user-chip" id="nav-user" style="display:none">
+      <div class="dot"></div>
+      <span id="nav-user-name">User</span>
+    </div>
+    <button class="btn-login-nav" id="btn-nav-login" onclick="openLoginModal()">Login / Sign Up</button>
+  </div>
+</nav>
 
 <!-- ═══════ LANDING VIEW ═══════ -->
 <div id="landing">
@@ -211,130 +281,279 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 
 <!-- ═══════ QUIZ VIEW ═══════ -->
 <div id="quiz-view">
-  <div class="quiz-hero">
-    <div class="quiz-hero-icon">⚡</div>
-    <div class="quiz-hero-text">
-      <div class="qh-title">Electric Charges &amp; Fields</div>
-      <div class="qh-sub" id="quiz-sub">Question 1 of 20 today</div>
+  <div style="max-width:640px;margin:0 auto;padding:1rem 1rem 2rem">
+    <div class="quiz-hero">
+      <div class="quiz-hero-icon">⚡</div>
+      <div class="quiz-hero-text">
+        <div class="qh-title">Electric Charges &amp; Fields — Chapter 1</div>
+        <div class="qh-sub" id="quiz-sub">Question 1 of 20 today</div>
+      </div>
     </div>
-  </div>
 
-  <div class="progress-bar"><div class="progress-fill" id="quiz-prog" style="width:5%"></div></div>
+    <div class="progress-bar"><div class="progress-fill" id="quiz-prog" style="width:5%"></div></div>
 
-  <div class="question-box">
-    <div class="q-text" id="quiz-q"></div>
-    <div id="quiz-opts"></div>
-    <div class="exp-box" id="quiz-exp"><strong>Explanation</strong><span id="quiz-exp-text"></span></div>
-  </div>
+    <div class="question-box">
+      <div class="q-text" id="quiz-q"></div>
+      <div id="quiz-opts"></div>
+      <div class="exp-box" id="quiz-exp"><strong>Explanation</strong><span id="quiz-exp-text"></span></div>
+    </div>
 
-  <div class="quiz-nav">
-    <button class="btn btn-outline" id="quiz-prev" onclick="qNav(-1)">← Prev</button>
-    <span class="q-score" id="quiz-score"></span>
-    <button class="btn btn-primary" id="quiz-next" onclick="qNav(1)">Next →</button>
+    <div class="quiz-nav">
+      <button class="btn btn-outline" id="quiz-prev" onclick="qNav(-1)">← Prev</button>
+      <span class="q-score" id="quiz-score"></span>
+      <button class="btn btn-primary" id="quiz-next" onclick="qNav(1)">Next →</button>
+    </div>
   </div>
 </div><!-- /#quiz-view -->
 
 
 <!-- ═══════ DONE VIEW ═══════ -->
 <div id="done-view">
-  <div class="done-card">
-    <div class="done-emoji">🎉</div>
-    <div class="done-title">Daily Set Complete!</div>
-    <div class="done-score" id="done-score"></div>
-    <div class="done-sub" id="done-tomorrow"></div>
-    <div class="done-reset" id="done-reset"></div>
-  </div>
-  <div class="done-actions">
-    <button class="btn-gold" onclick="repeatToday()">🔁 Repeat Today's Set</button>
-    <button class="btn-back" onclick="showLanding()">← Back to Home</button>
+  <div style="max-width:640px;margin:0 auto;padding:1rem 1rem 2rem;text-align:center">
+    <div class="done-card">
+      <div class="done-emoji">🎉</div>
+      <div class="done-title">Daily Set Complete!</div>
+      <div class="done-score" id="done-score"></div>
+      <div class="done-sub" id="done-tomorrow"></div>
+      <div class="done-reset" id="done-reset"></div>
+    </div>
+
+    <!-- Share panel -->
+    <div class="share-panel">
+      <div class="share-title">📣 Share Your Score</div>
+      <div class="share-btns">
+        <button class="btn-wa" onclick="shareWhatsApp()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.477 2 2 6.477 2 12.004c0 1.77.463 3.43 1.27 4.87L2 22l5.27-1.245A9.953 9.953 0 0012.004 22C17.53 22 22 17.523 22 12.004 22 6.477 17.53 2 12.004 2z" fill-rule="evenodd" clip-rule="evenodd"/></svg>
+          Share on WhatsApp
+        </button>
+        <button class="btn-copy" id="btn-copy" onclick="copyScore()">
+          📋 Copy Score
+        </button>
+        <button class="btn-karnan" onclick="window.open('https://karnan.guru','_blank')">
+          🔗 Full App
+        </button>
+      </div>
+    </div>
+
+    <!-- Login prompt (shown only when not logged in) -->
+    <div class="login-prompt" id="done-login-prompt" style="display:none">
+      <p><strong>Save your progress & track your scores</strong><br/>Login to karnan.guru to access your full dashboard, Tamil mode, timed tests and more.</p>
+      <button class="btn-google" onclick="openLoginModal()">
+        <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        Continue with Google
+      </button>
+    </div>
+
+    <div class="done-actions">
+      <button class="btn-gold" onclick="repeatToday()">🔁 Repeat Today's Set</button>
+      <button class="btn-back" onclick="showLanding()">← Back to Home</button>
+    </div>
   </div>
 </div><!-- /#done-view -->
 
 
+<!-- ═══════ LOGIN MODAL ═══════ -->
+<div class="modal-overlay" id="login-modal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeLoginModal()">✕</button>
+    <div class="modal-title">Join KARNAN Physics</div>
+    <div class="modal-sub">Login to save your scores and access the full app</div>
+
+    <button class="btn-google-lg" onclick="loginGoogle()">
+      <svg width="20" height="20" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84z"/></svg>
+      Continue with Google
+    </button>
+
+    <div class="divider">or use email</div>
+
+    <input class="inp" type="email" id="modal-email" placeholder="your@email.com" onkeydown="if(event.key==='Enter')sendMagicLink()"/>
+    <button class="btn-email-send" id="btn-send-link" onclick="sendMagicLink()">Send Magic Link</button>
+    <div class="modal-msg" id="modal-msg"></div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+
 <script>
-// ── Constants ─────────────────────────────────────────────────────────────────
+// ── Supabase ──────────────────────────────────────────────────────────────────
+const SUPA_URL = 'https://vtswgisxeylubvazcefe.supabase.co';
+const SUPA_KEY = 'sb_publishable_lTpVWMDF42ocz84PXirWww_iVcNyeZ-';
+const supa = window.supabase.createClient(SUPA_URL, SUPA_KEY);
+
+let _authUser = null;
+
+// ── Auth ──────────────────────────────────────────────────────────────────────
+supa.auth.getSession().then(({ data }) => {
+  _authUser = data?.session?.user || null;
+  _updateNavAuth();
+});
+supa.auth.onAuthStateChange((_event, session) => {
+  _authUser = session?.user || null;
+  _updateNavAuth();
+  if (_event === 'SIGNED_IN') {
+    closeLoginModal();
+    showToast('Logged in — welcome! 🎉');
+    if (el('done-login-prompt')) el('done-login-prompt').style.display = 'none';
+  }
+});
+
+function _updateNavAuth() {
+  const chip = el('nav-user');
+  const btn  = el('btn-nav-login');
+  if (_authUser) {
+    const name = _authUser.user_metadata?.full_name || _authUser.email?.split('@')[0] || 'User';
+    el('nav-user-name').textContent = name;
+    chip.style.display = '';
+    btn.style.display  = 'none';
+  } else {
+    chip.style.display = 'none';
+    btn.style.display  = '';
+  }
+}
+
+function openLoginModal()  { el('login-modal').classList.add('open'); }
+function closeLoginModal() { el('login-modal').classList.remove('open'); el('modal-msg').textContent = ''; }
+
+async function loginGoogle() {
+  const { error } = await supa.auth.signInWithOAuth({
+    provider: 'google',
+    options: { redirectTo: window.location.href }
+  });
+  if (error) showToast('Google login failed. Please try again.');
+}
+
+async function sendMagicLink() {
+  const email = el('modal-email').value.trim();
+  if (!email || !email.includes('@')) { setModalMsg('Please enter a valid email.', true); return; }
+  const btn = el('btn-send-link');
+  btn.disabled = true; btn.textContent = 'Sending…';
+  const { error } = await supa.auth.signInWithOtp({
+    email,
+    options: { emailRedirectTo: window.location.href }
+  });
+  btn.disabled = false; btn.textContent = 'Send Magic Link';
+  if (error) { setModalMsg('Error: ' + error.message, true); }
+  else       { setModalMsg('✓ Check your inbox for the login link!', false); }
+}
+
+function setModalMsg(msg, isErr) {
+  const el2 = el('modal-msg');
+  el2.textContent = msg;
+  el2.className = 'modal-msg ' + (isErr ? 'err' : 'ok');
+}
+
+// ── Quiz constants ────────────────────────────────────────────────────────────
 const STORE_KEY   = 'karnan_ecf_progress';
 const DAILY_LIMIT = 20;
 const LETTERS     = ['1','2','3','4'];
 
 // ── State ─────────────────────────────────────────────────────────────────────
-let _state   = null;
-let _dispQs  = [];   // today's display-ready questions
+let _state  = null;
+let _dispQs = [];
 
-// ── Storage helpers ───────────────────────────────────────────────────────────
+// ── Storage ───────────────────────────────────────────────────────────────────
 function localDate() {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 }
-function loadState() {
-  try { return JSON.parse(localStorage.getItem(STORE_KEY) || 'null') || {}; } catch(e) { return {}; }
-}
-function saveState(s) { try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch(e) {} }
+function loadState()   { try { return JSON.parse(localStorage.getItem(STORE_KEY)||'null')||{}; } catch(e) { return {}; } }
+function saveState(s)  { try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch(e) {} }
 
 function checkRollover(s) {
   const today = localDate();
   if (s.lastDate !== today) {
-    s.lastDate = today; s.todaysQuestions = null;
-    s.answers = {}; s.currentIdx = 0; s.completed = false; s.repeatMode = false;
+    s.lastDate=today; s.todaysQuestions=null; s.answers={}; s.currentIdx=0; s.completed=false; s.repeatMode=false;
   }
-  if (!s.cycleCount)   s.cycleCount   = 0;
-  if (!s.poolCursor)   s.poolCursor   = 0;
-  if (!s.answers)      s.answers      = {};
+  if (!s.cycleCount)  s.cycleCount  = 0;
+  if (!s.poolCursor)  s.poolCursor  = 0;
+  if (!s.answers)     s.answers     = {};
   return s;
 }
 
-// ── Question pool ─────────────────────────────────────────────────────────────
+// ── Pool rotation ─────────────────────────────────────────────────────────────
 function doShuffle(arr) {
-  for (let i = arr.length-1; i > 0; i--) {
-    const j = Math.floor(Math.random()*(i+1));
-    [arr[i],arr[j]] = [arr[j],arr[i]];
-  }
+  for (let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}
   return arr;
 }
 
 function pickTodaysSet(s) {
-  const total = ECF_QUESTIONS.length;
-  let cursor = s.poolCursor || 0;
+  const pool  = (typeof ECF_QUESTIONS !== 'undefined' && Array.isArray(ECF_QUESTIONS)) ? ECF_QUESTIONS : [];
+  const total = pool.length;
+  if (total === 0) return [];
+  let cursor  = s.poolCursor || 0;
   if (!s.shuffleOrder || s.shuffleOrder.length !== total) {
     s.shuffleOrder = doShuffle([...Array(total).keys()]);
-    s.cycleCount   = (s.cycleCount || 0) + 1;
-    cursor = 0;
+    s.cycleCount   = (s.cycleCount||0)+1; cursor = 0;
   }
   if (cursor >= total) {
     s.shuffleOrder = doShuffle([...Array(total).keys()]);
-    s.cycleCount   = (s.cycleCount || 0) + 1;
-    cursor = 0;
+    s.cycleCount   = (s.cycleCount||0)+1; cursor = 0;
   }
-  const indices = s.shuffleOrder.slice(cursor, cursor + DAILY_LIMIT);
-  s.poolCursor  = cursor + indices.length;
+  const indices = s.shuffleOrder.slice(cursor, cursor+DAILY_LIMIT);
+  s.poolCursor  = cursor+indices.length;
   if (indices.length < DAILY_LIMIT) {
     s.shuffleOrder = doShuffle([...Array(total).keys()]);
-    s.cycleCount   = (s.cycleCount || 0) + 1;
-    const extra = s.shuffleOrder.slice(0, DAILY_LIMIT - indices.length);
-    indices.push(...extra);
-    s.poolCursor = extra.length;
+    s.cycleCount   = (s.cycleCount||0)+1;
+    const extra    = s.shuffleOrder.slice(0, DAILY_LIMIT-indices.length);
+    indices.push(...extra); s.poolCursor = extra.length;
   }
-  return indices.map(i => ECF_QUESTIONS[i]);
+  return indices.map(i => pool[i]);
 }
 
 function buildDisplayQ(q) {
-  const keys    = doShuffle(['A','B','C','D']);
-  // q.options is array [A_text, B_text, C_text, D_text]
-  const opts    = keys.map(k => q.options['ABCD'.indexOf(k)]);
-  const correct = keys.indexOf(q.correct_option);
-  return { ...q, displayOptions: opts, displayCorrect: correct };
+  const keys = doShuffle(['A','B','C','D']);
+  const opts  = keys.map(k => (q.options||[])[['A','B','C','D'].indexOf(k)] || '');
+  const corr  = keys.indexOf(q.correct_option);
+  return { ...q, displayOptions: opts, displayCorrect: corr };
 }
 
-// ── Time until midnight ───────────────────────────────────────────────────────
+// ── Time ──────────────────────────────────────────────────────────────────────
 function timeUntilMidnight() {
-  const now = new Date(), mid = new Date(now);
-  mid.setHours(24,0,0,0);
-  const diff = mid - now;
-  return `${Math.floor(diff/3600000)}h ${Math.floor((diff%3600000)/60000)}m`;
+  const now=new Date(), mid=new Date(now); mid.setHours(24,0,0,0);
+  const d=mid-now; return `${Math.floor(d/3600000)}h ${Math.floor((d%3600000)/60000)}m`;
+}
+
+// ── Share ─────────────────────────────────────────────────────────────────────
+function _scoreText() {
+  const total   = _dispQs.length;
+  const correct = Object.entries(_state.answers).filter(([i,a])=>a===_dispQs[+i]?.displayCorrect).length;
+  const pct     = total ? Math.round(correct/total*100) : 0;
+  return { correct, total, pct };
+}
+
+function shareWhatsApp() {
+  const {correct,total,pct} = _scoreText();
+  const text = encodeURIComponent(
+    `⚡ I scored ${correct}/${total} (${pct}%) on NEET Electrostatics practice!\n` +
+    `📚 Chapter 1 – Electric Charges & Fields\n` +
+    `🔗 Try today's 20 free questions: https://karnan.guru/class12/electrostatics\n` +
+    `— KARNAN Physics 🎯`
+  );
+  window.open(`https://wa.me/?text=${text}`, '_blank');
+}
+
+function copyScore() {
+  const {correct,total,pct} = _scoreText();
+  const text =
+    `⚡ NEET Electrostatics Practice | KARNAN Physics\n` +
+    `Score: ${correct}/${total} (${pct}%)\n` +
+    `Try it: https://karnan.guru/class12/electrostatics`;
+  navigator.clipboard?.writeText(text).then(() => {
+    const btn = el('btn-copy');
+    btn.classList.add('copied'); btn.textContent = '✓ Copied!';
+    setTimeout(() => { btn.classList.remove('copied'); btn.textContent = '📋 Copy Score'; }, 2000);
+  }).catch(() => showToast('Copy not supported on this browser.'));
 }
 
 // ── Views ─────────────────────────────────────────────────────────────────────
 function el(id) { return document.getElementById(id); }
+
+function showToast(msg) {
+  const t = el('toast'); t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2800);
+}
 
 function showLanding() {
   el('landing').style.display   = '';
@@ -351,37 +570,43 @@ function showDone() {
   el('landing').style.display   = 'none';
   el('quiz-view').style.display = 'none';
   el('done-view').style.display = '';
-  const total   = _dispQs.length;
-  const correct = Object.entries(_state.answers).filter(([i,a]) => a === _dispQs[+i]?.displayCorrect).length;
-  const pct     = total ? Math.round(correct/total*100) : 0;
-  el('done-score').textContent = `${correct} / ${total} correct  (${pct}%)`;
-  el('done-score').style.color = pct >= 75 ? '#22c55e' : pct >= 50 ? '#3b82f6' : '#ef4444';
+  const {correct,total,pct} = _scoreText();
+  el('done-score').textContent    = `${correct} / ${total} correct  (${pct}%)`;
+  el('done-score').style.color    = pct>=75?'#22c55e':pct>=50?'#3b82f6':'#ef4444';
   el('done-tomorrow').textContent = `A new set of ${DAILY_LIMIT} questions unlocks tomorrow!`;
   el('done-reset').textContent    = `Resets in ${timeUntilMidnight()}`;
+  const lp = el('done-login-prompt');
+  if (lp) lp.style.display = _authUser ? 'none' : '';
 }
 
 function renderLandingAction() {
   const la = el('landing-action');
+  if (!_dispQs.length) {
+    la.innerHTML = `<div class="already-done" style="color:#ef4444">⚠️ Questions could not be loaded. Please refresh the page.</div>`;
+    return;
+  }
   if (_state.completed && !_state.repeatMode) {
-    const correct = Object.entries(_state.answers).filter(([i,a]) => a === _dispQs[+i]?.displayCorrect).length;
+    const {correct} = _scoreText();
     la.innerHTML = `
       <div class="already-done">
         <strong>✓ Today's set complete!</strong><br/>
-        You scored ${correct} / ${DAILY_LIMIT}  ·  A new set unlocks in ${timeUntilMidnight()}
+        You scored ${correct} / ${DAILY_LIMIT} · A new set unlocks in ${timeUntilMidnight()}
         <br/><br/>
-        <button class="btn-gold" onclick="repeatToday()" style="margin-right:.5rem">🔁 Repeat Today's Set</button>
+        <button class="btn-gold" onclick="repeatToday()" style="margin-right:.5rem">🔁 Repeat</button>
+        <button class="btn-gold" onclick="showDone()" style="background:linear-gradient(135deg,#3b82f6,#1e3a8a)">See Results</button>
       </div>`;
   } else {
     const answered = Object.keys(_state.answers).length;
-    const label = answered > 0 && !_state.repeatMode
+    const label = (answered>0 && !_state.repeatMode)
       ? `Continue — Question ${answered+1} of ${DAILY_LIMIT}`
       : `Start Today's 20 Questions →`;
     la.innerHTML = `<button class="btn-start" onclick="startQuiz()">${label}</button>`;
   }
 }
 
-// ── Quiz logic ────────────────────────────────────────────────────────────────
+// ── Quiz ──────────────────────────────────────────────────────────────────────
 function startQuiz() {
+  if (!_dispQs.length) { showToast('Questions not loaded. Please refresh.'); return; }
   showQuiz();
   renderQ(_state.currentIdx || 0);
 }
@@ -396,16 +621,14 @@ function renderQ(idx) {
   el('quiz-q').textContent    = q.question;
 
   const answered = _state.answers[idx];
-  el('quiz-opts').innerHTML = q.displayOptions.map((opt, i) => {
+  el('quiz-opts').innerHTML = (q.displayOptions||[]).map((opt,i) => {
     let cls = 'opt';
     if (answered !== undefined) {
       cls += ' locked';
       if (i === q.displayCorrect) cls += ' correct';
       else if (i === answered)    cls += ' wrong';
     }
-    return `<div class="${cls}" onclick="answer(${i})">
-      <div class="opt-key">${LETTERS[i]}</div>${opt}
-    </div>`;
+    return `<div class="${cls}" onclick="answer(${i})"><div class="opt-key">${LETTERS[i]}</div>${opt}</div>`;
   }).join('');
 
   const expEl = el('quiz-exp');
@@ -417,12 +640,12 @@ function renderQ(idx) {
     expEl.classList.remove('show');
   }
 
-  const correct = Object.entries(_state.answers).filter(([i,a]) => a === _dispQs[+i]?.displayCorrect).length;
+  const correct = Object.entries(_state.answers).filter(([i,a])=>a===_dispQs[+i]?.displayCorrect).length;
   const wrong   = Object.keys(_state.answers).length - correct;
   el('quiz-score').textContent = `✅ ${correct}  ❌ ${wrong}`;
 
-  el('quiz-prev').style.visibility = idx === 0 ? 'hidden' : 'visible';
-  el('quiz-next').textContent = idx === total-1 ? 'Finish ✓' : 'Next →';
+  el('quiz-prev').style.visibility = idx===0?'hidden':'visible';
+  el('quiz-next').textContent = idx===total-1?'Finish ✓':'Next →';
 
   saveState(_state);
 }
@@ -436,34 +659,29 @@ function answer(optIdx) {
 
 function qNav(dir) {
   const total = _dispQs.length;
-  if (dir === 1 && _state.currentIdx === total-1) {
-    _state.completed = true;
-    saveState(_state);
-    showDone();
-    return;
+  if (dir===1 && _state.currentIdx===total-1) {
+    _state.completed = true; saveState(_state); showDone(); return;
   }
-  renderQ(Math.max(0, Math.min(total-1, _state.currentIdx + dir)));
+  renderQ(Math.max(0, Math.min(total-1, _state.currentIdx+dir)));
 }
 
 function repeatToday() {
-  _state.answers    = {};
-  _state.currentIdx = 0;
-  _state.completed  = false;
-  _state.repeatMode = true;
-  saveState(_state);
-  startQuiz();
+  _state.answers={}; _state.currentIdx=0; _state.completed=false; _state.repeatMode=true;
+  saveState(_state); startQuiz();
 }
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 (function init() {
-  _state = loadState();
-  _state = checkRollover(_state);
+  _state  = loadState();
+  _state  = checkRollover(_state);
   if (!_state.todaysQuestions || !_state.todaysQuestions.length) {
     _state.todaysQuestions = pickTodaysSet(_state);
   }
-  _dispQs = _state.todaysQuestions.map(buildDisplayQ);
+  _dispQs = (_state.todaysQuestions || []).map(buildDisplayQ);
   saveState(_state);
   showLanding();
+  // Close modal on overlay click
+  el('login-modal').addEventListener('click', e => { if (e.target===el('login-modal')) closeLoginModal(); });
 })();
 </script>
 </body>
