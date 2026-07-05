@@ -365,6 +365,63 @@ function resetLang() {
   <div style="margin-top:1rem"><button class="btn btn-outline btn-sm" onclick="goHome()">← Home</button></div>
 </div><!-- /#screen-electrostatics -->
 
+<!-- ── ELECTRIC CHARGES AND FIELDS — DAILY PRACTICE ───────────────────────── -->
+<div id="screen-ecf" class="screen">
+
+  <!-- Hero header -->
+  <div style="background:linear-gradient(135deg,#e0f2fe,#bae6fd);border:2px solid #38bdf8;border-radius:var(--radius);padding:1.1rem 1.25rem;margin-bottom:1rem;display:flex;align-items:center;gap:.9rem">
+    <div style="font-size:2.2rem;line-height:1">⚡</div>
+    <div>
+      <div style="font-family:'Sora',sans-serif;font-weight:800;font-size:1.05rem;color:#0c4a6e">Electric Charges &amp; Fields</div>
+      <div style="font-size:.8rem;color:#075985;margin-top:.15rem" id="ecf-header-sub">Daily Practice — Class 12 Physics</div>
+    </div>
+    <div id="ecf-cycle-badge" style="display:none;margin-left:auto;background:#dbeafe;color:#1d4ed8;font-size:.72rem;font-weight:700;padding:.25rem .65rem;border-radius:20px;border:1px solid #93c5fd;white-space:nowrap"></div>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="progress-bar" style="margin-bottom:1rem">
+    <div class="progress-fill teal" id="ecf-prog-fill" style="width:0%;transition:width .3s"></div>
+  </div>
+
+  <!-- Quiz panel (question + options + nav) -->
+  <div id="ecf-quiz-panel">
+    <div class="question-box">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:.4rem">
+        <div class="question-text" id="ecf-question" style="margin-bottom:0;flex:1"></div>
+        <div id="ecf-tag" style="font-size:.6rem;font-weight:700;color:var(--blue);letter-spacing:.06em;white-space:nowrap;margin-left:.5rem;padding:.2rem .5rem;background:#eff6ff;border:1px solid #bfdbfe;border-radius:6px;flex-shrink:0"></div>
+      </div>
+      <div class="options-list" id="ecf-options"></div>
+      <div class="explanation-box" id="ecf-explanation">
+        <strong>Explanation</strong>
+        <span id="ecf-exp-text"></span>
+      </div>
+    </div>
+
+    <div class="quiz-nav">
+      <button class="btn btn-outline btn-sm" id="ecf-prev" onclick="ecfNav(-1)">← Prev</button>
+      <span style="font-size:.78rem;color:var(--muted)" id="ecf-score-status"></span>
+      <button class="btn btn-primary btn-sm" id="ecf-next" onclick="ecfNav(1)">Next →</button>
+    </div>
+  </div><!-- /#ecf-quiz-panel -->
+
+  <!-- Completion panel (shown after all 20 answered) -->
+  <div id="ecf-done-panel" style="display:none">
+    <div class="completed-overlay">
+      <div style="font-size:2.5rem;margin-bottom:.5rem">🎉</div>
+      <h3 style="margin-bottom:.35rem">Daily Set Complete!</h3>
+      <div id="ecf-done-score" style="font-size:1.35rem;font-weight:800;font-family:'Sora',sans-serif;margin-bottom:.5rem"></div>
+      <p style="color:var(--muted);font-size:.85rem" id="ecf-done-tomorrow"></p>
+      <p style="color:var(--muted);font-size:.78rem" id="ecf-done-reset"></p>
+    </div>
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem">
+      <button class="btn btn-outline" style="flex:1" onclick="ecfRepeatToday()">🔁 Repeat Today's Set</button>
+      <button class="btn btn-primary" style="flex:1" onclick="goHome()">🏠 Home</button>
+    </div>
+  </div><!-- /#ecf-done-panel -->
+
+  <div style="margin-top:1rem"><button class="btn btn-outline btn-sm" onclick="goHome()">← Home</button></div>
+</div><!-- /#screen-ecf -->
+
 <div id="screen-timed-setup" class="screen">
   <div class="card" style="margin-bottom:1rem;background:linear-gradient(135deg,#fffbea,#fff3c0);border-color:var(--gold)">
     <h2 style="font-size:1.3rem;font-weight:800;color:#7a5200;margin-bottom:.3rem">⭐ Weekly Timed Test</h2>
@@ -1032,6 +1089,8 @@ function _ta(en,ta){ return _isTa()?ta:en; }
 <script src="js/navigation.js"></script>
 <script src="js/flow.js"></script>
 <script src="js/electrostatics.js"></script>
+<script src="js/data-ecf.js"></script>
+<script src="js/ecf.js"></script>
 <script src="js/quiz.js"></script>
 <script src="js/leaderboard.js"></script>
 <script src="js/dashboard.js"></script>
