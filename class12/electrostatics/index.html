@@ -400,6 +400,7 @@ function _initSupabase() {
       closeLoginModal();
       showToast('Logged in — welcome! 🎉');
       if (el('done-login-prompt')) el('done-login-prompt').style.display = 'none';
+      _upsertProfile(session.user);
     }
   });
   return supa;
@@ -407,6 +408,17 @@ function _initSupabase() {
 
 // Try to init Supabase once it loads (async script fires window.onload after)
 window.addEventListener('load', () => _initSupabase());
+
+async function _upsertProfile(user) {
+  if (!supa || !user) return;
+  const name = user.user_metadata?.full_name || user.user_metadata?.name || user.email?.split('@')[0] || '';
+  await supa.from('user_profiles').upsert({
+    id: user.id,
+    display_name: name,
+    signup_source: 'electrostatics_landing',
+    updated_at: new Date().toISOString()
+  }, { onConflict: 'id', ignoreDuplicates: false });
+}
 
 function _updateNavAuth() {
   const chip = el('nav-user');
