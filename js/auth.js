@@ -168,11 +168,17 @@ async function loadUserPlan() {
   try {
     // Try new user_profiles first, fall back to legacy profiles
     let plan = 'free', displayName = '';
-    const { data: up } = await db.from('user_profiles').select('plan,display_name,lang_id,standard').eq('id', authUser.id).single();
+    const { data: up } = await db.from('user_profiles').select('plan,display_name,lang_id,standard,signup_source').eq('id', authUser.id).single();
     if (up) {
       plan = up.plan || 'free'; displayName = up.display_name || '';
       window.currentLang  = up.lang_id === 2 ? 'ta' : 'en';
       window.currentClass = up.standard || '12th';
+      // Block landing-page-only users from accessing main app
+      if (up.signup_source === 'electrostatics_landing' && authUser.email !== ADMIN_EMAIL) {
+        await db.auth.signOut();
+        window.location.href = '/class12/electrostatics/';
+        return;
+      }
     } else {
       const { data: p } = await db.from('profiles').select('plan,display_name').eq('id', authUser.id).single();
       if (p) { plan = p.plan || 'free'; displayName = p.display_name || ''; }
