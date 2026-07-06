@@ -42,14 +42,6 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 
 /* ── HERO BANNER ── */
 /* Show only the top 58% of the image (the electric field diagram), hiding the built-in text at the bottom */
-.hero-banner{position:relative;border-radius:var(--radius);overflow:hidden;margin-bottom:1.25rem;background:#020b18;height:200px}
-@media(min-width:600px){.hero-banner{height:260px}}
-.hero-banner img{width:100%;height:172%;display:block;object-fit:cover;object-position:center top;margin-top:0}
-.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,11,24,.82) 0%,rgba(2,11,24,.45) 55%,rgba(2,11,24,.15) 100%)}
-.hero-text{position:absolute;bottom:1.1rem;left:1.25rem}
-.hero-tag{font-size:.65rem;font-weight:800;letter-spacing:.16em;color:var(--gold);text-transform:uppercase;margin-bottom:.3rem}
-.hero-h{font-family:'Sora',sans-serif;font-weight:800;font-size:clamp(1.25rem,5vw,2rem);color:#fff;line-height:1.1}
-.hero-sub{font-size:.78rem;color:var(--muted);margin-top:.3rem}
 
 /* ── LANDING ── */
 #landing{max-width:780px;margin:0 auto;padding:1rem 1rem 2rem}
@@ -279,17 +271,6 @@ body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;
 
 <!-- ═══════ LANDING VIEW ═══════ -->
 <div id="landing">
-
-  <!-- Hero image banner -->
-  <div class="hero-banner">
-    <img src="hero.png" alt="Electric Charges and Fields — Chapter 1" loading="eager"/>
-    <div class="hero-overlay"></div>
-    <div class="hero-text">
-      <div class="hero-tag">Chapter 1 · Class 12 · NEET</div>
-      <div class="hero-h">Electric Charges<br/>&amp; Fields</div>
-      <div class="hero-sub">Daily Practice · 200 MCQs · 20 Qs/day</div>
-    </div>
-  </div>
 
   <!-- Top 3-column bar -->
   <div class="top-bar">
