@@ -182,3 +182,17 @@ async function loadUserPlan() {
   } catch (e) { userPlan = 'free'; DAILY_LIMIT = FREE_DAILY_LIMIT; }
 }
 
+async function signInWithGoogle() {
+  try {
+    const { error } = await db.auth.signInWithOAuth({
+      provider: 'google',
+      options: {
+        redirectTo: window.location.origin
+      }
+    });
+    if (error) throw error;
+  } catch (e) {
+    alert('Google Sign-In failed: ' + e.message);
+  }
+}
+

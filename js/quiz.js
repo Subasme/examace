@@ -4,7 +4,33 @@ async function startFlashcards(chapter) {
   selection.chapter = chapter;
   document.getElementById('chapter-list').innerHTML = '<div class="spinner-wrap"><div class="spinner"></div><p>Loading flashcards…</p></div>';
   try {
-    let qs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: selection.subject.dbLabel || selection.subject.label, chapterId: chapter.id});
+    let qs = [];
+    const subjectName = selection.subject?.dbLabel || selection.subject?.label;
+    
+    // Fetch manual flashcards first
+    try {
+      const manual = await fetchManualFlashcards(subjectName, chapter.id);
+      if (manual && manual.length > 0) {
+        qs = manual.map(m => ({
+          id: m.id,
+          question: m.front_text,
+          correct: 0,
+          options: [m.back_text],
+          explanation: m.back_text,
+          subject: m.subject,
+          chapter: m.chapter_id,
+          isManual: true
+        }));
+      }
+    } catch(e) {
+      console.log('No manual flashcards or failed to load:', e);
+    }
+    
+    // Fallback to dynamic questions if no manual cards found
+    if (qs.length === 0) {
+      qs = await fetchQuestions({ language: selection.language.label, standard: selection.standard.id, subject: subjectName, chapterId: chapter.id});
+    }
+
     if (userPlan === 'free') {
       const isFC = appMode !== 'truefalse';
       const done = isFC ? getFCDoneToday() : getTFDoneToday();
@@ -31,6 +57,17 @@ async function startFlashcards(chapter) {
     alert('Failed to load flashcards.');
     renderChapters();
   }
+}
+
+async function fetchManualFlashcards(subject, chapterId) {
+  const { data, error } = await db
+    .from('flashcards')
+    .select('*')
+    .eq('subject', subject)
+    .eq('chapter_id', chapterId)
+    .eq('status', 'active');
+  if (error) throw error;
+  return data || [];
 }
 
 function renderFlashcard() {
@@ -78,6 +115,8 @@ function renderFlashcard() {
   document.getElementById('fc-next').disabled = idx === total - 1;
 }
 
+let fcSaving = false;
+
 function flipCard() {
   flashcardState.flipped = !flashcardState.flipped;
   document.getElementById('fc-front').classList.toggle('hidden', flashcardState.flipped);
@@ -86,6 +125,134 @@ function flipCard() {
     flashcardState.counted = flashcardState.counted || new Set();
     flashcardState.counted.add(flashcardState.idx);
     incFCDone(1);
+    
+    // Sync flashcard progress with debouncing
+    if (authUser && !fcSaving) {
+      const q = flashcardState.questions[flashcardState.idx];
+      if (q) {
+        fcSaving = true;
+        saveFlashcardProgress(q, 4).finally(() => {
+          fcSaving = false;
+        });
+      }
+    }
+  }
+}
+
+async function saveFlashcardProgress(q, rating = 4) {
+  if (!authUser || !q || !q.id) return;
+  try {
+    let flashcardId = null;
+    if (q.isManual) {
+      flashcardId = q.id;
+    } else {
+      const { data: existingCard } = await db
+        .from('flashcards')
+        .select('id')
+        .eq('question_id', q.id)
+        .maybeSingle();
+      if (existingCard) {
+        flashcardId = existingCard.id;
+      } else {
+        const { data: newCard, error } = await db
+          .from('flashcards')
+          .insert({
+            question_id: q.id,
+            subject: q.subject || 'Physics',
+            chapter_id: q.chapter || 'chapter1',
+            front_text: q.question,
+            back_text: q.options[q.correct],
+            status: 'active'
+          })
+          .select('id')
+          .single();
+        if (error) throw error;
+        if (newCard) flashcardId = newCard.id;
+      }
+    }
+
+    if (!flashcardId) return;
+
+    // Fetch current progress
+    const { data: current } = await db
+      .from('user_flashcard_progress')
+      .select('id, box_number, easiness_factor, repetitions, interval_days')
+      .eq('user_id', authUser.id)
+      .eq('flashcard_id', flashcardId)
+      .maybeSingle();
+
+    let repetitions = current ? current.repetitions : 0;
+    let easinessFactor = current ? parseFloat(current.easiness_factor) : 2.5;
+    let intervalDays = current ? current.interval_days : 0;
+    let boxNumber = current ? current.box_number : 1;
+
+    if (rating >= 3) {
+      if (repetitions === 0) {
+        intervalDays = 1;
+      } else if (repetitions === 1) {
+        intervalDays = 6;
+      } else {
+        intervalDays = Math.round(intervalDays * easinessFactor);
+      }
+      repetitions += 1;
+      boxNumber = Math.min(5, boxNumber + 1);
+    } else {
+      repetitions = 0;
+      intervalDays = 1;
+      boxNumber = Math.max(1, boxNumber - 1);
+    }
+
+    easinessFactor = easinessFactor + (0.1 - (5 - rating) * (0.08 + (5 - rating) * 0.02));
+    if (easinessFactor < 1.3) easinessFactor = 1.3;
+
+    const nextReview = new Date();
+    nextReview.setDate(nextReview.getDate() + intervalDays);
+
+    await db.from('user_flashcard_progress').upsert({
+      user_id: authUser.id,
+      flashcard_id: flashcardId,
+      box_number: boxNumber,
+      easiness_factor: parseFloat(easinessFactor.toFixed(2)),
+      repetitions,
+      interval_days: intervalDays,
+      next_review_at: nextReview.toISOString(),
+      last_reviewed_at: new Date().toISOString()
+    }, { onConflict: 'user_id,flashcard_id' });
+  } catch(e) {
+    console.error('Failed to save flashcard progress:', e);
+  }
+}
+
+async function saveDailyQuizAttempt(quizId, questions, answers, timeTakenSecs) {
+  if (!authUser) return;
+  try {
+    const { count } = await db
+      .from('daily_quiz_attempts')
+      .select('id', { count: 'exact', head: true })
+      .eq('user_id', authUser.id)
+      .eq('daily_quiz_id', quizId);
+      
+    const nextAttempt = (count || 0) + 1;
+    const total = questions.length;
+    const correctCount = Object.entries(answers).filter(([i, a]) => a === questions[i]?.correct).length;
+    const wrongCount = total - correctCount;
+    const score = correctCount * 4;
+    
+    const attemptData = {
+      user_id: authUser.id,
+      daily_quiz_id: quizId,
+      attempt_number: nextAttempt,
+      score,
+      correct_count: correctCount,
+      wrong_count: wrongCount,
+      time_taken: timeTakenSecs,
+      completed_at: new Date().toISOString()
+    };
+    
+    const { error } = await db.from('daily_quiz_attempts').insert(attemptData);
+    if (error) throw error;
+  } catch(e) {
+    console.error('Failed to save daily quiz attempt:', e);
   }
 }
 
@@ -98,13 +265,15 @@ function flashcardNav(dir) {
 let tfState = { statements: [], idx: 0, score: 0, answered: false };
 
 function generateTFStatements(questions) {
-  return questions.map(q => {
-    const isTrue = Math.random() > 0.5;
-    const wrongIdxs = [0,1,2,3].filter(i => i !== q.correct);
-    const wrongIdx = wrongIdxs[Math.floor(Math.random() * wrongIdxs.length)];
-    const statementText = isTrue ? q.options[q.correct] : q.options[wrongIdx];
-    return { question: q.question, statement: statementText, isTrue, explanation: q.explanation || '', correctText: q.options[q.correct], subject: q.subject };
-  });
+  return questions
+    .filter(q => !q.isManual)
+    .map(q => {
+      const isTrue = Math.random() > 0.5;
+      const wrongIdxs = [0,1,2,3].filter(i => i !== q.correct);
+      const wrongIdx = wrongIdxs[Math.floor(Math.random() * wrongIdxs.length)];
+      const statementText = isTrue ? q.options[q.correct] : q.options[wrongIdx];
+      return { question: q.question, statement: statementText, isTrue, explanation: q.explanation || '', correctText: q.options[q.correct], subject: q.subject };
+    });
 }
 
 function switchFlashcardTab(tab) {
@@ -118,7 +287,13 @@ function switchFlashcardTab(tab) {
 }
 
 function initTrueFalse() {
-  tfState = { statements: generateTFStatements(flashcardState.questions), idx: 0, score: 0, answered: false };
+  const tfQs = generateTFStatements(flashcardState.questions);
+  if (tfQs.length === 0) {
+    alert(_ta('True/False mode is not available for manually uploaded flashcards.', 'கைமுறையாகப் பதிவேற்றப்பட்ட அட்டைப்படங்களுக்கு True/False முறை கிடைக்கவில்லை.'));
+    switchFlashcardTab('flashcard');
+    return;
+  }
+  tfState = { statements: tfQs, idx: 0, score: 0, answered: false };
   renderTF();
 }
 
@@ -293,7 +468,17 @@ function answerPractice(i) {
   }
   saveStorage();
   // Save resume progress
-  if (practiceState.progressKey) {
+  if (appMode === 'electrostatics') {
+    const nextIdx = practiceState.idx + 1;
+    const esSession = {
+      questions: practiceState.questions,
+      idx: nextIdx,
+      answers: practiceState.answers,
+      start: practiceState.start,
+      quizId: practiceState.quizId
+    };
+    try { localStorage.setItem('karnan_electrostatics_active_session', JSON.stringify(esSession)); } catch(e) {}
+  } else if (practiceState.progressKey) {
     const nextIdx = practiceState.idx + 1;
     if (nextIdx < practiceState.questions.length) {
       try { localStorage.setItem(practiceState.progressKey, String(nextIdx)); } catch(e) {}
@@ -308,6 +493,13 @@ function practiceNav(dir) {
     // Chapter complete — clear resume progress
     if (practiceState.progressKey) { try { localStorage.removeItem(practiceState.progressKey); } catch(e) {} }
     const timeTakenSecs = Math.round((Date.now() - (practiceState.start || Date.now())) / 1000);
+    if (appMode === 'electrostatics') {
+      try { localStorage.removeItem('karnan_electrostatics_active_session'); } catch(e) {}
+      if (authUser && practiceState.quizId) {
+        saveDailyQuizAttempt(practiceState.quizId, practiceState.questions, practiceState.answers, timeTakenSecs).catch(() => {});
+      }
+      checkAndUpdateElectrostaticsStreak().catch(() => {});
+    }
     saveSessionToSupabase({ questions: practiceState.questions, answers: practiceState.answers, timeTakenSecs, mode: appMode || 'practice', chapterId: selection.chapter?.id });
     // XP + mastery on chapter completion
     if (authUser && total >= 5) {
@@ -336,6 +528,16 @@ function practiceNav(dir) {
     return;
   }
   practiceState.idx = Math.max(0, Math.min(total - 1, practiceState.idx + dir));
+  if (appMode === 'electrostatics') {
+    const esSession = {
+      questions: practiceState.questions,
+      idx: practiceState.idx,
+      answers: practiceState.answers,
+      start: practiceState.start,
+      quizId: practiceState.quizId
+    };
+    try { localStorage.setItem('karnan_electrostatics_active_session', JSON.stringify(esSession)); } catch(e) {}
+  }
   renderPracticeQ();
 }
 

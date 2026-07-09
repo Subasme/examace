@@ -4,7 +4,10 @@
 // No-repeat: tracks seen question IDs across days; starts a new cycle when pool exhausted
 
 const ES_STORE_KEY  = 'electrostatics_practice';
-const ES_DAILY_MAX  = 20;
+const ES_SESSION_KEY = 'karnan_electrostatics_active_session';
+function _esDailyMax() {
+  return adminConfig.electrostatics_daily_limit || 20;
+}
 // Chapter IDs for the two electrostatics chapters in Physics Class 12
 const ES_CHAPTER_IDS = ['chapter1', 'chapter2'];
 
@@ -23,6 +26,15 @@ function _esLoad() {
 }
 function _esSave(state) {
   try { localStorage.setItem(ES_STORE_KEY, JSON.stringify(state)); } catch(e) {}
+}
+function _esLoadSession() {
+  try { return JSON.parse(localStorage.getItem(ES_SESSION_KEY) || 'null'); } catch(e) { return null; }
+}
+function _esSaveSession(sessionState) {
+  try { localStorage.setItem(ES_SESSION_KEY, JSON.stringify(sessionState)); } catch(e) {}
+}
+function _esClearSession() {
+  try { localStorage.removeItem(ES_SESSION_KEY); } catch(e) {}
 }
 
 // Reset daily counters if the local date has changed (handles midnight rollover)
@@ -109,9 +121,15 @@ async function openElectrostaticsMode() {
 }
 
 function _esRenderScreen(state, poolSize) {
-  const limit   = Math.min(ES_DAILY_MAX, poolSize);
+  const limit   = Math.min(_esDailyMax(), poolSize);
   const served  = state.servedToday || 0;
-  const isDone  = served >= limit;
+  
+  // Check active session status
+  const activeSession = _esLoadSession();
+  const hasActive = activeSession && activeSession.questions && activeSession.questions.length > 0 &&
+                    Object.keys(activeSession.answers || {}).length < activeSession.questions.length;
+                    
+  const isDone  = served >= limit && !hasActive;
 
   const loadEl    = document.getElementById('es-load-msg');
   const contentEl = document.getElementById('es-content');
@@ -119,11 +137,12 @@ function _esRenderScreen(state, poolSize) {
   if (loadEl) loadEl.style.display = 'none';
 
   // Progress bar & label
+  const displayServed = hasActive ? served - (activeSession.questions.length - Object.keys(activeSession.answers || {}).length) : served;
   const progText = document.getElementById('es-progress-text');
   if (progText) progText.textContent =
-    _ta(`${served} / ${limit} questions today`, `இன்று ${served} / ${limit} கேள்விகள்`);
+    _ta(`${displayServed} / ${limit} questions today`, `இன்று ${displayServed} / ${limit} கேள்விகள்`);
   const progFill = document.getElementById('es-progress-fill');
-  if (progFill) progFill.style.width = Math.min(100, limit ? Math.round(served / limit * 100) : 0) + '%';
+  if (progFill) progFill.style.width = Math.min(100, limit ? Math.round(displayServed / limit * 100) : 0) + '%';
 
   // Cycle badge (only after round 1)
   const cycleBadge = document.getElementById('es-cycle-badge');
@@ -139,7 +158,7 @@ function _esRenderScreen(state, poolSize) {
   // Pool-size caveat (only when pool < 20)
   const poolInfo = document.getElementById('es-pool-info');
   if (poolInfo) {
-    if (poolSize > 0 && poolSize < ES_DAILY_MAX) {
+    if (poolSize > 0 && poolSize < _esDailyMax()) {
       poolInfo.textContent =
         _ta(`${poolSize} questions in pool — daily limit set to ${poolSize}`,
             `குளத்தில் ${poolSize} கேள்விகள் — தினசரி வரம்பு ${poolSize}`);
@@ -157,10 +176,15 @@ function _esRenderScreen(state, poolSize) {
       startBtn.textContent = _ta('✓ Done for today', '✓ இன்றைக்கு முடிந்தது');
     } else {
       startBtn.disabled = false;
-      const remaining   = limit - served;
-      startBtn.textContent = served > 0
-        ? _ta(`Continue — ${remaining} left →`, `தொடர் — ${remaining} மீதம் →`)
-        : _ta('Start Practice →', 'பயிற்சி தொடங்கு →');
+      if (hasActive) {
+        const remaining = activeSession.questions.length - Object.keys(activeSession.answers || {}).length;
+        startBtn.textContent = _ta(`Continue — ${remaining} left →`, `தொடர் — ${remaining} மீதம் →`);
+      } else {
+        const remaining   = limit - served;
+        startBtn.textContent = served > 0
+          ? _ta(`Continue — ${remaining} left →`, `தொடர் — ${remaining} மீதம் →`)
+          : _ta('Start Practice →', 'பயிற்சி தொடங்கு →');
+      }
     }
   }
 
@@ -182,32 +206,167 @@ function _esRenderScreen(state, poolSize) {
   }
 }
 
+async function _esFetchDailyQuiz(dateStr) {
+  const { data: quiz, error } = await db
+    .from('daily_quizzes')
+    .select('id, version, daily_quiz_questions(question_id, sequence_num)')
+    .eq('publish_date', dateStr)
+    .eq('subject', 'Physics')
+    .eq('standard', '12th')
+    .eq('is_active', true)
+    .maybeSingle();
+  if (error) throw error;
+  return quiz;
+}
+
+async function _esFetchQuestionsByIds(ids) {
+  if (!ids || ids.length === 0) return [];
+  
+  // 1. Fetch tags for the input IDs
+  const { data: tagData, error: tagErr } = await db
+    .from('questions')
+    .select('question_tag')
+    .in('id', ids);
+    
+  if (tagErr || !tagData) return [];
+  const tags = tagData.map(t => t.question_tag);
+  
+  // 2. Map tags to current language equivalents
+  const targetTags = tags.map(tag => {
+    if (window.currentLang === 'ta') {
+      return tag.replace('ENPHY12EN', 'TAPHY12TA');
+    } else {
+      return tag.replace('TAPHY12TA', 'ENPHY12EN');
+    }
+  });
+  
+  const allTags = [...new Set([...targetTags, ...tags])];
+  const isT = window.currentLang === 'ta';
+  const lang_id = isT ? 2 : 1;
+
+  // 3. Query questions and translations
+  const { data, error } = await db
+    .from('questions')
+    .select(`id, chapter_label, topic, correct_option, question_tag, status,
+             question_translations!inner(question_text, explanation),
+             options(option_key, option_text)`)
+    .in('question_tag', allTags)
+    .eq('status', 'active')
+    .eq('question_translations.lang_id', lang_id)
+    .eq('options.lang_id', lang_id);
+    
+  if (error) throw error;
+  if (!data || !data.length) return [];
+  
+  const mapped = data.map(r => {
+    const trans = Array.isArray(r.question_translations) ? r.question_translations[0] : r.question_translations;
+    const optMap = {};
+    (r.options || []).forEach(o => { optMap[o.option_key] = o.option_text; });
+    return buildQuestion({ id: r.id, question_text: trans?.question_text || '',
+      optMap, correct_option: r.correct_option || 'A',
+      explanation: trans?.explanation, topic: r.topic || r.chapter_label,
+      chapter: r.chapter_label || '', tag: r.question_tag || '', subject: 'Physics' });
+  });
+  
+  // 4. Sort and fallback
+  return targetTags.map((targetTag, idx) => {
+    let q = mapped.find(item => item.tag === targetTag);
+    if (!q) {
+      const origTag = tags[idx];
+      q = mapped.find(item => item.tag === origTag);
+    }
+    return q;
+  }).filter(Boolean);
+}
+
 async function startElectrostaticsSession() {
   const btn = document.getElementById('es-start-btn');
   if (btn) { btn.disabled = true; btn.textContent = _ta('Loading…', 'ஏற்றுகிறது…'); }
 
   try {
-    const pool  = await _esBuildPool();
-    let   state = _esLoad();
-    state = _esCheckRollover(state); // re-check in case midnight passed since page opened
-    const limit   = Math.min(ES_DAILY_MAX, pool.length);
-    const remaining = limit - (state.servedToday || 0);
+    const savedSession = _esLoadSession();
+    let questions = null;
+    let idx = 0;
+    let answers = {};
+    let sessionStart = Date.now();
+    let quizId = null;
+    
+    // Check if we can hydrate/restore the active session
+    if (savedSession && savedSession.questions && savedSession.questions.length > 0 &&
+        Object.keys(savedSession.answers || {}).length < savedSession.questions.length) {
+      questions = savedSession.questions;
+      idx = savedSession.idx || 0;
+      answers = savedSession.answers || {};
+      sessionStart = savedSession.start || Date.now();
+      quizId = savedSession.quizId || null;
+    } else {
+      // Check for daily locked quiz first
+      let dailyQuiz = null;
+      try {
+        const todayStr = _esLocalDate();
+        dailyQuiz = await _esFetchDailyQuiz(todayStr);
+      } catch(e) {
+        console.error('Failed to check daily quiz:', e);
+      }
+      
+      if (dailyQuiz && dailyQuiz.daily_quiz_questions && dailyQuiz.daily_quiz_questions.length > 0) {
+        quizId = dailyQuiz.id;
+        const qIds = dailyQuiz.daily_quiz_questions
+          .sort((a, b) => a.sequence_num - b.sequence_num)
+          .map(q => q.question_id);
+        questions = await _esFetchQuestionsByIds(qIds);
+        
+        // Mark these questions as seen
+        let state = _esLoad();
+        state = _esCheckRollover(state);
+        const pickedIds = questions.map(q => q.id || qFingerprint(q));
+        state.seenAllTimeIds     = [...(state.seenAllTimeIds || []),     ...pickedIds];
+        state.todaysQuestionIds  = [...(state.todaysQuestionIds || []),  ...pickedIds];
+        state.servedToday        = (state.servedToday || 0) + questions.length;
+        _esSave(state);
+        
+        // Save initial session state
+        _esSaveSession({
+          questions,
+          idx,
+          answers,
+          start: sessionStart,
+          quizId
+        });
+      } else {
+        // Start a fresh random practice session
+        const pool  = await _esBuildPool();
+        let   state = _esLoad();
+        state = _esCheckRollover(state); // re-check in case midnight passed since page opened
+        const limit   = Math.min(_esDailyMax(), pool.length);
+        const remaining = limit - (state.servedToday || 0);
 
-    if (remaining <= 0) { _esRenderScreen(state, pool.length); return; }
+        if (remaining <= 0) { _esRenderScreen(state, pool.length); return; }
 
-    const questions = _esPickQuestions(pool, state, remaining);
-    if (!questions.length) {
-      showToast(_ta('No questions available.', 'கேள்விகள் எதுவும் இல்லை.'));
-      if (btn) { btn.disabled = false; btn.textContent = _ta('Start Practice →', 'பயிற்சி தொடங்கு →'); }
-      return;
+        questions = _esPickQuestions(pool, state, remaining);
+        if (!questions.length) {
+          showToast(_ta('No questions available.', 'கேள்விகள் எதுவும் இல்லை.'));
+          if (btn) { btn.disabled = false; btn.textContent = _ta('Start Practice →', 'பயிற்சி தொடங்கு →'); }
+          return;
+        }
+
+        // Persist served IDs BEFORE quiz so midnight rollover on open-tab is handled
+        const pickedIds = questions.map(q => q.id || qFingerprint(q));
+        state.seenAllTimeIds     = [...(state.seenAllTimeIds || []),     ...pickedIds];
+        state.todaysQuestionIds  = [...(state.todaysQuestionIds || []),  ...pickedIds];
+        state.servedToday        = (state.servedToday || 0) + questions.length;
+        _esSave(state);
+
+        // Save initial session state
+        _esSaveSession({
+          questions,
+          idx,
+          answers,
+          start: sessionStart,
+          quizId: null
+        });
+      }
     }
-
-    // Persist served IDs BEFORE quiz so midnight rollover on open-tab is handled
-    const pickedIds = questions.map(q => q.id || qFingerprint(q));
-    state.seenAllTimeIds     = [...(state.seenAllTimeIds || []),     ...pickedIds];
-    state.todaysQuestionIds  = [...(state.todaysQuestionIds || []),  ...pickedIds];
-    state.servedToday        = (state.servedToday || 0) + questions.length;
-    _esSave(state);
 
     // Wire up selection so progress-tracking helpers have context
     appMode = 'electrostatics';
@@ -224,12 +383,13 @@ async function startElectrostaticsSession() {
 
     practiceState = {
       questions,
-      idx:         0,
-      answers:     {},
+      idx,
+      answers,
       skipDaily:   true,   // bypass per-chapter daily counters
       chapter:     selection.chapter,
-      start:       Date.now(),
-      progressKey: null,   // no resume checkpoint for this mode
+      start:       sessionStart,
+      progressKey: ES_SESSION_KEY,
+      quizId:      quizId
     };
 
     renderPracticeQ();

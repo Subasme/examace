@@ -8,7 +8,7 @@ let FREE_FC_DAILY = 5;
 let FREE_TF_DAILY = 5;
 const PREMIUM_DAILY_LIMIT = 9999;
 const ADMIN_EMAIL = 'karnanphysics2026@gmail.com';
-let adminConfig = { free_daily_limit: 5, free_max_test_duration: 30 };
+let adminConfig = { free_daily_limit: 5, free_max_test_duration: 30, electrostatics_daily_limit: 20 };
 const LETTERS = ['1','2','3','4']; // display labels for options (never A/B/C/D to students)
 
 const { createClient } = window.supabase;

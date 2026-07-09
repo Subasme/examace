@@ -25,7 +25,13 @@ async function initApp() {
   loadManifest().then(() => renderLangOptions()).catch(() => {
     document.getElementById('lang-options').innerHTML = '<div class="info-box">Could not load question catalog. Check Supabase connection.</div>';
   });
-  showScreen('home');
+
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('mode') === 'electrostatics' || window.location.hash === '#electrostatics') {
+    openElectrostaticsMode();
+  } else {
+    showScreen('home');
+  }
   setTimeout(showDailyTipPopup, 800);
 }
 

@@ -1,67 +1,112 @@
-# KARNAN — NEET UG Practice Platform
-## File Structure
+# KARNAN NEET UG Preparation Platform
+
+A premium, localized EdTech platform designed to help students prepare for the NEET UG exam in both English and Tamil. Built as a high-performance Single Page Application (SPA) utilizing Vanilla JS, Vanilla CSS, and Supabase.
+
+---
+
+## 🚀 Features
+
+*   **Authentication**: Secure authentication using Supabase Auth (supports Email/Password and Google OAuth Sign-in).
+*   **Locked Daily Quizzes**: Delivers scheduled 20-question quiz sets globally to all students based on calendar dates.
+*   **Session Hydration**: Quiz state is cached in local storage, allowing students to safely resume sessions if interrupted.
+*   **Spaced-Repetition Flashcards**: Leitner Box cards powered by the SuperMemo-2 algorithm, with progress synced to `user_flashcard_progress`.
+*   **True / False Mode**: Dynamic layout generator that automatically converts multiple-choice questions into True/False statements.
+*   **Admin Panel Drawer**: Tools for scheduling daily locked quizzes, toggling chapter visibility, managing users, and updating configurations.
+*   **Audit Logging**: Automatic logging of administrative changes to questions and configuration settings.
+
+---
+
+## 🛠 Tech Stack
+
+*   **Frontend**: HTML5, Vanilla CSS3, Vanilla JavaScript (ES6)
+*   **Backend**: Supabase (Auth, Storage, Edge Functions)
+*   **Database**: PostgreSQL (RLS, Constraints, Indexing)
+*   **Integrations**: Google Sheets API (Sync Queue), SendGrid/SMTP (Email notifications)
+
+---
+
+## 📦 Directory Structure
 
 ```
-karnan/
-├── index.html          ← Main HTML (screens/templates only, no CSS/JS inline)
-├── css/
-│   └── styles.css      ← All CSS (design tokens, components, layouts)
-└── js/
-    ├── config.js       ← Supabase credentials, plan constants, global state vars
-    ├── db.js           ← Database queries: storage sync, loadManifest, fetchQuestions
-    ├── utils.js        ← Helpers: shuffle, date keys, daily tracking, subjClass
-    ├── navigation.js   ← showScreen, goHome, confirmExit, renderStepper
-    ├── flow.js         ← openFlow, renderLangOptions, renderSubjectOptions,
-    │                     renderChapters, selectChapter, startGrandTest, timedSetup
-    ├── quiz.js         ← Flashcard, True/False, Practice quiz, Timed quiz
-    ├── leaderboard.js  ← saveToLeaderboard, fetchGlobalLeaderboard, renderLbContent
-    ├── dashboard.js    ← renderDashboard, loadWrongAnswers, renderMistakes,
-    │                     clearMistakes, practiceWrong
-    ├── home.js         ← renderHomeSessions, renderHomeFeatures, renderHomeStats
-    ├── auth.js         ← DOMContentLoaded, handleLogin, handleRegister,
-    │                     handleLogout, showAuthScreen, selectPlan, confirmPlan
-    ├── admin.js        ← loadAdminConfig, saveAdminConfig, saveChapterLimits,
-    │                     showAdminPanel, loadSupabaseHomeStats
-    └── app.js          ← initApp, updateNavUser, updateUpgradeBanner,
-                          showToast, DAILY_TIPS, showDailyTipPopup
-
+├── assets/                  # Shared static files (images, icons)
+├── css/                     # Styling components
+│     └── styles.css         # Main stylesheet
+├── data/                    # Local fallbacks and question JSON catalogs
+│     ├── English/           # English question catalog
+│     └── Tamil/             # Tamil question catalog
+├── js/                      # Frontend JavaScript modules
+│     ├── admin.js           # Admin limits configuration and scheduling
+│     ├── app.js             # Main router and deep-linking router
+│     ├── auth.js            # Authentication flow
+│     ├── db.js              # Supabase API database adapter
+│     ├── electrostatics.js  # Electrostatics quiz manager
+│     ├── gamification.js    # Streak calculations and XP rewards
+│     └── quiz.js            # Core quiz view and flashcards SM-2 logic
+├── supabase/
+│     └── migrations/        # Database migrations
+└── index.html               # SPA entry point
 ```
 
-## Editing Guide
+---
 
-| What you want to change | Edit this file |
-|---|---|
-| Colors, fonts, spacing | `css/styles.css` |
-| Supabase URL / API key | `js/config.js` (top of file) |
-| Free tier limits (fallback) | `js/config.js` |
-| Database reads/writes | `js/db.js` |
-| Quiz question logic | `js/quiz.js` |
-| Practice flow / chapter selection | `js/flow.js` |
-| Leaderboard display | `js/leaderboard.js` |
-| Dashboard & mistake tracker | `js/dashboard.js` |
-| Home screen cards | `js/home.js` |
-| Login / register / logout | `js/auth.js` |
-| Admin panel | `js/admin.js` |
-| App startup | `js/app.js` |
-| Page layout / HTML screens | `index.html` |
+## ⚙ Setup & Installation
 
-## Script Load Order (index.html)
-Scripts must load in this order since each depends on the previous:
-1. `config.js` — must be first (defines `db`, state vars)
-2. `db.js` — uses `db`, `authUser`
-3. `utils.js` — pure helpers
-4. `navigation.js` — uses `showScreen`
-5. `flow.js` — uses manifest, renderChapters
-6. `quiz.js` — uses practiceState, timedState
-7. `leaderboard.js` — uses progress, globalLeaderboard
-8. `dashboard.js` — uses authUser, db
-9. `home.js` — uses manifest, userPlan
-10. `auth.js` — entry point (DOMContentLoaded)
-11. `admin.js` — uses adminConfig
-12. `app.js` — initApp, UI helpers, tips
+### Prerequisites
+*   Node.js (for local server execution)
+*   Supabase Account & Project
 
-## Serving
-This project must be served from a web server (not opened directly as a file) because it uses ES modules and Supabase. Use any of:
-- `npx serve .`
-- `python3 -m http.server 8080`
-- Deploy to any static host (Netlify, Vercel, GitHub Pages, etc.)
+### Local Server Setup
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/username/examace.git
+    cd examace
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Set up environment variables:
+    *   Create a `.env` file in the root directory.
+    *   Add your Supabase keys:
+        ```env
+        SUPABASE_URL=your_project_url
+        SUPABASE_ANON_KEY=your_anon_key
+        ```
+4.  Run the local development server:
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 🗄 Database Configuration
+
+Apply SQL migrations in your Supabase SQL Editor in alphabetical sequence:
+1.  Run core schema migrations located in `supabase/migrations/`.
+2.  Seed the Electrostatics question bank:
+    ```sql
+    -- Executes supabase/migrations/033_seed_electrostatics.sql
+    ```
+3.  Set up the Daily Quiz, Flashcards, and Queue tables:
+    ```sql
+    -- Executes supabase/migrations/034_new_features_schema.sql
+    ```
+
+---
+
+## 🚀 Production Deployment
+
+### Front-End Hosting
+The application can be hosted on static providers (Vercel, Netlify, or GitHub Pages):
+1.  Configure the build command: `npm run build` (or leave empty for static page routing).
+2.  Set the publish directory: `./`.
+
+### Supabase Settings
+1.  Add your production domain to the **Redirect URIs** whitelist in the Supabase Dashboard settings (**Auth** ➔ **URL Configuration**).
+2.  Enable Google Auth and insert your OAuth Client ID and Secret in **Auth** ➔ **Providers**.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for details.

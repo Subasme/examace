@@ -9,6 +9,7 @@ const XP_REWARDS = {
   daily_goal:    200,
   streak_7:      500,
   mock_test:     300,
+  electrostatics_streak: 150,
 };
 
 const LEVELS = [
@@ -93,6 +94,7 @@ const XP_LABELS = {
   daily_goal:    'Daily Goal!',
   streak_7:      '7-Day Streak!',
   mock_test:     'Test Complete!',
+  electrostatics_streak: 'Electrostatics Streak!',
 };
 
 function showXPToast(amount, reason) {
@@ -649,4 +651,34 @@ function renderHomeAchievementsWidget() {
         </div>`).join('')}
       ${unlocked.length > 4 ? `<div class="haw-badge haw-more" onclick="showScreen('achievements')">+${unlocked.length - 4}<div class="haw-badge-name">more</div></div>` : ''}
     </div>`;
+}
+
+async function checkAndUpdateElectrostaticsStreak() {
+  let state = {};
+  try { state = JSON.parse(localStorage.getItem('electrostatics_practice') || '{}') || {}; } catch(e) {}
+  
+  const d = new Date();
+  const today = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  
+  if (state.lastStreakDate === today) {
+    return;
+  }
+  
+  const yesterday = new Date();
+  yesterday.setDate(yesterday.getDate() - 1);
+  const yestStr = `${yesterday.getFullYear()}-${String(yesterday.getMonth()+1).padStart(2,'0')}-${String(yesterday.getDate()).padStart(2,'0')}`;
+  
+  let currentStreak = state.electrostaticsStreak || 0;
+  if (state.lastStreakDate === yestStr) {
+    currentStreak += 1;
+  } else {
+    currentStreak = 1;
+  }
+  
+  state.electrostaticsStreak = currentStreak;
+  state.lastStreakDate = today;
+  try { localStorage.setItem('electrostatics_practice', JSON.stringify(state)); } catch(e) {}
+  
+  await awardXP('electrostatics_streak');
+  showToast(`⚡ Electrostatics Day ${currentStreak} Completed! +150 XP`);
 }

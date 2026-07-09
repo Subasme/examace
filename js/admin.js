@@ -4,6 +4,7 @@ async function loadAdminConfig() {
     if (data) {
       data.forEach(r => {
         if (r.key === 'free_daily_limit') adminConfig.free_daily_limit = parseInt(r.value) || 5;
+        if (r.key === 'electrostatics_daily_limit') adminConfig.electrostatics_daily_limit = parseInt(r.value) || 20;
         if (r.key === 'free_max_test_duration') adminConfig.free_max_test_duration = parseInt(r.value) || 30;
       });
       FREE_DAILY_LIMIT = adminConfig.free_daily_limit;
@@ -18,14 +19,17 @@ async function loadAdminConfig() {
 
 async function saveAdminConfig() {
   const limit = parseInt(document.getElementById('admin-daily-limit').value) || 5;
+  const esLimit = parseInt(document.getElementById('admin-es-limit').value) || 20;
   const maxDur = parseInt(document.getElementById('admin-max-duration').value) || 30;
   try {
     const { error } = await db.from('admin_config').upsert([
       { key: 'free_daily_limit', value: String(limit) },
+      { key: 'electrostatics_daily_limit', value: String(esLimit) },
       { key: 'free_max_test_duration', value: String(maxDur) }
     ]);
     if (error) throw new Error(error.message);
     adminConfig.free_daily_limit = limit;
+    adminConfig.electrostatics_daily_limit = esLimit;
     adminConfig.free_max_test_duration = maxDur;
     FREE_DAILY_LIMIT = limit;
     FREE_FC_DAILY = limit;
@@ -66,6 +70,8 @@ function saveChapterLimits() {
 
 function showAdminPanel() {
   document.getElementById('admin-daily-limit').value = adminConfig.free_daily_limit;
+  const esLimitEl = document.getElementById('admin-es-limit');
+  if (esLimitEl) esLimitEl.value = adminConfig.electrostatics_daily_limit || 20;
   document.getElementById('admin-max-duration').value = adminConfig.free_max_test_duration;
   // Load chapter limits into selects
   const limits = getChapterLimits();
@@ -195,5 +201,98 @@ async function loadSupabaseHomeStats() {
     }
     if (ss) ss.textContent = streak;
   } catch(e) { /* silent — localStorage values remain */ }
+}
+
+async function publishDailyQuizFromPool() {
+  const dateStr = document.getElementById('admin-dq-date').value;
+  const msgEl = document.getElementById('admin-dq-msg');
+  if (!dateStr) { alert('Please select a date.'); return; }
+  
+  // 1. Block past-date scheduling
+  const selectedDate = new Date(dateStr);
+  selectedDate.setHours(0,0,0,0);
+  const today = new Date();
+  today.setHours(0,0,0,0);
+  if (selectedDate < today) {
+    alert('Cannot publish daily quiz for a past date.');
+    return;
+  }
+  
+  // 2. Add confirm overwrite check
+  try {
+    const { data: existing } = await db
+      .from('daily_quizzes')
+      .select('id')
+      .eq('publish_date', dateStr)
+      .eq('subject', 'Physics')
+      .eq('standard', '12th')
+      .maybeSingle();
+      
+    if (existing) {
+      const confirmOverwrite = confirm(`A daily quiz is already published for ${dateStr}. Overwrite?`);
+      if (!confirmOverwrite) return;
+    }
+  } catch(e) {
+    console.error('Failed to check existing daily quiz:', e);
+  }
+
+  msgEl.style.display = 'block';
+  msgEl.style.color = 'var(--text)';
+  msgEl.textContent = 'Publishing daily quiz...';
+  
+  try {
+    // 1. Fetch active questions from Chapter 1 & 2
+    const { data: qs, error } = await db
+      .from('questions')
+      .select('id')
+      .eq('subject', 'Physics')
+      .eq('standard', '12th')
+      .eq('status', 'active')
+      .in('chapter_id', ['chapter1', 'chapter2']);
+      
+    if (error) throw error;
+    if (!qs || qs.length < 20) {
+      throw new Error(`Not enough active questions in pool (found ${qs?.length || 0}, need 20)`);
+    }
+    
+    // Shuffle and pick 20 random ones
+    const picked = shuffle(qs).slice(0, 20);
+    
+    // 2. Insert into daily_quizzes
+    const { data: newQuiz, error: qErr } = await db
+      .from('daily_quizzes')
+      .upsert({
+        publish_date: dateStr,
+        title: `Daily Quiz - ${dateStr}`,
+        description: 'Class 12 Physics: Electrostatics Daily Locked Quiz Set',
+        subject: 'Physics',
+        standard: '12th'
+      }, { onConflict: 'publish_date,subject,standard' })
+      .select('id')
+      .single();
+      
+    if (qErr) throw qErr;
+    const quizId = newQuiz.id;
+    
+    // 3. Clear existing mapping if overwrite
+    await db.from('daily_quiz_questions').delete().eq('daily_quiz_id', quizId);
+    
+    // 4. Insert into daily_quiz_questions
+    const mappings = picked.map((q, idx) => ({
+      daily_quiz_id: quizId,
+      question_id: q.id,
+      sequence_num: idx + 1,
+      points: 4
+    }));
+    
+    const { error: mErr } = await db.from('daily_quiz_questions').insert(mappings);
+    if (mErr) throw mErr;
+    
+    msgEl.style.color = 'var(--success)';
+    msgEl.textContent = `Successfully published 20 questions for ${dateStr}!`;
+  } catch(e) {
+    msgEl.style.color = 'var(--danger)';
+    msgEl.textContent = `❌ Failed: ${e.message}`;
+  }
 }
 
